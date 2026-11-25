@@ -2,7 +2,7 @@
  "meta": {
   "title": "Key judgments for financial services",
   "as_of": "2026-11-25",
-  "count": 32,
+  "count": 34,
   "sectors": [
    {
     "key": "lending",
@@ -37,6 +37,93 @@
   ]
  },
  "judgments": [
+  {
+   "id": "BHADRA",
+   "title": "Bhadra International (India) Pvt Ltd v. Airports Authority of India",
+   "court": "Supreme Court",
+   "date": "2026-01-05",
+   "neutral_citation": "2026 INSC 6",
+   "report_citation": "[2026] 1 SCR 30",
+   "case_no": "Civil Appeal Nos. 37-38 of 2026",
+   "bench": "J.B. Pardiwala and K.V. Viswanathan JJ.",
+   "topic": "Unilaterally appointed sole arbitrators",
+   "sectors": [
+    "lending",
+    "hfc",
+    "broking"
+   ],
+   "issue": "Is an award by a sole arbitrator appointed by one party alone valid, and can the other party lose its objection by taking part in the arbitration?",
+   "holding": [
+    "The unilateral appointment of a sole arbitrator is void from the start, and the arbitrator is ineligible under section 12(5) read with the Seventh Schedule. Where the arbitration agreement itself breaches section 12(5), no appointment made under it is valid.",
+    "Ineligibility can be waived only by an express agreement in writing after disputes arise. It cannot be waived by implication or conduct.",
+    "An arbitrator who is ineligible lacks inherent jurisdiction, so the objection can be raised at any stage, including for the first time in a challenge to the award under section 34."
+   ],
+   "impact": [
+    "Recovery awards obtained through a sole arbitrator named by the lender alone can be set aside even if the borrower took part without objecting. Lenders should obtain a clear written waiver after the dispute arises, or have the arbitrator appointed jointly, by an institution or by the court.",
+    "Lenders and brokers should review loan agreements, client agreements and pending arbitrations for unilateral appointment clauses."
+   ],
+   "statutes": [
+    "Arbitration and Conciliation Act, 1996, ss. 12(5), 14, 18, 34 and Seventh Schedule"
+   ],
+   "links": [
+    {
+     "section": "rbi",
+     "id": "MD-RBC",
+     "label": "Responsible Business Conduct (Fair Practices, KFS, penal charges, recovery)",
+     "href": "../rbi/#d/MD-RBC"
+    }
+   ],
+   "status": "Current",
+   "status_note": "Applies the Constitution Bench ruling in Central Organisation for Railway Electrification (2024).",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2026/english/2026_1_30_90_EN.pdf"
+  },
+  {
+   "id": "PNBHF",
+   "title": "PNB Housing Finance Ltd v. Manoj Saha",
+   "court": "Supreme Court",
+   "date": "2025-07-15",
+   "neutral_citation": "2025 INSC 847",
+   "report_citation": "[2025] 7 SCR 1041",
+   "case_no": "Civil Appeal No. 9492 of 2025",
+   "bench": "P.S. Narasimha and Joymalya Bagchi JJ.",
+   "topic": "SARFAESI: tenants claiming occupation",
+   "sectors": [
+    "hfc",
+    "lending"
+   ],
+   "issue": "Can a person claiming an old, unregistered tenancy get back possession of a mortgaged property that a housing finance company has taken under SARFAESI?",
+   "holding": [
+    "A person claiming tenancy through an oral or unregistered agreement must prove it with independent evidence such as rent receipts, tax receipts or electricity bills for the period before the demand notice under section 13(2).",
+    "Even if proved, such a tenancy does not continue beyond one year from the section 13(2) notice; after that the occupant is a tenant at sufferance.",
+    "A recital in the sale deed or a letter of attornment from the borrower is not enough. The High Court's order restoring possession was set aside."
+   ],
+   "impact": [
+    "Lenders can resist tenancy claims set up to block possession of mortgaged homes, by insisting on proof of occupation before the demand notice.",
+    "At loan origination, HFCs should record who occupies the property and on what terms."
+   ],
+   "statutes": [
+    "SARFAESI Act, 2002, ss. 13(2), 13(4), 17(4A)",
+    "Transfer of Property Act, 1882",
+    "West Bengal Premises Tenancy Act, 1997"
+   ],
+   "links": [
+    {
+     "section": "rbi",
+     "id": "ACT-SARFAESI",
+     "label": "Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act",
+     "href": "../rbi/#d/ACT-SARFAESI"
+    },
+    {
+     "section": "rbi",
+     "id": "MD-HFC",
+     "label": "Housing Finance Companies",
+     "href": "../rbi/#d/MD-HFC"
+    }
+   ],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2025/english/2025_7_1041_1052_EN.pdf"
+  },
   {
    "id": "MAHAVEER",
    "title": "Mahaveer Sharma v. Exide Life Insurance Co. Ltd",
@@ -177,7 +264,7 @@
    ],
    "impact": [
     "Loan agreements that let the lender alone name the arbitrator are unsafe. Lenders should agree on the arbitrator with the borrower, use an arbitral institution, or apply to the court under section 11.",
-    "Awards by an arbitrator the lender appointed alone, without an express written waiver by the borrower after the dispute arose, are at risk of being set aside."
+    "Awards by an arbitrator the lender appointed alone, without an express written waiver by the borrower after the dispute arose, are at risk of being set aside. Bhadra International (2026) confirms that such a sole arbitrator is ineligible."
    ],
    "statutes": [
     "Arbitration and Conciliation Act, 1996, ss. 12(5), 18"
@@ -1219,8 +1306,8 @@
      "href": "../rbi/#d/ACT-RBI"
     }
    ],
-   "status": "Current",
-   "status_note": "",
+   "status": "Under reconsideration",
+   "status_note": "In HDFC Bank Ltd v. Union of India (30 September 2022, 2022 INSC 1056) the Supreme Court held that banks' writ petitions questioning this judgment are maintainable, observing that prima facie it did not balance the right to information against the right to privacy.",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2015/english/2015_14_505_564_EN.pdf"
   },
   {
