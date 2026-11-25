@@ -1,0 +1,126 @@
+{
+ "title": "Financial Regulation Hub",
+ "tagline": "Financial Regulatory information for Finance Professionals",
+ "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev",
+ "sections": [
+  {
+   "id": "rbi",
+   "short": "RBI",
+   "name": "RBI",
+   "full": "Reserve Bank of India",
+   "href": "rbi/",
+   "status": "live",
+   "desc": "Directions, Acts and circulars that bind NBFCs and HFCs: registration, capital, lending conduct, KYC, audit and more.",
+   "data": {
+    "register": "rbi/data/rbi_nbfc_register.json",
+    "graph": "rbi/data/rbi_nbfc_graph.json",
+    "definitions": "rbi/data/definitions.json",
+    "glossary": "rbi/data/glossary.json",
+    "updates": "rbi/data/updates.json",
+    "fulltext": "rbi/data/fulltext.json"
+   },
+   "official": "https://www.rbi.org.in",
+   "map": "rbi/map/",
+   "subjects": [
+    {
+     "theme": "Entry, structure and change of control",
+     "nice": "Entry, structure and change of control",
+     "slug": "entry"
+    },
+    {
+     "theme": "Prudential norms",
+     "nice": "Prudential norms",
+     "slug": "prudential"
+    },
+    {
+     "theme": "Lending and customer conduct",
+     "nice": "Lending and customer conduct",
+     "slug": "lending"
+    },
+    {
+     "theme": "Customer protection, KYC and grievances",
+     "nice": "Customer protection, KYC and grievances",
+     "slug": "kyc"
+    },
+    {
+     "theme": "Risk management",
+     "nice": "Risk management",
+     "slug": "risk"
+    },
+    {
+     "theme": "Stressed assets and defaulters",
+     "nice": "Stressed assets and defaulters",
+     "slug": "stressed"
+    },
+    {
+     "theme": "Governance, audit and compliance",
+     "nice": "Governance, audit and compliance",
+     "slug": "governance"
+    },
+    {
+     "theme": "Reporting, returns and disclosure",
+     "nice": "Reporting, returns and disclosure",
+     "slug": "reporting"
+    },
+    {
+     "theme": "Technology, outsourcing and cyber",
+     "nice": "Technology, outsourcing and cyber",
+     "slug": "technology"
+    },
+    {
+     "theme": "Special NBFC categories",
+     "nice": "Special NBFC categories",
+     "slug": "special"
+    },
+    {
+     "theme": "Allied RBI instruments (FEMA, markets, payments, ombudsman)",
+     "nice": "FEMA, markets and payments",
+     "slug": "allied"
+    },
+    {
+     "theme": "Statutes (parent and allied laws)",
+     "nice": "Parent and allied Acts",
+     "slug": "acts"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ]
+  },
+  {
+   "id": "sebi",
+   "short": "SEBI",
+   "name": "SEBI",
+   "full": "Securities and Exchange Board of India",
+   "status": "soon",
+   "desc": "Listed debt, LODR obligations, issue of NCDs and commercial paper, and securitised debt as they apply to NBFCs."
+  },
+  {
+   "id": "irdai",
+   "short": "IRDAI",
+   "name": "IRDAI",
+   "full": "Insurance Regulatory and Development Authority of India",
+   "status": "soon",
+   "desc": "Corporate agency and insurance distribution by NBFCs, and related tie-ups."
+  },
+  {
+   "id": "jud",
+   "short": "Judgments",
+   "name": "Key Judgments",
+   "full": "Supreme Court and High Courts, 2010 onwards",
+   "status": "soon",
+   "desc": "Rulings on SARFAESI, IBC, fraud classification, interest and recovery, and the limits of RBI's powers."
+  },
+  {
+   "id": "misc",
+   "short": "Other regulators",
+   "name": "Other regulators",
+   "full": "PMLA · IBC / IBBI · NHB · Exchanges · DPDP",
+   "status": "soon",
+   "desc": "Anti-money laundering, insolvency, housing finance supervision, stock exchange rules and data protection."
+  }
+ ]
+}
