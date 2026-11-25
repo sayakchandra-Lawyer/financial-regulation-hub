@@ -53,7 +53,7 @@ function applyTheme(t) {
   const b = $("#themebtn"); if (!b) return;
   const dark = isDark(); b.innerHTML = dark ? I.sun : I.moon; b.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
 }
-function isDark() { const t = document.documentElement.dataset.theme; return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; }
+function isDark() { return document.documentElement.dataset.theme === "dark"; }  /* light by default; dark only when chosen */
 applyTheme(store.get("theme", ""));
 
 function renderChrome(hub, opts) {
