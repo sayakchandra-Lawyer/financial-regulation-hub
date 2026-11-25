@@ -186,7 +186,7 @@
     "Separate client registration agreements, client codes and accounts did not change this. Arbitration under the exchange bye-laws was maintainable against the husband."
    ],
    "impact": [
-    "Brokers who act on a client's oral instructions to move credit balances to a family member's account may be able to recover from both. Written records of such instructions remain the safer course."
+    "Brokers who act on a client's oral instructions to move credit balances to a family member's account may be able to recover from both. This does not relax SEBI's requirements on evidence of client orders, which still apply."
    ],
    "statutes": [
     "Arbitration and Conciliation Act, 1996, ss. 7, 34, 37",
@@ -374,10 +374,10 @@
    "holding": [
     "Sections 95 to 100 are valid and do not violate Articles 14 and 21.",
     "The resolution professional only facilitates and recommends. No adjudication happens until the Adjudicating Authority decides under section 100, and natural justice must be observed at that stage.",
-    "No hearing is needed before the resolution professional is appointed under section 97(5). The interim moratorium under section 96 protects the debtor from further legal proceedings."
+    "No hearing is needed before the resolution professional is appointed under section 97(5). The debtor can take part when the resolution professional examines the application under section 99. The interim moratorium under section 96 stays legal proceedings in respect of any debt."
    ],
    "impact": [
-    "Lenders can file insolvency against personal guarantors of corporate borrowers without a prior hearing on 'jurisdictional facts'. Guarantees become a stronger recovery route."
+    "Lenders can file insolvency against personal guarantors of corporate borrowers without a prior hearing on 'jurisdictional facts'. The guarantor is heard in the resolution professional's examination and before the Adjudicating Authority decides."
    ],
    "statutes": [
     "Insolvency and Bankruptcy Code, 2016, ss. 95-100"
@@ -500,7 +500,8 @@
     "The decision classifying the account as fraud must be made by a reasoned order."
    ],
    "impact": [
-    "Every fraud classification needs a show-cause notice, the borrower's reply and a reasoned order. Classifications made without these are open to challenge in writ proceedings.",
+    "Every fraud classification needs a show-cause notice with the material relied on, a real chance to reply in writing, and a reasoned order. Classifications made without these are open to challenge in writ proceedings.",
+    "In State Bank of India v. Amit Iron Pvt Ltd (7 April 2026, 2026 INSC 323) the Supreme Court held that the borrower has no right to a personal hearing, and that forensic audit reports the lender relies on should be furnished to the borrower. A lender that wants to withhold a report to protect third parties must first show that disclosure would affect their rights.",
     "RBI's Fraud Risk Management Directions for NBFCs now build these steps into the process."
    ],
    "statutes": [
@@ -523,7 +524,7 @@
     }
    ],
    "status": "Current",
-   "status_note": "The steps it requires are now part of RBI's fraud directions.",
+   "status_note": "Clarified in State Bank of India v. Amit Iron Pvt Ltd (2026 INSC 323): no personal hearing is needed, and the steps it requires are part of RBI's Master Directions of 2024 on fraud.",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_7_476_529_EN.pdf"
   },
   {
@@ -545,14 +546,15 @@
     "Distributor commission is not an expense connected with winding up. Future trail commission is not an amount 'due and payable' at the time of winding up."
    ],
    "impact": [
-    "Once a winding-up notice is published, distributors stop earning trail commission from that scheme. AMCs and distributors should reflect this in their agreements."
+    "Once a winding-up notice is published, distributors stop earning trail commission from that scheme. The SEBI (Mutual Funds) Regulations, 2026 now say expressly that distribution commission is not a winding-up cost (regulation 38(1)(d), Explanation)."
    ],
    "statutes": [
-    "SEBI (Mutual Funds) Regulations, 1996, regs. 39-41, 52"
+    "SEBI (Mutual Funds) Regulations, 1996, regs. 39-41, 52",
+    "SEBI (Mutual Funds) Regulations, 2026, reg. 38"
    ],
    "links": [],
    "status": "Current",
-   "status_note": "Decided under the 1996 Regulations.",
+   "status_note": "Decided under the 1996 Regulations, which the SEBI (Mutual Funds) Regulations, 2026 replaced from 1 April 2026. The 2026 Regulations follow this ruling.",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2022/english/2022_6_880_887_EN.pdf"
   },
   {
@@ -666,15 +668,16 @@
     "Read together with Regulation 18(15)(c), the trustees' opinion that the scheme should be wound up stands, but the consent of unitholders is a precondition for the winding up."
    ],
    "impact": [
-    "Trustees cannot close a scheme on their own. They need unitholder consent, which shapes how stress in debt schemes is handled."
+    "Trustees cannot close a scheme on their own. They need unitholder consent, which shapes how stress in debt schemes is handled. Under regulation 36(5) of the 2026 Regulations, a scheme reopens for business if consent is not obtained."
    ],
    "statutes": [
     "SEBI (Mutual Funds) Regulations, 1996, regs. 18(15)(c), 39-42",
+    "SEBI (Mutual Funds) Regulations, 2026, regs. 36-38",
     "SEBI Act, 1992"
    ],
    "links": [],
    "status": "Current",
-   "status_note": "Decided under the 1996 Regulations.",
+   "status_note": "Decided under the 1996 Regulations, which the SEBI (Mutual Funds) Regulations, 2026 replaced from 1 April 2026. Regulations 36 to 38 of the 2026 Regulations carry the same consent requirement.",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_5_559_612_EN.pdf"
   },
   {
@@ -783,14 +786,14 @@
     "Consent of the majority binds all unitholders, including those who did not agree. The Court accepted the e-voting results for the six schemes."
    ],
    "impact": [
-    "Trustees seeking unitholders' consent to wind up need a simple majority of those voting. The voting process itself must be fair and transparent."
+    "Trustees seeking unitholders' consent to wind up need a simple majority of those voting. Regulation 36(4) of the SEBI (Mutual Funds) Regulations, 2026 now writes this in: votes are counted at one vote per unit, and results must be published within 45 calendar days of the winding-up notice."
    ],
    "statutes": [
     "SEBI (Mutual Funds) Regulations, 1996, regs. 18(15)(c), 39"
    ],
    "links": [],
    "status": "Current",
-   "status_note": "Read with the July 2021 judgment in the same case. Decided under the 1996 Regulations.",
+   "status_note": "Decided under the 1996 Regulations, which the SEBI (Mutual Funds) Regulations, 2026 replaced from 1 April 2026. Regulation 36(4) of the 2026 Regulations reflects this ruling. Read with the July 2021 judgment in the same case.",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_14_573_610_EN.pdf"
   },
   {
@@ -806,13 +809,13 @@
    "sectors": [
     "hfc"
    ],
-   "issue": "Is the 2020 amendment requiring at least 100 allottees, or 10% of allottees, of the same project to file an insolvency application valid?",
+   "issue": "Is the 2020 amendment requiring at least 100 allottees, or 10% of allottees, of the same project (whichever is less) to file an insolvency application valid?",
    "holding": [
     "The threshold is valid. A critical mass of allottees of the same real estate project must agree before the Code is triggered.",
     "Allottees are financial creditors, but they have features that set them apart from other financial creditors, such as their large numbers, which justify the separate threshold."
    ],
    "impact": [
-    "A single homebuyer can no longer push a developer into insolvency. Housing finance lenders to developers face fewer stray insolvency filings, though collective filings remain possible."
+    "An individual homebuyer can no longer push a developer into insolvency unless the threshold is met, which in a small project may need only a few allottees. Housing finance lenders to developers face fewer stray insolvency filings, though collective filings remain possible."
    ],
    "statutes": [
     "Insolvency and Bankruptcy Code (Amendment) Act, 2020, s. 3",
@@ -939,7 +942,7 @@
     "RERA must be read harmoniously with the Code. Where the two conflict, the Code prevails."
    ],
    "impact": [
-    "In a builder's insolvency, homebuyers usually hold a large share of the votes in the Committee of Creditors. Lenders to builders, including HFCs and NBFCs, lose control over resolution outcomes.",
+    "In a builder's insolvency, homebuyers can hold a large share of the votes in the Committee of Creditors. This can dilute the voting power of lenders to builders, including HFCs and NBFCs, depending on the amounts admitted for each class.",
     "Construction finance needs to price the risk that homebuyers will drive the resolution plan."
    ],
    "statutes": [
@@ -984,8 +987,8 @@
     "Being declared a wilful defaulter directly affects the right to carry on business under Article 19(1)(g). The First Committee's order must be given to the borrower, who can represent to the Review Committee within 15 days, and the Review Committee must pass a reasoned order that is served on the borrower."
    ],
    "impact": [
-    "Wilful default classification needs a show-cause notice, a chance to reply, a reasoned order and review, but lawyers can be kept out of the in-house hearing.",
-    "RBI's current Wilful Defaulter Directions follow this structure."
+    "Wilful default classification needs a show-cause notice, a chance to reply, a reasoned order and review. Under the judgment, lawyers can be kept out of the in-house proceedings.",
+    "RBI's Wilful Defaulter Directions of 2024 now go further: the Review Committee must also give the borrower, guarantor, promoter or director an opportunity for a personal hearing. Follow the Directions for the current procedure."
    ],
    "statutes": [
     "Advocates Act, 1961, s. 30",
@@ -1025,7 +1028,7 @@
    ],
    "impact": [
     "Questions on existing cover in the proposal form are material. Insurers can rely on wrong answers to them, within the time allowed by section 45.",
-    "Section 45 was amended in 2015: a life policy now cannot be questioned on any ground after three years."
+    "Section 45 was amended in 2015: a life policy now cannot be questioned on any ground after three years from the date of issue, commencement of risk, revival or rider, whichever is later. Within three years, the insurer must still show the grounds section 45 requires and communicate them in writing."
    ],
    "statutes": [
     "Insurance Act, 1938, s. 45",
@@ -1070,7 +1073,7 @@
     "The circular also relied on section 45L of the RBI Act for NBFCs, but nothing showed that section 45L(3) was satisfied. Because banks and NBFCs could not be separated, the circular was declared ultra vires as a whole."
    ],
    "impact": [
-    "RBI's power to push lenders into insolvency is case-specific. General stressed-asset frameworks have to rest on its other powers and work outside the IBC.",
+    "RBI's power to push lenders into insolvency is case-specific. A general framework cannot be used to compel lenders to start insolvency, though lenders can still choose the IBC themselves as part of a resolution.",
     "For NBFCs, directions under section 45L must meet that section's conditions. The current stressed-asset rules for NBFCs were issued on this footing."
    ],
    "statutes": [
@@ -1123,7 +1126,7 @@
     "A financial creditor must prove a 'default', while an operational creditor only claims a debt. The different triggers in sections 7 and 9 are therefore justified."
    ],
    "impact": [
-    "Lenders, including NBFCs and HFCs, control the Committee of Creditors and the outcome of resolution. This makes section 7 of the IBC a central recovery tool."
+    "Financial creditors, including NBFCs and HFCs, vote in the Committee of Creditors and so have a strong say in the outcome. Section 7 is a route to collective resolution of a defaulting company, not a debt collection tool, though lenders often recover through it."
    ],
    "statutes": [
     "Insolvency and Bankruptcy Code, 2016"
@@ -1162,10 +1165,11 @@
    "issue": "Can pre-arranged, reversed trades in the futures and options segment be manipulative, even though they are cash-settled?",
    "holding": [
     "Yes. Trading is meant to make profit. Where one party consistently loses in pre-planned, rapid reversal trades, the trades are not genuine and amount to an unfair trade practice.",
-    "The Securities Appellate Tribunal was wrong to hold that such trades in the F&O segment cannot manipulate the market because there is no change of beneficial ownership."
+    "The Securities Appellate Tribunal was wrong to hold that such trades in the F&O segment cannot manipulate the market because there is no change of beneficial ownership.",
+    "SEBI's appeals against the brokers were dismissed. Merely facilitating a trade is not a violation, and SEBI had shown no negligence or connivance by the brokers."
    ],
    "impact": [
-    "Brokers must watch for synchronised and reversal trades between related clients in derivatives as well as cash, and must report them. Cash settlement through the exchange does not make such trades genuine."
+    "Clients who trade in pre-arranged reversals in derivatives are exposed to action even though the trades are cash-settled. A broker is liable only on proof of its own negligence or connivance, so surveillance alerts and records of client instructions matter."
    ],
    "statutes": [
     "SEBI (PFUTP) Regulations, 2003, regs. 3, 4",
