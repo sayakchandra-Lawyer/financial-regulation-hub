@@ -177,7 +177,7 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
       ${M.themes.filter(t => !t.history).map(t => { const x = t.items.filter(it => appliesAt(M, it, L)); return x.length ? `<section style="margin-top:20px"><h3 style="font-size:19px;border-left:4px solid var(--t${t.idx});padding-left:10px">${esc(t.nice)} <span class="tag">${x.length}</span></h3>${x.map(it => instRow(it)).join("")}</section>` : ""; }).join("")}</div><aside>${layerCard()}</aside></div></div>`;
   }
   function vSearch(raw){
-    $("#q").value = raw;
+    if (document.activeElement !== $("#q")) $("#q").value = raw;
     const P = parseQuery(M, raw), docs = rankDocs(M, P, { layer: L < 0 ? undefined : L }), defs = matchDefs(M, P).slice(0, 6);
     return `<div class="pg" style="margin-top:28px"><h2>Results for “${esc(raw)}”</h2>${lensBar()}
       ${P.gl.length ? `<div class="callout"><b>${esc(P.gl[0].term)}</b>${P.gl[0].full ? ` (${esc(P.gl[0].full)})` : ""}: ${esc(P.gl[0].def)}</div>` : ""}
