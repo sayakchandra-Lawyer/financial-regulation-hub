@@ -51,6 +51,13 @@
 details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:13.5px;margin-top:10px}
 .imp{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:10px}@media (max-width:700px){.imp{grid-template-columns:1fr}}
 .empty{color:var(--muted);font-size:14px;padding:10px 0}
+.offl{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:16px}.offl .tag{flex-basis:100%;margin-top:2px}
+.tocm{display:none;position:sticky;top:61px;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);margin:14px 0 0;padding:8px 0;gap:6px;overflow-x:auto;scrollbar-width:none}
+.tocm a{flex:none;font-size:13px;padding:5px 11px;border:1px solid var(--line);border-radius:99px;color:var(--ink-2);background:var(--surface)}.tocm a.on{border-color:var(--accent);color:var(--accent-text)}
+@media (max-width:1100px){.tocm{display:flex}}
+.note{border:1px solid var(--line);background:var(--surface-2);padding:12px 16px;border-radius:12px;margin-top:12px;font-size:14px}
+details.defs>summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-size:14px;padding:10px 0}
+.hk{font-size:12.5px;font-weight:600;color:var(--ink-2);margin:14px 0 2px}
 </style>
 </head>
 <body>
@@ -71,9 +78,9 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
   let L = +store.get("layer", "-1");
   const live = () => M.items.filter(it => appliesAt(M, it, L));
   const nMD = M.items.filter(x => x.type === "Master Direction" && x.sc !== "old").length, nAct = M.items.filter(x => x.type === "Act").length;
-  const TABS = [["", "Overview"], ["subjects", "Subjects"], ["az", "All instruments A–Z"], ["calendar", "Compliance calendar"], ["changes", "What changed"], ["definitions", "Definitions"], ["penalties", "Penalties"], ["who", "Does it apply to me?"]];
+  const TABS = [["", "Overview"], ["subjects", "Subjects"], ["az", "All instruments A–Z"], ["calendar", "Compliance calendar"], ["changes", "What changed"], ["definitions", "Definitions"], ["penalties", "Penalties"], ["who", "Filter by NBFC layer"]];
   $("#head").innerHTML = `<div class="shead"><div style="flex:1;min-width:280px"><h1>RBI rules for NBFCs and HFCs</h1>
-    <p style="color:var(--ink-2);margin:10px 0 0;max-width:720px">${nMD} Master Directions, ${nAct} Acts and the circulars around them, grouped by subject. Pick a subject, a deadline or a term, or choose your layer to see only what binds you.</p></div>
+    <p style="color:var(--ink-2);margin:10px 0 0;max-width:720px">${nMD} Master Directions, ${nAct} Acts and the circulars around them, grouped by subject. Pick a subject, a deadline or a term, or filter by NBFC layer.</p></div>
     <a class="btn g" href="map/">${I.map} Open the mind map ${I.ext}</a></div>
     <form class="search" id="qform" role="search" style="margin-top:22px">${I.search}<label class="sr" for="q">Search RBI rules</label><input id="q" type="search" autocomplete="off" placeholder="Search RBI rules, e.g. “co-lending”, “para 38A”, “penal charges”"><span class="kbd">/</span></form>
     <nav class="tabs" id="tabs" aria-label="RBI sections">${TABS.map(([h, t]) => `<a href="#${h}" data-tab="${h}">${t}</a>`).join("")}</nav>`;
@@ -84,6 +91,8 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
   const V = $("#view");
   const pillFor = it => it.sc === "old" ? '<span class="pill p-old">Superseded</span>' : /amend/i.test(it.status) ? '<span class="pill p-live">In force · amended</span>' : '<span class="pill p-live">In force</span>';
   const instRow = (it, extra = "") => `<a class="row" href="#d/${it.id}"><div style="flex:1;min-width:0"><div class="t">${esc(it.label)}</div><div class="m">${esc(it.type)}<span class="sep"></span>${esc(layerNote(M, it))}${it.updated ? ` · updated ${fmtDate(it.updated)}` : ""}</div>${extra}</div>${pillFor(it)}</a>`;
+  const ukind = u => /draft/i.test(u.kind) ? "draft" : /enforce|penalt/i.test(u.kind) ? "enf" : /amend|direction|notification|circular/i.test(u.kind) ? "amend" : "other";
+  const UK = { amend: "Amendments", draft: "Draft proposals", enf: "Enforcement actions", other: "Other news" };
   const layerName = () => L < 0 ? "any layer" : LAYERS[L][1];
   const lensBar = () => `<div class="filter"><span class="tag" style="align-self:center">Showing rules for:</span>${[[-1, "Any layer"], ...LAYERS.map((l, i) => [i, l[1]])].map(([v, t]) => `<button class="chip ${v === L ? "on" : ""}" data-layer="${v}" type="button">${t}</button>`).join("")}</div>`;
 
@@ -92,7 +101,7 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
     const desc = ["Below ₹1,000 crore, no public deposits", "Deposit-takers, HFCs, ₹1,000 crore+", "Named by RBI each year", "Empty for now"];
     return `<div class="card panel"><h2 style="font-size:19px;margin:0 0 4px">Which layer are you?</h2><p class="tag" style="margin:0 0 14px">Scale Based Regulation</p>
       ${[3,2,1,0].map(i => `<button type="button" class="layer ${L===i?"on":""}" data-layer="${i}" style="--c:var(--l-${LAYERS[i][2]});width:${100-i*8}%"><b>${LAYERS[i][1]}</b><span>${desc[i]}</span></button>`).join("")}
-      <p class="tag" style="margin:10px 0 0">${L < 0 ? "Tap your layer to filter every list on this page. Layers are cumulative: a higher layer also follows the rules for the layers below." : `Selected: <b style="color:var(--ink)">${LAYERS[L][1]}</b>. ${counts[L]} instruments apply, including those for lower layers and rules not tied to a layer. <button class="lnk" data-layer="-1" type="button">Clear</button> · <a class="lnk" href="#who">See the list</a>`}</p></div>`;
+      <p class="tag" style="margin:10px 0 0">${L < 0 ? "Tap a layer to filter every list on this page. Layers are cumulative: a higher layer also follows the rules for the layers below. A guide only: each rule's own scope decides." : `Selected: <b style="color:var(--ink)">${LAYERS[L][1]}</b>. ${counts[L]} instruments apply, including those for lower layers and rules not tied to a layer. <button class="lnk" data-layer="-1" type="button">Clear</button> · <a class="lnk" href="#who">See the list</a>`}</p></div>`;
   }
   function updCard(u, full){
     const it = M.byId.get(u.instrument);
@@ -147,7 +156,7 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
     const w = M.updMeta;
     setTimeout(() => { if (id) { const el = document.getElementById("u-" + id); if (el) el.scrollIntoView({ behavior: "smooth" }); } }, 60);
     return `<div class="pg" style="margin-top:28px;max-width:900px"><h2>What changed</h2><p class="tag">${w.window_from ? `${fmtDate(w.window_from)} to ${fmtDate(w.window_to)}. ` : ""}New Directions, amendments, drafts and enforcement actions, with what each means for Upper Layer NBFCs and HFCs.</p>
-      <div style="margin-top:18px">${M.updates.map(u => updCard(u, true)).join("") || '<p class="empty">Nothing new in this period.</p>'}</div></div>`;
+      <div style="margin-top:18px">${["amend", "draft", "enf", "other"].map(k => { const a = M.updates.filter(u => ukind(u) === k); return a.length ? `<h3 style="font-size:20px;margin:26px 0 10px">${UK[k]} <span class="tag">${a.length}</span></h3>${a.map(u => updCard(u, true)).join("")}` : ""; }).join("") || '<p class="empty">Nothing new in this period.</p>'}</div></div>`;
   }
   function vDefinitions(){
     const q = store.get("dq", "");
@@ -173,7 +182,7 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
   }
   function vWho(){
     const its = live();
-    return `<div class="pg" style="margin-top:28px"><div class="cols" style="margin-top:0"><div><h2>Does it apply to me?</h2><p class="tag" style="max-width:700px">${L < 0 ? "Choose your layer to see only the rules that bind you." : `${its.length} instruments apply to an NBFC in the ${layerName()}: those tagged to that layer or a lower one, plus Acts and rules that are not tied to a layer.`} Some instruments apply only to certain NBFC types or above a size test; each page says who it covers.</p>
+    return `<div class="pg" style="margin-top:28px"><div class="cols" style="margin-top:0"><div><h2>Filter by NBFC layer</h2><p class="tag" style="max-width:700px">${L < 0 ? "Choose a layer to narrow the list to the rules tagged to it. This is a guide, not an applicability opinion: check each rule's own scope." : `${its.length} instruments apply to an NBFC in the ${layerName()}: those tagged to that layer or a lower one, plus Acts and rules that are not tied to a layer.`} Some instruments apply only to certain NBFC types or above a size test; each page says who it covers.</p>
       ${M.themes.filter(t => !t.history).map(t => { const x = t.items.filter(it => appliesAt(M, it, L)); return x.length ? `<section style="margin-top:20px"><h3 style="font-size:19px;border-left:4px solid var(--t${t.idx});padding-left:10px">${esc(t.nice)} <span class="tag">${x.length}</span></h3>${x.map(it => instRow(it)).join("")}</section>` : ""; }).join("")}</div><aside>${layerCard()}</aside></div></div>`;
   }
   function vSearch(raw){
@@ -182,50 +191,55 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
     return `<div class="pg" style="margin-top:28px"><h2>Results for “${esc(raw)}”</h2>${lensBar()}
       ${P.gl.length ? `<div class="callout"><b>${esc(P.gl[0].term)}</b>${P.gl[0].full ? ` (${esc(P.gl[0].full)})` : ""}: ${esc(P.gl[0].def)}</div>` : ""}
       ${hub.ai_endpoint ? `<p style="margin:14px 0"><button class="btn g" type="button" id="askai">${JUDGE_SVG.replace('class="jsvg"', 'width="22" height="22"')} Ask Not So Intelligent AI about this</button></p>` : ""}
-      ${defs.length ? `<h3 style="font-size:19px;margin-top:18px">Defined terms</h3><div class="card" style="overflow:hidden;margin-top:8px">${defs.map(x => `<a class="res" href="#d/${x.d.id}/definitions"><div class="t">“${esc(x.d.term)}”</div><div class="m">${esc(x.it ? x.it.label : x.d.id)} · ${esc(x.d.para)}</div><div class="s">${hl(x.d.def, P)}</div></a>`).join("")}</div>` : ""}
-      <h3 style="font-size:19px;margin-top:22px">Instruments <span class="tag">${docs.length}</span></h3>
+            <h3 style="font-size:19px;margin-top:22px">Instruments <span class="tag">${docs.length}</span></h3>
       <div class="card" style="overflow:hidden;margin-top:8px">${docs.slice(0, 40).map(d => `<a class="res" href="#d/${d.it.id}"><div style="display:flex;align-items:center;gap:12px"><div style="flex:1;min-width:0"><div class="t">${hl(d.it.label, P)} ${d.it.sc === "old" ? '<span class="pill p-old">Superseded</span>' : ""}</div><div class="m">${esc(d.it.type)} · ${esc(M.themeOf.get(d.it.id)?.nice || "")} · ${d.hits.length} matching line${d.hits.length > 1 ? "s" : ""}</div></div><span class="bar"><i style="width:${Math.round(d.rel * 100)}%"></i></span></div>
-        ${d.hits.filter(x => x.lab !== "Name").slice(0, 3).map(l => `<div class="s"><b style="font-weight:600">${esc(l.lab)}:</b> ${hl(trunc(l.txt, 260), P)}</div>`).join("")}</a>`).join("") || '<p class="empty" style="padding:16px">No instrument matches. Try fewer words, or ask Not So Intelligent AI.</p>'}</div></div>`;
+        ${d.hits.filter(x => x.lab !== "Name").slice(0, 3).map(l => `<div class="s"><b style="font-weight:600">${esc(l.lab)}:</b> ${hl(trunc(l.txt, 260), P)}</div>`).join("")}</a>`).join("") || '<p class="empty" style="padding:16px">No instrument matches. Try fewer words, or ask Not So Intelligent AI.</p>'}</div>
+      ${defs.length ? `<h3 style="font-size:19px;margin-top:22px">Defined terms</h3><div class="card" style="overflow:hidden;margin-top:8px">${defs.map(x => `<a class="res" href="#d/${x.d.id}/definitions"><div class="t">“${esc(x.d.term)}”</div><div class="m">${esc(x.it ? x.it.label : x.d.id)} · ${esc(x.d.para)}</div><div class="s">${hl(x.d.def, P)}</div></a>`).join("")}</div>` : ""}</div>`;
   }
   function vDirection(id, anchor){
     const it = M.byId.get(id); if (!it) return `<p class="empty" style="margin-top:30px">Instrument not found. <a class="lnk" href="#">Back to RBI</a></p>`;
     const t = M.themeOf.get(id), defs = M.defs.filter(d => d.id === id), upds = M.updates.filter(u => u.instrument === id), links = M.links.get(id) || [];
+    const amd = upds.filter(u => ukind(u) === "amend"), drf = upds.filter(u => ukind(u) === "draft"), enf = upds.filter(u => ukind(u) === "enf"), oth = upds.filter(u => ukind(u) === "other");
     const relName = { supersedes: "Replaces", superseded_by: "Replaced by", migrated_from: "Carried over from", migrated_to: "Carried into", issued_under: "Issued under", cross_references: "Refers to", related: "Related", framework: "Framework" };
     const linkGroups = {}; links.forEach(l => { const k = relName[l.rel] || "Related"; (linkGroups[k] = linkGroups[k] || []).push(l.id); });
     const sections = [["glance", "At a glance"], ["who", "Who it applies to"], ["obligations", "Key obligations"], ["deadlines", "Deadlines"], ["breach", "If you breach it"], ["definitions", "Definitions"], ["related", "Related rules"], ["history", "Change history"]];
     const lines = (arr, empty) => arr.length ? arr.map(x => { const [p, tx] = splitPara(x); return `<div class="ob">${p ? `<span class="pill p-grey">${esc(p)}</span>` : `<span class="pill p-grey">•</span>`}<span>${esc(tx)}</span></div>`; }).join("") : `<p class="empty">${empty}</p>`;
     const supBy = links.filter(l => l.rel === "superseded_by" || l.rel === "migrated_to").map(l => M.byId.get(l.id));
-    setTimeout(() => { if (anchor) { const el = document.getElementById("s-" + anchor); if (el) el.scrollIntoView(); } else $("#tabs").scrollIntoView(); spy(); }, 30);
+    setTimeout(() => { if (anchor) { const el = document.getElementById("s-" + anchor); if (el) { if (anchor === "definitions") { const d = $("details.defs"); if (d) d.open = true; } el.scrollIntoView(); } } else $("#tabs").scrollIntoView(); spy(); }, 30);
     $("#tabs").querySelectorAll("a").forEach(a => a.classList.remove("on"));
     return `<div style="margin-top:22px"><span class="tag"><a class="lnk" href="#subjects/${t ? t.slug : ""}">← ${esc(t ? t.nice : "RBI")}</a></span></div>
     <div class="dpage"><nav class="toc" aria-label="On this page"><div class="eyebrow" style="margin-bottom:10px">On this page</div>${sections.map(([a, n]) => `<a href="#d/${id}/${a}" data-sec="${a}">${n}</a>`).join("")}</nav>
-    <article class="dossier"><div style="display:flex;gap:8px;flex-wrap:wrap">${pillFor(it)}${upds[0] ? `<span class="pill p-new">${esc(upds[0].kind)} ${fmtDate(upds[0].date)}${upds[0].effective ? ` · effective ${fmtDate(upds[0].effective)}` : ""}</span>` : ""}<span class="pill p-grey">${esc(it.type)}</span></div>
+    <article class="dossier"><div style="display:flex;gap:8px;flex-wrap:wrap">${pillFor(it)}${amd[0] ? `<span class="pill p-new">Amended ${fmtDate(amd[0].date)}${amd[0].effective ? `, effective ${fmtDate(amd[0].effective)}` : ""}</span>` : ""}<span class="pill p-grey">${esc(it.type)}</span></div>
       <h1 style="font-size:clamp(28px,3.6vw,36px);margin:12px 0 6px">${esc(it.label)}</h1>${it.title !== it.label ? `<div style="color:var(--ink-2)">${esc(it.title)}</div>` : ""}
       <div class="tag" style="margin-top:8px">${[it.ref, it.issue && `Issued ${fmtDate(it.issue)}`, it.updated && `Updated as on ${fmtDate(it.updated)}`].filter(Boolean).map(esc).join('<span class="sep"></span>')}</div>
+      ${it.url || it.pdf ? `<div class="offl">${it.url ? `<a class="btn p" href="${esc(it.url)}" target="_blank" rel="noopener">Official RBI text ${I.ext}</a>` : ""}${it.pdf ? `<a class="btn g" href="${esc(it.pdf)}" target="_blank" rel="noopener">PDF ${I.ext}</a>` : ""}<span class="tag">The summary here is a guide. The official text governs.</span></div>` : ""}
+      <nav class="tocm" aria-label="On this page">${sections.map(([a, n]) => `<a href="#d/${id}/${a}" data-sec="${a}">${n}</a>`).join("")}</nav>
       ${supBy.length ? `<div class="callout">This instrument has been replaced. See ${supBy.map(x => `<a class="lnk" href="#d/${x.id}">${esc(x.label)}</a>`).join(", ")}.</div>` : ""}
       <h2 id="s-glance">At a glance</h2>
       <div class="glance"><div><b>${it.obl.length}</b>key obligations</div><div><b>${it.time.length}</b>deadlines and cycles</div><div><b>${defs.length}</b>defined terms</div><div><b>${links.length}</b>linked rules</div></div>
       ${it.concepts.length ? `<div class="filter" style="margin-top:16px">${it.concepts.map(c => `<a class="chip" href="#search/${encodeURIComponent(c.replace(/\s*\(.*\)$/, ""))}">${esc(c)}</a>`).join("")}</div>` : ""}
-      ${upds.length ? `<div class="callout"><b>Recent change:</b> ${esc(upds[0].title)}. <a class="lnk" href="#changes/${encodeURIComponent(upds[0].id)}">What it means</a></div>` : ""}
+      ${amd.length ? `<div class="callout"><b>Recent amendment:</b> ${esc(amd[0].title)}. <a class="lnk" href="#changes/${encodeURIComponent(amd[0].id)}">What it means</a></div>` : ""}
+      ${drf.length ? `<div class="note"><b>Draft proposal, not yet in force:</b> ${esc(drf[0].title)}. <a class="lnk" href="#changes/${encodeURIComponent(drf[0].id)}">Details</a></div>` : ""}
+      ${enf.length ? `<div class="note"><b>Related enforcement action</b> (${fmtDate(enf[0].date)}): ${esc(enf[0].title)}. This does not change the rule itself. <a class="lnk" href="#changes/${encodeURIComponent(enf[0].id)}">Details</a></div>` : ""}
       <h2 id="s-who">Who it applies to</h2>
       <dl class="kv"><dt>Applies to</dt><dd>${esc(it.applies.join("; ") || "Not stated")}</dd>${it.excluded.length ? `<dt>Does not apply to</dt><dd>${esc(it.excluded.join("; "))}</dd>` : ""}<dt>Layer</dt><dd>${esc(layerNote(M, it))}${M.applyBasis.get(id) ? ` <span class="tag">(${esc(M.applyBasis.get(id))})</span>` : ""}</dd>${it.powers.length ? `<dt>Issued under</dt><dd>${esc(it.powers.join("; "))}</dd>` : ""}</dl>
       <h2 id="s-obligations">Key obligations</h2>${lines(it.obl, "No obligations summarised for this instrument.")}
       <h2 id="s-deadlines">Deadlines</h2>${lines(it.time, "No time limits stated.")}
       <h2 id="s-breach">If you breach it</h2>${lines(it.cons, "This instrument does not name its own consequences; the general powers below apply.")}
       ${it.consGen ? `<details class="cg"><summary>General consequences under the statute</summary><p style="font-size:14px;color:var(--ink-2)">${esc(stripChecked(it.consGen))}</p></details>` : ""}
-      <h2 id="s-definitions">Definitions</h2>${defs.length ? defs.map(d => `<div class="ob"><span style="min-width:170px;max-width:210px;font-weight:600">${esc(d.term)}</span><span style="font-size:14px;flex:1">${esc(d.def)} <span class="tag">${esc(d.para)}${d.scope ? ` · ${esc(d.scope)}` : ""}</span></span></div>`).join("") : '<p class="empty">No definitions recorded for this instrument.</p>'}
+      <h2 id="s-definitions">Definitions</h2>${defs.length > 8 ? `<details class="defs"><summary>Show all ${defs.length} defined terms</summary><input class="finput" id="ddq" type="search" placeholder="Filter these terms" aria-label="Filter defined terms" style="margin:4px 0 8px">` : ""}<div id="ddl">${defs.length ? defs.map(d => `<div class="ob"><span style="min-width:170px;max-width:210px;font-weight:600">${esc(d.term)}</span><span style="font-size:14px;flex:1">${esc(d.def)} <span class="tag">${esc(d.para)}${d.scope ? ` · ${esc(d.scope)}` : ""}</span></span></div>`).join("") : '<p class="empty">No definitions recorded for this instrument.</p>'}</div>${defs.length > 8 ? "</details>" : ""}
       <h2 id="s-related">Related rules</h2>${Object.keys(linkGroups).length ? Object.entries(linkGroups).map(([k, ids]) => `<div class="ob"><span style="min-width:130px" class="tag">${esc(k)}</span><span class="filter" style="margin:0">${ids.map(x => `<a class="chip" href="#d/${x}">${esc(trunc(M.byId.get(x).label, 50))}</a>`).join("")}</span></div>`).join("") : ""}
       ${it.xrefs.length ? `<div class="ob"><span style="min-width:130px" class="tag">Mentions</span><span style="font-size:14px">${esc(it.xrefs.join("; "))}</span></div>` : ""}
-      <h2 id="s-history">Change history</h2>${upds.map(u => updCard(u, false)).join("")}${it.repeals ? `<div class="ob"><span class="tag" style="min-width:130px">Repeals</span><span style="font-size:14px">${esc(it.repeals)}</span></div>` : ""}
+      <h2 id="s-history">Change history</h2>${[["amend", amd], ["draft", drf], ["enf", enf], ["other", oth]].filter(([, a]) => a.length).map(([k, a]) => `<div class="hk">${UK[k]}</div>${a.map(u => updCard(u, false)).join("")}`).join("")}${it.repeals ? `<div class="ob"><span class="tag" style="min-width:130px">Repeals</span><span style="font-size:14px">${esc(it.repeals)}</span></div>` : ""}
       <div class="ob"><span class="tag" style="min-width:130px">Status</span><span style="font-size:14px">${esc(it.status)}</span></div>
     </article>
-    <aside class="side"><div class="card panel"><div class="eyebrow">Read the official text</div>${it.url ? `<a class="btn p" style="margin-top:10px;width:100%;justify-content:center" href="${esc(it.url)}" target="_blank" rel="noopener">RBI website ${I.ext}</a>` : ""}${it.pdf ? `<a class="btn g" style="margin-top:8px;width:100%;justify-content:center" href="${esc(it.pdf)}" target="_blank" rel="noopener">PDF ${I.ext}</a>` : ""}<p class="tag" style="margin:10px 0 0">The summary here is a guide. The official text governs.</p></div>
-      <div class="card panel"><div class="eyebrow">Subject</div><p style="margin:6px 0 0"><a class="lnk" href="#subjects/${t ? t.slug : ""}">${esc(t ? t.nice : "")}</a></p>${it.dept ? `<div class="eyebrow" style="margin-top:12px">Issued by</div><p style="margin:6px 0 0;font-size:14px">${esc(it.dept)}</p>` : ""}</div>
+    <aside class="side"><div class="card panel"><div class="eyebrow">Subject</div><p style="margin:6px 0 0"><a class="lnk" href="#subjects/${t ? t.slug : ""}">${esc(t ? t.nice : "")}</a></p>${it.dept ? `<div class="eyebrow" style="margin-top:12px">Issued by</div><p style="margin:6px 0 0;font-size:14px">${esc(it.dept)}</p>` : ""}</div>
       <div class="card panel"><a class="btn g" style="width:100%;justify-content:center" href="map/#${id}">${I.map} See it in the mind map ${I.ext}</a>${hub.ai_endpoint ? `<button class="btn g" type="button" id="askabout" style="width:100%;justify-content:center;margin-top:8px">Ask about this Direction</button>` : ""}</div></aside></div>`;
   }
   function spy(){
     const secs = $$(".dossier h2[id]"); if (!secs.length) return;
-    const on = () => { let cur = secs[0].id; secs.forEach(s => { if (s.getBoundingClientRect().top < 140) cur = s.id; }); $$(".toc a").forEach(a => a.classList.toggle("on", "s-" + a.dataset.sec === cur)); };
+    const on = () => { let cur = secs[0].id; secs.forEach(s => { if (s.getBoundingClientRect().top < 140) cur = s.id; }); $$(".toc a,.tocm a").forEach(a => a.classList.toggle("on", "s-" + a.dataset.sec === cur)); };
+    const dq = $("#ddq"); if (dq) dq.oninput = () => { const q = dq.value.trim().toLowerCase(); $$("#ddl .ob").forEach(r => { r.hidden = q && !r.textContent.toLowerCase().includes(q); }); };
     window.onscroll = on; on();
   }
 
