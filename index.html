@@ -115,7 +115,7 @@
       ["Compliance calendar", `${nT} timelines across ${live.filter(it=>it.time.length).length} ${NAME[k]} instruments${L()>=0?` for your ${unit()}`:""}`, "cal", `${h}#calendar`],
       ["Look up a defined term", m ? `${m.defs.length.toLocaleString("en-IN")} ${NAME[k]} definitions, each with the provision that governs` : "Defined terms with their paragraph", "def", `${h}#definitions`],
       ["Penalties and consequences", `What a breach can cost: ${nC} ${NAME[k]} instruments state their own consequences`, "pen", `${h}#penalties`],
-      ["Does this apply to me?", `Pick your ${unit()} and see only the rules that bind you`, "who", `${h}#who`],
+      [`Filter by ${K() === "irdai" ? "role" : "NBFC layer"}`, `Narrow every list to your ${unit()}. A guide, not an applicability opinion`, "who", `${h}#who`],
       ["Court rulings on a point", "Supreme Court and High Court holdings since 2010", "jud", ""]
     ];
     $("#tasks").innerHTML = tasks.map(([t, s, ic, href], i) => `<a class="card tk rise" style="animation-delay:${.05*i}s" ${href?`href="${href}"`:`aria-disabled="true"`}>
@@ -163,9 +163,9 @@
     if (!docs.length && !defs.length && K() !== k) return "";
     let s = `<div class="rhead"><b>${NAME[k]}</b><span>${docs.length ? `Top ${docs.length} instruments` : "No instrument matches"}${lens !== undefined ? ` for your ${unit()}` : ""}</span><a class="lnk" style="margin-left:auto" href="${h}#search/${encodeURIComponent(raw)}">All results →</a></div>`;
     if (P.gl.length) s += `<div class="meaning"><b>${esc(P.gl[0].term)}</b>${P.gl[0].full?` (${esc(P.gl[0].full)})`:""}: ${esc(P.gl[0].def)}</div>`;
-    s += defs.map(x => `<a class="res" href="${h}#d/${x.d.id}/definitions"><div class="t">“${esc(x.d.term)}” <span class="pill p-grey" style="margin-left:6px">Definition</span></div><div class="m">${esc(x.it?x.it.label:x.d.id)} · ${esc(x.d.para)}</div><div class="s">${hl(trunc(x.d.def, 220), P)}</div></a>`).join("");
     s += docs.map(d => { const l = d.hits.find(x => x.lab !== "Name") || d.hits[0];
       return `<a class="res" href="${h}#d/${d.it.id}"><div style="display:flex;align-items:center;gap:12px"><div style="flex:1;min-width:0"><div class="t">${hl(d.it.label, P)} ${d.it.sc==="old"?'<span class="pill p-old">Superseded</span>':""}</div><div class="m">${esc(d.it.type)} · ${esc(m.themeOf.get(d.it.id)?.nice||"")}</div></div><span class="bar" title="Relevance"><i style="width:${Math.round(d.rel*100)}%"></i></span></div>${l?`<div class="s"><b style="font-weight:600">${esc(l.lab)}:</b> ${hl(trunc(l.txt, 220), P)}</div>`:""}</a>`; }).join("");
+    s += defs.map(x => `<a class="res" href="${h}#d/${x.d.id}/definitions"><div class="t">“${esc(x.d.term)}” <span class="pill p-grey" style="margin-left:6px">Definition</span></div><div class="m">${esc(x.it?x.it.label:x.d.id)} · ${esc(x.d.para)}</div><div class="s">${hl(trunc(x.d.def, 220), P)}</div></a>`).join("");
     return s;
   }
   function runSearch(){
