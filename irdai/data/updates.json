@@ -28,6 +28,192 @@
  },
  "updates": [
   {
+   "id": "U-2026-11-25-PEPF",
+   "date": "2026-11-25",
+   "kind": "Order",
+   "title": "Constitution of the Fund Management Committee under the IRDAI (Policyholders' Education and Protection Fund) Regulations, 2026",
+   "ref": "IRDAI/PP&GR/ORD/MISC/155/11/2026",
+   "instrument": "REG-PEPF-2026",
+   "effective": "2026-11-25",
+   "applies": "IRDAI; administration of the Policyholders' Education and Protection Fund.",
+   "changes": [
+    "Sets up the committee that manages the Fund under regulation 7(2).",
+    "Members serve two years, extendable by two more."
+   ],
+   "actions": []
+  },
+  {
+   "id": "U-2026-11-24-HCLM",
+   "date": "2026-11-24",
+   "kind": "Press release",
+   "title": "Two study groups on transparency and accountability in health insurance claims",
+   "ref": "",
+   "instrument": "",
+   "effective": "",
+   "applies": "Health insurers and general insurers writing health business.",
+   "changes": [
+    "The IAC Sub-Committee on Health Insurance has formed two study groups: one on claims and grievance metrics and standard reason codes for rejections and deductions, the other on real-time tracking of the claim journey.",
+    "Both are to report by 26-12-2026. No rule has changed yet."
+   ],
+   "impact": {
+    "health": {
+     "level": "Low",
+     "text": "Expect proposals on claim metrics, standard rejection and deduction reason codes, and claim tracking."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-11-23-DIST",
+   "date": "2026-11-23",
+   "kind": "Order",
+   "title": "Expert Committee to examine responses to the consultation paper on Recalibrating Economics of Insurance Distribution",
+   "ref": "IRDAI/INT/ORD/MISC/157/11/2026",
+   "instrument": "",
+   "effective": "2026-11-23",
+   "applies": "Insurers and all distribution channels.",
+   "changes": [
+    "Sets up an expert committee to review the responses (about 2.18 lakh answers from over 13,000 respondents) to the 23-09-2026 consultation paper and recommend refinements.",
+    "No rule has changed yet."
+   ],
+   "impact": {
+    "life": {
+     "level": "Low",
+     "text": "Distribution cost reforms are still under review."
+    },
+    "health": {
+     "level": "Low",
+     "text": "Same."
+    },
+    "ca": {
+     "level": "Low",
+     "text": "Commission and distribution economics may change once the committee reports."
+    },
+    "agent": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-11-23-OMBAC",
+   "date": "2026-11-23",
+   "kind": "Order",
+   "title": "Re-constitution of the Advisory Committee to review the performance of the Insurance Ombudsman system",
+   "ref": "IRDAI/PP&GR/ORD/MISC/154/11/2026",
+   "instrument": "RULES-OMB",
+   "effective": "2026-11-23",
+   "applies": "IRDAI and the Insurance Ombudsman system.",
+   "changes": [
+    "Re-constitutes the committee under rule 19(1) of the Insurance Ombudsman Rules, 2017 for two years.",
+    "It meets at least twice a year and reports every year."
+   ],
+   "actions": []
+  },
+  {
+   "id": "U-2026-11-20-ENF",
+   "date": "2026-11-20",
+   "kind": "Enforcement order (penalty)",
+   "title": "Penalty on a standalone health insurer for claim repudiations and deductions",
+   "ref": "IRDAI/E&C/ORD/MISC/153/11/2026",
+   "instrument": "",
+   "effective": "2026-11-20",
+   "applies": "The health insurer named in the order. The rules applied are unchanged.",
+   "changes": [
+    "Rs 2 crore penalty under s. 102 of the Insurance Act for repudiating claims on untenable grounds and making deductions not supported by policy terms.",
+    "Breaches found of regulations 27(v) and 33(d) of the Health Insurance Regulations 2016 and regulation 21(3) of the TPA Regulations; warnings and directions also issued."
+   ],
+   "impact": {
+    "health": {
+     "level": "Medium",
+     "text": "Test claim rejection and deduction practice against policy wording; this is how IRDAI applies the new s. 102 penalty."
+    }
+   },
+   "actions": [
+    "Sample recent repudiations and deductions for a policy-term basis."
+   ]
+  },
+  {
+   "id": "U-2026-11-10-RBC",
+   "date": "2026-11-10",
+   "kind": "Order",
+   "title": "Working Groups on convergence of the Risk Based Capital framework with Ind AS",
+   "ref": "IRDAI/RBC/ORD/MISC/150/11/2026",
+   "instrument": "",
+   "effective": "2026-11-10",
+   "applies": "All insurers.",
+   "changes": [
+    "Sets up Life and Non-Life working groups so that Ind AS financial statements become the starting point for RBC, with defined prudential adjustments.",
+    "No rule has changed yet."
+   ],
+   "impact": {
+    "life": {
+     "level": "Low",
+     "text": "RBC calculations are expected to start from Ind AS figures."
+    },
+    "health": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-11-03-SICC",
+   "date": "2026-11-03",
+   "kind": "Exposure draft (for comment)",
+   "title": "Exposure Draft: IRDAI (Subsidiary Instructions and Consultative Committees) Regulations, 2026",
+   "ref": "",
+   "instrument": "",
+   "effective": "",
+   "applies": "All regulated entities.",
+   "changes": [
+    "Proposes regulations under the new ss. 114B and 114C of the Insurance Act (inserted by the SBSR Act 2025) on the scope of subsidiary instructions, consultation, urgent instructions, review and withdrawal, and Consultative Committees.",
+    "Comments were due by 23-11-2026."
+   ],
+   "impact": {
+    "life": {
+     "level": "Low",
+     "text": "Would set how IRDAI consults before issuing circulars and guidelines."
+    },
+    "health": {
+     "level": "Low",
+     "text": "Same."
+    },
+    "ca": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-11-02-MOTOR",
+   "date": "2026-11-02",
+   "kind": "Circular",
+   "title": "Four Layer Structure: Motor Insurance Policy",
+   "ref": "IRDAI/NL/CIR/MISC/145/11/2026",
+   "instrument": "",
+   "effective": "",
+   "applies": "General insurers selling private car and two-wheeler policies, and their distributors.",
+   "changes": [
+    "Uniform wordings and an option form for a four-layer motor policy: third-party liability (mandatory), occupant liability (optional), personal accident and own damage.",
+    "A Customer Information Sheet is mandatory. Issued after the Supreme Court's order in CA 14369/2025."
+   ],
+   "impact": {
+    "ca": {
+     "level": "Low",
+     "text": "Motor policies sold must follow the four-layer format and come with the Customer Information Sheet."
+    },
+    "agent": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
    "id": "U-2026-11-02-REGN",
    "date": "2026-11-02",
    "kind": "Master Circular",
@@ -53,6 +239,31 @@
    "actions": [
     "Update internal checklists for share transfer approvals to the new forms."
    ]
+  },
+  {
+   "id": "U-2026-09-23-DISTCP",
+   "date": "2026-09-23",
+   "kind": "Consultation paper",
+   "title": "Consultation paper: Recalibrating Economics of Insurance Distribution",
+   "ref": "",
+   "instrument": "",
+   "effective": "",
+   "applies": "Insurers and all distribution channels.",
+   "changes": [
+    "Consultation on the economics of insurance distribution.",
+    "Responses are now being reviewed by an expert committee set up on 23-11-2026."
+   ],
+   "impact": {
+    "ca": {
+     "level": "Low",
+     "text": "Proposals may change commission and distribution economics."
+    },
+    "agent": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
   },
   {
    "id": "U-2026-07-31-INT",
