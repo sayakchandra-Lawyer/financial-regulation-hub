@@ -1,0 +1,217 @@
+Consultation Paper
+
+   APPLICABILITY OF IT & CYBER SECURITY
+FRAMEWORK OF MIIs TO THEIR SUBSIDIARIES
+
+             SEPTEMBER 11, 2026
+
+Page 1 of 5
+Objective
+1. The objective of this consultation paper is to seek feedback with regard to the proposal of
+
+    applicability of IT and Cyber Security framework of Market Infrastructure Institutions (MIIs)
+    to their subsidiaries.
+
+Background
+2. With an aim to maintain uninterrupted securities market operations, SEBI, from time to
+
+    time, has prescribed IT framework to Market Infrastructure Institutions (MIIs).
+
+3. Further, with an increased reliance on digital ecosystem, threat of cyber-attacks has also
+    increased. Attackers are using advanced technologies to exploit security gaps and gain
+    unauthorized access to organizational data. In order to strengthen the cybersecurity
+    posture of SEBI-regulated entities, ensuring they can anticipate, withstand, contain, and
+    recover from cyber incidents, SEBI has also prescribed Cybersecurity and Cyber
+    Resilience Framework (CSCRF).
+
+4. The IT and Cyber Security framework together mandates strict, technology risk
+    management, inter-alia, to its MIIs to protect market data, ensure operational continuity
+    and prevent cyber-attacks.
+
+Growth of Subsidiaries of MIIs and Need for Regulatory Clarity
+5. As MIIs witness growth in the scale and complexity of their operations and undertake
+
+    technology-driven and market-related activities, there could be a case for MIIs to take
+    services of their subsidiaries to carry out certain activities. Such subsidiaries may be
+    required to operate in close coordination with the parent MII and may utilize shared
+    technology infrastructure, applications, market data or other critical IT resources. (Note:
+
+     Subsidiaries is as defined under Section 2(87) of Companies Act, 2013).
+
+6. While MIIs may be governed by and operating in compliance with SEBI’s IT and cyber
+    security framework, the applicability and regulatory jurisdiction of these IT and Cyber
+    framework are not explicitly defined over their subsidiaries.
+
+7. Providing greater clarity on the applicability of the IT and Cyber framework to subsidiaries
+    of MIIs would help ensure that IT systems and activities performed through such
+    subsidiaries are appropriately covered under the regulatory framework, thereby
+    strengthening regulatory oversight and promoting consistent implementation.
+
+                                                     Page 2 of 5
+Deliberation in SEBI’s Technical Advisory Committee (TAC)
+8. The aforesaid concern was deliberated in SEBI’s Technical Advisory Committee (TAC) in
+
+    its meeting held on December 09, 2025.
+Proposal
+9. As MIIs continue to diversify their business models through subsidiaries, extending the
+
+    applicability of the framework would ensure that the regulatory framework remains aligned
+    with the evolving market structure. With this objective, following is proposed:
+
+    9.1. Applicability of IT and Cyber framework
+        9.1.1. Subsidiaries covered by MII’s IT and Cyber Security Framework
+
+                      The IT and Cyber Security framework applicable to the parent MII shall also apply
+                      to the subsidiary where the subsidiary:
+
+                   9.1.1.1. is doing activity which directly contributes to domain pertaining
+                               to that MII. In other words, subsidiary is carrying out an activity
+                               which the MII is supposed to do or
+
+                   9.1.1.2. is handling the data which the MII is supposed to handle or
+                   9.1.1.3. is sharing the infrastructure with MII.
+
+                      Such subsidiaries shall comply with all the applicable requirements relating to
+                      cyber security, system audits, incident reporting, BCP-DR and technology
+                      governance, etc.
+
+        9.1.2. Subsidiaries exempted from complying with MII’s IT and Cyber Security
+                Framework
+
+                   9.1.2.1. The IT and Cyber Security framework applicable to the parent MII shall
+                               not be applicable to the subsidiary where the subsidiary does not meet
+                               any of the aforesaid three criteria.
+
+                 Illustrations on clarifications of applicability of IT and Cyber Security
+                 framework to MII’s subsidiaries (Not Exhaustive) is provided in Annexure-A.
+
+        9.1.3. Exemption in the Interest of proportionality-
+                   9.1.3.1. In case an MII is of the view that IT / Cyber framework may not
+                                                     Page 3 of 5
+                               be extended to its subsidiary viz. meeting only condition (9.1.1.3) i.e.
+                               sharing of IT infrastructure with MII, it is proposed that MIIs may
+                               seek exemption from SEBI w.r.t not extending IT / Cyber
+                               framework to that subsidiary. Such proposal shall include details
+                               of compensatory controls put in place / proposed to be put in
+                               place by MIIs to ensure cyber and IT resilience of MIIs is not
+                               affected by such proposal along with views of SCOT and Board of the
+                               MII.”
+Public comments
+10. Public Comments are solicited on the aforesaid proposals. The comments / suggestions
+    along with rationale should be submitted not later than October 2, 2026 through the online
+    web-based form which can be accessed using the following link:
+    https://www.sebi.gov.in/sebiweb/publiccommentv2/PublicCommentAction.do?doPublicCo
+
+                                                       mments=yes
+11. In case of any technical issue in submitting your comment(s) through the web based public
+
+    comments form, you may email your comment(s) to following-
+         a) Shri Darshil Bhatt, Deputy General Manager (darshilb@sebi.gov.in) and;
+         b) Shri Abhijeet Srivastava, Assistant General Manager (abhijeets@sebi.gov.in)
+
+    While sending the email, kindly mention the subject as “Applicability of IT and Cyber
+    Security Framework of MIIs to their Subsidiaries”.
+
+                                                           ***
+
+                                                     Page 4 of 5
+                                                                                                              Annexure-A
+
+Illustrations on clarifications of applicability of IT and Cyber Security framework to MII’s subsidiaries (Not
+                                                                   Exhaustive)
+
+Sr.  Scenario                     Illustrative Example        Applicable /               Reason
+
+No.                                                                Not
+
+                                                              Applicable
+
+1. Technology               A subsidiary develops, operates Applicable The subsidiary directly
+
+     subsidiary             and maintains the trading engine                contributes to the regulated
+
+     developing        and used by the parent Stock                         function of the MII and
+
+     maintaining the Exchange                                               manages critical IT systems.
+
+     trading platform of a
+
+     Stock Exchange
+
+2. Subsidiary               A subsidiary operates the SOC, Applicable It manages critical cyber
+
+     providing              SIEM, vulnerability management                  security functions affecting the
+
+     cybersecurity          and incident response for the                   MII.
+
+     services for the       parent MII.
+
+     parent MII
+
+3. Shared Data Centre A subsidiary hosts production           Applicable It shares critical infrastructure
+
+     / Cloud subsidiary servers, databases or disaster                      supporting regulated
+
+                            recovery infrastructure used by                 operations.
+
+                            the parent MII.
+
+4. Technology               A subsidiary provides analytics, Applicable It handles data that the MII is
+
+     subsidiary handling surveillance or AI services using                  responsible for protecting.
+
+     MII data               trading, settlement or investor
+
+                            data of the parent MII.
+
+5. Common IT                A subsidiary manages Active       Applicable It provides shared technology
+
+     Services subsidiary Directory, Identity & Access                       services essential for secure
+
+                            Management, email or network                    operations.
+
+                            services for the parent MII.
+
+6. Shared Helpdesk / A subsidiary administers                 Applicable It has privileged access to
+
+     Infrastructure         production servers, databases                   critical systems and
+
+     Management             or storage used by the parent                   infrastructure.
+
+     subsidiary             MII.
+
+7. Education or             A subsidiary conducts investor Not              Activities are unrelated to
+
+     Training subsidiary awareness programmes or              Applicable regulated market infrastructure
+
+                            certification courses without                   operations.
+
+                            accessing MII systems or data.
+
+8. Real Estate /            A subsidiary manages office       Not           It does not process MII data or
+        Facility            premises, administration or       Applicable    operate MII systems.
+        Management          facility services.
+        subsidiary
+
+9. Independent              A subsidiary undertakes an        Not           It has independent operations
+
+     Financial Services unrelated financial business          Applicable and its own applicable
+
+     subsidiary             regulated under a separate                      regulatory framework.
+
+                            SEBI or RBI framework with
+
+                            independent IT infrastructure.
+
+10. HR / Payroll A subsidiary maintains HR and Not                          It neither supports regulated
+
+     Services subsidiary payroll systems for employees Applicable functions nor handles critical
+
+                            without access to trading,                      MII systems or data.
+
+                            clearing, settlement or
+
+                            depository systems.
+
+                                             Page 5 of 5
+

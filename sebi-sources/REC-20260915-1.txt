@@ -1,0 +1,127 @@
+                                            Consultation Paper
+        Measures to strengthen Business Continuity Plan (BCP) and Disaster
+
+                 Recovery (DR) of Market Infrastructure Institutions (MIIs)
+1. Objective:
+
+     1.1. The objective of the consultation paper is to obtain feedback with regard to
+          proposed enhancements around Business Continuity Plan (BCP) and Disaster
+          Recovery (DR) framework of Market Infrastructure Institutions (MIIs) in terms
+          of -
+          a) Shortening time for conducting mock DR drills;
+          b) Strengthening operational resilience at primary site of MIIs, and;
+          c) Strengthening data recovery for Stock Exchanges.
+
+2. Background:
+     2.1. Guidelines for BCP and DR for MIIs were stipulated first in April 2012 and were
+          further enhanced over the years with significant enhancements in March 2019
+          and March 2021.
+     2.2. There have been various learnings over time with regard to practices followed
+          by MIIs around conducting DR drills in mock environment, testing and data
+          recovery. On the basis of aforesaid, in order to increase the operational
+          resilience and ease of compliance by MIIs, additional norms are proposed.
+
+3. Regulatory Objective:
+     3.1. To enhance ease of conducting DR drills by MIIs;
+     3.2. To increase operational resilience of MIIs.
+
+4. Proposals:
+    Keeping in mind the aforesaid objectives, following norms are proposed to
+    strengthen BCP / DR framework of MIIs:
+
+                                                        Page 1 of 4
+4.1. Shortening time for conducting mock DR drills -
+  4.1.1. Para 9.1.3.3 and Para 9.1.3.8 of Master Circular dated December 30, 2024
+          for Stock Exchanges and Clearing Corporations stipulates conducting DR
+          drills for one full trading day and a scenario of intraday shifting from
+          Primary Data Centre (PDC) to Disaster Recovery Site (DRS) during the
+          mock trading sessions in order to demonstrate its preparedness to meet
+          stipulated Recovery Time Objective (RTO) / Recovery Point Objective
+          (RPO). Identical stipulations exist in the Master Circular for Depositories
+          and the Master Circular for Commodity Derivatives Segment.
+  4.1.2. In light of representation received from stock exchange with commodity
+          derivatives segment wherein the trading day goes on till 11:55 PM for
+          certain trading products, it is noted that conducting DR drills for whole of
+          market hours could be cumbersome for market participants as well as MIIs.
+  4.1.3. Accordingly, the following is proposed with regard to conducting DR drills
+          by MIIs:
+      4.1.3.1. DR drill would involve initiating operations at PDC and switching over
+                 operations to DRS during a non-working day.
+      4.1.3.2. Overall session time for DR drill should be at least 4 hours including
+                 the switchover time from PDC to DRS.
+      4.1.3.3. MIIs shall cover all the scenarios of market operations during the DR
+                 drill and simulate real life load / participation close to the actual load.
+      4.1.3.4. As part of the switchover exercise in DR drill, MIIs shall test various
+                 scenarios impacting their systems, depending on their architecture
+                 and line of business. Such list of comprehensive scenarios should be
+                 reviewed by the Standing Committee on Technology (SCOT) of MIIs.
+                 This would enhance preparedness of MIIs to handle disruptions in
+                 their systems during live operations.
+
+                                                  Page 2 of 4
+  4.1.4. The aforesaid proposals would increase ease of carrying out DR drills for
+          market participants through condensed session time during DR drills and
+          also prepare MII for various real life scenarios of system disruptions.
+
+4.2. Strengthening operational resilience at primary site of MIIs -
+  4.2.1. In addition to strengthening framework for DR drills, following measures
+          are proposed to strengthen operational resilience at PDC:
+      4.2.1.1. MIIs shall conduct comprehensive stress testing / mock testing not
+                 only on transactions volumes, orders per second etc., but also on
+                 various masters, table sizes, other non-transactional components etc.
+                 to assess system performance for scaled up activity level / load /
+                 database records. Further, MIIs shall regularly test the fault tolerance
+                 of their PDC / DRS to satisfy themselves that if a component / switch
+                 / server / etc. fails, the redundant component / switch / server / etc.
+                 automatically takes over operations, ensuring business continuity.
+      4.2.1.2. MIIs shall proactively identify, document and monitor all boundary
+                 conditions and upper limits (such as database, configuration, table
+                 size, counter limits etc.) to prevent exceptions in smooth operations
+                 before such limits are breached. This is proposed with the objective
+                 of proactively identifying possible system bottlenecks as the activity /
+                 participation increases.
+      4.2.1.3. MIIs shall ensure adequacy of logging of errors at application /
+                component level and also prepare a ready reckoner for interpreting
+                such errors. This is proposed with the objective of speeding up trouble
+                shooting in case of disruption of any component / software.
+      4.2.1.4. MIIs shall have periodic tests / alerts verifying component / application
+                 level controls / configurations pertaining to IT systems of PDC, Near
+                 Site (NS) and DRS to ensure that there is no drift in the configuration
+                 / settings at individual component level. This would ensure identical
+                 configuration / settings between PDC and DRS.
+
+                                                  Page 3 of 4
+     4.3. Strengthening data recovery for Stock Exchange -
+       4.3.1. In case of disruptions in operations of Stock Exchange, the existing
+                business continuity protocol involves attempting recovery of trade data
+                from Near Site (NS) or DRS. It may be possible that the disruption scenario
+                impacted replication at NS or DRS of stock exchange. The connectivity
+                arrangement between a Stock Exchange and a Clearing Corporation (CC)
+                is different from the link connectivity of a stock exchange with its NS / DRS.
+                It is therefore proposed that stock exchanges shall put in place a
+                framework to recover the lost data from the CCs in case of disruption.
+                Necessary SOPs shall be put in place by stock exchanges / CCs in this
+                regard.
+
+5. Invitation for Public Comments:
+     5.1. Public comments are invited on the proposals outlined above. The comments/
+          suggestions should be submitted latest by October 05, 2026, through the
+          online web-based form which can be accessed using the following link:
+          https://www.sebi.gov.in/sebiweb/publiccommentv2/PublicCommentAction.do?
+          doPublicComments=yes.
+     5.2. In case of any technical issue in submitting your comment(s) through the web
+          based public comments form, you may email your comment(s) to
+           following-
+               a) Shri Darshil Bhatt, Deputy General Manager (darshilb@sebi.gov.in)
+                    and,
+               b) Shri Abhijeet Srivastava, Assistant General Manager
+                    (abhijeets@sebi.gov.in).
+
+          While sending the email, kindly mention the subject as “Consultation Paper
+          on Measures to Strengthen Business Continuity Plan (BCP) and Disaster
+          Recovery (DR) of Market Infrastructure Institutions (MIIs)”
+
+                                                         ***
+
+                                                        Page 4 of 4
+
