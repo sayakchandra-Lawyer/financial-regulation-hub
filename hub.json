@@ -208,8 +208,14 @@
    "short": "Judgments",
    "name": "Key Judgments",
    "full": "Supreme Court and High Courts, 2010 onwards",
-   "status": "soon",
-   "desc": "Rulings on SARFAESI, IBC, fraud classification, interest and recovery, and the limits of RBI's powers."
+   "status": "live",
+   "desc": "Rulings that changed lending, housing finance, mutual funds, broking, health and life insurance: what was held, what it means and the rules it touches.",
+   "href": "judgments/",
+   "data": {
+    "judgments": "judgments/data/judgments.json"
+   },
+   "count": 32,
+   "countLabel": "Judgments"
   },
   {
    "id": "misc",

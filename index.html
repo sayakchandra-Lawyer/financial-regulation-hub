@@ -116,6 +116,7 @@
     def:'<path d="M5 4h10a4 4 0 0 1 4 4v12H9a4 4 0 0 1-4-4z"/><path d="M9 9h6M9 13h4"/>', pen:'<path d="M12 3 2.5 20h19z"/><path d="M12 10v4M12 17v.5"/>',
     who:'<circle cx="12" cy="8" r="3.5"/><path d="M5 20c1-4 4-6 7-6s6 2 7 6"/>', jud:'<path d="M12 4v16M7 20h10M5 7h14"/><path d="m5 7-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/>'
   };
+  function jud(){ const j = hub.sections.find(s => s.id === "jud"); if (!j || j.status !== "live") return ""; const lk = K() === "irdai" && L() >= 0 && M() && M().lenses[L()] ? M().lenses[L()][2] : ""; return j.href + (K() === "irdai" ? (lk === "life" || lk === "health" ? "#s/" + lk : "") : "#s/lending"); }
   function renderTasks(){
     const m = M(), k = K(), h = secs[k].href;
     const live = m ? m.items.filter(it => appliesAt(m, it, L())) : [];
@@ -127,7 +128,7 @@
       ["Look up a defined term", m ? `${m.defs.length.toLocaleString("en-IN")} ${NAME[k]} definitions, each with the provision that governs` : "Defined terms with their paragraph", "def", `${h}#definitions`],
       ["Penalties and consequences", `What a breach can cost: ${nC} ${NAME[k]} instruments state their own consequences`, "pen", `${h}#penalties`],
       [`Filter by ${K() === "irdai" ? "role" : "NBFC layer"}`, `Narrow every list to your ${unit()}. A guide, not an applicability opinion`, "who", `${h}#who`],
-      ["Court rulings on a point", "Supreme Court and High Court holdings since 2010", "jud", ""]
+      ["Court rulings on a point", "Supreme Court and High Court rulings since 2010, with what each means in practice", "jud", jud()]
     ];
     $("#tasks").innerHTML = tasks.map(([t, s, ic, href], i) => `<a class="card tk rise" style="animation-delay:${.05*i}s" ${href?`href="${href}"`:`aria-disabled="true"`}>
       <span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">${TI[ic]}</svg></span>
@@ -183,7 +184,7 @@
     $("#regs").innerHTML = hub.sections.map((s, i) => {
       const live = s.status === "live", m = MS[s.id];
       const cnt = !m ? 0 : s.id === "rbi" ? m.items.filter(x=>x.type==="Master Direction"&&x.sc!=="old").length : m.items.filter(x=>/^Regulation/.test(x.type)&&x.sc!=="old").length;
-      const stat = live && m ? `<span class="pill p-live"><span data-count="${cnt}">0</span> ${s.id === "rbi" ? "Directions" : "Regulations"}</span>` : `<span class="pill p-soon">In preparation</span>`;
+      const stat = live && m ? `<span class="pill p-live"><span data-count="${cnt}">0</span> ${s.id === "rbi" ? "Directions" : "Regulations"}</span>` : live && s.count ? `<span class="pill p-live"><span data-count="${s.count}">0</span> ${esc(s.countLabel || "")}</span>` : `<span class="pill p-soon">In preparation</span>`;
       return `<${live?"a":"div"} class="card rc rise ${live?"":"soon"}" id="${s.id}" style="--c:var(--${s.id});animation-delay:${.06*i}s" ${live?`href="${s.href}"`:""}>
         <span class="ic">${I[s.id]}</span><h3 style="font-size:21px;margin-top:16px">${esc(s.name)}</h3><div class="tag" style="margin-top:2px">${esc(s.full)}</div>
         <p style="font-size:13.5px;color:var(--ink-2);margin:10px 0 0">${esc(s.desc)}</p>
