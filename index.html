@@ -77,10 +77,10 @@
   const hub = await getJSON("hub.json");
   renderChrome(hub, { root: "" });
   $("#qicon").outerHTML = I.search;
-  const secs = { rbi: hub.sections.find(s => s.id === "rbi"), irdai: hub.sections.find(s => s.id === "irdai" && s.status === "live") };
+  const secs = Object.fromEntries(hub.sections.filter(s => s.status === "live" && s.data && s.data.register).map(s => [s.id, s]));   // every live regulator with data
   const MS = {};
   await Promise.all(Object.entries(secs).map(async ([k, s]) => { if (!s) return; try { MS[k] = await loadSection(s, ""); } catch (e) { console.warn(e); } }));
-  const NAME = { rbi: "RBI", irdai: "IRDAI" };
+  const NAME = Object.fromEntries(hub.sections.map(s => [s.id, s.short || s.name]));
   const lay = $("#layer");
   const saved = store.get("layer", "-1"); lay.value = [...lay.options].some(o => o.value === saved) ? saved : "-1";
   const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : "rbi";      // which regulator the lens points to
@@ -135,41 +135,46 @@
       ${href?`<span class="ar">${I.arrow}</span>`:""}</a>`).join("");
   }
 
-  /* updates: one group per live regulator; the regulator your choice points to is filtered by it */
+  /* updates: one group per live regulator; last 7 days, or the latest 3 if nothing that recent */
+  const isProp = u => /draft|consult|propos|exposure|discussion paper/i.test(u.kind);
   function updTags(m, k, u){
     const it = m.byId.get(u.instrument), t = [];
-    if (u.effective) t.push(`<span class="pill p-grey">Effective ${fmtDate(u.effective, false)}</span>`);
-    if (k === "irdai" && u.impact) Object.keys(u.impact).forEach(key => { const l = m.lenses.find(x => x[2] === key); if (l) t.push(`<span class="pill p-grey">${esc(l[1])}</span>`); });
+    if (isProp(u)) t.push(`<span class="pill p-new">Proposal, not in force</span>`);
+    else if (/enforce|penalt/i.test(u.kind)) t.push(`<span class="pill p-grey">Enforcement, rule unchanged</span>`);
+    if (u.effective && !isProp(u) && !/enforce|penalt/i.test(u.kind)) t.push(`<span class="pill p-grey">Effective ${fmtDate(u.effective, false)}</span>`);
+    const lensKeys = u.impact && m.sec.lenses ? Object.keys(u.impact).map(key => m.lenses.find(x => x[2] === key)).filter(Boolean) : [];
+    if (lensKeys.length) lensKeys.forEach(l => t.push(`<span class="pill p-grey">${esc(l[1])}</span>`));
     else if (it) t.push(`<span class="pill p-grey">${esc(layerNote(m, it))}</span>`);
-    else t.push(`<span class="pill p-grey">${/draft/i.test(u.kind) ? "Proposal, not in force" : /enforce|penalt/i.test(u.kind) ? "Rule unchanged" : "No rule change"}</span>`);
+    else if (!isProp(u) && !/enforce|penalt/i.test(u.kind)) t.push(`<span class="pill p-grey">No rule change</span>`);
     return t.join("");
   }
   function updFits(m, k, u){
     if (K() !== k || L() < 0) return true;
-    if (k === "irdai" && u.impact) { const key = m.lenses[L()][2]; return key in u.impact; }
+    if (m.sec.lenses && u.impact && Object.keys(u.impact).some(key => m.lenses.some(x => x[2] === key))) return m.lenses[L()][2] in u.impact;
     const it = m.byId.get(u.instrument); return !it || appliesAt(m, it, L());
   }
+  const iso = d => d.toISOString().slice(0, 10);
+  const TODAY = new Date(), WEEK_FROM = iso(new Date(TODAY.getTime() - 7 * 864e5));
   function updGroup(k){
-    const m = MS[k], h = secs[k].href; if (!m) return "";
-    const w = m.updMeta || {}, wkFrom = (MS.rbi && MS.rbi.updMeta.window_from) || "";
+    const m = MS[k], h = secs[k].href; if (!m || !m.updates.length) return "";
     const all = [...m.updates].sort((x, y) => String(y.date).localeCompare(String(x.date)));
-    const week = all.filter(u => !wkFrom || u.date >= wkFrom), pool = week.length ? week : all;
-    const fits = pool.filter(u => updFits(m, k, u)), hidden = pool.length - fits.length;
-    const sub = week.length ? (k === "rbi" && w.window_from ? `${fmtDate(w.window_from,false)} – ${fmtDate(w.window_to,false)}` : "this week") : "Nothing new this week. Latest items:";
-    const cards = fits.slice(0, 3).map(u => {
+    const week = all.filter(u => String(u.date) >= WEEK_FROM), recent = week.length > 0;
+    const base = recent ? week : all.slice(0, 3), shown = base.filter(u => updFits(m, k, u)).slice(0, 5), hidden = base.length - base.filter(u => updFits(m, k, u)).length;
+    const sub = recent ? `${fmtDate(WEEK_FROM, false)} – ${fmtDate(iso(TODAY), false)}` : "Nothing in the last 7 days. Latest 3:";
+    const cards = shown.map(u => {
       const it = m.byId.get(u.instrument);
       return `<a class="card upd" style="--c:var(--${k})" href="${h}#changes/${encodeURIComponent(u.id)}">
-        <div class="m"><span class="dot"></span><span style="white-space:nowrap">${esc(trunc(u.kind, 60))}</span><span style="margin-left:auto;white-space:nowrap">${fmtDate(u.date, !week.length)}</span></div>
+        <div class="m"><span class="dot"></span><span style="white-space:nowrap">${esc(trunc(u.kind, 60))}</span><span style="margin-left:auto;white-space:nowrap">${fmtDate(u.date, !recent)}</span></div>
         <div style="font-weight:600;margin:10px 0 4px;line-height:1.4">${esc(trunc(u.title, 120))}</div>
         ${it ? `<div class="tag">${esc(it.label)}</div>` : ""}<div class="utags">${updTags(m, k, u)}</div></a>`;
     }).join("");
-    return `<section><h3>${NAME[k]} <span class="tag">${esc(sub)}</span><a class="lnk" href="${h}#changes">See all ${NAME[k]} changes</a></h3>
+    return `<section><h3>${esc(NAME[k])} <span class="tag">${esc(sub)}</span><a class="lnk" href="${h}#changes">See all ${esc(NAME[k])} changes</a></h3>
       <div class="ulist">${cards || `<p class="tag">Nothing here for your ${unit()}.</p>`}</div>
-      ${hidden ? `<p class="hid">${hidden} more not shown for your ${unit()}. <button class="lnk" type="button" data-reset="${k}">Show everything</button></p>` : ""}</section>`;
+      ${hidden > 0 ? `<p class="hid">${hidden} more not shown for your ${unit()}. <button class="lnk" type="button" data-reset="${k}">Show everything</button></p>` : ""}</section>`;
   }
   function renderUpdates(){
-    const order = K() === "irdai" ? ["irdai", "rbi"] : ["rbi", "irdai"];
-    $("#upds").innerHTML = order.map(updGroup).join("") || `<p class="tag">No new items recorded this week.</p>`;
+    const order = [K(), ...Object.keys(secs).filter(k => k !== K())];
+    $("#upds").innerHTML = order.map(updGroup).join("") || `<p class="tag">No updates recorded yet.</p>`;
     $$("[data-reset]").forEach(b => b.addEventListener("click", () => { lay.value = b.dataset.reset === "irdai" ? "i-1" : "-1"; lay.dispatchEvent(new Event("change")); }));
   }
 
@@ -226,7 +231,7 @@
     const raw = $("#q").value.trim(), box = $("#results");
     if (!raw && document.activeElement === $("#q") && M()) { suggest(); return; }
     if (raw.length < 2 || !M()) { box.hidden = true; return; }
-    const order = K() === "irdai" ? ["irdai", "rbi"] : ["rbi", "irdai"];
+    const order = [K(), ...Object.keys(secs).filter(k => k !== K())];
     let h = order.map(k => block(k, raw)).join("") + updMatches(raw);
     h += `<div class="rhead" style="justify-content:space-between"><span>SEBI and court rulings become searchable as each section goes live.</span>${hub.ai_endpoint?`<button class="lnk" type="button" id="askai">Ask Not So Intelligent AI →</button>`:""}</div>`;
     box.innerHTML = h; box.hidden = false;
