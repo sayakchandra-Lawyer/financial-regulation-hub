@@ -32,7 +32,7 @@
 <main>
   <section class="hero"><div class="in">
     <h1 class="rise" style="animation-delay:.05s">What do you need to know today?</h1>
-    <p class="lede rise" style="animation-delay:.1s">Plain-language summaries of the rules that bind NBFCs and HFCs: obligations, deadlines and consequences of breach, each linked to the official text.</p>
+    <p class="lede rise" style="animation-delay:.1s">Plain-language summaries of the rules that bind NBFCs, HFCs, insurers and insurance distributors: obligations, deadlines and consequences of breach, each linked to the official text.</p>
     <form class="search rise" style="animation-delay:.15s" id="qform" role="search">
       <span id="qicon"></span><label class="sr" for="q">Search</label>
       <input id="q" type="search" autocomplete="off" placeholder="Ask a question or search, e.g. “minimum retention for securitisation”">
@@ -40,8 +40,9 @@
     </form>
     <div class="lens rise" style="animation-delay:.2s">
       <label for="layer">I am a:</label>
-      <select class="chip" id="layer" aria-label="Your NBFC layer">
-        <option value="-1">NBFC, any layer</option><option value="0">NBFC in the Base Layer</option><option value="1">NBFC in the Middle Layer</option><option value="2">NBFC in the Upper Layer</option><option value="3">NBFC in the Top Layer</option>
+      <select class="chip" id="layer" aria-label="Who you are">
+        <optgroup label="RBI"><option value="-1">NBFC, any layer</option><option value="0">NBFC in the Base Layer</option><option value="1">NBFC in the Middle Layer</option><option value="2">NBFC in the Upper Layer</option><option value="3">NBFC in the Top Layer</option></optgroup>
+        <optgroup label="Insurance"><option value="i-1">Insurer or distributor, any role</option><option value="i0">Life insurer</option><option value="i1">Health insurer</option><option value="i2">Corporate agent</option><option value="i3">Individual agent</option></optgroup>
       </select>
       <span class="tag" id="lensnote"></span>
     </div>
@@ -55,7 +56,7 @@
     <div class="sec-h"><h2>Browse by regulator</h2></div>
     <div class="grid g5" id="regs"></div>
 
-    <div class="sec-h"><h2>What changed this week</h2><span class="tag" id="updwin"></span><a class="tag lnk" style="margin-left:auto" href="rbi/#changes">See all changes</a></div>
+    <div class="sec-h"><h2 id="updh">What changed this week</h2><span class="tag" id="updwin"></span><a class="tag lnk" id="updall" style="margin-left:auto" href="rbi/#changes">See all changes</a></div>
     <div class="grid g3" id="upds"></div>
 
   </div>
@@ -67,17 +68,36 @@
   const hub = await getJSON("hub.json");
   renderChrome(hub, { root: "" });
   $("#qicon").outerHTML = I.search;
-  const rbi = hub.sections.find(s => s.id === "rbi");
-  let M = null;
-  try { M = await loadSection(rbi, ""); } catch (e) { console.warn(e); }
-  const lay = $("#layer"); lay.value = store.get("layer", "-1");
-  const L = () => +lay.value;
+  const secs = { rbi: hub.sections.find(s => s.id === "rbi"), irdai: hub.sections.find(s => s.id === "irdai" && s.status === "live") };
+  const MS = {};
+  await Promise.all(Object.entries(secs).map(async ([k, s]) => { if (!s) return; try { MS[k] = await loadSection(s, ""); } catch (e) { console.warn(e); } }));
+  const NAME = { rbi: "RBI", irdai: "IRDAI" };
+  const lay = $("#layer");
+  const saved = store.get("layer", "-1"); lay.value = [...lay.options].some(o => o.value === saved) ? saved : "-1";
+  const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : "rbi";      // which regulator the lens points to
+  const L = () => +lay.value.replace(/^i/, "");
+  const M = () => MS[K()];
+  const unit = () => K() === "irdai" ? "role" : "layer";
   function lensNote(){
-    if (!M) return;
-    const n = M.items.filter(it => appliesAt(M, it, L())).length;
-    $("#lensnote").textContent = L() < 0 ? "" : `${n} RBI instruments apply to you`;
+    const m = M(); if (!m) return;
+    const n = m.items.filter(it => appliesAt(m, it, L())).length;
+    $("#lensnote").textContent = L() < 0 ? "" : `${n} ${NAME[K()]} instruments apply to you`;
   }
-  lay.addEventListener("change", () => { store.set("layer", lay.value); lensNote(); renderTasks(); if ($("#q").value.trim()) runSearch(); });
+  function judge(){
+    if (!hub.ai_endpoint || !M()) return;
+    const k = K(), s = secs[k];
+    initJudge(Object.assign({ M: M(), endpoint: hub.ai_endpoint, fulltext: s.data.fulltext, link: id => `${s.href}#d/` + id, wide: true }, k === "irdai"
+      ? { section: "irdai", docs: "the insurance texts", scope: "Answers from the insurance texts on this site",
+          intro: "Put your question on insurance law for insurers, agents and corporate agents, and I shall answer from the Acts, Regulations and Master Circulars on this site, citing the provision. Check what I say.",
+          tries: [["What is the free look period for a life policy?", "Free look period"], ["How quickly must a cashless claim be authorised?", "Cashless claim timelines"], ["With how many insurers can a corporate agent tie up?", "Corporate agent tie-ups"]],
+          placeholder: "Ask a question, e.g. How long is the moratorium on health claims?" }
+      : { section: "rbi", scope: "Answers from the RBI texts on this site" }));
+  }
+  lay.addEventListener("change", () => {
+    store.set("layer", lay.value);
+    if (K() === "irdai") store.set("irdai.lens", String(L()));
+    lensNote(); renderTasks(); renderUpdates(); judge(); if ($("#q").value.trim()) runSearch();
+  });
 
   /* tasks */
   const TI = {
@@ -86,15 +106,16 @@
     who:'<circle cx="12" cy="8" r="3.5"/><path d="M5 20c1-4 4-6 7-6s6 2 7 6"/>', jud:'<path d="M12 4v16M7 20h10M5 7h14"/><path d="m5 7-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/>'
   };
   function renderTasks(){
-    const live = M ? M.items.filter(it => appliesAt(M, it, L())) : [];
+    const m = M(), k = K(), h = secs[k].href;
+    const live = m ? m.items.filter(it => appliesAt(m, it, L())) : [];
     const nT = live.reduce((a, it) => a + it.time.length, 0), nC = live.filter(it => it.cons.length).length;
-    const nU = M ? M.updates.length : 0;
+    const nU = m ? m.updates.length : 0;
     const tasks = [
-      ["What changed this week", nU ? `${nU} new item${nU>1?"s":""} from RBI, with what each one means` : "New circulars and amendments, explained", "new", "rbi/#changes"],
-      ["Compliance calendar", `${nT} timelines across ${live.filter(it=>it.time.length).length} instruments${L()>=0?" for your layer":""}`, "cal", "rbi/#calendar"],
-      ["Look up a defined term", M ? `${M.defs.length.toLocaleString("en-IN")} definitions, each with the paragraph that governs` : "Defined terms with their paragraph", "def", "rbi/#definitions"],
-      ["Penalties and consequences", `What a breach can cost: ${nC} instruments state their own consequences`, "pen", "rbi/#penalties"],
-      ["Filter by NBFC layer", "Narrow every list to your SBR layer. A guide, not an applicability opinion", "who", "rbi/#who"],
+      [k === "irdai" ? "What changed recently" : "What changed this week", nU ? `${nU} new item${nU>1?"s":""} from ${NAME[k]}, with what each one means` : "New circulars and amendments, explained", "new", `${h}#changes`],
+      ["Compliance calendar", `${nT} timelines across ${live.filter(it=>it.time.length).length} ${NAME[k]} instruments${L()>=0?` for your ${unit()}`:""}`, "cal", `${h}#calendar`],
+      ["Look up a defined term", m ? `${m.defs.length.toLocaleString("en-IN")} ${NAME[k]} definitions, each with the provision that governs` : "Defined terms with their paragraph", "def", `${h}#definitions`],
+      ["Penalties and consequences", `What a breach can cost: ${nC} ${NAME[k]} instruments state their own consequences`, "pen", `${h}#penalties`],
+      [`Filter by ${K() === "irdai" ? "role" : "NBFC layer"}`, `Narrow every list to your ${unit()}. A guide, not an applicability opinion`, "who", `${h}#who`],
       ["Court rulings on a point", "Supreme Court and High Court holdings since 2010", "jud", ""]
     ];
     $("#tasks").innerHTML = tasks.map(([t, s, ic, href], i) => `<a class="card tk rise" style="animation-delay:${.05*i}s" ${href?`href="${href}"`:`aria-disabled="true"`}>
@@ -103,14 +124,17 @@
       ${href?`<span class="ar">${I.arrow}</span>`:""}</a>`).join("");
   }
 
-  /* updates */
+  /* updates: follow the lens (RBI weekly, IRDAI recent) */
   function renderUpdates(){
-    if (!M || !M.updates.length) { $("#upds").innerHTML = `<p class="tag">No new items recorded this week.</p>`; return; }
-    const w = M.updMeta; if (w.window_from) $("#updwin").textContent = `${fmtDate(w.window_from,false)} – ${fmtDate(w.window_to)}`;
-    $("#upds").innerHTML = M.updates.slice(0, 3).map((u, i) => {
-      const it = M.byId.get(u.instrument);
-      return `<a class="card upd rise" style="--c:var(--rbi);animation-delay:${.05*i}s" href="rbi/#changes/${encodeURIComponent(u.id)}">
-        <div class="m"><span class="dot"></span><b style="color:var(--ink-2)">RBI</b><span style="white-space:nowrap">· ${esc(trunc(u.kind, 28))}</span><span style="margin-left:auto;white-space:nowrap">${fmtDate(u.date,false)}</span></div>
+    const m = M(), k = K(), h = secs[k].href;
+    $("#updh").textContent = k === "irdai" ? "What changed recently in insurance" : "What changed this week";
+    $("#updall").setAttribute("href", `${h}#changes`); $("#updwin").textContent = "";
+    if (!m || !m.updates.length) { $("#upds").innerHTML = `<p class="tag">No new items recorded this week.</p>`; return; }
+    const w = m.updMeta; if (w.window_from && k === "rbi") $("#updwin").textContent = `${fmtDate(w.window_from,false)} – ${fmtDate(w.window_to)}`;
+    $("#upds").innerHTML = m.updates.slice(0, 3).map((u, i) => {
+      const it = m.byId.get(u.instrument);
+      return `<a class="card upd rise" style="--c:var(--${k});animation-delay:${.05*i}s" href="${h}#changes/${encodeURIComponent(u.id)}">
+        <div class="m"><span class="dot"></span><b style="color:var(--ink-2)">${NAME[k]}</b><span style="white-space:nowrap">· ${esc(trunc(u.kind, 28))}</span><span style="margin-left:auto;white-space:nowrap">${fmtDate(u.date,false)}</span></div>
         <div style="font-weight:600;margin:10px 0 6px;line-height:1.4">${esc(trunc(u.title, 120))}</div>
         <div class="tag">${u.effective ? `Effective ${fmtDate(u.effective)}` : ""}${u.effective && it ? '<span class="sep"></span>' : ""}${it ? esc(it.label) : ""}</div></a>`;
     }).join("");
@@ -119,8 +143,9 @@
   /* regulator cards */
   function renderRegs(){
     $("#regs").innerHTML = hub.sections.map((s, i) => {
-      const live = s.status === "live";
-      const stat = live && M ? `<span class="pill p-live"><span data-count="${M.items.filter(x=>x.type==="Master Direction"&&x.sc!=="old").length}">0</span> Directions</span>` : `<span class="pill p-soon">In preparation</span>`;
+      const live = s.status === "live", m = MS[s.id];
+      const cnt = !m ? 0 : s.id === "rbi" ? m.items.filter(x=>x.type==="Master Direction"&&x.sc!=="old").length : m.items.filter(x=>/^Regulation/.test(x.type)&&x.sc!=="old").length;
+      const stat = live && m ? `<span class="pill p-live"><span data-count="${cnt}">0</span> ${s.id === "rbi" ? "Directions" : "Regulations"}</span>` : `<span class="pill p-soon">In preparation</span>`;
       return `<${live?"a":"div"} class="card rc rise ${live?"":"soon"}" id="${s.id}" style="--c:var(--${s.id});animation-delay:${.06*i}s" ${live?`href="${s.href}"`:""}>
         <span class="ic">${I[s.id]}</span><h3 style="font-size:21px;margin-top:16px">${esc(s.name)}</h3><div class="tag" style="margin-top:2px">${esc(s.full)}</div>
         <p style="font-size:13.5px;color:var(--ink-2);margin:10px 0 0">${esc(s.desc)}</p>
@@ -129,27 +154,34 @@
     $$("[data-count]").forEach(el => countUp(el, +el.dataset.count));
   }
 
-  /* search */
+  /* search: both live regulators, the one your lens points to first */
   let tmr = 0;
+  function block(k, raw){
+    const m = MS[k]; if (!m) return "";
+    const h = secs[k].href, lens = K() === k && L() >= 0 ? L() : undefined;
+    const P = parseQuery(m, raw), docs = rankDocs(m, P, { layer: lens }).slice(0, K() === k ? 6 : 3), defs = matchDefs(m, P).slice(0, K() === k ? 3 : 1);
+    if (!docs.length && !defs.length && K() !== k) return "";
+    let s = `<div class="rhead"><b>${NAME[k]}</b><span>${docs.length ? `Top ${docs.length} instruments` : "No instrument matches"}${lens !== undefined ? ` for your ${unit()}` : ""}</span><a class="lnk" style="margin-left:auto" href="${h}#search/${encodeURIComponent(raw)}">All results →</a></div>`;
+    if (P.gl.length) s += `<div class="meaning"><b>${esc(P.gl[0].term)}</b>${P.gl[0].full?` (${esc(P.gl[0].full)})`:""}: ${esc(P.gl[0].def)}</div>`;
+    s += docs.map(d => { const l = d.hits.find(x => x.lab !== "Name") || d.hits[0];
+      return `<a class="res" href="${h}#d/${d.it.id}"><div style="display:flex;align-items:center;gap:12px"><div style="flex:1;min-width:0"><div class="t">${hl(d.it.label, P)} ${d.it.sc==="old"?'<span class="pill p-old">Superseded</span>':""}</div><div class="m">${esc(d.it.type)} · ${esc(m.themeOf.get(d.it.id)?.nice||"")}</div></div><span class="bar" title="Relevance"><i style="width:${Math.round(d.rel*100)}%"></i></span></div>${l?`<div class="s"><b style="font-weight:600">${esc(l.lab)}:</b> ${hl(trunc(l.txt, 220), P)}</div>`:""}</a>`; }).join("");
+    s += defs.map(x => `<a class="res" href="${h}#d/${x.d.id}/definitions"><div class="t">“${esc(x.d.term)}” <span class="pill p-grey" style="margin-left:6px">Definition</span></div><div class="m">${esc(x.it?x.it.label:x.d.id)} · ${esc(x.d.para)}</div><div class="s">${hl(trunc(x.d.def, 220), P)}</div></a>`).join("");
+    return s;
+  }
   function runSearch(){
     const raw = $("#q").value.trim(), box = $("#results");
-    if (raw.length < 2 || !M) { box.hidden = true; return; }
-    const P = parseQuery(M, raw), docs = rankDocs(M, P, { layer: L() < 0 ? undefined : L() }).slice(0, 7), defs = matchDefs(M, P).slice(0, 3);
-    let h = `<div class="rhead"><b>RBI</b><span>${docs.length ? `Top ${docs.length} instruments` : "No instrument matches"}${L()>=0?" for your layer":""}</span><a class="lnk" style="margin-left:auto" href="rbi/#search/${encodeURIComponent(raw)}">All results →</a></div>`;
-    if (P.gl.length) h += `<div class="meaning"><b>${esc(P.gl[0].term)}</b>${P.gl[0].full?` (${esc(P.gl[0].full)})`:""}: ${esc(P.gl[0].def)}</div>`;
-    h += docs.map(d => { const l = d.hits.find(x => x.lab !== "Name") || d.hits[0];
-    h += defs.map(x => `<a class="res" href="rbi/#d/${x.d.id}/definitions"><div class="t">“${esc(x.d.term)}” <span class="pill p-grey" style="margin-left:6px">Definition</span></div><div class="m">${esc(x.it?x.it.label:x.d.id)} · ${esc(x.d.para)}</div><div class="s">${hl(trunc(x.d.def, 220), P)}</div></a>`).join("");
-      return `<a class="res" href="rbi/#d/${d.it.id}"><div style="display:flex;align-items:center;gap:12px"><div style="flex:1;min-width:0"><div class="t">${hl(d.it.label, P)} ${d.it.sc==="old"?'<span class="pill p-old">Superseded</span>':""}</div><div class="m">${esc(d.it.type)} · ${esc(M.themeOf.get(d.it.id)?.nice||"")}</div></div><span class="bar" title="Relevance"><i style="width:${Math.round(d.rel*100)}%"></i></span></div>${l?`<div class="s"><b style="font-weight:600">${esc(l.lab)}:</b> ${hl(trunc(l.txt, 220), P)}</div>`:""}</a>`; }).join("");
-    h += `<div class="rhead" style="justify-content:space-between"><span>SEBI, IRDAI and court rulings become searchable as each section goes live.</span>${hub.ai_endpoint?`<button class="lnk" type="button" id="askai">Ask Not So Intelligent AI →</button>`:""}</div>`;
+    if (raw.length < 2 || !M()) { box.hidden = true; return; }
+    const order = K() === "irdai" ? ["irdai", "rbi"] : ["rbi", "irdai"];
+    let h = order.map(k => block(k, raw)).join("");
+    h += `<div class="rhead" style="justify-content:space-between"><span>SEBI and court rulings become searchable as each section goes live.</span>${hub.ai_endpoint?`<button class="lnk" type="button" id="askai">Ask Not So Intelligent AI →</button>`:""}</div>`;
     box.innerHTML = h; box.hidden = false;
     const a = $("#askai"); if (a) a.addEventListener("click", () => openJudge(raw));
   }
   $("#q").addEventListener("input", () => { clearTimeout(tmr); tmr = setTimeout(runSearch, 160); });
-  $("#qform").addEventListener("submit", e => { e.preventDefault(); const raw = $("#q").value.trim(); if (raw) location.href = "rbi/#search/" + encodeURIComponent(raw); });
+  $("#qform").addEventListener("submit", e => { e.preventDefault(); const raw = $("#q").value.trim(); if (raw) location.href = `${secs[K()].href}#search/` + encodeURIComponent(raw); });
 
-  renderTasks(); renderUpdates(); renderRegs(); lensNote();
-  if (M) $("#asof").textContent = `RBI register as on ${fmtDate(M.meta.as_of)}`;
-  if (hub.ai_endpoint) initJudge({ M, endpoint: hub.ai_endpoint, fulltext: rbi.data.fulltext, link: id => "rbi/#d/" + id, wide: true, scope: "Answers from the RBI texts on this site" });
+  renderTasks(); renderUpdates(); renderRegs(); lensNote(); judge();
+  if (MS.rbi) $("#asof").textContent = `RBI register as on ${fmtDate(MS.rbi.meta.as_of)}${MS.irdai ? ` · IRDAI as on ${fmtDate(MS.irdai.meta.as_of)}` : ""}`;
 })();
 </script>
 </body>

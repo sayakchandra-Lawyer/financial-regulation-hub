@@ -1,0 +1,1969 @@
+{
+ "meta": {
+  "title": "IRDAI rules for insurers and insurance distributors",
+  "as_of": "2026-11-25",
+  "count": 49,
+  "in_force": 41,
+  "lenses": [
+   {
+    "id": "ENT-LIFE",
+    "name": "Life insurer"
+   },
+   {
+    "id": "ENT-HEALTH",
+    "name": "Health insurer"
+   },
+   {
+    "id": "ENT-CA",
+    "name": "Corporate agent (incl. digital)"
+   },
+   {
+    "id": "ENT-AGENT",
+    "name": "Individual agent"
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "id": "ACT-INS",
+   "label": "Insurance Act, 1938",
+   "title": "The Insurance Act, 1938 (as amended up to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025)",
+   "group": "Statutes, regulator and enforcement",
+   "type": "Act",
+   "status": "In force (amended by Act 40 of 2025 from 05-02-2026)",
+   "url": "https://irdai.gov.in/documents/37343/366193/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+1938+%28%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%A8%29+_+Insurance+Act+1938+%28updated+with+SBSR+Act+2025%29.pdf/68dfbb81-eb23-0e2b-4451-95d35c64607a?version=1.1&t=1782730546504&download=true",
+   "issue_date": "1938-02-26",
+   "updated_as_on": "2026-04-15"
+  },
+  {
+   "id": "ACT-IRDA",
+   "label": "IRDA Act, 1999",
+   "title": "The Insurance Regulatory and Development Authority Act, 1999 (as amended)",
+   "group": "Statutes, regulator and enforcement",
+   "type": "Act",
+   "status": "In force (amended by Act 40 of 2025)",
+   "url": "https://irdai.gov.in/documents/37343/366193/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE+1999+%28%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%A8%29+_+IRDA+Act+1999+%28updated+with+SBSR+Act+2025%29.pdf/d2c36257-bdfe-8e90-4841-27385287b048?version=1.1&t=1782730526219&download=true",
+   "issue_date": "1999-12-29",
+   "updated_as_on": "2026-03-01"
+  },
+  {
+   "id": "ACT-SBSR",
+   "label": "Sabka Bima Sabki Raksha Act, 2025",
+   "title": "The Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025",
+   "group": "Statutes, regulator and enforcement",
+   "type": "Act",
+   "status": "In force (amending Act)",
+   "url": "https://irdai.gov.in/documents/37343/366193/%E0%A4%B8%E0%A4%AC%E0%A4%95%E0%A4%BE+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%AC%E0%A4%95%E0%A5%80+%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%29+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+_+Sabka+Bima+Sabki+Raksha+%28Amendment+of+Insurance+Laws%29+Act%2C+2025.pdf/38e021ca-db0d-0e3f-9a2b-432cc170d638?version=1.0&t=1784092449779&download=true",
+   "issue_date": "2025-12-21",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-PENALTY-2026",
+   "label": "Penalty procedure",
+   "title": "IRDAI (Manner and Procedure for Imposing Penalties) Regulations, 2026",
+   "group": "Statutes, regulator and enforcement",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Manner+and+Procedure+for+imposing+penalties%29+Regulations%2C+2026.pdf/04bdaf52-bcdc-c7d3-ee78-f407401f62df?version=1.1&t=1785736374877&download=true",
+   "issue_date": "2026-07-31",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-PEPF-2026",
+   "label": "Policyholders' Education and Protection Fund",
+   "title": "IRDAI (Policyholders' Education and Protection Fund) Regulations, 2026",
+   "group": "Statutes, regulator and enforcement",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/Insurance+Regulatory+and+Development+Authority+of+India+%28Policyholders%E2%80%99+Education+and+Protection+Fund%29+Regulations%2C+2026.pdf/c6663b2c-d6c7-01d8-7629-d0b5c81b718f?version=2.0&t=1785735947710&download=true",
+   "issue_date": "2026-07-31",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-SANDBOX",
+   "label": "Regulatory sandbox",
+   "title": "IRDAI (Regulatory Sandbox) Regulations, 2025",
+   "group": "Statutes, regulator and enforcement",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%B8%E0%A5%88%E0%A4%82%E0%A4%A1%E0%A4%AC%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%B8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Regulatory+Sandbox%29+Regulations%2C+2025.pdf/6e398707-c6e5-0eb6-38b3-66b051082b72?version=1.1&t=1737024693663&download=true",
+   "issue_date": "2025-01-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-REGN",
+   "label": "Registration, capital and share transfers of insurers",
+   "title": "IRDAI (Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers) Regulations, 2024 (consolidated to 30-07-2026)",
+   "group": "Registration, capital and ownership",
+   "type": "Regulation",
+   "status": "In force (amended 31-07-2026)",
+   "url": "https://irdai.gov.in/documents/37343/366405/Consolidated+IRDAI+%28Registration%2C+Capital+Structure%2C+Transfer+of+Shares+and+Amalgamation+of+Insurers%29+Regulations%2C+2024+incorporating+amendments+upto+30.07.2026.pdf/6a83119a-42e3-5421-c6cb-cf14acbe57dc?version=1.1&t=1787140222095&download=true",
+   "issue_date": "2024-03-19",
+   "updated_as_on": "2026-07-30"
+  },
+  {
+   "id": "MC-REGN",
+   "label": "Master Circular on registration of insurers",
+   "title": "Master Circular on Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers, 2026",
+   "group": "Registration, capital and ownership",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%2C+%E0%A4%AA%E0%A5%82%E0%A4%81%E0%A4%9C%E0%A5%80+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8%2C+%E0%A4%B6%E0%A5%87%E0%A4%AF%E0%A4%B0%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A4%A3+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AE%E0%A5%87%E0%A4%B2%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2026+_+Master+Circular+on+Registration%2C+Capital+Structure%2C+Transfer+of+Shares+and+Amalgamation+of+Insurers%2C+2026.pdf/90f65b79-1afa-80cc-be02-0a5dae81913a?version=2.0&t=1794221773959&download=true",
+   "issue_date": "2026-11-02",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-CG",
+   "label": "Corporate governance for insurers",
+   "title": "IRDAI (Corporate Governance for Insurers) Regulations, 2024",
+   "group": "Governance, actuarial and finance",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A5%80+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Corporate+Governance+for+Insurers%29+Regulations%2C+2024.pdf/8790b24d-fffe-dd53-e0b6-403faed32fb4?version=1.3&t=1712314595969&download=true",
+   "issue_date": "2024-03-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-CG",
+   "label": "Master Circular on corporate governance",
+   "title": "Master Circular on Corporate Governance for Insurers, 2024",
+   "group": "Governance, actuarial and finance",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A5%80+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%A8+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2024+_+Master+Circular+on+Corporate+Governance+for+Insurers%2C+2024.pdf/ad741841-d705-96c8-cdf3-ba10eb89e592?version=5.0&t=1744876672420&download=true",
+   "issue_date": "2024-05-22",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-20260525-13",
+   "label": "Remuneration of KMPs",
+   "title": "Remuneration to Key Management Persons (KMPs)",
+   "group": "Governance, actuarial and finance",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%81%E0%A4%96+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%28%E0%A4%95%E0%A5%87%E0%A4%8F%E0%A4%AE%E0%A4%AA%E0%A5%80%E0%A4%8F%E0%A4%B8%29+%E0%A4%95%E0%A5%8B+%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%95+_+Remuneration+to+Key+Management+Persons+%28KMPs%29.pdf/9d5a30f4-538e-e7fa-c1ba-7e9f01ebdf27?version=3.0&t=1779887395196&download=true",
+   "issue_date": "2026-05-25",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-AFI",
+   "label": "Actuarial, finance and investment functions",
+   "title": "IRDAI (Actuarial, Finance and Investment Functions of Insurers) Regulations, 2024 (amended 2026)",
+   "group": "Governance, actuarial and finance",
+   "type": "Regulation",
+   "status": "In force (amended 30-03-2026 and 31-07-2026)",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%BF%E0%A4%95%2C+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4+%E0%A4%94%E0%A4%B0+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Actuarial%2C+Finance+and+Investment+Functions+of+Insurers%29+Reg+2024.pdf/6f2137f3-fe0c-cbf5-eb67-41a70b698437?version=1.3&t=1712314561961&download=true",
+   "issue_date": "2024-03-20",
+   "updated_as_on": "2026-07-31"
+  },
+  {
+   "id": "MC-AFI",
+   "label": "Master Circular on actuarial, finance and investment",
+   "title": "Master Circular on Actuarial, Finance and Investment Functions of Insurers",
+   "group": "Governance, actuarial and finance",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%BF%E0%A4%95%2C+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4+%E0%A4%94%E0%A4%B0+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Actuarial%2C+Finance+and+Investment+Functions+of+Insurers.pdf/4e1e1169-2211-1f87-c341-9e6d6dd9f818?version=2.1&t=1721824676048&download=true",
+   "issue_date": "2024-05-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-PROD",
+   "label": "Insurance products",
+   "title": "IRDAI (Insurance Products) Regulations, 2024",
+   "group": "Insurance products",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Insurance+Products%29+Regulations%2C+2024.pdf/eb55db8a-a617-d492-b313-f13cfb11afeb?version=1.2&t=1712320142367&download=true",
+   "issue_date": "2024-03-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-HEALTH",
+   "label": "Master Circular on health insurance",
+   "title": "Master Circular on Health Insurance Business",
+   "group": "Insurance products",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Health+Insurance+Business+29052024.pdf/5e707a91-b5de-1ec1-cf18-b66273a6839d?version=2.1&t=1719834812962&download=true",
+   "issue_date": "2024-05-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-LIFE",
+   "label": "Master Circular on life insurance products",
+   "title": "Master Circular on Life Insurance Products",
+   "group": "Insurance products",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Life+Insurance+Products.pdf/d7ca89f3-b894-8c93-3e53-d8caf67a8ba6?version=2.1&t=1733233494424&download=true",
+   "issue_date": "2024-06-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-20250130-31",
+   "label": "Premium revision for senior citizens",
+   "title": "Review of revision in premium rates under health insurance policies for senior citizens",
+   "group": "Insurance products",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%B0%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0+%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A4+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+%E0%A4%A6%E0%A4%B0%E0%A5%8B%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8+%E0%A4%95%E0%A5%80+%E0%A4%B8%E0%A4%AE%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+_+Review+of+revision+in+premium+rates+under+health+insurance+policies+for+senior+citizens.pdf/b703b6bf-d407-e8f0-a302-c17260bec4a5?version=3.0&t=1738652759491&download=true",
+   "issue_date": "2025-01-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-20260731-32",
+   "label": "TPA amendments 2026",
+   "title": "IRDAI (Third Party Administrators – Health Services) (Amendment) Regulations, 2026",
+   "group": "Insurance products",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Third+Party+Administrators+%E2%80%93+Health+Services%29+%28Amendment%29+Regulations%2C+2026.pdf/74ec2d16-6d9d-cb31-4780-2eb74169c58e?version=1.0&t=1785737695021&download=true",
+   "issue_date": "2026-07-31",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-PPHI",
+   "label": "Policyholder protection and insurer operations",
+   "title": "IRDAI (Protection of Policyholders' Interests, Operations and Allied Matters of Insurers) Regulations, 2024",
+   "group": "Policyholder protection, claims and grievances",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%A7+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Protection+of+Policyholder%27s+Interests%2C+operations+and+allied+matters+of+insurers%29+Regulations%2C+2024.pdf/330674c5-0adb-4eb7-a399-95d779246ff8?version=1.2&t=1712320815911&download=true",
+   "issue_date": "2024-03-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-PPHI",
+   "label": "Master Circular on policyholder protection",
+   "title": "Master Circular on Protection of Policyholders' Interests, 2024",
+   "group": "Policyholder protection, claims and grievances",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2024+_+Master+Circular+on+Protection+of+Policyholders%27+interests+2024.pdf/2bc6a186-5c96-461b-2946-89945b9d488c?version=5.1&t=1737118636654&download=true",
+   "issue_date": "2024-09-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-OPS",
+   "label": "Master Circular on operations and allied matters",
+   "title": "Master Circular on Operations and Allied Matters of Insurers",
+   "group": "Policyholder protection, claims and grievances",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%A7+%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Operations+and+Allied+Matters+of+Insurers.pdf/c4054914-a999-6bff-630e-2b4bc201f857?version=2.0&t=1723108314217&download=true",
+   "issue_date": "2024-06-19",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-OMB",
+   "label": "Insurance Ombudsman Rules, 2017",
+   "title": "Insurance Ombudsman Rules, 2017 (as amended up to 09-11-2023)",
+   "group": "Policyholder protection, claims and grievances",
+   "type": "Rules",
+   "status": "In force (amended 2023)",
+   "url": "https://www.cioins.co.in/notification/Insurance%20Ombudsman%20Rules,%202017(%20as%20amended%20till%2009.11.2023).pdf",
+   "issue_date": "2017-04-25",
+   "updated_as_on": "2023-11-09"
+  },
+  {
+   "id": "CIR-20260723-09",
+   "label": "Documents to the Insurance Ombudsman",
+   "title": "Submission of Self-Contained Note and other related documents to the Office of the Insurance Ombudsmen",
+   "group": "Policyholder protection, claims and grievances",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF+%E0%A4%95%E0%A5%8B+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%A4%E0%A4%83%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A3+%E0%A4%A8%E0%A5%8B%E0%A4%9F+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%BF%E0%A4%A4+%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5%E0%A5%87%E0%A4%9C%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Submission+of+Self-Contained+Note+and+other+related+documents+to+the+Office+of+the+Insurance+Ombudsmen.pdf/5b3409ab-4802-666e-e3db-d1990bfb370b?version=1.0&t=1784874677670&download=true",
+   "issue_date": "2026-07-23",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-20250218-30",
+   "label": "Bima-ASBA (UPI premium blocking)",
+   "title": "One-time Mandate for blocking the amount towards premium through UPI for issuance of life and health insurance policies – Bima-ASBA",
+   "group": "Policyholder protection, claims and grievances",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81+%E0%A4%AF%E0%A5%82%E0%A4%AA%E0%A5%80%E0%A4%86%E0%A4%88+%E0%A4%AE%E0%A5%88%E0%A4%82%E0%A4%A1%E0%A5%87%E0%A4%9F+%E0%A4%95%E0%A5%87+%E0%A4%AE%E0%A4%BE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE+%E0%A4%B8%E0%A5%87+%E0%A4%8F%E0%A4%95%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A4%97%E0%A5%80+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6+%E2%80%93+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE-%E0%A4%8F%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F+_+One-time+Mandate+for+blocking+the+amount+towards+premium+through+UPI+for+issuance+of+life+and+health+insurance+policies-+Bima-ASBA.pdf/d78302e2-fe28-e201-3bb0-0457a943db6e?version=2.0&t=1740135792276&download=true",
+   "issue_date": "2025-02-18",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-20260107-19",
+   "label": "1600-series numbers for service calls",
+   "title": "Implementation of TRAI Direction on mandatory adoption of the 1600-series to curb unsolicited commercial communication",
+   "group": "Policyholder protection, claims and grievances",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/1600-%E0%A4%B6%E0%A5%83%E0%A4%82%E0%A4%96%E0%A4%B2%E0%A4%BE+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%82%E0%A4%97%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%88+%28%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%A6%E0%A5%82%E0%A4%B0%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B0+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+_+Implementation+of+1600+Series+TRAI+directions.pdf/c8e0e0d1-4359-b70a-da07-63c175e8491b?version=1.0&t=1767791333736&download=true",
+   "issue_date": "2026-01-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-SUGAM",
+   "label": "Bima Sugam marketplace",
+   "title": "IRDAI (Bima Sugam – Insurance Electronic Marketplace) Regulations, 2024",
+   "group": "Policyholder protection, claims and grievances",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A5%81%E0%A4%97%E0%A4%AE+%E2%80%93+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%87%E0%A4%B2%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%95+%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Bima+Sugam-+Insurance+Electronic+Marketplace%29+Regulations%2C+2024.pdf/dc31b451-7eff-e155-e179-a81ad30d3105?version=1.0&t=1712310564868&download=true",
+   "issue_date": "2024-03-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-CA",
+   "label": "Corporate agents",
+   "title": "IRDAI (Registration of Corporate Agents) Regulations, 2015 (as amended in 2019, 2022 and 2026)",
+   "group": "Distribution: agents and corporate agents",
+   "type": "Regulation",
+   "status": "In force (amended 31-07-2026)",
+   "url": "https://irdai.gov.in/documents/37343/602265/IRDAI+%28Registration+Of+Corporate+Agents%29+Regulations%2C+2015.pdf/543af763-08c5-7aef-225e-5ba9a4e42325?version=1.3&t=1665255730295&download=true",
+   "issue_date": "2015-09-15",
+   "updated_as_on": "2026-07-31"
+  },
+  {
+   "id": "REG-INTERMED-AMD2026",
+   "label": "Intermediaries amendment 2026",
+   "title": "IRDAI (Insurance Intermediaries) (Amendment) Regulations, 2026",
+   "group": "Distribution: agents and corporate agents",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Insurance+Intermediaries%29+%28Amendment%29+Regulations%2C+2026.pdf/4961106d-b7f4-c117-a302-4bf3ef9356c5?version=1.0&t=1785736027526&download=true",
+   "issue_date": "2026-07-31",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "FAQ-INTERMED-2026",
+   "label": "FAQs on the intermediaries amendment",
+   "title": "FAQs on Insurance Intermediaries (Amendment) Regulations, 2026",
+   "group": "Distribution: agents and corporate agents",
+   "type": "FAQ",
+   "status": "In force (explanatory)",
+   "url": "https://irdai.gov.in/faqs-on-insurance-intermediaries-amendment-regulations-2026",
+   "issue_date": "2026-08-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-AGENT",
+   "label": "Appointment of insurance agents",
+   "title": "IRDAI (Appointment of Insurance Agents) Regulations, 2016",
+   "group": "Distribution: agents and corporate agents",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2016+_+IRDAI+%28APPOINTMENT+OF+INSURANCE+AGENTS%29+REGULATIONS%2C+2016.pdf/38ea13ee-c319-98c6-ade5-7bfa7b561682?version=1.1&t=1687411143635&download=true",
+   "issue_date": "2016-03-15",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-20250509-26",
+   "label": "Corporate agency of amalgamated RRBs",
+   "title": "Corporate Agency Matters Concerning RRBs Amalgamated from 1st May 2025 and Beyond",
+   "group": "Distribution: agents and corporate agents",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A5%80%E0%A4%A3+%E0%A4%AC%E0%A5%88%E0%A4%82%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%87%E0%A4%9F+%E0%A4%8F%E0%A4%9C%E0%A5%87%E0%A4%82%E0%A4%B8%E0%A5%80+%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%2C+%E0%A4%9C%E0%A4%BF%E0%A4%A8%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AE%E0%A5%87%E0%A4%B2%E0%A4%A8+1+%E0%A4%AE%E0%A4%88+2025+%E0%A4%B8%E0%A5%87+%E0%A4%94%E0%A4%B0+%E0%A4%89%E0%A4%B8%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A4%BE%E0%A4%A6+%E0%A4%B9%E0%A5%81%E0%A4%86+%E0%A4%B9%E0%A5%88+_+Corporate+Agency+Matters+Concerning+RRBs+Amalgamated+from+1st+May+2025+and+Beyond.pdf/c3efa19e-e64e-a922-1bc1-511470960416?version=2.0&t=1747138379147&download=true",
+   "issue_date": "2025-05-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-EOM",
+   "label": "Expenses of management and commission",
+   "title": "IRDAI (Expenses of Management, including Commission, of Insurers) Regulations, 2024",
+   "group": "Commission and expenses of management",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%95%E0%A4%AE%E0%A5%80%E0%A4%B6%E0%A4%A8+%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28EOM+including+Commission%29+Regulations%2C2024.pdf/9af08911-7e26-a6c3-8b29-9d4a95968301?version=1.0&t=1706101332744&download=true",
+   "issue_date": "2024-01-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-EOM",
+   "label": "Master Circular on expenses and commission",
+   "title": "Master Circular on Expenses of Management, including Commission, of Insurers, 2024",
+   "group": "Commission and expenses of management",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%95%E0%A4%AE%E0%A5%80%E0%A4%B6%E0%A4%A8+%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%AF%2C+2024+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Expenses+of+Management%2C+including+Commission%2C+of+Insurers%2C+2024.pdf/8b5f9495-837e-bd67-60f2-68e2be57b0b1?version=3.0&t=1716209830485&download=true",
+   "issue_date": "2024-05-15",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-RRS",
+   "label": "Rural, social sector and motor third party obligations",
+   "title": "IRDAI (Rural, Social Sector and Motor Third Party Obligations) Regulations, 2024",
+   "group": "Rural, social sector and motor obligations",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A5%80%E0%A4%A3%2C+%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95+%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%94%E0%A4%B0+%E0%A4%AE%E0%A5%8B%E0%A4%9F%E0%A4%B0+%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A4%95%E0%A5%8D%E0%A4%B7+%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B5%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Rural%2C+social+sector+and+Motor+third+party+obligations%29+Regulations%2C+2024.pdf/25275be5-19c5-9e21-5965-5b37010e225e?version=1.1&t=1712320288621&download=true",
+   "issue_date": "2024-02-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-RRS",
+   "label": "Master Circular on rural, social and motor obligations",
+   "title": "Master Circular on Rural, Social Sector and Motor Third Party Obligations",
+   "group": "Rural, social sector and motor obligations",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A5%80%E0%A4%A3%2C+%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95+%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%94%E0%A4%B0+%E0%A4%AE%E0%A5%8B%E0%A4%9F%E0%A4%B0+%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A4%95%E0%A5%8D%E0%A4%B7+%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Rural%2C+Social+Sector+and+Motor+Third+Party+Obligations.pdf/22343683-1b1b-8b6b-55f7-f80317a4cad8?version=1.0&t=1753450439575&download=true",
+   "issue_date": "2025-07-25",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-AML",
+   "label": "AML/CFT guidelines",
+   "title": "Master Guidelines on Anti-Money Laundering / Counter Financing of Terrorism (AML/CFT), 2022 (amended 2023)",
+   "group": "AML, fraud and cyber security",
+   "type": "Guidelines",
+   "status": "In force (amended 10-10-2023)",
+   "url": "https://irdai.gov.in/documents/37343/366029/Master+Guidelines+on+Anti-Money+Laundering+2022.pdf/0e50dd32-00f3-33e1-ebee-0d0989d67932?version=1.1&t=1665032662486&download=true",
+   "issue_date": "2022-08-01",
+   "updated_as_on": "2023-10-10"
+  },
+  {
+   "id": "MC-FRAUD",
+   "label": "Insurance fraud monitoring framework",
+   "title": "IRDAI (Insurance Fraud Monitoring Framework) Guidelines, 2025",
+   "group": "AML, fraud and cyber security",
+   "type": "Guidelines",
+   "status": "In force from 01-04-2026",
+   "url": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%A7%E0%A5%8B%E0%A4%96%E0%A4%BE%E0%A4%A7%E0%A4%A1%E0%A4%BC%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%97%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%80+%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%B0%E0%A5%87%E0%A4%96%E0%A4%BE%29+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2025+_+IRDAI+%28Insurance+Fraud+Monitoring+Framework%29+Guidelines%2C+2025.pdf/99fa5c70-aee2-43af-d52b-50818f53c1df?version=2.5&t=1762079011603&download=true",
+   "issue_date": "2025-10-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-CYBER",
+   "label": "Information and cyber security guidelines",
+   "title": "IRDAI Information and Cyber Security Guidelines, 2026",
+   "group": "AML, fraud and cyber security",
+   "type": "Guidelines",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2026+_+IRDAI+Information+and+Cybersecurity+Guidelines%2C+2026.pdf/9714979d-6006-3809-297f-91a4593ac072?version=2.0&t=1777011998536&download=true",
+   "issue_date": "2026-04-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-20250326-27",
+   "label": "Cyber incident preparedness",
+   "title": "Circular on Cyber Incident or Crisis Preparedness",
+   "group": "AML, fraud and cyber security",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%98%E0%A4%9F%E0%A4%A8%E0%A4%BE+%E0%A4%AF%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%95%E0%A4%9F+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81+%E0%A4%A4%E0%A5%88%E0%A4%AF%E0%A4%BE%E0%A4%B0%E0%A5%80+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Circular+on+Cyber+Incident+or+Crisis+Preparedness.pdf/2b53047f-cf15-ea35-f8af-882a3150ef2c?version=2.0&t=1744030330726&download=true",
+   "issue_date": "2025-03-26",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-INFO",
+   "label": "Maintenance and sharing of information",
+   "title": "IRDAI (Maintenance of Information by the Regulated Entities and Sharing of Information by the Authority) Regulations, 2025",
+   "group": "Returns, records and disclosure",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BF%E0%A4%A4+%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%95%E0%A4%BE+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3+%E0%A4%A4%E0%A4%A5%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%95%E0%A5%87+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%95%E0%A5%80+%E0%A4%B8%E0%A4%BE%E0%A4%9D%E0%A5%87%E0%A4%A6%E0%A4%BE%E0%A4%B0%E0%A5%80%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+_+IRDAI+%28Maintenance+of+Information+by+the+Regulated+Entities+and+Sharing+of+Information+by+the+Authority%29%2C+Regulations+2025.pdf/1e4ffda7-5f81-e087-ceb5-ae3c6ab0f186?version=1.1&t=1737024827159&download=true",
+   "issue_date": "2025-01-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-RET",
+   "label": "Master Circular on returns",
+   "title": "Master Circular on Submission of Returns, 2024",
+   "group": "Returns, records and disclosure",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%A3%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2024+_+Master+Circular+on+Submission+of+Returns%2C+2024.pdf/7ea64c43-a74b-1c31-d6f4-f7db5451fb54?version=3.0&t=1732194180721&download=true",
+   "issue_date": "2024-06-14",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-ADV",
+   "label": "Advertisements and disclosure 2021",
+   "title": "IRDAI (Insurance Advertisements and Disclosure) Regulations, 2021",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Repealed by the PPHI Regulations 2024 (2024-04-01)",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2021+_+IRDAI+%28Insurance+Advertisements+and+Disclosure%29+Regulations%2C+2021.pdf/0a7cdeb0-f9ba-ec3d-632f-275a9c185a7e?version=1.3&t=1687411247203&download=true",
+   "issue_date": "2021-04-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-OUTS",
+   "label": "Outsourcing by insurers 2017",
+   "title": "IRDAI (Outsourcing of Activities by Indian Insurers) Regulations, 2017",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Repealed by the PPHI Regulations 2024 (2024-04-01)",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A4%B2%E0%A4%BE%E0%A4%AA%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AC%E0%A4%BE%E0%A4%B9%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2017+_+IRDAI+%28Outsourcing+of+Activities+by+Indian+Insurers%29+Regulations%2C+2017.pdf/ce585410-a5bc-d16c-2b29-f41582574851?version=1.3&t=1687411431894&download=true",
+   "issue_date": "2017-05-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "SUP-PPHI2017",
+   "label": "Policyholders' interests 2017",
+   "title": "IRDAI (Protection of Policyholders' Interests) Regulations, 2017",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Repealed by the PPHI Regulations 2024 (2024-04-01)",
+   "url": "",
+   "issue_date": "2017-06-22",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "SUP-HEALTH2016",
+   "label": "Health insurance regulations 2016",
+   "title": "IRDAI (Health Insurance) Regulations, 2016",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Repealed by the Insurance Products Regulations 2024 (2024-04-01)",
+   "url": "",
+   "issue_date": "2016-07-14",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "SUP-FRAUD2013",
+   "label": "Fraud monitoring framework 2013",
+   "title": "Insurance Fraud Monitoring Framework",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Repealed by the Fraud Monitoring Framework Guidelines 2025 (2026-04-01)",
+   "url": "",
+   "issue_date": "2013-01-21",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "SUP-CYBER2023",
+   "label": "Cyber security guidelines 2023",
+   "title": "IRDAI Guidelines on Information and Cyber Security for Regulated Entities, 2023",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Repealed by the Information and Cyber Security Guidelines 2026 (2026-04-06)",
+   "url": "",
+   "issue_date": "2023-04-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "SUP-RECORDS2015",
+   "label": "Maintenance of insurance records 2015",
+   "title": "IRDAI (Maintenance of Insurance Records) Regulations, 2015",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Repealed by the Maintenance of Information Regulations 2025 (2025-01-10)",
+   "url": "",
+   "issue_date": "2015-07-21",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-20260316-17",
+   "label": "Annual fee transition 2026",
+   "title": "Transitional arrangements for payment of Annual Fee and issuance of Certificate of Registration (Intermediaries), extended on 02-07-2026",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Repealed by the Intermediaries (Amendment) Regulations 2026 (2026-07-31)",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%8F%E0%A4%81+%28%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82%29+_+Transitional+arrangements+for+payment+of+Annual+Fee+and+issuance++of++Certificate++of++Registration+%28Intermediaries%29.pdf/840b8111-53f2-566b-e1ce-e2d5a6b961aa?version=2.0&t=1774597157001&download=true",
+   "issue_date": "2026-03-16",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ENT-LIFE",
+   "label": "Life insurer",
+   "title": "Life insurer",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-HEALTH",
+   "label": "Health insurer",
+   "title": "Health insurer",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-CA",
+   "label": "Corporate agent (incl. digital)",
+   "title": "Corporate agent (incl. digital)",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-AGENT",
+   "label": "Individual agent",
+   "title": "Individual agent",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  }
+ ],
+ "edges": [
+  {
+   "source": "ACT-INS",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "Insurers (life, general, health, reinsurance); Insurance agents and insurance intermediaries, including corporate agents"
+  },
+  {
+   "source": "ACT-INS",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "Insurers (life, general, health, reinsurance); Insurance agents and insurance intermediaries, including corporate agents"
+  },
+  {
+   "source": "ACT-INS",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "Insurers (life, general, health, reinsurance); Insurance agents and insurance intermediaries, including corporate agents"
+  },
+  {
+   "source": "ACT-INS",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "Insurers (life, general, health, reinsurance); Insurance agents and insurance intermediaries, including corporate agents"
+  },
+  {
+   "source": "ACT-SBSR",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "Insurers and insurance intermediaries (amends the Insurance Act, 1938 and the IRDA Act, 1999)"
+  },
+  {
+   "source": "ACT-SBSR",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "Insurers and insurance intermediaries (amends the Insurance Act, 1938 and the IRDA Act, 1999)"
+  },
+  {
+   "source": "ACT-SBSR",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "Insurers and insurance intermediaries (amends the Insurance Act, 1938 and the IRDA Act, 1999)"
+  },
+  {
+   "source": "ACT-SBSR",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "Insurers and insurance intermediaries (amends the Insurance Act, 1938 and the IRDA Act, 1999)"
+  },
+  {
+   "source": "REG-PENALTY-2026",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All proceedings for penalties under the Insurance Act, the IRDA Act and rules, regulations and subsidiary instructions"
+  },
+  {
+   "source": "REG-PENALTY-2026",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All proceedings for penalties under the Insurance Act, the IRDA Act and rules, regulations and subsidiary instructions"
+  },
+  {
+   "source": "REG-PENALTY-2026",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All proceedings for penalties under the Insurance Act, the IRDA Act and rules, regulations and subsidiary instructions"
+  },
+  {
+   "source": "REG-PENALTY-2026",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "All proceedings for penalties under the Insurance Act, the IRDA Act and rules, regulations and subsidiary instructions"
+  },
+  {
+   "source": "REG-PENALTY-2026",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-PEPF-2026",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-SANDBOX",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-REGN",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "Applicants for insurance registration and registered insurers"
+  },
+  {
+   "source": "REG-REGN",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "Applicants for insurance registration and registered insurers"
+  },
+  {
+   "source": "REG-REGN",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-REGN",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "Applicants and registered insurers"
+  },
+  {
+   "source": "MC-REGN",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "Applicants and registered insurers"
+  },
+  {
+   "source": "MC-REGN",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-REGN",
+   "target": "REG-REGN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CG",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "REG-CG",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "REG-CG",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-CG",
+   "target": "MC-CG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-CG",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-CG",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-CG",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-CG",
+   "target": "REG-CG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-20260525-13",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "CIR-20260525-13",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "CIR-20260525-13",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "CIR-20260525-13",
+   "target": "REG-CG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-20260525-13",
+   "target": "MC-CG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-AFI",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "REG-AFI",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "REG-AFI",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-AFI",
+   "target": "MC-AFI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-AFI",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-AFI",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-AFI",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-AFI",
+   "target": "REG-AFI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PROD",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "Life, general and health insurers"
+  },
+  {
+   "source": "REG-PROD",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "Life, general and health insurers"
+  },
+  {
+   "source": "REG-PROD",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-PROD",
+   "target": "MC-HEALTH",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PROD",
+   "target": "MC-LIFE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-HEALTH",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "General and standalone health insurers; life insurers for benefit-based health products"
+  },
+  {
+   "source": "MC-HEALTH",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-HEALTH",
+   "target": "REG-PROD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-HEALTH",
+   "target": "MC-PPHI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-LIFE",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "Life insurers"
+  },
+  {
+   "source": "MC-LIFE",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-LIFE",
+   "target": "REG-PROD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-20250130-31",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "General and standalone health insurers"
+  },
+  {
+   "source": "CIR-20250130-31",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "CIR-20250130-31",
+   "target": "REG-PROD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-20250130-31",
+   "target": "MC-HEALTH",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-20260731-32",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "Third party administrators and the health insurers that use them"
+  },
+  {
+   "source": "CIR-20260731-32",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-PPHI",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers and their distribution channels"
+  },
+  {
+   "source": "REG-PPHI",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers and their distribution channels"
+  },
+  {
+   "source": "REG-PPHI",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All insurers and their distribution channels"
+  },
+  {
+   "source": "REG-PPHI",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "All insurers and their distribution channels"
+  },
+  {
+   "source": "REG-PPHI",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-PPHI",
+   "target": "MC-PPHI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PPHI",
+   "target": "MC-OPS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-PPHI",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers and distribution channels"
+  },
+  {
+   "source": "MC-PPHI",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers and distribution channels"
+  },
+  {
+   "source": "MC-PPHI",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All insurers and distribution channels"
+  },
+  {
+   "source": "MC-PPHI",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "All insurers and distribution channels"
+  },
+  {
+   "source": "MC-PPHI",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-PPHI",
+   "target": "REG-PPHI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-PPHI",
+   "target": "RULES-OMB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-OPS",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers; distribution channels for advertisements and servicing"
+  },
+  {
+   "source": "MC-OPS",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers; distribution channels for advertisements and servicing"
+  },
+  {
+   "source": "MC-OPS",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All insurers; distribution channels for advertisements and servicing"
+  },
+  {
+   "source": "MC-OPS",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "All insurers; distribution channels for advertisements and servicing"
+  },
+  {
+   "source": "MC-OPS",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-OPS",
+   "target": "REG-PPHI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-OMB",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers and their agents and intermediaries (rule 3)"
+  },
+  {
+   "source": "RULES-OMB",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers and their agents and intermediaries (rule 3)"
+  },
+  {
+   "source": "RULES-OMB",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All insurers and their agents and intermediaries (rule 3)"
+  },
+  {
+   "source": "RULES-OMB",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "All insurers and their agents and intermediaries (rule 3)"
+  },
+  {
+   "source": "RULES-OMB",
+   "target": "MC-PPHI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-20260723-09",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers except reinsurers"
+  },
+  {
+   "source": "CIR-20260723-09",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers except reinsurers"
+  },
+  {
+   "source": "CIR-20260723-09",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "CIR-20260723-09",
+   "target": "RULES-OMB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-20250218-30",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers and distribution channels (life and health policies)"
+  },
+  {
+   "source": "CIR-20250218-30",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers and distribution channels (life and health policies)"
+  },
+  {
+   "source": "CIR-20250218-30",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All insurers and distribution channels (life and health policies)"
+  },
+  {
+   "source": "CIR-20250218-30",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "All insurers and distribution channels (life and health policies)"
+  },
+  {
+   "source": "CIR-20250218-30",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "CIR-20250218-30",
+   "target": "MC-PPHI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-20260107-19",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers and insurance intermediaries"
+  },
+  {
+   "source": "CIR-20260107-19",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers and insurance intermediaries"
+  },
+  {
+   "source": "CIR-20260107-19",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All insurers and insurance intermediaries"
+  },
+  {
+   "source": "CIR-20260107-19",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-SUGAM",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "The Bima Sugam company; insurers and intermediaries that participate in the marketplace"
+  },
+  {
+   "source": "REG-SUGAM",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "The Bima Sugam company; insurers and intermediaries that participate in the marketplace"
+  },
+  {
+   "source": "REG-SUGAM",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "The Bima Sugam company; insurers and intermediaries that participate in the marketplace"
+  },
+  {
+   "source": "REG-SUGAM",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-CA",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "Corporate agents (life, general, health, composite), including those that sell online; Insurers that engage corporate agents"
+  },
+  {
+   "source": "REG-CA",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-CA",
+   "target": "REG-INTERMED-AMD2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CA",
+   "target": "FAQ-INTERMED-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INTERMED-AMD2026",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "Corporate agents, insurance brokers, insurance marketing firms, web aggregators and others under the amended regulations"
+  },
+  {
+   "source": "REG-INTERMED-AMD2026",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-INTERMED-AMD2026",
+   "target": "REG-CA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INTERMED-AMD2026",
+   "target": "FAQ-INTERMED-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "FAQ-INTERMED-2026",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "Corporate agents and other intermediaries"
+  },
+  {
+   "source": "FAQ-INTERMED-2026",
+   "target": "REG-INTERMED-AMD2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-AGENT",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "Individual insurance agents and the insurers that appoint them"
+  },
+  {
+   "source": "REG-AGENT",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "Individual insurance agents and the insurers that appoint them"
+  },
+  {
+   "source": "REG-AGENT",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "Individual insurance agents and the insurers that appoint them"
+  },
+  {
+   "source": "REG-AGENT",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "CIR-20250509-26",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "Regional Rural Banks registered as corporate agents and their insurer partners"
+  },
+  {
+   "source": "CIR-20250509-26",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "CIR-20250509-26",
+   "target": "REG-CA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-EOM",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers; commission paid to agents and intermediaries"
+  },
+  {
+   "source": "REG-EOM",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers; commission paid to agents and intermediaries"
+  },
+  {
+   "source": "REG-EOM",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All insurers; commission paid to agents and intermediaries"
+  },
+  {
+   "source": "REG-EOM",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "All insurers; commission paid to agents and intermediaries"
+  },
+  {
+   "source": "REG-EOM",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-EOM",
+   "target": "MC-EOM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-EOM",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-EOM",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-EOM",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-EOM",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-EOM",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-EOM",
+   "target": "REG-EOM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-RRS",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "REG-RRS",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "REG-RRS",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-RRS",
+   "target": "MC-RRS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-RRS",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-RRS",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-RRS",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-RRS",
+   "target": "REG-RRS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-AML",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "Life insurers and general insurers (including standalone health insurers)"
+  },
+  {
+   "source": "MC-AML",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "Life insurers and general insurers (including standalone health insurers)"
+  },
+  {
+   "source": "MC-AML",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-FRAUD",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers, intermediaries, insurance intermediaries and distribution channels"
+  },
+  {
+   "source": "MC-FRAUD",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers, intermediaries, insurance intermediaries and distribution channels"
+  },
+  {
+   "source": "MC-FRAUD",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All insurers, intermediaries, insurance intermediaries and distribution channels"
+  },
+  {
+   "source": "MC-FRAUD",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": "All insurers, intermediaries, insurance intermediaries and distribution channels"
+  },
+  {
+   "source": "MC-FRAUD",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-FRAUD",
+   "target": "MC-AML",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-CYBER",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers (including foreign reinsurer branches), brokers, corporate agents, web aggregators, TPAs, IMFs, repositories and the IIB"
+  },
+  {
+   "source": "MC-CYBER",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers (including foreign reinsurer branches), brokers, corporate agents, web aggregators, TPAs, IMFs, repositories and the IIB"
+  },
+  {
+   "source": "MC-CYBER",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "All insurers (including foreign reinsurer branches), brokers, corporate agents, web aggregators, TPAs, IMFs, repositories and the IIB"
+  },
+  {
+   "source": "MC-CYBER",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "CIR-20250326-27",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "Insurers and intermediaries"
+  },
+  {
+   "source": "CIR-20250326-27",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "Insurers and intermediaries"
+  },
+  {
+   "source": "CIR-20250326-27",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "Insurers and intermediaries"
+  },
+  {
+   "source": "CIR-20250326-27",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "CIR-20250326-27",
+   "target": "MC-CYBER",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INFO",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "Insurers, intermediaries and insurance intermediaries"
+  },
+  {
+   "source": "REG-INFO",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "Insurers, intermediaries and insurance intermediaries"
+  },
+  {
+   "source": "REG-INFO",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": "Insurers, intermediaries and insurance intermediaries"
+  },
+  {
+   "source": "REG-INFO",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-RET",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-RET",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": "All insurers"
+  },
+  {
+   "source": "MC-RET",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "MC-RET",
+   "target": "REG-AFI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-RET",
+   "target": "REG-EOM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-RET",
+   "target": "REG-RRS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-RET",
+   "target": "REG-PPHI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-ADV",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "REG-ADV",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "REG-ADV",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "REG-ADV",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "REG-ADV",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-OUTS",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "REG-OUTS",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "REG-OUTS",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "SUP-PPHI2017",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-PPHI2017",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-PPHI2017",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-PPHI2017",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-PPHI2017",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "SUP-HEALTH2016",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-HEALTH2016",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "SUP-FRAUD2013",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-FRAUD2013",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-FRAUD2013",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-FRAUD2013",
+   "target": "ENT-AGENT",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-FRAUD2013",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "SUP-CYBER2023",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-CYBER2023",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-CYBER2023",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-CYBER2023",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "SUP-RECORDS2015",
+   "target": "ENT-LIFE",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-RECORDS2015",
+   "target": "ENT-HEALTH",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "SUP-RECORDS2015",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "CIR-20260316-17",
+   "target": "ENT-CA",
+   "relation": "applies_to",
+   "basis": ""
+  },
+  {
+   "source": "CIR-20260316-17",
+   "target": "ACT-INS",
+   "relation": "issued_under",
+   "basis": "Insurance Act, 1938 and IRDA Act, 1999"
+  },
+  {
+   "source": "REG-PPHI",
+   "target": "REG-ADV",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "REG-PPHI",
+   "target": "REG-OUTS",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "REG-PPHI",
+   "target": "SUP-PPHI2017",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "REG-PROD",
+   "target": "SUP-HEALTH2016",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "MC-FRAUD",
+   "target": "SUP-FRAUD2013",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "MC-CYBER",
+   "target": "SUP-CYBER2023",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "REG-INFO",
+   "target": "SUP-RECORDS2015",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "REG-INTERMED-AMD2026",
+   "target": "CIR-20260316-17",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "MC-CG",
+   "target": "REG-CG",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MC-AFI",
+   "target": "REG-AFI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MC-EOM",
+   "target": "REG-EOM",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MC-RRS",
+   "target": "REG-RRS",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MC-REGN",
+   "target": "REG-REGN",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MC-PPHI",
+   "target": "REG-PPHI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MC-OPS",
+   "target": "REG-PPHI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MC-HEALTH",
+   "target": "REG-PROD",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MC-LIFE",
+   "target": "REG-PROD",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-20260525-13",
+   "target": "REG-CG",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-20250130-31",
+   "target": "MC-HEALTH",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-20260723-09",
+   "target": "RULES-OMB",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-20250218-30",
+   "target": "MC-PPHI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-INTERMED-AMD2026",
+   "target": "REG-CA",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "FAQ-INTERMED-2026",
+   "target": "REG-INTERMED-AMD2026",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-20250509-26",
+   "target": "REG-CA",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-20250326-27",
+   "target": "MC-CYBER",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-PENALTY-2026",
+   "target": "ACT-INS",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-PEPF-2026",
+   "target": "ACT-IRDA",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  }
+ ]
+}
