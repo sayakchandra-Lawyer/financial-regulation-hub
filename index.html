@@ -41,7 +41,7 @@
 <main>
   <section class="hero"><div class="in">
     <h1 class="rise" style="animation-delay:.05s">What do you need to know today?</h1>
-    <p class="lede rise" style="animation-delay:.1s">Plain-language summaries of the rules that bind NBFCs, HFCs, insurers and insurance distributors: obligations, deadlines and consequences of breach, each linked to the official text.</p>
+    <p class="lede rise" style="animation-delay:.1s">Plain-language summaries of the rules that bind NBFCs, HFCs, listed companies, market intermediaries, insurers and insurance distributors: obligations, deadlines and consequences of breach, each linked to the official text.</p>
     <form class="search rise" style="animation-delay:.15s" id="qform" role="search">
       <span id="qicon"></span><label class="sr" for="q">Search</label>
       <input id="q" type="search" autocomplete="off" placeholder="Ask a question or search, e.g. “minimum retention for securitisation”">
@@ -51,6 +51,7 @@
       <label for="layer">I am a:</label>
       <select class="chip" id="layer" aria-label="Who you are">
         <optgroup label="RBI"><option value="-1">NBFC, any layer</option><option value="0">NBFC in the Base Layer</option><option value="1">NBFC in the Middle Layer</option><option value="2">NBFC in the Upper Layer</option><option value="3">NBFC in the Top Layer</option></optgroup>
+        <optgroup label="Securities"><option value="s-1">Listed entity or intermediary, any role</option><option value="s0">Listed company (equity)</option><option value="s1">Issuer of listed debt</option><option value="s2">Mutual fund / AMC</option><option value="s3">Stock broker</option><option value="s4">AIF and its manager</option></optgroup>
         <optgroup label="Insurance"><option value="i-1">Insurer or distributor, any role</option><option value="i0">Life insurer</option><option value="i1">Health insurer</option><option value="i2">Corporate agent</option><option value="i3">Individual agent</option></optgroup>
       </select>
     </div>
@@ -83,16 +84,18 @@
   const NAME = Object.fromEntries(hub.sections.map(s => [s.id, s.short || s.name]));
   const lay = $("#layer");
   const saved = store.get("layer", "-1"); lay.value = [...lay.options].some(o => o.value === saved) ? saved : "-1";
-  const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : "rbi";      // which regulator the lens points to
-  const L = () => +lay.value.replace(/^i/, "");
+  const PFX = { rbi: "", sebi: "s", irdai: "i" };
+  const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : lay.value.startsWith("s") && MS.sebi ? "sebi" : "rbi";      // which regulator the lens points to
+  const L = () => +lay.value.replace(/^[is]/, "");
+  const resetTo = k => { lay.value = PFX[k] + "-1"; lay.dispatchEvent(new Event("change")); };
   const M = () => MS[K()];
-  const unit = () => K() === "irdai" ? "role" : "layer";
+  const unit = () => K() === "rbi" ? "layer" : "role";
   function lensNote(){
     const m = M(), c = $("#ctx"); if (!m) return;
     if (L() < 0) { c.innerHTML = `<span>Pick who you are to narrow the task counts, search and weekly changes.</span>`; return; }
     const n = m.items.filter(it => appliesAt(m, it, L())).length, who = lay.options[lay.selectedIndex].text;
     c.innerHTML = `<span>Showing: <b>${esc(who)}</b></span><span class="sep"></span><span>${n} ${NAME[K()]} instruments apply</span><span class="sep"></span><button class="lnk" type="button" id="lreset">Reset</button><span style="width:100%;font-size:13px;color:var(--muted)">Tasks, search and weekly changes follow this choice. A guide, not an applicability opinion.</span>`;
-    $("#lreset").addEventListener("click", () => { lay.value = K() === "irdai" ? "i-1" : "-1"; lay.dispatchEvent(new Event("change")); });
+    $("#lreset").addEventListener("click", () => resetTo(K()));
   }
   function judge(){
     if (!hub.ai_endpoint || !M()) return;
@@ -102,11 +105,16 @@
           intro: "Put your question on insurance law for insurers, agents and corporate agents, and I shall answer from the Acts, Regulations and Master Circulars on this site, citing the provision. Check what I say.",
           tries: [["What is the free look period for a life policy?", "Free look period"], ["How quickly must a cashless claim be authorised?", "Cashless claim timelines"], ["With how many insurers can a corporate agent tie up?", "Corporate agent tie-ups"]],
           placeholder: "Ask a question, e.g. How long is the moratorium on health claims?" }
+      : k === "sebi"
+      ? { section: "sebi", docs: "the securities texts", scope: "Answers from the securities texts on this site",
+          intro: "Put your question on securities law for listed companies, debt issuers, mutual funds, stock brokers and AIFs, and I shall answer from the Acts, Regulations and Master Circulars on this site, citing the provision. Check what I say.",
+          tries: [["Within how long must a listed company disclose a material event?", "Disclosure timelines"], ["What is the minimum net worth of a stock broker?", "Broker net worth"], ["What is the minimum corpus of an AIF scheme?", "AIF corpus"]],
+          placeholder: "Ask a question, e.g. When is a related party transaction material?" }
       : { section: "rbi", scope: "Answers from the RBI texts on this site" }));
   }
   lay.addEventListener("change", () => {
     store.set("layer", lay.value);
-    if (K() === "irdai") store.set("irdai.lens", String(L()));
+    if (K() !== "rbi") store.set(K() + ".lens", String(L()));
     lensNote(); renderTasks(); renderUpdates(); judge(); if ($("#q").value.trim()) runSearch();
   });
 
@@ -122,11 +130,11 @@
     const nT = live.reduce((a, it) => a + it.time.length, 0), nC = live.filter(it => it.cons.length).length;
     const nU = m ? m.updates.length : 0;
     const tasks = [
-      [k === "irdai" ? "What changed recently" : "What changed this week", nU ? `${nU} new item${nU>1?"s":""} from ${NAME[k]}, with what each one means` : "New circulars and amendments, explained", "new", `${h}#changes`],
+      [k !== "rbi" ? "What changed recently" : "What changed this week", nU ? `${nU} new item${nU>1?"s":""} from ${NAME[k]}, with what each one means` : "New circulars and amendments, explained", "new", `${h}#changes`],
       ["Compliance calendar", `${nT} timelines across ${live.filter(it=>it.time.length).length} ${NAME[k]} instruments${L()>=0?` for your ${unit()}`:""}`, "cal", `${h}#calendar`],
       ["Look up a defined term", m ? `${m.defs.length.toLocaleString("en-IN")} ${NAME[k]} definitions, each with the provision that governs` : "Defined terms with their paragraph", "def", `${h}#definitions`],
       ["Penalties and consequences", `What a breach can cost: ${nC} ${NAME[k]} instruments state their own consequences`, "pen", `${h}#penalties`],
-      [`Filter by ${K() === "irdai" ? "role" : "NBFC layer"}`, `Narrow every list to your ${unit()}. A guide, not an applicability opinion`, "who", `${h}#who`],
+      [`Filter by ${K() === "rbi" ? "NBFC layer" : "role"}`, `Narrow every list to your ${unit()}. A guide, not an applicability opinion`, "who", `${h}#who`],
       ["Court rulings on a point", "Supreme Court and High Court holdings since 2010", "jud", ""]
     ];
     $("#tasks").innerHTML = tasks.map(([t, s, ic, href], i) => `<a class="card tk rise" style="animation-delay:${.05*i}s" ${href?`href="${href}"`:`aria-disabled="true"`}>
@@ -175,7 +183,7 @@
   function renderUpdates(){
     const order = [K(), ...Object.keys(secs).filter(k => k !== K())];
     $("#upds").innerHTML = order.map(updGroup).join("") || `<p class="tag">No updates recorded yet.</p>`;
-    $$("[data-reset]").forEach(b => b.addEventListener("click", () => { lay.value = b.dataset.reset === "irdai" ? "i-1" : "-1"; lay.dispatchEvent(new Event("change")); }));
+    $$("[data-reset]").forEach(b => b.addEventListener("click", () => resetTo(b.dataset.reset)));
   }
 
   /* regulator cards */
@@ -208,6 +216,7 @@
   }
   const COMMON = {
     rbi: ["co-lending", "penal charges", "KYC periodic updation", "securitisation", "fair practices code", "gold loan"],
+    sebi: ["related party transaction", "trading window", "material event disclosure", "net worth", "AIF corpus", "SCORES complaint"],
     irdai: ["free look period", "cashless claim", "corporate agent", "commission", "grievance", "functional ID"]
   };
   function suggest(){
@@ -219,7 +228,7 @@
   function updMatches(raw){
     const ts = tok(raw).filter(t => !STOP.has(t)); if (!ts.length) return "";
     const hits = [];
-    ["rbi", "irdai"].forEach(k => (MS[k] ? MS[k].updates : []).forEach(u => {
+    Object.keys(MS).forEach(k => (MS[k] ? MS[k].updates : []).forEach(u => {
       const hay = [u.title, u.kind, ...(u.changes || [])].join(" ").toLowerCase();
       if (ts.every(t => hay.includes(t))) hits.push([k, u]);
     }));
@@ -233,7 +242,7 @@
     if (raw.length < 2 || !M()) { box.hidden = true; return; }
     const order = [K(), ...Object.keys(secs).filter(k => k !== K())];
     let h = order.map(k => block(k, raw)).join("") + updMatches(raw);
-    h += `<div class="rhead" style="justify-content:space-between"><span>SEBI and court rulings become searchable as each section goes live.</span>${hub.ai_endpoint?`<button class="lnk" type="button" id="askai">Ask Not So Intelligent AI →</button>`:""}</div>`;
+    h += `<div class="rhead" style="justify-content:space-between"><span>Court rulings become searchable once that section goes live.</span>${hub.ai_endpoint?`<button class="lnk" type="button" id="askai">Ask Not So Intelligent AI →</button>`:""}</div>`;
     box.innerHTML = h; box.hidden = false;
     const a = $("#askai"); if (a) a.addEventListener("click", () => openJudge(raw));
   }
@@ -244,7 +253,7 @@
   $("#qform").addEventListener("submit", e => { e.preventDefault(); const raw = $("#q").value.trim(); if (raw) location.href = `${secs[K()].href}#search/` + encodeURIComponent(raw); });
 
   renderTasks(); renderUpdates(); renderRegs(); lensNote(); judge();
-  if (MS.rbi) $("#asof").textContent = `RBI register as on ${fmtDate(MS.rbi.meta.as_of)}${MS.irdai ? ` · IRDAI as on ${fmtDate(MS.irdai.meta.as_of)}` : ""}`;
+  $("#asof").textContent = Object.keys(MS).map((k, i) => `${NAME[k]}${i ? "" : " register"} as on ${fmtDate(MS[k].meta.as_of)}`).join(" · ");
 })();
 </script>
 </body>

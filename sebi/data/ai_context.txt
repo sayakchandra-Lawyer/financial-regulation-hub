@@ -1,0 +1,632 @@
+SEBI REGISTER (listed companies, listed debt issuers, mutual funds/AMCs, stock brokers, AIFs) (as of 2026-11-25). One block per instrument. Fields: applies, excluded, concepts, duties, deadlines, breach (stated consequences), penalties (code of the shared statutory penalty text below), refs, repeals, defs (terms the instrument defines: term [para; scope]: meaning).
+
+SHARED STATUTORY PENALTY TEXTS:
+P1: SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).
+
+[ACT-SEBI] SEBI Act, 1992 | The Securities and Exchange Board of India Act, 1992 (as amended by the Finance Act, 2021) | Act 15 of 1992 | Act | In force | issued 1992-04-04 | subject: Statutes, enforcement, penalties and settlement
+applies: Every intermediary associated with the securities market, listed companies, issuers and any person dealing in securities
+concepts: Functions and powers of SEBI (s. 11)
+concepts: Interim and final directions, including disgorgement (s. 11B)
+concepts: Cease and desist orders (s. 11D)
+concepts: Registration of intermediaries (s. 12)
+concepts: Prohibition of manipulative and deceptive devices, insider trading and substantial acquisition (s. 12A)
+concepts: Adjudication of penalties (ss. 15A to 15-I)
+concepts: Settlement of administrative and civil proceedings (s. 15JB)
+concepts: Appeal to the Securities Appellate Tribunal (s. 15T)
+duties: s. 12(1): no stock broker, merchant banker, portfolio manager, investment adviser or other intermediary may buy, sell or deal in securities except under a certificate of registration from SEBI
+duties: s. 12A: no person may use manipulative or deceptive devices, deal on unpublished price sensitive information, or acquire control of a company except in line with SEBI regulations
+duties: s. 11(2A) and 11C: SEBI may call for information, inspect books and records, and investigate
+deadlines: s. 15T(3): appeal to the Securities Appellate Tribunal within 45 days of receiving the order
+breach: s. 15A: failure to furnish information, returns or books, or furnishing false information: Rs 1 lakh a day while it continues, up to Rs 1 crore
+breach: s. 15C: listed company or intermediary failing to redress investor grievances when called upon by SEBI: penalty under s. 15C
+breach: s. 15E: AMC breaching restrictions on its activities: Rs 1 lakh a day, up to Rs 1 crore
+breach: s. 15EA: breach of AIF, InvIT or REIT regulations or directions: Rs 1 lakh a day, up to the maximum in s. 15EA
+breach: s. 15F: stock broker failing to issue contract notes or charging excess brokerage: penalty under s. 15F
+breach: s. 15G: insider trading: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher
+breach: s. 15H: failure to make takeover disclosures or a required open offer: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher
+breach: s. 15HA: fraudulent and unfair trade practices: Rs 5 lakh up to Rs 25 crore or three times the profit, whichever is higher
+breach: s. 15HB: breach with no separate penalty: Rs 1 lakh up to Rs 1 crore
+breach: s. 24(1): offence punishable with imprisonment up to 10 years, fine up to Rs 25 crore, or both
+refs: ACT-SCRA; ACT-DEP; REG-SETTLE; REG-PENALTY
+penalties: P1
+defined terms (wording is in the full text): Board (definition clause); Chairman (definition clause); existing Securities and Exchange Board (definition clause); Fund (definition clause); member (definition clause); notification (definition clause); prescribed (definition clause); regulations (definition clause); securities (definition clause); chartered accountant (definition clause); company secretary (definition clause); cost accountant (definition clause); legal practitioner (definition clause); company (definition clause)
+
+[ACT-SCRA] SCRA, 1956 | The Securities Contracts (Regulation) Act, 1956 (as amended by the Finance Act, 2021) | Act 42 of 1956 | Act | In force | issued 1956-09-28 | subject: Statutes, enforcement, penalties and settlement
+applies: Recognised stock exchanges and clearing corporations; Listed companies and issuers seeking listing; Stock brokers dealing on exchanges
+concepts: Recognition of stock exchanges (s. 4)
+concepts: Listing of securities and conditions for listing (s. 21, 21A delisting)
+concepts: Contracts in notified areas only through or with members of a recognised exchange (s. 13, 16)
+concepts: Penalties under ss. 23A to 23H
+concepts: Settlement of proceedings (s. 23JA)
+duties: s. 21: a company whose securities are listed must comply with the conditions of the listing agreement with the stock exchange (now the LODR Regulations)
+duties: s. 21A: securities may be delisted only on the grounds and in the manner the regulations specify
+breach: s. 23E: failure to comply with listing conditions or delisting conditions: penalty as set out in s. 23E
+breach: s. 23H: breach with no separate penalty: penalty as set out in s. 23H
+refs: RULES-SCRR; ACT-SEBI; REG-LODR
+penalties: P1
+defined terms (wording is in the full text): contract (definition clause); demutualisation (definition clause); Government security (definition clause); commodity derivative (definition clause); member (definition clause); option in securities (definition clause); prescribed (definition clause); recognised stock exchange (definition clause); chartered accountant (definition clause); company secretary (definition clause); cost accountant (definition clause); legal practitioner (definition clause); company (definition clause)
+
+[RULES-SCRR] SCRR, 1957 | Securities Contracts (Regulation) Rules, 1957 (last amended on 13-03-2026) |  | Rules | In force | issued  | subject: Issue and listing (equity and debt)
+applies: Companies seeking listing of securities and listed companies
+concepts: Application and conditions for listing (rule 19)
+concepts: Minimum public shareholding (rule 19A)
+duties: rule 19A: every listed company other than a public sector company must maintain public shareholding of at least 25%
+deadlines: rule 19A: a company whose public shareholding falls below 25% must bring it back to at least 25% within three years
+refs: ACT-SCRA; REG-LODR; REG-ICDR
+penalties: P1
+defined terms (wording is in the full text): form (rule 2); the Act (rule 2); Government company (rule 2); public shareholding (rule 2)
+
+[ACT-DEP] Depositories Act, 1996 | The Depositories Act, 1996 (as amended by the IFSCA Act, 2019) | Act 22 of 1996 | Act | In force | issued 1996-08-10 | subject: Statutes, enforcement, penalties and settlement
+applies: Depositories, depository participants, issuers and beneficial owners of securities held in demat form
+concepts: Securities in a depository are fungible and held in dematerialised form
+concepts: Depository as registered owner, investor as beneficial owner (s. 10)
+concepts: Penalties under ss. 19A to 19H
+concepts: Settlement of proceedings (s. 19-IA)
+duties: s. 10: the depository is the registered owner for transfer purposes; the beneficial owner keeps all rights and liabilities attached to the securities
+breach: ss. 19A to 19H: penalties for failure to furnish information, redress grievances, reconcile records and other defaults, imposed by an adjudicating officer under s. 19H
+refs: REG-DP; MC-DP
+penalties: P1
+defined terms (wording is in the full text): beneficial owner (definition clause); Board (definition clause); bye-laws (definition clause); Company Law Board (definition clause); depository (definition clause); issuer (definition clause); participant (definition clause); prescribed (definition clause); record (definition clause); registered owner (definition clause); regulations (definition clause); security (definition clause); service (definition clause); company (definition clause); chartered accountant (definition clause); company secretary (definition clause); cost accountant (definition clause); legal practitioner (definition clause)
+
+[REG-PENALTY] Penalty inquiry rules | SEBI (Procedure for Holding Inquiry and Imposing Penalties) Rules, 1995 (last amended on 31-12-2021) | GSR 541(E) | Rules | In force | issued 1995-07-10 | subject: Statutes, enforcement, penalties and settlement
+applies: Adjudication proceedings under ss. 15A to 15HB of the SEBI Act
+concepts: Show cause notice by the adjudicating officer
+concepts: Reply, hearing and order
+concepts: Factors under s. 15J of the SEBI Act
+duties: rule 4: the adjudicating officer issues a notice requiring the noticee to show cause, within the period the notice specifies, why an inquiry should not be held
+duties: rule 4: the noticee may appear in person or through a lawyer or other authorised representative
+refs: ACT-SEBI
+penalties: P1
+defined terms (wording is in the full text): Act (rule 2); inquiry (rule 2)
+
+[REG-SETTLE] Settlement Regulations 2026 | SEBI (Settlement of Administrative and Civil Proceedings) Regulations, 2026 | SEBI/LAD-DOP/2026/318 | Regulation | In force (from 07-11-2026) | issued 2026-10-07 | subject: Statutes, enforcement, penalties and settlement
+powers: SEBI Act s. 15JB; SCRA s. 23JA; Depositories Act s. 19-IA
+applies: Any person against whom proceedings under the SEBI Act, SCRA or Depositories Act have been or may be started
+concepts: Settlement notice before a show cause notice
+concepts: Settlement amount by formula: base amount, stage, gravity, aggravating and mitigating factors
+concepts: Fast track settlement: violation based and monetary threshold based
+concepts: Confidentiality and settlement with immunity for substantial assistance
+concepts: Internal Committee, High Powered Advisory Committee and Panel of Whole Time Members
+duties: regulation 3(3): non-refundable application fee of Rs 25,000 for a natural person and Rs 35,000 for others
+duties: regulation 3(5): one application covering all proceedings on the same cause of action
+duties: regulation 6(1): not available where an application on the same default was rejected before, where an investigation is pending (except with confidentiality), or for wilful defaulters, fraudulent borrowers and fugitive economic offenders
+duties: regulation 6(2): defaults with market-wide impact, losses to many investors or harm to market integrity may not be settled
+duties: regulation 27: for delayed or wrong-format disclosures and delayed compliance, SEBI may issue a fast track settlement notice before starting proceedings
+deadlines: regulation 4(1): application within 90 days of the show cause notice (or supplementary notice), unless the matter is before the Tribunal or the Supreme Court
+deadlines: regulation 5(1): application within 60 days of receiving a settlement notice
+deadlines: regulation 3(7): a returned application may be refiled within 15 days
+deadlines: regulation 4(3) and (4): proceedings pending on 07-11-2026 that were not settled under the 2018 Regulations may be filed within 90 days, at a settlement amount 20% higher
+breach: regulation 39: a settlement order may be revoked for breach of its terms or for lack of full and true disclosure; the proceedings are then restored and no amount is refunded
+refs: ACT-SEBI; REG-SETTLE-OLD
+penalties: P1
+repeals: SEBI (Settlement Proceedings) Regulations, 2018 (regulation 45)
+defined terms (wording is in the full text): Act (definitions clause); alleged default (definitions clause); Board (definitions clause); days (definitions clause); High Powered Advisory Committee (definitions clause); Internal Committee (definitions clause); Panel of Whole Time Member (definitions clause); report (definitions clause); securities laws (definitions clause); settlement amount (definitions clause); settlement term (definitions clause); specified proceeding (definitions clause); Tribunal (definitions clause); year (definitions clause)
+
+[REG-PFUTP] PFUTP Regulations | SEBI (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 2003 (last amended on 05-12-2025) |  | Regulation | In force | issued 2003-07-17 | subject: Insider trading and market abuse
+applies: Any person dealing in securities, including listed companies, intermediaries, fund managers and their employees
+concepts: Prohibition of fraudulent dealings (regulation 3)
+concepts: Manipulative, fraudulent and unfair trade practices (regulation 4)
+concepts: Mis-selling of securities and mutual fund units
+concepts: Dissemination of false or misleading information
+duties: regulation 3: no person may buy, sell or deal in securities in a fraudulent manner or use any manipulative or deceptive device
+duties: regulation 4(1): no person may indulge in a manipulative, fraudulent or unfair trade practice in securities
+duties: regulation 4(2): includes knowingly creating a false or misleading appearance of trading, manipulating prices, mis-selling of securities, services or mutual fund units, and publishing false or misleading information
+breach: SEBI Act s. 15HA: Rs 5 lakh up to Rs 25 crore or three times the profit, whichever is higher
+breach: regulation 11 and 12: directions and suspension or cancellation of registration
+refs: ACT-SEBI; REG-PIT
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); dealing in securities (definitions clause); fraud (definitions clause); Investigating Authority (definitions clause); securities (definitions clause)
+
+[REG-PIT] Insider Trading Regulations | SEBI (Prohibition of Insider Trading) Regulations, 2015 (last amended on 12-03-2025) |  | Regulation | In force | issued 2015-01-15 | subject: Insider trading and market abuse
+applies: Listed companies and companies proposing to list; Insiders, designated persons and their immediate relatives; Intermediaries and fiduciaries handling unpublished price sensitive information (UPSI)
+concepts: Unpublished price sensitive information (UPSI)
+concepts: Communication of UPSI only for legitimate purposes (regulation 3)
+concepts: Trading while in possession of UPSI (regulation 4)
+concepts: Trading plans (regulation 5)
+concepts: Disclosures by promoters, KMP, directors and designated persons (regulation 7)
+concepts: Codes of conduct and fair disclosure (regulations 8, 9)
+concepts: Structured digital database
+concepts: Trading window
+duties: regulation 3: UPSI may be shared only for legitimate purposes, performance of duties or discharge of legal obligations
+duties: regulation 3(5): the board must ensure a structured digital database of persons with whom UPSI is shared
+duties: regulation 4(1): no insider may trade while in possession of UPSI, subject to the defences listed
+duties: regulation 5: a trading plan must be approved by the compliance officer and disclosed to the exchanges; the trade price may be capped at up to 20% above or below the closing price
+duties: regulation 9: listed companies and intermediaries must adopt a code of conduct for designated persons, including trading window and pre-clearance rules
+duties: Schedule B: the trading window closes from the end of every quarter until 48 hours after results are published
+deadlines: regulation 7(1)(b): new KMP, directors and promoters disclose holdings within 7 days of appointment
+deadlines: regulation 7(2)(a): designated persons disclose trades worth over Rs 10 lakh in a calendar quarter to the company within two trading days
+deadlines: regulation 7(2)(b): the company informs the stock exchanges within two trading days of receiving that disclosure
+deadlines: regulation 5: a trading plan is disclosed to the exchanges at least two trading days before the first trade; the cool-off period is 120 calendar days
+breach: SEBI Act s. 15G: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher
+breach: Schedule B: breach of the code of conduct is reported to SEBI and may lead to wage freeze, suspension or recovery
+refs: ACT-SEBI; REG-LODR; REG-PFUTP
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Board (definitions clause); compliance officer (definitions clause); connected person (definitions clause); generally available information (definitions clause); immediate relative (definitions clause); insider (definitions clause); specified (definitions clause); takeover regulations (definitions clause); trading (definitions clause); trading day (definitions clause); unpublished price sensitive information (definitions clause); Investor Protection and Education Fund (definitions clause); Informant (definitions clause); Informant Incentive Committee (definitions clause); insider trading laws (definitions clause); irrelevant, vexatious and frivolous information (definitions clause); Legal Representative (definitions clause); Monetary Sanctions (definitions clause); Original Information (definitions clause); Reward (definitions clause)
+
+[REG-LODR] LODR Regulations | SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (last amended on 15-10-2026) |  | Regulation | In force | issued 2015-09-02 | subject: Continuous disclosure and corporate governance
+applies: Every listed entity with specified securities (equity) listed on the main board, SME exchange or Innovators Growth Platform; Entities with listed non-convertible securities (Chapter V); A high value debt listed entity, with listed non-convertible debt of Rs 5,000 crore or more outstanding, for regulations 15 to 27 on a comply-or-explain basis
+concepts: Board composition and independent directors (regulation 17)
+concepts: Audit, nomination and remuneration, stakeholders relationship and risk management committees (regulations 18 to 21)
+concepts: Related party transactions and materiality thresholds in Schedule XII (regulation 23)
+concepts: Secretarial audit (regulation 24A)
+concepts: Disclosure of material events (regulation 30 and Schedule III)
+concepts: Shareholding pattern (regulation 31)
+concepts: Financial results (regulation 33)
+concepts: Obligations for listed non-convertible securities (Chapter V)
+duties: regulation 13(1): redress investor grievances within 21 calendar days of receipt, and stay registered on SCORES
+duties: regulation 17(2): the board meets at least four times a year, with no more than 120 days between meetings
+duties: regulation 21: the Risk Management Committee has at least three members and meets at least twice a year
+duties: regulation 23(1): a related party transaction is material if it crosses the Schedule XII thresholds; material transactions need prior shareholder approval
+duties: regulation 24A: the listed entity and its material unlisted Indian subsidiaries undergo secretarial audit by a peer reviewed company secretary
+duties: regulation 27(2): quarterly compliance report on corporate governance, signed by the compliance officer or CEO, including cyber security incidents
+duties: regulation 30: disclose material events; Para A of Schedule III events are deemed material, Para B events are tested against the materiality criteria
+duties: regulation 46: maintain a functional website with the required disclosures
+deadlines: regulation 30(6): board meeting outcomes within 30 minutes of the meeting closing; events within the entity within 12 hours; other events within 24 hours
+deadlines: regulation 29: prior intimation of board meetings on specified matters at least two working days in advance
+deadlines: regulation 31(1)(b): shareholding pattern within 21 days of the end of each quarter (half-yearly for SME exchange)
+deadlines: regulation 33(3): quarterly results within 45 days of quarter end; annual audited results within 60 days of year end
+deadlines: regulation 52(1): debt listed entities file quarterly results within 45 days of quarter end (other than the last quarter)
+deadlines: regulation 57(1): certificate on payment of interest or principal on non-convertible securities within one working day of it falling due
+deadlines: regulation 15(1A): an entity that crosses the Rs 5,000 crore high value debt threshold during the year complies within six months
+breach: Fines and freezing of promoter holdings by stock exchanges under the standard operating procedure in the LODR Master Circular
+breach: SEBI Act s. 15A(b), 15C and 15HB; SCRA s. 23E
+refs: MC-LODR; MC-NCS-LODR; REG-NCS; REG-ICDR; REG-PIT; ACT-SCRA
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); associate (definitions clause); Board (definitions clause); committee (definitions clause); designated securities (definitions clause); global depository receipts (definitions clause); half yearly results (definitions clause); Indian depository receipts (definitions clause); key managerial personnel (definitions clause); listed entity (definitions clause); listing agreement (definitions clause); main board (definitions clause); net worth (definitions clause); public (definitions clause); public shareholding (definitions clause); quarter (definitions clause); quarterly results (definitions clause); related party (definitions clause); (zc) related party transaction (definitions clause); relative (definitions clause); schedule (definitions clause); servicer (definitions clause); SME Exchange (definitions clause); stock exchange (definitions clause); specified securities (definitions clause); subsidiary (definitions clause); independent director (definitions clause); material subsidiary (definitions clause); Secretarial Auditor (definitions clause); Peer Reviewed Company Secretary (definitions clause); promoter(s) seeking re-classification (definitions clause); persons related to the promoter(s) seeking re-classification (definitions clause); advances (definitions clause); public private partnership (definitions clause); IDR Holder(s) (definitions clause); Fraud (definitions clause); Default (definitions clause); Explanation.- For the purpose of this sub-para, ‘default (definitions clause)
+
+[REG-ICDR] ICDR Regulations | SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018 (last amended on 21-03-2026) |  | Regulation | In force | issued 2018-09-11 | subject: Issue and listing (equity and debt)
+applies: Issuers making initial public offers, further public offers, rights issues, preferential issues and qualified institutions placements of specified securities; Merchant bankers and other intermediaries to an issue
+concepts: Eligibility for an IPO (regulation 6)
+concepts: Minimum promoters' contribution (regulation 14)
+concepts: Lock-in (regulation 16)
+concepts: Offer document disclosures
+concepts: Preferential issues (Chapter V) and QIPs (Chapter VI)
+concepts: SME IPOs (Chapter IX)
+duties: regulation 6(1): an IPO issuer needs net tangible assets, operating profit, net worth and track record as listed, or must use the book building route with allotment mainly to qualified institutional buyers
+duties: regulation 14(1): promoters hold at least 20% of the post-issue capital, with permitted contributors able to meet a shortfall
+duties: regulation 16(1)(a): the minimum promoters' contribution is locked in for 18 months from allotment (three years where most proceeds fund capital expenditure)
+deadlines: regulation 16: lock-in of 18 months (or three years) for the minimum promoters' contribution
+breach: SEBI Act s. 11, 11B and 15HB; directions may include refund of money with interest and debarment
+refs: REG-LODR; RULES-SCRR; REG-SBEB
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); advertisement (definitions clause); anchor investor (definitions clause); application supported by blocked amount (ASBA) (definitions clause); Board (definitions clause); book building (definitions clause); composite issue (definitions clause); convertible debt instrument (definitions clause); convertible security (definitions clause); designated stock exchange (definitions clause); draft offer document (definitions clause); employee (definitions clause); fugitive economic offender (definitions clause); further public offer (definitions clause); green shoe option (definitions clause); housing finance company (definitions clause); infrastructure sector (definitions clause); initial public offer (definitions clause); institutional investor (definitions clause); issue size (definitions clause); issuer (definitions clause); lead manager (definitions clause); listed issuer (definitions clause); main board (definitions clause); net offer (definitions clause); net worth (definitions clause); nominated investor (definitions clause); non-institutional investor (definitions clause); offer document (definitions clause); offer through offer document (definitions clause); preferential issue (definitions clause); promoter (definitions clause); public financial institution (definitions clause); public issue (definitions clause); qualified institutions placement (definitions clause); relative (definitions clause); retail individual investor (definitions clause); retail individual shareholder (definitions clause); rights issue (definitions clause); schedule (definitions clause); scheduled commercial bank (definitions clause); self-certified syndicate bank (definitions clause); securities laws (definitions clause); SME exchange (definitions clause); specified securities (definitions clause); stabilising agent (definitions clause); stock exchange (definitions clause); valuer (definitions clause); 20[wilful defaulter or a fraudulent borrower] (definitions clause); working day (definitions clause); financial sector regulator (definitions clause); weight (definitions clause); price (definitions clause); pre-filed draft offer document (definitions clause); pre-filed offer document (definitions clause); updated draft red herring prospectus-I (definitions clause); updated draft red herring prospectus-II (definitions clause); average market capitalisation of public shareholding (definitions clause); reference date (definitions clause); weights (definitions clause); draft fund raising document (definitions clause); final fund raising document (definitions clause); For Profit Social Enterprise (definitions clause); fund raising document (definitions clause); Not for Profit Organization (definitions clause); Social 559[Impact Assessor] (definitions clause); Social Enterprise (definitions clause); Social Stock Exchange (definitions clause); dissenting shareholders (definitions clause); relevant date (definitions clause)
+
+[REG-NCS] NCS Regulations | SEBI (Issue and Listing of Non-Convertible Securities) Regulations, 2021 (last amended on 21-01-2026) |  | Regulation | In force | issued 2021-08-09 | subject: Issue and listing (equity and debt)
+applies: Issuers making public issues or private placements of non-convertible debt securities and non-convertible redeemable preference shares that are listed or proposed to be listed; Commercial paper listing (through the NCS Master Circular)
+concepts: Debenture trustee and trust deed
+concepts: Credit rating of issues
+concepts: Recovery Expense Fund (regulation 11)
+concepts: Electronic book provider platform for private placement
+concepts: Disclosures in the offer document and general information document
+duties: regulation 11: the issuer creates a Recovery Expense Fund with the designated stock exchange
+duties: The issuer appoints a SEBI-registered debenture trustee and executes a trust deed
+duties: Issues are rated by a SEBI-registered credit rating agency and the rating is disclosed
+duties: Private placements above the specified size go through the electronic book provider platform
+breach: SEBI Act s. 11, 11B and 15HB
+refs: MC-NCS; MC-NCS-LODR; REG-LODR; REG-DT; REG-CRA
+penalties: P1
+defined terms (wording is in the full text): abridged prospectus (definitions clause); Act (definitions clause); advertisement (definitions clause); Board (definitions clause); book building (definitions clause); commercial paper (definitions clause); credit rating agency (definitions clause); debenture trustee (definitions clause); debt securities (definitions clause); depository (definitions clause); designated stock exchange (definitions clause); draft offer document (definitions clause); electronic book provider platform (definitions clause); fugitive economic offender (definitions clause); green debt security (definitions clause); group companies (definitions clause); issuer (definitions clause); lead manager (definitions clause); listing regulations (definitions clause); non-convertible redeemable preference share (definitions clause); non-convertible securities (definitions clause); offer document (definitions clause); perpetual debt instrument (definitions clause); perpetual non-cumulative preference share (definitions clause); placement memorandum (definitions clause); private placement (definitions clause); public issue (definitions clause); schedule (definitions clause); secured debt securities (definitions clause); specified (definitions clause); statutory corporation (definitions clause); stock exchange (definitions clause); tranche prospectus (definitions clause); trust deed (definitions clause); working day (definitions clause)
+
+[REG-SAST] Takeover Regulations | SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 (last amended on 05-12-2025) |  | Regulation | In force | issued 2011-09-23 | subject: Takeovers, buy-back and delisting
+applies: Acquirers of shares, voting rights or control in a listed company, and persons acting in concert; Target companies and their promoters
+concepts: Open offer on crossing 25% (regulation 3(1))
+concepts: Creeping acquisition of up to 5% a year (regulation 3(2))
+concepts: Acquisition of control (regulation 4)
+concepts: Offer size of at least 26% (regulation 7)
+concepts: Disclosure of acquisitions and disposals (regulation 29)
+concepts: Annual disclosure and encumbrance disclosure (regulations 30, 31)
+duties: regulation 3(1): no acquirer may cross 25% of voting rights without a public announcement of an open offer
+duties: regulation 3(2): a holder of 25% or more but below the maximum non-public shareholding may not acquire more than 5% in a financial year without an open offer
+duties: regulation 4: acquiring control requires an open offer, whatever the shareholding
+duties: regulation 7(1): the open offer is for at least 26% of total shares
+duties: regulation 29(1) and (2): disclose holdings on reaching 5%, and every later change of more than 2%
+deadlines: regulation 29(3): disclosures within two working days of the acquisition or disposal
+deadlines: regulation 30: annual shareholding disclosure within seven working days of the end of each financial year
+breach: SEBI Act s. 15H: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher
+breach: regulation 32: directions, including divestment and making an open offer with interest
+refs: REG-LODR; REG-DELIST; REG-BUYBACK
+penalties: P1
+defined terms (wording is in the full text): acquirer (definitions clause); acquisition (definitions clause); Act (definitions clause); Board (definitions clause); control (definitions clause); convertible security (definitions clause); disinvestment (definitions clause); enterprise value (definitions clause); financial year (definitions clause); frequently traded shares (definitions clause); identified date (definitions clause); immediate relative (definitions clause); listing agreement (definitions clause); manager to the open offer (definitions clause); maximum permissible non-public shareholding (definitions clause); offer period (definitions clause); public sector undertaking (definitions clause); shares (definitions clause); specified (definitions clause); state-level financial institution (definitions clause); stock exchange (definitions clause); target company (definitions clause); tendering period (definitions clause); volume weighted average market price (definitions clause); volume weighted average price (definitions clause); weighted average number of total shares (definitions clause)
+
+[REG-BUYBACK] Buy-back Regulations | SEBI (Buy-Back of Securities) Regulations, 2018 (last amended on 06-07-2026) |  | Regulation | In force | issued 2018-09-11 | subject: Takeovers, buy-back and delisting
+applies: Listed companies buying back their own shares or other specified securities
+concepts: Maximum buy-back size (regulation 4)
+concepts: Board-approved buy-back up to 10% of paid-up capital and free reserves
+concepts: Tender offer and open market routes
+duties: regulation 4(i): a buy-back may not exceed 25% of the aggregate paid-up capital and free reserves
+duties: regulation 5(i)(b): a buy-back needs a special resolution, except one of 10% or less of paid-up equity capital and free reserves, which the board may approve
+deadlines: regulation 5(ii): every buy-back is completed within one year of the special resolution or board resolution
+breach: SEBI Act s. 15HB; regulation 28 directions
+refs: REG-SAST; REG-LODR
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); associate (definitions clause); Board (definitions clause); Buyback period (definitions clause); company (definitions clause); Companies Act (definitions clause); insider (definitions clause); merchant banker (definitions clause); promoter (definitions clause); registrar (definitions clause); small shareholder (definitions clause); specified securities (definitions clause); statutory auditor (definitions clause); stock exchange (definitions clause); tender offer (definitions clause); working day (definitions clause)
+
+[REG-DELIST] Delisting Regulations | SEBI (Delisting of Equity Shares) Regulations, 2021 (last amended on 03-09-2025) |  | Regulation | In force | issued 2021-06-10 | subject: Takeovers, buy-back and delisting
+applies: Listed companies and acquirers (promoters) seeking voluntary delisting of equity shares; Compulsory delisting by a stock exchange
+concepts: Reverse book building and the discovered price
+concepts: Fixed delisting price route
+concepts: Success threshold of 90% of issued shares
+duties: The delisting succeeds only if the acquirer's post-offer holding, with persons acting in concert, reaches at least 90% of the total issued shares of that class
+duties: The delisting price is discovered through reverse book building, or set as a fixed delisting price where permitted
+breach: SEBI Act s. 15HB; SCRA s. 21A and 23E
+refs: REG-SAST; ACT-SCRA
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); acquirer (definitions clause); Board (definitions clause); bidding period (definitions clause); company (definitions clause); compulsory delisting (definitions clause); Company Secretary in practice (definitions clause); detailed public announcement (definitions clause); delisting (definitions clause); delisting period (definitions clause); discovered price (definitions clause); indicative price (definitions clause); initial public announcement (definitions clause); Insolvency Code (definitions clause); Peer Review Company Secretary (definitions clause); recognised stock exchange (definitions clause); Schedule (definitions clause); voluntary delisting (definitions clause); working days (definitions clause)
+
+[REG-SBEB] Share Based Employee Benefits | SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021 (last amended on 04-12-2025) |  | Regulation | In force | issued 2021-08-13 | subject: Continuous disclosure and corporate governance
+applies: Listed companies running employee stock option, purchase, SAR, general employee benefit or retirement benefit schemes, or issuing sweat equity
+concepts: Shareholder approval of schemes
+concepts: Compensation committee
+concepts: Trust route for secondary acquisition
+concepts: Grants to identified employees of 1% or more of issued capital in a year need separate approval
+duties: Separate shareholder resolution to grant options to an identified employee equal to or above 1% of issued capital in any one year
+breach: SEBI Act s. 15HB
+refs: REG-LODR; REG-ICDR; REG-PIT
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); appreciation (definitions clause); Board (definitions clause); emergency (definitions clause); employee stock option scheme or ESOS (definitions clause); employee stock purchase scheme or ESPS (definitions clause); exercise (definitions clause); exercise period (definitions clause); exercise price (definitions clause); general employee benefits scheme or GEBS (definitions clause); grant (definitions clause); grant date (definitions clause); group (definitions clause); ICAI (definitions clause); market price (definitions clause); merchant banker (definitions clause); option (definitions clause); option grantee (definitions clause); pre-IPO scheme (definitions clause); recognised stock exchange (definitions clause); registrar (definitions clause); retirement benefit scheme or RBS (definitions clause); SAR grantee (definitions clause); SAR price (definitions clause); scheme (definitions clause); securities (definitions clause); secondary acquisition (definitions clause); secretarial auditor (definitions clause); share (definitions clause); stock appreciation right or SAR (definitions clause); stock appreciation right scheme or SAR scheme (definitions clause); sweat equity shares (definitions clause); Schedule (definitions clause); trust (definitions clause); trustee (definitions clause); vesting (definitions clause); vesting period (definitions clause)
+
+[MC-LODR] LODR Master Circular | Master Circular for compliance with the LODR Regulations by listed entities |  | Master Circular | In force | issued 2026-01-30 | subject: Continuous disclosure and corporate governance
+applies: Listed entities with specified securities, and stock exchanges and depositories enforcing the LODR Regulations
+concepts: Formats for disclosures, shareholding pattern and corporate governance reports
+concepts: Standard operating procedure for fines and freezing of promoter holdings
+concepts: Disclosure of material events and timelines
+duties: File disclosures, shareholding patterns and governance reports in the formats in the circular
+duties: On notice from a stock exchange for non-payment of fines, depositories freeze or unfreeze promoter holdings as directed
+breach: Exchange fines and freezing of promoter and promoter group holdings under the standard operating procedure
+refs: REG-LODR
+penalties: P1
+defined terms (wording is in the full text): other than permanent worker (definitions); company (definitions); Rehabilitation (definitions); Discrimination (definitions); Forced Labour’ or ‘Involuntary Labour (definitions); Cost (definitions)
+
+[MC-NCS] NCS Master Circular | Master Circular for issue and listing of non-convertible securities, securitised debt instruments, security receipts, municipal debt securities and commercial paper |  | Master Circular | In force | issued 2025-10-15 | subject: Issue and listing (equity and debt)
+applies: Issuers of listed non-convertible securities, commercial paper, securitised debt instruments, security receipts and municipal debt securities
+concepts: Electronic book provider mechanism
+concepts: Listing of commercial paper
+concepts: Recovery Expense Fund
+concepts: Investor protection in debt issues
+duties: Follow the process, disclosures and timelines in the circular for public issues and private placements of debt
+refs: REG-NCS; MC-NCS-LODR
+penalties: P1
+defined terms (wording is in the full text): Social Bonds (definitions); Sustainability bonds (definitions); Sustainability-linked bonds (definitions)
+
+[MC-NCS-LODR] Debt listing obligations Master Circular | Master Circular for listing obligations and disclosure requirements for non-convertible securities, securitised debt instruments and/or commercial paper |  | Master Circular | In force | issued 2025-07-11 | subject: Continuous disclosure and corporate governance
+applies: Entities with listed non-convertible securities, securitised debt instruments or commercial paper
+concepts: Formats for financial results, asset cover and payment certificates
+concepts: Disclosures to debenture trustees and stock exchanges
+duties: Submit Chapter V filings, including payment status and asset cover, in the formats specified
+refs: REG-LODR; REG-NCS; MC-DT
+penalties: P1
+defined terms (wording is in the full text): Cost (definitions)
+
+[REG-MF] Mutual Funds Regulations 2026 | SEBI (Mutual Funds) Regulations, 2026 (last amended on 10-10-2026) | SEBI/LAD-NRO/GN/2026/296 | Regulation | In force (from 01-04-2026) | issued 2026-01-15 | subject: Fund management (MF and AIF)
+applies: Mutual funds, their sponsors, trustee companies and asset management companies; Specialized Investment Funds (Chapter IX) and Mutual Fund Lite (Chapter X)
+concepts: Sponsor eligibility and AMC net worth (regulation 5)
+concepts: Trustee company and its duties (regulations 11, 12)
+concepts: AMC eligibility and obligations (regulations 16, 17, 22)
+concepts: Permitted business of an AMC (regulation 21)
+concepts: Scheme launch, winding up and investment restrictions
+concepts: Total expense ratio (regulations 66, 67)
+concepts: Specialized Investment Fund and MF Lite
+duties: regulation 5(1)(e): the sponsor keeps the AMC's net worth at the required level at all times: Rs 50 crore under the profitability route; Rs 150 crore at registration under the alternative route, then at least Rs 100 crore
+duties: regulation 16(2)(c): at least half of the AMC board are not associates of the sponsor, its subsidiaries or the trustees
+duties: regulation 17(a): no person may be a director of more than one AMC, except an independent director with board approval; AMC directors need prior trustee approval
+duties: regulation 21: an AMC may not act as trustee and may run only management and advisory services to pooled assets, with segregation and no material conflict of interest
+duties: regulation 42(1): a scheme may borrow only for temporary liquidity needs, up to 20% of net assets and for up to six months
+duties: regulation 43: NAV of each scheme is computed every day
+duties: regulation 44(4): exit load on an open-ended scheme may not exceed 3% of NAV
+duties: regulation 67(2): no charges other than the base expense ratio, brokerage, transaction cost, statutory levies and exit load may be charged to investors
+deadlines: regulation 22(2)(ii): bio-data of key personnel to the trustees within 15 calendar days of appointment
+deadlines: regulation 36(3): trustees give notice of winding up of a scheme within one day
+deadlines: regulation 70(1)(a): annual report or abridged summary to unitholders within four months of year end
+deadlines: regulation 70(2)(a): half-yearly unaudited results on the website within one month of 31 March and 30 September
+deadlines: regulation 12: trustees review AMC reports and net worth quarterly and report to SEBI half-yearly
+breach: regulation 46(2): delay in paying redemption, IDCW or refunds carries interest at 15% a year for the period of delay
+breach: regulation 81: AMC, mutual fund, trustee or sponsor in default is liable to action under the SEBI Act and the Intermediaries Regulations
+breach: SEBI Act s. 15D and 15E
+refs: MC-MF; REG-INTERMED; REG-AIF; REG-MF-OLD
+penalties: P1
+repeals: SEBI (Mutual Funds) Regulations, 1996 (regulation 85)
+defined terms (wording is in the full text): Act (definitions clause); advertisement (definitions clause); asset management company (definitions clause); broad based fund (definitions clause); broker (definitions clause); close-ended scheme (definitions clause); custodian (definitions clause); depository (definitions clause); economic offence (definitions clause); equity oriented schemes (definitions clause); exchange traded fund (definitions clause); exit load (definitions clause); fraud (definitions clause); fund of funds scheme (definitions clause); gold exchange traded fund scheme (definitions clause); gold related instrument (definitions clause); goods (definitions clause); group (definitions clause); index fund scheme (definitions clause); Infrastructure debt fund scheme (definitions clause); SIF Investment Strategy (definitions clause); inspecting officer (definitions clause); Liquid net worth (definitions clause); market abuse (definitions clause); money market instruments (definitions clause); mutual fund (definitions clause); Net worth (definitions clause); offer document (definitions clause); open-ended scheme (definitions clause); private placement (definitions clause); relative (definitions clause); scheme (definitions clause); schedule (definitions clause); securities laws (definitions clause); silver exchange traded fund scheme (definitions clause); silver related instrument (definitions clause); Specialized Investment Fund (definitions clause); sponsor (definitions clause); statutory levy (definitions clause); to be listed securities (definitions clause); total expense ratio (definitions clause); unit (definitions clause); unit holder (definitions clause)
+
+[MC-MF] Mutual Funds Master Circular | Master Circular for Mutual Funds |  | Master Circular | In force | issued 2026-03-20 | subject: Fund management (MF and AIF)
+applies: Mutual funds, AMCs, trustees and distributors
+concepts: Scheme categorisation
+concepts: Valuation
+concepts: Risk-o-meter and disclosures
+concepts: Investor services, transfer of redemption proceeds
+concepts: Distributor conduct
+duties: Follow the operational, disclosure and investor service norms in the circular, read with the MF Regulations 2026
+refs: REG-MF
+penalties: P1
+defined terms (wording is in the full text): same network (definitions); International scheme (definitions); Liquid fund & Overnight fund schemes and plans (definitions); mandate (definitions); Payment Aggregators (definitions); Portfolio Value (definitions); family of investor (definitions)
+
+[REG-AIF] AIF Regulations | SEBI (Alternative Investment Funds) Regulations, 2012 (last amended on 15-10-2026) |  | Regulation | In force | issued 2012-05-21 | subject: Fund management (MF and AIF)
+applies: Alternative Investment Funds of Category I, II and III, their sponsors and managers; Angel funds, social impact funds and large value funds for accredited investors
+concepts: Categories of AIF
+concepts: Minimum corpus and investment (regulation 10)
+concepts: Sponsor or manager continuing interest
+concepts: Tenure (regulation 13)
+concepts: Investment conditions and concentration limits (regulation 15)
+concepts: Accredited investors
+duties: regulation 10(b): each scheme has a corpus of at least Rs 20 crore (Rs 5 crore for a social impact fund)
+duties: regulation 10(c): minimum investment of Rs 1 crore per investor (Rs 25 lakh for employees or directors; not applicable to accredited investors)
+duties: regulation 10(d): manager or sponsor keeps a continuing interest of the lower of 2.5% of corpus or Rs 5 crore (Category III: lower of 5% or Rs 10 crore), not by waiving fees
+duties: regulation 10(f): no scheme may have more than 1,000 investors, excluding accredited investors
+duties: regulation 10(aa): units are issued in dematerialised form
+duties: regulation 15(1)(c): Category I and II invest no more than 25% of investable funds in one investee company (50% for large value funds)
+duties: regulation 15(1)(d): Category III invests no more than 10% of investable funds in one investee company (higher for large value funds)
+deadlines: regulation 13(2): Category I and II funds and schemes have a minimum tenure of three years
+breach: SEBI Act s. 15EA
+breach: Intermediaries Regulations: suspension or cancellation of registration
+refs: MC-AIF; REG-INTERMED; REG-SAST
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); accredited investor (definitions clause); Alternative Investment Fund (definitions clause); associate (definitions clause); Board (definitions clause); certificate (definitions clause); company (definitions clause); corpus (definitions clause); equity linked instruments (definitions clause); form (definitions clause); hedge fund (definitions clause); infrastructure fund (definitions clause); inspecting authority (definitions clause); investee company (definitions clause); liquidation scheme (definitions clause); manager (definitions clause); private equity fund (definitions clause); SME (definitions clause); SME fund (definitions clause); social impact fund (definitions clause); social units (definitions clause); social venture (definitions clause); sponsor (definitions clause); trust (definitions clause); venture capital fund (definitions clause); social venture fund (definitions clause); unit (definitions clause); angel fund (definitions clause); company with family connection (definitions clause); special situation asset (definitions clause); special situation fund (definitions clause); migrated venture capital fund (definitions clause); investable funds (definitions clause)
+
+[MC-AIF] AIF Master Circular | Master Circular for Alternative Investment Funds (AIFs) |  | Master Circular | In force | issued 2026-06-03 | subject: Fund management (MF and AIF)
+applies: AIFs, their managers, trustees and custodians
+concepts: Private placement memorandum template
+concepts: Annual audit of compliance with the PPM
+concepts: Dematerialisation of units and investments
+concepts: Standardised valuation
+concepts: Performance benchmarking
+duties: para 8.10: annual audit of compliance with the terms of the PPM
+duties: Chapter 11: units and investments held in dematerialised form, as specified
+duties: Chapter 18: value the portfolio using the standardised approach
+duties: Chapter 22: performance benchmarking on a half-yearly basis
+refs: REG-AIF
+penalties: P1
+
+[REG-SB] Stock Brokers Regulations 2026 | SEBI (Stock Brokers) Regulations, 2026 | SEBI/LAD-NRO/GN/2026/291 | Regulation | In force | issued 2026-01-07 | subject: Intermediary conduct and net worth
+applies: Stock brokers, clearing members, self-clearing members and professional clearing members
+concepts: Registration through a recognised stock exchange (Chapter II)
+concepts: Qualified stock brokers (regulation 19)
+concepts: Institutional mechanism to prevent and detect fraud and market abuse (Chapter IV)
+concepts: Code of conduct (Chapter VIII)
+concepts: Fees (Chapter IX)
+concepts: Net worth and deposit (Chapter X)
+duties: regulation 15: keep books of account and records, physically or electronically
+duties: regulation 17: appoint a compliance officer, who reports non-compliance immediately and independently to the stock exchange
+duties: regulation 21: systems for surveillance and internal controls to detect, prevent and report fraud or market abuse by clients, staff and authorised persons
+duties: regulation 25: a documented whistle blower policy
+duties: regulation 36: maintain high standards of integrity, promptitude and fairness, and act with due skill, care and diligence
+duties: regulation 47: minimum net worth: trading member Rs 1 crore; self-clearing member Rs 5 crore; clearing member Rs 15 crore; professional clearing member Rs 50 crore (or variable net worth if higher)
+deadlines: regulation 16: books and records kept for at least eight years
+breach: regulation 33: action under securities laws, including the Intermediaries Regulations
+breach: SEBI Act s. 15F and 15HB
+refs: MC-SB; REG-INTERMED; REG-SB-OLD
+penalties: P1
+repeals: SEBI (Stock Brokers) Regulations, 1992 (regulation 51)
+defined terms (wording is in the full text): Act (definitions clause); certificate (definitions clause); clearing corporation (definitions clause); clearing member (definitions clause); designated director (definitions clause); Execution Only Platform (definitions clause); form (definitions clause); inspecting authority (definitions clause); market abuse (definitions clause); professional clearing member (definitions clause); proprietary trading (definitions clause); proprietary trading member (definitions clause); qualified stock broker (definitions clause); regulatory sandbox (definitions clause); Securities Contract (Regulation) Act (definitions clause); self-clearing member (definitions clause); specified (definitions clause); stock broker (definitions clause); suspicious activity (definitions clause); underwriter (definitions clause); underwriting (definitions clause)
+
+[MC-SB] Stock Brokers Master Circular | Master Circular for Stock Brokers |  | Master Circular | In force | issued 2025-06-17 | subject: Intermediary conduct and net worth
+applies: Stock brokers and clearing members
+concepts: Settlement of running account of client funds
+concepts: Upstreaming of client funds to clearing corporations
+concepts: Most Important Terms and Conditions (MITC)
+concepts: Nomination for trading accounts
+duties: Settle running accounts of client funds as specified
+duties: Upstream clients' funds to the clearing corporation as specified
+duties: Give clients the Most Important Terms and Conditions and obtain acknowledgement
+refs: REG-SB
+penalties: P1
+defined terms (wording is in the full text): associate (definitions)
+
+[REG-INTERMED] Intermediaries Regulations | SEBI (Intermediaries) Regulations, 2008 (last amended on 10-10-2026) |  | Regulation | In force | issued 2008-05-26 | subject: Entry and registration
+applies: Every intermediary registered with SEBI, including stock brokers, AMCs, AIFs, depository participants, debenture trustees and credit rating agencies
+concepts: Common registration procedure
+concepts: Fit and proper person criteria (Schedule II)
+concepts: Prior approval for change in control
+concepts: General obligations and code of conduct
+duties: Schedule II: the intermediary, its principal officer, directors, promoters and key managerial personnel must be fit and proper at all times
+duties: regulation 9(1)(a): obtain SEBI's prior approval to continue as an intermediary after a change in status or constitution, which includes a change in control
+breach: Suspension or cancellation of registration and other directions under the SEBI Act
+refs: ACT-SEBI; REG-SB; REG-MF; REG-AIF
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); associate (definitions clause); certificate (definitions clause); Form (definitions clause); intermediary (definitions clause); inspecting authority (definitions clause); principal officer (definitions clause); relevant regulations (definitions clause); securities laws (definitions clause); schedule (definitions clause); self regulatory organization (definitions clause); advertisement (definitions clause); celebrity (definitions clause); date of receipt of reply (definitions clause); designated authority (definitions clause); noticee (definitions clause)
+
+[REG-DP] Depositories and Participants | SEBI (Depositories and Participants) Regulations, 2018 (last amended on 22-11-2025) |  | Regulation | In force | issued 2018-10-03 | subject: Entry and registration
+applies: Depositories and depository participants, including stock brokers registered as participants
+concepts: Registration of depositories and participants
+concepts: Net worth of a depository of at least Rs 100 crore
+concepts: Eligibility of stock brokers and NBFCs as participants
+duties: A stock broker may become a participant if it meets the net worth and other conditions in the regulation
+breach: Depositories Act ss. 19A to 19H
+refs: ACT-DEP; MC-DP
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); applicant (definitions clause); Board (definitions clause); Depositories Act (definitions clause); form (definitions clause); governing board (definitions clause); inspecting officer (definitions clause); public interest director (definitions clause); regulatory department (definitions clause); Schedule (definitions clause)
+
+[MC-DP] Depositories Master Circular | Master Circular for Depositories |  | Master Circular | In force | issued 2024-12-03 | subject: Intermediary conduct and net worth
+applies: Depositories and depository participants
+concepts: Account opening and nomination
+concepts: Pledge and margin pledge
+concepts: Reconciliation and transfer of securities
+duties: Follow the account, pledge and reporting processes in the circular
+refs: REG-DP; ACT-DEP
+penalties: P1
+defined terms (wording is in the full text): Operational guidelines (definitions)
+
+[REG-KRA] KYC Registration Agency | SEBI {KYC (Know Your Client) Registration Agency} Regulations, 2011 (last amended on 10-02-2025) |  | Regulation | In force | issued 2011-12-02 | subject: Investor protection, grievances and ODR
+applies: KYC registration agencies and every intermediary that does KYC of clients
+concepts: Single KYC across intermediaries
+concepts: Upload of KYC records to a KRA
+duties: Intermediaries upload client KYC records to a KRA and rely on KRA records as specified
+refs: REG-INTERMED
+penalties: P1
+defined terms (wording is in the full text): ‘Act’ (definitions clause); Board (definitions clause); Certificate (definitions clause); Client (definitions clause); ‘Inspecting authority’ (definitions clause); Intermediary (definitions clause); Intermediaries Regulations’ (definitions clause); ‘KYC’ (definitions clause); Operating Instructions (definitions clause)
+
+[REG-IA] Investment Advisers | SEBI (Investment Advisers) Regulations, 2013 (last amended on 25-11-2025) |  | Regulation | In force | issued 2013-01-21 | subject: Entry and registration
+applies: Persons giving investment advice for consideration
+concepts: Registration and deposit
+concepts: Qualification and experience
+concepts: Client level segregation of advisory and distribution
+duties: Advisory and distribution are segregated at client level
+duties: Advice is given only after registration and with the deposit kept as specified
+breach: SEBI Act s. 15EB
+refs: REG-RA; REG-SB
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Board (definitions clause); certificate (definitions clause); company (definitions clause); consideration (definitions clause); family of client (definitions clause); family of an individual investment adviser (definitions clause); financial planning (definitions clause); firm (definitions clause); form (definitions clause); inspecting authority (definitions clause); investment advice (definitions clause); investment adviser (definitions clause); limited liability partnership (definitions clause); NBFC (definitions clause); NISM (definitions clause); partner (definitions clause)
+
+[REG-RA] Research Analysts | SEBI (Research Analysts) Regulations, 2014 (last amended on 10-10-2026) |  | Regulation | In force | issued 2014-09-01 | subject: Entry and registration
+applies: Research analysts and research entities, including stock brokers publishing research
+concepts: Registration and deposit
+concepts: Disclosures in research reports
+concepts: Conflict of interest management
+duties: Research is published only after registration, with the disclosures and conflict controls specified
+breach: SEBI Act s. 15EB
+refs: REG-IA; REG-SB
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); asset management company (definitions clause); associate (definitions clause); Board (definitions clause); certificate (definitions clause); family of an individual research analyst (definitions clause); family of client (definitions clause); fund manager (definitions clause); independent research analyst (definitions clause); inspecting authority (definitions clause); investment adviser (definitions clause); limited liability partnership (definitions clause); merchant banking or investment banking or brokerage services (definitions clause); NBFC (definitions clause); NISM (definitions clause); other business activity or employment (definitions clause); partner (definitions clause); part-time research analyst (definitions clause); persons associated with research services (definitions clause); price target (definitions clause); proxy adviser (definitions clause); public appearance (definitions clause); public media (definitions clause); public offer (definitions clause); relative (definitions clause); research entity (definitions clause); research report (definitions clause); securities (definitions clause); significant news or event (definitions clause); subject company (definitions clause); stock exchange (definitions clause); third party research report (definitions clause)
+
+[REG-DT] Debenture Trustees | SEBI (Debenture Trustees) Regulations, 1993 (last amended on 27-10-2025) |  | Regulation | In force | issued 1993-10-29 | subject: Issue and listing (equity and debt)
+applies: Debenture trustees, and issuers of listed debt that must appoint one
+concepts: Net worth of at least Rs 10 crore
+concepts: Monitoring of security and asset cover
+concepts: Duties on default
+duties: A debenture trustee keeps a net worth of at least Rs 10 crore
+duties: The trustee monitors the security created and the asset cover, and acts on default as the regulations and trust deed require
+refs: REG-NCS; MC-DT
+penalties: P1
+defined terms (wording is in the full text): Form (definitions clause); Inspecting authority (definitions clause); insurance company (definitions clause); regulations (definitions clause); scheduled bank (definitions clause)
+
+[MC-DT] Debenture Trustees Master Circular | Master Circular for Debenture Trustees |  | Master Circular | In force | issued 2026-09-28 | subject: Issue and listing (equity and debt)
+applies: Debenture trustees and issuers of listed debt
+concepts: Due diligence before issue
+concepts: Asset cover monitoring
+concepts: Action on default and inter-creditor processes
+duties: Issuers give debenture trustees the information and certificates the circular lists, within its timelines
+refs: REG-DT; REG-NCS; MC-NCS-LODR
+penalties: P1
+
+[REG-CRA] Credit Rating Agencies | SEBI (Credit Rating Agencies) Regulations, 1999 (last amended on 15-01-2026) |  | Regulation | In force | issued 1999-07-07 | subject: Issue and listing (equity and debt)
+applies: Credit rating agencies, and issuers of rated listed debt
+concepts: Rating process and monitoring
+concepts: Disclosure of ratings
+duties: Issuers of listed debt cooperate with the rating agency and give the information needed for monitoring
+refs: REG-NCS; MC-CRA
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Board (definitions clause); body corporate (definitions clause); certificate (definitions clause); client (definitions clause); company (definitions clause); credit rating agency (definitions clause); economic offence (definitions clause); form (definitions clause); inspecting officer (definitions clause); issuer (definitions clause); net-worth (definitions clause); rating (definitions clause); rating committee (definitions clause); regulation (definitions clause); relative (definitions clause); schedule (definitions clause); securities (definitions clause); promoter (definitions clause); independent director (definitions clause); ESG rating provider (definitions clause); liquid net worth (definitions clause); Net Worth (definitions clause)
+
+[MC-CRA] Credit Rating Agencies Master Circular | Master Circular for Credit Rating Agencies (CRAs) |  | Master Circular | In force | issued 2025-07-11 | subject: Issue and listing (equity and debt)
+applies: Credit rating agencies
+concepts: Rating scales, default recognition and disclosures
+duties: Follow the rating process and disclosure norms in the circular
+refs: REG-CRA
+penalties: P1
+
+[MC-SCORES] SCORES grievance redress | Redressal of investor grievances through the SEBI Complaint Redressal (SCORES) Platform and linking it to the Online Dispute Resolution platform |  | Circular | In force | issued 2023-09-20 | subject: Investor protection, grievances and ODR
+applies: Listed companies and all SEBI-registered intermediaries that receive complaints through SCORES
+concepts: Action taken report
+concepts: First review by the designated body
+concepts: Second review by SEBI
+concepts: Link to online dispute resolution
+duties: Resolve a complaint received through SCORES and upload the action taken report within 21 calendar days of receipt
+duties: The investor may seek a second review within 15 calendar days if unhappy with the outcome of the first review
+deadlines: 21 calendar days to resolve and file the action taken report
+breach: SEBI Act s. 15C: failure to redress grievances when called upon by SEBI
+refs: MC-ODR; REG-LODR
+penalties: P1
+
+[MC-ODR] Online dispute resolution | Master Circular for Online Resolution of Disputes in the Indian Securities Market |  | Master Circular | In force | issued 2023-12-28 | subject: Investor protection, grievances and ODR
+applies: Investors and clients, listed companies and SEBI-registered intermediaries, through the Smart ODR portal
+concepts: Online conciliation, then online arbitration
+concepts: Smart ODR portal run with the stock exchanges and depositories
+duties: Enrol on the ODR portal and take part in conciliation and arbitration of disputes with investors
+duties: Conciliation is concluded within 21 calendar days (extendable by 10 days with consent)
+deadlines: 21 calendar days for conciliation
+refs: MC-SCORES
+penalties: P1
+
+[MC-CSCRF] Cybersecurity framework (CSCRF) | Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities, with clarifications of 2024-25 |  | Circular | In force (with extended timelines in later circulars) | issued 2024-08-20 | subject: Cyber security and IT
+applies: SEBI regulated entities, graded by size: market infrastructure institutions, qualified, mid-size, small-size and self-certification entities, including AMCs, stock brokers, depository participants and AIFs
+concepts: Governance, identify, protect, detect, respond and recover
+concepts: Cyber Capability Index for MIIs and qualified entities
+concepts: Security Operation Centre
+concepts: Vulnerability assessment and penetration testing (VAPT)
+duties: Adopt a board-approved cyber security and cyber resilience policy in line with the framework
+duties: Carry out VAPT at the frequency set for the entity's category
+duties: Report cyber incidents to SEBI and CERT-In within 6 hours of noticing them
+deadlines: Cyber incidents reported within 6 hours
+deadlines: Adoption timelines were extended by the circulars of 28-03-2025 and 30-06-2025
+refs: REG-LODR
+penalties: P1
+
+[REG-MF-OLD] Mutual Funds Regulations 1996 | SEBI (Mutual Funds) Regulations, 1996 (last amended on 01-11-2025) |  | Superseded instrument | Repealed | issued  | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: REG-MF
+
+[REG-SB-OLD] Stock Brokers Regulations 1992 | SEBI (Stock Brokers) Regulations, 1992 (last amended on 10-02-2025) |  | Superseded instrument | Repealed | issued  | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: REG-SB
+
+[REG-SETTLE-OLD] Settlement Regulations 2018 | SEBI (Settlement Proceedings) Regulations, 2018 (last amended on 28-11-2024) |  | Superseded instrument | Repealed | issued  | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: REG-SETTLE
+
+GLOSSARY (plain-language meanings, not SEBI text):
+SEBI (Securities and Exchange Board of India): The securities market regulator, set up under the SEBI Act, 1992. It registers intermediaries, makes regulations, inspects and investigates, and can penalise breaches.
+LODR (Listing Obligations and Disclosure Requirements): The rulebook every listed entity follows after listing: board and committee rules, disclosures to stock exchanges, results, shareholding pattern and related party transactions.
+UPSI (Unpublished price sensitive information): Information about a listed company or its securities that is not generally available and would likely affect the share price if it were, such as results, dividends, mergers or major changes in management.
+Insider: A connected person, or anyone in possession of or with access to UPSI. Insiders may not trade while holding UPSI.
+Designated person: An employee or connected person whom the company's board names, by role and access to UPSI, as covered by its insider trading code of conduct.
+Trading window: The period when designated persons may trade. It closes from the end of each quarter until 48 hours after the results are published.
+Trading plan: A pre-set plan an insider files and discloses in advance so that trades can go through even while the insider holds UPSI. A cool-off period of 120 calendar days applies.
+Structured digital database (SDD): The record a listed company or intermediary keeps of everyone with whom UPSI has been shared, with time stamps.
+Material event: An event or information a listed entity must disclose to the stock exchanges. Some are always material (Schedule III Para A); others are tested against the materiality criteria in regulation 30.
+Related party transaction (RPT): A transfer of resources, services or obligations between a listed entity and a related party. Material ones need prior shareholder approval.
+High value debt listed entity (HVDLE): A listed entity with listed non-convertible debt of Rs 5,000 crore or more outstanding. It follows the LODR corporate governance rules on a comply-or-explain basis.
+Non-convertible securities (NCS): Debt securities and non-convertible redeemable preference shares that do not convert into equity, such as NCDs.
+Recovery Expense Fund: A fund a debt issuer sets up with the stock exchange so the debenture trustee can meet the costs of enforcing security on default.
+Debenture trustee: A SEBI-registered entity that protects debenture holders: it monitors security and asset cover and acts on default.
+Electronic book provider platform (EBP): The exchange platform through which private placements of debt above the set size are bid and allotted.
+Open offer: An offer an acquirer must make to the public shareholders of a listed company on crossing the takeover thresholds, normally for at least 26% of the shares.
+Creeping acquisition: Buying up to 5% more of a listed company's voting rights in a financial year without an open offer, allowed for a holder of 25% or more.
+Minimum public shareholding (MPS): Every listed company other than a public sector company must keep at least 25% of its shares with the public.
+Promoters' contribution: The share of post-issue capital, at least 20%, that promoters must hold after an IPO. It is locked in for 18 months, or three years in some cases.
+Asset management company (AMC): The company that runs a mutual fund's schemes under the supervision of the trustees.
+Trustees: The trustee company that holds a mutual fund's property in trust for unitholders and supervises the AMC.
+Total expense ratio (TER): All the expenses charged to a mutual fund scheme's investors as a share of its assets. Only the categories allowed by the MF Regulations may be charged.
+Exit load: A charge on redemption of mutual fund units. It goes back to the scheme and cannot exceed 3% of NAV for an open-ended scheme.
+NAV (Net Asset Value): The value of one unit of a mutual fund scheme, computed every day from the scheme's net assets.
+Specialized Investment Fund (SIF): A category under the MF Regulations 2026 that lets a mutual fund run investment strategies with more flexibility than ordinary schemes, for investors who meet the set thresholds.
+MF Lite (Mutual Fund Lite): A lighter mutual fund route under Chapter X of the MF Regulations 2026 for passive schemes such as index funds and ETFs.
+Alternative Investment Fund (AIF): A privately pooled fund registered with SEBI that invests for its investors. Category I and II funds are close ended; Category III may be open or close ended.
+Accredited investor: An investor whose income, net worth or securities market exposure meets the AIF Regulations' thresholds and who is accredited by an agency or, since October 2026, by a specified manager. Some minimum investment rules do not apply to them.
+Private placement memorandum (PPM): The offer document of an AIF scheme. Compliance with its terms is audited every year.
+Continuing interest: The minimum stake an AIF's manager or sponsor must keep in the fund: the lower of 2.5% of corpus or Rs 5 crore (5% or Rs 10 crore for Category III).
+Stock broker: A member of a recognised stock exchange registered with SEBI to trade for clients or on its own account.
+Clearing member: A member of a clearing corporation that clears and settles trades for itself (self-clearing) or for other brokers.
+Qualified stock broker (QSB): A stock broker that SEBI designates because of its size, client base and market impact, with extra obligations on governance and systems.
+Running account settlement: The periodic return to clients of the funds a stock broker holds for them, as the Stock Brokers Master Circular specifies.
+MITC (Most Important Terms and Conditions): The short statement of key terms a stock broker gives clients when opening an account.
+KRA (KYC Registration Agency): An agency that holds clients' KYC records so that one KYC works across securities market intermediaries.
+Fit and proper person: The integrity, reputation and competence test that every SEBI intermediary and its key people must meet at all times.
+SCORES (SEBI Complaints Redress System): SEBI's online system for investor complaints against listed companies and intermediaries. Complaints must be resolved within 21 calendar days.
+ODR (Online dispute resolution): The Smart ODR portal for disputes between investors and listed companies or intermediaries: online conciliation first, then online arbitration.
+CSCRF (Cybersecurity and Cyber Resilience Framework): SEBI's cyber security framework for regulated entities, graded by size. Cyber incidents must be reported within 6 hours.
+Settlement: Closing SEBI enforcement proceedings by paying a settlement amount and meeting other terms, without admitting or denying the findings. Governed by the 2026 Settlement Regulations from 7 November 2026.
+Adjudicating officer: The SEBI officer who holds an inquiry and imposes penalties under the SEBI Act.
+SAT (Securities Appellate Tribunal): The tribunal that hears appeals against SEBI orders. An appeal must be filed within 45 days.
+Disgorgement: An order to give up profits made, or losses avoided, through a breach of securities law. SEBI can direct it under s. 11B of the SEBI Act.
+
+SEBI CHANGES (2026-09-01 to 2026-11-25):
+- 2026-11-25 Circular: Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies (). Applies: All SEBI-registered intermediaries that on-board clients, and KYC Registration Agencies.. Changes: Common supplementary client information (such as income range, FATCA/CRS details, PEP status and occupation) is centralised at the KRA, along with CKYC ID, DIGIPIN and the expiry date of the officially valid document. Intermediaries upload the specified KYC information to the KRA within three working days of completing KYC. In force from 24-12-2026; KRAs issue an operating procedure within 30 days. Actions: Update account opening forms and KRA upload processes before 24-12-2026.
+- 2026-11-11 Circular: FATCA and CRS reporting revised under the Income-Tax Act, 2025 and Income-Tax Rules, 2026 (). Applies: Registered intermediaries that are Reporting Financial Institutions.. Changes: Reporting and due diligence now follow s. 508 of the Income-Tax Act, 2025 and rules 238 to 240 and Form 166 of the Income-Tax Rules, 2026. Self-certification, controlling person and account classification systems must capture the new fields; FATCA/CRS certifications are uploaded to the KRA. Actions: Review on-boarding and reporting systems for the new mandatory fields.
+- 2026-11-07 Regulations: SEBI (Settlement of Administrative and Civil Proceedings) Regulations, 2026 in force (SEBI/LAD-DOP/2026/318). Applies: Anyone facing or likely to face SEBI proceedings.. Changes: Replace the Settlement Proceedings Regulations, 2018. Settlement notices before a show cause notice, a formula-based settlement amount, and fast track settlement for delayed or wrong-format disclosures. Applications within 90 days of a show cause notice; pending cases not settled under the 2018 rules may apply within 90 days at a 20% higher amount. Actions: Check any pending show cause notices against the 90-day window.
+- 2026-11-06 Consultation paper: Consultation paper: AML/CFT certification for Principal Officers of intermediaries (). Applies: All intermediaries registered under s. 12 of the SEBI Act.. Changes: Proposes a mandatory AML/CFT certification for the Principal Officer responsible for PMLA compliance. No rule has changed yet. Actions: 
+- 2026-11-05 Circular: Review of the framework for Accredited Investors (). Applies: AIF managers, SIF AMCs and portfolio managers, and their investors.. Changes: Managers may determine and record an investor's accredited status themselves, valid for three years and recognised across the same group. Securities market exposure qualifies: at least Rs 5 crore for individuals, HUFs, family trusts and sole proprietorships, and Rs 20 crore for bodies corporate and other trusts. Actions: Set up a documented accreditation process if using the manager route.
+- 2026-11-05 Circular: Framework for net settlement of funds for mutual fund cash market transactions (). Applies: Mutual funds, custodians, stock brokers and clearing corporations.. Changes: Funds for outright transactions in the cash segment may be settled net at the level of each scheme; securities still settle gross. No netting across schemes. In force from 01-04-2027. Actions: 
+- 2026-11-04 Circular: Review of KYC process for individual Person Resident Outside India clients (). Applies: Intermediaries on-boarding NRI, OCI and foreign national individual clients.. Changes: Digital KYC is allowed for individual clients located in FATF-compliant countries, without being in India. Intermediaries may rely on KYC by another SEBI or financial sector regulated entity through KRA or CKYCRR records. Actions: 
+- 2026-10-30 Circular: Extension of timeline for digital accessibility compliance (). Applies: All SEBI regulated entities.. Changes: Appointment of an accessibility auditor, the accessibility audit of digital platforms and fixing its findings are extended to 31-01-2027. Actions: 
+- 2026-10-27 Circular: Further extension for debenture trustees to move non-SEBI activities to separate business units (). Applies: Debenture trustees.. Changes: The deadline to comply with regulation 9C and the separate business unit framework moves to 27-04-2027 while an expert group reviews it. Actions: 
+- 2026-10-15 Circular: Closing Auction Session, market timings and settlement methodology for derivatives (). Applies: Stock exchanges, clearing corporations and stock brokers.. Changes: Changes to the closing auction session, market timings and the settlement price method for derivatives; parts take effect from 07-12-2026. Actions: 
+- 2026-10-14 Amendment Regulations: SEBI (Alternative Investment Funds) (Third Amendment) Regulations, 2026 (SEBI/LAD-NRO/GN/2026/326). Applies: AIFs, their managers and investors.. Changes: Accredited investors may now be accredited by a specified SEBI-registered entity, and securities market exposure becomes a qualifying test. Regulation 25 on dispute resolution between investors and the AIF or manager is substituted. Actions: Review PPM and contribution agreement dispute clauses.
+- 2026-10-14 Amendment Regulations: SEBI (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026 (SEBI/LAD-DOP/2026/329). Applies: Entities that list non-convertible debt securities.. Changes: Regulation 62A(1) substituted: an entity whose non-convertible debt securities are listed on or after 14-10-2026 must list all non-convertible debt securities it issues after that listing. Regulation 62A(2) and (3) omitted. Actions: Plan future NCD issues on the basis that they will be listed.
+- 2026-10-14 Consultation paper: Consultation paper: review of ICDR provisions on SME IPOs (). Applies: SME issuers and merchant bankers.. Changes: Working group recommendations to revise the SME IPO framework. No rule has changed yet. Actions: 
+- 2026-10-13 Consultation paper: Consultation paper: monitoring and disclosure of utilisation of issue proceeds (LODR review) (). Applies: Listed entities raising funds.. Changes: Working group recommendations on monitoring agency reports and disclosure of how issue proceeds are used. No rule has changed yet. Actions: 
+- 2026-10-09 Amendment Regulations: SEBI (Intermediaries) (Second Amendment) Regulations, 2026: common advertisement code (SEBI/LAD-NRO/GN/2026/323). Applies: Regulated entities that advertise, including AMCs, stock brokers and AIF managers.. Changes: New Chapter IIID sets a common advertisement code, including rules on celebrity endorsements and influencers. In force 180 days after publication on 09-10-2026. The MF Regulations' own advertisement schedule is removed by a matching amendment. Actions: Review advertising and celebrity or influencer arrangements before the code takes effect.
+- 2026-10-08 Regulations: SEBI (Portfolio Managers) Regulations, 2026 (). Applies: Portfolio managers, including AMCs that offer portfolio management services.. Changes: New regulations replace the Portfolio Managers Regulations, 2020 from 01-04-2027. Actions: 
+- 2026-10-07 Circular: Credit Risk-o-Meter for debt securities (). Applies: Issuers of debt securities and online bond platform providers.. Changes: A colour-coded Credit Risk-o-Meter becomes mandatory in offer documents, abridged prospectuses, private placement memoranda, issuer advertisements and online bond platforms. In force 45 days after issue. Actions: Update offer document templates.
+- 2026-10-07 Circular: No mandatory merchant banker for certain private placements of debt by listed regulated issuers (). Applies: Listed issuers regulated by SEBI, RBI, IRDAI or PFRDA issuing debt of Rs 10,000 face value on private placement.. Changes: Such issuers may skip the merchant banker if they meet all the conditions, including at least one year of listing and no pending fines. Actions: 
+- 2026-10-07 Circular: More ISINs for privately placed debt securities (). Applies: Issuers of privately placed debt securities.. Changes: Up to 17 ISINs may mature in a financial year (12 plain vanilla, 5 structured and similar), plus six for capital gains bonds, with extra ISINs for large issuers. Actions: 
+- 2026-10-01 Circular: Investor awareness messages on stock brokers' websites and apps (Project Jagrook) (). Applies: Stock brokers.. Changes: From 01-11-2026, investor awareness messages shared by SEBI go on the landing page of brokers' websites, and alternate with risk disclosures on trading apps. Actions: Confirm the messages are live on the website and app landing pages.
+- 2026-09-28 Master Circular: Master Circular for Debenture Trustees (). Applies: Debenture trustees and issuers of listed debt.. Changes: Consolidates the circulars for debenture trustees. Actions: 
+- 2026-09-07 Circular: More time for older angel funds to move to accredited investors only (). Applies: Angel funds registered on or before 10-09-2025.. Changes: The accredited-investor-only deadline moves from 08-09-2026 to 31-03-2027; up to 200 non-accredited investors may be offered deals until then. Actions: 

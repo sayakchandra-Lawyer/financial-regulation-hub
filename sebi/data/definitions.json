@@ -1,0 +1,3430 @@
+{
+ "meta": {
+  "as_of": "2026-11-25",
+  "note": "Terms as each instrument defines them, shortened where long. The instrument's own text governs."
+ },
+ "instruments": {
+  "ACT-SEBI": [
+   {
+    "term": "Board",
+    "para": "definition clause",
+    "def": "means the Securities and Exchange Board of India established under section 3;",
+    "scope": ""
+   },
+   {
+    "term": "Chairman",
+    "para": "definition clause",
+    "def": "means the Chairman of the Board;",
+    "scope": ""
+   },
+   {
+    "term": "existing Securities and Exchange Board",
+    "para": "definition clause",
+    "def": "means the Securities and Exchange Board of India constituted under the Resolution of the Government of India in the Department of Economic Affairs No. 1(44) SE/86, dated the 12th day of April, 1988;",
+    "scope": ""
+   },
+   {
+    "term": "Fund",
+    "para": "definition clause",
+    "def": "means the Fund constituted under section 14; (da) Insurance Regulatory and Development Authority” means the Insurance Regulatory and Development Authority of India established under sub-section (1) of section 3 of the Insurance Regulatory and Development Authority Act, 1999; (db) Judicial Member” means a Member of the Securities Appellate Tribunal appointed under sub-section (1) of section 15MA and includes the…",
+    "scope": ""
+   },
+   {
+    "term": "member",
+    "para": "definition clause",
+    "def": "means a member of the Board and includes the Chairman;",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "definition clause",
+    "def": "means a notification published in the Official Gazette; (fa) Pension Fund Regulatory and Development Authority” means the Pension Fund Regulatory and Development Authority established under subsection (1) of section 3 of the Pension Fund Regulatory and Development Authority Act, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "definition clause",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "regulations",
+    "para": "definition clause",
+    "def": "means the regulations made by the Board under this Act; 1 Inserted by the Securities Laws (Amendment) Act, 1999, w.e.f. 22-2-2000. Prt II 2 Inserted by Part VIII of Chapter VI of the Finance Act, 2017 vide Gazette Notification No. 7, Extraordinary Prt II Prt II Section 1 dated March 31, 2017. This shall come into force from April 26, 2017. 3 Inserted by Part VIII of Chapter VI of the Finance Act, 2017 vide…",
+    "scope": ""
+   },
+   {
+    "term": "securities",
+    "para": "definition clause",
+    "def": "has the meaning assigned to it in section 2 of the Securities Contracts (j) Technical Member” means a Technical Member appointed under sub-section (1) of section (2) Words and expressions used and not defined in this Act but defined in the Securities Contracts (Regulation) Act, 1956 (42 of 1956) or the Depositories Act, 1996, shall have the meanings respectively assigned to them in that Act.",
+    "scope": ""
+   },
+   {
+    "term": "chartered accountant",
+    "para": "definition clause",
+    "def": "means a chartered accountant as defined in clause (b) of sub- section (1) of section 2 of the Chartered Accountants Act, 1949 (38 of 1949) and who has obtained a certificate of practice under sub-section (1) of section 6 of that Act;",
+    "scope": ""
+   },
+   {
+    "term": "company secretary",
+    "para": "definition clause",
+    "def": "means a company secretary as defined in clause (c) of sub-section",
+    "scope": ""
+   },
+   {
+    "term": "cost accountant",
+    "para": "definition clause",
+    "def": "means a cost accountant as defined in clause (b) of sub-section (1) of section 2 of the Cost and Works Accountants Act, 1959 (23 of 1959) and who has obtained a certificate of practice under sub-section (1) of section 6 of that Act;",
+    "scope": ""
+   },
+   {
+    "term": "legal practitioner",
+    "para": "definition clause",
+    "def": "means an advocate, vakil or any attorney of any High Court, and includes a pleader in practice. Limitation. 15W. The provisions of the Limitation Act, 1963 (36 of 1963), shall, as far as may be, apply to an appeal made to a Securities Appellate Tribunal. 140 Inserted by Part VIII of Chapter VI of the Finance Act, 2017 vide Gazette Notification No. 7, Extraordinary Prt II Section 1 dated March 31, 2017 This shall…",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definition clause",
+    "def": "means any body corporate and includes a firm or other association of individuals; and",
+    "scope": ""
+   }
+  ],
+  "ACT-SCRA": [
+   {
+    "term": "contract",
+    "para": "definition clause",
+    "def": "means a contract for or relating to the purchase or sale of securities;",
+    "scope": ""
+   },
+   {
+    "term": "demutualisation",
+    "para": "definition clause",
+    "def": "means the segregation of ownership and management from the trading rights of the members of a recognised stock exchange in accordance with a scheme approved by the Securities and Exchange Board of India; (ac) “derivative”— includes (A) a security derived from a debt instrument, share, loan, whether secured or unsecured, risk instrument or contract for differences or any other form of security; (B) a contract…",
+    "scope": ""
+   },
+   {
+    "term": "Government security",
+    "para": "definition clause",
+    "def": "means a security created and issued, whether before or after the commencement of this Act, by the Central Government or a State Government for the purpose of raising a public loan and having one of the forms specified in clause (2) of section 2 of the Public Debt Act, 1944 (18 of 1944);",
+    "scope": ""
+   },
+   {
+    "term": "commodity derivative",
+    "para": "definition clause",
+    "def": "means a contract —",
+    "scope": ""
+   },
+   {
+    "term": "member",
+    "para": "definition clause",
+    "def": "means a member of a recognised stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "option in securities",
+    "para": "definition clause",
+    "def": "means a contract for the purchase or sale of a right to buy or sell, or a right to buy and sell, securities in future, and includes a teji, a mandi, a teji mandi, a galli, a put, a call or a put and call in securities; (da) “pooled investment vehicle” means a fund established in India in the form of a trust or otherwise, such as mutual fund, alternative investment fund, collective investment scheme or a business…",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "definition clause",
+    "def": "means prescribed by rules made under this Act; (ea) \"ready delivery contract\" means a contract which provides for the delivery of goods and the payment of a price therefor, either immediately, or within such period not exceeding eleven days after the date of the contract and subject to such conditions as the Central Government may, by notification in the Official Gazette, specify in respect of any goods, the…",
+    "scope": ""
+   },
+   {
+    "term": "recognised stock exchange",
+    "para": "definition clause",
+    "def": "means a stock exchange which is for the time being recognised by the Central Government under section 4;",
+    "scope": ""
+   },
+   {
+    "term": "chartered accountant",
+    "para": "definition clause",
+    "def": "means a chartered accountant as defined in clause b)of sub-section",
+    "scope": ""
+   },
+   {
+    "term": "company secretary",
+    "para": "definition clause",
+    "def": "means a company secretary as defined in clause (c) of sub- section (1) of section 2 of the Company Secretaries Act, 1980 (56 of 1980) and who has obtained a certificate of practice under sub-section (1) of section 6 of that Act;",
+    "scope": ""
+   },
+   {
+    "term": "cost accountant",
+    "para": "definition clause",
+    "def": "means a cost accountant as defined in clause (b)of sub section (1) of section 2 of the Cost and Works Accountants Act, 1959 (23 of 1959) and who has obtained a certificate of practice under sub-section (1) of section 6 of that Act;",
+    "scope": ""
+   },
+   {
+    "term": "legal practitioner",
+    "para": "definition clause",
+    "def": "means an advocate, vakil or an attorney of any High Court, and includes a pleader in practice. 101[Limitation. 22D. The provisions of the Limitation Act, 1963 (36 of 1963) shall, as far as may be, apply to an appeal made to a Securities Appellate Tribunal. 100 Inserted by the Securities Laws (Second Amendment) Act, 1999, Sec 5, w.e.f. 16-12-1999. 101 Inserted by the Securities Laws (Second Amendment) Act, 1999,…",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definition clause",
+    "def": "means any body corporate and includes a firm or other association of individuals, 165[(b) “director”, in relation to -",
+    "scope": ""
+   }
+  ],
+  "RULES-SCRR": [
+   {
+    "term": "form",
+    "para": "rule 2",
+    "def": "means a form appended to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "the Act",
+    "para": "rule 2",
+    "def": "means the Securities Contracts (Regulation) Act, 1956 (42 of 1956);",
+    "scope": ""
+   },
+   {
+    "term": "Government company",
+    "para": "rule 2",
+    "def": "means a company in which not less than fifty-one per cent of the share capital is held by the Central Government or by any State Government or Governments or partly by the Central Government and partly by one or more State Governments;” 2 Inserted by the Securities Contracts (Regulation) (Amendment) Rules, 2010, w.e.f. 04.06.2010. 3 Inserted by the Securities Contracts (Regulation) (Second Amendment) Rules, 2010,…",
+    "scope": ""
+   },
+   {
+    "term": "public shareholding",
+    "para": "rule 2",
+    "def": "means equity shares of the company held by public and shall exclude shares which are held by custodian against depository receipts issued overseas. Page 1 of 36 Provided that the equity shares of the company held by the trust set up for implementing employee benefit schemes under the regulations framed by the Securities and Exchange Board of India shall be excluded from public shareholding Application for…",
+    "scope": ""
+   }
+  ],
+  "ACT-DEP": [
+   {
+    "term": "beneficial owner",
+    "para": "definition clause",
+    "def": "means a person whose name is recorded as such with a depository;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definition clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "bye-laws",
+    "para": "definition clause",
+    "def": "means bye-laws made by a depository under section 26;",
+    "scope": ""
+   },
+   {
+    "term": "Company Law Board",
+    "para": "definition clause",
+    "def": "means the Board of Company Law Administration constituted under section 10E of the Companies Act, 1956 (1 of 1956);",
+    "scope": ""
+   },
+   {
+    "term": "depository",
+    "para": "definition clause",
+    "def": "means a company formed and registered under the Companies Act, 1956 (1 of 1956), and which has been granted a certificate of registration under sub-section",
+    "scope": ""
+   },
+   {
+    "term": "issuer",
+    "para": "definition clause",
+    "def": "means any person making an issue of securities;",
+    "scope": ""
+   },
+   {
+    "term": "participant",
+    "para": "definition clause",
+    "def": "means a person registered as such under sub-section (1A) of section 12 of the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "definition clause",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "record",
+    "para": "definition clause",
+    "def": "includes the records maintained in the form of books or stored in a computer or in such other form as may be determined by regulations;",
+    "scope": ""
+   },
+   {
+    "term": "registered owner",
+    "para": "definition clause",
+    "def": "means a depository whose name is entered as such in the register of the issuer;",
+    "scope": ""
+   },
+   {
+    "term": "regulations",
+    "para": "definition clause",
+    "def": "means the regulations made by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "security",
+    "para": "definition clause",
+    "def": "means such security as may be specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "service",
+    "para": "definition clause",
+    "def": "means any service connected with recording of allotment of securities or transfer of ownership of securities in the record of a depository.",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definition clause",
+    "def": "means any body corporate and includes a firm or other association of individuals; and",
+    "scope": ""
+   },
+   {
+    "term": "chartered accountant",
+    "para": "definition clause",
+    "def": "means a chartered accountant as defined in clause (b) of sub- section (1) of section 2 of the Chartered Accountants Act, 1949 (38 of 1949) and who has obtained a certificate of practice under sub-section (1) of section 6 of that Act;",
+    "scope": ""
+   },
+   {
+    "term": "company secretary",
+    "para": "definition clause",
+    "def": "means a company secretary as defined in clause (c) of sub-section",
+    "scope": ""
+   },
+   {
+    "term": "cost accountant",
+    "para": "definition clause",
+    "def": "means a cost accountant as defined in clause (b) of sub-section (1) of section 2 of the Cost and Works Accountants Act, 1959 (23 of 1959) and who has obtained a certificate of practice under sub-section (1) of section 6 of that Act;",
+    "scope": ""
+   },
+   {
+    "term": "legal practitioner",
+    "para": "definition clause",
+    "def": "means an advocate, vakil or an attorney of any High Court, and includes a pleader in practice. Limitation. 23D. The provisions of the Limitation Act, 1963 (36 of 1963) shall, as far as may be, apply to an appeal made to a Securities Appellate Tribunal. Civil court not to have jurisdiction. 23E. No civil court shall have jurisdiction to entertain any suit or proceeding in respect of any matter which a Securities…",
+    "scope": ""
+   }
+  ],
+  "REG-PENALTY": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "inquiry",
+    "para": "rule 2",
+    "def": "means the inquiry referred in sub-section (4A) of section 11 or sub-section",
+    "scope": ""
+   }
+  ],
+  "REG-SETTLE": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of",
+    "scope": ""
+   },
+   {
+    "term": "alleged default",
+    "para": "definitions clause",
+    "def": "means any act or omission resulting in contravention of any provision of the securities laws attracting specified proceeding;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under Section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "days",
+    "para": "definitions clause",
+    "def": "means English calendar days;",
+    "scope": ""
+   },
+   {
+    "term": "High Powered Advisory Committee",
+    "para": "definitions clause",
+    "def": "means a committee, constituted by the Board under regulation 23;",
+    "scope": ""
+   },
+   {
+    "term": "Internal Committee",
+    "para": "definitions clause",
+    "def": "means a committee, constituted by the Board under regulation 21;",
+    "scope": ""
+   },
+   {
+    "term": "Panel of Whole Time Member",
+    "para": "definitions clause",
+    "def": "means the panel of two or more Whole Time Members, constituted by the Chairman of the Board;",
+    "scope": ""
+   },
+   {
+    "term": "report",
+    "para": "definitions clause",
+    "def": "includes examination report, investigation report, inspection report, enquiry report, audit report or any other document containing fact finding by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "securities laws",
+    "para": "definitions clause",
+    "def": "means the Act, the Securities Contracts (Regulation) Act, 1956 (42 of 1956), the Depositories Act, 1996 (22 of 1996), the relevant provisions of any other law to the extent it is administered by the Board, along with the relevant rules, regulations, master circulars, circulars, general or special orders or guidelines, made or issued thereunder;",
+    "scope": ""
+   },
+   {
+    "term": "settlement amount",
+    "para": "definitions clause",
+    "def": "means an amount determined in terms of regulation 10 for settlement of specified proceeding;",
+    "scope": ""
+   },
+   {
+    "term": "settlement term",
+    "para": "definitions clause",
+    "def": "means the terms as referred to in regulation 9;",
+    "scope": ""
+   },
+   {
+    "term": "specified proceeding",
+    "para": "definitions clause",
+    "def": "means the proceeding that may be initiated by the Board or have been initiated and is pending before the Board; or any appeal pending before the Tribunal or the Supreme Court, for the violation of provisions of securities laws, under Section 11, Section 11B, Section 11D, Section 12(3) or Section 15-I of the Act or Section 12A or Section 23-I of the Securities Contracts (Regulation) Act, 1956 or Section 19 or…",
+    "scope": ""
+   },
+   {
+    "term": "Tribunal",
+    "para": "definitions clause",
+    "def": "means the Securities Appellate Tribunal established under Section 15K of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "year",
+    "para": "definitions clause",
+    "def": "means calendar or financial year, as applicable.",
+    "scope": ""
+   }
+  ],
+  "REG-PFUTP": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "dealing in securities",
+    "para": "definitions clause",
+    "def": "includes an act of buying, selling or subscribing pursuant to any issue of any security or agreeing to buy, sell or subscribe to any issue of any security or otherwise transacting in any way in any security by any person as principal, agent or intermediary referred to in section 12 of the Act.\" 2 Inserted vide Securities and Exchange Board of India (Prohibition of Fraudulent and Unfair Trade Practices relating to…",
+    "scope": ""
+   },
+   {
+    "term": "fraud",
+    "para": "definitions clause",
+    "def": "includes any act, expression, omission or concealment committed whether in a deceitful manner or not by a person or by any other person with his connivance or by his agent while dealing in securities in order to induce another person or his agent to deal in securities, whether or not there is any wrongful gain or avoidance of any loss, and shall also include—",
+    "scope": ""
+   },
+   {
+    "term": "Investigating Authority",
+    "para": "definitions clause",
+    "def": "means any person authorized by the Board to undertake investigation under section 11C of the Act; 3 Substituted vide Securities and Exchange Board of India (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) (Amendment) Regulations, 2020 w.e.f. March 13, 2020. Before the substitution the words read as “officer of the Board not below the rank of Division Chief,\".",
+    "scope": ""
+   },
+   {
+    "term": "securities",
+    "para": "definitions clause",
+    "def": "means securities as defined in section 2 of the Securities Contracts (2) The words and expressions used and not defined in these regulations but defined in the Act, the Securities Contracts (Regulation) Act, 1956 (42 of 1956), the Depositories Act, 1996 (22 of 1996), the Companies Act, 2013 (18 of 2013), or any rules or regulations made thereunder shall have the same meanings respectively assigned to them in…",
+    "scope": ""
+   }
+  ],
+  "REG-PIT": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India;",
+    "scope": ""
+   },
+   {
+    "term": "compliance officer",
+    "para": "definitions clause",
+    "def": "means any senior officer, designated so and reporting to the board of directors or head of the organization in case board is not there, who is financially literate and is capable of appreciating requirements for legal and regulatory compliance under these regulations and who shall be responsible for compliance of policies, procedures, maintenance of records, monitoring adherence to the rules for the preservation…",
+    "scope": ""
+   },
+   {
+    "term": "connected person",
+    "para": "definitions clause",
+    "def": "means,- (i) any person who is or has been, during the six months prior to the concerned act, associated with a company, in any capacity, directly or indirectly, including by reason of frequent communication with its officers or by being in any contractual, fiduciary or employment relationship or by being a director, officer or an employee of the company or holds any position including a professional or business…",
+    "scope": ""
+   },
+   {
+    "term": "generally available information",
+    "para": "definitions clause",
+    "def": "means information that is accessible to the public on a non-discriminatory basis and shall not include unverified event or information reported in print or electronic media; NOTE: It is intended to define what constitutes generally available information so that it is easier to crystallize and appreciate what constitutes unpublished price sensitive information ***. Information published on the website of a stock…",
+    "scope": ""
+   },
+   {
+    "term": "immediate relative",
+    "para": "definitions clause",
+    "def": "means a spouse of a person, and includes parent, sibling, and child of such person or of the spouse, any of whom is either dependent financially on such person, or consults such person in taking decisions relating to trading in securities; 7 Substituted for “Immediate relatives” by the Securities and Exchange Board of India (Prohibition of Insider Trading) (Third Amendment) Regulations, 2024 (w.e.f. December 06,…",
+    "scope": ""
+   },
+   {
+    "term": "insider",
+    "para": "definitions clause",
+    "def": "means any person who is:",
+    "scope": ""
+   },
+   {
+    "term": "specified",
+    "para": "definitions clause",
+    "def": "means specified by the Board in writing;",
+    "scope": ""
+   },
+   {
+    "term": "takeover regulations",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 and any amendments thereto;",
+    "scope": ""
+   },
+   {
+    "term": "trading",
+    "para": "definitions clause",
+    "def": "means and includes subscribing, redeeming, switching, buying, selling, dealing, or agreeing to subscribe, redeem, switch, buy, sell, deal in any securities, and \"trade\" shall be construed accordingly; NOTE: Under the parliamentary mandate, since the Section 12A (e) and Section 15G of the Act employs the term 'dealing in securities', it is intended to widely define the term “trading” to include dealing. Such a…",
+    "scope": ""
+   },
+   {
+    "term": "trading day",
+    "para": "definitions clause",
+    "def": "means a day on which the recognized stock exchanges are open for trading; 20 Omitted by the Securities and Exchange Board of India (Prohibition of Insider Trading) (Amendment) Regulations, 2022 (w.e.f. November 1, 2024) 21 Inserted by the Securities and Exchange Board of India (Prohibition of Insider Trading) (Amendment) Regulations, 2022 (w.e.f. November 1, 2024) 22 Ibid.",
+    "scope": ""
+   },
+   {
+    "term": "unpublished price sensitive information",
+    "para": "definitions clause",
+    "def": "means any information, relating to a company or its securities, directly or indirectly, that is not generally available which upon becoming generally available, is likely to materially affect the price of the securities and shall, ordinarily including but not restricted to, information relating to the following: –",
+    "scope": ""
+   },
+   {
+    "term": "Investor Protection and Education Fund",
+    "para": "definitions clause",
+    "def": "means the Investor Protection and Education Fund created by the Board under section 11 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Informant",
+    "para": "definitions clause",
+    "def": "means an individual(s), who voluntarily submits to the Board a Voluntary Information Disclosure Form relating to an alleged violation of insider trading laws that has occurred, is occurring or has a reasonable belief that it is about to occur, in a manner provided under these regulations, regardless of whether such individual(s) satisfies the requirements, procedures and conditions to qualify for a reward;",
+    "scope": ""
+   },
+   {
+    "term": "Informant Incentive Committee",
+    "para": "definitions clause",
+    "def": "means the High Powered Advisory Committee constituted by the Board in the manner as may be specified under regulation 11 of the Securities and Exchange Board of India (Settlement Proceedings) Regulations, 2018.",
+    "scope": ""
+   },
+   {
+    "term": "insider trading laws",
+    "para": "definitions clause",
+    "def": "means the following provisions of securities laws,- i. Section 15G of the Act; ii. regulation 3 of these regulations; iii. regulation 4 of these regulations; iv. regulation 5 of these regulations; *** iv(a) regulations 5A to 5G of these regulations; and v. regulation 9 or regulation 9A of these regulations, in so far as they pertain to trading or communication of unpublished price sensitive information.",
+    "scope": ""
+   },
+   {
+    "term": "irrelevant, vexatious and frivolous information",
+    "para": "definitions clause",
+    "def": "includes, reporting of information which in the opinion of the Board, -",
+    "scope": ""
+   },
+   {
+    "term": "Legal Representative",
+    "para": "definitions clause",
+    "def": "means a duly authorised individual who is admitted to the practice of law in India;",
+    "scope": ""
+   },
+   {
+    "term": "Monetary Sanctions",
+    "para": "definitions clause",
+    "def": "shall mean any non-monetary settlement terms or any direction of the Board, in the nature of disgorgement under securities laws aggregating to at least Rupees one crore arising from the same operative facts contained in the original information.",
+    "scope": ""
+   },
+   {
+    "term": "Original Information",
+    "para": "definitions clause",
+    "def": "means any relevant information submitted in accordance with these regulations pertaining to any violation of insider trading laws that is:-",
+    "scope": ""
+   },
+   {
+    "term": "Reward",
+    "para": "definitions clause",
+    "def": "means any gratuitous monetary amount for which an Informant is declared eligible as per the provisions of these regulations; (l)‘securities laws’ means the Act, the Securities Contract (Regulations) Act, 1956 (42 of 1956), the Depositories Act, 1996 (22 of 1996), the relevant provisions of any other law to the extent it is administered by the Board and the relevant rules and regulations made thereunder;…",
+    "scope": ""
+   }
+  ],
+  "REG-LODR": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "associate",
+    "para": "definitions clause",
+    "def": "shall mean any entity which is an associate under sub-section (6) of section 2 of the Companies Act, 2013 or under the applicable accounting standards: Provided that this definition shall not be applicable for the units issued by mutual fund which are listed on a recognised stock exchange(s) for which the provisions of the Securities and Exchange Board of India (Mutual Funds) Regulations, 1996 shall be applicable;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "committee",
+    "para": "definitions clause",
+    "def": "shall mean committee of board of directors or any other committee so constituted;",
+    "scope": ""
+   },
+   {
+    "term": "designated securities",
+    "para": "definitions clause",
+    "def": "means specified securities, non-convertible debt securities, non-convertible redeemable preference shares, perpetual debt instrument, perpetual non-cumulative preference shares, Indian depository receipts, securitised debt instruments, [security receipts,1 units issued by mutual funds, Zero Coupon Zero Principal Instruments and any other securities as may be specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "global depository receipts",
+    "para": "definitions clause",
+    "def": "means global depository receipts as defined in sub- section (44) of section 2 of the Companies Act, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "half yearly results",
+    "para": "definitions clause",
+    "def": "means the financial results prepared in accordance with these regulations in respect of a half year;",
+    "scope": ""
+   },
+   {
+    "term": "Indian depository receipts",
+    "para": "definitions clause",
+    "def": "means Indian depository receipts as defined in sub- section(48) of section 2 of the Companies Act, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "key managerial personnel",
+    "para": "definitions clause",
+    "def": "means key managerial personnel as defined in sub- section (51) of section 2 of the Companies Act, 2013; 1 Inserted by SEBI (Listing Obligations and Disclosure Requirements) (Fifth Amendment) Regulations, 2018, 2 Inserted by Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Fifth Amendment) Regulations, 2022 w.e.f. 25.7.2022. 3 Inserted by SEBI (Listing Obligations and…",
+    "scope": ""
+   },
+   {
+    "term": "listed entity",
+    "para": "definitions clause",
+    "def": "means an entity which has listed, on a recognised stock exchange(s), the designated securities issued by it or designated securities issued under schemes managed by it, in accordance with the listing agreement entered into between the entity and the recognised stock exchange(s);",
+    "scope": ""
+   },
+   {
+    "term": "listing agreement",
+    "para": "definitions clause",
+    "def": "shall mean an agreement that is entered into between a recognised stock exchange and an entity, on the application of that entity to the recognised stock exchange, undertaking to comply with conditions for listing of designated securities;",
+    "scope": ""
+   },
+   {
+    "term": "main board",
+    "para": "definitions clause",
+    "def": "means main board as defined in clause (ee) of sub-regulation (1) of regulation 2 of the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018;",
+    "scope": ""
+   },
+   {
+    "term": "net worth",
+    "para": "definitions clause",
+    "def": "means net worth as defined in sub-section (57) of section 2 of the Companies Act, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "public",
+    "para": "definitions clause",
+    "def": "means public as defined under clause (d) of rule 2 of the Securities Contracts (Regulation) Rules, 1957;",
+    "scope": ""
+   },
+   {
+    "term": "public shareholding",
+    "para": "definitions clause",
+    "def": "means public shareholding as defined under clause (e) of rule 2 of the Securities Contracts (Regulation) Rules, 1957;",
+    "scope": ""
+   },
+   {
+    "term": "quarter",
+    "para": "definitions clause",
+    "def": "means the period of three months commencing on the first day of April, July, October or January of a financial year; assigned to them in the Securities and Exchange Board of India (Issue and Listing of Non-Convertible Redeemable Preference Shares) Regulations, 2013;”. 12 Substituted for “(x)” by the SEBI (Listing Obligations and Disclosure Requirements) (Second Amendment) 13 Substituted for “Securities and…",
+    "scope": ""
+   },
+   {
+    "term": "quarterly results",
+    "para": "definitions clause",
+    "def": "means the financial results prepared in accordance with these regulations in respect of a quarter;",
+    "scope": ""
+   },
+   {
+    "term": "related party",
+    "para": "definitions clause",
+    "def": "means a related party as defined under sub-section (76) of section 2 of the Companies Act, 2013 or under the applicable accounting standards: Provided that:",
+    "scope": ""
+   },
+   {
+    "term": "(zc) related party transaction",
+    "para": "definitions clause",
+    "def": "means a transfer of resources, services or obligations between a listed entity and a related party, regardless of whether a price is charged and a \"transaction\" with a related party shall be construed to include a single transaction or a group of transactions in a contract: Provided that this definition shall not be applicable for the units issued by mutual funds which are listed on a recognised stock exchange(s);”",
+    "scope": ""
+   },
+   {
+    "term": "relative",
+    "para": "definitions clause",
+    "def": "means relative as defined under sub-section (77) of section 2 of the Companies Act, 2013 and rules prescribed there under: Provided this definition shall not be applicable for the units issued by mutual fund which are listed on a recognised stock exchange(s);",
+    "scope": ""
+   },
+   {
+    "term": "schedule",
+    "para": "definitions clause",
+    "def": "means a schedule annexed to these regulations; (zf) “securities laws” means the Act, the Securities Contracts (Regulation) Act, 1956, the Depositories Act, 1996 and the rules and regulations made thereunder and the general or special orders, guidelines or circulars made or issued by the Board thereunder and the provisions of the Companies Act, 2013 or any previous company law and any subordinate legislation…",
+    "scope": ""
+   },
+   {
+    "term": "servicer",
+    "para": "definitions clause",
+    "def": "means servicer as defined under clause(t) of sub-regulation (1) of regulation 2 of the [Securities and Exchange Board of India (Issue and Listing of Securitised Debt Instruments and Security Receipts) Regulations, 2008;29",
+    "scope": ""
+   },
+   {
+    "term": "SME Exchange",
+    "para": "definitions clause",
+    "def": "means an SME exchange as defined under clause (ddd) of sub-regulation (1) of regulation 2 of the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018;",
+    "scope": ""
+   },
+   {
+    "term": "stock exchange",
+    "para": "definitions clause",
+    "def": "means a recognised stock exchange as defined under clause",
+    "scope": ""
+   },
+   {
+    "term": "specified securities",
+    "para": "definitions clause",
+    "def": "means ‘equity shares’ and ‘convertible securities’ as defined under clause (eee) of sub-regulation (1) of regulation 2 of the 27 Substituted by SEBI (Listing Obligations and Disclosure Requirements) (Fifth Amendment) Regulations, 2018, w.e.f. 06.09.2018. Prior to this, it read as “[(zg) ‘securitised debt instruments’ as defined in the Securities and Exchange Board of India (Public Offer and Listing of Securitised…",
+    "scope": ""
+   },
+   {
+    "term": "subsidiary",
+    "para": "definitions clause",
+    "def": "means a subsidiary as defined under sub-section(87) of section 2 of the Companies Act, 2013; (zn) “working days” means working days of the stock exchange where the securities of the entity are listed; (zo) the expressions “For Profit Social Enterprise”, “Not for Profit Organization”, “Social Enterprise”, “Social Stock Exchange”, “draft fund raising document”, “final fund raising document”, “fund raising…",
+    "scope": ""
+   },
+   {
+    "term": "independent director",
+    "para": "definitions clause",
+    "def": "means a non-executive director, other than a nominee director of the listed entity:",
+    "scope": ""
+   },
+   {
+    "term": "material subsidiary",
+    "para": "definitions clause",
+    "def": "shall mean a subsidiary, whose 129[turnover or net worth exceeds 130[ten percent of the consolidated 131[turnover or net worth respectively, of the listed entity and its subsidiaries in the immediately preceding accounting year.",
+    "scope": ""
+   },
+   {
+    "term": "Secretarial Auditor",
+    "para": "definitions clause",
+    "def": "means a Company Secretary in Practice or a firm of Company Secretary(ies) in practice appointed to conduct the Secretarial Audit.",
+    "scope": ""
+   },
+   {
+    "term": "Peer Reviewed Company Secretary",
+    "para": "definitions clause",
+    "def": "means a Company Secretary in practice, who is either practicing individually or as a sole proprietor or as a partner of a Peer Reviewed Practice Unit, holding a valid certificate of peer review issued by the Institute of Company Secretaries of India.",
+    "scope": ""
+   },
+   {
+    "term": "promoter(s) seeking re-classification",
+    "para": "definitions clause",
+    "def": "shall mean all such promoters/persons belonging to the promoter group seeking re-classification of status as public.",
+    "scope": ""
+   },
+   {
+    "term": "persons related to the promoter(s) seeking re-classification",
+    "para": "definitions clause",
+    "def": "shall mean such persons with respect to that promoter(s) seeking re-classification who fall under sub-clauses (ii), (iii) and (iv) of clause (pp) of sub-regulation (1) of regulation 2 of Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018.",
+    "scope": ""
+   },
+   {
+    "term": "advances",
+    "para": "definitions clause",
+    "def": "shall include only those amounts extended to contractors and suppliers towards execution of project, specific to new activity as reflected in the new name. (2)On satisfaction of conditions at sub-regulation (1), the listed entity shall file an application for name availability with Registrar of Companies. (3)442[ Upon compliance with the conditions for change of name laid down in Companies Act, 2013 and rules…",
+    "scope": ""
+   },
+   {
+    "term": "public private partnership",
+    "para": "definitions clause",
+    "def": "shall mean a public-private partnership between a public concessioning authority and a private special purpose vehicle concessionaire selected on the basis of open competitive bidding or on the basis of an Memorandum of Understanding with the relevant authorities.",
+    "scope": ""
+   },
+   {
+    "term": "IDR Holder(s)",
+    "para": "definitions clause",
+    "def": "shall mean holder(s) of Indian Depository Receipts.",
+    "scope": ""
+   },
+   {
+    "term": "Fraud",
+    "para": "definitions clause",
+    "def": "shall include fraud as defined under Regulation 2(1)(c) of Securities and Exchange Board of India (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 2003.",
+    "scope": ""
+   },
+   {
+    "term": "Default",
+    "para": "definitions clause",
+    "def": "shall mean non-payment of the interest or principal amount in full on the date when the debt has become due and payable.",
+    "scope": ""
+   },
+   {
+    "term": "Explanation.- For the purpose of this sub-para, ‘default",
+    "para": "definitions clause",
+    "def": "shall mean Non-payment of interest or principal amount in full on the pre-agreed date and shall be recognized at the first instance of delay in servicing of any interest or principal on debt.” 745 Substituted for “debenture” by the SEBI (Listing Obligations and Disclosure Requirements) (Fifth Amendment) Regulations, 2021 w.e.f. 7.9.2021. 746 The word “the” omitted by the SEBI (Listing Obligations and Disclosure…",
+    "scope": ""
+   }
+  ],
+  "REG-ICDR": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 [15 of 1992;",
+    "scope": ""
+   },
+   {
+    "term": "advertisement",
+    "para": "definitions clause",
+    "def": "includes notices, brochures, pamphlets, show cards, catalogues, hoardings, placards, posters, insertions in newspaper, pictures and films in any print media or electronic media, radio, television programme;",
+    "scope": ""
+   },
+   {
+    "term": "anchor investor",
+    "para": "definitions clause",
+    "def": "means a qualified institutional buyer who makes an application for a value of at least ten crore rupees in a public issue on the main board made through the book building process in accordance with these regulations or makes an application for a value of at least two crore rupees for an issue made in accordance with Chapter IX of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "application supported by blocked amount (ASBA)",
+    "para": "definitions clause",
+    "def": "means an application for subscribing to a public issue or rights issue, along with an authorisation to self-certified syndicate bank to block the application money in a bank account;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under the Act;",
+    "scope": ""
+   },
+   {
+    "term": "book building",
+    "para": "definitions clause",
+    "def": "means a process undertaken to elicit demand and to assess the price for determination of the quantum or value or coupon of specified securities or Indian Depository Receipts, as the case may be, in accordance with these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "composite issue",
+    "para": "definitions clause",
+    "def": "means an issue of specified securities by a listed issuer on public-cum- rights basis, wherein the allotment in both public issue and rights issue is proposed to be made simultaneously;",
+    "scope": ""
+   },
+   {
+    "term": "convertible debt instrument",
+    "para": "definitions clause",
+    "def": "means an instrument which creates or acknowledges indebtedness and is convertible into equity shares of the issuer at a later date at or without the option of the holder of the instrument, whether constituting a charge on the assets of the issuer or not;",
+    "scope": ""
+   },
+   {
+    "term": "convertible security",
+    "para": "definitions clause",
+    "def": "means a security which is convertible into or exchangeable with equity shares of the issuer at a later date, with or without the option of the holder of such security and includes convertible debt instrument and convertible preference shares;",
+    "scope": ""
+   },
+   {
+    "term": "designated stock exchange",
+    "para": "definitions clause",
+    "def": "means a recognised stock exchange having nationwide trading terminals chosen by the issuer on which securities of an issuer are listed or proposed to be listed for the purpose of a particular issue of specified securities under these regulations: Provided that, the issuer may choose a different recognised stock exchange as a designated stock exchange for any subsequent issue of specified securities;",
+    "scope": ""
+   },
+   {
+    "term": "draft offer document",
+    "para": "definitions clause",
+    "def": "means the draft offer document filed with the Board in relation to a public issue under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "employee",
+    "para": "definitions clause",
+    "def": "means a permanent employee, working in India or outside India, of the issuer or of the promoters or subsidiary company of the issuer, or a director of the issuer, whether 1 Substituted by the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) (Amendment) Regulations, 2025, w.e.f. 08.03.2025. Prior to its substitution, it read as under,- “(e) “associate” means a person which is…",
+    "scope": ""
+   },
+   {
+    "term": "fugitive economic offender",
+    "para": "definitions clause",
+    "def": "shall mean an individual who is declared a fugitive economic offender under section 12 of the Fugitive Economic Offenders Act, 2018 (17 of 2018);",
+    "scope": ""
+   },
+   {
+    "term": "further public offer",
+    "para": "definitions clause",
+    "def": "means an offer of specified securities by a listed issuer to the public for subscription and includes an offer for sale of specified securities to the public by any existing holders of such specified securities in a listed issuer;",
+    "scope": ""
+   },
+   {
+    "term": "green shoe option",
+    "para": "definitions clause",
+    "def": "means an option of allotting equity shares in excess of the equity shares offered in the public issue as a post-listing price stabilizing mechanism;",
+    "scope": ""
+   },
+   {
+    "term": "housing finance company",
+    "para": "definitions clause",
+    "def": "means a deposit taking housing finance company registered with the National Housing Bank for carrying on the business of housing finance; 3 Substituted by the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) (Second Amendment) Regulations, 2023 w.e.f. 23.5.2023 for the words and symbols “Securities and Exchange Board of India (Share Based Employee Benefits) Regulations, 2014”.…",
+    "scope": ""
+   },
+   {
+    "term": "infrastructure sector",
+    "para": "definitions clause",
+    "def": "shall include the following facilities/services:",
+    "scope": ""
+   },
+   {
+    "term": "initial public offer",
+    "para": "definitions clause",
+    "def": "means an offer of specified securities by an unlisted issuer to the public for subscription and includes an offer for sale of specified securities to the public by any existing holders of such specified securities in an unlisted issuer;",
+    "scope": ""
+   },
+   {
+    "term": "institutional investor",
+    "para": "definitions clause",
+    "def": "means (i) qualified institutional buyer; or (ii) family trust or intermediaries registered with the Board, with net worth of more than five hundred crore rupees, as per the last audited financial statements, for the purposes of listing and/or trading on innovators growth platform in terms of Chapter X;",
+    "scope": ""
+   },
+   {
+    "term": "issue size",
+    "para": "definitions clause",
+    "def": "includes offer through offer document and promoters’ contribution brought in as part of the issue;",
+    "scope": ""
+   },
+   {
+    "term": "issuer",
+    "para": "definitions clause",
+    "def": "means a company or a body corporate authorized to issue specified securities under the relevant laws and whose specified securities are being issued and/or offered for sale in accordance with these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "lead manager",
+    "para": "definitions clause",
+    "def": "means a merchant banker registered with the Board and appointed by the issuer to manage the issue and in case of a book built issue, the lead manager(s) appointed by the issuer shall act as the book running lead manager(s) for the purposes of book building;",
+    "scope": ""
+   },
+   {
+    "term": "listed issuer",
+    "para": "definitions clause",
+    "def": "means an issuer whose equity shares are listed on a recognised stock exchange having nationwide trading terminals;",
+    "scope": ""
+   },
+   {
+    "term": "main board",
+    "para": "definitions clause",
+    "def": "means a recognised stock exchange having nationwide trading terminals, other than SME exchange;",
+    "scope": ""
+   },
+   {
+    "term": "net offer",
+    "para": "definitions clause",
+    "def": "means an offer of specified securities to the public but does not include reservations and promoters’ contribution brought in as part of the issue;",
+    "scope": ""
+   },
+   {
+    "term": "net worth",
+    "para": "definitions clause",
+    "def": "means the aggregate value of the paid-up share capital and all reserves created out of the profits and securities premium account and debit or credit balance of profit and loss account, after deducting the aggregate value of the accumulated losses, deferred expenditure and miscellaneous expenditure not written off, as per the audited balance sheet, but does not include reserves created out of revaluation of…",
+    "scope": ""
+   },
+   {
+    "term": "nominated investor",
+    "para": "definitions clause",
+    "def": "means a qualified institutional buyer or private equity fund, who enters into an agreement with the lead manager(s) to subscribe to an issue, made in accordance with Chapter IX, in case of under-subscription or to receive or deliver the specified securities in the market-making process in such an issue;",
+    "scope": ""
+   },
+   {
+    "term": "non-institutional investor",
+    "para": "definitions clause",
+    "def": "means an investor other than a retail individual investor and qualified institutional buyer;",
+    "scope": ""
+   },
+   {
+    "term": "offer document",
+    "para": "definitions clause",
+    "def": "means a red herring prospectus, prospectus or shelf prospectus, as applicable, referred to under the Companies Act, 2013, in case of a public issue, and a letter of offer in case of a rights issue;",
+    "scope": ""
+   },
+   {
+    "term": "offer through offer document",
+    "para": "definitions clause",
+    "def": "means net offer and reservations;",
+    "scope": ""
+   },
+   {
+    "term": "preferential issue",
+    "para": "definitions clause",
+    "def": "means an issue of specified securities by a listed issuer to any select person or group of persons on a private placement basis in accordance with Chapter V of these regulations and does not include an offer of specified securities made through employee stock option scheme, employee stock purchase scheme or an issue of sweat equity shares or depository receipts issued in a country outside India or foreign securities;",
+    "scope": ""
+   },
+   {
+    "term": "promoter",
+    "para": "definitions clause",
+    "def": "shall include a person:",
+    "scope": ""
+   },
+   {
+    "term": "public financial institution",
+    "para": "definitions clause",
+    "def": "means a public financial institution as defined under the Companies Act, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "public issue",
+    "para": "definitions clause",
+    "def": "means an initial public offer or a further public offer;",
+    "scope": ""
+   },
+   {
+    "term": "qualified institutions placement",
+    "para": "definitions clause",
+    "def": "means issue of eligible securities by a listed issuer to qualified institutional buyers on a private placement basis and includes an offer for sale of specified securities by the promoters and/or promoter group on a private placement basis, in terms of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "relative",
+    "para": "definitions clause",
+    "def": "means a relative as defined under the Companies Act, 2013.",
+    "scope": ""
+   },
+   {
+    "term": "retail individual investor",
+    "para": "definitions clause",
+    "def": "means an individual investor who applies or bids for specified securities for a value of not more than two lakhs rupees;",
+    "scope": ""
+   },
+   {
+    "term": "retail individual shareholder",
+    "para": "definitions clause",
+    "def": "means a shareholder who applies or bids for specified securities for a value of not more than two lakhs rupees;",
+    "scope": ""
+   },
+   {
+    "term": "rights issue",
+    "para": "definitions clause",
+    "def": "means an offer of specified securities by a listed issuer to the shareholders of the issuer as on the record date fixed for the said purpose; 16 Inserted by the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) (Second Amendment) Regulations, 2023 w.e.f. 23.5.2023. 17 Inserted by the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) (Second…",
+    "scope": ""
+   },
+   {
+    "term": "schedule",
+    "para": "definitions clause",
+    "def": "means schedule annexed to these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "scheduled commercial bank",
+    "para": "definitions clause",
+    "def": "means scheduled commercial banks as included in the second schedule to the Reserve Bank of India Act, 1934;",
+    "scope": ""
+   },
+   {
+    "term": "self-certified syndicate bank",
+    "para": "definitions clause",
+    "def": "means a banker to an issue registered with the Board, which offers the facility of ASBA;",
+    "scope": ""
+   },
+   {
+    "term": "securities laws",
+    "para": "definitions clause",
+    "def": "means the Act, the Securities Contracts (Regulation) Act, 1956, the Depositories Act, 1996 and the rules and regulations made thereunder and the general or special orders, guidelines or circulars made or issued by the Board thereunder and the provisions of the Companies Act, 2013 or any previous company law and any subordinate legislation framed thereunder, which are administered by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "SME exchange",
+    "para": "definitions clause",
+    "def": "means a trading platform of a recognised stock exchange having nationwide trading terminals permitted by the Board to list the specified securities issued in accordance with Chapter IX and includes a stock exchange granted recognition for this purpose but does not include the Main Board;",
+    "scope": ""
+   },
+   {
+    "term": "specified securities",
+    "para": "definitions clause",
+    "def": "means equity shares and convertible securities; (eeea) “SR equity shares” means the equity shares of an issuer having superior voting rights compared to all other equity shares issued by that issuer.",
+    "scope": ""
+   },
+   {
+    "term": "stabilising agent",
+    "para": "definitions clause",
+    "def": "means a merchant banker who is responsible for stabilising the price of equity shares under a green shoe option, in terms of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "stock exchange",
+    "para": "definitions clause",
+    "def": "means any recognised stock exchange having nationwide trading terminals chosen by the issuer on which securities of an issuer are listed or proposed to be 18 Inserted by the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) (Amendment) Regulations, 2023, w-e-f 31.01.2023. 19 Inserted by the SEBI (Issue of Capital and Disclosure Requirements) (Third Amendment) Regulations, 2019…",
+    "scope": ""
+   },
+   {
+    "term": "valuer",
+    "para": "definitions clause",
+    "def": "means a person who is registered under section 247 of the Companies Act, 2013 and the relevant rules framed thereunder or as specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "20[wilful defaulter or a fraudulent borrower]",
+    "para": "definitions clause",
+    "def": "means a person or an issuer who or which is categorized as a wilful defaulter or a fraudulent borrower by any bank or financial institution (as defined under the Companies Act, 2013) or consortium thereof, in accordance with the guidelines on wilful defaulters or fraudulent borrowers issued by the Reserve Bank of India;",
+    "scope": ""
+   },
+   {
+    "term": "working day",
+    "para": "definitions clause",
+    "def": "means all days on which commercial banks in the city as specified in the offer document are open for business;",
+    "scope": ""
+   },
+   {
+    "term": "financial sector regulator",
+    "para": "definitions clause",
+    "def": "shall mean an authority or body constituted under any law for the time being in force to regulate services or transactions of financial sector and includes the Reserve Bank of India, the Securities and Exchange Board of India, the Insurance Regulatory and Development Authority of India, the Pension Fund Regulatory Authority, the International Financial Services Centre Authority, the Insolvency and Bankruptcy…",
+    "scope": ""
+   },
+   {
+    "term": "weight",
+    "para": "definitions clause",
+    "def": "means the number of equity shares arising out of conversion of such specified securities into equity shares at various stages;",
+    "scope": ""
+   },
+   {
+    "term": "price",
+    "para": "definitions clause",
+    "def": "means the price of equity shares on conversion arrived at after taking into account the predetermined conversion price at various stages. Securities ineligible for minimum promoters’ contribution 15. (1) For the computation of minimum promoters’ contribution, the following specified securities shall not be eligible:",
+    "scope": ""
+   },
+   {
+    "term": "pre-filed draft offer document",
+    "para": "definitions clause",
+    "def": "shall mean draft offer document filed with the Board under this Chapter;",
+    "scope": ""
+   },
+   {
+    "term": "pre-filed offer document",
+    "para": "definitions clause",
+    "def": "shall mean pre-filed draft offer document or updated draft red herring prospectus-I or updated draft red herring prospectus-II with the Board under this Chapter;",
+    "scope": ""
+   },
+   {
+    "term": "updated draft red herring prospectus-I",
+    "para": "definitions clause",
+    "def": "shall mean the updated pre-filed draft offer document filed with the Board after complying with the observations issued by the Board on such pre- filed draft offer document;",
+    "scope": ""
+   },
+   {
+    "term": "updated draft red herring prospectus-II",
+    "para": "definitions clause",
+    "def": "shall mean the updated draft red herring prospectus-I filed with the Board after incorporating the comments of the public received on such updated draft red herring prospectus-I. Application of this Chapter 59B. (1) In lieu of an initial public offer of specified securities on the Main Board under Chapter-II of these regulations, the issuer may make an initial public offer of specified securities in accordance…",
+    "scope": ""
+   },
+   {
+    "term": "average market capitalisation of public shareholding",
+    "para": "definitions clause",
+    "def": "means the sum of daily market capitalisation of public shareholding for a period of one year up to the end of the quarter preceding the month in which the proposed issue was approved by the shareholders or the board of the issuer, as the case may be, divided by the number of trading days.",
+    "scope": ""
+   },
+   {
+    "term": "reference date",
+    "para": "definitions clause",
+    "def": "means the date of filing the letter of offer with the designated stock exchange.",
+    "scope": ""
+   },
+   {
+    "term": "weights",
+    "para": "definitions clause",
+    "def": "means the number of equity shares arising out of conversion of such specified securities into equity shares at various stages;",
+    "scope": ""
+   },
+   {
+    "term": "draft fund raising document",
+    "para": "definitions clause",
+    "def": "means the draft fund raising document filed with a Social Stock Exchange in relation to a public issue of Zero Coupon Zero Principal Instruments by a Not for Profit Organization registered with the Social Stock Exchange;",
+    "scope": ""
+   },
+   {
+    "term": "final fund raising document",
+    "para": "definitions clause",
+    "def": "means the final fund raising document filed with the Social Stock Exchange pursuant to incorporation of observations issued in respect of the draft fund raising document by the Social Stock Exchange;",
+    "scope": ""
+   },
+   {
+    "term": "For Profit Social Enterprise",
+    "para": "definitions clause",
+    "def": "means a company or a body corporate operating for profit, which is a Social Enterprise for the purposes of these regulations and does not include a company incorporated under section 8 of the Companies Act,",
+    "scope": ""
+   },
+   {
+    "term": "fund raising document",
+    "para": "definitions clause",
+    "def": "means the draft fund raising document and the final fund raising document;",
+    "scope": ""
+   },
+   {
+    "term": "Not for Profit Organization",
+    "para": "definitions clause",
+    "def": "means a Social Enterprise which is any of the following entities:",
+    "scope": ""
+   },
+   {
+    "term": "Social 559[Impact Assessor]",
+    "para": "definitions clause",
+    "def": "means an individual registered with a self- regulatory organization under the Institute of Chartered Accountants of India or such other agency, as may be specified by the Board, who has qualified a certification program conducted by National Institute of Securities Market and holds a valid certificate; 560[(g) “Social Impact Assessment Organization” means any entity which has –",
+    "scope": ""
+   },
+   {
+    "term": "Social Enterprise",
+    "para": "definitions clause",
+    "def": "means either a Not for Profit Organization or a For Profit Social Enterprise that meets the eligibility criteria specified in this Chapter;",
+    "scope": ""
+   },
+   {
+    "term": "Social Stock Exchange",
+    "para": "definitions clause",
+    "def": "means a separate segment of a recognized stock exchange having nationwide trading terminals permitted to register Not for Profit Organizations and / or list the securities issued by Not for Profit Organizations in accordance with provisions of these regulations. 552 Inserted by the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) (Second Amendment) Regulations, 2025 w.e.f.…",
+    "scope": ""
+   },
+   {
+    "term": "dissenting shareholders",
+    "para": "definitions clause",
+    "def": "means those shareholders who have voted against the resolution for change in objects or variation in terms of a contract relating to objects, referred to in the offer document of the issuer;",
+    "scope": ""
+   },
+   {
+    "term": "relevant date",
+    "para": "definitions clause",
+    "def": "means date of the board meeting in which the proposal for change in objects or variation in terms of a contract relating to objects, referred to in the offer document is approved, before seeking shareholders’ approval. Conditions for exit offer The promoter or the shareholders in control, as the case may be, shall make an exit offer in accordance with the provisions of this Chapter, to the dissenting…",
+    "scope": ""
+   }
+  ],
+  "REG-NCS": [
+   {
+    "term": "abridged prospectus",
+    "para": "definitions clause",
+    "def": "means a memorandum accompanying the application form for a public issue containing such salient features of a prospectus as specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "advertisement",
+    "para": "definitions clause",
+    "def": "means and includes notices, brochures, pamphlets, show cards, catalogues, hoardings, placards, posters, insertions in newspaper, pictures, films, websites or in any other print or digital medium, radio, television programmes through any electronic medium;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under the provisions of Section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "book building",
+    "para": "definitions clause",
+    "def": "means a process undertaken to elicit demand and to assess the price for determination of the quantum or value of the non-convertible securities, in accordance with these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "commercial paper",
+    "para": "definitions clause",
+    "def": "means commercial paper as defined by the Reserve Bank of India;",
+    "scope": ""
+   },
+   {
+    "term": "credit rating agency",
+    "para": "definitions clause",
+    "def": "means a Credit Rating Agency registered with the Board;",
+    "scope": ""
+   },
+   {
+    "term": "debenture trustee",
+    "para": "definitions clause",
+    "def": "means a debenture trustee registered with the Board;",
+    "scope": ""
+   },
+   {
+    "term": "debt securities",
+    "para": "definitions clause",
+    "def": "means non-convertible debt securities with a fixed maturity period which Page 1 of 81 create or acknowledge indebtedness and includes debentures, bonds or any other security whether constituting a charge on the assets/ properties or not, but excludes security receipts, securitized debt instruments, money market instruments regulated by the Reserve Bank of India, and bonds issued by the Government or such other…",
+    "scope": ""
+   },
+   {
+    "term": "depository",
+    "para": "definitions clause",
+    "def": "means a depository registered with the Board;",
+    "scope": ""
+   },
+   {
+    "term": "designated stock exchange",
+    "para": "definitions clause",
+    "def": "means a recognised stock exchange, in which non- convertible securities and/or commercial paper of the issuer are listed or proposed to be listed and which is chosen by the issuer for the purposes of a particular issue under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "draft offer document",
+    "para": "definitions clause",
+    "def": "means a draft prospectus or draft shelf prospectus filed with the stock exchange(s) and the Board in relation to a public issue of debt securities or non- convertible redeemable preference shares under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "electronic book provider platform",
+    "para": "definitions clause",
+    "def": "means an electronic platform for private placement of non-convertible securities provided by a recognized stock exchange(s) or a recognised depository, pursuant to obtaining approval from the Board; (oa) Environment, Social and Governance Debt Securities or “ESG Debt Securities” means green debt securities, social bonds, sustainability bonds, sustainability-linked bonds, or any other type of bonds, by whatever…",
+    "scope": ""
+   },
+   {
+    "term": "fugitive economic offender",
+    "para": "definitions clause",
+    "def": "shall mean an individual who is declared as a fugitive economic offender under Section 12 of the Fugitive Economic Offenders Act, 2018 (17 of “(q) “Green debt security” means a debt security issued for raising funds subject to the conditions as may be specified by the Board from time to time, to be utilised for project(s) and/ or asset(s) falling under any of the following categories:",
+    "scope": ""
+   },
+   {
+    "term": "green debt security",
+    "para": "definitions clause",
+    "def": "means a debt security issued for raising funds that are to be utilised for project(s) and/or asset(s) falling under any of the following categories, subject to the conditions as may be specified by the Board from time to time:",
+    "scope": ""
+   },
+   {
+    "term": "group companies",
+    "para": "definitions clause",
+    "def": "includes such companies, other than promoter(s), subsidiary/subsidiaries, with which there were related party transactions, during the period for which financial information is disclosed in the offer documents, as covered under the applicable accounting standards and also other companies as considered material by the board of the issuer;",
+    "scope": ""
+   },
+   {
+    "term": "issuer",
+    "para": "definitions clause",
+    "def": "means a company or a body corporate or a statutory corporation or a multilateral institution or a trust registered with the Board as a Real Estate Investment Trust (REIT) or an Infrastructure Investment Trust (InvIT), authorised to issue non-convertible securities and/or commercial paper under the relevant laws and in accordance with these regulations and seeks to list its non-convertible securities, with any…",
+    "scope": ""
+   },
+   {
+    "term": "lead manager",
+    "para": "definitions clause",
+    "def": "means a merchant banker registered with the Board and appointed by the issuer to manage the public issue of debt securities and/or non-convertible redeemable 3 Inserted by the Securities and Exchange Board of India (Issue and Listing of Non-Convertible Securities) (Second Amendment) Page 3 of 81 preference shares and in case of a book-built issue, the lead manager(s) appointed by the issuer who act(s) as the book…",
+    "scope": ""
+   },
+   {
+    "term": "listing regulations",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "non-convertible redeemable preference share",
+    "para": "definitions clause",
+    "def": "means a preference share which is redeemable in accordance with the relevant provisions of the Companies Act, 2013 (18 of 2013) and does not include a preference share which is convertible into or exchangeable with equity shares of the issuer at a later date, at the option of the holder or not;",
+    "scope": ""
+   },
+   {
+    "term": "non-convertible securities",
+    "para": "definitions clause",
+    "def": "means debt securities, non-convertible redeemable preference shares, perpetual non-cumulative preference shares, perpetual debt instruments and any other securities as specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "offer document",
+    "para": "definitions clause",
+    "def": "means a prospectus, shelf prospectus, tranche prospectus in case of public issue of debt securities and/or non-convertible redeemable preference shares and a placement memorandum in case of private placement of non-convertible securities and includes a draft offer document;",
+    "scope": ""
+   },
+   {
+    "term": "perpetual debt instrument",
+    "para": "definitions clause",
+    "def": "means a perpetual debt instrument issued in accordance with the guidelines framed by the Reserve Bank of India;",
+    "scope": ""
+   },
+   {
+    "term": "perpetual non-cumulative preference share",
+    "para": "definitions clause",
+    "def": "means a perpetual non-cumulative preference share issued in accordance with the guidelines framed by the Reserve Bank of India;",
+    "scope": ""
+   },
+   {
+    "term": "placement memorandum",
+    "para": "definitions clause",
+    "def": "means a document ***filed with the stock exchange(s) in relation to an issue of non-convertible securities to be issued on a private placement basis;",
+    "scope": ""
+   },
+   {
+    "term": "private placement",
+    "para": "definitions clause",
+    "def": "means an offer or invitation to subscribe or issue of non-convertible securities to a select group of persons by a company (other than by way of public offer), which satisfies the applicable conditions specified in Section 42 of the Companies Act,",
+    "scope": ""
+   },
+   {
+    "term": "public issue",
+    "para": "definitions clause",
+    "def": "means an offer or invitation by an issuer to the public to subscribe to its debt securities and/or non-convertible redeemable preference shares which is not in the nature of a private placement;",
+    "scope": ""
+   },
+   {
+    "term": "schedule",
+    "para": "definitions clause",
+    "def": "means a schedule annexed to these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "secured debt securities",
+    "para": "definitions clause",
+    "def": "shall mean such debt securities which are secured by creation of a charge on the properties or assets of the issuer or its subsidiaries or its holding companies or its associate companies having a value which is sufficient for the due repayment of principal and payment of interest thereon;",
+    "scope": ""
+   },
+   {
+    "term": "specified",
+    "para": "definitions clause",
+    "def": "means specified by a general or special order or circular or guidelines issued under the Act or these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "statutory corporation",
+    "para": "definitions clause",
+    "def": "means a body corporate formed by a special Act of the Central or State Legislature;",
+    "scope": ""
+   },
+   {
+    "term": "stock exchange",
+    "para": "definitions clause",
+    "def": "means any recognised stock exchange having nationwide trading terminals chosen by the issuer on which the non-convertible securities and/or commercial paper of an issuer are listed or proposed to be listed for the purpose of a particular issue of such securities and includes a designated stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "tranche prospectus",
+    "para": "definitions clause",
+    "def": "means an information memorandum as provided under sub-section",
+    "scope": ""
+   },
+   {
+    "term": "trust deed",
+    "para": "definitions clause",
+    "def": "means a deed executed between the issuer and the debenture trustee for the benefit of the holders of the debt securities;",
+    "scope": ""
+   },
+   {
+    "term": "working day",
+    "para": "definitions clause",
+    "def": "means all days on which commercial banks in the city, as specified in the offer document, are open for business;",
+    "scope": ""
+   }
+  ],
+  "REG-SAST": [
+   {
+    "term": "acquirer",
+    "para": "definitions clause",
+    "def": "means any person who, directly or indirectly, acquires or agrees to acquire whether by himself, or through, or with persons acting in concert with him, shares or voting rights in, or control over a target company;",
+    "scope": ""
+   },
+   {
+    "term": "acquisition",
+    "para": "definitions clause",
+    "def": "means, directly or indirectly, acquiring or agreeing to acquire shares or voting rights in, or control over, a target company;",
+    "scope": ""
+   },
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "definitions clause",
+    "def": "includes the right to appoint majority of the directors or to control the management or policy decisions exercisable by a person or persons acting individually or in concert, directly or indirectly, including by virtue of their shareholding or management rights or shareholders agreements or voting agreements or in any other manner: Provided that a director or officer of a target company shall not be considered to…",
+    "scope": ""
+   },
+   {
+    "term": "convertible security",
+    "para": "definitions clause",
+    "def": "means a security which is convertible into or ex- changeable with equity shares of the issuer at a later date, with or without the option of the holder of the security, and includes convertible debt instruments and convertible preference shares;",
+    "scope": ""
+   },
+   {
+    "term": "disinvestment",
+    "para": "definitions clause",
+    "def": "means the direct or indirect sale by the Central Government or any State Government or by a government company, as the case may be, of shares or voting rights in, or control over, a target company, which is a public sector undertaking;",
+    "scope": ""
+   },
+   {
+    "term": "enterprise value",
+    "para": "definitions clause",
+    "def": "means the value calculated as market capitalization of a company plus debt, minority interest and preferred shares, minus total cash and cash equivalents; 4 Inserted by the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) (Third Amendment) Regulations, 2021, w.e.f. 6-12-2021. Page 2 of 79",
+    "scope": ""
+   },
+   {
+    "term": "financial year",
+    "para": "definitions clause",
+    "def": "means the period of twelve months commencing on the first day of the month of April;",
+    "scope": ""
+   },
+   {
+    "term": "frequently traded shares",
+    "para": "definitions clause",
+    "def": "means shares of a target company, in which the traded turnover on any stock exchange during the twelve calendar months preceding the calendar month in which the public announcement is required to be made under these regulations, is at least ten per cent of the total number of shares of such class of the target company: Provided that where the share capital of a particular class of shares of the target company is…",
+    "scope": ""
+   },
+   {
+    "term": "identified date",
+    "para": "definitions clause",
+    "def": "means the date falling on the tenth working day prior to the commencement of the tendering period, for the purposes of determining the shareholders to whom the letter of offer shall be sent;",
+    "scope": ""
+   },
+   {
+    "term": "immediate relative",
+    "para": "definitions clause",
+    "def": "means any spouse of a person, and includes parent, brother, sister or child of such person or of the spouse;",
+    "scope": ""
+   },
+   {
+    "term": "listing agreement",
+    "para": "definitions clause",
+    "def": "means the agreement with the stock exchange governing the conditions of listing of shares of the target company;",
+    "scope": ""
+   },
+   {
+    "term": "manager to the open offer",
+    "para": "definitions clause",
+    "def": "means a merchant banker referred to in regulation 12;",
+    "scope": ""
+   },
+   {
+    "term": "maximum permissible non-public shareholding",
+    "para": "definitions clause",
+    "def": "means such percentage shareholding in the target company excluding the minimum 5 Substituted by the SEBI (Substantial Acquisition of Shares and Takeovers) (Second Amendment) Regulations, 2018, w.e.f. 11-09-2018. Prior to the amendment, it read as “is made”. Amendment) 6 Inserted by the SEBI (Substantial Acquisition of Shares and Takeovers) (Second Amendment) 7 Inserted by the SEBI (Substantial Acquisition of…",
+    "scope": ""
+   },
+   {
+    "term": "offer period",
+    "para": "definitions clause",
+    "def": "means the period between the date of entering into an agreement, formal or informal, to acquire shares, voting rights in, or control over a target company requiring a public announcement, or the date of the public announcement, as the case may be, and the date on which the payment of consideration to shareholders who have accepted the open offer is made, or the date on which open offer is withdrawn, as the case…",
+    "scope": ""
+   },
+   {
+    "term": "public sector undertaking",
+    "para": "definitions clause",
+    "def": "means a target company in which, directly or indirectly, majority of shares or voting rights or control is held by the Central Government or any State Government or Governments, or partly by the Central Government and partly by one or more State Governments;",
+    "scope": ""
+   },
+   {
+    "term": "shares",
+    "para": "definitions clause",
+    "def": "means shares in the equity share capital of a target company carrying voting rights, and includes any security which entitles the holder thereof to exercise voting rights;",
+    "scope": ""
+   },
+   {
+    "term": "specified",
+    "para": "definitions clause",
+    "def": "means as specified by the Board; 10 Substituted by the SEBI (Substantial Acquisition of Shares and Takeovers) (Second Amendment) Regulations, 2018, w.e.f. 11-09-2018. Prior to the amendment, the clause read as: “(r) “postal ballot” means a postal ballot as provided for under the Companies (Passing of the Resolution by Postal Ballot) Rules, 2001 made under the Companies Act, 1956 (1 of 1956)” Page 6 of 79",
+    "scope": ""
+   },
+   {
+    "term": "state-level financial institution",
+    "para": "definitions clause",
+    "def": "means a Financial Corporation established under section 3 or section 3A and institutions notified under section 46 of the State Financial Corporations Act, 1951 (63 of 1951), and includes a development corporation established as a company by a State Government with the object of development of industries or agricultural activities in the state;",
+    "scope": ""
+   },
+   {
+    "term": "stock exchange",
+    "para": "definitions clause",
+    "def": "means a stock exchange which has been granted recognition under section 4 of the Securities Contracts (Regulation)",
+    "scope": ""
+   },
+   {
+    "term": "target company",
+    "para": "definitions clause",
+    "def": "means a company and includes a body corporate or corporation established under a Central legislation, State legislation or Provincial legislation for the time being in force, whose shares are listed on a stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "tendering period",
+    "para": "definitions clause",
+    "def": "means the period within which shareholders may tender their shares in acceptance of an open offer to acquire shares made under these regulations; (zaa) “valuer” shall have the same meaning as assigned to it under section 247 of the Companies Act, 2013 (18 of 2013) as amended from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "volume weighted average market price",
+    "para": "definitions clause",
+    "def": "means the product of the number of equity shares traded on a stock exchange and the price of each equity share divided by the total number of equity shares traded on the stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "volume weighted average price",
+    "para": "definitions clause",
+    "def": "means the product of the number of equity shares bought and price of each such equity share divided by the total number of equity shares bought;",
+    "scope": ""
+   },
+   {
+    "term": "weighted average number of total shares",
+    "para": "definitions clause",
+    "def": "means the number of shares at the beginning of a period, adjusted for shares cancelled, bought back or issued during the aforesaid period, multiplied by a time-weighing factor; 11 Inserted by the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) (Amendment) Regulations, 2025 w.e.f. 03.01.2026. Page 7 of 79 (ze)“wilful defaulter” means any person who is categorized as a…",
+    "scope": ""
+   }
+  ],
+  "REG-BUYBACK": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act,",
+    "scope": ""
+   },
+   {
+    "term": "associate",
+    "para": "definitions clause",
+    "def": "includes a person,—",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Buyback period",
+    "para": "definitions clause",
+    "def": "means the period between the date of board of directors resolution or date of declaration of results of the postal ballot for special resolution, as the case may be, to authorize buyback of shares of the company and the date on which the payment of consideration to shareholders who have accepted the buyback offer is made;",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions clause",
+    "def": "means a company as defined under the Companies Act, whose shares or other specified securities are listed on a Stock Exchange and which buys or intends to buy such shares or other specified securities in accordance with these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Companies Act",
+    "para": "definitions clause",
+    "def": "means the Companies Act, 2013. ga) ‘frequently traded shares‘ shall have the same meaning as assigned to them under the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+    "scope": ""
+   },
+   {
+    "term": "insider",
+    "para": "definitions clause",
+    "def": "means an insider as defined in clause (g) of sub- regulation (1) of regulation 2 of the Securities and Exchange Board of India (Prohibition of Insider Trading) Regulations, 2015; 1 Inserted by the Securities and Exchange Board of India (Buy-Back of Securities) (Amendment) Regulations, Page 2 of 57",
+    "scope": ""
+   },
+   {
+    "term": "merchant banker",
+    "para": "definitions clause",
+    "def": "means a merchant banker as defined in clause (cb) of regulation 2 of the Securities and Exchange Board of India (Merchant Bankers) Regulations, 1992 and registered under section 12 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "promoter",
+    "para": "definitions clause",
+    "def": "means promoter as defined in clause (s) of sub- regulation (1) of regulation 2 of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011;",
+    "scope": ""
+   },
+   {
+    "term": "registrar",
+    "para": "definitions clause",
+    "def": "means a registrar to an issue and includes a share transfer agent, registered under section 12 of the Act; la) ‘secretarial auditor‘ means an auditor as defined in the Secretarial Standards – I issued by the Institute of Company Secretaries of India;",
+    "scope": ""
+   },
+   {
+    "term": "small shareholder",
+    "para": "definitions clause",
+    "def": "means a shareholder of a company, who holds shares or other specified securities whose market value, on the basis of closing price of shares or other specified securities, on the recognised stock exchange in which highest trading volume in respect of such securities, as on record date is not more than two lakh rupee; 2 Omitted by the Securities and Exchange Board of India (Buy-Back of Securities) (Amendment)…",
+    "scope": ""
+   },
+   {
+    "term": "specified securities",
+    "para": "definitions clause",
+    "def": "includes employees’ stock option or other securities as may be notified by the Central Government from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "statutory auditor",
+    "para": "definitions clause",
+    "def": "means an auditor appointed by a company under section 139 of the Companies Act;",
+    "scope": ""
+   },
+   {
+    "term": "stock exchange",
+    "para": "definitions clause",
+    "def": "means a stock exchange which has been granted recognition under section 4 of the Securities Contracts",
+    "scope": ""
+   },
+   {
+    "term": "tender offer",
+    "para": "definitions clause",
+    "def": "means an offer by a company to buy-back its own shares or other specified securities through a letter of offer from the holders of the shares or other specified securities of the company;",
+    "scope": ""
+   },
+   {
+    "term": "working day",
+    "para": "definitions clause",
+    "def": "means any working day of the Board.",
+    "scope": ""
+   }
+  ],
+  "REG-DELIST": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "acquirer",
+    "para": "definitions clause",
+    "def": "includes a person -",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "bidding period",
+    "para": "definitions clause",
+    "def": "means the period within which shareholders may tender their shares in acceptance of the offer for delisting of equity shares of the company made under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions clause",
+    "def": "means a company within the meaning of sub-section (20) of section 2 of the Companies Act, 2013 (18 of 2013) and includes a body corporate or corporation Page 1 of 46 established under any enactment for the time being in force, whose equity shares are listed on a recognised stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "compulsory delisting",
+    "para": "definitions clause",
+    "def": "means delisting of equity shares of a company by a recognised stock exchange under Chapter V of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Company Secretary in practice",
+    "para": "definitions clause",
+    "def": "means a Company Secretary as defined in section 2(c) of the Company Secretaries Act, 1980 (56 of 1980) who is deemed to be in practice under sub-section (2) of section 2 of the said Act;",
+    "scope": ""
+   },
+   {
+    "term": "detailed public announcement",
+    "para": "definitions clause",
+    "def": "means the announcement made by the acquirer in terms of regulation 15 read with Schedule I of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "delisting",
+    "para": "definitions clause",
+    "def": "means permanent removal of equity shares of the company from the trading platform of a recognised stock exchange, either by way of voluntary or compulsory method;",
+    "scope": ""
+   },
+   {
+    "term": "delisting period",
+    "para": "definitions clause",
+    "def": "means the period between the date of initial public announcement and the date of payment of consideration to the shareholders, whose shares have been accepted in the reverse book building process or the date on which shares have been returned upon failure of the delisting offer, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "discovered price",
+    "para": "definitions clause",
+    "def": "means the price discovered through reverse book building process in terms of Schedule II of these Regulations; la) “fixed delisting price” means the fixed price offered by the acquirer for undertaking delisting of the equity shares of the company through fixed price process;",
+    "scope": ""
+   },
+   {
+    "term": "indicative price",
+    "para": "definitions clause",
+    "def": "means the price offered by the acquirer, which is higher than the floor price, while making the proposal to voluntarily delist the equity shares of the company;",
+    "scope": ""
+   },
+   {
+    "term": "initial public announcement",
+    "para": "definitions clause",
+    "def": "means the first announcement, including subsequent modifications thereto, if any, made by the acquirer to express its intention to voluntarily delist the equity shares of the company from all the recognised stock exchanges. 1 Inserted by the Securities and Exchange Board of India (Delisting of Equity Shares) (Amendment) Regulations, 2024 w.e.f. 25.09.2024. The provisions of the Securities and Exchange Board of…",
+    "scope": ""
+   },
+   {
+    "term": "Insolvency Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016); ra) “Investment Holding Company” means a company which holds investments in listed or unlisted companies or holding assets other than such investments;",
+    "scope": ""
+   },
+   {
+    "term": "Peer Review Company Secretary",
+    "para": "definitions clause",
+    "def": "means a Company Secretary in practice, who is either practicing individually or as a sole proprietor or as a partner of a Peer Reviewed Practice Unit , holding a valid certificate of peer review issued by the Institute of Company Secretaries of India;",
+    "scope": ""
+   },
+   {
+    "term": "recognised stock exchange",
+    "para": "definitions clause",
+    "def": "means any stock exchange that has been granted recognition under section 4 of Securities Contracts (Regulation) Act, 1956 (42 of 1956) as amended from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "definitions clause",
+    "def": "means a Schedule appended to these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "voluntary delisting",
+    "para": "definitions clause",
+    "def": "means the delisting of equity shares of a company voluntarily on an application made by it under Chapter III of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "working days",
+    "para": "definitions clause",
+    "def": "means the working days of the Board.",
+    "scope": ""
+   }
+  ],
+  "REG-SBEB": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "appreciation",
+    "para": "definitions clause",
+    "def": "means the difference between the market price of the share of a company on the date of exercise of SAR or the date of vesting of SAR, as the case may be, and the SAR price; c. “associate company” shall have the same meaning as defined under section 2(6) of the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India; e. “company” shall have the same meaning as defined under section 2(20) of the Companies Act, 2013 (18 of 2013); f. \"control\" shall have the same meaning as defined under the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011; Page 2 of 45 g. “director” shall have the same meaning as defined under section…",
+    "scope": ""
+   },
+   {
+    "term": "emergency",
+    "para": "definitions clause",
+    "def": "means a situation wherein the trust is in need of funds to meet the commitment(s) arising out of the objective(s) of the scheme; i. “employee”, except in relation to issue of sweat equity shares, means, —",
+    "scope": ""
+   },
+   {
+    "term": "employee stock option scheme or ESOS",
+    "para": "definitions clause",
+    "def": "means a scheme under which a company grants employee stock options to employees directly or through a trust;",
+    "scope": ""
+   },
+   {
+    "term": "employee stock purchase scheme or ESPS",
+    "para": "definitions clause",
+    "def": "means a scheme under which a company offers shares to employees, as part of public issue or otherwise, or through a trust where the trust may undertake secondary acquisition for the purposes of the scheme;",
+    "scope": ""
+   },
+   {
+    "term": "exercise",
+    "para": "definitions clause",
+    "def": "means making of an application by an employee to the company or to the trust for issue of shares or appreciation in form of cash, as the case may be, against vested options or vested SARs in pursuance of the schemes covered under Part A or Part C of Chapter III of these regulations, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "exercise period",
+    "para": "definitions clause",
+    "def": "means the time period after vesting within which an employee can exercise his/her right to apply for shares against the vested option or appreciation against vested SAR in pursuance of the schemes covered under Part A or Part C of",
+    "scope": ""
+   },
+   {
+    "term": "exercise price",
+    "para": "definitions clause",
+    "def": "means the price, if any, payable by an employee for exercising the option or SAR granted to such an employee in pursuance of the schemes covered under Part A or Part C of Chapter III of these regulations, as the case may be; Page 3 of 45",
+    "scope": ""
+   },
+   {
+    "term": "general employee benefits scheme or GEBS",
+    "para": "definitions clause",
+    "def": "means any scheme of a company framed in accordance with these regulations, dealing in shares of the company or the shares of its listed holding company, for the purpose of employee welfare including healthcare benefits, hospital care or benefits, or benefits in the event of sickness, accident, disability, death or scholarship funds, or such other benefit as specified by such company;",
+    "scope": ""
+   },
+   {
+    "term": "grant",
+    "para": "definitions clause",
+    "def": "means the process by which the company issues options, SARs, shares or any other benefits under any of the schemes;",
+    "scope": ""
+   },
+   {
+    "term": "grant date",
+    "para": "definitions clause",
+    "def": "means the date on which the compensation committee approves the grant.",
+    "scope": ""
+   },
+   {
+    "term": "group",
+    "para": "definitions clause",
+    "def": "means two or more companies which, directly or indirectly, are in a position",
+    "scope": ""
+   },
+   {
+    "term": "ICAI",
+    "para": "definitions clause",
+    "def": "means the Institute of Chartered Accountants of India; t. “insider” shall have the same meaning assigned to it under the Securities and Exchange Board of India (Prohibition of Insider Trading) Regulations, 2015; u. “independent director” shall have the same meaning assigned to it under the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015; v. “initial…",
+    "scope": ""
+   },
+   {
+    "term": "market price",
+    "para": "definitions clause",
+    "def": "means the latest available closing price on a recognised stock exchange on which the shares of the company are listed on the date immediately prior to the relevant date.",
+    "scope": ""
+   },
+   {
+    "term": "merchant banker",
+    "para": "definitions clause",
+    "def": "means a merchant banker as defined under regulation 2(1)(cb) of the Securities and Exchange Board of India (Merchant Bankers) Regulations, 1992, which is registered under section 12 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "option",
+    "para": "definitions clause",
+    "def": "means the option given to an employee which gives such an employee a right to purchase or subscribe at a future date, the shares offered by the company, directly or indirectly, at a pre-determined price;",
+    "scope": ""
+   },
+   {
+    "term": "option grantee",
+    "para": "definitions clause",
+    "def": "means an employee having a right but not an obligation to exercise an option in pursuance of an ESOS;",
+    "scope": ""
+   },
+   {
+    "term": "pre-IPO scheme",
+    "para": "definitions clause",
+    "def": "means any scheme formulated prior to the initial public offer of the company and prior to the listing of its equity shares on a recognised stock exchange; cc. “promoter” shall have the same meaning assigned to it under the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, dd. “promoter group” shall have the same meaning assigned to it under the Securities and…",
+    "scope": ""
+   },
+   {
+    "term": "recognised stock exchange",
+    "para": "definitions clause",
+    "def": "means a stock exchange which has been granted recognition under section 4 of the Securities Contracts (Regulation) Act, 1956 (42 of",
+    "scope": ""
+   },
+   {
+    "term": "registrar",
+    "para": "definitions clause",
+    "def": "means a registrar to an issue as defined under regulation 2(f) of the Securities and Exchange Board of India (Registrars to an Issue and Share Transfer Agents) Regulations, 1993 and includes a share transfer agent as defined under regulation 2(g) thereof, which is registered under section 12 of the Act; gg. “relative” shall have the same meaning as defined under section 2(77) of the Companies",
+    "scope": ""
+   },
+   {
+    "term": "retirement benefit scheme or RBS",
+    "para": "definitions clause",
+    "def": "means a scheme of a company framed in accordance with these regulations, dealing in shares of the company or the shares of its listed holding company, for providing retirement benefits to the employees subject to compliance with existing rules and regulations as applicable under laws relevant to retirement benefits in India; Page 5 of 45",
+    "scope": ""
+   },
+   {
+    "term": "SAR grantee",
+    "para": "definitions clause",
+    "def": "means an employee to whom a SAR is granted;",
+    "scope": ""
+   },
+   {
+    "term": "SAR price",
+    "para": "definitions clause",
+    "def": "means the base price defined on the grant date of SAR for the purpose of computing appreciation;",
+    "scope": ""
+   },
+   {
+    "term": "scheme",
+    "para": "definitions clause",
+    "def": "means a scheme of a company proposing to provide share based benefits to its employees under Chapters III of these regulations, which may be implemented and administered directly by such company or through a trust, in accordance with these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "securities",
+    "para": "definitions clause",
+    "def": "means securities as defined in section 2(h) of the Securities Contracts",
+    "scope": ""
+   },
+   {
+    "term": "secondary acquisition",
+    "para": "definitions clause",
+    "def": "means acquisition of existing shares of the company by the trust on the platform of a recognised stock exchange for cash consideration;",
+    "scope": ""
+   },
+   {
+    "term": "secretarial auditor",
+    "para": "definitions clause",
+    "def": "means a company secretary in practice appointed by a company under rule 8 of the Companies (Meetings of Board and its Powers) Rules, 2014 to conduct secretarial audit pursuant to regulation 24A of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015;",
+    "scope": ""
+   },
+   {
+    "term": "share",
+    "para": "definitions clause",
+    "def": "means equity shares and securities convertible into equity shares and includes American Depository Receipts, Global Depository Receipts or other depository receipts representing underlying equity shares or securities convertible into equity shares;",
+    "scope": ""
+   },
+   {
+    "term": "stock appreciation right or SAR",
+    "para": "definitions clause",
+    "def": "means a right given to a SAR grantee entitling him to receive appreciation for a specified number of shares of the company where the settlement of such appreciation may be made by way of cash payment or shares of the company.",
+    "scope": ""
+   },
+   {
+    "term": "stock appreciation right scheme or SAR scheme",
+    "para": "definitions clause",
+    "def": "means a scheme under which a company grants SAR to employees;",
+    "scope": ""
+   },
+   {
+    "term": "sweat equity shares",
+    "para": "definitions clause",
+    "def": "means sweat equity shares as defined in sub-section (88) of section 2 of the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "definitions clause",
+    "def": "means a schedule annexed to these regulations; Page 6 of 45",
+    "scope": ""
+   },
+   {
+    "term": "trust",
+    "para": "definitions clause",
+    "def": "means a trust established under the provisions of the Indian Trusts Act, 1882 (2 of 1882) including any statutory modification or re-enactment thereof, for implementing any of the schemes covered by these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "trustee",
+    "para": "definitions clause",
+    "def": "means the trustee of the trust; ww. “valuer” shall have the same meaning as assigned to it under section 247 of the Companies Act, 2013 (18 of 2013) as amended from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "vesting",
+    "para": "definitions clause",
+    "def": "means the process by which the employee becomes entitled to receive the benefit of a grant made to him/her under any of the schemes;",
+    "scope": ""
+   },
+   {
+    "term": "vesting period",
+    "para": "definitions clause",
+    "def": "means the period during which the vesting of option, SAR or a benefit granted under any of the schemes takes place;",
+    "scope": ""
+   }
+  ],
+  "MC-LODR": [
+   {
+    "term": "other than permanent worker",
+    "para": "definitions",
+    "def": "refers to employees or workers who are employed for a fixed term that ends when a specific time period expires, or on completion of a specific task or an event such as the end of a project or return of a replaced employee. “Other than permanent” employees or workers could be employed directly by the entity or through third party contractors.",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions",
+    "def": "includes any body corporate. 25 Grievance 3. As defined under Sec 2(87) of the Companies Act 2013, subsidiary redressal company or subsidiary, in relation to any other company (that is to say the holding company), means a company in which the holding company—",
+    "scope": ""
+   },
+   {
+    "term": "Rehabilitation",
+    "para": "definitions",
+    "def": "refers to a process aimed at enabling persons with disabilities to attain and maintain optimal, physical, sensory, intellectual, psychological environmental or social function levels. PRINCIPLE 4: Businesses should respect the interests of and be responsive to all its stakeholders Essential Indicators Q. No. Field Name Instruction/Guidance Process for identification of Under this field, the entity shall disclose…",
+    "scope": ""
+   },
+   {
+    "term": "Discrimination",
+    "para": "definitions",
+    "def": "refers to unjust or prejudicial treatment of people, especially on the grounds of, but not limited to, caste, creed, sex, race, ethnicity, age, colour, religion, disability, socio- economic status or sexual orientation.",
+    "scope": ""
+   },
+   {
+    "term": "Forced Labour’ or ‘Involuntary Labour",
+    "para": "definitions",
+    "def": "refers to all work or service that is extracted under the menace of penalty. It also includes terms such as, bonded labour and modern slavery. It also includes any labour for which the worker receives less than the government-stipulated minimum wage. Page 201 of 291 PRINCIPLE 6 Businesses should respect and make efforts to protect and restore the environment Q. No. Field Name Essential Indicators",
+    "scope": ""
+   },
+   {
+    "term": "Cost",
+    "para": "definitions",
+    "def": "refers to the cost of borrowed funds for the listed entity.",
+    "scope": ""
+   }
+  ],
+  "MC-NCS": [
+   {
+    "term": "Social Bonds",
+    "para": "definitions",
+    "def": "means a debt security issued for raising funds, subject to the conditions as may be specified by the Board from time to time, to be utilised for social project(s) that directly aim to address or mitigate a specific social issue and/or seek to achieve positive social outcomes especially but not exclusively for a target population, falling under any of the following categories:",
+    "scope": ""
+   },
+   {
+    "term": "Sustainability bonds",
+    "para": "definitions",
+    "def": "means a debt security issued for raising funds, subject to the conditions as may be specified by the Board from time to time, to be utilised for finance or re-finance of a combination of eligible green project(s) and social project(s) as specified under the definition of green bonds and social bonds respectively.",
+    "scope": ""
+   },
+   {
+    "term": "Sustainability-linked bonds",
+    "para": "definitions",
+    "def": "means a debt security which has its financial and/or structural characteristics linked to predefined sustainability objectives of the Issuer, subject to the condition that such objectives are measured through predefined Sustainability Key Performance Indicators (KPIs)24 and assessed against predefined Sustainability Performance Targets (SPTs)25.",
+    "scope": ""
+   }
+  ],
+  "MC-NCS-LODR": [
+   {
+    "term": "Cost",
+    "para": "definitions",
+    "def": "refers to the cost of borrowed funds for the listed entity.",
+    "scope": ""
+   }
+  ],
+  "REG-MF": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "advertisement",
+    "para": "definitions clause",
+    "def": "shall include any communication issued by or on behalf of the mutual fund or asset management company that may influence the investment decision of any investor or prospective investor;",
+    "scope": ""
+   },
+   {
+    "term": "asset management company",
+    "para": "definitions clause",
+    "def": "means a company incorporated under the Companies Act 1956 (1 of 1956) or Companies Act, 2013 (18 of 2013) and approved by the Board under regulation 18;",
+    "scope": ""
+   },
+   {
+    "term": "broad based fund",
+    "para": "definitions clause",
+    "def": "shall mean the fund which has at least twenty investors and no single investor holds more than twenty-five percent of corpus of the fund;",
+    "scope": ""
+   },
+   {
+    "term": "broker",
+    "para": "definitions clause",
+    "def": "means a stock broker as defined in the Securities and Exchange Board of India (Stock Brokers) Regulations, 2026;",
+    "scope": ""
+   },
+   {
+    "term": "close-ended scheme",
+    "para": "definitions clause",
+    "def": "means any scheme of a mutual fund in which the period of maturity of the scheme is specified;",
+    "scope": ""
+   },
+   {
+    "term": "custodian",
+    "para": "definitions clause",
+    "def": "means a person who has been granted a certificate of registration to carry on the business of custodian of securities under the Securities and Exchange Board of India (Custodian) Regulations, 1996;",
+    "scope": ""
+   },
+   {
+    "term": "depository",
+    "para": "definitions clause",
+    "def": "means a body corporate as defined in the Depositories Act, 1996 (22 of 1996); Page 2 of 88",
+    "scope": ""
+   },
+   {
+    "term": "economic offence",
+    "para": "definitions clause",
+    "def": "means an offence under the Fugitive Economic Offenders Act, 2018",
+    "scope": ""
+   },
+   {
+    "term": "equity oriented schemes",
+    "para": "definitions clause",
+    "def": "means a scheme other than an index fund scheme or an exchange traded fund, where, the scheme invests a minimum of sixty-five per cent of its net assets in equity and equity related instruments;",
+    "scope": ""
+   },
+   {
+    "term": "exchange traded fund",
+    "para": "definitions clause",
+    "def": "means a mutual fund scheme that invests in securities in the same proportion of an index of securities in the manner specified by the Board and whose units are mandatorily listed and traded on a stock exchange platform;",
+    "scope": ""
+   },
+   {
+    "term": "exit load",
+    "para": "definitions clause",
+    "def": "means the charge or fee levied by the mutual fund at the time of redemption or repurchase of units;",
+    "scope": ""
+   },
+   {
+    "term": "fraud",
+    "para": "definitions clause",
+    "def": "means a fraud as defined in clause (c) of sub-regulation (1) of regulation 2 of the Securities and Exchange Board of India (Prohibition of Fraudulent and Unfair Trade Practices Relating to Securities Market) Regulations, 2003;",
+    "scope": ""
+   },
+   {
+    "term": "fund of funds scheme",
+    "para": "definitions clause",
+    "def": "means a mutual fund scheme that invests primarily in other schemes of the same mutual fund or other mutual funds;",
+    "scope": ""
+   },
+   {
+    "term": "gold exchange traded fund scheme",
+    "para": "definitions clause",
+    "def": "shall mean a mutual fund scheme that invests primarily in gold or gold related instruments;",
+    "scope": ""
+   },
+   {
+    "term": "gold related instrument",
+    "para": "definitions clause",
+    "def": "shall mean such instrument having gold as underlying, as may be specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "goods",
+    "para": "definitions clause",
+    "def": "means the goods notified by the Central Government under clause (bc) of section 2 of the Securities Contracts (Regulation) Act, 1956 and forming the underlying of any commodity derivative;",
+    "scope": ""
+   },
+   {
+    "term": "group",
+    "para": "definitions clause",
+    "def": "means a group as defined in clause (b) of the Explanation to Section 5 of the Competition Act, 2002 (12 of 2003);",
+    "scope": ""
+   },
+   {
+    "term": "index fund scheme",
+    "para": "definitions clause",
+    "def": "means a mutual fund scheme that invests in securities in the same proportion of an index of securities in the manner specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "Infrastructure debt fund scheme",
+    "para": "definitions clause",
+    "def": "means a mutual fund scheme that invests primarily (minimum 90% of scheme assets) in the debt securities or securitized debt instrument of infrastructure companies or infrastructure capital companies or infrastructure projects or special purpose vehicles which are created for the purpose of facilitating or promoting investment in infrastructure or other permissible assets in accordance with these regulations or…",
+    "scope": ""
+   },
+   {
+    "term": "SIF Investment Strategy",
+    "para": "definitions clause",
+    "def": "means a scheme of mutual fund launched under the Specialized Investment Fund; Page 3 of 88",
+    "scope": ""
+   },
+   {
+    "term": "inspecting officer",
+    "para": "definitions clause",
+    "def": "means any person appointed as such by the Board under Chapter XV;",
+    "scope": ""
+   },
+   {
+    "term": "Liquid net worth",
+    "para": "definitions clause",
+    "def": "means the net worth deployed in liquid assets which are unencumbered and shall include cash, bank deposits with Scheduled Commercial Banks, money market instruments, Government Securities, Treasury bills, Repo on Government securities and any other instruments as specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "market abuse",
+    "para": "definitions clause",
+    "def": "includes manipulative, fraudulent and unfair trade practices which may contravene Section 12A of the Act or any of the provisions of the Securities and Exchange Board of India (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 2003 or the Securities and Exchange Board of India (Prohibition of Insider Trading) Regulations, 2015;",
+    "scope": ""
+   },
+   {
+    "term": "money market instruments",
+    "para": "definitions clause",
+    "def": "includes commercial papers, commercial bills, treasury bills, Government securities having an unexpired maturity up to one year, call or notice money, certificate of deposit, usance bills, and any other like instruments as specified by the Reserve Bank of India;",
+    "scope": ""
+   },
+   {
+    "term": "mutual fund",
+    "para": "definitions clause",
+    "def": "means a fund established in the form of a trust granted registration under regulation 3 and which raises monies through the sale of units to the public under one or more schemes for investing in securities, money market instruments, gold or gold related instruments, silver or silver related instruments and such other assets and instruments as may be specified by the Board. Mutual fund schemes investing in…",
+    "scope": ""
+   },
+   {
+    "term": "Net worth",
+    "para": "definitions clause",
+    "def": "means the aggregate of the paid up capital and free reserves after deducting therefrom, miscellaneous expenditure to the extent not written off or adjusted or deferred revenue expenditure, intangible assets, accumulated losses and any loans and advances given by asset management company or MF Lite asset management company to either its sponsor, associates or group company of sponsor and its associates or group…",
+    "scope": ""
+   },
+   {
+    "term": "offer document",
+    "para": "definitions clause",
+    "def": "means scheme information document and statement of additional information by which a mutual fund invites public for subscription of units of a scheme; Page 4 of 88",
+    "scope": ""
+   },
+   {
+    "term": "open-ended scheme",
+    "para": "definitions clause",
+    "def": "means a scheme of a mutual fund which offers units for sale without specifying any duration for redemption;",
+    "scope": ""
+   },
+   {
+    "term": "private placement",
+    "para": "definitions clause",
+    "def": "means any offer of units of a mutual fund scheme or invitation to subscribe such units to a select group of persons, by a mutual fund (other than by way of public offer) through issue of a placement memorandum and which is not being calculated to result, directly or indirectly in the units becoming available for subscription or purchase by persons other than those receiving the offer or invitation;",
+    "scope": ""
+   },
+   {
+    "term": "relative",
+    "para": "definitions clause",
+    "def": "means a person as defined in section 2(77) of the Companies Act, 2013 (18 of",
+    "scope": ""
+   },
+   {
+    "term": "scheme",
+    "para": "definitions clause",
+    "def": "means a scheme of a mutual fund launched under Chapter V;",
+    "scope": ""
+   },
+   {
+    "term": "schedule",
+    "para": "definitions clause",
+    "def": "means any of the schedules annexed to these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "securities laws",
+    "para": "definitions clause",
+    "def": "means the Act, the Securities Contracts (Regulation) Act, 1956 (42 of 1956), the Depositories Act, 1996 (22 of 1996) and the provision of any other law to the extent it is administered by the Board and the relevant rules and regulations made thereunder;",
+    "scope": ""
+   },
+   {
+    "term": "silver exchange traded fund scheme",
+    "para": "definitions clause",
+    "def": "shall mean a mutual fund scheme that invests primarily in silver or silver related instruments;",
+    "scope": ""
+   },
+   {
+    "term": "silver related instrument",
+    "para": "definitions clause",
+    "def": "shall mean an instrument as may be specified by the Board, which has silver as the underlying product;",
+    "scope": ""
+   },
+   {
+    "term": "Specialized Investment Fund",
+    "para": "definitions clause",
+    "def": "means a mutual fund as defined under clause (gg) of sub- regulation (1) of regulation 2 of these regulations and subject to such other conditions as specified under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "sponsor",
+    "para": "definitions clause",
+    "def": "means any person who, acting individually or in concert with another body corporate, establishes a mutual fund or a mutual fund lite;",
+    "scope": ""
+   },
+   {
+    "term": "statutory levy",
+    "para": "definitions clause",
+    "def": "means levy imposed by state government and central government;",
+    "scope": ""
+   },
+   {
+    "term": "to be listed securities",
+    "para": "definitions clause",
+    "def": "means equity securities available for purchase or application or investment under anchor investment category or qualified institutional buyer category or public issue in an initial public offer, or debt securities under primary market issuance, till its listing on a recognized stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "total expense ratio",
+    "para": "definitions clause",
+    "def": "means the ratio of total of all expenses charged to the investors of the scheme to the total asset under management of the scheme, as may be specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "unit",
+    "para": "definitions clause",
+    "def": "means the interest of the unit holders in a scheme representing one undivided share in the assets of a scheme; and",
+    "scope": ""
+   },
+   {
+    "term": "unit holder",
+    "para": "definitions clause",
+    "def": "means a person holding unit in a scheme of a mutual fund.",
+    "scope": ""
+   }
+  ],
+  "MC-MF": [
+   {
+    "term": "same network",
+    "para": "definitions",
+    "def": "includes the firms operating or functioning, hitherto or in future, under the same brand name, trade name or common control. 7.5. Internal Auditors of Mutual Funds 7.5.1. The Internal auditors of Mutual funds shall be appointed in terms of SEBI letter no. SEBI/HO/IMD/IMD-SEC-4/P/OW/2024/32093/1 dated October 10, 2024 and other clarifications/ guidelines/ letters issued in this regards as amended from time to…",
+    "scope": ""
+   },
+   {
+    "term": "International scheme",
+    "para": "definitions",
+    "def": "means a Mutual Fund scheme having substantial investments in foreign securities valued as per time zones other than Indian Standard Time zone;",
+    "scope": ""
+   },
+   {
+    "term": "Liquid fund & Overnight fund schemes and plans",
+    "para": "definitions",
+    "def": "shall mean the schemes and plans of a Mutual Fund as specified in the guidelines issued by the Board in this regard252.",
+    "scope": ""
+   },
+   {
+    "term": "mandate",
+    "para": "definitions",
+    "def": "includes instrument, authorisation or order in any form, including electronic means, to effect a payment by a person for the purpose of mutual fund investment; and",
+    "scope": ""
+   },
+   {
+    "term": "Payment Aggregators",
+    "para": "definitions",
+    "def": "includes Payment Aggregators authorized / permitted by RBI and scheduled commercial banks acting in the capacity of Payment Aggregators. 17.4. Other measures to prevent third-party payments and to safeguard the interest of unitholders 17.4.1. The onus of compliance with PMLA provisions and not permitting usage of third party bank account payments continues to lie with the AMCs. 17.4.2. AMCs shall make sure that…",
+    "scope": ""
+   },
+   {
+    "term": "Portfolio Value",
+    "para": "definitions",
+    "def": "means the aggregate amount of portfolio of investments including cash balance without netting off of leverage undertaken by the Fund.",
+    "scope": ""
+   },
+   {
+    "term": "family of investor",
+    "para": "definitions",
+    "def": "shall include individual investor, dependent spouse, dependent children and dependent parents. The dependent family members shall be those members whose investments through EOP originates from income of a single entity i.e. earning individual investor in the family. The investor shall provide an annual declaration or periodic updation as the case maybe in respect of such dependent family members.",
+    "scope": ""
+   }
+  ],
+  "REG-AIF": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "accredited investor",
+    "para": "definitions clause",
+    "def": "means any person who is granted a certificate of accreditation by an accreditation agency *** or who is accredited by a specified SEBI registered/regulated entity as an accredited investor, as per the following eligibility conditions, in a manner as may be specified by the Board from time to time, -",
+    "scope": ""
+   },
+   {
+    "term": "Alternative Investment Fund",
+    "para": "definitions clause",
+    "def": "means any fund established or incorporated in India in the form of a trust or a company or a limited liability partnership or a body corporate which,-",
+    "scope": ""
+   },
+   {
+    "term": "associate",
+    "para": "definitions clause",
+    "def": "means a company or a limited liability partnership or a body corporate in which a director or trustee or partner or Sponsor or Manager of the Alternative Investment Fund or a director or partner of the Manager or Sponsor holds, either individually or collectively, more than fifteen percent of its paid-up equity share capital or partnership interest, as the case may be; 16 Substituted by the Securities and…",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under Section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "certificate",
+    "para": "definitions clause",
+    "def": "means a certificate of registration granted by the Board under regulation 6; (f) “Change in control” –",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions clause",
+    "def": "means a company incorporated under the Companies Act, 2013; (ga) “Corporate Debt Market Development Fund” means an Alternative Investment Fund set up and making investments in terms of Chapter III-C of these regulations.",
+    "scope": ""
+   },
+   {
+    "term": "corpus",
+    "para": "definitions clause",
+    "def": "means the total amount of funds committed by investors to the Alternative Investment Fund by way of a written contract or any such document as on a particular date; (ha) “credit default swaps” shall have the same meaning as assigned to it in the Master Direction – Reserve Bank of India (Credit Derivatives) Directions, 2022. (hb) “custodian” means a person who has been granted a certificate of registration to…",
+    "scope": ""
+   },
+   {
+    "term": "equity linked instruments",
+    "para": "definitions clause",
+    "def": "includes instruments convertible into equity shares or share warrants, preference shares, debentures compulsorily or optionally convertible into equity;",
+    "scope": ""
+   },
+   {
+    "term": "form",
+    "para": "definitions clause",
+    "def": "means any of the forms set out in the First Schedule; (ka) “goods” means the goods notified by the Central Government under clause (bc) of section 2 of the Securities Contracts (Regulation) Act, 1956 and forming the underlying of any commodity derivative;",
+    "scope": ""
+   },
+   {
+    "term": "hedge fund",
+    "para": "definitions clause",
+    "def": "means an Alternative Investment Fund which employs diverse or complex trading strategies and invests and trades in securities having diverse risks or complex products including listed and unlisted derivatives;",
+    "scope": ""
+   },
+   {
+    "term": "infrastructure fund",
+    "para": "definitions clause",
+    "def": "means an Alternative Investment Fund which invests primarily in unlisted securities or partnership interest or listed debt or securitized debt instruments of investee companies or special purpose vehicles engaged in or formed for the purpose of operating, developing or holding infrastructure projects; 27 Substituted by the Securities and Exchange Board of India (Alternative Investment Funds) (Fourth Amendment)…",
+    "scope": ""
+   },
+   {
+    "term": "inspecting authority",
+    "para": "definitions clause",
+    "def": "means any one or more person appointed by the Board to exercise powers conferred under regulation 30;",
+    "scope": ""
+   },
+   {
+    "term": "investee company",
+    "para": "definitions clause",
+    "def": "means any company, special purpose vehicle or limited liability partnership or body corporate or real estate investment trust or infrastructure investment trust in which an Alternative Investment Fund makes an investment; (p) “investable funds” means corpus of the scheme of Alternative Investment Fund net of expenditure for administration and management of the fund estimated for the tenure of the fund.",
+    "scope": ""
+   },
+   {
+    "term": "liquidation scheme",
+    "para": "definitions clause",
+    "def": "means a close ended scheme launched by an Alternative Investment Fund only for the purpose of liquidating the unliquidated investments purchased from its scheme, whose tenure has expired.",
+    "scope": ""
+   },
+   {
+    "term": "manager",
+    "para": "definitions clause",
+    "def": "means any person or entity who is appointed by the Alternative Investment Fund to manage its investments by whatever name called and may also be same as the sponsor of the Fund; (qa) “not for profit organization” shall have the same meaning as assigned to it in clause (e) of regulation 292A of the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018;",
+    "scope": ""
+   },
+   {
+    "term": "private equity fund",
+    "para": "definitions clause",
+    "def": "means an Alternative Investment Fund which invests primarily in equity or equity linked instruments or partnership interests of investee companies according to the stated objective of the fund; (ra) “Shelf placement memorandum” means a placement memorandum filed by an Alternative Investment Fund for launching co-investment schemes; 36 Inserted by the Securities and Exchange Board of India (Alternative Investment…",
+    "scope": ""
+   },
+   {
+    "term": "SME",
+    "para": "definitions clause",
+    "def": "means Small and Medium Enterprise and shall have the same meaning as assigned to it under the Micro, Small and Medium Enterprises Development Act 2006 as amended from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "SME fund",
+    "para": "definitions clause",
+    "def": "means an Alternative Investment Fund which invests primarily in unlisted securities of investee companies which are SMEs or securities of those SMEs which are listed or proposed to be listed on a SME exchange or SME segment of an exchange; (ta) “social enterprise” shall have the same meaning as assigned to it in clause (h) of regulation 292A of the Securities and Exchange Board of India (Issue of Capital and…",
+    "scope": ""
+   },
+   {
+    "term": "social impact fund",
+    "para": "definitions clause",
+    "def": "means an Alternative Investment Fund which invests primarily in securities, units or partnership interest of social ventures or securities of social enterprises and which satisfies the social performance norms laid down by the fund;",
+    "scope": ""
+   },
+   {
+    "term": "social units",
+    "para": "definitions clause",
+    "def": "means units issued by a social impact fund or schemes of a social impact fund to investors who have agreed to receive only social returns or benefits and no financial returns against their contribution;",
+    "scope": ""
+   },
+   {
+    "term": "social venture",
+    "para": "definitions clause",
+    "def": "means a trust, society or company or venture capital undertaking or limited liability partnership formed with the purpose of promoting social welfare or solving social problems or providing social benefits and includes,-",
+    "scope": ""
+   },
+   {
+    "term": "sponsor",
+    "para": "definitions clause",
+    "def": "means any person or persons who set up the Alternative Investment Fund and includes promoter in case of a company and designated partner in case of a limited liability partnership; (wa) “startup” means a private limited company or a limited liability partnership which fulfills the criteria for startup as specified by the Department of Promotion of Industry and Internal Trade, Ministry of Commerce and Industry,…",
+    "scope": ""
+   },
+   {
+    "term": "trust",
+    "para": "definitions clause",
+    "def": "means a trust established under the Indian Trusts Act, 1882 or under an Act of Parliament or State Legislation; (y) “unit” means beneficial interest of the investors in the Alternative Investment Fund or a scheme of the Alternative Investment Fund and may be fully or partly paid up.",
+    "scope": ""
+   },
+   {
+    "term": "venture capital fund",
+    "para": "definitions clause",
+    "def": "means an Alternative Investment Fund which invests primarily in unlisted securities of start-ups, emerging or early-stage venture 42 Substituted by the Securities and Exchange Board of India (Alternative Investment Funds) (Amendment) Regulations, 2018, w.e.f. 01-06-2018. Prior to the substitution, it read as “company registered under Section 25 of the Companies Act, 1956”. 43 Omitted by the Securities and…",
+    "scope": ""
+   },
+   {
+    "term": "social venture fund",
+    "para": "definitions clause",
+    "def": "means an Alternative Investment Fund which invests primarily in securities or units of social ventures and which satisfies social performance norms laid down by the fund and whose investors may agree to receive restricted or muted returns;” 44 Inserted by the Securities and Exchange Board of India (Alternative Investment Funds) (Second Amendment) 45 Substituted by the Securities and Exchange Board of India…",
+    "scope": ""
+   },
+   {
+    "term": "unit",
+    "para": "definitions clause",
+    "def": "means beneficial interest of the investors in the Alternative Investment Fund or a scheme of the Alternative Investment Fund and shall include shares or partnership interests; capital undertakings mainly involved in new products, new services, technology or intellectual property right based activities or a new business model and shall include a  migrated venture capital fund as defined under Chapter III-D; (za)…",
+    "scope": ""
+   },
+   {
+    "term": "angel fund",
+    "para": "definitions clause",
+    "def": "means a sub-category of 150[*** Category I- Alternative Investment Fund that raises funds from 151[accredited investors and invests in accordance with the provisions of this Chapter. *Substituted by the Securities and Exchange Board of India (Alternative Investment Fund) (Amendment) Regulations, 2013, w.e..f 16-09-2013 for the words and symbol “Fund of Category II”. 149 Inserted by the Securities and Exchange…",
+    "scope": ""
+   },
+   {
+    "term": "company with family connection",
+    "para": "definitions clause",
+    "def": "means: a. if the angel investor is an individual, i. any company which is promoted by such an individual or his relative; or ii. any company where the individual or his relative is a director; or iii. any company where the person or his relative has control, or shares or voting rights which entitle them to fifteen percent or more of the shares or voting rights in the company.",
+    "scope": ""
+   },
+   {
+    "term": "special situation asset",
+    "para": "definitions clause",
+    "def": "includes,- 185 Inserted by the Securities and Exchange Board of India (Alternative Investment Funds) (Amendment)",
+    "scope": ""
+   },
+   {
+    "term": "special situation fund",
+    "para": "definitions clause",
+    "def": "means a Category 1 Alternative Investment Fund that invests in special situation assets in accordance with its investment objectives and may act as a resolution applicant under the Insolvency and Bankruptcy Code, 2016. Applicability. 19J. (1) The provisions of this Chapter shall apply to special situation funds and schemes launched by such special situation funds.",
+    "scope": ""
+   },
+   {
+    "term": "migrated venture capital fund",
+    "para": "definitions clause",
+    "def": "means a fund that was previously registered as a venture capital fund under the Securities and Exchange Board of India (Venture Capital Funds) Regulations, 1996 and subsequently registered under these regulations as a sub-category of Venture Capital Fund under Category I - Alternative Investment Fund in accordance with the provisions of this Chapter.",
+    "scope": ""
+   },
+   {
+    "term": "investable funds",
+    "para": "definitions clause",
+    "def": "means corpus of the scheme of the migrated venture capital fund net of expenditure for administration and management of the fund. Applicability. 19W. (1) The provisions of this Chapter shall apply only to migrated venture capital funds and schemes launched by such migrated venture capital funds.",
+    "scope": ""
+   }
+  ],
+  "REG-SB": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "certificate",
+    "para": "definitions clause",
+    "def": "means a certificate of registration issued by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "clearing corporation",
+    "para": "definitions clause",
+    "def": "shall mean a clearing corporation as defined in regulation 2(1)(d) of the Securities Contracts (Regulation) (Stock Exchanges and Clearing Corporations) Regulations, 2018;",
+    "scope": ""
+   },
+   {
+    "term": "clearing member",
+    "para": "definitions clause",
+    "def": "means a person having clearing and settlement rights in any recognised clearing corporation;",
+    "scope": ""
+   },
+   {
+    "term": "designated director",
+    "para": "definitions clause",
+    "def": "shall mean a person designated as such by the stock broker or clearing member and shall include –",
+    "scope": ""
+   },
+   {
+    "term": "Execution Only Platform",
+    "para": "definitions clause",
+    "def": "means any digital or online platform which facilitates transactions such as subscription, redemption and switch transactions in a direct plan of a scheme of a Mutual Fund;",
+    "scope": ""
+   },
+   {
+    "term": "form",
+    "para": "definitions clause",
+    "def": "means a form specified by the Board or recognized stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "inspecting authority",
+    "para": "definitions clause",
+    "def": "means one or more persons appointed by the Board to exercise powers conferred under Chapter V;",
+    "scope": ""
+   },
+   {
+    "term": "market abuse",
+    "para": "definitions clause",
+    "def": "means a manipulative, fraudulent and unfair trade practice including through a mule account which may contravene any of the provisions of the Securities and Exchange Board of India (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 2003 or the Securities and Exchange Board of India (Prohibition of Insider Trading) Regulations, 2015 or Section 12A of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "professional clearing member",
+    "para": "definitions clause",
+    "def": "means a clearing member without having the trading rights in the same segment of any of the recognised stock exchange for which it is acting as a clearing member.;",
+    "scope": ""
+   },
+   {
+    "term": "proprietary trading",
+    "para": "definitions clause",
+    "def": "means trading by a stockbroker in its own account, in any segment of a recognised stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "proprietary trading member",
+    "para": "definitions clause",
+    "def": "means a stock broker whose trades are exclusively in the nature of proprietary trading;",
+    "scope": ""
+   },
+   {
+    "term": "qualified stock broker",
+    "para": "definitions clause",
+    "def": "means a stock broker designated as such under regulation",
+    "scope": ""
+   },
+   {
+    "term": "regulatory sandbox",
+    "para": "definitions clause",
+    "def": "means a live testing environment where new products, processes, services, business models, etc. may be deployed on a limited set of eligible customers for a specified period of time, for furthering innovation in the securities market;",
+    "scope": ""
+   },
+   {
+    "term": "Securities Contract (Regulation) Act",
+    "para": "definitions clause",
+    "def": "means Securities Contract (Regulation)",
+    "scope": ""
+   },
+   {
+    "term": "self-clearing member",
+    "para": "definitions clause",
+    "def": "means a clearing member who settles trades on its own account or of its clients;",
+    "scope": ""
+   },
+   {
+    "term": "specified",
+    "para": "definitions clause",
+    "def": "means as specified by the Board or a recognised stock exchange in consultation with the Board, unless otherwise stated;",
+    "scope": ""
+   },
+   {
+    "term": "stock broker",
+    "para": "definitions clause",
+    "def": "means a person having trading rights in any recognised stock exchange and includes a trading member;",
+    "scope": ""
+   },
+   {
+    "term": "suspicious activity",
+    "para": "definitions clause",
+    "def": "shall mean any fraudulent activity in respect of know your client requirements, order placement or trading activity;",
+    "scope": ""
+   },
+   {
+    "term": "underwriter",
+    "para": "definitions clause",
+    "def": "means a person who engages in the business of underwriting of an issue of securities of a body corporate;",
+    "scope": ""
+   },
+   {
+    "term": "underwriting",
+    "para": "definitions clause",
+    "def": "means an agreement to subscribe to or to procure subscription for securities which remain unsubscribed after being issued or offered for sale.",
+    "scope": ""
+   }
+  ],
+  "MC-SB": [
+   {
+    "term": "associate",
+    "para": "definitions",
+    "def": "shall include a person: a. who, directly or indirectly, by itself, or in combination with other persons, exercises control over the member, whether individual, body corporate or firm or holds substantial share of not less than 15% in the capital of such entities; or b. in respect of whom the member, individual or body corporate or firm, directly or indirectly, by itself or in combination with other persons,…",
+    "scope": ""
+   }
+  ],
+  "REG-INTERMED": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of",
+    "scope": ""
+   },
+   {
+    "term": "associate",
+    "para": "definitions clause",
+    "def": "means any person controlled, directly or indirectly, by the intermediary, or any person who controls, directly or indirectly, the intermediary, or any entity or person under common control with such intermediary, and where such intermediary is a natural person will include any relative of such intermediary and where such intermediary is a body corporate will include its group companies (as defined in the…",
+    "scope": ""
+   },
+   {
+    "term": "certificate",
+    "para": "definitions clause",
+    "def": "means a certificate of registration granted to an intermediary by the Board under the relevant regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Form",
+    "para": "definitions clause",
+    "def": "means a Form in Schedule I;",
+    "scope": ""
+   },
+   {
+    "term": "intermediary",
+    "para": "definitions clause",
+    "def": "means a person mentioned in clauses (b) and (ba) of sub-section",
+    "scope": ""
+   },
+   {
+    "term": "inspecting authority",
+    "para": "definitions clause",
+    "def": "means one or more persons appointed by the Board to undertake inspection of the books, accounts, records and documents of an intermediary in terms of sub-regulation (1) of regulation 17;",
+    "scope": ""
+   },
+   {
+    "term": "principal officer",
+    "para": "definitions clause",
+    "def": "means any person who is responsible for the activities of an intermediary and includes-",
+    "scope": ""
+   },
+   {
+    "term": "relevant regulations",
+    "para": "definitions clause",
+    "def": "means any regulations made by the Board applicable to a class of intermediaries;",
+    "scope": ""
+   },
+   {
+    "term": "securities laws",
+    "para": "definitions clause",
+    "def": "means the Act, the Securities Contract (Regulations) Act 1956 (42 of 1956), the Depositories Act,1996 (22 of 1996), and the rules and regulations made thereunder;",
+    "scope": ""
+   },
+   {
+    "term": "schedule",
+    "para": "definitions clause",
+    "def": "means a schedule annexed to these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "self regulatory organization",
+    "para": "definitions clause",
+    "def": "means an organization of a class of intermediaries duly recognised by or registered with the Board and includes a stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "advertisement",
+    "para": "definitions clause",
+    "def": "shall include any form of communication, endorsement or representation, whether written, audio, visual, verbal or of any other form, disseminated through any channel, including but not limited to-",
+    "scope": ""
+   },
+   {
+    "term": "celebrity",
+    "para": "definitions clause",
+    "def": "shall include a person:",
+    "scope": ""
+   },
+   {
+    "term": "date of receipt of reply",
+    "para": "definitions clause",
+    "def": "includes the date on which the noticee makes oral submissions, if any;",
+    "scope": ""
+   },
+   {
+    "term": "designated authority",
+    "para": "definitions clause",
+    "def": "means an officer of the Board and includes a bench of such officers appointed under regulation 24; (c) “competent authority” means a Whole Time Member or an officer of the Board, not below the rank of a Chief General Manager, as may be designated for the purpose by the Board; (ca) “Executive Director” means an officer of the Board who is appointed as such by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "noticee",
+    "para": "definitions clause",
+    "def": "means the person to whom a notice has been issued under this Chapter. Cancellation or suspension of registration and other actions.",
+    "scope": ""
+   }
+  ],
+  "REG-DP": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "applicant",
+    "para": "definitions clause",
+    "def": "means any person or persons who, acting alone or in combination with another person proposes to establish a depository under these regulations and holds fifteen percent shareholding of the depository;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "Depositories Act",
+    "para": "definitions clause",
+    "def": "means the Depositories Act, 1996 (22 of 1996);",
+    "scope": ""
+   },
+   {
+    "term": "form",
+    "para": "definitions clause",
+    "def": "means any of the forms specified in the First Schedule;",
+    "scope": ""
+   },
+   {
+    "term": "governing board",
+    "para": "definitions clause",
+    "def": "means the board of directors of a depository;",
+    "scope": ""
+   },
+   {
+    "term": "inspecting officer",
+    "para": "definitions clause",
+    "def": "means any person authorised by the Board under regulation 84;",
+    "scope": ""
+   },
+   {
+    "term": "public interest director",
+    "para": "definitions clause",
+    "def": "means an independent director representing the interests of investors in securities market and who is not having any association, directly or indirectly, which in the opinion of the Board, is in conflict with his role;",
+    "scope": ""
+   },
+   {
+    "term": "regulatory department",
+    "para": "definitions clause",
+    "def": "means a department of a depository which is entrusted with regulatory powers and duties and includes such department as may be specified by the Board;\"",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "definitions clause",
+    "def": "means any of the Schedules annexed to these regulations;",
+    "scope": ""
+   }
+  ],
+  "MC-DP": [
+   {
+    "term": "Operational guidelines",
+    "para": "definitions",
+    "def": "refers to any additional set of rules and procedures issued internally by a MII that compliments its cyber security protocol and information security practices. Reporting Requirements 4.72.12 The following reporting structure for cyber security deficiencies / breach shall be adopted by the MIIs: S. No. Issue Reporting",
+    "scope": ""
+   }
+  ],
+  "REG-KRA": [
+   {
+    "term": "‘Act’",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Certificate",
+    "para": "definitions clause",
+    "def": "means a certificate of registration granted by the Board under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Client",
+    "para": "definitions clause",
+    "def": "means a person seeking to do/has done his KYC through intermediary with",
+    "scope": ""
+   },
+   {
+    "term": "‘Inspecting authority’",
+    "para": "definitions clause",
+    "def": "means any one or more person appointed by the Board to exercise powers conferred under chapter IV;",
+    "scope": ""
+   },
+   {
+    "term": "Intermediary",
+    "para": "definitions clause",
+    "def": "means an entity associated with securities market and registered under sub-section (1A), (1B) and (1) of Section 12 of the Act; who is required to do KYC of its clients;",
+    "scope": ""
+   },
+   {
+    "term": "Intermediaries Regulations’",
+    "para": "definitions clause",
+    "def": "means Securities and Exchange Board of India (Intermediaries) Regulations, 2008;",
+    "scope": ""
+   },
+   {
+    "term": "‘KYC’",
+    "para": "definitions clause",
+    "def": "means the procedure specified by the Board for identifying and verifying the Proof of Address, Proof of Identity and compliance with rules, regulations, guidelines and circulars issued by the Board or any other authority for Prevention of Money Laundering from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "Operating Instructions",
+    "para": "definitions clause",
+    "def": "means operating instructions made by a KRA under Regulation (2) All other words and expressions used but not defined in these regulations shall have the same meaning as have been assigned to them under the Act or the Securities Contracts 2 The words and symbols “Companies Act, 1956” substituted with “Companies Act, 2013 (18 of 2013)” by the Securities and Exchange Board of India {KYC (Know Your Client)…",
+    "scope": ""
+   }
+  ],
+  "REG-IA": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "certificate",
+    "para": "definitions clause",
+    "def": "means a certificate of registration granted under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions clause",
+    "def": "means a company incorporated under the Companies Act, 1956 or Companies Act, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "consideration",
+    "para": "definitions clause",
+    "def": "means any form of economic benefit including non-cash benefit, received or receivable for providing investment advice;",
+    "scope": ""
+   },
+   {
+    "term": "family of client",
+    "para": "definitions clause",
+    "def": "shall include individual client, dependent spouse, dependent children and dependent parents;",
+    "scope": ""
+   },
+   {
+    "term": "family of an individual investment adviser",
+    "para": "definitions clause",
+    "def": "shall include individual investment adviser, spouse, children and parents;",
+    "scope": ""
+   },
+   {
+    "term": "financial planning",
+    "para": "definitions clause",
+    "def": "shall include analysis of clients’ current financial situation, identification of their financial goals, and developing and recommending financial strategies to realise such goals;",
+    "scope": ""
+   },
+   {
+    "term": "firm",
+    "para": "definitions clause",
+    "def": "means a partnership firm registered under Indian Partnership Act, 1932 (9 of",
+    "scope": ""
+   },
+   {
+    "term": "form",
+    "para": "definitions clause",
+    "def": "means any of the forms set out in the First Schedule;",
+    "scope": ""
+   },
+   {
+    "term": "inspecting authority",
+    "para": "definitions clause",
+    "def": "means any one or more persons appointed by the Board to exercise powers conferred under regulation 23;",
+    "scope": ""
+   },
+   {
+    "term": "investment advice",
+    "para": "definitions clause",
+    "def": "means advice relating to investing in, purchasing, selling or otherwise dealing in securities *** and advice on investment portfolio containing securities *** whether written, oral or through any other means of communication for the benefit of the client and shall include financial planning: 7 Inserted by the SEBI (Investment Advisers) (Amendment) Regulations, 2020, w.e.f. 30-09-2020. 8 ibid. 9 Omitted by the…",
+    "scope": ""
+   },
+   {
+    "term": "investment adviser",
+    "para": "definitions clause",
+    "def": "means any person, who for consideration, is engaged in the business of providing investment advice to clients or other persons or group of persons and includes a part-time investment adviser or any person who holds out himself as an investment adviser, by whatever name called;",
+    "scope": ""
+   },
+   {
+    "term": "limited liability partnership",
+    "para": "definitions clause",
+    "def": "means a partnership formed and registered under The Limited Liability Partnership Act, 2008(6 of 2009);",
+    "scope": ""
+   },
+   {
+    "term": "NBFC",
+    "para": "definitions clause",
+    "def": "means a Non-Banking Financial Company regulated by Reserve Bank of India;",
+    "scope": ""
+   },
+   {
+    "term": "NISM",
+    "para": "definitions clause",
+    "def": "means the National Institute of Securities Market established by the Board; (pa) “non-individual” means a body corporate including a limited liability partnership and a partnership firm; (pb) “other business activity or employment” means such business activity or employment which is not related to securities and: a. it does not involve handling or managing of money or funds of client or person; or b. it is not…",
+    "scope": ""
+   },
+   {
+    "term": "partner",
+    "para": "definitions clause",
+    "def": "means partner of the firm or a limited liability partnership who renders investment advice on behalf of the firm or limited liability partnership; (qa) “part-time investment adviser” means an individual or a firm, who for consideration, is engaged in the business of providing investment advice and is also engaged in any other business activity or employment; 12 Inserted by the Securities and Exchange Board of…",
+    "scope": ""
+   }
+  ],
+  "REG-RA": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "asset management company",
+    "para": "definitions clause",
+    "def": "means a company as defined under clause(d) of Regulation 2 of Securities and Exchange Board of India ( Mutual Funds) Regulations,",
+    "scope": ""
+   },
+   {
+    "term": "associate",
+    "para": "definitions clause",
+    "def": "means an associate as defined in Securities and Exchange Board of India (Intermediaries) Regulations, 2008;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "certificate",
+    "para": "definitions clause",
+    "def": "means a certificate of registration granted under these regulations; (f) Change in control” –",
+    "scope": ""
+   },
+   {
+    "term": "family of an individual research analyst",
+    "para": "definitions clause",
+    "def": "shall include individual research analyst, spouse, children and parents;",
+    "scope": ""
+   },
+   {
+    "term": "family of client",
+    "para": "definitions clause",
+    "def": "shall include individual client, dependent spouse, dependent children and dependent parents;",
+    "scope": ""
+   },
+   {
+    "term": "fund manager",
+    "para": "definitions clause",
+    "def": "includes fund managers of a mutual fund or alternative investment fund or venture capital fund or portfolio manager;",
+    "scope": ""
+   },
+   {
+    "term": "independent research analyst",
+    "para": "definitions clause",
+    "def": "means a person whose only business activity is research analysis or preparation and/or publication of research report;",
+    "scope": ""
+   },
+   {
+    "term": "inspecting authority",
+    "para": "definitions clause",
+    "def": "means any one or more persons appointed by the Board to exercise powers conferred under regulation 27;",
+    "scope": ""
+   },
+   {
+    "term": "investment adviser",
+    "para": "definitions clause",
+    "def": "means any person registered under Securities and Exchange Board of India (Investment Advisers) Regulations, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "limited liability partnership",
+    "para": "definitions clause",
+    "def": "means a partnership formed and registered under The Limited Liability Partnership Act, 2008(6 of 2009);",
+    "scope": ""
+   },
+   {
+    "term": "merchant banking or investment banking or brokerage services",
+    "para": "definitions clause",
+    "def": "includes,- i. acting as an underwriter; ii. participating in a selling or an offering for the issuer or otherwise acting in furtherance of a public offer of the issuer; iii. acting as an adviser in a merger or acquisition; 2 Inserted by the Securities and Exchange Board of India (Research Analysts) (Third Amendment) Regulations, 3 Inserted by the Securities and Exchange Board of India (Research Analysts)…",
+    "scope": ""
+   },
+   {
+    "term": "NBFC",
+    "para": "definitions clause",
+    "def": "means a Non-Banking Financial Company registered by Reserve Bank of India;",
+    "scope": ""
+   },
+   {
+    "term": "NISM",
+    "para": "definitions clause",
+    "def": "means the National Institute of Securities Market established by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "other business activity or employment",
+    "para": "definitions clause",
+    "def": "means such business activity or employment which is not related to securities and: a. it does not involve handling or managing of money or funds of client or person; b. it is not related to providing advice or recommendation to any client or person in respect of any products or assets for investment purposes;",
+    "scope": ""
+   },
+   {
+    "term": "partner",
+    "para": "definitions clause",
+    "def": "means partner of the partnership firm or a limited liability partnership who renders research services on behalf of the firm or limited liability partnership;",
+    "scope": ""
+   },
+   {
+    "term": "part-time research analyst",
+    "para": "definitions clause",
+    "def": "means an individual or a partnership firm who for consideration, is engaged in the business of providing research services and is also engaged in any other business activity or employment;",
+    "scope": ""
+   },
+   {
+    "term": "persons associated with research services",
+    "para": "definitions clause",
+    "def": "shall mean any member, partner, officer, director or employee or any other staff of such research analyst or research entity including any person occupying a similar status or performing a similar function irrespective of the nature of association with the research analyst or research entity who is engaged in providing research services to the clients or other persons or group of persons or general public.",
+    "scope": ""
+   },
+   {
+    "term": "price target",
+    "para": "definitions clause",
+    "def": "means expectations of research analyst on the future performance of specific securities;",
+    "scope": ""
+   },
+   {
+    "term": "proxy adviser",
+    "para": "definitions clause",
+    "def": "means any person who provide advice, through any means, to institutional investor or shareholder of a company, in relation to exercise of their rights in the company including recommendations on public offer or voting recommendation on agenda items;",
+    "scope": ""
+   },
+   {
+    "term": "public appearance",
+    "para": "definitions clause",
+    "def": "means any participation in a conference call, seminar, forum (including interactive and non-interactive electronic forum), radio or television or internet or web or print media broadcast, authoring a print media article or other public speaking activity in public media in which a research analyst makes a recommendation or offers an opinion, concerning securities or public offer: Provided that it does not include…",
+    "scope": ""
+   },
+   {
+    "term": "public media",
+    "para": "definitions clause",
+    "def": "means any media source available to the general public and includes a radio, television, internet, web or print media;",
+    "scope": ""
+   },
+   {
+    "term": "public offer",
+    "para": "definitions clause",
+    "def": "includes initial public offer, further public offer, offer for sale, disinvestment, takeover, buy-back or delisting of securities;",
+    "scope": ""
+   },
+   {
+    "term": "relative",
+    "para": "definitions clause",
+    "def": "means a person as defined in sub section (77) of section 2 of the Companies Act, 2013 and who is financially dependent on independent research analyst or part-time research analyst or individual research analyst employed by research entity; 6 Inserted by the Securities and Exchange Board of India (Research Analysts) (Third Amendment) Regulations, Page 4 of 38",
+    "scope": ""
+   },
+   {
+    "term": "research entity",
+    "para": "definitions clause",
+    "def": "means an intermediary registered with Board who is also engaged in merchant banking or investment banking or brokerage services or underwriting services and issue research report or research analysis in its own name through the individuals employed by it as research analyst and includes any other intermediary engaged in issuance of research report or research analysis;",
+    "scope": ""
+   },
+   {
+    "term": "research report",
+    "para": "definitions clause",
+    "def": "means any written or electronic communication that includes research analysis or research recommendation or an opinion concerning securities or public offer, providing a basis for investment decision and does not include the following communications:-",
+    "scope": ""
+   },
+   {
+    "term": "securities",
+    "para": "definitions clause",
+    "def": "means securities as defined in clause (h) of section 2 of the Securities Contracts (Regulation) Act, 1956;",
+    "scope": ""
+   },
+   {
+    "term": "significant news or event",
+    "para": "definitions clause",
+    "def": "means any news or event which is expected to have a material impact on, or that reflects a material change to, the subject company's earnings, operations or financial condition, other than unpublished price sensitive information, as specified in the internal policies and procedures of the research analyst or research entity;",
+    "scope": ""
+   },
+   {
+    "term": "subject company",
+    "para": "definitions clause",
+    "def": "means the company whose securities are the subject of a research report or a public appearance;",
+    "scope": ""
+   },
+   {
+    "term": "stock exchange",
+    "para": "definitions clause",
+    "def": "means a stock exchange recognised under section 4 of the Securities Contracts (Regulation) Act, 1956 (42 of 1956);",
+    "scope": ""
+   },
+   {
+    "term": "third party research report",
+    "para": "definitions clause",
+    "def": "means a research report produced by a person or entity other than the research analyst or research entity9[; (zc) “trading calls” means intraday, ultra-short duration, non-delivery based (other than hedging) recommendation or any recommendation related to securities that are not personalized or investor specific.",
+    "scope": ""
+   }
+  ],
+  "REG-DT": [
+   {
+    "term": "Form",
+    "para": "definitions clause",
+    "def": "means Forms specified in Schedule I;",
+    "scope": ""
+   },
+   {
+    "term": "Inspecting authority",
+    "para": "definitions clause",
+    "def": "means one or more persons appointed by the Board to exercise powers conferred under Chapter IV; (e) “insurance company” has the same meaning assigned to it under sub-section",
+    "scope": ""
+   },
+   {
+    "term": "insurance company",
+    "para": "definitions clause",
+    "def": "means a company as defined in clause (21) of section 2 of the Companies Act;” 14 Substituted ibid. Prior to the same, clause (e), inserted by the SEBI (Debenture Trustees) (Amendment) Regulations, 2006, w.e.f. 7-9-2006, read as follows: ““issue” means an offer of sale of securities by any body corporate or by any other person or group of persons on its or their behalf, as the case may be, to the public, or the…",
+    "scope": ""
+   },
+   {
+    "term": "regulations",
+    "para": "definitions clause",
+    "def": "means Securities and Exchange Board of India (Debenture Trustees) Regulations, 1993;",
+    "scope": ""
+   },
+   {
+    "term": "scheduled bank",
+    "para": "definitions clause",
+    "def": "means a scheduled bank as defined in clause (e) of section 2 of the Reserve Bank of India Act, 1934 (2 of 1934); (ia) “trust deed” means a deed executed by the body corporate in favour of the trustees named therein for the benefit of the debenture holders; (ib) “recognised stock exchange” shall have the same meaning assigned to it under sub-section (f) of section 2 of the Securities Contracts (Regulation) Act,",
+    "scope": ""
+   }
+  ],
+  "REG-CRA": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India Act, 1992 (15 of",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Board as defined in clause (a) of sub-section (1) of section 2 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "body corporate",
+    "para": "definitions clause",
+    "def": "means a body corporate as defined in  clause (11) of section 2 of the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "certificate",
+    "para": "definitions clause",
+    "def": "means a certificate of 2 [3 [*** registration granted by the Board under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "client",
+    "para": "definitions clause",
+    "def": "means any person whose securities are rated by a credit rating agency;",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions clause",
+    "def": "means a company incorporated under the Companies Act,",
+    "scope": ""
+   },
+   {
+    "term": "credit rating agency",
+    "para": "definitions clause",
+    "def": "means a body corporate which is engaged in, or proposes to be engaged in, the business of rating of securities that are listed or proposed to be listed on a stock exchange recognized by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "economic offence",
+    "para": "definitions clause",
+    "def": "means an offence to which the Economic Offences (Inapplicability of Limitation) Act, 1974 (12 of 1974), is applicable for the time being;",
+    "scope": ""
+   },
+   {
+    "term": "form",
+    "para": "definitions clause",
+    "def": "means any of the forms specified in the First Schedule:",
+    "scope": ""
+   },
+   {
+    "term": "inspecting officer",
+    "para": "definitions clause",
+    "def": "means any one or more persons appointed by the Board under regulation 29;",
+    "scope": ""
+   },
+   {
+    "term": "issuer",
+    "para": "definitions clause",
+    "def": "means a person whose securities are proposed to be rated by a credit rating agency;",
+    "scope": ""
+   },
+   {
+    "term": "net-worth",
+    "para": "definitions clause",
+    "def": "means the aggregate value of the paid up equity capital and free reserves (excluding reserves created out of revaluation), reduced by the aggregate value of accumulated losses and deferred expenditure not written off, including miscellaneous expenses not written of;",
+    "scope": ""
+   },
+   {
+    "term": "rating",
+    "para": "definitions clause",
+    "def": "means an opinion regarding securities, expressed in the form of standard symbols or in any other standardised manner, assigned by a credit rating agency and used by the issuer of such securities, to comply with a requirement specified by these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "rating committee",
+    "para": "definitions clause",
+    "def": "means a committee constituted by a credit rating agency to assign rating to a security;",
+    "scope": ""
+   },
+   {
+    "term": "regulation",
+    "para": "definitions clause",
+    "def": "means a regulation forming part of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "relative",
+    "para": "definitions clause",
+    "def": "means a relative as defined in section 2(77) of the Companies",
+    "scope": ""
+   },
+   {
+    "term": "schedule",
+    "para": "definitions clause",
+    "def": "means any of the schedules appended to these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "securities",
+    "para": "definitions clause",
+    "def": "has the meaning assigned to it in clause (h) of section 2 of the Securities Contracts (Regulation) Act, 1956. (2) The words and expressions used and not defined in these regulations but defined in the Act, the Securities Contracts (Regulation) Act, 1956 (42 of 1956), the Companies Act, 2013 (18 of 2013), or any rules or regulations made thereunder shall have the same meanings respectively assigned to them in…",
+    "scope": ""
+   },
+   {
+    "term": "promoter",
+    "para": "definitions clause",
+    "def": "means a person who holds ten percent or more, of the shares of the credit rating agency. Securities issued by promoter 26. (1) No credit rating agency shall rate a security issued by its promoter.",
+    "scope": ""
+   },
+   {
+    "term": "independent director",
+    "para": "definitions clause",
+    "def": "means a director who, apart from receiving remuneration as a director, does not have any other material pecuniary relationship or transactions with the company, its promoters, its management or its subsidiaries, which in the judgment of the board of the company, may affect the independence of the judgment of such director. Securities already rated",
+    "scope": ""
+   },
+   {
+    "term": "ESG rating provider",
+    "para": "definitions clause",
+    "def": "means a person which is engaged in, or proposes to engage in, the business of issuing ESG ratings;",
+    "scope": ""
+   },
+   {
+    "term": "liquid net worth",
+    "para": "definitions clause",
+    "def": "means net worth deployed in liquid assets which are unencumbered;",
+    "scope": ""
+   },
+   {
+    "term": "Net Worth",
+    "para": "definitions clause",
+    "def": "means the aggregate value of the paid up equity capital and free reserves (excluding reserves created out of revaluation), reduced by the aggregate value of accumulated losses and deferred expenditure not written off, including miscellaneous expenses not written off;",
+    "scope": ""
+   }
+  ]
+ }
+}

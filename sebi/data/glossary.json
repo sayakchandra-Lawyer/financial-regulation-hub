@@ -1,0 +1,537 @@
+{
+ "meta": {
+  "as_of": "2026-11-25",
+  "note": "Plain-language explanations for readers who are new to the terms. They are summaries, not the legal definitions: the instrument named under 'See' governs."
+ },
+ "terms": [
+  {
+   "term": "SEBI",
+   "full": "Securities and Exchange Board of India",
+   "def": "The securities market regulator, set up under the SEBI Act, 1992. It registers intermediaries, makes regulations, inspects and investigates, and can penalise breaches.",
+   "see": [
+    "ACT-SEBI"
+   ],
+   "aka": [
+    "securities and exchange board",
+    "board"
+   ]
+  },
+  {
+   "term": "LODR",
+   "full": "Listing Obligations and Disclosure Requirements",
+   "def": "The rulebook every listed entity follows after listing: board and committee rules, disclosures to stock exchanges, results, shareholding pattern and related party transactions.",
+   "see": [
+    "REG-LODR",
+    "MC-LODR"
+   ],
+   "aka": [
+    "listing obligations",
+    "listing regulations"
+   ]
+  },
+  {
+   "term": "UPSI",
+   "full": "Unpublished price sensitive information",
+   "def": "Information about a listed company or its securities that is not generally available and would likely affect the share price if it were, such as results, dividends, mergers or major changes in management.",
+   "see": [
+    "REG-PIT"
+   ],
+   "aka": [
+    "price sensitive information",
+    "unpublished price sensitive"
+   ]
+  },
+  {
+   "term": "Insider",
+   "full": "",
+   "def": "A connected person, or anyone in possession of or with access to UPSI. Insiders may not trade while holding UPSI.",
+   "see": [
+    "REG-PIT"
+   ],
+   "aka": [
+    "insiders"
+   ]
+  },
+  {
+   "term": "Designated person",
+   "full": "",
+   "def": "An employee or connected person whom the company's board names, by role and access to UPSI, as covered by its insider trading code of conduct.",
+   "see": [
+    "REG-PIT"
+   ],
+   "aka": [
+    "designated persons"
+   ]
+  },
+  {
+   "term": "Trading window",
+   "full": "",
+   "def": "The period when designated persons may trade. It closes from the end of each quarter until 48 hours after the results are published.",
+   "see": [
+    "REG-PIT"
+   ],
+   "aka": [
+    "trading window closure"
+   ]
+  },
+  {
+   "term": "Trading plan",
+   "full": "",
+   "def": "A pre-set plan an insider files and discloses in advance so that trades can go through even while the insider holds UPSI. A cool-off period of 120 calendar days applies.",
+   "see": [
+    "REG-PIT"
+   ],
+   "aka": [
+    "trading plans"
+   ]
+  },
+  {
+   "term": "Structured digital database",
+   "full": "SDD",
+   "def": "The record a listed company or intermediary keeps of everyone with whom UPSI has been shared, with time stamps.",
+   "see": [
+    "REG-PIT"
+   ],
+   "aka": [
+    "SDD"
+   ]
+  },
+  {
+   "term": "Material event",
+   "full": "",
+   "def": "An event or information a listed entity must disclose to the stock exchanges. Some are always material (Schedule III Para A); others are tested against the materiality criteria in regulation 30.",
+   "see": [
+    "REG-LODR"
+   ],
+   "aka": [
+    "material events",
+    "regulation 30"
+   ]
+  },
+  {
+   "term": "Related party transaction",
+   "full": "RPT",
+   "def": "A transfer of resources, services or obligations between a listed entity and a related party. Material ones need prior shareholder approval.",
+   "see": [
+    "REG-LODR"
+   ],
+   "aka": [
+    "RPT",
+    "related party transactions"
+   ]
+  },
+  {
+   "term": "High value debt listed entity",
+   "full": "HVDLE",
+   "def": "A listed entity with listed non-convertible debt of Rs 5,000 crore or more outstanding. It follows the LODR corporate governance rules on a comply-or-explain basis.",
+   "see": [
+    "REG-LODR"
+   ],
+   "aka": [
+    "HVDLE",
+    "high value debt"
+   ]
+  },
+  {
+   "term": "Non-convertible securities",
+   "full": "NCS",
+   "def": "Debt securities and non-convertible redeemable preference shares that do not convert into equity, such as NCDs.",
+   "see": [
+    "REG-NCS"
+   ],
+   "aka": [
+    "NCD",
+    "NCDs",
+    "non-convertible debentures",
+    "debt securities"
+   ]
+  },
+  {
+   "term": "Recovery Expense Fund",
+   "full": "",
+   "def": "A fund a debt issuer sets up with the stock exchange so the debenture trustee can meet the costs of enforcing security on default.",
+   "see": [
+    "REG-NCS"
+   ],
+   "aka": [
+    "REF"
+   ]
+  },
+  {
+   "term": "Debenture trustee",
+   "full": "",
+   "def": "A SEBI-registered entity that protects debenture holders: it monitors security and asset cover and acts on default.",
+   "see": [
+    "REG-DT",
+    "MC-DT"
+   ],
+   "aka": [
+    "debenture trustees",
+    "DT"
+   ]
+  },
+  {
+   "term": "Electronic book provider platform",
+   "full": "EBP",
+   "def": "The exchange platform through which private placements of debt above the set size are bid and allotted.",
+   "see": [
+    "REG-NCS",
+    "MC-NCS"
+   ],
+   "aka": [
+    "EBP"
+   ]
+  },
+  {
+   "term": "Open offer",
+   "full": "",
+   "def": "An offer an acquirer must make to the public shareholders of a listed company on crossing the takeover thresholds, normally for at least 26% of the shares.",
+   "see": [
+    "REG-SAST"
+   ],
+   "aka": [
+    "open offers",
+    "public announcement"
+   ]
+  },
+  {
+   "term": "Creeping acquisition",
+   "full": "",
+   "def": "Buying up to 5% more of a listed company's voting rights in a financial year without an open offer, allowed for a holder of 25% or more.",
+   "see": [
+    "REG-SAST"
+   ],
+   "aka": [
+    "creeping"
+   ]
+  },
+  {
+   "term": "Minimum public shareholding",
+   "full": "MPS",
+   "def": "Every listed company other than a public sector company must keep at least 25% of its shares with the public.",
+   "see": [
+    "RULES-SCRR"
+   ],
+   "aka": [
+    "MPS",
+    "public shareholding"
+   ]
+  },
+  {
+   "term": "Promoters' contribution",
+   "full": "",
+   "def": "The share of post-issue capital, at least 20%, that promoters must hold after an IPO. It is locked in for 18 months, or three years in some cases.",
+   "see": [
+    "REG-ICDR"
+   ],
+   "aka": [
+    "minimum promoter contribution",
+    "lock-in"
+   ]
+  },
+  {
+   "term": "Asset management company",
+   "full": "AMC",
+   "def": "The company that runs a mutual fund's schemes under the supervision of the trustees.",
+   "see": [
+    "REG-MF"
+   ],
+   "aka": [
+    "AMC",
+    "AMCs",
+    "asset manager"
+   ]
+  },
+  {
+   "term": "Trustees",
+   "full": "",
+   "def": "The trustee company that holds a mutual fund's property in trust for unitholders and supervises the AMC.",
+   "see": [
+    "REG-MF"
+   ],
+   "aka": [
+    "trustee company",
+    "trustee"
+   ]
+  },
+  {
+   "term": "Total expense ratio",
+   "full": "TER",
+   "def": "All the expenses charged to a mutual fund scheme's investors as a share of its assets. Only the categories allowed by the MF Regulations may be charged.",
+   "see": [
+    "REG-MF"
+   ],
+   "aka": [
+    "TER",
+    "expense ratio"
+   ]
+  },
+  {
+   "term": "Exit load",
+   "full": "",
+   "def": "A charge on redemption of mutual fund units. It goes back to the scheme and cannot exceed 3% of NAV for an open-ended scheme.",
+   "see": [
+    "REG-MF"
+   ],
+   "aka": [
+    "exit loads"
+   ]
+  },
+  {
+   "term": "NAV",
+   "full": "Net Asset Value",
+   "def": "The value of one unit of a mutual fund scheme, computed every day from the scheme's net assets.",
+   "see": [
+    "REG-MF"
+   ],
+   "aka": [
+    "net asset value"
+   ]
+  },
+  {
+   "term": "Specialized Investment Fund",
+   "full": "SIF",
+   "def": "A category under the MF Regulations 2026 that lets a mutual fund run investment strategies with more flexibility than ordinary schemes, for investors who meet the set thresholds.",
+   "see": [
+    "REG-MF"
+   ],
+   "aka": [
+    "SIF"
+   ]
+  },
+  {
+   "term": "MF Lite",
+   "full": "Mutual Fund Lite",
+   "def": "A lighter mutual fund route under Chapter X of the MF Regulations 2026 for passive schemes such as index funds and ETFs.",
+   "see": [
+    "REG-MF"
+   ],
+   "aka": [
+    "mutual fund lite"
+   ]
+  },
+  {
+   "term": "Alternative Investment Fund",
+   "full": "AIF",
+   "def": "A privately pooled fund registered with SEBI that invests for its investors. Category I and II funds are close ended; Category III may be open or close ended.",
+   "see": [
+    "REG-AIF",
+    "MC-AIF"
+   ],
+   "aka": [
+    "AIF",
+    "AIFs",
+    "category I",
+    "category II",
+    "category III"
+   ]
+  },
+  {
+   "term": "Accredited investor",
+   "full": "",
+   "def": "An investor whose income, net worth or securities market exposure meets the AIF Regulations' thresholds and who is accredited by an agency or, since October 2026, by a specified manager. Some minimum investment rules do not apply to them.",
+   "see": [
+    "REG-AIF"
+   ],
+   "aka": [
+    "accredited investors",
+    "accreditation"
+   ]
+  },
+  {
+   "term": "Private placement memorandum",
+   "full": "PPM",
+   "def": "The offer document of an AIF scheme. Compliance with its terms is audited every year.",
+   "see": [
+    "MC-AIF"
+   ],
+   "aka": [
+    "PPM",
+    "placement memorandum"
+   ]
+  },
+  {
+   "term": "Continuing interest",
+   "full": "",
+   "def": "The minimum stake an AIF's manager or sponsor must keep in the fund: the lower of 2.5% of corpus or Rs 5 crore (5% or Rs 10 crore for Category III).",
+   "see": [
+    "REG-AIF"
+   ],
+   "aka": [
+    "skin in the game",
+    "sponsor commitment"
+   ]
+  },
+  {
+   "term": "Stock broker",
+   "full": "",
+   "def": "A member of a recognised stock exchange registered with SEBI to trade for clients or on its own account.",
+   "see": [
+    "REG-SB",
+    "MC-SB"
+   ],
+   "aka": [
+    "broker",
+    "brokers",
+    "trading member"
+   ]
+  },
+  {
+   "term": "Clearing member",
+   "full": "",
+   "def": "A member of a clearing corporation that clears and settles trades for itself (self-clearing) or for other brokers.",
+   "see": [
+    "REG-SB"
+   ],
+   "aka": [
+    "clearing members",
+    "self-clearing member",
+    "professional clearing member"
+   ]
+  },
+  {
+   "term": "Qualified stock broker",
+   "full": "QSB",
+   "def": "A stock broker that SEBI designates because of its size, client base and market impact, with extra obligations on governance and systems.",
+   "see": [
+    "REG-SB"
+   ],
+   "aka": [
+    "QSB",
+    "qualified stock brokers"
+   ]
+  },
+  {
+   "term": "Running account settlement",
+   "full": "",
+   "def": "The periodic return to clients of the funds a stock broker holds for them, as the Stock Brokers Master Circular specifies.",
+   "see": [
+    "MC-SB"
+   ],
+   "aka": [
+    "running account"
+   ]
+  },
+  {
+   "term": "MITC",
+   "full": "Most Important Terms and Conditions",
+   "def": "The short statement of key terms a stock broker gives clients when opening an account.",
+   "see": [
+    "MC-SB"
+   ],
+   "aka": [
+    "most important terms"
+   ]
+  },
+  {
+   "term": "KRA",
+   "full": "KYC Registration Agency",
+   "def": "An agency that holds clients' KYC records so that one KYC works across securities market intermediaries.",
+   "see": [
+    "REG-KRA"
+   ],
+   "aka": [
+    "KYC registration agency",
+    "KYC"
+   ]
+  },
+  {
+   "term": "Fit and proper person",
+   "full": "",
+   "def": "The integrity, reputation and competence test that every SEBI intermediary and its key people must meet at all times.",
+   "see": [
+    "REG-INTERMED"
+   ],
+   "aka": [
+    "fit and proper"
+   ]
+  },
+  {
+   "term": "SCORES",
+   "full": "SEBI Complaints Redress System",
+   "def": "SEBI's online system for investor complaints against listed companies and intermediaries. Complaints must be resolved within 21 calendar days.",
+   "see": [
+    "MC-SCORES"
+   ],
+   "aka": [
+    "complaint",
+    "grievance",
+    "grievances"
+   ]
+  },
+  {
+   "term": "ODR",
+   "full": "Online dispute resolution",
+   "def": "The Smart ODR portal for disputes between investors and listed companies or intermediaries: online conciliation first, then online arbitration.",
+   "see": [
+    "MC-ODR"
+   ],
+   "aka": [
+    "smart ODR",
+    "online dispute resolution",
+    "arbitration",
+    "conciliation"
+   ]
+  },
+  {
+   "term": "CSCRF",
+   "full": "Cybersecurity and Cyber Resilience Framework",
+   "def": "SEBI's cyber security framework for regulated entities, graded by size. Cyber incidents must be reported within 6 hours.",
+   "see": [
+    "MC-CSCRF"
+   ],
+   "aka": [
+    "cyber security",
+    "cybersecurity",
+    "cyber"
+   ]
+  },
+  {
+   "term": "Settlement",
+   "full": "",
+   "def": "Closing SEBI enforcement proceedings by paying a settlement amount and meeting other terms, without admitting or denying the findings. Governed by the 2026 Settlement Regulations from 7 November 2026.",
+   "see": [
+    "REG-SETTLE"
+   ],
+   "aka": [
+    "consent order",
+    "settlement order",
+    "settlement proceedings"
+   ]
+  },
+  {
+   "term": "Adjudicating officer",
+   "full": "",
+   "def": "The SEBI officer who holds an inquiry and imposes penalties under the SEBI Act.",
+   "see": [
+    "ACT-SEBI",
+    "REG-PENALTY"
+   ],
+   "aka": [
+    "adjudication",
+    "AO"
+   ]
+  },
+  {
+   "term": "SAT",
+   "full": "Securities Appellate Tribunal",
+   "def": "The tribunal that hears appeals against SEBI orders. An appeal must be filed within 45 days.",
+   "see": [
+    "ACT-SEBI"
+   ],
+   "aka": [
+    "securities appellate tribunal",
+    "appeal"
+   ]
+  },
+  {
+   "term": "Disgorgement",
+   "full": "",
+   "def": "An order to give up profits made, or losses avoided, through a breach of securities law. SEBI can direct it under s. 11B of the SEBI Act.",
+   "see": [
+    "ACT-SEBI"
+   ],
+   "aka": []
+  }
+ ]
+}
