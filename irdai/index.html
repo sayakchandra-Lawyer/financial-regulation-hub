@@ -20,9 +20,9 @@
 .sc{padding:20px;display:flex;flex-direction:column;gap:10px;min-height:190px;border-top:3px solid var(--c);transition:transform .18s,box-shadow .18s;cursor:pointer}
 .sc:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 .sc h3{font-size:19px}.sc ul{padding-left:16px;margin:0}.sc li{font-size:13.5px;color:var(--ink-2);margin:3px 0}
-.sc .more{margin-top:auto;font-size:12.5px;color:var(--accent);font-weight:600}
+.sc .more{margin-top:auto;font-size:12.5px;color:var(--accent-text);font-weight:600}
 .layer{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:10px;margin:0 auto 6px;font-size:13.5px;cursor:pointer;border:2px solid transparent;background:color-mix(in srgb,var(--c) 15%,transparent);width:100%;text-align:left;transition:transform .15s}
-.layer:hover{transform:scale(1.02)}.layer.on{border-color:var(--c)}.layer b{color:var(--c);white-space:nowrap}.layer span{margin-left:auto;color:var(--ink-2);font-size:12.5px;text-align:right}
+.layer:hover{transform:scale(1.02)}.layer.on{border-color:var(--c)}.layer b{color:color-mix(in srgb,var(--c) 62%,var(--ink));white-space:nowrap}.layer span{margin-left:auto;color:var(--ink-2);font-size:12.5px;text-align:right}
 .panel{padding:20px}
 .row{display:flex;gap:14px;align-items:flex-start;padding:14px 4px;border-top:1px solid var(--line);cursor:pointer}
 .row:hover{background:var(--surface-2)}.row .t{font-weight:600}.row .m{font-size:12.5px;color:var(--muted)}
@@ -47,8 +47,8 @@
 @media (max-width:600px){.glance{grid-template-columns:repeat(2,1fr)}}
 .glance div{padding:14px;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
 .glance b{display:block;font:500 28px var(--f-d);color:var(--accent)}
-.callout{border-left:3px solid var(--accent);background:var(--accent-soft);padding:14px 16px;border-radius:0 12px 12px 0;margin-top:18px;font-size:14px}
-details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:13.5px;margin-top:10px}
+.callout{border:1px solid color-mix(in srgb,var(--accent) 35%,var(--line));background:var(--accent-soft);padding:14px 16px;border-radius:12px;margin-top:18px;font-size:14px}
+details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-size:13.5px;margin-top:10px}
 .imp{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:10px}@media (max-width:700px){.imp{grid-template-columns:1fr}}
 .empty{color:var(--muted);font-size:14px;padding:10px 0}
 </style>
@@ -73,7 +73,7 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
   const live = () => M.items.filter(it => appliesAt(M, it, L));
   const nReg = M.items.filter(x => /^Regulation/.test(x.type) && x.sc !== "old").length, nMC = M.items.filter(x => x.type === "Master Circular" && x.sc !== "old").length, nAct = M.items.filter(x => /^(Act|Rules)$/.test(x.type) && x.sc !== "old").length;
   const TABS = [["", "Overview"], ["subjects", "Subjects"], ["az", "All instruments A–Z"], ["calendar", "Compliance calendar"], ["changes", "What changed"], ["definitions", "Definitions"], ["penalties", "Penalties"], ["who", "Does it apply to me?"]];
-  $("#head").innerHTML = `<div class="shead"><div style="flex:1;min-width:280px"><div class="eyebrow" style="color:var(--irdai)">Insurance Regulatory and Development Authority of India</div><h1>Insurance rules for insurers and distributors</h1>
+  $("#head").innerHTML = `<div class="shead"><div style="flex:1;min-width:280px"><div class="eyebrow">Insurance Regulatory and Development Authority of India</div><h1>Insurance rules for insurers and distributors</h1>
     <p style="color:var(--ink-2);margin:10px 0 0;max-width:720px">${nAct} Acts and Rules, ${nReg} IRDAI Regulations and ${nMC} Master Circulars, grouped by subject. Pick a subject, a deadline or a term, or say who you are to see only what binds you.</p></div>
     <a class="btn g" href="map/">${I.map} Open the mind map ${I.ext}</a></div>
     <form class="search" id="qform" role="search" style="margin-top:22px">${I.search}<label class="sr" for="q">Search insurance rules</label><input id="q" type="search" autocomplete="off" placeholder="Search insurance rules, e.g. “free look”, “cashless claim”, “corporate agent tie-up”"><span class="kbd">/</span></form>
@@ -84,13 +84,13 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
 
   const V = $("#view");
   const pillFor = it => it.sc === "old" ? '<span class="pill p-old">Superseded</span>' : /amend/i.test(it.status) ? '<span class="pill p-live">In force · amended</span>' : '<span class="pill p-live">In force</span>';
-  const instRow = (it, extra = "") => `<a class="row" href="#d/${it.id}"><div style="flex:1;min-width:0"><div class="t">${esc(it.label)}</div><div class="m">${esc(it.type)} · ${esc(layerNote(M, it))}${it.updated ? ` · updated ${fmtDate(it.updated)}` : ""}</div>${extra}</div>${pillFor(it)}</a>`;
+  const instRow = (it, extra = "") => `<a class="row" href="#d/${it.id}"><div style="flex:1;min-width:0"><div class="t">${esc(it.label)}</div><div class="m">${esc(it.type)}<span class="sep"></span>${esc(layerNote(M, it))}${it.updated ? ` · updated ${fmtDate(it.updated)}` : ""}</div>${extra}</div>${pillFor(it)}</a>`;
   const layerName = () => L < 0 ? "anyone" : LAYERS[L][1].toLowerCase();
   const lensBar = () => `<div class="filter"><span class="tag" style="align-self:center">Showing rules for:</span>${[[-1, "Everyone"], ...LAYERS.map((l, i) => [i, l[1]])].map(([v, t]) => `<button class="chip ${v === L ? "on" : ""}" data-layer="${v}" type="button">${t}</button>`).join("")}</div>`;
 
   function layerCard(){
     const counts = LAYERS.map((l, i) => M.items.filter(it => appliesAt(M, it, i)).length);
-    return `<div class="card panel"><div class="eyebrow">I am a…</div><h3 style="font-size:19px;margin:6px 0 14px">Who are you?</h3>
+    return `<div class="card panel"><h2 style="font-size:19px;margin:0 0 4px">Who are you?</h2><p class="tag" style="margin:0 0 14px">Pick your role</p>
       ${LAYERS.map((l, i) => `<button type="button" class="layer ${L===i?"on":""}" data-layer="${i}" style="--c:var(--t${i+1})"><b>${esc(l[1])}</b><span>${esc(l[3])}</span></button>`).join("")}
       <p class="tag" style="margin:10px 0 0">${L < 0 ? "Pick one to filter every list on this page. Rules for insurers in general also bind life and health insurers; agents and corporate agents also see the insurer rules that govern how they sell." : `Selected: <b style="color:var(--ink)">${esc(LAYERS[L][1])}</b>. ${counts[L]} instruments apply. <button class="lnk" data-layer="-1" type="button">Clear</button> · <a class="lnk" href="#who">See the list</a>`}</p></div>`;
   }
@@ -104,7 +104,7 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
       <div class="tag" style="margin-top:6px">${esc(u.ref || "")}${u.url ? ` · <a class="lnk" href="${esc(u.url)}" target="_blank" rel="noopener">Official text ${I.ext}</a>` : ""}${it ? ` · <a class="lnk" href="#d/${it.id}">${esc(it.label)}</a>` : ""}</div>
       ${u.applies ? `<p style="font-size:14px;color:var(--ink-2)"><b style="color:var(--ink)">Who it covers.</b> ${esc(u.applies)}</p>` : ""}
       ${(u.changes||[]).length ? `<h3 style="font-size:17px;margin-top:14px">What changed</h3><ul style="padding-left:18px;font-size:14px">${u.changes.map(c => `<li style="margin:6px 0">${esc(c)}</li>`).join("")}</ul>` : ""}
-      ${u.impact ? `<h3 style="font-size:17px;margin-top:14px">Impact</h3><div class="imp">${Object.entries(u.impact).map(([k, v]) => `<div style="padding:12px;border:1px solid var(--line);border-radius:12px"><div style="font-weight:600">${esc((ents.find(e => e.key === k) || {}).name || k)}</div><div class="tag" style="color:var(--accent);font-weight:600">${esc(v.level || "")}</div><p style="font-size:13.5px;margin:6px 0 0;color:var(--ink-2)">${esc(v.text || "")}</p></div>`).join("")}</div>` : ""}
+      ${u.impact ? `<h3 style="font-size:17px;margin-top:14px">Impact</h3><div class="imp">${Object.entries(u.impact).map(([k, v]) => `<div style="padding:12px;border:1px solid var(--line);border-radius:12px"><div style="font-weight:600">${esc((ents.find(e => e.key === k) || {}).name || k)}</div><div class="tag" style="color:var(--accent-text);font-weight:600">${esc(v.level || "")}</div><p style="font-size:13.5px;margin:6px 0 0;color:var(--ink-2)">${esc(v.text || "")}</p></div>`).join("")}</div>` : ""}
       ${(u.actions||[]).length ? `<h3 style="font-size:17px;margin-top:14px">What to do</h3><ol style="padding-left:20px;font-size:14px">${u.actions.map(a => `<li style="margin:5px 0">${esc(a)}</li>`).join("")}</ol>` : ""}</article>`;
   }
 
@@ -114,10 +114,10 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
     return `<div class="cols"><div><div style="display:flex;align-items:baseline;gap:12px;margin-bottom:14px;flex-wrap:wrap"><h2 style="font-size:24px">Browse by subject</h2><span class="tag">${th.length} subjects${L>=0?` · showing what applies to the ${layerName()}`:""}</span></div>
       <div class="grid g3">${th.map((t, i) => { const its = t.items.filter(it => appliesAt(M, it, L)); return `<a class="card sc rise" style="--c:var(--t${t.idx});animation-delay:${.03*i}s" href="#subjects/${t.slug}">
         <div style="display:flex;align-items:baseline;gap:8px"><h3>${esc(t.nice)}</h3><span class="tag" style="margin-left:auto">${its.length}</span></div>
-        <ul>${its.slice(0, 3).map(x => `<li>${esc(trunc(x.label, 70))}</li>`).join("")}</ul>${its.length > 3 ? `<span class="more">+ ${its.length - 3} more →</span>` : its.length ? "" : `<span class="tag">Nothing specific to this role</span>`}</a>`; }).join("")}</div>
+        <ul>${its.slice(0, 3).map(x => `<li>${esc(trunc(x.label, 70))}</li>`).join("")}</ul>${its.length > 3 ? `<span class="more">+ ${its.length - 3} more</span>` : its.length ? "" : `<span class="tag">Nothing specific to this role</span>`}</a>`; }).join("")}</div>
       ${M.themes.some(t => t.history) ? `<p class="tag" style="margin-top:14px">Looking for an older circular? <a class="lnk" href="#subjects/history">See superseded instruments</a> and what replaced them.</p>` : ""}</div>
       <aside style="display:flex;flex-direction:column;gap:18px">${layerCard()}
-        <div class="card panel"><div style="display:flex;align-items:baseline"><h3 style="font-size:19px">What changed this week</h3><a class="lnk tag" style="margin-left:auto" href="#changes">All →</a></div>${M.updates.slice(0, 4).map(u => updCard(u, false)).join("") || '<p class="empty">Nothing new this week.</p>'}</div>
+        <div class="card panel"><div style="display:flex;align-items:baseline"><h2 style="font-size:19px">What changed this week</h2><a class="lnk tag" style="margin-left:auto" href="#changes">See all</a></div>${M.updates.slice(0, 4).map(u => updCard(u, false)).join("") || '<p class="empty">Nothing new this week.</p>'}</div>
         <div class="card panel"><h3 style="font-size:19px">Prefer the big picture?</h3><p class="tag" style="margin:6px 0 12px">The mind map shows how every Act, Regulation and Master Circular connects.</p><a class="btn g" href="map/">${I.map} Open the mind map ${I.ext}</a></div>
       </aside></div>`;
   }
@@ -201,12 +201,12 @@ details.cg summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:
     <div class="dpage"><nav class="toc" aria-label="On this page"><div class="eyebrow" style="margin-bottom:10px">On this page</div>${sections.map(([a, n]) => `<a href="#d/${id}/${a}" data-sec="${a}">${n}</a>`).join("")}</nav>
     <article class="dossier"><div style="display:flex;gap:8px;flex-wrap:wrap">${pillFor(it)}${upds[0] ? `<span class="pill p-new">${esc(upds[0].kind)} ${fmtDate(upds[0].date)}${upds[0].effective ? ` · effective ${fmtDate(upds[0].effective)}` : ""}</span>` : ""}<span class="pill p-grey">${esc(it.type)}</span></div>
       <h1 style="font-size:clamp(28px,3.6vw,36px);margin:12px 0 6px">${esc(it.label)}</h1>${it.title !== it.label ? `<div style="color:var(--ink-2)">${esc(it.title)}</div>` : ""}
-      <div class="tag" style="margin-top:8px">${[it.ref, it.issue && `Issued ${fmtDate(it.issue)}`, it.updated && `Updated as on ${fmtDate(it.updated)}`].filter(Boolean).map(esc).join(" · ")}</div>
+      <div class="tag" style="margin-top:8px">${[it.ref, it.issue && `Issued ${fmtDate(it.issue)}`, it.updated && `Updated as on ${fmtDate(it.updated)}`].filter(Boolean).map(esc).join('<span class="sep"></span>')}</div>
       ${supBy.length ? `<div class="callout">This instrument has been replaced. See ${supBy.map(x => `<a class="lnk" href="#d/${x.id}">${esc(x.label)}</a>`).join(", ")}.</div>` : ""}
       <h2 id="s-glance">At a glance</h2>
       <div class="glance"><div><b>${it.obl.length}</b>key obligations</div><div><b>${it.time.length}</b>deadlines and cycles</div><div><b>${defs.length}</b>defined terms</div><div><b>${links.length}</b>linked rules</div></div>
       ${it.concepts.length ? `<div class="filter" style="margin-top:16px">${it.concepts.map(c => `<a class="chip" href="#search/${encodeURIComponent(c.replace(/\s*\(.*\)$/, ""))}">${esc(c)}</a>`).join("")}</div>` : ""}
-      ${upds.length ? `<div class="callout"><b>Recent change:</b> ${esc(upds[0].title)}. <a class="lnk" href="#changes/${encodeURIComponent(upds[0].id)}">What it means →</a></div>` : ""}
+      ${upds.length ? `<div class="callout"><b>Recent change:</b> ${esc(upds[0].title)}. <a class="lnk" href="#changes/${encodeURIComponent(upds[0].id)}">What it means</a></div>` : ""}
       <h2 id="s-who">Who it applies to</h2>
       <dl class="kv"><dt>Applies to</dt><dd>${esc(it.applies.join("; ") || "Not stated")}</dd>${it.excluded.length ? `<dt>Does not apply to</dt><dd>${esc(it.excluded.join("; "))}</dd>` : ""}<dt>Who</dt><dd>${esc(layerNote(M, it))}${M.applyBasis.get(id) ? ` <span class="tag">(${esc(M.applyBasis.get(id))})</span>` : ""}</dd>${it.powers.length ? `<dt>Issued under</dt><dd>${esc(it.powers.join("; "))}</dd>` : ""}</dl>
       <h2 id="s-obligations">Key obligations</h2>${lines(it.obl, "No obligations summarised for this instrument.")}

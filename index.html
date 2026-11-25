@@ -21,7 +21,7 @@
 .rhead b{color:var(--ink)}
 .meaning{padding:14px 16px;border-bottom:1px solid var(--line);font-size:14px}
 .sec-h{display:flex;align-items:baseline;gap:12px;margin:48px 0 16px}.sec-h h2{font-size:26px}
-.upd{padding:18px;display:block;transition:transform .18s,box-shadow .18s}.upd:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.upd{padding:18px;display:block;transition:border-color .18s}.upd:hover{border-color:color-mix(in srgb,var(--accent) 55%,var(--line))}.upd:active{background:var(--surface-2)}
 .upd .m{display:flex;gap:8px;align-items:center;font-size:12.5px;color:var(--muted)}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--c);display:inline-block;flex:none}
 .stat{font:500 26px var(--f-d)}
@@ -31,7 +31,6 @@
 <header id="top"></header>
 <main>
   <section class="hero"><div class="in">
-    <div class="eyebrow rise">Financial Regulatory information for Finance Professionals</div>
     <h1 class="rise" style="animation-delay:.05s">What do you need to know today?</h1>
     <p class="lede rise" style="animation-delay:.1s">Plain-language summaries of the rules that bind NBFCs, HFCs, insurers and insurance distributors: obligations, deadlines and consequences of breach, each linked to the official text.</p>
     <form class="search rise" style="animation-delay:.15s" id="qform" role="search">
@@ -42,8 +41,8 @@
     <div class="lens rise" style="animation-delay:.2s">
       <label for="layer">I am a:</label>
       <select class="chip" id="layer" aria-label="Who you are">
-        <optgroup label="RBI"><option value="-1">NBFC · any layer</option><option value="0">NBFC · Base Layer</option><option value="1">NBFC · Middle Layer</option><option value="2">NBFC · Upper Layer</option><option value="3">NBFC · Top Layer</option></optgroup>
-        <optgroup label="Insurance"><option value="i-1">Insurer or distributor · any</option><option value="i0">Life insurer</option><option value="i1">Health insurer</option><option value="i2">Corporate agent</option><option value="i3">Individual agent</option></optgroup>
+        <optgroup label="RBI"><option value="-1">NBFC, any layer</option><option value="0">NBFC in the Base Layer</option><option value="1">NBFC in the Middle Layer</option><option value="2">NBFC in the Upper Layer</option><option value="3">NBFC in the Top Layer</option></optgroup>
+        <optgroup label="Insurance"><option value="i-1">Insurer or distributor, any role</option><option value="i0">Life insurer</option><option value="i1">Health insurer</option><option value="i2">Corporate agent</option><option value="i3">Individual agent</option></optgroup>
       </select>
       <span class="tag" id="lensnote"></span>
     </div>
@@ -57,7 +56,7 @@
     <div class="sec-h"><h2>Browse by regulator</h2></div>
     <div class="grid g5" id="regs"></div>
 
-    <div class="sec-h"><h2 id="updh">What changed this week</h2><span class="tag" id="updwin"></span><a class="tag lnk" id="updall" style="margin-left:auto" href="rbi/#changes">See all →</a></div>
+    <div class="sec-h"><h2 id="updh">What changed this week</h2><span class="tag" id="updwin"></span><a class="tag lnk" id="updall" style="margin-left:auto" href="rbi/#changes">See all changes</a></div>
     <div class="grid g3" id="upds"></div>
 
   </div>
@@ -137,7 +136,7 @@
       return `<a class="card upd rise" style="--c:var(--${k});animation-delay:${.05*i}s" href="${h}#changes/${encodeURIComponent(u.id)}">
         <div class="m"><span class="dot"></span><b style="color:var(--ink-2)">${NAME[k]}</b><span style="white-space:nowrap">· ${esc(trunc(u.kind, 28))}</span><span style="margin-left:auto;white-space:nowrap">${fmtDate(u.date,false)}</span></div>
         <div style="font-weight:600;margin:10px 0 6px;line-height:1.4">${esc(trunc(u.title, 120))}</div>
-        <div class="tag">${u.effective ? `Effective ${fmtDate(u.effective)}` : ""}${u.effective && it ? " · " : ""}${it ? esc(it.label) : ""}</div></a>`;
+        <div class="tag">${u.effective ? `Effective ${fmtDate(u.effective)}` : ""}${u.effective && it ? '<span class="sep"></span>' : ""}${it ? esc(it.label) : ""}</div></a>`;
     }).join("");
   }
 
