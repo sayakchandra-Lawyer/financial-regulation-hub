@@ -25,6 +25,15 @@
 .upd .m{display:flex;gap:8px;align-items:center;font-size:12.5px;color:var(--muted)}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--c);display:inline-block;flex:none}
 .stat{font:500 26px var(--f-d)}
+.ctx{display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:10px;font-size:13.5px;color:var(--ink-2)}
+.ctx b{color:var(--ink);font-weight:600}
+.sugg{padding:14px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;text-align:left}.sugg .tag{width:100%;margin-bottom:2px}
+.rgrp{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:28px}
+.rgrp h3{font-size:19px;display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;margin:0 0 12px}.rgrp h3 .tag{font-family:var(--f-b);font-size:13px;font-weight:400}
+.rgrp h3 a{margin-left:auto;font-family:var(--f-b);font-size:13px}
+.ulist{display:grid;gap:12px}
+.utags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.utags .pill{font-weight:500}
+.hid{font-size:13px;color:var(--ink-2);margin-top:8px}
 </style>
 </head>
 <body>
@@ -44,8 +53,8 @@
         <optgroup label="RBI"><option value="-1">NBFC, any layer</option><option value="0">NBFC in the Base Layer</option><option value="1">NBFC in the Middle Layer</option><option value="2">NBFC in the Upper Layer</option><option value="3">NBFC in the Top Layer</option></optgroup>
         <optgroup label="Insurance"><option value="i-1">Insurer or distributor, any role</option><option value="i0">Life insurer</option><option value="i1">Health insurer</option><option value="i2">Corporate agent</option><option value="i3">Individual agent</option></optgroup>
       </select>
-      <span class="tag" id="lensnote"></span>
     </div>
+    <div class="ctx" id="ctx" aria-live="polite"></div>
     <div class="results" id="results" hidden></div>
   </div></section>
 
@@ -56,8 +65,8 @@
     <div class="sec-h"><h2>Browse by regulator</h2></div>
     <div class="grid g5" id="regs"></div>
 
-    <div class="sec-h"><h2 id="updh">What changed this week</h2><span class="tag" id="updwin"></span><a class="tag lnk" id="updall" style="margin-left:auto" href="rbi/#changes">See all changes</a></div>
-    <div class="grid g3" id="upds"></div>
+    <div class="sec-h"><h2 id="updh">What changed this week</h2></div>
+    <div class="rgrp" id="upds"></div>
 
   </div>
 </main>
@@ -79,9 +88,11 @@
   const M = () => MS[K()];
   const unit = () => K() === "irdai" ? "role" : "layer";
   function lensNote(){
-    const m = M(); if (!m) return;
-    const n = m.items.filter(it => appliesAt(m, it, L())).length;
-    $("#lensnote").textContent = L() < 0 ? "" : `${n} ${NAME[K()]} instruments apply to you`;
+    const m = M(), c = $("#ctx"); if (!m) return;
+    if (L() < 0) { c.innerHTML = `<span>Pick who you are to narrow the task counts, search and weekly changes.</span>`; return; }
+    const n = m.items.filter(it => appliesAt(m, it, L())).length, who = lay.options[lay.selectedIndex].text;
+    c.innerHTML = `<span>Showing: <b>${esc(who)}</b></span><span class="sep"></span><span>${n} ${NAME[K()]} instruments apply</span><span class="sep"></span><button class="lnk" type="button" id="lreset">Reset</button><span style="width:100%;font-size:13px;color:var(--muted)">Tasks, search and weekly changes follow this choice. A guide, not an applicability opinion.</span>`;
+    $("#lreset").addEventListener("click", () => { lay.value = K() === "irdai" ? "i-1" : "-1"; lay.dispatchEvent(new Event("change")); });
   }
   function judge(){
     if (!hub.ai_endpoint || !M()) return;
@@ -124,20 +135,42 @@
       ${href?`<span class="ar">${I.arrow}</span>`:""}</a>`).join("");
   }
 
-  /* updates: follow the lens (RBI weekly, IRDAI recent) */
-  function renderUpdates(){
-    const m = M(), k = K(), h = secs[k].href;
-    $("#updh").textContent = k === "irdai" ? "What changed recently in insurance" : "What changed this week";
-    $("#updall").setAttribute("href", `${h}#changes`); $("#updwin").textContent = "";
-    if (!m || !m.updates.length) { $("#upds").innerHTML = `<p class="tag">No new items recorded this week.</p>`; return; }
-    const w = m.updMeta; if (w.window_from && k === "rbi") $("#updwin").textContent = `${fmtDate(w.window_from,false)} – ${fmtDate(w.window_to)}`;
-    $("#upds").innerHTML = m.updates.slice(0, 3).map((u, i) => {
+  /* updates: one group per live regulator; the regulator your choice points to is filtered by it */
+  function updTags(m, k, u){
+    const it = m.byId.get(u.instrument), t = [];
+    if (u.effective) t.push(`<span class="pill p-grey">Effective ${fmtDate(u.effective, false)}</span>`);
+    if (k === "irdai" && u.impact) Object.keys(u.impact).forEach(key => { const l = m.lenses.find(x => x[2] === key); if (l) t.push(`<span class="pill p-grey">${esc(l[1])}</span>`); });
+    else if (it) t.push(`<span class="pill p-grey">${esc(layerNote(m, it))}</span>`);
+    else t.push(`<span class="pill p-grey">${/draft/i.test(u.kind) ? "Proposal, not in force" : /enforce|penalt/i.test(u.kind) ? "Rule unchanged" : "No rule change"}</span>`);
+    return t.join("");
+  }
+  function updFits(m, k, u){
+    if (K() !== k || L() < 0) return true;
+    if (k === "irdai" && u.impact) { const key = m.lenses[L()][2]; return key in u.impact; }
+    const it = m.byId.get(u.instrument); return !it || appliesAt(m, it, L());
+  }
+  function updGroup(k){
+    const m = MS[k], h = secs[k].href; if (!m) return "";
+    const w = m.updMeta || {}, wkFrom = (MS.rbi && MS.rbi.updMeta.window_from) || "";
+    const all = [...m.updates].sort((x, y) => String(y.date).localeCompare(String(x.date)));
+    const week = all.filter(u => !wkFrom || u.date >= wkFrom), pool = week.length ? week : all;
+    const fits = pool.filter(u => updFits(m, k, u)), hidden = pool.length - fits.length;
+    const sub = week.length ? (k === "rbi" && w.window_from ? `${fmtDate(w.window_from,false)} – ${fmtDate(w.window_to,false)}` : "this week") : "Nothing new this week. Latest items:";
+    const cards = fits.slice(0, 3).map(u => {
       const it = m.byId.get(u.instrument);
-      return `<a class="card upd rise" style="--c:var(--${k});animation-delay:${.05*i}s" href="${h}#changes/${encodeURIComponent(u.id)}">
-        <div class="m"><span class="dot"></span><b style="color:var(--ink-2)">${NAME[k]}</b><span style="white-space:nowrap">· ${esc(trunc(u.kind, 28))}</span><span style="margin-left:auto;white-space:nowrap">${fmtDate(u.date,false)}</span></div>
-        <div style="font-weight:600;margin:10px 0 6px;line-height:1.4">${esc(trunc(u.title, 120))}</div>
-        <div class="tag">${u.effective ? `Effective ${fmtDate(u.effective)}` : ""}${u.effective && it ? '<span class="sep"></span>' : ""}${it ? esc(it.label) : ""}</div></a>`;
+      return `<a class="card upd" style="--c:var(--${k})" href="${h}#changes/${encodeURIComponent(u.id)}">
+        <div class="m"><span class="dot"></span><span style="white-space:nowrap">${esc(trunc(u.kind, 60))}</span><span style="margin-left:auto;white-space:nowrap">${fmtDate(u.date, !week.length)}</span></div>
+        <div style="font-weight:600;margin:10px 0 4px;line-height:1.4">${esc(trunc(u.title, 120))}</div>
+        ${it ? `<div class="tag">${esc(it.label)}</div>` : ""}<div class="utags">${updTags(m, k, u)}</div></a>`;
     }).join("");
+    return `<section><h3>${NAME[k]} <span class="tag">${esc(sub)}</span><a class="lnk" href="${h}#changes">See all ${NAME[k]} changes</a></h3>
+      <div class="ulist">${cards || `<p class="tag">Nothing here for your ${unit()}.</p>`}</div>
+      ${hidden ? `<p class="hid">${hidden} more not shown for your ${unit()}. <button class="lnk" type="button" data-reset="${k}">Show everything</button></p>` : ""}</section>`;
+  }
+  function renderUpdates(){
+    const order = K() === "irdai" ? ["irdai", "rbi"] : ["rbi", "irdai"];
+    $("#upds").innerHTML = order.map(updGroup).join("") || `<p class="tag">No new items recorded this week.</p>`;
+    $$("[data-reset]").forEach(b => b.addEventListener("click", () => { lay.value = b.dataset.reset === "irdai" ? "i-1" : "-1"; lay.dispatchEvent(new Event("change")); }));
   }
 
   /* regulator cards */
@@ -168,16 +201,41 @@
     s += defs.map(x => `<a class="res" href="${h}#d/${x.d.id}/definitions"><div class="t">“${esc(x.d.term)}” <span class="pill p-grey" style="margin-left:6px">Definition</span></div><div class="m">${esc(x.it?x.it.label:x.d.id)} · ${esc(x.d.para)}</div><div class="s">${hl(trunc(x.d.def, 220), P)}</div></a>`).join("");
     return s;
   }
+  const COMMON = {
+    rbi: ["co-lending", "penal charges", "KYC periodic updation", "securitisation", "fair practices code", "gold loan"],
+    irdai: ["free look period", "cashless claim", "corporate agent", "commission", "grievance", "functional ID"]
+  };
+  function suggest(){
+    const box = $("#results"), k = K();
+    box.innerHTML = `<div class="sugg"><span class="tag">Common searches for ${NAME[k]}</span>${COMMON[k].map(t => `<button type="button" class="chip" data-q="${esc(t)}">${esc(t)}</button>`).join("")}</div>`;
+    box.hidden = false;
+    $$("#results [data-q]").forEach(b => b.addEventListener("mousedown", e => { e.preventDefault(); $("#q").value = b.dataset.q; runSearch(); }));
+  }
+  function updMatches(raw){
+    const ts = tok(raw).filter(t => !STOP.has(t)); if (!ts.length) return "";
+    const hits = [];
+    ["rbi", "irdai"].forEach(k => (MS[k] ? MS[k].updates : []).forEach(u => {
+      const hay = [u.title, u.kind, ...(u.changes || [])].join(" ").toLowerCase();
+      if (ts.every(t => hay.includes(t))) hits.push([k, u]);
+    }));
+    if (!hits.length) return "";
+    return `<div class="rhead"><b>Recent changes</b><span>${hits.length} matching</span></div>` + hits.slice(0, 3).map(([k, u]) =>
+      `<a class="res" href="${secs[k].href}#changes/${encodeURIComponent(u.id)}"><div class="t">${esc(trunc(u.title, 110))}</div><div class="m">${NAME[k]}<span class="sep"></span>${esc(u.kind)}<span class="sep"></span>${fmtDate(u.date,false)}</div></a>`).join("");
+  }
   function runSearch(){
     const raw = $("#q").value.trim(), box = $("#results");
+    if (!raw && document.activeElement === $("#q") && M()) { suggest(); return; }
     if (raw.length < 2 || !M()) { box.hidden = true; return; }
     const order = K() === "irdai" ? ["irdai", "rbi"] : ["rbi", "irdai"];
-    let h = order.map(k => block(k, raw)).join("");
+    let h = order.map(k => block(k, raw)).join("") + updMatches(raw);
     h += `<div class="rhead" style="justify-content:space-between"><span>SEBI and court rulings become searchable as each section goes live.</span>${hub.ai_endpoint?`<button class="lnk" type="button" id="askai">Ask Not So Intelligent AI →</button>`:""}</div>`;
     box.innerHTML = h; box.hidden = false;
     const a = $("#askai"); if (a) a.addEventListener("click", () => openJudge(raw));
   }
   $("#q").addEventListener("input", () => { clearTimeout(tmr); tmr = setTimeout(runSearch, 160); });
+  $("#q").addEventListener("focus", () => { if (!$("#q").value.trim()) suggest(); });
+  $("#q").addEventListener("blur", () => setTimeout(() => { if (!$("#q").value.trim()) $("#results").hidden = true; }, 150));
+  $("#q").addEventListener("keydown", e => { if (e.key === "Escape") { $("#q").value = ""; $("#results").hidden = true; $("#q").blur(); } });
   $("#qform").addEventListener("submit", e => { e.preventDefault(); const raw = $("#q").value.trim(); if (raw) location.href = `${secs[K()].href}#search/` + encodeURIComponent(raw); });
 
   renderTasks(); renderUpdates(); renderRegs(); lensNote(); judge();
