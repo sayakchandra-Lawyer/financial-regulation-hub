@@ -1,0 +1,409 @@
+{
+ "meta": {
+  "as_of": "2026-11-25",
+  "note": "Plain-language explanations for readers who are new to the terms. They are summaries, not the legal definitions: the instrument named under 'See' governs."
+ },
+ "terms": [
+  {
+   "term": "IRDAI",
+   "full": "Insurance Regulatory and Development Authority of India",
+   "def": "The regulator for insurers and insurance intermediaries, set up under the IRDA Act, 1999. It registers insurers and distributors, makes regulations and can penalise breaches.",
+   "see": [
+    "ACT-IRDA",
+    "ACT-INS"
+   ],
+   "aka": [
+    "insurance regulatory and development authority",
+    "authority"
+   ]
+  },
+  {
+   "term": "Corporate agent",
+   "full": "",
+   "def": "A company, bank, NBFC or other body registered with IRDAI to sell and service insurance for its tie-up insurers. It may tie up with up to nine life, nine general and nine health insurers.",
+   "see": [
+    "REG-CA",
+    "REG-INTERMED-AMD2026"
+   ],
+   "aka": [
+    "corporate agents",
+    "corporate agency"
+   ]
+  },
+  {
+   "term": "Insurance agent",
+   "full": "Individual agent",
+   "def": "A person appointed by an insurer to sell its policies for commission. An agent may work for at most one life, one general and one health insurer, plus one of each other specified class.",
+   "see": [
+    "REG-AGENT",
+    "ACT-INS"
+   ],
+   "aka": [
+    "individual agent",
+    "agent",
+    "agents",
+    "composite agent"
+   ]
+  },
+  {
+   "term": "Specified Person",
+   "full": "",
+   "def": "An employee of a corporate agent who has passed the IRDAI exam and training and is allowed to sell insurance on its behalf. Each policy is tagged to the Specified Person who sold it.",
+   "see": [
+    "REG-CA"
+   ],
+   "aka": [
+    "specified persons",
+    "SP"
+   ]
+  },
+  {
+   "term": "Principal Officer",
+   "full": "",
+   "def": "The officer of a corporate agent who is responsible for its insurance distribution and its compliance with IRDAI rules.",
+   "see": [
+    "REG-CA"
+   ],
+   "aka": [
+    "PO"
+   ]
+  },
+  {
+   "term": "Functional ID",
+   "full": "",
+   "def": "A unique identity number shown on the proposal, policy and certificate of insurance so the customer can see who sold the policy. Required for corporate agent sales from 1 January 2027.",
+   "see": [
+    "REG-INTERMED-AMD2026"
+   ],
+   "aka": [
+    "functional identity"
+   ]
+  },
+  {
+   "term": "Annual fee",
+   "full": "",
+   "def": "Since the 2025 amendment to the Insurance Act, an intermediary's registration no longer lapses after three years. It stays in force as long as the annual fee is paid on time.",
+   "see": [
+    "REG-INTERMED-AMD2026",
+    "ACT-SBSR"
+   ],
+   "aka": [
+    "annual fees"
+   ]
+  },
+  {
+   "term": "Open architecture",
+   "full": "",
+   "def": "The model that lets a corporate agent sell products of several insurers instead of one. The agent needs a Board policy on how it picks and offers insurers' products.",
+   "see": [
+    "REG-CA"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Free look period",
+   "full": "",
+   "def": "The time after receiving a policy during which the buyer can return it for any reason and get the premium back, less small deductions. It is 30 days for life policies and for new individual health policies of a year or more.",
+   "see": [
+    "REG-PPHI",
+    "MC-PPHI"
+   ],
+   "aka": [
+    "free-look",
+    "free look",
+    "cooling off"
+   ]
+  },
+  {
+   "term": "Grace period",
+   "full": "",
+   "def": "The days allowed after the premium due date during which the policy stays in force: 15 days for monthly premiums and 30 days otherwise.",
+   "see": [
+    "MC-LIFE",
+    "REG-PROD"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Cashless claim",
+   "full": "",
+   "def": "A health claim in which the insurer or TPA pays the network hospital directly. Pre-authorisation is due within one hour and the final discharge authorisation within three hours.",
+   "see": [
+    "MC-PPHI"
+   ],
+   "aka": [
+    "cashless",
+    "pre-authorisation",
+    "pre-authorization"
+   ]
+  },
+  {
+   "term": "Pre-existing disease",
+   "full": "PED",
+   "def": "An illness or condition diagnosed or treated within 36 months before the policy started. Its waiting period can be at most 36 months.",
+   "see": [
+    "REG-PROD"
+   ],
+   "aka": [
+    "PED",
+    "pre-existing",
+    "pre existing disease"
+   ]
+  },
+  {
+   "term": "Moratorium period",
+   "full": "",
+   "def": "After 60 continuous months of health cover, the insurer cannot contest a claim on grounds of non-disclosure or misrepresentation, except fraud.",
+   "see": [
+    "REG-PROD"
+   ],
+   "aka": [
+    "moratorium"
+   ]
+  },
+  {
+   "term": "Portability",
+   "full": "",
+   "def": "A policyholder's right to move an existing health policy to another insurer and keep credit for waiting periods already served.",
+   "see": [
+    "REG-PROD",
+    "MC-PPHI"
+   ],
+   "aka": [
+    "port",
+    "porting"
+   ]
+  },
+  {
+   "term": "CIS",
+   "full": "Customer Information Sheet",
+   "def": "A short sheet issued with each policy that sets out the cover, exclusions, waiting periods and claim process in plain words.",
+   "see": [
+    "REG-PPHI"
+   ],
+   "aka": [
+    "customer information sheet"
+   ]
+  },
+  {
+   "term": "Bima-ASBA",
+   "full": "Bima Applications Supported by Blocked Amount",
+   "def": "A UPI mandate that blocks the premium in the buyer's bank account and debits it only if the insurer accepts the proposal.",
+   "see": [
+    "CIR-20250218-30"
+   ],
+   "aka": [
+    "ASBA",
+    "UPI mandate"
+   ]
+  },
+  {
+   "term": "Bima Sugam",
+   "full": "",
+   "def": "The industry electronic marketplace where customers can buy, service and claim insurance from different insurers in one place.",
+   "see": [
+    "REG-SUGAM"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Insurance Ombudsman",
+   "full": "",
+   "def": "A free forum for policyholders' complaints against insurers, agents and intermediaries, for claims up to Rs 50 lakh. The insurer must comply with an award within 30 days.",
+   "see": [
+    "RULES-OMB"
+   ],
+   "aka": [
+    "ombudsman"
+   ]
+  },
+  {
+   "term": "Bima Bharosa",
+   "full": "",
+   "def": "IRDAI's online grievance system that insurers must integrate with for tracking policyholder complaints.",
+   "see": [
+    "MC-PPHI"
+   ],
+   "aka": [
+    "IGMS"
+   ]
+  },
+  {
+   "term": "EoM",
+   "full": "Expenses of Management",
+   "def": "All operating expenses of an insurer, including commission. IRDAI caps the total as a share of gross premium.",
+   "see": [
+    "REG-EOM",
+    "MC-EOM"
+   ],
+   "aka": [
+    "expenses of management"
+   ]
+  },
+  {
+   "term": "Rebate",
+   "full": "",
+   "def": "Giving back part of the commission or premium to persuade someone to buy a policy. It is banned under s. 41 of the Insurance Act.",
+   "see": [
+    "ACT-INS"
+   ],
+   "aka": [
+    "rebating"
+   ]
+  },
+  {
+   "term": "Solvency margin",
+   "full": "",
+   "def": "The extra assets an insurer must hold over its liabilities. IRDAI's control level is 1.5 times the required margin.",
+   "see": [
+    "REG-AFI"
+   ],
+   "aka": [
+    "solvency",
+    "solvency ratio"
+   ]
+  },
+  {
+   "term": "Appointed Actuary",
+   "full": "",
+   "def": "The actuary an insurer must appoint to value its liabilities, sign off products and report on its financial condition.",
+   "see": [
+    "REG-AFI",
+    "REG-PROD"
+   ],
+   "aka": [
+    "AA"
+   ]
+  },
+  {
+   "term": "KMP",
+   "full": "Key Management Person",
+   "def": "Senior managers of an insurer named in the registration regulations, such as the CEO, CFO, CRO, Chief Compliance Officer and Appointed Actuary.",
+   "see": [
+    "REG-CG",
+    "REG-REGN"
+   ],
+   "aka": [
+    "key management persons",
+    "KMPs"
+   ]
+  },
+  {
+   "term": "PMC",
+   "full": "Product Management Committee",
+   "def": "The insurer's committee, including the Appointed Actuary, that approves and reviews products.",
+   "see": [
+    "REG-PROD",
+    "MC-HEALTH"
+   ],
+   "aka": [
+    "product management committee"
+   ]
+  },
+  {
+   "term": "Use and File",
+   "full": "",
+   "def": "The system under which an insurer may launch most products after internal approval and then file them with IRDAI, instead of waiting for IRDAI's approval first.",
+   "see": [
+    "REG-PROD"
+   ],
+   "aka": [
+    "file and use",
+    "use-and-file"
+   ]
+  },
+  {
+   "term": "TPA",
+   "full": "Third Party Administrator",
+   "def": "A company registered with IRDAI that handles health claims and cashless services on behalf of insurers.",
+   "see": [
+    "CIR-20260731-32"
+   ],
+   "aka": [
+    "third party administrator",
+    "TPAs"
+   ]
+  },
+  {
+   "term": "IIB",
+   "full": "Insurance Information Bureau of India",
+   "def": "The industry data body that runs shared databases, including for portability and fraud.",
+   "see": [
+    "MC-FRAUD",
+    "MC-PPHI"
+   ],
+   "aka": [
+    "insurance information bureau"
+   ]
+  },
+  {
+   "term": "FMC",
+   "full": "Fraud Monitoring Committee",
+   "def": "A committee headed by a senior manager that oversees an insurer's fraud framework and reports quarterly to the Risk Management Committee.",
+   "see": [
+    "MC-FRAUD"
+   ],
+   "aka": [
+    "fraud monitoring committee"
+   ]
+  },
+  {
+   "term": "SBSR Act",
+   "full": "Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025",
+   "def": "The 2025 law that amended the Insurance Act and the IRDA Act, in force from 5 February 2026. It allows 100% foreign investment in insurers, makes intermediary registration permanent subject to annual fee and adds new penalties.",
+   "see": [
+    "ACT-SBSR"
+   ],
+   "aka": [
+    "sabka bima sabki raksha",
+    "insurance amendment act 2025"
+   ]
+  },
+  {
+   "term": "Disgorgement",
+   "full": "",
+   "def": "An order to pay back a gain made, or a loss avoided, by breaking insurance law. IRDAI can direct it under s. 34 of the Insurance Act.",
+   "see": [
+    "ACT-INS"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Rural and social sector obligations",
+   "full": "",
+   "def": "Targets that insurers must meet for covering lives and property in villages and among weaker sections of society.",
+   "see": [
+    "REG-RRS",
+    "MC-RRS"
+   ],
+   "aka": [
+    "rural obligations",
+    "social sector"
+   ]
+  },
+  {
+   "term": "Unclaimed amounts",
+   "full": "",
+   "def": "Money due to policyholders that has not been claimed. After 10 years it moves to the Senior Citizens' Welfare Fund but can still be claimed for 25 years.",
+   "see": [
+    "MC-PPHI",
+    "MC-OPS"
+   ],
+   "aka": [
+    "unclaimed"
+   ]
+  },
+  {
+   "term": "PEPF",
+   "full": "Policyholders' Education and Protection Fund",
+   "def": "The fund IRDAI keeps for policyholder education and protection. Penalties IRDAI collects are paid into it.",
+   "see": [
+    "REG-PEPF-2026",
+    "ACT-IRDA"
+   ],
+   "aka": [
+    "policyholders education and protection fund"
+   ]
+  }
+ ]
+}

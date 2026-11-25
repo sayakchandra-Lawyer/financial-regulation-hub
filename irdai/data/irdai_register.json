@@ -1,0 +1,1979 @@
+{
+ "meta": {
+  "title": "IRDAI rules for insurers and insurance distributors",
+  "as_of": "2026-11-25",
+  "count": 49,
+  "in_force": 41,
+  "lenses": [
+   {
+    "id": "ENT-LIFE",
+    "name": "Life insurer"
+   },
+   {
+    "id": "ENT-HEALTH",
+    "name": "Health insurer"
+   },
+   {
+    "id": "ENT-CA",
+    "name": "Corporate agent (incl. digital)"
+   },
+   {
+    "id": "ENT-AGENT",
+    "name": "Individual agent"
+   }
+  ]
+ },
+ "instruments": [
+  {
+   "id": "ACT-INS",
+   "type": "Act",
+   "short_name": "Insurance Act, 1938",
+   "title": "The Insurance Act, 1938 (as amended up to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025)",
+   "issuing_department": "Parliament of India",
+   "theme": "Statutes, regulator and enforcement",
+   "reference_no": "Act 4 of 1938",
+   "issue_date": "1938-02-26",
+   "updated_as_on": "2026-04-15",
+   "effective_date": "1939-07-01",
+   "status": "In force (amended by Act 40 of 2025 from 05-02-2026)",
+   "official_url": "https://irdai.gov.in/documents/37343/366193/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+1938+%28%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%A8%29+_+Insurance+Act+1938+%28updated+with+SBSR+Act+2025%29.pdf/68dfbb81-eb23-0e2b-4451-95d35c64607a?version=1.1&t=1782730546504&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366193/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+1938+%28%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%A8%29+_+Insurance+Act+1938+%28updated+with+SBSR+Act+2025%29.pdf/68dfbb81-eb23-0e2b-4451-95d35c64607a?version=1.1&t=1782730546504&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insurers (life, general, health, reinsurance)",
+    "Insurance agents and insurance intermediaries, including corporate agents"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Certificate of registration for insurance business (s. 3)",
+    "Foreign investment in an Indian insurance company up to 100% of paid-up equity (s. 3AA, from 05-02-2026)",
+    "Prior approval of IRDAI for share transfers above set limits (s. 6A)",
+    "IRDAI directions, including disgorgement (s. 34)",
+    "Commission and remuneration to agents and intermediaries within limits set by IRDAI (s. 40)",
+    "Prohibition of rebates (s. 41)",
+    "Appointment of insurance agents (s. 42) and registration of intermediaries (s. 42D)",
+    "No premium, no risk (s. 64VB)",
+    "Policy cannot be called in question after three years (s. 45)"
+   ],
+   "core_obligations": [
+    "s. 3: no person may carry on insurance business without a certificate of registration from IRDAI",
+    "s. 40: commission or remuneration may be paid only to a registered agent or intermediary and within the limits and disclosure norms IRDAI sets",
+    "s. 41: no one may offer a rebate of commission or premium as an inducement; an agent's commission on a policy covering their own life, health or property is not treated as a rebate",
+    "s. 42: an agent may act for at most one life, one general, one health insurer and one insurer of each other specified class",
+    "s. 42A: insurers may not appoint principal, chief or special agents or use multilevel marketing",
+    "s. 42D: no person may act as an insurance intermediary without registration; registration continues while the annual fee is paid",
+    "s. 43: insurers must keep a register of agents and keep records for five years after an agent ceases to act",
+    "s. 64VB: risk may be assumed only after premium is received in advance; refunds go directly to the insured, never through the agent"
+   ],
+   "timelines": [
+    "s. 45: a life policy cannot be called in question on any ground after three years from the latest of issue, commencement of risk, revival or rider date",
+    "s. 43: agent records kept for five years after the agent ceases to act",
+    "s. 105E: an order imposing a penalty is published as a press release within 30 days"
+   ],
+   "consequences_stated": [
+    "s. 102: failure to file returns, comply with directions, maintain solvency or follow treaty directions: up to Rs 1 lakh a day, maximum Rs 10 crore",
+    "s. 103: carrying on insurance business without registration: penalty up to Rs 25 crore and imprisonment up to 10 years",
+    "s. 40(3): breach of commission rules: penalty up to Rs 1 lakh",
+    "s. 41(2): offering or accepting a rebate: penalty up to Rs 10 lakh",
+    "s. 42(4): agent acting in breach of s. 42: up to Rs 10,000; appointing insurer up to Rs 1 crore",
+    "s. 42(5): insurer is responsible for the acts and omissions of its agents: penalty up to Rs 1 crore",
+    "s. 105B: failure to meet rural, social sector and motor third party obligations: up to Rs 25 crore",
+    "s. 105BA: acting as an unregistered intermediary: Rs 1 lakh to Rs 10 lakh; appointing or dealing through one: Rs 10 lakh to Rs 1 crore"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "IRDA Act, 1999",
+    "Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ACT-IRDA",
+   "type": "Act",
+   "short_name": "IRDA Act, 1999",
+   "title": "The Insurance Regulatory and Development Authority Act, 1999 (as amended)",
+   "issuing_department": "Parliament of India",
+   "theme": "Statutes, regulator and enforcement",
+   "reference_no": "Act 41 of 1999",
+   "issue_date": "1999-12-29",
+   "updated_as_on": "2026-03-01",
+   "effective_date": "2000-04-19",
+   "status": "In force (amended by Act 40 of 2025)",
+   "official_url": "https://irdai.gov.in/documents/37343/366193/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE+1999+%28%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%A8%29+_+IRDA+Act+1999+%28updated+with+SBSR+Act+2025%29.pdf/d2c36257-bdfe-8e90-4841-27385287b048?version=1.1&t=1782730526219&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366193/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE+1999+%28%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%A8%29+_+IRDA+Act+1999+%28updated+with+SBSR+Act+2025%29.pdf/d2c36257-bdfe-8e90-4841-27385287b048?version=1.1&t=1782730526219&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "IRDAI and every entity it regulates"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Constitution of IRDAI (s. 3)",
+    "Duties, powers and functions of IRDAI (s. 14)",
+    "Policyholders' Education and Protection Fund (s. 16A)",
+    "Power to make regulations (s. 26)"
+   ],
+   "core_obligations": [
+    "s. 14: IRDAI regulates, promotes and ensures orderly growth of insurance and protects policyholders' interests",
+    "s. 16A: penalties realised by IRDAI are credited to the Policyholders' Education and Protection Fund"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "Insurance Act, 1938"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ACT-SBSR",
+   "type": "Act",
+   "short_name": "Sabka Bima Sabki Raksha Act, 2025",
+   "title": "The Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025",
+   "issuing_department": "Parliament of India",
+   "theme": "Statutes, regulator and enforcement",
+   "reference_no": "Act 40 of 2025",
+   "issue_date": "2025-12-21",
+   "updated_as_on": "",
+   "effective_date": "2026-02-05",
+   "status": "In force (amending Act)",
+   "official_url": "https://irdai.gov.in/documents/37343/366193/%E0%A4%B8%E0%A4%AC%E0%A4%95%E0%A4%BE+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%AC%E0%A4%95%E0%A5%80+%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%29+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+_+Sabka+Bima+Sabki+Raksha+%28Amendment+of+Insurance+Laws%29+Act%2C+2025.pdf/38e021ca-db0d-0e3f-9a2b-432cc170d638?version=1.0&t=1784092449779&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366193/%E0%A4%B8%E0%A4%AC%E0%A4%95%E0%A4%BE+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%AC%E0%A4%95%E0%A5%80+%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%29+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+_+Sabka+Bima+Sabki+Raksha+%28Amendment+of+Insurance+Laws%29+Act%2C+2025.pdf/38e021ca-db0d-0e3f-9a2b-432cc170d638?version=1.0&t=1784092449779&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insurers and insurance intermediaries (amends the Insurance Act, 1938 and the IRDA Act, 1999)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Foreign investment in Indian insurers up to 100% (new s. 3AA)",
+    "Intermediary registration no longer renewed every three years; continues subject to annual fee (s. 42D)",
+    "IRDAI power to direct disgorgement (s. 34)",
+    "New daily penalty for insurers and intermediaries (s. 102)",
+    "Penalty for unregistered intermediaries and those dealing with them (s. 105BA)",
+    "Factors for deciding penalties and publication of orders (s. 105E)"
+   ],
+   "core_obligations": [
+    "s. 42D: registered intermediaries, including corporate agents, keep their registration in force by paying the annual fee; non-payment is a ground for suspension",
+    "s. 40(2A): IRDAI may specify limits on and disclosure of commission to agents and intermediaries"
+   ],
+   "timelines": [
+    "In force from 05-02-2026"
+   ],
+   "consequences_stated": [
+    "s. 102, s. 105BA and s. 105E as inserted in the Insurance Act, 1938"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "Insurance Act, 1938",
+    "IRDA Act, 1999"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-PENALTY-2026",
+   "type": "Regulation",
+   "short_name": "Penalty procedure",
+   "title": "IRDAI (Manner and Procedure for Imposing Penalties) Regulations, 2026",
+   "issuing_department": "IRDAI",
+   "theme": "Statutes, regulator and enforcement",
+   "reference_no": "F. No. IRDAI/Reg/11/225/2026",
+   "issue_date": "2026-07-31",
+   "updated_as_on": "",
+   "effective_date": "2026-07-31",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Manner+and+Procedure+for+imposing+penalties%29+Regulations%2C+2026.pdf/04bdaf52-bcdc-c7d3-ee78-f407401f62df?version=1.1&t=1785736374877&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Manner+and+Procedure+for+imposing+penalties%29+Regulations%2C+2026.pdf/04bdaf52-bcdc-c7d3-ee78-f407401f62df?version=1.1&t=1785736374877&download=true",
+   "statutory_powers": [
+    "Insurance Act 1938 s. 114A",
+    "IRDA Act 1999 ss. 14, 26"
+   ],
+   "applies_to": [
+    "All proceedings for penalties under the Insurance Act, the IRDA Act and rules, regulations and subsidiary instructions"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Initiation on inspection, investigation, audit, oversight or complaint",
+    "Show cause notice",
+    "Personal hearing",
+    "Adjudicating officer under s. 105C"
+   ],
+   "core_obligations": [
+    "regulation 4: IRDAI records reasons for starting proceedings; inspection and investigation officers stay out of the penalty process",
+    "regulation 5: the show cause notice states the facts, provisions, evidence relied on and the penalty provision",
+    "regulation 7: the noticee may reply in writing and seek a personal hearing; no reply means the case proceeds ex parte",
+    "regulation 8: a reasoned, proportionate order with findings, penalty and timeline for payment"
+   ],
+   "timelines": [
+    "regulation 5(4): at least 21 days to reply to a show cause notice, extendable; shorter in an emergency",
+    "regulation 9(1): penalty paid within 45 days",
+    "s. 105E: press release on the IRDAI website within 30 days"
+   ],
+   "consequences_stated": [
+    "regulation 9(2): penalties are credited to the Policyholders' Education and Protection Fund"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "Insurance Act, 1938 ss. 102, 105C, 105E"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-PEPF-2026",
+   "type": "Regulation",
+   "short_name": "Policyholders' Education and Protection Fund",
+   "title": "IRDAI (Policyholders' Education and Protection Fund) Regulations, 2026",
+   "issuing_department": "IRDAI",
+   "theme": "Statutes, regulator and enforcement",
+   "reference_no": "F. No. IRDAI/Reg/10/224/2026",
+   "issue_date": "2026-07-31",
+   "updated_as_on": "",
+   "effective_date": "2026-07-31",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/Insurance+Regulatory+and+Development+Authority+of+India+%28Policyholders%E2%80%99+Education+and+Protection+Fund%29+Regulations%2C+2026.pdf/c6663b2c-d6c7-01d8-7629-d0b5c81b718f?version=2.0&t=1785735947710&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/Insurance+Regulatory+and+Development+Authority+of+India+%28Policyholders%E2%80%99+Education+and+Protection+Fund%29+Regulations%2C+2026.pdf/c6663b2c-d6c7-01d8-7629-d0b5c81b718f?version=2.0&t=1785735947710&download=true",
+   "statutory_powers": [
+    "IRDA Act 1999 s. 16A"
+   ],
+   "applies_to": [
+    "IRDAI (administration of the Fund)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Fund separate from the IRDAI Fund",
+    "Credited with IRDAI contributions, grants and penalties",
+    "Committee chaired by the Whole-Time Member for policyholder protection"
+   ],
+   "core_obligations": [
+    "regulation 5: penalties realised under the Insurance Act and IRDA Act are credited to the Fund",
+    "regulation 6: the Fund is used for policyholder education, awareness and protection activities"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "IRDA Act, 1999 s. 16A"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-SANDBOX",
+   "type": "Regulation",
+   "short_name": "Regulatory sandbox",
+   "title": "IRDAI (Regulatory Sandbox) Regulations, 2025",
+   "issuing_department": "IRDAI",
+   "theme": "Statutes, regulator and enforcement",
+   "reference_no": "F. No. IRDAI/Reg/5/212/2025",
+   "issue_date": "2025-01-10",
+   "updated_as_on": "",
+   "effective_date": "2025-01-10",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%B8%E0%A5%88%E0%A4%82%E0%A4%A1%E0%A4%AC%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%B8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Regulatory+Sandbox%29+Regulations%2C+2025.pdf/6e398707-c6e5-0eb6-38b3-66b051082b72?version=1.1&t=1737024693663&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%B8%E0%A5%88%E0%A4%82%E0%A4%A1%E0%A4%AC%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%B8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Regulatory+Sandbox%29+Regulations%2C+2025.pdf/6e398707-c6e5-0eb6-38b3-66b051082b72?version=1.1&t=1737024693663&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insurers, intermediaries and other applicants proposing innovations in insurance"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Permission to test innovations under relaxed rules",
+    "Inter-regulatory sandbox proposals",
+    "Revocation and extension of permission"
+   ],
+   "core_obligations": [
+    "regulation 5: apply to IRDAI for permission in the specified form",
+    "regulation 9: monitor, review and evaluate systems and controls during the test",
+    "regulation 11: conclude the proposal and protect participating policyholders"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "regulation 7: permission may be revoked"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "REG-REGN",
+   "type": "Regulation",
+   "short_name": "Registration, capital and share transfers of insurers",
+   "title": "IRDAI (Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers) Regulations, 2024 (consolidated to 30-07-2026)",
+   "issuing_department": "IRDAI",
+   "theme": "Registration, capital and ownership",
+   "reference_no": "F. No. IRDAI/Reg/6/200/2024; amended by F. No. IRDAI/Reg/9/223/2026",
+   "issue_date": "2024-03-19",
+   "updated_as_on": "2026-07-30",
+   "effective_date": "2024-04-01",
+   "status": "In force (amended 31-07-2026)",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/Consolidated+IRDAI+%28Registration%2C+Capital+Structure%2C+Transfer+of+Shares+and+Amalgamation+of+Insurers%29+Regulations%2C+2024+incorporating+amendments+upto+30.07.2026.pdf/6a83119a-42e3-5421-c6cb-cf14acbe57dc?version=1.1&t=1787140222095&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/Consolidated+IRDAI+%28Registration%2C+Capital+Structure%2C+Transfer+of+Shares+and+Amalgamation+of+Insurers%29+Regulations%2C+2024+incorporating+amendments+upto+30.07.2026.pdf/6a83119a-42e3-5421-c6cb-cf14acbe57dc?version=1.1&t=1787140222095&download=true",
+   "statutory_powers": [
+    "Insurance Act 1938 ss. 2C, 3, 3A, 6A, 35, 37, 114A",
+    "IRDA Act 1999 ss. 14, 26"
+   ],
+   "applies_to": [
+    "Applicants for insurance registration and registered insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Three-stage registration: NOC, R1 and R2 approvals, R3 certificate",
+    "Minimum paid-up equity: Rs 100 crore for life, general or standalone health; Rs 200 crore for reinsurance",
+    "Promoters hold over 50% of paid-up equity, dilutable to 26% on conditions",
+    "Investor limits: one investor below 25%, all investors below 50%",
+    "Other forms of capital (preference shares, subordinated debt)",
+    "Amalgamation and transfer of business"
+   ],
+   "core_obligations": [
+    "regulation 21: prior IRDAI approval for a share transfer or issue that takes a holder above 5%, or above 10%, 25%, 50% or 75%, or makes them the single largest shareholder",
+    "regulation 8: promoter shares are locked in; IRDAI may relax lock-in for listing, distress or reorganisation",
+    "regulation 27: report changes in shareholding as specified",
+    "regulation 44: prior approval to accrue or pay coupon on other forms of capital in specified cases"
+   ],
+   "timelines": [
+    "regulation 45: report issue of other forms of capital within 15 days"
+   ],
+   "consequences_stated": [
+    "regulation 28: action for violation, including under the Insurance Act"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "Master Circular on Registration 2026",
+    "Insurance Act, 1938 ss. 3, 6A"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-REGN",
+   "type": "Master Circular",
+   "short_name": "Master Circular on registration of insurers",
+   "title": "Master Circular on Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers, 2026",
+   "issuing_department": "IRDAI (Finance and Investment)",
+   "theme": "Registration, capital and ownership",
+   "reference_no": "IRDAI/F&I/CIR/MISC/142/11/2026",
+   "issue_date": "2026-11-02",
+   "updated_as_on": "",
+   "effective_date": "2026-11-02",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%2C+%E0%A4%AA%E0%A5%82%E0%A4%81%E0%A4%9C%E0%A5%80+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8%2C+%E0%A4%B6%E0%A5%87%E0%A4%AF%E0%A4%B0%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A4%A3+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AE%E0%A5%87%E0%A4%B2%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2026+_+Master+Circular+on+Registration%2C+Capital+Structure%2C+Transfer+of+Shares+and+Amalgamation+of+Insurers%2C+2026.pdf/90f65b79-1afa-80cc-be02-0a5dae81913a?version=2.0&t=1794221773959&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%2C+%E0%A4%AA%E0%A5%82%E0%A4%81%E0%A4%9C%E0%A5%80+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8%2C+%E0%A4%B6%E0%A5%87%E0%A4%AF%E0%A4%B0%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A4%A3+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AE%E0%A5%87%E0%A4%B2%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2026+_+Master+Circular+on+Registration%2C+Capital+Structure%2C+Transfer+of+Shares+and+Amalgamation+of+Insurers%2C+2026.pdf/90f65b79-1afa-80cc-be02-0a5dae81913a?version=2.0&t=1794221773959&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "Applicants and registered insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Forms and procedure for registration and share transfers",
+    "Fit and proper criteria",
+    "Amalgamation schemes"
+   ],
+   "core_obligations": [
+    "follow the forms, documents and procedure the Master Circular sets for applications under the 2024 Regulations as amended in 2026"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-REGN"
+   ],
+   "repeals": "Replaces the 2024 Master Circular on the same subject"
+  },
+  {
+   "id": "REG-CG",
+   "type": "Regulation",
+   "short_name": "Corporate governance for insurers",
+   "title": "IRDAI (Corporate Governance for Insurers) Regulations, 2024",
+   "issuing_department": "IRDAI",
+   "theme": "Governance, actuarial and finance",
+   "reference_no": "F. No. IRDAI/Reg/7/201/2024",
+   "issue_date": "2024-03-20",
+   "updated_as_on": "",
+   "effective_date": "2024-03-21",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A5%80+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Corporate+Governance+for+Insurers%29+Regulations%2C+2024.pdf/8790b24d-fffe-dd53-e0b6-403faed32fb4?version=1.3&t=1712314595969&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A5%80+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Corporate+Governance+for+Insurers%29+Regulations%2C+2024.pdf/8790b24d-fffe-dd53-e0b6-403faed32fb4?version=1.3&t=1712314595969&download=true",
+   "statutory_powers": [
+    "Insurance Act 1938 s. 114A",
+    "IRDA Act 1999 ss. 14, 26"
+   ],
+   "applies_to": [
+    "All insurers"
+   ],
+   "excluded": [
+    "Foreign reinsurers operating through an Indian branch"
+   ],
+   "key_concepts": [
+    "At least three independent directors",
+    "CEO is a whole-time director",
+    "Prior IRDAI approval of the Board Chairperson (private insurers)",
+    "Board committees: Audit, Nomination and Remuneration, Risk Management, Policyholder Protection and Claims Monitoring, Investment; CSR where the Companies Act requires it; With Profits for life insurers with participating business",
+    "Stewardship policy",
+    "ESG and climate risk framework"
+   ],
+   "core_obligations": [
+    "regulation 4(2): tell IRDAI when independent directors fall below the minimum and fill the vacancy by the next Board meeting or within three months, whichever is later",
+    "regulation 5(7): KMPs may not combine a business and a control function, or two control functions",
+    "regulation 5(8): Board policy on related party transactions, reviewed annually",
+    "regulation 5(11): succession plan for directors and KMPs, reviewed annually",
+    "regulation 7: Board-approved remuneration policy for the Chairperson, non-executive directors and KMPs",
+    "regulation 8: at least two joint statutory auditors",
+    "regulation 10: annual compliance report and CCO certificate"
+   ],
+   "timelines": [
+    "regulation 4(2): reasons for an independent director's exit sent to IRDAI within 30 days",
+    "regulation 4(2): independent director vacancy filled by the next Board meeting or three months",
+    "regulation 10(2): compliance report filed annually"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "MC-CG",
+    "Remuneration to KMPs circular 2026"
+   ],
+   "repeals": "Corporate governance guidelines for insurers, 2016"
+  },
+  {
+   "id": "MC-CG",
+   "type": "Master Circular",
+   "short_name": "Master Circular on corporate governance",
+   "title": "Master Circular on Corporate Governance for Insurers, 2024",
+   "issuing_department": "IRDAI (Finance and Investment)",
+   "theme": "Governance, actuarial and finance",
+   "reference_no": "IRDAI/F&I/CIR/MISC/82/5/2024",
+   "issue_date": "2024-05-22",
+   "updated_as_on": "",
+   "effective_date": "2024-05-22",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A5%80+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%A8+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2024+_+Master+Circular+on+Corporate+Governance+for+Insurers%2C+2024.pdf/ad741841-d705-96c8-cdf3-ba10eb89e592?version=5.0&t=1744876672420&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A5%80+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%A8+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2024+_+Master+Circular+on+Corporate+Governance+for+Insurers%2C+2024.pdf/ad741841-d705-96c8-cdf3-ba10eb89e592?version=5.0&t=1744876672420&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Role and composition of Board committees",
+    "Fit and proper criteria for directors and KMPs",
+    "Control functions",
+    "Disclosure formats"
+   ],
+   "core_obligations": [
+    "operate the Board committees, control functions and disclosures in the manner set out"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-CG"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-20260525-13",
+   "type": "Circular",
+   "short_name": "Remuneration of KMPs",
+   "title": "Remuneration to Key Management Persons (KMPs)",
+   "issuing_department": "IRDAI (Finance and Investment)",
+   "theme": "Governance, actuarial and finance",
+   "reference_no": "IRDAI/F&I/CIR/MISC/72/5/2026",
+   "issue_date": "2026-05-25",
+   "updated_as_on": "",
+   "effective_date": "2026-05-25",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%81%E0%A4%96+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%28%E0%A4%95%E0%A5%87%E0%A4%8F%E0%A4%AE%E0%A4%AA%E0%A5%80%E0%A4%8F%E0%A4%B8%29+%E0%A4%95%E0%A5%8B+%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%95+_+Remuneration+to+Key+Management+Persons+%28KMPs%29.pdf/9d5a30f4-538e-e7fa-c1ba-7e9f01ebdf27?version=3.0&t=1779887395196&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%81%E0%A4%96+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%28%E0%A4%95%E0%A5%87%E0%A4%8F%E0%A4%AE%E0%A4%AA%E0%A5%80%E0%A4%8F%E0%A4%B8%29+%E0%A4%95%E0%A5%8B+%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%95+_+Remuneration+to+Key+Management+Persons+%28KMPs%29.pdf/9d5a30f4-538e-e7fa-c1ba-7e9f01ebdf27?version=3.0&t=1779887395196&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Board-approved remuneration policy for KMPs",
+    "Fixed and variable pay",
+    "Deferral and clawback"
+   ],
+   "core_obligations": [
+    "frame KMP remuneration within the Board policy and the framework in this circular, which revises the Master Circular on corporate governance"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-CG",
+    "MC-CG"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-AFI",
+   "type": "Regulation",
+   "short_name": "Actuarial, finance and investment functions",
+   "title": "IRDAI (Actuarial, Finance and Investment Functions of Insurers) Regulations, 2024 (amended 2026)",
+   "issuing_department": "IRDAI",
+   "theme": "Governance, actuarial and finance",
+   "reference_no": "F. No. IRDAI/Reg/10/204/2024; amended by F. No. IRDAI/Reg/2/216/2026 and F. No. IRDAI/Reg/6/220/2026",
+   "issue_date": "2024-03-20",
+   "updated_as_on": "2026-07-31",
+   "effective_date": "2024-04-01",
+   "status": "In force (amended 30-03-2026 and 31-07-2026)",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%BF%E0%A4%95%2C+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4+%E0%A4%94%E0%A4%B0+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Actuarial%2C+Finance+and+Investment+Functions+of+Insurers%29+Reg+2024.pdf/6f2137f3-fe0c-cbf5-eb67-41a70b698437?version=1.3&t=1712314561961&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%BF%E0%A4%95%2C+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4+%E0%A4%94%E0%A4%B0+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Actuarial%2C+Finance+and+Investment+Functions+of+Insurers%29+Reg+2024.pdf/6f2137f3-fe0c-cbf5-eb67-41a70b698437?version=1.3&t=1712314561961&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Appointed Actuary",
+    "Solvency: control level 1.50",
+    "Investment of policyholder and shareholder funds",
+    "Financial statements under Ind AS (Schedule IIA, from 01-04-2026)",
+    "Actuary Report"
+   ],
+   "core_obligations": [
+    "regulation 6A: an insurer not ready for Ind AS could seek one year's forbearance; requests were due by 30-04-2026 with a Board-approved action plan",
+    "regulation 6: prepare financial statements in the prescribed form",
+    "Schedule I: appoint an Appointed Actuary under s. 12A of the Insurance Act"
+   ],
+   "timelines": [
+    "regulation 6A: forbearance request by 30-04-2026; forbearance lasts one year"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "MC-AFI",
+    "Insurance Act, 1938 ss. 11, 27, 64VA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-AFI",
+   "type": "Master Circular",
+   "short_name": "Master Circular on actuarial, finance and investment",
+   "title": "Master Circular on Actuarial, Finance and Investment Functions of Insurers",
+   "issuing_department": "IRDAI (Actuarial)",
+   "theme": "Governance, actuarial and finance",
+   "reference_no": "IRDAI/ACTL/CIR/MISC/80/05/2024",
+   "issue_date": "2024-05-17",
+   "updated_as_on": "",
+   "effective_date": "2024-05-17",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%BF%E0%A4%95%2C+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4+%E0%A4%94%E0%A4%B0+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Actuarial%2C+Finance+and+Investment+Functions+of+Insurers.pdf/4e1e1169-2211-1f87-c341-9e6d6dd9f818?version=2.1&t=1721824676048&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%BF%E0%A4%95%2C+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4+%E0%A4%94%E0%A4%B0+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Actuarial%2C+Finance+and+Investment+Functions+of+Insurers.pdf/4e1e1169-2211-1f87-c341-9e6d6dd9f818?version=2.1&t=1721824676048&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Valuation of liabilities",
+    "Solvency computation",
+    "Investment norms and exposure limits",
+    "Financial statement formats"
+   ],
+   "core_obligations": [
+    "compute solvency, value liabilities and invest funds in the manner set out"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-AFI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-PROD",
+   "type": "Regulation",
+   "short_name": "Insurance products",
+   "title": "IRDAI (Insurance Products) Regulations, 2024",
+   "issuing_department": "IRDAI",
+   "theme": "Insurance products",
+   "reference_no": "F. No. IRDAI/Reg/8/202/2024",
+   "issue_date": "2024-03-20",
+   "updated_as_on": "",
+   "effective_date": "2024-04-01",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Insurance+Products%29+Regulations%2C+2024.pdf/eb55db8a-a617-d492-b313-f13cfb11afeb?version=1.2&t=1712320142367&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Insurance+Products%29+Regulations%2C+2024.pdf/eb55db8a-a617-d492-b313-f13cfb11afeb?version=1.2&t=1712320142367&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "Life, general and health insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Product Management Committee (PMC)",
+    "File and use, use and file",
+    "Annual product review by the Appointed Actuary",
+    "Pre-existing disease: a condition within 36 months before the policy",
+    "Moratorium after 60 continuous months of health cover",
+    "Life insurers may offer only benefit-based health products"
+   ],
+   "core_obligations": [
+    "design, approve and launch products through the Board-approved product policy and the PMC",
+    "Health schedule: renewal cannot be refused on the ground of claims made, and there is no fresh underwriting at renewal",
+    "Health schedule: allow portability and migration",
+    "Health schedule: treat AYUSH treatment on par with other systems of medicine"
+   ],
+   "timelines": [
+    "Health schedule: waiting period for pre-existing diseases is at most 36 months",
+    "Health schedule: specific waiting periods are at most 36 months",
+    "Health schedule: no claim contested, except for fraud, after 60 continuous months (moratorium)",
+    "Grace period for regular premium life and health policies: 15 days for monthly premium, 30 days otherwise"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "MC-HEALTH",
+    "MC-LIFE"
+   ],
+   "repeals": "Health Insurance Regulations 2016; Unit Linked and Non-Linked Insurance Products Regulations 2019; Micro Insurance Regulations 2015 and other product regulations"
+  },
+  {
+   "id": "MC-HEALTH",
+   "type": "Master Circular",
+   "short_name": "Master Circular on health insurance",
+   "title": "Master Circular on Health Insurance Business",
+   "issuing_department": "IRDAI (Health)",
+   "theme": "Insurance products",
+   "reference_no": "IRDAI/HLT/CIR/PRO/84/5/2024",
+   "issue_date": "2024-05-29",
+   "updated_as_on": "",
+   "effective_date": "2024-05-29",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Health+Insurance+Business+29052024.pdf/5e707a91-b5de-1ec1-cf18-b66273a6839d?version=2.1&t=1719834812962&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Health+Insurance+Business+29052024.pdf/5e707a91-b5de-1ec1-cf18-b66273a6839d?version=2.1&t=1719834812962&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "General and standalone health insurers; life insurers for benefit-based health products"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Product Management Committee and Advertisement Committee",
+    "Withdrawal of health products",
+    "Cover for persons with disabilities",
+    "ABHA number",
+    "Payments to TPAs"
+   ],
+   "core_obligations": [
+    "the PMC includes the Appointed Actuary; quorum is three members plus the Appointed Actuary",
+    "the Advertisement Committee approves every advertisement and includes at least two KMPs",
+    "offer existing customers of a withdrawn product a migration option",
+    "offer specific cover for persons with disabilities",
+    "pay TPAs only after the services are delivered under Board-approved criteria"
+   ],
+   "timelines": [
+    "a product not launched within 30 days of approval must be refiled"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-PROD",
+    "MC-PPHI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-LIFE",
+   "type": "Master Circular",
+   "short_name": "Master Circular on life insurance products",
+   "title": "Master Circular on Life Insurance Products",
+   "issuing_department": "IRDAI (Actuarial)",
+   "theme": "Insurance products",
+   "reference_no": "IRDAI/ACTL/MSTCIR/MISC/89/6/2024",
+   "issue_date": "2024-06-12",
+   "updated_as_on": "",
+   "effective_date": "2024-06-12",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Life+Insurance+Products.pdf/d7ca89f3-b894-8c93-3e53-d8caf67a8ba6?version=2.1&t=1733233494424&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Life+Insurance+Products.pdf/d7ca89f3-b894-8c93-3e53-d8caf67a8ba6?version=2.1&t=1733233494424&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "Life insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Guaranteed and Special Surrender Value",
+    "Policy loans on savings products",
+    "Minimum policy term of five years for individual savings products",
+    "Discontinued ULIPs and revival"
+   ],
+   "core_obligations": [
+    "para 8: policy remains in force during the grace period",
+    "para 26: surrender values must be fair and reasonable; benefit illustrations show year-wise surrender values",
+    "para 27: every non-linked savings product with a surrender value offers a policy loan",
+    "para 22.1: individual savings products run at least five years"
+   ],
+   "timelines": [
+    "para 8: grace period for regular premium policies: 15 days (monthly premium) or 30 days (other modes)",
+    "para 40: discontinued policies may be revived within three years",
+    "para 38.1: five-year lock-in for individual unit-linked products"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-PROD"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-20250130-31",
+   "type": "Circular",
+   "short_name": "Premium revision for senior citizens",
+   "title": "Review of revision in premium rates under health insurance policies for senior citizens",
+   "issuing_department": "IRDAI (Health)",
+   "theme": "Insurance products",
+   "reference_no": "IRDAI/HLT/CIR/MISC/27/1/2025",
+   "issue_date": "2025-01-30",
+   "updated_as_on": "",
+   "effective_date": "2025-01-30",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%B0%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0+%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A4+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+%E0%A4%A6%E0%A4%B0%E0%A5%8B%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8+%E0%A4%95%E0%A5%80+%E0%A4%B8%E0%A4%AE%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+_+Review+of+revision+in+premium+rates+under+health+insurance+policies+for+senior+citizens.pdf/b703b6bf-d407-e8f0-a302-c17260bec4a5?version=3.0&t=1738652759491&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%B0%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0+%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A4+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE+%E0%A4%A6%E0%A4%B0%E0%A5%8B%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8+%E0%A4%95%E0%A5%80+%E0%A4%B8%E0%A4%AE%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+_+Review+of+revision+in+premium+rates+under+health+insurance+policies+for+senior+citizens.pdf/b703b6bf-d407-e8f0-a302-c17260bec4a5?version=3.0&t=1738652759491&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "General and standalone health insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Cap on yearly premium increase for senior citizens"
+   ],
+   "core_obligations": [
+    "do not raise premiums for senior citizens by more than 10% a year",
+    "consult IRDAI before a larger increase or withdrawal of an individual product for senior citizens"
+   ],
+   "timelines": [
+    "premium revision for senior citizens capped at 10% a year"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-PROD",
+    "MC-HEALTH"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-20260731-32",
+   "type": "Regulation",
+   "short_name": "TPA amendments 2026",
+   "title": "IRDAI (Third Party Administrators – Health Services) (Amendment) Regulations, 2026",
+   "issuing_department": "IRDAI",
+   "theme": "Insurance products",
+   "reference_no": "F. No. IRDAI/Reg/12/226/2026",
+   "issue_date": "2026-07-31",
+   "updated_as_on": "",
+   "effective_date": "2026-07-31",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Third+Party+Administrators+%E2%80%93+Health+Services%29+%28Amendment%29+Regulations%2C+2026.pdf/74ec2d16-6d9d-cb31-4780-2eb74169c58e?version=1.0&t=1785737695021&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Third+Party+Administrators+%E2%80%93+Health+Services%29+%28Amendment%29+Regulations%2C+2026.pdf/74ec2d16-6d9d-cb31-4780-2eb74169c58e?version=1.0&t=1785737695021&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "Third party administrators and the health insurers that use them"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Alignment with the SBSR Act",
+    "Resident Indian citizen as Chairperson or CEO of a foreign-majority TPA"
+   ],
+   "core_obligations": [
+    "regulation 6A: a foreign-majority TPA keeps a resident Indian citizen as Chairperson, CEO, Principal Officer or Managing Director",
+    "regulation 7(7): a TPA with a three-year certificate applies for registration under the new s. 42D before it expires"
+   ],
+   "timelines": [
+    "regulation 7(7): apply within 90 days before the current certificate expires"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "Insurance Act, 1938 s. 42D"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-PPHI",
+   "type": "Regulation",
+   "short_name": "Policyholder protection and insurer operations",
+   "title": "IRDAI (Protection of Policyholders' Interests, Operations and Allied Matters of Insurers) Regulations, 2024",
+   "issuing_department": "IRDAI",
+   "theme": "Policyholder protection, claims and grievances",
+   "reference_no": "F. No. IRDAI/Reg/11/205/2024",
+   "issue_date": "2024-03-20",
+   "updated_as_on": "",
+   "effective_date": "2024-04-01",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%A7+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Protection+of+Policyholder%27s+Interests%2C+operations+and+allied+matters+of+insurers%29+Regulations%2C+2024.pdf/330674c5-0adb-4eb7-a399-95d779246ff8?version=1.2&t=1712320815911&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%A7+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Protection+of+Policyholder%27s+Interests%2C+operations+and+allied+matters+of+insurers%29+Regulations%2C+2024.pdf/330674c5-0adb-4eb7-a399-95d779246ff8?version=1.2&t=1712320815911&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers and their distribution channels"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Customer Information Sheet",
+    "Electronic policies by default",
+    "Free look period",
+    "Advertisements (Part B)",
+    "Places of business",
+    "Outsourcing (material if over 5% of outsourcing spend)"
+   ],
+   "core_obligations": [
+    "Board policy on protecting policyholders' interests, reviewed annually",
+    "give the prospectus, benefit illustration and Customer Information Sheet; issue policies electronically by default",
+    "regulation 17: refunds and claims paid only to the policyholder's bank account",
+    "settle claims within the Board-approved turnaround times and ask for all documents at one go",
+    "regulations 27 to 29: distributors' advertisements need the insurer's prior written approval",
+    "an Outsourcing Committee of the CRO, CFO and Chief of Operations oversees outsourcing; records stay in India"
+   ],
+   "timelines": [
+    "free look period of 30 days for life policies and for new individual health policies of a year or more",
+    "nomination fee and assignment acknowledgement fee at most Rs 100"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "MC-PPHI",
+    "MC-OPS",
+    "Insurance Ombudsman Rules, 2017"
+   ],
+   "repeals": "PPHI Regulations 2017; Advertisements and Disclosure Regulations 2021; Outsourcing Regulations 2017; Places of Business 2015; e-Insurance Policies 2016; Manner of Receipt of Premium 2002; Nomination and Assignment fee regulations 2015"
+  },
+  {
+   "id": "MC-PPHI",
+   "type": "Master Circular",
+   "short_name": "Master Circular on policyholder protection",
+   "title": "Master Circular on Protection of Policyholders' Interests, 2024",
+   "issuing_department": "IRDAI (Policyholders' Protection and Grievance Redressal)",
+   "theme": "Policyholder protection, claims and grievances",
+   "reference_no": "IRDAI/PP&GR/CIR/MISC/117/9/2024",
+   "issue_date": "2024-09-05",
+   "updated_as_on": "",
+   "effective_date": "2024-09-05",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2024+_+Master+Circular+on+Protection+of+Policyholders%27+interests+2024.pdf/2bc6a186-5c96-461b-2946-89945b9d488c?version=5.1&t=1737118636654&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2024+_+Master+Circular+on+Protection+of+Policyholders%27+interests+2024.pdf/2bc6a186-5c96-461b-2946-89945b9d488c?version=5.1&t=1737118636654&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers and distribution channels"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Cashless authorisation",
+    "Portability through the IIB",
+    "Grievance redressal and Bima Bharosa",
+    "Unclaimed amounts and the Senior Citizens' Welfare Fund"
+   ],
+   "core_obligations": [
+    "premium is paid only after the insurer accepts the proposal, and risk starts only on receipt of premium",
+    "delay in life claims attracts interest at bank rate plus 2%",
+    "a health claim may be repudiated only with the approval of the claims review committee",
+    "no charges for porting a health policy"
+   ],
+   "timelines": [
+    "decide on a proposal within 7 days; issue the policy within 15 days of acceptance",
+    "free look refund within 7 days",
+    "service requests within 7 days",
+    "death claim within 15 days, or 45 days if investigated; surrender within 7 days; maturity on the due date",
+    "cashless pre-authorisation within 1 hour; discharge authorisation within 3 hours (any excess hospital charge is borne from shareholders' funds)",
+    "non-cashless health claims settled within 15 days",
+    "portability: existing insurer responds through the IIB in 72 hours; acquiring insurer decides in 5 days; apply 30 to 60 days before renewal",
+    "complaints resolved within 14 days",
+    "Part C: retail general insurance: surveyor appointed within 24 hours, report within 15 days, decision within 7 days of the report",
+    "unclaimed amounts over 10 years go to the Senior Citizens' Welfare Fund and stay claimable for 25 years"
+   ],
+   "consequences_stated": [
+    "Ombudsman award not complied with in 30 days: Rs 5,000 a day to the complainant"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-PPHI",
+    "RULES-OMB"
+   ],
+   "repeals": "Earlier circulars on policyholder protection listed in its annex"
+  },
+  {
+   "id": "MC-OPS",
+   "type": "Master Circular",
+   "short_name": "Master Circular on operations and allied matters",
+   "title": "Master Circular on Operations and Allied Matters of Insurers",
+   "issuing_department": "IRDAI",
+   "theme": "Policyholder protection, claims and grievances",
+   "reference_no": "IRDAI/PPGR/CIR/MISC/97/06/2024",
+   "issue_date": "2024-06-19",
+   "updated_as_on": "",
+   "effective_date": "2024-06-19",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%A7+%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Operations+and+Allied+Matters+of+Insurers.pdf/c4054914-a999-6bff-630e-2b4bc201f857?version=2.0&t=1723108314217&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%A7+%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Operations+and+Allied+Matters+of+Insurers.pdf/c4054914-a999-6bff-630e-2b4bc201f857?version=2.0&t=1723108314217&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers; distribution channels for advertisements and servicing"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Advertisements",
+    "Places of business",
+    "Outsourcing",
+    "Grievance redressal",
+    "Use of promoters' trade logo",
+    "Group policies",
+    "Unclaimed amounts",
+    "Servicing after a distributor exits"
+   ],
+   "core_obligations": [
+    "para 44: when a distributor's tie-up ends, the insurer offers policyholders online servicing or an allotted agent or direct sales staff",
+    "para 45: no new policy from the allotted agent for the same policyholder if the orphan policy is not revived, or lapses or is surrendered within 6 months of revival",
+    "para 46: renewal commission may go to the allotted agent while the policy is in force"
+   ],
+   "timelines": [
+    "para 45: six-month window after revival"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-PPHI"
+   ],
+   "repeals": "Guidelines and circulars listed in para 48"
+  },
+  {
+   "id": "RULES-OMB",
+   "type": "Rules",
+   "short_name": "Insurance Ombudsman Rules, 2017",
+   "title": "Insurance Ombudsman Rules, 2017 (as amended up to 09-11-2023)",
+   "issuing_department": "Ministry of Finance, Department of Financial Services",
+   "theme": "Policyholder protection, claims and grievances",
+   "reference_no": "Ministry of Finance notification of 25-04-2017, as amended",
+   "issue_date": "2017-04-25",
+   "updated_as_on": "2023-11-09",
+   "effective_date": "2017-04-25",
+   "status": "In force (amended 2023)",
+   "official_url": "https://www.cioins.co.in/notification/Insurance%20Ombudsman%20Rules,%202017(%20as%20amended%20till%2009.11.2023).pdf",
+   "official_pdf": "https://www.cioins.co.in/notification/Insurance%20Ombudsman%20Rules,%202017(%20as%20amended%20till%2009.11.2023).pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers and their agents and intermediaries (rule 3)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Grounds of complaint (rule 13)",
+    "Mediation and award",
+    "Award cap of Rs 50 lakh",
+    "Award binding on the insurer"
+   ],
+   "core_obligations": [
+    "rule 14: a complaint lies only after the insurer rejects it or does not reply within one month",
+    "rule 17: the insurer complies with the award within 30 days"
+   ],
+   "timelines": [
+    "rule 14: complaint filed within one year of rejection or of the insurer's reply",
+    "rule 16: recommendation in mediation within one month; insurer complies with an accepted recommendation within 15 days",
+    "rule 17: award within three months of receiving all requirements; insurer complies within 30 days"
+   ],
+   "consequences_stated": [
+    "Ombudsman award binding on the insurer"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "MC-PPHI",
+    "Ombudsman documents circular 2026"
+   ],
+   "repeals": "Redressal of Public Grievances Rules, 1998"
+  },
+  {
+   "id": "CIR-20260723-09",
+   "type": "Circular",
+   "short_name": "Documents to the Insurance Ombudsman",
+   "title": "Submission of Self-Contained Note and other related documents to the Office of the Insurance Ombudsmen",
+   "issuing_department": "IRDAI (PP&GR)",
+   "theme": "Policyholder protection, claims and grievances",
+   "reference_no": "IRDAI/PP&GR/CIR/MISC/95/07/2026",
+   "issue_date": "2026-07-23",
+   "updated_as_on": "",
+   "effective_date": "2026-07-23",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF+%E0%A4%95%E0%A5%8B+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%A4%E0%A4%83%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A3+%E0%A4%A8%E0%A5%8B%E0%A4%9F+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%BF%E0%A4%A4+%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5%E0%A5%87%E0%A4%9C%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Submission+of+Self-Contained+Note+and+other+related+documents+to+the+Office+of+the+Insurance+Ombudsmen.pdf/5b3409ab-4802-666e-e3db-d1990bfb370b?version=1.0&t=1784874677670&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF+%E0%A4%95%E0%A5%8B+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%A4%E0%A4%83%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A3+%E0%A4%A8%E0%A5%8B%E0%A4%9F+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%BF%E0%A4%A4+%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5%E0%A5%87%E0%A4%9C%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Submission+of+Self-Contained+Note+and+other+related+documents+to+the+Office+of+the+Insurance+Ombudsmen.pdf/5b3409ab-4802-666e-e3db-d1990bfb370b?version=1.0&t=1784874677670&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers except reinsurers"
+   ],
+   "excluded": [
+    "Reinsurers"
+   ],
+   "key_concepts": [
+    "Self-Contained Note (SCN)",
+    "Ex parte disposal on delay"
+   ],
+   "core_obligations": [
+    "para 3: submit the SCN with supporting documents in one go, not piecemeal"
+   ],
+   "timelines": [
+    "para 3(i): SCN within 7 days of the Ombudsman's notice",
+    "para 3(ii): additional documents within 3 days",
+    "para 3(iv): pending SCNs cleared within 30 days of the circular"
+   ],
+   "consequences_stated": [
+    "para 3(v): if the insurer misses these limits, the Ombudsman proceeds ex parte"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "RULES-OMB"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-20250218-30",
+   "type": "Circular",
+   "short_name": "Bima-ASBA (UPI premium blocking)",
+   "title": "One-time Mandate for blocking the amount towards premium through UPI for issuance of life and health insurance policies – Bima-ASBA",
+   "issuing_department": "IRDAI (PP&GR)",
+   "theme": "Policyholder protection, claims and grievances",
+   "reference_no": "IRDAI/PP&GR/CIR/MISC/37/02/2025",
+   "issue_date": "2025-02-18",
+   "updated_as_on": "",
+   "effective_date": "2025-03-01",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81+%E0%A4%AF%E0%A5%82%E0%A4%AA%E0%A5%80%E0%A4%86%E0%A4%88+%E0%A4%AE%E0%A5%88%E0%A4%82%E0%A4%A1%E0%A5%87%E0%A4%9F+%E0%A4%95%E0%A5%87+%E0%A4%AE%E0%A4%BE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE+%E0%A4%B8%E0%A5%87+%E0%A4%8F%E0%A4%95%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A4%97%E0%A5%80+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6+%E2%80%93+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE-%E0%A4%8F%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F+_+One-time+Mandate+for+blocking+the+amount+towards+premium+through+UPI+for+issuance+of+life+and+health+insurance+policies-+Bima-ASBA.pdf/d78302e2-fe28-e201-3bb0-0457a943db6e?version=2.0&t=1740135792276&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81+%E0%A4%AF%E0%A5%82%E0%A4%AA%E0%A5%80%E0%A4%86%E0%A4%88+%E0%A4%AE%E0%A5%88%E0%A4%82%E0%A4%A1%E0%A5%87%E0%A4%9F+%E0%A4%95%E0%A5%87+%E0%A4%AE%E0%A4%BE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE+%E0%A4%B8%E0%A5%87+%E0%A4%8F%E0%A4%95%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A4%97%E0%A5%80+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6+%E2%80%93+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE-%E0%A4%8F%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F+_+One-time+Mandate+for+blocking+the+amount+towards+premium+through+UPI+for+issuance+of+life+and+health+insurance+policies-+Bima-ASBA.pdf/d78302e2-fe28-e201-3bb0-0457a943db6e?version=2.0&t=1740135792276&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers and distribution channels (life and health policies)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "UPI one-time mandate blocks premium in the prospect's account",
+    "Money moves only when the policy is issued"
+   ],
+   "core_obligations": [
+    "para 4: life and health insurers must offer Bima-ASBA to prospects",
+    "para 5: offer the option in the proposal form through a standard declaration",
+    "if the proposal is declined, the blocked amount is released"
+   ],
+   "timelines": [
+    "a mandate is valid for up to 14 days or until the underwriting decision",
+    "facility to be in place by 01-03-2025"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "MC-PPHI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-20260107-19",
+   "type": "Circular",
+   "short_name": "1600-series numbers for service calls",
+   "title": "Implementation of TRAI Direction on mandatory adoption of the 1600-series to curb unsolicited commercial communication",
+   "issuing_department": "IRDAI (PP&GR)",
+   "theme": "Policyholder protection, claims and grievances",
+   "reference_no": "IRDAI/PP&GR/CIR/MISC/02/01/2026",
+   "issue_date": "2026-01-06",
+   "updated_as_on": "",
+   "effective_date": "2026-01-06",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/1600-%E0%A4%B6%E0%A5%83%E0%A4%82%E0%A4%96%E0%A4%B2%E0%A4%BE+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%82%E0%A4%97%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%88+%28%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%A6%E0%A5%82%E0%A4%B0%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B0+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+_+Implementation+of+1600+Series+TRAI+directions.pdf/c8e0e0d1-4359-b70a-da07-63c175e8491b?version=1.0&t=1767791333736&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/1600-%E0%A4%B6%E0%A5%83%E0%A4%82%E0%A4%96%E0%A4%B2%E0%A4%BE+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%82%E0%A4%97%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%88+%28%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%A6%E0%A5%82%E0%A4%B0%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B0+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+_+Implementation+of+1600+Series+TRAI+directions.pdf/c8e0e0d1-4359-b70a-da07-63c175e8491b?version=1.0&t=1767791333736&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers and insurance intermediaries"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "1600-series for service and transactional calls",
+    "Unsolicited commercial communication"
+   ],
+   "core_obligations": [
+    "para 2(ii): after the deadline, make service or transactional voice calls only from 1600-series numbers, whatever the customer's consent"
+   ],
+   "timelines": [
+    "para 2(i): move to the 1600-series by 15-02-2026"
+   ],
+   "consequences_stated": [
+    "para 2(iii): complaints of unsolicited calls against non-compliant entities are acted on"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "REG-SUGAM",
+   "type": "Regulation",
+   "short_name": "Bima Sugam marketplace",
+   "title": "IRDAI (Bima Sugam – Insurance Electronic Marketplace) Regulations, 2024",
+   "issuing_department": "IRDAI",
+   "theme": "Policyholder protection, claims and grievances",
+   "reference_no": "F. No. IRDAI/Reg/5/199/2024",
+   "issue_date": "2024-03-20",
+   "updated_as_on": "",
+   "effective_date": "2024-04-01",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A5%81%E0%A4%97%E0%A4%AE+%E2%80%93+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%87%E0%A4%B2%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%95+%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Bima+Sugam-+Insurance+Electronic+Marketplace%29+Regulations%2C+2024.pdf/dc31b451-7eff-e155-e179-a81ad30d3105?version=1.0&t=1712310564868&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A5%81%E0%A4%97%E0%A4%AE+%E2%80%93+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%87%E0%A4%B2%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%95+%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Bima+Sugam-+Insurance+Electronic+Marketplace%29+Regulations%2C+2024.pdf/dc31b451-7eff-e155-e179-a81ad30d3105?version=1.0&t=1712310564868&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "The Bima Sugam company; insurers and intermediaries that participate in the marketplace"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Not-for-profit electronic marketplace",
+    "Single platform to buy, service and claim",
+    "Data privacy and security"
+   ],
+   "core_obligations": [
+    "regulation 7: the marketplace supports purchase, servicing and claims",
+    "regulation 9: participants follow the security and privacy rules"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "regulation 12: penalty for violations"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "REG-CA",
+   "type": "Regulation",
+   "short_name": "Corporate agents",
+   "title": "IRDAI (Registration of Corporate Agents) Regulations, 2015 (as amended in 2019, 2022 and 2026)",
+   "issuing_department": "IRDAI",
+   "theme": "Distribution: agents and corporate agents",
+   "reference_no": "",
+   "issue_date": "2015-09-15",
+   "updated_as_on": "2026-07-31",
+   "effective_date": "2015-09-15",
+   "status": "In force (amended 31-07-2026)",
+   "official_url": "https://irdai.gov.in/documents/37343/602265/IRDAI+%28Registration+Of+Corporate+Agents%29+Regulations%2C+2015.pdf/543af763-08c5-7aef-225e-5ba9a4e42325?version=1.3&t=1665255730295&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/602265/IRDAI+%28Registration+Of+Corporate+Agents%29+Regulations%2C+2015.pdf/543af763-08c5-7aef-225e-5ba9a4e42325?version=1.3&t=1665255730295&download=true",
+   "statutory_powers": [
+    "Insurance Act 1938 ss. 42D, 114A",
+    "IRDA Act 1999 ss. 14, 26"
+   ],
+   "applies_to": [
+    "Corporate agents (life, general, health, composite), including those that sell online",
+    "Insurers that engage corporate agents"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Principal Officer and Specified Persons",
+    "Open architecture: up to 9 life, 9 general and 9 health insurers",
+    "Board policy on open architecture",
+    "Professional indemnity cover",
+    "Code of conduct",
+    "No forced selling"
+   ],
+   "core_obligations": [
+    "tie up with up to nine insurers in each of life, general and health",
+    "disclose the insurers it deals with, and the commission received when the customer asks",
+    "no forced selling; Principal Officer and CFO certify this half-yearly",
+    "no signing fee and no direct incentive from insurers to the agent's staff",
+    "tag each policy to the Specified Person who sold it",
+    "regulation 19: if insurance distribution is over half its revenue, hold professional indemnity cover of twice annual insurance remuneration, at least Rs 15 lakh, up to Rs 100 crore",
+    "no multilevel marketing",
+    "a corporate agent set up only for insurance distribution needs prior IRDAI approval for an ownership or shareholding change above 25%",
+    "keep servicing policies for 6 months after a tie-up ends"
+   ],
+   "timelines": [
+    "grievances resolved within 14 days",
+    "half-yearly returns by 31 October and 30 April",
+    "tie-up arrangements disclosed to IRDAI within 30 days, for at least one year",
+    "material changes and proceedings reported within 30 days"
+   ],
+   "consequences_stated": [
+    "suspension or cancellation of registration after a hearing",
+    "Insurance Act s. 105BA penalties for acting without registration"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-INTERMED-AMD2026",
+    "FAQ-INTERMED-2026",
+    "Insurance Act, 1938 ss. 40, 41, 42D"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-INTERMED-AMD2026",
+   "type": "Regulation",
+   "short_name": "Intermediaries amendment 2026",
+   "title": "IRDAI (Insurance Intermediaries) (Amendment) Regulations, 2026",
+   "issuing_department": "IRDAI",
+   "theme": "Distribution: agents and corporate agents",
+   "reference_no": "F. No. IRDAI/Reg/8/222/2026",
+   "issue_date": "2026-07-31",
+   "updated_as_on": "",
+   "effective_date": "2026-07-31",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Insurance+Intermediaries%29+%28Amendment%29+Regulations%2C+2026.pdf/4961106d-b7f4-c117-a302-4bf3ef9356c5?version=1.0&t=1785736027526&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/IRDAI+%28Insurance+Intermediaries%29+%28Amendment%29+Regulations%2C+2026.pdf/4961106d-b7f4-c117-a302-4bf3ef9356c5?version=1.0&t=1785736027526&download=true",
+   "statutory_powers": [
+    "Insurance Act 1938 ss. 42D, 114A"
+   ],
+   "applies_to": [
+    "Corporate agents, insurance brokers, insurance marketing firms, web aggregators and others under the amended regulations"
+   ],
+   "excluded": [
+    "Individual insurance agents (Agents Regulations 2016 are not amended)"
+   ],
+   "key_concepts": [
+    "Registration continues while the annual fee is paid",
+    "Fresh certificate for existing corporate agents",
+    "Functional ID of the seller on policy documents",
+    "Annual disclosure by large or foreign-majority corporate agents"
+   ],
+   "core_obligations": [
+    "Chapter I: existing corporate agents apply for a fresh certificate in Form A through the Agency Portal",
+    "Chapter I: no solicitation from a branch without an exclusive Specified Person",
+    "Chapter I: policy, proposal and certificate of insurance show the seller's name, functional ID and branch contact; online sales show the Principal Officer's contact",
+    "Chapter I: Principal Officer and Specified Persons complete 25 hours of training every three years",
+    "Chapter I: a corporate agent with foreign majority ownership or commission above Rs 10 crore publishes an annual disclosure on its website",
+    "Chapter I: annual fee is the higher of Rs 10,000 or 1/25 of 1% of commission and other receipts"
+   ],
+   "timelines": [
+    "Chapter I: existing corporate agents apply by 31-01-2027; late applications up to 31-03-2027 with Rs 750 extra, after which registration ceases",
+    "Chapter I: policy tagging with functional ID from 01-01-2027",
+    "Chapter I: annual fee paid before 31 January for the next year; 2% extra if paid within 30 days late, 10% after",
+    "Chapter I: audited financial statements to IRDAI by 30 September",
+    "Chapter I: NOC for a Specified Person to switch is deemed granted after 30 days"
+   ],
+   "consequences_stated": [
+    "Chapter I: unpaid fee means suspension from 1 April; revoked if paid with 20% extra within 3 months, else cancelled",
+    "Chapter I: suspension without notice for fraud or conviction",
+    "Chapter I: a rejected applicant cannot reapply for one year"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-CA",
+    "FAQ-INTERMED-2026",
+    "Insurance Act, 1938 s. 42D"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "FAQ-INTERMED-2026",
+   "type": "FAQ",
+   "short_name": "FAQs on the intermediaries amendment",
+   "title": "FAQs on Insurance Intermediaries (Amendment) Regulations, 2026",
+   "issuing_department": "IRDAI (Intermediaries)",
+   "theme": "Distribution: agents and corporate agents",
+   "reference_no": "IRDAI web page",
+   "issue_date": "2026-08-01",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "In force (explanatory)",
+   "official_url": "https://irdai.gov.in/faqs-on-insurance-intermediaries-amendment-regulations-2026",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Corporate agents and other intermediaries"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "How to apply for the fresh certificate",
+    "Annual fee computation"
+   ],
+   "core_obligations": [
+    "Read with the 2026 amendment regulations; the FAQs do not change them"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "REG-INTERMED-AMD2026"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-AGENT",
+   "type": "Regulation",
+   "short_name": "Appointment of insurance agents",
+   "title": "IRDAI (Appointment of Insurance Agents) Regulations, 2016",
+   "issuing_department": "IRDAI",
+   "theme": "Distribution: agents and corporate agents",
+   "reference_no": "F. No. IRDAI/Reg/11/123/2016",
+   "issue_date": "2016-03-15",
+   "updated_as_on": "",
+   "effective_date": "2016-03-15",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2016+_+IRDAI+%28APPOINTMENT+OF+INSURANCE+AGENTS%29+REGULATIONS%2C+2016.pdf/38ea13ee-c319-98c6-ade5-7bfa7b561682?version=1.1&t=1687411143635&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2016+_+IRDAI+%28APPOINTMENT+OF+INSURANCE+AGENTS%29+REGULATIONS%2C+2016.pdf/38ea13ee-c319-98c6-ade5-7bfa7b561682?version=1.1&t=1687411143635&download=true",
+   "statutory_powers": [
+    "Insurance Act 1938 ss. 42, 114A"
+   ],
+   "applies_to": [
+    "Individual insurance agents and the insurers that appoint them"
+   ],
+   "excluded": [
+    "Corporate agents"
+   ],
+   "key_concepts": [
+    "Designated Official",
+    "Composite agent (one life, one general, one health, one of each mono-line)",
+    "Code of conduct",
+    "Board-approved agency policy"
+   ],
+   "core_obligations": [
+    "applicant files Form I-A with PAN and passes the examination",
+    "the Designated Official checks the central and blacklist databases before appointing",
+    "regulation 8: agents follow the code of conduct; no inducement to replace a policy within 3 years",
+    "insurers file a Board-approved agency policy with IRDAI by 31 March each year",
+    "insurers keep agent records for 5 years"
+   ],
+   "timelines": [
+    "exam pass certificate valid 12 months",
+    "appointment letter within 15 days; refusal with reasons within 21 days; appeal decided in 15 days",
+    "cessation certificate within 15 days; new appointment after 90 days",
+    "agent whose appointment is cancelled cannot be reappointed for 5 years"
+   ],
+   "consequences_stated": [
+    "agent penalty up to Rs 10,000; insurer up to Rs 1 crore (s. 42(4))",
+    "insurer is responsible for its agents' acts (s. 42(5))"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "Insurance Act, 1938 ss. 42, 42A, 43"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-20250509-26",
+   "type": "Circular",
+   "short_name": "Corporate agency of amalgamated RRBs",
+   "title": "Corporate Agency Matters Concerning RRBs Amalgamated from 1st May 2025 and Beyond",
+   "issuing_department": "IRDAI (Intermediaries)",
+   "theme": "Distribution: agents and corporate agents",
+   "reference_no": "IRDAI/CA/CIR/MISC/64/05/2025",
+   "issue_date": "2025-05-09",
+   "updated_as_on": "",
+   "effective_date": "2025-05-09",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A5%80%E0%A4%A3+%E0%A4%AC%E0%A5%88%E0%A4%82%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%87%E0%A4%9F+%E0%A4%8F%E0%A4%9C%E0%A5%87%E0%A4%82%E0%A4%B8%E0%A5%80+%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%2C+%E0%A4%9C%E0%A4%BF%E0%A4%A8%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AE%E0%A5%87%E0%A4%B2%E0%A4%A8+1+%E0%A4%AE%E0%A4%88+2025+%E0%A4%B8%E0%A5%87+%E0%A4%94%E0%A4%B0+%E0%A4%89%E0%A4%B8%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A4%BE%E0%A4%A6+%E0%A4%B9%E0%A5%81%E0%A4%86+%E0%A4%B9%E0%A5%88+_+Corporate+Agency+Matters+Concerning+RRBs+Amalgamated+from+1st+May+2025+and+Beyond.pdf/c3efa19e-e64e-a922-1bc1-511470960416?version=2.0&t=1747138379147&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A5%80%E0%A4%A3+%E0%A4%AC%E0%A5%88%E0%A4%82%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%87%E0%A4%9F+%E0%A4%8F%E0%A4%9C%E0%A5%87%E0%A4%82%E0%A4%B8%E0%A5%80+%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%2C+%E0%A4%9C%E0%A4%BF%E0%A4%A8%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AE%E0%A5%87%E0%A4%B2%E0%A4%A8+1+%E0%A4%AE%E0%A4%88+2025+%E0%A4%B8%E0%A5%87+%E0%A4%94%E0%A4%B0+%E0%A4%89%E0%A4%B8%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A4%BE%E0%A4%A6+%E0%A4%B9%E0%A5%81%E0%A4%86+%E0%A4%B9%E0%A5%88+_+Corporate+Agency+Matters+Concerning+RRBs+Amalgamated+from+1st+May+2025+and+Beyond.pdf/c3efa19e-e64e-a922-1bc1-511470960416?version=2.0&t=1747138379147&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "Regional Rural Banks registered as corporate agents and their insurer partners"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Continuity of corporate agency after RRB amalgamation",
+    "Fresh registration of the amalgamated bank"
+   ],
+   "core_obligations": [
+    "the amalgamated RRB follows the procedure in the circular for its corporate agency registration and tie-ups"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-CA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-EOM",
+   "type": "Regulation",
+   "short_name": "Expenses of management and commission",
+   "title": "IRDAI (Expenses of Management, including Commission, of Insurers) Regulations, 2024",
+   "issuing_department": "IRDAI",
+   "theme": "Commission and expenses of management",
+   "reference_no": "F. No. IRDAI/Reg/2/196/2024",
+   "issue_date": "2024-01-24",
+   "updated_as_on": "",
+   "effective_date": "2024-04-01",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%95%E0%A4%AE%E0%A5%80%E0%A4%B6%E0%A4%A8+%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28EOM+including+Commission%29+Regulations%2C2024.pdf/9af08911-7e26-a6c3-8b29-9d4a95968301?version=1.0&t=1706101332744&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%95%E0%A4%AE%E0%A5%80%E0%A4%B6%E0%A4%A8+%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28EOM+including+Commission%29+Regulations%2C2024.pdf/9af08911-7e26-a6c3-8b29-9d4a95968301?version=1.0&t=1706101332744&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers; commission paid to agents and intermediaries"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Board policy on expenses of management",
+    "Board policy on commission",
+    "Overall limits as a share of gross premium",
+    "General insurers 30% of gross written premium",
+    "Standalone health insurers 35%",
+    "Life insurers: segment-wise limits"
+   ],
+   "core_obligations": [
+    "Board-approved policies on expenses of management and on commission",
+    "regulation 5: annual business plan with projected expense ratios",
+    "regulation 8: life insurers stay within the segment-wise limits",
+    "regulation 10: extra allowance of up to 5% of the allowable expenses of management (not of premium) for insurtech and insurance awareness"
+   ],
+   "timelines": [
+    "limits measured each financial year"
+   ],
+   "consequences_stated": [
+    "Insurance Act s. 40(3): commission paid outside the rules: penalty up to Rs 1 lakh"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "MC-EOM",
+    "Insurance Act, 1938 s. 40"
+   ],
+   "repeals": "Expenses of management and commission regulations of 2023"
+  },
+  {
+   "id": "MC-EOM",
+   "type": "Master Circular",
+   "short_name": "Master Circular on expenses and commission",
+   "title": "Master Circular on Expenses of Management, including Commission, of Insurers, 2024",
+   "issuing_department": "IRDAI (Finance and Investment)",
+   "theme": "Commission and expenses of management",
+   "reference_no": "IRDAI/F&I/CIR/79/5/2024",
+   "issue_date": "2024-05-15",
+   "updated_as_on": "",
+   "effective_date": "2024-05-15",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%95%E0%A4%AE%E0%A5%80%E0%A4%B6%E0%A4%A8+%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%AF%2C+2024+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Expenses+of+Management%2C+including+Commission%2C+of+Insurers%2C+2024.pdf/8b5f9495-837e-bd67-60f2-68e2be57b0b1?version=3.0&t=1716209830485&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%95%E0%A4%AE%E0%A5%80%E0%A4%B6%E0%A4%A8+%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%AF%2C+2024+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Expenses+of+Management%2C+including+Commission%2C+of+Insurers%2C+2024.pdf/8b5f9495-837e-bd67-60f2-68e2be57b0b1?version=3.0&t=1716209830485&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Board policy on commission for intermediaries",
+    "Fair and reasonable commission",
+    "Business plan format"
+   ],
+   "core_obligations": [
+    "para 1: the Board commission policy covers objectives, fairness, market conduct, conflicts of interest and monitoring",
+    "para 1.2(d): the audit committee reviews the commission policy at least once a year",
+    "para 1.2(g): a new commission structure does not apply to policies already sold",
+    "para 2: business plan under regulation 5 shows expense ratios"
+   ],
+   "timelines": [
+    "para 1.2(d): annual review of the commission policy"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-EOM"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-RRS",
+   "type": "Regulation",
+   "short_name": "Rural, social sector and motor third party obligations",
+   "title": "IRDAI (Rural, Social Sector and Motor Third Party Obligations) Regulations, 2024",
+   "issuing_department": "IRDAI",
+   "theme": "Rural, social sector and motor obligations",
+   "reference_no": "F. No. IRDAI/Reg/4/198/2024",
+   "issue_date": "2024-02-20",
+   "updated_as_on": "",
+   "effective_date": "2024-04-01",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A5%80%E0%A4%A3%2C+%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95+%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%94%E0%A4%B0+%E0%A4%AE%E0%A5%8B%E0%A4%9F%E0%A4%B0+%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A4%95%E0%A5%8D%E0%A4%B7+%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B5%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Rural%2C+social+sector+and+Motor+third+party+obligations%29+Regulations%2C+2024.pdf/25275be5-19c5-9e21-5965-5b37010e225e?version=1.1&t=1712320288621&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A5%80%E0%A4%A3%2C+%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95+%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%94%E0%A4%B0+%E0%A4%AE%E0%A5%8B%E0%A4%9F%E0%A4%B0+%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A4%95%E0%A5%8D%E0%A4%B7+%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B5%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Rural%2C+social+sector+and+Motor+third+party+obligations%29+Regulations%2C+2024.pdf/25275be5-19c5-9e21-5965-5b37010e225e?version=1.1&t=1712320288621&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers"
+   ],
+   "excluded": [
+    "Agriculture Insurance Company and ECGC for rural and social sector targets"
+   ],
+   "key_concepts": [
+    "Gram panchayat-based rural obligations",
+    "Social sector: share of lives covered",
+    "Government schemes count towards obligations"
+   ],
+   "core_obligations": [
+    "regulation 4: insurers cover a minimum share of lives (life, health, personal accident) or of dwellings, shops and vehicles (general) in gram panchayats allotted by the Councils",
+    "regulation 4(B): social sector lives as a minimum share of all lives covered",
+    "Master Circular 2025: for FY 2026-27, 50,000 gram panchayats are allotted; coverage 25% in those allotted earlier and 10% in new ones; social sector 12% of lives",
+    "regulation 8: file returns on obligations"
+   ],
+   "timelines": [
+    "regulation 4: targets set for each financial year after notification"
+   ],
+   "consequences_stated": [
+    "Insurance Act s. 105B: failure to meet the obligations: up to Rs 25 crore"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "MC-RRS",
+    "Insurance Act, 1938 ss. 32B, 32C, 32D"
+   ],
+   "repeals": "Earlier rural and social sector obligation regulations"
+  },
+  {
+   "id": "MC-RRS",
+   "type": "Master Circular",
+   "short_name": "Master Circular on rural, social and motor obligations",
+   "title": "Master Circular on Rural, Social Sector and Motor Third Party Obligations",
+   "issuing_department": "IRDAI (Non-Life)",
+   "theme": "Rural, social sector and motor obligations",
+   "reference_no": "IRDAI/NL/CIR/RSS/85/07/2025",
+   "issue_date": "2025-07-25",
+   "updated_as_on": "",
+   "effective_date": "2025-07-25",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A5%80%E0%A4%A3%2C+%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95+%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%94%E0%A4%B0+%E0%A4%AE%E0%A5%8B%E0%A4%9F%E0%A4%B0+%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A4%95%E0%A5%8D%E0%A4%B7+%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Rural%2C+Social+Sector+and+Motor+Third+Party+Obligations.pdf/22343683-1b1b-8b6b-55f7-f80317a4cad8?version=1.0&t=1753450439575&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A5%80%E0%A4%A3%2C+%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95+%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%94%E0%A4%B0+%E0%A4%AE%E0%A5%8B%E0%A4%9F%E0%A4%B0+%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A4%95%E0%A5%8D%E0%A4%B7+%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Master+Circular+on+Rural%2C+Social+Sector+and+Motor+Third+Party+Obligations.pdf/22343683-1b1b-8b6b-55f7-f80317a4cad8?version=1.0&t=1753450439575&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Gram panchayats allotted by the Life and General Insurance Councils",
+    "Motor third party obligations by market share",
+    "Reporting formats"
+   ],
+   "core_obligations": [
+    "para 3(A): FY 2025-26: 25,000 gram panchayats, 15% coverage; FY 2026-27: 50,000 gram panchayats, 25% coverage in those allotted earlier and 10% in newly added ones",
+    "para 3(B): social sector lives at least 10% of all lives in FY 2025-26 and 12% in FY 2026-27",
+    "para 3(C): general insurers meet motor third party obligations set by their market share band"
+   ],
+   "timelines": [
+    "para 1(c): this Master Circular governs FY 2025-26 and FY 2026-27"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-RRS"
+   ],
+   "repeals": "The 2024 Master Circular on the same subject"
+  },
+  {
+   "id": "MC-AML",
+   "type": "Guidelines",
+   "short_name": "AML/CFT guidelines",
+   "title": "Master Guidelines on Anti-Money Laundering / Counter Financing of Terrorism (AML/CFT), 2022 (amended 2023)",
+   "issuing_department": "IRDAI (Insurance Inclusion and Development)",
+   "theme": "AML, fraud and cyber security",
+   "reference_no": "IRDAI/IID/GDL/MISC/160/8/2022; amended by IRDAI/IID/CIR/MISC/177/10/2023",
+   "issue_date": "2022-08-01",
+   "updated_as_on": "2023-10-10",
+   "effective_date": "2022-08-01",
+   "status": "In force (amended 10-10-2023)",
+   "official_url": "https://irdai.gov.in/documents/37343/366029/Master+Guidelines+on+Anti-Money+Laundering+2022.pdf/0e50dd32-00f3-33e1-ebee-0d0989d67932?version=1.1&t=1665032662486&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366029/Master+Guidelines+on+Anti-Money+Laundering+2022.pdf/0e50dd32-00f3-33e1-ebee-0d0989d67932?version=1.1&t=1665032662486&download=true",
+   "statutory_powers": [
+    "Prevention of Money-laundering Act 2002",
+    "PML (Maintenance of Records) Rules 2005"
+   ],
+   "applies_to": [
+    "Life insurers and general insurers (including standalone health insurers)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Designated Director and Principal Officer",
+    "Customer due diligence and KYC",
+    "Suspicious transaction reporting",
+    "Group-wide AML programmes"
+   ],
+   "core_obligations": [
+    "para 5: appoint a Designated Director and a Principal Officer",
+    "para 20.3: the Principal Officer monitors and reports suspicious transactions",
+    "para 2.2A and 4.6: group-wide AML programmes (2023 amendment)"
+   ],
+   "timelines": [
+    "para 19: records kept for five years"
+   ],
+   "consequences_stated": [
+    "PMLA s. 13: penalties for reporting entities"
+   ],
+   "consequences_general": "",
+   "cross_references": [],
+   "repeals": "Earlier AML guidelines for insurers"
+  },
+  {
+   "id": "MC-FRAUD",
+   "type": "Guidelines",
+   "short_name": "Insurance fraud monitoring framework",
+   "title": "IRDAI (Insurance Fraud Monitoring Framework) Guidelines, 2025",
+   "issuing_department": "IRDAI (Insurance Inclusion and Development)",
+   "theme": "AML, fraud and cyber security",
+   "reference_no": "IRDAI/IID/GDL/MISC/112/10/2025",
+   "issue_date": "2025-10-09",
+   "updated_as_on": "",
+   "effective_date": "2026-04-01",
+   "status": "In force from 01-04-2026",
+   "official_url": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%A7%E0%A5%8B%E0%A4%96%E0%A4%BE%E0%A4%A7%E0%A4%A1%E0%A4%BC%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%97%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%80+%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%B0%E0%A5%87%E0%A4%96%E0%A4%BE%29+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2025+_+IRDAI+%28Insurance+Fraud+Monitoring+Framework%29+Guidelines%2C+2025.pdf/99fa5c70-aee2-43af-d52b-50818f53c1df?version=2.5&t=1762079011603&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%A7%E0%A5%8B%E0%A4%96%E0%A4%BE%E0%A4%A7%E0%A4%A1%E0%A4%BC%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%97%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%80+%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%B0%E0%A5%87%E0%A4%96%E0%A4%BE%29+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2025+_+IRDAI+%28Insurance+Fraud+Monitoring+Framework%29+Guidelines%2C+2025.pdf/99fa5c70-aee2-43af-d52b-50818f53c1df?version=2.5&t=1762079011603&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers, intermediaries, insurance intermediaries and distribution channels"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Zero tolerance for fraud",
+    "Board-approved anti-fraud policy",
+    "Fraud Monitoring Committee headed by a KMP",
+    "Red flag indicators",
+    "Industry fraud database at the IIB"
+   ],
+   "core_obligations": [
+    "para 5.3.1: Board-approved anti-fraud policy, reviewed at least once a year",
+    "para 5.3.2: Fraud Monitoring Committee reports quarterly to the Risk Management Committee",
+    "para 7.3: share blacklisted distributors, hospitals, vendors and fraudsters with the IIB",
+    "para 10.1: intermediaries keep their own anti-fraud policies and tell the insurer when they suspect fraud",
+    "para 10.2: other distribution channels follow the insurer's anti-fraud policy and report suspicions to it"
+   ],
+   "timelines": [
+    "para 5.3.2.4: quarterly FMC report to the RMC",
+    "para 12.2: annual return FMR-1 within 30 days of the financial year end"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "MC-AML"
+   ],
+   "repeals": "Insurance Fraud Monitoring Framework of 21-01-2013"
+  },
+  {
+   "id": "MC-CYBER",
+   "type": "Guidelines",
+   "short_name": "Information and cyber security guidelines",
+   "title": "IRDAI Information and Cyber Security Guidelines, 2026",
+   "issuing_department": "IRDAI (GA&HR)",
+   "theme": "AML, fraud and cyber security",
+   "reference_no": "IRDAI/GA&HR/CIR/MISC/51/4/2026",
+   "issue_date": "2026-04-06",
+   "updated_as_on": "",
+   "effective_date": "2026-04-06",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2026+_+IRDAI+Information+and+Cybersecurity+Guidelines%2C+2026.pdf/9714979d-6006-3809-297f-91a4593ac072?version=2.0&t=1777011998536&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2026+_+IRDAI+Information+and+Cybersecurity+Guidelines%2C+2026.pdf/9714979d-6006-3809-297f-91a4593ac072?version=2.0&t=1777011998536&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers (including foreign reinsurer branches), brokers, corporate agents, web aggregators, TPAs, IMFs, repositories and the IIB"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Minimum standards and governance for information and cyber security",
+    "Applies from the current financial year"
+   ],
+   "core_obligations": [
+    "para 5: comply with the 2026 Guidelines from the current financial year"
+   ],
+   "timelines": [
+    "para 5: compliance from FY 2026-27"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "Cyber incident preparedness circular 2025"
+   ],
+   "repeals": "Information and Cyber Security Guidelines of 24-04-2023"
+  },
+  {
+   "id": "CIR-20250326-27",
+   "type": "Circular",
+   "short_name": "Cyber incident preparedness",
+   "title": "Circular on Cyber Incident or Crisis Preparedness",
+   "issuing_department": "IRDAI (GA&HR)",
+   "theme": "AML, fraud and cyber security",
+   "reference_no": "IRDAI/GA&HR/CIR/MISC/49/03/2025",
+   "issue_date": "2025-03-26",
+   "updated_as_on": "",
+   "effective_date": "2025-03-26",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%98%E0%A4%9F%E0%A4%A8%E0%A4%BE+%E0%A4%AF%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%95%E0%A4%9F+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81+%E0%A4%A4%E0%A5%88%E0%A4%AF%E0%A4%BE%E0%A4%B0%E0%A5%80+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Circular+on+Cyber+Incident+or+Crisis+Preparedness.pdf/2b53047f-cf15-ea35-f8af-882a3150ef2c?version=2.0&t=1744030330726&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%98%E0%A4%9F%E0%A4%A8%E0%A4%BE+%E0%A4%AF%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%95%E0%A4%9F+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81+%E0%A4%A4%E0%A5%88%E0%A4%AF%E0%A4%BE%E0%A4%B0%E0%A5%80+%E0%A4%AA%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Circular+on+Cyber+Incident+or+Crisis+Preparedness.pdf/2b53047f-cf15-ea35-f8af-882a3150ef2c?version=2.0&t=1744030330726&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insurers and intermediaries"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Cyber crisis management plan",
+    "Incident reporting"
+   ],
+   "core_obligations": [
+    "keep a tested cyber crisis management plan and report incidents as required"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "MC-CYBER"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-INFO",
+   "type": "Regulation",
+   "short_name": "Maintenance and sharing of information",
+   "title": "IRDAI (Maintenance of Information by the Regulated Entities and Sharing of Information by the Authority) Regulations, 2025",
+   "issuing_department": "IRDAI",
+   "theme": "Returns, records and disclosure",
+   "reference_no": "F. No. IRDAI/Reg/4/211/2025",
+   "issue_date": "2025-01-10",
+   "updated_as_on": "",
+   "effective_date": "2025-01-10",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BF%E0%A4%A4+%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%95%E0%A4%BE+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3+%E0%A4%A4%E0%A4%A5%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%95%E0%A5%87+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%95%E0%A5%80+%E0%A4%B8%E0%A4%BE%E0%A4%9D%E0%A5%87%E0%A4%A6%E0%A4%BE%E0%A4%B0%E0%A5%80%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+_+IRDAI+%28Maintenance+of+Information+by+the+Regulated+Entities+and+Sharing+of+Information+by+the+Authority%29%2C+Regulations+2025.pdf/1e4ffda7-5f81-e087-ceb5-ae3c6ab0f186?version=1.1&t=1737024827159&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BF%E0%A4%A4+%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%95%E0%A4%BE+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3+%E0%A4%A4%E0%A4%A5%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%95%E0%A5%87+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%95%E0%A5%80+%E0%A4%B8%E0%A4%BE%E0%A4%9D%E0%A5%87%E0%A4%A6%E0%A4%BE%E0%A4%B0%E0%A5%80%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+_+IRDAI+%28Maintenance+of+Information+by+the+Regulated+Entities+and+Sharing+of+Information+by+the+Authority%29%2C+Regulations+2025.pdf/1e4ffda7-5f81-e087-ceb5-ae3c6ab0f186?version=1.1&t=1737024827159&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insurers, intermediaries and insurance intermediaries"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Policy and claim records in electronic form",
+    "Data held in India",
+    "Board policy on record keeping and destruction"
+   ],
+   "core_obligations": [
+    "regulation 9: keep complete electronic records of every policy and claim, held in data centres in India",
+    "regulation 12: insurers keep records at their principal place of business in India",
+    "regulation 13: intermediaries keep the Schedule II records at their principal place of business",
+    "regulation 16: Board policy on keeping and destroying records"
+   ],
+   "timelines": [
+    "regulation 16: records kept at least 10 years from the last transaction or policy expiry, or longer if law requires",
+    "Schedule I para 8: claim files kept 3 years (claims under Rs 1 lakh), 5 years (Rs 1 lakh to Rs 10 lakh), 7 years (Rs 10 lakh to Rs 20 lakh), 12 years (Rs 20 lakh and above), counted from settlement"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "Insurance Act, 1938 s. 14"
+   ],
+   "repeals": "Minimum Information for Investigation and Inspection Regulations 2020; Sharing of Confidential Information Regulations 2012; Maintenance of Insurance Records Regulations 2015"
+  },
+  {
+   "id": "MC-RET",
+   "type": "Master Circular",
+   "short_name": "Master Circular on returns",
+   "title": "Master Circular on Submission of Returns, 2024",
+   "issuing_department": "IRDAI",
+   "theme": "Returns, records and disclosure",
+   "reference_no": "",
+   "issue_date": "2024-06-14",
+   "updated_as_on": "",
+   "effective_date": "2024-06-14",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%A3%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2024+_+Master+Circular+on+Submission+of+Returns%2C+2024.pdf/7ea64c43-a74b-1c31-d6f4-f7db5451fb54?version=3.0&t=1732194180721&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%A3%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2024+_+Master+Circular+on+Submission+of+Returns%2C+2024.pdf/7ea64c43-a74b-1c31-d6f4-f7db5451fb54?version=3.0&t=1732194180721&download=true",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Consolidated list of regulatory returns by regulation",
+    "Return formats and due dates"
+   ],
+   "core_obligations": [
+    "file each return listed under the relevant 2024 regulation in the format and by the date given"
+   ],
+   "timelines": [
+    "due dates as set out in the annexures for each return"
+   ],
+   "consequences_stated": [
+    "Insurance Act s. 102: failure to file a return: up to Rs 1 lakh a day, maximum Rs 10 crore"
+   ],
+   "consequences_general": "Insurance Act, 1938: IRDAI may issue directions, including disgorgement of wrongful gains (s. 34). An insurer or intermediary that fails to file a return, comply with IRDAI directions or maintain solvency is liable to up to Rs 1 lakh a day, capped at Rs 10 crore (s. 102). Registration can be suspended or cancelled (s. 3 for insurers, s. 42D for intermediaries). Penalty cases follow the IRDAI Penalties Regulations 2026 and orders are published within 30 days (s. 105E).",
+   "cross_references": [
+    "REG-AFI",
+    "REG-EOM",
+    "REG-RRS",
+    "REG-PPHI"
+   ],
+   "repeals": "Earlier circulars on returns listed in para 11"
+  },
+  {
+   "id": "REG-ADV",
+   "type": "Superseded instrument",
+   "short_name": "Advertisements and disclosure 2021",
+   "title": "IRDAI (Insurance Advertisements and Disclosure) Regulations, 2021",
+   "issuing_department": "IRDAI",
+   "theme": "Superseded (history)",
+   "reference_no": "",
+   "issue_date": "2021-04-12",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Repealed by the PPHI Regulations 2024 (2024-04-01)",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2021+_+IRDAI+%28Insurance+Advertisements+and+Disclosure%29+Regulations%2C+2021.pdf/0a7cdeb0-f9ba-ec3d-632f-275a9c185a7e?version=1.3&t=1687411247203&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2021+_+IRDAI+%28Insurance+Advertisements+and+Disclosure%29+Regulations%2C+2021.pdf/0a7cdeb0-f9ba-ec3d-632f-275a9c185a7e?version=1.3&t=1687411247203&download=true",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "REG-OUTS",
+   "type": "Superseded instrument",
+   "short_name": "Outsourcing by insurers 2017",
+   "title": "IRDAI (Outsourcing of Activities by Indian Insurers) Regulations, 2017",
+   "issuing_department": "IRDAI",
+   "theme": "Superseded (history)",
+   "reference_no": "F. No. IRDAI/Reg/5/142/2017",
+   "issue_date": "2017-05-06",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Repealed by the PPHI Regulations 2024 (2024-04-01)",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A4%B2%E0%A4%BE%E0%A4%AA%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AC%E0%A4%BE%E0%A4%B9%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2017+_+IRDAI+%28Outsourcing+of+Activities+by+Indian+Insurers%29+Regulations%2C+2017.pdf/ce585410-a5bc-d16c-2b29-f41582574851?version=1.3&t=1687411431894&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A4%B2%E0%A4%BE%E0%A4%AA%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AC%E0%A4%BE%E0%A4%B9%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2017+_+IRDAI+%28Outsourcing+of+Activities+by+Indian+Insurers%29+Regulations%2C+2017.pdf/ce585410-a5bc-d16c-2b29-f41582574851?version=1.3&t=1687411431894&download=true",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "SUP-PPHI2017",
+   "type": "Superseded instrument",
+   "short_name": "Policyholders' interests 2017",
+   "title": "IRDAI (Protection of Policyholders' Interests) Regulations, 2017",
+   "issuing_department": "IRDAI",
+   "theme": "Superseded (history)",
+   "reference_no": "",
+   "issue_date": "2017-06-22",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Repealed by the PPHI Regulations 2024 (2024-04-01)",
+   "official_url": "",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "SUP-HEALTH2016",
+   "type": "Superseded instrument",
+   "short_name": "Health insurance regulations 2016",
+   "title": "IRDAI (Health Insurance) Regulations, 2016",
+   "issuing_department": "IRDAI",
+   "theme": "Superseded (history)",
+   "reference_no": "",
+   "issue_date": "2016-07-14",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Repealed by the Insurance Products Regulations 2024 (2024-04-01)",
+   "official_url": "",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "SUP-FRAUD2013",
+   "type": "Superseded instrument",
+   "short_name": "Fraud monitoring framework 2013",
+   "title": "Insurance Fraud Monitoring Framework",
+   "issuing_department": "IRDAI",
+   "theme": "Superseded (history)",
+   "reference_no": "IRDA/SDD/MISC/CIR/009/01/2013",
+   "issue_date": "2013-01-21",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Repealed by the Fraud Monitoring Framework Guidelines 2025 (2026-04-01)",
+   "official_url": "",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "SUP-CYBER2023",
+   "type": "Superseded instrument",
+   "short_name": "Cyber security guidelines 2023",
+   "title": "IRDAI Guidelines on Information and Cyber Security for Regulated Entities, 2023",
+   "issuing_department": "IRDAI",
+   "theme": "Superseded (history)",
+   "reference_no": "IRDAI/GA&HR/GDL/MISC/88/04/2023",
+   "issue_date": "2023-04-24",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Repealed by the Information and Cyber Security Guidelines 2026 (2026-04-06)",
+   "official_url": "",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "SUP-RECORDS2015",
+   "type": "Superseded instrument",
+   "short_name": "Maintenance of insurance records 2015",
+   "title": "IRDAI (Maintenance of Insurance Records) Regulations, 2015",
+   "issuing_department": "IRDAI",
+   "theme": "Superseded (history)",
+   "reference_no": "",
+   "issue_date": "2015-07-21",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Repealed by the Maintenance of Information Regulations 2025 (2025-01-10)",
+   "official_url": "",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-20260316-17",
+   "type": "Superseded instrument",
+   "short_name": "Annual fee transition 2026",
+   "title": "Transitional arrangements for payment of Annual Fee and issuance of Certificate of Registration (Intermediaries), extended on 02-07-2026",
+   "issuing_department": "IRDAI",
+   "theme": "Superseded (history)",
+   "reference_no": "IRDAI/INT/CIR/MISC/41/3/2026; IRDAI/INT/CIR/MISC/91/7/2026",
+   "issue_date": "2026-03-16",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Repealed by the Intermediaries (Amendment) Regulations 2026 (2026-07-31)",
+   "official_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%8F%E0%A4%81+%28%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82%29+_+Transitional+arrangements+for+payment+of+Annual+Fee+and+issuance++of++Certificate++of++Registration+%28Intermediaries%29.pdf/840b8111-53f2-566b-e1ce-e2d5a6b961aa?version=2.0&t=1774597157001&download=true",
+   "official_pdf": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%8F%E0%A4%81+%28%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82%29+_+Transitional+arrangements+for+payment+of+Annual+Fee+and+issuance++of++Certificate++of++Registration+%28Intermediaries%29.pdf/840b8111-53f2-566b-e1ce-e2d5a6b961aa?version=2.0&t=1774597157001&download=true",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [],
+   "repeals": ""
+  }
+ ]
+}

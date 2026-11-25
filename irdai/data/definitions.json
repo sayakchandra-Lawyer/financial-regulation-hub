@@ -1,0 +1,1332 @@
+{
+ "meta": {
+  "as_of": "2026-11-25",
+  "note": "Terms as each instrument defines them, shortened where long. The instrument's own text governs."
+ },
+ "instruments": {
+  "ACT-INS": [
+   {
+    "term": "Authority",
+    "para": "s. 2(1A)",
+    "def": "means the Insurance Regulatory and Development Authority of India established under sub-section (1) of section 3 of the Insurance Regulatory and Development Authority Act, 1999",
+    "scope": ""
+   },
+   {
+    "term": "Court",
+    "para": "s. 2(6)",
+    "def": "means the principal Civil Court of original jurisdiction in a district, and includes the High Court in exercise of its ordinary original civil jurisdiction; (6A) \"fire insurance business\" means the business of effecting, otherwise than incidentally to some other class of insurance business, contracts of insurance against loss by or incidental to fire or other occurrence customarily included among the risks…",
+    "scope": ""
+   },
+   {
+    "term": "general insurance business",
+    "para": "s. 2(6B)",
+    "def": "means fire, marine or miscellaneous insurance business, whether carried on singly or in combination with one or more of them;",
+    "scope": ""
+   },
+   {
+    "term": "insurance business",
+    "para": "s. 2(6D)",
+    "def": "means the business of effecting insurance contracts and includes any other form of contract as may be notified by the Central Government in consultation with the Authority from time to time.",
+    "scope": ""
+   },
+   {
+    "term": "insurance agent",
+    "para": "s. 2(10)",
+    "def": "means an insurance agent who receives or agrees to receive payment by way of commission or other remuneration in consideration of his soliciting or procuring insurance business including business relating to the continuance, renewal or revival of policies of insurance;",
+    "scope": ""
+   },
+   {
+    "term": "miscellaneous insurance business",
+    "para": "s. 2(13B)",
+    "def": "means the business of effecting contracts of insurance which is not principally or wholly of any kind or kinds included in clauses (6A), (11) and (13A);",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 2(14)",
+    "def": "means prescribed by rules made under this Act; and",
+    "scope": ""
+   },
+   {
+    "term": "re-insurance",
+    "para": "s. 2(16B)",
+    "def": "means the insurance of part of one insurer's risk by another insurer who accepts the risk for a mutually acceptable premium;",
+    "scope": ""
+   },
+   {
+    "term": "Securities Appellate Tribunal",
+    "para": "s. 2(16C)",
+    "def": "means the Securities Appellate Tribunal established under section 15K of the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "assets",
+    "para": "definition clause",
+    "def": "means all the assets of insurer at their carrying value but does not include any assets specifically held against any fund or portion thereof in respect of which the Authority is satisfied that such fund or portion thereof, as the case may be, is regulated by the law of any country outside India or miscellaneous expenditure or in respect of which the Authority is satisfied that it would not be in the interest of…",
+    "scope": ""
+   },
+   {
+    "term": "liabilities",
+    "para": "definition clause",
+    "def": "means the net liabilities of the insurer to the holders of policies;",
+    "scope": ""
+   },
+   {
+    "term": "promoter",
+    "para": "definition clause",
+    "def": "means a person--",
+    "scope": ""
+   },
+   {
+    "term": "policy",
+    "para": "definition clause",
+    "def": "means a policy issued or renewed on or after the 1st day of April, 1961, in respect of general insurance business transacted in India and does not include a re-insurance policy; and",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definition clause",
+    "def": "means any body corporate, and includes--",
+    "scope": ""
+   }
+  ],
+  "ACT-IRDA": [
+   {
+    "term": "appointed day",
+    "para": "definition clause",
+    "def": "means the date on which the Authority is established under sub-section (1) of section 3;",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definition clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under sub-section (1) of section 3;",
+    "scope": ""
+   },
+   {
+    "term": "Chairperson",
+    "para": "definition clause",
+    "def": "means the Chairperson of the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "Fund",
+    "para": "definition clause",
+    "def": "means the Insurance Regulatory and Development Authority Fund constituted under sub-section (1) of section 16;",
+    "scope": ""
+   },
+   {
+    "term": "Interim Insurance Regulatory Authority",
+    "para": "definition clause",
+    "def": "means the Insurance Regulatory Authority set up by the Central Government through Resolution No. 17(2)/94-Ins.-V, dated the 23rd January, 1996; (f) \"insurance intermediary\" shall have the same meaning as assigned to it in clause (10B) of section 2 of the Insurance Act, 1938;",
+    "scope": ""
+   },
+   {
+    "term": "member",
+    "para": "definition clause",
+    "def": "means a whole-time or a part-time member of the Authority and includes the Chairperson;",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "definition clause",
+    "def": "means a notification published in the Official Gazette;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "definition clause",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "regulations",
+    "para": "definition clause",
+    "def": "means the regulations made by the Authority.",
+    "scope": ""
+   },
+   {
+    "term": "mathematical reserves",
+    "para": "definition clause",
+    "def": "means the provision made by an insurer to cover liabilities (excluding liabilities which have fallen due and liabilities arising from deposit back arrangement in relation to any policy whereby an amount is deposited by re-insurer with the cedant) arising under or in connection with policies or contracts for life insurance business. Mathematical reserves also include specific provision for adverse deviations of…",
+    "scope": ""
+   },
+   {
+    "term": "net incurred claims",
+    "para": "definition clause",
+    "def": "means the average of the net incurred claims during the specified period of not exceeding three preceding financial years;",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definition clause",
+    "def": "means any body corporate, and includes--",
+    "scope": ""
+   }
+  ],
+  "ACT-SBSR": [
+   {
+    "term": "insurance business",
+    "para": "s. 2(6D)",
+    "def": "means the business of effecting insurance contracts and includes any other form of contract as may be notified by the Central Government in consultation with the Authority from time to time.",
+    "scope": ""
+   },
+   {
+    "term": "assets",
+    "para": "definition clause",
+    "def": "means all the assets of insurer at their carrying value but does not include any assets specifically held against any fund or portion thereof in respect of which the Authority is satisfied that such fund or portion thereof, as the case may be, is regulated by the law of any country outside India or miscellaneous expenditure or in respect of which the Authority is satisfied that it would not be in the interest of…",
+    "scope": ""
+   },
+   {
+    "term": "Reserve Fund",
+    "para": "s. 2",
+    "def": "means a fund to hold the surplus of the Fund, in the form and manner specified in sub-section (3) of section 16.'.",
+    "scope": ""
+   }
+  ],
+  "REG-PENALTY-2026": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938);",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under the provisions of Section 3 of the Insurance Regulatory and Development Authority Act, 1999 (41 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "Adjudicating Officer",
+    "para": "definitions clause",
+    "def": "Shall mean the officer appointed by the Authority as adjudicating officer under Section 105C of the Act.",
+    "scope": ""
+   }
+  ],
+  "REG-PEPF-2026": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority Act, 1999 (41 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under sub-section (1) of Section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Corpus Fund",
+    "para": "definitions clause",
+    "def": "means the sum of the amounts credited to the Policyholders’ Education and Protection Fund in accordance with provisions of Regulation 5(1) of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Financial Year",
+    "para": "definitions clause",
+    "def": "means the year commencing on the first day of April and ending on the thirty-first day of March of the succeeding year;",
+    "scope": ""
+   },
+   {
+    "term": "Fund",
+    "para": "definitions clause",
+    "def": "means the Policyholders’ Education and Protection Fund created by the Authority under section 16A of the Act.",
+    "scope": ""
+   }
+  ],
+  "REG-SANDBOX": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938:",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under subsection (1) of Section 3 of the Insurance Regulatory and Development Authority Act, 1999 (41 of",
+    "scope": ""
+   },
+   {
+    "term": "Regulations",
+    "para": "definitions clause",
+    "def": "means the Regulations framed by the Authority as defined under Section 2 (16A) of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Regulatory Sandbox",
+    "para": "definitions clause",
+    "def": "means an environment used in the financial services sector, which provides testing ground for new business models, processes and applications that may not necessarily be covered fully by or are not fully compliant with existing Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Sandbox environment",
+    "para": "definitions clause",
+    "def": "means a testing environment designed for experimentation for a specific period of time.",
+    "scope": ""
+   }
+  ],
+  "REG-REGN": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938);",
+    "scope": ""
+   },
+   {
+    "term": "Applicant",
+    "para": "definitions clause",
+    "def": "means a company as defined in sub-section (20) of section 2 of the Companies Act, 2013 (18 of 2013) or a statutory body established by an Act of Parliament or co-operative society, who applies to the Authority seeking registration to carry on insurance business.",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under sub-section (1) of section 3 of the Insurance Regulatory and Development Authority Act, 1999 (41 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "Encumbrance",
+    "para": "definitions clause",
+    "def": "Shall include -",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Promoter",
+    "para": "definitions clause",
+    "def": "means the \"foreign investors\", incorporated in any Financial Action Task Force compliant jurisdiction, which meet one or more of the following conditions:",
+    "scope": ""
+   },
+   {
+    "term": "Indian Investors",
+    "para": "definitions clause",
+    "def": "means \"Investors\" other than foreign investors.",
+    "scope": ""
+   },
+   {
+    "term": "Indian Promoter",
+    "para": "definitions clause",
+    "def": "means any of the following, which meets one or more of the conditions in clause (69) of Section 2 of Companies Act, 2013:",
+    "scope": ""
+   },
+   {
+    "term": "Key Management Person",
+    "para": "definitions clause",
+    "def": "Shall include members of the core management team of an insurer or applicant including all whole-time directors or Managing Directors or Chief Executive Officer and the functional heads one level below the Managing Director or Chief Executive Officer, including the Chief Financial Officer, Appointed Actuary, Chief Investment Officer, Chief Risk Officer, Chief Compliance Officer and the Company Secretary.",
+    "scope": ""
+   },
+   {
+    "term": "Other Forms of Capital",
+    "para": "definitions clause",
+    "def": "means the following instruments issued by an insurer in the manner specified under these regulations:",
+    "scope": ""
+   },
+   {
+    "term": "Preliminary Expenses",
+    "para": "definitions clause",
+    "def": "means expenses relating to the formation of an applicant and shall include legal, accounting and share issue expenses incurred for the formation of the applicant and expenses incurred prior to grant of Certificate of Registration.",
+    "scope": ""
+   },
+   {
+    "term": "Private Equity Fund",
+    "para": "definitions clause",
+    "def": "includes - Page 3 of 45",
+    "scope": ""
+   },
+   {
+    "term": "Promoter",
+    "para": "definitions clause",
+    "def": "means Indian Promoter or Foreign Promoter or both.",
+    "scope": ""
+   },
+   {
+    "term": "Special Purpose Vehicle",
+    "para": "definitions clause",
+    "def": "means a company registered under the provisions of Companies Act, 2013 or a Limited Liability Partnership formed under the Limited Liability Partnership Act, 2008 or a body corporate incorporated in any Financial Action Task Force compliant jurisdiction, for the purpose of making investment in an insurer.",
+    "scope": ""
+   },
+   {
+    "term": "Subordinated Debt",
+    "para": "definitions clause",
+    "def": "means: (a) \"Debenture\" as defined in clause (30) of section 2 of the Companies Act, 2013; and (b) any other category of debt instrument as may be permitted by the Authority.",
+    "scope": ""
+   },
+   {
+    "term": "Transfer of Shares",
+    "para": "definitions clause",
+    "def": "includes transfer of shares from existing shareholder(s) to another person and includes transmission and fresh issuance of the equity shares which leads to change in the shareholding pattern of an insurer. Page 4 of 45",
+    "scope": ""
+   }
+  ],
+  "REG-CG": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938).",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under sub-section (1) of Section 3 of the Insurance Regulatory and Development Authority Act, 1999",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Board of Directors of the insurer.",
+    "scope": ""
+   },
+   {
+    "term": "Companies Act",
+    "para": "definitions clause",
+    "def": "means the Companies Act, 2013, as amended from time to time.",
+    "scope": ""
+   },
+   {
+    "term": "Key Management Persons",
+    "para": "definitions clause",
+    "def": "means as defined in the Insurance Regulatory and Development Authority of India (Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers) Regulations, 2024 as amended from time to time.",
+    "scope": ""
+   }
+  ],
+  "MC-CG": [
+   {
+    "term": "Net profit",
+    "para": "definitions",
+    "def": "means the \"profit/(loss) before tax\" as per its financial statements prepared in accordance with the applicable provisions of the Insurance Act, 1938 and the Regulations framed thereunder, but shall not include the following, namely",
+    "scope": ""
+   },
+   {
+    "term": "Remuneration",
+    "para": "definitions",
+    "def": "means any money or its equivalent given or passed on to a KMP for the services rendered by him/her; and includes perquisites as defined under the Income-tax Act, 1961.",
+    "scope": ""
+   },
+   {
+    "term": "Share linked instruments",
+    "para": "definitions",
+    "def": "means (i) employee stock option schemes;(ii) employee stock purchase schemes; and (iii) stock appreciation rights schemes, for the purpose of these guidelines. the application of ex-post adjustments. Where variable pay is mix of cash and share linked instruments and such cash component of variable pay is Twenty-Five lakhs or under, no deferral requirement for the cash component would be necessary.",
+    "scope": ""
+   }
+  ],
+  "CIR-20260525-13": [
+   {
+    "term": "Performance",
+    "para": "definitions",
+    "def": "includes total number of policies at the beginning of the year; new policies issued during the year; premium of new policies; premium of renewal of policies; renewal proportion; maturity / surrender / withdrawal / foreclosure /cancellation proportion in case of life insurance.",
+    "scope": ""
+   },
+   {
+    "term": "Grievance or Complaint",
+    "para": "definitions",
+    "def": "means written expression (includes communication in the form of electronic mail or voice based electronic scripts) of dissatisfaction by a complainant with respect to solicitation or sale or purchase of an insurance policy or related services by insurer and /or by distribution channel, delay or inadequacy of claim servicing or settlement, delay in pre or post treatment authorization in case of health insurance,…",
+    "scope": ""
+   }
+  ],
+  "REG-AFI": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938);",
+    "scope": ""
+   },
+   {
+    "term": "Actuarial Practice Standards",
+    "para": "definitions clause",
+    "def": "means the standards of practice and guidance notes issued by the Institute of Actuaries of India;",
+    "scope": ""
+   },
+   {
+    "term": "Actuary",
+    "para": "definitions clause",
+    "def": "means an actuary as defined in section 2(1) of Insurance Act, 1938;",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under sub-section (1) of section 3 of the Insurance Regulatory and Development Authority Act, 1999 (41 of",
+    "scope": ""
+   },
+   {
+    "term": "Available Solvency Margin",
+    "para": "definitions clause",
+    "def": "means: In case of a Life insurer, the excess of value of assets subject to admissibility criteria specified under these regulations, available in policyholders' and shareholders' funds over and above the value of Mathematical Reserves and other liabilities of policyholders' and shareholders' funds; In case of a General insurer or Health insurer, the excess of value of assets subject to admissibility criteria…",
+    "scope": ""
+   },
+   {
+    "term": "General insurer",
+    "para": "definitions clause",
+    "def": "means an insurer transacting general insurance business as defined in the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Life insurer",
+    "para": "definitions clause",
+    "def": "means an insurer carrying on life insurance business as defined in the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Mathematical Reserves",
+    "para": "definitions clause",
+    "def": "means the provisions determined in accordance with these regulations to cover liabilities (excluding liabilities which have fallen due and liabilities arising from deposit back arrangement in relation to any policy whereby an amount is deposited by re-insurer with the cedant) arising under or in connection with policies or contracts of life (Re)insurance business which includes specific provision for adverse…",
+    "scope": ""
+   },
+   {
+    "term": "Premium Deficiency Reserve (PDR)",
+    "para": "definitions clause",
+    "def": "means the reserve held in excess of the unearned premium reserve, which allows for any expectation that the unearned premium reserve will be insufficient to cover the cost of claims and expenses incurred during the period of unexpired risk;",
+    "scope": ""
+   },
+   {
+    "term": "Required Solvency Margin",
+    "para": "definitions clause",
+    "def": "means the amount arrived in the manner as specified under Part III or Part IV or Part V of Schedule-I of these regulations as applicable subject to a minimum of fifty per cent of the amount of minimum capital as stated under section 6 of the Insurance Act, 1938;",
+    "scope": ""
+   },
+   {
+    "term": "Solvency Ratio",
+    "para": "definitions clause",
+    "def": "means the ratio of the amount of Available Solvency Margin to the amount of Required Solvency Margin;",
+    "scope": ""
+   },
+   {
+    "term": "Technical Liabilities",
+    "para": "definitions clause",
+    "def": "means the provisions determined in accordance with these regulations to cover liabilities arising under or in connection with policies or contracts of General (Re)insurance business or Health (Re)insurance Business which include specific provision for adverse deviations of all the bases of actuarial valuation.",
+    "scope": ""
+   },
+   {
+    "term": "Unearned Premium Reserve (UPR)",
+    "para": "definitions clause",
+    "def": "means an amount representing that part of the premium written which is attributable and to be allocated to the succeeding accounting periods;",
+    "scope": ""
+   },
+   {
+    "term": "Institute of Actuaries of India",
+    "para": "definitions clause",
+    "def": "means a statutory body established under section 3 of the Actuaries Act,",
+    "scope": ""
+   },
+   {
+    "term": "Valuation date",
+    "para": "definitions clause",
+    "def": "means, in respect of any valuation, the date as at which the valuation is made;",
+    "scope": ""
+   },
+   {
+    "term": "Ordinarily Resident in India",
+    "para": "definitions clause",
+    "def": "means a resident in India defined as per the Income Tax Act, 1961",
+    "scope": ""
+   },
+   {
+    "term": "Extra premium",
+    "para": "definitions clause",
+    "def": "means a charge or premium collected for additional risk exposure beyond the risk factored in deriving the standard premium rates;",
+    "scope": ""
+   },
+   {
+    "term": "Group business",
+    "para": "definitions clause",
+    "def": "means business other than individual business;",
+    "scope": ""
+   },
+   {
+    "term": "Guarantees",
+    "para": "definitions clause",
+    "def": "means the terms in regard to benefits or premiums or charges, which shall not be altered during the currency of the policy;",
+    "scope": ""
+   },
+   {
+    "term": "Individual business",
+    "para": "definitions clause",
+    "def": "means individual insurance contracts issued on single or joint life basis;",
+    "scope": ""
+   },
+   {
+    "term": "Inter valuation period",
+    "para": "definitions clause",
+    "def": "means period between two successive actuarial valuations of asset and liabilities of an insurer;",
+    "scope": ""
+   },
+   {
+    "term": "Maturity date",
+    "para": "definitions clause",
+    "def": "means a fixed date on which maturity benefit may become payable either absolutely or contingently;",
+    "scope": ""
+   },
+   {
+    "term": "Non-participating policyholders",
+    "para": "definitions clause",
+    "def": "means the holders of \"non-par policies\";",
+    "scope": ""
+   },
+   {
+    "term": "Options",
+    "para": "definitions clause",
+    "def": "means the rights available to a policyholder under a policy;",
+    "scope": ""
+   },
+   {
+    "term": "Policies with deferred participation in profits",
+    "para": "definitions clause",
+    "def": "means polices entitled for participation in profits after a certain period from the date of commencement of the policy;",
+    "scope": ""
+   },
+   {
+    "term": "Participating policyholders",
+    "para": "definitions clause",
+    "def": "means the holders of \"par policies\" and \"policies with deferred participation in profits\";",
+    "scope": ""
+   },
+   {
+    "term": "Premium payment term",
+    "para": "definitions clause",
+    "def": "means the period during which premiums are payable;",
+    "scope": ""
+   },
+   {
+    "term": "Policy Accounts",
+    "para": "definitions clause",
+    "def": "means funds for each policy under Variable Linked Business and Variable Non- Linked Business;",
+    "scope": ""
+   },
+   {
+    "term": "Claim Reserves",
+    "para": "definitions clause",
+    "def": "means the reserves in respect of the claims which have already occurred as on the date of valuation;",
+    "scope": ""
+   },
+   {
+    "term": "Incurred But Not Enough Reported (IBNER) Reserves",
+    "para": "definitions clause",
+    "def": "means the reserves reflecting the expected changes in the estimates of reported claims including ALAE, if any;",
+    "scope": ""
+   },
+   {
+    "term": "Incurred But Not Reported Claim (IBNR) Reserves",
+    "para": "definitions clause",
+    "def": "includes IBNER, estimate for reopened claims, provision for incurred but not reported claims, provision for claims in transit as on the date of valuation and ALAE;",
+    "scope": ""
+   },
+   {
+    "term": "Outstanding Claim Reserves (OS Reserves)",
+    "para": "definitions clause",
+    "def": "means the provision made in respect of all outstanding reported claims as on the date of valuation including ALAE;",
+    "scope": ""
+   },
+   {
+    "term": "Unexpired Risk Reserves",
+    "para": "definitions clause",
+    "def": "means the reserves in respect of the liabilities for unexpired risks and determined as the aggregate of Unearned Premium Reserve (UPR) and Premium Deficiency Reserve Part II: Appointed Actuary",
+    "scope": ""
+   },
+   {
+    "term": "Unallocated premium",
+    "para": "definitions clause",
+    "def": "includes premium deposit and premium which has been received but for which risk has not commenced. It is to be shown under current liabilities.",
+    "scope": ""
+   },
+   {
+    "term": "Approved Investments",
+    "para": "definitions clause",
+    "def": "means Investments made as per clause 2(1) and 2 (2) of the Schedule III of these regulations.",
+    "scope": ""
+   },
+   {
+    "term": "Assets",
+    "para": "definitions clause",
+    "def": "means assets in India, held by an Insurer in accordance with the provisions of Section 31 of the Act.",
+    "scope": ""
+   },
+   {
+    "term": "Financial Derivatives",
+    "para": "definitions clause",
+    "def": "means a derivative as defined under clause (ac) of section 2 of the Securities Contracts (Regulation) Act, 1956, and includes a contract which derives its value from interest rates of underlying debt securities and such other derivative contracts as may be stipulated by the Competent Authority, from time to time.",
+    "scope": ""
+   },
+   {
+    "term": "Group",
+    "para": "definitions clause",
+    "def": "means: two or more individuals, association of individuals, firms, trusts, trustees or bodies corporate, or any combination thereof, which exercises, or is established to be in a position to exercise, significant influence and / or control, directly or indirectly, over any associate as defined in Accounting Standard (AS), body corporate, firm or trust, or use of common brand names, Associated persons, as may be…",
+    "scope": ""
+   },
+   {
+    "term": "Infrastructure facility",
+    "para": "definitions clause",
+    "def": "means, the `Harmonized Master list of Infrastructure sub-sectors' as per Gazette Notification Dt. October 11, 2022 of Department of Economic Affairs, as amended from time to time.",
+    "scope": ""
+   },
+   {
+    "term": "Officer",
+    "para": "definitions clause",
+    "def": "means an officer defined in Section 2 (59) of the Companies Act, 2013 but does not include non-whole-time director;",
+    "scope": ""
+   },
+   {
+    "term": "Full time Employees",
+    "para": "definitions clause",
+    "def": "means all employees of the insurer and includes Officers of the insurer.",
+    "scope": ""
+   },
+   {
+    "term": "Appointed Actuary",
+    "para": "definitions clause",
+    "def": "means an Actuary appointed by the insurer other than Foreign Reinsurer's Branch under section 12A of the Act as per the criteria specified under these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Certifying Actuary",
+    "para": "definitions clause",
+    "def": "means an Actuary appointed by the Foreign Reinsurer's Branch under section 12A of the Act as per the criteria specified under these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Actuary for Specific Purposes",
+    "para": "definitions clause",
+    "def": "means an Actuary other than the Appointed Actuary and the Certifying Actuary, appointed by the insurer under section 12A of the Act for the purposes of sections 3B or 22 or 64K of the Act, as per the criteria specified under these Regulations.",
+    "scope": ""
+   },
+   {
+    "term": "Reporting year",
+    "para": "definitions clause",
+    "def": "means the year in respect of which the statement is prepared. Thus, the reporting year for the statement of claims development during the year ending 31 March 2026 will be the year 1 April 2025 to 31 March 2026. It is possible that the same event in respect of the same insured gives rise to several claims. In such cases, each of these claims should be individually recognised. However, where the system treats all…",
+    "scope": ""
+   }
+  ],
+  "REG-PROD": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938).",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under the provisions of section 3 of the Insurance Regulatory and Development Authority Act, 1999.",
+    "scope": ""
+   },
+   {
+    "term": "File and use",
+    "para": "definitions clause",
+    "def": "means the procedure where the insurers are permitted to market the product only after prior filing to the Authority and assignment of Unique Identification Number (UIN).",
+    "scope": ""
+   },
+   {
+    "term": "Government sponsored insurance scheme",
+    "para": "definitions clause",
+    "def": "means any insurance scheme, designed or notified or sponsored by the Central Government and/or the State Government and offered by insurers. The schemes may or may not be subsidized by the Central Government and/or the State Government.",
+    "scope": ""
+   },
+   {
+    "term": "Micro-insurance business",
+    "para": "definitions clause",
+    "def": "means category of insurance business provided through the products categorized as micro-insurance products under these regulations.",
+    "scope": ""
+   },
+   {
+    "term": "Micro-insurance policy",
+    "para": "definitions clause",
+    "def": "means an insurance policy which has been issued through solicitation of micro- insurance product.",
+    "scope": ""
+   },
+   {
+    "term": "Micro-insurance product",
+    "para": "definitions clause",
+    "def": "includes: a. life micro-insurance product or general micro-insurance product or health-micro insurance product; b. insurance products designed or notified or sponsored by the Central Government and/or the State Government under the head \"Micro-insurance\"; c. insurance products subsidized either fully or partly by the Central Government and/or the State Government; and d. any other product approved as…",
+    "scope": ""
+   },
+   {
+    "term": "Unique identification number (UIN)",
+    "para": "definitions clause",
+    "def": "means a unique number allotted to each product which is required to be disclosed in product related literature, policy documents and any other supporting documents for such product.",
+    "scope": ""
+   },
+   {
+    "term": "Use and file",
+    "para": "definitions clause",
+    "def": "means the procedure where the insurer is allowed to launch the product to market after assignment of unique identification number (UIN) and without prior filing to the Authority.",
+    "scope": ""
+   },
+   {
+    "term": "Known accumulation",
+    "para": "definitions clause",
+    "def": "Shall mean the combined exposure of insured risks or insured interests that would in all likelihood be impacted by a loss occurrence. \"Known accumulation\" shall bear the same meaning as may be expressly stated or may be inferred from the underwriting guidelines of the insurer and/or relevant reinsurance treaty agreement defining or setting general guidelines on single risk and/ or one accumulation.",
+    "scope": ""
+   },
+   {
+    "term": "Single risk",
+    "para": "definitions clause",
+    "def": "Shall mean one risk assessed as such and shall include one Known accumulation of risks as defined by the underwriting guidelines of the insurer and which definition shall be aligned to that specified in the terms and conditions of the Treaty Reinsurance protection arrangement of the insurer applying to the Line(s) of Business and/or Product.",
+    "scope": ""
+   },
+   {
+    "term": "Underwriting capacity",
+    "para": "definitions clause",
+    "def": "means the largest monetary amount of a Single risk that an insurer can assume with the support of Treaty Reinsurance protection.",
+    "scope": ""
+   }
+  ],
+  "CIR-20260731-32": [
+   {
+    "term": "Advisory Committee",
+    "para": "definitions clause",
+    "def": "means the Insurance Advisory Committee constituted under Section 25 of the Insurance Regulatory and Development Authority Act, 1999;",
+    "scope": ""
+   }
+  ],
+  "REG-PPHI": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938).",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under the provisions of section 3 of the Insurance Regulatory and Development Authority Act,",
+    "scope": ""
+   },
+   {
+    "term": "Bank Rate",
+    "para": "definitions clause",
+    "def": "means Bank rate fixed by the Reserve Bank of India (RBI) which is prevalent as on 1st day of the financial year in which the claim has fallen due.",
+    "scope": ""
+   },
+   {
+    "term": "Complainant",
+    "para": "definitions clause",
+    "def": "means a policyholder or prospect or nominee or assignee or any beneficiary of an insurance policy who has filed a complaint or grievance against an insurer and /or distribution channel.",
+    "scope": ""
+   },
+   {
+    "term": "Cover",
+    "para": "definitions clause",
+    "def": "means an insurance contract whether in the form of a policy document or a cover note or a Certificate of Insurance or any other form as may be specified to evidence the existence of an insurance contract.",
+    "scope": ""
+   },
+   {
+    "term": "Mis-selling",
+    "para": "definitions clause",
+    "def": "includes sale or solicitation of policies by the insurer or through distribution channels, directly or indirectly by a. exercising undue influence, use of dominant position or otherwise, or b. making a false or misleading statement or misrepresenting the facts or benefits, or c. concealing or omitting facts, features, benefits, exclusions with respect to p roducts, or d. not taking reasonable care to ensure…",
+    "scope": ""
+   },
+   {
+    "term": "Proposal form",
+    "para": "definitions clause",
+    "def": "means a form to be filled in by the prospect in physical or electronic form, for furnishing the information including material information, if any, as required by the insurer in respect of a risk, in order to enable the insurer to take informed decision in the context of underwriting the risk, and in the event of acceptance of the risk, to determine the rates, advantages, terms and conditions of the cover to be…",
+    "scope": ""
+   },
+   {
+    "term": "Prospect",
+    "para": "definitions clause",
+    "def": "means any person who is a potential customer and likely to enter into an insurance contract either directly with the insurer or through the distribution channel involved.",
+    "scope": ""
+   },
+   {
+    "term": "Prospectus",
+    "para": "definitions clause",
+    "def": "means a document either in physical or electronic format issued by the insurer to sell or promote the insurance product.",
+    "scope": ""
+   },
+   {
+    "term": "Solicitation",
+    "para": "definitions clause",
+    "def": "means the act of approaching a prospect or a policyholder by an insurer or by a distribution channel with a view to persuading the prospect or a policyholder to purchase or to renew an insurance policy.",
+    "scope": ""
+   },
+   {
+    "term": "Advertisement",
+    "para": "definitions clause",
+    "def": "means a communication, issued through any mode or medium, addressed to the public or section of it, the purpose of which is to influence the opinion or behaviour of prospects for facilitating solicitation or sale of insurance products and includes insurance advertisements and institutional advertisements.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Branch Office",
+    "para": "definitions clause",
+    "def": "Shall mean a `branch office' of the insurer set up outside India which includes (a) any establishment described as a branch by the insurer; and (b) any establishment carrying on either the same or substantially the same activity as that carried on by the Head Office of the insurer.",
+    "scope": ""
+   },
+   {
+    "term": "Insurance advertisement",
+    "para": "definitions clause",
+    "def": "means and includes any communication issued by insurers, insurance intermediaries, through any mode, related to an insurance product and intended to result in the eventual sale or solicitation of an insurance product from the members of the public, or which urges a prospect or a policyholder to purchase, a policy of insurance.",
+    "scope": ""
+   },
+   {
+    "term": "Institutional advertisement",
+    "para": "definitions clause",
+    "def": "means an advertisement which is not intended to solicit the purchase of insurance policies, but only promotes the brand image of the insurers and/or its intermediaries or insurance intermediaries.",
+    "scope": ""
+   },
+   {
+    "term": "Material Outsourcing",
+    "para": "definitions clause",
+    "def": "means outsourcing of such activities which are assessed by the insurers as \"material\", based on the factors as may be specified by the Competent Authority.",
+    "scope": ""
+   },
+   {
+    "term": "Outsourcing Service Provider",
+    "para": "definitions clause",
+    "def": "means third party service provider who carries out the activities outsourced, for insurers.",
+    "scope": ""
+   },
+   {
+    "term": "Outsourcing Agreement",
+    "para": "definitions clause",
+    "def": "means a written agreement entered into between the insurer and outsourcing service provider outlining the terms and conditions for services which may be rendered by the Outsourcing service provider.",
+    "scope": ""
+   },
+   {
+    "term": "Place of Business",
+    "para": "definitions clause",
+    "def": "means, a regional office, a zonal office, a divisional office, branch office or any subordinate office or any other office by whatever name called set up within India or a representative or a liaison office of Indian insurer or a Foreign Branch Office set up outside India by the insurers registered in India.",
+    "scope": ""
+   },
+   {
+    "term": "Representative or a Liaison Office",
+    "para": "definitions clause",
+    "def": "means an office outside India of an `insurer', to act as a channel of communication with the principal place of business or Head Office or by whatever name called, and also to interact with different entities, but which does not undertake any commercial or trading or solicitation or industrial activity, directly or indirectly, and also maintains itself out of the remittances received from the parent organization…",
+    "scope": ""
+   }
+  ],
+  "MC-PPHI": [
+   {
+    "term": "Suitability Assessment",
+    "para": "definitions",
+    "def": "means evaluation of suitability of a product for the prospect, based on the suitability information collected from them and considering the nature of product, mode of premium payment and tenure of policy as well as premium payment period. iii. Suitability information collected and the recommendations of the sales person involved in solicitation, shall be preserved by the Insurer making them part of the policy…",
+    "scope": ""
+   }
+  ],
+  "RULES-OMB": [
+   {
+    "term": "award",
+    "para": "rule 2",
+    "def": "means an award passed by the Insurance Ombudsman under rule 17;",
+    "scope": ""
+   },
+   {
+    "term": "financial year",
+    "para": "rule 2",
+    "def": "means a period of twelve months commencing on the 1st day of April and ending on the 31st day of March;",
+    "scope": ""
+   },
+   {
+    "term": "Insurance Council",
+    "para": "rule 2",
+    "def": "means the Life Insurance Council and the General Insurance Council constituted under section 64C of the Insurance Act, 1938 (4 of 1938); (d) \"Council for Insurance Ombudsmen\" means the Council for Insurance Ombudsmen constituted under rule 5;",
+    "scope": ""
+   },
+   {
+    "term": "Insurance Ombudsman",
+    "para": "rule 2",
+    "def": "means the Insurance Ombudsman 2 [appointed under rule 7;",
+    "scope": ""
+   },
+   {
+    "term": "Ombudsman",
+    "para": "rule 2",
+    "def": "means a person appointed as an Insurance Ombudsman under these rules;",
+    "scope": ""
+   },
+   {
+    "term": "personal lines",
+    "para": "rule 2",
+    "def": "means an insurance policy taken or given in an individual capacity;",
+    "scope": ""
+   },
+   {
+    "term": "Group insurance",
+    "para": "rule 2",
+    "def": "means insurance cover obtained by a group of individuals, either through an employer or otherwise, under a single contract;",
+    "scope": ""
+   },
+   {
+    "term": "sole proprietorship",
+    "para": "rule 2",
+    "def": "means a business that legally has no separate existence from its owner and the income and losses are taxed on the individual's personal income tax return; 1 Published in the Gazette of India, Extraordinary, Part II, Section 3, Sub-section (i), vide notification G.S.R.413 (E) dated 25.4.2017, and subsequently amended vide notification G.S.R.785 (E) dated 17.8.2018, notification G.S.R. 147 (E), dated 2.3.2021…",
+    "scope": ""
+   },
+   {
+    "term": "micro enterprise",
+    "para": "rule 2",
+    "def": "means the micro enterprises as defined in clause (h) of section 2 of the Micro, Small and Medium Enterprises Development Act, 2006 (27 of 2006); 1 [(l) \"insurance broker\" means a person who has been granted a certificate of registration as an insurance broker by the Authority.",
+    "scope": ""
+   }
+  ],
+  "REG-SUGAM": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938);",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under sub-section (1) of Section 3 of Insurance Regulatory and Development Authority Act, 1999 (41 of",
+    "scope": ""
+   },
+   {
+    "term": "Company",
+    "para": "definitions clause",
+    "def": "Shall mean the company formed in accordance with Regulation 4(a) of these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Data Provider",
+    "para": "definitions clause",
+    "def": "means (i) any entity of the Central Government or State Government such as UIDAI, DigiLocker, Parivahan, Central KYC Record Registry, CBDT, government databases; or (ii) such other entity, which holds the data and makes it available to the entities and government authorities/entities.",
+    "scope": ""
+   },
+   {
+    "term": "Insurance Stakeholders",
+    "para": "definitions clause",
+    "def": "means consumers, insurers, intermediaries or insurance intermediaries, insurance agents and any other service providers as permitted by the Authority.",
+    "scope": ""
+   }
+  ],
+  "REG-CA": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938), as amended from time to time.",
+    "scope": ""
+   },
+   {
+    "term": "Approved Institution",
+    "para": "definitions clause",
+    "def": "means any institution engaged in education and/or training particularly in the area of insurance sales, service and marketing, approved and notified by the Authority from time to time, and includes Insurance Institute of India, Mumbai.",
+    "scope": ""
+   },
+   {
+    "term": "Authorized Verifier",
+    "para": "definitions clause",
+    "def": "means a person employed by a Telemarketer for the purpose of solicitation or sale over telephonic mode and shall fulfill the requirements as specified under regulation 7(3) of these regulations for a specified person;",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under the provisions of Section 3 of the Insurance Regulatory and Development Authority Act, 1999 (41 of 1999).",
+    "scope": ""
+   },
+   {
+    "term": "Corporate Agent",
+    "para": "definitions clause",
+    "def": "means any applicant specified in clause (b) above holds a valid certificate of registration issued by the Authority under these regulations for solicitation and servicing of insurance business for any of the specified category of life, general and health.",
+    "scope": ""
+   },
+   {
+    "term": "Corporate Agent (Life)",
+    "para": "definitions clause",
+    "def": "means a corporate agent who holds a valid certificate of registration to act as such, issued by the Authority under these regulations, for solicitation and servicing of insurance business for life insurers as specified in these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Corporate Agent (General)",
+    "para": "definitions clause",
+    "def": "means a corporate agent who holds a valid certificate of registration to act as such, issued by the Authority under these regulations, for solicitation and servicing of insurance business for general insurers as specified in these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Corporate Agent (Health)",
+    "para": "definitions clause",
+    "def": "means a corporate agent who holds a valid certificate of registration to act as such, issued by the Authority under these regulations, for solicitation and servicing of insurance business for health insurers as specified in these regulations; G) \"Corporate Agent (Composite)\" means a corporate agent who holds a valid certificate of registration to act as such, issued by the Authority under these regulations, for…",
+    "scope": ""
+   },
+   {
+    "term": "Registration",
+    "para": "definitions clause",
+    "def": "means a certificate of registration to act as a corporate agent issued under these regulations.",
+    "scope": ""
+   },
+   {
+    "term": "Regulations",
+    "para": "definitions clause",
+    "def": "means Insurance Regulatory and Development Authority of India (Registration of Corporate Agent) Regulations, 2015.",
+    "scope": ""
+   },
+   {
+    "term": "Specified Person",
+    "para": "definitions clause",
+    "def": "means an employee of a Corporate Agent who is responsible for soliciting and procuring insurance business on behalf of a corporate agent and shall have fulfilled the require ments of qualification, training and passing of examination as specified in these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Telemarketer",
+    "para": "definitions clause",
+    "def": "means an entity registered with Telecom Regulatory Authority of India under Chapter III of the Telecom Commercial Communications Customer Preference Regulations, 2010 to conduct the business of sending commercial communications and holding a certificate iss ued by the Authority;",
+    "scope": ""
+   }
+  ],
+  "REG-AGENT": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938) as amended from time to time.",
+    "scope": ""
+   },
+   {
+    "term": "Appointment Letter",
+    "para": "definitions clause",
+    "def": "means a letter of appointment issued by an insurer to any person to act as an insurance agent.",
+    "scope": ""
+   },
+   {
+    "term": "Appellate Officer",
+    "para": "definitions clause",
+    "def": "means an officer authorised by the Insurer to consider and dispose representations and appeals received from an Insurance Agent.",
+    "scope": ""
+   },
+   {
+    "term": "Insurance Agent",
+    "para": "definitions clause",
+    "def": "means an individual appointed by an insurer for the purpose of soliciting or procuring insurance business including business relating to the continuance, renewal or revival of policies of insurance.",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under the provisions of Section 3 of the Insurance Regulatory and Development Authority Act, 1999",
+    "scope": ""
+   },
+   {
+    "term": "Composite Insurance Agent",
+    "para": "definitions clause",
+    "def": "means an individual who is appointed as an insurance agent by two or more insurers subject to the condition that he/she shall not act as insurance agent for more than one life insurer, one general insurer, one health insurer and one each of the mono-line insurers.",
+    "scope": ""
+   },
+   {
+    "term": "Centralised list of Agents",
+    "para": "definitions clause",
+    "def": "means a list of agents maintained by the Authority, which contains all details of agents appointed by all insurers. �Hkkx III�[k.M 4� Hkkjr dk jkti=k % vlk/kj.k 21",
+    "scope": ""
+   },
+   {
+    "term": "Centralised list of black listed agents",
+    "para": "definitions clause",
+    "def": "means list of agents maintained by the Authority whose appointment is cancelled/suspended by a designated official of insurer on grounds of violation of code of conduct and / or fraud.",
+    "scope": ""
+   },
+   {
+    "term": "Designated Official",
+    "para": "definitions clause",
+    "def": "means an officer authorised by the Insurer to make Appointment of an individual as an Insurance Agent.",
+    "scope": ""
+   },
+   {
+    "term": "Examination Body",
+    "para": "definitions clause",
+    "def": "means an Institution, which conducts pre-recruitment tests for insurance agents and which is duly recognised by the Authority.",
+    "scope": ""
+   },
+   {
+    "term": "Multilevel Marketing Scheme",
+    "para": "definitions clause",
+    "def": "means any scheme as defined in explanation to Section 42A of the",
+    "scope": ""
+   }
+  ],
+  "REG-EOM": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938).",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under sub-section (1) of Section 3 of Insurance Regulatory and Development Authority Act, 1999",
+    "scope": ""
+   },
+   {
+    "term": "Charges",
+    "para": "definitions clause",
+    "def": "means charge against profits such as income tax and other taxes like Goods and Service Tax (GST) borne by the insurer and other charges which are levied against the profits.",
+    "scope": ""
+   },
+   {
+    "term": "Commission",
+    "para": "definitions clause",
+    "def": "means any compensation including remuneration, or reward, by whatever name called, paid by an insurer to an Insurance agent, Intermediary or Insurance intermediary, as applicable, for soliciting or procuring or transacting insurance business.",
+    "scope": ""
+   },
+   {
+    "term": "Duration of Business",
+    "para": "definitions clause",
+    "def": "means the duration of an insurer's business reckoned from the beginning of the financial year of commencement of business if the date of commencement is in the first half of the financial year, and from the beginning of the immediately succeeding financial year if the date of commencement is in the second half of the financial year.",
+    "scope": ""
+   },
+   {
+    "term": "Insurtech expenses",
+    "para": "definitions clause",
+    "def": "means expenses incurred towards technology-enabled innovation in insurance services (policyholder oriented) that could result in new business models, applications, processes or products.",
+    "scope": ""
+   },
+   {
+    "term": "Insurance awareness",
+    "para": "definitions clause",
+    "def": "means awareness creation through (i) direct campaigns including through branch offices, social media campaign and/or (ii) supporting Life Insurance Council or General Insurance Council, as applicable to educate their customers and public at large in making the right choices based on their insurance requirements and role of the Insurance agents, Intermediaries or Insurance intermediaries; Provided that it shall…",
+    "scope": ""
+   }
+  ],
+  "REG-RRS": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938);",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under the provisions of section 3 of the Insurance Regulatory and Development Authority Act, 1999 (41 of",
+    "scope": ""
+   },
+   {
+    "term": "Economically Vulnerable or Backward Classes",
+    "para": "definitions clause",
+    "def": "means persons who live below the poverty line;",
+    "scope": ""
+   },
+   {
+    "term": "Gram Panchayat",
+    "para": "definitions clause",
+    "def": "means a rural body constituted by the State Government under various laws for local administration of a village or a group of villages;",
+    "scope": ""
+   },
+   {
+    "term": "Informal Sector",
+    "para": "definitions clause",
+    "def": "includes small scale, self-employed workers typically at a low level of organisation and technology, with the primary objective of generating employment and income, with heterogeneous activities like retail trade, transport, repair and maintenance, construction, personal and domestic services and manufacturing, with the work mostly labour intensive, having often unwritten and informal employer-employee relationship;",
+    "scope": ""
+   },
+   {
+    "term": "Other Categories of Persons",
+    "para": "definitions clause",
+    "def": "includes persons with disability as defined in Rights of Persons with Disabilities Act, 2016 and who may not be gainfully employed; and also includes guardians who need insurance to protect spastic persons or persons with disability;",
+    "scope": ""
+   },
+   {
+    "term": "Rural Sector",
+    "para": "definitions clause",
+    "def": "means such areas which are administered under Gram Panchayats;",
+    "scope": ""
+   },
+   {
+    "term": "Social Sector",
+    "para": "definitions clause",
+    "def": "includes Unorganised Sector, Informal Sector, Economically Vulnerable or Backward Classes and Other Categories of Persons, residing in both rural and urban areas; and",
+    "scope": ""
+   }
+  ],
+  "MC-RRS": [
+   {
+    "term": "Regulations",
+    "para": "definitions",
+    "def": "means Insurance Regulatory and Development Authority of India (Rural, Social Sector and Motor Third Party Obligations) Regulations,",
+    "scope": ""
+   },
+   {
+    "term": "General Insurer - 1",
+    "para": "definitions",
+    "def": "means General Insurers other than Stand Alone Health Insurers (SAHI), Agriculture Insurance Company (AIC) & Export Credit Guarantee Corporation of India (ECGC).",
+    "scope": ""
+   },
+   {
+    "term": "General Insurer - 2",
+    "para": "definitions",
+    "def": "means General Insurers including Stand Alone Health Insurers other than AIC & ECGC.",
+    "scope": ""
+   },
+   {
+    "term": "Councils",
+    "para": "definitions",
+    "def": "means \"Life Insurance council\" and \"General Insurance Council\"",
+    "scope": ""
+   },
+   {
+    "term": "Base data",
+    "para": "definitions",
+    "def": "means i. Total number of Lives in the respective Gram Panchayat for Life and General Insurers- 2 ii. Total Number of Dwelling & Shops and motor vehicles in the respective Gram Panchayat for General Insurers -1",
+    "scope": ""
+   }
+  ],
+  "REG-INFO": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938) as amended from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "Shall mean Insurance Regulatory and Development Authority of India established under Sub- Section (1) of Section 3 of the Insurance Regulatory and Development Authority iii. \"Confidential Information\" with regard to a a. foreign entity shall mean information obtained from the foreign entity that cannot be made available in the public domain regarding which the concerned foreign entity has requested that secrecy…",
+    "scope": ""
+   },
+   {
+    "term": "Electronic Form",
+    "para": "definitions clause",
+    "def": "means the form as defined in Section 2(1)(r) of the Information Technology Act, 2000 as amended from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "Foreign entity",
+    "para": "definitions clause",
+    "def": "Shall mean a foreign financial regulatory authority or any foreign financial entity. vi. \"Information\" in the context of these regulations with regard to foreign entity shall mean information in any material form relating to a foreign authority being a foreign financial regulatory authority and/or information relating to any other foreign financial entity, vii. \"Information\" in the context of domestic entity…",
+    "scope": ""
+   },
+   {
+    "term": "Investigating Officer",
+    "para": "definitions clause",
+    "def": "means any person directed by the Authority under Section 33 of the Act to investigate or inspect the affairs of any insurer or intermediary or insurance intermediary, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "Minimum Information",
+    "para": "definitions clause",
+    "def": "means information which are required to be maintained by the insurers or intermediaries or insurance intermediaries as specified under these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Regulated Entity",
+    "para": "definitions clause",
+    "def": "Shall mean any entity coming within the regulatory domain of the Authority or entity regulated by a foreign financial regulatory authority.",
+    "scope": ""
+   },
+   {
+    "term": "Requesting Entity",
+    "para": "definitions clause",
+    "def": "Shall mean entity requesting information relating to a Requested entity.",
+    "scope": ""
+   },
+   {
+    "term": "Requested Entity",
+    "para": "definitions clause",
+    "def": "Shall mean the domestic or foreign entity whose information is subject of disclosure under these regulations.",
+    "scope": ""
+   },
+   {
+    "term": "Record",
+    "para": "definitions clause",
+    "def": "includes the information maintained either in physical form or electronic form or both;",
+    "scope": ""
+   },
+   {
+    "term": "Specified",
+    "para": "definitions clause",
+    "def": "means specified by the Authority from time to time, by issue of Circulars, Guidelines or Instructions for the purpose of these Regulations;",
+    "scope": ""
+   }
+  ]
+ }
+}

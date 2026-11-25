@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "default": "irdai",
+  "maps": [
+    {
+      "id": "irdai",
+      "title": "IRDAI Insurance Regulation Map",
+      "hubLabel": "IRDAI",
+      "hubSub": "Insurance regulation",
+      "section": "irdai",
+      "register": "../data/irdai_register.json",
+      "graph": "../data/irdai_graph.json",
+      "categoryGroup": "Who it applies to",
+      "layers": [
+        "ENT-LIFE",
+        "ENT-HEALTH",
+        "ENT-CA",
+        "ENT-AGENT"
+      ],
+      "cumulativeLayers": false,
+      "historyTheme": "Superseded (history)",
+      "categoryCaveat": "Each instrument is tagged to the entity types its applicability clause names. Agents and corporate agents also see the insurer rules that govern how they sell. Check the clause before relying on a tag.",
+      "caveatShort": "Tags follow each applicability clause. See the clause.",
+      "milestones": [
+        {
+          "date": "2024-04-01",
+          "label": "IRDAI's 2024 consolidated regulations take effect"
+        },
+        {
+          "date": "2026-02-05",
+          "label": "Insurance law amendments (SBSR Act 2025) in force"
+        }
+      ],
+      "updates": "../data/updates.json",
+      "glossary": "../data/glossary.json",
+      "definitions": "../data/definitions.json",
+      "fulltext": "../data/fulltext.json",
+      "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev"
+    }
+  ]
+}

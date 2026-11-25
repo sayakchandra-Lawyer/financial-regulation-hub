@@ -103,8 +103,105 @@
    "short": "IRDAI",
    "name": "IRDAI",
    "full": "Insurance Regulatory and Development Authority of India",
-   "status": "soon",
-   "desc": "Corporate agency and insurance distribution by NBFCs, and related tie-ups."
+   "status": "live",
+   "desc": "Insurance Act, IRDAI Regulations and Master Circulars for life and health insurers, corporate agents and individual agents: products, claims, commission, distribution and penalties.",
+   "href": "irdai/",
+   "data": {
+    "register": "irdai/data/irdai_register.json",
+    "graph": "irdai/data/irdai_graph.json",
+    "definitions": "irdai/data/definitions.json",
+    "glossary": "irdai/data/glossary.json",
+    "updates": "irdai/data/updates.json",
+    "fulltext": "irdai/data/fulltext.json"
+   },
+   "official": "https://irdai.gov.in",
+   "map": "irdai/map/",
+   "subjects": [
+    {
+     "theme": "Statutes, regulator and enforcement",
+     "nice": "Acts, regulator and penalties",
+     "slug": "statutes"
+    },
+    {
+     "theme": "Registration, capital and ownership",
+     "nice": "Registration and ownership",
+     "slug": "registration"
+    },
+    {
+     "theme": "Governance, actuarial and finance",
+     "nice": "Governance and finance",
+     "slug": "governance"
+    },
+    {
+     "theme": "Insurance products",
+     "nice": "Products",
+     "slug": "products"
+    },
+    {
+     "theme": "Policyholder protection, claims and grievances",
+     "nice": "Policyholders, claims and complaints",
+     "slug": "policyholders"
+    },
+    {
+     "theme": "Distribution: agents and corporate agents",
+     "nice": "Agents and corporate agents",
+     "slug": "distribution"
+    },
+    {
+     "theme": "Commission and expenses of management",
+     "nice": "Commission and expenses",
+     "slug": "commission"
+    },
+    {
+     "theme": "Rural, social sector and motor obligations",
+     "nice": "Rural and social obligations",
+     "slug": "rural"
+    },
+    {
+     "theme": "AML, fraud and cyber security",
+     "nice": "AML, fraud and cyber",
+     "slug": "risk"
+    },
+    {
+     "theme": "Returns, records and disclosure",
+     "nice": "Returns and records",
+     "slug": "records"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-LIFE",
+     "name": "Life insurer",
+     "key": "life",
+     "desc": "Registered to write life insurance"
+    },
+    {
+     "id": "ENT-HEALTH",
+     "name": "Health insurer",
+     "key": "health",
+     "desc": "Standalone health insurer, or a general insurer's health business"
+    },
+    {
+     "id": "ENT-CA",
+     "name": "Corporate agent",
+     "key": "ca",
+     "desc": "Bank, NBFC or company registered as a corporate agent, including online sales"
+    },
+    {
+     "id": "ENT-AGENT",
+     "name": "Individual agent",
+     "key": "agent",
+     "desc": "A person appointed by an insurer to sell its policies"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally"
   },
   {
    "id": "jud",

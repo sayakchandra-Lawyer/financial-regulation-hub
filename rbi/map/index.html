@@ -1159,7 +1159,7 @@ async function askJudge(){
   try {
     await loadFull();
     const ext = [...ftExtracts(P, docs), ...aiExtracts(L)];
-    const post = x => fetch(S.cfg.ai_endpoint, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ question: raw.slice(0,500), extracts: x }) });
+    const post = x => fetch(S.cfg.ai_endpoint, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ question: raw.slice(0,500), extracts: x, section: S.cfg.section }) });
     let r = await post(ext);
     if (r.status === 413) { // an older relay accepts only a few short extracts
       const small = []; let room = 14000; for (const x of ext) { const y = x.slice(0, 1800); if (y.length > room) break; small.push(y); room -= y.length; }
@@ -1201,7 +1201,7 @@ async function askAI(btn){
   const L = S.lastQ, out = btn.nextElementSibling; if (!L || !out) return;
   btn.disabled = true; btn.textContent = "Thinking…"; out.innerHTML = "";
   try {
-    const r = await fetch(S.cfg.ai_endpoint, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ question: L.raw.slice(0,500), extracts: aiExtracts(L) }) });
+    const r = await fetch(S.cfg.ai_endpoint, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ question: L.raw.slice(0,500), extracts: aiExtracts(L), section: S.cfg.section }) });
     const j = await r.json().catch(() => ({}));
     out.innerHTML = j.answer ? `<div class="aians">${aiFormat(j.answer)}</div><p class="disc">AI-generated answer. It can be wrong. Not legal advice.</p>` : `<p class="disc">${esc(j.error || "The assistant is not available right now.")}</p>`;
     btn.remove();

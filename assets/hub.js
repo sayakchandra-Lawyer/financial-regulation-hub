@@ -88,7 +88,10 @@ async function loadSection(sec, base) {
     sec.data.definitions ? getJSON(p(sec.data.definitions)).catch(() => null) : null,
     sec.data.glossary ? getJSON(p(sec.data.glossary)).catch(() => null) : null,
     sec.data.updates ? getJSON(p(sec.data.updates)).catch(() => null) : null]);
-  const M = { sec, base, meta: reg.meta || {}, items: [], byId: new Map(), themes: [], defs: [], gloss: [], updates: [], updMeta: {}, layerMin: new Map(), links: new Map(), applyBasis: new Map() };
+  const M = { sec, base, meta: reg.meta || {}, items: [], byId: new Map(), themes: [], defs: [], gloss: [], updates: [], updMeta: {}, layerMin: new Map(), lensOf: new Map(), links: new Map(), applyBasis: new Map() };
+  /* lenses: RBI uses the cumulative SBR layers; other sections name their own entity lenses in hub.json */
+  M.lenses = sec.lenses ? sec.lenses.map(l => [l.id, l.name, l.key || l.id.toLowerCase(), l.desc || ""]) : LAYERS;
+  M.cumulative = sec.lenses ? !!sec.cumulative : true;
   reg.instruments.forEach(r => {
     const it = {
       id: r.id, label: cleanName(r.short_name || r.title), title: r.title, type: r.type, theme: r.theme, status: r.status || "",
@@ -111,9 +114,13 @@ async function loadSection(sec, base) {
   });
   M.themeOf = new Map(); M.themes.forEach(t => t.items.forEach(it => M.themeOf.set(it.id, t)));
   if (graph) {
-    const li = new Map(LAYERS.map((l, i) => [l[0], i]));
+    const li = new Map(M.lenses.map((l, i) => [l[0], i]));
     graph.edges.forEach(e => {
-      if (e.relation === "applies_to" && li.has(e.target)) {
+      if (e.relation === "applies_to" && li.has(e.target) && !M.cumulative) {
+        if (!M.lensOf.has(e.source)) M.lensOf.set(e.source, new Set());
+        M.lensOf.get(e.source).add(li.get(e.target));
+        if (e.basis && !M.applyBasis.has(e.source)) M.applyBasis.set(e.source, stripChecked(e.basis));
+      } else if (e.relation === "applies_to" && li.has(e.target)) {
         const cur = M.layerMin.get(e.source); const v = li.get(e.target);
         if (cur === undefined || v < cur) { M.layerMin.set(e.source, v); M.applyBasis.set(e.source, stripChecked(e.basis)); }
       } else if (e.relation !== "applies_to" && e.relation !== "issued_under" && M.byId.has(e.source) && M.byId.has(e.target)) {
@@ -135,9 +142,14 @@ async function loadSection(sec, base) {
 function appliesAt(M, it, L) {
   if (it.sc === "old") return false;
   if (L < 0) return true;
+  if (M.cumulative === false) { const s = M.lensOf.get(it.id); return !s || s.has(L); }
   const m = M.layerMin.get(it.id); return m === undefined || m <= L;
 }
 function layerNote(M, it) {
+  if (M.cumulative === false) {
+    const s = M.lensOf.get(it.id);
+    return !s ? (M.sec.lensAll || "Applies generally") : s.size === M.lenses.length ? "All entity types" : [...s].sort().map(i => M.lenses[i][1]).join(", ");
+  }
   const m = M.layerMin.get(it.id);
   return m === undefined ? "Not tied to a layer" : m === 0 ? "All layers" : `${LAYERS[m][1]} and above`;
 }
@@ -264,7 +276,7 @@ function ftExtracts(M, P, boost) {
   let budget = 60000; const out = [];
   for (const [, i] of hits.slice(0, 30)) {
     const [id, chap, para, txt] = FT.chunks[i], lab = M.byId.has(id) ? M.byId.get(id).label : id;
-    const e = `[${id}] FULL TEXT of ${lab}${chap ? `, ${chap}` : ""}${para && para !== "footnotes" ? `, ${/^ACT-/.test(id) ? "section" : "para"} ${para}` : ""}:\n${txt}`;
+    const e = `[${id}] FULL TEXT of ${lab}${chap ? `, ${chap}` : ""}${para && para !== "footnotes" ? `, ${/^ACT-/.test(id) ? "section" : /^REG-/.test(id) ? "regulation" : /^RULES-/.test(id) ? "rule" : "para"} ${para}` : ""}:\n${txt}`;
     if (e.length > budget) break; budget -= e.length; out.push(e);
   }
   return out;
@@ -279,7 +291,10 @@ function aiExtracts(M, P, docs) {
   });
   return out;
 }
-const Judge = { M: null, endpoint: "", fulltext: "", link: id => "#d/" + id, scope: "" };
+const Judge = { M: null, endpoint: "", fulltext: "", link: id => "#d/" + id, scope: "", section: "rbi", docs: "the Directions",
+  intro: "Put your question on RBI regulation of NBFCs and I shall answer from the Directions on this site, citing the paragraph. Check what I say.",
+  tries: [["Is the term project finance defined?", "Is project finance defined?"], ["What is the LTV limit for gold loans?", "LTV for gold loans"], ["Who is a wilful defaulter?", "Who is a wilful defaulter?"]],
+  placeholder: "Ask a question, e.g. When must an NBFC report fraud?" };
 function judgeMsg(role, html) { const log = $("#jlog"), el = document.createElement("div"); el.className = "jmsg " + role; el.innerHTML = html; log.appendChild(el); log.scrollTop = log.scrollHeight; return el; }
 function openJudge(prefill) {
   const w = $("#judge"); if (!w) return; loadFull(Judge.fulltext);
@@ -295,7 +310,7 @@ async function askJudge() {
   const t = $("#jq"), raw = t.value.trim(), btn = $("#jsend"), M = Judge.M;
   if (raw.length < 3 || btn.disabled) return;
   t.value = ""; judgeMsg("me", esc(raw));
-  const wait = judgeMsg("bot thinking", `<span class="dots"><i></i><i></i><i></i></span> ${FT.state === "ready" ? "Reading the Directions…" : "Opening the full text of the Directions (first question only)…"}`);
+  const wait = judgeMsg("bot thinking", `<span class="dots"><i></i><i></i><i></i></span> ${FT.state === "ready" ? `Reading ${Judge.docs}…` : `Opening the full text of ${Judge.docs} (first question only)…`}`);
   btn.disabled = true;
   try {
     let ext = [], docs = [];
@@ -305,7 +320,7 @@ async function askJudge() {
       const boost = new Set(docs.slice(0, 5).map(d => d.it.id)); matchDefs(M, P).forEach(x => boost.add(x.d.id));
       ext = [...ftExtracts(M, P, boost), ...aiExtracts(M, P, docs)];
     }
-    const post = x => fetch(Judge.endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question: raw.slice(0, 500), extracts: x }) });
+    const post = x => fetch(Judge.endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question: raw.slice(0, 500), extracts: x, section: Judge.section }) });
     let r = await post(ext);
     if (r.status === 413) { const small = []; let room = 14000; for (const x of ext) { const y = x.slice(0, 1800); if (y.length > room) break; small.push(y); room -= y.length; } r = await post(small.slice(0, 8)); }
     const j = await r.json().catch(() => ({}));
@@ -329,8 +344,8 @@ function initJudge(opts) {
   const w = document.createElement("section");
   w.id = "judge"; w.hidden = true; w.setAttribute("role", "dialog"); w.setAttribute("aria-label", "Not So Intelligent AI");
   w.innerHTML = `<header>${JUDGE_SVG}<div><b>Not So Intelligent AI</b><span>${esc(Judge.scope || "Answers from the RBI texts on this site")}</span></div><button class="iconbtn" id="jclose" type="button" aria-label="Close">✕</button></header>
-  <div id="jlog" aria-live="polite"><div class="jmsg bot"><p><b>Order, order!</b> I am Not So Intelligent AI. Put your question on RBI regulation of NBFCs and I shall answer from the Directions on this site, citing the paragraph. Check what I say.</p><p class="jtry">Try: <button class="lnk" data-try="Is the term project finance defined?">Is project finance defined?</button> · <button class="lnk" data-try="What is the LTV limit for gold loans?">LTV for gold loans</button> · <button class="lnk" data-try="Who is a wilful defaulter?">Who is a wilful defaulter?</button></p></div></div>
-  <form id="jform"><label class="sr" for="jq">Your question</label><textarea id="jq" rows="2" maxlength="500" placeholder="Ask a question, e.g. When must an NBFC report fraud?"></textarea><button id="jsend" type="submit" aria-label="Ask">${I.gavel}</button></form>
+  <div id="jlog" aria-live="polite"><div class="jmsg bot"><p><b>Order, order!</b> I am Not So Intelligent AI. ${esc(Judge.intro)}</p><p class="jtry">Try: ${Judge.tries.map(([q, t]) => `<button class="lnk" data-try="${esc(q)}">${esc(t)}</button>`).join(" · ")}</p></div></div>
+  <form id="jform"><label class="sr" for="jq">Your question</label><textarea id="jq" rows="2" maxlength="500" placeholder="${esc(Judge.placeholder)}"></textarea><button id="jsend" type="submit" aria-label="Ask">${I.gavel}</button></form>
   <p class="jdisc">AI-generated answers can be wrong. Not legal advice: read the official text. Each question is answered on its own.</p>`;
   document.body.appendChild(w); document.body.appendChild(fab);
   fab.addEventListener("click", () => w.hidden ? openJudge() : closeJudge());

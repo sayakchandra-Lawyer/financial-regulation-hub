@@ -1,0 +1,586 @@
+{
+ "meta": {
+  "as_of": "2026-11-25",
+  "window_from": "2025-01-01",
+  "window_to": "2026-11-25",
+  "entities": [
+   {
+    "key": "life",
+    "name": "Life insurers",
+    "profile": "Insurers registered for life insurance business."
+   },
+   {
+    "key": "health",
+    "name": "Health insurers",
+    "profile": "Standalone health insurers, and general insurers for their health business."
+   },
+   {
+    "key": "ca",
+    "name": "Corporate agents (incl. digital)",
+    "profile": "Companies, banks and NBFCs registered as corporate agents, including those that sell online."
+   },
+   {
+    "key": "agent",
+    "name": "Individual agents",
+    "profile": "Individuals appointed by an insurer under the Agents Regulations 2016."
+   }
+  ]
+ },
+ "updates": [
+  {
+   "id": "U-2026-11-02-REGN",
+   "date": "2026-11-02",
+   "kind": "Master Circular",
+   "title": "Master Circular on Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers, 2026",
+   "ref": "IRDAI/F&I/CIR/MISC/142/11/2026",
+   "instrument": "MC-REGN",
+   "effective": "2026-11-02",
+   "applies": "Applicants for registration and registered insurers.",
+   "changes": [
+    "Consolidates procedure, forms and documents under the Registration Regulations as amended on 31-07-2026.",
+    "Replaces the 2024 Master Circular on the same subject."
+   ],
+   "impact": {
+    "life": {
+     "level": "Medium",
+     "text": "Use the 2026 forms for share transfers, capital raising and amalgamations."
+    },
+    "health": {
+     "level": "Medium",
+     "text": "Same as life insurers."
+    }
+   },
+   "actions": [
+    "Update internal checklists for share transfer approvals to the new forms."
+   ]
+  },
+  {
+   "id": "U-2026-07-31-INT",
+   "date": "2026-07-31",
+   "kind": "Amendment Regulations",
+   "title": "IRDAI (Insurance Intermediaries) (Amendment) Regulations, 2026",
+   "ref": "F. No. IRDAI/Reg/8/222/2026",
+   "instrument": "REG-INTERMED-AMD2026",
+   "effective": "2026-07-31",
+   "applies": "Corporate agents, brokers, IMFs, web aggregators and other intermediaries. The Agents Regulations 2016 are not amended.",
+   "changes": [
+    "Registration no longer has a three-year term; it continues while the annual fee is paid.",
+    "Existing corporate agents must apply for a fresh certificate in Form A by 31-01-2027 (late up to 31-03-2027 with Rs 750 extra).",
+    "Annual fee: the higher of Rs 10,000 or 1/25 of 1% of commission and other receipts, paid before 31 January.",
+    "Policy documents must show the seller's name and functional ID from 01-01-2027.",
+    "25 hours of training every three years for the Principal Officer and Specified Persons.",
+    "Annual website disclosure for foreign-majority corporate agents and those earning over Rs 10 crore in commission."
+   ],
+   "impact": {
+    "ca": {
+     "level": "High",
+     "text": "Apply for the fresh certificate, budget the new annual fee, and change policy documents and systems to carry functional IDs."
+    },
+    "life": {
+     "level": "Medium",
+     "text": "Policy, proposal and certificate formats must carry the seller's functional ID for corporate agent sales."
+    },
+    "health": {
+     "level": "Medium",
+     "text": "Same as life insurers."
+    }
+   },
+   "actions": [
+    "Corporate agents: file Form A on the Agency Portal before 31-01-2027.",
+    "Insurers: update document templates for functional ID tagging by 01-01-2027.",
+    "Pay the annual fee before 31 January each year."
+   ]
+  },
+  {
+   "id": "U-2026-07-31-PEN",
+   "date": "2026-07-31",
+   "kind": "Regulations",
+   "title": "IRDAI (Manner and Procedure for Imposing Penalties) Regulations, 2026",
+   "ref": "F. No. IRDAI/Reg/11/225/2026",
+   "instrument": "REG-PENALTY-2026",
+   "effective": "2026-07-31",
+   "applies": "Anyone facing IRDAI penalty proceedings: insurers, intermediaries, agents and others.",
+   "changes": [
+    "Sets the show cause, reply, hearing and order process.",
+    "At least 21 days to reply; penalty paid within 45 days.",
+    "Penalties go to the Policyholders' Education and Protection Fund."
+   ],
+   "impact": {
+    "life": {
+     "level": "Medium",
+     "text": "Know the reply and payment timelines."
+    },
+    "health": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "ca": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "agent": {
+     "level": "Low",
+     "text": "Applies if a notice is issued to an agent."
+    }
+   },
+   "actions": [
+    "Add the 21-day reply and 45-day payment limits to the compliance calendar."
+   ]
+  },
+  {
+   "id": "U-2026-07-31-PEPF",
+   "date": "2026-07-31",
+   "kind": "Regulations",
+   "title": "IRDAI (Policyholders' Education and Protection Fund) Regulations, 2026",
+   "ref": "F. No. IRDAI/Reg/10/224/2026",
+   "instrument": "REG-PEPF-2026",
+   "effective": "2026-07-31",
+   "applies": "IRDAI; affects where penalties are credited.",
+   "changes": [
+    "Creates the Fund under s. 16A of the IRDA Act, fed by IRDAI contributions, grants and penalties."
+   ],
+   "actions": []
+  },
+  {
+   "id": "U-2026-07-31-REGN",
+   "date": "2026-07-31",
+   "kind": "Amendment Regulations",
+   "title": "IRDAI (Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers) (Amendment) Regulations, 2026",
+   "ref": "F. No. IRDAI/Reg/9/223/2026",
+   "instrument": "REG-REGN",
+   "effective": "2026-07-31",
+   "applies": "Applicants and registered insurers.",
+   "changes": [
+    "Prior approval thresholds for share transfers restated (above 5%, 10%, 25%, 50%, 75%, or becoming the largest shareholder); a fall in holding from not taking up a rights issue counts as a transfer.",
+    "Rs 10,000 fee for an NOC application.",
+    "Lock-in may be relaxed for listing, distress or reorganisation.",
+    "Foreign investment must follow the Foreign Investment Rules."
+   ],
+   "impact": {
+    "life": {
+     "level": "Medium",
+     "text": "Check share issues and transfers against the restated thresholds."
+    },
+    "health": {
+     "level": "Medium",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Review pending capital raises for the new treatment of non-subscription."
+   ]
+  },
+  {
+   "id": "U-2026-07-31-AFI2",
+   "date": "2026-07-31",
+   "kind": "Amendment Regulations",
+   "title": "IRDAI (Actuarial, Finance and Investment Functions of Insurers) (Second Amendment) Regulations, 2026",
+   "ref": "F. No. IRDAI/Reg/6/220/2026",
+   "instrument": "REG-AFI",
+   "effective": "2026-07-31",
+   "applies": "All insurers.",
+   "changes": [
+    "Aligns the regulations with the SBSR Act; 'Actuarial Report and Abstract' becomes 'Actuary Report'.",
+    "Defines the Appointed Actuary by reference to s. 12A of the Insurance Act."
+   ],
+   "impact": {
+    "life": {
+     "level": "Low",
+     "text": "Update report names and actuarial appointment records."
+    },
+    "health": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-07-31-TPA",
+   "date": "2026-07-31",
+   "kind": "Amendment Regulations",
+   "title": "IRDAI (Third Party Administrators – Health Services) (Amendment) Regulations, 2026",
+   "ref": "F. No. IRDAI/Reg/12/226/2026",
+   "instrument": "CIR-20260731-32",
+   "effective": "2026-07-31",
+   "applies": "TPAs and health insurers that use them.",
+   "changes": [
+    "TPAs with a three-year certificate apply for registration under the new s. 42D within 90 days before expiry.",
+    "A foreign-majority TPA must keep a resident Indian citizen as Chairperson, CEO, Principal Officer or MD."
+   ],
+   "impact": {
+    "health": {
+     "level": "Low",
+     "text": "Check that your TPAs have re-registered."
+    }
+   },
+   "actions": [
+    "Track each TPA's certificate expiry date."
+   ]
+  },
+  {
+   "id": "U-2026-07-23-OMB",
+   "date": "2026-07-23",
+   "kind": "Circular",
+   "title": "Submission of Self-Contained Note and documents to the Insurance Ombudsman",
+   "ref": "IRDAI/PP&GR/CIR/MISC/95/07/2026",
+   "instrument": "CIR-20260723-09",
+   "effective": "2026-07-23",
+   "applies": "All insurers except reinsurers.",
+   "changes": [
+    "SCN within 7 days of the Ombudsman's notice; additional documents within 3 days; all in one go.",
+    "Late insurers face ex parte decisions."
+   ],
+   "impact": {
+    "life": {
+     "level": "High",
+     "text": "Ombudsman cases can be decided without your side if you are late."
+    },
+    "health": {
+     "level": "High",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Set 7-day and 3-day alerts for Ombudsman notices."
+   ]
+  },
+  {
+   "id": "U-2026-05-25-KMP",
+   "date": "2026-05-25",
+   "kind": "Circular",
+   "title": "Remuneration to Key Management Persons (KMPs)",
+   "ref": "IRDAI/F&I/CIR/MISC/72/5/2026",
+   "instrument": "CIR-20260525-13",
+   "effective": "2026-05-25",
+   "applies": "All insurers.",
+   "changes": [
+    "Revises the remuneration framework for KMPs under the Corporate Governance Master Circular."
+   ],
+   "impact": {
+    "life": {
+     "level": "Medium",
+     "text": "Review the Board remuneration policy."
+    },
+    "health": {
+     "level": "Medium",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Place the revised framework before the Nomination and Remuneration Committee."
+   ]
+  },
+  {
+   "id": "U-2026-04-06-CYB",
+   "date": "2026-04-06",
+   "kind": "Guidelines",
+   "title": "IRDAI Information and Cyber Security Guidelines, 2026",
+   "ref": "IRDAI/GA&HR/CIR/MISC/51/4/2026",
+   "instrument": "MC-CYBER",
+   "effective": "2026-04-06",
+   "applies": "Insurers, brokers, corporate agents, web aggregators, TPAs, IMFs, repositories and the IIB.",
+   "changes": [
+    "Replace the 2023 guidelines.",
+    "Compliance expected from the current financial year."
+   ],
+   "impact": {
+    "life": {
+     "level": "High",
+     "text": "Gap-assess against the 2026 guidelines."
+    },
+    "health": {
+     "level": "High",
+     "text": "Same."
+    },
+    "ca": {
+     "level": "High",
+     "text": "Corporate agents are expressly covered."
+    }
+   },
+   "actions": [
+    "Run a gap assessment against the 2026 guidelines."
+   ]
+  },
+  {
+   "id": "U-2026-03-30-AFI1",
+   "date": "2026-03-30",
+   "kind": "Amendment Regulations",
+   "title": "IRDAI (Actuarial, Finance and Investment Functions of Insurers) (Amendment) Regulations, 2026",
+   "ref": "F. No. IRDAI/Reg/2/216/2026",
+   "instrument": "REG-AFI",
+   "effective": "2026-04-01",
+   "applies": "All insurers.",
+   "changes": [
+    "Financial statements under Ind AS (new Schedule IIA).",
+    "IRDAI may allow one year's forbearance if requested by 30-04-2026 with a Board-approved action plan."
+   ],
+   "impact": {
+    "life": {
+     "level": "High",
+     "text": "Ind AS reporting from FY 2026-27 unless forbearance was granted."
+    },
+    "health": {
+     "level": "High",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-03-16-FEE",
+   "date": "2026-03-16",
+   "kind": "Circular",
+   "title": "Transitional arrangements for annual fee and certificate of registration (intermediaries)",
+   "ref": "IRDAI/INT/CIR/MISC/41/3/2026; extended by IRDAI/INT/CIR/MISC/91/7/2026",
+   "instrument": "CIR-20260316-17",
+   "effective": "2026-02-05",
+   "applies": "Brokers, corporate agents, IMFs and web aggregators.",
+   "changes": [
+    "Three-year renewal discontinued from 05-02-2026.",
+    "Interim annual fee arrangements until the amended regulations; extended on 02-07-2026 and ended when the regulations were notified on 31-07-2026."
+   ],
+   "impact": {
+    "ca": {
+     "level": "Medium",
+     "text": "Now replaced by the 2026 amendment regulations."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-02-05-SBSR",
+   "date": "2026-02-05",
+   "kind": "Act",
+   "title": "Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025 comes into force",
+   "ref": "Act 40 of 2025",
+   "instrument": "ACT-SBSR",
+   "effective": "2026-02-05",
+   "applies": "All insurers and intermediaries.",
+   "changes": [
+    "Foreign investment in Indian insurers up to 100%.",
+    "Intermediary registration continues subject to annual fee.",
+    "New s. 102: up to Rs 1 lakh a day, maximum Rs 10 crore, for failures by insurers and intermediaries.",
+    "New s. 105BA penalties for unregistered intermediaries and those who use them.",
+    "IRDAI can order disgorgement (s. 34).",
+    "An agent's commission on a policy for their own life, health or property is not a rebate."
+   ],
+   "impact": {
+    "life": {
+     "level": "High",
+     "text": "Higher penalties and disgorgement powers."
+    },
+    "health": {
+     "level": "High",
+     "text": "Same."
+    },
+    "ca": {
+     "level": "High",
+     "text": "Registration now depends on annual fee; dealing through unregistered persons is penalised."
+    },
+    "agent": {
+     "level": "Medium",
+     "text": "Rebate rules changed; penalties for unregistered selling."
+    }
+   },
+   "actions": [
+    "Confirm that every distributor you deal with is registered."
+   ]
+  },
+  {
+   "id": "U-2026-01-06-1600",
+   "date": "2026-01-06",
+   "kind": "Circular",
+   "title": "Mandatory 1600-series numbers for service and transactional calls",
+   "ref": "IRDAI/PP&GR/CIR/MISC/02/01/2026",
+   "instrument": "CIR-20260107-19",
+   "effective": "2026-02-15",
+   "applies": "All insurers and insurance intermediaries.",
+   "changes": [
+    "Service and transactional voice calls only from 1600-series numbers after 15-02-2026."
+   ],
+   "impact": {
+    "life": {
+     "level": "Medium",
+     "text": "Move call centres to 1600 numbers."
+    },
+    "health": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "ca": {
+     "level": "Medium",
+     "text": "Same, including telemarketing units."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2025-10-09-FRAUD",
+   "date": "2025-10-09",
+   "kind": "Guidelines",
+   "title": "IRDAI (Insurance Fraud Monitoring Framework) Guidelines, 2025",
+   "ref": "IRDAI/IID/GDL/MISC/112/10/2025",
+   "instrument": "MC-FRAUD",
+   "effective": "2026-04-01",
+   "applies": "All insurers, intermediaries and distribution channels.",
+   "changes": [
+    "Board-approved anti-fraud policy reviewed yearly; Fraud Monitoring Committee headed by a KMP.",
+    "Annual FMR-1 return within 30 days of year end.",
+    "Intermediaries keep their own anti-fraud policies and alert insurers to suspected fraud.",
+    "Replaces the 2013 framework."
+   ],
+   "impact": {
+    "life": {
+     "level": "High",
+     "text": "New committee, policy and returns."
+    },
+    "health": {
+     "level": "High",
+     "text": "Same; hospital and TPA blacklists shared with the IIB."
+    },
+    "ca": {
+     "level": "Medium",
+     "text": "Own anti-fraud policy and duty to alert insurers."
+    },
+    "agent": {
+     "level": "Low",
+     "text": "Follow the insurer's anti-fraud policy and report suspicions."
+    }
+   },
+   "actions": [
+    "Set up the FMC and file FMR-1 within 30 days of 31 March."
+   ]
+  },
+  {
+   "id": "U-2025-07-25-RRS",
+   "date": "2025-07-25",
+   "kind": "Master Circular",
+   "title": "Master Circular on Rural, Social Sector and Motor Third Party Obligations",
+   "ref": "IRDAI/NL/CIR/RSS/85/07/2025",
+   "instrument": "MC-RRS",
+   "effective": "2025-07-25",
+   "applies": "All insurers.",
+   "changes": [
+    "Restates how obligations are allocated and reported."
+   ],
+   "impact": {
+    "life": {
+     "level": "Medium",
+     "text": "Check the obligation method."
+    },
+    "health": {
+     "level": "Medium",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2025-05-09-RRB",
+   "date": "2025-05-09",
+   "kind": "Circular",
+   "title": "Corporate agency matters for RRBs amalgamated from 1 May 2025",
+   "ref": "IRDAI/CA/CIR/MISC/64/05/2025",
+   "instrument": "CIR-20250509-26",
+   "effective": "2025-05-09",
+   "applies": "Regional Rural Banks that are corporate agents, and their partner insurers.",
+   "changes": [
+    "Sets the process for corporate agency registration and tie-ups after RRB amalgamation."
+   ],
+   "impact": {
+    "ca": {
+     "level": "Medium",
+     "text": "Relevant to bank corporate agents formed by RRB mergers."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2025-02-18-ASBA",
+   "date": "2025-02-18",
+   "kind": "Circular",
+   "title": "Bima-ASBA: UPI one-time mandate for premium",
+   "ref": "IRDAI/PP&GR/CIR/MISC/37/02/2025",
+   "instrument": "CIR-20250218-30",
+   "effective": "2025-03-01",
+   "applies": "Life and health insurers and their distribution channels.",
+   "changes": [
+    "Insurers must offer a UPI mandate that blocks the premium and debits it only on acceptance.",
+    "Mandate valid up to 14 days or until the underwriting decision."
+   ],
+   "impact": {
+    "life": {
+     "level": "Medium",
+     "text": "Offer Bima-ASBA in proposal forms."
+    },
+    "health": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "ca": {
+     "level": "Low",
+     "text": "Sales journeys should support the mandate."
+    },
+    "agent": {
+     "level": "Low",
+     "text": "Explain the option to customers."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2025-01-30-SR",
+   "date": "2025-01-30",
+   "kind": "Circular",
+   "title": "Premium revision for senior citizens in health insurance",
+   "ref": "IRDAI/HLT/CIR/MISC/27/1/2025",
+   "instrument": "CIR-20250130-31",
+   "effective": "2025-01-30",
+   "applies": "General and standalone health insurers.",
+   "changes": [
+    "Premiums for senior citizens may not rise by more than 10% a year.",
+    "Prior consultation with IRDAI for larger increases or withdrawals."
+   ],
+   "impact": {
+    "health": {
+     "level": "High",
+     "text": "Pricing reviews for senior citizen products are capped."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2025-01-10-INFO",
+   "date": "2025-01-10",
+   "kind": "Regulations",
+   "title": "IRDAI (Maintenance of Information by the Regulated Entities and Sharing of Information by the Authority) Regulations, 2025",
+   "ref": "F. No. IRDAI/Reg/4/211/2025",
+   "instrument": "REG-INFO",
+   "effective": "2025-01-10",
+   "applies": "Insurers, intermediaries and insurance intermediaries.",
+   "changes": [
+    "Electronic policy and claim records held in India.",
+    "Records kept at least 10 years; claim files 3 to 12 years by claim size.",
+    "Replaces three older regulations, including the 2015 records regulations."
+   ],
+   "impact": {
+    "life": {
+     "level": "Medium",
+     "text": "Check record retention and data location."
+    },
+    "health": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "ca": {
+     "level": "Medium",
+     "text": "Keep the Schedule II records at your principal office."
+    }
+   },
+   "actions": [
+    "Update the Board record-retention policy."
+   ]
+  }
+ ]
+}
