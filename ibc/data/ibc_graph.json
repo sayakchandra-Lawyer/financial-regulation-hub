@@ -1,0 +1,2247 @@
+{
+ "meta": {
+  "title": "Insolvency and Bankruptcy Code for financial institutions",
+  "as_of": "2026-11-26",
+  "count": 44,
+  "in_force": 41,
+  "lenses": [
+   {
+    "id": "ENT-FC",
+    "name": "Financial creditor"
+   },
+   {
+    "id": "ENT-FSP",
+    "name": "NBFC / FSP in insolvency"
+   },
+   {
+    "id": "ENT-CD",
+    "name": "Corporate debtor"
+   },
+   {
+    "id": "ENT-RA",
+    "name": "Resolution applicant / bidder"
+   },
+   {
+    "id": "ENT-IP",
+    "name": "Insolvency professional"
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "id": "CODE",
+   "label": "IBC, 2016",
+   "title": "The Insolvency and Bankruptcy Code, 2016 (as amended up to the IBC (Amendment) Act, 2026)",
+   "group": "The Code, IBBI and tribunals",
+   "type": "Act",
+   "status": "In force",
+   "url": "https://indiacode.gov.in/items/37c94edf-7892-4c4f-a284-0c24613a4bf5",
+   "issue_date": "2016-05-28",
+   "updated_as_on": "2026-07-02"
+  },
+  {
+   "id": "AMDACT-2026",
+   "label": "IBC (Amendment) Act, 2026",
+   "title": "The Insolvency and Bankruptcy Code (Amendment) Act, 2026",
+   "group": "The Code, IBBI and tribunals",
+   "type": "Act",
+   "status": "In force in part (from 26-05-2026; the creditor-initiated process, group insolvency and the electronic portal are not yet in force)",
+   "url": "https://ibbi.gov.in/legal-framework/act",
+   "issue_date": "2026-04-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NOTIF-AMDACT2026-COMMENCE",
+   "label": "Commencement of the 2026 amendments",
+   "title": "Notification under s. 1(2) of the Insolvency and Bankruptcy Code (Amendment) Act, 2026 (S.O. 2625(E))",
+   "group": "The Code, IBBI and tribunals",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/notifications",
+   "issue_date": "2026-05-22",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NOTIF-S4-THRESHOLD",
+   "label": "Rs 1 crore default threshold",
+   "title": "Notification under s. 4 of the Code: minimum amount of default of Rs 1 crore (S.O. 1205(E))",
+   "group": "Starting insolvency",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/notifications",
+   "issue_date": "2020-03-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NOTIF-S4-PPIRP",
+   "label": "Rs 10 lakh threshold for pre-packs",
+   "title": "Notification under s. 4 of the Code: minimum default of Rs 10 lakh for pre-packaged insolvency (S.O. 1543(E))",
+   "group": "Pre-packaged insolvency for MSMEs",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/notifications",
+   "issue_date": "2021-04-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NOTIF-PG-COMMENCE",
+   "label": "Personal guarantor provisions in force",
+   "title": "Notification bringing into force provisions of Part III for personal guarantors to corporate debtors (S.O. 4126(E))",
+   "group": "Personal guarantors and individuals",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/notifications",
+   "issue_date": "2019-11-15",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NOTIF-FSP-S227",
+   "label": "NBFCs of Rs 500 crore notified as FSPs",
+   "title": "Notification under s. 227 of the Code: NBFCs (including HFCs) with assets of Rs 500 crore or more (S.O. 4139(E))",
+   "group": "NBFCs and other financial service providers",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/notifications",
+   "issue_date": "2019-11-18",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NOTIF-FSP-S227-R10",
+   "label": "Third-party assets of NBFCs in insolvency",
+   "title": "Notification under s. 227 read with rule 10 of the FSP Rules: dealing with third-party assets (S.O. 464(E))",
+   "group": "NBFCs and other financial service providers",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/notifications",
+   "issue_date": "2020-01-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-AA",
+   "label": "Application to Adjudicating Authority Rules",
+   "title": "The Insolvency and Bankruptcy (Application to Adjudicating Authority) Rules, 2016 (as amended in 2020)",
+   "group": "Starting insolvency",
+   "type": "Rules",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/rules",
+   "issue_date": "2016-11-30",
+   "updated_as_on": "2020-09-24"
+  },
+  {
+   "id": "RULES-FSP",
+   "label": "FSP Insolvency Rules",
+   "title": "The Insolvency and Bankruptcy (Insolvency and Liquidation Proceedings of Financial Service Providers and Application to Adjudicating Authority) Rules, 2019",
+   "group": "NBFCs and other financial service providers",
+   "type": "Rules",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/rules",
+   "issue_date": "2019-11-15",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-PG",
+   "label": "Personal guarantor IRP Rules",
+   "title": "The Insolvency and Bankruptcy (Application to Adjudicating Authority for Insolvency Resolution Process for Personal Guarantors to Corporate Debtors) Rules, 2019",
+   "group": "Personal guarantors and individuals",
+   "type": "Rules",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/rules",
+   "issue_date": "2019-11-15",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-PGBKY",
+   "label": "Personal guarantor bankruptcy Rules",
+   "title": "The Insolvency and Bankruptcy (Application to Adjudicating Authority for Bankruptcy Process for Personal Guarantors to Corporate Debtors) Rules, 2019",
+   "group": "Personal guarantors and individuals",
+   "type": "Rules",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/rules",
+   "issue_date": "2019-11-15",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-PPIRP",
+   "label": "Pre-pack Rules",
+   "title": "The Insolvency and Bankruptcy (Pre-packaged Insolvency Resolution Process) Rules, 2021",
+   "group": "Pre-packaged insolvency for MSMEs",
+   "type": "Rules",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/rules",
+   "issue_date": "2021-04-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-RV",
+   "label": "Registered Valuers Rules",
+   "title": "The Companies (Registered Valuers and Valuation) Rules, 2017 (as amended up to G.S.R. 432(E), 2026)",
+   "group": "Insolvency professionals, agencies, valuers and information utilities",
+   "type": "Rules",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/rules",
+   "issue_date": "2017-10-18",
+   "updated_as_on": "2026-06-01"
+  },
+  {
+   "id": "REG-CIRP",
+   "label": "CIRP Regulations",
+   "title": "IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016 (as amended up to 30-10-2026)",
+   "group": "Running the CIRP: moratorium, claims and creditors' committee",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2016-11-30",
+   "updated_as_on": "2026-10-30"
+  },
+  {
+   "id": "REG-LIQ",
+   "label": "Liquidation Regulations",
+   "title": "IBBI (Liquidation Process) Regulations, 2016 (as amended up to 22-09-2026)",
+   "group": "Liquidation and voluntary liquidation",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2016-12-15",
+   "updated_as_on": "2026-09-22"
+  },
+  {
+   "id": "REG-VL",
+   "label": "Voluntary Liquidation Regulations",
+   "title": "IBBI (Voluntary Liquidation Process) Regulations, 2017 (as amended up to 02-06-2026)",
+   "group": "Liquidation and voluntary liquidation",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2017-03-31",
+   "updated_as_on": "2026-06-02"
+  },
+  {
+   "id": "REG-PPIRP",
+   "label": "Pre-pack Regulations",
+   "title": "IBBI (Pre-Packaged Insolvency Resolution Process) Regulations, 2021 (as amended up to 02-06-2026)",
+   "group": "Pre-packaged insolvency for MSMEs",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2021-04-09",
+   "updated_as_on": "2026-06-02"
+  },
+  {
+   "id": "REG-PGIRP",
+   "label": "Personal guarantor IRP Regulations",
+   "title": "IBBI (Insolvency Resolution Process for Personal Guarantors to Corporate Debtors) Regulations, 2019 (as amended up to 02-06-2026)",
+   "group": "Personal guarantors and individuals",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2019-11-20",
+   "updated_as_on": "2026-06-02"
+  },
+  {
+   "id": "REG-PGBKY",
+   "label": "Personal guarantor bankruptcy Regulations",
+   "title": "IBBI (Bankruptcy Process for Personal Guarantors to Corporate Debtors) Regulations, 2019 (as amended up to 02-06-2026)",
+   "group": "Personal guarantors and individuals",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2019-11-20",
+   "updated_as_on": "2026-06-02"
+  },
+  {
+   "id": "REG-IP",
+   "label": "Insolvency Professionals Regulations",
+   "title": "IBBI (Insolvency Professionals) Regulations, 2016 (as amended up to 20-11-2025)",
+   "group": "Insolvency professionals, agencies, valuers and information utilities",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2016-11-29",
+   "updated_as_on": "2025-11-20"
+  },
+  {
+   "id": "REG-IPA",
+   "label": "IP Agencies Regulations",
+   "title": "IBBI (Insolvency Professional Agencies) Regulations, 2016 (as amended up to 04-07-2022)",
+   "group": "Insolvency professionals, agencies, valuers and information utilities",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2016-11-21",
+   "updated_as_on": "2022-07-04"
+  },
+  {
+   "id": "REG-IPA-MBL",
+   "label": "IPA Model Bye-Laws Regulations",
+   "title": "IBBI (Model Bye-Laws and Governing Board of Insolvency Professional Agencies) Regulations, 2016 (as amended up to 13-05-2026)",
+   "group": "Insolvency professionals, agencies, valuers and information utilities",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2016-11-21",
+   "updated_as_on": "2026-05-13"
+  },
+  {
+   "id": "REG-IU",
+   "label": "Information Utilities Regulations",
+   "title": "IBBI (Information Utilities) Regulations, 2017 (as amended up to 02-06-2026)",
+   "group": "Insolvency professionals, agencies, valuers and information utilities",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2017-03-31",
+   "updated_as_on": "2026-06-02"
+  },
+  {
+   "id": "REG-INSP",
+   "label": "Inspection and Investigation Regulations",
+   "title": "IBBI (Inspection and Investigation) Regulations, 2017 (as amended up to 02-06-2026)",
+   "group": "Oversight, complaints and penalties",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2017-06-12",
+   "updated_as_on": "2026-06-02"
+  },
+  {
+   "id": "REG-GRIEV",
+   "label": "Grievance and Complaint Regulations",
+   "title": "IBBI (Grievance and Complaint Handling Procedure) Regulations, 2017 (as amended up to 03-06-2026)",
+   "group": "Oversight, complaints and penalties",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2017-12-07",
+   "updated_as_on": "2026-06-03"
+  },
+  {
+   "id": "CIR-2026-10-30-2",
+   "label": "RERA compliance and site disclosure in real estate CIRPs",
+   "title": "Compliance with RERA for corporate debtors having real estate projects and disclosure of CIRP at project and office sites",
+   "group": "Running the CIRP: moratorium, claims and creditors' committee",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2026-10-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2026-10-30-1",
+   "label": "Revised Form CA for homebuyer claims",
+   "title": "Introduction of revised Form CA for filing of claims by real estate allottees",
+   "group": "Running the CIRP: moratorium, claims and creditors' committee",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2026-10-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2026-09-24-1",
+   "label": "Late fee for liquidation forms",
+   "title": "Commencement of levy of fee for delayed filing of Forms under regulation 47B of the Liquidation Process Regulations",
+   "group": "Liquidation and voluntary liquidation",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2026-09-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2026-09-21-1",
+   "label": "No interim moratorium for personal guarantors: High Court rulings",
+   "title": "Cessation of interim moratorium in respect of personal guarantors to corporate debtors: judgments of the Bombay and Delhi High Courts",
+   "group": "Personal guarantors and individuals",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2026-09-21",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2026-09-09-1",
+   "label": "Due diligence on misuse of the IBC",
+   "title": "Due diligence by insolvency professionals regarding misuse of the IBC framework",
+   "group": "Oversight, complaints and penalties",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2026-09-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2026-06-15-1",
+   "label": "Guidelines and format for valuation reports",
+   "title": "Guidelines for conducting valuation under the Insolvency and Bankruptcy Code, 2016",
+   "group": "Insolvency professionals, agencies, valuers and information utilities",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2026-06-15",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2026-04-01-1",
+   "label": "International Valuation Standards apply",
+   "title": "Valuation standards for valuations conducted under the Insolvency and Bankruptcy Code, 2016",
+   "group": "Insolvency professionals, agencies, valuers and information utilities",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2026-04-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2026-03-06-1",
+   "label": "Forms to monitor personal guarantor processes",
+   "title": "Filing forms to monitor insolvency resolution processes for personal guarantors to corporate debtors",
+   "group": "Personal guarantors and individuals",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2026-03-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2026-01-05-1",
+   "label": "Revised liquidation forms",
+   "title": "Launch of revised forms for the liquidation process",
+   "group": "Liquidation and voluntary liquidation",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2026-01-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2025-12-29-1",
+   "label": "Beneficial ownership statement in resolution plans",
+   "title": "Format for statement of beneficial ownership and affidavit under regulation 38(3A) of the CIRP Regulations",
+   "group": "Resolution plans and who may bid",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2025-12-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2025-12-18-1",
+   "label": "Modifying CIRP forms and late fee",
+   "title": "Introduction of modification utility and commencement of levy of fee for delayed filing of forms under regulation 40B of the CIRP Regulations",
+   "group": "Running the CIRP: moratorium, claims and creditors' committee",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2025-12-18",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2025-11-18-1",
+   "label": "Section 29A due diligence note to the CoC",
+   "title": "Strengthening due diligence under section 29A",
+   "group": "Resolution plans and who may bid",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2025-11-18",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2025-11-04-1",
+   "label": "Restitution of assets attached under PMLA",
+   "title": "Undertaking by insolvency professionals before Special Courts under PMLA",
+   "group": "Running the CIRP: moratorium, claims and creditors' committee",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2025-11-04",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2025-03-28-1",
+   "label": "Liquidation auctions only on the Baanknet platform",
+   "title": "Mandatory use of the Baanknet (formerly eBKray) auction platform for liquidation",
+   "group": "Liquidation and voluntary liquidation",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2025-03-28",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2025-03-17-1",
+   "label": "Carry-forward tax losses in the information memorandum",
+   "title": "Disclosure of information relating to carry forward of losses in the information memorandum",
+   "group": "Resolution plans and who may bid",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2025-03-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-FTCIRP",
+   "label": "Fast Track CIRP Regulations",
+   "title": "IBBI (Fast Track Insolvency Resolution Process for Corporate Persons) Regulations, 2017",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Fast track process removed from the Code from 26-05-2026",
+   "url": "https://ibbi.gov.in/legal-framework/updated",
+   "issue_date": "2017-06-14",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "BILL-2025",
+   "label": "IBC (Amendment) Bill, 2025",
+   "title": "The Insolvency and Bankruptcy Code (Amendment) Bill, 2025 (as introduced in the Lok Sabha)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Enacted as the IBC (Amendment) Act, 2026",
+   "url": "https://ibbi.gov.in/legal-framework/act",
+   "issue_date": "2025-08-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2025-01-10-1",
+   "label": "eBKray auction platform circular",
+   "title": "Mandatory use of eBKray auction platform for liquidation processes",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Replaced on 28-03-2025",
+   "url": "https://ibbi.gov.in/legal-framework/circulars",
+   "issue_date": "2025-01-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ENT-FC",
+   "label": "Financial creditor",
+   "title": "Financial creditor",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-FSP",
+   "label": "NBFC / FSP in insolvency",
+   "title": "NBFC / FSP in insolvency",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-CD",
+   "label": "Corporate debtor",
+   "title": "Corporate debtor",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-RA",
+   "label": "Resolution applicant / bidder",
+   "title": "Resolution applicant / bidder",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-IP",
+   "label": "Insolvency professional",
+   "title": "Insolvency professional",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  }
+ ],
+ "edges": [
+  {
+   "source": "CODE",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Companies, LLPs and other corporate persons (Part II), other than financial service providers except those notified under s. 227; Personal guarantors to corporate debtors (Part III, in force for them since 01-12-2019; Part III is not yet in force for other individuals and partnership firms); Credito"
+  },
+  {
+   "source": "CODE",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "Companies, LLPs and other corporate persons (Part II), other than financial service providers except those notified under s. 227; Personal guarantors to corporate debtors (Part III, in force for them since 01-12-2019; Part III is not yet in force for other individuals and partnership firms); Credito"
+  },
+  {
+   "source": "CODE",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "Companies, LLPs and other corporate persons (Part II), other than financial service providers except those notified under s. 227; Personal guarantors to corporate debtors (Part III, in force for them since 01-12-2019; Part III is not yet in force for other individuals and partnership firms); Credito"
+  },
+  {
+   "source": "CODE",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Companies, LLPs and other corporate persons (Part II), other than financial service providers except those notified under s. 227; Personal guarantors to corporate debtors (Part III, in force for them since 01-12-2019; Part III is not yet in force for other individuals and partnership firms); Credito"
+  },
+  {
+   "source": "CODE",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Companies, LLPs and other corporate persons (Part II), other than financial service providers except those notified under s. 227; Personal guarantors to corporate debtors (Part III, in force for them since 01-12-2019; Part III is not yet in force for other individuals and partnership firms); Credito"
+  },
+  {
+   "source": "CODE",
+   "target": "AMDACT-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CODE",
+   "target": "RULES-AA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CODE",
+   "target": "RULES-FSP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CODE",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CODE",
+   "target": "REG-LIQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CODE",
+   "target": "NOTIF-S4-THRESHOLD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CODE",
+   "target": "NOTIF-FSP-S227",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMDACT-2026",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "All parties to processes under the Code: creditors, corporate debtors, resolution applicants, guarantors and insolvency professionals"
+  },
+  {
+   "source": "AMDACT-2026",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "All parties to processes under the Code: creditors, corporate debtors, resolution applicants, guarantors and insolvency professionals"
+  },
+  {
+   "source": "AMDACT-2026",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "All parties to processes under the Code: creditors, corporate debtors, resolution applicants, guarantors and insolvency professionals"
+  },
+  {
+   "source": "AMDACT-2026",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "All parties to processes under the Code: creditors, corporate debtors, resolution applicants, guarantors and insolvency professionals"
+  },
+  {
+   "source": "AMDACT-2026",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "All parties to processes under the Code: creditors, corporate debtors, resolution applicants, guarantors and insolvency professionals"
+  },
+  {
+   "source": "AMDACT-2026",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMDACT-2026",
+   "target": "NOTIF-AMDACT2026-COMMENCE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMDACT-2026",
+   "target": "BILL-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-AMDACT2026-COMMENCE",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Everyone dealing with processes under the Code"
+  },
+  {
+   "source": "NOTIF-AMDACT2026-COMMENCE",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "Everyone dealing with processes under the Code"
+  },
+  {
+   "source": "NOTIF-AMDACT2026-COMMENCE",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "Everyone dealing with processes under the Code"
+  },
+  {
+   "source": "NOTIF-AMDACT2026-COMMENCE",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Everyone dealing with processes under the Code"
+  },
+  {
+   "source": "NOTIF-AMDACT2026-COMMENCE",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Everyone dealing with processes under the Code"
+  },
+  {
+   "source": "NOTIF-AMDACT2026-COMMENCE",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "NOTIF-AMDACT2026-COMMENCE",
+   "target": "AMDACT-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-AMDACT2026-COMMENCE",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-S4-THRESHOLD",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Creditors and corporate debtors in corporate insolvency (Part II)"
+  },
+  {
+   "source": "NOTIF-S4-THRESHOLD",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "Creditors and corporate debtors in corporate insolvency (Part II)"
+  },
+  {
+   "source": "NOTIF-S4-THRESHOLD",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "Creditors and corporate debtors in corporate insolvency (Part II)"
+  },
+  {
+   "source": "NOTIF-S4-THRESHOLD",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "NOTIF-S4-THRESHOLD",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-S4-PPIRP",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "MSME corporate debtors and their creditors (Chapter III-A)"
+  },
+  {
+   "source": "NOTIF-S4-PPIRP",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "MSME corporate debtors and their creditors (Chapter III-A)"
+  },
+  {
+   "source": "NOTIF-S4-PPIRP",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "NOTIF-S4-PPIRP",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-S4-PPIRP",
+   "target": "RULES-PPIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-S4-PPIRP",
+   "target": "REG-PPIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-PG-COMMENCE",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Personal guarantors to corporate debtors and their creditors"
+  },
+  {
+   "source": "NOTIF-PG-COMMENCE",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Personal guarantors to corporate debtors and their creditors"
+  },
+  {
+   "source": "NOTIF-PG-COMMENCE",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "NOTIF-PG-COMMENCE",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-PG-COMMENCE",
+   "target": "RULES-PG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-PG-COMMENCE",
+   "target": "RULES-PGBKY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-FSP-S227",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "Non-banking finance companies, including housing finance companies, with asset size of Rs 500 crore or more as per the last audited balance sheet"
+  },
+  {
+   "source": "NOTIF-FSP-S227",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Non-banking finance companies, including housing finance companies, with asset size of Rs 500 crore or more as per the last audited balance sheet"
+  },
+  {
+   "source": "NOTIF-FSP-S227",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "NOTIF-FSP-S227",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-FSP-S227",
+   "target": "RULES-FSP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-FSP-S227",
+   "target": "NOTIF-FSP-S227-R10",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-FSP-S227-R10",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "Administrators of notified NBFCs and HFCs in insolvency, and customers and counterparties whose assets the NBFC holds"
+  },
+  {
+   "source": "NOTIF-FSP-S227-R10",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Administrators of notified NBFCs and HFCs in insolvency, and customers and counterparties whose assets the NBFC holds"
+  },
+  {
+   "source": "NOTIF-FSP-S227-R10",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "NOTIF-FSP-S227-R10",
+   "target": "RULES-FSP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-FSP-S227-R10",
+   "target": "NOTIF-FSP-S227",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-AA",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Financial creditors (s. 7), operational creditors (ss. 8 and 9) and corporate applicants (s. 10) starting a CIRP"
+  },
+  {
+   "source": "RULES-AA",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "Financial creditors (s. 7), operational creditors (ss. 8 and 9) and corporate applicants (s. 10) starting a CIRP"
+  },
+  {
+   "source": "RULES-AA",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "RULES-AA",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-AA",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-FSP",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "Financial service providers notified under s. 227 (currently NBFCs and HFCs with assets of Rs 500 crore or more); The appropriate regulator (RBI for NBFCs)"
+  },
+  {
+   "source": "RULES-FSP",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Financial service providers notified under s. 227 (currently NBFCs and HFCs with assets of Rs 500 crore or more); The appropriate regulator (RBI for NBFCs)"
+  },
+  {
+   "source": "RULES-FSP",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "RULES-FSP",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-FSP",
+   "target": "NOTIF-FSP-S227",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-FSP",
+   "target": "NOTIF-FSP-S227-R10",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-FSP",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PG",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Creditors of, and personal guarantors to, corporate debtors"
+  },
+  {
+   "source": "RULES-PG",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Creditors of, and personal guarantors to, corporate debtors"
+  },
+  {
+   "source": "RULES-PG",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "RULES-PG",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PG",
+   "target": "REG-PGIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PG",
+   "target": "NOTIF-PG-COMMENCE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PG",
+   "target": "CIR-2026-09-21-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PGBKY",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Creditors of, and personal guarantors to, corporate debtors after a failed insolvency resolution process"
+  },
+  {
+   "source": "RULES-PGBKY",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Creditors of, and personal guarantors to, corporate debtors after a failed insolvency resolution process"
+  },
+  {
+   "source": "RULES-PGBKY",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "RULES-PGBKY",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PGBKY",
+   "target": "REG-PGBKY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PGBKY",
+   "target": "RULES-PG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PPIRP",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "MSME corporate debtors applying for pre-packaged insolvency"
+  },
+  {
+   "source": "RULES-PPIRP",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "MSME corporate debtors applying for pre-packaged insolvency"
+  },
+  {
+   "source": "RULES-PPIRP",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "RULES-PPIRP",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PPIRP",
+   "target": "REG-PPIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PPIRP",
+   "target": "NOTIF-S4-PPIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-RV",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Registered valuers and registered valuer organisations; valuations required under the Companies Act and the Code"
+  },
+  {
+   "source": "RULES-RV",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Registered valuers and registered valuer organisations; valuations required under the Companies Act and the Code"
+  },
+  {
+   "source": "RULES-RV",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-RV",
+   "target": "REG-LIQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-RV",
+   "target": "CIR-2026-04-01-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-RV",
+   "target": "CIR-2026-06-15-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Interim resolution professionals and resolution professionals; Financial and operational creditors, creditors in a class (including homebuyers) and the committee of creditors; Prospective resolution applicants; Corporate debtors and their promoters and officers"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "Interim resolution professionals and resolution professionals; Financial and operational creditors, creditors in a class (including homebuyers) and the committee of creditors; Prospective resolution applicants; Corporate debtors and their promoters and officers"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "Interim resolution professionals and resolution professionals; Financial and operational creditors, creditors in a class (including homebuyers) and the committee of creditors; Prospective resolution applicants; Corporate debtors and their promoters and officers"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Interim resolution professionals and resolution professionals; Financial and operational creditors, creditors in a class (including homebuyers) and the committee of creditors; Prospective resolution applicants; Corporate debtors and their promoters and officers"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Interim resolution professionals and resolution professionals; Financial and operational creditors, creditors in a class (including homebuyers) and the committee of creditors; Prospective resolution applicants; Corporate debtors and their promoters and officers"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "REG-LIQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "CIR-2025-11-18-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "CIR-2025-12-29-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "CIR-2026-10-30-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "CIR-2026-10-30-2",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "CIR-2026-04-01-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CIRP",
+   "target": "CIR-2025-12-18-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Liquidators and the committee of creditors in liquidation; Secured and unsecured creditors, workmen and other stakeholders; Bidders for liquidation assets"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "Liquidators and the committee of creditors in liquidation; Secured and unsecured creditors, workmen and other stakeholders; Bidders for liquidation assets"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Liquidators and the committee of creditors in liquidation; Secured and unsecured creditors, workmen and other stakeholders; Bidders for liquidation assets"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Liquidators and the committee of creditors in liquidation; Secured and unsecured creditors, workmen and other stakeholders; Bidders for liquidation assets"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "Liquidators and the committee of creditors in liquidation; Secured and unsecured creditors, workmen and other stakeholders; Bidders for liquidation assets"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "CIR-2025-03-28-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "CIR-2026-01-05-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-LIQ",
+   "target": "CIR-2026-09-24-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-VL",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "Solvent corporate persons that choose to wind up, their liquidators, creditors and contributories"
+  },
+  {
+   "source": "REG-VL",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "Solvent corporate persons that choose to wind up, their liquidators, creditors and contributories"
+  },
+  {
+   "source": "REG-VL",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Solvent corporate persons that choose to wind up, their liquidators, creditors and contributories"
+  },
+  {
+   "source": "REG-VL",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-VL",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-VL",
+   "target": "RULES-FSP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PPIRP",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "MSME corporate debtors, their unrelated financial creditors, resolution professionals and resolution applicants"
+  },
+  {
+   "source": "REG-PPIRP",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "MSME corporate debtors, their unrelated financial creditors, resolution professionals and resolution applicants"
+  },
+  {
+   "source": "REG-PPIRP",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "MSME corporate debtors, their unrelated financial creditors, resolution professionals and resolution applicants"
+  },
+  {
+   "source": "REG-PPIRP",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "MSME corporate debtors, their unrelated financial creditors, resolution professionals and resolution applicants"
+  },
+  {
+   "source": "REG-PPIRP",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-PPIRP",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PPIRP",
+   "target": "RULES-PPIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PPIRP",
+   "target": "NOTIF-S4-PPIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PGIRP",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Personal guarantors to corporate debtors, their creditors and resolution professionals"
+  },
+  {
+   "source": "REG-PGIRP",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Personal guarantors to corporate debtors, their creditors and resolution professionals"
+  },
+  {
+   "source": "REG-PGIRP",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-PGIRP",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PGIRP",
+   "target": "RULES-PG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PGIRP",
+   "target": "CIR-2026-03-06-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PGIRP",
+   "target": "CIR-2026-09-21-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PGBKY",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Bankrupt personal guarantors, their creditors and bankruptcy trustees"
+  },
+  {
+   "source": "REG-PGBKY",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Bankrupt personal guarantors, their creditors and bankruptcy trustees"
+  },
+  {
+   "source": "REG-PGBKY",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-PGBKY",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PGBKY",
+   "target": "RULES-PGBKY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-IP",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Insolvency professionals and insolvency professional entities"
+  },
+  {
+   "source": "REG-IP",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-IP",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-IP",
+   "target": "REG-IPA-MBL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-IP",
+   "target": "REG-INSP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-IP",
+   "target": "REG-GRIEV",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-IPA",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Insolvency professional agencies (IPAs)"
+  },
+  {
+   "source": "REG-IPA",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-IPA",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-IPA",
+   "target": "REG-IPA-MBL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-IPA",
+   "target": "REG-IP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-IPA-MBL",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Insolvency professional agencies and their members"
+  },
+  {
+   "source": "REG-IPA-MBL",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-IPA-MBL",
+   "target": "REG-IPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-IPA-MBL",
+   "target": "REG-IP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-IU",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Information utilities, and creditors and debtors who submit or verify financial information"
+  },
+  {
+   "source": "REG-IU",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "Information utilities, and creditors and debtors who submit or verify financial information"
+  },
+  {
+   "source": "REG-IU",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Information utilities, and creditors and debtors who submit or verify financial information"
+  },
+  {
+   "source": "REG-IU",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-IU",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INSP",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Insolvency professionals, IP entities, IPAs and information utilities"
+  },
+  {
+   "source": "REG-INSP",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-INSP",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INSP",
+   "target": "REG-IP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GRIEV",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Any stakeholder with a grievance or complaint against an IP, IPA, IU or registered valuer"
+  },
+  {
+   "source": "REG-GRIEV",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "Any stakeholder with a grievance or complaint against an IP, IPA, IU or registered valuer"
+  },
+  {
+   "source": "REG-GRIEV",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Any stakeholder with a grievance or complaint against an IP, IPA, IU or registered valuer"
+  },
+  {
+   "source": "REG-GRIEV",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Any stakeholder with a grievance or complaint against an IP, IPA, IU or registered valuer"
+  },
+  {
+   "source": "REG-GRIEV",
+   "target": "ENT-FSP",
+   "relation": "applies_to",
+   "basis": "Any stakeholder with a grievance or complaint against an IP, IPA, IU or registered valuer"
+  },
+  {
+   "source": "REG-GRIEV",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "REG-GRIEV",
+   "target": "REG-INSP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-10-30-2",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "IRPs and RPs of corporate debtors with real estate projects"
+  },
+  {
+   "source": "CIR-2026-10-30-2",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "IRPs and RPs of corporate debtors with real estate projects"
+  },
+  {
+   "source": "CIR-2026-10-30-2",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "IRPs and RPs of corporate debtors with real estate projects"
+  },
+  {
+   "source": "CIR-2026-10-30-2",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2026-10-30-2",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-10-30-1",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Financial creditors in a class, including real estate allottees, and IRPs and RPs"
+  },
+  {
+   "source": "CIR-2026-10-30-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Financial creditors in a class, including real estate allottees, and IRPs and RPs"
+  },
+  {
+   "source": "CIR-2026-10-30-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2026-10-30-1",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-09-24-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Liquidators"
+  },
+  {
+   "source": "CIR-2026-09-24-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2026-09-24-1",
+   "target": "REG-LIQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-09-24-1",
+   "target": "CIR-2026-01-05-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-09-21-1",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Creditors of personal guarantors, resolution professionals and guarantors"
+  },
+  {
+   "source": "CIR-2026-09-21-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Creditors of personal guarantors, resolution professionals and guarantors"
+  },
+  {
+   "source": "CIR-2026-09-21-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2026-09-21-1",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-09-21-1",
+   "target": "RULES-PG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-09-21-1",
+   "target": "REG-PGIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-09-09-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Insolvency professionals in CIRPs and liquidations"
+  },
+  {
+   "source": "CIR-2026-09-09-1",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Insolvency professionals in CIRPs and liquidations"
+  },
+  {
+   "source": "CIR-2026-09-09-1",
+   "target": "ENT-CD",
+   "relation": "applies_to",
+   "basis": "Insolvency professionals in CIRPs and liquidations"
+  },
+  {
+   "source": "CIR-2026-09-09-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2026-09-09-1",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-09-09-1",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-06-15-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Registered valuers, IPs and IP entities"
+  },
+  {
+   "source": "CIR-2026-06-15-1",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Registered valuers, IPs and IP entities"
+  },
+  {
+   "source": "CIR-2026-06-15-1",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Registered valuers, IPs and IP entities"
+  },
+  {
+   "source": "CIR-2026-06-15-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2026-06-15-1",
+   "target": "RULES-RV",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-06-15-1",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-06-15-1",
+   "target": "REG-LIQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-06-15-1",
+   "target": "CIR-2026-04-01-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-04-01-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Registered valuers, IPs, IP entities and IPAs"
+  },
+  {
+   "source": "CIR-2026-04-01-1",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Registered valuers, IPs, IP entities and IPAs"
+  },
+  {
+   "source": "CIR-2026-04-01-1",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Registered valuers, IPs, IP entities and IPAs"
+  },
+  {
+   "source": "CIR-2026-04-01-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2026-04-01-1",
+   "target": "RULES-RV",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-04-01-1",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-04-01-1",
+   "target": "REG-LIQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-04-01-1",
+   "target": "REG-VL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-03-06-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Resolution professionals and bankruptcy trustees of personal guarantors"
+  },
+  {
+   "source": "CIR-2026-03-06-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2026-03-06-1",
+   "target": "REG-PGIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-03-06-1",
+   "target": "REG-PGBKY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-01-05-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Liquidators"
+  },
+  {
+   "source": "CIR-2026-01-05-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2026-01-05-1",
+   "target": "REG-LIQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-01-05-1",
+   "target": "CIR-2026-09-24-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2025-12-29-1",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Prospective resolution applicants and resolution professionals"
+  },
+  {
+   "source": "CIR-2025-12-29-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Prospective resolution applicants and resolution professionals"
+  },
+  {
+   "source": "CIR-2025-12-29-1",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Prospective resolution applicants and resolution professionals"
+  },
+  {
+   "source": "CIR-2025-12-29-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2025-12-29-1",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2025-12-29-1",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2025-12-18-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "IRPs and RPs"
+  },
+  {
+   "source": "CIR-2025-12-18-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2025-12-18-1",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2025-11-18-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Resolution professionals, prospective resolution applicants and committees of creditors"
+  },
+  {
+   "source": "CIR-2025-11-18-1",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Resolution professionals, prospective resolution applicants and committees of creditors"
+  },
+  {
+   "source": "CIR-2025-11-18-1",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Resolution professionals, prospective resolution applicants and committees of creditors"
+  },
+  {
+   "source": "CIR-2025-11-18-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2025-11-18-1",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2025-11-18-1",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2025-11-04-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Resolution professionals and liquidators where the Enforcement Directorate has attached the corporate debtor's assets"
+  },
+  {
+   "source": "CIR-2025-11-04-1",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Resolution professionals and liquidators where the Enforcement Directorate has attached the corporate debtor's assets"
+  },
+  {
+   "source": "CIR-2025-11-04-1",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Resolution professionals and liquidators where the Enforcement Directorate has attached the corporate debtor's assets"
+  },
+  {
+   "source": "CIR-2025-11-04-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2025-11-04-1",
+   "target": "CODE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2025-03-28-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Liquidators and bidders for liquidation assets"
+  },
+  {
+   "source": "CIR-2025-03-28-1",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Liquidators and bidders for liquidation assets"
+  },
+  {
+   "source": "CIR-2025-03-28-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2025-03-28-1",
+   "target": "REG-LIQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2025-03-17-1",
+   "target": "ENT-IP",
+   "relation": "applies_to",
+   "basis": "Resolution professionals and prospective resolution applicants"
+  },
+  {
+   "source": "CIR-2025-03-17-1",
+   "target": "ENT-RA",
+   "relation": "applies_to",
+   "basis": "Resolution professionals and prospective resolution applicants"
+  },
+  {
+   "source": "CIR-2025-03-17-1",
+   "target": "CODE",
+   "relation": "issued_under",
+   "basis": "IBC, 2016 (s. 239 for rules; s. 240 for regulations; s. 196 for circulars; ss. 4, 227 and 1(3) for notifications)"
+  },
+  {
+   "source": "CIR-2025-03-17-1",
+   "target": "REG-CIRP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FTCIRP",
+   "target": "AMDACT-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BILL-2025",
+   "target": "AMDACT-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2025-01-10-1",
+   "target": "CIR-2025-03-28-1",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMDACT-2026",
+   "target": "REG-FTCIRP",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "CIR-2025-03-28-1",
+   "target": "CIR-2025-01-10-1",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "RULES-FSP",
+   "target": "NOTIF-FSP-S227",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "NOTIF-FSP-S227-R10",
+   "target": "RULES-FSP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-PGBKY",
+   "target": "REG-PGIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "RULES-PGBKY",
+   "target": "RULES-PG",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-IPA-MBL",
+   "target": "REG-IPA",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2026-10-30-1",
+   "target": "REG-CIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2026-10-30-2",
+   "target": "REG-CIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2025-11-18-1",
+   "target": "REG-CIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2025-12-29-1",
+   "target": "REG-CIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2025-12-18-1",
+   "target": "REG-CIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2025-03-17-1",
+   "target": "REG-CIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2025-11-04-1",
+   "target": "REG-CIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2026-09-09-1",
+   "target": "REG-CIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2025-03-28-1",
+   "target": "REG-LIQ",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2026-01-05-1",
+   "target": "REG-LIQ",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2026-09-24-1",
+   "target": "REG-LIQ",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2026-09-21-1",
+   "target": "REG-PGIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2026-03-06-1",
+   "target": "REG-PGIRP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2026-04-01-1",
+   "target": "RULES-RV",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-2026-06-15-1",
+   "target": "RULES-RV",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "NOTIF-AMDACT2026-COMMENCE",
+   "target": "AMDACT-2026",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "AMDACT-2026",
+   "target": "CODE",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  }
+ ]
+}

@@ -1,0 +1,1683 @@
+{
+ "meta": {
+  "title": "Insolvency and Bankruptcy Code for financial institutions",
+  "as_of": "2026-11-26",
+  "count": 44,
+  "in_force": 41,
+  "lenses": [
+   {
+    "id": "ENT-FC",
+    "name": "Financial creditor"
+   },
+   {
+    "id": "ENT-FSP",
+    "name": "NBFC / FSP in insolvency"
+   },
+   {
+    "id": "ENT-CD",
+    "name": "Corporate debtor"
+   },
+   {
+    "id": "ENT-RA",
+    "name": "Resolution applicant / bidder"
+   },
+   {
+    "id": "ENT-IP",
+    "name": "Insolvency professional"
+   }
+  ]
+ },
+ "instruments": [
+  {
+   "id": "CODE",
+   "type": "Act",
+   "short_name": "IBC, 2016",
+   "title": "The Insolvency and Bankruptcy Code, 2016 (as amended up to the IBC (Amendment) Act, 2026)",
+   "issuing_department": "Parliament of India",
+   "theme": "The Code, IBBI and tribunals",
+   "reference_no": "Act 31 of 2016",
+   "issue_date": "2016-05-28",
+   "updated_as_on": "2026-07-02",
+   "effective_date": "2016-12-01",
+   "status": "In force",
+   "official_url": "https://indiacode.gov.in/items/37c94edf-7892-4c4f-a284-0c24613a4bf5",
+   "official_pdf": "https://indiacode.gov.in/server/api/core/bitstreams/bf689ae0-08e3-47e2-92f2-1711a774254e/content",
+   "statutory_powers": [],
+   "applies_to": [
+    "Companies, LLPs and other corporate persons (Part II), other than financial service providers except those notified under s. 227",
+    "Personal guarantors to corporate debtors (Part III, in force for them since 01-12-2019; Part III is not yet in force for other individuals and partnership firms)",
+    "Creditors, insolvency professionals, insolvency professional agencies, information utilities and registered valuers"
+   ],
+   "excluded": [
+    "Financial service providers such as banks, NBFCs and insurers, except those the Central Government notifies under s. 227 (s. 3(7))"
+   ],
+   "key_concepts": [
+    "Default of at least Rs 1 crore to start a CIRP (s. 4); no CIRP can ever be started for a default that arose between 25-03-2020 and 24-03-2021 (s. 10A)",
+    "Homebuyers and other creditors in a class must file jointly: at least 100 of them or 10% of the class (or of allottees in the same project), whichever is less (s. 7(1) provisos)",
+    "Financial creditor and financial debt (s. 5(7) and (8)); operational creditor and operational debt (s. 5(20) and (21))",
+    "Corporate insolvency resolution process (CIRP), moratorium and committee of creditors (ss. 6 to 32A)",
+    "Resolution plan and ineligible resolution applicants (ss. 29A to 31)",
+    "Liquidation and the order of priority (ss. 33 to 54)",
+    "Pre-packaged insolvency for MSMEs (ss. 54A to 54P)",
+    "Voluntary liquidation (s. 59)",
+    "Avoidance transactions and fraudulent or wrongful trading (ss. 43 to 51 and 66)",
+    "Insolvency of personal guarantors (Part III)",
+    "IBBI and service providers (Part IV)",
+    "Insolvency of notified financial service providers (s. 227)"
+   ],
+   "core_obligations": [
+    "s. 7(5): the NCLT must admit a financial creditor's application within 14 days if a default has occurred, the application is complete and no disciplinary proceeding is pending against the proposed resolution professional; no other ground may be used to reject it, and an information utility record of default is sufficient proof for a financial institution (Explanations I and II, from 26-05-2026)",
+    "s. 12A: an admitted application may be withdrawn only on the resolution professional's application with 90% of the CoC vote, and not before the CoC is formed or after the first invitation for resolution plans (from 26-05-2026)",
+    "s. 14: on admission, a moratorium bars suits and proceedings against the corporate debtor, transfer of its assets, enforcement of security interests it created (including under SARFAESI) and recovery by an owner or lessor of property in its possession; it does not protect sureties, and since 26-05-2026 it also bars a surety's own action against the corporate debtor under the guarantee",
+    "s. 21: the CoC comprises the unrelated financial creditors; a related party is excluded from the CoC, except a regulated financial entity that became related only by converting or substituting debt into equity; where there are no financial creditors, the CoC is formed from operational creditors (reg 16); decisions need 51% unless the Code says otherwise; from 26-05-2026 the CoC also supervises the liquidator (s. 21(11))",
+    "s. 28A: a creditor that has taken possession of a guarantor's asset may transfer it as part of the resolution with prior CoC approval (from 26-05-2026)",
+    "s. 29A: a person who, alone or acting jointly or in concert, is an undischarged insolvent, a wilful defaulter, the holder or promoter of an account classified as NPA for at least a year before the CIRP (unless all overdues are paid before the plan is submitted; a non-related financial entity is exempt), a person convicted of specified offences, a disqualified director, a person barred by SEBI, a promoter or manager of a company in which the NCLT has found avoidance transactions, a guarantor of the corporate debtor whose guarantee has been invoked and remains unpaid, a person under an equivalent disability abroad, or a connected person of any of them (promoters, managers and controllers of the applicant and their related parties, as defined in the section), cannot submit a resolution plan; s. 240A: the NPA and guarantor bars (clauses (c) and (h)) do not apply to applicants for MSMEs",
+    "s. 30(2)(ba) and (4): a plan must pay financial creditors who do not vote for it at least the lower of (i) what they would get in liquidation under s. 53 and (ii) what they would get if the amount distributed under the plan were shared in the s. 53 order of priority; operational creditors must get at least the higher of their liquidation amount and their s. 53 share of the plan amount (s. 30(2)(b)); the CoC approves a plan with 66% of the vote, records reasons, and may weigh the priority and value of each secured creditor's security (from 26-05-2026)",
+    "s. 31: an approved plan binds the corporate debtor, employees, members, creditors (including government authorities for statutory dues) and guarantors; claims not in the plan are extinguished (s. 31(6)); where the plan involves a combination that needs CCI approval, that approval must be obtained before the plan goes to the NCLT (s. 31(4) proviso)",
+    "s. 52(2): a secured creditor that wants to realise its security outside liquidation must tell the liquidator within 14 days of liquidation commencing, or it is deemed to have relinquished the security (from 26-05-2026)",
+    "s. 53: liquidation proceeds go (a) to CIRP and liquidation costs, (b) workmen's dues for 24 months and secured creditors who relinquished their security, (c) other employees' wages for 12 months, (d) unsecured financial creditors, (e) government dues for two years and secured creditors' shortfall after enforcing security, (f) remaining debts, (g) preference shareholders and (h) equity shareholders or partners; workmen's provident, pension and gratuity funds are outside the estate (s. 36(4)); from 26-05-2026 government dues rank in clause (e) or (f) even if secured by law or agreement, and a secured creditor that relinquishes security ranks as secured only up to the value of that security",
+    "s. 227: the Central Government may notify financial service providers, such as NBFCs, for insolvency under modified rules"
+   ],
+   "timelines": [
+    "s. 7(4), 9(5), 10(4): the NCLT decides an admission application within 14 days; an applicant gets 7 days to cure defects",
+    "s. 12: CIRP to be completed within 180 days, extendable once by up to 90 days on a 66% CoC vote, and ordinarily within 330 days including litigation (the Supreme Court has allowed longer in exceptional cases)",
+    "s. 8(2): a corporate debtor has 10 days from an operational creditor's demand notice to show a dispute or payment",
+    "s. 22(1): the first CoC meeting within 7 days of the CoC being formed",
+    "s. 31(2A), 33(2A), 54(4): the NCLT approves or rejects a plan, and passes liquidation and dissolution orders, within 30 days (from 26-05-2026)",
+    "s. 33(1A): on a 66% CoC request the NCLT may restore the CIRP for up to 120 days instead of ordering liquidation (from 26-05-2026)",
+    "s. 54(1): the liquidator applies for dissolution within 180 days of liquidation commencing, extendable by up to 90 days (from 26-05-2026)",
+    "s. 61: appeal to the NCLAT within 30 days (plus 15); the NCLAT is to decide within three months (s. 61(6), from 26-05-2026); s. 62: appeal to the Supreme Court within 45 days (plus 15)",
+    "s. 43 and 46: look-back for preferences is one year before the initiation date (two years for related parties) up to the insolvency commencement date; for undervalued transactions one year (two years for related parties)",
+    "s. 238A: the Limitation Act, 1963 applies to applications and appeals"
+   ],
+   "consequences_stated": [
+    "s. 64A and 183A: Rs 1 lakh to Rs 2 crore for initiating frivolous or vexatious proceedings (from 26-05-2026)",
+    "s. 66: directors may be ordered to contribute to the assets for fraudulent or wrongful trading",
+    "s. 67B: Rs 1 lakh to Rs 2 crore on officers or creditors who breach the moratorium; for breach of an approved plan, up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (from 26-05-2026)",
+    "s. 67C: Rs 1 lakh to Rs 2 crore on an operational creditor that hides a dispute or payment",
+    "s. 68 to 77A: imprisonment and fines for concealing property, defrauding creditors, misconduct during a CIRP, falsifying books and false information",
+    "s. 235A: at least Rs 1 lakh a day for any contravention, up to three times the loss or unlawful gain, or Rs 5 crore if neither can be quantified"
+   ],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "AMDACT-2026",
+    "RULES-AA",
+    "RULES-FSP",
+    "REG-CIRP",
+    "REG-LIQ",
+    "NOTIF-S4-THRESHOLD",
+    "NOTIF-FSP-S227"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "AMDACT-2026",
+   "type": "Act",
+   "short_name": "IBC (Amendment) Act, 2026",
+   "title": "The Insolvency and Bankruptcy Code (Amendment) Act, 2026",
+   "issuing_department": "Parliament of India",
+   "theme": "The Code, IBBI and tribunals",
+   "reference_no": "Act 6 of 2026",
+   "issue_date": "2026-04-06",
+   "updated_as_on": "",
+   "effective_date": "2026-05-26",
+   "status": "In force in part (from 26-05-2026; the creditor-initiated process, group insolvency and the electronic portal are not yet in force)",
+   "official_url": "https://ibbi.gov.in/legal-framework/act",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/2026-04-07-115842-i5nsk-7ed69ef2a4d23a8b0d472cc0fcd55e79.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "All parties to processes under the Code: creditors, corporate debtors, resolution applicants, guarantors and insolvency professionals"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Mandatory admission of a financial creditor's application once default is shown (s. 7(5))",
+    "Withdrawal only with 90% CoC approval and only between CoC formation and the first invitation for plans (s. 12A)",
+    "CoC supervision of liquidation, restoration of CIRP and dissolution without liquidation (ss. 21(11), 33(1A), 33(2), 54(2A))",
+    "Treatment of dissenting creditors and value of security in resolution plans (ss. 30(2)(ba), 30(4))",
+    "Government dues rank as government dues even if secured (s. 53 Explanation)",
+    "No interim moratorium for personal guarantors (ss. 96(4) and 124(4))",
+    "Penalties for frivolous proceedings and breach of moratorium or plan (ss. 64A, 67B, 183A)",
+    "Creditor-initiated insolvency resolution process (CIIRP, ss. 58A to 58L) and group insolvency (s. 59A): enacted but not yet in force"
+   ],
+   "core_obligations": [
+    "The amendments to ss. 7, 12A, 14, 16, 18, 21, 26, 28A, 30, 31, 33, 34, 34A, 35, 43, 46, 52, 53, 54, 59, 61, 64A, 66, 67B, 96, 124, 183A, 196 and 220 are in force from 26-05-2026 under S.O. 2625(E)",
+    "Not yet in force (as on 26-11-2026): Chapter IVA of Part II (CIIRP, ss. 58A to 58L), Chapter VA (group insolvency, s. 59A) and the electronic portal and related provisions (ss. 240B and 240C); these need a separate notification",
+    "CIIRP as enacted: notified financial institutions holding at least 51% by value of debt owed to such institutions may start the process after 30 days' notice to the corporate debtor; the resolution professional's public announcement starts it; the corporate debtor may object within 30 days; management stays with the board under the resolution professional's oversight",
+    "s. 31(1) second proviso: the NCLT may approve a plan in two steps, implementation first and distribution within 30 days; s. 31(4) proviso: where the plan involves a combination needing CCI approval, it must be obtained before the plan is submitted to the NCLT"
+   ],
+   "timelines": [
+    "CIIRP as enacted: complete within 150 days, extendable once by up to 45 days on a 66% vote",
+    "NCLT orders on plans, liquidation and dissolution within 30 days (ss. 31(2A), 33(2A), 54(4))",
+    "NCLAT to decide appeals within three months (s. 61(6))"
+   ],
+   "consequences_stated": [
+    "ss. 64A and 183A: Rs 1 lakh to Rs 2 crore for frivolous or vexatious proceedings",
+    "s. 67B: Rs 1 lakh to Rs 2 crore for breach of moratorium; for breach of a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher"
+   ],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "NOTIF-AMDACT2026-COMMENCE",
+    "BILL-2025"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "NOTIF-AMDACT2026-COMMENCE",
+   "type": "Notification",
+   "short_name": "Commencement of the 2026 amendments",
+   "title": "Notification under s. 1(2) of the Insolvency and Bankruptcy Code (Amendment) Act, 2026 (S.O. 2625(E))",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "The Code, IBBI and tribunals",
+   "reference_no": "S.O. 2625(E)",
+   "issue_date": "2026-05-22",
+   "updated_as_on": "",
+   "effective_date": "2026-05-26",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/notifications",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/d31669ba7f826ee9ebefe58e85d652ec.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Everyone dealing with processes under the Code"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Brings most of the Amendment Act into force on 26-05-2026"
+   ],
+   "core_obligations": [
+    "In force from 26-05-2026: ss. 2 to 6, 8 to 33, 34(a)(iii) and (b), 35 to 39, 41, 43, 44, 46, 48 to 59, 61 to 66, 68, 69(a), 70(a), 70(b)(i) to (xxvi) except (xx), and 72 of the Amendment Act",
+    "Not notified: ss. 7, 40, 42, 45, 47, 60 and 71 of the Amendment Act (including CIIRP, group insolvency and the electronic portal)"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "AMDACT-2026",
+    "CODE"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "NOTIF-S4-THRESHOLD",
+   "type": "Notification",
+   "short_name": "Rs 1 crore default threshold",
+   "title": "Notification under s. 4 of the Code: minimum amount of default of Rs 1 crore (S.O. 1205(E))",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "Starting insolvency",
+   "reference_no": "S.O. 1205(E)",
+   "issue_date": "2020-03-24",
+   "updated_as_on": "",
+   "effective_date": "2020-03-24",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/notifications",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/48bf32150f5d6b30477b74f652964edc.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Creditors and corporate debtors in corporate insolvency (Part II)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Minimum default of Rs 1 crore to start a CIRP or liquidation under Part II (raised from Rs 1 lakh)"
+   ],
+   "core_obligations": [
+    "A creditor can apply under s. 7 or s. 9, and a corporate debtor under s. 10, only if the default is at least Rs 1 crore"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "NOTIF-S4-PPIRP",
+   "type": "Notification",
+   "short_name": "Rs 10 lakh threshold for pre-packs",
+   "title": "Notification under s. 4 of the Code: minimum default of Rs 10 lakh for pre-packaged insolvency (S.O. 1543(E))",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "Pre-packaged insolvency for MSMEs",
+   "reference_no": "S.O. 1543(E)",
+   "issue_date": "2021-04-09",
+   "updated_as_on": "",
+   "effective_date": "2021-04-09",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/notifications",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/e9b1c4b3489e51213db701b27222b474.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "MSME corporate debtors and their creditors (Chapter III-A)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Minimum default of Rs 10 lakh for the pre-packaged insolvency resolution process"
+   ],
+   "core_obligations": [
+    "An MSME corporate debtor may apply for PPIRP only for a default of at least Rs 10 lakh"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "RULES-PPIRP",
+    "REG-PPIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "NOTIF-PG-COMMENCE",
+   "type": "Notification",
+   "short_name": "Personal guarantor provisions in force",
+   "title": "Notification bringing into force provisions of Part III for personal guarantors to corporate debtors (S.O. 4126(E))",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "Personal guarantors and individuals",
+   "reference_no": "S.O. 4126(E)",
+   "issue_date": "2019-11-15",
+   "updated_as_on": "",
+   "effective_date": "2019-12-01",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/notifications",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/1fb8c2b785f35a5126c58a2e567be921.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Personal guarantors to corporate debtors and their creditors"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Part III insolvency resolution and bankruptcy for personal guarantors to corporate debtors from 01-12-2019"
+   ],
+   "core_obligations": [
+    "From 01-12-2019 a creditor or the personal guarantor may apply to the NCLT for insolvency resolution of a personal guarantor to a corporate debtor"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "RULES-PG",
+    "RULES-PGBKY"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "NOTIF-FSP-S227",
+   "type": "Notification",
+   "short_name": "NBFCs of Rs 500 crore notified as FSPs",
+   "title": "Notification under s. 227 of the Code: NBFCs (including HFCs) with assets of Rs 500 crore or more (S.O. 4139(E))",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "NBFCs and other financial service providers",
+   "reference_no": "S.O. 4139(E)",
+   "issue_date": "2019-11-18",
+   "updated_as_on": "",
+   "effective_date": "2019-11-18",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/notifications",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/7bcd2585a9f75b9074febe216de5a3c1.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Non-banking finance companies, including housing finance companies, with asset size of Rs 500 crore or more as per the last audited balance sheet"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Notified category of financial service providers for insolvency under the FSP Rules",
+    "Appropriate regulator: RBI"
+   ],
+   "core_obligations": [
+    "Insolvency and liquidation of such NBFCs and HFCs runs under the FSP Rules, on an application by RBI only",
+    "The treatment of third-party assets is notified separately (S.O. 464(E))"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "RULES-FSP",
+    "NOTIF-FSP-S227-R10"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "NOTIF-FSP-S227-R10",
+   "type": "Notification",
+   "short_name": "Third-party assets of NBFCs in insolvency",
+   "title": "Notification under s. 227 read with rule 10 of the FSP Rules: dealing with third-party assets (S.O. 464(E))",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "NBFCs and other financial service providers",
+   "reference_no": "S.O. 464(E)",
+   "issue_date": "2020-01-30",
+   "updated_as_on": "",
+   "effective_date": "2020-01-30",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/notifications",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/3878e1c4a2332a3e4398d924fac58166.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Administrators of notified NBFCs and HFCs in insolvency, and customers and counterparties whose assets the NBFC holds"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Receivables of assigned or securitised loans that the NBFC collects as servicer",
+    "Assets owned by customers or counterparties in the NBFC's custody"
+   ],
+   "core_obligations": [
+    "The Administrator keeps receivables collected for third parties under a servicing or collection contract in a separate account, oversees it and passes them on under the contract; the NBFC's own servicing fee stays in its estate",
+    "The Administrator lists third-party assets contract by contract, keeps them separate from the NBFC's assets and returns or transfers them as the contract requires, unless the NBFC is entitled to retain them for a breach"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "RULES-FSP",
+    "NOTIF-FSP-S227"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-AA",
+   "type": "Rules",
+   "short_name": "Application to Adjudicating Authority Rules",
+   "title": "The Insolvency and Bankruptcy (Application to Adjudicating Authority) Rules, 2016 (as amended in 2020)",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "Starting insolvency",
+   "reference_no": "G.S.R. 1108(E)",
+   "issue_date": "2016-11-30",
+   "updated_as_on": "2020-09-24",
+   "effective_date": "2016-12-01",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/rules",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/97f265ffe63b83fa6ca7c2c01795be66.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Financial creditors (s. 7), operational creditors (ss. 8 and 9) and corporate applicants (s. 10) starting a CIRP"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Form 1 (financial creditor), Forms 3 and 4 (operational creditor's demand notice and invoice), Form 5 (operational creditor), Form 6 (corporate applicant), Form 2 (consent of the proposed IRP)"
+   ],
+   "core_obligations": [
+    "A financial creditor applies in Form 1, an operational creditor in Form 5 after serving a demand notice, and a corporate applicant in Form 6, each with the documents listed in the form",
+    "From 24-09-2020 the applicant must serve a copy of the application on the corporate debtor's registered office and on IBBI before filing it with the NCLT",
+    "Application fee: Rs 25,000 for a financial creditor or corporate applicant, Rs 2,000 for an operational creditor"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-CIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-FSP",
+   "type": "Rules",
+   "short_name": "FSP Insolvency Rules",
+   "title": "The Insolvency and Bankruptcy (Insolvency and Liquidation Proceedings of Financial Service Providers and Application to Adjudicating Authority) Rules, 2019",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "NBFCs and other financial service providers",
+   "reference_no": "G.S.R. 852(E)",
+   "issue_date": "2019-11-15",
+   "updated_as_on": "",
+   "effective_date": "2019-11-15",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/rules",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/cb1d53c7fe47f8f22ab36a40f441db2c.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Financial service providers notified under s. 227 (currently NBFCs and HFCs with assets of Rs 500 crore or more)",
+    "The appropriate regulator (RBI for NBFCs)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Administrator appointed by the NCLT on the regulator's proposal, acting as IRP, RP and liquidator",
+    "Interim moratorium from filing",
+    "Advisory Committee",
+    "Regulator's 'no objection' to the new owners"
+   ],
+   "core_obligations": [
+    "r. 5(a): a CIRP of a notified FSP can start only on an application by the appropriate regulator, dealt with like a financial creditor's application; on admission the NCLT appoints the Administrator the regulator proposed",
+    "r. 5(b): an interim moratorium runs from filing until admission or rejection, and the FSP's licence or registration cannot be suspended or cancelled during the interim moratorium and the CIRP",
+    "r. 5(c): the regulator may set up an Advisory Committee of three or more experts within 45 days of the insolvency commencement date; the Administrator chairs it",
+    "r. 5(d): a resolution plan must explain how the applicant meets the legal requirements for the FSP's business; after CoC approval the Administrator seeks the regulator's 'no objection' to the persons who will control the FSP, judged on fit and proper criteria",
+    "r. 7: in liquidation the licence cannot be cancelled without hearing the liquidator, and the regulator must be heard before liquidation and dissolution orders",
+    "r. 8: an FSP needs the regulator's prior permission for voluntary liquidation",
+    "r. 10: the moratorium does not cover third-party assets held by the FSP; the Administrator deals with them as the Central Government notifies (S.O. 464(E))"
+   ],
+   "timelines": [
+    "Advisory Committee within 45 days of the insolvency commencement date",
+    "The regulator's 'no objection' is deemed granted if not refused within 45 working days",
+    "Application by the regulator in Form 1 with a fee of Rs 25,000"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "NOTIF-FSP-S227",
+    "NOTIF-FSP-S227-R10",
+    "REG-CIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-PG",
+   "type": "Rules",
+   "short_name": "Personal guarantor IRP Rules",
+   "title": "The Insolvency and Bankruptcy (Application to Adjudicating Authority for Insolvency Resolution Process for Personal Guarantors to Corporate Debtors) Rules, 2019",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "Personal guarantors and individuals",
+   "reference_no": "G.S.R. 854(E)",
+   "issue_date": "2019-11-15",
+   "updated_as_on": "",
+   "effective_date": "2019-12-01",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/rules",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/8e0ab9331455200b402d91257113805c.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Creditors of, and personal guarantors to, corporate debtors"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Application under s. 94 (by the guarantor) or s. 95 (by a creditor)",
+    "Demand notice before a creditor's application",
+    "Repayment plan"
+   ],
+   "core_obligations": [
+    "A creditor serves a demand on the guarantor before applying; the application is made in the prescribed form with a fee of Rs 2,000",
+    "Since 26-05-2026 no interim moratorium applies on filing against a personal guarantor (ss. 96(4) and 124(4) of the Code); the Bombay and Delhi High Courts have held that this also covers applications pending on that date"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-PGIRP",
+    "NOTIF-PG-COMMENCE",
+    "CIR-2026-09-21-1"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-PGBKY",
+   "type": "Rules",
+   "short_name": "Personal guarantor bankruptcy Rules",
+   "title": "The Insolvency and Bankruptcy (Application to Adjudicating Authority for Bankruptcy Process for Personal Guarantors to Corporate Debtors) Rules, 2019",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "Personal guarantors and individuals",
+   "reference_no": "G.S.R. 855(E)",
+   "issue_date": "2019-11-15",
+   "updated_as_on": "",
+   "effective_date": "2019-12-01",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/rules",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/17662452f16d75fe4c221f39e303033f.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Creditors of, and personal guarantors to, corporate debtors after a failed insolvency resolution process"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Bankruptcy application after the resolution process fails or the repayment plan is not approved or implemented",
+    "Bankruptcy trustee"
+   ],
+   "core_obligations": [
+    "A creditor or the guarantor may apply for a bankruptcy order in the prescribed form once the insolvency resolution process has failed, as set out in s. 121 of the Code"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-PGBKY",
+    "RULES-PG"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-PPIRP",
+   "type": "Rules",
+   "short_name": "Pre-pack Rules",
+   "title": "The Insolvency and Bankruptcy (Pre-packaged Insolvency Resolution Process) Rules, 2021",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "Pre-packaged insolvency for MSMEs",
+   "reference_no": "G.S.R. 256(E)",
+   "issue_date": "2021-04-09",
+   "updated_as_on": "",
+   "effective_date": "2021-04-09",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/rules",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/f75906d8657a51f214785c697d9bb296.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "MSME corporate debtors applying for pre-packaged insolvency"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Application by the corporate debtor in the prescribed form"
+   ],
+   "core_obligations": [
+    "The corporate applicant files the application electronically with the listed documents and a fee of Rs 15,000"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-PPIRP",
+    "NOTIF-S4-PPIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-RV",
+   "type": "Rules",
+   "short_name": "Registered Valuers Rules",
+   "title": "The Companies (Registered Valuers and Valuation) Rules, 2017 (as amended up to G.S.R. 432(E), 2026)",
+   "issuing_department": "Ministry of Corporate Affairs",
+   "theme": "Insolvency professionals, agencies, valuers and information utilities",
+   "reference_no": "G.S.R. 1316(E)",
+   "issue_date": "2017-10-18",
+   "updated_as_on": "2026-06-01",
+   "effective_date": "2017-10-18",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/rules",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/2023-06-21-181015-2hky8-8753099c776b53bf9675ac7fa1192257.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Registered valuers and registered valuer organisations; valuations required under the Companies Act and the Code"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Asset classes: land and building, plant and machinery, securities or financial assets",
+    "Registered valuer organisations (RVOs)",
+    "IBBI as the authority for registered valuers"
+   ],
+   "core_obligations": [
+    "Only a registered valuer who is a member of an RVO and registered with IBBI may carry out valuations under the Code",
+    "From 01-06-2026 an RVO must be a not-for-profit company with paid-up capital of at least Rs 25 lakh, valuer regulation as its sole object and bye-laws as in Annexure III; existing RVOs must meet the capital requirement by 31-03-2028"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-CIRP",
+    "REG-LIQ",
+    "CIR-2026-04-01-1",
+    "CIR-2026-06-15-1"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-CIRP",
+   "type": "Regulation",
+   "short_name": "CIRP Regulations",
+   "title": "IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016 (as amended up to 30-10-2026)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Running the CIRP: moratorium, claims and creditors' committee",
+   "reference_no": "IBBI/2016-17/GN/REG004",
+   "issue_date": "2016-11-30",
+   "updated_as_on": "2026-10-30",
+   "effective_date": "2016-12-01",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/e02981ba61996ccfde25af57218f5025.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Interim resolution professionals and resolution professionals",
+    "Financial and operational creditors, creditors in a class (including homebuyers) and the committee of creditors",
+    "Prospective resolution applicants",
+    "Corporate debtors and their promoters and officers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Record of default (reg 2A) and chronology of debt and default with the application (reg 2C)",
+    "Claims and their verification (regs 7 to 14)",
+    "CoC meetings and voting (regs 17 to 26)",
+    "Fair value and liquidation value by two registered valuers (reg 35)",
+    "Avoidance transactions review (reg 35A)",
+    "Information memorandum, expression of interest and request for plans (regs 36 to 36B)",
+    "Mandatory contents of resolution plans (regs 38 and 38A)",
+    "Real estate projects: separate accounts, RERA compliance and cost-to-complete assessment (regs 4D to 4G)",
+    "Withdrawal (reg 30A), liquidation decision, dissolution and restoration (regs 40D to 40F)",
+    "Electronic forms and late fee (reg 40B)"
+   ],
+   "core_obligations": [
+    "reg 2A and 2C: a financial creditor may prove default by certified bankers' book entries or a final court or tribunal order; with a s. 7 or 9 application the creditor files its PAN, email and a chronology of the debt, default, part payments, acknowledgments and limitation",
+    "reg 2B and 2E (from 02-06-2026): an operational creditor files GST returns, part payments, assignments, guarantees, a statement of account, related-party status and other recovery proceedings; a corporate applicant files three years of bank accounts, assets, receivables, creditors and litigation",
+    "reg 16E (from 09-06-2026): where creditors other than scheduled banks and public financial institutions hold more than 66% of the CoC vote, the RP invites the five largest unrelated operational creditors, including the three largest statutory authorities, to CoC meetings as non-voting observers and minutes their views",
+    "reg 13: the IRP or RP verifies claims within 7 days of receipt and, from 02-06-2026, communicates admission or rejection with reasons within 7 days",
+    "reg 18 and 19: the CoC meets at least once every 30 days unless it decides otherwise (at least once a quarter); members with 33% of the vote can requisition a meeting; notice is 5 days, which the CoC can cut to 24 hours",
+    "reg 4D to 4G: for real estate projects, a separate bank account for each project, project-wise receipts and payments to the CoC, RERA fund-use rules, and a technical and cost-to-complete assessment by independent professionals with CoC approval",
+    "reg 35: two registered valuers estimate fair value and liquidation value under the valuation standards IBBI notifies; members get the values only on a confidentiality undertaking",
+    "reg 35A: the RP forms an opinion on preferential, undervalued, extortionate or fraudulent transactions by day 75 and makes a determination by day 115",
+    "reg 36A: invitation for expressions of interest no later than day 60; with CoC approval it may cover the company as a whole, particular assets, or each real estate project",
+    "reg 38: operational creditors are paid in priority to financial creditors, and dissenting financial creditors in priority to assenting ones (pro rata in each stage for staged payment); the plan must state how it deals with all stakeholders and disclose any past failure to implement a plan",
+    "reg 38(3A): from 23-12-2025 every plan includes a statement of beneficial ownership of the resolution applicant and an affidavit on eligibility for s. 32A protection, in IBBI's formats",
+    "reg 38A: for real estate projects, the plan gives project-wise units sold and unsold, treatment of allottees (including those who did not claim), delivery timelines and progress reporting to the monitoring committee",
+    "reg 39: a resolution applicant submits an affidavit of s. 29A eligibility and an undertaking that its information is true; false information makes it ineligible and forfeits its deposit",
+    "reg 30A: an application to withdraw under s. 12A is made through the IRP or RP in Form FA with a bank guarantee for process costs",
+    "reg 40E and 40F: the CoC may resolve with 66% to seek dissolution where assets cannot cover costs or cannot be realised, and may apply to restore the CIRP before a liquidation order"
+   ],
+   "timelines": [
+    "Claim verification and communication: 7 days each",
+    "Avoidance review: opinion by day 75, determination by day 115",
+    "Expression of interest: by day 60",
+    "Request for resolution plans: at least 30 days before the last date for plans",
+    "Dissolution decision: RP informs the NCLT within 10 days of the CoC resolution",
+    "reg 40B: CIRP forms are filed on IBBI's platform by the stated dates; late filing attracts a fee (from 2026)"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-LIQ",
+    "CIR-2025-11-18-1",
+    "CIR-2025-12-29-1",
+    "CIR-2026-10-30-1",
+    "CIR-2026-10-30-2",
+    "CIR-2026-04-01-1",
+    "CIR-2025-12-18-1"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-LIQ",
+   "type": "Regulation",
+   "short_name": "Liquidation Regulations",
+   "title": "IBBI (Liquidation Process) Regulations, 2016 (as amended up to 22-09-2026)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Liquidation and voluntary liquidation",
+   "reference_no": "IBBI/2016-17/GN/REG005",
+   "issue_date": "2016-12-15",
+   "updated_as_on": "2026-09-22",
+   "effective_date": "2016-12-15",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/f0b29d02169e66fcc397525cf7241b94.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Liquidators and the committee of creditors in liquidation",
+    "Secured and unsecured creditors, workmen and other stakeholders",
+    "Bidders for liquidation assets"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "CoC continues in liquidation (reg 8)",
+    "Compromise or arrangement (reg 2B)",
+    "Secured creditor's choice to relinquish or realise (reg 21A)",
+    "Sale by auction or, with CoC approval, private sale (regs 32 and 33)",
+    "Realisation by a secured creditor (reg 37)",
+    "Distribution and completion (regs 42 and 44)"
+   ],
+   "core_obligations": [
+    "reg 8: the CoC continues during liquidation without secured creditors that have not relinquished their security; its first meeting is within 7 days of the liquidation commencement date; it may replace the liquidator with 66% of the vote (reg 8B)",
+    "reg 2B: a compromise or arrangement under s. 230 of the Companies Act may be filed only if the CoC recommended it, within 30 days of liquidation, approved by the required majority and giving creditors more than the liquidation value; it must finish within 90 days, and an ineligible person under s. 29A cannot be a party",
+    "reg 12: the liquidator makes a public announcement within 5 days of appointment",
+    "reg 21A: a secured creditor tells the liquidator within 14 days whether it relinquishes or realises its security; silence means the security is deemed relinquished; a realising creditor pays its share of costs and workmen's dues",
+    "reg 30: claims are verified within 7 days and the decision with reasons is sent within 7 days; claims verified in the CIRP are not re-verified",
+    "reg 32 and 33: assets are sold standalone, by slump sale, collectively or in parcels, ordinarily by auction; private sale needs 66% CoC approval and specified grounds; no sale to a person ineligible under s. 29A, and sales to related parties need NCLT permission",
+    "reg 37: if the liquidator finds a buyer at a higher price within 14 days of the secured creditor's proposed price (and tells it within 7 days), the creditor must sell to that buyer",
+    "reg 42: proceeds are distributed within 15 days of receipt, after the list of stakeholders is filed"
+   ],
+   "timelines": [
+    "Liquidation to be completed within 180 days of the liquidation commencement date (from 02-06-2026), with extension on the CoC's instruction (reg 44)",
+    "Public announcement: 5 days",
+    "Secured creditor's decision: 14 days",
+    "Distribution: 15 days"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-CIRP",
+    "CIR-2025-03-28-1",
+    "CIR-2026-01-05-1",
+    "CIR-2026-09-24-1"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-VL",
+   "type": "Regulation",
+   "short_name": "Voluntary Liquidation Regulations",
+   "title": "IBBI (Voluntary Liquidation Process) Regulations, 2017 (as amended up to 02-06-2026)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Liquidation and voluntary liquidation",
+   "reference_no": "IBBI/2016-17/GN/REG010",
+   "issue_date": "2017-03-31",
+   "updated_as_on": "2026-06-02",
+   "effective_date": "2017-04-01",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/989ab03e33727c8a2cc60d9ed7a4f3c1.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Solvent corporate persons that choose to wind up, their liquidators, creditors and contributories"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Declaration of solvency by a majority of directors",
+    "Special resolution (or partners' resolution) within four weeks",
+    "Approval of creditors holding two-thirds of the debt"
+   ],
+   "core_obligations": [
+    "A majority of directors declare that the company has no debt or can pay its debts in full and is not being wound up to defraud anyone; within four weeks the members pass a special resolution; if it has debt, creditors representing two-thirds in value approve within seven days",
+    "The liquidator makes a public announcement within 5 days of appointment and verifies claims within 30 days of the last date for claims",
+    "A financial service provider needs its regulator's prior permission (FSP Rules, r. 8)"
+   ],
+   "timelines": [
+    "Completion within 270 days of the liquidation commencement date where creditors approved the resolution, and within 90 days in other cases"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "RULES-FSP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-PPIRP",
+   "type": "Regulation",
+   "short_name": "Pre-pack Regulations",
+   "title": "IBBI (Pre-Packaged Insolvency Resolution Process) Regulations, 2021 (as amended up to 02-06-2026)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Pre-packaged insolvency for MSMEs",
+   "reference_no": "IBBI/2021-22/GN/REG071",
+   "issue_date": "2021-04-09",
+   "updated_as_on": "2026-06-02",
+   "effective_date": "2021-04-09",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/03e8006cec891f97d8a97adda4ec54f9.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "MSME corporate debtors, their unrelated financial creditors, resolution professionals and resolution applicants"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Debtor-in-possession process with a base resolution plan from the corporate debtor",
+    "Approval of unrelated financial creditors before filing",
+    "Competing plans where operational creditors are impaired"
+   ],
+   "core_obligations": [
+    "Since 26-05-2026, unrelated financial creditors holding at least 51% of the financial debt must approve the filing (s. 54A(3)); creditors holding at least 10% propose the resolution professional",
+    "The resolution professional makes a public announcement within 2 days of the commencement date",
+    "Where the base plan impairs operational creditors' claims, the RP invites competing plans and compares them with the base plan"
+   ],
+   "timelines": [
+    "s. 54D of the Code: the process is completed within 120 days, with the plan filed with the NCLT within 90 days"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "RULES-PPIRP",
+    "NOTIF-S4-PPIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-PGIRP",
+   "type": "Regulation",
+   "short_name": "Personal guarantor IRP Regulations",
+   "title": "IBBI (Insolvency Resolution Process for Personal Guarantors to Corporate Debtors) Regulations, 2019 (as amended up to 02-06-2026)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Personal guarantors and individuals",
+   "reference_no": "IBBI/2019-20/GN/REG050",
+   "issue_date": "2019-11-20",
+   "updated_as_on": "2026-06-02",
+   "effective_date": "2019-12-01",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/9d23c82140218f1a65abe8426787b446.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Personal guarantors to corporate debtors, their creditors and resolution professionals"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Public notice and claims",
+    "Meeting of creditors and repayment plan"
+   ],
+   "core_obligations": [
+    "Creditors submit claims within 30 days of the public notice",
+    "The RP files the approved repayment plan with the NCLT within 120 days of the resolution process commencement date",
+    "The RP reports to creditors within 7 days if the repayment plan fails"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "RULES-PG",
+    "CIR-2026-03-06-1",
+    "CIR-2026-09-21-1"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-PGBKY",
+   "type": "Regulation",
+   "short_name": "Personal guarantor bankruptcy Regulations",
+   "title": "IBBI (Bankruptcy Process for Personal Guarantors to Corporate Debtors) Regulations, 2019 (as amended up to 02-06-2026)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Personal guarantors and individuals",
+   "reference_no": "IBBI/2019-20/GN/REG051",
+   "issue_date": "2019-11-20",
+   "updated_as_on": "2026-06-02",
+   "effective_date": "2019-12-01",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/02c74da01687642cf204f00cbd31fa08.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Bankrupt personal guarantors, their creditors and bankruptcy trustees"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Bankruptcy trustee and committee of creditors",
+    "Estate of the bankrupt and distribution"
+   ],
+   "core_obligations": [
+    "The bankruptcy trustee reports to the committee within 15 days after each quarter and deposits receipts without deduction by the next working day"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "RULES-PGBKY"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-IP",
+   "type": "Regulation",
+   "short_name": "Insolvency Professionals Regulations",
+   "title": "IBBI (Insolvency Professionals) Regulations, 2016 (as amended up to 20-11-2025)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Insolvency professionals, agencies, valuers and information utilities",
+   "reference_no": "IBBI/2016-17/GN/REG003",
+   "issue_date": "2016-11-29",
+   "updated_as_on": "2025-11-20",
+   "effective_date": "2016-11-29",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/e0fb3ed8b7ca2f3af06098ab579655de.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insolvency professionals and insolvency professional entities"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Registration with IBBI after enrolment with an insolvency professional agency",
+    "Authorisation for assignment (AFA)",
+    "Code of Conduct (First Schedule)"
+   ],
+   "core_obligations": [
+    "An individual must have passed the Limited Insolvency Examination within 24 months before enrolment, complete the pre-registration course within 12 months, and have the specified experience (for example ten years in law after a law degree, or as a chartered accountant, company secretary, cost accountant or advocate)",
+    "reg 7A: since 31-12-2019 an IP may accept or start an assignment only while holding a valid authorisation for assignment from its agency",
+    "IPs must follow the Code of Conduct, including independence, disclosure of relationships, reasonable fees and records of each assignment"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-IPA-MBL",
+    "REG-INSP",
+    "REG-GRIEV"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-IPA",
+   "type": "Regulation",
+   "short_name": "IP Agencies Regulations",
+   "title": "IBBI (Insolvency Professional Agencies) Regulations, 2016 (as amended up to 04-07-2022)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Insolvency professionals, agencies, valuers and information utilities",
+   "reference_no": "IBBI/2016-17/GN/REG002",
+   "issue_date": "2016-11-21",
+   "updated_as_on": "2022-07-04",
+   "effective_date": "2016-11-21",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/5f5dcd7a5e0c70c22744d55e0cd8fada.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insolvency professional agencies (IPAs)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Registration and governance of IPAs, which enrol and regulate insolvency professionals"
+   ],
+   "core_obligations": [
+    "An IPA must be registered with IBBI and run its membership, monitoring and discipline of IPs under its bye-laws"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-IPA-MBL",
+    "REG-IP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-IPA-MBL",
+   "type": "Regulation",
+   "short_name": "IPA Model Bye-Laws Regulations",
+   "title": "IBBI (Model Bye-Laws and Governing Board of Insolvency Professional Agencies) Regulations, 2016 (as amended up to 13-05-2026)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Insolvency professionals, agencies, valuers and information utilities",
+   "reference_no": "IBBI/2016-17/GN/REG001",
+   "issue_date": "2016-11-21",
+   "updated_as_on": "2026-05-13",
+   "effective_date": "2016-11-21",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/ccf4c21588c67bf264cbd0692fe15765.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insolvency professional agencies and their members"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Model bye-laws for enrolment, authorisation for assignment, monitoring and discipline of IPs",
+    "Governing board of an IPA"
+   ],
+   "core_obligations": [
+    "IPAs issue, renew, suspend and cancel authorisations for assignment and act on complaints against members under the model bye-laws"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-IPA",
+    "REG-IP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-IU",
+   "type": "Regulation",
+   "short_name": "Information Utilities Regulations",
+   "title": "IBBI (Information Utilities) Regulations, 2017 (as amended up to 02-06-2026)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Insolvency professionals, agencies, valuers and information utilities",
+   "reference_no": "IBBI/2016-17/GN/REG009",
+   "issue_date": "2017-03-31",
+   "updated_as_on": "2026-06-02",
+   "effective_date": "2017-04-01",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/2026-06-12-114948-0yifv-10dcc3ea293ad095a0c6b28ce423e471.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Information utilities, and creditors and debtors who submit or verify financial information"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Financial information and its authentication",
+    "Record of default"
+   ],
+   "core_obligations": [
+    "An information utility needs a net worth of at least Rs 50 crore and registration with IBBI, valid for five years",
+    "Creditors submit financial information; the IU seeks authentication from the debtor and issues a record of default, which since 26-05-2026 is sufficient proof of default for a financial institution's s. 7 application"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-INSP",
+   "type": "Regulation",
+   "short_name": "Inspection and Investigation Regulations",
+   "title": "IBBI (Inspection and Investigation) Regulations, 2017 (as amended up to 02-06-2026)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Oversight, complaints and penalties",
+   "reference_no": "IBBI/2017-18/GN/REG011",
+   "issue_date": "2017-06-12",
+   "updated_as_on": "2026-06-02",
+   "effective_date": "2017-06-12",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/2026-06-04-174448-gijwl-552030d3f2bb39783a52767a7ce9d39b.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insolvency professionals, IP entities, IPAs and information utilities"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Inspection and investigation by IBBI",
+    "Disciplinary committee orders under s. 220"
+   ],
+   "core_obligations": [
+    "IBBI may inspect or investigate a service provider; the disciplinary committee may warn, penalise, order disgorgement, or suspend or cancel registration or an authorisation for assignment"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-IP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-GRIEV",
+   "type": "Regulation",
+   "short_name": "Grievance and Complaint Regulations",
+   "title": "IBBI (Grievance and Complaint Handling Procedure) Regulations, 2017 (as amended up to 03-06-2026)",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Oversight, complaints and penalties",
+   "reference_no": "",
+   "issue_date": "2017-12-07",
+   "updated_as_on": "2026-06-03",
+   "effective_date": "2017-12-07",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/999145bba5c6f579631bdcacc88fc9c3.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Any stakeholder with a grievance or complaint against an IP, IPA, IU or registered valuer"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Grievance and complaint to IBBI",
+    "Fee and refund"
+   ],
+   "core_obligations": [
+    "A complaint is filed within 45 days of the cause of action with a fee of Rs 2,500, refundable if the complaint is found valid",
+    "IBBI decides within 30 days whether there is a prima facie case; the complainant may seek a review within 30 days"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-INSP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2026-10-30-2",
+   "type": "Circular",
+   "short_name": "RERA compliance and site disclosure in real estate CIRPs",
+   "title": "Compliance with RERA for corporate debtors having real estate projects and disclosure of CIRP at project and office sites",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Running the CIRP: moratorium, claims and creditors' committee",
+   "reference_no": "IBBI/CIRP/110/2026",
+   "issue_date": "2026-10-30",
+   "updated_as_on": "",
+   "effective_date": "2026-10-30",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/40e3889b945ee592774ba2eb955e8eb5.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IRPs and RPs of corporate debtors with real estate projects"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "The IRP or RP ensures compliance with the RERA Act, rules and regulations during the CIRP",
+    "The RP may invite the RERA authority's written views on the compliance, feasibility and implementation of resolution plans, and places them before the CoC and prospective resolution applicants",
+    "The start of the CIRP is displayed on signboards at each project site and notice boards at the company's offices within 7 days of appointment"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-CIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2026-10-30-1",
+   "type": "Circular",
+   "short_name": "Revised Form CA for homebuyer claims",
+   "title": "Introduction of revised Form CA for filing of claims by real estate allottees",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Running the CIRP: moratorium, claims and creditors' committee",
+   "reference_no": "IBBI/CIRP/109/2026",
+   "issue_date": "2026-10-30",
+   "updated_as_on": "",
+   "effective_date": "2026-10-30",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/84356af172f0446ac94e944711b0326e.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Financial creditors in a class, including real estate allottees, and IRPs and RPs"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "Form CA now has Part I for other creditors in a class and Part II for real estate allottees; claims filed on or after 30-10-2026 use the revised form; earlier claims need not be refiled"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-CIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2026-09-24-1",
+   "type": "Circular",
+   "short_name": "Late fee for liquidation forms",
+   "title": "Commencement of levy of fee for delayed filing of Forms under regulation 47B of the Liquidation Process Regulations",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Liquidation and voluntary liquidation",
+   "reference_no": "IBBI/LIQ/107/2026",
+   "issue_date": "2026-09-24",
+   "updated_as_on": "",
+   "effective_date": "2026-09-24",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/a207bc1032e33472c1175e676e204742.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Liquidators"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "Liquidation forms due on or before 30-09-2026 and filed late, including by correction or update, carry a fee of Rs 500 plus GST for each month of delay"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-LIQ",
+    "CIR-2026-01-05-1"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2026-09-21-1",
+   "type": "Circular",
+   "short_name": "No interim moratorium for personal guarantors: High Court rulings",
+   "title": "Cessation of interim moratorium in respect of personal guarantors to corporate debtors: judgments of the Bombay and Delhi High Courts",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Personal guarantors and individuals",
+   "reference_no": "IBBI/II/106/2026",
+   "issue_date": "2026-09-21",
+   "updated_as_on": "",
+   "effective_date": "2026-09-21",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/778e13b82df050c20c0c13dfa3e8ea16.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Creditors of personal guarantors, resolution professionals and guarantors"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "Draws attention to two High Court rulings (Bombay, 24-07-2026; Delhi, 19-08-2026) that ss. 96(4) and 124(4), inserted from 26-05-2026, end the interim moratorium for personal guarantors in applications already pending on that date",
+    "Creditors may continue or bring proceedings against personal guarantors from 26-05-2026 even if an insolvency application was filed earlier"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "RULES-PG",
+    "REG-PGIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2026-09-09-1",
+   "type": "Circular",
+   "short_name": "Due diligence on misuse of the IBC",
+   "title": "Due diligence by insolvency professionals regarding misuse of the IBC framework",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Oversight, complaints and penalties",
+   "reference_no": "IBBI/CIRP/105/2026",
+   "issue_date": "2026-09-09",
+   "updated_as_on": "",
+   "effective_date": "2026-09-09",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/832e58d2371048cebf5c2a43a55e7dfc.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insolvency professionals in CIRPs and liquidations"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Fraudulent or malicious initiation (s. 65)"
+   ],
+   "core_obligations": [
+    "IPs watch for signs that the process is being used for other ends, such as avoiding tax, closing or merging companies without scrutiny, escaping investigations or ring-fencing assets",
+    "Indicators include: a CIRP started by a single non-bank creditor (or one that bought the debt shortly before) who then dominates the CoC; clusters of connected companies in CIRP at the same time; little competition or the same applicant across connected companies; recoveries far below admitted claims without a proper valuation; links to fraud proceedings by other agencies; large related-party loans written off without basis",
+    "Where an IP forms a view on reasonable grounds that the process serves a fraudulent or malicious purpose, it applies to the NCLT with the indicators, material and reasons"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-CIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2026-06-15-1",
+   "type": "Circular",
+   "short_name": "Guidelines and format for valuation reports",
+   "title": "Guidelines for conducting valuation under the Insolvency and Bankruptcy Code, 2016",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Insolvency professionals, agencies, valuers and information utilities",
+   "reference_no": "IBBI/RV/103/2026",
+   "issue_date": "2026-06-15",
+   "updated_as_on": "",
+   "effective_date": "2026-06-15",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/9d426e3d5c806a7a8f763103960345ea.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Registered valuers, IPs and IP entities"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "Registered valuers prepare valuation reports and keep documents in IBBI's format, as the amended CIRP, Liquidation, Voluntary Liquidation, Pre-pack and personal guarantor bankruptcy regulations require"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "RULES-RV",
+    "REG-CIRP",
+    "REG-LIQ",
+    "CIR-2026-04-01-1"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2026-04-01-1",
+   "type": "Circular",
+   "short_name": "International Valuation Standards apply",
+   "title": "Valuation standards for valuations conducted under the Insolvency and Bankruptcy Code, 2016",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Insolvency professionals, agencies, valuers and information utilities",
+   "reference_no": "IBBI/RV/93/2026",
+   "issue_date": "2026-04-01",
+   "updated_as_on": "",
+   "effective_date": "2026-04-01",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/b176b05d02cba50ae0d3279ff6ed553e.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Registered valuers, IPs, IP entities and IPAs"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "IBBI notifies the International Valuation Standards issued by the IVSC, as updated from time to time, for all valuations under the Code and its regulations, from 01-04-2026 until further orders"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "RULES-RV",
+    "REG-CIRP",
+    "REG-LIQ",
+    "REG-VL"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2026-03-06-1",
+   "type": "Circular",
+   "short_name": "Forms to monitor personal guarantor processes",
+   "title": "Filing forms to monitor insolvency resolution processes for personal guarantors to corporate debtors",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Personal guarantors and individuals",
+   "reference_no": "IBBI/II/92/2026",
+   "issue_date": "2026-03-06",
+   "updated_as_on": "",
+   "effective_date": "2026-03-06",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/ea787956c30c57f52302ef56c10a13ea.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Resolution professionals and bankruptcy trustees of personal guarantors"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "Resolution professionals in personal guarantor processes file monitoring forms on IBBI's platform; the deadline was extended to 30-09-2026 (IBBI/II/104/2026) and then to 31-12-2026, with late fees only after that date (IBBI/II/108/2026)"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-PGIRP",
+    "REG-PGBKY"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2026-01-05-1",
+   "type": "Circular",
+   "short_name": "Revised liquidation forms",
+   "title": "Launch of revised forms for the liquidation process",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Liquidation and voluntary liquidation",
+   "reference_no": "IBBI/LIQ/91/2026",
+   "issue_date": "2026-01-05",
+   "updated_as_on": "",
+   "effective_date": "2026-01-05",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/304ead257ae9d89d6d2754d760e43b6f.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Liquidators"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "Liquidators file the revised liquidation forms on IBBI's electronic platform by the dates in regulation 47B"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-LIQ",
+    "CIR-2026-09-24-1"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2025-12-29-1",
+   "type": "Circular",
+   "short_name": "Beneficial ownership statement in resolution plans",
+   "title": "Format for statement of beneficial ownership and affidavit under regulation 38(3A) of the CIRP Regulations",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Resolution plans and who may bid",
+   "reference_no": "IBBI/CIRP/90/2025",
+   "issue_date": "2025-12-29",
+   "updated_as_on": "",
+   "effective_date": "2025-12-29",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/5c12fc0543280761fec1424710116fc9.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Prospective resolution applicants and resolution professionals"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "Every resolution plan includes a statement of the natural persons who ultimately own or control the applicant, with the shareholding and jurisdiction of each intermediate entity, and an affidavit on eligibility for s. 32A protection, in IBBI's formats",
+    "The RP ensures both are part of the plan placed before the CoC and filed with the NCLT"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-CIRP",
+    "CODE"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2025-12-18-1",
+   "type": "Circular",
+   "short_name": "Modifying CIRP forms and late fee",
+   "title": "Introduction of modification utility and commencement of levy of fee for delayed filing of forms under regulation 40B of the CIRP Regulations",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Running the CIRP: moratorium, claims and creditors' committee",
+   "reference_no": "IBBI/CIRP/89/2025",
+   "issue_date": "2025-12-18",
+   "updated_as_on": "",
+   "effective_date": "2025-12-18",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/dc934e519c330afdfd05c2084073bff9.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IRPs and RPs"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "IPs can correct filed CIRP forms through an OTP-based modification utility; corrections before the due date attract no fee",
+    "The late filing fee under regulation 40B is levied for forms filed after the due date"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-CIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2025-11-18-1",
+   "type": "Circular",
+   "short_name": "Section 29A due diligence note to the CoC",
+   "title": "Strengthening due diligence under section 29A",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Resolution plans and who may bid",
+   "reference_no": "IBBI/CIRP/88/2025",
+   "issue_date": "2025-11-18",
+   "updated_as_on": "",
+   "effective_date": "2025-11-18",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/ae3618a064edb62e15dc7a7a038b6deb.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Resolution professionals, prospective resolution applicants and committees of creditors"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "The RP places a detailed note on each applicant's s. 29A compliance before the CoC when it considers resolution plans, and ensures the CoC's deliberations are minuted",
+    "This adds to the existing duties: ineligibility criteria in Form G, the applicant's undertaking with its expression of interest, its affidavit with the plan, and the RP's due diligence certificate with Form H"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE",
+    "REG-CIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2025-11-04-1",
+   "type": "Circular",
+   "short_name": "Restitution of assets attached under PMLA",
+   "title": "Undertaking by insolvency professionals before Special Courts under PMLA",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Running the CIRP: moratorium, claims and creditors' committee",
+   "reference_no": "IBBI/CIRP/87/2025",
+   "issue_date": "2025-11-04",
+   "updated_as_on": "",
+   "effective_date": "2025-11-04",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/f6d5c57a6d01859a965249aae941b9fd.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Resolution professionals and liquidators where the Enforcement Directorate has attached the corporate debtor's assets"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "The IP may apply to the PMLA Special Court under s. 8(7) or 8(8) of PMLA for restitution of attached assets, with a standard undertaking agreed with the Enforcement Directorate",
+    "Under the undertaking, where the promoter is ineligible under s. 29A, restituted assets will not go to or benefit persons covered by s. 32A(2) or persons accused in the money-laundering case, and the IP reports to the court every quarter until the plan or dissolution order"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "CODE"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2025-03-28-1",
+   "type": "Circular",
+   "short_name": "Liquidation auctions only on the Baanknet platform",
+   "title": "Mandatory use of the Baanknet (formerly eBKray) auction platform for liquidation",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Liquidation and voluntary liquidation",
+   "reference_no": "IBBI/LIQ/84/2025",
+   "issue_date": "2025-03-28",
+   "updated_as_on": "",
+   "effective_date": "2025-03-28",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/2025-03-28-235256-5phy7-b74b8337a8b16af1af694dc969a6d1f3.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Liquidators and bidders for liquidation assets"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "Liquidators must run auctions on the Baanknet platform for auction notices issued on or after 01-04-2025",
+    "Bidders submit the required documents, including a s. 29A eligibility declaration, through the platform or as the auction notice states"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-LIQ"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2025-03-17-1",
+   "type": "Circular",
+   "short_name": "Carry-forward tax losses in the information memorandum",
+   "title": "Disclosure of information relating to carry forward of losses in the information memorandum",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Resolution plans and who may bid",
+   "reference_no": "IBBI/CIRP/83/2025",
+   "issue_date": "2025-03-17",
+   "updated_as_on": "",
+   "effective_date": "2025-03-17",
+   "status": "In force",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/6fb7768b385beefa146df2af2ff67a65.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Resolution professionals and prospective resolution applicants"
+   ],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [
+    "The information memorandum has a dedicated section on carried-forward losses under the Income-tax Act: amount, break-up by head, time limits for use, or a clear statement that there are none"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insolvency and Bankruptcy Code, 2016: the Adjudicating Authority may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.",
+   "cross_references": [
+    "REG-CIRP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-FTCIRP",
+   "type": "Superseded instrument",
+   "short_name": "Fast Track CIRP Regulations",
+   "title": "IBBI (Fast Track Insolvency Resolution Process for Corporate Persons) Regulations, 2017",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Superseded (history)",
+   "reference_no": "IBBI/2017-18/GN/REG012",
+   "issue_date": "2017-06-14",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Fast track process removed from the Code from 26-05-2026",
+   "official_url": "https://ibbi.gov.in/legal-framework/updated",
+   "official_pdf": "https://ibbi.gov.in/webadmin/pdf/legalframwork/2018/Apr/word%20copy%20updated%20First%20Track%20Regulations%20upto%2007.02.2018_2018-04-11%2016%3A27%3A13.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "AMDACT-2026"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "BILL-2025",
+   "type": "Superseded instrument",
+   "short_name": "IBC (Amendment) Bill, 2025",
+   "title": "The Insolvency and Bankruptcy Code (Amendment) Bill, 2025 (as introduced in the Lok Sabha)",
+   "issuing_department": "Parliament of India",
+   "theme": "Superseded (history)",
+   "reference_no": "",
+   "issue_date": "2025-08-12",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Enacted as the IBC (Amendment) Act, 2026",
+   "official_url": "https://ibbi.gov.in/legal-framework/act",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/da78600a457741799bb2e7c8da25f946.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "AMDACT-2026"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-2025-01-10-1",
+   "type": "Superseded instrument",
+   "short_name": "eBKray auction platform circular",
+   "title": "Mandatory use of eBKray auction platform for liquidation processes",
+   "issuing_department": "Insolvency and Bankruptcy Board of India (IBBI)",
+   "theme": "Superseded (history)",
+   "reference_no": "IBBI/LIQ/81/2025",
+   "issue_date": "2025-01-10",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Replaced on 28-03-2025",
+   "official_url": "https://ibbi.gov.in/legal-framework/circulars",
+   "official_pdf": "https://ibbi.gov.in/uploads/legalframwork/43ec517d68b6edd3015b3edc9a11367b.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "CIR-2025-03-28-1"
+   ],
+   "repeals": ""
+  }
+ ]
+}

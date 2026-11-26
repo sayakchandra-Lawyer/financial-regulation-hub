@@ -1,0 +1,517 @@
+IBC REGISTER: Insolvency and Bankruptcy Code, 2016, its rules, IBBI regulations, notifications and IBBI circulars, for financial institutions (financial creditors, NBFCs/HFCs as financial service providers, corporate debtors, resolution applicants, insolvency professionals) (as of 2026-11-26). One block per instrument. Fields: applies, excluded, concepts, duties, deadlines, breach (stated consequences), penalties (code of the shared statutory penalty text below), refs, repeals, defs (terms the instrument defines: term [para; scope]: meaning).
+
+SHARED STATUTORY PENALTY TEXTS:
+P1: IBC: the NCLT may, on an application by IBBI or the Central Government, penalise any contravention of the Code, rules or regulations with at least Rs 1 lakh for each day it continues, up to three times the loss caused or the unlawful gain made, whichever is higher, or up to Rs 5 crore where neither can be quantified (s. 235A). Contravening the moratorium or an approved resolution plan attracts penalties of Rs 1 lakh to Rs 2 crore, and for a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (s. 67B). Frivolous or vexatious proceedings attract Rs 1 lakh to Rs 2 crore (ss. 64A and 183A). Offences such as concealment of property, fraud on creditors, falsifying books and false information carry imprisonment and fines (ss. 68 to 77A and 184 to 187), tried by the Special Court (s. 236). IBBI's disciplinary committee may penalise a service provider up to three times the loss or gain, or up to Rs 2 crore where neither can be quantified, suspend or cancel its registration and order disgorgement (s. 220). Appeals against NCLT orders in corporate insolvency lie to the NCLAT within 30 days (extendable by 15) and then to the Supreme Court on a question of law within 45 days (extendable by 15) (ss. 61 and 62); appeals against IBBI disciplinary orders lie to the NCLAT under s. 202.
+
+[CODE] IBC, 2016 | The Insolvency and Bankruptcy Code, 2016 (as amended up to the IBC (Amendment) Act, 2026) | Act 31 of 2016 | Act | In force | issued 2016-05-28 | subject: The Code, IBBI and tribunals
+applies: Companies, LLPs and other corporate persons (Part II), other than financial service providers except those notified under s. 227; Personal guarantors to corporate debtors (Part III, in force for them since 01-12-2019; Part III is not yet in force for other individuals and partnership firms); Creditors, insolvency professionals, insolvency professional agencies, information utilities and registered valuers
+excluded: Financial service providers such as banks, NBFCs and insurers, except those the Central Government notifies under s. 227 (s. 3(7))
+concepts: Default of at least Rs 1 crore to start a CIRP (s. 4); no CIRP can ever be started for a default that arose between 25-03-2020 and 24-03-2021 (s. 10A)
+concepts: Homebuyers and other creditors in a class must file jointly: at least 100 of them or 10% of the class (or of allottees in the same project), whichever is less (s. 7(1) provisos)
+concepts: Financial creditor and financial debt (s. 5(7) and (8)); operational creditor and operational debt (s. 5(20) and (21))
+concepts: Corporate insolvency resolution process (CIRP), moratorium and CoC (ss. 6 to 32A)
+concepts: Resolution plan and ineligible resolution applicants (ss. 29A to 31)
+concepts: Liquidation and the order of priority (ss. 33 to 54)
+concepts: Pre-packaged insolvency for MSMEs (ss. 54A to 54P)
+concepts: Voluntary liquidation (s. 59)
+concepts: Avoidance transactions and fraudulent or wrongful trading (ss. 43 to 51 and 66)
+concepts: Insolvency of personal guarantors (Part III)
+concepts: IBBI and service providers (Part IV)
+concepts: Insolvency of notified financial service providers (s. 227)
+duties: s. 7(5): the NCLT must admit a financial creditor's application within 14 days if a default has occurred, the application is complete and no disciplinary proceeding is pending against the proposed resolution professional; no other ground may be used to reject it, and an information utility record of default is sufficient proof for a financial institution (Explanations I and II, from 26-05-2026)
+duties: s. 12A: an admitted application may be withdrawn only on the resolution professional's application with 90% of the CoC vote, and not before the CoC is formed or after the first invitation for resolution plans (from 26-05-2026)
+duties: s. 14: on admission, a moratorium bars suits and proceedings against the corporate debtor, transfer of its assets, enforcement of security interests it created (including under SARFAESI) and recovery by an owner or lessor of property in its possession; it does not protect sureties, and since 26-05-2026 it also bars a surety's own action against the corporate debtor under the guarantee
+duties: s. 21: the CoC comprises the unrelated financial creditors; a related party is excluded from the CoC, except a regulated financial entity that became related only by converting or substituting debt into equity; where there are no financial creditors, the CoC is formed from operational creditors (reg 16); decisions need 51% unless the Code says otherwise; from 26-05-2026 the CoC also supervises the liquidator (s. 21(11))
+duties: s. 28A: a creditor that has taken possession of a guarantor's asset may transfer it as part of the resolution with prior CoC approval (from 26-05-2026)
+duties: s. 29A: a person who, alone or acting jointly or in concert, is an undischarged insolvent, a wilful defaulter, the holder or promoter of an account classified as NPA for at least a year before the CIRP (unless all overdues are paid before the plan is submitted; a non-related financial entity is exempt), a person convicted of specified offences, a disqualified director, a person barred by SEBI, a promoter or manager of a company in which the NCLT has found avoidance transactions, a guarantor of the corporate debtor whose guarantee has been invoked and remains unpaid, a person under an equivalent disability abroad, or a connected person of any of them (promoters, managers and controllers of the applicant and their related parties, as defined in the section), cannot submit a resolution plan; s. 240A: the NPA and guarantor bars (clauses (c) and (h)) do not apply to applicants for MSMEs
+duties: s. 30(2)(ba) and (4): a plan must pay financial creditors who do not vote for it at least the lower of (i) what they would get in liquidation under s. 53 and (ii) what they would get if the amount distributed under the plan were shared in the s. 53 order of priority; operational creditors must get at least the higher of their liquidation amount and their s. 53 share of the plan amount (s. 30(2)(b)); the CoC approves a plan with 66% of the vote, records reasons, and may weigh the priority and value of each secured creditor's security (from 26-05-2026)
+duties: s. 31: an approved plan binds the corporate debtor, employees, members, creditors (including government authorities for statutory dues) and guarantors; claims not in the plan are extinguished (s. 31(6)); where the plan involves a combination that needs CCI approval, that approval must be obtained before the plan goes to the NCLT (s. 31(4) proviso)
+duties: s. 52(2): a secured creditor that wants to realise its security outside liquidation must tell the liquidator within 14 days of liquidation commencing, or it is deemed to have relinquished the security (from 26-05-2026)
+duties: s. 53: liquidation proceeds go (a) to CIRP and liquidation costs, (b) workmen's dues for 24 months and secured creditors who relinquished their security, (c) other employees' wages for 12 months, (d) unsecured financial creditors, (e) government dues for two years and secured creditors' shortfall after enforcing security, (f) remaining debts, (g) preference shareholders and (h) equity shareholders or partners; workmen's provident, pension and gratuity funds are outside the estate (s. 36(4)); from 26-05-2026 government dues rank in clause (e) or (f) even if secured by law or agreement, and a secured creditor that relinquishes security ranks as secured only up to the value of that security
+duties: s. 227: the Central Government may notify financial service providers, such as NBFCs, for insolvency under modified rules
+deadlines: s. 7(4), 9(5), 10(4): the NCLT decides an admission application within 14 days; an applicant gets 7 days to cure defects
+deadlines: s. 12: CIRP to be completed within 180 days, extendable once by up to 90 days on a 66% CoC vote, and ordinarily within 330 days including litigation (the Supreme Court has allowed longer in exceptional cases)
+deadlines: s. 8(2): a corporate debtor has 10 days from an operational creditor's demand notice to show a dispute or payment
+deadlines: s. 22(1): the first CoC meeting within 7 days of the CoC being formed
+deadlines: s. 31(2A), 33(2A), 54(4): the NCLT approves or rejects a plan, and passes liquidation and dissolution orders, within 30 days (from 26-05-2026)
+deadlines: s. 33(1A): on a 66% CoC request the NCLT may restore the CIRP for up to 120 days instead of ordering liquidation (from 26-05-2026)
+deadlines: s. 54(1): the liquidator applies for dissolution within 180 days of liquidation commencing, extendable by up to 90 days (from 26-05-2026)
+deadlines: s. 61: appeal to the NCLAT within 30 days (plus 15); the NCLAT is to decide within three months (s. 61(6), from 26-05-2026); s. 62: appeal to the Supreme Court within 45 days (plus 15)
+deadlines: s. 43 and 46: look-back for preferences is one year before the initiation date (two years for related parties) up to the insolvency commencement date; for undervalued transactions one year (two years for related parties)
+deadlines: s. 238A: the Limitation Act, 1963 applies to applications and appeals
+breach: s. 64A and 183A: Rs 1 lakh to Rs 2 crore for initiating frivolous or vexatious proceedings (from 26-05-2026)
+breach: s. 66: directors may be ordered to contribute to the assets for fraudulent or wrongful trading
+breach: s. 67B: Rs 1 lakh to Rs 2 crore on officers or creditors who breach the moratorium; for breach of an approved plan, up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher (from 26-05-2026)
+breach: s. 67C: Rs 1 lakh to Rs 2 crore on an operational creditor that hides a dispute or payment
+breach: s. 68 to 77A: imprisonment and fines for concealing property, defrauding creditors, misconduct during a CIRP, falsifying books and false information
+breach: s. 235A: at least Rs 1 lakh a day for any contravention, up to three times the loss or unlawful gain, or Rs 5 crore if neither can be quantified
+refs: AMDACT-2026; RULES-AA; RULES-FSP; REG-CIRP; REG-LIQ; NOTIF-S4-THRESHOLD; NOTIF-FSP-S227
+penalties: P1
+defined terms (wording is in the full text): Chairperson (s. 3(5)); corporate person (s. 3(7)); corporate debtor (s. 3(8)); core services (s. 3(9)); creditor (s. 3(10)); debt (s. 3(11)); default (s. 3(12)); financial product (s. 3(15)); financial service (s. 3(16)); financial service provider (s. 3(17)); insolvency professional agency (s. 3(20)); information utility (s. 3(21)); notification (s. 3(22)); person resident outside India (s. 3(25)); prescribed (s. 3(26)); property (s. 3(27)); regulations (s. 3(28)); Schedule (s. 3(29)); secured creditor (s. 3(30)); security interest (s. 3(31)); specified (s. 3(32)); transaction (s. 3(33)); transfer (s. 3(34)); transfer of property (s. 3(35)); auditor (s. 5(2)); dispute (s. 5(6)); financial creditor (s. 5(7)); financial debt (s. 5(8)); information memorandum (s. 5(10)); initiation date (s. 5(11)); insolvency commencement date (s. 5(12)); interim finance (s. 5(15)); liquidation cost (s. 5(16)); liquidation commencement date (s. 5(17)); liquidator (s. 5(18)); operational creditor (s. 5(20)); operational debt (s. 5(21)); personal guarantor (s. 5(22)); personnel (s. 5(23)); pre-packaged insolvency commencement date (s. 5(23B)); pre-packaged insolvency resolution process period (s. 5(23D)); resolution plan (s. 5(26)); voting share (s. 5(28)); Adjudicating Authority (s. 79(1)); bankruptcy commencement date (s. 79(6)); bankruptcy order (s. 79(7)); bankruptcy process (s. 79(8)); bankruptcy trustee (s. 79(9)); Chapter (s. 79(10)); committee of creditors (s. 79(11)); debtor (s. 79(12)); discharge order (s. 79(13)); partnership debt (s. 79(18)); qualifying debt (s. 79(19)); repayment plan (s. 79(20)); resolution professional (s. 79(21)); undischarged bankrupt (s. 79(22))
+
+[AMDACT-2026] IBC (Amendment) Act, 2026 | The Insolvency and Bankruptcy Code (Amendment) Act, 2026 | Act 6 of 2026 | Act | In force in part (from 26-05-2026; the creditor-initiated process, group insolvency and the electronic portal are not yet in force) | issued 2026-04-06 | subject: The Code, IBBI and tribunals
+applies: All parties to processes under the Code: creditors, corporate debtors, resolution applicants, guarantors and insolvency professionals
+concepts: Mandatory admission of a financial creditor's application once default is shown (s. 7(5))
+concepts: Withdrawal only with 90% CoC approval and only between CoC formation and the first invitation for plans (s. 12A)
+concepts: CoC supervision of liquidation, restoration of CIRP and dissolution without liquidation (ss. 21(11), 33(1A), 33(2), 54(2A))
+concepts: Treatment of dissenting creditors and value of security in resolution plans (ss. 30(2)(ba), 30(4))
+concepts: Government dues rank as government dues even if secured (s. 53 Explanation)
+concepts: No interim moratorium for personal guarantors (ss. 96(4) and 124(4))
+concepts: Penalties for frivolous proceedings and breach of moratorium or plan (ss. 64A, 67B, 183A)
+concepts: Creditor-initiated insolvency resolution process (CIIRP, ss. 58A to 58L) and group insolvency (s. 59A): enacted but not yet in force
+duties: The amendments to ss. 7, 12A, 14, 16, 18, 21, 26, 28A, 30, 31, 33, 34, 34A, 35, 43, 46, 52, 53, 54, 59, 61, 64A, 66, 67B, 96, 124, 183A, 196 and 220 are in force from 26-05-2026 under S.O. 2625(E)
+duties: Not yet in force (as on 26-11-2026): Chapter IVA of Part II (CIIRP, ss. 58A to 58L), Chapter VA (group insolvency, s. 59A) and the electronic portal and related provisions (ss. 240B and 240C); these need a separate notification
+duties: CIIRP as enacted: notified financial institutions holding at least 51% by value of debt owed to such institutions may start the process after 30 days' notice to the corporate debtor; the resolution professional's public announcement starts it; the corporate debtor may object within 30 days; management stays with the board under the resolution professional's oversight
+duties: s. 31(1) second proviso: the NCLT may approve a plan in two steps, implementation first and distribution within 30 days; s. 31(4) proviso: where the plan involves a combination needing CCI approval, it must be obtained before the plan is submitted to the NCLT
+deadlines: CIIRP as enacted: complete within 150 days, extendable once by up to 45 days on a 66% vote
+deadlines: NCLT orders on plans, liquidation and dissolution within 30 days (ss. 31(2A), 33(2A), 54(4))
+deadlines: NCLAT to decide appeals within three months (s. 61(6))
+breach: ss. 64A and 183A: Rs 1 lakh to Rs 2 crore for frivolous or vexatious proceedings
+breach: s. 67B: Rs 1 lakh to Rs 2 crore for breach of moratorium; for breach of a resolution plan up to Rs 1 crore or 20% of the amount to be distributed, whichever is higher
+refs: CODE; NOTIF-AMDACT2026-COMMENCE; BILL-2025
+penalties: P1
+defined terms (wording is in the full text): creditor-initiated insolvency commencement date (definitions); control (definitions); group (definitions); insolvency proceedings (definitions); significant ownership (definitions)
+
+[NOTIF-AMDACT2026-COMMENCE] Commencement of the 2026 amendments | Notification under s. 1(2) of the Insolvency and Bankruptcy Code (Amendment) Act, 2026 (S.O. 2625(E)) | S.O. 2625(E) | Notification | In force | issued 2026-05-22 | subject: The Code, IBBI and tribunals
+applies: Everyone dealing with processes under the Code
+concepts: Brings most of the Amendment Act into force on 26-05-2026
+duties: In force from 26-05-2026: ss. 2 to 6, 8 to 33, 34(a)(iii) and (b), 35 to 39, 41, 43, 44, 46, 48 to 59, 61 to 66, 68, 69(a), 70(a), 70(b)(i) to (xxvi) except (xx), and 72 of the Amendment Act
+duties: Not notified: ss. 7, 40, 42, 45, 47, 60 and 71 of the Amendment Act (including CIIRP, group insolvency and the electronic portal)
+refs: AMDACT-2026; CODE
+penalties: P1
+
+[NOTIF-S4-THRESHOLD] Rs 1 crore default threshold | Notification under s. 4 of the Code: minimum amount of default of Rs 1 crore (S.O. 1205(E)) | S.O. 1205(E) | Notification | In force | issued 2020-03-24 | subject: Starting insolvency
+applies: Creditors and corporate debtors in corporate insolvency (Part II)
+concepts: Minimum default of Rs 1 crore to start a CIRP or liquidation under Part II (raised from Rs 1 lakh)
+duties: A creditor can apply under s. 7 or s. 9, and a corporate debtor under s. 10, only if the default is at least Rs 1 crore
+refs: CODE
+penalties: P1
+
+[NOTIF-S4-PPIRP] Rs 10 lakh threshold for pre-packs | Notification under s. 4 of the Code: minimum default of Rs 10 lakh for pre-packaged insolvency (S.O. 1543(E)) | S.O. 1543(E) | Notification | In force | issued 2021-04-09 | subject: Pre-packaged insolvency for MSMEs
+applies: MSME corporate debtors and their creditors (Chapter III-A)
+concepts: Minimum default of Rs 10 lakh for the pre-packaged insolvency resolution process
+duties: An MSME corporate debtor may apply for PPIRP only for a default of at least Rs 10 lakh
+refs: CODE; RULES-PPIRP; REG-PPIRP
+penalties: P1
+
+[NOTIF-PG-COMMENCE] Personal guarantor provisions in force | Notification bringing into force provisions of Part III for personal guarantors to corporate debtors (S.O. 4126(E)) | S.O. 4126(E) | Notification | In force | issued 2019-11-15 | subject: Personal guarantors and individuals
+applies: Personal guarantors to corporate debtors and their creditors
+concepts: Part III insolvency resolution and bankruptcy for personal guarantors to corporate debtors from 01-12-2019
+duties: From 01-12-2019 a creditor or the personal guarantor may apply to the NCLT for insolvency resolution of a personal guarantor to a corporate debtor
+refs: CODE; RULES-PG; RULES-PGBKY
+penalties: P1
+
+[NOTIF-FSP-S227] NBFCs of Rs 500 crore notified as FSPs | Notification under s. 227 of the Code: NBFCs (including HFCs) with assets of Rs 500 crore or more (S.O. 4139(E)) | S.O. 4139(E) | Notification | In force | issued 2019-11-18 | subject: NBFCs and other financial service providers
+applies: Non-banking finance companies, including housing finance companies, with asset size of Rs 500 crore or more as per the last audited balance sheet
+concepts: Notified category of financial service providers for insolvency under the FSP Rules
+concepts: Appropriate regulator: RBI
+duties: Insolvency and liquidation of such NBFCs and HFCs runs under the FSP Rules, on an application by RBI only
+duties: The treatment of third-party assets is notified separately (S.O. 464(E))
+refs: CODE; RULES-FSP; NOTIF-FSP-S227-R10
+penalties: P1
+
+[NOTIF-FSP-S227-R10] Third-party assets of NBFCs in insolvency | Notification under s. 227 read with rule 10 of the FSP Rules: dealing with third-party assets (S.O. 464(E)) | S.O. 464(E) | Notification | In force | issued 2020-01-30 | subject: NBFCs and other financial service providers
+applies: Administrators of notified NBFCs and HFCs in insolvency, and customers and counterparties whose assets the NBFC holds
+concepts: Receivables of assigned or securitised loans that the NBFC collects as servicer
+concepts: Assets owned by customers or counterparties in the NBFC's custody
+duties: The Administrator keeps receivables collected for third parties under a servicing or collection contract in a separate account, oversees it and passes them on under the contract; the NBFC's own servicing fee stays in its estate
+duties: The Administrator lists third-party assets contract by contract, keeps them separate from the NBFC's assets and returns or transfers them as the contract requires, unless the NBFC is entitled to retain them for a breach
+refs: RULES-FSP; NOTIF-FSP-S227
+penalties: P1
+
+[RULES-AA] Application to Adjudicating Authority Rules | The Insolvency and Bankruptcy (Application to Adjudicating Authority) Rules, 2016 (as amended in 2020) | G.S.R. 1108(E) | Rules | In force | issued 2016-11-30 | subject: Starting insolvency
+applies: Financial creditors (s. 7), operational creditors (ss. 8 and 9) and corporate applicants (s. 10) starting a CIRP
+concepts: Form 1 (financial creditor), Forms 3 and 4 (operational creditor's demand notice and invoice), Form 5 (operational creditor), Form 6 (corporate applicant), Form 2 (consent of the proposed IRP)
+duties: A financial creditor applies in Form 1, an operational creditor in Form 5 after serving a demand notice, and a corporate applicant in Form 6, each with the documents listed in the form
+duties: From 24-09-2020 the applicant must serve a copy of the application on the corporate debtor's registered office and on IBBI before filing it with the NCLT
+duties: Application fee: Rs 25,000 for a financial creditor or corporate applicant, Rs 2,000 for an operational creditor
+refs: CODE; REG-CIRP
+penalties: P1
+defined terms (wording is in the full text): Code (rule 2); corporate insolvency resolution process (rule 2); financial contract (rule 2); Form (rule 2); identification number (rule 2); Schedule (rule 2)
+
+[RULES-FSP] FSP Insolvency Rules | The Insolvency and Bankruptcy (Insolvency and Liquidation Proceedings of Financial Service Providers and Application to Adjudicating Authority) Rules, 2019 | G.S.R. 852(E) | Rules | In force | issued 2019-11-15 | subject: NBFCs and other financial service providers
+applies: Financial service providers notified under s. 227 (currently NBFCs and HFCs with assets of Rs 500 crore or more); The appropriate regulator (RBI for NBFCs)
+concepts: Administrator appointed by the NCLT on the regulator's proposal, acting as IRP, RP and liquidator
+concepts: Interim moratorium from filing
+concepts: Advisory Committee
+concepts: Regulator's 'no objection' to the new owners
+duties: r. 5(a): a CIRP of a notified FSP can start only on an application by the appropriate regulator, dealt with like a financial creditor's application; on admission the NCLT appoints the Administrator the regulator proposed
+duties: r. 5(b): an interim moratorium runs from filing until admission or rejection, and the FSP's licence or registration cannot be suspended or cancelled during the interim moratorium and the CIRP
+duties: r. 5(c): the regulator may set up an Advisory Committee of three or more experts within 45 days of the insolvency commencement date; the Administrator chairs it
+duties: r. 5(d): a resolution plan must explain how the applicant meets the legal requirements for the FSP's business; after CoC approval the Administrator seeks the regulator's 'no objection' to the persons who will control the FSP, judged on fit and proper criteria
+duties: r. 7: in liquidation the licence cannot be cancelled without hearing the liquidator, and the regulator must be heard before liquidation and dissolution orders
+duties: r. 8: an FSP needs the regulator's prior permission for voluntary liquidation
+duties: r. 10: the moratorium does not cover third-party assets held by the FSP; the Administrator deals with them as the Central Government notifies (S.O. 464(E))
+deadlines: Advisory Committee within 45 days of the insolvency commencement date
+deadlines: The regulator's 'no objection' is deemed granted if not refused within 45 working days
+deadlines: Application by the regulator in Form 1 with a fee of Rs 25,000
+refs: CODE; NOTIF-FSP-S227; NOTIF-FSP-S227-R10; REG-CIRP
+penalties: P1
+defined terms (wording is in the full text): Administrator (rule 2); Advisory Committee (rule 2); appropriate regulator (rule 2); Code (rule 2); Form (rule 2); identification number (rule 2)
+
+[RULES-PG] Personal guarantor IRP Rules | The Insolvency and Bankruptcy (Application to Adjudicating Authority for Insolvency Resolution Process for Personal Guarantors to Corporate Debtors) Rules, 2019 | G.S.R. 854(E) | Rules | In force | issued 2019-11-15 | subject: Personal guarantors and individuals
+applies: Creditors of, and personal guarantors to, corporate debtors
+concepts: Application under s. 94 (by the guarantor) or s. 95 (by a creditor)
+concepts: Demand notice before a creditor's application
+concepts: Repayment plan
+duties: A creditor serves a demand on the guarantor before applying; the application is made in the prescribed form with a fee of Rs 2,000
+duties: Since 26-05-2026 no interim moratorium applies on filing against a personal guarantor (ss. 96(4) and 124(4) of the Code); the Bombay and Delhi High Courts have held that this also covers applications pending on that date
+refs: CODE; REG-PGIRP; NOTIF-PG-COMMENCE; CIR-2026-09-21-1
+penalties: P1
+defined terms (wording is in the full text): Code (rule 2); form (rule 2); guarantor (rule 2); section (rule 2); serve (rule 2); urban area (rule 2)
+
+[RULES-PGBKY] Personal guarantor bankruptcy Rules | The Insolvency and Bankruptcy (Application to Adjudicating Authority for Bankruptcy Process for Personal Guarantors to Corporate Debtors) Rules, 2019 | G.S.R. 855(E) | Rules | In force | issued 2019-11-15 | subject: Personal guarantors and individuals
+applies: Creditors of, and personal guarantors to, corporate debtors after a failed insolvency resolution process
+concepts: Bankruptcy application after the resolution process fails or the repayment plan is not approved or implemented
+concepts: Bankruptcy trustee
+duties: A creditor or the guarantor may apply for a bankruptcy order in the prescribed form once the insolvency resolution process has failed, as set out in s. 121 of the Code
+refs: CODE; REG-PGBKY; RULES-PG
+penalties: P1
+defined terms (wording is in the full text): Code (rule 2); electronic means (rule 2); form (rule 2); guarantor (rule 2); section (rule 2); serve (rule 2); urban area (rule 2)
+
+[RULES-PPIRP] Pre-pack Rules | The Insolvency and Bankruptcy (Pre-packaged Insolvency Resolution Process) Rules, 2021 | G.S.R. 256(E) | Rules | In force | issued 2021-04-09 | subject: Pre-packaged insolvency for MSMEs
+applies: MSME corporate debtors applying for pre-packaged insolvency
+concepts: Application by the corporate debtor in the prescribed form
+duties: The corporate applicant files the application electronically with the listed documents and a fee of Rs 15,000
+refs: CODE; REG-PPIRP; NOTIF-S4-PPIRP
+penalties: P1
+
+[RULES-RV] Registered Valuers Rules | The Companies (Registered Valuers and Valuation) Rules, 2017 (as amended up to G.S.R. 432(E), 2026) | G.S.R. 1316(E) | Rules | In force | issued 2017-10-18 | subject: Insolvency professionals, agencies, valuers and information utilities
+applies: Registered valuers and registered valuer organisations; valuations required under the Companies Act and the Code
+concepts: Asset classes: land and building, plant and machinery, securities or financial assets
+concepts: Registered valuer organisations (RVOs)
+concepts: IBBI as the authority for registered valuers
+duties: Only a registered valuer who is a member of an RVO and registered with IBBI may carry out valuations under the Code
+duties: From 01-06-2026 an RVO must be a not-for-profit company with paid-up capital of at least Rs 25 lakh, valuer regulation as its sole object and bye-laws as in Annexure III; existing RVOs must meet the capital requirement by 31-03-2028
+refs: REG-CIRP; REG-LIQ; CIR-2026-04-01-1; CIR-2026-06-15-1
+penalties: P1
+defined terms (wording is in the full text): Act (rule 2); authority (rule 2); asset class (rule 2); certificate of recognition (rule 2); certificate of registration (rule 2); partnership entity (rule 2); Annexure (rule 2); registered valuers organisation (rule 2); valuation standards (rule 2); valuer (rule 2); certificate of membership (rule 2); Governing Board (rule 2)
+
+[REG-CIRP] CIRP Regulations | IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016 (as amended up to 30-10-2026) | IBBI/2016-17/GN/REG004 | Regulation | In force | issued 2016-11-30 | subject: Running the CIRP: moratorium, claims and creditors' committee
+applies: Interim resolution professionals and resolution professionals; Financial and operational creditors, creditors in a class (including homebuyers) and the CoC; Prospective resolution applicants; Corporate debtors and their promoters and officers
+concepts: Record of default (reg 2A) and chronology of debt and default with the application (reg 2C)
+concepts: Claims and their verification (regs 7 to 14)
+concepts: CoC meetings and voting (regs 17 to 26)
+concepts: Fair value and liquidation value by two registered valuers (reg 35)
+concepts: Avoidance transactions review (reg 35A)
+concepts: Information memorandum, expression of interest and request for plans (regs 36 to 36B)
+concepts: Mandatory contents of resolution plans (regs 38 and 38A)
+concepts: Real estate projects: separate accounts, RERA compliance and cost-to-complete assessment (regs 4D to 4G)
+concepts: Withdrawal (reg 30A), liquidation decision, dissolution and restoration (regs 40D to 40F)
+concepts: Electronic forms and late fee (reg 40B)
+duties: reg 2A and 2C: a financial creditor may prove default by certified bankers' book entries or a final court or tribunal order; with a s. 7 or 9 application the creditor files its PAN, email and a chronology of the debt, default, part payments, acknowledgments and limitation
+duties: reg 2B and 2E (from 02-06-2026): an operational creditor files GST returns, part payments, assignments, guarantees, a statement of account, related-party status and other recovery proceedings; a corporate applicant files three years of bank accounts, assets, receivables, creditors and litigation
+duties: reg 16E (from 09-06-2026): where creditors other than scheduled banks and public financial institutions hold more than 66% of the CoC vote, the RP invites the five largest unrelated operational creditors, including the three largest statutory authorities, to CoC meetings as non-voting observers and minutes their views
+duties: reg 13: the IRP or RP verifies claims within 7 days of receipt and, from 02-06-2026, communicates admission or rejection with reasons within 7 days
+duties: reg 18 and 19: the CoC meets at least once every 30 days unless it decides otherwise (at least once a quarter); members with 33% of the vote can requisition a meeting; notice is 5 days, which the CoC can cut to 24 hours
+duties: reg 4D to 4G: for real estate projects, a separate bank account for each project, project-wise receipts and payments to the CoC, RERA fund-use rules, and a technical and cost-to-complete assessment by independent professionals with CoC approval
+duties: reg 35: two registered valuers estimate fair value and liquidation value under the valuation standards IBBI notifies; members get the values only on a confidentiality undertaking
+duties: reg 35A: the RP forms an opinion on preferential, undervalued, extortionate or fraudulent transactions by day 75 and makes a determination by day 115
+duties: reg 36A: invitation for expressions of interest no later than day 60; with CoC approval it may cover the company as a whole, particular assets, or each real estate project
+duties: reg 38: operational creditors are paid in priority to financial creditors, and dissenting financial creditors in priority to assenting ones (pro rata in each stage for staged payment); the plan must state how it deals with all stakeholders and disclose any past failure to implement a plan
+duties: reg 38(3A): from 23-12-2025 every plan includes a statement of beneficial ownership of the resolution applicant and an affidavit on eligibility for s. 32A protection, in IBBI's formats
+duties: reg 38A: for real estate projects, the plan gives project-wise units sold and unsold, treatment of allottees (including those who did not claim), delivery timelines and progress reporting to the monitoring committee
+duties: reg 39: a resolution applicant submits an affidavit of s. 29A eligibility and an undertaking that its information is true; false information makes it ineligible and forfeits its deposit
+duties: reg 30A: an application to withdraw under s. 12A is made through the IRP or RP in Form FA with a bank guarantee for process costs
+duties: reg 40E and 40F: the CoC may resolve with 66% to seek dissolution where assets cannot cover costs or cannot be realised, and may apply to restore the CIRP before a liquidation order
+deadlines: Claim verification and communication: 7 days each
+deadlines: Avoidance review: opinion by day 75, determination by day 115
+deadlines: Expression of interest: by day 60
+deadlines: Request for resolution plans: at least 30 days before the last date for plans
+deadlines: Dissolution decision: RP informs the NCLT within 10 days of the CoC resolution
+deadlines: reg 40B: CIRP forms are filed on IBBI's platform by the stated dates; late filing attracts a fee (from 2026)
+refs: CODE; REG-LIQ; CIR-2025-11-18-1; CIR-2025-12-29-1; CIR-2026-10-30-1; CIR-2026-10-30-2; CIR-2026-04-01-1; CIR-2025-12-18-1
+penalties: P1
+defined terms (wording is in the full text): applicant (definitions clause); Code (definitions clause); Code of Conduct (definitions clause); committee (definitions clause); corporate insolvency resolution process (definitions clause); identification number (definitions clause); dissenting financial creditor (definitions clause); insolvency professional entity (definitions clause); participant (definitions clause); registered valuer (definitions clause); 7[Schedule-I ] (definitions clause); section (definitions clause); video conferencing or other audio and visual means (definitions clause); asset class (definitions clause); significantly different (definitions clause)
+
+[REG-LIQ] Liquidation Regulations | IBBI (Liquidation Process) Regulations, 2016 (as amended up to 22-09-2026) | IBBI/2016-17/GN/REG005 | Regulation | In force | issued 2016-12-15 | subject: Liquidation and voluntary liquidation
+applies: Liquidators and the CoC in liquidation; Secured and unsecured creditors, workmen and other stakeholders; Bidders for liquidation assets
+concepts: CoC continues in liquidation (reg 8)
+concepts: Compromise or arrangement (reg 2B)
+concepts: Secured creditor's choice to relinquish or realise (reg 21A)
+concepts: Sale by auction or, with CoC approval, private sale (regs 32 and 33)
+concepts: Realisation by a secured creditor (reg 37)
+concepts: Distribution and completion (regs 42 and 44)
+duties: reg 8: the CoC continues during liquidation without secured creditors that have not relinquished their security; its first meeting is within 7 days of the liquidation commencement date; it may replace the liquidator with 66% of the vote (reg 8B)
+duties: reg 2B: a compromise or arrangement under s. 230 of the Companies Act may be filed only if the CoC recommended it, within 30 days of liquidation, approved by the required majority and giving creditors more than the liquidation value; it must finish within 90 days, and an ineligible person under s. 29A cannot be a party
+duties: reg 12: the liquidator makes a public announcement within 5 days of appointment
+duties: reg 21A: a secured creditor tells the liquidator within 14 days whether it relinquishes or realises its security; silence means the security is deemed relinquished; a realising creditor pays its share of costs and workmen's dues
+duties: reg 30: claims are verified within 7 days and the decision with reasons is sent within 7 days; claims verified in the CIRP are not re-verified
+duties: reg 32 and 33: assets are sold standalone, by slump sale, collectively or in parcels, ordinarily by auction; private sale needs 66% CoC approval and specified grounds; no sale to a person ineligible under s. 29A, and sales to related parties need NCLT permission
+duties: reg 37: if the liquidator finds a buyer at a higher price within 14 days of the secured creditor's proposed price (and tells it within 7 days), the creditor must sell to that buyer
+duties: reg 42: proceeds are distributed within 15 days of receipt, after the list of stakeholders is filed
+deadlines: Liquidation to be completed within 180 days of the liquidation commencement date (from 02-06-2026), with extension on the CoC's instruction (reg 44)
+deadlines: Public announcement: 5 days
+deadlines: Secured creditor's decision: 14 days
+deadlines: Distribution: 15 days
+refs: CODE; REG-CIRP; CIR-2025-03-28-1; CIR-2026-01-05-1; CIR-2026-09-24-1
+penalties: P1
+defined terms (wording is in the full text): Code (definitions clause); contributory (definitions clause); identification number (definitions clause); Preliminary Report (definitions clause); Progress Report (definitions clause); registered valuer (definitions clause); Schedule (definitions clause); section (definitions clause); stakeholders (definitions clause)
+
+[REG-VL] Voluntary Liquidation Regulations | IBBI (Voluntary Liquidation Process) Regulations, 2017 (as amended up to 02-06-2026) | IBBI/2016-17/GN/REG010 | Regulation | In force | issued 2017-03-31 | subject: Liquidation and voluntary liquidation
+applies: Solvent corporate persons that choose to wind up, their liquidators, creditors and contributories
+concepts: Declaration of solvency by a majority of directors
+concepts: Special resolution (or partners' resolution) within four weeks
+concepts: Approval of creditors holding two-thirds of the debt
+duties: A majority of directors declare that the company has no debt or can pay its debts in full and is not being wound up to defraud anyone; within four weeks the members pass a special resolution; if it has debt, creditors representing two-thirds in value approve within seven days
+duties: The liquidator makes a public announcement within 5 days of appointment and verifies claims within 30 days of the last date for claims
+duties: A financial service provider needs its regulator's prior permission (FSP Rules, r. 8)
+deadlines: Completion within 270 days of the liquidation commencement date where creditors approved the resolution, and within 90 days in other cases
+refs: CODE; RULES-FSP
+penalties: P1
+defined terms (wording is in the full text): Code (definitions clause); contributory (definitions clause); liquidation commencement date (definitions clause); section (definitions clause)
+
+[REG-PPIRP] Pre-pack Regulations | IBBI (Pre-Packaged Insolvency Resolution Process) Regulations, 2021 (as amended up to 02-06-2026) | IBBI/2021-22/GN/REG071 | Regulation | In force | issued 2021-04-09 | subject: Pre-packaged insolvency for MSMEs
+applies: MSME corporate debtors, their unrelated financial creditors, resolution professionals and resolution applicants
+concepts: Debtor-in-possession process with a base resolution plan from the corporate debtor
+concepts: Approval of unrelated financial creditors before filing
+concepts: Competing plans where operational creditors are impaired
+duties: Since 26-05-2026, unrelated financial creditors holding at least 51% of the financial debt must approve the filing (s. 54A(3)); creditors holding at least 10% propose the resolution professional
+duties: The resolution professional makes a public announcement within 2 days of the commencement date
+duties: Where the base plan impairs operational creditors' claims, the RP invites competing plans and compares them with the base plan
+deadlines: s. 54D of the Code: the process is completed within 120 days, with the plan filed with the NCLT within 90 days
+refs: CODE; RULES-PPIRP; NOTIF-S4-PPIRP
+penalties: P1
+defined terms (wording is in the full text): applicant (definitions clause); class of creditors (definitions clause); Code (definitions clause); committee (definitions clause); electronic means (definitions clause); fair value (definitions clause); Form (definitions clause); identification number (definitions clause); insolvency professional entity (definitions clause); liquidation value (definitions clause); participant (definitions clause); process (definitions clause); registered valuer (definitions clause); section (definitions clause); video conferencing or other audio and visual means (definitions clause); tick size (definitions clause)
+
+[REG-PGIRP] Personal guarantor IRP Regulations | IBBI (Insolvency Resolution Process for Personal Guarantors to Corporate Debtors) Regulations, 2019 (as amended up to 02-06-2026) | IBBI/2019-20/GN/REG050 | Regulation | In force | issued 2019-11-20 | subject: Personal guarantors and individuals
+applies: Personal guarantors to corporate debtors, their creditors and resolution professionals
+concepts: Public notice and claims
+concepts: Meeting of creditors and repayment plan
+duties: Creditors submit claims within 30 days of the public notice
+duties: The RP files the approved repayment plan with the NCLT within 120 days of the resolution process commencement date
+duties: The RP reports to creditors within 7 days if the repayment plan fails
+refs: CODE; RULES-PG; CIR-2026-03-06-1; CIR-2026-09-21-1
+penalties: P1
+defined terms (wording is in the full text): Code (definitions clause); corporate debtor (definitions clause); electronic means (definitions clause); participant (definitions clause); resolution process (definitions clause); resolution process commencement date (definitions clause); section (definitions clause)
+
+[REG-PGBKY] Personal guarantor bankruptcy Regulations | IBBI (Bankruptcy Process for Personal Guarantors to Corporate Debtors) Regulations, 2019 (as amended up to 02-06-2026) | IBBI/2019-20/GN/REG051 | Regulation | In force | issued 2019-11-20 | subject: Personal guarantors and individuals
+applies: Bankrupt personal guarantors, their creditors and bankruptcy trustees
+concepts: Bankruptcy trustee and CoC
+concepts: Estate of the bankrupt and distribution
+duties: The bankruptcy trustee reports to the committee within 15 days after each quarter and deposits receipts without deduction by the next working day
+refs: CODE; RULES-PGBKY
+penalties: P1
+defined terms (wording is in the full text): Code (definitions clause); committee (definitions clause); corporate debtor (definitions clause); electronic means (definitions clause); participant (definitions clause); registered valuer (definitions clause); section (definitions clause)
+
+[REG-IP] Insolvency Professionals Regulations | IBBI (Insolvency Professionals) Regulations, 2016 (as amended up to 20-11-2025) | IBBI/2016-17/GN/REG003 | Regulation | In force | issued 2016-11-29 | subject: Insolvency professionals, agencies, valuers and information utilities
+applies: Insolvency professionals and insolvency professional entities
+concepts: Registration with IBBI after enrolment with an insolvency professional agency
+concepts: Authorisation for assignment (AFA)
+concepts: Code of Conduct (First Schedule)
+duties: An individual must have passed the Limited Insolvency Examination within 24 months before enrolment, complete the pre-registration course within 12 months, and have the specified experience (for example ten years in law after a law degree, or as a chartered accountant, company secretary, cost accountant or advocate)
+duties: reg 7A: since 31-12-2019 an IP may accept or start an assignment only while holding a valid authorisation for assignment from its agency
+duties: IPs must follow the Code of Conduct, including independence, disclosure of relationships, reasonable fees and records of each assignment
+refs: CODE; REG-IPA-MBL; REG-INSP; REG-GRIEV
+penalties: P1
+defined terms (wording is in the full text): authorisation for assignment (definitions clause); Bar Council (definitions clause); certificate of registration (definitions clause); Code (definitions clause); Institute of Chartered Accountants of India (definitions clause); Institute of Cost Accountants of India (definitions clause); Institute of Company Secretaries of India (definitions clause); professional member (definitions clause)
+
+[REG-IPA] IP Agencies Regulations | IBBI (Insolvency Professional Agencies) Regulations, 2016 (as amended up to 04-07-2022) | IBBI/2016-17/GN/REG002 | Regulation | In force | issued 2016-11-21 | subject: Insolvency professionals, agencies, valuers and information utilities
+applies: Insolvency professional agencies (IPAs)
+concepts: Registration and governance of IPAs, which enrol and regulate insolvency professionals
+duties: An IPA must be registered with IBBI and run its membership, monitoring and discipline of IPs under its bye-laws
+refs: CODE; REG-IPA-MBL; REG-IP
+penalties: P1
+defined terms (wording is in the full text): Code (definitions clause); certificate of registration (definitions clause)
+
+[REG-IPA-MBL] IPA Model Bye-Laws Regulations | IBBI (Model Bye-Laws and Governing Board of Insolvency Professional Agencies) Regulations, 2016 (as amended up to 13-05-2026) | IBBI/2016-17/GN/REG001 | Regulation | In force | issued 2016-11-21 | subject: Insolvency professionals, agencies, valuers and information utilities
+applies: Insolvency professional agencies and their members
+concepts: Model bye-laws for enrolment, authorisation for assignment, monitoring and discipline of IPs
+concepts: Governing board of an IPA
+duties: IPAs issue, renew, suspend and cancel authorisations for assignment and act on complaints against members under the model bye-laws
+refs: REG-IPA; REG-IP
+penalties: P1
+defined terms (wording is in the full text): Governing Board (definitions clause); model bye-laws (definitions clause); authorisation for assignment (definitions clause); certificate of membership (definitions clause); Code (definitions clause); professional member (definitions clause)
+
+[REG-IU] Information Utilities Regulations | IBBI (Information Utilities) Regulations, 2017 (as amended up to 02-06-2026) | IBBI/2016-17/GN/REG009 | Regulation | In force | issued 2017-03-31 | subject: Insolvency professionals, agencies, valuers and information utilities
+applies: Information utilities, and creditors and debtors who submit or verify financial information
+concepts: Financial information and its authentication
+concepts: Record of default
+duties: An information utility needs a net worth of at least Rs 50 crore and registration with IBBI, valid for five years
+duties: Creditors submit financial information; the IU seeks authentication from the debtor and issues a record of default, which since 26-05-2026 is sufficient proof of default for a financial institution's s. 7 application
+refs: CODE
+penalties: P1
+defined terms (wording is in the full text): Application Programming Interface (definitions clause); certificate of registration (definitions clause); Code (definitions clause); Governing Board (definitions clause); host bank (definitions clause); information (definitions clause); outsourcing (definitions clause); repayment account (definitions clause); section (definitions clause); submission of information (definitions clause); Technical Standards (definitions clause); user (definitions clause)
+
+[REG-INSP] Inspection and Investigation Regulations | IBBI (Inspection and Investigation) Regulations, 2017 (as amended up to 02-06-2026) | IBBI/2017-18/GN/REG011 | Regulation | In force | issued 2017-06-12 | subject: Oversight, complaints and penalties
+applies: Insolvency professionals, IP entities, IPAs and information utilities
+concepts: Inspection and investigation by IBBI
+concepts: Disciplinary committee orders under s. 220
+duties: IBBI may inspect or investigate a service provider; the disciplinary committee may warn, penalise, order disgorgement, or suspend or cancel registration or an authorisation for assignment
+refs: CODE; REG-IP
+penalties: P1
+defined terms (wording is in the full text): associated person (definitions clause); Code (definitions clause); Disciplinary Committee (definitions clause); Investigating Authority (definitions clause); Inspecting Authority (definitions clause); noticee (definitions clause); record (definitions clause); section (definitions clause)
+
+[REG-GRIEV] Grievance and Complaint Regulations | IBBI (Grievance and Complaint Handling Procedure) Regulations, 2017 (as amended up to 03-06-2026) |  | Regulation | In force | issued 2017-12-07 | subject: Oversight, complaints and penalties
+applies: Any stakeholder with a grievance or complaint against an IP, IPA, IU or registered valuer
+concepts: Grievance and complaint to IBBI
+concepts: Fee and refund
+duties: A complaint is filed within 45 days of the cause of action with a fee of Rs 2,500, refundable if the complaint is found valid
+duties: IBBI decides within 30 days whether there is a prima facie case; the complainant may seek a review within 30 days
+refs: REG-INSP
+penalties: P1
+defined terms (wording is in the full text): aggrieved (definitions clause); associated person (definitions clause); Board (definitions clause); Code (definitions clause); complaint (definitions clause); complaint-cum-grievance (definitions clause); complainant (definitions clause); grievance (definitions clause); stakeholder (definitions clause)
+
+[CIR-2026-10-30-2] RERA compliance and site disclosure in real estate CIRPs | Compliance with RERA for corporate debtors having real estate projects and disclosure of CIRP at project and office sites | IBBI/CIRP/110/2026 | Circular | In force | issued 2026-10-30 | subject: Running the CIRP: moratorium, claims and creditors' committee
+applies: IRPs and RPs of corporate debtors with real estate projects
+duties: The IRP or RP ensures compliance with the RERA Act, rules and regulations during the CIRP
+duties: The RP may invite the RERA authority's written views on the compliance, feasibility and implementation of resolution plans, and places them before the CoC and prospective resolution applicants
+duties: The start of the CIRP is displayed on signboards at each project site and notice boards at the company's offices within 7 days of appointment
+refs: REG-CIRP
+penalties: P1
+
+[CIR-2026-10-30-1] Revised Form CA for homebuyer claims | Introduction of revised Form CA for filing of claims by real estate allottees | IBBI/CIRP/109/2026 | Circular | In force | issued 2026-10-30 | subject: Running the CIRP: moratorium, claims and creditors' committee
+applies: Financial creditors in a class, including real estate allottees, and IRPs and RPs
+duties: Form CA now has Part I for other creditors in a class and Part II for real estate allottees; claims filed on or after 30-10-2026 use the revised form; earlier claims need not be refiled
+refs: REG-CIRP
+penalties: P1
+
+[CIR-2026-09-24-1] Late fee for liquidation forms | Commencement of levy of fee for delayed filing of Forms under regulation 47B of the Liquidation Process Regulations | IBBI/LIQ/107/2026 | Circular | In force | issued 2026-09-24 | subject: Liquidation and voluntary liquidation
+applies: Liquidators
+duties: Liquidation forms due on or before 30-09-2026 and filed late, including by correction or update, carry a fee of Rs 500 plus GST for each month of delay
+refs: REG-LIQ; CIR-2026-01-05-1
+penalties: P1
+
+[CIR-2026-09-21-1] No interim moratorium for personal guarantors: High Court rulings | Cessation of interim moratorium in respect of personal guarantors to corporate debtors: judgments of the Bombay and Delhi High Courts | IBBI/II/106/2026 | Circular | In force | issued 2026-09-21 | subject: Personal guarantors and individuals
+applies: Creditors of personal guarantors, resolution professionals and guarantors
+duties: Draws attention to two High Court rulings (Bombay, 24-07-2026; Delhi, 19-08-2026) that ss. 96(4) and 124(4), inserted from 26-05-2026, end the interim moratorium for personal guarantors in applications already pending on that date
+duties: Creditors may continue or bring proceedings against personal guarantors from 26-05-2026 even if an insolvency application was filed earlier
+refs: CODE; RULES-PG; REG-PGIRP
+penalties: P1
+
+[CIR-2026-09-09-1] Due diligence on misuse of the IBC | Due diligence by insolvency professionals regarding misuse of the IBC framework | IBBI/CIRP/105/2026 | Circular | In force | issued 2026-09-09 | subject: Oversight, complaints and penalties
+applies: Insolvency professionals in CIRPs and liquidations
+concepts: Fraudulent or malicious initiation (s. 65)
+duties: IPs watch for signs that the process is being used for other ends, such as avoiding tax, closing or merging companies without scrutiny, escaping investigations or ring-fencing assets
+duties: Indicators include: a CIRP started by a single non-bank creditor (or one that bought the debt shortly before) who then dominates the CoC; clusters of connected companies in CIRP at the same time; little competition or the same applicant across connected companies; recoveries far below admitted claims without a proper valuation; links to fraud proceedings by other agencies; large related-party loans written off without basis
+duties: Where an IP forms a view on reasonable grounds that the process serves a fraudulent or malicious purpose, it applies to the NCLT with the indicators, material and reasons
+refs: CODE; REG-CIRP
+penalties: P1
+
+[CIR-2026-06-15-1] Guidelines and format for valuation reports | Guidelines for conducting valuation under the Insolvency and Bankruptcy Code, 2016 | IBBI/RV/103/2026 | Circular | In force | issued 2026-06-15 | subject: Insolvency professionals, agencies, valuers and information utilities
+applies: Registered valuers, IPs and IP entities
+duties: Registered valuers prepare valuation reports and keep documents in IBBI's format, as the amended CIRP, Liquidation, Voluntary Liquidation, Pre-pack and personal guarantor bankruptcy regulations require
+refs: RULES-RV; REG-CIRP; REG-LIQ; CIR-2026-04-01-1
+penalties: P1
+
+[CIR-2026-04-01-1] International Valuation Standards apply | Valuation standards for valuations conducted under the Insolvency and Bankruptcy Code, 2016 | IBBI/RV/93/2026 | Circular | In force | issued 2026-04-01 | subject: Insolvency professionals, agencies, valuers and information utilities
+applies: Registered valuers, IPs, IP entities and IPAs
+duties: IBBI notifies the International Valuation Standards issued by the IVSC, as updated from time to time, for all valuations under the Code and its regulations, from 01-04-2026 until further orders
+refs: RULES-RV; REG-CIRP; REG-LIQ; REG-VL
+penalties: P1
+
+[CIR-2026-03-06-1] Forms to monitor personal guarantor processes | Filing forms to monitor insolvency resolution processes for personal guarantors to corporate debtors | IBBI/II/92/2026 | Circular | In force | issued 2026-03-06 | subject: Personal guarantors and individuals
+applies: Resolution professionals and bankruptcy trustees of personal guarantors
+duties: Resolution professionals in personal guarantor processes file monitoring forms on IBBI's platform; the deadline was extended to 30-09-2026 (IBBI/II/104/2026) and then to 31-12-2026, with late fees only after that date (IBBI/II/108/2026)
+refs: REG-PGIRP; REG-PGBKY
+penalties: P1
+
+[CIR-2026-01-05-1] Revised liquidation forms | Launch of revised forms for the liquidation process | IBBI/LIQ/91/2026 | Circular | In force | issued 2026-01-05 | subject: Liquidation and voluntary liquidation
+applies: Liquidators
+duties: Liquidators file the revised liquidation forms on IBBI's electronic platform by the dates in regulation 47B
+refs: REG-LIQ; CIR-2026-09-24-1
+penalties: P1
+
+[CIR-2025-12-29-1] Beneficial ownership statement in resolution plans | Format for statement of beneficial ownership and affidavit under regulation 38(3A) of the CIRP Regulations | IBBI/CIRP/90/2025 | Circular | In force | issued 2025-12-29 | subject: Resolution plans and who may bid
+applies: Prospective resolution applicants and resolution professionals
+duties: Every resolution plan includes a statement of the natural persons who ultimately own or control the applicant, with the shareholding and jurisdiction of each intermediate entity, and an affidavit on eligibility for s. 32A protection, in IBBI's formats
+duties: The RP ensures both are part of the plan placed before the CoC and filed with the NCLT
+refs: REG-CIRP; CODE
+penalties: P1
+
+[CIR-2025-12-18-1] Modifying CIRP forms and late fee | Introduction of modification utility and commencement of levy of fee for delayed filing of forms under regulation 40B of the CIRP Regulations | IBBI/CIRP/89/2025 | Circular | In force | issued 2025-12-18 | subject: Running the CIRP: moratorium, claims and creditors' committee
+applies: IRPs and RPs
+duties: IPs can correct filed CIRP forms through an OTP-based modification utility; corrections before the due date attract no fee
+duties: The late filing fee under regulation 40B is levied for forms filed after the due date
+refs: REG-CIRP
+penalties: P1
+
+[CIR-2025-11-18-1] Section 29A due diligence note to the CoC | Strengthening due diligence under section 29A | IBBI/CIRP/88/2025 | Circular | In force | issued 2025-11-18 | subject: Resolution plans and who may bid
+applies: Resolution professionals, prospective resolution applicants and committees of creditors
+duties: The RP places a detailed note on each applicant's s. 29A compliance before the CoC when it considers resolution plans, and ensures the CoC's deliberations are minuted
+duties: This adds to the existing duties: ineligibility criteria in Form G, the applicant's undertaking with its expression of interest, its affidavit with the plan, and the RP's due diligence certificate with Form H
+refs: CODE; REG-CIRP
+penalties: P1
+
+[CIR-2025-11-04-1] Restitution of assets attached under PMLA | Undertaking by insolvency professionals before Special Courts under PMLA | IBBI/CIRP/87/2025 | Circular | In force | issued 2025-11-04 | subject: Running the CIRP: moratorium, claims and creditors' committee
+applies: Resolution professionals and liquidators where the Enforcement Directorate has attached the corporate debtor's assets
+duties: The IP may apply to the PMLA Special Court under s. 8(7) or 8(8) of PMLA for restitution of attached assets, with a standard undertaking agreed with the Enforcement Directorate
+duties: Under the undertaking, where the promoter is ineligible under s. 29A, restituted assets will not go to or benefit persons covered by s. 32A(2) or persons accused in the money-laundering case, and the IP reports to the court every quarter until the plan or dissolution order
+refs: CODE
+penalties: P1
+
+[CIR-2025-03-28-1] Liquidation auctions only on the Baanknet platform | Mandatory use of the Baanknet (formerly eBKray) auction platform for liquidation | IBBI/LIQ/84/2025 | Circular | In force | issued 2025-03-28 | subject: Liquidation and voluntary liquidation
+applies: Liquidators and bidders for liquidation assets
+duties: Liquidators must run auctions on the Baanknet platform for auction notices issued on or after 01-04-2025
+duties: Bidders submit the required documents, including a s. 29A eligibility declaration, through the platform or as the auction notice states
+refs: REG-LIQ
+penalties: P1
+
+[CIR-2025-03-17-1] Carry-forward tax losses in the information memorandum | Disclosure of information relating to carry forward of losses in the information memorandum | IBBI/CIRP/83/2025 | Circular | In force | issued 2025-03-17 | subject: Resolution plans and who may bid
+applies: Resolution professionals and prospective resolution applicants
+duties: The information memorandum has a dedicated section on carried-forward losses under the Income-tax Act: amount, break-up by head, time limits for use, or a clear statement that there are none
+refs: REG-CIRP
+penalties: P1
+
+[REG-FTCIRP] Fast Track CIRP Regulations | IBBI (Fast Track Insolvency Resolution Process for Corporate Persons) Regulations, 2017 | IBBI/2017-18/GN/REG012 | Superseded instrument | Fast track process removed from the Code from 26-05-2026 | issued 2017-06-14 | subject: Superseded (history)
+refs: AMDACT-2026
+
+[BILL-2025] IBC (Amendment) Bill, 2025 | The Insolvency and Bankruptcy Code (Amendment) Bill, 2025 (as introduced in the Lok Sabha) |  | Superseded instrument | Enacted as the IBC (Amendment) Act, 2026 | issued 2025-08-12 | subject: Superseded (history)
+refs: AMDACT-2026
+
+[CIR-2025-01-10-1] eBKray auction platform circular | Mandatory use of eBKray auction platform for liquidation processes | IBBI/LIQ/81/2025 | Superseded instrument | Replaced on 28-03-2025 | issued 2025-01-10 | subject: Superseded (history)
+refs: CIR-2025-03-28-1
+
+GLOSSARY (plain-language meanings, not statutory text):
+IBC (Insolvency and Bankruptcy Code, 2016): The law for time-bound insolvency resolution and liquidation of companies and LLPs, and of personal guarantors to companies. Its provisions for other individuals and firms are not yet in force.
+IBBI (Insolvency and Bankruptcy Board of India): The regulator under the Code. It makes regulations, registers and supervises insolvency professionals, their agencies, information utilities and registered valuers, and issues circulars under s. 196.
+NCLT (National Company Law Tribunal): The NCLT for companies and LLPs and for their personal guarantors. It admits applications, approves resolution plans and orders liquidation.
+NCLAT (National Company Law Appellate Tribunal): Hears appeals from NCLT orders under the Code; appeals are filed within 30 days, extendable by 15.
+CIRP (Corporate insolvency resolution process): The process under Part II in which an insolvency professional runs the company and the creditors decide on a resolution plan within 180 days (outer limit 330 days).
+Default: Non-payment of a debt that has become due. A CIRP needs a default of at least Rs 1 crore; a pre-pack needs at least Rs 10 lakh.
+Financial creditor (FC): A person to whom a financial debt is owed, such as a bank or NBFC lender or a debenture holder. Homebuyers are financial creditors in a class. Financial creditors make up the CoC.
+Operational creditor (OC): A person owed an operational debt, such as a supplier, employee or a government authority for statutory dues.
+Corporate debtor (CD): The company or LLP that owes a debt and is in, or may face, insolvency.
+IRP / RP (Interim resolution professional / resolution professional): The insolvency professional who takes over management on admission (IRP) and then runs the CIRP for the CoC (RP).
+CoC (Committee of creditors): The unrelated financial creditors (operational creditors only where there are no financial creditors), who vote on key decisions: 51% for most matters, 66% for approving a resolution plan, extending the CIRP or replacing the RP, and 90% for withdrawal.
+Moratorium: The bar, during the CIRP, on suits and proceedings against the corporate debtor, transfer of its assets, enforcement of security it created (including SARFAESI) and recovery of property it occupies (s. 14). A government licence or permit cannot be suspended or cancelled on the ground of insolvency alone, provided current dues are paid.
+Interim moratorium: A moratorium from the date an application is filed. It applies to NBFC/FSP insolvency under the FSP Rules. Since 26-05-2026 it no longer applies to personal guarantors to corporate debtors.
+Resolution plan: The proposal to revive the corporate debtor, approved by 66% of the CoC and the NCLT. It binds all stakeholders, including government authorities and guarantors, and wipes out claims not included in it.
+Resolution applicant (RA): A person who submits a resolution plan. It must not be ineligible under s. 29A.
+Section 29A: The list of persons who cannot submit a resolution plan or buy assets in liquidation, such as wilful defaulters, promoters of long-standing NPAs, undischarged insolvents, certain convicts and invoked guarantors, and persons connected with them. The NPA and guarantor bars do not apply to MSMEs (s. 240A).
+Section 32A: Two protections: the corporate debtor is not liable for offences committed before the CIRP once an approved plan passes control to a person who was not involved, and its property cannot be attached for such offences after a plan or a liquidation sale to such a person. The individuals responsible remain liable, and the debtor must keep helping investigators.
+Liquidation value: The estimated amount the assets would fetch if the company were liquidated on the insolvency commencement date. A financial creditor that votes against a plan must get at least the lower of its share of this in liquidation and its share of the plan amount in the s. 53 order.
+Waterfall (Section 53): The order in which liquidation proceeds are paid: costs; workmen (24 months) and secured creditors who gave up their security; other employees (12 months); unsecured financial creditors; government dues (two years) and secured creditors' shortfall; remaining debts; preference shareholders; and equity shareholders.
+Liquidation: The sale of a corporate debtor's assets and distribution of proceeds under s. 53, ordered when no plan is approved or the CoC decides to liquidate. Since 02-06-2026 it is to be completed within 180 days.
+Voluntary liquidation: Winding up of a solvent company by its own decision under s. 59, after a declaration of solvency and approval of its members (and two-thirds of its creditors by value, if it has debt).
+PPIRP (Pre-packaged insolvency resolution process): A faster, debtor-in-possession process for MSMEs, started with the approval of unrelated financial creditors and a base resolution plan, to finish within 120 days.
+CIIRP (Creditor-initiated insolvency resolution process): A process in which notified financial institutions can start resolution out of court with the board kept in place. Enacted in 2026 (ss. 58A to 58L) but not yet in force.
+Group insolvency: Coordinated insolvency of companies in a group under s. 59A, inserted in 2026 but not yet in force.
+FSP (Financial service provider): A firm authorised to provide financial services. Banks are outside the Code; notified FSPs (currently NBFCs and HFCs with assets of Rs 500 crore or more) go through insolvency under the FSP Rules on the regulator's application.
+Administrator: The individual the NCLT appoints, on the regulator's proposal, to act as IRP, RP and liquidator of a notified FSP.
+Personal guarantor (PG): An individual who has guaranteed a corporate debtor's debt. Part III applies, with a repayment plan and, if that fails, bankruptcy.
+Insolvency professional (IP): A person registered with IBBI and enrolled with an insolvency professional agency, who acts as IRP, RP, liquidator or bankruptcy trustee. Needs an authorisation for assignment.
+AFA (Authorisation for assignment): The authorisation an insolvency professional agency issues to an IP; without it an IP cannot take an assignment.
+Information utility (IU): A registered entity that stores financial information and issues a record of default after seeking authentication from the debtor.
+Registered valuer (RV): A valuer registered with IBBI under the Companies (Registered Valuers and Valuation) Rules. Valuations under the Code follow the International Valuation Standards since 01-04-2026.
+Avoidance transactions: Preferential, undervalued, extortionate and fraudulent transactions before insolvency that the NCLT can reverse (ss. 43 to 51 and 66). Since 26-05-2026 these proceedings continue after the CIRP ends.
+Baanknet: The e-auction platform that liquidators must use for liquidation sales (formerly eBKray).
+Form G: The invitation for expressions of interest from prospective resolution applicants, published by day 60 of the CIRP.
+Information memorandum (IM): The document the RP prepares on the corporate debtor's assets, liabilities, operations and tax losses for prospective resolution applicants.
+
+IBC CHANGES (2025-12-01 to 2026-11-26):
+- 2026-10-30 Circular: Real estate CIRPs: RERA compliance, RERA's views on plans and site notices (IBBI/CIRP/110/2026). Applies: IRPs and RPs of corporate debtors with real estate projects, CoCs and prospective resolution applicants.. Changes: RPs must comply with RERA during the CIRP. RPs may invite RERA's written views on plans and share them with the CoC and bidders. The CIRP must be shown on signboards at each project site and office within 7 days of appointment. Actions: Add RERA portal checks and site notices to real estate CIRP checklists.
+- 2026-10-30 Circular: Revised Form CA with a separate part for homebuyers (IBBI/CIRP/109/2026). Applies: Financial creditors in a class, including real estate allottees, and IRPs and RPs.. Changes: Form CA has Part I for other creditors in a class and Part II for allottees. Claims filed earlier need not be refiled. Actions: Update claim invitation templates.
+- 2026-10-30 Regulation: CIRP Regulations amended (fifth amendment of 2026) (IBBI (Insolvency Resolution Process for Corporate Persons) (Fifth Amendment) Regulations, 2026). Applies: Everyone in a CIRP.. Changes: The CIRP Regulations were amended again; the consolidated text as on 30-10-2026 is the current version. Actions: Read the consolidated CIRP Regulations as on 30-10-2026.
+- 2026-09-22 Regulation: Liquidator may modify the list of stakeholders and tells the NCLT within 30 days (IBBI/2026-27/GN/REG154). Applies: Liquidators and stakeholders in liquidation.. Changes: The liquidator may modify an entry in the list of stakeholders on new information and informs the NCLT within 30 days. Actions: Keep a log of changes to the stakeholder list.
+- 2026-09-21 Circular: No interim moratorium for personal guarantors, even in pending applications (IBBI/II/106/2026). Applies: Creditors of personal guarantors, resolution professionals and guarantors.. Changes: IBBI drew attention to Bombay and Delhi High Court rulings that the 2026 amendment ended the interim moratorium for personal guarantors from 26-05-2026, including for applications pending then. Actions: Review stayed guarantor recovery actions.
+- 2026-09-12 Discussion paper: Discussion paper on safeguards in personal guarantor insolvency (IBBI discussion paper). Applies: Proposal for comment only; not in force.. Changes: IBBI invited comments on proposed changes. Nothing changes until regulations are notified. Actions: Track for final regulations.
+- 2026-09-09 Circular: IPs to watch for misuse of insolvency and apply to the NCLT (IBBI/CIRP/105/2026). Applies: Insolvency professionals; creditors and debtors in CIRPs and liquidations.. Changes: IBBI listed signs of misuse, such as a single non-bank creditor dominating the CoC, clusters of connected companies and very low recoveries without proper valuation. An IP who believes on reasonable grounds that a process is fraudulent or malicious must apply to the NCLT. Actions: Build the indicators into case intake reviews.
+- 2026-08-14 Discussion paper: Discussion paper on guidance for spotting fraudulent or malicious CIRPs and recourse under ss. 60(5) and 65 (IBBI discussion paper). Applies: Proposal for comment only; not in force.. Changes: IBBI invited comments on proposed changes. Nothing changes until regulations are notified. Actions: Track for final regulations.
+- 2026-07-02 Discussion paper: Discussion paper on amendments to the CIRP, Liquidation and personal guarantor regulations (IBBI discussion paper). Applies: Proposal for comment only; not in force.. Changes: IBBI invited comments on proposed changes. Nothing changes until regulations are notified. Actions: Track for final regulations.
+- 2026-06-15 Circular: Guidelines and format for valuation reports under the Code (IBBI/RV/103/2026). Applies: Registered valuers and IPs.. Changes: Valuers prepare reports and keep documents in the format IBBI notified. Actions: Share the format with appointed valuers.
+- 2026-06-09 Regulation: Observers in CoCs dominated by non-bank creditors (IBBI/2026-27/GN/REG153). Applies: CoCs where creditors other than scheduled banks and public financial institutions hold over 66% of the vote.. Changes: The RP invites the five largest unrelated operational creditors, including the three largest statutory authorities, as non-voting observers and minutes their views. Only unrelated operational creditors count for a CoC made only of operational creditors. Actions: Check CoC composition against the 66% test.
+- 2026-06-02 Regulation: IBBI regulations aligned with the 2026 Code amendments (IBBI/2026-27/GN/REG144 to REG152). Applies: All processes under the Code.. Changes: Liquidation to finish within 180 days; secured creditors decide within 14 days; claims verified within 7 days; distribution within 15 days. CIRP claims admitted or rejected with reasons within 7 days; more information required with s. 9 and s. 10 applications. Forms are now notified by IBBI circular (formats circulars of 02-06-2026 and 03-06-2026). Actions: Update liquidation and CIRP calendars. Secured creditors: decide on relinquishment within 14 days of liquidation.
+- 2026-05-26 Act: IBC (Amendment) Act, 2026 in force (except CIIRP and group insolvency) (Act 6 of 2026; S.O. 2625(E)). Applies: Everyone dealing with processes under the Code.. Changes: Admission of a financial creditor's application is mandatory once default is shown; an IU record of default suffices for a financial institution. Withdrawal needs 90% of the CoC and is barred after the first invitation for plans. CoC supervises liquidation; CIRP can be restored for up to 120 days; dissolution without liquidation. Government dues are not treated as secured in the waterfall. No interim moratorium for personal guarantors. New penalties for frivolous proceedings and breach of moratorium or plan. Actions: Review pending applications and liquidation strategies against the new provisions.
+- 2026-04-01 Circular: International Valuation Standards apply to valuations under the Code (IBBI/RV/93/2026). Applies: Registered valuers, IPs and all valuations under the Code.. Changes: IBBI notified the IVSC's International Valuation Standards for all valuations under the Code. Actions: Update valuer engagement letters.
+- 2025-12-29 Circular: Beneficial ownership statement and s. 32A affidavit in every resolution plan (IBBI/CIRP/90/2025). Applies: Prospective resolution applicants and RPs.. Changes: Formats for the beneficial ownership statement and s. 32A eligibility affidavit required by reg 38(3A). Actions: Prepare ownership charts for bids.

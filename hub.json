@@ -543,6 +543,118 @@
    "line": "Data protection for banks, NBFCs, insurers"
   },
   {
+   "id": "ibc",
+   "short": "IBC",
+   "name": "IBC",
+   "full": "Insolvency and Bankruptcy Code, 2016",
+   "status": "live",
+   "desc": "The Insolvency and Bankruptcy Code as amended in 2026, its rules (including the FSP Rules for NBFCs), IBBI regulations, notifications and circulars: admission, moratorium, claims, the committee of creditors, resolution plans, pre-packs, liquidation, personal guarantors, insolvency professionals and penalties.",
+   "href": "ibc/",
+   "data": {
+    "register": "ibc/data/ibc_register.json",
+    "graph": "ibc/data/ibc_graph.json",
+    "definitions": "ibc/data/definitions.json",
+    "glossary": "ibc/data/glossary.json",
+    "updates": "ibc/data/updates.json",
+    "fulltext": "ibc/data/fulltext.json"
+   },
+   "official": "https://ibbi.gov.in",
+   "map": "ibc/map/",
+   "subjects": [
+    {
+     "theme": "The Code, IBBI and tribunals",
+     "nice": "The Code, IBBI and tribunals",
+     "slug": "code"
+    },
+    {
+     "theme": "Starting insolvency",
+     "nice": "Starting insolvency",
+     "slug": "initiation"
+    },
+    {
+     "theme": "Running the CIRP: moratorium, claims and creditors' committee",
+     "nice": "Moratorium, claims and the CoC",
+     "slug": "cirp"
+    },
+    {
+     "theme": "Resolution plans and who may bid",
+     "nice": "Resolution plans and who may bid",
+     "slug": "plans"
+    },
+    {
+     "theme": "Pre-packaged insolvency for MSMEs",
+     "nice": "Pre-packs for MSMEs",
+     "slug": "prepack"
+    },
+    {
+     "theme": "Liquidation and voluntary liquidation",
+     "nice": "Liquidation",
+     "slug": "liquidation"
+    },
+    {
+     "theme": "Personal guarantors and individuals",
+     "nice": "Personal guarantors",
+     "slug": "guarantors"
+    },
+    {
+     "theme": "NBFCs and other financial service providers",
+     "nice": "NBFCs and other FSPs",
+     "slug": "fsp"
+    },
+    {
+     "theme": "Insolvency professionals, agencies, valuers and information utilities",
+     "nice": "Professionals, valuers and IUs",
+     "slug": "professionals"
+    },
+    {
+     "theme": "Oversight, complaints and penalties",
+     "nice": "Oversight, complaints and penalties",
+     "slug": "oversight"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-FC",
+     "name": "Financial creditor",
+     "key": "creditor",
+     "desc": "Bank, NBFC or bondholder lending to the debtor"
+    },
+    {
+     "id": "ENT-FSP",
+     "name": "NBFC / FSP in insolvency",
+     "key": "fsp",
+     "desc": "NBFC or HFC as the debtor, under the FSP Rules"
+    },
+    {
+     "id": "ENT-CD",
+     "name": "Corporate debtor",
+     "key": "debtor",
+     "desc": "Company or LLP and its promoters"
+    },
+    {
+     "id": "ENT-RA",
+     "name": "Resolution applicant / bidder",
+     "key": "applicant",
+     "desc": "Investor submitting a plan or buying assets"
+    },
+    {
+     "id": "ENT-IP",
+     "name": "Insolvency professional",
+     "key": "ip",
+     "desc": "IRP, RP, liquidator, Administrator or valuer"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally",
+   "line": "Insolvency: CIRP, liquidation, NBFC insolvency"
+  },
+  {
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",
@@ -561,10 +673,10 @@
    "id": "misc",
    "short": "Other regulators",
    "name": "Other regulators",
-   "full": "PMLA · IBC / IBBI · NHB · Exchanges",
+   "full": "PMLA · NHB · Exchanges",
    "status": "soon",
-   "desc": "Anti-money laundering, insolvency, housing finance supervision and stock exchange rules.",
-   "line": "PMLA, IBC, NHB, exchanges"
+   "desc": "Anti-money laundering, housing finance supervision and stock exchange rules.",
+   "line": "PMLA, NHB, exchanges"
   }
  ]
 }
