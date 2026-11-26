@@ -983,5 +983,13 @@
    "desc": "Anti-money laundering.",
    "line": "PMLA"
   }
+ ],
+ "tools": [
+  {
+   "id": "entity",
+   "short": "My entity",
+   "name": "What applies to my entity",
+   "href": "entity/"
+  }
  ]
 }
