@@ -869,6 +869,97 @@
    "line": "NSE, BSE: debt listing, EBP, filings, fines"
   },
   {
+   "id": "nhb",
+   "short": "NHB",
+   "name": "NHB",
+   "full": "National Housing Bank",
+   "status": "live",
+   "desc": "The NHB Act and NHB circulars, advisories and policies for housing finance companies and housing lenders: supervision, returns and fraud reporting, lending conduct, complaints through GRIDS, refinance and housing schemes.",
+   "href": "nhb/",
+   "data": {
+    "register": "nhb/data/nhb_register.json",
+    "graph": "nhb/data/nhb_graph.json",
+    "definitions": "nhb/data/definitions.json",
+    "glossary": "nhb/data/glossary.json",
+    "updates": "nhb/data/updates.json",
+    "fulltext": "nhb/data/fulltext.json"
+   },
+   "official": "https://www.nhb.org.in",
+   "map": "nhb/map/",
+   "subjects": [
+    {
+     "theme": "The NHB Act and who does what",
+     "nice": "The NHB Act and who does what",
+     "slug": "law"
+    },
+    {
+     "theme": "Supervision and inspection",
+     "nice": "Supervision and inspection",
+     "slug": "supervision"
+    },
+    {
+     "theme": "Returns and reporting to NHB",
+     "nice": "Returns and fraud reporting",
+     "slug": "returns"
+    },
+    {
+     "theme": "Lending conduct advisories",
+     "nice": "Lending conduct",
+     "slug": "conduct"
+    },
+    {
+     "theme": "Complaints and grievance redressal",
+     "nice": "Complaints (GRIDS)",
+     "slug": "complaints"
+    },
+    {
+     "theme": "Refinance from NHB",
+     "nice": "Refinance from NHB",
+     "slug": "refinance"
+    },
+    {
+     "theme": "Government housing schemes",
+     "nice": "Government housing schemes",
+     "slug": "schemes"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-HFC",
+     "name": "Housing finance company",
+     "key": "hfc",
+     "desc": "Registered HFC supervised by NHB"
+    },
+    {
+     "id": "ENT-PLI",
+     "name": "Refinance borrower",
+     "key": "pli",
+     "desc": "Lender refinanced by NHB"
+    },
+    {
+     "id": "ENT-CUS",
+     "name": "Home loan customer",
+     "key": "cus",
+     "desc": "Borrower, depositor or applicant"
+    },
+    {
+     "id": "ENT-AUD",
+     "name": "Auditor of an HFC",
+     "key": "aud",
+     "desc": "Reports to NHB and RBI"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally",
+   "line": "HFC supervision, returns, GRIDS, refinance"
+  },
+  {
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",
@@ -887,10 +978,10 @@
    "id": "misc",
    "short": "Other regulators",
    "name": "Other regulators",
-   "full": "PMLA · NHB",
+   "full": "PMLA",
    "status": "soon",
-   "desc": "Anti-money laundering and housing finance supervision.",
-   "line": "PMLA, NHB"
+   "desc": "Anti-money laundering.",
+   "line": "PMLA"
   }
  ]
 }

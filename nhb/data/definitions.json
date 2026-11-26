@@ -1,0 +1,266 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Terms as each instrument defines them, shortened where long. The instrument's own text governs."
+ },
+ "instruments": {
+  "ACT-NHB": [
+   {
+    "term": "Board",
+    "para": "s. 2",
+    "def": "means the Board of Directors of the National Housing Bank referred to in section 6;",
+    "scope": ""
+   },
+   {
+    "term": "Chairman",
+    "para": "s. 2",
+    "def": "means the Chairman of the Board appointed under section 6;",
+    "scope": ""
+   },
+   {
+    "term": "director",
+    "para": "s. 2",
+    "def": "means a director appointed under section 6;",
+    "scope": ""
+   },
+   {
+    "term": "housing finance institution",
+    "para": "s. 2",
+    "def": "includes every institution, whether incorporated or not, which primarily transacts or has as one of its principal objects, the transacting of the business of providing finance for housing, whether directly or indirectly;",
+    "scope": ""
+   },
+   {
+    "term": "Managing Director",
+    "para": "s. 2",
+    "def": "means the Managing Director appointed under section 6;",
+    "scope": ""
+   },
+   {
+    "term": "National Housing Bank",
+    "para": "s. 2",
+    "def": "means the National Housing Bank established under section 3;",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "s. 2",
+    "def": "means a notification published in the Official Gazette;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 2",
+    "def": "means prescribed by regulations made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Reserve Bank",
+    "para": "s. 2",
+    "def": "means the Reserve Bank of India constituted under section 3 of the Reserve Bank of India Act, 1934;",
+    "scope": ""
+   },
+   {
+    "term": "approved securities",
+    "para": "s. 2",
+    "def": "means securities of any State Government or of the Central Government and such bonds, both the principal whereof and the interest whereon shall have been fully and unconditionally guaranteed by any such Government;",
+    "scope": ""
+   },
+   {
+    "term": "unencumbered approved securities",
+    "para": "s. 2",
+    "def": "includes the approved securities lodged by the housing finance institution which is a company with another institution for an advance or any other arrangement to the extent to which such securities have not been drawn against or availed of or encumbered in any manner;",
+    "scope": ""
+   },
+   {
+    "term": "quarter",
+    "para": "s. 2",
+    "def": "means the period of three months ending on the last day of March, June, September or December.",
+    "scope": ""
+   },
+   {
+    "term": "Appellate Tribunal",
+    "para": "s. 36C",
+    "def": "means the Appellate Tribunal established under section 36-I;",
+    "scope": ""
+   },
+   {
+    "term": "assistance",
+    "para": "s. 36C",
+    "def": "means any direct or indirect financial assistance granted, by an approved institution during the course of any housing finance activity undertaken by it;",
+    "scope": ""
+   },
+   {
+    "term": "borrower",
+    "para": "s. 36C",
+    "def": "means any person to whom any assistance has been given by an approved institution for the purposes of purchase, construction, repairs, extension or renovation of a residential house;",
+    "scope": ""
+   },
+   {
+    "term": "dues",
+    "para": "s. 36C",
+    "def": "means any liability which is claimed as due from any person by an approved institution and includes interest, costs, charges and other amount payable in relation thereto;",
+    "scope": ""
+   },
+   {
+    "term": "recovery officer",
+    "para": "s. 36C",
+    "def": "means an officer appointed under section 36D.",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "s. 36C",
+    "def": "means any body corporate and includes a firm or other association of individuals; and",
+    "scope": ""
+   }
+  ],
+  "RBI-HFC-DIR-2025": [
+   {
+    "term": "Carrying cost",
+    "para": "definitions",
+    "def": "means book value of the assets and interest accrued thereon but not received.",
+    "scope": ""
+   },
+   {
+    "term": "Company",
+    "para": "definitions",
+    "def": "means a company registered under Section 3 of the Companies Act, 1956 (Act 1 of 1956) or the corresponding provision under Companies Act,",
+    "scope": ""
+   },
+   {
+    "term": "Companies in the group",
+    "para": "definitions",
+    "def": "shall mean an arrangement involving two or more entities related to each other through any of the following relationships: subsidiary - parent (defined in terms of AS 21), joint venture (defined in terms of AS 27), associate (defined in terms of AS 23), promoter - promotee (as provided in the SEBI (Acquisition of Shares and Takeover) Regulations, 1997) for listed companies, a related party (defined in terms of AS…",
+    "scope": ""
+   },
+   {
+    "term": "Current investment",
+    "para": "definitions",
+    "def": "means an investment which is by its nature readily realizable and is intended to be held for not more than one year from the date on which such investment is made.",
+    "scope": ""
+   },
+   {
+    "term": "Earning value",
+    "para": "definitions",
+    "def": "means the value of an equity share computed by taking the average of profits after tax as reduced by the preference dividend and adjusted for extra-ordinary and non-recurring items, for the immediately preceding three years and further divided by the number of equity shares of the investee company and capitalized at the following rate:",
+    "scope": ""
+   },
+   {
+    "term": "Fair value",
+    "para": "definitions",
+    "def": "means the arithmetic mean of the earning value and the breakup value.",
+    "scope": ""
+   },
+   {
+    "term": "Housing Finance",
+    "para": "definitions",
+    "def": "shall mean financing, for purchase/ construction/ reconstruction/ renovation/ repairs of residential dwelling units, which includes:",
+    "scope": ""
+   },
+   {
+    "term": "Housing finance company",
+    "para": "definitions",
+    "def": "shall mean a company incorporated under the Companies Act, 2013 that fulfils the following conditions:",
+    "scope": ""
+   },
+   {
+    "term": "Hybrid debt",
+    "para": "definitions",
+    "def": "means capital instrument which possesses certain characteristics of equity as well as of debt.",
+    "scope": ""
+   },
+   {
+    "term": "Net Asset Value",
+    "para": "definitions",
+    "def": "means the latest declared net asset value by the mutual fund concerned in respect of a particular scheme.",
+    "scope": ""
+   },
+   {
+    "term": "Net Owned Fund",
+    "para": "definitions",
+    "def": "means net owned fund as defined under Section 29A of the National Housing Bank Act, 1987 including paid up preference shares which are compulsorily convertible into equity.",
+    "scope": ""
+   },
+   {
+    "term": "NHB Act",
+    "para": "definitions",
+    "def": "means the National Housing Bank Act, 1987 (Act 53 of 1987).",
+    "scope": ""
+   },
+   {
+    "term": "Owned Fund",
+    "para": "definitions",
+    "def": "means paid up equity capital, preference shares which are compulsorily convertible into equity, free reserves including balance in share premium account and capital reserves representing surplus arising out of sale proceeds of asset, excluding reserves created by revaluation of asset, as reduced by accumulated loss balance, book value of intangible assets and deferred revenue expenditure, if any. The HFC shall…",
+    "scope": ""
+   },
+   {
+    "term": "public deposit",
+    "para": "definitions",
+    "def": "means the same as defined in Reserve Bank of India (Non- Banking Financial Companies - Acceptance of Public Deposits) Directions, 2025.",
+    "scope": ""
+   },
+   {
+    "term": "Subordinated Debt",
+    "para": "definitions",
+    "def": "means `subordinated debt` as defined in Reserve Bank of India (Non-Banking Financial Companies - Prudential Norms on Capital Adequacy) Directions, 2025. Note: The capital treatment for the subordinated debt shall also be as per Reserve Bank of India (Non-Banking Financial Companies - Prudential Norms on Capital Adequacy) Directions, 2025.",
+    "scope": ""
+   },
+   {
+    "term": "Tier 1 Capital",
+    "para": "definitions",
+    "def": "means owned fund as reduced by investment in shares of other non-banking financial companies including housing finance companies and in shares, debentures, bonds, outstanding loans and advances including hire purchase and lease finance made to and deposits with subsidiaries and companies in the same group exceeding, in aggregate, ten per cent of the owned fund.",
+    "scope": ""
+   },
+   {
+    "term": "Tier 2 capital",
+    "para": "definitions",
+    "def": "includes the following:",
+    "scope": ""
+   },
+   {
+    "term": "Standard asset",
+    "para": "definitions",
+    "def": "shall mean standard asset as defined in paragraph 11(3) of Reserve Bank of India (Non-Banking Financial Companies - Income Recognition, Asset Classification and Provisioning) Directions, 2025.",
+    "scope": ""
+   },
+   {
+    "term": "Sub-standard asset",
+    "para": "definitions",
+    "def": "shall mean substandard asset as defined in paragraph 52 of Reserve Bank of India (Non-Banking Financial Companies - Income Recognition, Asset Classification and Provisioning) Directions, 2025. Provided that where natural calamities impair the repaying capacity of a borrower, terms of the loan agreement regarding interest and/or principal may be rescheduled and such loans shall not be classified as substandard;…",
+    "scope": ""
+   },
+   {
+    "term": "Doubtful asset",
+    "para": "definitions",
+    "def": "shall mean doubtful asset as defined in paragraph 53 of Reserve Bank of India (Non-Banking Financial Companies - Income Recognition, Asset Classification and Provisioning) Directions, 2025.",
+    "scope": ""
+   },
+   {
+    "term": "Loss asset",
+    "para": "definitions",
+    "def": "shall mean loss asset as defined in paragraph 11(1) of Reserve Bank of India (Non-Banking Financial Companies - Income Recognition, Asset Classification and Provisioning) Directions, 2025. Further, following assets shall also be treated as loss assets for HFCs:",
+    "scope": ""
+   },
+   {
+    "term": "Non-Performing Asset",
+    "para": "definitions",
+    "def": "shall mean NPA as referred in paragraph 51 of Reserve Bank of India (Non-Banking Financial Companies - Income Recognition, Asset Classification and Provisioning) Directions, 2025. Provided that a term loan granted to an agriculturist or to a person whose income is dependent on the harvest of crops shall be NPA if the installment of principal or interest thereon remains unpaid:",
+    "scope": ""
+   },
+   {
+    "term": "Shares",
+    "para": "definitions",
+    "def": "shall mean and include investment in various instruments such as Equity Shares, Preference Shares eligible for capital status, Subordinated Debt Instruments, Hybrid Debt Capital Instruments and any other quasi-capital instruments approved as in the nature of capital.",
+    "scope": ""
+   }
+  ],
+  "PMAY-ISS": [
+   {
+    "term": "exclusive balcony or verandah area",
+    "para": "definitions",
+    "def": "means the area of the balcony or verandah, as the case may be, which is appurtenant to the net usable floor area of an apartment, meant for the exclusive use of the allottee; and \"exclusive open terrace area\" means the area of open terrace which is appurtenant to the net usable floor area of an apartment, meant for the exclusive use of the allottee. Nodal Agencies identified by Ministry for the purpose of…",
+    "scope": ""
+   }
+  ]
+ }
+}

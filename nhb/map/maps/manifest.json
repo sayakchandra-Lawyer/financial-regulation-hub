@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "default": "nhb",
+  "maps": [
+    {
+      "id": "nhb",
+      "title": "NHB Regulation Map",
+      "hubLabel": "NHB",
+      "hubSub": "National Housing Bank",
+      "section": "nhb",
+      "register": "../data/nhb_register.json",
+      "graph": "../data/nhb_graph.json",
+      "categoryGroup": "Who it applies to",
+      "layers": [
+        "ENT-HFC",
+        "ENT-PLI",
+        "ENT-CUS",
+        "ENT-AUD"
+      ],
+      "cumulativeLayers": false,
+      "historyTheme": "Superseded (history)",
+      "categoryCaveat": "Each instrument is tagged to the roles it names or most directly affects. The NHB Act and the RBI HFC Directions bind every housing finance company. Check the provision before relying on a tag.",
+      "caveatShort": "Tags follow each instrument's scope. See the provision.",
+      "milestones": [
+        {
+          "date": "1988-07-09",
+          "label": "NHB set up"
+        },
+        {
+          "date": "2019-08-09",
+          "label": "RBI regulates HFCs"
+        },
+        {
+          "date": "2025-11-28",
+          "label": "RBI HFC Directions 2025"
+        },
+        {
+          "date": "2025-12-15",
+          "label": "New refinance booklet"
+        }
+      ],
+      "updates": "../data/updates.json",
+      "glossary": "../data/glossary.json",
+      "definitions": "../data/definitions.json",
+      "fulltext": "../data/fulltext.json",
+      "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev"
+    }
+  ]
+}

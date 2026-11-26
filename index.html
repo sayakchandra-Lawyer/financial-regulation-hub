@@ -7,7 +7,7 @@
 <meta name="description" content="Financial regulatory information for finance professionals: RBI, SEBI and IRDAI rules, key court rulings and other regulators, organised by regulator, with obligations, deadlines and consequences linked to the official text.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="assets/hub.css?v=20261126k">
+<link rel="stylesheet" href="assets/hub.css?v=20261126l">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
 <style>
 .hero{background:linear-gradient(180deg,var(--surface-2),var(--bg));border-bottom:1px solid var(--line)}
@@ -87,6 +87,7 @@
         <optgroup label="Insolvency (IBC)"><option value="b-1">Insolvency, any role</option><option value="b0">Financial creditor</option><option value="b1">NBFC / FSP in insolvency</option><option value="b2">Corporate debtor</option><option value="b3">Resolution applicant / bidder</option><option value="b4">Insolvency professional</option></optgroup>
         <optgroup label="IFSC (GIFT City)"><option value="g-1">IFSC entity, any role</option><option value="g0">IFSC Banking Unit</option><option value="g1">Finance company / unit</option><option value="g2">Fund management entity</option><option value="g3">Capital market intermediary</option><option value="g4">Insurance office / intermediary</option></optgroup>
         <optgroup label="Stock exchanges (NSE, BSE)"><option value="x-1">Listed entity or market user, any role</option><option value="x0">Equity-listed company</option><option value="x1">Debt-listed issuer (NCDs / CP)</option><option value="x2">Arranger / merchant banker</option><option value="x3">Bond investor / treasury</option><option value="x4">Lender</option></optgroup>
+        <optgroup label="Housing finance (NHB)"><option value="h-1">Housing lender or customer, any role</option><option value="h0">Housing finance company</option><option value="h1">Lender refinanced by NHB</option><option value="h2">Home loan customer</option><option value="h3">Auditor of an HFC</option></optgroup>
         <optgroup label="Insurance"><option value="i-1">Insurer or distributor, any role</option><option value="i0">Life insurer</option><option value="i1">Health insurer</option><option value="i2">Corporate agent</option><option value="i3">Individual agent</option></optgroup>
       </select>
     </div>
@@ -106,7 +107,7 @@
   </div>
 </main>
 <footer id="foot"></footer>
-<script src="assets/hub.js?v=20261126k"></script>
+<script src="assets/hub.js?v=20261126l"></script>
 <script>
 (async function(){
   const hub = await getJSON("hub.json");
@@ -118,9 +119,9 @@
   const NAME = Object.fromEntries(hub.sections.map(s => [s.id, s.short || s.name]));
   const lay = $("#layer");
   const saved = store.get("layer", "-1"); lay.value = [...lay.options].some(o => o.value === saved) ? saved : "-1";
-  const PFX = { rbi: "", sebi: "s", irdai: "i", fema: "f", dpdp: "d", ibc: "b", ifsc: "g", exchanges: "x" };
-  const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : lay.value.startsWith("s") && MS.sebi ? "sebi" : lay.value.startsWith("f") && MS.fema ? "fema" : lay.value.startsWith("d") && MS.dpdp ? "dpdp" : lay.value.startsWith("b") && MS.ibc ? "ibc" : lay.value.startsWith("g") && MS.ifsc ? "ifsc" : lay.value.startsWith("x") && MS.exchanges ? "exchanges" : "rbi";      // which regulator the lens points to
-  const L = () => +lay.value.replace(/^[isfdbgx]/, "");
+  const PFX = { rbi: "", sebi: "s", irdai: "i", fema: "f", dpdp: "d", ibc: "b", ifsc: "g", nhb: "h", exchanges: "x" };
+  const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : lay.value.startsWith("s") && MS.sebi ? "sebi" : lay.value.startsWith("f") && MS.fema ? "fema" : lay.value.startsWith("d") && MS.dpdp ? "dpdp" : lay.value.startsWith("b") && MS.ibc ? "ibc" : lay.value.startsWith("g") && MS.ifsc ? "ifsc" : lay.value.startsWith("h") && MS.nhb ? "nhb" : lay.value.startsWith("x") && MS.exchanges ? "exchanges" : "rbi";      // which regulator the lens points to
+  const L = () => +lay.value.replace(/^[isfdbghx]/, "");
   const resetTo = k => { lay.value = PFX[k] + "-1"; lay.dispatchEvent(new Event("change")); };
   const M = () => MS[K()];
   const unit = () => K() === "rbi" ? "layer" : "role";
@@ -135,6 +136,7 @@
   const HINT = {
     ifsc: /\b(ifsc|ifsca|gift city|gift ifsc|ibus?|ifsc banking|finance units?|grctc|treasury centres?|aircraft leas(?:e|ing)|ship leas(?:e|ing)|factors? regulations|fund management entit(?:y|ies)|fmes?|restricted schemes?|retail schemes?|venture capital schemes?|family investment funds?|capital market intermediar(?:y|ies)|cmis?|iios?|iiios?|ifsc insurance|managing general agents?|mgas?|snrr|sez letter of approval|single window it)\b/i,
     exchanges: /\b(nse|bse|stock exchanges?|ebps?|electronic book|bsebond|rfq|request for quote|recovery expense fund|ref|sop fines?|in-principle approval|listing fees?|isins?|risk-o-meter|riskometer|liquidity window|lwf|tri-?party repo|nse clearing|iccl|obpps?|online bond platforms?|listing (?:of )?(?:ncds?|debt|commercial paper|cp)|commercial paper listing|anchor investors?|green shoe|arrangers?|integrated filing|xbrl|record dates?|promoter pledges?|high pledge|encumbrances?|suspension of trading|minimum public shareholding|mps)\b/i,
+    nhb: /\b(nhb|national housing bank|grids|refinanc(?:e|ing) from nhb|nhb refinance|liberali[sz]ed refinance|lrs|flagged (?:loan )?pool|adverse balance|cramis|fmr-?[1-4]?|fraud monitoring returns?|pmay(?:-u)?|interest subsidy|crgftlih|credit risk guarantee fund)\b/i,
     sebi: /\b(sebi|stock ?brokers?|brokers?|broking|sub-?brokers?|mutual funds?|amcs?|asset management|aifs?|alternative investment|listed|listing|lodr|insider|takeovers?|sast|ipos?|depositor(?:y|ies)|demat|stock exchanges?|securities|debentures? trustees?|buy-?backs?|delisting)\b/i,
     irdai: /\b(irdai|insurers?|insurance|insured|polic(?:y|ies)holders?|life polic(?:y|ies)|health polic(?:y|ies)|mediclaim|claims? settlement|premiums?|corporate agents?|insurance agents?|free look|surrender value|bancassurance)\b/i,
     fema: /\b(fema|foreign exchange|ecbs?|external commercial|trade credits?|buyers?'? credit|suppliers?'? credit|lrn|form ecb|fccbs?|fcebs?|cross-border guarantees?|guarantees? regulations|overseas investment|odi|nris?|ocis?|non-residents?|nro|nre|fcnr|snrr|fpi|authorised dealers?|ad banks?|compounding|late submission fee|lsf|all-in-cost|hedg(?:e|ing))\b/i,
@@ -154,6 +156,11 @@
           intro: "Put your question on NSE and BSE rules for listed NBFCs, debt issuers, arrangers, bond investors and lenders, such as listing NCDs and commercial paper, EBP bidding, the Recovery Expense Fund, filings, default and pledge disclosures, SOP fines and bond trading, and I shall answer from the exchange rules, checklists, circulars and operating guidelines on this site, citing the provision. Check what I say.",
           tries: [["How many ISINs can an issuer have maturing in one year?", "ISIN limits"], ["When must an NBFC's privately placed NCDs be listed?", "Listing timeline"], ["What happens if an investor fails to pay in on the EBP?", "EBP pay-in default"]],
           placeholder: "Ask a question, e.g. What is the fine for a late Regulation 50 intimation?" }
+      : k === "nhb"
+      ? { section: "nhb", docs: "the NHB texts", scope: "Answers from the NHB texts on this site",
+          intro: "Put your question on what the National Housing Bank does for housing finance companies and other housing lenders, such as supervision and inspection, returns and fraud reporting, NHB advisories on lending conduct, complaints through GRIDS, refinance and government housing schemes, and I shall answer from the NHB Act, NHB circulars, advisories and policies and the RBI HFC Directions on this site, citing the provision. Check what I say.",
+          tries: [["How long must a customer wait before complaining to NHB about an HFC?", "Complaining to NHB"], ["When must an HFC file FMR-1 for a fraud?", "Fraud reporting"], ["Who bears the credit risk on loans refinanced by NHB?", "Refinance risk"]],
+          placeholder: "Ask a question, e.g. Can an HFC make home insurance compulsory?" }
       : k === "ifsc"
       ? { section: "ifsc", docs: "the IFSC texts", scope: "Answers from the IFSC texts on this site",
           intro: "Put your question on IFSCA law for banks, finance companies, fund managers, capital market intermediaries and insurers in GIFT IFSC, such as capital and liquidity, permitted activities, registration, KMPs, AML, complaints, cyber security and fees, and I shall answer from the IFSCA Act, the IFSCA regulations, frameworks and circulars on this site, citing the provision. Check what I say.",
@@ -200,8 +207,8 @@
     const k = K();
     initJudge(Object.assign(cfg(k), { endpoint: hub.ai_endpoint, wide: true, pick: pickSec,
       judUrl: JS ? JS.data.judgments : "", judLink: id => "judgments/#j/" + id,
-      scope: "Answers from the RBI, SEBI, IRDAI, FEMA, DPDP, IBC, IFSC, stock exchange texts and key judgments on this site",
-      intro: "Put your question on RBI, SEBI, stock exchange, insurance, FEMA, data protection, insolvency or GIFT IFSC regulation, or on what the courts have held, and I shall pick the right texts on this site and answer from them, citing the provision. Check what I say." }, k === "sebi" || k === "irdai" || k === "fema" || k === "dpdp" || k === "ibc" || k === "ifsc" || k === "exchanges" ? { tries: cfg(k).tries, placeholder: cfg(k).placeholder } : {}));
+      scope: "Answers from the RBI, SEBI, IRDAI, FEMA, DPDP, IBC, IFSC, NHB, stock exchange texts and key judgments on this site",
+      intro: "Put your question on RBI, SEBI, stock exchange, insurance, FEMA, data protection, insolvency, GIFT IFSC or NHB regulation, or on what the courts have held, and I shall pick the right texts on this site and answer from them, citing the provision. Check what I say." }, k === "sebi" || k === "irdai" || k === "fema" || k === "dpdp" || k === "ibc" || k === "ifsc" || k === "nhb" || k === "exchanges" ? { tries: cfg(k).tries, placeholder: cfg(k).placeholder } : {}));
   }
   lay.addEventListener("change", () => {
     store.set("layer", lay.value);
@@ -262,8 +269,8 @@
   function renderRegs(){
     $("#regs").innerHTML = hub.sections.map((s, i) => {
       const live = s.status === "live", m = MS[s.id];
-      const cnt = !m ? 0 : s.id === "rbi" ? m.items.filter(x=>x.type==="Master Direction"&&x.sc!=="old").length : (s.id === "fema" || s.id === "dpdp" || s.id === "ibc" || s.id === "ifsc" || s.id === "exchanges") ? m.items.filter(x=>x.sc!=="old").length : m.items.filter(x=>/^Regulation/.test(x.type)&&x.sc!=="old").length;
-      const stat = live && m ? `<span class="pill p-live"><span data-count="${cnt}">0</span> ${s.id === "rbi" ? "Directions" : (s.id === "fema" || s.id === "dpdp" || s.id === "ibc" || s.id === "ifsc" || s.id === "exchanges") ? "Instruments" : "Regulations"}</span>` : live && s.count ? `<span class="pill p-live"><span data-count="${s.count}">0</span> ${esc(s.countLabel || "")}</span>` : `<span class="pill p-soon">In preparation</span>`;
+      const cnt = !m ? 0 : s.id === "rbi" ? m.items.filter(x=>x.type==="Master Direction"&&x.sc!=="old").length : (s.id === "fema" || s.id === "dpdp" || s.id === "ibc" || s.id === "ifsc" || s.id === "nhb" || s.id === "exchanges") ? m.items.filter(x=>x.sc!=="old").length : m.items.filter(x=>/^Regulation/.test(x.type)&&x.sc!=="old").length;
+      const stat = live && m ? `<span class="pill p-live"><span data-count="${cnt}">0</span> ${s.id === "rbi" ? "Directions" : (s.id === "fema" || s.id === "dpdp" || s.id === "ibc" || s.id === "ifsc" || s.id === "nhb" || s.id === "exchanges") ? "Instruments" : "Regulations"}</span>` : live && s.count ? `<span class="pill p-live"><span data-count="${s.count}">0</span> ${esc(s.countLabel || "")}</span>` : `<span class="pill p-soon">In preparation</span>`;
       return `<${live?"a":"div"} class="card rc rise ${live?"":"soon"}" id="${s.id}" style="--c:var(--${s.id});animation-delay:${.06*i}s" ${live?`href="${s.href}"`:""}>
         <div style="display:flex;align-items:center;gap:10px"><span class="ic">${I[s.id] || I.misc}</span><h3 style="font-size:19px">${esc(s.name)}</h3></div>
         <p style="font-size:13.5px;color:var(--ink-2);margin:8px 0 0" title="${esc(s.full)}">${esc(s.line || s.full)}</p>
@@ -294,6 +301,7 @@
     dpdp: ["consent", "personal data breach", "erasure", "Consent Manager", "Data Protection Officer", "children's data"],
     ibc: ["moratorium", "resolution plan", "section 29A", "liquidation", "personal guarantor", "NBFC insolvency"],
     ifsc: ["IBU", "owned fund", "restricted scheme", "treasury centre", "KMP", "SNRR account"],
+    nhb: ["GRIDS", "refinance", "FMR", "flagged loan pool", "penal charges", "PMAY"],
     exchanges: ["EBP", "Recovery Expense Fund", "ISIN", "SOP fines", "commercial paper", "RFQ"]
   };
   function suggest(){
