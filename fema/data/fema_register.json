@@ -7,7 +7,7 @@
   "lenses": [
    {
     "id": "ENT-BOR",
-    "name": "Indian borrower (ECB and trade credit)"
+    "name": "Indian borrower"
    },
    {
     "id": "ENT-NBFC",
@@ -15,15 +15,15 @@
    },
    {
     "id": "ENT-LEND",
-    "name": "Lender to non-residents or abroad"
+    "name": "Cross-border lender"
    },
    {
     "id": "ENT-GUAR",
-    "name": "Party to a cross-border guarantee"
+    "name": "Guarantee party"
    },
    {
     "id": "ENT-AD",
-    "name": "AD Category-I bank"
+    "name": "AD bank"
    }
   ]
  },
