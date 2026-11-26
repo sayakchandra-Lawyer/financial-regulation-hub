@@ -20,7 +20,7 @@
 <!-- og:end -->
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="assets/hub.css?v=20261127a">
+<link rel="stylesheet" href="assets/hub.css?v=20261127b">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
 <style>
 .hero{background:linear-gradient(180deg,var(--surface-2),var(--bg));border-bottom:1px solid var(--line)}
@@ -124,6 +124,7 @@
         <optgroup label="Stock exchanges (NSE, BSE)"><option value="x-1">Listed entity or market user, any role</option><option value="x0">Equity-listed company</option><option value="x1">Debt-listed issuer (NCDs / CP)</option><option value="x2">Arranger / merchant banker</option><option value="x3">Bond investor / treasury</option><option value="x4">Lender</option></optgroup>
         <optgroup label="Companies Act (lending)"><option value="c-1">Companies Act, any role</option><option value="c0">Borrowing company</option><option value="c1">Lender / charge-holder</option><option value="c2">Company lending or guaranteeing</option><option value="c3">NBFC / HFC</option><option value="c4">Private company</option></optgroup>
         <optgroup label="Housing finance (NHB)"><option value="h-1">Housing lender or customer, any role</option><option value="h0">Housing finance company</option><option value="h1">Lender refinanced by NHB</option><option value="h2">Home loan customer</option><option value="h3">Auditor of an HFC</option></optgroup>
+        <optgroup label="Other relevant laws"><option value="o-1">Other relevant laws, any role</option><option value="o0">Lender (bank / NBFC / HFC)</option><option value="o1">Secured creditor enforcing</option><option value="o2">Borrower or guarantor</option><option value="o3">Microfinance / small-loan lender</option><option value="o4">Digital lender / payments</option></optgroup>
         <optgroup label="Insurance"><option value="i-1">Insurer or distributor, any role</option><option value="i0">Life insurer</option><option value="i1">Health insurer</option><option value="i2">Corporate agent</option><option value="i3">Individual agent</option></optgroup>
       </select>
     </div>
@@ -143,7 +144,7 @@
   </div>
 </main>
 <footer id="foot"></footer>
-<script src="assets/hub.js?v=20261127a"></script>
+<script src="assets/hub.js?v=20261127b"></script>
 <script>
 (async function(){
   const hub = await getJSON("hub.json");
@@ -155,9 +156,9 @@
   const NAME = Object.fromEntries(hub.sections.map(s => [s.id, s.short || s.name]));
   const lay = $("#layer");
   const saved = store.get("layer", "-1"); lay.value = [...lay.options].some(o => o.value === saved) ? saved : "-1";
-  const PFX = { rbi: "", sebi: "s", irdai: "i", fema: "f", dpdp: "d", ibc: "b", ifsc: "g", nhb: "h", exchanges: "x", companies: "c" };
-  const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : lay.value.startsWith("s") && MS.sebi ? "sebi" : lay.value.startsWith("f") && MS.fema ? "fema" : lay.value.startsWith("d") && MS.dpdp ? "dpdp" : lay.value.startsWith("b") && MS.ibc ? "ibc" : lay.value.startsWith("g") && MS.ifsc ? "ifsc" : lay.value.startsWith("h") && MS.nhb ? "nhb" : lay.value.startsWith("x") && MS.exchanges ? "exchanges" : lay.value.startsWith("c") && MS.companies ? "companies" : "rbi";      // which regulator the lens points to
-  const L = () => +lay.value.replace(/^[isfdbghxc]/, "");
+  const PFX = { rbi: "", sebi: "s", irdai: "i", fema: "f", dpdp: "d", ibc: "b", ifsc: "g", nhb: "h", exchanges: "x", companies: "c", laws: "o" };
+  const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : lay.value.startsWith("s") && MS.sebi ? "sebi" : lay.value.startsWith("f") && MS.fema ? "fema" : lay.value.startsWith("d") && MS.dpdp ? "dpdp" : lay.value.startsWith("b") && MS.ibc ? "ibc" : lay.value.startsWith("g") && MS.ifsc ? "ifsc" : lay.value.startsWith("h") && MS.nhb ? "nhb" : lay.value.startsWith("x") && MS.exchanges ? "exchanges" : lay.value.startsWith("c") && MS.companies ? "companies" : lay.value.startsWith("o") && MS.laws ? "laws" : "rbi";      // which regulator the lens points to
+  const L = () => +lay.value.replace(/^[isfdbghxco]/, "");
   const resetTo = k => { lay.value = PFX[k] + "-1"; lay.dispatchEvent(new Event("change")); };
   const M = () => MS[K()];
   const unit = () => K() === "rbi" ? "layer" : "role";
@@ -174,6 +175,7 @@
     exchanges: /\b(nse|bse|stock exchanges?|ebps?|electronic book|bsebond|rfq|request for quote|recovery expense fund|ref|sop fines?|in-principle approval|listing fees?|isins?|risk-o-meter|riskometer|liquidity window|lwf|tri-?party repo|nse clearing|iccl|obpps?|online bond platforms?|listing (?:of )?(?:ncds?|debt|commercial paper|cp)|commercial paper listing|anchor investors?|green shoe|arrangers?|integrated filing|xbrl|record dates?|promoter pledges?|high pledge|encumbrances?|suspension of trading|minimum public shareholding|mps)\b/i,
     companies: /\b(companies act|mca|roc|registrar of companies|chg-?[1-9]|charges?|charge-holders?|satisfaction of charge|condonation|section (?:77|78|82|87|117|179|180|185|186|188)|s\. ?(?:77|82|87|117|179|180|185|186|188)|borrowing (?:limit|powers?)|special resolution|board resolution|mgt-?14|loans? to directors?|inter-?corporate (?:loans?|deposits?)|related party transactions?|corporate guarantees?|debenture trustees?|debenture redemption reserve|private placement|corporate laws \(amendment\))\b/i,
     nhb: /\b(nhb|national housing bank|grids|refinanc(?:e|ing) from nhb|nhb refinance|liberali[sz]ed refinance|lrs|flagged (?:loan )?pool|adverse balance|cramis|fmr-?[1-4]?|fraud monitoring returns?|pmay(?:-u)?|interest subsidy|crgftlih|credit risk guarantee fund)\b/i,
+    laws: /\b(contract act|guarantees?|guarantors?|sureties|surety|indemnit(?:y|ies)|pledges?|pawn(?:ee|or)?|bankers'? lien|general lien|transfer of property|mortgages?|equitable mortgage|deposit of title deeds|actionable claims?|assignment of (?:debts?|receivables)|trusts act|sale of goods|hypothecation|sarfaesi|cersai|security interest|section 13\(2\)|13\(4\)|drt|debts recovery|recovery certificate|rdb act|stamp(?:ed|ing)? duty|stamp act|unstamped|e-?stamp(?:ing)?|registration act|registered (?:deed|mortgage)|negotiable instruments|cheque bounce|dishonou?r(?:ed)? cheques?|section 138|factoring|limitation act|time-?barred|acknowledg(?:e)?ment of debt|specific relief|specific performance|sakshya|electronic (?:records?|evidence)|65b|section 63 certificate|consumer (?:protection|commission|forum)|deficiency in service|money-?lend(?:ers?|ing) acts?|coercive (?:recovery|actions?)|microfinance act|buds|unregulated deposit|depositors'? (?:protection|interests?)|chit funds?|payment and settlement|payment systems?|pss act|cicra|credit information compan(?:y|ies)|pmla|money[- ]laundering|fiu|str|information technology act|it act)\b/i,
     sebi: /\b(sebi|stock ?brokers?|brokers?|broking|sub-?brokers?|mutual funds?|amcs?|asset management|aifs?|alternative investment|listed|listing|lodr|insider|takeovers?|sast|ipos?|depositor(?:y|ies)|demat|stock exchanges?|securities|debentures? trustees?|buy-?backs?|delisting)\b/i,
     irdai: /\b(irdai|insurers?|insurance|insured|polic(?:y|ies)holders?|life polic(?:y|ies)|health polic(?:y|ies)|mediclaim|claims? settlement|premiums?|corporate agents?|insurance agents?|free look|surrender value|bancassurance)\b/i,
     fema: /\b(fema|foreign exchange|ecbs?|external commercial|trade credits?|buyers?'? credit|suppliers?'? credit|lrn|form ecb|fccbs?|fcebs?|cross-border guarantees?|guarantees? regulations|overseas investment|odi|nris?|ocis?|non-residents?|nro|nre|fcnr|snrr|fpi|authorised dealers?|ad banks?|compounding|late submission fee|lsf|all-in-cost|hedg(?:e|ing))\b/i,
@@ -198,6 +200,11 @@
           intro: "Put your question on the Companies Act, 2013 for lending and borrowing, such as Board and shareholder approvals for borrowing and security, sections 185 and 186, related party approvals, creating, registering and satisfying charges, debentures and deposits, and penalties, and I shall answer from the Act, the MCA rules, notifications and circulars on this site, citing the provision. Check what I say.",
           tries: [["Does an NBFC need a special resolution under section 186 to lend?", "s. 186 and NBFCs"], ["What happens if a charge is not registered within 30 days?", "Late charge filing"], ["Can a company give a guarantee for a loan to its director's private company?", "s. 185 guarantees"]],
           placeholder: "Ask a question, e.g. When must Form CHG-4 be filed?" }
+      : k === "laws"
+      ? { section: "laws", docs: "the texts of these laws", scope: "Answers from the other relevant laws on this site",
+          intro: "Put your question on the general laws that bear on lending, such as guarantees and pledges under the Contract Act, mortgages, stamp duty and registration, SARFAESI and DRT recovery, cheque bounce, limitation, electronic evidence, consumer complaints, state money-lending and coercive-recovery laws, deposits and chit funds, payments, credit information and anti-money laundering, and I shall answer from the Acts and rules on this site, citing the provision. Check what I say.",
+          tries: [["How long does a secured creditor have to wait after a SARFAESI demand notice?", "SARFAESI notice"], ["Is an unstamped loan agreement void?", "Unstamped agreements"], ["Within how many days must a cheque bounce notice be sent?", "Cheque bounce notice"]],
+          placeholder: "Ask a question, e.g. Can a lender sell pledged shares without notice?" }
       : k === "nhb"
       ? { section: "nhb", docs: "the NHB texts", scope: "Answers from the NHB texts on this site",
           intro: "Put your question on what the National Housing Bank does for housing finance companies and other housing lenders, such as supervision and inspection, returns and fraud reporting, NHB advisories on lending conduct, complaints through GRIDS, refinance and government housing schemes, and I shall answer from the NHB Act, NHB circulars, advisories and policies and the RBI HFC Directions on this site, citing the provision. Check what I say.",
@@ -249,8 +256,8 @@
     const k = K();
     initJudge(Object.assign(cfg(k), { endpoint: hub.ai_endpoint, wide: true, pick: pickSec,
       judUrl: JS ? JS.data.judgments : "", judLink: id => "judgments/#j/" + id,
-      scope: "Answers from the RBI, SEBI, IRDAI, FEMA, DPDP, IBC, IFSC, NHB, stock exchange, Companies Act texts and key judgments on this site",
-      intro: "Put your question on RBI, SEBI, stock exchange, insurance, FEMA, data protection, insolvency, company law, GIFT IFSC or NHB regulation, or on what the courts have held, and I shall pick the right texts on this site and answer from them, citing the provision. Check what I say." }, k === "sebi" || k === "irdai" || k === "fema" || k === "dpdp" || k === "ibc" || k === "ifsc" || k === "nhb" || k === "exchanges" || k === "companies" ? { tries: cfg(k).tries, placeholder: cfg(k).placeholder } : {}));
+      scope: "Answers from the RBI, SEBI, IRDAI, FEMA, DPDP, IBC, IFSC, NHB, stock exchange, Companies Act texts, other relevant laws and key judgments on this site",
+      intro: "Put your question on RBI, SEBI, stock exchange, insurance, FEMA, data protection, insolvency, company law, GIFT IFSC or NHB regulation, or on contract, security, recovery and other general laws, or on what the courts have held, and I shall pick the right texts on this site and answer from them, citing the provision. Check what I say." }, k === "sebi" || k === "irdai" || k === "fema" || k === "dpdp" || k === "ibc" || k === "ifsc" || k === "nhb" || k === "exchanges" || k === "companies" || k === "laws" ? { tries: cfg(k).tries, placeholder: cfg(k).placeholder } : {}));
   }
   lay.addEventListener("change", () => {
     store.set("layer", lay.value);
@@ -344,6 +351,7 @@
     ibc: ["moratorium", "resolution plan", "section 29A", "liquidation", "personal guarantor", "NBFC insolvency"],
     ifsc: ["IBU", "owned fund", "restricted scheme", "treasury centre", "KMP", "SNRR account"],
     nhb: ["GRIDS", "refinance", "FMR", "flagged loan pool", "penal charges", "PMAY"],
+    laws: ["pledge", "section 138", "SARFAESI", "stamp duty", "limitation", "guarantor"],
     companies: ["CHG-1", "section 186", "borrowing limit", "loans to directors", "satisfaction of charge", "MGT-14"],
     exchanges: ["EBP", "Recovery Expense Fund", "ISIN", "SOP fines", "commercial paper", "RFQ"]
   };

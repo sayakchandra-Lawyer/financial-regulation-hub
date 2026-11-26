@@ -22,7 +22,10 @@ RBI_GENERAL = [
 LENDER_FEEDS = [
     {"sec": "dpdp", "lens": "ENT-LEND"}, {"sec": "ibc", "lens": "ENT-FC"},
     {"sec": "ibc", "lens": "ENT-FSP", "layers": ["ml", "ul", "tl"]},
+    {"sec": "laws", "lens": "ENT-LNDR"},
 ]
+# microfinance lenders also see the State money-lending and coercive-recovery laws
+MFI_FEED = [{"sec": "laws", "lens": "ENT-MFI"}]
 
 # an HFC is supervised by NHB: show the NHB section through its HFC lens
 CA_FEED = [{"sec": "companies", "lens": "ENT-NBFC"}]
@@ -58,7 +61,7 @@ ATTRS = [
     nbfc_type("icc", "NBFC (Investment and Credit)", "CAT-ICC", ALL4),
     dict(nbfc_type("hfc", "Housing Finance Company", "CAT-HFC", ["ml", "ul", "tl"], [{"sec": "rbi", "id": "ACT-NHB"}], ("lending", "hfc")), feeds=LENDER_FEEDS + CA_FEED + NHB_FEED),
     nbfc_type("cic", "Core Investment Company", "CAT-CIC", ["ml", "ul", "tl"]),
-    nbfc_type("mfi", "NBFC-MFI", "CAT-MFI", ALL4),
+    dict(nbfc_type("mfi", "NBFC-MFI", "CAT-MFI", ALL4), feeds=LENDER_FEEDS + CA_FEED + MFI_FEED),
     nbfc_type("factor", "NBFC-Factor", "CAT-FACTOR", ALL4,
               [{"sec": "rbi", "id": "ACT-FRA"}, {"sec": "rbi", "id": "REG-FACTORS"}, {"sec": "rbi", "id": "REG-ASSIGN"}]),
     nbfc_type("ifc", "NBFC-IFC", "CAT-IFC", ALL4),

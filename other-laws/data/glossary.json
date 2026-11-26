@@ -1,0 +1,385 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Plain-language explanations for readers who are new to the terms. They are summaries, not the legal definitions: the instrument named under 'See' governs."
+ },
+ "terms": [
+  {
+   "term": "Guarantee",
+   "full": "Contract of guarantee",
+   "def": "A promise to pay or perform for a borrower if the borrower defaults. The guarantor is the surety, the borrower the principal debtor and the lender the creditor (Contract Act s. 126).",
+   "see": [
+    "ACT-ICA"
+   ],
+   "aka": [
+    "surety",
+    "guarantor",
+    "personal guarantee"
+   ]
+  },
+  {
+   "term": "Continuing guarantee",
+   "full": "",
+   "def": "A guarantee that covers a series of transactions, such as a running cash-credit account. The surety can revoke it for future transactions by notice; past liability survives (ss. 129-130).",
+   "see": [
+    "ACT-ICA"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Discharge of surety",
+   "full": "",
+   "def": "The guarantor is released, fully or partly, if the lender changes the loan terms, gives the borrower time, releases the borrower or loses security without the guarantor's consent (ss. 133-141).",
+   "see": [
+    "ACT-ICA"
+   ],
+   "aka": [
+    "discharge of guarantor"
+   ]
+  },
+  {
+   "term": "Indemnity",
+   "full": "Contract of indemnity",
+   "def": "A promise to make good a loss suffered by the other party, whether caused by the promisor or anyone else (s. 124).",
+   "see": [
+    "ACT-ICA"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Pledge",
+   "full": "Pawn",
+   "def": "Security over goods or other movables by handing them over to the lender. The lender may sell them after reasonable notice if the borrower defaults (ss. 172, 176).",
+   "see": [
+    "ACT-ICA"
+   ],
+   "aka": [
+    "pawn",
+    "gold loan security"
+   ]
+  },
+  {
+   "term": "Hypothecation",
+   "full": "",
+   "def": "A charge over movable property, present or future, without handing it over to the lender; it includes a floating charge (SARFAESI s. 2(1)(n)). Common for vehicle, equipment and stock loans.",
+   "see": [
+    "ACT-SARFAESI"
+   ],
+   "aka": [
+    "floating charge"
+   ]
+  },
+  {
+   "term": "Banker's lien",
+   "full": "General lien",
+   "def": "A bank's right to keep goods or securities of a customer in its hands as security for the customer's general balance, unless agreed otherwise (s. 171).",
+   "see": [
+    "ACT-ICA"
+   ],
+   "aka": [
+    "general lien"
+   ]
+  },
+  {
+   "term": "Mortgage",
+   "full": "",
+   "def": "Security over land or buildings by transferring an interest in the property to the lender (TPA s. 58). There are six kinds, including simple, English and by deposit of title-deeds.",
+   "see": [
+    "ACT-TPA"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Equitable mortgage",
+   "full": "Mortgage by deposit of title-deeds",
+   "def": "A mortgage made by handing over the title documents of a property, with intent to create security, in a notified town. It needs no registered deed (TPA s. 58(f)).",
+   "see": [
+    "ACT-TPA",
+    "ACT-REG"
+   ],
+   "aka": [
+    "deposit of title deeds",
+    "title deed mortgage",
+    "MODT"
+   ]
+  },
+  {
+   "term": "Charge",
+   "full": "Charge on immovable property",
+   "def": "Security over immovable property that does not amount to a mortgage, created by agreement or by law. The rules for simple mortgages apply to it (TPA s. 100).",
+   "see": [
+    "ACT-TPA"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Right to redeem",
+   "full": "Redemption",
+   "def": "The borrower's right to pay off a mortgage and get back the title deeds and the property (TPA s. 60).",
+   "see": [
+    "ACT-TPA",
+    "ACT-SARFAESI"
+   ],
+   "aka": [
+    "redemption"
+   ]
+  },
+  {
+   "term": "Foreclosure",
+   "full": "",
+   "def": "A court decree that ends the borrower's right to redeem a mortgage. In everyday banking the word also means early repayment of a loan, which is a different thing.",
+   "see": [
+    "ACT-TPA"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Assignment of debt",
+   "full": "Transfer of actionable claim",
+   "def": "The transfer of an unsecured debt or receivable by a signed written instrument. Until the debtor gets express notice, its payments to the original creditor remain valid (TPA ss. 130-131). Secured loans are transferred with their security under other rules.",
+   "see": [
+    "ACT-TPA"
+   ],
+   "aka": [
+    "loan assignment",
+    "actionable claim"
+   ]
+  },
+  {
+   "term": "Secured creditor",
+   "full": "",
+   "def": "Under SARFAESI, a bank, notified financial institution, asset reconstruction company or debenture trustee holding a security interest. Only secured creditors can use SARFAESI.",
+   "see": [
+    "ACT-SARFAESI"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Security interest",
+   "full": "",
+   "def": "Any right, title or interest in property created for a secured creditor, including a mortgage, charge, hypothecation or assignment (SARFAESI s. 2(1)(zf)).",
+   "see": [
+    "ACT-SARFAESI"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Demand notice",
+   "full": "Section 13(2) notice",
+   "def": "The SARFAESI notice asking a defaulting borrower whose account is an NPA to pay in full within 60 days, before the lender can take possession.",
+   "see": [
+    "ACT-SARFAESI"
+   ],
+   "aka": [
+    "13(2) notice"
+   ]
+  },
+  {
+   "term": "Possession notice",
+   "full": "Section 13(4)",
+   "def": "The step after the 60-day demand notice: the lender takes possession of the secured asset, takes over the business or asks the borrower's debtors to pay it directly.",
+   "see": [
+    "ACT-SARFAESI"
+   ],
+   "aka": [
+    "symbolic possession",
+    "physical possession"
+   ]
+  },
+  {
+   "term": "CERSAI",
+   "full": "Central Registry",
+   "def": "The Central Registry of Securitisation Asset Reconstruction and Security Interest of India, where lenders record security interests. A secured creditor cannot enforce under SARFAESI unless its security is registered there (s. 26D).",
+   "see": [
+    "ACT-SARFAESI",
+    "RULES-FACT"
+   ],
+   "aka": [
+    "central registry"
+   ]
+  },
+  {
+   "term": "DRT",
+   "full": "Debts Recovery Tribunal",
+   "def": "The tribunal that hears recovery cases of banks and notified financial institutions above the RDB Act threshold (Rs 10 lakh in the Act, or another amount the Central Government notifies) and borrowers' challenges to SARFAESI action.",
+   "see": [
+    "ACT-RDB",
+    "ACT-SARFAESI"
+   ],
+   "aka": [
+    "debts recovery tribunal"
+   ]
+  },
+  {
+   "term": "DRAT",
+   "full": "Debts Recovery Appellate Tribunal",
+   "def": "The appeal tribunal above the DRT. A borrower appealing must usually deposit 50% of the debt, which can be reduced to 25%.",
+   "see": [
+    "ACT-RDB",
+    "ACT-SARFAESI"
+   ],
+   "aka": [
+    "appellate tribunal"
+   ]
+  },
+  {
+   "term": "Recovery certificate",
+   "full": "",
+   "def": "The certificate the DRT issues for the amount due. The Recovery Officer then recovers it by attachment and sale, arrest, or a receiver (RDB s. 25).",
+   "see": [
+    "ACT-RDB"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Acknowledgement of debt",
+   "full": "",
+   "def": "A written, signed admission of liability by the borrower or guarantor before limitation expires. It starts a fresh limitation period (Limitation Act s. 18).",
+   "see": [
+    "ACT-LIM"
+   ],
+   "aka": [
+    "balance confirmation"
+   ]
+  },
+  {
+   "term": "Limitation period",
+   "full": "",
+   "def": "The time within which a lender must sue: generally three years for a loan, twelve years to enforce a mortgage (Limitation Act Schedule).",
+   "see": [
+    "ACT-LIM"
+   ],
+   "aka": [
+    "time-barred"
+   ]
+  },
+  {
+   "term": "Stamp duty",
+   "full": "",
+   "def": "A tax on documents such as loan agreements, mortgages and guarantees. Under-stamped documents cannot be used as evidence until duty and penalty are paid (Stamp Act s. 35).",
+   "see": [
+    "ACT-STAMP",
+    "STAMP-MH"
+   ],
+   "aka": [
+    "stamping"
+   ]
+  },
+  {
+   "term": "Impounding",
+   "full": "",
+   "def": "When an unstamped or under-stamped document is produced before a court or officer, it is kept back until the proper duty and penalty are paid (Stamp Act s. 33).",
+   "see": [
+    "ACT-STAMP"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Compulsory registration",
+   "full": "",
+   "def": "Documents that create or transfer rights of Rs 100 or more in immovable property must be registered with the Sub-Registrar within four months, or they do not affect the property (Registration Act ss. 17, 23, 49).",
+   "see": [
+    "ACT-REG"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Cheque bounce",
+   "full": "Section 138 offence",
+   "def": "The offence when a cheque given for a debt is returned unpaid for lack of funds and the drawer does not pay within 15 days of a demand notice.",
+   "see": [
+    "ACT-NI"
+   ],
+   "aka": [
+    "dishonour of cheque",
+    "section 138"
+   ]
+  },
+  {
+   "term": "E-mandate bounce",
+   "full": "Section 25 PSS Act",
+   "def": "The offence when an ECS, NACH or other electronic debit for a debt fails for lack of funds and the payer does not pay within 15 days of a demand notice.",
+   "see": [
+    "ACT-PSS"
+   ],
+   "aka": [
+    "ECS bounce",
+    "NACH bounce"
+   ]
+  },
+  {
+   "term": "Section 63 certificate",
+   "full": "",
+   "def": "The certificate required to put an electronic record, such as an e-signed agreement or system statement, in evidence. It is signed by the person in charge of the system and an expert (BSA s. 63(4)).",
+   "see": [
+    "ACT-BSA"
+   ],
+   "aka": [
+    "65B certificate"
+   ]
+  },
+  {
+   "term": "Certified copy of bank records",
+   "full": "",
+   "def": "A copy of an entry in a bank's books, certified by an authorised officer, which courts accept as evidence of the entry (Bankers' Books Evidence Act, 2026 s. 5).",
+   "see": [
+    "ACT-BBE-2026"
+   ],
+   "aka": [
+    "bankers' books"
+   ]
+  },
+  {
+   "term": "Coercive action",
+   "full": "",
+   "def": "Recovery methods that State laws ban, such as threats, violence, following the borrower, visiting the home or workplace to pressure, or seizing documents (for example Tamil Nadu Act 40 of 2025 s. 20).",
+   "see": [
+    "MF-TN",
+    "ML-KA-AMD2025"
+   ],
+   "aka": [
+    "coercive recovery",
+    "harassment"
+   ]
+  },
+  {
+   "term": "Credit information company",
+   "full": "Credit bureau",
+   "def": "A company registered with RBI that collects credit data from lenders and supplies credit reports. Every lender must be a member of at least one (CICRA s. 15).",
+   "see": [
+    "ACT-CICRA"
+   ],
+   "aka": [
+    "CIC",
+    "credit bureau"
+   ]
+  },
+  {
+   "term": "Unpaid seller",
+   "full": "",
+   "def": "A seller who has not been paid in full. He keeps a lien on the goods in his possession and can stop them in transit, even after ownership has passed (Sale of Goods Act ss. 45-47).",
+   "see": [
+    "ACT-SOGA"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Substituted performance",
+   "full": "",
+   "def": "Getting a broken contract performed by someone else and recovering the cost from the party in breach, after 30 days' notice (Specific Relief Act s. 20).",
+   "see": [
+    "ACT-SRA"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Deficiency in service",
+   "full": "",
+   "def": "A shortfall in the quality or manner of a service, including banking and lending, that a consumer can complain about to a consumer commission (CPA s. 2(11)).",
+   "see": [
+    "ACT-CPA"
+   ],
+   "aka": []
+  }
+ ]
+}

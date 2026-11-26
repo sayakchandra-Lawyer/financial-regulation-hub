@@ -1,0 +1,457 @@
+OTHER RELEVANT LAWS REGISTER: general laws that bear on lending by banks, NBFCs, HFCs and microfinance lenders (Contract Act guarantees and pledges, Sale of Goods, Transfer of Property Act mortgages and assignment, Trusts, SARFAESI and CERSAI, RDB Act and DRTs, Limitation, Specific Relief, NI Act s. 138, PSS Act e-mandate dishonour, Indian and State stamp laws, Registration Act, Bharatiya Sakshya Adhiniyam and the Bankers' Books Evidence Act 2026, Consumer Protection Act, State money-lending and coercive-recovery laws, credit information law, and pending proposals) for lenders, secured creditors, borrowers/guarantors, microfinance lenders and digital lenders (as of 2026-11-26). One block per instrument. Fields: applies, excluded, concepts, duties, deadlines, breach (stated consequences), penalties, refs, repeals, defined terms.
+
+SHARED STATUTORY PENALTY TEXTS:
+
+[ACT-ICA] Indian Contract Act: guarantee, indemnity, pledge, lien | Indian Contract Act, 1872: contracts of indemnity and guarantee (ss. 124-147), bailment, bankers' lien and pledge (ss. 148-181), and related general provisions | Act 9 of 1872 | Act | In force (as amended) | issued 1872-04-25 | subject: Contracts, guarantees and pledges
+applies: Every lender taking a guarantee, an indemnity or a pledge of goods, shares or other movables; Guarantors (sureties), pawnors and borrowers; Banks, as holders of the general lien in s. 171
+concepts: Contract of indemnity: a promise to save the other party from loss caused by the promisor or any other person (s. 124); rights of the indemnity-holder when sued (s. 125)
+concepts: Contract of guarantee: a promise to perform the promise or discharge the liability of a third person on default; the parties are the surety, the principal debtor and the creditor; it may be oral or written (s. 126)
+concepts: Co-extensive liability: the surety is liable to the same extent as the principal debtor unless the contract says otherwise (s. 128)
+concepts: Continuing guarantee: one that extends to a series of transactions (s. 129); it may be revoked as to future transactions by notice (s. 130) and is revoked as to future transactions by the surety's death, unless the contract says otherwise (s. 131)
+concepts: Discharge of the surety: by a variance in the terms made without the surety's consent (s. 133); by a release or discharge of the principal debtor (s. 134); by a composition, a promise to give time or a promise not to sue made with the principal debtor without the surety's assent (s. 135); by an act or omission of the creditor that impairs the surety's eventual remedy (s. 139); and to the extent of the value of any security the creditor loses or gives up without the surety's consent (s. 141)
+concepts: Rights of a surety who pays: subrogation to all the creditor's rights against the principal debtor (s. 140) and the benefit of every security the creditor held when the guarantee was given (s. 141)
+concepts: Bankers' general lien: bankers may retain goods bailed to them as security for a general balance of account, unless the contract says otherwise (s. 171)
+concepts: Pledge: the bailment of goods as security for a debt or the performance of a promise; the bailor is the pawnor and the bailee the pawnee (s. 172)
+concepts: Penalty clauses: where a contract names a sum or a penalty for breach, only reasonable compensation up to that sum is recoverable; a stipulation for increased interest from the date of default may be a penalty (s. 74 and Explanation)
+concepts: Agreements that limit the time to enforce rights, or extinguish rights on the expiry of a specified period, are void to that extent (s. 28). Exception 3 saves a written guarantee by a bank or a financial institution that ends liability after a period of at least one year from a specified event; 'bank' and 'financial institution' (a public financial institution) are defined narrowly in the Explanation, so most NBFCs and HFCs are not covered
+duties: s. 176: on the pawnor's default the pawnee may sue on the debt and keep the goods as collateral, or sell the goods after giving the pawnor reasonable notice of the sale; any shortfall remains payable and any surplus must be paid to the pawnor
+duties: s. 177: a defaulting pawnor may redeem the goods at any time before their actual sale, paying the expenses caused by the default
+duties: s. 173-174: the pawnee may retain the goods for the debt, interest and necessary expenses, but not for any other debt unless the contract says so; such a contract is presumed for subsequent advances by the pawnee
+duties: s. 133, 135 and 141: obtain the surety's consent before varying the loan terms, giving the borrower time or a composition, or releasing or losing any security, or the surety may be discharged
+duties: s. 130: a continuing guarantee may be revoked by the surety for future transactions by notice to the creditor; past liabilities survive
+duties: s. 137: mere forbearance to sue the borrower does not discharge the surety, unless the guarantee says otherwise; a binding agreement to give time does (s. 135)
+breach: s. 133: a variance without the surety's consent discharges the surety as to transactions after the variance; ss. 134, 135 and 139: release of the debtor, a binding promise to give time or not to sue, or an act impairing the surety's remedy discharges the surety; s. 141: losing or parting with security discharges the surety to the value of that security
+breach: s. 74: a lender can recover only reasonable compensation, not the full stipulated penalty, for breach; higher default interest may be treated as a penalty
+breach: s. 28: a clause cutting down the time to sue is void to that extent, except within Exception 3
+refs: ACT-TPA; ACT-SOGA; ACT-LIM; ACT-SARFAESI; ACT-STAMP
+
+[ACT-SOGA] Sale of Goods Act: title to goods financed | Sale of Goods Act, 1930: passing of property, transfer of title and the unpaid seller's rights | Act 3 of 1930 | Act | In force (as amended) | issued 1930-03-15 | subject: Contracts, guarantees and pledges
+applies: Lenders financing or taking security over goods: vehicles, equipment, inventory and receivables from goods sold; Buyers and sellers of goods, including borrowers who buy goods with borrowed money
+concepts: Property passes when the parties intend it to pass, judged from the contract, the parties' conduct and the circumstances (s. 19); for specific goods in a deliverable state it passes when the contract is made, even if payment or delivery is postponed (s. 20)
+concepts: For unascertained or future goods, property passes when goods of the contract description are unconditionally appropriated to the contract (s. 23)
+concepts: Nemo dat: a buyer from a person who is not the owner gets no better title than the seller had, except where the owner's conduct precludes him, or a mercantile agent in possession with the owner's consent sells in the ordinary course of business to a buyer in good faith (s. 27)
+concepts: A buyer in good faith from a seller holding under a voidable contract that has not been rescinded gets good title (s. 29)
+concepts: A seller or buyer left in possession of goods or documents of title can pass good title, including by pledge, to a person taking in good faith without notice (s. 30)
+concepts: Unpaid seller: one who has not been paid or tendered the whole price, or whose negotiable instrument taken as conditional payment was dishonoured (s. 45)
+duties: s. 46-47: the unpaid seller keeps a lien on goods in his possession for the price, a right of stoppage in transit on the buyer's insolvency and a limited right of resale, even after property has passed; a financier of the buyer generally takes subject to these rights (s. 53(1)), except that a good-faith pledgee for value of a document of title takes free of the lien and stoppage to the extent of its rights (s. 53(1) proviso)
+duties: s. 27 and 30: before lending against goods, confirm the borrower's title and possession; a pledge from a person who is not the owner binds the owner only in the cases the law allows, such as s. 30 here and Contract Act ss. 178 (mercantile agent) and 178A (possession under a voidable contract)
+breach: s. 27: a lender taking goods from a non-owner, outside the exceptions, takes no better title than the borrower had
+refs: ACT-ICA; ACT-SARFAESI
+defined terms (wording is in the full text): buyer (s. 2(1)); delivery (s. 2(2)); document of title to goods (s. 2(4)); fault (s. 2(5)); future goods (s. 2(6)); goods (s. 2(7)); mercantile agent (s. 2(9)); price (s. 2(10)); property (s. 2(11)); quality of goods (s. 2(12)); seller (s. 2(13)); specific goods (s. 2(14))
+
+[ACT-TPA] Transfer of Property Act: mortgages, charges, assignment of debts | Transfer of Property Act, 1882: mortgages and charges of immovable property (ss. 58-104) and transfer of actionable claims (ss. 130-137) | Act 4 of 1882 | Act | In force (as amended) | issued 1882-02-17 | subject: Mortgages, property and goods as security
+applies: Lenders taking a mortgage or charge over land or buildings, including home loans and loans against property; Mortgagors, sureties and later purchasers or lenders over the same property; Lenders buying or selling loan receivables (assignment of actionable claims)
+concepts: Mortgage: the transfer of an interest in specific immovable property to secure money advanced or to be advanced, an existing or future debt, or an engagement that may give rise to a pecuniary liability (s. 58(a))
+concepts: Kinds of mortgage: simple (s. 58(b)), by conditional sale (s. 58(c)), usufructuary (s. 58(d)), English (s. 58(e)), by deposit of title-deeds in the notified towns (s. 58(f)) and anomalous (s. 58(g))
+concepts: Form: where the principal money is Rs 100 or more, a mortgage other than one by deposit of title-deeds can be made only by a registered instrument signed by the mortgagor and attested by at least two witnesses (s. 59)
+concepts: Right to redeem: once the principal is due, the mortgagor may pay and require return of the title documents, re-delivery of possession and a re-transfer or acknowledgement (s. 60)
+concepts: Charge: where immovable property is made security by act of parties or operation of law without amounting to a mortgage; the rules for simple mortgages apply so far as may be (s. 100)
+concepts: Priority: later rights over the same property are subject to earlier rights, absent a special contract (s. 48)
+concepts: Assignment of unsecured debts: an actionable claim (a debt not secured by a mortgage of immovable property or by hypothecation or pledge of movables, s. 3) is transferred by a signed written instrument; the transfer is complete on execution and the transferee may sue in its own name, but the debtor's dealings with the transferor stay valid until the debtor has express notice (ss. 130-131); the transferee takes subject to the transferor's liabilities and equities, such as set-off (s. 132)
+duties: s. 59: register and attest every mortgage deed where the principal is Rs 100 or more, unless it is a mortgage by deposit of title-deeds
+duties: s. 67 and 67A: a mortgagee enforces through a suit for sale or foreclosure once the money is due, and must sue on all mortgages from the same mortgagor on which money has become due, absent a contrary contract
+duties: s. 69(1): a mortgagee may sell without the court only in the listed cases: certain English mortgages; where the deed expressly confers the power and the mortgagee is the Government; or where the deed expressly confers it and the property is in Kolkata, Chennai, Mumbai or a town the State notifies. Otherwise lenders use SARFAESI or a suit
+duties: s. 69(2): even where the power exists, it can be used only after a written notice demanding the principal has gone unpaid for three months, or interest of at least Rs 500 has been in arrear for three months
+duties: s. 69A: a mortgagee with a s. 69 power of sale may appoint a receiver of the income of the property; commission is capped at 5% of gross receipts unless the court allows otherwise
+duties: s. 65A: a mortgagor in lawful possession may grant leases binding on the mortgagee only on the terms in s. 65A(2) (ordinary management, best rent, no premium, buildings up to three years), unless the deed provides otherwise
+duties: s. 130-132: for unsecured receivables, take a signed written assignment and give each debtor express written notice, so that later payments to the assignor do not bind you; secured loans move with the security under the TPA and the Registration and Stamp Acts
+breach: s. 59 with Registration Act s. 49: an unregistered mortgage deed that needed registration does not affect the property
+breach: s. 91-92: a surety or later encumbrancer who redeems is subrogated to the mortgagee's rights
+refs: ACT-REG; ACT-STAMP; ACT-SARFAESI; ACT-ICA; ACT-LIM
+defined terms (wording is in the full text): registered (definitions)
+
+[ACT-TRUSTS] Indian Trusts Act: trusts used in lending structures | Indian Trusts Act, 1882: creation of trusts, duties of trustees and breach of trust | Act 2 of 1882 | Act | In force (as amended) | issued 1882-01-13 | subject: Mortgages, property and goods as security
+applies: Lenders and arrangers using private trusts: securitisation trusts, security trustees for consortium loans and escrow or trust-and-retention accounts; Trustees holding security for lenders
+concepts: Trust: an obligation annexed to ownership of property, arising from a confidence reposed in and accepted by the owner, for the benefit of another (s. 3)
+concepts: The author of the trust, the trustee and the beneficiary; the subject is trust-property; a breach of trust is a breach of any duty imposed on a trustee as such (s. 3)
+concepts: A person has notice of a fact when he knows it, or would have known it but for wilful abstention from inquiry or gross negligence (s. 3)
+duties: Structure security-trustee and securitisation arrangements so that the trust instrument records the trust property, the beneficiaries and the trustee's powers of enforcement
+duties: Trusts of immovable property must be declared by a registered instrument, as the Act requires (s. 5)
+refs: ACT-TPA; ACT-SARFAESI
+defined terms (wording is in the full text): registered (definitions)
+
+[ACT-AIRCRAFT-2025] Aircraft Objects Act 2025: Cape Town security interests | Protection of Interests in Aircraft Objects Act, 2025: gives the Cape Town Convention and Aircraft Protocol the force of law in India | Act 17 of 2025 | Act | Enacted: comes into force on the date the Central Government notifies | issued 2025-04-16 | subject: Mortgages, property and goods as security
+applies: Lenders and lessors financing aircraft, airframes, aircraft engines and helicopters; Indian airline borrowers and lessees
+concepts: Gives effect in India to the Convention on International Interests in Mobile Equipment and its Aircraft Protocol (Cape Town, 16 November 2001)
+concepts: SARFAESI does not apply to security over aircraft (SARFAESI s. 31(c)); this Act supplies the creditor remedies for aircraft objects
+duties: s. 6: Article XI of the Protocol (remedies on insolvency), as declared by India, applies where the debtor is in India, the international interest is registered under the Convention and the parties have not excluded it in writing
+duties: s. 7: Article XIII of the Protocol (irrevocable de-registration and export request authorisation) applies, subject to the Bharatiya Vayuyan Adhiniyam, 2024 and its rules
+duties: s. 8: the High Court with territorial jurisdiction is the relevant court under Article 53 of the Convention
+breach: s. 9: the Act prevails over any inconsistent law, but does not affect the Government's or public service providers' right to detain an aircraft for dues relating to services to that aircraft
+refs: ACT-SARFAESI
+
+[ACT-SARFAESI] SARFAESI Act: enforcing security without court | Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 | Act 54 of 2002 | Act | In force (as amended) | issued 2002-12-17 | subject: Enforcement and recovery
+applies: Secured creditors as defined in the Act: banks, financial institutions, including NBFCs and HFCs only where they fall within a Central Government notification and meet its conditions, asset reconstruction companies and debenture trustees; Borrowers and guarantors whose secured assets are enforced; Every creditor filing security interests with CERSAI (Central Registry)
+concepts: Enforcement without court: a security interest may be enforced by the secured creditor without the intervention of a court or tribunal, notwithstanding ss. 69-69A of the Transfer of Property Act (s. 13(1))
+concepts: Central Registry (CERSAI) records creation, modification and satisfaction of security interests (Chapter IV)
+concepts: Priority: once registered, the secured creditor's debts are paid in priority over all other debts and Government dues, subject to the IBC where insolvency proceedings are pending (s. 26E)
+concepts: Exclusions: the Act does not apply to liens under the Contract or Sale of Goods Acts, pledges of movables, aircraft and vessels, unpaid sellers' rights, property not liable to attachment or sale under the first proviso to CPC s. 60(1) (but not property specifically charged with the debt), financial assets of Rs 1 lakh or less, agricultural land, or where the amount due is less than 20% of principal and interest (s. 31)
+duties: s. 13(2): after default and NPA classification, serve a written demand on the borrower to discharge the liability in full within 60 days; NPA classification is not needed for issuers of debt securities, where the debenture trustee enforces
+duties: s. 13(3): the notice must state the amount payable and the secured assets to be enforced
+duties: s. 13(3A): consider any representation or objection and, if rejecting it, communicate reasons within 15 days of receipt
+duties: s. 13(4): on non-payment, take possession of secured assets, take over management of the business, appoint a manager, or require third-party debtors to pay
+duties: s. 13(8): if the full dues and costs are tendered before publication of the auction or sale notice, the assets cannot be sold and the creditor must take no further step
+duties: s. 14: to take physical possession, apply to the Chief Metropolitan Magistrate or District Magistrate with the affidavit the proviso requires
+duties: s. 26D: no secured creditor may exercise Chapter III enforcement rights unless its security interest is registered with the Central Registry
+duties: s. 13(9): where more than one secured creditor finances the asset, s. 13(4) measures need the agreement of secured creditors holding at least 60% in value of the outstanding amount on a record date, subject to the IBC
+duties: s. 36: no s. 13(4) measure may be taken unless the claim is within the limitation period under the Limitation Act
+deadlines: 60 days: s. 13(2) demand notice period
+deadlines: 15 days: reply to the borrower's objection (s. 13(3A))
+deadlines: 45 days: borrower's or aggrieved person's application to the DRT from the date of the measure (s. 17(1))
+deadlines: 60 days: DRT to dispose of the s. 17 application, as far as possible (s. 17(5))
+deadlines: 30 days: appeal by any aggrieved person to the DRAT (s. 18(1)); a borrower appealing must deposit 50% of the debt, reducible to 25%
+breach: s. 18: no appeal to the DRAT is entertained unless the borrower deposits 50% of the debt claimed or determined, whichever is less; the DRAT may reduce it to not less than 25%
+breach: s. 26D: an unregistered security interest cannot be enforced under the Act
+refs: ACT-RDB; ACT-TPA; ACT-ICA; ACT-LIM; ACT-AIRCRAFT-2025
+defined terms (wording is in the full text): Appellate Tribunal (s. 2); asset reconstruction (s. 2); Board (s. 2); borrower (s. 2); Central Registry (s. 2); Debts Recovery Tribunal (s. 2); financial assistance (s. 2); financial asset (s. 2); hypothecation (s. 2); non-performing asset (s. 2); notification (s. 2); obligor (s. 2); originator (s. 2); prescribed (s. 2); 4[qualified buyer] (s. 2); Registrar of Companies (s. 2); Reserve Bank (s. 2); scheme (s. 2); securitisation (s. 2); security agreement (s. 2); secured asset (s. 2); secured debt (s. 2); security receipt (s. 2); sponsor (s. 2); State Bank of India (s. 2); record date (s. 2); amount outstanding (s. 2); adjudicating authority (s. 2); person in default (s. 2); company' (s. 2)
+
+[ACT-RDB] RDB Act: Debts Recovery Tribunals | Recovery of Debts and Bankruptcy Act, 1993 (formerly the Recovery of Debts Due to Banks and Financial Institutions Act) | Act 51 of 1993 | Act | In force (as amended) | issued 1993-08-27 | subject: Enforcement and recovery
+applies: Banks, notified financial institutions, asset reconstruction companies and debenture trustees for secured debt securities; Borrowers and guarantors sued for debts of Rs 10 lakh or more (or other notified amount, not below Rs 1 lakh)
+concepts: Threshold: the Act does not apply where the debt due is less than Rs 10 lakh or such other amount, not less than Rs 1 lakh, as the Central Government notifies (s. 1(4))
+concepts: Financial institution: a public financial institution, a registered asset reconstruction company, a registered debenture trustee for secured debt securities, or any institution the Central Government notifies (s. 2(h))
+concepts: Recovery certificate: the DRT issues a certificate and the Recovery Officer recovers by attachment and sale, taking possession of secured or other property, arrest and detention, or appointing a receiver (s. 25)
+concepts: Priority: secured creditors' debts have priority over other debts and Government dues (s. 31B)
+duties: s. 19: file the original application before the DRT with jurisdiction; the defendant must file a written statement within 30 days of service of summons
+duties: s. 19: the DRT is to dispose of the application within 180 days of filing, as far as possible
+duties: s. 21: an appeal by the debtor is not entertained unless 50% of the debt determined is deposited, reducible to 25%
+deadlines: 30 days: appeal to the DRAT from receipt of the DRT order (s. 20(3)), extendable for sufficient cause
+deadlines: 6 months: DRAT to endeavour to dispose of the appeal (s. 20(6))
+breach: s. 26: the defendant cannot dispute the correctness of the amount in the recovery certificate before the Recovery Officer
+refs: ACT-SARFAESI; AMD-RDB-20260813; ACT-LIM
+defined terms (wording is in the full text): Appellate Tribunal (s. 2); application (s. 2); notification (s. 2); prescribed (s. 2); Recovery Officer (s. 2); Regional Rural Bank (s. 2); security interest (s. 2); State Bank of India (s. 2); Tribunal (s. 2); digital signature (s. 2)
+
+[AMD-RDB-20260813] Tribunals Reforms Act 2026: DRT, DRAT and consumer commissions | Tribunals Reforms Act, 2026: s. 6 substitutes ss. 6A and 15A of the RDB Act; s. 12 substitutes s. 55(1A) of the Consumer Protection Act, 2019 | Act 17 of 2026 | Amending Act | In force | issued 2026-08-13 | subject: Enforcement and recovery
+applies: DRTs and Appellate Tribunals; National and State consumer commissions
+concepts: Qualifications, terms and service conditions of the DRT Presiding Officer (RDB s. 6A) and the DRAT Chairperson (RDB s. 15A) are now governed by the Tribunals Reforms Act, 2026
+concepts: The same applies to members of consumer commissions through the new Consumer Protection Act s. 55(1A)
+duties: No change to lenders' filing or recovery procedure; the amendments concern tribunal appointments and service conditions
+refs: ACT-RDB; ACT-CPA
+defined terms (wording is in the full text): Chairperson of the Commission (definitions); Commission (definitions); Member (definitions); Member of the Commission (definitions); National Tribunals Data Grid (definitions); prescribed (definitions); regulations (definitions); Schedule (definitions); Search-cum-Selection Committee (definitions); Secretariat (definitions); Tribunal (definitions)
+
+[ACT-LIM] Limitation Act: time limits for recovery suits | Limitation Act, 1963: periods for suits on loans, guarantees, promissory notes and mortgages, and fresh periods on acknowledgement or part-payment | Act 36 of 1963 | Act | In force (as amended) | issued 1963-10-05 | subject: Enforcement and recovery
+applies: Every lender suing to recover a loan or enforce a mortgage, and borrowers and guarantors raising limitation as a defence
+concepts: Money lent: three years from when the loan is made (Article 19); money lent under an agreement payable on demand: three years from when the loan is made, unless a written agreement makes it payable at a future time (Article 21). Instalment loans, acceleration clauses and guarantees can start time running at different points, so check the article that fits the claim
+concepts: Bills of exchange, promissory notes and bonds: three years, running from dates that depend on the instrument's payment terms (Articles 34-37)
+concepts: Suit to enforce payment of money secured by a mortgage or charged on immovable property: twelve years from when the money sued for becomes due (Article 62)
+concepts: Mortgagee's suit for foreclosure: thirty years from when the mortgage money becomes due (Article 63(a)); for possession of mortgaged property: twelve years (Article 63(b))
+concepts: Execution of a decree: twelve years from when the decree becomes enforceable (Article 136)
+duties: s. 18: obtain written acknowledgements of liability signed by the borrower or guarantor before the period expires; each gives a fresh period from the date it is signed
+duties: s. 19: a part-payment of principal or interest made before expiry gives a fresh period, provided it is acknowledged in writing by the payer
+breach: s. 3: a suit filed after the prescribed period must be dismissed, even if limitation is not pleaded
+refs: ACT-ICA; ACT-TPA; ACT-SARFAESI; ACT-RDB; ACT-NI
+defined terms (wording is in the full text): application (s. 2); bill of exchange (s. 2); bond (s. 2); easement (s. 2); foreign country (s. 2); period of limitation (s. 2); promissory note (s. 2); tort (s. 2)
+
+[ACT-SRA] Specific Relief Act: specific performance and injunctions | Specific Relief Act, 1963 (as amended in 2018): specific performance, substituted performance and injunctions | Act 47 of 1963 | Act | In force (as amended) | issued 1963-12-13 | subject: Enforcement and recovery
+applies: Lenders enforcing security documents, undertakings and agreements to create security; Borrowers seeking injunctions against enforcement
+concepts: Specific performance of a contract shall be enforced by the court, subject only to ss. 11(2), 14 and 16 (s. 10, as substituted in 2018)
+concepts: Substituted performance: the party who suffers a breach may have the contract performed by a third party or itself and recover the costs (s. 20)
+concepts: No injunction may be granted that would impede or delay an infrastructure project (s. 41(ha))
+duties: s. 20(2): before substituted performance, give the party in breach at least 30 days' written notice to perform; after substituted performance, specific performance cannot also be claimed (s. 20(3))
+refs: ACT-ICA
+defined terms (wording is in the full text): obligation (s. 2); settlement (s. 2); trustee (s. 2)
+
+[ACT-NI] NI Act: cheque bounce (s. 138) | Negotiable Instruments Act, 1881: promissory notes, bills and cheques, and the offence of cheque dishonour (Chapter XVII, ss. 138-148) | Act 26 of 1881 | Act | In force (as amended) | issued 1881-12-09 | subject: Cheques and negotiable instruments
+applies: Lenders holding post-dated or security cheques and promissory notes from borrowers or guarantors; Drawers of cheques, and directors and officers of company drawers (s. 141)
+concepts: Offence: a cheque drawn on the drawer's account for discharge of a legally enforceable debt or liability, returned unpaid for insufficient funds or exceeding the arrangement, is an offence punishable with imprisonment up to two years, fine up to twice the cheque amount, or both (s. 138)
+concepts: Conditions: the cheque is presented within six months of its date or within its validity, whichever is earlier; a written demand is made within 30 days of the bank's return memo; and the drawer fails to pay within 15 days of receiving the notice (s. 138 proviso)
+concepts: Company drawers: every person in charge of and responsible for the company's business is liable, subject to the defences in s. 141
+concepts: Presumption that the holder received the cheque for discharge of a debt or liability, unless the contrary is proved (s. 139)
+duties: s. 138(b): send the demand notice within 30 days of the return information
+duties: s. 142(1)(b): file the complaint within one month of the date the cause of action arises (end of the 15-day payment period); the court may condone delay for sufficient cause
+duties: s. 143A: the court may order the drawer to pay interim compensation up to 20% of the cheque amount, within 60 days
+duties: s. 148: in an appeal against conviction the appellate court may order deposit of at least 20% of the fine or compensation
+breach: s. 138: imprisonment up to two years, fine up to twice the cheque amount, or both
+breach: s. 147: offences under the Act are compoundable
+refs: ACT-PSS; ACT-LIM; ACT-ICA
+defined terms (wording is in the full text): a truncated cheque (definitions); company (definitions)
+
+[ACT-STAMP] Indian Stamp Act: duty on loan and security documents | Indian Stamp Act, 1899: stamp duty on loan agreements, mortgages, pledges, hypothecations and guarantees, and the effect of under-stamping | Act 2 of 1899 | Act | In force (as amended, with State amendments) | issued 1899-01-27 | subject: Stamp duty and registration
+applies: Every lender executing loan, security or guarantee documents in India; Borrowers and guarantors who execute them
+concepts: Duty rates are in Schedule I; most States substitute their own rates for instruments such as mortgages and agreements relating to deposit of title-deeds, pawn or pledge, so the State where the document is executed or the property lies usually decides the duty
+concepts: Schedule I articles relevant to lending: Article 6 (agreement relating to deposit of title-deeds, pawn or pledge), Article 40 (mortgage deed) and Article 57 (security bond or mortgage deed executed by a surety)
+duties: s. 17: instruments chargeable with duty and executed in India must be stamped before or at the time of execution
+duties: Check the State Act or State Schedule for the rate; pay the higher-State differential where a document executed in one State is brought into another
+breach: s. 35: an instrument not duly stamped is not admissible in evidence and cannot be acted upon, registered or authenticated, unless the duty and a penalty (Rs 5 or ten times the deficient duty, whichever is more) are paid
+breach: s. 33: a public officer or court before whom an unstamped instrument is produced must impound it
+refs: STAMP-MH; STAMP-STATES; ACT-REG; ACT-TPA
+defined terms (wording is in the full text): banker (s. 2(1A)); clearing corporation (s. 2(7B)); (14-A) 'Instrument of Gift'-- '1nstrument of Gift (s. 2); (22-A) 'Public Officer'-- Public Officer (s. 2); 27. 'quarter (s. 2); Securities and Exchange Board of India (s. 2); registration (s. 2)
+
+[STAMP-MH] Maharashtra Stamp Act: title-deed deposits and mortgages | Maharashtra Stamp Act (Bom. Act 60 of 1958), Schedule I: Article 6 (agreement relating to deposit of title deeds, pawn, pledge or hypothecation), Article 40 (mortgage deed) and Article 54 (security bond or mortgage deed) | Bom. Act 60 of 1958 | State Act | In force (as amended) | issued 1958-06-11 | subject: Stamp duty and registration
+applies: Lenders taking mortgages, title-deed deposits, pledges or hypothecations over property in Maharashtra or under documents executed there
+concepts: Article 6(1), deposit of title deeds: 0.1% of the amount secured (minimum Rs 100) where the amount does not exceed Rs 5 lakh; otherwise 0.3% of the amount secured, capped at Rs 20 lakh, and at Rs 50 lakh for an instrument in favour of a consortium of banks
+concepts: Article 6(2) covers pawn, pledge or hypothecation of movable property; Article 40 covers mortgage deeds; Article 54 covers security bonds or mortgage deeds executed by sureties
+duties: Stamp title-deed deposit memoranda, mortgage deeds and hypothecation agreements at the Schedule I rates before or at execution
+refs: ACT-STAMP; ACT-REG
+defined terms (wording is in the full text): association (definitions); chargeable (definitions); clearance list (definitions); Collector (definitions); instrument (definitions); instrument of partition (definitions); lease (definitions); marketable security (definitions); paper (definitions); power of attorney (definitions); Schedule (definitions); settlement (definitions); Soldier (definitions); Unit (definitions); debenture (definitions)
+
+[STAMP-STATES] Other State stamp schedules: Delhi, Uttar Pradesh, Tamil Nadu | State stamp schedules for loan and security documents: Delhi (Schedule I-A), Uttar Pradesh (Schedule I-B) and Tamil Nadu (amendments to Schedule I, 2023) | State amendments to the Indian Stamp Act, 1899 | State Act | In force | issued 2023-04-17 | subject: Stamp duty and registration
+applies: Lenders executing or holding loan and security documents in Delhi, Uttar Pradesh or Tamil Nadu
+concepts: Delhi charges duty on listed instruments under its own Schedule I-A to the Indian Stamp Act
+concepts: Uttar Pradesh charges duty under Schedule I-B
+concepts: Tamil Nadu amends Schedule I of the Indian Stamp Act directly; its 2023 amending Act revised rates for several instruments
+duties: Use the State schedule that applies to the instrument, not the central Schedule I rate, where the State has substituted its own
+refs: ACT-STAMP; STAMP-MH
+defined terms (wording is in the full text): Stamp (definitions)
+
+[ACT-REG] Registration Act: which loan documents must be registered | Registration Act, 1908: compulsory registration of documents affecting immovable property, time for presentation and the effect of non-registration | Act 16 of 1908 | Act | In force (as amended, with State amendments) | issued 1908-12-18 | subject: Stamp duty and registration
+applies: Lenders taking registered mortgages, releases or assignments of rights in immovable property; Borrowers executing those documents
+concepts: Compulsory registration: non-testamentary instruments that create, declare, assign, limit or extinguish any right, title or interest of Rs 100 or more in immovable property, and instruments acknowledging consideration for them (s. 17(1)(b)-(c))
+concepts: A mortgage by deposit of title-deeds is not itself a registrable instrument; a document that records the terms of the mortgage may need registration depending on its contents
+concepts: State amendments: some States, for example Gujarat, require a mortgagor who mortgages by deposit of title-deeds to file a notice with the registering officer within 30 days (State s. 89B), with penalties for failure (s. 89C)
+duties: s. 23: present documents for registration within four months of execution
+duties: Release or satisfaction deeds for registered mortgages should also be registered, as they extinguish an interest in immovable property
+breach: s. 49: a document that must be registered but is not does not affect the property and is not evidence of the transaction, though it may be used as evidence of a contract in a suit for specific performance or of a collateral transaction
+refs: ACT-TPA; ACT-STAMP; DRAFT-REG-BILL-2025
+defined terms (wording is in the full text): Addition (s. 2(1)); Book (s. 2(2)); District Court (s. 2(4)); Immovable Property (s. 2(6)); Lease (s. 2(7)); Minor (s. 2(8)); Movable Property (s. 2(9)); Representative (s. 2(10)); (2) `book (s. 2); (10-A) 'true copy (s. 2); (10-A) `true copy (s. 2); unregistered (s. 2)
+
+[ACT-BSA] Bharatiya Sakshya Adhiniyam: electronic records as evidence | Bharatiya Sakshya Adhiniyam, 2023: admissibility of electronic and digital records (ss. 61-63) | Act 47 of 2023 | Act | In force | issued 2023-12-25 | subject: Electronic contracts and evidence
+applies: Lenders relying on e-signed loan agreements, digital KYC, emails, app logs and system statements in court or tribunal proceedings
+concepts: An electronic or digital record has the same legal effect, validity and enforceability as any other document, subject to s. 63 (s. 61)
+concepts: A computer output is deemed a document and admissible without the original if the conditions in s. 63(2) are met: regular use of the device, regular feeding of information, proper operation and faithful reproduction (s. 63(1)-(2))
+duties: s. 63(4): file a certificate in the form in the Schedule with each electronic record tendered in evidence, signed by the person in charge of the device and an expert
+refs: ACT-BBE-2026
+repeals: Indian Evidence Act, 1872
+defined terms (wording is in the full text): Court (s. 2); conclusive proof (s. 2); document (s. 2); evidence (s. 2); fact (s. 2); facts in issue (s. 2)
+
+[ACT-BBE-2026] Bankers' Books Evidence Act 2026: certified copies of bank records | Bankers' Books Evidence Act, 2026: proof of entries in bankers' books, including electronic, offsite and cloud records | Act 15 of 2026 | Act | In force | issued 2026-08-13 | subject: Electronic contracts and evidence
+applies: Banks and any entity or class of entities in the financial sector to whose books the Central Government extends the Act by notification (ss. 2(1)(a), 4); Post office savings banks and money order offices
+concepts: Bankers' books include ledgers, day-books, cash-books and all other records used in the ordinary course of business, whether physical or electronic, onsite, offsite, virtual or cloud, including back-up and disaster recovery sites (s. 2(1)(b))
+concepts: A certified copy of an entry is prima facie evidence of the entry and admissible as evidence of the matters recorded, to the same extent as the original (s. 5)
+concepts: An electronic or digital record of a banker's book is not to be denied admissibility because it is electronic, subject to the conditions in s. 7 (s. 6)
+duties: s. 3: certify copies with the certificate in the Schedules, dated and signed manually or by digital or electronic signature by the branch head, office head or an authorised officer, giving name and designation
+duties: s. 8: bank officers cannot be compelled to produce books or appear as witnesses in proceedings to which the bank is not a party, except by court order for special cause recorded in writing
+refs: ACT-BSA; ACT-RDB; ACT-SARFAESI
+repeals: Bankers' Books Evidence Act, 1891 (s. 16)
+defined terms (wording is in the full text): company (definitions); corporation (definitions); notification (definitions); trial (definitions)
+
+[ACT-CPA] Consumer Protection Act: lending as a 'service' | Consumer Protection Act, 2019: banking and financing as services, deficiency in service, unfair trade practices and consumer commissions | Act 35 of 2019 | Act | In force (as amended) | issued 2019-08-09 | subject: Consumer protection and State lending laws
+applies: Banks, NBFCs, HFCs and other lenders, as providers of a service; Borrowers and other consumers of financial services
+concepts: 'Service' includes facilities in connection with banking and financing (s. 2(42))
+concepts: Deficiency: any fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance of a service (s. 2(11))
+concepts: Unfair trade practice includes false or misleading representations to promote a service (s. 2(47))
+concepts: Jurisdiction of the District, State and National Commissions turns on the consideration paid; the Act sets Rs 1 crore for District Commissions but lets the Central Government prescribe other limits, which it has done by rules, so check the current jurisdiction rules (s. 34(1))
+duties: Expect complaints about loan servicing, charges, disclosure and recovery conduct to be heard by consumer commissions in addition to RBI's grievance routes
+deadlines: 2 years: complaint to be filed within two years of the cause of action, unless delay is condoned (s. 69)
+refs: AMD-RDB-20260813; PMB-LS39-2025-CPA
+defined terms (wording is in the full text): advertisement (s. 2(1)); appropriate laboratory (s. 2(2)); Central Authority (s. 2(4)); complaint (s. 2(6)); consumer (s. 2(7)); consumer dispute (s. 2(8)); defect (s. 2(10)); deficiency (s. 2(11)); direct selling (s. 2(13)); Director-General (s. 2(14)); District Commission (s. 2(15)); e-commerce (s. 2(16)); electronic service provider (s. 2(17)); establishment (s. 2(19)); express warranty (s. 2(20)); goods (s. 2(21)); injury (s. 2(23)); manufacturer (s. 2(24)); mediation (s. 2(25)); mediator (s. 2(26)); member (s. 2(27)); National Commission (s. 2(29)); notification (s. 2(30)); prescribed (s. 2(32)); product (s. 2(33)); product liability (s. 2(34)); product liability action (s. 2(35)); product manufacturer (s. 2(36)); regulations (s. 2(39)); Regulator (s. 2(40)); restrictive trade practice (s. 2(41)); service (s. 2(42)); spurious goods (s. 2(43)); State Commission (s. 2(44)); unfair contract (s. 2(46)); unfair trade practice (s. 2(47)); adulterant (s. 2)
+
+[MF-TN] Tamil Nadu coercive-recovery law (2025) | Tamil Nadu Money Lending Entities (Prevention of Coercive Actions) Act, 2025, with the 2025 Rules and notifications under ss. 4 and 31 | Tamil Nadu Act 40 of 2025 | State Act | In force | issued 2025-06-09 | subject: Consumer protection and State lending laws
+applies: All money lending entities in Tamil Nadu (microfinance institutions, money lending agencies, firms, persons and digital lending platforms), except banks, RBI-registered NBFCs, co-operative banks and co-operative societies (s. 2); RBI-registered NBFCs, co-operative banks and co-operative societies for the coercive-action provisions only (s. 2 proviso)
+concepts: Micro loan: a loan to a household with annual income up to Rs 3 lakh, or a notified limit (s. 3(g))
+concepts: Coercive action includes: violence, insult or intimidation; persistently following the borrower or family or interfering with their property; frequenting their home or workplace; using private or outsourced agencies to press for payment by coercion or undue influence; and forcibly taking government-benefit or other vital documents or household articles (s. 20(2))
+concepts: District Collectors are the Registering Authorities (notification under s. 4(1), 16-02-2026)
+duties: Entities fully covered (not banks, RBI-registered NBFCs or co-operatives): s. 5: obtain a Certificate of Registration before granting or recovering any loan; the period for entities already operating was extended from 90 to 270 days from 19-11-2025 by the Removal of Difficulties Order of 04-08-2026
+duties: Entities fully covered: s. 9: display the effective interest rate; price loans with only four components (interest, processing charge, insurance premium and delayed penal payment); give a statement of terms one day before the loan, a standard loan agreement, a loan card and signed receipts; communicate in Tamil
+duties: Entities fully covered: s. 11: do not take security for loans up to the prescribed amount
+duties: All lenders in the State except banks, including RBI-registered NBFCs, co-operative banks and co-operative societies: s. 20: no coercive action against the borrower or family while recovering a loan
+breach: s. 18: lending without registration, imprisonment up to three years and fine up to Rs 1 lakh
+breach: s. 21: coercive action, imprisonment up to three years or fine up to Rs 5 lakh, or both (clauses (a)-(c)); up to five years or fine up to Rs 5 lakh, or both (clauses (d)-(e))
+breach: s. 22: where a borrower or family member dies by suicide and coercive action immediately before it is proved, the lender is deemed to have abetted the suicide
+refs: ML-KA-AMD2025; MF-AS; ML-TN
+defined terms (wording is in the full text): borrower (definitions); co-operative society (definitions); Government (definitions); loan (definitions); Micro Finance Institution (definitions); micro loan (definitions); money lending entity (definitions); prescribed (definitions); Registering Authority (definitions); State (definitions); company (definitions); Act (definitions); Applicant (definitions); Ombudsperson (definitions); Portal (definitions)
+
+[ML-KA-AMD2025] Karnataka Money Lenders (Amendment) 2025: coercive recovery | Karnataka Money Lenders (Amendment) Act, 2025: shorter licences, ombudsperson, higher penalties and a ban on coercive recovery (s. 38A) | Karnataka Act 16 of 2025 | State Act | In force | issued 2025-03-24 | subject: Consumer protection and State lending laws
+applies: Money lenders licensed or unlicensed under the Karnataka Money Lenders Act, 1961; Borrowers in Karnataka
+concepts: Licence period cut from five years to three years (s. 10, as amended)
+concepts: Officers of listed State departments must report contraventions of the Act and of the Karnataka Prohibition of Charging Exorbitant Interest Act, 2004 (s. 15(4))
+concepts: Ombudsperson to mediate disputes and a grievance redressal forum (new ss. 15A-15B)
+concepts: No person may charge exorbitant interest, and money lenders may not use coercive action, themselves or through agents or family, to recover money (new s. 38A)
+duties: s. 38A: no coercive recovery; coercive recovery is punishable and may lead to suspension or cancellation of the money lender's registration
+breach: s. 37(2) and s. 38: maximum imprisonment raised to ten years and maximum fine to Rs 5 lakh
+refs: MF-TN; ML-KA
+
+[MF-AS] Assam microfinance money-lending law (2020) | Assam Micro Finance Institutions (Regulation of Money Lending) Act, 2020 | Assam Act V of 2021 | State Act | In force | issued 2021-01-27 | subject: Consumer protection and State lending laws
+applies: Micro finance institutions and money lending agencies or organisations in Assam, including companies, NBFCs as defined in the Act and societies, whose principal or incidental activity is lending to poor or below-poverty-line borrowers
+concepts: Aims to protect economically vulnerable borrowers from usurious interest rates and coercive recovery by microfinance institutions and money lending agencies (Preamble)
+concepts: Borrower includes individuals, self-help groups and joint liability groups borrowing for a productive purpose
+duties: Registration with the State authority before lending, with renewal, and powers to suspend or cancel registration
+refs: MF-TN
+defined terms (wording is in the full text): Government (definitions); borrower (definitions); Lender (definitions); loan (definitions); Non-Banking Finance Company (definitions); Notification (definitions); prescribed (definitions); Registering Authority (definitions); registration (definitions); Reserve Bank of India (definitions); minimum wage (definitions); Tea Garden Workmen (definitions); vulnerable section of the society (definitions)
+
+[ML-TN] Tamil Nadu Money-lenders Act 1957 | Tamil Nadu Money-lenders Act, 1957: licensing of money-lenders, permitted interest and charges, accounts and receipts, and penalties for molesting debtors | Tamil Nadu Act 26 of 1957 | State Act | In force (as amended) | issued 1957-12-20 | subject: Consumer protection and State lending laws
+applies: Money-lenders carrying on business in Tamil Nadu, as defined in the Act
+concepts: Money-lenders must obtain a licence (s. 3), exhibit their names (s. 6) and charge only the interest and charges allowed (s. 7)
+concepts: Molestation of a debtor is an offence (s. 14); the court may limit interest recoverable and allow instalments (ss. 20-A, 20-B)
+duties: s. 9: keep books and give receipts and statements of account to debtors
+refs: MF-TN
+defined terms (wording is in the full text): Government (definitions); interest (definitions); licence (definitions); loan (definitions); money-lender (definitions); year (definitions)
+
+[ACT-PSS] Payment and Settlement Systems Act: e-mandate bounce (s. 25) | Payment and Settlement Systems Act, 2007: authorisation of payment systems and the offence of dishonour of an electronic funds transfer | Act 51 of 2007 | Act | In force (as amended) | issued 2007-12-20 | subject: Payments, credit information and anti-money laundering
+applies: Lenders collecting EMIs through ECS, NACH or other electronic mandates; Payment system operators and banks
+concepts: No person other than RBI may commence or operate a payment system without RBI authorisation (s. 4)
+concepts: Dishonour of an electronic funds transfer for insufficient funds is an offence on the same pattern as NI Act s. 138: imprisonment up to two years, fine up to twice the amount, or both (s. 25(1))
+concepts: Banks and system providers may not charge a person for paying or receiving by the electronic modes the law specifies (s. 10A)
+duties: s. 25(1)(c)-(d): to prosecute an e-mandate dishonour, send a written demand within 30 days of the bank's information about the dishonour; the offence is complete if the payer fails to pay within 15 days of the notice
+duties: s. 25(1)(b): the transfer must have been initiated in accordance with the system provider's procedural guidelines
+breach: s. 25: imprisonment up to two years, fine up to twice the transfer amount, or both
+refs: ACT-NI; AMD-PSS-20260817; REGS-PSS
+defined terms (wording is in the full text): derivative (s. 2); electronic funds transfer (s. 2); gross settlement system (s. 2); legal entity identifier (s. 2); netting (s. 2); notification (s. 2); payment instruction (s. 2); payment obligation (s. 2); payment system (s. 2); prescribed (s. 2); regulation (s. 2); Reserve Bank (s. 2); securities (s. 2); settlement (s. 2); systemic risk (s. 2); system participant (s. 2); system provider (s. 2); designated payment system (s. 2); scheduled commercial bank (s. 2); company (s. 2)
+
+[AMD-PSS-20260817] PSS Act s. 10A amended (2026) | Taxation and Other Laws (Amendment) Act, 2026, s. 2: amendment of s. 10A of the Payment and Settlement Systems Act, 2007 | Act 21 of 2026 | Amending Act | In force | issued 2026-08-17 | subject: Payments, credit information and anti-money laundering
+applies: Banks and payment system providers
+concepts: The no-charge rule in PSS s. 10A now covers the electronic modes of payment notified by the Central Government, instead of the modes prescribed under s. 269SU of the Income-tax Act, 1961
+duties: Check fee schedules against the Central Government's notified list of electronic payment modes
+refs: ACT-PSS
+defined terms (wording is in the full text): corpus (definitions); Bank for International Settlements (definitions); contract manufacturer (definitions); custom bonded area (definitions)
+
+[ACT-CICRA] Credit Information Companies Act: bureau reporting and corrections | Credit Information Companies (Regulation) Act, 2005: membership of credit bureaus, reporting, accuracy, borrower access and corrections | Act 30 of 2005 | Act | In force (as amended) | issued 2005-06-23 | subject: Payments, credit information and anti-money laundering
+applies: Credit institutions (banks, NBFCs, HFCs and others notified), credit information companies and specified users; Borrowers whose credit information is reported
+concepts: Every credit institution must be a member of at least one credit information company (s. 15)
+concepts: Credit information may be disclosed only to specified users and only for permitted purposes (s. 17(4))
+concepts: Credit institutions, bureaus and specified users must keep credit information accurate, complete and protected against loss or unauthorised access (s. 19)
+duties: s. 17(2): furnish credit information to the bureau within the period in its notice
+duties: s. 21(1)-(2): on request, give a loan applicant a copy of the credit information obtained, for the charge set by RBI regulations
+duties: s. 21(3): update or correct a borrower's information within 30 days of a request; bureaus correct only on the credit institution's certification, and not while a dispute is pending before a court, tribunal or arbitrator
+breach: s. 22: unauthorised access to credit information, fine up to Rs 1 lakh per offence and Rs 10,000 a day for continuing access
+breach: s. 23: fines up to Rs 1 crore for listed contraventions, including failure to furnish information or making false statements
+refs: RULES-CIC; REGS-CIC
+defined terms (wording is in the full text): board (s. 2); borrower (s. 2); credit information (s. 2); credit information company (s. 2); credit institution (s. 2); credit scoring (s. 2); notification (s. 2); prescribed (s. 2); regulations (s. 2); Reserve Bank (s. 2); specified user (s. 2); company (s. 2)
+
+[RULES-CIC] Credit Information Companies Rules 2006 | Credit Information Companies Rules, 2006 (Department of Financial Services) | Notification dated 14-12-2006 | Rules | In force (as amended) | issued 2006-12-14 | subject: Payments, credit information and anti-money laundering
+applies: Credit institutions, credit information companies and specified users
+concepts: Rules under CICRA on appeals to the appellate authority, security safeguards, collection and accuracy of data, disclosure of disputed data, updating of credit information and fidelity and secrecy
+duties: Follow the security safeguards and data-accuracy procedures in the rules when collecting, storing, correcting and sharing credit information
+refs: ACT-CICRA; REGS-CIC
+defined terms (wording is in the full text): Act (rule 2); agent (rule 2); appellate authority (rule 2); information (rule 2); rules (rule 2); section (rule 2)
+
+[REGS-CIC] Credit Information Companies Regulations 2006 | Credit Information Companies Regulations, 2006 (Reserve Bank of India) | RBI notification dated 14-12-2006 | Regulations | In force (as amended in 2017 and 2021) | issued 2006-12-14 | subject: Payments, credit information and anti-money laundering
+applies: Credit institutions, credit information companies and specified users
+concepts: RBI regulations under CICRA on registration of credit information companies (Forms A and B), the notice for collecting credit information (Form C), privacy principles, personal data and the charges a credit information company may levy
+duties: Furnish and correct credit information in the form and within the periods the regulations and the bureau's notice set
+refs: ACT-CICRA; RULES-CIC
+defined terms (wording is in the full text): Act (definitions); collector (definitions); commodity exchange (definitions); data management service (definitions); Form (definitions); fees (definitions); Government Securities (definitions); Insurance Regulatory and Development Authority (definitions); Securities (definitions); Securities and Exchange Board of India (definitions); Telecom Regulatory Authority of India (definitions); trading member (definitions)
+
+[RULES-FACT] Registration of Assignment of Receivables Rules 2012 | Registration of Assignment of Receivables Rules, 2012 under the Factoring Regulation Act, 2011 (filing with the Central Registry) | G.S.R. dated 02-04-2012 | Rules | In force | issued 2012-04-02 | subject: Mortgages, property and goods as security
+applies: Factors and other assignees of receivables
+concepts: Particulars of every assignment of receivables in favour of a factor are filed with the Central Register kept under SARFAESI s. 22 (CERSAI)
+duties: File particulars of each assignment of receivables with the Central Registry in the prescribed form and fee
+refs: ACT-SARFAESI
+defined terms (wording is in the full text): Act (rule 2); Central Register (rule 2); Central Registrar (rule 2); Central Registry (rule 2); Forms (rule 2)
+
+[DRAFT-REG-BILL-2025] Draft Registration Bill 2025 (would replace the 1908 Act) | Registration Bill, 2025 (draft published by the Department of Land Resources for comments) | DoLR draft, 27-05-2025 | Bill | Proposed: draft published for comments; not introduced in Parliament | issued 2025-05-27 | subject: Proposed changes
+applies: Lenders taking mortgages by deposit of title-deeds and other security over immovable property; Property owners and borrowers
+concepts: Would repeal and replace the Registration Act, 1908
+concepts: Online registration: electronic presentation and admission, electronic certificates and digital records; Aadhaar-based authentication with consent, with alternatives
+concepts: Wider compulsory registration: agreements to sell, powers of attorney to transfer property, sale certificates and documents setting out the terms of a mortgage by deposit of title-deeds
+concepts: Banks, financial institutions and other creditors lending on a mortgage by deposit of title-deeds must file a copy of the title deed with the registering officer and notify the mortgage; a filed mortgage would take effect against any unfiled one over the same property
+duties: No obligation until enacted; lenders' title-deed mortgage processes would need a filing step if it passes in this form
+refs: ACT-REG; ACT-TPA
+
+[PMB-LS39-2025-CPA] Private Member's Bill: Consumer Protection (Amendment) 2025 | Consumer Protection (Amendment) Bill, 2025 (Private Member's Bill No. 39 of 2025, Lok Sabha) | Bill No. 39 of 2025 | Bill | Proposed: Private Member's Bill pending in the Lok Sabha | issued 2025-12-05 | subject: Proposed changes
+applies: Consumers and service providers under the Consumer Protection Act, 2019
+concepts: Introduced by a private member; Private Members' Bills rarely become law
+refs: ACT-CPA
+
+[PMB-LS28-2025-IT] Private Member's Bill: Information Technology (Amendment) 2025 | Information Technology (Amendment) Bill, 2025 (Private Member's Bill No. 28 of 2025, Lok Sabha) | Bill No. 28 of 2025 | Bill | Proposed: Private Member's Bill pending in the Lok Sabha | issued 2025-12-05 | subject: Proposed changes
+applies: Intermediaries and others under the Information Technology Act, 2000
+concepts: Introduced by a private member; Private Members' Bills rarely become law
+
+[PMB-LS75-2025-PMLA] Private Member's Bill: Prevention of Money-laundering (Amendment) 2025 | Prevention of Money-laundering (Amendment) Bill, 2025 (Private Member's Bill No. 75 of 2025, Lok Sabha) | Bill No. 75 of 2025 | Bill | Proposed: Private Member's Bill pending in the Lok Sabha | issued 2025-12-05 | subject: Proposed changes
+applies: Reporting entities under the PMLA
+concepts: Introduced by a private member; Private Members' Bills rarely become law
+
+[ACT-REPAMD-2025] Repealing and Amending Act 2025: notices by speed post | Repealing and Amending Act, 2025: repeal of spent amending Acts and replacement of 'registered post' with 'speed post with registration' in the General Clauses Act and the CPC | Act 37 of 2025 | Amending Act | In force | issued 2025-12-20 | subject: Enforcement and recovery
+applies: Every lender serving statutory notices by post, including SARFAESI and NI Act demand notices
+concepts: General Clauses Act, 1897 s. 27: service by post is now deemed effected by properly addressing, pre-paying and posting by 'speed post with registration' instead of 'registered post'
+concepts: Corresponding changes to the Code of Civil Procedure, 1908
+concepts: Repeals spent amending Acts, including the Arbitration amendments of 2015 and 2021, the NI amendment of 2018 and the Factoring amendment of 2021; the changes they made to the principal Acts remain
+duties: Update notice templates and dispatch processes to use speed post with registration where a law requires service by post
+refs: ACT-NI; ACT-SARFAESI
+
+[REGS-PSS] Board for Payment and Settlement Systems Regulations 2008 (superseded) | Board for Regulation and Supervision of Payment and Settlement Systems Regulations, 2008 | RBI notification dated 12-08-2008 | Superseded instrument | Superseded by the Payments Regulatory Board Regulations, 2025 | issued 2008-08-12 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: ACT-PSS
+
+[ACT-PMLA] PMLA: records, reporting and enhanced due diligence | Prevention of Money-laundering Act, 2002: obligations of reporting entities (Chapter IV, ss. 11A-15) | Act 15 of 2003 | Act | In force (as amended) | issued 2003-01-17 | subject: Payments, credit information and anti-money laundering
+applies: Reporting entities: banking companies, financial institutions (which include NBFCs, housing finance institutions, chit fund companies and payment system operators), intermediaries and persons carrying on designated businesses (ss. 2(1)(l), 2(1)(wa)); Designated directors and employees of reporting entities
+concepts: Financial institution includes a non-banking financial company, a housing finance institution, a chit fund company and a payment system operator (s. 2(1)(l))
+concepts: Offence of money-laundering: rigorous imprisonment of three to seven years and fine (s. 4)
+duties: s. 12(1)(a)-(b): keep a record of all transactions that allows each to be reconstructed, and report prescribed transactions, attempted or executed, to the Director (FIU-IND) within the prescribed time
+duties: s. 12(1)(e): keep records of documents evidencing the identity of clients and beneficial owners, account files and business correspondence
+duties: s. 12(2): keep all such information confidential
+duties: s. 12(3)-(4): keep transaction records for five years from the transaction, and identity records for five years after the relationship ends or the account is closed, whichever is later
+duties: s. 12AA: before each specified transaction, verify the client's identity by Aadhaar authentication (or another prescribed mode), examine ownership, financial position and sources of funds, and record the purpose; do not allow the transaction if the client fails these steps
+breach: s. 13(2): the Director may warn, direct compliance or reporting, or impose a penalty of Rs 10,000 to Rs 1 lakh for each failure on the reporting entity, its designated director or employees
+refs: ACT-CICRA; PMB-LS75-2025-PMLA
+defined terms (wording is in the full text): Adjudicating Authority (s. 2); Appellate Tribunal (s. 2); Assistant Director (s. 2); attachment (s. 2); banking company (s. 2); Bench (s. 2); Chairperson (s. 2); chit fund company (s. 2); Deputy Director (s. 2); Member (s. 2); money-laundering (s. 2); notification (s. 2); payment system operator (s. 2); prescribed (s. 2); proceeds of crime (s. 2); property (s. 2); real estate agent (s. 2); Schedule (s. 2); Special Court (s. 2); transfer (s. 2); value (s. 2); contracting State (s. 55); identifying (s. 55); tracing (s. 55); company (s. 55)
+
+[ACT-CHIT] Chit Funds Act: chit business by companies | Chit Funds Act, 1982: sanction and registration of chits, and limits on chit fund companies | Act 40 of 1982 | Act | In force (as amended) | issued 1982-08-19 | subject: Deposits and chit funds
+applies: Foremen and companies conducting chits; Groups and lenders that might run chit or chit-like schemes
+concepts: The Act is administered by the State Governments through their Registrars of Chits
+concepts: A chit fund company is a 'financial institution' and a reporting entity under the PMLA (PMLA s. 2(1)(l))
+duties: s. 4: no chit may be commenced or conducted without the previous sanction of the State Government and registration of the chit
+duties: s. 12: a company carrying on chit business may not conduct any other business without the general or special permission of the State Government
+duties: s. 13: the aggregate chit amount a foreman may conduct is capped, for a company by reference to a multiple of its net owned funds
+refs: ACT-PMLA; PID-MH
+defined terms (wording is in the full text): ichit business (definitions); 'foreman (definitions); prize amount (definitions); Registrar (definitions); company (definitions)
+
+[PID-MH] Maharashtra depositors' protection law (MPID Act) | Maharashtra Protection of Interest of Depositors (in Financial Establishments) Act, 1999 | Mah. Act XVI of 2000 | State Act | In force | issued 2000-01-21 | subject: Deposits and chit funds
+applies: Any person accepting deposits in Maharashtra under any scheme or arrangement, other than banking companies and corporations or co-operative societies owned or controlled by the Government (s. 2(d))
+concepts: Deposit excludes, among others, share capital and SEBI-regulated debentures and bonds, partners' capital, amounts from banks and specified financial institutions, ordinary-course security deposits and advances, and chit subscriptions (s. 2(c))
+concepts: Financial establishments are not limited to unregistered entities: any deposit-taking person outside the s. 2(d) exclusions is covered
+duties: Repay deposits on maturity with the promised returns; the State may attach the money and property of a defaulting establishment (s. 4)
+breach: s. 3: on fraudulent default in repaying deposits, every promoter, partner, director, manager or employee responsible for the business is punishable with imprisonment up to six years and fine
+refs: ACT-CHIT
+defined terms (wording is in the full text): Competent Authority (definitions); Designated Court (definitions); deposit (definitions); Financial Establishment (definitions); Government (definitions)
+
+[ML-MH] Maharashtra Money-Lending (Regulation) Act 2014 | Maharashtra Money-Lending (Regulation) Act, 2014 | Mah. Act VIII of 2014 | State Act | In force (as amended) | issued 2014-01-26 | subject: Consumer protection and State lending laws
+applies: Money-lenders in Maharashtra: individuals, Hindu undivided families, companies other than RBI-regulated NBFCs, and unincorporated bodies, including pawn-brokers (s. 2(14))
+excluded: Banks, co-operative banks, multi-State co-operative banks and non-banking financial companies are excluded from 'money-lender' (s. 2(14)); Loans to or by a bank, insurance company, co-operative society or Government are not 'loans' under the Act (s. 2(13))
+concepts: The Act licenses and regulates private money-lenders; RBI-regulated lenders are outside it
+duties: Money-lenders covered by the Act must be licensed and follow its rules on interest, accounts and recovery
+refs: MF-TN; ML-KA
+defined terms (wording is in the full text): bank (definitions); debtor (definitions); inspection fee (definitions); investment in business (definitions); licence fee (definitions); pawn-broker (definitions); artisan (definitions)
+
+[ML-KA] Karnataka Money Lenders Act 1961 | Karnataka Money Lenders Act, 1961 (principal Act; see the 2025 amendment for the coercive-recovery ban) | Karnataka Act 12 of 1962 | State Act | In force (as amended) | issued 1962-03-29 | subject: Consumer protection and State lending laws
+applies: Money lenders carrying on business in Karnataka, as defined in the Act
+concepts: Banks, as defined in s. 2(1), are outside the definition of money lender
+concepts: The 2025 amendment shortened licences to three years, added an ombudsperson and banned coercive recovery (new s. 38A)
+duties: Money lenders covered by the Act must be licensed and keep accounts as it requires
+refs: ML-KA-AMD2025
+defined terms (wording is in the full text): business of money-lending (definitions); capital (definitions); company (definitions); co-operative society (definitions); interest (definitions); licence (definitions); licence fee (definitions); loan (definitions); notification (definitions); prescribed (definitions); principal (definitions); Provident Fund (definitions); recognised language (definitions); register (definitions); rules (definitions); State (definitions); suit to which this Act applies (definitions); trader (definitions)
+
+GLOSSARY (plain-language meanings, not statutory text):
+Guarantee (Contract of guarantee): A promise to pay or perform for a borrower if the borrower defaults. The guarantor is the surety, the borrower the principal debtor and the lender the creditor (Contract Act s. 126).
+Continuing guarantee: A guarantee that covers a series of transactions, such as a running cash-credit account. The surety can revoke it for future transactions by notice; past liability survives (ss. 129-130).
+Discharge of surety: The guarantor is released, fully or partly, if the lender changes the loan terms, gives the borrower time, releases the borrower or loses security without the guarantor's consent (ss. 133-141).
+Indemnity (Contract of indemnity): A promise to make good a loss suffered by the other party, whether caused by the promisor or anyone else (s. 124).
+Pledge (Pawn): Security over goods or other movables by handing them over to the lender. The lender may sell them after reasonable notice if the borrower defaults (ss. 172, 176).
+Hypothecation: A charge over movable property, present or future, without handing it over to the lender; it includes a floating charge (SARFAESI s. 2(1)(n)). Common for vehicle, equipment and stock loans.
+Banker's lien (General lien): A bank's right to keep goods or securities of a customer in its hands as security for the customer's general balance, unless agreed otherwise (s. 171).
+Mortgage: Security over land or buildings by transferring an interest in the property to the lender (TPA s. 58). There are six kinds, including simple, English and by deposit of title-deeds.
+Equitable mortgage (Mortgage by deposit of title-deeds): A mortgage made by handing over the title documents of a property, with intent to create security, in a notified town. It needs no registered deed (TPA s. 58(f)).
+Charge (Charge on immovable property): Security over immovable property that does not amount to a mortgage, created by agreement or by law. The rules for simple mortgages apply to it (TPA s. 100).
+Right to redeem (Redemption): The borrower's right to pay off a mortgage and get back the title deeds and the property (TPA s. 60).
+Foreclosure: A court decree that ends the borrower's right to redeem a mortgage. In everyday banking the word also means early repayment of a loan, which is a different thing.
+Assignment of debt (Transfer of actionable claim): The transfer of an unsecured debt or receivable by a signed written instrument. Until the debtor gets express notice, its payments to the original creditor remain valid (TPA ss. 130-131). Secured loans are transferred with their security under other rules.
+Secured creditor: Under SARFAESI, a bank, notified financial institution, asset reconstruction company or debenture trustee holding a security interest. Only secured creditors can use SARFAESI.
+Security interest: Any right, title or interest in property created for a secured creditor, including a mortgage, charge, hypothecation or assignment (SARFAESI s. 2(1)(zf)).
+Demand notice (Section 13(2) notice): The SARFAESI notice asking a defaulting borrower whose account is an NPA to pay in full within 60 days, before the lender can take possession.
+Possession notice (Section 13(4)): The step after the 60-day demand notice: the lender takes possession of the secured asset, takes over the business or asks the borrower's debtors to pay it directly.
+CERSAI (Central Registry): The Central Registry of Securitisation Asset Reconstruction and Security Interest of India, where lenders record security interests. A secured creditor cannot enforce under SARFAESI unless its security is registered there (s. 26D).
+DRT (Debts Recovery Tribunal): The tribunal that hears recovery cases of banks and notified financial institutions above the RDB Act threshold (Rs 10 lakh in the Act, or another amount the Central Government notifies) and borrowers' challenges to SARFAESI action.
+DRAT (Debts Recovery Appellate Tribunal): The appeal tribunal above the DRT. A borrower appealing must usually deposit 50% of the debt, which can be reduced to 25%.
+Recovery certificate: The certificate the DRT issues for the amount due. The Recovery Officer then recovers it by attachment and sale, arrest, or a receiver (RDB s. 25).
+Acknowledgement of debt: A written, signed admission of liability by the borrower or guarantor before limitation expires. It starts a fresh limitation period (Limitation Act s. 18).
+Limitation period: The time within which a lender must sue: generally three years for a loan, twelve years to enforce a mortgage (Limitation Act Schedule).
+Stamp duty: A tax on documents such as loan agreements, mortgages and guarantees. Under-stamped documents cannot be used as evidence until duty and penalty are paid (Stamp Act s. 35).
+Impounding: When an unstamped or under-stamped document is produced before a court or officer, it is kept back until the proper duty and penalty are paid (Stamp Act s. 33).
+Compulsory registration: Documents that create or transfer rights of Rs 100 or more in immovable property must be registered with the Sub-Registrar within four months, or they do not affect the property (Registration Act ss. 17, 23, 49).
+Cheque bounce (Section 138 offence): The offence when a cheque given for a debt is returned unpaid for lack of funds and the drawer does not pay within 15 days of a demand notice.
+E-mandate bounce (Section 25 PSS Act): The offence when an ECS, NACH or other electronic debit for a debt fails for lack of funds and the payer does not pay within 15 days of a demand notice.
+Section 63 certificate: The certificate required to put an electronic record, such as an e-signed agreement or system statement, in evidence. It is signed by the person in charge of the system and an expert (BSA s. 63(4)).
+Certified copy of bank records: A copy of an entry in a bank's books, certified by an authorised officer, which courts accept as evidence of the entry (Bankers' Books Evidence Act, 2026 s. 5).
+Coercive action: Recovery methods that State laws ban, such as threats, violence, following the borrower, visiting the home or workplace to pressure, or seizing documents (for example Tamil Nadu Act 40 of 2025 s. 20).
+Credit information company (Credit bureau): A company registered with RBI that collects credit data from lenders and supplies credit reports. Every lender must be a member of at least one (CICRA s. 15).
+Unpaid seller: A seller who has not been paid in full. He keeps a lien on the goods in his possession and can stop them in transit, even after ownership has passed (Sale of Goods Act ss. 45-47).
+Substituted performance: Getting a broken contract performed by someone else and recovering the cost from the party in breach, after 30 days' notice (Specific Relief Act s. 20).
+Deficiency in service: A shortfall in the quality or manner of a service, including banking and lending, that a consumer can complain about to a consumer commission (CPA s. 2(11)).
+
+OTHER RELEVANT LAWS CHANGES (2025-11-01 to 2026-11-26):
+- 2026-10-01 Act: Bankers' Books Evidence Act, 2026 in force: cloud and electronic bank records (Act 15 of 2026). Applies: Banks, and other financial sector entities to which the Central Government extends the Act, producing account statements in court or tribunal.. Changes: The 1891 Act is repealed. Bankers' books expressly include electronic, offsite, cloud and disaster-recovery records. Certified copies can be signed digitally by the branch head, office head or an authorised officer, in the forms in the Schedules. Actions: Adopt the Schedule certificate formats and designate authorised signatories.
+- 2026-08-17 Act: PSS Act s. 10A: no-charge rule now covers modes notified by the Central Government (Act 21 of 2026, s. 2). Applies: Banks and payment system providers.. Changes: The electronic payment modes on which no charge may be levied are now those notified by the Central Government, no longer those prescribed under s. 269SU of the Income-tax Act, 1961. Actions: Map current charges to the notified list once it is published.
+- 2026-08-13 Act: Tribunals Reforms Act, 2026: DRT, DRAT and consumer commission appointments (Act 17 of 2026). Applies: Debts Recovery Tribunals, Appellate Tribunals and consumer commissions.. Changes: RDB Act ss. 6A and 15A are substituted: service conditions of DRT Presiding Officers and the DRAT Chairperson follow the Tribunals Reforms Act, 2026. Consumer Protection Act s. 55(1A) is substituted to the same effect. Actions: No action needed.
+- 2026-08-04 Order: Tamil Nadu extends registration deadline to 270 days (G.O. Ms. No. 254, Home). Applies: Money lending entities operating in Tamil Nadu on 19-11-2025.. Changes: Removal of Difficulties Order, 2026 substitutes 'two hundred and seventy days' for 'ninety days' in the proviso to s. 5(1), because the online portal was notified only on 27-02-2026. Actions: Confirm registration certificates are in hand for every district.
+- 2026-02-16 Notification: Tamil Nadu: District Collectors named Registering Authorities for money lending entities (G.O. Ms. No. 85, Home). Applies: Money lending entities that must register under the Tamil Nadu Act.. Changes: District Collectors are the Registering Authorities for their districts under s. 4(1). Actions: Identify the Collector's office for each district of operation.
+- 2025-12-20 Act: Notices by post: 'registered post' becomes 'speed post with registration' (Act 37 of 2025). Applies: Anyone serving notices by post under central laws, including SARFAESI and cheque-bounce demand notices.. Changes: General Clauses Act s. 27 now deems service by post effected when a notice is sent by speed post with registration. Matching changes are made to the Code of Civil Procedure. Spent amending Acts, including Arbitration, NI and Factoring amendments, are repealed; their changes stay in the principal Acts. Actions: Change notice templates and mailroom instructions.
+- 2025-11-19 State Act: Tamil Nadu coercive-recovery law comes into force (G.O.(Ms) No. 580, Home). Applies: Money lending entities in Tamil Nadu. RBI-registered NBFCs, co-operative banks and co-operative societies are covered by the ban on coercive action only; banks are outside the Act.. Changes: Tamil Nadu Act 40 of 2025 is in force from 19-11-2025. Unregistered lenders may not lend or recover; the Act sets pricing, disclosure and loan-card rules. Coercive recovery against borrowers and their families is an offence with up to five years' imprisonment. Actions: Review collection scripts and agency contracts for Tamil Nadu against s. 20. Unregistered entities: apply for registration on the State portal.

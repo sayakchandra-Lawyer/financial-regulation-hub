@@ -1,0 +1,1701 @@
+{
+ "meta": {
+  "title": "Other relevant laws",
+  "subjects": [
+   [
+    "Contracts, guarantees and pledges",
+    "Contracts, guarantees and pledges",
+    "contracts"
+   ],
+   [
+    "Mortgages, property and goods as security",
+    "Mortgages and property security",
+    "security"
+   ],
+   [
+    "Stamp duty and registration",
+    "Stamp duty and registration",
+    "stamp"
+   ],
+   [
+    "Enforcement and recovery",
+    "Enforcement and recovery",
+    "recovery"
+   ],
+   [
+    "Cheques and negotiable instruments",
+    "Cheques (NI Act)",
+    "cheques"
+   ],
+   [
+    "Electronic contracts and evidence",
+    "E-contracts and evidence",
+    "evidence"
+   ],
+   [
+    "Consumer protection and State lending laws",
+    "Consumer and State lending laws",
+    "conduct"
+   ],
+   [
+    "Deposits and chit funds",
+    "Deposits and chit funds",
+    "deposits"
+   ],
+   [
+    "Payments, credit information and anti-money laundering",
+    "Payments, credit data and AML",
+    "payments"
+   ],
+   [
+    "Proposed changes",
+    "Proposed changes",
+    "proposed"
+   ],
+   [
+    "Superseded (history)",
+    "Superseded (history)",
+    "history"
+   ]
+  ],
+  "milestones": [
+   {
+    "date": "2002-12-17",
+    "label": "SARFAESI Act"
+   },
+   {
+    "date": "2016-09-01",
+    "label": "SARFAESI and DRT amendments (Act 44 of 2016)"
+   },
+   {
+    "date": "2024-07-01",
+    "label": "Bharatiya Sakshya Adhiniyam replaces the Evidence Act"
+   },
+   {
+    "date": "2025-11-19",
+    "label": "Tamil Nadu coercive-recovery law in force"
+   },
+   {
+    "date": "2026-10-01",
+    "label": "Bankers' Books Evidence Act, 2026 in force"
+   }
+  ],
+  "as_of": "2026-11-26",
+  "count": 39,
+  "in_force": 34,
+  "lenses": [
+   {
+    "id": "ENT-LNDR",
+    "name": "Lender (bank / NBFC / HFC)"
+   },
+   {
+    "id": "ENT-SEC",
+    "name": "Secured creditor enforcing"
+   },
+   {
+    "id": "ENT-BORR",
+    "name": "Borrower or guarantor"
+   },
+   {
+    "id": "ENT-MFI",
+    "name": "Microfinance / small-loan lender"
+   },
+   {
+    "id": "ENT-DIG",
+    "name": "Digital lender / payments"
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "id": "ACT-ICA",
+   "label": "Indian Contract Act: guarantee, indemnity, pledge, lien",
+   "title": "Indian Contract Act, 1872: contracts of indemnity and guarantee (ss. 124-147), bailment, bankers' lien and pledge (ss. 148-181), and related general provisions",
+   "group": "Contracts, guarantees and pledges",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2187",
+   "issue_date": "1872-04-25",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-SOGA",
+   "label": "Sale of Goods Act: title to goods financed",
+   "title": "Sale of Goods Act, 1930: passing of property, transfer of title and the unpaid seller's rights",
+   "group": "Contracts, guarantees and pledges",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2390",
+   "issue_date": "1930-03-15",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-TPA",
+   "label": "Transfer of Property Act: mortgages, charges, assignment of debts",
+   "title": "Transfer of Property Act, 1882: mortgages and charges of immovable property (ss. 58-104) and transfer of actionable claims (ss. 130-137)",
+   "group": "Mortgages, property and goods as security",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2338",
+   "issue_date": "1882-02-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-TRUSTS",
+   "label": "Indian Trusts Act: trusts used in lending structures",
+   "title": "Indian Trusts Act, 1882: creation of trusts, duties of trustees and breach of trust",
+   "group": "Mortgages, property and goods as security",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2327",
+   "issue_date": "1882-01-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-AIRCRAFT-2025",
+   "label": "Aircraft Objects Act 2025: Cape Town security interests",
+   "title": "Protection of Interests in Aircraft Objects Act, 2025: gives the Cape Town Convention and Aircraft Protocol the force of law in India",
+   "group": "Mortgages, property and goods as security",
+   "type": "Act",
+   "status": "Enacted: comes into force on the date the Central Government notifies",
+   "url": "https://sansad.in/getFile/BillsTexts/RSBillTexts/PassedBothHouses/Protection428202541759PM.pdf?source=legislation",
+   "issue_date": "2025-04-16",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-SARFAESI",
+   "label": "SARFAESI Act: enforcing security without court",
+   "title": "Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002",
+   "group": "Enforcement and recovery",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2006",
+   "issue_date": "2002-12-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-RDB",
+   "label": "RDB Act: Debts Recovery Tribunals",
+   "title": "Recovery of Debts and Bankruptcy Act, 1993 (formerly the Recovery of Debts Due to Banks and Financial Institutions Act)",
+   "group": "Enforcement and recovery",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/1775",
+   "issue_date": "1993-08-27",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "AMD-RDB-20260813",
+   "label": "Tribunals Reforms Act 2026: DRT, DRAT and consumer commissions",
+   "title": "Tribunals Reforms Act, 2026: s. 6 substitutes ss. 6A and 15A of the RDB Act; s. 12 substitutes s. 55(1A) of the Consumer Protection Act, 2019",
+   "group": "Enforcement and recovery",
+   "type": "Amending Act",
+   "status": "In force",
+   "url": "https://sansad.in/getFile/BillsTexts/LSBillTexts/PassedBothHouses/153821202623736PM.pdf?source=legislation",
+   "issue_date": "2026-08-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-LIM",
+   "label": "Limitation Act: time limits for recovery suits",
+   "title": "Limitation Act, 1963: periods for suits on loans, guarantees, promissory notes and mortgages, and fresh periods on acknowledgement or part-payment",
+   "group": "Enforcement and recovery",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/1565",
+   "issue_date": "1963-10-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-SRA",
+   "label": "Specific Relief Act: specific performance and injunctions",
+   "title": "Specific Relief Act, 1963 (as amended in 2018): specific performance, substituted performance and injunctions",
+   "group": "Enforcement and recovery",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/1583",
+   "issue_date": "1963-12-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-NI",
+   "label": "NI Act: cheque bounce (s. 138)",
+   "title": "Negotiable Instruments Act, 1881: promissory notes, bills and cheques, and the offence of cheque dishonour (Chapter XVII, ss. 138-148)",
+   "group": "Cheques and negotiable instruments",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2189",
+   "issue_date": "1881-12-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-STAMP",
+   "label": "Indian Stamp Act: duty on loan and security documents",
+   "title": "Indian Stamp Act, 1899: stamp duty on loan agreements, mortgages, pledges, hypothecations and guarantees, and the effect of under-stamping",
+   "group": "Stamp duty and registration",
+   "type": "Act",
+   "status": "In force (as amended, with State amendments)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/15510",
+   "issue_date": "1899-01-27",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "STAMP-MH",
+   "label": "Maharashtra Stamp Act: title-deed deposits and mortgages",
+   "title": "Maharashtra Stamp Act (Bom. Act 60 of 1958), Schedule I: Article 6 (agreement relating to deposit of title deeds, pawn, pledge or hypothecation), Article 40 (mortgage deed) and Article 54 (security bond or mortgage deed)",
+   "group": "Stamp duty and registration",
+   "type": "State Act",
+   "status": "In force (as amended)",
+   "url": "https://igrmaharashtra.gov.in/Home/schedules",
+   "issue_date": "1958-06-11",
+   "updated_as_on": "2026-04-07"
+  },
+  {
+   "id": "STAMP-STATES",
+   "label": "Other State stamp schedules: Delhi, Uttar Pradesh, Tamil Nadu",
+   "title": "State stamp schedules for loan and security documents: Delhi (Schedule I-A), Uttar Pradesh (Schedule I-B) and Tamil Nadu (amendments to Schedule I, 2023)",
+   "group": "Stamp duty and registration",
+   "type": "State Act",
+   "status": "In force",
+   "url": "https://www.igrsup.gov.in/igrsup/scheduleIB",
+   "issue_date": "2023-04-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-REG",
+   "label": "Registration Act: which loan documents must be registered",
+   "title": "Registration Act, 1908: compulsory registration of documents affecting immovable property, time for presentation and the effect of non-registration",
+   "group": "Stamp duty and registration",
+   "type": "Act",
+   "status": "In force (as amended, with State amendments)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2190",
+   "issue_date": "1908-12-18",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-BSA",
+   "label": "Bharatiya Sakshya Adhiniyam: electronic records as evidence",
+   "title": "Bharatiya Sakshya Adhiniyam, 2023: admissibility of electronic and digital records (ss. 61-63)",
+   "group": "Electronic contracts and evidence",
+   "type": "Act",
+   "status": "In force",
+   "url": "https://www.indiacode.nic.in/handle/123456789/20063",
+   "issue_date": "2023-12-25",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-BBE-2026",
+   "label": "Bankers' Books Evidence Act 2026: certified copies of bank records",
+   "title": "Bankers' Books Evidence Act, 2026: proof of entries in bankers' books, including electronic, offsite and cloud records",
+   "group": "Electronic contracts and evidence",
+   "type": "Act",
+   "status": "In force",
+   "url": "https://financialservices.gov.in/acts-and-policies",
+   "issue_date": "2026-08-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-CPA",
+   "label": "Consumer Protection Act: lending as a 'service'",
+   "title": "Consumer Protection Act, 2019: banking and financing as services, deficiency in service, unfair trade practices and consumer commissions",
+   "group": "Consumer protection and State lending laws",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/15256",
+   "issue_date": "2019-08-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MF-TN",
+   "label": "Tamil Nadu coercive-recovery law (2025)",
+   "title": "Tamil Nadu Money Lending Entities (Prevention of Coercive Actions) Act, 2025, with the 2025 Rules and notifications under ss. 4 and 31",
+   "group": "Consumer protection and State lending laws",
+   "type": "State Act",
+   "status": "In force",
+   "url": "https://tnmoneylending.tn.gov.in/",
+   "issue_date": "2025-06-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ML-KA-AMD2025",
+   "label": "Karnataka Money Lenders (Amendment) 2025: coercive recovery",
+   "title": "Karnataka Money Lenders (Amendment) Act, 2025: shorter licences, ombudsperson, higher penalties and a ban on coercive recovery (s. 38A)",
+   "group": "Consumer protection and State lending laws",
+   "type": "State Act",
+   "status": "In force",
+   "url": "https://dpal.karnataka.gov.in/",
+   "issue_date": "2025-03-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MF-AS",
+   "label": "Assam microfinance money-lending law (2020)",
+   "title": "Assam Micro Finance Institutions (Regulation of Money Lending) Act, 2020",
+   "group": "Consumer protection and State lending laws",
+   "type": "State Act",
+   "status": "In force",
+   "url": "https://legislative.assam.gov.in/documents-detail/the-assam-micro-finance-institutionsregulation-of-money-lending-act-2020assam-act",
+   "issue_date": "2021-01-27",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ML-TN",
+   "label": "Tamil Nadu Money-lenders Act 1957",
+   "title": "Tamil Nadu Money-lenders Act, 1957: licensing of money-lenders, permitted interest and charges, accounts and receipts, and penalties for molesting debtors",
+   "group": "Consumer protection and State lending laws",
+   "type": "State Act",
+   "status": "In force (as amended)",
+   "url": "https://www.cra.tn.gov.in/",
+   "issue_date": "1957-12-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-PSS",
+   "label": "Payment and Settlement Systems Act: e-mandate bounce (s. 25)",
+   "title": "Payment and Settlement Systems Act, 2007: authorisation of payment systems and the offence of dishonour of an electronic funds transfer",
+   "group": "Payments, credit information and anti-money laundering",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://financialservices.gov.in/act-and-policies/4290",
+   "issue_date": "2007-12-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "AMD-PSS-20260817",
+   "label": "PSS Act s. 10A amended (2026)",
+   "title": "Taxation and Other Laws (Amendment) Act, 2026, s. 2: amendment of s. 10A of the Payment and Settlement Systems Act, 2007",
+   "group": "Payments, credit information and anti-money laundering",
+   "type": "Amending Act",
+   "status": "In force",
+   "url": "https://sansad.in/getFile/BillsTexts/LSBillTexts/PassedBothHouses/TAXATION824202654015PM.pdf?source=legislation",
+   "issue_date": "2026-08-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-CICRA",
+   "label": "Credit Information Companies Act: bureau reporting and corrections",
+   "title": "Credit Information Companies (Regulation) Act, 2005: membership of credit bureaus, reporting, accuracy, borrower access and corrections",
+   "group": "Payments, credit information and anti-money laundering",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://financialservices.gov.in/act-and-policies/4413",
+   "issue_date": "2005-06-23",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-CIC",
+   "label": "Credit Information Companies Rules 2006",
+   "title": "Credit Information Companies Rules, 2006 (Department of Financial Services)",
+   "group": "Payments, credit information and anti-money laundering",
+   "type": "Rules",
+   "status": "In force (as amended)",
+   "url": "https://financialservices.gov.in/act-and-policies/4413",
+   "issue_date": "2006-12-14",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REGS-CIC",
+   "label": "Credit Information Companies Regulations 2006",
+   "title": "Credit Information Companies Regulations, 2006 (Reserve Bank of India)",
+   "group": "Payments, credit information and anti-money laundering",
+   "type": "Regulations",
+   "status": "In force (as amended in 2017 and 2021)",
+   "url": "https://financialservices.gov.in/act-and-policies/4413",
+   "issue_date": "2006-12-14",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-FACT",
+   "label": "Registration of Assignment of Receivables Rules 2012",
+   "title": "Registration of Assignment of Receivables Rules, 2012 under the Factoring Regulation Act, 2011 (filing with the Central Registry)",
+   "group": "Mortgages, property and goods as security",
+   "type": "Rules",
+   "status": "In force",
+   "url": "https://financialservices.gov.in/archieve-orders-and-notices?page=80",
+   "issue_date": "2012-04-02",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "DRAFT-REG-BILL-2025",
+   "label": "Draft Registration Bill 2025 (would replace the 1908 Act)",
+   "title": "Registration Bill, 2025 (draft published by the Department of Land Resources for comments)",
+   "group": "Proposed changes",
+   "type": "Bill",
+   "status": "Proposed: draft published for comments; not introduced in Parliament",
+   "url": "https://dolr.gov.in/en/document/department-of-land-resources-ministry-of-rural-development-invites-suggestions-on-draft-the-registration-bill-2025-from-public-within-a-period-of-30-days",
+   "issue_date": "2025-05-27",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "PMB-LS39-2025-CPA",
+   "label": "Private Member's Bill: Consumer Protection (Amendment) 2025",
+   "title": "Consumer Protection (Amendment) Bill, 2025 (Private Member's Bill No. 39 of 2025, Lok Sabha)",
+   "group": "Proposed changes",
+   "type": "Bill",
+   "status": "Proposed: Private Member's Bill pending in the Lok Sabha",
+   "url": "https://sansad.in/getFile/BillsTexts/LSBillTexts/Asintroduced/39%20of%202025%20AS125202595108PM.pdf?source=legislation",
+   "issue_date": "2025-12-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "PMB-LS28-2025-IT",
+   "label": "Private Member's Bill: Information Technology (Amendment) 2025",
+   "title": "Information Technology (Amendment) Bill, 2025 (Private Member's Bill No. 28 of 2025, Lok Sabha)",
+   "group": "Proposed changes",
+   "type": "Bill",
+   "status": "Proposed: Private Member's Bill pending in the Lok Sabha",
+   "url": "https://sansad.in/getFile/BillsTexts/LSBillTexts/Asintroduced/28%20OF%202025%20AS125202594516PM.pdf?source=legislation",
+   "issue_date": "2025-12-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "PMB-LS75-2025-PMLA",
+   "label": "Private Member's Bill: Prevention of Money-laundering (Amendment) 2025",
+   "title": "Prevention of Money-laundering (Amendment) Bill, 2025 (Private Member's Bill No. 75 of 2025, Lok Sabha)",
+   "group": "Proposed changes",
+   "type": "Bill",
+   "status": "Proposed: Private Member's Bill pending in the Lok Sabha",
+   "url": "https://sansad.in/getFile/BillsTexts/LSBillTexts/Asintroduced/75%20of%202025%20As125202592710PM.pdf?source=legislation",
+   "issue_date": "2025-12-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-REPAMD-2025",
+   "label": "Repealing and Amending Act 2025: notices by speed post",
+   "title": "Repealing and Amending Act, 2025: repeal of spent amending Acts and replacement of 'registered post' with 'speed post with registration' in the General Clauses Act and the CPC",
+   "group": "Enforcement and recovery",
+   "type": "Amending Act",
+   "status": "In force",
+   "url": "https://sansad.in/getFile/BillsTexts/LSBillTexts/PassedBothHouses/Reapealing1229202522007PM.pdf?source=legislation",
+   "issue_date": "2025-12-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REGS-PSS",
+   "label": "Board for Payment and Settlement Systems Regulations 2008 (superseded)",
+   "title": "Board for Regulation and Supervision of Payment and Settlement Systems Regulations, 2008",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded by the Payments Regulatory Board Regulations, 2025",
+   "url": "https://financialservices.gov.in/act-and-policies/4290",
+   "issue_date": "2008-08-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-PMLA",
+   "label": "PMLA: records, reporting and enhanced due diligence",
+   "title": "Prevention of Money-laundering Act, 2002: obligations of reporting entities (Chapter IV, ss. 11A-15)",
+   "group": "Payments, credit information and anti-money laundering",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.enforcementdirectorate.gov.in/acts-and-rules/pmla/",
+   "issue_date": "2003-01-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-CHIT",
+   "label": "Chit Funds Act: chit business by companies",
+   "title": "Chit Funds Act, 1982: sanction and registration of chits, and limits on chit fund companies",
+   "group": "Deposits and chit funds",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://chitfund.delhi.gov.in/",
+   "issue_date": "1982-08-19",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "PID-MH",
+   "label": "Maharashtra depositors' protection law (MPID Act)",
+   "title": "Maharashtra Protection of Interest of Depositors (in Financial Establishments) Act, 1999",
+   "group": "Deposits and chit funds",
+   "type": "State Act",
+   "status": "In force",
+   "url": "https://home.maharashtra.gov.in/en/document-category/acts-rules/",
+   "issue_date": "2000-01-21",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ML-MH",
+   "label": "Maharashtra Money-Lending (Regulation) Act 2014",
+   "title": "Maharashtra Money-Lending (Regulation) Act, 2014",
+   "group": "Consumer protection and State lending laws",
+   "type": "State Act",
+   "status": "In force (as amended)",
+   "url": "https://lj.maharashtra.gov.in/en/document-category/reprint-of-the-act/page/80",
+   "issue_date": "2014-01-26",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ML-KA",
+   "label": "Karnataka Money Lenders Act 1961",
+   "title": "Karnataka Money Lenders Act, 1961 (principal Act; see the 2025 amendment for the coercive-recovery ban)",
+   "group": "Consumer protection and State lending laws",
+   "type": "State Act",
+   "status": "In force (as amended)",
+   "url": "https://dpal.karnataka.gov.in/",
+   "issue_date": "1962-03-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ENT-LNDR",
+   "label": "Lender (bank / NBFC / HFC)",
+   "title": "Lender (bank / NBFC / HFC)",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-SEC",
+   "label": "Secured creditor enforcing",
+   "title": "Secured creditor enforcing",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-BORR",
+   "label": "Borrower or guarantor",
+   "title": "Borrower or guarantor",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-MFI",
+   "label": "Microfinance / small-loan lender",
+   "title": "Microfinance / small-loan lender",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-DIG",
+   "label": "Digital lender / payments",
+   "title": "Digital lender / payments",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  }
+ ],
+ "edges": [
+  {
+   "source": "ACT-ICA",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Every lender taking a guarantee, an indemnity or a pledge of goods, shares or other movables; Guarantors (sureties), pawnors and borrowers; Banks, as holders of the general lien in s. 171"
+  },
+  {
+   "source": "ACT-ICA",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every lender taking a guarantee, an indemnity or a pledge of goods, shares or other movables; Guarantors (sureties), pawnors and borrowers; Banks, as holders of the general lien in s. 171"
+  },
+  {
+   "source": "ACT-ICA",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Every lender taking a guarantee, an indemnity or a pledge of goods, shares or other movables; Guarantors (sureties), pawnors and borrowers; Banks, as holders of the general lien in s. 171"
+  },
+  {
+   "source": "ACT-ICA",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Every lender taking a guarantee, an indemnity or a pledge of goods, shares or other movables; Guarantors (sureties), pawnors and borrowers; Banks, as holders of the general lien in s. 171"
+  },
+  {
+   "source": "ACT-ICA",
+   "target": "ACT-TPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-ICA",
+   "target": "ACT-SOGA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-ICA",
+   "target": "ACT-LIM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-ICA",
+   "target": "ACT-SARFAESI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-ICA",
+   "target": "ACT-STAMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-SOGA",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders financing or taking security over goods: vehicles, equipment, inventory and receivables from goods sold; Buyers and sellers of goods, including borrowers who buy goods with borrowed money"
+  },
+  {
+   "source": "ACT-SOGA",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Lenders financing or taking security over goods: vehicles, equipment, inventory and receivables from goods sold; Buyers and sellers of goods, including borrowers who buy goods with borrowed money"
+  },
+  {
+   "source": "ACT-SOGA",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Lenders financing or taking security over goods: vehicles, equipment, inventory and receivables from goods sold; Buyers and sellers of goods, including borrowers who buy goods with borrowed money"
+  },
+  {
+   "source": "ACT-SOGA",
+   "target": "ACT-ICA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-SOGA",
+   "target": "ACT-SARFAESI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-TPA",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders taking a mortgage or charge over land or buildings, including home loans and loans against property; Mortgagors, sureties and later purchasers or lenders over the same property; Lenders buying or selling loan receivables (assignment of actionable claims)"
+  },
+  {
+   "source": "ACT-TPA",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Lenders taking a mortgage or charge over land or buildings, including home loans and loans against property; Mortgagors, sureties and later purchasers or lenders over the same property; Lenders buying or selling loan receivables (assignment of actionable claims)"
+  },
+  {
+   "source": "ACT-TPA",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Lenders taking a mortgage or charge over land or buildings, including home loans and loans against property; Mortgagors, sureties and later purchasers or lenders over the same property; Lenders buying or selling loan receivables (assignment of actionable claims)"
+  },
+  {
+   "source": "ACT-TPA",
+   "target": "ACT-REG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-TPA",
+   "target": "ACT-STAMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-TPA",
+   "target": "ACT-SARFAESI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-TPA",
+   "target": "ACT-ICA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-TPA",
+   "target": "ACT-LIM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-TRUSTS",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders and arrangers using private trusts: securitisation trusts, security trustees for consortium loans and escrow or trust-and-retention accounts; Trustees holding security for lenders"
+  },
+  {
+   "source": "ACT-TRUSTS",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Lenders and arrangers using private trusts: securitisation trusts, security trustees for consortium loans and escrow or trust-and-retention accounts; Trustees holding security for lenders"
+  },
+  {
+   "source": "ACT-TRUSTS",
+   "target": "ACT-TPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-TRUSTS",
+   "target": "ACT-SARFAESI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-AIRCRAFT-2025",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders and lessors financing aircraft, airframes, aircraft engines and helicopters; Indian airline borrowers and lessees"
+  },
+  {
+   "source": "ACT-AIRCRAFT-2025",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Lenders and lessors financing aircraft, airframes, aircraft engines and helicopters; Indian airline borrowers and lessees"
+  },
+  {
+   "source": "ACT-AIRCRAFT-2025",
+   "target": "ACT-SARFAESI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-SARFAESI",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Secured creditors as defined in the Act: banks, financial institutions, including NBFCs and HFCs only where they fall within a Central Government notification and meet its conditions, asset reconstruction companies and debenture trustees; Borrowers and guarantors whose secured assets are enforced; E"
+  },
+  {
+   "source": "ACT-SARFAESI",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Secured creditors as defined in the Act: banks, financial institutions, including NBFCs and HFCs only where they fall within a Central Government notification and meet its conditions, asset reconstruction companies and debenture trustees; Borrowers and guarantors whose secured assets are enforced; E"
+  },
+  {
+   "source": "ACT-SARFAESI",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Secured creditors as defined in the Act: banks, financial institutions, including NBFCs and HFCs only where they fall within a Central Government notification and meet its conditions, asset reconstruction companies and debenture trustees; Borrowers and guarantors whose secured assets are enforced; E"
+  },
+  {
+   "source": "ACT-SARFAESI",
+   "target": "ACT-RDB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-SARFAESI",
+   "target": "ACT-TPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-SARFAESI",
+   "target": "ACT-ICA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-SARFAESI",
+   "target": "ACT-LIM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-SARFAESI",
+   "target": "ACT-AIRCRAFT-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-RDB",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Banks, notified financial institutions, asset reconstruction companies and debenture trustees for secured debt securities; Borrowers and guarantors sued for debts of Rs 10 lakh or more (or other notified amount, not below Rs 1 lakh)"
+  },
+  {
+   "source": "ACT-RDB",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Banks, notified financial institutions, asset reconstruction companies and debenture trustees for secured debt securities; Borrowers and guarantors sued for debts of Rs 10 lakh or more (or other notified amount, not below Rs 1 lakh)"
+  },
+  {
+   "source": "ACT-RDB",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Banks, notified financial institutions, asset reconstruction companies and debenture trustees for secured debt securities; Borrowers and guarantors sued for debts of Rs 10 lakh or more (or other notified amount, not below Rs 1 lakh)"
+  },
+  {
+   "source": "ACT-RDB",
+   "target": "ACT-SARFAESI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-RDB",
+   "target": "AMD-RDB-20260813",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-RDB",
+   "target": "ACT-LIM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-RDB-20260813",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Debts Recovery Tribunals and Appellate Tribunals; National and State consumer commissions"
+  },
+  {
+   "source": "AMD-RDB-20260813",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Debts Recovery Tribunals and Appellate Tribunals; National and State consumer commissions"
+  },
+  {
+   "source": "AMD-RDB-20260813",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Debts Recovery Tribunals and Appellate Tribunals; National and State consumer commissions"
+  },
+  {
+   "source": "AMD-RDB-20260813",
+   "target": "ACT-RDB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-RDB-20260813",
+   "target": "ACT-CPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-LIM",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Every lender suing to recover a loan or enforce a mortgage, and borrowers and guarantors raising limitation as a defence"
+  },
+  {
+   "source": "ACT-LIM",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every lender suing to recover a loan or enforce a mortgage, and borrowers and guarantors raising limitation as a defence"
+  },
+  {
+   "source": "ACT-LIM",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Every lender suing to recover a loan or enforce a mortgage, and borrowers and guarantors raising limitation as a defence"
+  },
+  {
+   "source": "ACT-LIM",
+   "target": "ACT-ICA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-LIM",
+   "target": "ACT-TPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-LIM",
+   "target": "ACT-SARFAESI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-LIM",
+   "target": "ACT-RDB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-LIM",
+   "target": "ACT-NI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-SRA",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders enforcing security documents, undertakings and agreements to create security; Borrowers seeking injunctions against enforcement"
+  },
+  {
+   "source": "ACT-SRA",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Lenders enforcing security documents, undertakings and agreements to create security; Borrowers seeking injunctions against enforcement"
+  },
+  {
+   "source": "ACT-SRA",
+   "target": "ACT-ICA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-NI",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders holding post-dated or security cheques and promissory notes from borrowers or guarantors; Drawers of cheques, and directors and officers of company drawers (s. 141)"
+  },
+  {
+   "source": "ACT-NI",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Lenders holding post-dated or security cheques and promissory notes from borrowers or guarantors; Drawers of cheques, and directors and officers of company drawers (s. 141)"
+  },
+  {
+   "source": "ACT-NI",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Lenders holding post-dated or security cheques and promissory notes from borrowers or guarantors; Drawers of cheques, and directors and officers of company drawers (s. 141)"
+  },
+  {
+   "source": "ACT-NI",
+   "target": "ACT-PSS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-NI",
+   "target": "ACT-LIM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-NI",
+   "target": "ACT-ICA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-STAMP",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Every lender executing loan, security or guarantee documents in India; Borrowers and guarantors who execute them"
+  },
+  {
+   "source": "ACT-STAMP",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every lender executing loan, security or guarantee documents in India; Borrowers and guarantors who execute them"
+  },
+  {
+   "source": "ACT-STAMP",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Every lender executing loan, security or guarantee documents in India; Borrowers and guarantors who execute them"
+  },
+  {
+   "source": "ACT-STAMP",
+   "target": "STAMP-MH",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-STAMP",
+   "target": "STAMP-STATES",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-STAMP",
+   "target": "ACT-REG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-STAMP",
+   "target": "ACT-TPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "STAMP-MH",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders taking mortgages, title-deed deposits, pledges or hypothecations over property in Maharashtra or under documents executed there"
+  },
+  {
+   "source": "STAMP-MH",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Lenders taking mortgages, title-deed deposits, pledges or hypothecations over property in Maharashtra or under documents executed there"
+  },
+  {
+   "source": "STAMP-MH",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Lenders taking mortgages, title-deed deposits, pledges or hypothecations over property in Maharashtra or under documents executed there"
+  },
+  {
+   "source": "STAMP-MH",
+   "target": "ACT-STAMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "STAMP-MH",
+   "target": "ACT-REG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "STAMP-STATES",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders executing or holding loan and security documents in Delhi, Uttar Pradesh or Tamil Nadu"
+  },
+  {
+   "source": "STAMP-STATES",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Lenders executing or holding loan and security documents in Delhi, Uttar Pradesh or Tamil Nadu"
+  },
+  {
+   "source": "STAMP-STATES",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Lenders executing or holding loan and security documents in Delhi, Uttar Pradesh or Tamil Nadu"
+  },
+  {
+   "source": "STAMP-STATES",
+   "target": "ACT-STAMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "STAMP-STATES",
+   "target": "STAMP-MH",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-REG",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders taking registered mortgages, releases or assignments of rights in immovable property; Borrowers executing those documents"
+  },
+  {
+   "source": "ACT-REG",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Lenders taking registered mortgages, releases or assignments of rights in immovable property; Borrowers executing those documents"
+  },
+  {
+   "source": "ACT-REG",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Lenders taking registered mortgages, releases or assignments of rights in immovable property; Borrowers executing those documents"
+  },
+  {
+   "source": "ACT-REG",
+   "target": "ACT-TPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-REG",
+   "target": "ACT-STAMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-REG",
+   "target": "DRAFT-REG-BILL-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-BSA",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders relying on e-signed loan agreements, digital KYC, emails, app logs and system statements in court or tribunal proceedings"
+  },
+  {
+   "source": "ACT-BSA",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Lenders relying on e-signed loan agreements, digital KYC, emails, app logs and system statements in court or tribunal proceedings"
+  },
+  {
+   "source": "ACT-BSA",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "Lenders relying on e-signed loan agreements, digital KYC, emails, app logs and system statements in court or tribunal proceedings"
+  },
+  {
+   "source": "ACT-BSA",
+   "target": "ACT-BBE-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-BBE-2026",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Banks and any entity or class of entities in the financial sector to whose books the Central Government extends the Act by notification (ss. 2(1)(a), 4); Post office savings banks and money order offices"
+  },
+  {
+   "source": "ACT-BBE-2026",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Banks and any entity or class of entities in the financial sector to whose books the Central Government extends the Act by notification (ss. 2(1)(a), 4); Post office savings banks and money order offices"
+  },
+  {
+   "source": "ACT-BBE-2026",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "Banks and any entity or class of entities in the financial sector to whose books the Central Government extends the Act by notification (ss. 2(1)(a), 4); Post office savings banks and money order offices"
+  },
+  {
+   "source": "ACT-BBE-2026",
+   "target": "ACT-BSA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-BBE-2026",
+   "target": "ACT-RDB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-BBE-2026",
+   "target": "ACT-SARFAESI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-CPA",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Banks, NBFCs, HFCs and other lenders, as providers of a service; Borrowers and other consumers of financial services"
+  },
+  {
+   "source": "ACT-CPA",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Banks, NBFCs, HFCs and other lenders, as providers of a service; Borrowers and other consumers of financial services"
+  },
+  {
+   "source": "ACT-CPA",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Banks, NBFCs, HFCs and other lenders, as providers of a service; Borrowers and other consumers of financial services"
+  },
+  {
+   "source": "ACT-CPA",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "Banks, NBFCs, HFCs and other lenders, as providers of a service; Borrowers and other consumers of financial services"
+  },
+  {
+   "source": "ACT-CPA",
+   "target": "AMD-RDB-20260813",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-CPA",
+   "target": "PMB-LS39-2025-CPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MF-TN",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "All money lending entities in Tamil Nadu (microfinance institutions, money lending agencies, firms, persons and digital lending platforms), except banks, RBI-registered NBFCs, co-operative banks and co-operative societies (s. 2); RBI-registered NBFCs, co-operative banks and co-operative societies fo"
+  },
+  {
+   "source": "MF-TN",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "All money lending entities in Tamil Nadu (microfinance institutions, money lending agencies, firms, persons and digital lending platforms), except banks, RBI-registered NBFCs, co-operative banks and co-operative societies (s. 2); RBI-registered NBFCs, co-operative banks and co-operative societies fo"
+  },
+  {
+   "source": "MF-TN",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "All money lending entities in Tamil Nadu (microfinance institutions, money lending agencies, firms, persons and digital lending platforms), except banks, RBI-registered NBFCs, co-operative banks and co-operative societies (s. 2); RBI-registered NBFCs, co-operative banks and co-operative societies fo"
+  },
+  {
+   "source": "MF-TN",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "All money lending entities in Tamil Nadu (microfinance institutions, money lending agencies, firms, persons and digital lending platforms), except banks, RBI-registered NBFCs, co-operative banks and co-operative societies (s. 2); RBI-registered NBFCs, co-operative banks and co-operative societies fo"
+  },
+  {
+   "source": "MF-TN",
+   "target": "ML-KA-AMD2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MF-TN",
+   "target": "MF-AS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MF-TN",
+   "target": "ML-TN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ML-KA-AMD2025",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Money lenders licensed or unlicensed under the Karnataka Money Lenders Act, 1961; Borrowers in Karnataka"
+  },
+  {
+   "source": "ML-KA-AMD2025",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Money lenders licensed or unlicensed under the Karnataka Money Lenders Act, 1961; Borrowers in Karnataka"
+  },
+  {
+   "source": "ML-KA-AMD2025",
+   "target": "MF-TN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ML-KA-AMD2025",
+   "target": "ML-KA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MF-AS",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Micro finance institutions and money lending agencies or organisations in Assam, including companies, NBFCs as defined in the Act and societies, whose principal or incidental activity is lending to poor or below-poverty-line borrowers"
+  },
+  {
+   "source": "MF-AS",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Micro finance institutions and money lending agencies or organisations in Assam, including companies, NBFCs as defined in the Act and societies, whose principal or incidental activity is lending to poor or below-poverty-line borrowers"
+  },
+  {
+   "source": "MF-AS",
+   "target": "MF-TN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ML-TN",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Money-lenders carrying on business in Tamil Nadu, as defined in the Act"
+  },
+  {
+   "source": "ML-TN",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Money-lenders carrying on business in Tamil Nadu, as defined in the Act"
+  },
+  {
+   "source": "ML-TN",
+   "target": "MF-TN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-PSS",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders collecting EMIs through ECS, NACH or other electronic mandates; Payment system operators and banks"
+  },
+  {
+   "source": "ACT-PSS",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Lenders collecting EMIs through ECS, NACH or other electronic mandates; Payment system operators and banks"
+  },
+  {
+   "source": "ACT-PSS",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "Lenders collecting EMIs through ECS, NACH or other electronic mandates; Payment system operators and banks"
+  },
+  {
+   "source": "ACT-PSS",
+   "target": "ACT-NI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-PSS",
+   "target": "AMD-PSS-20260817",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-PSS",
+   "target": "REGS-PSS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-PSS-20260817",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Banks and payment system providers"
+  },
+  {
+   "source": "AMD-PSS-20260817",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "Banks and payment system providers"
+  },
+  {
+   "source": "AMD-PSS-20260817",
+   "target": "ACT-PSS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-CICRA",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Credit institutions (banks, NBFCs, HFCs and others notified), credit information companies and specified users; Borrowers whose credit information is reported"
+  },
+  {
+   "source": "ACT-CICRA",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Credit institutions (banks, NBFCs, HFCs and others notified), credit information companies and specified users; Borrowers whose credit information is reported"
+  },
+  {
+   "source": "ACT-CICRA",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Credit institutions (banks, NBFCs, HFCs and others notified), credit information companies and specified users; Borrowers whose credit information is reported"
+  },
+  {
+   "source": "ACT-CICRA",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "Credit institutions (banks, NBFCs, HFCs and others notified), credit information companies and specified users; Borrowers whose credit information is reported"
+  },
+  {
+   "source": "ACT-CICRA",
+   "target": "RULES-CIC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-CICRA",
+   "target": "REGS-CIC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-CIC",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Credit institutions, credit information companies and specified users"
+  },
+  {
+   "source": "RULES-CIC",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "Credit institutions, credit information companies and specified users"
+  },
+  {
+   "source": "RULES-CIC",
+   "target": "ACT-CICRA",
+   "relation": "issued_under",
+   "basis": "Made under the parent Act"
+  },
+  {
+   "source": "RULES-CIC",
+   "target": "ACT-CICRA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-CIC",
+   "target": "REGS-CIC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REGS-CIC",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Credit institutions, credit information companies and specified users"
+  },
+  {
+   "source": "REGS-CIC",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "Credit institutions, credit information companies and specified users"
+  },
+  {
+   "source": "REGS-CIC",
+   "target": "ACT-CICRA",
+   "relation": "issued_under",
+   "basis": "Made under the parent Act"
+  },
+  {
+   "source": "REGS-CIC",
+   "target": "ACT-CICRA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REGS-CIC",
+   "target": "RULES-CIC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-FACT",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Factors and other assignees of receivables"
+  },
+  {
+   "source": "RULES-FACT",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Factors and other assignees of receivables"
+  },
+  {
+   "source": "RULES-FACT",
+   "target": "ACT-SARFAESI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "DRAFT-REG-BILL-2025",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Lenders taking mortgages by deposit of title-deeds and other security over immovable property; Property owners and borrowers"
+  },
+  {
+   "source": "DRAFT-REG-BILL-2025",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Lenders taking mortgages by deposit of title-deeds and other security over immovable property; Property owners and borrowers"
+  },
+  {
+   "source": "DRAFT-REG-BILL-2025",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Lenders taking mortgages by deposit of title-deeds and other security over immovable property; Property owners and borrowers"
+  },
+  {
+   "source": "DRAFT-REG-BILL-2025",
+   "target": "ACT-REG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "DRAFT-REG-BILL-2025",
+   "target": "ACT-TPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "PMB-LS39-2025-CPA",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Consumers and service providers under the Consumer Protection Act, 2019"
+  },
+  {
+   "source": "PMB-LS39-2025-CPA",
+   "target": "ACT-CPA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "PMB-LS28-2025-IT",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "Intermediaries and others under the Information Technology Act, 2000"
+  },
+  {
+   "source": "PMB-LS75-2025-PMLA",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Reporting entities under the PMLA"
+  },
+  {
+   "source": "ACT-REPAMD-2025",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Every lender serving statutory notices by post, including SARFAESI and NI Act demand notices"
+  },
+  {
+   "source": "ACT-REPAMD-2025",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every lender serving statutory notices by post, including SARFAESI and NI Act demand notices"
+  },
+  {
+   "source": "ACT-REPAMD-2025",
+   "target": "ACT-NI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-REPAMD-2025",
+   "target": "ACT-SARFAESI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REGS-PSS",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "RBI's payment systems oversight board (historical)"
+  },
+  {
+   "source": "REGS-PSS",
+   "target": "ACT-PSS",
+   "relation": "issued_under",
+   "basis": "Made under the parent Act"
+  },
+  {
+   "source": "REGS-PSS",
+   "target": "ACT-PSS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-PMLA",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Reporting entities: banking companies, financial institutions (which include NBFCs, housing finance institutions, chit fund companies and payment system operators), intermediaries and persons carrying on designated businesses (ss. 2(1)(l), 2(1)(wa)); Designated directors and employees of reporting e"
+  },
+  {
+   "source": "ACT-PMLA",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Reporting entities: banking companies, financial institutions (which include NBFCs, housing finance institutions, chit fund companies and payment system operators), intermediaries and persons carrying on designated businesses (ss. 2(1)(l), 2(1)(wa)); Designated directors and employees of reporting e"
+  },
+  {
+   "source": "ACT-PMLA",
+   "target": "ENT-DIG",
+   "relation": "applies_to",
+   "basis": "Reporting entities: banking companies, financial institutions (which include NBFCs, housing finance institutions, chit fund companies and payment system operators), intermediaries and persons carrying on designated businesses (ss. 2(1)(l), 2(1)(wa)); Designated directors and employees of reporting e"
+  },
+  {
+   "source": "ACT-PMLA",
+   "target": "ACT-CICRA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-PMLA",
+   "target": "PMB-LS75-2025-PMLA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-CHIT",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Foremen and companies conducting chits; Groups and lenders that might run chit or chit-like schemes"
+  },
+  {
+   "source": "ACT-CHIT",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Foremen and companies conducting chits; Groups and lenders that might run chit or chit-like schemes"
+  },
+  {
+   "source": "ACT-CHIT",
+   "target": "ACT-PMLA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-CHIT",
+   "target": "PID-MH",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "PID-MH",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Any person accepting deposits in Maharashtra under any scheme or arrangement, other than banking companies and corporations or co-operative societies owned or controlled by the Government (s. 2(d))"
+  },
+  {
+   "source": "PID-MH",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Any person accepting deposits in Maharashtra under any scheme or arrangement, other than banking companies and corporations or co-operative societies owned or controlled by the Government (s. 2(d))"
+  },
+  {
+   "source": "PID-MH",
+   "target": "ACT-CHIT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ML-MH",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Money-lenders in Maharashtra: individuals, Hindu undivided families, companies other than RBI-regulated NBFCs, and unincorporated bodies, including pawn-brokers (s. 2(14))"
+  },
+  {
+   "source": "ML-MH",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Money-lenders in Maharashtra: individuals, Hindu undivided families, companies other than RBI-regulated NBFCs, and unincorporated bodies, including pawn-brokers (s. 2(14))"
+  },
+  {
+   "source": "ML-MH",
+   "target": "MF-TN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ML-MH",
+   "target": "ML-KA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ML-KA",
+   "target": "ENT-MFI",
+   "relation": "applies_to",
+   "basis": "Money lenders carrying on business in Karnataka, as defined in the Act"
+  },
+  {
+   "source": "ML-KA",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Money lenders carrying on business in Karnataka, as defined in the Act"
+  },
+  {
+   "source": "ML-KA",
+   "target": "ML-KA-AMD2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  }
+ ]
+}

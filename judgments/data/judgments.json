@@ -2,7 +2,7 @@
  "meta": {
   "title": "Key judgments for financial services",
   "as_of": "2026-11-26",
-  "count": 34,
+  "count": 44,
   "sectors": [
    {
     "key": "lending",
@@ -76,6 +76,45 @@
    "status": "Current",
    "status_note": "Applies the Constitution Bench ruling in Central Organisation for Railway Electrification (2024).",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2026/english/2026_1_30_90_EN.pdf"
+  },
+  {
+   "id": "TARI",
+   "title": "Sanjabij Tari v. Kishore S. Borcar",
+   "court": "Supreme Court",
+   "date": "2025-09-25",
+   "neutral_citation": "2025 INSC 1158",
+   "report_citation": "[2025] 9 SCR 1515",
+   "case_no": "Criminal Appeal No. 1755 of 2010",
+   "bench": "Manmohan and N.V. Anjaria JJ.",
+   "topic": "Cheque bounce: presumptions and trial directions",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "How should trial courts apply the statutory presumptions in cheque-dishonour cases, and how should the backlog be handled?",
+   "holding": [
+    "Courts must give effect to the presumptions in sections 118 and 139 of the NI Act. Treating a section 138 case as a civil recovery suit and asking the complainant to prove the underlying debt is contrary to what Parliament intended.",
+    "The Court issued directions for all section 138 cases: summons may also be served by the complainant ('dasti') and electronically, with an affidavit of service; district courts are to set up online payment by QR code or UPI so that the accused can pay and the case be compounded or closed; every complaint must carry a synopsis in a set format; and no pre-cognizance summons under section 223 of the BNSS is needed.",
+    "Trial courts must record reasons before converting a summary trial into a summons trial."
+   ],
+   "impact": [
+    "Lenders filing section 138 complaints should use the synopsis format and the faster service routes, and can expect earlier settlement through online payment.",
+    "The burden is on the drawer to rebut the presumption that the cheque was for a debt or liability."
+   ],
+   "statutes": [
+    "Negotiable Instruments Act, 1881, ss. 118, 138, 139, 143, 147",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023, s. 223"
+   ],
+   "links": [
+    {
+     "section": "laws",
+     "id": "ACT-NI",
+     "label": "NI Act: cheque bounce (s. 138)",
+     "href": "../other-laws/#d/ACT-NI"
+    }
+   ],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2025/english/2025_9_1515_1538_EN.pdf"
   },
   {
    "id": "PNBHF",
@@ -384,6 +423,52 @@
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_16_695_723_EN.pdf"
   },
   {
+   "id": "INTERPLAY",
+   "title": "In re: Interplay between Arbitration Agreements under the Arbitration and Conciliation Act, 1996 and the Indian Stamp Act, 1899",
+   "court": "Supreme Court",
+   "date": "2023-12-13",
+   "neutral_citation": "2023 INSC 1066",
+   "report_citation": "[2023] 15 SCR 1081",
+   "case_no": "Curative Petition (C) No. 44 of 2023 in Review Petition (C) No. 704 of 2021 in Civil Appeal No. 1599 of 2020",
+   "bench": "D.Y. Chandrachud CJI, Sanjay Kishan Kaul, Sanjiv Khanna, B.R. Gavai, Surya Kant, J.B. Pardiwala and Manoj Misra JJ.",
+   "topic": "Unstamped agreements and arbitration",
+   "sectors": [
+    "lending",
+    "hfc"
+   ],
+   "issue": "Is an arbitration agreement in an unstamped or insufficiently stamped contract void, and must the court deal with stamping before appointing an arbitrator?",
+   "holding": [
+    "An unstamped or insufficiently stamped agreement is inadmissible in evidence under section 35 of the Stamp Act, but it is not void, void from the start or unenforceable. Non-stamping is a curable defect, and the Stamp Act itself sets out how it is cured.",
+    "Admissibility and validity are different questions: a valid agreement can be inadmissible until the duty and penalty are paid.",
+    "When deciding applications under sections 8 or 11 of the Arbitration Act, the court only examines whether an arbitration agreement prima facie exists. Objections on stamping are for the arbitral tribunal. The five-judge ruling in N.N. Global (2023) was overruled on this point."
+   ],
+   "impact": [
+    "A lender's loan agreement or guarantee that was not properly stamped can still be enforced once the deficit duty and penalty are paid, but it cannot be relied on in evidence until then. Stamping at execution remains the safe course, because the penalty for late stamping can be many times the duty.",
+    "Borrowers cannot block the appointment of an arbitrator by objecting to stamping; the tribunal will deal with it."
+   ],
+   "statutes": [
+    "Indian Stamp Act, 1899, ss. 33, 35, 42",
+    "Arbitration and Conciliation Act, 1996, ss. 5, 8, 11, 16"
+   ],
+   "links": [
+    {
+     "section": "laws",
+     "id": "ACT-STAMP",
+     "label": "Indian Stamp Act: duty on loan and security documents",
+     "href": "../other-laws/#d/ACT-STAMP"
+    },
+    {
+     "section": "laws",
+     "id": "ACT-ICA",
+     "label": "Indian Contract Act: guarantee, indemnity, pledge, lien",
+     "href": "../other-laws/#d/ACT-ICA"
+    }
+   ],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_15_1081_1212_EN.pdf"
+  },
+  {
    "id": "JIWRAJKA",
    "title": "Dilip B. Jiwrajka v. Union of India",
    "court": "Supreme Court",
@@ -572,6 +657,45 @@
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_7_476_529_EN.pdf"
   },
   {
+   "id": "GIRNAR",
+   "title": "Kotak Mahindra Bank Ltd v. Girnar Corrugators Pvt Ltd",
+   "court": "Supreme Court",
+   "date": "2023-01-05",
+   "neutral_citation": "2023 INSC 12",
+   "report_citation": "[2023] 1 SCR 873",
+   "case_no": "Civil Appeal No. 6662 of 2022",
+   "bench": "M.R. Shah and Krishna Murari JJ.",
+   "topic": "SARFAESI priority over MSME dues",
+   "sectors": [
+    "lending",
+    "hfc"
+   ],
+   "issue": "Does recovery under the MSMED Act prevail over a secured creditor's enforcement under SARFAESI?",
+   "holding": [
+    "The MSMED Act provides a forum for buyer-seller disputes but gives no priority over secured creditors. Section 26E of SARFAESI gives a secured creditor with a registered security interest priority over other debts and Government dues, subject to the IBC.",
+    "Recoveries under SARFAESI from secured assets prevail over recoveries under the MSMED Act; there is no repugnancy between the two Acts.",
+    "The Magistrate under section 14 only assists the secured creditor to take possession and cannot adjudicate; challenges go to the DRT under section 17."
+   ],
+   "impact": [
+    "Registering the security interest with CERSAI matters: section 26E priority depends on registration."
+   ],
+   "statutes": [
+    "SARFAESI Act, 2002, ss. 14, 17, 26E",
+    "Micro, Small and Medium Enterprises Development Act, 2006, ss. 15-24"
+   ],
+   "links": [
+    {
+     "section": "laws",
+     "id": "ACT-SARFAESI",
+     "label": "SARFAESI Act: enforcing security without court",
+     "href": "../other-laws/#d/ACT-SARFAESI"
+    }
+   ],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_1_873_886_EN.pdf"
+  },
+  {
    "id": "FT-2022",
    "title": "Franklin Templeton Trustee Services Pvt Ltd v. Amruta Garg (August 2022)",
    "court": "Supreme Court",
@@ -613,6 +737,45 @@
    "status": "Current",
    "status_note": "Decided under the 1996 Regulations, which the SEBI (Mutual Funds) Regulations, 2026 replaced from 1 April 2026. The 2026 Regulations follow this ruling.",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2022/english/2022_6_880_887_EN.pdf"
+  },
+  {
+   "id": "PTCIFS",
+   "title": "PTC India Financial Services Ltd v. Venkateswarlu Kari",
+   "court": "Supreme Court",
+   "date": "2022-05-12",
+   "neutral_citation": "2022 INSC 562",
+   "report_citation": "[2022] 9 SCR 1063",
+   "case_no": "Civil Appeal No. 5443 of 2019",
+   "bench": "Sanjiv Khanna and M.R. Shah JJ.",
+   "topic": "Pledge of demat shares",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "When a lender invokes a pledge of dematerialised shares and is recorded as beneficial owner, has it 'sold' them and must it credit their value against the debt?",
+   "holding": [
+    "The Depositories Act and its regulations add to, and do not displace, the pledge provisions of the Contract Act.",
+    "Recording the pledgee as beneficial owner on invocation is not a sale; it only enables the pledgee to sell. The pledge is not discharged, and the pledgee need not account for the shares until an actual sale.",
+    "The notice under section 176 before sale is mandatory and parties cannot contract out of it. The pledgor may redeem under section 177 until the actual sale. A pledgee cannot sell to itself."
+   ],
+   "impact": [
+    "A lender invoking a share pledge must still give reasonable notice and sell to a third party, and should credit the borrower only with the actual sale proceeds. Until then the borrower can redeem."
+   ],
+   "statutes": [
+    "Indian Contract Act, 1872, ss. 172, 176, 177",
+    "Depositories Act, 1996",
+    "SEBI (Depositories and Participants) Regulations, 1996, reg. 58"
+   ],
+   "links": [
+    {
+     "section": "laws",
+     "id": "ACT-ICA",
+     "label": "Indian Contract Act: guarantee, indemnity, pledge, lien",
+     "href": "../other-laws/#d/ACT-ICA"
+    }
+   ],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2022/english/2022_9_1063_1128_EN.pdf"
   },
   {
    "id": "PUNNEN",
@@ -705,6 +868,56 @@
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_11_1138_1180_EN.pdf"
+  },
+  {
+   "id": "DENA",
+   "title": "Dena Bank (now Bank of Baroda) v. C. Shivakumar Reddy",
+   "court": "Supreme Court",
+   "date": "2021-08-04",
+   "neutral_citation": "2021 INSC 380",
+   "report_citation": "[2021] 8 SCR 1061",
+   "case_no": "Civil Appeal No. 1650 of 2020",
+   "bench": "Indira Banerjee and V. Ramasubramanian JJ.",
+   "topic": "Balance sheet entries and limitation",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "When does limitation run for a lender's insolvency application, and do acknowledgements and recovery decrees restart it?",
+   "holding": [
+    "An application under section 7 or 9 of the IBC is governed by Article 137 of the Limitation Act: three years from the date of default.",
+    "An acknowledgement of a subsisting liability in writing under section 18 of the Limitation Act, which can include an entry in the company's balance sheet, gives a fresh period of limitation.",
+    "A final decree or a DRT recovery certificate gives the creditor a fresh cause of action to file within three years of it."
+   ],
+   "impact": [
+    "Lenders should track acknowledgements (balance sheets, restructuring letters, one-time settlement proposals) to keep claims alive, and can rely on a recovery certificate to start a later insolvency application."
+   ],
+   "statutes": [
+    "Limitation Act, 1963, s. 18, Art. 137",
+    "Insolvency and Bankruptcy Code, 2016, s. 7"
+   ],
+   "links": [
+    {
+     "section": "laws",
+     "id": "ACT-LIM",
+     "label": "Limitation Act: time limits for recovery suits",
+     "href": "../other-laws/#d/ACT-LIM"
+    },
+    {
+     "section": "laws",
+     "id": "ACT-RDB",
+     "label": "RDB Act: Debts Recovery Tribunals",
+     "href": "../other-laws/#d/ACT-RDB"
+    },
+    {
+     "section": "ibc",
+     "id": "CODE",
+     "label": "IBC, 2016",
+     "href": "../ibc/#d/CODE"
+    }
+   ],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_8_1061_1139_EN.pdf"
   },
   {
    "id": "FT-2021B",
@@ -838,6 +1051,56 @@
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_15_1_95_EN.pdf"
   },
   {
+   "id": "MOHANRAJ",
+   "title": "P. Mohanraj v. Shah Brothers Ispat Pvt Ltd",
+   "court": "Supreme Court",
+   "date": "2021-03-01",
+   "neutral_citation": "2021 INSC 133",
+   "report_citation": "[2021] 14 SCR 204",
+   "case_no": "Civil Appeal No. 10355 of 2018",
+   "bench": "R.F. Nariman, Navin Sinha and K.M. Joseph JJ.",
+   "topic": "Cheque bounce cases and the IBC moratorium",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "Does the IBC moratorium stop section 138 cheque-dishonour cases against a company in insolvency and its directors?",
+   "holding": [
+    "A section 138/141 proceeding against the corporate debtor is a 'proceeding' covered by the moratorium under section 14(1)(a) of the IBC, so it cannot be started or continued against the company during the moratorium.",
+    "The moratorium protects only the corporate debtor. Directors and other persons in charge named in section 141 of the NI Act remain liable and can be prosecuted.",
+    "Under section 14(3)(b), a surety under a guarantee of the corporate debtor's debt gets no benefit of the moratorium."
+   ],
+   "impact": [
+    "When a corporate borrower enters insolvency, a lender holding dishonoured cheques can still proceed against its signatory directors, and can enforce guarantees, but not against the company itself during the moratorium."
+   ],
+   "statutes": [
+    "Negotiable Instruments Act, 1881, ss. 138, 141",
+    "Insolvency and Bankruptcy Code, 2016, s. 14"
+   ],
+   "links": [
+    {
+     "section": "laws",
+     "id": "ACT-NI",
+     "label": "NI Act: cheque bounce (s. 138)",
+     "href": "../other-laws/#d/ACT-NI"
+    },
+    {
+     "section": "laws",
+     "id": "ACT-ICA",
+     "label": "Indian Contract Act: guarantee, indemnity, pledge, lien",
+     "href": "../other-laws/#d/ACT-ICA"
+    },
+    {
+     "section": "ibc",
+     "id": "CODE",
+     "label": "IBC, 2016",
+     "href": "../ibc/#d/CODE"
+    }
+   ],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_14_204_320_EN.pdf"
+  },
+  {
    "id": "FT-2021A",
    "title": "Franklin Templeton Trustee Services Pvt Ltd v. Amruta Garg (February 2021)",
    "court": "Supreme Court",
@@ -927,6 +1190,89 @@
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_14_895_1160_EN.pdf"
+  },
+  {
+   "id": "DROLIA",
+   "title": "Vidya Drolia v. Durga Trading Corporation",
+   "court": "Supreme Court",
+   "date": "2020-12-14",
+   "neutral_citation": "2020 INSC 697",
+   "report_citation": "[2020] 11 SCR 1001",
+   "case_no": "Civil Appeal No. 2402 of 2019",
+   "bench": "N.V. Ramana, Sanjiv Khanna and Krishna Murari JJ.",
+   "topic": "Debt recovery disputes are not arbitrable",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "When is a dispute not arbitrable, and can claims that fall within the Debts Recovery Tribunal's jurisdiction be referred to arbitration?",
+   "holding": [
+    "A dispute is not arbitrable where it relates to rights in rem, affects third parties and needs centralised adjudication, concerns sovereign or public functions of the State, or is made non-arbitrable expressly or by necessary implication by a mandatory statute.",
+    "Matters covered by the Recovery of Debts and Bankruptcy Act, 1993 are not arbitrable. The Court overruled the Delhi High Court Full Bench in HDFC Bank Ltd v. Satpal Singh Bakshi, which had held them arbitrable.",
+    "At the stage of sections 8 and 11 the court interferes only where the agreement is plainly non-existent or invalid or the dispute is plainly non-arbitrable: 'when in doubt, do refer'."
+   ],
+   "impact": [
+    "Banks and financial institutions entitled to use the DRT cannot take claims that fall within the DRT's jurisdiction (debts at or above the RDB Act s. 1(4) threshold: Rs 10 lakh in the Act, or another amount the Central Government notifies) to arbitration instead. Lenders that cannot use the DRT, such as NBFCs not notified as financial institutions under the RDB Act, commonly use arbitration for recovery."
+   ],
+   "statutes": [
+    "Arbitration and Conciliation Act, 1996, ss. 2(3), 8, 11",
+    "Recovery of Debts and Bankruptcy Act, 1993, ss. 17, 18",
+    "Transfer of Property Act, 1882"
+   ],
+   "links": [
+    {
+     "section": "laws",
+     "id": "ACT-RDB",
+     "label": "RDB Act: Debts Recovery Tribunals",
+     "href": "../other-laws/#d/ACT-RDB"
+    },
+    {
+     "section": "laws",
+     "id": "ACT-SARFAESI",
+     "label": "SARFAESI Act: enforcing security without court",
+     "href": "../other-laws/#d/ACT-SARFAESI"
+    }
+   ],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2020/english/2020_11_1001_1180_EN.pdf"
+  },
+  {
+   "id": "KHOTKAR",
+   "title": "Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal",
+   "court": "Supreme Court",
+   "date": "2020-07-14",
+   "neutral_citation": "2020 INSC 453",
+   "report_citation": "[2020] 7 SCR 180",
+   "case_no": "Civil Appeal Nos. 20825-20826 of 2017",
+   "bench": "R.F. Nariman, S. Ravindra Bhat and V. Ramasubramanian JJ.",
+   "topic": "Electronic records as evidence",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "Is a certificate always needed to prove an electronic record, and when can it be produced?",
+   "holding": [
+    "Sections 65A and 65B of the Evidence Act are a complete code for admitting electronic records. A written certificate under section 65B(4) is a condition for admissibility of a copy; oral evidence cannot replace it.",
+    "No certificate is needed when the original device is itself produced.",
+    "The certificate can be directed to be produced at any stage before the trial ends."
+   ],
+   "impact": [
+    "Loan files, e-agreements, statements of account and call or message records relied on in recovery suits, arbitration or cheque cases need the certificate. Since 01-07-2024 the rule is in section 63 of the Bharatiya Sakshya Adhiniyam, 2023, which prescribes the certificate in its Schedule."
+   ],
+   "statutes": [
+    "Indian Evidence Act, 1872, ss. 65A, 65B (now Bharatiya Sakshya Adhiniyam, 2023, ss. 62, 63)",
+    "Information Technology Act, 2000"
+   ],
+   "links": [
+    {
+     "section": "laws",
+     "id": "ACT-BSA",
+     "label": "Bharatiya Sakshya Adhiniyam: electronic records as evidence",
+     "href": "../other-laws/#d/ACT-BSA"
+    }
+   ],
+   "status": "Current",
+   "status_note": "Decided under the Evidence Act; the same rule now sits in s. 63 of the Bharatiya Sakshya Adhiniyam, 2023.",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2020/english/2020_7_180_282_EN.pdf"
   },
   {
    "id": "IAMAI",
@@ -1263,6 +1609,48 @@
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2019/english/2019_3_535_662_EN.pdf"
   },
   {
+   "id": "RAMAKRISHNAN",
+   "title": "State Bank of India v. V. Ramakrishnan",
+   "court": "Supreme Court",
+   "date": "2018-08-14",
+   "neutral_citation": "2018 INSC 711",
+   "report_citation": "[2018] 10 SCR 974",
+   "case_no": "Civil Appeal No. 3595 of 2018",
+   "bench": "R.F. Nariman and Indu Malhotra JJ.",
+   "topic": "Guarantors and the moratorium",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "Does the moratorium in the corporate borrower's insolvency protect its personal guarantors?",
+   "holding": [
+    "The moratorium under section 14 of the IBC applies only to the corporate debtor. It does not mention, and does not protect, personal guarantors."
+   ],
+   "impact": [
+    "A lender can sue or proceed against a guarantor while the corporate borrower is under moratorium. This fits the co-extensive liability of a surety under section 128 of the Contract Act. Section 14(3)(b), inserted in 2018, now says so expressly."
+   ],
+   "statutes": [
+    "Insolvency and Bankruptcy Code, 2016, ss. 14, 60",
+    "Indian Contract Act, 1872, s. 128"
+   ],
+   "links": [
+    {
+     "section": "laws",
+     "id": "ACT-ICA",
+     "label": "Indian Contract Act: guarantee, indemnity, pledge, lien",
+     "href": "../other-laws/#d/ACT-ICA"
+    },
+    {
+     "section": "ibc",
+     "id": "CODE",
+     "label": "IBC, 2016",
+     "href": "../ibc/#d/CODE"
+    }
+   ],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2018/english/2018_10_974_1004_EN.pdf"
+  },
+  {
    "id": "RAKHI",
    "title": "SEBI v. Rakhi Trading Pvt Ltd",
    "court": "Supreme Court",
@@ -1534,6 +1922,57 @@
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2011/english/2011_14_1050_1064_EN.pdf"
+  },
+  {
+   "id": "SURAJ",
+   "title": "Suraj Lamp & Industries Pvt Ltd v. State of Haryana",
+   "court": "Supreme Court",
+   "date": "2011-10-11",
+   "neutral_citation": "2011 INSC 739",
+   "report_citation": "[2011] 11 SCR 848",
+   "case_no": "Special Leave Petition (C) No. 13917 of 2009",
+   "bench": "R.V. Raveendran, A.K. Patnaik and H.L. Gokhale JJ.",
+   "topic": "Title only by registered conveyance",
+   "sectors": [
+    "hfc",
+    "lending"
+   ],
+   "issue": "Do sale agreements, general powers of attorney and wills ('GPA sales') transfer title to immovable property?",
+   "holding": [
+    "Immovable property can be transferred only by a registered deed of conveyance. 'SA/GPA/Will' transactions neither convey title nor create any interest in the property, except to the limited extent of section 53A of the Transfer of Property Act.",
+    "Such documents cannot be treated as title deeds or used for mutation in municipal or revenue records."
+   ],
+   "impact": [
+    "Lenders taking a mortgage must check that the mortgagor's title rests on registered conveyances. A chain built on GPA sales gives no mortgageable title and the security may fail."
+   ],
+   "statutes": [
+    "Transfer of Property Act, 1882, ss. 53A, 54",
+    "Registration Act, 1908, ss. 17, 49",
+    "Indian Stamp Act, 1899"
+   ],
+   "links": [
+    {
+     "section": "laws",
+     "id": "ACT-TPA",
+     "label": "Transfer of Property Act: mortgages, charges, assignment of debts",
+     "href": "../other-laws/#d/ACT-TPA"
+    },
+    {
+     "section": "laws",
+     "id": "ACT-REG",
+     "label": "Registration Act: which loan documents must be registered",
+     "href": "../other-laws/#d/ACT-REG"
+    },
+    {
+     "section": "laws",
+     "id": "ACT-STAMP",
+     "label": "Indian Stamp Act: duty on loan and security documents",
+     "href": "../other-laws/#d/ACT-STAMP"
+    }
+   ],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2011/english/2011_11_848_869_EN.pdf"
   }
  ]
 }
