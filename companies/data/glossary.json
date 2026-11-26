@@ -1,0 +1,336 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Plain-language explanations for readers who are new to the terms. They are summaries, not the legal definitions: the instrument named under 'See' governs."
+ },
+ "terms": [
+  {
+   "term": "Charge",
+   "full": "",
+   "def": "An interest or lien created on a company's property or assets, or any of its undertakings, as security for a debt. It includes a mortgage (s. 2(16)). Pledges, hypothecation and mortgages created by a company are all charges that must be registered.",
+   "see": [
+    "CA-CHG"
+   ],
+   "aka": [
+    "charges",
+    "security interest"
+   ]
+  },
+  {
+   "term": "CHG-1",
+   "full": "Form CHG-1",
+   "def": "The e-form for registering the creation or modification of a charge other than for debentures, signed by both the company and the charge-holder.",
+   "see": [
+    "RULES-CHG",
+    "CA-CHG"
+   ],
+   "aka": [
+    "Form CHG-1"
+   ]
+  },
+  {
+   "term": "CHG-9",
+   "full": "Form CHG-9",
+   "def": "The e-form for registering a charge securing debentures, including a modification of it.",
+   "see": [
+    "RULES-CHG"
+   ],
+   "aka": [
+    "Form CHG-9"
+   ]
+  },
+  {
+   "term": "CHG-4",
+   "full": "Form CHG-4",
+   "def": "The e-form a company files to report that a registered charge has been paid off or satisfied in full, normally signed by the charge-holder too.",
+   "see": [
+    "RULES-CHG",
+    "CA-SAT"
+   ],
+   "aka": [
+    "Form CHG-4",
+    "satisfaction of charge"
+   ]
+  },
+  {
+   "term": "CHG-8",
+   "full": "Form CHG-8",
+   "def": "The application to the Central Government (Regional Director) to condone delay or rectify an omission or misstatement in charge filings under s. 87.",
+   "see": [
+    "RULES-CHG",
+    "CA-SAT"
+   ],
+   "aka": [
+    "Form CHG-8",
+    "condonation",
+    "rectification"
+   ]
+  },
+  {
+   "term": "Charge identification number",
+   "full": "Charge ID",
+   "def": "The number the Registrar gives each registered charge; it appears on the certificate (CHG-2) and is used for modifications and satisfaction.",
+   "see": [
+    "RULES-CHG"
+   ],
+   "aka": [
+    "charge ID"
+   ]
+  },
+  {
+   "term": "Ad valorem fee",
+   "full": "",
+   "def": "A fee for late charge filing calculated on the amount secured, payable for filing in the second extended window after the first 60 days.",
+   "see": [
+    "CA-CHG",
+    "RULES-FEES"
+   ],
+   "aka": [
+    "ad valorem fees"
+   ]
+  },
+  {
+   "term": "Board resolution at a meeting",
+   "full": "",
+   "def": "A decision of the directors taken at a duly convened Board meeting (in person or by video conference), not by circulation. Borrowing, issuing debentures, investing and granting loans, guarantees or security need one (s. 179(3)).",
+   "see": [
+    "CA-BOARD",
+    "RULES-MBP"
+   ],
+   "aka": [
+    "board resolution",
+    "s. 179(3)"
+   ]
+  },
+  {
+   "term": "Special resolution",
+   "full": "",
+   "def": "A shareholders' resolution passed by at least three times as many votes in favour as against (s. 114(2)). Needed to borrow beyond the s. 180(1)(c) limit, to dispose of an undertaking, and for loans or guarantees above the s. 186 limit or to entities in which directors are interested (s. 185(2)).",
+   "see": [
+    "CA-BOARD",
+    "CA-185",
+    "CA-186"
+   ],
+   "aka": [
+    "special resolutions"
+   ]
+  },
+  {
+   "term": "Borrowing limit",
+   "full": "Section 180(1)(c)",
+   "def": "The ceiling on total borrowings without shareholder approval: paid-up share capital, free reserves and securities premium. Temporary loans from the company's bankers are excluded.",
+   "see": [
+    "CA-BOARD"
+   ],
+   "aka": [
+    "s. 180(1)(c)",
+    "borrowing powers"
+   ]
+  },
+  {
+   "term": "Temporary loans",
+   "full": "",
+   "def": "Loans repayable on demand or within six months, such as cash credit, bill discounting and seasonal short-term loans, but not loans for capital expenditure. They are left out of the s. 180(1)(c) limit when taken from the company's bankers.",
+   "see": [
+    "CA-BOARD"
+   ],
+   "aka": [
+    "temporary loan"
+   ]
+  },
+  {
+   "term": "Free reserves",
+   "full": "",
+   "def": "Reserves that may be distributed as dividend under the latest audited balance sheet, excluding unrealised gains and revaluation reserves (s. 2(43)).",
+   "see": [
+    "CA-ACT",
+    "CA-BOARD",
+    "CA-186"
+   ],
+   "aka": [
+    "free reserve"
+   ]
+  },
+  {
+   "term": "MGT-14",
+   "full": "Form MGT-14",
+   "def": "The e-form for filing special resolutions and certain Board resolutions with the Registrar within 30 days (s. 117).",
+   "see": [
+    "CA-117",
+    "RULES-MGT"
+   ],
+   "aka": [
+    "Form MGT-14"
+   ]
+  },
+  {
+   "term": "Person in whom a director is interested",
+   "full": "",
+   "def": "For s. 185(2): a private company of which a director is a director or member; a body corporate in which one or more directors control at least 25% of the votes; or a body corporate whose board acts on the lending company's directors' instructions.",
+   "see": [
+    "CA-185"
+   ],
+   "aka": [
+    "director interested"
+   ]
+  },
+  {
+   "term": "Relative",
+   "full": "",
+   "def": "For a director: spouse, father, mother, son, son's wife, daughter, daughter's husband, brother and sister, members of a Hindu undivided family, and as prescribed (s. 2(77)).",
+   "see": [
+    "CA-ACT",
+    "CA-185"
+   ],
+   "aka": [
+    "relatives"
+   ]
+  },
+  {
+   "term": "Related party",
+   "full": "",
+   "def": "Directors, key managerial personnel and their relatives, firms and private companies in which they are partners, members or directors, holding, subsidiary and associate companies and other persons listed in s. 2(76).",
+   "see": [
+    "CA-ACT",
+    "CA-RPT"
+   ],
+   "aka": [
+    "related parties"
+   ]
+  },
+  {
+   "term": "Inter-corporate loan",
+   "full": "",
+   "def": "A loan by one company to another body corporate. Subject to the s. 186 limits, unanimous Board approval, the minimum interest rate and, above the limit, a special resolution.",
+   "see": [
+    "CA-186"
+   ],
+   "aka": [
+    "ICD",
+    "inter-corporate deposit"
+   ]
+  },
+  {
+   "term": "Corporate guarantee",
+   "full": "",
+   "def": "A guarantee a company gives for another's loan. A guarantee for a director or a firm in which a director is a partner is barred by s. 185; others count towards the s. 186 limit unless the company is exempt.",
+   "see": [
+    "CA-185",
+    "CA-186"
+   ],
+   "aka": [
+    "guarantee",
+    "guarantees"
+   ]
+  },
+  {
+   "term": "Wholly owned subsidiary",
+   "full": "WOS",
+   "def": "A subsidiary whose entire share capital is held by the holding company (and its nominees). Loans and guarantees to it are outside s. 185 and do not need the s. 186(3) special resolution.",
+   "see": [
+    "CA-185",
+    "CA-186"
+   ],
+   "aka": [
+    "WOS",
+    "wholly-owned subsidiary"
+   ]
+  },
+  {
+   "term": "Investment company",
+   "full": "",
+   "def": "For s. 186, a company whose principal business is the acquisition of shares, debentures or other securities.",
+   "see": [
+    "CA-186",
+    "RULES-LAYERS"
+   ],
+   "aka": [
+    "investment companies"
+   ]
+  },
+  {
+   "term": "Small company",
+   "full": "",
+   "def": "A private company with paid-up capital and turnover within the limits prescribed under s. 2(85), now up to Rs 10 crore capital and Rs 100 crore turnover. It pays lower penalties under s. 446B.",
+   "see": [
+    "CA-ACT",
+    "CA-PEN"
+   ],
+   "aka": [
+    "small companies"
+   ]
+  },
+  {
+   "term": "Adjudicating officer",
+   "full": "",
+   "def": "The Registrar or other officer appointed under s. 454 to impose penalties after a hearing; appeals lie to the Regional Director.",
+   "see": [
+    "CA-PEN",
+    "RULES-ADJ"
+   ],
+   "aka": [
+    "adjudication"
+   ]
+  },
+  {
+   "term": "Compounding",
+   "full": "",
+   "def": "Settling an offence punishable with fine only by paying a sum fixed by the NCLT or the Regional Director (s. 441).",
+   "see": [
+    "CA-PEN"
+   ],
+   "aka": [
+    "compounding of offences"
+   ]
+  },
+  {
+   "term": "Regional Director",
+   "full": "RD",
+   "def": "The MCA officer for a region. Hears appeals against adjudication orders, compounds smaller offences and, as the Central Government's delegate, decides s. 87 rectification applications.",
+   "see": [
+    "CA-SAT",
+    "CA-PEN"
+   ],
+   "aka": [
+    "RD"
+   ]
+  },
+  {
+   "term": "Registrar of Companies",
+   "full": "ROC",
+   "def": "The MCA officer with whom companies file charges, resolutions and returns, and who registers charges and records satisfaction.",
+   "see": [
+    "CA-CHG",
+    "CA-SAT"
+   ],
+   "aka": [
+    "ROC",
+    "Registrar"
+   ]
+  },
+  {
+   "term": "Debenture trustee",
+   "full": "",
+   "def": "The trustee appointed for the benefit of debenture holders, who holds the security for secured debentures.",
+   "see": [
+    "CA-DEB",
+    "RULES-SCD"
+   ],
+   "aka": [
+    "debenture trustees"
+   ]
+  },
+  {
+   "term": "Deposit",
+   "full": "",
+   "def": "Any receipt of money by way of deposit or loan by a company, other than the amounts excluded by rule 2(1)(c) of the Deposits Rules, such as loans from banks, NBFCs, other companies and, with a declaration, directors.",
+   "see": [
+    "CA-DEB",
+    "RULES-DEP"
+   ],
+   "aka": [
+    "deposits"
+   ]
+  }
+ ]
+}

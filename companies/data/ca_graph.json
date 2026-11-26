@@ -1,0 +1,2119 @@
+{
+ "meta": {
+  "title": "Companies Act, 2013 for lending transactions",
+  "as_of": "2026-11-26",
+  "count": 40,
+  "in_force": 35,
+  "lenses": [
+   {
+    "id": "ENT-BORR",
+    "name": "Borrowing company"
+   },
+   {
+    "id": "ENT-LNDR",
+    "name": "Lender / charge-holder"
+   },
+   {
+    "id": "ENT-GRP",
+    "name": "Company lending or guaranteeing"
+   },
+   {
+    "id": "ENT-NBFC",
+    "name": "NBFC / HFC"
+   },
+   {
+    "id": "ENT-PVT",
+    "name": "Private company"
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "id": "CA-CHG",
+   "label": "Charges: creation and registration (ss. 77-81)",
+   "title": "Companies Act, 2013, Chapter VI: registration of charges (ss. 77 to 81)",
+   "group": "Creating and registering charges",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114",
+   "issue_date": "2013-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CA-SAT",
+   "label": "Charges: satisfaction, receivers, rectification (ss. 82-87)",
+   "title": "Companies Act, 2013, Chapter VI: satisfaction of charges, receivers, company's register, penalties and rectification (ss. 82 to 87)",
+   "group": "Satisfaction, receivers and rectification of charges",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114",
+   "issue_date": "2013-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CA-BOARD",
+   "label": "Board and shareholder approvals (ss. 179-180)",
+   "title": "Companies Act, 2013: powers of the Board (s. 179) and restrictions needing a special resolution (s. 180)",
+   "group": "Board and shareholder approvals for borrowing and security",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114",
+   "issue_date": "2013-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CA-117",
+   "label": "Filing resolutions with the Registrar (s. 117)",
+   "title": "Companies Act, 2013, s. 117: resolutions and agreements to be filed (Form MGT-14)",
+   "group": "Board and shareholder approvals for borrowing and security",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114",
+   "issue_date": "2013-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CA-185",
+   "label": "Loans to directors (s. 185)",
+   "title": "Companies Act, 2013, s. 185: loans, guarantees and security to directors and persons in whom directors are interested (as substituted from 07-05-2018)",
+   "group": "Loans, guarantees and security: sections 185 and 186",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114",
+   "issue_date": "2013-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CA-186",
+   "label": "Inter-corporate loans, guarantees, investments (s. 186)",
+   "title": "Companies Act, 2013, s. 186: loans, guarantees, security and investments by a company (as amended from 07-05-2018)",
+   "group": "Loans, guarantees and security: sections 185 and 186",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114",
+   "issue_date": "2013-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CA-ACT",
+   "label": "Key definitions and power to exempt (ss. 2, 462)",
+   "title": "Companies Act, 2013: definitions used in lending transactions (s. 2) and the power to exempt classes of companies (s. 462)",
+   "group": "The Act, rules and exemptions",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114",
+   "issue_date": "2013-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CA-RPT",
+   "label": "Related party transactions (s. 188)",
+   "title": "Companies Act, 2013, s. 188: related party transactions",
+   "group": "Related party transactions",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114",
+   "issue_date": "2013-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CA-DEB",
+   "label": "Debentures, private placement and deposits (ss. 42, 71, 73-76)",
+   "title": "Companies Act, 2013: private placement (s. 42), debentures (s. 71) and acceptance of deposits (ss. 73 to 76)",
+   "group": "Debentures, deposits and private placement",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114",
+   "issue_date": "2013-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CA-PEN",
+   "label": "Penalties, adjudication and compounding (ss. 441, 446B, 450, 454)",
+   "title": "Companies Act, 2013: compounding (s. 441), lesser penalties (s. 446B), general penalty (s. 450) and adjudication (s. 454)",
+   "group": "Penalties, adjudication and compounding",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114",
+   "issue_date": "2013-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-CHG",
+   "label": "Registration of Charges Rules, 2014",
+   "title": "Companies (Registration of Charges) Rules, 2014 (as amended)",
+   "group": "Creating and registering charges",
+   "type": "Rules",
+   "status": "In force (as amended)",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/rules.html",
+   "issue_date": "2014-03-31",
+   "updated_as_on": "2022-08-29"
+  },
+  {
+   "id": "RULES-MBP",
+   "label": "Meetings of Board and its Powers Rules, 2014",
+   "title": "Companies (Meetings of Board and its Powers) Rules, 2014 (as amended)",
+   "group": "Loans, guarantees and security: sections 185 and 186",
+   "type": "Rules",
+   "status": "In force (as amended)",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/rules.html",
+   "issue_date": "2014-03-31",
+   "updated_as_on": "2025-11-03"
+  },
+  {
+   "id": "RULES-MGT",
+   "label": "Management and Administration Rules, 2014",
+   "title": "Companies (Management and Administration) Rules, 2014 (as amended): filing of resolutions in Form MGT-14",
+   "group": "Board and shareholder approvals for borrowing and security",
+   "type": "Rules",
+   "status": "In force (as amended)",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/rules.html",
+   "issue_date": "2014-03-31",
+   "updated_as_on": "2025-05-30"
+  },
+  {
+   "id": "RULES-DEP",
+   "label": "Acceptance of Deposits Rules, 2014",
+   "title": "Companies (Acceptance of Deposits) Rules, 2014 (as amended)",
+   "group": "Debentures, deposits and private placement",
+   "type": "Rules",
+   "status": "In force (as amended)",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/rules.html",
+   "issue_date": "2014-03-31",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-SCD",
+   "label": "Share Capital and Debentures Rules, 2014",
+   "title": "Companies (Share Capital and Debentures) Rules, 2014 (as amended): rule 18 on secured debentures",
+   "group": "Debentures, deposits and private placement",
+   "type": "Rules",
+   "status": "In force (as amended)",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/rules.html",
+   "issue_date": "2014-03-31",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-PAS",
+   "label": "Prospectus and Allotment of Securities Rules, 2014",
+   "title": "Companies (Prospectus and Allotment of Securities) Rules, 2014 (as amended): rule 14 on private placement",
+   "group": "Debentures, deposits and private placement",
+   "type": "Rules",
+   "status": "In force (as amended)",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/rules.html",
+   "issue_date": "2014-03-31",
+   "updated_as_on": "2025-02-12"
+  },
+  {
+   "id": "RULES-FEES",
+   "label": "Registration Offices and Fees Rules, 2014",
+   "title": "Companies (Registration Offices and Fees) Rules, 2014 (as amended): fees, additional fees and ad valorem fees for charge filings",
+   "group": "Creating and registering charges",
+   "type": "Rules",
+   "status": "In force (as amended)",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/rules.html",
+   "issue_date": "2014-03-31",
+   "updated_as_on": "2026-04-21"
+  },
+  {
+   "id": "RULES-LAYERS",
+   "label": "Restriction on Number of Layers Rules, 2017",
+   "title": "Companies (Restriction on number of layers) Rules, 2017 (as amended)",
+   "group": "Loans, guarantees and security: sections 185 and 186",
+   "type": "Rules",
+   "status": "In force (as amended)",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/rules.html",
+   "issue_date": "2017-09-20",
+   "updated_as_on": "2025-06-27"
+  },
+  {
+   "id": "RULES-ADJ",
+   "label": "Adjudication of Penalties Rules, 2014",
+   "title": "Companies (Adjudication of Penalties) Rules, 2014 (as amended)",
+   "group": "Penalties, adjudication and compounding",
+   "type": "Rules",
+   "status": "In force (as amended)",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/rules.html",
+   "issue_date": "2014-03-31",
+   "updated_as_on": "2024-10-09"
+  },
+  {
+   "id": "AMD-CHG-20220427",
+   "label": "Charges rules amendment: charges in favour of RBI (2022)",
+   "title": "Companies (Registration of Charges) Amendment Rules, 2022",
+   "group": "Creating and registering charges",
+   "type": "Amendment rules",
+   "status": "In force",
+   "url": "https://egazette.gov.in/WriteReadData/2022/235389.pdf",
+   "issue_date": "2022-04-27",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "AMD-CHG-20220829",
+   "label": "Charges rules amendment: filings by insolvency professionals (2022)",
+   "title": "Companies (Registration of Charges) Second Amendment Rules, 2022",
+   "group": "Creating and registering charges",
+   "type": "Amendment rules",
+   "status": "In force",
+   "url": "https://egazette.gov.in/WriteReadData/2022/238470.pdf",
+   "issue_date": "2022-08-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "AMD-MBP-20251103",
+   "label": "Board meetings rules amendment: NBFC and IFSC finance company lending (2025)",
+   "title": "Companies (Meetings of Board and its Powers) Amendment Rules, 2025",
+   "group": "Loans, guarantees and security: sections 185 and 186",
+   "type": "Amendment rules",
+   "status": "In force",
+   "url": "https://egazette.gov.in/WriteReadData/2025/267408.pdf",
+   "issue_date": "2025-11-03",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "AMD-DEFN-20251201",
+   "label": "Small company thresholds raised to Rs 10 crore / Rs 100 crore (2025)",
+   "title": "Companies (Specification of definition details) Amendment Rules, 2025",
+   "group": "The Act, rules and exemptions",
+   "type": "Amendment rules",
+   "status": "In force",
+   "url": "https://egazette.gov.in/WriteReadData/2025/268124.pdf",
+   "issue_date": "2025-12-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "COMM-CAA2017-20180507",
+   "label": "Commencement of new ss. 185 and 186 amendments (07-05-2018)",
+   "title": "Notification bringing into force provisions of the Companies (Amendment) Act, 2017, including the substituted s. 185 and amendments to s. 186, from 07-05-2018",
+   "group": "Loans, guarantees and security: sections 185 and 186",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://egazette.gov.in/WriteReadData/2018/185193.pdf",
+   "issue_date": "2018-05-07",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NOTIF-S454-20260211",
+   "label": "Registrars appointed as adjudicating officers (2026)",
+   "title": "Appointment of Registrars of Companies as adjudicating officers under s. 454, in supersession of S.O. 831(E) of 2015 and S.O. 2650(E) of 2019",
+   "group": "Penalties, adjudication and compounding",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://egazette.gov.in/WriteReadData/2026/270051.pdf",
+   "issue_date": "2026-02-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "EXEMPT-PVT",
+   "label": "Private company exemptions (2015)",
+   "title": "Exemptions to private companies under s. 462",
+   "group": "The Act, rules and exemptions",
+   "type": "Exemption notification",
+   "status": "In force (as amended)",
+   "url": "https://egazette.gov.in/WriteReadData/2015/164558.pdf",
+   "issue_date": "2015-06-05",
+   "updated_as_on": "2017-06-13"
+  },
+  {
+   "id": "EXEMPT-PVT-2017",
+   "label": "Private company exemptions: 2017 amendment",
+   "title": "Amendment to the private company exemption notification under s. 462",
+   "group": "The Act, rules and exemptions",
+   "type": "Exemption notification",
+   "status": "In force",
+   "url": "https://egazette.gov.in/WriteReadData/2017/176689.pdf",
+   "issue_date": "2017-06-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "EXEMPT-GOVT",
+   "label": "Government company exemptions (2015)",
+   "title": "Exemptions to Government companies under s. 462",
+   "group": "The Act, rules and exemptions",
+   "type": "Exemption notification",
+   "status": "In force (as amended)",
+   "url": "https://egazette.gov.in/WriteReadData/2015/164459.pdf",
+   "issue_date": "2015-06-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "EXEMPT-IFSC",
+   "label": "IFSC public company exemptions (2017)",
+   "title": "Exemptions to Specified IFSC public companies under s. 462",
+   "group": "The Act, rules and exemptions",
+   "type": "Exemption notification",
+   "status": "In force (as amended)",
+   "url": "https://egazette.gov.in/WriteReadData/2017/173502.pdf",
+   "issue_date": "2017-01-04",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2015-04",
+   "label": "Loans to employees outside s. 186 (GC 4/2015)",
+   "title": "General Circular 4/2015: clarification on ss. 185 and 186, loans and advances to employees",
+   "group": "Loans, guarantees and security: sections 185 and 186",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html",
+   "issue_date": "2015-03-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2015-06",
+   "label": "s. 186(7) interest test and tax-free bonds (GC 6/2015)",
+   "title": "General Circular 6/2015: clarification under s. 186(7)",
+   "group": "Loans, guarantees and security: sections 185 and 186",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html",
+   "issue_date": "2015-04-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2014-15",
+   "label": "Register under s. 186(9): format (GC 15/2014)",
+   "title": "General Circular 15/2014: clarification on maintaining the register under s. 186(9) in the new format",
+   "group": "Loans, guarantees and security: sections 185 and 186",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html",
+   "issue_date": "2014-06-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2014-28",
+   "label": "MGT-14 processed in straight-through mode (GC 28/2014)",
+   "title": "General Circular 28/2014: clarification on Form MGT-14 through STP mode",
+   "group": "Board and shareholder approvals for borrowing and security",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html",
+   "issue_date": "2014-07-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2020-04",
+   "label": "Filings by IRP, RP or liquidator (GC 4/2020)",
+   "title": "General Circular 4/2020: filing of forms in MCA21 by insolvency professionals appointed under the IBC",
+   "group": "Creating and registering charges",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html",
+   "issue_date": "2020-02-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2026-02",
+   "label": "DPT-3 late fee relaxation for FY 2025-26 (GC 2/2026)",
+   "title": "General Circular 2/2026: relaxation of additional fee for DPT-3 for the financial year ended 31-03-2026",
+   "group": "Debentures, deposits and private placement",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html",
+   "issue_date": "2026-06-19",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "BILL-CLAB-2026",
+   "label": "Corporate Laws (Amendment) Bill, 2026: lending and charge changes",
+   "title": "Corporate Laws (Amendment) Bill, 2026 (Bill No. 85 of 2026): proposed changes to ss. 2(85), 77, 185, 186, 441, 446B and 454",
+   "group": "Proposed changes (Corporate Laws (Amendment) Bill, 2026)",
+   "type": "Bill",
+   "status": "Bill pending in Parliament (Joint Committee report presented 03-08-2026)",
+   "url": "https://sansad.in/ls/legislation/bills",
+   "issue_date": "2026-03-23",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "JPC-CLAB-2026",
+   "label": "Joint Committee report on the 2026 Bill",
+   "title": "Report of the Joint Committee on the Corporate Laws (Amendment) Bill, 2026 (Report No. 1)",
+   "group": "Proposed changes (Corporate Laws (Amendment) Bill, 2026)",
+   "type": "Committee report",
+   "status": "Bill pending in Parliament (report presented)",
+   "url": "https://sansad.in/ls/committee/other-committees/86-Joint%20Committee%20on%20the%20Corporate%20Laws%20(Amendment)%20Bill,%202026",
+   "issue_date": "2026-08-03",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2014-03",
+   "label": "s. 185 and guarantees for subsidiaries' bank loans (GC 3/2014)",
+   "title": "General Circular 3/2014: clarification with regard to s. 185",
+   "group": "Superseded (history)",
+   "type": "Circular",
+   "status": "Superseded: s. 186 was notified and s. 185 was substituted from 07-05-2018",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html",
+   "issue_date": "2014-02-14",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2014-04",
+   "label": "Old s. 293 resolutions valid for one year (GC 4/2014)",
+   "title": "General Circular 4/2014: clarification with regard to s. 180",
+   "group": "Superseded (history)",
+   "type": "Circular",
+   "status": "Superseded: the one-year transition has ended",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html",
+   "issue_date": "2014-03-25",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-2020-23",
+   "label": "Charge filing relaxation scheme, COVID-19 (GC 23/2020)",
+   "title": "General Circular 23/2020: scheme for relaxation of time for filing forms related to creation or modification of charges",
+   "group": "Superseded (history)",
+   "type": "Circular",
+   "status": "Superseded: the scheme period has ended",
+   "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html",
+   "issue_date": "2020-06-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ENT-BORR",
+   "label": "Borrowing company",
+   "title": "Borrowing company",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-LNDR",
+   "label": "Lender / charge-holder",
+   "title": "Lender / charge-holder",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-GRP",
+   "label": "Company lending or guaranteeing",
+   "title": "Company lending or guaranteeing",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-NBFC",
+   "label": "NBFC / HFC",
+   "title": "NBFC / HFC",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-PVT",
+   "label": "Private company",
+   "title": "Private company",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  }
+ ],
+ "edges": [
+  {
+   "source": "CA-CHG",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Every company creating a charge, within or outside India, on its property, assets or undertakings, tangible or otherwise, in or outside India; Charge-holders (banks, NBFCs, HFCs, debenture trustees and other secured creditors); A company acquiring property already subject to a charge, and any modifi"
+  },
+  {
+   "source": "CA-CHG",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Every company creating a charge, within or outside India, on its property, assets or undertakings, tangible or otherwise, in or outside India; Charge-holders (banks, NBFCs, HFCs, debenture trustees and other secured creditors); A company acquiring property already subject to a charge, and any modifi"
+  },
+  {
+   "source": "CA-CHG",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Every company creating a charge, within or outside India, on its property, assets or undertakings, tangible or otherwise, in or outside India; Charge-holders (banks, NBFCs, HFCs, debenture trustees and other secured creditors); A company acquiring property already subject to a charge, and any modifi"
+  },
+  {
+   "source": "CA-CHG",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Every company creating a charge, within or outside India, on its property, assets or undertakings, tangible or otherwise, in or outside India; Charge-holders (banks, NBFCs, HFCs, debenture trustees and other secured creditors); A company acquiring property already subject to a charge, and any modifi"
+  },
+  {
+   "source": "CA-CHG",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Every company creating a charge, within or outside India, on its property, assets or undertakings, tangible or otherwise, in or outside India; Charge-holders (banks, NBFCs, HFCs, debenture trustees and other secured creditors); A company acquiring property already subject to a charge, and any modifi"
+  },
+  {
+   "source": "CA-CHG",
+   "target": "CA-SAT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-CHG",
+   "target": "RULES-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-CHG",
+   "target": "RULES-FEES",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-CHG",
+   "target": "AMD-CHG-20220427",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-CHG",
+   "target": "CA-PEN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-SAT",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies whose registered charges are repaid or satisfied; Charge-holders; Persons who obtain an order appointing, or themselves appoint, a receiver or manager of charged property"
+  },
+  {
+   "source": "CA-SAT",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Companies whose registered charges are repaid or satisfied; Charge-holders; Persons who obtain an order appointing, or themselves appoint, a receiver or manager of charged property"
+  },
+  {
+   "source": "CA-SAT",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Companies whose registered charges are repaid or satisfied; Charge-holders; Persons who obtain an order appointing, or themselves appoint, a receiver or manager of charged property"
+  },
+  {
+   "source": "CA-SAT",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies whose registered charges are repaid or satisfied; Charge-holders; Persons who obtain an order appointing, or themselves appoint, a receiver or manager of charged property"
+  },
+  {
+   "source": "CA-SAT",
+   "target": "CA-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-SAT",
+   "target": "RULES-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-SAT",
+   "target": "RULES-FEES",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-SAT",
+   "target": "CA-PEN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-BOARD",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "The Board of every company borrowing money, issuing debentures, investing, granting loans or giving guarantees or security; Lenders taking security or relying on the company's borrowing authority"
+  },
+  {
+   "source": "CA-BOARD",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "The Board of every company borrowing money, issuing debentures, investing, granting loans or giving guarantees or security; Lenders taking security or relying on the company's borrowing authority"
+  },
+  {
+   "source": "CA-BOARD",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "The Board of every company borrowing money, issuing debentures, investing, granting loans or giving guarantees or security; Lenders taking security or relying on the company's borrowing authority"
+  },
+  {
+   "source": "CA-BOARD",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "The Board of every company borrowing money, issuing debentures, investing, granting loans or giving guarantees or security; Lenders taking security or relying on the company's borrowing authority"
+  },
+  {
+   "source": "CA-BOARD",
+   "target": "CA-117",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-BOARD",
+   "target": "RULES-MBP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-BOARD",
+   "target": "RULES-MGT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-BOARD",
+   "target": "EXEMPT-PVT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-BOARD",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-BOARD",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-117",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies passing special resolutions (for example under ss. 180, 185(2) or 186(3)) or Board resolutions under s. 179(3)"
+  },
+  {
+   "source": "CA-117",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies passing special resolutions (for example under ss. 180, 185(2) or 186(3)) or Board resolutions under s. 179(3)"
+  },
+  {
+   "source": "CA-117",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Companies passing special resolutions (for example under ss. 180, 185(2) or 186(3)) or Board resolutions under s. 179(3)"
+  },
+  {
+   "source": "CA-117",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies passing special resolutions (for example under ss. 180, 185(2) or 186(3)) or Board resolutions under s. 179(3)"
+  },
+  {
+   "source": "CA-117",
+   "target": "CA-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-117",
+   "target": "RULES-MGT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-117",
+   "target": "EXEMPT-PVT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-185",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Every company advancing a loan (including a book debt), or giving a guarantee or security for a loan, to or for a director or a person in whom a director is interested; The director or other person who receives the loan, guarantee or security (s. 185(4)(iii))"
+  },
+  {
+   "source": "CA-185",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Every company advancing a loan (including a book debt), or giving a guarantee or security for a loan, to or for a director or a person in whom a director is interested; The director or other person who receives the loan, guarantee or security (s. 185(4)(iii))"
+  },
+  {
+   "source": "CA-185",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Every company advancing a loan (including a book debt), or giving a guarantee or security for a loan, to or for a director or a person in whom a director is interested; The director or other person who receives the loan, guarantee or security (s. 185(4)(iii))"
+  },
+  {
+   "source": "CA-185",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Every company advancing a loan (including a book debt), or giving a guarantee or security for a loan, to or for a director or a person in whom a director is interested; The director or other person who receives the loan, guarantee or security (s. 185(4)(iii))"
+  },
+  {
+   "source": "CA-185",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Every company advancing a loan (including a book debt), or giving a guarantee or security for a loan, to or for a director or a person in whom a director is interested; The director or other person who receives the loan, guarantee or security (s. 185(4)(iii))"
+  },
+  {
+   "source": "CA-185",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-185",
+   "target": "CA-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-185",
+   "target": "EXEMPT-PVT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-185",
+   "target": "CIR-2015-04",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-185",
+   "target": "BILL-CLAB-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-186",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Every company giving a loan to any person or body corporate, giving a guarantee or security for a loan to any body corporate or person, or acquiring securities of another body corporate"
+  },
+  {
+   "source": "CA-186",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Every company giving a loan to any person or body corporate, giving a guarantee or security for a loan to any body corporate or person, or acquiring securities of another body corporate"
+  },
+  {
+   "source": "CA-186",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Every company giving a loan to any person or body corporate, giving a guarantee or security for a loan to any body corporate or person, or acquiring securities of another body corporate"
+  },
+  {
+   "source": "CA-186",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Every company giving a loan to any person or body corporate, giving a guarantee or security for a loan to any body corporate or person, or acquiring securities of another body corporate"
+  },
+  {
+   "source": "CA-186",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Every company giving a loan to any person or body corporate, giving a guarantee or security for a loan to any body corporate or person, or acquiring securities of another body corporate"
+  },
+  {
+   "source": "CA-186",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-186",
+   "target": "CA-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-186",
+   "target": "RULES-MBP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-186",
+   "target": "AMD-MBP-20251103",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-186",
+   "target": "RULES-LAYERS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-186",
+   "target": "CIR-2015-06",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-186",
+   "target": "CIR-2015-04",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-186",
+   "target": "BILL-CLAB-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Every company and every person dealing with a company in a loan, guarantee, security or charge"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Every company and every person dealing with a company in a loan, guarantee, security or charge"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Every company and every person dealing with a company in a loan, guarantee, security or charge"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Every company and every person dealing with a company in a loan, guarantee, security or charge"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Every company and every person dealing with a company in a loan, guarantee, security or charge"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "CA-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "CA-RPT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "EXEMPT-PVT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "EXEMPT-GOVT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "EXEMPT-IFSC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-ACT",
+   "target": "AMD-DEFN-20251201",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-RPT",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies entering into contracts or arrangements with a related party for sale, purchase or supply of goods, property transactions, leasing, services, appointment of agents, office or place of profit, or underwriting (s. 188(1)(a) to (g))"
+  },
+  {
+   "source": "CA-RPT",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies entering into contracts or arrangements with a related party for sale, purchase or supply of goods, property transactions, leasing, services, appointment of agents, office or place of profit, or underwriting (s. 188(1)(a) to (g))"
+  },
+  {
+   "source": "CA-RPT",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies entering into contracts or arrangements with a related party for sale, purchase or supply of goods, property transactions, leasing, services, appointment of agents, office or place of profit, or underwriting (s. 188(1)(a) to (g))"
+  },
+  {
+   "source": "CA-RPT",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-RPT",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-RPT",
+   "target": "RULES-MBP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-RPT",
+   "target": "CA-ACT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-DEB",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies raising money through debentures or private placement, and companies receiving loans or other money that could be a 'deposit'; Debenture trustees and debenture holders"
+  },
+  {
+   "source": "CA-DEB",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Companies raising money through debentures or private placement, and companies receiving loans or other money that could be a 'deposit'; Debenture trustees and debenture holders"
+  },
+  {
+   "source": "CA-DEB",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Companies raising money through debentures or private placement, and companies receiving loans or other money that could be a 'deposit'; Debenture trustees and debenture holders"
+  },
+  {
+   "source": "CA-DEB",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies raising money through debentures or private placement, and companies receiving loans or other money that could be a 'deposit'; Debenture trustees and debenture holders"
+  },
+  {
+   "source": "CA-DEB",
+   "target": "RULES-SCD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-DEB",
+   "target": "RULES-PAS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-DEB",
+   "target": "RULES-DEP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-DEB",
+   "target": "CA-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-DEB",
+   "target": "CA-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-DEB",
+   "target": "EXEMPT-PVT-2017",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies and officers in default under Chapter VI (charges), ss. 117, 179-180, 185, 186, 188 and the rules"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Companies and officers in default under Chapter VI (charges), ss. 117, 179-180, 185, 186, 188 and the rules"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies and officers in default under Chapter VI (charges), ss. 117, 179-180, 185, 186, 188 and the rules"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Companies and officers in default under Chapter VI (charges), ss. 117, 179-180, 185, 186, 188 and the rules"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies and officers in default under Chapter VI (charges), ss. 117, 179-180, 185, 186, 188 and the rules"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "RULES-ADJ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "NOTIF-S454-20260211",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "CA-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "CA-117",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CA-PEN",
+   "target": "BILL-CLAB-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Every company creating, modifying or satisfying a charge, and every charge-holder"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Every company creating, modifying or satisfying a charge, and every charge-holder"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Every company creating, modifying or satisfying a charge, and every charge-holder"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Every company creating, modifying or satisfying a charge, and every charge-holder"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Every company creating, modifying or satisfying a charge, and every charge-holder"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "CA-CHG",
+   "relation": "issued_under",
+   "basis": "Made under ss. 77 to 87 read with s. 469"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "CA-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "CA-SAT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "RULES-FEES",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "AMD-CHG-20220427",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-CHG",
+   "target": "AMD-CHG-20220829",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-MBP",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies giving loans, guarantees or security, or acquiring securities, under s. 186; companies entering related party transactions"
+  },
+  {
+   "source": "RULES-MBP",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Companies giving loans, guarantees or security, or acquiring securities, under s. 186; companies entering related party transactions"
+  },
+  {
+   "source": "RULES-MBP",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Companies giving loans, guarantees or security, or acquiring securities, under s. 186; companies entering related party transactions"
+  },
+  {
+   "source": "RULES-MBP",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies giving loans, guarantees or security, or acquiring securities, under s. 186; companies entering related party transactions"
+  },
+  {
+   "source": "RULES-MBP",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies giving loans, guarantees or security, or acquiring securities, under s. 186; companies entering related party transactions"
+  },
+  {
+   "source": "RULES-MBP",
+   "target": "CA-BOARD",
+   "relation": "issued_under",
+   "basis": "Made under ss. 173 to 191 read with s. 469"
+  },
+  {
+   "source": "RULES-MBP",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-MBP",
+   "target": "CA-RPT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-MBP",
+   "target": "AMD-MBP-20251103",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-MBP",
+   "target": "CIR-2014-15",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-MGT",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies filing special resolutions and s. 179(3) Board resolutions with the Registrar"
+  },
+  {
+   "source": "RULES-MGT",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies filing special resolutions and s. 179(3) Board resolutions with the Registrar"
+  },
+  {
+   "source": "RULES-MGT",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Companies filing special resolutions and s. 179(3) Board resolutions with the Registrar"
+  },
+  {
+   "source": "RULES-MGT",
+   "target": "CA-117",
+   "relation": "issued_under",
+   "basis": "Made under Chapter VII read with s. 469"
+  },
+  {
+   "source": "RULES-MGT",
+   "target": "CA-117",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-MGT",
+   "target": "CA-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-MGT",
+   "target": "CIR-2014-28",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-DEP",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies other than banking companies, RBI-registered NBFCs, NHB-registered HFCs and companies specified under the s. 73(1) proviso (rule 1(3))"
+  },
+  {
+   "source": "RULES-DEP",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies other than banking companies, RBI-registered NBFCs, NHB-registered HFCs and companies specified under the s. 73(1) proviso (rule 1(3))"
+  },
+  {
+   "source": "RULES-DEP",
+   "target": "CA-DEB",
+   "relation": "issued_under",
+   "basis": "Made under ss. 73 to 76 read with s. 469"
+  },
+  {
+   "source": "RULES-DEP",
+   "target": "CA-DEB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-DEP",
+   "target": "CIR-2026-02",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-SCD",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies issuing secured debentures, and their debenture trustees"
+  },
+  {
+   "source": "RULES-SCD",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Companies issuing secured debentures, and their debenture trustees"
+  },
+  {
+   "source": "RULES-SCD",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Companies issuing secured debentures, and their debenture trustees"
+  },
+  {
+   "source": "RULES-SCD",
+   "target": "CA-DEB",
+   "relation": "issued_under",
+   "basis": "Made under Chapter IV and s. 71 read with s. 469"
+  },
+  {
+   "source": "RULES-SCD",
+   "target": "CA-DEB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-SCD",
+   "target": "CA-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-SCD",
+   "target": "RULES-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PAS",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies raising money by private placement of securities, including non-convertible debentures"
+  },
+  {
+   "source": "RULES-PAS",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Companies raising money by private placement of securities, including non-convertible debentures"
+  },
+  {
+   "source": "RULES-PAS",
+   "target": "CA-DEB",
+   "relation": "issued_under",
+   "basis": "Made under ss. 23 to 42 read with s. 469"
+  },
+  {
+   "source": "RULES-PAS",
+   "target": "CA-DEB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-PAS",
+   "target": "CA-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-FEES",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Every company and charge-holder filing CHG-1, CHG-4, CHG-9 or other e-forms"
+  },
+  {
+   "source": "RULES-FEES",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Every company and charge-holder filing CHG-1, CHG-4, CHG-9 or other e-forms"
+  },
+  {
+   "source": "RULES-FEES",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Every company and charge-holder filing CHG-1, CHG-4, CHG-9 or other e-forms"
+  },
+  {
+   "source": "RULES-FEES",
+   "target": "CA-CHG",
+   "relation": "issued_under",
+   "basis": "Made under ss. 396 to 404 read with s. 469"
+  },
+  {
+   "source": "RULES-FEES",
+   "target": "CA-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-FEES",
+   "target": "RULES-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-LAYERS",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Holding companies with subsidiaries, other than the classes excluded by rule 2(2), such as banking companies, RBI-registered NBFCs that RBI treats as systemically important, insurance companies and Government companies"
+  },
+  {
+   "source": "RULES-LAYERS",
+   "target": "CA-186",
+   "relation": "issued_under",
+   "basis": "Made under the proviso to s. 2(87) and s. 469"
+  },
+  {
+   "source": "RULES-LAYERS",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-ADJ",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies and officers facing adjudication of a penalty by a Registrar"
+  },
+  {
+   "source": "RULES-ADJ",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Companies and officers facing adjudication of a penalty by a Registrar"
+  },
+  {
+   "source": "RULES-ADJ",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies and officers facing adjudication of a penalty by a Registrar"
+  },
+  {
+   "source": "RULES-ADJ",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Companies and officers facing adjudication of a penalty by a Registrar"
+  },
+  {
+   "source": "RULES-ADJ",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies and officers facing adjudication of a penalty by a Registrar"
+  },
+  {
+   "source": "RULES-ADJ",
+   "target": "CA-PEN",
+   "relation": "issued_under",
+   "basis": "Made under s. 454 read with s. 469"
+  },
+  {
+   "source": "RULES-ADJ",
+   "target": "CA-PEN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-ADJ",
+   "target": "NOTIF-S454-20260211",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-CHG-20220427",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Banking companies creating or modifying a charge in favour of RBI for a loan or advance under s. 17(4)(d) of the RBI Act, 1934"
+  },
+  {
+   "source": "AMD-CHG-20220427",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Banking companies creating or modifying a charge in favour of RBI for a loan or advance under s. 17(4)(d) of the RBI Act, 1934"
+  },
+  {
+   "source": "AMD-CHG-20220427",
+   "target": "RULES-CHG",
+   "relation": "issued_under",
+   "basis": "Amends the Registration of Charges Rules, 2014"
+  },
+  {
+   "source": "AMD-CHG-20220427",
+   "target": "RULES-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-CHG-20220427",
+   "target": "CA-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-CHG-20220829",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Companies under corporate insolvency resolution or liquidation, and their charge-holders"
+  },
+  {
+   "source": "AMD-CHG-20220829",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies under corporate insolvency resolution or liquidation, and their charge-holders"
+  },
+  {
+   "source": "AMD-CHG-20220829",
+   "target": "RULES-CHG",
+   "relation": "issued_under",
+   "basis": "Amends the Registration of Charges Rules, 2014"
+  },
+  {
+   "source": "AMD-CHG-20220829",
+   "target": "RULES-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-CHG-20220829",
+   "target": "CIR-2020-04",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-MBP-20251103",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "RBI-registered NBFCs and IFSCA-registered finance companies giving loans, guarantees or security"
+  },
+  {
+   "source": "AMD-MBP-20251103",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "RBI-registered NBFCs and IFSCA-registered finance companies giving loans, guarantees or security"
+  },
+  {
+   "source": "AMD-MBP-20251103",
+   "target": "RULES-MBP",
+   "relation": "issued_under",
+   "basis": "Amends rule 11(2) of the Board meetings rules"
+  },
+  {
+   "source": "AMD-MBP-20251103",
+   "target": "RULES-MBP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-MBP-20251103",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-DEFN-20251201",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Private companies assessing small company status"
+  },
+  {
+   "source": "AMD-DEFN-20251201",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Private companies assessing small company status"
+  },
+  {
+   "source": "AMD-DEFN-20251201",
+   "target": "CA-ACT",
+   "relation": "issued_under",
+   "basis": "Amends rule 2(1)(t) under s. 2(85)"
+  },
+  {
+   "source": "AMD-DEFN-20251201",
+   "target": "CA-ACT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-DEFN-20251201",
+   "target": "RULES-FEES",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-DEFN-20251201",
+   "target": "CA-PEN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMD-DEFN-20251201",
+   "target": "BILL-CLAB-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "COMM-CAA2017-20180507",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "All companies giving loans, guarantees or security to directors, interested persons or other bodies corporate"
+  },
+  {
+   "source": "COMM-CAA2017-20180507",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "All companies giving loans, guarantees or security to directors, interested persons or other bodies corporate"
+  },
+  {
+   "source": "COMM-CAA2017-20180507",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "All companies giving loans, guarantees or security to directors, interested persons or other bodies corporate"
+  },
+  {
+   "source": "COMM-CAA2017-20180507",
+   "target": "CA-185",
+   "relation": "issued_under",
+   "basis": "Issued under s. 1(2) of the Companies (Amendment) Act, 2017"
+  },
+  {
+   "source": "COMM-CAA2017-20180507",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "COMM-CAA2017-20180507",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-S454-20260211",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies and officers liable to a penalty under the Act"
+  },
+  {
+   "source": "NOTIF-S454-20260211",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Companies and officers liable to a penalty under the Act"
+  },
+  {
+   "source": "NOTIF-S454-20260211",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies and officers liable to a penalty under the Act"
+  },
+  {
+   "source": "NOTIF-S454-20260211",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Companies and officers liable to a penalty under the Act"
+  },
+  {
+   "source": "NOTIF-S454-20260211",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies and officers liable to a penalty under the Act"
+  },
+  {
+   "source": "NOTIF-S454-20260211",
+   "target": "CA-PEN",
+   "relation": "issued_under",
+   "basis": "Issued under s. 454 read with the Adjudication of Penalties Rules, 2014"
+  },
+  {
+   "source": "NOTIF-S454-20260211",
+   "target": "CA-PEN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOTIF-S454-20260211",
+   "target": "RULES-ADJ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-PVT",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Private companies"
+  },
+  {
+   "source": "EXEMPT-PVT",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Private companies"
+  },
+  {
+   "source": "EXEMPT-PVT",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Private companies"
+  },
+  {
+   "source": "EXEMPT-PVT",
+   "target": "CA-ACT",
+   "relation": "issued_under",
+   "basis": "Issued under s. 462"
+  },
+  {
+   "source": "EXEMPT-PVT",
+   "target": "EXEMPT-PVT-2017",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-PVT",
+   "target": "CA-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-PVT",
+   "target": "CA-117",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-PVT",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-PVT-2017",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Private companies"
+  },
+  {
+   "source": "EXEMPT-PVT-2017",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Private companies"
+  },
+  {
+   "source": "EXEMPT-PVT-2017",
+   "target": "CA-ACT",
+   "relation": "issued_under",
+   "basis": "Issued under s. 462; amends G.S.R. 464(E)"
+  },
+  {
+   "source": "EXEMPT-PVT-2017",
+   "target": "EXEMPT-PVT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-PVT-2017",
+   "target": "RULES-DEP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-PVT-2017",
+   "target": "CA-DEB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-GOVT",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Government companies"
+  },
+  {
+   "source": "EXEMPT-GOVT",
+   "target": "CA-ACT",
+   "relation": "issued_under",
+   "basis": "Issued under s. 462"
+  },
+  {
+   "source": "EXEMPT-GOVT",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-GOVT",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-IFSC",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Specified IFSC public companies (public companies licensed to operate in an International Financial Services Centre)"
+  },
+  {
+   "source": "EXEMPT-IFSC",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Specified IFSC public companies (public companies licensed to operate in an International Financial Services Centre)"
+  },
+  {
+   "source": "EXEMPT-IFSC",
+   "target": "CA-ACT",
+   "relation": "issued_under",
+   "basis": "Issued under s. 462"
+  },
+  {
+   "source": "EXEMPT-IFSC",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-IFSC",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "EXEMPT-IFSC",
+   "target": "CA-117",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2015-04",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies giving loans or advances to employees"
+  },
+  {
+   "source": "CIR-2015-04",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies giving loans or advances to employees"
+  },
+  {
+   "source": "CIR-2015-04",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2015-04",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2015-06",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies investing in tax-free bonds"
+  },
+  {
+   "source": "CIR-2015-06",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2014-15",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies keeping the register of loans, guarantees, security and acquisitions"
+  },
+  {
+   "source": "CIR-2014-15",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2014-15",
+   "target": "RULES-MBP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2014-28",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies filing MGT-14"
+  },
+  {
+   "source": "CIR-2014-28",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Companies filing MGT-14"
+  },
+  {
+   "source": "CIR-2014-28",
+   "target": "RULES-MGT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2014-28",
+   "target": "CA-117",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2020-04",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Companies under corporate insolvency resolution or liquidation, and their insolvency professionals"
+  },
+  {
+   "source": "CIR-2020-04",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies under corporate insolvency resolution or liquidation, and their insolvency professionals"
+  },
+  {
+   "source": "CIR-2020-04",
+   "target": "AMD-CHG-20220829",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2020-04",
+   "target": "RULES-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2026-02",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies filing the DPT-3 return for the financial year ended 31-03-2026"
+  },
+  {
+   "source": "CIR-2026-02",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Companies filing the DPT-3 return for the financial year ended 31-03-2026"
+  },
+  {
+   "source": "CIR-2026-02",
+   "target": "RULES-DEP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "All companies, once enacted and brought into force; none of these changes is law yet"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "All companies, once enacted and brought into force; none of these changes is law yet"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "All companies, once enacted and brought into force; none of these changes is law yet"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "All companies, once enacted and brought into force; none of these changes is law yet"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "All companies, once enacted and brought into force; none of these changes is law yet"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "CA-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "CA-186",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "CA-PEN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "AMD-DEFN-20251201",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BILL-CLAB-2026",
+   "target": "JPC-CLAB-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "JPC-CLAB-2026",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Readers tracking the 2026 Bill"
+  },
+  {
+   "source": "JPC-CLAB-2026",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "Readers tracking the 2026 Bill"
+  },
+  {
+   "source": "JPC-CLAB-2026",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Readers tracking the 2026 Bill"
+  },
+  {
+   "source": "JPC-CLAB-2026",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Readers tracking the 2026 Bill"
+  },
+  {
+   "source": "JPC-CLAB-2026",
+   "target": "ENT-PVT",
+   "relation": "applies_to",
+   "basis": "Readers tracking the 2026 Bill"
+  },
+  {
+   "source": "JPC-CLAB-2026",
+   "target": "BILL-CLAB-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2014-03",
+   "target": "ENT-GRP",
+   "relation": "applies_to",
+   "basis": "Holding companies guaranteeing or securing bank or financial institution loans to subsidiaries, during the transition from the 1956 Act"
+  },
+  {
+   "source": "CIR-2014-03",
+   "target": "CA-185",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2014-04",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "Companies that had passed borrowing or security resolutions under s. 293 of the 1956 Act before 12-09-2013"
+  },
+  {
+   "source": "CIR-2014-04",
+   "target": "CA-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-2020-23",
+   "target": "ENT-BORR",
+   "relation": "applies_to",
+   "basis": "CHG-1 and CHG-9 filings for charges created or modified around 01-03-2020 to 30-09-2020"
+  },
+  {
+   "source": "CIR-2020-23",
+   "target": "ENT-LNDR",
+   "relation": "applies_to",
+   "basis": "CHG-1 and CHG-9 filings for charges created or modified around 01-03-2020 to 30-09-2020"
+  },
+  {
+   "source": "CIR-2020-23",
+   "target": "CA-CHG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  }
+ ]
+}

@@ -869,6 +869,113 @@
    "line": "NSE, BSE: debt listing, EBP, filings, fines"
   },
   {
+   "id": "companies",
+   "short": "Companies Act",
+   "name": "Companies Act",
+   "full": "Companies Act, 2013 · MCA and ROC",
+   "status": "live",
+   "desc": "Companies Act provisions, MCA rules, exemptions and circulars for lending and borrowing: Board and shareholder approvals, ss. 185 and 186, related party approvals, charge creation, registration and satisfaction, debentures and penalties.",
+   "href": "companies/",
+   "data": {
+    "register": "companies/data/ca_register.json",
+    "graph": "companies/data/ca_graph.json",
+    "definitions": "companies/data/definitions.json",
+    "glossary": "companies/data/glossary.json",
+    "updates": "companies/data/updates.json",
+    "fulltext": "companies/data/fulltext.json"
+   },
+   "official": "https://www.mca.gov.in",
+   "map": "companies/map/",
+   "subjects": [
+    {
+     "theme": "The Act, rules and exemptions",
+     "nice": "The Act, rules and exemptions",
+     "slug": "framework"
+    },
+    {
+     "theme": "Board and shareholder approvals for borrowing and security",
+     "nice": "Board and shareholder approvals",
+     "slug": "approvals"
+    },
+    {
+     "theme": "Loans, guarantees and security: sections 185 and 186",
+     "nice": "Loans and guarantees (ss. 185-186)",
+     "slug": "loans"
+    },
+    {
+     "theme": "Related party transactions",
+     "nice": "Related party transactions",
+     "slug": "rpt"
+    },
+    {
+     "theme": "Creating and registering charges",
+     "nice": "Creating and registering charges",
+     "slug": "charges"
+    },
+    {
+     "theme": "Satisfaction, receivers and rectification of charges",
+     "nice": "Satisfaction and rectification",
+     "slug": "satisfaction"
+    },
+    {
+     "theme": "Debentures, deposits and private placement",
+     "nice": "Debentures and deposits",
+     "slug": "debentures"
+    },
+    {
+     "theme": "Penalties, adjudication and compounding",
+     "nice": "Penalties and compounding",
+     "slug": "penalties"
+    },
+    {
+     "theme": "Proposed changes (Corporate Laws (Amendment) Bill, 2026)",
+     "nice": "Proposed changes (2026 Bill)",
+     "slug": "bill"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-BORR",
+     "name": "Borrowing company",
+     "key": "borrower",
+     "desc": "Borrows and creates charges"
+    },
+    {
+     "id": "ENT-LNDR",
+     "name": "Lender / charge-holder",
+     "key": "lender",
+     "desc": "Bank, NBFC or trustee"
+    },
+    {
+     "id": "ENT-GRP",
+     "name": "Company lending or guaranteeing",
+     "key": "group",
+     "desc": "Gives loans, guarantees or security"
+    },
+    {
+     "id": "ENT-NBFC",
+     "name": "NBFC / HFC",
+     "key": "nbfc",
+     "desc": "Its own exemptions as a lender"
+    },
+    {
+     "id": "ENT-PVT",
+     "name": "Private company",
+     "key": "pvt",
+     "desc": "Exemptions for private companies"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally",
+   "line": "Companies Act: approvals, ss. 185-186, charges"
+  },
+  {
    "id": "nhb",
    "short": "NHB",
    "name": "NHB",

@@ -1,0 +1,496 @@
+COMPANIES ACT REGISTER: Companies Act, 2013 provisions, MCA rules, exemption notifications, circulars and the pending Corporate Laws (Amendment) Bill, 2026, as they apply to lending and borrowing (Board and shareholder approvals, ss. 185-186, related party approvals, charges, debentures, deposits, penalties) for borrowing companies, lenders/charge-holders, group companies giving loans or guarantees, NBFCs/HFCs and private companies (as of 2026-11-26). One block per instrument. Fields: applies, excluded, concepts, duties, deadlines, breach (stated consequences), penalties (code of the shared statutory penalty text below), refs, repeals, defs (terms the instrument defines: term [para; scope]: meaning).
+
+SHARED STATUTORY PENALTY TEXTS:
+P1: Companies Act, 2013: where no specific penalty is provided, the company and every officer in default are liable to a penalty of Rs 10,000 and Rs 1,000 a day for a continuing contravention, up to Rs 2 lakh for the company and Rs 50,000 for an officer (s. 450). Penalties are imposed by an adjudicating officer (the Registrar) after a hearing, with an appeal to the Regional Director within 60 days; failing to comply with the order within 90 days is an offence (s. 454). One Person Companies, small companies, start-ups and producer companies pay at most half the specified penalty, up to Rs 2 lakh for the company and Rs 1 lakh for an officer (s. 446B). Offences not punishable with imprisonment only, or with imprisonment and fine, may be compounded by the NCLT or, where the maximum fine does not exceed Rs 25 lakh, by the Regional Director (s. 441). A false statement or knowing omission of a material fact in a filing is punishable under s. 447 (s. 448).
+
+[CA-CHG] Charges: creation and registration (ss. 77-81) | Companies Act, 2013, Chapter VI: registration of charges (ss. 77 to 81) | Act 18 of 2013, ss. 77-81 | Act | In force (as amended) | issued 2013-08-29 | subject: Creating and registering charges
+applies: Every company creating a charge, within or outside India, on its property, assets or undertakings, tangible or otherwise, in or outside India; Charge-holders (banks, NBFCs, HFCs, debenture trustees and other secured creditors); A company acquiring property already subject to a charge, and any modification of a registered charge (s. 79)
+excluded: Charges that the Central Government prescribes, in consultation with RBI, as outside s. 77 (s. 77(1) last proviso): see the 2022 rule exempting charges created by banking companies in favour of RBI
+concepts: Charge: an interest or lien created on the property or assets of a company or any of its undertakings or both as security, including a mortgage (s. 2(16))
+concepts: Joint filing: the particulars are signed by the company and the charge-holder (s. 77(1))
+concepts: Certificate of registration (Form CHG-2) and modification (CHG-3) issued by the Registrar (s. 77(2), rule 6)
+concepts: Unregistered charge is not taken into account by a liquidator (under the Act or the IBC) or any other creditor (s. 77(3)); the debt itself survives (s. 77(4))
+concepts: Constructive notice from the date of registration to anyone acquiring the property (s. 80)
+concepts: Registrar's register of charges is the MCA portal record, open to inspection (s. 81, rule 7)
+duties: s. 77(1): register the particulars of the charge, signed by the company and the charge-holder, with the instrument creating it, with the Registrar within 30 days of creation (Form CHG-1, or CHG-9 for debentures)
+duties: s. 77(1) first and second provisos: for charges created on or after 02-11-2018, the Registrar may allow registration within 60 days of creation on payment of additional fees, and on a further application within a further 60 days on payment of ad valorem fees
+duties: s. 77(1) third proviso: late registration does not prejudice rights acquired in the property before the charge is actually registered
+duties: s. 78: if the company does not register the charge within 30 days, the charge-holder may apply; the Registrar gives the company 14 days' notice and then registers unless the company registers it or shows sufficient cause; the charge-holder may recover the fees from the company
+duties: s. 79: s. 77 applies to property acquired subject to a charge and to any modification of the terms, extent or operation of a registered charge
+duties: s. 85 (read with rule 10): keep the company's own register of charges (Form CHG-7) and a copy of each instrument at the registered office
+deadlines: 30 days from creation or modification to file CHG-1 or CHG-9 (s. 77(1), rule 3)
+deadlines: Up to 60 days from creation with additional fees, then a further 60 days with ad valorem fees, on application to the Registrar (s. 77(1) provisos, for charges created on or after 02-11-2018)
+deadlines: Registrar's notice to the company on a charge-holder's application: 14 days (s. 78)
+breach: s. 77(3): an unregistered charge is ignored by the liquidator and other creditors, so the lender ranks as unsecured in liquidation or insolvency
+breach: s. 86(1): company Rs 5 lakh and every officer in default Rs 50,000 for any default under Chapter VI
+breach: s. 86(2): wilfully furnishing false or incorrect information, or knowingly suppressing material information, in a charge filing is punishable under s. 447 (fraud)
+refs: CA-SAT; RULES-CHG; RULES-FEES; AMD-CHG-20220427; CA-PEN
+penalties: P1
+
+[CA-SAT] Charges: satisfaction, receivers, rectification (ss. 82-87) | Companies Act, 2013, Chapter VI: satisfaction of charges, receivers, company's register, penalties and rectification (ss. 82 to 87) | Act 18 of 2013, ss. 82-87 | Act | In force (as amended) | issued 2013-08-29 | subject: Satisfaction, receivers and rectification of charges
+applies: Companies whose registered charges are repaid or satisfied; Charge-holders; Persons who obtain an order appointing, or themselves appoint, a receiver or manager of charged property
+concepts: Memorandum of satisfaction entered by the Registrar (Form CHG-5)
+concepts: Registrar's own entry of satisfaction or release on evidence (s. 83)
+concepts: Notice of appointment and cessation of a receiver or manager (s. 84, Form CHG-6)
+concepts: Company's register of charges (s. 85, Form CHG-7)
+concepts: Rectification and extension of time by the Central Government (s. 87, Form CHG-8)
+duties: s. 82(1): intimate payment or satisfaction in full of a registered charge to the Registrar within 30 days (Form CHG-4); the Registrar may allow intimation within 300 days on payment of additional fees, on an application by the company or the charge-holder
+duties: s. 82(2): the Registrar gives the charge-holder up to 14 days to show cause; no notice is needed if the intimation is in the specified form and signed by the charge-holder; if no cause is shown, the Registrar enters a memorandum of satisfaction
+duties: s. 83: the Registrar may enter satisfaction or release on evidence even without the company's intimation, and must inform the affected parties within 30 days
+duties: s. 84: a person who obtains an order appointing, or appoints, a receiver or manager of charged property gives notice to the company and the Registrar within 30 days, and again on ceasing to act
+duties: s. 85: the register of charges and instruments are open to members and creditors free of charge, and to others for a fee
+duties: s. 87: the Central Government may, on being satisfied that the omission or misstatement was accidental, inadvertent or for other sufficient cause, or does not prejudice creditors or shareholders, extend the time for intimating satisfaction or rectify an omission or misstatement in any earlier charge filing
+deadlines: 30 days from payment or satisfaction to file CHG-4, extendable by the Registrar to 300 days with additional fees (s. 82(1))
+deadlines: Up to 14 days for the charge-holder to show cause (s. 82(2))
+deadlines: 30 days to notify appointment of a receiver or manager (s. 84(1))
+deadlines: Registrar informs affected parties within 30 days of a s. 83 entry
+breach: s. 86(1): company Rs 5 lakh and every officer in default Rs 50,000 for any default under Chapter VI
+breach: s. 86(2): false or incorrect information, or suppression of material information, required to be registered under s. 77 attracts s. 447
+refs: CA-CHG; RULES-CHG; RULES-FEES; CA-PEN
+penalties: P1
+
+[CA-BOARD] Board and shareholder approvals (ss. 179-180) | Companies Act, 2013: powers of the Board (s. 179) and restrictions needing a special resolution (s. 180) | Act 18 of 2013, ss. 179-180 | Act | In force (as amended) | issued 2013-08-29 | subject: Board and shareholder approvals for borrowing and security
+applies: The Board of every company borrowing money, issuing debentures, investing, granting loans or giving guarantees or security; Lenders taking security or relying on the company's borrowing authority
+excluded: s. 180 does not apply to private companies (G.S.R. 464(E), 05-06-2015, entry 12), if the private company is not in default in filing its financial statements or annual return (para 2A, G.S.R. 583(E), 13-06-2017); Acceptance of deposits by a banking company in the ordinary course is not 'borrowing' (s. 179(3) second proviso and s. 180(1)(c) proviso)
+concepts: Powers exercisable only by resolution at a Board meeting: issue securities including debentures, borrow money, invest funds, grant loans or give guarantees or security (s. 179(3)(c) to (f))
+concepts: Delegation of (d) to (f) to a committee of directors, the managing director, manager or principal officer, by Board resolution at a meeting (s. 179(3) first proviso)
+concepts: Borrowing limit: paid-up share capital, free reserves and securities premium; temporary loans from the company's bankers are excluded (s. 180(1)(c))
+concepts: Temporary loans: repayable on demand or within six months, such as cash credit, bill discounting and seasonal short-term loans, but not loans for capital expenditure (Explanation to s. 180(1)(c))
+concepts: Sale, lease or other disposal of the whole or substantially the whole of an undertaking (s. 180(1)(a)), with the 20% tests for 'undertaking' and 'substantially the whole'
+concepts: Remitting or giving time to repay a debt due from a director (s. 180(1)(d))
+concepts: Commencement: s. 180 from 12-09-2013; s. 179 from 01-04-2014
+duties: s. 179(3)(c) to (f): pass a Board resolution at a meeting (not by circulation) to issue debentures, borrow, invest, or grant loans, guarantees or security; the Board may delegate (d) to (f) by a resolution at a meeting on conditions it sets
+duties: s. 179(3) Explanation II: for bank facilities, the Board approves the arrangement (overdraft, cash credit or otherwise), not each day-to-day drawing
+duties: s. 180(1)(c): obtain a special resolution before borrowing if the new borrowing plus outstanding borrowings (excluding temporary loans from bankers) will exceed paid-up share capital, free reserves and securities premium; the resolution must state the total amount up to which the Board may borrow (s. 180(2))
+duties: s. 180(1)(a): obtain a special resolution to sell, lease or otherwise dispose of the whole or substantially the whole of an undertaking; the resolution may set conditions on use of proceeds (s. 180(4))
+duties: s. 117(3): file the special resolutions under s. 180, and Board resolutions under s. 179(3), with the Registrar in Form MGT-14 within 30 days (subject to the exemptions in s. 117(3)(g))
+duties: s. 62(3): a loan or debenture with an option to convert into shares needs its terms approved by a special resolution before the loan is raised or the debentures are issued
+duties: s. 10A: a company with share capital incorporated after the Companies (Amendment) Act, 2019 may not exercise borrowing powers until a director files the declaration that subscribers have paid for their shares (within 180 days of incorporation)
+deadlines: MGT-14 within 30 days of passing the special resolution or the s. 179(3) Board resolution (s. 117(1))
+breach: s. 180(5): a debt incurred beyond the s. 180(1)(c) limit is not valid or effectual unless the lender proves it lent in good faith without knowledge that the limit was exceeded
+breach: s. 180(3): a s. 180(1)(a) disposal does not affect the title of a good-faith buyer or lessee, or sales and leases in the ordinary course of a business of selling or leasing
+refs: CA-117; RULES-MBP; RULES-MGT; EXEMPT-PVT; CA-185; CA-186
+penalties: P1
+defined terms (wording is in the full text): undertaking (definitions)
+
+[CA-117] Filing resolutions with the Registrar (s. 117) | Companies Act, 2013, s. 117: resolutions and agreements to be filed (Form MGT-14) | Act 18 of 2013, s. 117 | Act | In force (as amended) | issued 2013-08-29 | subject: Board and shareholder approvals for borrowing and security
+applies: Companies passing special resolutions (for example under ss. 180, 185(2) or 186(3)) or Board resolutions under s. 179(3)
+excluded: Board resolutions to grant loans or give guarantees or security under s. 179(3)(f) in the ordinary course of business by a banking company, or by a class of RBI-registered NBFC or NHB-registered HFC prescribed in consultation with RBI or NHB (s. 117(3)(g) second proviso, substituted w.e.f. 22-01-2021). The MCA rules in force do not yet prescribe any such NBFC or HFC class; s. 117(3)(g) does not apply to private companies, so their s. 179(3) Board resolutions need not be filed (G.S.R. 464(E), 05-06-2015, entry 8), subject to para 2A of G.S.R. 583(E)
+concepts: Form MGT-14 with the explanatory statement under s. 102
+concepts: No public inspection or copies of s. 179(3) Board resolutions under s. 399 (s. 117(3)(g) first proviso)
+duties: s. 117(1): file a copy of each special resolution, and each resolution under s. 179(3), with the explanatory statement if any, within 30 days of passing it
+duties: s. 117(3)(g): Board resolutions under s. 179(3) must be filed, except a s. 179(3)(f) lending, guarantee or security resolution passed in the ordinary course of business by a banking company or a prescribed class of NBFC or HFC
+duties: No one may inspect or take copies of s. 179(3) Board resolutions filed with the Registrar under s. 399 (s. 117(3)(g) first proviso)
+deadlines: 30 days from passing the resolution (s. 117(1))
+breach: s. 117(2): company Rs 10,000 plus Rs 100 a day for a continuing failure, up to Rs 2 lakh; every officer in default (including any liquidator) Rs 10,000 plus Rs 100 a day, up to Rs 50,000
+refs: CA-BOARD; RULES-MGT; EXEMPT-PVT
+penalties: P1
+
+[CA-185] Loans to directors (s. 185) | Companies Act, 2013, s. 185: loans, guarantees and security to directors and persons in whom directors are interested (as substituted from 07-05-2018) | Act 18 of 2013, s. 185 | Act | In force (as amended) | issued 2013-08-29 | subject: Loans, guarantees and security: sections 185 and 186
+applies: Every company advancing a loan (including a book debt), or giving a guarantee or security for a loan, to or for a director or a person in whom a director is interested; The director or other person who receives the loan, guarantee or security (s. 185(4)(iii))
+excluded: A company that, in the ordinary course of its business, provides loans or gives guarantees or security for repayment of loans and charges interest at not less than the yield of the 1, 3, 5 or 10-year Government security closest to the tenor (s. 185(3)(b)): this covers lending NBFCs and HFCs; Loans by a holding company to its wholly owned subsidiary, and guarantees or security by a holding company for loans made to its wholly owned subsidiary (s. 185(3)(c)), and guarantees or security by a holding company for loans by a bank or financial institution to any subsidiary (s. 185(3)(d)), if the subsidiary uses the loan for its principal business; Loans to a managing or whole-time director under conditions of service extended to all employees or a scheme approved by special resolution (s. 185(3)(a)); A private company in whose share capital no other body corporate has invested money, whose borrowings from banks, financial institutions or bodies corporate are below twice its paid-up share capital or Rs 50 crore (whichever is lower), and which has no subsisting default on those borrowings (G.S.R. 464(E), 05-06-2015, entry 14), provided it is not in default in filing its financial statements or annual return (para 2A inserted by G.S.R. 583(E), 13-06-2017)
+concepts: Absolute bar (s. 185(1)): a director of the company or of its holding company, any partner or relative of such a director, and any firm in which such a director or relative is a partner
+concepts: Conditional route (s. 185(2)): any person in whom a director is interested may receive a loan, guarantee or security with a special resolution, if the borrower uses it for its principal business
+concepts: 'Person in whom a director is interested': a private company of which the director is a director or member; a body corporate where the director (or two or more directors together) controls at least 25% of voting power; a body corporate whose Board or managers are accustomed to act on the lending company's Board or directors' instructions (Explanation to s. 185(2))
+concepts: 'Directly or indirectly': structures routed through others are caught
+duties: s. 185(1): do not lend to, or give a guarantee or security for a loan taken by, a director, a director of the holding company, their partners or relatives, or a firm in which any of them is a partner
+duties: s. 185(2)(a): for a person in whom a director is interested, pass a special resolution; the explanatory statement must give full particulars of the loan, guarantee or security, the purpose and any other relevant fact
+duties: s. 185(2)(b): the borrower must use the loan for its principal business activities
+duties: Board approval at a meeting is also needed (s. 179(3)(f)), and the s. 186 limits and conditions apply where the borrower is a body corporate or other person
+deadlines: MGT-14 for the special resolution within 30 days (s. 117)
+breach: s. 185(4)(i): company fine Rs 5 lakh to Rs 25 lakh
+breach: s. 185(4)(ii): every officer in default imprisonment up to 6 months or fine Rs 5 lakh to Rs 25 lakh
+breach: s. 185(4)(iii): the director or other person who received the loan, guarantee or security: imprisonment up to 6 months or fine Rs 5 lakh to Rs 25 lakh, or both
+refs: CA-186; CA-BOARD; EXEMPT-PVT; CIR-2015-04; BILL-CLAB-2026
+penalties: P1
+
+[CA-186] Inter-corporate loans, guarantees, investments (s. 186) | Companies Act, 2013, s. 186: loans, guarantees, security and investments by a company (as amended from 07-05-2018) | Act 18 of 2013, s. 186 | Act | In force (as amended) | issued 2013-08-29 | subject: Loans, guarantees and security: sections 185 and 186
+applies: Every company giving a loan to any person or body corporate, giving a guarantee or security for a loan to any body corporate or person, or acquiring securities of another body corporate
+excluded: Everything except s. 186(1) (layers of investment companies) does not apply to loans, guarantees, security or investments by a banking company, insurance company or housing finance company in the ordinary course of business, or by a company established with the object of and engaged in financing industrial enterprises or providing infrastructural facilities (s. 186(11)(a)); For s. 186(11)(a), 'business of financing industrial enterprises' includes, for an RBI-registered NBFC, giving any loan to a person or providing any guarantee or security for a loan availed by any person in the ordinary course of its business, and, for an IFSCA-registered finance company, its lending activities under the IFSCA (Finance Company) Regulations, 2021 (rule 11(2) of the Board meetings rules, as substituted on 03-11-2025); Investments by an investment company, investments in rights or s. 62(1)(a) shares, and investments or lending by an RBI-registered NBFC whose principal business is acquisition of securities (s. 186(11)(b)); Loans to employees are outside 'person' for the s. 186(2) limit (Explanation to s. 186(2)); Loans, guarantees or security to a wholly owned subsidiary or joint venture, and acquisition of a wholly owned subsidiary's securities, do not need the s. 186(3) special resolution, but must be disclosed (s. 186(3) provisos)
+concepts: Limit: 60% of paid-up share capital, free reserves and securities premium, or 100% of free reserves and securities premium, whichever is more (s. 186(2))
+concepts: Special resolution in general meeting beforehand if the aggregate will exceed the limit (s. 186(3))
+concepts: Unanimous Board approval: resolution at a meeting with the consent of all directors present (s. 186(5))
+concepts: Prior approval of a public financial institution where a term loan is subsisting, unless within the limit and with no default to it (s. 186(5) proviso)
+concepts: Minimum interest: not below the prevailing yield of the 1, 3, 5 or 10-year Government security closest to the tenor (s. 186(7))
+concepts: Bar while any deposit repayment or interest default subsists (s. 186(8))
+concepts: Not more than two layers of investment companies, subject to exceptions (s. 186(1) and the layers rules)
+duties: s. 186(2) and (3): keep loans, guarantees, security and investments within the limit, or obtain a special resolution in advance (except for wholly owned subsidiaries and joint ventures)
+duties: s. 186(5): pass the Board resolution at a meeting with the consent of all directors present, and obtain the PFI's prior approval where required
+duties: s. 186(7): charge interest of at least the comparable Government security yield on any loan given
+duties: s. 186(8): give no loan, guarantee or security and make no acquisition while a default in repaying deposits or interest subsists
+duties: s. 186(4): disclose full particulars and the purpose in the financial statements
+duties: s. 186(9) and (10): keep a register of loans, guarantees, security and acquisitions at the registered office (Form MBP-2 under the Board meetings rules), open to members
+deadlines: MGT-14 for any s. 186(3) special resolution within 30 days (s. 117)
+breach: s. 186(13): company fine Rs 25,000 to Rs 5 lakh; every officer in default imprisonment up to 2 years and fine Rs 25,000 to Rs 1 lakh
+refs: CA-185; CA-BOARD; RULES-MBP; AMD-MBP-20251103; RULES-LAYERS; CIR-2015-06; CIR-2015-04; BILL-CLAB-2026
+penalties: P1
+
+[CA-ACT] Key definitions and power to exempt (ss. 2, 462) | Companies Act, 2013: definitions used in lending transactions (s. 2) and the power to exempt classes of companies (s. 462) | Act 18 of 2013, ss. 2 and 462 | Act | In force (as amended) | issued 2013-08-29 | subject: The Act, rules and exemptions
+applies: Every company and every person dealing with a company in a loan, guarantee, security or charge
+concepts: Charge: an interest or lien created on the property or assets of a company or any of its undertakings or both as security, and includes a mortgage (s. 2(16))
+concepts: Free reserves: reserves available for distribution as dividend as per the latest audited balance sheet, excluding unrealised or notional gains, revaluation, and fair-value changes recognised in equity (s. 2(43))
+concepts: Related party: includes a director or KMP or their relative, a firm in which a director, manager or relative is a partner, a private company in which a director, manager or relative is a member or director, a public company in which a director or manager is a director and holds with relatives more than 2% of paid-up capital, and holding, subsidiary and associate companies (s. 2(76))
+concepts: Relative: members of a Hindu Undivided Family, spouses, and persons related as prescribed (s. 2(77) read with the definitions rules)
+concepts: Small company: a company other than a public company whose paid-up capital does not exceed Rs 10 crore and turnover does not exceed Rs 100 crore (s. 2(85) read with rule 2(1)(t), as substituted on 01-12-2025); a holding or subsidiary company, a Section 8 company and a company governed by a special Act cannot be a small company
+concepts: s. 462: the Central Government may direct that any provision of the Act does not apply, or applies with exceptions, modifications or adaptations, to a class of companies; the exemption notifications for private, Government, Section 8, Nidhi and IFSC companies are made under it
+duties: Read the s. 185, 186 and 180 limits with these definitions: free reserves and securities premium set the s. 180(1)(c) borrowing limit and the s. 186(2) lending limit
+duties: Check whether a s. 462 exemption notification modifies a section before relying on it for a private, Government or IFSC company
+refs: CA-BOARD; CA-185; CA-186; CA-RPT; EXEMPT-PVT; EXEMPT-GOVT; EXEMPT-IFSC; AMD-DEFN-20251201
+penalties: P1
+defined terms (wording is in the full text): abridged prospectus (s. 2(1)); accounting standards (s. 2(2)); Appellate Tribunal (s. 2(4)); articles (s. 2(5)); auditing standards (s. 2(7)); banking company (s. 2(9)); books of account (s. 2(13)); called-up capital (s. 2(15)); charge (s. 2(16)); chartered accountant (s. 2(17)); Chief Executive Officer (s. 2(18)); Chief Financial Officer (s. 2(19)); company (s. 2(20)); company limited by guarantee (s. 2(21)); company limited by shares (s. 2(22)); company secretary in practice (s. 2(25)); contributory (s. 2(26)); control (s. 2(27)); debenture (s. 2(30)); deposit (s. 2(31)); depository (s. 2(32)); derivative (s. 2(33)); director (s. 2(34)); dividend (s. 2(35)); document (s. 2(36)); employees' stock option (s. 2(37)); expert (s. 2(38)); financial institution (s. 2(39)); foreign company (s. 2(42)); free reserves (s. 2(43)); Global Depository Receipt (s. 2(44)); Government company (s. 2(45)); independent director (s. 2(47)); Indian Depository Receipt (s. 2(48)); issued capital (s. 2(50)); listed company (s. 2(52)); manager (s. 2(53)); managing director (s. 2(54)); memorandum (s. 2(56)); net worth (s. 2(57)); notification (s. 2(58)); officer (s. 2(59)); Official Liquidator (s. 2(61)); One Person Company (s. 2(62)); ordinary or special resolution (s. 2(63)); postal ballot (s. 2(65)); prescribed (s. 2(66)); previous company law (s. 2(67)); private company (s. 2(68)); promoter (s. 2(69)); prospectus (s. 2(70)); public company (s. 2(71)); recognised stock exchange (s. 2(73)); register of companies (s. 2(74)); Registrar (s. 2(75)); remuneration (s. 2(78)); Schedule (s. 2(79)); scheduled bank (s. 2(80)); securities (s. 2(81)); Securities and Exchange Board (s. 2(82)); Serious Fraud Investigation Office (s. 2(83)); share (s. 2(84)); small company (s. 2(85)); subscribed capital (s. 2(86)); sweat equity shares (s. 2(88)); Tribunal (s. 2(90)); unlimited company (s. 2(92)); voting right (s. 2(93)); whole-time director (s. 2(94))
+
+[CA-RPT] Related party transactions (s. 188) | Companies Act, 2013, s. 188: related party transactions | Act 18 of 2013, s. 188 | Act | In force (as amended) | issued 2013-08-29 | subject: Related party transactions
+applies: Companies entering into contracts or arrangements with a related party for sale, purchase or supply of goods, property transactions, leasing, services, appointment of agents, office or place of profit, or underwriting (s. 188(1)(a) to (g))
+excluded: Transactions in the ordinary course of business on an arm's length basis (s. 188(1) proviso); Loans, guarantees and security to related parties are governed by ss. 185 and 186 rather than the s. 188(1) list; Transactions between a holding company and its wholly owned subsidiary whose accounts are consolidated and placed before the shareholders do not need the shareholder resolution; Board consent is still needed (s. 188(1) proviso)
+concepts: Board consent by resolution at a meeting (s. 188(1))
+concepts: Prior shareholder resolution where the rule 15(3) thresholds are crossed, for example sale, purchase or supply of goods amounting to 10% or more of turnover, or property transactions amounting to 10% or more of net worth
+concepts: A member who is a related party cannot vote on the resolution approving that transaction (s. 188(1) second proviso), except in a company where 90% or more of the members, in number, are relatives of promoters or related parties (third proviso)
+concepts: Audit Committee approval and omnibus approval under s. 177 and rule 6A, for companies that must have an Audit Committee
+duties: Obtain Board consent at a meeting; interested directors stay out of the discussion (rule 15(2))
+duties: Obtain prior approval of the company by resolution where the rule 15(3) thresholds apply
+duties: Disclose the contracts or arrangements in the Board's report with justification (s. 188(2)) and record them in the register under s. 189 (Form MBP-4)
+breach: s. 188(3): a contract entered into without the required consent and not ratified within three months is voidable at the option of the Board or the shareholders; a director who authorised it indemnifies the company for any loss
+breach: s. 188(5): any director or employee who entered into or authorised the contract in contravention: for a listed company, penalty Rs 25 lakh; for any other company, penalty Rs 5 lakh
+refs: CA-185; CA-186; RULES-MBP; CA-ACT
+penalties: P1
+
+[CA-DEB] Debentures, private placement and deposits (ss. 42, 71, 73-76) | Companies Act, 2013: private placement (s. 42), debentures (s. 71) and acceptance of deposits (ss. 73 to 76) | Act 18 of 2013, ss. 42, 71, 73-76 | Act | In force (as amended) | issued 2013-08-29 | subject: Debentures, deposits and private placement
+applies: Companies raising money through debentures or private placement, and companies receiving loans or other money that could be a 'deposit'; Debenture trustees and debenture holders
+excluded: The deposit rules do not apply to banking companies, RBI-registered NBFCs, NHB-registered HFCs and companies specified under the s. 73(1) proviso (rule 1(3) of the deposit rules); Many receipts are not 'deposits', including loans from banks, public financial institutions, insurance companies and scheduled banks, amounts received from any other company, amounts from a director (and, for a private company, a director's relative) who declares the money is not borrowed, bonds or debentures secured by a first charge (or one ranking pari passu with it) on tangible assets, not exceeding the assets' market value as assessed by a registered valuer, debentures compulsorily convertible within ten years, listed non-convertible debentures that create no charge, and promoter loans brought in at a lender's stipulation (rule 2(1)(c) of the deposit rules)
+concepts: Secured debentures: charge on the company's (or its holding, subsidiary or associate company's) assets sufficient to cover principal and interest; debenture trustee appointed before the offer, and a debenture trust deed executed within 60 days of allotment (s. 71 and rule 18 of the share capital and debentures rules)
+concepts: Debenture redemption reserve: not required for RBI-registered NBFCs and NHB-registered HFCs on privately placed debentures, or for listed companies; 10% for other unlisted companies, plus a 15% investment or deposit of debentures maturing in the next year where rule 18(7) requires it
+concepts: Private placement: special resolution for each offer, except that for non-convertible debentures within the s. 180(1)(c) limit a Board resolution under s. 179(3)(c) is enough, and above that limit one special resolution a year covers all offers (rule 14(1) of the prospectus and allotment rules)
+concepts: Return of deposits and of money received but not treated as deposits: Form DPT-3 by 30 June each year (rule 16 of the deposit rules)
+duties: s. 71 and rule 18: for secured debentures, create the charge in favour of the debenture trustee and register it with the Registrar in Form CHG-9 within 30 days
+duties: s. 42 and rule 14: issue the private placement offer letter (PAS-4) to identified persons, not more than 200 in a financial year (excluding QIBs and ESOP allottees), and file the return of allotment (PAS-3) within 15 days of allotment
+duties: s. 42(4) and (6): take subscription money only through banking channels, not cash; keep it in a separate bank account in a scheduled bank; do not use it until allotment is made and PAS-3 is filed; allot within 60 days of receiving the money, or refund within the next 15 days, failing which interest at 12% a year runs from the 60th day
+duties: s. 73: accept deposits from members only as permitted by s. 73(2) and the deposit rules; s. 76 applies to eligible public companies accepting public deposits
+duties: Rule 16: file DPT-3 by 30 June each year with the position as on 31 March, covering deposits and particulars of money received that is not a deposit
+deadlines: CHG-9 within 30 days of creating the charge for debentures (s. 77, rule 3)
+deadlines: PAS-3 within 15 days of allotment on private placement (rule 14(6))
+deadlines: Debenture trust deed within 60 days of allotment (rule 18(1)(c))
+deadlines: DPT-3 by 30 June each year (rule 16)
+breach: s. 42(9): late PAS-3 makes the company, its promoters and directors liable to a penalty of Rs 1,000 a day, up to Rs 25 lakh
+breach: s. 42(10): if the company makes an offer or accepts money in contravention of s. 42, the company, its promoters and directors are liable to a penalty up to the amount raised or Rs 2 crore, whichever is lower, and the company must refund the money with interest within 30 days of the order
+breach: s. 74(3) and s. 76A: penalties for accepting or failing to repay deposits in contravention of Chapter V
+refs: RULES-SCD; RULES-PAS; RULES-DEP; CA-CHG; CA-BOARD; EXEMPT-PVT-2017
+penalties: P1
+
+[CA-PEN] Penalties, adjudication and compounding (ss. 441, 446B, 450, 454) | Companies Act, 2013: compounding (s. 441), lesser penalties (s. 446B), general penalty (s. 450) and adjudication (s. 454) | Act 18 of 2013, ss. 441, 446B, 447, 450, 454 | Act | In force (as amended) | issued 2013-08-29 | subject: Penalties, adjudication and compounding
+applies: Companies and officers in default under Chapter VI (charges), ss. 117, 179-180, 185, 186, 188 and the rules
+concepts: In-house adjudication: Registrars of Companies appointed as adjudicating officers impose penalties for defaults that carry a civil penalty (s. 454)
+concepts: Appeal to the Regional Director within 60 days of receiving the adjudication order (s. 454(5) and (6))
+concepts: Compounding of offences other than those punishable with imprisonment only or with imprisonment and fine, by the NCLT, or by the Regional Director where the maximum fine does not exceed Rs 25 lakh; not available within three years of compounding a similar offence or while an investigation is pending (s. 441)
+concepts: Lesser penalty: One Person Companies, small companies, start-ups and producer companies pay at most half the penalty, capped at Rs 2 lakh for the company and Rs 1 lakh for an officer (s. 446B)
+concepts: General penalty where none is specified (s. 450)
+duties: Pay any penalty imposed by the adjudicating officer, or appeal to the Regional Director within 60 days
+duties: For compoundable offences (for example a company's fine under s. 186(13)), apply through the Registrar for compounding by the Regional Director or NCLT, as applicable (s. 441(3))
+deadlines: Appeal against an adjudication order: 60 days from receipt of the order (s. 454(6))
+deadlines: Comply with the adjudication order within 90 days (s. 454(8))
+breach: s. 454(8): non-payment within 90 days makes the company liable to fine of Rs 25,000 to Rs 5 lakh, and officers in default to imprisonment up to 6 months or fine of Rs 25,000 to Rs 1 lakh, or both
+breach: s. 454A: a repeat of the same default within three years of a penalty order attracts twice the penalty
+breach: s. 447: fraud involving at least Rs 10 lakh or 1% of turnover (whichever is lower) carries imprisonment of 6 months to 10 years and a fine of at least the amount involved, up to three times that amount
+refs: RULES-ADJ; NOTIF-S454-20260211; CA-CHG; CA-117; CA-186; BILL-CLAB-2026
+penalties: P1
+defined terms (wording is in the full text): Regional Director (definitions); Producer Company (definitions); start-up company (definitions); wrongful gain (definitions); wrongful loss (definitions)
+
+[RULES-CHG] Registration of Charges Rules, 2014 | Companies (Registration of Charges) Rules, 2014 (as amended) | G.S.R. 248(E) | Rules | In force (as amended) | issued 2014-03-31 | subject: Creating and registering charges
+applies: Every company creating, modifying or satisfying a charge, and every charge-holder
+excluded: Rule 3 does not apply to a charge that a banking company must create in favour of RBI for a loan or advance under s. 17(4)(d) of the RBI Act, 1934 (rule 3(5), inserted on 27-04-2022)
+concepts: CHG-1: creation or modification of a charge (other than for debentures)
+concepts: CHG-9: charge for debentures, including rectification
+concepts: CHG-2 and CHG-3: Registrar's certificates of registration and modification, which are conclusive evidence of compliance (rule 6(3))
+concepts: CHG-4: satisfaction of charge; CHG-5: certificate of satisfaction
+concepts: CHG-6: appointment or cessation of a receiver or manager
+concepts: CHG-7: the company's own register of charges
+concepts: CHG-8: application to the Central Government for rectification or extension of time for satisfaction
+concepts: The copy of the instrument is certified by a director, company secretary or authorised officer of the charge-holder (rule 3(4))
+duties: Rule 3(1): file CHG-1 or CHG-9, signed by the company and the charge-holder, with a copy of the instrument, within 30 days of creation or modification
+duties: Rule 3(2) and rule 4: after 30 days, file within the s. 77 periods with additional or ad valorem fees; a delayed filing needs a declaration by the company secretary or a director that it will not adversely affect intervening creditors
+duties: Rule 3(3): where the charge-holder registers the charge, it may recover the fees from the company
+duties: Rule 8: intimate satisfaction in CHG-4 within 300 days of payment or satisfaction in full
+duties: Rule 10: keep the register of charges in CHG-7 at the registered office, make entries forthwith, preserve it permanently, and keep each instrument for eight years after satisfaction
+duties: Rule 12: apply to the Central Government in CHG-8 for rectification of an omission or misstatement, or for more time to file satisfaction after 300 days
+duties: Rule 13: for a company in insolvency resolution or liquidation, CHG-1, CHG-4, CHG-8 and CHG-9 are signed by the resolution professional or liquidator
+deadlines: 30 days for CHG-1 or CHG-9 (rule 3(1))
+deadlines: Up to 60 days with additional fees, and a further 60 days with ad valorem fees (s. 77 provisos, rules 3(2) and 4)
+deadlines: 300 days for CHG-4 (rule 8)
+refs: CA-CHG; CA-SAT; RULES-FEES; AMD-CHG-20220427; AMD-CHG-20220829
+penalties: P1
+defined terms (wording is in the full text): Act (rule 2); Annexure (rule 2); Fees (rule 2); Regional Director (rule 2); section (rule 2)
+
+[RULES-MBP] Meetings of Board and its Powers Rules, 2014 | Companies (Meetings of Board and its Powers) Rules, 2014 (as amended) | G.S.R. 240(E) | Rules | In force (as amended) | issued 2014-03-31 | subject: Loans, guarantees and security: sections 185 and 186
+applies: Companies giving loans, guarantees or security, or acquiring securities, under s. 186; companies entering related party transactions
+concepts: Rule 11(1): loans, guarantees or security to a wholly owned subsidiary or joint venture, and acquisition of a wholly owned subsidiary's securities, do not need the s. 186(3) special resolution, but must be disclosed in the financial statements
+concepts: Rule 11(2) (substituted 03-11-2025): for s. 186(11)(a), the 'business of financing industrial enterprises' includes an RBI-registered NBFC giving loans or guarantees or security in the ordinary course of its business, and an IFSCA-registered finance company's lending activities
+concepts: Rule 11(3): a SEBI-registered intermediary in a notified class may not take inter-corporate loans or deposits beyond the limits in its SEBI regulations
+concepts: Rule 13: the s. 186(3) special resolution must state the total amount up to which the Board may give loans, guarantees or security or make acquisitions
+concepts: Rule 15: related party transaction approvals and thresholds for s. 188
+duties: Rule 12: keep a register in Form MBP-2 of all loans, guarantees, security and acquisitions under s. 186, entering each transaction chronologically within seven days; keep it at the registered office, preserve it permanently and have entries authenticated by the company secretary or an authorised person
+duties: Rule 12(6): give extracts of the register to members on payment of a fee fixed in the articles, not more than Rs 10 a page
+duties: Rule 13: state the overall amount in any s. 186(3) special resolution and disclose full particulars in the financial statements
+deadlines: Entry in MBP-2 within 7 days of each loan, guarantee, security or acquisition (rule 12(2))
+refs: CA-186; CA-RPT; AMD-MBP-20251103; CIR-2014-15
+penalties: P1
+defined terms (wording is in the full text): Act (rule 2); Annexure (rule 2); Fees (rule 2); section (rule 2)
+
+[RULES-MGT] Management and Administration Rules, 2014 | Companies (Management and Administration) Rules, 2014 (as amended): filing of resolutions in Form MGT-14 | G.S.R. 260(E) | Rules | In force (as amended) | issued 2014-03-31 | subject: Board and shareholder approvals for borrowing and security
+applies: Companies filing special resolutions and s. 179(3) Board resolutions with the Registrar
+concepts: Form MGT-14: filing of resolutions and agreements under s. 117 (rule 24)
+concepts: Postal ballot and e-voting procedures for special resolutions (rules 20 and 22)
+concepts: E-forms MGT-7, MGT-7A and MGT-15 replaced with effect from 14-07-2025 (G.S.R. 358(E), 30-05-2025)
+duties: File MGT-14 with the resolution and the explanatory statement within 30 days of passing it (s. 117(1), rule 24)
+deadlines: 30 days for MGT-14 (s. 117(1))
+refs: CA-117; CA-BOARD; CIR-2014-28
+penalties: P1
+defined terms (wording is in the full text): Act (rule 2); Annexure (rule 2); Fees (rule 2); Regional Director (rule 2); section (rule 2); agency (rule 2); cut-off date (rule 2); cyber security (rule 2); electronic voting system (rule 2); remote e-voting (rule 2); secured system (rule 2); Voting by electronic mean (rule 2)
+
+[RULES-DEP] Acceptance of Deposits Rules, 2014 | Companies (Acceptance of Deposits) Rules, 2014 (as amended) | G.S.R. 256(E) | Rules | In force (as amended) | issued 2014-03-31 | subject: Debentures, deposits and private placement
+applies: Companies other than banking companies, RBI-registered NBFCs, NHB-registered HFCs and companies specified under the s. 73(1) proviso (rule 1(3))
+excluded: Rule 2(1)(c) lists what is not a deposit: for example amounts received from any other company, loans from banks, PFIs, regional financial institutions, insurance companies and scheduled banks, amounts from foreign lenders under FEMA, commercial paper, bonds and debentures secured by a first or pari passu charge on tangible assets (up to their market value as assessed by a registered valuer), debentures compulsorily convertible within ten years, listed unsecured non-convertible debentures, amounts from directors who give the required declaration, and promoter loans brought in at a bank's or financial institution's stipulation until the bank loan is repaid
+concepts: A director's (or a private company director's relative's) loan is not a deposit only if, when giving the money, the director declares in writing that it is not out of borrowed funds; the company discloses it in the Board's report (rule 2(1)(c)(viii))
+concepts: Form DPT-3: annual return of deposits and of money received that is not a deposit (rule 16)
+duties: Rule 16: file DPT-3 by 30 June each year, as on 31 March, audited by the auditor
+duties: Take the rule 2(1)(c)(viii) declaration from any director lending to the company before accepting the money
+deadlines: DPT-3 by 30 June each year (rule 16)
+refs: CA-DEB; CIR-2026-02
+penalties: P1
+defined terms (wording is in the full text): Act (rule 2); Annexure (rule 2); deposit (rule 2); eligible company (rule 2); fees (rule 2); section (rule 2); trustee (rule 2)
+
+[RULES-SCD] Share Capital and Debentures Rules, 2014 | Companies (Share Capital and Debentures) Rules, 2014 (as amended): rule 18 on secured debentures | G.S.R. 265(E) | Rules | In force (as amended) | issued 2014-03-31 | subject: Debentures, deposits and private placement
+applies: Companies issuing secured debentures, and their debenture trustees
+concepts: Redemption within 10 years, or up to 30 years for infrastructure companies, infrastructure finance companies, IDF-NBFCs and companies permitted by a Ministry, RBI, NHB or other statutory authority (rule 18(1)(a))
+concepts: Security: a charge on the properties or assets of the company or its subsidiaries, holding company or associate companies, of sufficient value (rule 18(1)(b)); for an NBFC the charge may be on any movable property (rule 18(1)(d) proviso)
+concepts: Debenture redemption reserve and 15% investment rules (rule 18(7))
+duties: Appoint the debenture trustee before the offer and execute the debenture trust deed within 60 days of allotment (rule 18(1)(c))
+duties: Create the security in favour of the debenture trustee and register it in CHG-9
+duties: Keep the debenture redemption reserve where rule 18(7) requires it, and make the 15% investment or deposit by 30 April for debentures maturing in the next year where applicable
+deadlines: Debenture trust deed within 60 days of allotment (rule 18(1)(c))
+deadlines: 15% investment or deposit by 30 April each year where required (rule 18(7)(b)(v))
+refs: CA-DEB; CA-CHG; RULES-CHG
+penalties: P1
+defined terms (wording is in the full text): Act (rule 2); Annexure (rule 2); Fees (rule 2); Regional Director (rule 2); section (rule 2)
+
+[RULES-PAS] Prospectus and Allotment of Securities Rules, 2014 | Companies (Prospectus and Allotment of Securities) Rules, 2014 (as amended): rule 14 on private placement | G.S.R. 251(E) | Rules | In force (as amended) | issued 2014-03-31 | subject: Debentures, deposits and private placement
+applies: Companies raising money by private placement of securities, including non-convertible debentures
+concepts: Special resolution for each private placement offer (rule 14(1))
+concepts: Non-convertible debentures within the s. 180(1)(c) borrowing limit: a s. 179(3)(c) Board resolution is enough; above the limit, one special resolution a year covers all NCD offers (rule 14(1) provisos)
+concepts: Not more than 200 persons in a financial year, excluding QIBs and employees under ESOP (rule 14(2))
+concepts: No offer to a body corporate or national of a country sharing a land border with India without Government approval under the FEMA non-debt instruments rules
+duties: Pass the required shareholder or Board resolution before the offer
+duties: Issue the offer letter in PAS-4 and keep the record of the offer in PAS-5
+duties: File the return of allotment in PAS-3 within 15 days of allotment (rule 14(6))
+deadlines: PAS-3 within 15 days of allotment (rule 14(6))
+refs: CA-DEB; CA-BOARD
+penalties: P1
+defined terms (wording is in the full text): Act (rule 2); Annexure (rule 2); fees (rule 2); Regional Director (rule 2); section (rule 2)
+
+[RULES-FEES] Registration Offices and Fees Rules, 2014 | Companies (Registration Offices and Fees) Rules, 2014 (as amended): fees, additional fees and ad valorem fees for charge filings | G.S.R. 268(E) | Rules | In force (as amended) | issued 2014-03-31 | subject: Creating and registering charges
+applies: Every company and charge-holder filing CHG-1, CHG-4, CHG-9 or other e-forms
+concepts: Charges created on or after 02-11-2018, filed late (from 01-08-2019): for small companies and OPCs, 3 times the normal fee for a delay up to 30 days, and 3 times the normal fee plus ad valorem fee of 0.025% of the amount secured (maximum Rs 1 lakh) for a delay of 30 to 90 days
+concepts: For other companies: 6 times the normal fee for a delay up to 30 days, and 6 times the normal fee plus ad valorem fee of 0.05% of the amount secured (maximum Rs 5 lakh) for a delay of 30 to 90 days
+concepts: Form GNL-1 for applications to the Registrar, including compounding applications (new form from 14-07-2025, G.S.R. 360(E))
+duties: Pay the normal fee for filings within 30 days, and the additional or ad valorem fee for filings within the s. 77 extended periods
+refs: CA-CHG; RULES-CHG
+penalties: P1
+defined terms (wording is in the full text): Act (rule 2); Annexure (rule 2); Digital Signature (rule 2); Digital Signature Certificate (rule 2); electronic record (rule 2); electronic registry (rule 2); electronic mail (rule 2); Regional Director (rule 2); Registrar’s Facilitation Office (rule 2); Straight Through Process (rule 2)
+
+[RULES-LAYERS] Restriction on Number of Layers Rules, 2017 | Companies (Restriction on number of layers) Rules, 2017 (as amended) | G.S.R. 1176(E) | Rules | In force (as amended) | issued 2017-09-20 | subject: Loans, guarantees and security: sections 185 and 186
+applies: Holding companies with subsidiaries, other than the classes excluded by rule 2(2), such as banking companies, RBI-registered NBFCs that RBI treats as systemically important, insurance companies and Government companies
+concepts: Not more than two layers of subsidiaries; one layer of wholly owned subsidiaries is not counted
+concepts: Form CRL-1 return of layers (new form from 14-07-2025, G.S.R. 427(E))
+concepts: s. 186(1): investments through not more than two layers of investment companies, subject to the stated exceptions
+duties: Do not add a layer of subsidiaries beyond the permitted number
+duties: File CRL-1 where the rules require it
+refs: CA-186
+penalties: P1
+
+[RULES-ADJ] Adjudication of Penalties Rules, 2014 | Companies (Adjudication of Penalties) Rules, 2014 (as amended) | G.S.R. 254(E) | Rules | In force (as amended) | issued 2014-03-31 | subject: Penalties, adjudication and compounding
+applies: Companies and officers facing adjudication of a penalty by a Registrar
+concepts: Show cause notice, reply and hearing before the adjudicating officer
+concepts: Electronic adjudication and payment through the MCA portal (2024 amendments)
+concepts: Appeal to the Regional Director in Form ADJ within 60 days
+duties: Reply to the show cause notice within the time given and attend the hearing
+duties: Pay the penalty through the MCA portal, or appeal within 60 days
+refs: CA-PEN; NOTIF-S454-20260211
+penalties: P1
+defined terms (wording is in the full text): Act (rule 2); Annexure (rule 2); Fees (rule 2); Regional Director (rule 2); section (rule 2)
+
+[AMD-CHG-20220427] Charges rules amendment: charges in favour of RBI (2022) | Companies (Registration of Charges) Amendment Rules, 2022 | G.S.R. 320(E) | Amendment rules | In force | issued 2022-04-27 | subject: Creating and registering charges
+applies: Banking companies creating or modifying a charge in favour of RBI for a loan or advance under s. 17(4)(d) of the RBI Act, 1934
+duties: Inserts rule 3(5): rule 3 (filing particulars of the charge with the Registrar) does not apply to such a charge
+refs: RULES-CHG; CA-CHG
+penalties: P1
+
+[AMD-CHG-20220829] Charges rules amendment: filings by insolvency professionals (2022) | Companies (Registration of Charges) Second Amendment Rules, 2022 | G.S.R. 664(E) | Amendment rules | In force | issued 2022-08-29 | subject: Creating and registering charges
+applies: Companies under corporate insolvency resolution or liquidation, and their charge-holders
+duties: Inserts rule 13: CHG-1, CHG-4, CHG-8 and CHG-9 for a company under resolution or liquidation are signed by the interim resolution professional, resolution professional or liquidator, and the CHG-1 form is revised accordingly
+refs: RULES-CHG; CIR-2020-04
+penalties: P1
+
+[AMD-MBP-20251103] Board meetings rules amendment: NBFC and IFSC finance company lending (2025) | Companies (Meetings of Board and its Powers) Amendment Rules, 2025 | G.S.R. 811(E) | Amendment rules | In force | issued 2025-11-03 | subject: Loans, guarantees and security: sections 185 and 186
+applies: RBI-registered NBFCs and IFSCA-registered finance companies giving loans, guarantees or security
+duties: Substitutes rule 11(2): for s. 186(11)(a), 'business of financing industrial enterprises' includes (i) for an RBI-registered NBFC, giving any loan to a person or providing any guarantee or security for a loan availed by any person in the ordinary course of its business, and (ii) for an IFSCA-registered finance company, the activities in regulation 5(1)(ii)(a) or (e) of the IFSCA (Finance Company) Regulations, 2021 in the ordinary course of its business
+duties: Result: such loans, guarantees and security are outside s. 186 except s. 186(1)
+refs: RULES-MBP; CA-186
+penalties: P1
+
+[AMD-DEFN-20251201] Small company thresholds raised to Rs 10 crore / Rs 100 crore (2025) | Companies (Specification of definition details) Amendment Rules, 2025 | G.S.R. 880(E) | Amendment rules | In force | issued 2025-12-01 | subject: The Act, rules and exemptions
+applies: Private companies assessing small company status
+duties: Substitutes rule 2(1)(t): for s. 2(85), the paid-up capital and turnover of a small company must not exceed Rs 10 crore and Rs 100 crore respectively
+duties: Small companies pay lower late fees on charge filings (Fees Rules) and lesser penalties under s. 446B
+refs: CA-ACT; RULES-FEES; CA-PEN; BILL-CLAB-2026
+penalties: P1
+
+[COMM-CAA2017-20180507] Commencement of new ss. 185 and 186 amendments (07-05-2018) | Notification bringing into force provisions of the Companies (Amendment) Act, 2017, including the substituted s. 185 and amendments to s. 186, from 07-05-2018 | S.O. 1833(E) | Notification | In force | issued 2018-05-07 | subject: Loans, guarantees and security: sections 185 and 186
+applies: All companies giving loans, guarantees or security to directors, interested persons or other bodies corporate
+duties: Brings into force on 07-05-2018 s. 61 of the 2017 amendment Act (substituting s. 185, including the special resolution route for persons in whom a director is interested) and s. 62 (amending s. 186)
+refs: CA-185; CA-186
+penalties: P1
+
+[NOTIF-S454-20260211] Registrars appointed as adjudicating officers (2026) | Appointment of Registrars of Companies as adjudicating officers under s. 454, in supersession of S.O. 831(E) of 2015 and S.O. 2650(E) of 2019 | S.O. 698(E) | Notification | In force | issued 2026-02-10 | subject: Penalties, adjudication and compounding
+applies: Companies and officers liable to a penalty under the Act
+duties: Appoints the Registrars of Companies listed in the notification as adjudicating officers for the States, Union territories and districts shown against each
+duties: Supersedes the 2015 and 2019 appointment notifications, except for things done before
+refs: CA-PEN; RULES-ADJ
+penalties: P1
+
+[EXEMPT-PVT] Private company exemptions (2015) | Exemptions to private companies under s. 462 | G.S.R. 464(E) | Exemption notification | In force (as amended) | issued 2015-06-05 | subject: The Act, rules and exemptions
+applies: Private companies
+duties: Entry 8: s. 117(3)(g) does not apply, so s. 179(3) Board resolutions need not be filed in MGT-14
+duties: Entry 12: s. 180 does not apply, so no special resolution is needed for borrowing beyond the limit or creating security on the undertaking
+duties: Entry 14: s. 185 does not apply to a private company in whose share capital no other body corporate has invested money, whose borrowings from banks, financial institutions or bodies corporate are less than twice its paid-up share capital or Rs 50 crore (whichever is lower), and which has no subsisting default in repaying those borrowings when making the transaction
+duties: Entry 13: an interested director may take part in the Board meeting after disclosing the interest (s. 184(2))
+duties: Para 2A (inserted in 2017): the exemptions apply only if the private company has not defaulted in filing its financial statements under s. 137 or annual return under s. 92
+refs: EXEMPT-PVT-2017; CA-BOARD; CA-117; CA-185
+penalties: P1
+
+[EXEMPT-PVT-2017] Private company exemptions: 2017 amendment | Amendment to the private company exemption notification under s. 462 | G.S.R. 583(E) | Exemption notification | In force | issued 2017-06-13 | subject: The Act, rules and exemptions
+applies: Private companies
+duties: Substitutes entry 6: s. 73(2)(a) to (e) do not apply to a private company that accepts from members not more than 100% of paid-up capital, free reserves and securities premium, or is a start-up (for five years), or is not an associate or subsidiary, has borrowings below twice its paid-up capital or Rs 50 crore and no default; such companies file the details of money accepted with the Registrar
+duties: Inserts para 2A: every exemption in the notification depends on the company not having defaulted in filing its financial statements or annual return
+refs: EXEMPT-PVT; RULES-DEP; CA-DEB
+penalties: P1
+
+[EXEMPT-GOVT] Government company exemptions (2015) | Exemptions to Government companies under s. 462 | G.S.R. 463(E) | Exemption notification | In force (as amended) | issued 2015-06-05 | subject: The Act, rules and exemptions
+applies: Government companies
+duties: Entry 24: s. 185 does not apply to a Government company that obtains approval of the administrative Ministry or Department of the Central Government, or the State Government, before making the loan or giving the guarantee or security
+duties: Entry 25: s. 186 does not apply to a Government company engaged in defence production, or, as stated in the notification, to an unlisted Government company with the approval of its administrative Ministry, Department or State Government
+duties: From 13-06-2017 (G.S.R. 582(E)), the exemptions apply only to a Government company that has not defaulted in filing its financial statements under s. 137 or annual return under s. 92
+refs: CA-185; CA-186
+penalties: P1
+
+[EXEMPT-IFSC] IFSC public company exemptions (2017) | Exemptions to Specified IFSC public companies under s. 462 | G.S.R. 8(E) | Exemption notification | In force (as amended) | issued 2017-01-04 | subject: The Act, rules and exemptions
+applies: Specified IFSC public companies (public companies licensed to operate in an International Financial Services Centre)
+duties: s. 117(3)(g) does not apply
+duties: s. 186(1) (layers of investment companies) does not apply
+duties: s. 186(2) and (3) do not apply if the company passes a resolution at a Board meeting or by circulation
+duties: Modifies the s. 185 explanation and s. 186(5); a companion notification, G.S.R. 9(E) of the same date, covers Specified IFSC private companies
+refs: CA-185; CA-186; CA-117
+penalties: P1
+
+[CIR-2015-04] Loans to employees outside s. 186 (GC 4/2015) | General Circular 4/2015: clarification on ss. 185 and 186, loans and advances to employees | General Circular 4/2015 | Circular | In force | issued 2015-03-10 | subject: Loans, guarantees and security: sections 185 and 186
+applies: Companies giving loans or advances to employees
+duties: Loans and advances to employees other than managing or whole-time directors (who are governed by s. 185) are not governed by s. 186, if they follow the conditions of service applicable to employees and the remuneration policy where one is required
+refs: CA-185; CA-186
+penalties: P1
+
+[CIR-2015-06] s. 186(7) interest test and tax-free bonds (GC 6/2015) | General Circular 6/2015: clarification under s. 186(7) | General Circular 6/2015 | Circular | In force | issued 2015-04-09 | subject: Loans, guarantees and security: sections 185 and 186
+applies: Companies investing in tax-free bonds
+duties: Where the effective yield on tax-free bonds is higher than the prevailing yield of the 1, 3, 5 or 10-year Government security closest to the tenor, there is no violation of s. 186(7)
+refs: CA-186
+penalties: P1
+
+[CIR-2014-15] Register under s. 186(9): format (GC 15/2014) | General Circular 15/2014: clarification on maintaining the register under s. 186(9) in the new format | General Circular 15/2014 | Circular | In force | issued 2014-06-09 | subject: Loans, guarantees and security: sections 185 and 186
+applies: Companies keeping the register of loans, guarantees, security and acquisitions
+duties: Clarifies the maintenance of the register under s. 186(9) in the new format
+refs: CA-186; RULES-MBP
+penalties: P1
+
+[CIR-2014-28] MGT-14 processed in straight-through mode (GC 28/2014) | General Circular 28/2014: clarification on Form MGT-14 through STP mode | General Circular 28/2014 | Circular | In force | issued 2014-07-09 | subject: Board and shareholder approvals for borrowing and security
+applies: Companies filing MGT-14
+duties: MGT-14 is taken on record in straight-through mode in all cases except change of name, change of objects, further issue of capital and conversion of companies, from 21-07-2014
+refs: RULES-MGT; CA-117
+penalties: P1
+
+[CIR-2020-04] Filings by IRP, RP or liquidator (GC 4/2020) | General Circular 4/2020: filing of forms in MCA21 by insolvency professionals appointed under the IBC | General Circular 4/2020 | Circular | In force | issued 2020-02-17 | subject: Creating and registering charges
+applies: Companies under corporate insolvency resolution or liquidation, and their insolvency professionals
+duties: The IRP, RP or liquidator first files the NCLT order in INC-28; once it is approved, only the insolvency professional may file forms for the company, signing as CEO, and the company's master data shows it is under CIRP or liquidation
+refs: AMD-CHG-20220829; RULES-CHG
+penalties: P1
+
+[CIR-2026-02] DPT-3 late fee relaxation for FY 2025-26 (GC 2/2026) | General Circular 2/2026: relaxation of additional fee for DPT-3 for the financial year ended 31-03-2026 | General Circular 2/2026 | Circular | In force | issued 2026-06-19 | subject: Debentures, deposits and private placement
+applies: Companies filing the DPT-3 return for the financial year ended 31-03-2026
+duties: Allows DPT-3 for the financial year ended 31-03-2026 to be filed up to 31-07-2026 without additional fee
+refs: RULES-DEP
+penalties: P1
+
+[BILL-CLAB-2026] Corporate Laws (Amendment) Bill, 2026: lending and charge changes | Corporate Laws (Amendment) Bill, 2026 (Bill No. 85 of 2026): proposed changes to ss. 2(85), 77, 185, 186, 441, 446B and 454 | Bill No. 85 of 2026 | Bill | Bill pending in Parliament (Joint Committee report presented 03-08-2026) | issued 2026-03-23 | subject: Proposed changes (Corporate Laws (Amendment) Bill, 2026)
+applies: All companies, once enacted and brought into force; none of these changes is law yet
+concepts: Introduced in Lok Sabha on 23-03-2026 and referred to a Joint Committee the same day; the Committee's report was presented in Lok Sabha and laid in Rajya Sabha on 03-08-2026
+duties: Clause 18: raise the small company ceilings in s. 2(85) to Rs 20 crore paid-up capital and Rs 200 crore turnover
+duties: Clause 30: for prescribed classes of companies, the further 60-day window under s. 77(1) second proviso (b) for registering a charge would be read as 120 days; the Joint Committee recommends limiting this to prescribed classes of small companies
+duties: Clause 60: s. 185(1)(b) would also cover a limited liability partnership in which a director or relative is a partner (accepted by the Joint Committee)
+duties: Clause 61: defaults in keeping the s. 186(9) and (10) register would move from fine to civil penalty: company Rs 1 lakh plus Rs 500 a day, up to Rs 5 lakh; officer Rs 25,000 plus Rs 200 a day, up to Rs 1 lakh (accepted without change)
+duties: Clause 97: the Regional Director could compound offences where the maximum fine does not exceed Rs 1 crore (now Rs 25 lakh)
+duties: Clause 98: s. 446B would allow the lesser penalty to be one-half, or such lower percentage as may be prescribed
+duties: Clause 101: in s. 454, Assistant Registrars would become adjudicating officers, and a new s. 454(1A) would let a company or officer in default apply for adjudication of a penalty
+refs: CA-CHG; CA-185; CA-186; CA-PEN; AMD-DEFN-20251201; JPC-CLAB-2026
+penalties: P1
+
+[JPC-CLAB-2026] Joint Committee report on the 2026 Bill | Report of the Joint Committee on the Corporate Laws (Amendment) Bill, 2026 (Report No. 1) | JPC Report No. 1 | Committee report | Bill pending in Parliament (report presented) | issued 2026-08-03 | subject: Proposed changes (Corporate Laws (Amendment) Bill, 2026)
+applies: Readers tracking the 2026 Bill
+duties: Clause 30: recommends rewording so the 120-day window applies to prescribed classes of small companies
+duties: Clause 60: accepts the LLP extension of s. 185(1)(b)
+duties: Clause 61: accepts the civil penalty for s. 186(9) and (10) register defaults without change; other s. 186 contraventions keep the existing penalties
+refs: BILL-CLAB-2026
+penalties: P1
+
+[CIR-2014-03] s. 185 and guarantees for subsidiaries' bank loans (GC 3/2014) | General Circular 3/2014: clarification with regard to s. 185 | General Circular 3/2014 | Circular | Superseded: s. 186 was notified and s. 185 was substituted from 07-05-2018 | issued 2014-02-14 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: CA-185
+
+[CIR-2014-04] Old s. 293 resolutions valid for one year (GC 4/2014) | General Circular 4/2014: clarification with regard to s. 180 | General Circular 4/2014 | Circular | Superseded: the one-year transition has ended | issued 2014-03-25 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: CA-BOARD
+
+[CIR-2020-23] Charge filing relaxation scheme, COVID-19 (GC 23/2020) | General Circular 23/2020: scheme for relaxation of time for filing forms related to creation or modification of charges | General Circular 23/2020 | Circular | Superseded: the scheme period has ended | issued 2020-06-17 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: CA-CHG
+
+GLOSSARY (plain-language meanings, not statutory text):
+Charge: An interest or lien created on a company's property or assets, or any of its undertakings, as security for a debt. It includes a mortgage (s. 2(16)). Pledges, hypothecation and mortgages created by a company are all charges that must be registered.
+CHG-1 (Form CHG-1): The e-form for registering the creation or modification of a charge other than for debentures, signed by both the company and the charge-holder.
+CHG-9 (Form CHG-9): The e-form for registering a charge securing debentures, including a modification of it.
+CHG-4 (Form CHG-4): The e-form a company files to report that a registered charge has been paid off or satisfied in full, normally signed by the charge-holder too.
+CHG-8 (Form CHG-8): The application to the Central Government (Regional Director) to condone delay or rectify an omission or misstatement in charge filings under s. 87.
+Charge identification number (Charge ID): The number the Registrar gives each registered charge; it appears on the certificate (CHG-2) and is used for modifications and satisfaction.
+Ad valorem fee: A fee for late charge filing calculated on the amount secured, payable for filing in the second extended window after the first 60 days.
+Board resolution at a meeting: A decision of the directors taken at a duly convened Board meeting (in person or by video conference), not by circulation. Borrowing, issuing debentures, investing and granting loans, guarantees or security need one (s. 179(3)).
+Special resolution: A shareholders' resolution passed by at least three times as many votes in favour as against (s. 114(2)). Needed to borrow beyond the s. 180(1)(c) limit, to dispose of an undertaking, and for loans or guarantees above the s. 186 limit or to entities in which directors are interested (s. 185(2)).
+Borrowing limit (Section 180(1)(c)): The ceiling on total borrowings without shareholder approval: paid-up share capital, free reserves and securities premium. Temporary loans from the company's bankers are excluded.
+Temporary loans: Loans repayable on demand or within six months, such as cash credit, bill discounting and seasonal short-term loans, but not loans for capital expenditure. They are left out of the s. 180(1)(c) limit when taken from the company's bankers.
+Free reserves: Reserves that may be distributed as dividend under the latest audited balance sheet, excluding unrealised gains and revaluation reserves (s. 2(43)).
+MGT-14 (Form MGT-14): The e-form for filing special resolutions and certain Board resolutions with the Registrar within 30 days (s. 117).
+Person in whom a director is interested: For s. 185(2): a private company of which a director is a director or member; a body corporate in which one or more directors control at least 25% of the votes; or a body corporate whose board acts on the lending company's directors' instructions.
+Relative: For a director: spouse, father, mother, son, son's wife, daughter, daughter's husband, brother and sister, members of a Hindu undivided family, and as prescribed (s. 2(77)).
+Related party: Directors, key managerial personnel and their relatives, firms and private companies in which they are partners, members or directors, holding, subsidiary and associate companies and other persons listed in s. 2(76).
+Inter-corporate loan: A loan by one company to another body corporate. Subject to the s. 186 limits, unanimous Board approval, the minimum interest rate and, above the limit, a special resolution.
+Corporate guarantee: A guarantee a company gives for another's loan. A guarantee for a director or a firm in which a director is a partner is barred by s. 185; others count towards the s. 186 limit unless the company is exempt.
+Wholly owned subsidiary (WOS): A subsidiary whose entire share capital is held by the holding company (and its nominees). Loans and guarantees to it are outside s. 185 and do not need the s. 186(3) special resolution.
+Investment company: For s. 186, a company whose principal business is the acquisition of shares, debentures or other securities.
+Small company: A private company with paid-up capital and turnover within the limits prescribed under s. 2(85), now up to Rs 10 crore capital and Rs 100 crore turnover. It pays lower penalties under s. 446B.
+Adjudicating officer: The Registrar or other officer appointed under s. 454 to impose penalties after a hearing; appeals lie to the Regional Director.
+Compounding: Settling an offence punishable with fine only by paying a sum fixed by the NCLT or the Regional Director (s. 441).
+Regional Director (RD): The MCA officer for a region. Hears appeals against adjudication orders, compounds smaller offences and, as the Central Government's delegate, decides s. 87 rectification applications.
+Registrar of Companies (ROC): The MCA officer with whom companies file charges, resolutions and returns, and who registers charges and records satisfaction.
+Debenture trustee: The trustee appointed for the benefit of debenture holders, who holds the security for secured debentures.
+Deposit: Any receipt of money by way of deposit or loan by a company, other than the amounts excluded by rule 2(1)(c) of the Deposits Rules, such as loans from banks, NBFCs, other companies and, with a declaration, directors.
+
+COMPANIES ACT CHANGES (2025-11-01 to 2026-11-26):
+- 2026-08-03 Committee report: Joint Committee reports on the Corporate Laws (Amendment) Bill, 2026 (JPC Report No. 1). Applies: Readers tracking the Bill. Proposal only; not in force.. Changes: Recommends limiting the 120-day charge registration window to prescribed classes of small companies. Accepts the LLP extension of s. 185(1)(b). Accepts the civil penalty for s. 186(9) and (10) register defaults without change. Actions: Track the Bill through Parliament.
+- 2026-06-19 Circular: DPT-3 for FY 2025-26 can be filed until 31-07-2026 without additional fee (General Circular 2/2026). Applies: Companies filing the annual DPT-3 return, including particulars of loans received that are not deposits.. Changes: Additional fees are waived for DPT-3 for the year ended 31-03-2026 filed up to 31-07-2026. Actions: The relief ended on 31-07-2026; later DPT-3 filings for that year attract additional fees.
+- 2026-03-23 Bill: Corporate Laws (Amendment) Bill, 2026 introduced: changes to charges, s. 185, s. 186 and compounding proposed (Bill No. 85 of 2026). Applies: All companies, if enacted. Proposal only; not in force.. Changes: A 120-day further window to register charges is proposed for prescribed classes of companies. s. 185(1)(b) would also cover LLPs in which a director or relative is a partner. Defaults in keeping the s. 186 register would attract a civil penalty instead of a fine. The Regional Director could compound offences with a maximum fine up to Rs 1 crore. Small company ceilings in the Act would rise to Rs 20 crore and Rs 200 crore. Actions: Track the Bill; no change in compliance until it is enacted and brought into force.
+- 2026-02-10 Notification: Registrars appointed afresh as adjudicating officers under s. 454 (S.O. 698(E)). Applies: Companies and officers facing penalties for defaults such as late charge or resolution filings.. Changes: Registrars of Companies are appointed as adjudicating officers with the jurisdictions listed in the notification. The 2015 and 2019 appointment notifications are superseded. Actions: Check which Registrar is the adjudicating officer for the company's registered office.
+- 2025-12-01 Rules: Small company limits raised to Rs 10 crore paid-up capital and Rs 100 crore turnover (G.S.R. 880(E)). Applies: Private companies that are not holding or subsidiary companies.. Changes: Rule 2(1)(t) is substituted: a small company's paid-up capital must not exceed Rs 10 crore and turnover must not exceed Rs 100 crore. Actions: Recheck small company status on the latest audited figures.
+- 2025-11-03 Rules: NBFC and IFSC finance company lending treated as 'financing industrial enterprises' for s. 186 (G.S.R. 811(E)). Applies: RBI-registered NBFCs and IFSCA-registered finance companies giving loans, guarantees or security in the ordinary course of business.. Changes: Rule 11(2) of the Board meetings rules is substituted. An RBI-registered NBFC's loans, guarantees and security in the ordinary course of business count as 'business of financing industrial enterprises', so s. 186 (other than s. 186(1)) does not apply to them. The same treatment now covers IFSCA-registered finance companies for their lending activities. Actions: Confirm that the NBFC's loans, guarantees and security are in the ordinary course of its business before relying on the carve-out.
