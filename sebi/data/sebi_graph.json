@@ -871,13 +871,13 @@
    "source": "REG-LODR",
    "target": "ENT-LE",
    "relation": "applies_to",
-   "basis": "Every listed entity with specified securities (equity) listed on the main board, SME exchange or Innovators Growth Platform; Entities with listed non-convertible securities (Chapter V); A high value debt listed entity, with listed non-convertible debt of Rs 5,000 crore or more outstanding, for regul"
+   "basis": "Every listed entity with specified securities (equity) listed on the main board, SME exchange or Innovators Growth Platform; Entities with listed non-convertible securities (Chapter V); A high value debt listed entity (listed non-convertible debt of Rs 5,000 crore or more outstanding): regulations 1"
   },
   {
    "source": "REG-LODR",
    "target": "ENT-LD",
    "relation": "applies_to",
-   "basis": "Every listed entity with specified securities (equity) listed on the main board, SME exchange or Innovators Growth Platform; Entities with listed non-convertible securities (Chapter V); A high value debt listed entity, with listed non-convertible debt of Rs 5,000 crore or more outstanding, for regul"
+   "basis": "Every listed entity with specified securities (equity) listed on the main board, SME exchange or Innovators Growth Platform; Entities with listed non-convertible securities (Chapter V); A high value debt listed entity (listed non-convertible debt of Rs 5,000 crore or more outstanding): regulations 1"
   },
   {
    "source": "REG-LODR",

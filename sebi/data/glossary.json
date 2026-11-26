@@ -123,7 +123,7 @@
   {
    "term": "High value debt listed entity",
    "full": "HVDLE",
-   "def": "A listed entity with listed non-convertible debt of Rs 5,000 crore or more outstanding. It follows the LODR corporate governance rules on a comply-or-explain basis.",
+   "def": "A listed entity with listed non-convertible debt of Rs 5,000 crore or more outstanding. The LODR corporate governance rules apply to it on a mandatory basis; one with only listed debt follows Chapter VA.",
    "see": [
     "REG-LODR"
    ],
@@ -185,7 +185,7 @@
   {
    "term": "Open offer",
    "full": "",
-   "def": "An offer an acquirer must make to the public shareholders of a listed company on crossing the takeover thresholds, normally for at least 26% of the shares.",
+   "def": "An offer an acquirer must make to the public shareholders of a listed company on reaching the takeover thresholds, normally for at least 26% of the shares.",
    "see": [
     "REG-SAST"
    ],
@@ -208,7 +208,7 @@
   {
    "term": "Minimum public shareholding",
    "full": "MPS",
-   "def": "Every listed company other than a public sector company must keep at least 25% of its shares with the public.",
+   "def": "Every listed company must keep at least 25% of its shares with the public, and restore it within 12 months if it falls below.",
    "see": [
     "RULES-SCRR"
    ],

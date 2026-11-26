@@ -66,18 +66,18 @@
     "s. 15T(3): appeal to the Securities Appellate Tribunal within 45 days of receiving the order"
    ],
    "consequences_stated": [
-    "s. 15A: failure to furnish information, returns or books, or furnishing false information: Rs 1 lakh a day while it continues, up to Rs 1 crore",
+    "s. 15A: failure to furnish information, returns or books, or furnishing false information: at least Rs 1 lakh, up to Rs 1 lakh a day while it continues, capped at Rs 1 crore",
     "s. 15C: listed company or intermediary failing to redress investor grievances when called upon by SEBI: penalty under s. 15C",
-    "s. 15E: AMC breaching restrictions on its activities: Rs 1 lakh a day, up to Rs 1 crore",
-    "s. 15EA: breach of AIF, InvIT or REIT regulations or directions: Rs 1 lakh a day, up to the maximum in s. 15EA",
+    "s. 15E: AMC breaching restrictions on its activities: at least Rs 1 lakh, up to Rs 1 lakh a day while it continues, capped at Rs 1 crore",
+    "s. 15EA: breach of the AIF, InvIT or REIT regulations or of SEBI directions: at least Rs 1 lakh, up to Rs 1 lakh a day while it continues, capped at Rs 1 crore or three times the gains made, whichever is higher",
     "s. 15F: stock broker failing to issue contract notes or charging excess brokerage: penalty under s. 15F",
     "s. 15G: insider trading: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher",
-    "s. 15H: failure to make takeover disclosures or a required open offer: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher",
+    "s. 15H: failure to make takeover disclosures, a required public announcement or open offer, or to pay the offer consideration: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher",
     "s. 15HA: fraudulent and unfair trade practices: Rs 5 lakh up to Rs 25 crore or three times the profit, whichever is higher",
     "s. 15HB: breach with no separate penalty: Rs 1 lakh up to Rs 1 crore",
     "s. 24(1): offence punishable with imprisonment up to 10 years, fine up to Rs 25 crore, or both"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "ACT-SCRA",
     "ACT-DEP",
@@ -123,7 +123,7 @@
     "s. 23E: failure to comply with listing conditions or delisting conditions: penalty as set out in s. 23E",
     "s. 23H: breach with no separate penalty: penalty as set out in s. 23H"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "RULES-SCRR",
     "ACT-SEBI",
@@ -155,13 +155,13 @@
     "Minimum public shareholding (rule 19A)"
    ],
    "core_obligations": [
-    "rule 19A: every listed company other than a public sector company must maintain public shareholding of at least 25%"
+    "rule 19A(1): every listed company must maintain public shareholding of at least 25%"
    ],
    "timelines": [
-    "rule 19A: a company whose public shareholding falls below 25% must bring it back to at least 25% within three years"
+    "rule 19A(2): if public shareholding falls below 25% at any time, the company restores it to 25% within 12 months of the fall (two years for a listed public sector company)"
    ],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "ACT-SCRA",
     "REG-LODR",
@@ -201,7 +201,7 @@
    "consequences_stated": [
     "ss. 19A to 19H: penalties for failure to furnish information, redress grievances, reconcile records and other defaults, imposed by an adjudicating officer under s. 19H"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-DP",
     "MC-DP"
@@ -238,7 +238,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "ACT-SEBI"
    ],
@@ -290,7 +290,7 @@
    "consequences_stated": [
     "regulation 39: a settlement order may be revoked for breach of its terms or for lack of full and true disclosure; the proceedings are then restored and no amount is refunded"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "ACT-SEBI",
     "REG-SETTLE-OLD"
@@ -332,7 +332,7 @@
     "SEBI Act s. 15HA: Rs 5 lakh up to Rs 25 crore or three times the profit, whichever is higher",
     "regulation 11 and 12: directions and suspension or cancellation of registration"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "ACT-SEBI",
     "REG-PIT"
@@ -379,16 +379,17 @@
     "Schedule B: the trading window closes from the end of every quarter until 48 hours after results are published"
    ],
    "timelines": [
-    "regulation 7(1)(b): new KMP, directors and promoters disclose holdings within 7 days of appointment",
-    "regulation 7(2)(a): designated persons disclose trades worth over Rs 10 lakh in a calendar quarter to the company within two trading days",
+    "regulation 7(1)(b): a person appointed as KMP or director, or becoming a promoter or member of the promoter group, discloses holdings to the company within 7 days",
+    "regulation 7(2)(a): promoters, promoter group members, designated persons and directors disclose trades worth over Rs 10 lakh in a calendar quarter to the company within two trading days",
     "regulation 7(2)(b): the company informs the stock exchanges within two trading days of receiving that disclosure",
-    "regulation 5: a trading plan is disclosed to the exchanges at least two trading days before the first trade; the cool-off period is 120 calendar days"
+    "regulation 5(5): the compliance officer approves or rejects a trading plan within two trading days of receipt, and notifies an approved plan to the exchanges on the day of approval",
+    "regulation 5(2)(i): trading under the plan may start no earlier than 120 calendar days after its public disclosure"
    ],
    "consequences_stated": [
     "SEBI Act s. 15G: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher",
     "Schedule B: breach of the code of conduct is reported to SEBI and may lead to wage freeze, suspension or recovery"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "ACT-SEBI",
     "REG-LODR",
@@ -414,7 +415,7 @@
    "applies_to": [
     "Every listed entity with specified securities (equity) listed on the main board, SME exchange or Innovators Growth Platform",
     "Entities with listed non-convertible securities (Chapter V)",
-    "A high value debt listed entity, with listed non-convertible debt of Rs 5,000 crore or more outstanding, for regulations 15 to 27 on a comply-or-explain basis"
+    "A high value debt listed entity (listed non-convertible debt of Rs 5,000 crore or more outstanding): regulations 15 to 27 apply under regulation 15(1A), and an entity with only listed debt follows Chapter VA (regulations 62B onwards)"
    ],
    "excluded": [],
    "key_concepts": [
@@ -438,19 +439,19 @@
     "regulation 46: maintain a functional website with the required disclosures"
    ],
    "timelines": [
-    "regulation 30(6): board meeting outcomes within 30 minutes of the meeting closing; events within the entity within 12 hours; other events within 24 hours",
+    "regulation 30(6): board meeting outcomes within 30 minutes of the meeting closing (three hours if the meeting closes after market hours and more than three hours before the next session); events within the entity within 12 hours; other events within 24 hours, unless Schedule III sets another time",
     "regulation 29: prior intimation of board meetings on specified matters at least two working days in advance",
     "regulation 31(1)(b): shareholding pattern within 21 days of the end of each quarter (half-yearly for SME exchange)",
     "regulation 33(3): quarterly results within 45 days of quarter end; annual audited results within 60 days of year end",
     "regulation 52(1): debt listed entities file quarterly results within 45 days of quarter end (other than the last quarter)",
     "regulation 57(1): certificate on payment of interest or principal on non-convertible securities within one working day of it falling due",
-    "regulation 15(1A): an entity that crosses the Rs 5,000 crore high value debt threshold during the year complies within six months"
+    "regulation 15(1A) and 62C: an entity that crosses the Rs 5,000 crore high value debt threshold during the year complies within six months of the trigger"
    ],
    "consequences_stated": [
     "Fines and freezing of promoter holdings by stock exchanges under the standard operating procedure in the LODR Master Circular",
     "SEBI Act s. 15A(b), 15C and 15HB; SCRA s. 23E"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "MC-LODR",
     "MC-NCS-LODR",
@@ -500,7 +501,7 @@
    "consequences_stated": [
     "SEBI Act s. 11, 11B and 15HB; directions may include refund of money with interest and debarment"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-LODR",
     "RULES-SCRR",
@@ -545,7 +546,7 @@
    "consequences_stated": [
     "SEBI Act s. 11, 11B and 15HB"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "MC-NCS",
     "MC-NCS-LODR",
@@ -576,29 +577,28 @@
    ],
    "excluded": [],
    "key_concepts": [
-    "Open offer on crossing 25% (regulation 3(1))",
+    "Open offer on reaching 25% (regulation 3(1))",
     "Creeping acquisition of up to 5% a year (regulation 3(2))",
     "Acquisition of control (regulation 4)",
     "Offer size of at least 26% (regulation 7)",
     "Disclosure of acquisitions and disposals (regulation 29)",
-    "Annual disclosure and encumbrance disclosure (regulations 30, 31)"
+    "Encumbrance disclosure by promoters (regulation 31)"
    ],
    "core_obligations": [
-    "regulation 3(1): no acquirer may cross 25% of voting rights without a public announcement of an open offer",
+    "regulation 3(1): no acquirer may acquire shares or voting rights which, with those of persons acting in concert, entitle them to 25% or more of the voting rights without a public announcement of an open offer",
     "regulation 3(2): a holder of 25% or more but below the maximum non-public shareholding may not acquire more than 5% in a financial year without an open offer",
     "regulation 4: acquiring control requires an open offer, whatever the shareholding",
     "regulation 7(1): the open offer is for at least 26% of total shares",
-    "regulation 29(1) and (2): disclose holdings on reaching 5%, and every later change of more than 2%"
+    "regulation 29(1) and (2): disclose holdings (with persons acting in concert) on reaching 5%, and every later acquisition or disposal that changes the holding by more than 2%"
    ],
    "timelines": [
-    "regulation 29(3): disclosures within two working days of the acquisition or disposal",
-    "regulation 30: annual shareholding disclosure within seven working days of the end of each financial year"
+    "regulation 29(3): disclosures within two working days of the acquisition or disposal"
    ],
    "consequences_stated": [
     "SEBI Act s. 15H: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher",
     "regulation 32: directions, including divestment and making an open offer with interest"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-LODR",
     "REG-DELIST",
@@ -631,7 +631,7 @@
     "Tender offer and open market routes"
    ],
    "core_obligations": [
-    "regulation 4(i): a buy-back may not exceed 25% of the aggregate paid-up capital and free reserves",
+    "regulation 4(i): a buy-back may not exceed 25% of the aggregate paid-up capital and free reserves, on the standalone or consolidated financial statements, whichever is lower; equity shares bought back in a financial year may not exceed 25% of paid-up equity capital",
     "regulation 5(i)(b): a buy-back needs a special resolution, except one of 10% or less of paid-up equity capital and free reserves, which the board may approve"
    ],
    "timelines": [
@@ -640,7 +640,7 @@
    "consequences_stated": [
     "SEBI Act s. 15HB; regulation 28 directions"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-SAST",
     "REG-LODR"
@@ -673,14 +673,14 @@
     "Success threshold of 90% of issued shares"
    ],
    "core_obligations": [
-    "The delisting succeeds only if the acquirer's post-offer holding, with persons acting in concert, reaches at least 90% of the total issued shares of that class",
-    "The delisting price is discovered through reverse book building, or set as a fixed delisting price where permitted"
+    "regulation 21: the delisting succeeds only if the acquirer's post-offer holding reaches 90% of the total issued shares of that class, excluding shares held by custodians against depository receipts, employee benefit trusts and certified inactive shareholders",
+    "The price is discovered through reverse book building; under regulation 20A a fixed delisting price, at least 15% above the floor price, is allowed only for frequently traded shares"
    ],
    "timelines": [],
    "consequences_stated": [
     "SEBI Act s. 15HB; SCRA s. 21A and 23E"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-SAST",
     "ACT-SCRA"
@@ -719,7 +719,7 @@
    "consequences_stated": [
     "SEBI Act s. 15HB"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-LODR",
     "REG-ICDR",
@@ -759,7 +759,7 @@
    "consequences_stated": [
     "Exchange fines and freezing of promoter and promoter group holdings under the standard operating procedure"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-LODR"
    ],
@@ -795,7 +795,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-NCS",
     "MC-NCS-LODR"
@@ -830,7 +830,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-LODR",
     "REG-NCS",
@@ -889,7 +889,7 @@
     "regulation 81: AMC, mutual fund, trustee or sponsor in default is liable to action under the SEBI Act and the Intermediaries Regulations",
     "SEBI Act s. 15D and 15E"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "MC-MF",
     "REG-INTERMED",
@@ -929,7 +929,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-MF"
    ],
@@ -970,7 +970,7 @@
     "regulation 10(f): no scheme may have more than 1,000 investors, excluding accredited investors",
     "regulation 10(aa): units are issued in dematerialised form",
     "regulation 15(1)(c): Category I and II invest no more than 25% of investable funds in one investee company (50% for large value funds)",
-    "regulation 15(1)(d): Category III invests no more than 10% of investable funds in one investee company (higher for large value funds)"
+    "regulation 15(1)(d): Category III invests no more than 10% of investable funds in one investee company (20% for large value funds); for listed equity the limit may be applied to investable funds or to the scheme's net asset value"
    ],
    "timelines": [
     "regulation 13(2): Category I and II funds and schemes have a minimum tenure of three years"
@@ -979,7 +979,7 @@
     "SEBI Act s. 15EA",
     "Intermediaries Regulations: suspension or cancellation of registration"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "MC-AIF",
     "REG-INTERMED",
@@ -1021,7 +1021,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-AIF"
    ],
@@ -1069,7 +1069,7 @@
     "regulation 33: action under securities laws, including the Intermediaries Regulations",
     "SEBI Act s. 15F and 15HB"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "MC-SB",
     "REG-INTERMED",
@@ -1109,7 +1109,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-SB"
    ],
@@ -1142,13 +1142,13 @@
    ],
    "core_obligations": [
     "Schedule II: the intermediary, its principal officer, directors, promoters and key managerial personnel must be fit and proper at all times",
-    "regulation 9(1)(a): obtain SEBI's prior approval to continue as an intermediary after a change in status or constitution, which includes a change in control"
+    "regulation 9(1)(a): an intermediary that proposes a change in status or constitution, including a change in control, obtains SEBI's prior approval before the change in order to continue as an intermediary"
    ],
    "timelines": [],
    "consequences_stated": [
     "Suspension or cancellation of registration and other directions under the SEBI Act"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "ACT-SEBI",
     "REG-SB",
@@ -1188,7 +1188,7 @@
    "consequences_stated": [
     "Depositories Act ss. 19A to 19H"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "ACT-DEP",
     "MC-DP"
@@ -1224,7 +1224,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-DP",
     "ACT-DEP"
@@ -1259,7 +1259,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-INTERMED"
    ],
@@ -1297,7 +1297,7 @@
    "consequences_stated": [
     "SEBI Act s. 15EB"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-RA",
     "REG-SB"
@@ -1335,7 +1335,7 @@
    "consequences_stated": [
     "SEBI Act s. 15EB"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-IA",
     "REG-SB"
@@ -1372,7 +1372,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-NCS",
     "MC-DT"
@@ -1408,7 +1408,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-DT",
     "REG-NCS",
@@ -1444,7 +1444,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-NCS",
     "MC-CRA"
@@ -1478,7 +1478,7 @@
    ],
    "timelines": [],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-CRA"
    ],
@@ -1519,7 +1519,7 @@
    "consequences_stated": [
     "SEBI Act s. 15C: failure to redress grievances when called upon by SEBI"
    ],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "MC-ODR",
     "REG-LODR"
@@ -1557,7 +1557,7 @@
     "21 calendar days for conciliation"
    ],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "MC-SCORES"
    ],
@@ -1598,7 +1598,7 @@
     "Adoption timelines were extended by the circulars of 28-03-2025 and 30-06-2025"
    ],
    "consequences_stated": [],
-   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
    "cross_references": [
     "REG-LODR"
    ],

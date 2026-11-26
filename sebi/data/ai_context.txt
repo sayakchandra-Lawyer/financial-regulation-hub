@@ -1,7 +1,7 @@
 SEBI REGISTER (listed companies, listed debt issuers, mutual funds/AMCs, stock brokers, AIFs) (as of 2026-11-25). One block per instrument. Fields: applies, excluded, concepts, duties, deadlines, breach (stated consequences), penalties (code of the shared statutory penalty text below), refs, repeals, defs (terms the instrument defines: term [para; scope]: meaning).
 
 SHARED STATUTORY PENALTY TEXTS:
-P1: SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries Rs 1 lakh a day up to Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).
+P1: SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).
 
 [ACT-SEBI] SEBI Act, 1992 | The Securities and Exchange Board of India Act, 1992 (as amended by the Finance Act, 2021) | Act 15 of 1992 | Act | In force | issued 1992-04-04 | subject: Statutes, enforcement, penalties and settlement
 applies: Every intermediary associated with the securities market, listed companies, issuers and any person dealing in securities
@@ -17,13 +17,13 @@ duties: s. 12(1): no stock broker, merchant banker, portfolio manager, investmen
 duties: s. 12A: no person may use manipulative or deceptive devices, deal on unpublished price sensitive information, or acquire control of a company except in line with SEBI regulations
 duties: s. 11(2A) and 11C: SEBI may call for information, inspect books and records, and investigate
 deadlines: s. 15T(3): appeal to the Securities Appellate Tribunal within 45 days of receiving the order
-breach: s. 15A: failure to furnish information, returns or books, or furnishing false information: Rs 1 lakh a day while it continues, up to Rs 1 crore
+breach: s. 15A: failure to furnish information, returns or books, or furnishing false information: at least Rs 1 lakh, up to Rs 1 lakh a day while it continues, capped at Rs 1 crore
 breach: s. 15C: listed company or intermediary failing to redress investor grievances when called upon by SEBI: penalty under s. 15C
-breach: s. 15E: AMC breaching restrictions on its activities: Rs 1 lakh a day, up to Rs 1 crore
-breach: s. 15EA: breach of AIF, InvIT or REIT regulations or directions: Rs 1 lakh a day, up to the maximum in s. 15EA
+breach: s. 15E: AMC breaching restrictions on its activities: at least Rs 1 lakh, up to Rs 1 lakh a day while it continues, capped at Rs 1 crore
+breach: s. 15EA: breach of the AIF, InvIT or REIT regulations or of SEBI directions: at least Rs 1 lakh, up to Rs 1 lakh a day while it continues, capped at Rs 1 crore or three times the gains made, whichever is higher
 breach: s. 15F: stock broker failing to issue contract notes or charging excess brokerage: penalty under s. 15F
 breach: s. 15G: insider trading: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher
-breach: s. 15H: failure to make takeover disclosures or a required open offer: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher
+breach: s. 15H: failure to make takeover disclosures, a required public announcement or open offer, or to pay the offer consideration: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher
 breach: s. 15HA: fraudulent and unfair trade practices: Rs 5 lakh up to Rs 25 crore or three times the profit, whichever is higher
 breach: s. 15HB: breach with no separate penalty: Rs 1 lakh up to Rs 1 crore
 breach: s. 24(1): offence punishable with imprisonment up to 10 years, fine up to Rs 25 crore, or both
@@ -50,8 +50,8 @@ defined terms (wording is in the full text): contract (definition clause); demut
 applies: Companies seeking listing of securities and listed companies
 concepts: Application and conditions for listing (rule 19)
 concepts: Minimum public shareholding (rule 19A)
-duties: rule 19A: every listed company other than a public sector company must maintain public shareholding of at least 25%
-deadlines: rule 19A: a company whose public shareholding falls below 25% must bring it back to at least 25% within three years
+duties: rule 19A(1): every listed company must maintain public shareholding of at least 25%
+deadlines: rule 19A(2): if public shareholding falls below 25% at any time, the company restores it to 25% within 12 months of the fall (two years for a listed public sector company)
 refs: ACT-SCRA; REG-LODR; REG-ICDR
 penalties: P1
 defined terms (wording is in the full text): form (rule 2); the Act (rule 2); Government company (rule 2); public shareholding (rule 2)
@@ -133,10 +133,11 @@ duties: regulation 4(1): no insider may trade while in possession of UPSI, subje
 duties: regulation 5: a trading plan must be approved by the compliance officer and disclosed to the exchanges; the trade price may be capped at up to 20% above or below the closing price
 duties: regulation 9: listed companies and intermediaries must adopt a code of conduct for designated persons, including trading window and pre-clearance rules
 duties: Schedule B: the trading window closes from the end of every quarter until 48 hours after results are published
-deadlines: regulation 7(1)(b): new KMP, directors and promoters disclose holdings within 7 days of appointment
-deadlines: regulation 7(2)(a): designated persons disclose trades worth over Rs 10 lakh in a calendar quarter to the company within two trading days
+deadlines: regulation 7(1)(b): a person appointed as KMP or director, or becoming a promoter or member of the promoter group, discloses holdings to the company within 7 days
+deadlines: regulation 7(2)(a): promoters, promoter group members, designated persons and directors disclose trades worth over Rs 10 lakh in a calendar quarter to the company within two trading days
 deadlines: regulation 7(2)(b): the company informs the stock exchanges within two trading days of receiving that disclosure
-deadlines: regulation 5: a trading plan is disclosed to the exchanges at least two trading days before the first trade; the cool-off period is 120 calendar days
+deadlines: regulation 5(5): the compliance officer approves or rejects a trading plan within two trading days of receipt, and notifies an approved plan to the exchanges on the day of approval
+deadlines: regulation 5(2)(i): trading under the plan may start no earlier than 120 calendar days after its public disclosure
 breach: SEBI Act s. 15G: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher
 breach: Schedule B: breach of the code of conduct is reported to SEBI and may lead to wage freeze, suspension or recovery
 refs: ACT-SEBI; REG-LODR; REG-PFUTP
@@ -144,7 +145,7 @@ penalties: P1
 defined terms (wording is in the full text): Act (definitions clause); Board (definitions clause); compliance officer (definitions clause); connected person (definitions clause); generally available information (definitions clause); immediate relative (definitions clause); insider (definitions clause); specified (definitions clause); takeover regulations (definitions clause); trading (definitions clause); trading day (definitions clause); unpublished price sensitive information (definitions clause); Investor Protection and Education Fund (definitions clause); Informant (definitions clause); Informant Incentive Committee (definitions clause); insider trading laws (definitions clause); irrelevant, vexatious and frivolous information (definitions clause); Legal Representative (definitions clause); Monetary Sanctions (definitions clause); Original Information (definitions clause); Reward (definitions clause)
 
 [REG-LODR] LODR Regulations | SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (last amended on 15-10-2026) |  | Regulation | In force | issued 2015-09-02 | subject: Continuous disclosure and corporate governance
-applies: Every listed entity with specified securities (equity) listed on the main board, SME exchange or Innovators Growth Platform; Entities with listed non-convertible securities (Chapter V); A high value debt listed entity, with listed non-convertible debt of Rs 5,000 crore or more outstanding, for regulations 15 to 27 on a comply-or-explain basis
+applies: Every listed entity with specified securities (equity) listed on the main board, SME exchange or Innovators Growth Platform; Entities with listed non-convertible securities (Chapter V); A high value debt listed entity (listed non-convertible debt of Rs 5,000 crore or more outstanding): regulations 15 to 27 apply under regulation 15(1A), and an entity with only listed debt follows Chapter VA (regulations 62B onwards)
 concepts: Board composition and independent directors (regulation 17)
 concepts: Audit, nomination and remuneration, stakeholders relationship and risk management committees (regulations 18 to 21)
 concepts: Related party transactions and materiality thresholds in Schedule XII (regulation 23)
@@ -161,13 +162,13 @@ duties: regulation 24A: the listed entity and its material unlisted Indian subsi
 duties: regulation 27(2): quarterly compliance report on corporate governance, signed by the compliance officer or CEO, including cyber security incidents
 duties: regulation 30: disclose material events; Para A of Schedule III events are deemed material, Para B events are tested against the materiality criteria
 duties: regulation 46: maintain a functional website with the required disclosures
-deadlines: regulation 30(6): board meeting outcomes within 30 minutes of the meeting closing; events within the entity within 12 hours; other events within 24 hours
+deadlines: regulation 30(6): board meeting outcomes within 30 minutes of the meeting closing (three hours if the meeting closes after market hours and more than three hours before the next session); events within the entity within 12 hours; other events within 24 hours, unless Schedule III sets another time
 deadlines: regulation 29: prior intimation of board meetings on specified matters at least two working days in advance
 deadlines: regulation 31(1)(b): shareholding pattern within 21 days of the end of each quarter (half-yearly for SME exchange)
 deadlines: regulation 33(3): quarterly results within 45 days of quarter end; annual audited results within 60 days of year end
 deadlines: regulation 52(1): debt listed entities file quarterly results within 45 days of quarter end (other than the last quarter)
 deadlines: regulation 57(1): certificate on payment of interest or principal on non-convertible securities within one working day of it falling due
-deadlines: regulation 15(1A): an entity that crosses the Rs 5,000 crore high value debt threshold during the year complies within six months
+deadlines: regulation 15(1A) and 62C: an entity that crosses the Rs 5,000 crore high value debt threshold during the year complies within six months of the trigger
 breach: Fines and freezing of promoter holdings by stock exchanges under the standard operating procedure in the LODR Master Circular
 breach: SEBI Act s. 15A(b), 15C and 15HB; SCRA s. 23E
 refs: MC-LODR; MC-NCS-LODR; REG-NCS; REG-ICDR; REG-PIT; ACT-SCRA
@@ -209,19 +210,18 @@ defined terms (wording is in the full text): abridged prospectus (definitions cl
 
 [REG-SAST] Takeover Regulations | SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 (last amended on 05-12-2025) |  | Regulation | In force | issued 2011-09-23 | subject: Takeovers, buy-back and delisting
 applies: Acquirers of shares, voting rights or control in a listed company, and persons acting in concert; Target companies and their promoters
-concepts: Open offer on crossing 25% (regulation 3(1))
+concepts: Open offer on reaching 25% (regulation 3(1))
 concepts: Creeping acquisition of up to 5% a year (regulation 3(2))
 concepts: Acquisition of control (regulation 4)
 concepts: Offer size of at least 26% (regulation 7)
 concepts: Disclosure of acquisitions and disposals (regulation 29)
-concepts: Annual disclosure and encumbrance disclosure (regulations 30, 31)
-duties: regulation 3(1): no acquirer may cross 25% of voting rights without a public announcement of an open offer
+concepts: Encumbrance disclosure by promoters (regulation 31)
+duties: regulation 3(1): no acquirer may acquire shares or voting rights which, with those of persons acting in concert, entitle them to 25% or more of the voting rights without a public announcement of an open offer
 duties: regulation 3(2): a holder of 25% or more but below the maximum non-public shareholding may not acquire more than 5% in a financial year without an open offer
 duties: regulation 4: acquiring control requires an open offer, whatever the shareholding
 duties: regulation 7(1): the open offer is for at least 26% of total shares
-duties: regulation 29(1) and (2): disclose holdings on reaching 5%, and every later change of more than 2%
+duties: regulation 29(1) and (2): disclose holdings (with persons acting in concert) on reaching 5%, and every later acquisition or disposal that changes the holding by more than 2%
 deadlines: regulation 29(3): disclosures within two working days of the acquisition or disposal
-deadlines: regulation 30: annual shareholding disclosure within seven working days of the end of each financial year
 breach: SEBI Act s. 15H: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher
 breach: regulation 32: directions, including divestment and making an open offer with interest
 refs: REG-LODR; REG-DELIST; REG-BUYBACK
@@ -233,7 +233,7 @@ applies: Listed companies buying back their own shares or other specified securi
 concepts: Maximum buy-back size (regulation 4)
 concepts: Board-approved buy-back up to 10% of paid-up capital and free reserves
 concepts: Tender offer and open market routes
-duties: regulation 4(i): a buy-back may not exceed 25% of the aggregate paid-up capital and free reserves
+duties: regulation 4(i): a buy-back may not exceed 25% of the aggregate paid-up capital and free reserves, on the standalone or consolidated financial statements, whichever is lower; equity shares bought back in a financial year may not exceed 25% of paid-up equity capital
 duties: regulation 5(i)(b): a buy-back needs a special resolution, except one of 10% or less of paid-up equity capital and free reserves, which the board may approve
 deadlines: regulation 5(ii): every buy-back is completed within one year of the special resolution or board resolution
 breach: SEBI Act s. 15HB; regulation 28 directions
@@ -246,8 +246,8 @@ applies: Listed companies and acquirers (promoters) seeking voluntary delisting 
 concepts: Reverse book building and the discovered price
 concepts: Fixed delisting price route
 concepts: Success threshold of 90% of issued shares
-duties: The delisting succeeds only if the acquirer's post-offer holding, with persons acting in concert, reaches at least 90% of the total issued shares of that class
-duties: The delisting price is discovered through reverse book building, or set as a fixed delisting price where permitted
+duties: regulation 21: the delisting succeeds only if the acquirer's post-offer holding reaches 90% of the total issued shares of that class, excluding shares held by custodians against depository receipts, employee benefit trusts and certified inactive shareholders
+duties: The price is discovered through reverse book building; under regulation 20A a fixed delisting price, at least 15% above the floor price, is allowed only for frequently traded shares
 breach: SEBI Act s. 15HB; SCRA s. 21A and 23E
 refs: REG-SAST; ACT-SCRA
 penalties: P1
@@ -353,7 +353,7 @@ duties: regulation 10(d): manager or sponsor keeps a continuing interest of the 
 duties: regulation 10(f): no scheme may have more than 1,000 investors, excluding accredited investors
 duties: regulation 10(aa): units are issued in dematerialised form
 duties: regulation 15(1)(c): Category I and II invest no more than 25% of investable funds in one investee company (50% for large value funds)
-duties: regulation 15(1)(d): Category III invests no more than 10% of investable funds in one investee company (higher for large value funds)
+duties: regulation 15(1)(d): Category III invests no more than 10% of investable funds in one investee company (20% for large value funds); for listed equity the limit may be applied to investable funds or to the scheme's net asset value
 deadlines: regulation 13(2): Category I and II funds and schemes have a minimum tenure of three years
 breach: SEBI Act s. 15EA
 breach: Intermediaries Regulations: suspension or cancellation of registration
@@ -417,7 +417,7 @@ concepts: Fit and proper person criteria (Schedule II)
 concepts: Prior approval for change in control
 concepts: General obligations and code of conduct
 duties: Schedule II: the intermediary, its principal officer, directors, promoters and key managerial personnel must be fit and proper at all times
-duties: regulation 9(1)(a): obtain SEBI's prior approval to continue as an intermediary after a change in status or constitution, which includes a change in control
+duties: regulation 9(1)(a): an intermediary that proposes a change in status or constitution, including a change in control, obtains SEBI's prior approval before the change in order to continue as an intermediary
 breach: Suspension or cancellation of registration and other directions under the SEBI Act
 refs: ACT-SEBI; REG-SB; REG-MF; REG-AIF
 penalties: P1
@@ -572,14 +572,14 @@ Trading plan: A pre-set plan an insider files and discloses in advance so that t
 Structured digital database (SDD): The record a listed company or intermediary keeps of everyone with whom UPSI has been shared, with time stamps.
 Material event: An event or information a listed entity must disclose to the stock exchanges. Some are always material (Schedule III Para A); others are tested against the materiality criteria in regulation 30.
 Related party transaction (RPT): A transfer of resources, services or obligations between a listed entity and a related party. Material ones need prior shareholder approval.
-High value debt listed entity (HVDLE): A listed entity with listed non-convertible debt of Rs 5,000 crore or more outstanding. It follows the LODR corporate governance rules on a comply-or-explain basis.
+High value debt listed entity (HVDLE): A listed entity with listed non-convertible debt of Rs 5,000 crore or more outstanding. The LODR corporate governance rules apply to it on a mandatory basis; one with only listed debt follows Chapter VA.
 Non-convertible securities (NCS): Debt securities and non-convertible redeemable preference shares that do not convert into equity, such as NCDs.
 Recovery Expense Fund: A fund a debt issuer sets up with the stock exchange so the debenture trustee can meet the costs of enforcing security on default.
 Debenture trustee: A SEBI-registered entity that protects debenture holders: it monitors security and asset cover and acts on default.
 Electronic book provider platform (EBP): The exchange platform through which private placements of debt above the set size are bid and allotted.
-Open offer: An offer an acquirer must make to the public shareholders of a listed company on crossing the takeover thresholds, normally for at least 26% of the shares.
+Open offer: An offer an acquirer must make to the public shareholders of a listed company on reaching the takeover thresholds, normally for at least 26% of the shares.
 Creeping acquisition: Buying up to 5% more of a listed company's voting rights in a financial year without an open offer, allowed for a holder of 25% or more.
-Minimum public shareholding (MPS): Every listed company other than a public sector company must keep at least 25% of its shares with the public.
+Minimum public shareholding (MPS): Every listed company must keep at least 25% of its shares with the public, and restore it within 12 months if it falls below.
 Promoters' contribution: The share of post-issue capital, at least 20%, that promoters must hold after an IPO. It is locked in for 18 months, or three years in some cases.
 Asset management company (AMC): The company that runs a mutual fund's schemes under the supervision of the trustees.
 Trustees: The trustee company that holds a mutual fund's property in trust for unitholders and supervises the AMC.
