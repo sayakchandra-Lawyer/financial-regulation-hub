@@ -243,12 +243,17 @@ function hl(txt, P) {
 }
 
 /* ---------- Not So Intelligent AI ---------- */
-const FT = { state: "idle", p: null, chunks: [], idx: null, len: [], avg: 1 };
+let FT = { state: "idle", p: null, chunks: [], idx: null, len: [], avg: 1 };
+const FTS = {};
 function loadFull(url) {
+  url = url || "";
+  FT = FTS[url] || (FTS[url] = { state: "idle", p: null, chunks: [], idx: null, len: [], avg: 1 });
   if (FT.p) return FT.p;
   if (!url) { FT.state = "none"; return (FT.p = Promise.resolve(false)); }
-  FT.state = "loading";
-  FT.p = getJSON(url).then(j => {
+  const ft = FT;
+  ft.state = "loading";
+  ft.p = getJSON(url).then(j => {
+    const FT = ft;
     FT.chunks = j.chunks || []; const idx = new Map(); let tot = 0;
     FT.chunks.forEach((c, i) => {
       const toks = tok(c[3]); FT.len[i] = toks.length; tot += toks.length;
@@ -256,8 +261,8 @@ function loadFull(url) {
       tf.forEach((n, w) => { let a = idx.get(w); if (!a) idx.set(w, a = []); a.push(i, n); });
     });
     FT.idx = idx; FT.vocab = [...idx.keys()]; FT.avg = tot / Math.max(1, FT.chunks.length); FT.state = "ready"; return true;
-  }).catch(() => { FT.state = "failed"; return false; });
-  return FT.p;
+  }).catch(() => { ft.state = "failed"; return false; });
+  return ft.p;
 }
 function ftExtracts(M, P, boost) {
   if (FT.state !== "ready" || !P.groups.length) return [];
@@ -292,7 +297,7 @@ function aiExtracts(M, P, docs) {
   });
   return out;
 }
-const Judge = { M: null, endpoint: "", fulltext: "", link: id => "#d/" + id, scope: "", section: "rbi", docs: "the Directions",
+const Judge = { M: null, endpoint: "", fulltext: "", link: id => "#d/" + id, scope: "", section: "rbi", docs: "the Directions", judUrl: "", judLink: null, pick: null,
   intro: "Put your question on RBI regulation of NBFCs and I shall answer from the Directions on this site, citing the paragraph. Check what I say.",
   tries: [["Is the term project finance defined?", "Is project finance defined?"], ["What is the LTV limit for gold loans?", "LTV for gold loans"], ["Who is a wilful defaulter?", "Who is a wilful defaulter?"]],
   placeholder: "Ask a question, e.g. When must an NBFC report fraud?" };
@@ -305,11 +310,48 @@ function openJudge(prefill) {
 function closeJudge() { const w = $("#judge"); if (!w) return; w.hidden = true; $("#jfab").setAttribute("aria-expanded", "false"); $("#jfab").classList.remove("open"); }
 function aiFormat(t) {
   const M = Judge.M;
-  return esc(t).split(/\n{2,}/).map(par => `<p>${par.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/\n/g, "<br>").replace(/\[([A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+)\]/g, (m, id) => M && M.byId.has(id) ? `<a class="lnk" href="${Judge.link(id)}">${id}</a>` : m)}</p>`).join("");
+  return esc(t).split(/\n{2,}/).map(par => `<p>${par.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/\n/g, "<br>").replace(/\[([A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+)\]/g, (m, id) => M && M.byId.has(id) ? `<a class="lnk" href="${Judge.link(id)}">${id}</a>` : /^JUD-/.test(id) && Judge.judLink && JUD.byId && JUD.byId.has(id.slice(4)) ? `<a class="lnk" href="${Judge.judLink(id.slice(4))}">${esc(JUD.byId.get(id.slice(4)).short)}</a>` : m)}</p>`).join("");
+}
+/* key judgments: the rulings that best match a question go to the assistant with any regulator's texts */
+const JUD = { p: null, list: [], byId: null, df: new Map() };
+const COURT_Q = /\b(judg[e]?ments?|court|courts|ruling|rulings|held|holds|case law|precedent|tribunal|nclat|sat)\b/i;
+const jstem = w => w.length > 4 ? w.replace(/(ies|es|s)$/, "") : w;
+function loadJud(url) {
+  if (JUD.p || !url) return JUD.p || Promise.resolve(false);
+  return (JUD.p = getJSON(url).then(d => {
+    JUD.list = (d.judgments || []).map(j => {
+      const txt = [j.title, j.topic, j.issue, ...(j.holding || []), ...(j.impact || []), ...(j.statutes || [])].join(" ");
+      const set = new Set(tok(txt).map(jstem));
+      return { j, set, title: new Set(tok(j.title + " " + j.topic).map(jstem)) };
+    });
+    JUD.list.forEach(x => x.set.forEach(w => JUD.df.set(w, (JUD.df.get(w) || 0) + 1)));
+    JUD.byId = new Map(JUD.list.map(x => [x.j.id, Object.assign({ short: x.j.title.split(/ v\.? /)[0].slice(0, 40) }, x.j)]));
+    return true;
+  }).catch(() => false));
+}
+function judExtracts(raw, all) {
+  if (!JUD.list.length) return [];
+  const qs = [...new Set(tok(raw).filter(w => w.length > 2 && !STOP.has(w) && !/^(judg[e]?ments?|court|courts|ruling|rulings|held|case|law|supreme|high|india|indian)$/.test(w)).map(jstem))];
+  if (!qs.length) return [];
+  const N = JUD.list.length, asked = all || COURT_Q.test(raw);
+  const out = [];
+  JUD.list.forEach(x => {
+    let sc = 0, cov = 0;
+    qs.forEach(w => { if (x.set.has(w)) { cov++; sc += Math.log(1 + N / (JUD.df.get(w) || 1)) * (x.title.has(w) ? 1.6 : 1); } });
+    const need = asked ? 0.5 : 0.75;
+    if (cov >= Math.min(2, qs.length) && cov / qs.length >= need) out.push([sc * cov / qs.length, x.j]);
+  });
+  out.sort((a, b) => b[0] - a[0]);
+  return out.slice(0, asked ? 4 : 2).map(([, j]) => `[JUD-${j.id}] JUDGMENT of the ${j.court}, ${j.title}, ${j.date}${j.neutral_citation ? `, ${j.neutral_citation}` : ""}${j.report_citation ? `, ${j.report_citation}` : ""}${j.status_note ? ` (status: ${j.status_note})` : ""}
+Question: ${j.issue}
+Held: ${(j.holding || []).join(" ")}
+What it means: ${(j.impact || []).join(" ")}`.slice(0, 3200));
 }
 async function askJudge() {
-  const t = $("#jq"), raw = t.value.trim(), btn = $("#jsend"), M = Judge.M;
+  const t = $("#jq"), raw = t.value.trim(), btn = $("#jsend");
   if (raw.length < 3 || btn.disabled) return;
+  if (Judge.pick) Object.assign(Judge, Judge.pick(raw));
+  const M = Judge.M;
   t.value = ""; judgeMsg("me", esc(raw));
   const wait = judgeMsg("bot thinking", `<span class="dots"><i></i><i></i><i></i></span> ${FT.state === "ready" ? `Reading ${Judge.docs}…` : `Opening the full text of ${Judge.docs} (first question only)…`}`);
   btn.disabled = true;
@@ -321,6 +363,7 @@ async function askJudge() {
       const boost = new Set(docs.slice(0, 5).map(d => d.it.id)); matchDefs(M, P).forEach(x => boost.add(x.d.id));
       ext = [...ftExtracts(M, P, boost), ...aiExtracts(M, P, docs)];
     }
+    if (Judge.judUrl) { await loadJud(Judge.judUrl); const js = judExtracts(raw, Judge.section === "jud"); if (js.length) ext = Judge.section === "jud" ? [...js, ...ext] : [...ext.slice(0, 12), ...js, ...ext.slice(12, 40)]; }
     const post = x => fetch(Judge.endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question: raw.slice(0, 500), extracts: x, section: Judge.section }) });
     let r = await post(ext);
     if (r.status === 413) { const small = []; let room = 14000; for (const x of ext) { const y = x.slice(0, 1800); if (y.length > room) break; small.push(y); room -= y.length; } r = await post(small.slice(0, 8)); }
@@ -344,7 +387,7 @@ function initJudge(opts) {
   if (opts.wide) fab.classList.add("wide");
   const w = document.createElement("section");
   w.id = "judge"; w.hidden = true; w.setAttribute("role", "dialog"); w.setAttribute("aria-label", "Not So Intelligent AI");
-  w.innerHTML = `<header>${JUDGE_SVG}<div><b>Not So Intelligent AI</b><span>${esc(Judge.scope || "Answers from the RBI texts on this site")}</span></div><button class="iconbtn" id="jclose" type="button" aria-label="Close">✕</button></header>
+  w.innerHTML = `<header>${JUDGE_SVG}<div><b>Not So Intelligent AI</b><span id="jscope">${esc(Judge.scope || "Answers from the RBI texts on this site")}</span></div><button class="iconbtn" id="jclose" type="button" aria-label="Close">✕</button></header>
   <div id="jlog" aria-live="polite"><div class="jmsg bot"><p><b>Order, order!</b> I am Not So Intelligent AI. ${esc(Judge.intro)}</p><p class="jtry">Try: ${Judge.tries.map(([q, t]) => `<button class="lnk" data-try="${esc(q)}">${esc(t)}</button>`).join(" · ")}</p></div></div>
   <form id="jform"><label class="sr" for="jq">Your question</label><textarea id="jq" rows="2" maxlength="500" placeholder="${esc(Judge.placeholder)}"></textarea><button id="jsend" type="submit" aria-label="Ask">${I.gavel}</button></form>
   <p class="jdisc">AI-generated answers can be wrong. Not legal advice: read the official text. Each question is answered on its own.</p>`;
