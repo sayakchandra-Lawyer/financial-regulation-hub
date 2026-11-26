@@ -1,0 +1,29 @@
+name: Refresh latest-updates band
+on:
+  schedule:
+    - cron: "30 1,7,13 * * *"   # 7:00 AM, 1:00 PM and 7:00 PM IST
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: news-band
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch official headlines
+        run: python3 -I tools/fetch_news.py
+      - name: Commit if changed
+        run: |
+          git diff --quiet -- news.json && { echo "No change"; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git commit -m "Refresh latest-updates band"
+          git push
