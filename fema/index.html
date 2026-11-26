@@ -34,8 +34,8 @@
 .sc:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 .sc h3{font-size:19px}.sc ul{padding-left:16px;margin:0}.sc li{font-size:13.5px;color:var(--ink-2);margin:3px 0}
 .sc .more{margin-top:auto;font-size:12.5px;color:var(--accent-text);font-weight:600}
-.layer{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:10px;margin:0 auto 6px;font-size:13.5px;cursor:pointer;border:2px solid transparent;background:color-mix(in srgb,var(--c) 15%,transparent);width:100%;text-align:left;transition:transform .15s}
-.layer:hover{transform:scale(1.02)}.layer.on{border-color:var(--c)}.layer b{color:color-mix(in srgb,var(--c) 62%,var(--ink));white-space:nowrap}.layer span{margin-left:auto;color:var(--ink-2);font-size:12.5px;text-align:right}
+.layer{display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:10px 14px;border-radius:10px;margin:0 auto 6px;font-size:13.5px;cursor:pointer;border:2px solid transparent;background:color-mix(in srgb,var(--c) 15%,transparent);width:100%;text-align:left;transition:transform .15s}
+.layer:hover{transform:scale(1.02)}.layer.on{border-color:var(--c)}.layer b{color:color-mix(in srgb,var(--c) 62%,var(--ink))}.layer span{color:var(--ink-2);font-size:12.5px;line-height:1.4}
 .panel{padding:20px}
 .row{display:flex;gap:14px;align-items:flex-start;padding:14px 4px;border-top:1px solid var(--line);cursor:pointer}
 .row:hover{background:var(--surface-2)}.row .t{font-weight:600}.row .m{font-size:12.5px;color:var(--muted)}
