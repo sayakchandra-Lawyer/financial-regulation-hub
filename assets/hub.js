@@ -1,4 +1,4 @@
-/* Financial Regulation Hub: shared engine (header, theme, data loading, search, Not So Intelligent AI) */
+/* Financial Regulation Hub: shared engine (header, theme, data loading, search, Counsel’s Clerk) */
 "use strict";
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -443,7 +443,7 @@ async function sxMount(el, raw, opts = {}) {
   };
 }
 
-/* ---------- Not So Intelligent AI ---------- */
+/* ---------- Counsel’s Clerk ---------- */
 let FT = { state: "idle", p: null, chunks: [], idx: null, len: [], avg: 1 };
 const FTS = {};
 function loadFull(url) {
@@ -571,10 +571,10 @@ async function askJudge() {
     const j = await r.json().catch(() => ({}));
     wait.classList.remove("thinking");
     const more = docs.slice(0, 3).map(d => `<a class="lnk" href="${Judge.link(d.it.id)}">${esc(trunc(d.it.label, 40))}</a>`).join(" · ");
-    wait.innerHTML = j.answer ? aiFormat(j.answer) + (more ? `<p class="jsrc">Read further: ${more}</p>` : "") : `<p>${esc(j.error || "Not So Intelligent AI is not available right now. Please try again later, or use the search box.")}</p>`;
+    wait.innerHTML = j.answer ? aiFormat(j.answer) + (more ? `<p class="jsrc">Read further: ${more}</p>` : "") : `<p>${esc(j.error || "Counsel’s Clerk is not available right now. Please try again later, or use the search box.")}</p>`;
   } catch (e) {
     wait.classList.remove("thinking");
-    wait.innerHTML = `<p>Not So Intelligent AI could not be reached. Please check your connection, or use the search box.</p>`;
+    wait.innerHTML = `<p>Counsel’s Clerk could not be reached. Please check your connection, or use the search box.</p>`;
   }
   btn.disabled = false; judgeShowStart(asked);
 }
@@ -585,13 +585,13 @@ function initJudge(opts) {
   if (!Judge.endpoint || $("#jfab")) return;
   const fab = document.createElement("button");
   fab.id = "jfab"; fab.type = "button"; fab.setAttribute("aria-controls", "judge"); fab.setAttribute("aria-expanded", "false");
-  fab.setAttribute("aria-label", "Ask Not So Intelligent AI, the AI assistant"); fab.title = "Ask Not So Intelligent AI";
-  fab.innerHTML = `${JUDGE_SVG}<span class="jtag">Ask Not So Intelligent AI</span>`;
+  fab.setAttribute("aria-label", "Ask Counsel’s Clerk, the AI assistant"); fab.title = "Ask Counsel’s Clerk";
+  fab.innerHTML = `${JUDGE_SVG}<span class="jtag">Ask Counsel’s Clerk</span>`;
   if (opts.wide) { fab.classList.add("wide"); const narrow = () => { if (scrollY > 120) { fab.classList.remove("wide"); removeEventListener("scroll", narrow); } }; addEventListener("scroll", narrow, { passive: true }); }
   const w = document.createElement("section");
-  w.id = "judge"; w.hidden = true; w.setAttribute("role", "dialog"); w.setAttribute("aria-label", "Not So Intelligent AI");
-  w.innerHTML = `<header>${JUDGE_SVG}<div><b>Not So Intelligent AI</b><span id="jscope">${esc(Judge.scope || "Answers from the RBI texts on this site")}</span></div><button class="iconbtn" id="jmax" type="button" aria-label="Enlarge chat window" title="Enlarge">${I.grow}</button><button class="iconbtn" id="jclose" type="button" aria-label="Close">✕</button></header>
-  <div id="jlog" aria-live="polite"><div class="jmsg bot"><p><b>Order, order!</b> I am Not So Intelligent AI. ${esc(Judge.intro)}</p><p class="jtry">Try: ${Judge.tries.map(([q, t]) => `<button class="lnk" data-try="${esc(q)}">${esc(t)}</button>`).join(" · ")}</p></div></div>
+  w.id = "judge"; w.hidden = true; w.setAttribute("role", "dialog"); w.setAttribute("aria-label", "Counsel’s Clerk");
+  w.innerHTML = `<header>${JUDGE_SVG}<div><b>Counsel’s Clerk</b><span id="jscope">${esc(Judge.scope || "Answers from the RBI texts on this site")}</span></div><button class="iconbtn" id="jmax" type="button" aria-label="Enlarge chat window" title="Enlarge">${I.grow}</button><button class="iconbtn" id="jclose" type="button" aria-label="Close">✕</button></header>
+  <div id="jlog" aria-live="polite"><div class="jmsg bot"><p><b>Order, order!</b> I am Counsel’s Clerk. ${esc(Judge.intro)}</p><p class="jtry">Try: ${Judge.tries.map(([q, t]) => `<button class="lnk" data-try="${esc(q)}">${esc(t)}</button>`).join(" · ")}</p></div></div>
   <form id="jform"><label class="sr" for="jq">Your question</label><textarea id="jq" rows="2" maxlength="500" placeholder="${esc(Judge.placeholder)}"></textarea><button id="jsend" type="submit" aria-label="Ask">${I.gavel}</button></form>
   <p class="jdisc">AI-generated answers can be wrong. Not legal advice: read the official text. Each question is answered on its own.</p>`;
   document.body.appendChild(w); document.body.appendChild(fab);
