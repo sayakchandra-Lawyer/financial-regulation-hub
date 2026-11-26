@@ -7,7 +7,7 @@
   "lenses": [
    {
     "id": "ENT-BOR",
-    "name": "Indian borrower (ECB and trade credit)"
+    "name": "Indian borrower"
    },
    {
     "id": "ENT-NBFC",
@@ -15,15 +15,15 @@
    },
    {
     "id": "ENT-LEND",
-    "name": "Lender to non-residents or abroad"
+    "name": "Cross-border lender"
    },
    {
     "id": "ENT-GUAR",
-    "name": "Party to a cross-border guarantee"
+    "name": "Guarantee party"
    },
    {
     "id": "ENT-AD",
-    "name": "AD Category-I bank"
+    "name": "AD bank"
    }
   ]
  },
@@ -426,8 +426,8 @@
   },
   {
    "id": "ENT-BOR",
-   "label": "Indian borrower (ECB and trade credit)",
-   "title": "Indian borrower (ECB and trade credit)",
+   "label": "Indian borrower",
+   "title": "Indian borrower",
    "group": "Who it applies to",
    "type": "Entity",
    "status": "",
@@ -448,8 +448,8 @@
   },
   {
    "id": "ENT-LEND",
-   "label": "Lender to non-residents or abroad",
-   "title": "Lender to non-residents or abroad",
+   "label": "Cross-border lender",
+   "title": "Cross-border lender",
    "group": "Who it applies to",
    "type": "Entity",
    "status": "",
@@ -459,8 +459,8 @@
   },
   {
    "id": "ENT-GUAR",
-   "label": "Party to a cross-border guarantee",
-   "title": "Party to a cross-border guarantee",
+   "label": "Guarantee party",
+   "title": "Guarantee party",
    "group": "Who it applies to",
    "type": "Entity",
    "status": "",
@@ -470,8 +470,8 @@
   },
   {
    "id": "ENT-AD",
-   "label": "AD Category-I bank",
-   "title": "AD Category-I bank",
+   "label": "AD bank",
+   "title": "AD bank",
    "group": "Who it applies to",
    "type": "Entity",
    "status": "",
