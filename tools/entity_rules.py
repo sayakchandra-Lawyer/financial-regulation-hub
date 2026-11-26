@@ -25,6 +25,7 @@ LENDER_FEEDS = [
 ]
 
 # an HFC is supervised by NHB: show the NHB section through its HFC lens
+CA_FEED = [{"sec": "companies", "lens": "ENT-NBFC"}]
 NHB_FEED = [{"sec": "nhb", "lens": "ENT-HFC"}]
 
 GROUPS = [
@@ -39,7 +40,7 @@ GROUPS = [
 
 def nbfc_type(i, label, cat, layers, extra=(), sectors=("lending",)):
     return {"id": i, "tip": TIPS[i], "group": "type", "label": label, "rbi_cat": cat, "layers": list(layers), "rbi": True,
-            "adds": RBI_GENERAL + list(extra), "feeds": LENDER_FEEDS, "sectors": list(sectors)}
+            "adds": RBI_GENERAL + list(extra), "feeds": LENDER_FEEDS + CA_FEED, "sectors": list(sectors)}
 
 ALL4 = ["bl", "ml", "ul", "tl"]
 TIPS = {
@@ -55,7 +56,7 @@ TIPS = {
 }
 ATTRS = [
     nbfc_type("icc", "NBFC (Investment and Credit)", "CAT-ICC", ALL4),
-    dict(nbfc_type("hfc", "Housing Finance Company", "CAT-HFC", ["ml", "ul", "tl"], [{"sec": "rbi", "id": "ACT-NHB"}], ("lending", "hfc")), feeds=LENDER_FEEDS + NHB_FEED),
+    dict(nbfc_type("hfc", "Housing Finance Company", "CAT-HFC", ["ml", "ul", "tl"], [{"sec": "rbi", "id": "ACT-NHB"}], ("lending", "hfc")), feeds=LENDER_FEEDS + CA_FEED + NHB_FEED),
     nbfc_type("cic", "Core Investment Company", "CAT-CIC", ["ml", "ul", "tl"]),
     nbfc_type("mfi", "NBFC-MFI", "CAT-MFI", ALL4),
     nbfc_type("factor", "NBFC-Factor", "CAT-FACTOR", ALL4,
@@ -174,6 +175,7 @@ SAME_AS = [
     (("fema", "ACT-FEMA"), ("rbi", "ACT-FEMA")), (("fema", "REG-BL"), ("rbi", "REG-FEMA-BL")),
     (("fema", "MD-FDI"), ("rbi", "MD-FEMA-FDI")), (("fema", "MD-ODI"), ("rbi", "MD-FEMA-ODI")),
     (("fema", "MD-ECB"), ("rbi", "MD-FEMA-ECB")),
+    (("nhb", "ACT-NHB"), ("rbi", "ACT-NHB")),
 ]
 
 PRESETS = [

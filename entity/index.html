@@ -231,7 +231,8 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
   /* ---------- result shape: branches for the map and the list ---------- */
   function branches(R){
     const out = [];
-    const order = ["rbi", "sebi", "exchanges", "irdai", "fema", "dpdp", "ibc", "ifsc"];
+    const pref = ["rbi", "nhb", "sebi", "exchanges", "irdai", "companies", "fema", "dpdp", "ibc", "ifsc"];
+    const order = [...pref, ...[...SEC.keys()].filter(k => !pref.includes(k))];
     if (R.combos.length) out.push({ id: "combo", name: "Your combination", themes: R.combos.map(c => ({ name: c.title, combo: c, items: R.items.filter(i => i.combos.includes(c.id)) })) });
     for (const s of order) {
       const its = R.items.filter(i => i.sec === s); if (!its.length) continue;

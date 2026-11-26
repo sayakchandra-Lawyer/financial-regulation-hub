@@ -14,7 +14,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 import entity_rules as R  # noqa: E402
 
-OLD = re.compile(r"supersed|repeal|withdrawn", re.I)
+OLD = re.compile(r"supersed|repeal|withdrawn|pending", re.I)  # pending = Bills not yet law
 errors = []
 
 
