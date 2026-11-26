@@ -310,6 +310,15 @@
    "line": "Insurers and insurance agents"
   },
   {
+   "id": "fema",
+   "short": "FEMA",
+   "name": "FEMA",
+   "full": "Foreign Exchange Management Act, 1999",
+   "status": "soon",
+   "desc": "FEMA, its rules and regulations, RBI notifications and Master Directions on cross-border lending: ECB, trade credit, guarantees and foreign borrowing by NBFCs.",
+   "line": "Cross-border lending: ECB, trade credit, guarantees"
+  },
+  {
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",
