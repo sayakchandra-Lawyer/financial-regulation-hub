@@ -4,11 +4,11 @@
  * structural notes, not rebuilt: 44c, 58, 59, 77, 78 · waive 10b: the judge button's label slide is the owner's chosen behaviour
  * built: the project · redesign: polish · v2.0.0 */
 :root{--bg:#FAF9F5;--surface:#FFFFFF;--surface-2:#F0EEE6;--ink:#141413;--ink-2:#5E5D59;--muted:#6B6A64;--line:#E8E6DC;--accent:#C15F3C;--accent-ink:#FFFDF9;--accent-text:#A4502F;--on-c:#FFFDF9;--accent-soft:#F5E4DB;--ok:#5E7D3A;--danger:#B0392B;--warn-bg:#FBF0DA;
---rbi:#4D7EA8;--sebi:#6F8A4E;--irdai:#8565B0;--jud:#B9577A;--misc:#A2852F;--fema:#3E8A84;--dpdp:#5B6FB5;--ibc:#8E5A3C;--ifsc:#2F7A9E;
+--rbi:#4D7EA8;--sebi:#6F8A4E;--irdai:#8565B0;--jud:#B9577A;--misc:#A2852F;--fema:#3E8A84;--dpdp:#5B6FB5;--ibc:#8E5A3C;--ifsc:#2F7A9E;--exchanges:#B5672B;
 --t1:#4D7EA8;--t2:#6F8A4E;--t3:#C8693F;--t4:#B9577A;--t5:#8565B0;--t6:#A2852F;
 --l-bl:#6F8A4E;--l-ml:#A2852F;--l-ul:#C8693F;--l-tl:#B0392B;
 --shadow:0 12px 32px -14px rgba(20,20,19,.22);--f-d:"Source Serif 4",Georgia,serif;--f-b:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:light}
-:root[data-theme=dark]{--bg:#1F1E1D;--surface:#262624;--surface-2:#30302E;--ink:#FAF9F5;--ink-2:#C2C0B6;--muted:#9A988F;--line:#3B3A37;--accent:#D97757;--accent-ink:#1F1E1D;--accent-text:#E89A7E;--on-c:#1F1E1D;--accent-soft:#41291F;--ok:#A6C27F;--danger:#F0907F;--warn-bg:#3A2D16;--rbi:#8FB4E3;--sebi:#A6C27F;--irdai:#B9A0E3;--jud:#E596B3;--misc:#D9BC6A;--fema:#7CC7BF;--dpdp:#9DADE6;--ibc:#D9A47F;--ifsc:#7FC0DE;--t1:#8FB4E3;--t2:#A6C27F;--t3:#E89A78;--t4:#E596B3;--t5:#B9A0E3;--t6:#D9BC6A;--l-bl:#A6C27F;--l-ml:#D9BC6A;--l-ul:#E89A78;--l-tl:#F0907F;--shadow:0 12px 32px -14px rgba(0,0,0,.6);color-scheme:dark}
+:root[data-theme=dark]{--bg:#1F1E1D;--surface:#262624;--surface-2:#30302E;--ink:#FAF9F5;--ink-2:#C2C0B6;--muted:#9A988F;--line:#3B3A37;--accent:#D97757;--accent-ink:#1F1E1D;--accent-text:#E89A7E;--on-c:#1F1E1D;--accent-soft:#41291F;--ok:#A6C27F;--danger:#F0907F;--warn-bg:#3A2D16;--rbi:#8FB4E3;--sebi:#A6C27F;--irdai:#B9A0E3;--jud:#E596B3;--misc:#D9BC6A;--fema:#7CC7BF;--dpdp:#9DADE6;--ibc:#D9A47F;--ifsc:#7FC0DE;--exchanges:#E8A46E;--t1:#8FB4E3;--t2:#A6C27F;--t3:#E89A78;--t4:#E596B3;--t5:#B9A0E3;--t6:#D9BC6A;--l-bl:#A6C27F;--l-ml:#D9BC6A;--l-ul:#E89A78;--l-tl:#F0907F;--shadow:0 12px 32px -14px rgba(0,0,0,.6);color-scheme:dark}
 *{box-sizing:border-box}html{scroll-padding-top:80px;overflow-x:clip}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--f-b);-webkit-font-smoothing:antialiased;overflow-x:clip;font-variant-numeric:tabular-nums}
 .wrap p,.wrap li{max-width:75ch}
@@ -55,6 +55,35 @@ select.chip{appearance:none;padding-right:28px;background:var(--surface) url("da
 .foot{margin-top:64px;border-top:1px solid var(--line);padding:22px max(16px,calc((100vw - 1320px)/2));font-size:12.5px;color:var(--muted);display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}
 .foot b{color:var(--ink-2)}
 .foot a{text-decoration:underline;text-underline-offset:2px}
+.flinks{flex-basis:100%;display:flex;gap:6px 20px;flex-wrap:wrap;font-size:13.5px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.flinks a{text-decoration:none;color:var(--ink-2);font-weight:500}.flinks a:hover{color:var(--accent-text);text-decoration:underline}.flinks a[aria-current]{color:var(--ink);font-weight:600}
+/* info pages: about, feedback, contact, disclaimer */
+.ipage{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:40px;margin-top:34px;align-items:start}
+.ipage h1{font-size:clamp(30px,4.4vw,42px);margin:8px 0 12px}
+.ipage .lede{color:var(--ink-2);font-size:17px;margin:0 0 26px}
+.ipage h2{font-size:23px;margin:34px 0 8px}
+.ipage section p,.ipage section li{color:var(--ink-2)}.ipage section li{margin:5px 0}
+.ipage aside{position:sticky;top:90px;display:flex;flex-direction:column;gap:16px}
+.ipage aside .card{padding:18px}.ipage aside h3{font-size:18px;margin-bottom:8px}
+.ipage aside a.il{display:block;padding:9px 0;border-top:1px solid var(--line);font-size:14px;color:var(--ink-2)}.ipage aside a.il:hover{color:var(--accent-text)}.ipage aside a.il[aria-current]{color:var(--ink);font-weight:600}
+.secgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:14px 0}
+.secgrid a{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border-top:3px solid var(--c)}.secgrid a:hover{box-shadow:var(--shadow)}
+.secgrid .ic{color:var(--c);flex:none}.secgrid b{display:block}.secgrid span{font-size:13px;color:var(--muted)}
+.fform{padding:24px;display:flex;flex-direction:column;gap:16px;margin-top:8px}
+.fform label{font-size:13.5px;font-weight:600;display:block;margin-bottom:6px}
+.fform input,.fform textarea,.fform select{width:100%;box-sizing:border-box;font:inherit;font-size:15px;color:var(--ink);background:var(--bg);border:1.5px solid color-mix(in srgb,var(--muted) 60%,var(--line));border-radius:10px;padding:10px 12px}
+.fform textarea{min-height:150px;resize:vertical}
+.fform input:focus,.fform textarea:focus,.fform select:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.fform .opt{font-weight:400;color:var(--muted)}
+.ftypes{display:flex;gap:8px;flex-wrap:wrap}.ftypes input{position:absolute;opacity:0;width:1px}
+.ftypes label{margin:0;font-weight:500}.ftypes input:checked+label{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-text)}.ftypes input:focus-visible+label{outline:2px solid var(--accent);outline-offset:2px}
+.fsend{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.fnote{font-size:12.5px;color:var(--muted);margin:0}
+.cways{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:8px}
+.cways .card{padding:20px;display:flex;flex-direction:column;gap:8px}.cways h3{font-size:19px}.cways p{margin:0;font-size:14px}
+.cways .btn{align-self:flex-start;margin-top:auto}
+@media (max-width:900px){.ipage{grid-template-columns:1fr}.ipage aside{position:static}}
+@media (max-width:640px){.secgrid,.cways{grid-template-columns:1fr}}
 /* animation */
 @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 .anim .rise{animation:rise .45s cubic-bezier(.2,.7,.2,1) both}
