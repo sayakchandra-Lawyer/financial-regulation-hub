@@ -18,9 +18,11 @@
 <meta name="twitter:title" content="Companies Act lending rules">
 <meta name="twitter:description" content="The Companies Act, 2013, the MCA rules, exemption notifications and circulars that govern lending and borrowing by companies: Board and shareholder approvals for borrowing, security and guarantees (ss. 179, 180, 117), loans to directors and inter-corporate loans and guarantees (ss. 185, 186), related party approvals, creation, registration, satisfaction and rectification of charges (Chapter VI, Forms CHG-1 to CHG-9), debentures and deposits, penalties, and the Corporate Laws (Amendment) Bill, 2026, grouped by subject, with obligations, deadlines, definitions and consequences">
 <!-- og:end -->
+<link rel="alternate" type="application/rss+xml" title="Companies Act updates · Financial Regulation Hub" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="All updates · Financial Regulation Hub" href="../feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/hub.css?v=20261127b">
+<link rel="stylesheet" href="../assets/hub.css?v=20261128a">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
 <style>
 .shead{display:flex;align-items:flex-end;gap:24px;padding-top:36px;flex-wrap:wrap}
@@ -73,7 +75,7 @@ details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-
   <div id="view"><p class="tag" style="padding:60px 0">Loading the Companies Act register…</p></div>
 </main>
 <footer id="foot"></footer>
-<script src="../assets/hub.js?v=20261127b"></script>
+<script src="../assets/hub.js?v=20261128a"></script>
 <script>
 (async function(){
   const hub = await getJSON("../hub.json");
@@ -159,7 +161,7 @@ details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-
   function vChanges(id){
     const w = M.updMeta;
     setTimeout(() => { if (id) { const el = document.getElementById("u-" + id); if (el) el.scrollIntoView({ behavior: "smooth" }); } }, 60);
-    return `<div class="pg" style="margin-top:28px;max-width:900px"><h2>What changed</h2><p class="tag">${w.window_from ? `${fmtDate(w.window_from)} to ${fmtDate(w.window_to)}. ` : ""}MCA rule changes, notifications and circulars, and the Corporate Laws (Amendment) Bill, 2026, with what each means for borrowing companies, lenders, group companies, NBFCs and private companies.</p>
+    return `<div class="pg" style="margin-top:28px;max-width:900px"><h2 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">What changed <a class="btn g sm" href="../follow/" style="font-family:var(--f-b)">${I.rss} Follow updates</a></h2><p class="tag">${w.window_from ? `${fmtDate(w.window_from)} to ${fmtDate(w.window_to)}. ` : ""}MCA rule changes, notifications and circulars, and the Corporate Laws (Amendment) Bill, 2026, with what each means for borrowing companies, lenders, group companies, NBFCs and private companies.</p>
       <div style="margin-top:18px">${M.updates.map(u => updCard(u, true)).join("") || '<p class="empty">Nothing new in this period.</p>'}</div></div>`;
   }
   function vDefinitions(){
@@ -206,7 +208,7 @@ details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-
     const t = M.themeOf.get(id), defs = M.defs.filter(d => d.id === id), upds = M.updates.filter(u => u.instrument === id), links = M.links.get(id) || [];
     const relName = { supersedes: "Replaces", superseded_by: "Replaced by", migrated_from: "Carried over from", migrated_to: "Carried into", issued_under: "Issued under", cross_references: "Refers to", related: "Related", framework: "Framework" };
     const linkGroups = {}; links.forEach(l => { const k = relName[l.rel] || "Related"; (linkGroups[k] = linkGroups[k] || []).push(l.id); });
-    const sections = [["glance", "At a glance"], ["who", "Who it applies to"], ["obligations", "Key obligations"], ["deadlines", "Deadlines"], ["breach", "If you breach it"], ["definitions", "Definitions"], ["related", "Related rules"], ["history", "Change history"]];
+    const sections = [["glance", "At a glance"], ["who", "Who it applies to"], ["obligations", "Key obligations"], ["deadlines", "Deadlines"], ["breach", "If you breach it"], ["definitions", "Definitions"], ["related", "Related rules"], ["history", "Change history"], ["text", "Full text"]];
     const lines = (arr, empty) => arr.length ? arr.map(x => { const [p, tx] = splitPara(x); return `<div class="ob">${p ? `<span class="pill p-grey">${esc(p)}</span>` : `<span class="pill p-grey">•</span>`}<span>${esc(tx)}</span></div>`; }).join("") : `<p class="empty">${empty}</p>`;
     const supBy = links.filter(l => l.rel === "superseded_by" || l.rel === "migrated_to").map(l => M.byId.get(l.id));
     setTimeout(() => { if (anchor) { const el = document.getElementById("s-" + anchor); if (el) el.scrollIntoView(); } else $("#tabs").scrollIntoView(); spy(); }, 30);
@@ -216,6 +218,7 @@ details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-
     <article class="dossier"><div style="display:flex;gap:8px;flex-wrap:wrap">${pillFor(it)}${upds[0] ? `<span class="pill p-new">${esc(upds[0].kind)} ${fmtDate(upds[0].date)}${upds[0].effective ? ` · effective ${fmtDate(upds[0].effective)}` : ""}</span>` : ""}<span class="pill p-grey">${esc(it.type)}</span></div>
       <h1 style="font-size:clamp(28px,3.6vw,36px);margin:12px 0 6px">${esc(it.label)}</h1>${it.title !== it.label ? `<div style="color:var(--ink-2)">${esc(it.title)}</div>` : ""}
       <div class="tag" style="margin-top:8px">${[it.ref, it.issue && `Issued ${fmtDate(it.issue)}`, it.updated && `Updated as on ${fmtDate(it.updated)}`].filter(Boolean).map(esc).join('<span class="sep"></span>')}</div>
+      <div id="hubtools"></div>
       ${supBy.length ? `<div class="callout">This instrument has been replaced. See ${supBy.map(x => `<a class="lnk" href="#d/${x.id}">${esc(x.label)}</a>`).join(", ")}.</div>` : ""}
       <h2 id="s-glance">At a glance</h2>
       <div class="glance"><div><b>${it.obl.length}</b>key obligations</div><div><b>${it.time.length}</b>deadlines and cycles</div><div><b>${defs.length}</b>defined terms</div><div><b>${links.length}</b>linked rules</div></div>
@@ -230,8 +233,9 @@ details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-
       <h2 id="s-definitions">Definitions</h2>${defs.length ? defs.map(d => `<div class="ob"><span style="min-width:170px;max-width:210px;font-weight:600">${esc(d.term)}</span><span style="font-size:14px;flex:1">${esc(d.def)} <span class="tag">${esc(d.para)}${d.scope ? ` · ${esc(d.scope)}` : ""}</span></span></div>`).join("") : '<p class="empty">No definitions recorded for this instrument.</p>'}
       <h2 id="s-related">Related rules</h2>${Object.keys(linkGroups).length ? Object.entries(linkGroups).map(([k, ids]) => `<div class="ob"><span style="min-width:130px" class="tag">${esc(k)}</span><span class="filter" style="margin:0">${ids.map(x => `<a class="chip" href="#d/${x}">${esc(trunc(M.byId.get(x).label, 50))}</a>`).join("")}</span></div>`).join("") : ""}
       ${it.xrefs.length ? `<div class="ob"><span style="min-width:130px" class="tag">Mentions</span><span style="font-size:14px">${esc(it.xrefs.join("; "))}</span></div>` : ""}
-      <h2 id="s-history">Change history</h2>${upds.map(u => updCard(u, false)).join("")}${it.repeals ? `<div class="ob"><span class="tag" style="min-width:130px">Repeals</span><span style="font-size:14px">${esc(it.repeals)}</span></div>` : ""}
+      <h2 id="s-history">Change history</h2><div id="hubver"></div>${upds.map(u => updCard(u, false)).join("")}${it.repeals ? `<div class="ob"><span class="tag" style="min-width:130px">Repeals</span><span style="font-size:14px">${esc(it.repeals)}</span></div>` : ""}
       <div class="ob"><span class="tag" style="min-width:130px">Status</span><span style="font-size:14px">${esc(it.status)}</span></div>
+    <h2 id="s-text">Full text</h2><div id="hubtext"></div>
     </article>
     <aside class="side"><div class="card panel"><div class="eyebrow">Read the official text</div>${it.url ? `<a class="btn p" style="margin-top:10px;width:100%;justify-content:center" href="${esc(it.url)}" target="_blank" rel="noopener">Official text ${I.ext}</a>` : ""}${it.pdf ? `<a class="btn g" style="margin-top:8px;width:100%;justify-content:center" href="${esc(it.pdf)}" target="_blank" rel="noopener">PDF ${I.ext}</a>` : ""}<p class="tag" style="margin:10px 0 0">The summary here is a guide. The official text governs.</p></div>
       <div class="card panel"><div class="eyebrow">Subject</div><p style="margin:6px 0 0"><a class="lnk" href="#subjects/${t ? t.slug : ""}">${esc(t ? t.nice : "")}</a></p>${it.dept ? `<div class="eyebrow" style="margin-top:12px">Issued by</div><p style="margin:6px 0 0;font-size:14px">${esc(it.dept)}</p>` : ""}</div>
@@ -259,6 +263,7 @@ details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-
     else if (a === "search") { html = vSearch(h.slice(7)); tab = "-"; }
     else { html = vOverview(); tab = ""; }
     V.innerHTML = html;
+    if (a === "d") hubDocMount({ sec, it: M.byId.get(b), id: b, anchor: c });
     if (a !== "d") $$("#tabs a").forEach(x => x.classList.toggle("on", x.dataset.tab === tab));
     if (a !== "search" && document.activeElement !== $("#q")) $("#q").value = "";
     if (a === "definitions") { fillDefs(); $("#dq").addEventListener("input", () => { store.set("dq", $("#dq").value); fillDefs(); }); }

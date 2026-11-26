@@ -1,0 +1,113 @@
+{
+ "meta": {
+  "note": "Common questions shown on faq/ and offered by Counsel's Clerk before it calls the AI. Only items with status 'approved' are shown. refs: sec = section id from hub.json (rbi, sebi, irdai, fema, dpdp, ibc, ifsc, exchanges, companies, nhb, laws, jud), id = instrument or judgment id, para = paragraph label as in the full text.",
+  "updated": "2026-11-26"
+ },
+ "topics": [
+  {
+   "id": "registration-licensing",
+   "name": "Registration, layers and change of control"
+  },
+  {
+   "id": "sbr-layers",
+   "name": "Scale Based Regulation"
+  },
+  {
+   "id": "capital-nof",
+   "name": "Capital and net owned fund"
+  },
+  {
+   "id": "kyc-aml",
+   "name": "KYC and anti-money laundering"
+  },
+  {
+   "id": "co-lending",
+   "name": "Co-lending"
+  },
+  {
+   "id": "digital-lending",
+   "name": "Digital lending"
+  },
+  {
+   "id": "interest-charges",
+   "name": "Interest, penal charges and fees"
+  },
+  {
+   "id": "recovery-conduct",
+   "name": "Fair practices and recovery"
+  },
+  {
+   "id": "asset-classification",
+   "name": "NPAs, provisioning and restructuring"
+  },
+  {
+   "id": "fraud",
+   "name": "Frauds"
+  },
+  {
+   "id": "governance-audit",
+   "name": "Governance and audit"
+  },
+  {
+   "id": "outsourcing-it",
+   "name": "Outsourcing, IT and cyber security"
+  },
+  {
+   "id": "grievance",
+   "name": "Grievances and the Ombudsman"
+  },
+  {
+   "id": "gold-loans",
+   "name": "Gold loans"
+  },
+  {
+   "id": "microfinance",
+   "name": "Microfinance"
+  },
+  {
+   "id": "securitisation-transfer",
+   "name": "Securitisation and transfer of loans"
+  },
+  {
+   "id": "fema-ecb-fdi",
+   "name": "Foreign investment and borrowing (FEMA)"
+  },
+  {
+   "id": "deposits",
+   "name": "Public deposits"
+  },
+  {
+   "id": "insurance-distribution",
+   "name": "Insurance distribution"
+  },
+  {
+   "id": "sebi-listing-ncd",
+   "name": "Listed debt and SEBI"
+  },
+  {
+   "id": "companies-act",
+   "name": "Companies Act"
+  },
+  {
+   "id": "data-protection",
+   "name": "Data protection"
+  },
+  {
+   "id": "housing-finance",
+   "name": "Housing finance"
+  },
+  {
+   "id": "sarfaesi-drt",
+   "name": "SARFAESI and debt recovery"
+  },
+  {
+   "id": "ibc",
+   "name": "Insolvency (IBC)"
+  },
+  {
+   "id": "stamp-registration",
+   "name": "Stamp duty and registration"
+  }
+ ],
+ "items": []
+}

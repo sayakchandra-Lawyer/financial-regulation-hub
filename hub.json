@@ -1200,6 +1200,12 @@
    "short": "My entity",
    "name": "What applies to my entity",
    "href": "entity/"
+  },
+  {
+   "id": "faq",
+   "short": "FAQ",
+   "name": "Common questions",
+   "href": "faq/"
   }
  ]
 }

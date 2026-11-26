@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Common questions · Financial Regulation Hub</title>
+<meta name="description" content="Short answers to common questions on financial regulation for NBFCs, HFCs and other regulated entities, each linked to its source paragraph.">
+<link rel="canonical" href="https://sayakchandra-lawyer.github.io/financial-regulation-hub/faq/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="../assets/hub.css?v=20261128a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
+</head>
+<body>
+<header id="top"></header>
+<main class="wrap">
+  <div class="pg" style="max-width:920px;margin:0 auto;padding:34px 0 60px">
+    <div class="eyebrow">Common questions</div>
+    <h1 style="font-size:clamp(28px,4vw,40px);margin-top:8px">Common questions, answered</h1>
+    <p style="color:var(--ink-2);max-width:720px">Short answers to the questions people ask most about the rules on this site, each linked to the paragraph it comes from. They explain the law in general; they are not advice on any particular case.</p>
+    <form class="search" id="fform" role="search" style="margin-top:18px" onsubmit="return false"><label class="sr" for="fq">Search common questions</label><input id="fq" type="search" autocomplete="off" placeholder="Search the questions, e.g. “co-lending”, “KYC”"></form>
+    <div class="filter" id="fsec" style="margin:14px 0 4px"></div>
+    <div id="flist" class="faq"><p class="tag" style="padding:14px 0">Loading…</p></div>
+  </div>
+</main>
+<footer id="foot"></footer>
+<script src="../assets/hub.js?v=20261128a"></script>
+<script>
+(async function(){
+  const hub = await getJSON("../hub.json");
+  renderChrome(hub, { root: "../", active: "faq", sub: "Common questions", crumb: `<a href="../">Home</a> / <b>Common questions</b>` });
+  $("#fform").insertAdjacentHTML("afterbegin", I.search);
+  const d = await getJSON("../faq/faq.json").catch(() => ({ items: [], topics: [] }));
+  const items = (d.items || []).filter(x => x.status === "approved");
+  const topics = Object.fromEntries((d.topics || []).map(t => [t.id, t.name]));
+  const secName = Object.fromEntries(hub.sections.map(s => [s.id, s.short]));
+  let S = "", Q = "";
+  const draw = () => {
+    const ws = Q.toLowerCase().split(/\s+/).filter(Boolean);
+    const list = items.filter(x => (!S || (x.sections || []).includes(S)) && ws.every(w => (x.q + " " + x.a + " " + (x.keywords || []).join(" ")).toLowerCase().includes(w)));
+    const secs = [...new Set(items.flatMap(x => x.sections || []))];
+    $("#fsec").innerHTML = secs.length > 1 ? [["", "All"], ...secs.map(s => [s, secName[s] || s])].map(([k, t]) => `<button type="button" class="chip ${S === k ? "on" : ""}" data-s="${k}">${esc(t)}</button>`).join("") : "";
+    if (!items.length) { $("#flist").innerHTML = `<div class="card panel"><p style="margin:0">The first answers are being written. Meanwhile, ask <b>Counsel’s Clerk</b> (bottom right on any section page) or <a class="lnk" href="../">search the site</a>.</p></div>`; return; }
+    const by = {}; list.forEach(x => (by[x.topic] = by[x.topic] || []).push(x));
+    $("#flist").innerHTML = list.length ? Object.entries(by).map(([t, xs]) => `<section style="margin-top:22px"><h2 style="font-size:20px;margin-bottom:6px">${esc(topics[t] || t)}</h2>${xs.map(x => `<details id="q-${esc(x.id)}"${location.hash === "#q-" + x.id ? " open" : ""}><summary>${esc(x.q)}</summary><div class="ans">${faqAnswerHTML(x)}<p class="tag">${(x.sections || []).map(s => esc(secName[s] || s)).join(" · ")}${x.updated ? ` · answer as on ${fmtDate(x.updated)}` : ""} · <button type="button" class="lnk" data-ql="${esc(x.id)}">Copy link</button></p></div></details>`).join("")}</section>`).join("")
+      : `<p class="empty">No question matches. Try fewer words, or ask Counsel’s Clerk on any section page.</p>`;
+  };
+  $("#fq").addEventListener("input", () => { Q = $("#fq").value.trim(); draw(); });
+  document.addEventListener("click", e => {
+    const c = e.target.closest("[data-s]"); if (c) { S = c.dataset.s; draw(); return; }
+    const l = e.target.closest("[data-ql]"); if (l) { history.replaceState(null, "", "#q-" + l.dataset.ql); hubCopy(location.href, "Link copied"); }
+  });
+  draw();
+  if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) { el.open = true; el.scrollIntoView(); } }
+})();
+</script>
+</body>
+</html>

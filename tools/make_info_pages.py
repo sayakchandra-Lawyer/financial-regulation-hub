@@ -154,8 +154,9 @@ DISCLAIMER = '''      <div class="eyebrow">Disclaimer &amp; privacy</div>
       <h2 id="privacy">Privacy</h2>
       <ul>
         <li><b>No accounts, no tracking.</b> The site has no sign-in, sets no cookies and runs no analytics or advertising.</li>
-        <li><b>Your preferences stay on your device.</b> Choices such as light or dark mode and your chosen lens are saved in your browser's local storage. You can clear them from your browser settings.</li>
-        <li><b>Questions to Not So Intelligent AI</b> are sent, with extracts from the texts on this site, to an AI service to produce the answer. Do not type personal, client or confidential information into it.</li>
+        <li><b>Your preferences and watchlist stay on your device.</b> Choices such as light or dark mode, your chosen lens and the rules you watch are saved in your browser's local storage. They are never sent to us. You can clear them from your browser settings.</li>
+        <li><b>Questions to Counsel’s Clerk</b> are sent, with extracts from the texts on this site, to an AI service to produce the answer. Do not type personal, client or confidential information into it. To decide which common questions to answer on the site, the number of questions on broad topics (such as KYC or co-lending) is counted each month; only the count is kept, never the question.</li>
+        <li><b>Feeds.</b> RSS feeds are plain files. Your feed reader fetches them like any web page; we do not know who subscribes.</li>
         <li><b>Feedback.</b> Feedback posted on GitHub is public. Feedback sent by email is used only to reply and improve the site.</li>
         <li><b>Hosting and fonts.</b> The site is hosted on GitHub Pages and loads fonts from Google Fonts. Like any website host, they may log technical data such as your IP address under their own privacy policies.</li>
       </ul>
