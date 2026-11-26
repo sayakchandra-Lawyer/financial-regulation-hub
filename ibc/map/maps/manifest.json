@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "default": "ibc",
+  "maps": [
+    {
+      "id": "ibc",
+      "title": "Insolvency Regulation Map",
+      "hubLabel": "IBC",
+      "hubSub": "Insolvency",
+      "section": "ibc",
+      "register": "../data/ibc_register.json",
+      "graph": "../data/ibc_graph.json",
+      "categoryGroup": "Who it applies to",
+      "layers": [
+        "ENT-FC",
+        "ENT-FSP",
+        "ENT-CD",
+        "ENT-RA",
+        "ENT-IP"
+      ],
+      "cumulativeLayers": false,
+      "historyTheme": "Superseded (history)",
+      "categoryCaveat": "Each instrument is tagged to the parties it names or most directly affects. The Code and the general notifications apply to everyone. Check the provision before relying on a tag.",
+      "caveatShort": "Tags follow each instrument's scope. See the provision.",
+      "milestones": [
+        {
+          "date": "2016-12-01",
+          "label": "Corporate insolvency provisions in force"
+        },
+        {
+          "date": "2019-11-15",
+          "label": "FSP Rules for NBFCs"
+        },
+        {
+          "date": "2026-05-26",
+          "label": "2026 amendments in force"
+        }
+      ],
+      "updates": "../data/updates.json",
+      "glossary": "../data/glossary.json",
+      "definitions": "../data/definitions.json",
+      "fulltext": "../data/fulltext.json",
+      "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev"
+    }
+  ]
+}

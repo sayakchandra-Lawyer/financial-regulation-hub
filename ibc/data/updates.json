@@ -1,0 +1,478 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "window_from": "2025-12-01",
+  "window_to": "2026-11-26",
+  "entities": [
+   {
+    "key": "creditor",
+    "name": "Financial creditors (banks, NBFCs, bondholders)",
+    "profile": "Lenders that start or vote in insolvency processes and enforce guarantees."
+   },
+   {
+    "key": "fsp",
+    "name": "NBFCs and HFCs as debtors",
+    "profile": "Notified financial service providers whose insolvency runs under the FSP Rules on RBI's application."
+   },
+   {
+    "key": "debtor",
+    "name": "Corporate debtors and promoters",
+    "profile": "Companies and LLPs in, or facing, insolvency, and their directors and promoters."
+   },
+   {
+    "key": "applicant",
+    "name": "Resolution applicants and bidders",
+    "profile": "Investors submitting resolution plans or buying assets in liquidation."
+   },
+   {
+    "key": "ip",
+    "name": "Insolvency professionals and valuers",
+    "profile": "IRPs, RPs, liquidators, Administrators, registered valuers and their agencies."
+   }
+  ]
+ },
+ "updates": [
+  {
+   "id": "U-2026-10-30-RERA",
+   "date": "2026-10-30",
+   "kind": "Circular",
+   "title": "Real estate CIRPs: RERA compliance, RERA's views on plans and site notices",
+   "ref": "IBBI/CIRP/110/2026",
+   "instrument": "CIR-2026-10-30-2",
+   "effective": "2026-10-30",
+   "applies": "IRPs and RPs of corporate debtors with real estate projects, CoCs and prospective resolution applicants.",
+   "changes": [
+    "RPs must comply with RERA during the CIRP.",
+    "RPs may invite RERA's written views on plans and share them with the CoC and bidders.",
+    "The CIRP must be shown on signboards at each project site and office within 7 days of appointment."
+   ],
+   "impact": {
+    "ip": {
+     "level": "High",
+     "text": "New site disclosure and RERA steps in every real estate CIRP."
+    },
+    "creditor": {
+     "level": "Medium",
+     "text": "CoC gets the regulator's view on plan feasibility."
+    },
+    "applicant": {
+     "level": "Medium",
+     "text": "Plans may be tested against RERA's views."
+    }
+   },
+   "actions": [
+    "Add RERA portal checks and site notices to real estate CIRP checklists."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/40e3889b945ee592774ba2eb955e8eb5.pdf"
+  },
+  {
+   "id": "U-2026-10-30-FORMCA",
+   "date": "2026-10-30",
+   "kind": "Circular",
+   "title": "Revised Form CA with a separate part for homebuyers",
+   "ref": "IBBI/CIRP/109/2026",
+   "instrument": "CIR-2026-10-30-1",
+   "effective": "2026-10-30",
+   "applies": "Financial creditors in a class, including real estate allottees, and IRPs and RPs.",
+   "changes": [
+    "Form CA has Part I for other creditors in a class and Part II for allottees.",
+    "Claims filed earlier need not be refiled."
+   ],
+   "impact": {
+    "ip": {
+     "level": "Medium",
+     "text": "Use the new form for claims received from 30-10-2026."
+    },
+    "creditor": {
+     "level": "Low",
+     "text": "Creditors in a class file in Part I."
+    }
+   },
+   "actions": [
+    "Update claim invitation templates."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/84356af172f0446ac94e944711b0326e.pdf"
+  },
+  {
+   "id": "U-2026-10-30-CIRPAMD",
+   "date": "2026-10-30",
+   "kind": "Regulation",
+   "title": "CIRP Regulations amended (fifth amendment of 2026)",
+   "ref": "IBBI (Insolvency Resolution Process for Corporate Persons) (Fifth Amendment) Regulations, 2026",
+   "instrument": "REG-CIRP",
+   "effective": "2026-10-30",
+   "applies": "Everyone in a CIRP.",
+   "changes": [
+    "The CIRP Regulations were amended again; the consolidated text as on 30-10-2026 is the current version."
+   ],
+   "impact": {
+    "ip": {
+     "level": "Medium",
+     "text": "Check the consolidated text for changed steps."
+    },
+    "creditor": {
+     "level": "Low",
+     "text": "Check CoC process changes."
+    }
+   },
+   "actions": [
+    "Read the consolidated CIRP Regulations as on 30-10-2026."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/9b30068d5a4280a7d10803b23a7e60cb.pdf"
+  },
+  {
+   "id": "U-2026-09-22-LIQ",
+   "date": "2026-09-22",
+   "kind": "Regulation",
+   "title": "Liquidator may modify the list of stakeholders and tells the NCLT within 30 days",
+   "ref": "IBBI/2026-27/GN/REG154",
+   "instrument": "REG-LIQ",
+   "effective": "2026-09-22",
+   "applies": "Liquidators and stakeholders in liquidation.",
+   "changes": [
+    "The liquidator may modify an entry in the list of stakeholders on new information and informs the NCLT within 30 days."
+   ],
+   "impact": {
+    "ip": {
+     "level": "Medium",
+     "text": "Track modifications and report them."
+    },
+    "creditor": {
+     "level": "Low",
+     "text": "Admitted amounts can change on new information."
+    }
+   },
+   "actions": [
+    "Keep a log of changes to the stakeholder list."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/c2021ea672482d462f94d71b8fb29338.pdf"
+  },
+  {
+   "id": "U-2026-09-21-PG",
+   "date": "2026-09-21",
+   "kind": "Circular",
+   "title": "No interim moratorium for personal guarantors, even in pending applications",
+   "ref": "IBBI/II/106/2026",
+   "instrument": "CIR-2026-09-21-1",
+   "effective": "2026-09-21",
+   "applies": "Creditors of personal guarantors, resolution professionals and guarantors.",
+   "changes": [
+    "IBBI drew attention to Bombay and Delhi High Court rulings that the 2026 amendment ended the interim moratorium for personal guarantors from 26-05-2026, including for applications pending then."
+   ],
+   "impact": {
+    "creditor": {
+     "level": "High",
+     "text": "Recovery suits and enforcement against personal guarantors can proceed."
+    },
+    "ip": {
+     "level": "Medium",
+     "text": "Interim moratorium can no longer be relied on in PG cases."
+    }
+   },
+   "actions": [
+    "Review stayed guarantor recovery actions."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/778e13b82df050c20c0c13dfa3e8ea16.pdf"
+  },
+  {
+   "id": "U-DP-2026-09-12",
+   "date": "2026-09-12",
+   "kind": "Discussion paper",
+   "title": "Discussion paper on safeguards in personal guarantor insolvency",
+   "ref": "IBBI discussion paper",
+   "instrument": "REG-PGIRP",
+   "effective": "",
+   "applies": "Proposal for comment only; not in force.",
+   "changes": [
+    "IBBI invited comments on proposed changes. Nothing changes until regulations are notified."
+   ],
+   "impact": {
+    "ip": {
+     "level": "Low",
+     "text": "Proposal only."
+    },
+    "creditor": {
+     "level": "Low",
+     "text": "Proposal only."
+    }
+   },
+   "actions": [
+    "Track for final regulations."
+   ],
+   "url": "https://ibbi.gov.in/uploads/whatsnew/bafac143b46df288287ecd9803eb0d3c.pdf"
+  },
+  {
+   "id": "U-2026-09-09-MISUSE",
+   "date": "2026-09-09",
+   "kind": "Circular",
+   "title": "IPs to watch for misuse of insolvency and apply to the NCLT",
+   "ref": "IBBI/CIRP/105/2026",
+   "instrument": "CIR-2026-09-09-1",
+   "effective": "2026-09-09",
+   "applies": "Insolvency professionals; creditors and debtors in CIRPs and liquidations.",
+   "changes": [
+    "IBBI listed signs of misuse, such as a single non-bank creditor dominating the CoC, clusters of connected companies and very low recoveries without proper valuation.",
+    "An IP who believes on reasonable grounds that a process is fraudulent or malicious must apply to the NCLT."
+   ],
+   "impact": {
+    "ip": {
+     "level": "High",
+     "text": "New review and reporting duty."
+    },
+    "creditor": {
+     "level": "Medium",
+     "text": "Assigned-debt and single-creditor cases will face more scrutiny."
+    },
+    "debtor": {
+     "level": "Medium",
+     "text": "Processes used to evade liabilities may be challenged."
+    }
+   },
+   "actions": [
+    "Build the indicators into case intake reviews."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/832e58d2371048cebf5c2a43a55e7dfc.pdf"
+  },
+  {
+   "id": "U-DP-2026-08-14",
+   "date": "2026-08-14",
+   "kind": "Discussion paper",
+   "title": "Discussion paper on guidance for spotting fraudulent or malicious CIRPs and recourse under ss. 60(5) and 65",
+   "ref": "IBBI discussion paper",
+   "instrument": "CIR-2026-09-09-1",
+   "effective": "",
+   "applies": "Proposal for comment only; not in force.",
+   "changes": [
+    "IBBI invited comments on proposed changes. Nothing changes until regulations are notified."
+   ],
+   "impact": {
+    "ip": {
+     "level": "Low",
+     "text": "Proposal only."
+    },
+    "creditor": {
+     "level": "Low",
+     "text": "Proposal only."
+    }
+   },
+   "actions": [
+    "Track for final regulations."
+   ],
+   "url": "https://ibbi.gov.in/uploads/whatsnew/64e3b5bc6d53160f1919f952ceecd7c1.pdf"
+  },
+  {
+   "id": "U-DP-2026-07-02",
+   "date": "2026-07-02",
+   "kind": "Discussion paper",
+   "title": "Discussion paper on amendments to the CIRP, Liquidation and personal guarantor regulations",
+   "ref": "IBBI discussion paper",
+   "instrument": "REG-CIRP",
+   "effective": "",
+   "applies": "Proposal for comment only; not in force.",
+   "changes": [
+    "IBBI invited comments on proposed changes. Nothing changes until regulations are notified."
+   ],
+   "impact": {
+    "ip": {
+     "level": "Low",
+     "text": "Proposal only."
+    },
+    "creditor": {
+     "level": "Low",
+     "text": "Proposal only."
+    }
+   },
+   "actions": [
+    "Track for final regulations."
+   ],
+   "url": "https://ibbi.gov.in/uploads/whatsnew/47ce61c1b4629c0df393c9b0d36b0709.pdf"
+  },
+  {
+   "id": "U-2026-06-15-VAL",
+   "date": "2026-06-15",
+   "kind": "Circular",
+   "title": "Guidelines and format for valuation reports under the Code",
+   "ref": "IBBI/RV/103/2026",
+   "instrument": "CIR-2026-06-15-1",
+   "effective": "2026-06-15",
+   "applies": "Registered valuers and IPs.",
+   "changes": [
+    "Valuers prepare reports and keep documents in the format IBBI notified."
+   ],
+   "impact": {
+    "ip": {
+     "level": "Medium",
+     "text": "Check valuation reports against the format."
+    },
+    "applicant": {
+     "level": "Low",
+     "text": "More consistent valuation information."
+    }
+   },
+   "actions": [
+    "Share the format with appointed valuers."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/9d426e3d5c806a7a8f763103960345ea.pdf"
+  },
+  {
+   "id": "U-2026-06-09-16E",
+   "date": "2026-06-09",
+   "kind": "Regulation",
+   "title": "Observers in CoCs dominated by non-bank creditors",
+   "ref": "IBBI/2026-27/GN/REG153",
+   "instrument": "REG-CIRP",
+   "effective": "2026-06-09",
+   "applies": "CoCs where creditors other than scheduled banks and public financial institutions hold over 66% of the vote.",
+   "changes": [
+    "The RP invites the five largest unrelated operational creditors, including the three largest statutory authorities, as non-voting observers and minutes their views.",
+    "Only unrelated operational creditors count for a CoC made only of operational creditors."
+   ],
+   "impact": {
+    "creditor": {
+     "level": "Medium",
+     "text": "Non-bank-led CoCs will have observers in the room."
+    },
+    "ip": {
+     "level": "Medium",
+     "text": "Extra invitations and minutes."
+    }
+   },
+   "actions": [
+    "Check CoC composition against the 66% test."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/9ff2e33e257d8f22ab3dc142ccce6e29.pdf"
+  },
+  {
+   "id": "U-2026-06-02-REGS",
+   "date": "2026-06-02",
+   "kind": "Regulation",
+   "title": "IBBI regulations aligned with the 2026 Code amendments",
+   "ref": "IBBI/2026-27/GN/REG144 to REG152",
+   "instrument": "REG-LIQ",
+   "effective": "2026-06-02",
+   "applies": "All processes under the Code.",
+   "changes": [
+    "Liquidation to finish within 180 days; secured creditors decide within 14 days; claims verified within 7 days; distribution within 15 days.",
+    "CIRP claims admitted or rejected with reasons within 7 days; more information required with s. 9 and s. 10 applications.",
+    "Forms are now notified by IBBI circular (formats circulars of 02-06-2026 and 03-06-2026)."
+   ],
+   "impact": {
+    "creditor": {
+     "level": "High",
+     "text": "Shorter liquidation timelines and the 14-day security decision."
+    },
+    "ip": {
+     "level": "High",
+     "text": "Shorter deadlines across processes."
+    },
+    "debtor": {
+     "level": "Medium",
+     "text": "More disclosure in s. 10 applications."
+    }
+   },
+   "actions": [
+    "Update liquidation and CIRP calendars.",
+    "Secured creditors: decide on relinquishment within 14 days of liquidation."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/f9eac3c017853796aa88325dccbea364.pdf"
+  },
+  {
+   "id": "U-2026-05-26-AMD",
+   "date": "2026-05-26",
+   "kind": "Act",
+   "title": "IBC (Amendment) Act, 2026 in force (except CIIRP and group insolvency)",
+   "ref": "Act 6 of 2026; S.O. 2625(E)",
+   "instrument": "AMDACT-2026",
+   "effective": "2026-05-26",
+   "applies": "Everyone dealing with processes under the Code.",
+   "changes": [
+    "Admission of a financial creditor's application is mandatory once default is shown; an IU record of default suffices for a financial institution.",
+    "Withdrawal needs 90% of the CoC and is barred after the first invitation for plans.",
+    "CoC supervises liquidation; CIRP can be restored for up to 120 days; dissolution without liquidation.",
+    "Government dues are not treated as secured in the waterfall.",
+    "No interim moratorium for personal guarantors.",
+    "New penalties for frivolous proceedings and breach of moratorium or plan."
+   ],
+   "impact": {
+    "creditor": {
+     "level": "High",
+     "text": "Faster admission; secured creditor rights redefined."
+    },
+    "fsp": {
+     "level": "Low",
+     "text": "FSP Rules unchanged; general CIRP changes apply through them."
+    },
+    "debtor": {
+     "level": "High",
+     "text": "Fewer grounds to resist admission."
+    },
+    "applicant": {
+     "level": "Medium",
+     "text": "Split approval and CCI timing."
+    },
+    "ip": {
+     "level": "High",
+     "text": "New CoC supervision of liquidation."
+    }
+   },
+   "actions": [
+    "Review pending applications and liquidation strategies against the new provisions."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/d31669ba7f826ee9ebefe58e85d652ec.pdf"
+  },
+  {
+   "id": "U-2026-04-01-IVS",
+   "date": "2026-04-01",
+   "kind": "Circular",
+   "title": "International Valuation Standards apply to valuations under the Code",
+   "ref": "IBBI/RV/93/2026",
+   "instrument": "CIR-2026-04-01-1",
+   "effective": "2026-04-01",
+   "applies": "Registered valuers, IPs and all valuations under the Code.",
+   "changes": [
+    "IBBI notified the IVSC's International Valuation Standards for all valuations under the Code."
+   ],
+   "impact": {
+    "ip": {
+     "level": "Medium",
+     "text": "Instruct valuers accordingly."
+    },
+    "creditor": {
+     "level": "Low",
+     "text": "More comparable fair and liquidation values."
+    }
+   },
+   "actions": [
+    "Update valuer engagement letters."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/b176b05d02cba50ae0d3279ff6ed553e.pdf"
+  },
+  {
+   "id": "U-2025-12-29-BO",
+   "date": "2025-12-29",
+   "kind": "Circular",
+   "title": "Beneficial ownership statement and s. 32A affidavit in every resolution plan",
+   "ref": "IBBI/CIRP/90/2025",
+   "instrument": "CIR-2025-12-29-1",
+   "effective": "2025-12-29",
+   "applies": "Prospective resolution applicants and RPs.",
+   "changes": [
+    "Formats for the beneficial ownership statement and s. 32A eligibility affidavit required by reg 38(3A)."
+   ],
+   "impact": {
+    "applicant": {
+     "level": "High",
+     "text": "Disclose the full ownership chain to natural persons."
+    },
+    "ip": {
+     "level": "Medium",
+     "text": "Check the statement is in the plan."
+    }
+   },
+   "actions": [
+    "Prepare ownership charts for bids."
+   ],
+   "url": "https://ibbi.gov.in/uploads/legalframwork/5c12fc0543280761fec1424710116fc9.pdf"
+  }
+ ]
+}
