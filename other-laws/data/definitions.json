@@ -1,0 +1,1946 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Terms as each instrument defines them, shortened where long. The instrument's own text governs."
+ },
+ "instruments": {
+  "ACT-SOGA": [
+   {
+    "term": "buyer",
+    "para": "s. 2(1)",
+    "def": "means a person who buys or agrees to buy goods;",
+    "scope": ""
+   },
+   {
+    "term": "delivery",
+    "para": "s. 2(2)",
+    "def": "means voluntary transfer of possession from one person to another;",
+    "scope": ""
+   },
+   {
+    "term": "document of title to goods",
+    "para": "s. 2(4)",
+    "def": "includes a bill of lading, dockwarrant, warehouse keeper's certificate, wharfingers' certificate, railway receipt, multimodal transport document, warrant or order for the delivery of goods and any other document used in the ordinary course of business as proof of the possession or control of goods, or authorising or purporting to authorise, either by endorsement or by delivery, the possessor of the document to…",
+    "scope": ""
+   },
+   {
+    "term": "fault",
+    "para": "s. 2(5)",
+    "def": "means wrongful act or default;",
+    "scope": ""
+   },
+   {
+    "term": "future goods",
+    "para": "s. 2(6)",
+    "def": "means goods to be manufactured or produced or acquired by the seller after the making of the contract of sale;",
+    "scope": ""
+   },
+   {
+    "term": "goods",
+    "para": "s. 2(7)",
+    "def": "means every kind of moveable property other than actionable claims and money; and includes stock and shares, growing crops, grass, and things attached to or forming part of the land which are agreed to be severed before sale or under the contract of sale;",
+    "scope": ""
+   },
+   {
+    "term": "mercantile agent",
+    "para": "s. 2(9)",
+    "def": "means a mercantile agent having in the customary course of business as such agent authority either to sell goods, or to consign goods for the purposes of sale, or to buy goods, or to raise money on the security of goods;",
+    "scope": ""
+   },
+   {
+    "term": "price",
+    "para": "s. 2(10)",
+    "def": "means the money consideration for a sale of goods;",
+    "scope": ""
+   },
+   {
+    "term": "property",
+    "para": "s. 2(11)",
+    "def": "means the general property in goods, and not merely a special property;",
+    "scope": ""
+   },
+   {
+    "term": "quality of goods",
+    "para": "s. 2(12)",
+    "def": "includes their state or condition;",
+    "scope": ""
+   },
+   {
+    "term": "seller",
+    "para": "s. 2(13)",
+    "def": "means a person who sells or agrees to sell goods;",
+    "scope": ""
+   },
+   {
+    "term": "specific goods",
+    "para": "s. 2(14)",
+    "def": "means goods identified and agreed upon at the time a contract of sale is made; and",
+    "scope": ""
+   }
+  ],
+  "ACT-TPA": [
+   {
+    "term": "registered",
+    "para": "definitions",
+    "def": "means registered in any part of the territories to which this Act extends under the law8 for the time being in force regulating the registration of documents:",
+    "scope": ""
+   }
+  ],
+  "ACT-TRUSTS": [
+   {
+    "term": "registered",
+    "para": "definitions",
+    "def": "means registered under the law for the registration of documents for the time being in force: \"notice\":--a person is said to have \"notice\" of a fact either when he actually knows that fact, or when, but for wilful abstention from inquiry or gross negligence, he would have known it, or when information of the fact is given to or obtained by his agent, under the circumstances mentioned in the Indian Contract Act,…",
+    "scope": ""
+   }
+  ],
+  "ACT-SARFAESI": [
+   {
+    "term": "Appellate Tribunal",
+    "para": "s. 2",
+    "def": "means a Debts Recovery Appellate Tribunal established under sub-section (1) of section 8 of the Recovery of Debts Due to Banks and Financial Institutions",
+    "scope": ""
+   },
+   {
+    "term": "asset reconstruction",
+    "para": "s. 2",
+    "def": "means acquisition by any asset reconstruction company of any right or interest of any bank or financial institution in any financial assistance for the purpose of realisation of such financial assistance;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "s. 2",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "borrower",
+    "para": "s. 2",
+    "def": "means any person who, or a pooled investment vehicle as defined in clause (da) of section 2 of the Securities Contracts (Regulation) Act, 1956 (42 of 1956) which, has been granted financial assistance by any bank or financial institution or who has given any guarantee or created any mortgage or pledge as security for the financial assistance granted by any bank or financial institution and includes a person who,…",
+    "scope": ""
+   },
+   {
+    "term": "Central Registry",
+    "para": "s. 2",
+    "def": "means the registry set up or cause to be set up under sub-section (1) of section 20;",
+    "scope": ""
+   },
+   {
+    "term": "Debts Recovery Tribunal",
+    "para": "s. 2",
+    "def": "means the Tribunal established under sub-section (1) of section 3 of the Recovery of Debts due to Banks and Financial Institutions Act, 1993 (51 of 1993);",
+    "scope": ""
+   },
+   {
+    "term": "financial assistance",
+    "para": "s. 2",
+    "def": "means any loan or advance granted or any debentures or bonds subscribed or any guarantees given or letters of credit established or any other credit facility extended by any bank or financial institution including funds provided for the purpose of acquisition of any tangible asset on hire or financial lease or conditional sale or under any other contract or obtaining assignment or licence of any intangible asset…",
+    "scope": ""
+   },
+   {
+    "term": "financial asset",
+    "para": "s. 2",
+    "def": "means debt or receivables and includes--",
+    "scope": ""
+   },
+   {
+    "term": "hypothecation",
+    "para": "s. 2",
+    "def": "means a charge in or upon any movable property, existing or future, created by a borrower in favour of a secured creditor without delivery of possession of the movable property to such creditor, as a security for financial assistance and includes floating charge and crystallisation of such charge into fixed charge on movable property;",
+    "scope": ""
+   },
+   {
+    "term": "non-performing asset",
+    "para": "s. 2",
+    "def": "means an asset or account of a borrower, which has been classified by a bank or financial institution as sub-standard, doubtful or loss asset,--",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "s. 2",
+    "def": "means a notification published in the Official Gazette;",
+    "scope": ""
+   },
+   {
+    "term": "obligor",
+    "para": "s. 2",
+    "def": "means a person liable to the originator, whether under a contract or otherwise, to pay a financial asset or to discharge any obligation in respect of a financial asset, whether existing, future, conditional or contingent and includes the borrower;",
+    "scope": ""
+   },
+   {
+    "term": "originator",
+    "para": "s. 2",
+    "def": "means the owner of a financial asset which is acquired by a asset reconstruction company for the purpose of securitisation or asset reconstruction;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 2",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "4[qualified buyer]",
+    "para": "s. 2",
+    "def": "means a financial institution, insurance company, bank, state financial corporation, state industrial development corporation, trustee or asset reconstruction company which has been granted a certificate of registration under sub-section (4) of section 3 or any asset management company making investment on behalf of mutual fund or a foreign institutional investor registered under the Securities and Exchange Board…",
+    "scope": ""
+   },
+   {
+    "term": "Registrar of Companies",
+    "para": "s. 2",
+    "def": "means the Registrar defined in clause (40) of section 2 of the Companies Act, 1956 (1 of 1956);",
+    "scope": ""
+   },
+   {
+    "term": "Reserve Bank",
+    "para": "s. 2",
+    "def": "means the Reserve Bank of India constituted under section 3 of the Reserve Bank of India Act, 1934 (2 of 1934);",
+    "scope": ""
+   },
+   {
+    "term": "scheme",
+    "para": "s. 2",
+    "def": "means a scheme inviting subscription to security receipts proposed to be issued by a asset reconstruction company under that scheme;",
+    "scope": ""
+   },
+   {
+    "term": "securitisation",
+    "para": "s. 2",
+    "def": "means acquisition of financial assets by any asset reconstruction company from any originator, whether by raising of funds by such asset reconstruction company from qualified buyers by issue of security receipts representing undivided interest in such financial assets or otherwise;",
+    "scope": ""
+   },
+   {
+    "term": "security agreement",
+    "para": "s. 2",
+    "def": "means an agreement, instrument or any other document or arrangement under which security interest is created in favour of the secured creditor including the creation of mortgage by deposit of title deeds with the secured creditor;",
+    "scope": ""
+   },
+   {
+    "term": "secured asset",
+    "para": "s. 2",
+    "def": "means the property on which security interest is created;",
+    "scope": ""
+   },
+   {
+    "term": "secured debt",
+    "para": "s. 2",
+    "def": "means a debt which is secured by any security interest;",
+    "scope": ""
+   },
+   {
+    "term": "security receipt",
+    "para": "s. 2",
+    "def": "means a receipt or other security, issued by a asset reconstruction company to any qualified buyer pursuant to a scheme, evidencing the purchase or acquisition by the holder thereof, of an undivided right, title or interest in the financial asset involved in securitisation;",
+    "scope": ""
+   },
+   {
+    "term": "sponsor",
+    "para": "s. 2",
+    "def": "means any person holding not less than ten per cent. of the paid-up equity capital of a asset reconstruction company;",
+    "scope": ""
+   },
+   {
+    "term": "State Bank of India",
+    "para": "s. 2",
+    "def": "means the State Bank of India constituted under section 3 of the State Bank of India Act, 1955 (23 of 1955);",
+    "scope": ""
+   },
+   {
+    "term": "record date",
+    "para": "s. 2",
+    "def": "means the date agreed upon by the secured creditors representing not less than sixty per cent. in value of the amount outstanding on such date;",
+    "scope": ""
+   },
+   {
+    "term": "amount outstanding",
+    "para": "s. 2",
+    "def": "shall include principal, interest and any other dues payable by the borrower to the secured creditor in respect of secured asset as per the books of account of the secured creditor.",
+    "scope": ""
+   },
+   {
+    "term": "adjudicating authority",
+    "para": "s. 2",
+    "def": "means such officer or a committee of officers of the Reserve Bank, designated as such from time to time, by notification, by the Central Board of Reserve Bank;",
+    "scope": ""
+   },
+   {
+    "term": "person in default",
+    "para": "s. 2",
+    "def": "means the asset reconstruction company or any person which has committed any failure, contravention or default under this Act and any person incharge of such company or such other person, as the case may be, shall be liable to be proceeded against and punished under section 33 for such failure or contravention or default committed by such company or person. 30B. Appeal against penalties.--A person in default,…",
+    "scope": ""
+   },
+   {
+    "term": "company'",
+    "para": "s. 2",
+    "def": "means any body corporate and includes a firm or other association of individuals;",
+    "scope": ""
+   }
+  ],
+  "ACT-RDB": [
+   {
+    "term": "Appellate Tribunal",
+    "para": "s. 2",
+    "def": "means an Appellate Tribunal established under sub-section (1) of section 8;",
+    "scope": ""
+   },
+   {
+    "term": "application",
+    "para": "s. 2",
+    "def": "means an application made to a Tribunal under section 19;",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "s. 2",
+    "def": "means a notification published in the Official Gazette;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 2",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Recovery Officer",
+    "para": "s. 2",
+    "def": "means a Recovery Officer appointed by the Central Government for each Tribunal under sub-section (1) of section 7;",
+    "scope": ""
+   },
+   {
+    "term": "Regional Rural Bank",
+    "para": "s. 2",
+    "def": "means a Regional Rural Bank established under section 3 of the Regional Rural Banks Act, 1976 (21 of 1976);",
+    "scope": ""
+   },
+   {
+    "term": "security interest",
+    "para": "s. 2",
+    "def": "means mortgage, charge, hypothecation, assignment or any other right, title or interest of any kind whatsoever upon property, created in favour of any bank or financial institution and includes--",
+    "scope": ""
+   },
+   {
+    "term": "State Bank of India",
+    "para": "s. 2",
+    "def": "means the State Bank of India constituted under section 3 of the State Bank of India Act, 1955 (23 of 1955);",
+    "scope": ""
+   },
+   {
+    "term": "Tribunal",
+    "para": "s. 2",
+    "def": "means the Tribunal established under sub-section (1) of section 3.",
+    "scope": ""
+   },
+   {
+    "term": "digital signature",
+    "para": "s. 2",
+    "def": "means the digital signature as defined under clause (p) of section 2 of the Information Technology Act, 2000 (21 of 2000);",
+    "scope": ""
+   }
+  ],
+  "AMD-RDB-20260813": [
+   {
+    "term": "Chairperson of the Commission",
+    "para": "definitions",
+    "def": "means the Chairperson of the National Tribunals Commission;",
+    "scope": ""
+   },
+   {
+    "term": "Commission",
+    "para": "definitions",
+    "def": "means the National Tribunals Commission established under section 3;",
+    "scope": ""
+   },
+   {
+    "term": "Member",
+    "para": "definitions",
+    "def": "includes Vice-Chairman, Vice-Chairperson, Vice-President, Accountant Member, Administrative Member, Judicial Member, Expert Member, Law Member and Technical Member of a Tribunal;",
+    "scope": ""
+   },
+   {
+    "term": "Member of the Commission",
+    "para": "definitions",
+    "def": "means a Judicial Member or a Technical Member of the National Tribunals Commission;",
+    "scope": ""
+   },
+   {
+    "term": "National Tribunals Data Grid",
+    "para": "definitions",
+    "def": "means a portal containing the repository of all case related information pertaining to Tribunals specified in the First Schedule;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "definitions",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "regulations",
+    "para": "definitions",
+    "def": "means the regulations made by the Commission under section 19;",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "definitions",
+    "def": "means a Schedule appended to this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Search-cum-Selection Committee",
+    "para": "definitions",
+    "def": "means a Search-cum-Selection Committee constituted under section 13;",
+    "scope": ""
+   },
+   {
+    "term": "Secretariat",
+    "para": "definitions",
+    "def": "means the Secretariat of the Commission referred to in section 8; and",
+    "scope": ""
+   },
+   {
+    "term": "Tribunal",
+    "para": "definitions",
+    "def": "means a Tribunal, Appellate Tribunal or Authority as specified in column (2) of the First Schedule.",
+    "scope": ""
+   }
+  ],
+  "ACT-LIM": [
+   {
+    "term": "application",
+    "para": "s. 2",
+    "def": "includes a petition;",
+    "scope": ""
+   },
+   {
+    "term": "bill of exchange",
+    "para": "s. 2",
+    "def": "includes a hundi and a cheque;",
+    "scope": ""
+   },
+   {
+    "term": "bond",
+    "para": "s. 2",
+    "def": "includes any instrument whereby a person obliges himself to pay money to another, on condition that the obligation shall be void if a specified act is performed, or is not performed, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "easement",
+    "para": "s. 2",
+    "def": "includes a right not arising from contract, by which one person is entitled to remove and appropriate for his own profit any part of the soil belonging to another or anything growing in, or attached to, or subsisting upon, the land of another;",
+    "scope": ""
+   },
+   {
+    "term": "foreign country",
+    "para": "s. 2",
+    "def": "means any country other than India;",
+    "scope": ""
+   },
+   {
+    "term": "period of limitation",
+    "para": "s. 2",
+    "def": "means the period of limitation prescribed for any suit, appeal or application by the Schedule, and \"prescribed period\" means the period of limitation computed in accordance with the provisions of this Act;",
+    "scope": ""
+   },
+   {
+    "term": "promissory note",
+    "para": "s. 2",
+    "def": "means any instrument whereby the maker engages absolutely to pay a specified sum of money to another at a time therein limited, or on demand, or at sight;",
+    "scope": ""
+   },
+   {
+    "term": "tort",
+    "para": "s. 2",
+    "def": "means a civil wrong which is not exclusively the breach of a contract or the breach of a trust;",
+    "scope": ""
+   }
+  ],
+  "ACT-SRA": [
+   {
+    "term": "obligation",
+    "para": "s. 2",
+    "def": "includes every duty enforceable by law;",
+    "scope": ""
+   },
+   {
+    "term": "settlement",
+    "para": "s. 2",
+    "def": "means an instrument (other than a will or codicil as defined by the Indian Succession Act, 1925 (39 of 1925), whereby the destination or devolution of successive interests in movable or immovable property is disposed of or is agreed to be disposed of;",
+    "scope": ""
+   },
+   {
+    "term": "trustee",
+    "para": "s. 2",
+    "def": "includes every person holding property in trust;",
+    "scope": ""
+   }
+  ],
+  "ACT-NI": [
+   {
+    "term": "a truncated cheque",
+    "para": "definitions",
+    "def": "means a cheque which is truncated during the course of a clearing cycle, either by the clearing house or by the bank whether paying or receiving payment, immediately on generation of an electronic image for transmission, substituting the further physical movement of the cheque in writing.",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions",
+    "def": "means any body corporate and includes a firm or other association of individuals; and",
+    "scope": ""
+   }
+  ],
+  "ACT-STAMP": [
+   {
+    "term": "banker",
+    "para": "s. 2(1A)",
+    "def": "includes a bank and any person acting as a banker;",
+    "scope": ""
+   },
+   {
+    "term": "clearing corporation",
+    "para": "s. 2(7B)",
+    "def": "means an entity established to undertake the activity of clearing and settlement of transactions in securities or other instruments and includes a clearing house of a recognised stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "(14-A) 'Instrument of Gift'-- '1nstrument of Gift",
+    "para": "s. 2",
+    "def": "includes an instrument whether by way of declaration or otherwise, for making or accepting an oral gift;\"",
+    "scope": ""
+   },
+   {
+    "term": "(22-A) 'Public Officer'-- Public Officer",
+    "para": "s. 2",
+    "def": "means a Public Officer as defined in clause (17) of section 2 of the Code of Civil procedure, 1908 and includes every officer working in connection with the affairs of any of the following of organizations, namely :--",
+    "scope": ""
+   },
+   {
+    "term": "27. 'quarter",
+    "para": "s. 2",
+    "def": "means a quarter of the financial year.\" [Vide Uttar Pradesh Act 49 of 1975, s. 2 Uttarakhand Amendment of Section 2.--In section 2 of the Indian Stamp Act, 1899 (herein after referred to as the principle act),:--",
+    "scope": ""
+   },
+   {
+    "term": "Securities and Exchange Board of India",
+    "para": "s. 2",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Securities and Exchange Board of India Act, 1992(15 of 1992). 3 [8C. Negotiable warehouse receipts not liable to stamp-duty.--Notwithstanding anything contained in this Act, negotiable warehouse receipts shall not be liable to stamp duty. 4 [8D. Agreement or document for assignment of receivables not liable to stamp-duty.--…",
+    "scope": ""
+   },
+   {
+    "term": "registration",
+    "para": "s. 2",
+    "def": "includes every operation, incidental to registration under the Indian Registration",
+    "scope": ""
+   }
+  ],
+  "STAMP-MH": [
+   {
+    "term": "association",
+    "para": "definitions",
+    "def": "means any association, exchange, organisation or body of individuals, whether incorporated or not, established for the purpose of regulating and controlling business of the sale or purchase of, or other transaction relating to, any goods or marketable securities; 5((b) \"banker\" means an association, a company or a person who accepts, for the purpose of lending or investment, deposits of money from the public,…",
+    "scope": ""
+   },
+   {
+    "term": "chargeable",
+    "para": "definitions",
+    "def": "means, as applied to an instrument, executed or first executed after the commencement of this Act, chargeable under this Act, and as applied to any other instruments, chargeable under the law in force in the State when such instrument was executed or, where several persons executed the instrument at different times, first executed;",
+    "scope": ""
+   },
+   {
+    "term": "clearance list",
+    "para": "definitions",
+    "def": "means a list of transactions relating to contracts required to be submitted to the clearing house of an association in accordance with the rules or bye-laws of the association: \"I/We hereby solemnly declare that the above list contains a complete and true BOM LX of statement of my/our transactions including crossed out transactions and transactions 1958 required to be submitted to the clearing house in accordance…",
+    "scope": ""
+   },
+   {
+    "term": "Collector",
+    "para": "definitions",
+    "def": "means 41* * * the Chief Officer in charge of the revenue administration of a district and includes any officer whom the State Government may, by notification in the Official Gazette, appoint in this behalf; and on whom any or all the powers of the Collector under this Act are conferred by the same notification or any other like notification",
+    "scope": ""
+   },
+   {
+    "term": "instrument",
+    "para": "definitions",
+    "def": "includes every document by which any right or liability is, or purports to be created, transferred, limited, extended, extinguished or recorded, but does not include a bill of exchange, cheque, promissory note, bill of lading, letter of credit, policy of insurance, transfer of share, debenture, proxy and receipt; 21 of 2000 7 [Explanation.-- The term \"document\" also includes any electronic record as defined in clause",
+    "scope": ""
+   },
+   {
+    "term": "instrument of partition",
+    "para": "definitions",
+    "def": "means any instrument whereby co-owners of any property divide or agree to divide such property in severally and includes--",
+    "scope": ""
+   },
+   {
+    "term": "lease",
+    "para": "definitions",
+    "def": "means a lease of immovable or movable (or both) property, and includes also,--",
+    "scope": ""
+   },
+   {
+    "term": "marketable security",
+    "para": "definitions",
+    "def": "means a security of such description as to be capable of being sold in any stock market in India. * * }:",
+    "scope": ""
+   },
+   {
+    "term": "paper",
+    "para": "definitions",
+    "def": "includes vellum, parchment or any other material on which an instrument may be written;",
+    "scope": ""
+   },
+   {
+    "term": "power of attorney",
+    "para": "definitions",
+    "def": "includes any instrument (not chargeable with a fee under the law relating to court-fees for the time being in force) empowering a specified person to act for and in the name of the person executing it 2and includes an instrument by which a person, not being a person who is a legal practitioner, is authorised to appear on behalf of any party in any proceeding before any court, tribunal or authority;",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "definitions",
+    "def": "means a Schedule appended to this Act;",
+    "scope": ""
+   },
+   {
+    "term": "settlement",
+    "para": "definitions",
+    "def": "means any non-testamentary disposition in writing of movable or immovable property made,--",
+    "scope": ""
+   },
+   {
+    "term": "Soldier",
+    "para": "definitions",
+    "def": "includes any person below the rank of a non-commissioned officer who is enrolled under the Army Act, 1950.",
+    "scope": ""
+   },
+   {
+    "term": "Unit",
+    "para": "definitions",
+    "def": "includes a flat, apartment, tenement, block or any other unit by whatever name called as approved by the Component Authority in the building plan",
+    "scope": ""
+   },
+   {
+    "term": "debenture",
+    "para": "definitions",
+    "def": "includes debenture stock;",
+    "scope": ""
+   }
+  ],
+  "STAMP-STATES": [
+   {
+    "term": "Stamp",
+    "para": "definitions",
+    "def": "means any work, seal or endorsement by any agency or person duly authorised by the State Government, and includes an adhesive or impressed stamp, for the purpose of duty chargeable under this Act. 26-A. The expression \"Common Roll\" and \"State Roll\" shall have the meanings assigned to them in the Advocates Act, 1961.",
+    "scope": ""
+   }
+  ],
+  "ACT-REG": [
+   {
+    "term": "Addition",
+    "para": "s. 2(1)",
+    "def": "means the place of residence, and the profession, trade, rank and title (if any) of a person described, and in the case of an Indian, his father's name, or where he is usually described as the son of his mother, then his mother's name;",
+    "scope": ""
+   },
+   {
+    "term": "Book",
+    "para": "s. 2(2)",
+    "def": "includes a portion of a book and also any number of sheets connected together with a view of forming a book or portion of a book;",
+    "scope": ""
+   },
+   {
+    "term": "District Court",
+    "para": "s. 2(4)",
+    "def": "includes the High Court in its ordinary original civil jurisdiction;",
+    "scope": ""
+   },
+   {
+    "term": "Immovable Property",
+    "para": "s. 2(6)",
+    "def": "includes land, buildings, hereditary allowances, rights to ways, lights, ferries, fisheries or any other benefit to arise out of land, and things attached to the earth, or permanently fastened to anything which is attached to the earth, but not standing timber, growing crops nor grass;",
+    "scope": ""
+   },
+   {
+    "term": "Lease",
+    "para": "s. 2(7)",
+    "def": "includes a counterpart, kabuliyat, and undertaking to cultivate or occupy, and an agreement to lease;",
+    "scope": ""
+   },
+   {
+    "term": "Minor",
+    "para": "s. 2(8)",
+    "def": "means a person who, according to the personal law to which he is subject, has not attained majority;",
+    "scope": ""
+   },
+   {
+    "term": "Movable Property",
+    "para": "s. 2(9)",
+    "def": "includes standing timber, growing crops and grass, fruit upon and juice in trees, and property of every other description, except immovable property; and",
+    "scope": ""
+   },
+   {
+    "term": "Representative",
+    "para": "s. 2(10)",
+    "def": "includes the guardian of a minor and the committee or other legal curator of a lunatic or idiot. STATE AMENDMENT Uttarakhand Amendment of section 2.--In the Registration Act, 1908 (hereinafter referred to as the Principal Act),",
+    "scope": ""
+   },
+   {
+    "term": "(2) `book",
+    "para": "s. 2",
+    "def": "includes a portion of a book and also any number of sheets connected together with a view to forming a book, or portion of a book and also includes a book in electronic form;\"",
+    "scope": ""
+   },
+   {
+    "term": "(10-A) 'true copy",
+    "para": "s. 2",
+    "def": "includes a true Photostat copy; (10-B) the words and expressions used herein and not defined but defined in the Information Technology Act, 2000 shall have the meaning respectively assigned to them in that Act.\" [Vide Uttarakhand Act 24 of 2014, s. 2 Uttar Pradesh Amendment of section 2 .--In section 2 of the Registration Act, 1908, hereinafter referred to as the Principal Act, in clause (2),--",
+    "scope": ""
+   },
+   {
+    "term": "(10-A) `true copy",
+    "para": "s. 2",
+    "def": "includes a true photostat copy; (10-B) the words and expressions used but not defined in this Act and defined in the Information Technology Act, 2000, shall have the respective meaning assigned to them in that Act.\" [Vide Uttar Pradesh Act 36 of 2001, s. 2",
+    "scope": ""
+   },
+   {
+    "term": "unregistered",
+    "para": "s. 2",
+    "def": "means not registered according to such Act, and, where the document is executed after the first day of July, 1871, not registered under the Indian Registration Act, 1871 (8 of 1871), or the Indian Registration Act, 1877 (3 of 1877), or this Act. PART XI OF THE DUITES AND POWERS OF REGISTERING OFFICERS (A) As to the Register-books and Indexes",
+    "scope": ""
+   }
+  ],
+  "ACT-BSA": [
+   {
+    "term": "Court",
+    "para": "s. 2",
+    "def": "includes all Judges and Magistrates, and all persons, except arbitrators, legally authorised to take evidence;",
+    "scope": ""
+   },
+   {
+    "term": "conclusive proof",
+    "para": "s. 2",
+    "def": "means when one fact is declared by this Adhiniyam to be conclusive proof of another, the Court shall, on proof of the one fact, regard the other as proved, and shall not allow evidence to be given for the purpose of disproving it;",
+    "scope": ""
+   },
+   {
+    "term": "document",
+    "para": "s. 2",
+    "def": "means any matter expressed or described or otherwise recorded upon any substance by means of letters, figures or marks or any other means or by more than one of those means, intended to be used, or which may be used, for the purpose of recording that matter and includes electronic and digital records. Illustrations.",
+    "scope": ""
+   },
+   {
+    "term": "evidence",
+    "para": "s. 2",
+    "def": "means and includes-- 1. 1st day of July, 2024, vide notification No. S.O. 849(E), dated, 23rd February, 2024, see Gazette of India, Extraordinary, Part II, sec. 3(ii).",
+    "scope": ""
+   },
+   {
+    "term": "fact",
+    "para": "s. 2",
+    "def": "means and includes--",
+    "scope": ""
+   },
+   {
+    "term": "facts in issue",
+    "para": "s. 2",
+    "def": "means and includes any fact from which, either by itself or in connection with other facts, the existence, non-existence, nature or extent of any right, liability or disability, asserted or denied in any suit or proceeding, necessarily follows.",
+    "scope": ""
+   }
+  ],
+  "ACT-BBE-2026": [
+   {
+    "term": "company",
+    "para": "definitions",
+    "def": "means any company as defined in clause (20) of section 2 of the Companies Act, 2013 and includes a foreign company within the meaning of clause (42) of the said section;",
+    "scope": ""
+   },
+   {
+    "term": "corporation",
+    "para": "definitions",
+    "def": "means any body corporate established by or under any law for the time being in force in India and includes the Reserve Bank of India, the State Bank of India or any corresponding new bank constituted under the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 and the Banking Companies (Acquisition and Transfer of Undertakings)",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "definitions",
+    "def": "means a notification published in the Gazette of India and the expression \"notify\" with its grammatical variation and cognate expressions shall be construed accordingly; and",
+    "scope": ""
+   },
+   {
+    "term": "trial",
+    "para": "definitions",
+    "def": "means any hearing before the Court at which evidence is taken.",
+    "scope": ""
+   }
+  ],
+  "ACT-CPA": [
+   {
+    "term": "advertisement",
+    "para": "s. 2(1)",
+    "def": "means any audio or visual publicity, representation, endorsement or pronouncement made by means of light, sound, smoke, gas, print, electronic media, internet or website and includes any notice, circular, label, wrapper, invoice or such other documents;",
+    "scope": ""
+   },
+   {
+    "term": "appropriate laboratory",
+    "para": "s. 2(2)",
+    "def": "means a laboratory or an organisation--",
+    "scope": ""
+   },
+   {
+    "term": "Central Authority",
+    "para": "s. 2(4)",
+    "def": "means the Central Consumer Protection Authority established under section 10;",
+    "scope": ""
+   },
+   {
+    "term": "complaint",
+    "para": "s. 2(6)",
+    "def": "means any allegation in writing, made by a complainant for obtaining any relief provided by or under this Act, that--",
+    "scope": ""
+   },
+   {
+    "term": "consumer",
+    "para": "s. 2(7)",
+    "def": "means any person who--",
+    "scope": ""
+   },
+   {
+    "term": "consumer dispute",
+    "para": "s. 2(8)",
+    "def": "means a dispute where the person against whom a complaint has been made, denies or disputes the allegations contained in the complaint;",
+    "scope": ""
+   },
+   {
+    "term": "defect",
+    "para": "s. 2(10)",
+    "def": "means any fault, imperfection or shortcoming in the quality, quantity, potency, purity or standard which is required to be maintained by or under any law for the time being in force or under any contract, express or implied or as is claimed by the trader in any manner whatsoever in relation to any goods or product and the expression \"defective\" shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "deficiency",
+    "para": "s. 2(11)",
+    "def": "means any fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance which is required to be maintained by or under any law for the time being in force or has been undertaken to be performed by a person in pursuance of a contract or otherwise in relation to any service and includes--",
+    "scope": ""
+   },
+   {
+    "term": "direct selling",
+    "para": "s. 2(13)",
+    "def": "means marketing, distribution and sale of goods or provision of services through a network of sellers, other than through a permanent retail location;",
+    "scope": ""
+   },
+   {
+    "term": "Director-General",
+    "para": "s. 2(14)",
+    "def": "means the Director-General appointed under sub-section (2) of section",
+    "scope": ""
+   },
+   {
+    "term": "District Commission",
+    "para": "s. 2(15)",
+    "def": "means a District Consumer Disputes Redressal Commission established under sub-section (1) of section 28;",
+    "scope": ""
+   },
+   {
+    "term": "e-commerce",
+    "para": "s. 2(16)",
+    "def": "means buying or selling of goods or services including digital products over digital or electronic network;",
+    "scope": ""
+   },
+   {
+    "term": "electronic service provider",
+    "para": "s. 2(17)",
+    "def": "means a person who provides technologies or processes to enable a product seller to engage in advertising or selling goods or services to a consumer and includes any online market place or online auction sites;",
+    "scope": ""
+   },
+   {
+    "term": "establishment",
+    "para": "s. 2(19)",
+    "def": "includes an advertising agency, commission agent, manufacturing, trading or any other commercial agency which carries on any business, trade or profession or any work in connection with or incidental or ancillary to any commercial activity, trade or profession, or such other class or classes of persons including public utility entities in the manner as may be prescribed;",
+    "scope": ""
+   },
+   {
+    "term": "express warranty",
+    "para": "s. 2(20)",
+    "def": "means any material statement, affirmation of fact, promise or description relating to a product or service warranting that it conforms to such material statement, affirmation, promise or description and includes any sample or model of a product warranting that the whole of such product conforms to such sample or model;",
+    "scope": ""
+   },
+   {
+    "term": "goods",
+    "para": "s. 2(21)",
+    "def": "means every kind of movable property and includes \"food\" as defined in clause (j) of sub-section (1) of section 3 of the Food Safety and Standards Act, 2006 (34 of 2006);",
+    "scope": ""
+   },
+   {
+    "term": "injury",
+    "para": "s. 2(23)",
+    "def": "means any harm whatever illegally caused to any person, in body, mind or property;",
+    "scope": ""
+   },
+   {
+    "term": "manufacturer",
+    "para": "s. 2(24)",
+    "def": "means a person who--",
+    "scope": ""
+   },
+   {
+    "term": "mediation",
+    "para": "s. 2(25)",
+    "def": "means the process by which a mediator mediates the consumer disputes;",
+    "scope": ""
+   },
+   {
+    "term": "mediator",
+    "para": "s. 2(26)",
+    "def": "means a mediator referred to in section 75;",
+    "scope": ""
+   },
+   {
+    "term": "member",
+    "para": "s. 2(27)",
+    "def": "includes the President and a member of the National Commission or a State Commission or a District Commission, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "National Commission",
+    "para": "s. 2(29)",
+    "def": "means the National Consumer Disputes Redressal Commission established under sub-section (1) of section 53;",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "s. 2(30)",
+    "def": "means a notification published in the Official Gazette and the term \"notify\" shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 2(32)",
+    "def": "means prescribed by rules made by the Central Government, or, as the case may be, the State Government;",
+    "scope": ""
+   },
+   {
+    "term": "product",
+    "para": "s. 2(33)",
+    "def": "means any article or goods or substance or raw material or any extended cycle of such product, which may be in gaseous, liquid, or solid state possessing intrinsic value which is capable of delivery either as wholly assembled or as a component part and is produced for introduction to trade or commerce, but does not include human tissues, blood, blood products and organs;",
+    "scope": ""
+   },
+   {
+    "term": "product liability",
+    "para": "s. 2(34)",
+    "def": "means the responsibility of a product manufacturer or product seller, of any product or service, to compensate for any harm caused to a consumer by such defective product manufactured or sold or by deficiency in services relating thereto;",
+    "scope": ""
+   },
+   {
+    "term": "product liability action",
+    "para": "s. 2(35)",
+    "def": "means a complaint filed by a person before a District Commission or State Commission or National Commission, as the case may be, for claiming compensation for the harm caused to him;",
+    "scope": ""
+   },
+   {
+    "term": "product manufacturer",
+    "para": "s. 2(36)",
+    "def": "means a person who--",
+    "scope": ""
+   },
+   {
+    "term": "regulations",
+    "para": "s. 2(39)",
+    "def": "means the regulations made by the National Commission, or as the case may be, the Central Authority;",
+    "scope": ""
+   },
+   {
+    "term": "Regulator",
+    "para": "s. 2(40)",
+    "def": "means a body or any authority established under any other law for the time being in force;",
+    "scope": ""
+   },
+   {
+    "term": "restrictive trade practice",
+    "para": "s. 2(41)",
+    "def": "means a trade practice which tends to bring about manipulation of price or its conditions of delivery or to affect flow of supplies in the market relating to goods or services in such a manner as to impose on the consumers unjustified costs or restrictions and shall include--",
+    "scope": ""
+   },
+   {
+    "term": "service",
+    "para": "s. 2(42)",
+    "def": "means service of any description which is made available to potential users and includes, but not limited to, the provision of facilities in connection with banking, financing, insurance, transport, processing, supply of electrical or other energy, telecom, boarding or lodging or both, housing construction, entertainment, amusement or the purveying of news or other information, but does not include the rendering…",
+    "scope": ""
+   },
+   {
+    "term": "spurious goods",
+    "para": "s. 2(43)",
+    "def": "means such goods which are falsely claimed to be genuine;",
+    "scope": ""
+   },
+   {
+    "term": "State Commission",
+    "para": "s. 2(44)",
+    "def": "means a State Consumer Disputes Redressal Commission established under sub-section (1) of section 42;",
+    "scope": ""
+   },
+   {
+    "term": "unfair contract",
+    "para": "s. 2(46)",
+    "def": "means a contract between a manufacturer or trader or service provider on one hand, and a consumer on the other, having such terms which cause significant change in the rights of such consumer, including the following, namely:--",
+    "scope": ""
+   },
+   {
+    "term": "unfair trade practice",
+    "para": "s. 2(47)",
+    "def": "means a trade practice which, for the purpose of promoting the sale, use or supply of any goods or for the provision of any service, adopts any unfair method or unfair or deceptive practice including any of the following practices, namely:--",
+    "scope": ""
+   },
+   {
+    "term": "adulterant",
+    "para": "s. 2",
+    "def": "means any material including extraneous matter which is employed or used for making a product unsafe;",
+    "scope": ""
+   }
+  ],
+  "MF-TN": [
+   {
+    "term": "borrower",
+    "para": "definitions",
+    "def": "means an individual or group of individuals or a Self Help Group or Joint Liability Group, who avail money in the form of loan for any purpose, from any money lending entity under an agreement either orally or in writing with terms and conditions that the money shall be repaid within a certain period of time;",
+    "scope": ""
+   },
+   {
+    "term": "co-operative society",
+    "para": "definitions",
+    "def": "means a society registered or deemed to be registered under the Tamil Nadu Co-operative Societies",
+    "scope": ""
+   },
+   {
+    "term": "Government",
+    "para": "definitions",
+    "def": "means the State Government;",
+    "scope": ""
+   },
+   {
+    "term": "loan",
+    "para": "definitions",
+    "def": "means money advanced to the borrower by the money lending entity at interest explicitly charged or otherwise;",
+    "scope": ""
+   },
+   {
+    "term": "Micro Finance Institution",
+    "para": "definitions",
+    "def": "means an entity that provides micro loans to the borrowers, whose main or incidental activity is to lend money or offer financial support of whatsoever nature to the borrowers;",
+    "scope": ""
+   },
+   {
+    "term": "micro loan",
+    "para": "definitions",
+    "def": "means a loan given to a household having annual household income up to three lakh rupees or such limit as the Government may fix from time to time, by notification.",
+    "scope": ""
+   },
+   {
+    "term": "money lending entity",
+    "para": "definitions",
+    "def": "includes any micro finance institution or money lending agency or money lending organisation or partnership firm or person or group of persons or digital lending platform or any other entity involved in money lending activities by whatever name it may be called, whose main or incidental activity is to lend money and recover it.",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "definitions",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Registering Authority",
+    "para": "definitions",
+    "def": "means an authority appointed under section 4;",
+    "scope": ""
+   },
+   {
+    "term": "State",
+    "para": "definitions",
+    "def": "means the State of Tamil Nadu. TAMIL NADU GOVERNMENT GAZETTE EXTRAORDINARY 187",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions",
+    "def": "means a body corporate, and includes a firm or other association of individuals; and",
+    "scope": ""
+   },
+   {
+    "term": "Act",
+    "para": "definitions",
+    "def": "means the Tamil Nadu Money Lending Entities (Prevention of Coercive Actions) Act, 2025 (Tamil Nadu Act 40 of 2025);",
+    "scope": ""
+   },
+   {
+    "term": "Applicant",
+    "para": "definitions",
+    "def": "means money lending entity applying for the Certificate of Registration in the Portal;",
+    "scope": ""
+   },
+   {
+    "term": "Ombudsperson",
+    "para": "definitions",
+    "def": "means the Ombudsperson appointed by the Government under sub-section (1) of section 17 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Portal",
+    "para": "definitions",
+    "def": "means the online portal notified by the Government under sub-section (2) of section 5 of the Act;",
+    "scope": ""
+   }
+  ],
+  "MF-AS": [
+   {
+    "term": "Government",
+    "para": "definitions",
+    "def": "means the State Government of Assam;",
+    "scope": ""
+   },
+   {
+    "term": "borrower",
+    "para": "definitions",
+    "def": "means an individual or a Self Help Group (SHG) or Joint Liability Group (JLG) who avails money in the form of a loan for any productive purpose from Micro Finance Institutions or Money Lending Agencies or Organizations under an agreement with terms and conditions that the money shall be repaid within a certain period of time to such Micro Finance Institutions, Money Lending Agencies or Organizations, as the case…",
+    "scope": ""
+   },
+   {
+    "term": "Lender",
+    "para": "definitions",
+    "def": "means any Micro Finance Institution or Money Lending Agency or Organization covered under this Act; THE ASSAM GAZETTE, EXTRAORDINARY, JANUARY 30, 2021",
+    "scope": ""
+   },
+   {
+    "term": "loan",
+    "para": "definitions",
+    "def": "means an advance whether of money or in kind given to the borrower at interest, whether given before the commencement of this Act or after such commencement and includes advance, discount, money paid for or on account of or paid on behalf of or at the request of any person, or any account whatsoever, and every agreement, whatever its terms or form may be, which is in substance or effect a loan of money or in kind…",
+    "scope": ""
+   },
+   {
+    "term": "Non-Banking Finance Company",
+    "para": "definitions",
+    "def": "means a non- deposit taking Non-Banking Finance Company, other than a company licensed under the Companies Act, 2013, that fulfils the following conditions, namely",
+    "scope": ""
+   },
+   {
+    "term": "Notification",
+    "para": "definitions",
+    "def": "means a Notification published in the Assam Gazette and the word \"notified\" shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "definitions",
+    "def": "means prescribed by rules made by the Government under this Act; Central Act No. Central Act No. Assam Act No. Central Act No. Central Act No. 18 of THE ASSAM GAZEITE, EXTRAORDINARY, JANUARY 30, 2021",
+    "scope": ""
+   },
+   {
+    "term": "Registering Authority",
+    "para": "definitions",
+    "def": "means the Director (Institutional Finance) or any such official as may be appointed by the Finance Department, Government of Assam by notification, to perform the functions of a Registering Authority under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "registration",
+    "para": "definitions",
+    "def": "means registration granted to a Micro Finance Institution (MFI) or Lending Agency or Organisation under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Reserve Bank of India",
+    "para": "definitions",
+    "def": "means the central bank of India, which was established on the ISt day of Central Act April 1935, under the Reserve Bank of India Act, No. of 1934.",
+    "scope": ""
+   },
+   {
+    "term": "minimum wage",
+    "para": "definitions",
+    "def": "means the minimum amount of all remuneration, capable of being expressed in terms of money, which shall, if the terms of the contract, expressed or implied, shall be fulfilled, or be payable to a person employed in respect of his employment or of work done in such employment fixed by the Government of Assam for any specified class or classes of employment in the whole State or part thereof;",
+    "scope": ""
+   },
+   {
+    "term": "Tea Garden Workmen",
+    "para": "definitions",
+    "def": "means,- a 'permanent workman' who has been engaged on a permanent basis and includes any person who has satisfactorily completed a probation period of 03 (three) months in the same or another occupation in the establishment, including breaks due to sickness, accident, leave, lockout, strike (not being an illegal strike) or involuntary closure of the establishment; a 'temporary workman' who has been engaged for a…",
+    "scope": ""
+   },
+   {
+    "term": "vulnerable section of the society",
+    "para": "definitions",
+    "def": "means and includes those group of people who are disadvantaged as compared to others mainly on account of reduced access to their basic services and the underlying determinants of health, housing sanitation etc. and the people who are economically backward, low on THE ASSAM GAZETTE, EXTRAORDINARY, JANUARY 30, 2021 livelihood patterns with no regular source of income, thereby not in a position or lacking of…",
+    "scope": ""
+   }
+  ],
+  "ML-TN": [
+   {
+    "term": "Government",
+    "para": "definitions",
+    "def": "means the State Government;",
+    "scope": ""
+   },
+   {
+    "term": "interest",
+    "para": "definitions",
+    "def": "includes the return to be made over and above what was actually lent, whether the same is charged or sought, to be recovered specifically by way of interest or otherwise, but does not include any sum charged by a lender in accordance with the provisions of this Act or any other law for the time being in force, for or on account of costs, charges or expenses;",
+    "scope": ""
+   },
+   {
+    "term": "licence",
+    "para": "definitions",
+    "def": "means a money-lender's licence granted under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "loan",
+    "para": "definitions",
+    "def": "means an advance whether of money or in kind at interest, and includes any transaction which the Court finds in substance to amount to such an advance, but does not include--.",
+    "scope": ""
+   },
+   {
+    "term": "money-lender",
+    "para": "definitions",
+    "def": "means a person whose main or subsidiary occupation is the business of advancing and realizing loans, but excludes a bank or a co-operative, society.,",
+    "scope": ""
+   },
+   {
+    "term": "year",
+    "para": "definitions",
+    "def": "means the financial year. 3. (1) No person shall, on and after the date on which the provisions of Money-lender this Act are brought into force in any area carry on, or continue to carry on, business as a money-lender at any place in such area, except under and in to obtain accordance with the terms of licence licence.",
+    "scope": ""
+   }
+  ],
+  "ACT-PSS": [
+   {
+    "term": "derivative",
+    "para": "s. 2",
+    "def": "means an instrument, to be settled at a future date, whose value is derived from change in interest rate, foreign exchange rate, credit rating or credit index, price of securities (also called \"underlying\"), or any other underlying or a combination of more than one of them and includes interest rate swaps, forward rate agreements, foreign currency swaps, foreign currency rupee swaps, foreign currency options,…",
+    "scope": ""
+   },
+   {
+    "term": "electronic funds transfer",
+    "para": "s. 2",
+    "def": "means any transfer of funds which is initiated by a person by way of instruction, authorisation or order to a bank to debit or credit an account maintained with that bank through electronic means and includes point of sale transfers, automated teller machine transactions, direct deposits or withdrawal of funds, transfers initiated by telephone, internet and card payment;",
+    "scope": ""
+   },
+   {
+    "term": "gross settlement system",
+    "para": "s. 2",
+    "def": "means a payment system in which each settlement of funds or securities occurs on the basis of separate or individual instructions;",
+    "scope": ""
+   },
+   {
+    "term": "legal entity identifier",
+    "para": "s. 2",
+    "def": "means a unique identity code assigned to a person by an issuer for the purpose of identifying that person in such derivatives or financial transactions, as may be specified by the Reserve Bank from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "netting",
+    "para": "s. 2",
+    "def": "means the determination by the system provider of the amount of money or securities, due or payable or deliverable, as a result of setting off or adjusting, the payment obligations or delivery obligations among the system participants, including the claims and obligations arising out of the termination by the system provider, on the insolvency or dissolution or winding up of any system participant or such other…",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "s. 2",
+    "def": "means a notification published in the Official Gazette;",
+    "scope": ""
+   },
+   {
+    "term": "payment instruction",
+    "para": "s. 2",
+    "def": "means any instrument, authorisation or order in any form, including electronic means, to effect a payment,--",
+    "scope": ""
+   },
+   {
+    "term": "payment obligation",
+    "para": "s. 2",
+    "def": "means an indebtedness that is owned by one system participant to another system participant as a result of clearing or settlement of one or more payment instructions relating to funds, securities or foreign exchange or derivatives or other transactions;",
+    "scope": ""
+   },
+   {
+    "term": "payment system",
+    "para": "s. 2",
+    "def": "means a system that enables payment to be effected between a payer and a beneficiary, involving clearing, payment or settlement service or all of them, but does not include a stock exchange.",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 2",
+    "def": "means prescribed by regulations made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "regulation",
+    "para": "s. 2",
+    "def": "means a regulation made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Reserve Bank",
+    "para": "s. 2",
+    "def": "means the Reserve Bank of India, constituted under the Reserve Bank of India",
+    "scope": ""
+   },
+   {
+    "term": "securities",
+    "para": "s. 2",
+    "def": "means the Government securities as defined in the Public Debt Act, 1944 (18 of 1944) or such other securities as may be notified by the Central Government from time to time under that Act;",
+    "scope": ""
+   },
+   {
+    "term": "settlement",
+    "para": "s. 2",
+    "def": "means settlement of payment instructions and includes the settlement of securities, foreign exchange or derivatives or other transactions which involve payment obligations;",
+    "scope": ""
+   },
+   {
+    "term": "systemic risk",
+    "para": "s. 2",
+    "def": "means the risk arising from--",
+    "scope": ""
+   },
+   {
+    "term": "system participant",
+    "para": "s. 2",
+    "def": "means a bank or any other person participating in a payment system and includes the system provider;",
+    "scope": ""
+   },
+   {
+    "term": "system provider",
+    "para": "s. 2",
+    "def": "means a person who operates an authorised payment system;",
+    "scope": ""
+   },
+   {
+    "term": "designated payment system",
+    "para": "s. 2",
+    "def": "shall mean a payment system or a class of payment system, as may be specified by the Reserve Bank from time to time, engaged in collection of funds from their customers for rendering payment service;",
+    "scope": ""
+   },
+   {
+    "term": "scheduled commercial bank",
+    "para": "s. 2",
+    "def": "shall mean a \"banking company\",\" corresponding new bank\", \"State Bank of India\" and \"subsidiary bank\" as defined in section 5 of the Banking Regulation Act, 1949 (10 of 1949) and included in the Second Schedule to the Reserve Bank of India Act,1934 (2 of",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "s. 2",
+    "def": "means any body corporate and includes a firm or other association of individuals;",
+    "scope": ""
+   }
+  ],
+  "AMD-PSS-20260817": [
+   {
+    "term": "corpus",
+    "para": "definitions",
+    "def": "means the total amount of funds raised for the purpose of investment by the eligible investment fund as on a particular date;",
+    "scope": ""
+   },
+   {
+    "term": "Bank for International Settlements",
+    "para": "definitions",
+    "def": "means the Bank for International Settlements established at the Hague Conference in 1930 and headquartered at Basel, Switzerland;",
+    "scope": ""
+   },
+   {
+    "term": "contract manufacturer",
+    "para": "definitions",
+    "def": "means an Indian company which produces specified electronic goods on behalf of any foreign company in a custom bonded area;",
+    "scope": ""
+   },
+   {
+    "term": "custom bonded area",
+    "para": "definitions",
+    "def": "means a warehouse as referred to in section 65 of the Customs Act, 1962 (52 of 1962); and",
+    "scope": ""
+   }
+  ],
+  "ACT-CICRA": [
+   {
+    "term": "board",
+    "para": "s. 2",
+    "def": "means the Board of directors of a credit information company;",
+    "scope": ""
+   },
+   {
+    "term": "borrower",
+    "para": "s. 2",
+    "def": "means any person who has been granted loan or any other credit facility by a credit institution and includes a client of a credit institution;",
+    "scope": ""
+   },
+   {
+    "term": "credit information",
+    "para": "s. 2",
+    "def": "means any information relating to--",
+    "scope": ""
+   },
+   {
+    "term": "credit information company",
+    "para": "s. 2",
+    "def": "means a company formed and registered under the Companies Act, 1956 (1 of 1956) and which has been granted a certificate of registration under sub-section (2) of section 5;",
+    "scope": ""
+   },
+   {
+    "term": "credit institution",
+    "para": "s. 2",
+    "def": "means a banking company and includes--",
+    "scope": ""
+   },
+   {
+    "term": "credit scoring",
+    "para": "s. 2",
+    "def": "means a system which enables a credit institution to assess the credit worthiness and capacity of a borrower to repay his loan and advances and discharge his other obligations in respect of credit facility availed or to be availed by him;",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "s. 2",
+    "def": "means a notification published in the Official Gazette of India;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 2",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "regulations",
+    "para": "s. 2",
+    "def": "means regulations made by the Reserve Bank under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Reserve Bank",
+    "para": "s. 2",
+    "def": "means the Reserve Bank of India constituted under section 3 of the Reserve Bank of India Act, 1934 (2 of 1934);",
+    "scope": ""
+   },
+   {
+    "term": "specified user",
+    "para": "s. 2",
+    "def": "means any credit institution, credit information company being a member under sub-section (3) of section 15, and includes such other person or institution as may be specified by regulations made, from time to time, by the Reserve Bank for the purpose of obtaining credit information from a credit information company;",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "s. 2",
+    "def": "means any body corporate and includes a firm or other association of individual,",
+    "scope": ""
+   }
+  ],
+  "RULES-CIC": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Credit Information Companies (Regulation)",
+    "scope": ""
+   },
+   {
+    "term": "agent",
+    "para": "rule 2",
+    "def": "means a person duly authorised by a company or a credit information company, as the case may be, to present an appeal or a written reply on its behalf, before the appellate authority;",
+    "scope": ""
+   },
+   {
+    "term": "appellate authority",
+    "para": "rule 2",
+    "def": "means the Central Government, or such other authority or tribunal as may be designated subsequently by the Central Government as per sub-section (1) of section 7 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "information",
+    "para": "rule 2",
+    "def": "means, collectively all data, and credit information or any part thereof, collected by or furnished to, a credit institution, or a credit information company, or a specified user, as the case may be, in accordance with the provisions of the",
+    "scope": ""
+   },
+   {
+    "term": "rules",
+    "para": "rule 2",
+    "def": "means the rules made under the Act;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "rule 2",
+    "def": "means a section of the Act;",
+    "scope": ""
+   }
+  ],
+  "REGS-CIC": [
+   {
+    "term": "Act",
+    "para": "definitions",
+    "def": "means the Credit Information Companies",
+    "scope": ""
+   },
+   {
+    "term": "collector",
+    "para": "definitions",
+    "def": "means a credit institution, or a credit information company, or a specified user, as the case may be, which collects data, information, or credit information in respect of a borrower, or a client;",
+    "scope": ""
+   },
+   {
+    "term": "commodity exchange",
+    "para": "definitions",
+    "def": "means an association or a company or any other body corporate organising futures trading in commodities for which license has been granted by the Forwards Markets Commission established under the Forward Contract (Regulation) Act, 1952, (74 of 1952);",
+    "scope": ""
+   },
+   {
+    "term": "data management service",
+    "para": "definitions",
+    "def": "means the service of collecting, storing, devising systems for retrieving, collating, analysing and distributing, publishing, disseminating data, information, and providing of other inputs by a credit information company to its members and specified users;",
+    "scope": ""
+   },
+   {
+    "term": "Form",
+    "para": "definitions",
+    "def": "means a form appended to the Schedule to these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "fees",
+    "para": "definitions",
+    "def": "means such amount as is payable by a credit institution, or a credit information company, as the case may be, to a credit information company, towards membership fees or annual fees;",
+    "scope": ""
+   },
+   {
+    "term": "Government Securities",
+    "para": "definitions",
+    "def": "means a security created and issued by the Central Government or a State Government for the purpose of raising a public loan in a form specified in the Public Debt Act, 1944 (18 of 1944) and the government securities as included in the definition of securities in the Securities Contracts (Regulation) Act,",
+    "scope": ""
+   },
+   {
+    "term": "Insurance Regulatory and Development Authority",
+    "para": "definitions",
+    "def": "means the Insurance Regulatory and Development Authority established under section 3 of the Insurance Regulatory and Development Authority Act, 1999 (41 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "Securities",
+    "para": "definitions",
+    "def": "means securities as defined in clause (h) of section 2 of the Securities Contracts (Regulation) Act,",
+    "scope": ""
+   },
+   {
+    "term": "Securities and Exchange Board of India",
+    "para": "definitions",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Securities Exchange Board of India Act",
+    "scope": ""
+   },
+   {
+    "term": "Telecom Regulatory Authority of India",
+    "para": "definitions",
+    "def": "means the Telecom Regulatory Authority of India established under section 3 of Telecom Regulatory Authority of India Act,",
+    "scope": ""
+   },
+   {
+    "term": "trading member",
+    "para": "definitions",
+    "def": "means and include a member, a broker or a stock broker, who has been admitted as such by National Stock Exchange or Bombay Stock Exchange and who holds a registration certificate as a stock broker from the Securities and Exchange Board of India;",
+    "scope": ""
+   }
+  ],
+  "RULES-FACT": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Factoring Regulation Act, 2011 (12 of 2012);",
+    "scope": ""
+   },
+   {
+    "term": "Central Register",
+    "para": "rule 2",
+    "def": "means the register kept and maintained under section 22 of the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of",
+    "scope": ""
+   },
+   {
+    "term": "Central Registrar",
+    "para": "rule 2",
+    "def": "means a person appointed as such under sub- section (1) of section 21 of the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002",
+    "scope": ""
+   },
+   {
+    "term": "Central Registry",
+    "para": "rule 2",
+    "def": "means the Central Registry set up under section 20 of the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of",
+    "scope": ""
+   },
+   {
+    "term": "Forms",
+    "para": "rule 2",
+    "def": "means the Forms annexed to the rules.",
+    "scope": ""
+   }
+  ],
+  "ACT-PMLA": [
+   {
+    "term": "Adjudicating Authority",
+    "para": "s. 2",
+    "def": "means an Adjudicating Authority appointed under sub-section (1) of section 6;",
+    "scope": ""
+   },
+   {
+    "term": "Appellate Tribunal",
+    "para": "s. 2",
+    "def": "means the Appellate Tribunal referred to in section 25;",
+    "scope": ""
+   },
+   {
+    "term": "Assistant Director",
+    "para": "s. 2",
+    "def": "means an Assistant Director appointed under sub-section (1) of section",
+    "scope": ""
+   },
+   {
+    "term": "attachment",
+    "para": "s. 2",
+    "def": "means prohibition of transfer, conversion, disposition or movement of property by an order issued under Chapter III;",
+    "scope": ""
+   },
+   {
+    "term": "banking company",
+    "para": "s. 2",
+    "def": "means a banking company or a co-operative bank to which the Banking Regulation Act, 1949 (10 of 1949) applies and includes any bank or banking institution referred to in section 51 of that Act;",
+    "scope": ""
+   },
+   {
+    "term": "Bench",
+    "para": "s. 2",
+    "def": "means a Bench of the Appellate Tribunal;",
+    "scope": ""
+   },
+   {
+    "term": "Chairperson",
+    "para": "s. 2",
+    "def": "means the Chairperson of the Appellate Tribunal; 1. 1st July, 2005, vide notification No. G.S.R. 436(E), dated 1st July, 2005, see Gazette of India, Extraordinary, Part II, sec. 3(i).",
+    "scope": ""
+   },
+   {
+    "term": "chit fund company",
+    "para": "s. 2",
+    "def": "means a company managing, conducting or supervising, as foreman, agent or in any other capacity, chits as defined in section 2 of the Chit Funds Act, 1982 (40 of 1982);",
+    "scope": ""
+   },
+   {
+    "term": "Deputy Director",
+    "para": "s. 2",
+    "def": "means a Deputy Director appointed under sub-section (1) of section 49;",
+    "scope": ""
+   },
+   {
+    "term": "Member",
+    "para": "s. 2",
+    "def": "means a Member of the Appellate Tribunal and includes the Chairperson;",
+    "scope": ""
+   },
+   {
+    "term": "money-laundering",
+    "para": "s. 2",
+    "def": "has the meaning assigned to it in section 3;",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "s. 2",
+    "def": "means a notification published in the Official Gazette;",
+    "scope": ""
+   },
+   {
+    "term": "payment system operator",
+    "para": "s. 2",
+    "def": "means a person who operates a payment system and such person includes his overseas principal.",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 2",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "proceeds of crime",
+    "para": "s. 2",
+    "def": "means any property derived or obtained, directly or indirectly, by any person as a result of criminal activity relating to a scheduled offence or the value of any such property or where such property is taken or held outside the country, then the property equivalent in value held within the country or abroad; Explanation.--For the removal of doubts, it is hereby clarified that \"proceeds of crime\" include property…",
+    "scope": ""
+   },
+   {
+    "term": "property",
+    "para": "s. 2",
+    "def": "means any property or assets of every description, whether corporeal or incorporeal, movable or immovable, tangible or intangible and includes deeds and instruments evidencing title to, or interest in, such property or assets, wherever located; Explanation.--For the removal of doubts, it is hereby clarified that the term \"property\" includes property of any kind used in the commission of an offence under this Act…",
+    "scope": ""
+   },
+   {
+    "term": "real estate agent",
+    "para": "s. 2",
+    "def": "means a real estate agent as defined in clause (88) of section 65 of the",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "s. 2",
+    "def": "means the Schedule to this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Special Court",
+    "para": "s. 2",
+    "def": "means a Court of Session designated as Special Court under sub-section (1) of section 43;",
+    "scope": ""
+   },
+   {
+    "term": "transfer",
+    "para": "s. 2",
+    "def": "includes sale, purchase, mortgage, pledge, gift, loan or any other form of transfer of right, title, possession or lien;",
+    "scope": ""
+   },
+   {
+    "term": "value",
+    "para": "s. 2",
+    "def": "means the fair market value of any property on the date of its acquisition by any person, or if such date cannot be determined, the date on which such property is possessed by such person.",
+    "scope": ""
+   },
+   {
+    "term": "contracting State",
+    "para": "s. 55",
+    "def": "means any country or place outside India in respect of which arrangements have been made by the Central Government with the Government of such country through a treaty or otherwise;",
+    "scope": ""
+   },
+   {
+    "term": "identifying",
+    "para": "s. 55",
+    "def": "includes establishment of a proof that the property was derived from, or used in the commission of an offence under section 3;",
+    "scope": ""
+   },
+   {
+    "term": "tracing",
+    "para": "s. 55",
+    "def": "means determining the nature, source, disposition, movement, title or ownership of property.",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "s. 55",
+    "def": "means any body corporate and includes a firm or other association of individuals;",
+    "scope": ""
+   }
+  ],
+  "ACT-CHIT": [
+   {
+    "term": "ichit business",
+    "para": "definitions",
+    "def": "means the business •conducting a (O \"defaulting means a subscriber who has clefaulloi in thc pavment of subscriptions due in accordance with the terms of the agreement} {g) \"'discount\" means the sum of rnoneyor quantity grain which aprizc•d under the terms of the chit agreement, required forego apart under the said agreement to meet the expen:ses running thc chit or for distribution an',ong [he subscribers or for…",
+    "scope": ""
+   },
+   {
+    "term": "'foreman",
+    "para": "definitions",
+    "def": "means the person who under the chit agreement is for conduct of chechit and includes a ny di of the. foreman under section 39;",
+    "scope": ""
+   },
+   {
+    "term": "prize amount",
+    "para": "definitions",
+    "def": "means the difference bcfivren the chit amount the discount, and the ease of a fraction ot a ticket means [he difference benveen ihe chit amount and the discount proportionate Io the iraclion thc and when the prize amount is payable otherwise than ill cash. the value the prize atnouot shall be the value at the time when il I-'ecomes payable; (QI \"prized subscriber\" neans a subscriber who has either received is…",
+    "scope": ""
+   },
+   {
+    "term": "Registrar",
+    "para": "definitions",
+    "def": "means the Registrar Chits appointed under section and includes an Additional, a Joint Deputy Assistant Registrar appointed section;",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions",
+    "def": "means any body corporate and includw a iirrn or othi?r association of individ",
+    "scope": ""
+   }
+  ],
+  "PID-MH": [
+   {
+    "term": "Competent Authority",
+    "para": "definitions",
+    "def": "means the Competent Authority appointed under section 5;",
+    "scope": ""
+   },
+   {
+    "term": "Designated Court",
+    "para": "definitions",
+    "def": "means the Designated Court constituted under section 6;",
+    "scope": ""
+   },
+   {
+    "term": "deposit",
+    "para": "definitions",
+    "def": "includes and shall be deemed always to have included any receipt of money or acceptance of any valuable commodity by any Financial Establishment to be returned after a specified period or otherwise, either in cash or in kind or in the form of a specifiecLservice with or without any benefit in the form of interest, bonus, profit or in any other form, but does not include",
+    "scope": ""
+   },
+   {
+    "term": "Financial Establishment",
+    "para": "definitions",
+    "def": "means any person accepting deposit under any scheme or arrangement or in any other manner but does not include a corporation or a co-operative society owned or controlled by any State Government or the Central Government or a banking company as defined under clause (c) of section 5 of. the Banking Regulation Act, 1949;",
+    "scope": ""
+   },
+   {
+    "term": "Government",
+    "para": "definitions",
+    "def": "means the Government of Maharashtra.",
+    "scope": ""
+   }
+  ],
+  "ML-MH": [
+   {
+    "term": "bank",
+    "para": "definitions",
+    "def": "means a banking company or a co-operative bank to which the Banking Regulation Act, 1949 applies and 10 of includes,-",
+    "scope": ""
+   },
+   {
+    "term": "debtor",
+    "para": "definitions",
+    "def": "means a person to whom a loan is advanced whether in cash or and includes his in interest or surety; kind successor 2014: Mah. VIII Maharashtra Money-Lending (Regulation)Act, 2014. 3",
+    "scope": ""
+   },
+   {
+    "term": "inspection fee",
+    "para": "definitions",
+    "def": "means the fee leviable under section 12 in respect a money-lender; of inspection of books of accounts of",
+    "scope": ""
+   },
+   {
+    "term": "investment in business",
+    "para": "definitions",
+    "def": "means total amount invested, from time to time, in business of money-lending by a money-lender;",
+    "scope": ""
+   },
+   {
+    "term": "licence fee",
+    "para": "definitions",
+    "def": "means the fee payable in respect of a licence;",
+    "scope": ""
+   },
+   {
+    "term": "pawn-broker",
+    "para": "definitions",
+    "def": "means a money-lender who in ordinary course of his business advances a loan and takes goods in pawn as security for payment of such loan;",
+    "scope": ""
+   },
+   {
+    "term": "artisan",
+    "para": "definitions",
+    "def": "means a person who does not employ more than ten workers in a manufacturing process on any one day of the twelve months immediately preceding. Appointment 3. (1) The State Government may, by notification in of Registrar the Official Gazette, appoint the Registrar General of General and other Money-Lending and such number of Divisional Registrars, officers to assist him. District Registrars and Assistant…",
+    "scope": ""
+   }
+  ],
+  "ML-KA": [
+   {
+    "term": "business of money-lending",
+    "para": "definitions",
+    "def": "means the business of advancing loans whether or not in connection with or in addition to any other business;",
+    "scope": ""
+   },
+   {
+    "term": "capital",
+    "para": "definitions",
+    "def": "means a sum of money which a money-lender invests in the business of money-lending;",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions",
+    "def": "means a company as defined in the Companies Act, 1956 (Central Act",
+    "scope": ""
+   },
+   {
+    "term": "co-operative society",
+    "para": "definitions",
+    "def": "means a society registered or deemed to have been registered under the Karnataka1 Co-operative Societies Act, 1959 (Karnataka1 Act 11",
+    "scope": ""
+   },
+   {
+    "term": "interest",
+    "para": "definitions",
+    "def": "includes the return to be made over and above what was actually lent, whether the same is charged or sought to be recovered specifically by way of interest or otherwise, but does not include any sum lawfully charged by a money-lender for or on account of costs, charges or expenses in accordance with the provisions of this Act, or any other law for the time being in force;",
+    "scope": ""
+   },
+   {
+    "term": "licence",
+    "para": "definitions",
+    "def": "means a licence granted under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "licence fee",
+    "para": "definitions",
+    "def": "means the fee payable in respect of a licence;",
+    "scope": ""
+   },
+   {
+    "term": "loan",
+    "para": "definitions",
+    "def": "means an advance at interest whether of money or in kind, and includes any transaction which the Court finds in substance to amount to such an advance, but does not include,-",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "definitions",
+    "def": "means a notification published in the official Gazette;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "definitions",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "principal",
+    "para": "definitions",
+    "def": "means in relation to a loan, the advance actually made to the debtor;",
+    "scope": ""
+   },
+   {
+    "term": "Provident Fund",
+    "para": "definitions",
+    "def": "means a Provident Fund as defined in the Provident Funds Act, 1925 (Central Act XIX of 1925), and includes a Government Provident Fund and a Railway Provident Fund as defined in the said Act;",
+    "scope": ""
+   },
+   {
+    "term": "recognised language",
+    "para": "definitions",
+    "def": "means the language of the Court;",
+    "scope": ""
+   },
+   {
+    "term": "register",
+    "para": "definitions",
+    "def": "means a register of money-lenders maintained under section 4;",
+    "scope": ""
+   },
+   {
+    "term": "rules",
+    "para": "definitions",
+    "def": "means rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "State",
+    "para": "definitions",
+    "def": "means the State of Karnataka1;",
+    "scope": ""
+   },
+   {
+    "term": "suit to which this Act applies",
+    "para": "definitions",
+    "def": "means any suit or proceeding,-",
+    "scope": ""
+   },
+   {
+    "term": "trader",
+    "para": "definitions",
+    "def": "means a person who in the regular course of business buys and sells goods or other property, whether movable or immovable, and includes,- a wholesale or retail merchant, a commission agent, a broker, a manufacturer, a contractor, a factory owner, -but does not include an artisan or a person who sells his agricultural produce or cattle or buys agricultural produce or cattle for his use.",
+    "scope": ""
+   }
+  ]
+ }
+}
