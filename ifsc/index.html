@@ -5,9 +5,22 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>IFSC rules · Financial Regulation Hub</title>
 <meta name="description" content="The International Financial Services Centres Authority Act, 2019, the FEMA (IFSC) Regulations and the IFSCA regulations, frameworks and circulars for IFSC Banking Units, finance companies, fund management entities, capital market intermediaries and insurance offices in GIFT IFSC: registration, capital, permitted activities, governance, AML, complaints, cyber security and fees, grouped by subject, with obligations, deadlines, definitions and consequences">
+<!-- og:start -->
+<link rel="canonical" href="https://sayakchandra-lawyer.github.io/financial-regulation-hub/ifsc/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Financial Regulation Hub">
+<meta property="og:title" content="IFSC rules">
+<meta property="og:description" content="The International Financial Services Centres Authority Act, 2019, the FEMA (IFSC) Regulations and the IFSCA regulations, frameworks and circulars for IFSC Banking Units, finance companies, fund management entities, capital market intermediaries and insurance offices in GIFT IFSC: registration, capital, permitted activities, governance, AML, complaints, cyber security and fees, grouped by subject, with obligations, deadlines, definitions and consequences">
+<meta property="og:url" content="https://sayakchandra-lawyer.github.io/financial-regulation-hub/ifsc/">
+<meta property="og:image" content="https://sayakchandra-lawyer.github.io/financial-regulation-hub/assets/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IFSC rules">
+<meta name="twitter:description" content="The International Financial Services Centres Authority Act, 2019, the FEMA (IFSC) Regulations and the IFSCA regulations, frameworks and circulars for IFSC Banking Units, finance companies, fund management entities, capital market intermediaries and insurance offices in GIFT IFSC: registration, capital, permitted activities, governance, AML, complaints, cyber security and fees, grouped by subject, with obligations, deadlines, definitions and consequences">
+<!-- og:end -->
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/hub.css?v=20261126l">
+<link rel="stylesheet" href="../assets/hub.css?v=20261126o">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
 <style>
 .shead{display:flex;align-items:flex-end;gap:24px;padding-top:36px;flex-wrap:wrap}
@@ -60,7 +73,7 @@ details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-
   <div id="view"><p class="tag" style="padding:60px 0">Loading the IFSC register…</p></div>
 </main>
 <footer id="foot"></footer>
-<script src="../assets/hub.js?v=20261126l"></script>
+<script src="../assets/hub.js?v=20261126o"></script>
 <script>
 (async function(){
   const hub = await getJSON("../hub.json");
@@ -182,7 +195,7 @@ details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-
     const P = parseQuery(M, raw), docs = rankDocs(M, P, { layer: L < 0 ? undefined : L }), defs = matchDefs(M, P).slice(0, 6);
     return `<div class="pg" style="margin-top:28px"><h2>Results for “${esc(raw)}”</h2>${lensBar()}
       ${P.gl.length ? `<div class="callout"><b>${esc(P.gl[0].term)}</b>${P.gl[0].full ? ` (${esc(P.gl[0].full)})` : ""}: ${esc(P.gl[0].def)}</div>` : ""}
-      ${hub.ai_endpoint ? `<p style="margin:14px 0"><button class="btn g" type="button" id="askai">${JUDGE_SVG.replace('class="jsvg"', 'width="22" height="22"')} Ask Not So Intelligent AI about this</button></p>` : ""}
+      ${hub.ai_endpoint ? `<p style="margin:14px 0"><button class="btn g" type="button" id="askai">${JUDGE_SVG.replace('class="jsvg"', 'width="22" height="22"')} Ask Counsel’s Clerk about this</button></p>` : ""}
       ${defs.length ? `<h3 style="font-size:19px;margin-top:18px">Defined terms</h3><div class="card" style="overflow:hidden;margin-top:8px">${defs.map(x => `<a class="res" href="#d/${x.d.id}/definitions"><div class="t">“${esc(x.d.term)}”</div><div class="m">${esc(x.it ? x.it.label : x.d.id)} · ${esc(x.d.para)}</div><div class="s">${hl(x.d.def, P)}</div></a>`).join("")}</div>` : ""}
       <h3 style="font-size:19px;margin-top:22px">Instruments <span class="tag">${docs.length}</span></h3>
       <div class="card" style="overflow:hidden;margin-top:8px">${docs.slice(0, 40).map(d => `<a class="res" href="#d/${d.it.id}"><div style="display:flex;align-items:center;gap:12px"><div style="flex:1;min-width:0"><div class="t">${hl(d.it.label, P)} ${d.it.sc === "old" ? '<span class="pill p-old">Superseded</span>' : ""}</div><div class="m">${esc(d.it.type)} · ${esc(M.themeOf.get(d.it.id)?.nice || "")} · ${d.hits.length} matching line${d.hits.length > 1 ? "s" : ""}</div></div><span class="bar"><i style="width:${Math.round(d.rel * 100)}%"></i></span></div>
