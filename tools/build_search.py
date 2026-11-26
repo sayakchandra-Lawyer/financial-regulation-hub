@@ -48,7 +48,7 @@ def main():
         for j in json.load(open(jp))["judgments"]:
             label = j["title"]
             meta = " · ".join(x for x in [j.get("court"), j.get("neutral_citation") or j.get("report_citation")] if x)
-            parts = [j.get("issue"), j.get("holding"), j.get("impact")]
+            parts = [j.get("facts"), j.get("issue"), " ".join(j.get("holding") or []), " ".join(j.get("impact") or [])]
             st = j.get("statutes") or []
             if st: parts.append("Statutes: " + "; ".join(map(str, st)))
             topic = j.get("topic") or ""

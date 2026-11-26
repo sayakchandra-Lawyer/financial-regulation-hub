@@ -166,6 +166,8 @@ def judgment_body(j):
              f"<h1>{E(j.get('title'))}</h1>", f'<p class="full">{E(j.get("topic"))}</p>',
              f'<div class="acts"><a class="btn p" href="../../#j/{E(j["id"])}">Open in Key judgments</a>{src}</div>',
              f"<h2>Case details</h2><dl>{dl}</dl>"]
+    if j.get("facts"):
+        parts.append(f"<h2>The facts</h2><p>{E(j['facts'])}</p>")
     if j.get("issue"):
         parts.append(f"<h2>The question</h2><p>{E(j['issue'])}</p>")
     for head, key in [("What the court held", "holding"), ("What it means in practice", "impact")]:
