@@ -3,7 +3,7 @@
   "title": "Companies Act, 2013 for lending transactions",
   "as_of": "2026-11-26",
   "count": 40,
-  "in_force": 40,
+  "in_force": 35,
   "lenses": [
    {
     "id": "ENT-BORR",
@@ -1429,7 +1429,7 @@
    "source": "RULES-LAYERS",
    "target": "ENT-GRP",
    "relation": "applies_to",
-   "basis": "Holding companies with subsidiaries, other than banking companies, NBFCs, insurance companies and Government companies"
+   "basis": "Holding companies with subsidiaries, other than the classes excluded by rule 2(2), such as banking companies, RBI-registered NBFCs that RBI treats as systemically important, insurance companies and Government companies"
   },
   {
    "source": "RULES-LAYERS",

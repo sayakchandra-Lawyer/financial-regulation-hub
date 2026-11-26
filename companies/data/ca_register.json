@@ -3,7 +3,7 @@
   "title": "Companies Act, 2013 for lending transactions",
   "as_of": "2026-11-26",
   "count": 40,
-  "in_force": 40,
+  "in_force": 35,
   "lenses": [
    {
     "id": "ENT-BORR",
@@ -63,7 +63,7 @@
     "s. 77(1): register the particulars of the charge, signed by the company and the charge-holder, with the instrument creating it, with the Registrar within 30 days of creation (Form CHG-1, or CHG-9 for debentures)",
     "s. 77(1) first and second provisos: for charges created on or after 02-11-2018, the Registrar may allow registration within 60 days of creation on payment of additional fees, and on a further application within a further 60 days on payment of ad valorem fees",
     "s. 77(1) third proviso: late registration does not prejudice rights acquired in the property before the charge is actually registered",
-    "s. 78: if the company does not register within the s. 77 period, the charge-holder may apply; the Registrar gives the company 14 days' notice and then registers unless the company registers it or shows sufficient cause; the charge-holder may recover the fees from the company",
+    "s. 78: if the company does not register the charge within 30 days, the charge-holder may apply; the Registrar gives the company 14 days' notice and then registers unless the company registers it or shows sufficient cause; the charge-holder may recover the fees from the company",
     "s. 79: s. 77 applies to property acquired subject to a charge and to any modification of the terms, extent or operation of a registered charge",
     "s. 85 (read with rule 10): keep the company's own register of charges (Form CHG-7) and a copy of each instrument at the registered office"
    ],
@@ -152,7 +152,7 @@
    "reference_no": "Act 18 of 2013, ss. 179-180",
    "issue_date": "2013-08-29",
    "updated_as_on": "",
-   "effective_date": "2014-04-01",
+   "effective_date": "2013-09-12",
    "status": "In force (as amended)",
    "official_url": "https://www.indiacode.nic.in/handle/123456789/2114",
    "official_pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
@@ -171,14 +171,17 @@
     "Borrowing limit: paid-up share capital, free reserves and securities premium; temporary loans from the company's bankers are excluded (s. 180(1)(c))",
     "Temporary loans: repayable on demand or within six months, such as cash credit, bill discounting and seasonal short-term loans, but not loans for capital expenditure (Explanation to s. 180(1)(c))",
     "Sale, lease or other disposal of the whole or substantially the whole of an undertaking (s. 180(1)(a)), with the 20% tests for 'undertaking' and 'substantially the whole'",
-    "Remitting or giving time to repay a debt due from a director (s. 180(1)(d))"
+    "Remitting or giving time to repay a debt due from a director (s. 180(1)(d))",
+    "Commencement: s. 180 from 12-09-2013; s. 179 from 01-04-2014"
    ],
    "core_obligations": [
     "s. 179(3)(c) to (f): pass a Board resolution at a meeting (not by circulation) to issue debentures, borrow, invest, or grant loans, guarantees or security; the Board may delegate (d) to (f) by a resolution at a meeting on conditions it sets",
     "s. 179(3) Explanation II: for bank facilities, the Board approves the arrangement (overdraft, cash credit or otherwise), not each day-to-day drawing",
     "s. 180(1)(c): obtain a special resolution before borrowing if the new borrowing plus outstanding borrowings (excluding temporary loans from bankers) will exceed paid-up share capital, free reserves and securities premium; the resolution must state the total amount up to which the Board may borrow (s. 180(2))",
     "s. 180(1)(a): obtain a special resolution to sell, lease or otherwise dispose of the whole or substantially the whole of an undertaking; the resolution may set conditions on use of proceeds (s. 180(4))",
-    "s. 117(3): file the special resolutions under s. 180, and Board resolutions under s. 179(3), with the Registrar in Form MGT-14 within 30 days (subject to the exemptions in s. 117(3)(g))"
+    "s. 117(3): file the special resolutions under s. 180, and Board resolutions under s. 179(3), with the Registrar in Form MGT-14 within 30 days (subject to the exemptions in s. 117(3)(g))",
+    "s. 62(3): a loan or debenture with an option to convert into shares needs its terms approved by a special resolution before the loan is raised or the debentures are issued",
+    "s. 10A: a company with share capital incorporated after the Companies (Amendment) Act, 2019 may not exercise borrowing powers until a director files the declaration that subscribers have paid for their shares (within 180 days of incorporation)"
    ],
    "timelines": [
     "MGT-14 within 30 days of passing the special resolution or the s. 179(3) Board resolution (s. 117(1))"
@@ -426,12 +429,12 @@
    "excluded": [
     "Transactions in the ordinary course of business on an arm's length basis (s. 188(1) proviso)",
     "Loans, guarantees and security to related parties are governed by ss. 185 and 186 rather than the s. 188(1) list",
-    "Transactions between a holding company and its wholly owned subsidiary whose accounts are consolidated and placed before the shareholders (s. 188(1) proviso, inserted in 2015)"
+    "Transactions between a holding company and its wholly owned subsidiary whose accounts are consolidated and placed before the shareholders do not need the shareholder resolution; Board consent is still needed (s. 188(1) proviso)"
    ],
    "key_concepts": [
     "Board consent by resolution at a meeting (s. 188(1))",
     "Prior shareholder resolution where the rule 15(3) thresholds are crossed, for example sale, purchase or supply of goods amounting to 10% or more of turnover, or property transactions amounting to 10% or more of net worth",
-    "A member who is a related party cannot vote on the resolution approving that transaction (s. 188(1) second proviso)",
+    "A member who is a related party cannot vote on the resolution approving that transaction (s. 188(1) second proviso), except in a company where 90% or more of the members, in number, are relatives of promoters or related parties (third proviso)",
     "Audit Committee approval and omnibus approval under s. 177 and rule 6A, for companies that must have an Audit Committee"
    ],
    "core_obligations": [
@@ -474,7 +477,7 @@
    ],
    "excluded": [
     "The deposit rules do not apply to banking companies, RBI-registered NBFCs, NHB-registered HFCs and companies specified under the s. 73(1) proviso (rule 1(3) of the deposit rules)",
-    "Many receipts are not 'deposits', including loans from banks, public financial institutions, insurance companies and scheduled banks, amounts received from any other company, amounts from a director (and, for a private company, a director's relative) who declares the money is not borrowed, secured or compulsorily convertible bonds and debentures within the limits stated, and promoter loans brought in at a lender's stipulation (rule 2(1)(c) of the deposit rules)"
+    "Many receipts are not 'deposits', including loans from banks, public financial institutions, insurance companies and scheduled banks, amounts received from any other company, amounts from a director (and, for a private company, a director's relative) who declares the money is not borrowed, bonds or debentures secured by a first charge (or one ranking pari passu with it) on tangible assets, not exceeding the assets' market value as assessed by a registered valuer, debentures compulsorily convertible within ten years, listed non-convertible debentures that create no charge, and promoter loans brought in at a lender's stipulation (rule 2(1)(c) of the deposit rules)"
    ],
    "key_concepts": [
     "Secured debentures: charge on the company's (or its holding, subsidiary or associate company's) assets sufficient to cover principal and interest; debenture trustee appointed before the offer, and a debenture trust deed executed within 60 days of allotment (s. 71 and rule 18 of the share capital and debentures rules)",
@@ -485,6 +488,7 @@
    "core_obligations": [
     "s. 71 and rule 18: for secured debentures, create the charge in favour of the debenture trustee and register it with the Registrar in Form CHG-9 within 30 days",
     "s. 42 and rule 14: issue the private placement offer letter (PAS-4) to identified persons, not more than 200 in a financial year (excluding QIBs and ESOP allottees), and file the return of allotment (PAS-3) within 15 days of allotment",
+    "s. 42(4) and (6): take subscription money only through banking channels, not cash; keep it in a separate bank account in a scheduled bank; do not use it until allotment is made and PAS-3 is filed; allot within 60 days of receiving the money, or refund within the next 15 days, failing which interest at 12% a year runs from the 60th day",
     "s. 73: accept deposits from members only as permitted by s. 73(2) and the deposit rules; s. 76 applies to eligible public companies accepting public deposits",
     "Rule 16: file DPT-3 by 30 June each year with the position as on 31 March, covering deposits and particulars of money received that is not a deposit"
    ],
@@ -495,7 +499,8 @@
     "DPT-3 by 30 June each year (rule 16)"
    ],
    "consequences_stated": [
-    "s. 42(10): a company making an offer in contravention of s. 42 is liable to a penalty up to the amount raised or Rs 2 crore, whichever is lower, and must refund the money within 30 days of the order",
+    "s. 42(9): late PAS-3 makes the company, its promoters and directors liable to a penalty of Rs 1,000 a day, up to Rs 25 lakh",
+    "s. 42(10): if the company makes an offer or accepts money in contravention of s. 42, the company, its promoters and directors are liable to a penalty up to the amount raised or Rs 2 crore, whichever is lower, and the company must refund the money with interest within 30 days of the order",
     "s. 74(3) and s. 76A: penalties for accepting or failing to repay deposits in contravention of Chapter V"
    ],
    "consequences_general": "Companies Act, 2013: where no specific penalty is provided, the company and every officer in default are liable to a penalty of Rs 10,000 and Rs 1,000 a day for a continuing contravention, up to Rs 2 lakh for the company and Rs 50,000 for an officer (s. 450). Penalties are imposed by an adjudicating officer (the Registrar) after a hearing, with an appeal to the Regional Director within 60 days; failing to comply with the order within 90 days is an offence (s. 454). One Person Companies, small companies, start-ups and producer companies pay at most half the specified penalty, up to Rs 2 lakh for the company and Rs 1 lakh for an officer (s. 446B). Offences not punishable with imprisonment only, or with imprisonment and fine, may be compounded by the NCLT or, where the maximum fine does not exceed Rs 25 lakh, by the Regional Director (s. 441). A false statement or knowing omission of a material fact in a filing is punishable under s. 447 (s. 448).",
@@ -717,7 +722,7 @@
     "Companies other than banking companies, RBI-registered NBFCs, NHB-registered HFCs and companies specified under the s. 73(1) proviso (rule 1(3))"
    ],
    "excluded": [
-    "Rule 2(1)(c) lists what is not a deposit: for example amounts received from any other company, loans from banks, PFIs, regional financial institutions, insurance companies and scheduled banks, amounts from foreign lenders under FEMA, commercial paper, secured debentures and bonds, compulsorily convertible debentures convertible within ten years, amounts from directors who give the required declaration, and promoter loans brought in at a bank's or financial institution's stipulation until the bank loan is repaid"
+    "Rule 2(1)(c) lists what is not a deposit: for example amounts received from any other company, loans from banks, PFIs, regional financial institutions, insurance companies and scheduled banks, amounts from foreign lenders under FEMA, commercial paper, bonds and debentures secured by a first or pari passu charge on tangible assets (up to their market value as assessed by a registered valuer), debentures compulsorily convertible within ten years, listed unsecured non-convertible debentures, amounts from directors who give the required declaration, and promoter loans brought in at a bank's or financial institution's stipulation until the bank loan is repaid"
    ],
    "key_concepts": [
     "A director's (or a private company director's relative's) loan is not a deposit only if, when giving the money, the director declares in writing that it is not out of borrowed funds; the company discloses it in the Board's report (rule 2(1)(c)(viii))",
@@ -873,11 +878,11 @@
    "official_pdf": "",
    "statutory_powers": [],
    "applies_to": [
-    "Holding companies with subsidiaries, other than banking companies, NBFCs, insurance companies and Government companies"
+    "Holding companies with subsidiaries, other than the classes excluded by rule 2(2), such as banking companies, RBI-registered NBFCs that RBI treats as systemically important, insurance companies and Government companies"
    ],
    "excluded": [],
    "key_concepts": [
-    "Not more than two layers of subsidiaries; a wholly owned subsidiary layer does not count",
+    "Not more than two layers of subsidiaries; one layer of wholly owned subsidiaries is not counted",
     "Form CRL-1 return of layers (new form from 14-07-2025, G.S.R. 427(E))",
     "s. 186(1): investments through not more than two layers of investment companies, subject to the stated exceptions"
    ],
@@ -1221,7 +1226,8 @@
    "key_concepts": [],
    "core_obligations": [
     "Entry 24: s. 185 does not apply to a Government company that obtains approval of the administrative Ministry or Department of the Central Government, or the State Government, before making the loan or giving the guarantee or security",
-    "Entry 25: s. 186 does not apply to a Government company engaged in defence production, or, as stated in the notification, to an unlisted Government company with the approval of its administrative Ministry, Department or State Government"
+    "Entry 25: s. 186 does not apply to a Government company engaged in defence production, or, as stated in the notification, to an unlisted Government company with the approval of its administrative Ministry, Department or State Government",
+    "From 13-06-2017 (G.S.R. 582(E)), the exemptions apply only to a Government company that has not defaulted in filing its financial statements under s. 137 or annual return under s. 92"
    ],
    "timelines": [],
    "consequences_stated": [],
@@ -1486,7 +1492,8 @@
     "Clause 60: s. 185(1)(b) would also cover a limited liability partnership in which a director or relative is a partner (accepted by the Joint Committee)",
     "Clause 61: defaults in keeping the s. 186(9) and (10) register would move from fine to civil penalty: company Rs 1 lakh plus Rs 500 a day, up to Rs 5 lakh; officer Rs 25,000 plus Rs 200 a day, up to Rs 1 lakh (accepted without change)",
     "Clause 97: the Regional Director could compound offences where the maximum fine does not exceed Rs 1 crore (now Rs 25 lakh)",
-    "Clause 98: s. 446B would allow the lesser penalty to be one-half, or such lower percentage as may be prescribed"
+    "Clause 98: s. 446B would allow the lesser penalty to be one-half, or such lower percentage as may be prescribed",
+    "Clause 101: in s. 454, Assistant Registrars would become adjudicating officers, and a new s. 454(1A) would let a company or officer in default apply for adjudication of a penalty"
    ],
    "timelines": [],
    "consequences_stated": [],

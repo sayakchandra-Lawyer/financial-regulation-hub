@@ -15,7 +15,7 @@ concepts: Registrar's register of charges is the MCA portal record, open to insp
 duties: s. 77(1): register the particulars of the charge, signed by the company and the charge-holder, with the instrument creating it, with the Registrar within 30 days of creation (Form CHG-1, or CHG-9 for debentures)
 duties: s. 77(1) first and second provisos: for charges created on or after 02-11-2018, the Registrar may allow registration within 60 days of creation on payment of additional fees, and on a further application within a further 60 days on payment of ad valorem fees
 duties: s. 77(1) third proviso: late registration does not prejudice rights acquired in the property before the charge is actually registered
-duties: s. 78: if the company does not register within the s. 77 period, the charge-holder may apply; the Registrar gives the company 14 days' notice and then registers unless the company registers it or shows sufficient cause; the charge-holder may recover the fees from the company
+duties: s. 78: if the company does not register the charge within 30 days, the charge-holder may apply; the Registrar gives the company 14 days' notice and then registers unless the company registers it or shows sufficient cause; the charge-holder may recover the fees from the company
 duties: s. 79: s. 77 applies to property acquired subject to a charge and to any modification of the terms, extent or operation of a registered charge
 duties: s. 85 (read with rule 10): keep the company's own register of charges (Form CHG-7) and a copy of each instrument at the registered office
 deadlines: 30 days from creation or modification to file CHG-1 or CHG-9 (s. 77(1), rule 3)
@@ -58,11 +58,14 @@ concepts: Borrowing limit: paid-up share capital, free reserves and securities p
 concepts: Temporary loans: repayable on demand or within six months, such as cash credit, bill discounting and seasonal short-term loans, but not loans for capital expenditure (Explanation to s. 180(1)(c))
 concepts: Sale, lease or other disposal of the whole or substantially the whole of an undertaking (s. 180(1)(a)), with the 20% tests for 'undertaking' and 'substantially the whole'
 concepts: Remitting or giving time to repay a debt due from a director (s. 180(1)(d))
+concepts: Commencement: s. 180 from 12-09-2013; s. 179 from 01-04-2014
 duties: s. 179(3)(c) to (f): pass a Board resolution at a meeting (not by circulation) to issue debentures, borrow, invest, or grant loans, guarantees or security; the Board may delegate (d) to (f) by a resolution at a meeting on conditions it sets
 duties: s. 179(3) Explanation II: for bank facilities, the Board approves the arrangement (overdraft, cash credit or otherwise), not each day-to-day drawing
 duties: s. 180(1)(c): obtain a special resolution before borrowing if the new borrowing plus outstanding borrowings (excluding temporary loans from bankers) will exceed paid-up share capital, free reserves and securities premium; the resolution must state the total amount up to which the Board may borrow (s. 180(2))
 duties: s. 180(1)(a): obtain a special resolution to sell, lease or otherwise dispose of the whole or substantially the whole of an undertaking; the resolution may set conditions on use of proceeds (s. 180(4))
 duties: s. 117(3): file the special resolutions under s. 180, and Board resolutions under s. 179(3), with the Registrar in Form MGT-14 within 30 days (subject to the exemptions in s. 117(3)(g))
+duties: s. 62(3): a loan or debenture with an option to convert into shares needs its terms approved by a special resolution before the loan is raised or the debentures are issued
+duties: s. 10A: a company with share capital incorporated after the Companies (Amendment) Act, 2019 may not exercise borrowing powers until a director files the declaration that subscribers have paid for their shares (within 180 days of incorporation)
 deadlines: MGT-14 within 30 days of passing the special resolution or the s. 179(3) Board resolution (s. 117(1))
 breach: s. 180(5): a debt incurred beyond the s. 180(1)(c) limit is not valid or effectual unless the lender proves it lent in good faith without knowledge that the limit was exceeded
 breach: s. 180(3): a s. 180(1)(a) disposal does not affect the title of a good-faith buyer or lessee, or sales and leases in the ordinary course of a business of selling or leasing
@@ -138,10 +141,10 @@ defined terms (wording is in the full text): abridged prospectus (s. 2(1)); acco
 
 [CA-RPT] Related party transactions (s. 188) | Companies Act, 2013, s. 188: related party transactions | Act 18 of 2013, s. 188 | Act | In force (as amended) | issued 2013-08-29 | subject: Related party transactions
 applies: Companies entering into contracts or arrangements with a related party for sale, purchase or supply of goods, property transactions, leasing, services, appointment of agents, office or place of profit, or underwriting (s. 188(1)(a) to (g))
-excluded: Transactions in the ordinary course of business on an arm's length basis (s. 188(1) proviso); Loans, guarantees and security to related parties are governed by ss. 185 and 186 rather than the s. 188(1) list; Transactions between a holding company and its wholly owned subsidiary whose accounts are consolidated and placed before the shareholders (s. 188(1) proviso, inserted in 2015)
+excluded: Transactions in the ordinary course of business on an arm's length basis (s. 188(1) proviso); Loans, guarantees and security to related parties are governed by ss. 185 and 186 rather than the s. 188(1) list; Transactions between a holding company and its wholly owned subsidiary whose accounts are consolidated and placed before the shareholders do not need the shareholder resolution; Board consent is still needed (s. 188(1) proviso)
 concepts: Board consent by resolution at a meeting (s. 188(1))
 concepts: Prior shareholder resolution where the rule 15(3) thresholds are crossed, for example sale, purchase or supply of goods amounting to 10% or more of turnover, or property transactions amounting to 10% or more of net worth
-concepts: A member who is a related party cannot vote on the resolution approving that transaction (s. 188(1) second proviso)
+concepts: A member who is a related party cannot vote on the resolution approving that transaction (s. 188(1) second proviso), except in a company where 90% or more of the members, in number, are relatives of promoters or related parties (third proviso)
 concepts: Audit Committee approval and omnibus approval under s. 177 and rule 6A, for companies that must have an Audit Committee
 duties: Obtain Board consent at a meeting; interested directors stay out of the discussion (rule 15(2))
 duties: Obtain prior approval of the company by resolution where the rule 15(3) thresholds apply
@@ -153,20 +156,22 @@ penalties: P1
 
 [CA-DEB] Debentures, private placement and deposits (ss. 42, 71, 73-76) | Companies Act, 2013: private placement (s. 42), debentures (s. 71) and acceptance of deposits (ss. 73 to 76) | Act 18 of 2013, ss. 42, 71, 73-76 | Act | In force (as amended) | issued 2013-08-29 | subject: Debentures, deposits and private placement
 applies: Companies raising money through debentures or private placement, and companies receiving loans or other money that could be a 'deposit'; Debenture trustees and debenture holders
-excluded: The deposit rules do not apply to banking companies, RBI-registered NBFCs, NHB-registered HFCs and companies specified under the s. 73(1) proviso (rule 1(3) of the deposit rules); Many receipts are not 'deposits', including loans from banks, public financial institutions, insurance companies and scheduled banks, amounts received from any other company, amounts from a director (and, for a private company, a director's relative) who declares the money is not borrowed, secured or compulsorily convertible bonds and debentures within the limits stated, and promoter loans brought in at a lender's stipulation (rule 2(1)(c) of the deposit rules)
+excluded: The deposit rules do not apply to banking companies, RBI-registered NBFCs, NHB-registered HFCs and companies specified under the s. 73(1) proviso (rule 1(3) of the deposit rules); Many receipts are not 'deposits', including loans from banks, public financial institutions, insurance companies and scheduled banks, amounts received from any other company, amounts from a director (and, for a private company, a director's relative) who declares the money is not borrowed, bonds or debentures secured by a first charge (or one ranking pari passu with it) on tangible assets, not exceeding the assets' market value as assessed by a registered valuer, debentures compulsorily convertible within ten years, listed non-convertible debentures that create no charge, and promoter loans brought in at a lender's stipulation (rule 2(1)(c) of the deposit rules)
 concepts: Secured debentures: charge on the company's (or its holding, subsidiary or associate company's) assets sufficient to cover principal and interest; debenture trustee appointed before the offer, and a debenture trust deed executed within 60 days of allotment (s. 71 and rule 18 of the share capital and debentures rules)
 concepts: Debenture redemption reserve: not required for RBI-registered NBFCs and NHB-registered HFCs on privately placed debentures, or for listed companies; 10% for other unlisted companies, plus a 15% investment or deposit of debentures maturing in the next year where rule 18(7) requires it
 concepts: Private placement: special resolution for each offer, except that for non-convertible debentures within the s. 180(1)(c) limit a Board resolution under s. 179(3)(c) is enough, and above that limit one special resolution a year covers all offers (rule 14(1) of the prospectus and allotment rules)
 concepts: Return of deposits and of money received but not treated as deposits: Form DPT-3 by 30 June each year (rule 16 of the deposit rules)
 duties: s. 71 and rule 18: for secured debentures, create the charge in favour of the debenture trustee and register it with the Registrar in Form CHG-9 within 30 days
 duties: s. 42 and rule 14: issue the private placement offer letter (PAS-4) to identified persons, not more than 200 in a financial year (excluding QIBs and ESOP allottees), and file the return of allotment (PAS-3) within 15 days of allotment
+duties: s. 42(4) and (6): take subscription money only through banking channels, not cash; keep it in a separate bank account in a scheduled bank; do not use it until allotment is made and PAS-3 is filed; allot within 60 days of receiving the money, or refund within the next 15 days, failing which interest at 12% a year runs from the 60th day
 duties: s. 73: accept deposits from members only as permitted by s. 73(2) and the deposit rules; s. 76 applies to eligible public companies accepting public deposits
 duties: Rule 16: file DPT-3 by 30 June each year with the position as on 31 March, covering deposits and particulars of money received that is not a deposit
 deadlines: CHG-9 within 30 days of creating the charge for debentures (s. 77, rule 3)
 deadlines: PAS-3 within 15 days of allotment on private placement (rule 14(6))
 deadlines: Debenture trust deed within 60 days of allotment (rule 18(1)(c))
 deadlines: DPT-3 by 30 June each year (rule 16)
-breach: s. 42(10): a company making an offer in contravention of s. 42 is liable to a penalty up to the amount raised or Rs 2 crore, whichever is lower, and must refund the money within 30 days of the order
+breach: s. 42(9): late PAS-3 makes the company, its promoters and directors liable to a penalty of Rs 1,000 a day, up to Rs 25 lakh
+breach: s. 42(10): if the company makes an offer or accepts money in contravention of s. 42, the company, its promoters and directors are liable to a penalty up to the amount raised or Rs 2 crore, whichever is lower, and the company must refund the money with interest within 30 days of the order
 breach: s. 74(3) and s. 76A: penalties for accepting or failing to repay deposits in contravention of Chapter V
 refs: RULES-SCD; RULES-PAS; RULES-DEP; CA-CHG; CA-BOARD; EXEMPT-PVT-2017
 penalties: P1
@@ -242,7 +247,7 @@ defined terms (wording is in the full text): Act (rule 2); Annexure (rule 2); Fe
 
 [RULES-DEP] Acceptance of Deposits Rules, 2014 | Companies (Acceptance of Deposits) Rules, 2014 (as amended) | G.S.R. 256(E) | Rules | In force (as amended) | issued 2014-03-31 | subject: Debentures, deposits and private placement
 applies: Companies other than banking companies, RBI-registered NBFCs, NHB-registered HFCs and companies specified under the s. 73(1) proviso (rule 1(3))
-excluded: Rule 2(1)(c) lists what is not a deposit: for example amounts received from any other company, loans from banks, PFIs, regional financial institutions, insurance companies and scheduled banks, amounts from foreign lenders under FEMA, commercial paper, secured debentures and bonds, compulsorily convertible debentures convertible within ten years, amounts from directors who give the required declaration, and promoter loans brought in at a bank's or financial institution's stipulation until the bank loan is repaid
+excluded: Rule 2(1)(c) lists what is not a deposit: for example amounts received from any other company, loans from banks, PFIs, regional financial institutions, insurance companies and scheduled banks, amounts from foreign lenders under FEMA, commercial paper, bonds and debentures secured by a first or pari passu charge on tangible assets (up to their market value as assessed by a registered valuer), debentures compulsorily convertible within ten years, listed unsecured non-convertible debentures, amounts from directors who give the required declaration, and promoter loans brought in at a bank's or financial institution's stipulation until the bank loan is repaid
 concepts: A director's (or a private company director's relative's) loan is not a deposit only if, when giving the money, the director declares in writing that it is not out of borrowed funds; the company discloses it in the Board's report (rule 2(1)(c)(viii))
 concepts: Form DPT-3: annual return of deposits and of money received that is not a deposit (rule 16)
 duties: Rule 16: file DPT-3 by 30 June each year, as on 31 March, audited by the auditor
@@ -291,8 +296,8 @@ penalties: P1
 defined terms (wording is in the full text): Act (rule 2); Annexure (rule 2); Digital Signature (rule 2); Digital Signature Certificate (rule 2); electronic record (rule 2); electronic registry (rule 2); electronic mail (rule 2); Regional Director (rule 2); Registrar’s Facilitation Office (rule 2); Straight Through Process (rule 2)
 
 [RULES-LAYERS] Restriction on Number of Layers Rules, 2017 | Companies (Restriction on number of layers) Rules, 2017 (as amended) | G.S.R. 1176(E) | Rules | In force (as amended) | issued 2017-09-20 | subject: Loans, guarantees and security: sections 185 and 186
-applies: Holding companies with subsidiaries, other than banking companies, NBFCs, insurance companies and Government companies
-concepts: Not more than two layers of subsidiaries; a wholly owned subsidiary layer does not count
+applies: Holding companies with subsidiaries, other than the classes excluded by rule 2(2), such as banking companies, RBI-registered NBFCs that RBI treats as systemically important, insurance companies and Government companies
+concepts: Not more than two layers of subsidiaries; one layer of wholly owned subsidiaries is not counted
 concepts: Form CRL-1 return of layers (new form from 14-07-2025, G.S.R. 427(E))
 concepts: s. 186(1): investments through not more than two layers of investment companies, subject to the stated exceptions
 duties: Do not add a layer of subsidiaries beyond the permitted number
@@ -371,6 +376,7 @@ penalties: P1
 applies: Government companies
 duties: Entry 24: s. 185 does not apply to a Government company that obtains approval of the administrative Ministry or Department of the Central Government, or the State Government, before making the loan or giving the guarantee or security
 duties: Entry 25: s. 186 does not apply to a Government company engaged in defence production, or, as stated in the notification, to an unlisted Government company with the approval of its administrative Ministry, Department or State Government
+duties: From 13-06-2017 (G.S.R. 582(E)), the exemptions apply only to a Government company that has not defaulted in filing its financial statements under s. 137 or annual return under s. 92
 refs: CA-185; CA-186
 penalties: P1
 
@@ -428,6 +434,7 @@ duties: Clause 60: s. 185(1)(b) would also cover a limited liability partnership
 duties: Clause 61: defaults in keeping the s. 186(9) and (10) register would move from fine to civil penalty: company Rs 1 lakh plus Rs 500 a day, up to Rs 5 lakh; officer Rs 25,000 plus Rs 200 a day, up to Rs 1 lakh (accepted without change)
 duties: Clause 97: the Regional Director could compound offences where the maximum fine does not exceed Rs 1 crore (now Rs 25 lakh)
 duties: Clause 98: s. 446B would allow the lesser penalty to be one-half, or such lower percentage as may be prescribed
+duties: Clause 101: in s. 454, Assistant Registrars would become adjudicating officers, and a new s. 454(1A) would let a company or officer in default apply for adjudication of a penalty
 refs: CA-CHG; CA-185; CA-186; CA-PEN; AMD-DEFN-20251201; JPC-CLAB-2026
 penalties: P1
 
