@@ -1,0 +1,446 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Plain-language explanations for readers who are new to the terms. They are summaries, not the legal definitions: the instrument named under 'See' governs."
+ },
+ "terms": [
+  {
+   "term": "IFSC",
+   "full": "International Financial Services Centre",
+   "def": "A centre set up under the SEZ Act that deals with non-residents and in foreign currency much as an offshore centre would, while sitting inside India. GIFT IFSC in Gujarat is the operational one.",
+   "see": [
+    "ACT-IFSCA"
+   ],
+   "aka": [
+    "international financial services centre",
+    "GIFT IFSC",
+    "GIFT City"
+   ]
+  },
+  {
+   "term": "IFSCA",
+   "full": "International Financial Services Centres Authority",
+   "def": "The single regulator for banking, capital markets, funds and insurance in an IFSC. It exercises the powers RBI, SEBI, IRDAI and PFRDA would otherwise have there.",
+   "see": [
+    "ACT-IFSCA"
+   ],
+   "aka": [
+    "the Authority",
+    "IFSC Authority"
+   ]
+  },
+  {
+   "term": "Unit in an IFSC as a non-resident",
+   "full": "",
+   "def": "Under the FEMA (IFSC) Regulations, a financial institution or branch set up in an IFSC is treated as a person resident outside India, so dealings with Indian residents are cross-border for FEMA.",
+   "see": [
+    "REG-FEMA-IFSC"
+   ],
+   "aka": [
+    "person resident outside India",
+    "non-resident status"
+   ]
+  },
+  {
+   "term": "IBU",
+   "full": "IFSC Banking Unit",
+   "def": "A branch of an Indian or foreign bank set up in an IFSC. It keeps USD 20 million of capital at the parent bank level.",
+   "see": [
+    "REG-BANK",
+    "HB-BANK"
+   ],
+   "aka": [
+    "IFSC banking unit",
+    "IBUs",
+    "Banking Unit"
+   ]
+  },
+  {
+   "term": "IBC",
+   "full": "IFSC Banking Company",
+   "def": "A bank set up as a subsidiary company in an IFSC, with minimum capital of USD 50 million.",
+   "see": [
+    "REG-BANK"
+   ],
+   "aka": [
+    "IFSC banking company"
+   ]
+  },
+  {
+   "term": "Specified foreign currency",
+   "full": "",
+   "def": "A currency listed in the First Schedule to the Banking Regulations in which Banking Units may do business, such as USD, EUR, GBP, JPY and, since 2024, SEK, NOK, NZD and DKK.",
+   "see": [
+    "REG-BANK"
+   ],
+   "aka": [
+    "specified currencies",
+    "freely convertible currency"
+   ]
+  },
+  {
+   "term": "Home regulator",
+   "full": "",
+   "def": "The regulator of the parent entity in its home country. Branches in the IFSC often follow the home regulator's prudential norms, for example on leverage or solvency.",
+   "see": [
+    "REG-BANK",
+    "REG-INS-REG"
+   ],
+   "aka": [
+    "home country regulator"
+   ]
+  },
+  {
+   "term": "LCR",
+   "full": "Liquidity coverage ratio",
+   "def": "High-quality liquid assets as a share of net cash outflows over 30 days of stress. IBUs keep 100% or the home regulator's minimum where higher.",
+   "see": [
+    "HB-BANK",
+    "REG-FC"
+   ],
+   "aka": [
+    "liquidity coverage ratio"
+   ]
+  },
+  {
+   "term": "Finance Company",
+   "full": "",
+   "def": "A company (subsidiary, joint venture or new company) registered with IFSCA to carry on lending, leasing, treasury or other permitted finance activities in the IFSC.",
+   "see": [
+    "REG-FC"
+   ],
+   "aka": [
+    "finance companies",
+    "FC"
+   ]
+  },
+  {
+   "term": "Finance Unit",
+   "full": "",
+   "def": "A branch in the IFSC of a company incorporated in India or abroad, registered to carry on finance activities.",
+   "see": [
+    "REG-FC"
+   ],
+   "aka": [
+    "finance units",
+    "FU"
+   ]
+  },
+  {
+   "term": "Core activities",
+   "full": "",
+   "def": "For finance companies: lending, factoring and forfaiting, investments, derivatives and global or regional corporate treasury centres. These attract capital, liquidity and exposure norms.",
+   "see": [
+    "REG-FC"
+   ],
+   "aka": [
+    "core activity"
+   ]
+  },
+  {
+   "term": "Non-core activities",
+   "full": "",
+   "def": "For finance companies: services such as merchant banking, investment advice, operating leases of aircraft and ships, distribution and similar activities, kept in a separate department.",
+   "see": [
+    "REG-FC"
+   ],
+   "aka": [
+    "non-core activity"
+   ]
+  },
+  {
+   "term": "Owned fund",
+   "full": "",
+   "def": "The capital a finance company must hold: for example USD 3 million for core activities and USD 0.2 million for a treasury centre or an aircraft or ship lessor.",
+   "see": [
+    "REG-FC",
+    "CIR-GRCTC",
+    "CIR-AIRCRAFT"
+   ],
+   "aka": [
+    "owned funds"
+   ]
+  },
+  {
+   "term": "GRCTC",
+   "full": "Global / Regional Corporate Treasury Centre",
+   "def": "A finance company or unit in the IFSC that runs treasury functions for its group entities.",
+   "see": [
+    "CIR-GRCTC"
+   ],
+   "aka": [
+    "treasury centre",
+    "global treasury centre",
+    "regional corporate treasury centre"
+   ]
+  },
+  {
+   "term": "Factor",
+   "full": "",
+   "def": "A finance company or unit registered to buy trade receivables, with or without recourse, and to register assignments with the Central Registry.",
+   "see": [
+    "REG-FACTORS",
+    "CIR-FACT-CAP"
+   ],
+   "aka": [
+    "factoring",
+    "forfaiting"
+   ]
+  },
+  {
+   "term": "FME",
+   "full": "Fund Management Entity",
+   "def": "An entity registered with IFSCA to manage funds and portfolios in the IFSC: an Authorised FME, a Registered FME (Non-Retail) or a Registered FME (Retail).",
+   "see": [
+    "REG-FM"
+   ],
+   "aka": [
+    "fund management entity",
+    "FMEs",
+    "Authorised FME",
+    "Registered FME"
+   ]
+  },
+  {
+   "term": "Restricted scheme",
+   "full": "",
+   "def": "A fund scheme offered by private placement to accredited or high-value investors (minimum USD 150,000), similar in function to an alternative investment fund.",
+   "see": [
+    "REG-FM"
+   ],
+   "aka": [
+    "restricted schemes",
+    "non-retail scheme"
+   ]
+  },
+  {
+   "term": "Retail scheme",
+   "full": "",
+   "def": "A fund scheme offered to the public, with at least 20 investors and a USD 3 million corpus, managed only by a Registered FME (Retail).",
+   "see": [
+    "REG-FM"
+   ],
+   "aka": [
+    "retail schemes"
+   ]
+  },
+  {
+   "term": "Venture capital scheme",
+   "full": "",
+   "def": "A scheme investing in start-ups and early-stage companies, managed by an Authorised FME, with a corpus of USD 3 million to USD 200 million.",
+   "see": [
+    "REG-FM"
+   ],
+   "aka": [
+    "VC scheme",
+    "venture capital schemes"
+   ]
+  },
+  {
+   "term": "Family Investment Fund",
+   "full": "FIF",
+   "def": "A fund that pools the money of a single family, with a minimum corpus of USD 10 million.",
+   "see": [
+    "REG-FM"
+   ],
+   "aka": [
+    "FIF",
+    "family office"
+   ]
+  },
+  {
+   "term": "Accredited investor",
+   "full": "",
+   "def": "An investor recognised as financially sophisticated, who may invest below the usual minimum ticket size in venture capital and restricted schemes.",
+   "see": [
+    "REG-FM"
+   ],
+   "aka": [
+    "accredited investors"
+   ]
+  },
+  {
+   "term": "KMP",
+   "full": "Key managerial personnel",
+   "def": "The principal officer, compliance officer and other key staff of a regulated entity. FME and CMI rules require them to be based in the IFSC.",
+   "see": [
+    "REG-FM",
+    "REG-CMI",
+    "CIR-FME-KMP"
+   ],
+   "aka": [
+    "key managerial personnel",
+    "principal officer",
+    "compliance officer"
+   ]
+  },
+  {
+   "term": "CMI",
+   "full": "Capital market intermediary",
+   "def": "A broker dealer, clearing member, credit rating agency, custodian, debenture trustee, depository participant, distributor, investment adviser, investment banker or similar entity registered under the CMI Regulations.",
+   "see": [
+    "REG-CMI"
+   ],
+   "aka": [
+    "capital market intermediaries",
+    "broker dealer",
+    "investment banker",
+    "investment adviser"
+   ]
+  },
+  {
+   "term": "Unified registration",
+   "full": "",
+   "def": "A single registration through the Single Window IT System covering several capital market activities, with a fee for each activity.",
+   "see": [
+    "CIR-MASTERKEY"
+   ],
+   "aka": [
+    "Master Key",
+    "unified registration"
+   ]
+  },
+  {
+   "term": "SWIT",
+   "full": "Single Window IT System",
+   "def": "The online system through which applications for IFSC registrations, SEZ approvals and related clearances are filed.",
+   "see": [
+    "CIR-GRCTC",
+    "CIR-MASTERKEY"
+   ],
+   "aka": [
+    "single window IT system",
+    "single window"
+   ]
+  },
+  {
+   "term": "IIO",
+   "full": "IFSC Insurance Office",
+   "def": "A branch or company of an insurer or reinsurer registered with IFSCA to write life, general, health or reinsurance business in the IFSC.",
+   "see": [
+    "REG-INS-REG"
+   ],
+   "aka": [
+    "IFSC insurance office",
+    "IIOs"
+   ]
+  },
+  {
+   "term": "IIIO",
+   "full": "IFSC Insurance Intermediary Office",
+   "def": "A broker, corporate agent, third-party administrator, surveyor or web aggregator registered to act in the IFSC.",
+   "see": [
+    "REG-INS-INT"
+   ],
+   "aka": [
+    "insurance intermediary office",
+    "insurance intermediary"
+   ]
+  },
+  {
+   "term": "MGA",
+   "full": "Managing General Agent",
+   "def": "An agent that underwrites and binds insurance from the IFSC on behalf of a foreign insurer under a binding authority agreement.",
+   "see": [
+    "REG-MGA"
+   ],
+   "aka": [
+    "managing general agent",
+    "binding authority"
+   ]
+  },
+  {
+   "term": "Assigned capital",
+   "full": "",
+   "def": "The capital an insurer allocates to its IFSC branch, at least USD 1.5 million.",
+   "see": [
+    "REG-INS-REG"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Solvency ratio",
+   "full": "",
+   "def": "Available solvency margin as a share of the required margin. IIOs writing general, health or reinsurance business keep at least 150%.",
+   "see": [
+    "REG-INS-SOLV"
+   ],
+   "aka": [
+    "solvency margin"
+   ]
+  },
+  {
+   "term": "SNRR account",
+   "full": "Special Non-Resident Rupee account",
+   "def": "A rupee account an IFSC unit may hold with an AD bank in India for its business outside the IFSC. Receipts are moved to its IBU account in foreign currency within 30 working days.",
+   "see": [
+    "CIR-SNRR"
+   ],
+   "aka": [
+    "SNRR",
+    "special non-resident rupee"
+   ]
+  },
+  {
+   "term": "Designated Director",
+   "full": "",
+   "def": "The director responsible for the entity's AML compliance. With the Principal Officer, they must hold the NISM-IFSCA-01 certification.",
+   "see": [
+    "GDL-AML",
+    "CIR-AML-CERT"
+   ],
+   "aka": [
+    "designated director",
+    "Principal Officer (AML)"
+   ]
+  },
+  {
+   "term": "FINGate 2.0",
+   "full": "",
+   "def": "FIU-IND's portal on which IFSC entities file cash, suspicious and other reports under the PML Rules.",
+   "see": [
+    "GDL-AML"
+   ],
+   "aka": [
+    "FINGate",
+    "FIU-IND"
+   ]
+  },
+  {
+   "term": "CRAO",
+   "full": "Complaint Redressal and Appellate Officer",
+   "def": "The officer, at or one level below KMP, who hears a customer's appeal against the entity's decision on a complaint.",
+   "see": [
+    "CIR-GRIEV"
+   ],
+   "aka": [
+    "complaint redressal and appellate officer",
+    "grievance redressal"
+   ]
+  },
+  {
+   "term": "SEZ Letter of Approval",
+   "full": "LoA",
+   "def": "The approval under the SEZ Act that every IFSC unit needs to operate in the zone, renewed before expiry.",
+   "see": [
+    "CIR-SEZ-LOA"
+   ],
+   "aka": [
+    "letter of approval",
+    "LoA"
+   ]
+  },
+  {
+   "term": "CERT-In",
+   "full": "Indian Computer Emergency Response Team",
+   "def": "The national agency for cyber incidents. IFSC entities follow its advisories and use auditors it empanels.",
+   "see": [
+    "CIR-CYBER",
+    "CIR-CERTIN"
+   ],
+   "aka": [
+    "cert in"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1964 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Terms as each instrument defines them, shortened where long. The instrument's own text governs."
+ },
+ "instruments": {
+  "ACT-IFSCA": [
+   {
+    "term": "appropriate regulator",
+    "para": "definition clause",
+    "def": "means any financial sector regulator specified in the First Schedule to this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definition clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of section 4;",
+    "scope": ""
+   },
+   {
+    "term": "financial institution",
+    "para": "definition clause",
+    "def": "means a unit set up in an International Financial Services Centre and which is engaged in rendering financial services in respect of any financial product;",
+    "scope": ""
+   },
+   {
+    "term": "International Financial Services Centre",
+    "para": "definition clause",
+    "def": "means an International Financial Services Centre set up, before or after the commencement of this Act, under section 18 of the Special Economic Zones Act, 2005;",
+    "scope": ""
+   },
+   {
+    "term": "Member",
+    "para": "definition clause",
+    "def": "means a Member of the Authority and includes the Chairperson;",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "definition clause",
+    "def": "means a notification published in the Official Gazette, and the expressions \"notified\" and \"notify\" shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "definition clause",
+    "def": "means prescribed by rules made by the Central Government under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "regulations",
+    "para": "definition clause",
+    "def": "means the regulations made by the Authority under this Act.",
+    "scope": ""
+   }
+  ],
+  "REG-FEMA-IFSC": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "shall mean the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "Financial service",
+    "para": "definitions clause",
+    "def": "shall mean activities a financial institution is allowed to carry out as specified in the respective Act of the Parliament or by the Government of India or by any Regulatory Authority empowered to regulate the concerned financial institution.",
+    "scope": ""
+   },
+   {
+    "term": "Financial transaction",
+    "para": "definitions clause",
+    "def": "shall mean making any payment to, or for the credit of any person, or receiving any payment for, by order or on behalf of any person, or drawing, issuing or negotiating any bill of exchange or promissory note, or transferring any security or acknowledging any debt.",
+    "scope": ""
+   },
+   {
+    "term": "FMC",
+    "para": "definitions clause",
+    "def": "shall mean the Forward Market Commission established under the Forward Contracts (Regulation) Act, 1952 (74 of 1952).",
+    "scope": ""
+   },
+   {
+    "term": "IRDA",
+    "para": "definitions clause",
+    "def": "shall mean the Insurance Regulatory and Development Authority established under the Insurance Regulatory and Development Authority Act, 1999 (41 of 1999).",
+    "scope": ""
+   },
+   {
+    "term": "PFRDA",
+    "para": "definitions clause",
+    "def": "shall mean the Pension Fund Regulatory and Development Authority established under the Pension Fund Regulatory and Development Authority Act, 2013 (23 of 2013).",
+    "scope": ""
+   },
+   {
+    "term": "Regulatory Authority",
+    "para": "definitions clause",
+    "def": "shall include Reserve Bank of India (RBI), Securities Exchange Board of India (SEBI), Insurance Regulatory Development Authority (IRDA), Pension Fund Regulatory and Development Authority (PFRDA), Forward Market Commission (FMC) or any other statutory authority empowered to regulate a financial institution under the Indian laws.",
+    "scope": ""
+   },
+   {
+    "term": "SEBI",
+    "para": "definitions clause",
+    "def": "shall mean the Securities and Exchange Board of India established under the Securities and Exchange Board of India Act, 1992 (15 of 1992).",
+    "scope": ""
+   }
+  ],
+  "REG-BANK": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of Section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Bank",
+    "para": "definitions clause",
+    "def": "means a banking company incorporated or established outside India; \"(da) \"Global Administrative Office\" or \"GAO\" means a financial institution set up by its Parent Bank in IFSC for undertaking any one or more of the following activities, namely:",
+    "scope": ""
+   },
+   {
+    "term": "Indian Bank",
+    "para": "definitions clause",
+    "def": "means any bank incorporated or established under any Act, and includes a wholly owned subsidiary of a foreign bank incorporated in India, but does not include a co-operative bank;",
+    "scope": ""
+   },
+   {
+    "term": "INR",
+    "para": "definitions clause",
+    "def": "means the Indian currency called the Indian Rupee;",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Bank Unit",
+    "para": "definitions clause",
+    "def": "means a Banking Unit set up by a Foreign Bank;\" 5 Ins. by Notification No. IFSCA/2020-21/GN/REG013, dated 5th July, 2021 (w.e.f 06.07.2021 ) 6 Inserted by IFSCA/2023-24/GN/REG041 dated 6th July, 2023. 7 Omitted by Notification No. IFSCA/2020-21/GN/REG013, dated 5th July, 2021, (w.e.f. 06.07.2021). Prior to omission it read as (under :",
+    "scope": ""
+   },
+   {
+    "term": "Indian Bank Unit",
+    "para": "definitions clause",
+    "def": "means a Banking Unit set up by a Indian Bank. 8 Substituted vide Notification No. IFSCA/2023-24/GN/REG041 dated 6th July, 2023 Before substitution, it stood as under: \"(i) \"International Financial Services Centre\" shall have the same meaning as assigned to it under section clause (g) of sub-section",
+    "scope": ""
+   },
+   {
+    "term": "Reserve Bank",
+    "para": "definitions clause",
+    "def": "means Reserve Bank of India established under the Reserve Bank of",
+    "scope": ""
+   },
+   {
+    "term": "Securities and Exchange Board",
+    "para": "definitions clause",
+    "def": "means Securities and Exchange Board of India established under the Securities and Exchange Board of India Act, 1992 (15 of 1992); (na) \"Specified foreign currencies\" means currencies as specified in the First Schedule to these regulations.",
+    "scope": ""
+   },
+   {
+    "term": "Stock Exchange",
+    "para": "definitions clause",
+    "def": "means a stock-exchange recognised by the Authority; (oa)\"Subsidiary company\" means a company that satisfies the definition u/s 2(87) of the Companies Act, 2013. (ob) \"Support services\" shall mean the ancillary activities and processes required for execution of the permitted activities. 10 Omitted by Notification No. IFSCA/2020-21/GN/REG013, dated 5th July, 2021, (w.e.f. 06.07.2021).Prior to omission it read as under:",
+    "scope": ""
+   },
+   {
+    "term": "Qualified Individual",
+    "para": "definitions clause",
+    "def": "means an individual who is a person resident outside India having net worth not less than USD 1 Million or equivalent in the preceding financial year, which may be determined in such manner as specified by the Authority;\" 11 Omitted by Notification No. IFSCA/2020-21/GN/REG013, dated 5th July, 2021, (w.e.f. 06.07.2021).Prior to omission it read as under :",
+    "scope": ""
+   },
+   {
+    "term": "Qualified Resident Individual",
+    "para": "definitions clause",
+    "def": "means an individual who is a person resident in India having net worth not less than USD 1 Million or equivalent in the preceding financial year, which may be determined in such manner as specified by the Authority;\" 12 Substituted vide Notification No. IFSCA/2023-24/GN/REG041 dated 6th July, 2023. Before substitution, it stood as under: \"(la) \"Representative Office\" or \"RO\" means a financial institution set up…",
+    "scope": ""
+   },
+   {
+    "term": "USD",
+    "para": "definitions clause",
+    "def": "means United States Dollar.",
+    "scope": ""
+   }
+  ],
+  "HB-BANK": [
+   {
+    "term": "Banking Company",
+    "para": "definitions",
+    "def": "means the Banking company of which the IBU is a branch.",
+    "scope": ""
+   },
+   {
+    "term": "Clients",
+    "para": "definitions",
+    "def": "means a Retail Client, Professional Client or Market Counterparty as defined in Client Classification (CLIC) Module of COB iv. \"Global Administrative Office\" shall have the same meaning as defined u/s 3 (da) of the IFSCA (Banking) Regulations, 2020 (as amended). iv.(a) \"Specified foreign currencies\" means currencies as specified in the First Schedule to IFSCA (Banking) Regulations, 2020 (as amended). v. All other…",
+    "scope": ""
+   },
+   {
+    "term": "Capital account transaction",
+    "para": "definitions",
+    "def": "means a transaction which alters the assets or liabilities, including contingent liabilities, outside India of persons resident in India or assets or liabilities in India of persons resident outside India, and includes transactions referred to in sub-section (3) of section 6 of the FEMA, 1999",
+    "scope": ""
+   },
+   {
+    "term": "Current account transaction",
+    "para": "definitions",
+    "def": "means a transaction other than a capital account transaction and without prejudice to the generality of the foregoing such transaction includes,-- i. payments due in connection with foreign trade, other current business, services, and short-term banking and credit facilities in the ordinary course of business, ii. payments due as interest on loans and as net income from investments, iii. remittances for living…",
+    "scope": ""
+   },
+   {
+    "term": "Foreign currency",
+    "para": "definitions",
+    "def": "means any currency other than Indian currency;",
+    "scope": ""
+   },
+   {
+    "term": "Financial promotion",
+    "para": "definitions",
+    "def": "means any communication, made using any medium, which invites or induces any person to: (a) enter into, or offer to enter into, an agreement in relation to the provision of a financial service; or (b) to enter into an agreement with any person in relation to a financial product",
+    "scope": ""
+   },
+   {
+    "term": "Electronic trading platform (ETP)",
+    "para": "definitions",
+    "def": "means an electronic platform (located within or outside IFSC) that enables the transfer of ownership of a financial asset by matching two counterparties. ii. \"Voice broker\"19 means an entity (located within or outside IFSC) that brings together buyers and sellers of a financial asset for the purpose of executing a transaction in such financial asset. iii. \"Disclosed\" ETP venue means an ETP venue where the…",
+    "scope": ""
+   },
+   {
+    "term": "Personal transaction",
+    "para": "definitions",
+    "def": "means a transaction in an investment executed for or on behalf of a natural person, where at least one of the following criteria are met: a. that person is acting outside the scope of the activities he is authorised to carry out in that capacity; b. the transaction is carried out for the account of any of the following persons:",
+    "scope": ""
+   },
+   {
+    "term": "Current Account",
+    "para": "definitions",
+    "def": "means a form of non-interest-bearing demand deposit wherefrom withdrawals are allowed any number of times depending upon the balance in the account or up to a particular agreed amount and shall also be deemed to include other deposit accounts which are neither Savings Deposit nor Term Deposit.",
+    "scope": ""
+   },
+   {
+    "term": "Demand deposit",
+    "para": "definitions",
+    "def": "means a deposit received by the BU, which is withdrawable on demand.",
+    "scope": ""
+   },
+   {
+    "term": "Floating rate deposit",
+    "para": "definitions",
+    "def": "means a term deposit whose return is directly linked to an interest rate benchmark.",
+    "scope": ""
+   },
+   {
+    "term": "Individual client",
+    "para": "definitions",
+    "def": "means a natural person. v. The terms \"Retail client\" and \"Professional client\" shall have the same meaning as assigned in the Client classification (CLIC) module of COB.",
+    "scope": ""
+   },
+   {
+    "term": "Notice deposit",
+    "para": "definitions",
+    "def": "means term deposit for specific period but withdrawable on giving at least one complete banking days' notice.",
+    "scope": ""
+   },
+   {
+    "term": "Savings account",
+    "para": "definitions",
+    "def": "means a form of interest-bearing demand deposit which is subject to the restrictions as to the number of withdrawals as also the amounts of withdrawals permitted by the IBU during any specified period.",
+    "scope": ""
+   },
+   {
+    "term": "Structured deposit",
+    "para": "definitions",
+    "def": "means a term deposit, repayable at full on maturity, interest payable on which is dependent on the performance of reference assets, indices or other economic values factors such as:",
+    "scope": ""
+   },
+   {
+    "term": "Term deposit",
+    "para": "definitions",
+    "def": "means an interest-bearing deposit received by the bank for a fixed period. The IFSCA Banking Handbook: Conduct Of Business Directions- V 6.0",
+    "scope": ""
+   },
+   {
+    "term": "Certificate of Deposit (CD)",
+    "para": "definitions",
+    "def": "means a negotiable instrument and issued in dematerialised form or as a Usance Promissory Note against funds deposited at an IBU for a specified time period. xi. All other expressions unless defined herein shall have the same meaning as have been assigned to them under the Banking Regulation Act, the Reserve Bank of India Act and the International Financial Services Centres Authority (Banking) Regulations, 2020…",
+    "scope": ""
+   },
+   {
+    "term": "Booked in IFSC",
+    "para": "definitions",
+    "def": "means the entry of the derivatives contract on the books of a person -:",
+    "scope": ""
+   },
+   {
+    "term": "Initial margin",
+    "para": "definitions",
+    "def": "means the collateral collected by a counterparty to cover its current and potential future exposure in the interval between the last collection of margin and the liquidation of positions or hedging of market risk following a default of the other counterparty",
+    "scope": ""
+   },
+   {
+    "term": "Professional client",
+    "para": "definitions",
+    "def": "means a client who possesses the experience, knowledge, and expertise to make his own decisions about undertaking a derivative and properly assess the risk of such derivative and includes a client classified as a \"deemed professional client\".",
+    "scope": ""
+   },
+   {
+    "term": "Deemed professional client",
+    "para": "definitions",
+    "def": "means the clients listed in Annex 1",
+    "scope": ""
+   },
+   {
+    "term": "Retail client",
+    "para": "definitions",
+    "def": "means a client that is not a professional client.",
+    "scope": ""
+   },
+   {
+    "term": "Counterparties",
+    "para": "definitions",
+    "def": "means clients who would otherwise be classified as \"professional clients\" but who are dealing with the market makers on a principal-to-principal basis.",
+    "scope": ""
+   },
+   {
+    "term": "Recognised credit rating agency",
+    "para": "definitions",
+    "def": "shall mean the following rating agencies and include their subsidiary rating agencies in various jurisdictions: a. Moody's b. Fitch 25 As defined in the Securities and Exchange Board of India (Foreign Portfolio Investors) Regulations,2019 dated September 23,2019 (as amended). The IFSCA Banking Handbook: Conduct Of Business Directions- V 6.0 c. S & P Global ratings",
+    "scope": ""
+   },
+   {
+    "term": "Variation margin",
+    "para": "definitions",
+    "def": "means the collateral collected by a counterparty to reflect the results of the daily marking-to-market or marking-to-model of outstanding contracts.",
+    "scope": ""
+   },
+   {
+    "term": "Market maker",
+    "para": "definitions",
+    "def": "means a financial institution (as defined in section 3(1)(c) of the IFSCA Act,2019) that undertakes derivatives on its own account and at his own risk and at prices quoted by him and who is so designated by the Authority.",
+    "scope": ""
+   },
+   {
+    "term": "Netting set",
+    "para": "definitions",
+    "def": "means a set of non-centrally cleared derivative contracts between two counterparties that is subject to a legally enforceable bilateral netting agreement.",
+    "scope": ""
+   },
+   {
+    "term": "IFSC covered entity",
+    "para": "definitions",
+    "def": "means an entity engaged in financial business, a significant non-financial entity and any other entity designated by the Authority as an IFSC Covered entity but excludes the entities listed in Annex 3.",
+    "scope": ""
+   },
+   {
+    "term": "Entity engaged in financial business",
+    "para": "definitions",
+    "def": "means an entity that is engaged in the business of finance if the entity itself or the group to which it belongs has an aggregate month-end average notional amount (AANA) of non-centrally cleared derivatives outstanding for March, April, and May of 2021 exceeds 50 billion.",
+    "scope": ""
+   },
+   {
+    "term": "Significant non-financial entity",
+    "para": "definitions",
+    "def": "means any entity other than an entity engaged in financial business if the entity itself or the group to which it belongs has an average aggregate notional amount of non-centrally cleared derivatives outstanding for March, April, and May of 2021 exceeding $ 75 billion.",
+    "scope": ""
+   },
+   {
+    "term": "Group",
+    "para": "definitions",
+    "def": "means a holding company, subsidiary, associate company (including a joint venture company) and a subsidiary of a holding company to which the entity is also a subsidiary.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Covered Entity",
+    "para": "definitions",
+    "def": "means a person operating outside IFSC who, is required, under the regulations laid down by its home regulator, to exchange margin for uncleared derivative contracts.",
+    "scope": ""
+   },
+   {
+    "term": "Uncleared derivatives contract",
+    "para": "definitions",
+    "def": "means a derivative contract that is not, or is not intended to be, cleared or settled by a person operating a clearing facility through which parties to a contract substitute, through novation or otherwise, the credit of the person operating the clearing facility for the credit of the parties;",
+    "scope": ""
+   },
+   {
+    "term": "Specified derivatives contract",
+    "para": "definitions",
+    "def": "means any derivatives contract that meets all of the following criteria:",
+    "scope": ""
+   },
+   {
+    "term": "Specified person",
+    "para": "definitions",
+    "def": "means a. An IBU acting as a market maker to a specified derivatives contract booked in IFSC. b. Any other \"financial institution\" as defined u/s 3(c) of the IFSCA c. Any person resident in India or a person resident outside India who enters into a specified derivatives contract booked in IFSC with a market maker.",
+    "scope": ""
+   },
+   {
+    "term": "FX Prime Brokerage (FXPB)",
+    "para": "definitions",
+    "def": "means a service provided by the IBU wherein a Designated Party (the client of the BU) is allowed to use the trading lines of an FX Prime Broker (the BU) to execute foreign exchange transactions with a dealer, called the Executing Dealer (a IBU or Bank outside IFSC that is not the FX Prime Broker). vii. A \"Master FX Give-up agreement\" provides the terms for documenting foreign exchange \"give up\" relationships, in…",
+    "scope": ""
+   },
+   {
+    "term": "Director",
+    "para": "definitions",
+    "def": "means an individual who is a member of the Board of the Banking Company of which the IBU is a branch.",
+    "scope": ""
+   },
+   {
+    "term": "Related party of such Director",
+    "para": "definitions",
+    "def": "means any firm in which such Director is interested as partner, manager, employee or guarantor, or any company [not being a subsidiary of the Banking company or a company registered under Section 8 of the Companies Act, 2013, or a Government company of which, or the subsidiary or the holding company of which such Director is a director, managing agent, manager, employee or guarantor or in which he holds…",
+    "scope": ""
+   },
+   {
+    "term": "Support services",
+    "para": "definitions",
+    "def": "means the ancillary activities and processes required for execution of the permitted activities. iii. \"Permitted activities\" shall have the same meaning as defined in Section 13 of the IFSCA (Banking) Regulations, 2020 (as amended from time to time) for banking activities undertaken by IBUs and, for activities undertaken in jurisdictions outside IFSC, such activities as may be permitted by the regulatory…",
+    "scope": ""
+   },
+   {
+    "term": "Group entities",
+    "para": "definitions",
+    "def": "means any holding company, subsidiaries, branches or any other entity, in whatever legal form, through which the Parent bank undertakes its operations or permitted activities.",
+    "scope": ""
+   },
+   {
+    "term": "Sales and trading services",
+    "para": "definitions",
+    "def": "means the activity of developing and maintaining relationships with institutional clients of the designated entities, informing such clients about ideas and opportunities regarding financial transactions, execution of orders placed by such clients and providing advice to such clients on entering and exiting financial positions.",
+    "scope": ""
+   },
+   {
+    "term": "Structuring services",
+    "para": "definitions",
+    "def": "means application of financial products including derivatives to manage various financial exposures such as interest rates, foreign exchange, commodities etc. of the designated entity or a client of the designated entity",
+    "scope": ""
+   },
+   {
+    "term": "Managing the risk",
+    "para": "definitions",
+    "def": "means the activity of managing the exposures undertaken by the designated entities as a result of the transactions entered into by the designated entities with their clients.",
+    "scope": ""
+   },
+   {
+    "term": "Providing support to global sales/ trading/ structuring teams",
+    "para": "definitions",
+    "def": "means the activity of supporting the sales/trading/structuring teams of the designated entities through activities like pricing of vanilla and exotic products and asset classes, product analysis, post trade operational support, analysis etc.",
+    "scope": ""
+   },
+   {
+    "term": "Governing Body",
+    "para": "definitions",
+    "def": "shall mean: a. that part of the board of directors of the Banking company that has the responsibility of overseeing the IBU 's business in or from IFSC; b. if the IBU does not have that part of the board of the Banking company overseeing its business as described in (i) - that part of the management committee or similar body (by whatever name called of the Banking company (of which the IBU is a branch) that has…",
+    "scope": ""
+   },
+   {
+    "term": "Governance framework",
+    "para": "definitions",
+    "def": "shall mean the IBU's organisational structures, policies, procedures and systems and controls as they relate to the IBU 's business objectives and the means of achieving them and also includes:",
+    "scope": ""
+   },
+   {
+    "term": "Internal controls and assurance framework",
+    "para": "definitions",
+    "def": "refers to the functions of the IBU that provides reasonable assurance on the effectiveness and efficiency of the IBU's operations, the reliability of its financial reporting and the extent of its compliance with applicable laws and regulations and consists of:",
+    "scope": ""
+   },
+   {
+    "term": "Controlled functions",
+    "para": "definitions",
+    "def": "refers to those functions of an IBU that are specified as such in these directions and that may only be carried out by individuals who have been approved by the Authority to carry out those functions.",
+    "scope": ""
+   },
+   {
+    "term": "Designated functions",
+    "para": "definitions",
+    "def": "refers to those functions of an IBU that are specified as such in these directions and that may only be carried out by individuals who have been appointed by the IBU or the Banking company (as applicable) according to the process specified in these directions",
+    "scope": ""
+   },
+   {
+    "term": "Approved individual",
+    "para": "definitions",
+    "def": "refers to an employee of the IBU or the RO, working out of IFSC, who has been approved by the Authority to carry out \"Controlled functions\". Application form for `Approved Individual' status is at Annex to this module.",
+    "scope": ""
+   },
+   {
+    "term": "Outsourcing",
+    "para": "definitions",
+    "def": "refers to an arrangement in which a service provider provides the IBU with a service that may currently or potentially be performed by the IBU itself and shall include availment of services by the IBU from other branches (Indian or foreign) of the Banking Company- of which it is a branch. ii. Outsourced function deemed to be carried on by IBU The outsourced function under 3(i) shall be deemed to be carried out by…",
+    "scope": ""
+   }
+  ],
+  "REG-FC": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of",
+    "scope": ""
+   },
+   {
+    "term": "Aircraft Lease",
+    "para": "definitions clause",
+    "def": "includes operating and financial lease and any hybrid of operating and financial lease of aircraft or helicopter and engines of aircraft or helicopter or any other part thereof;",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Finance Company",
+    "para": "definitions clause",
+    "def": "means a financial institution as defined under clause (c) of subsection (1) of section 3 of the Act, separately incorporated to deal in one or more of the permissible activities specified under sub-regulation (1) of regulation 5 of these regulations, provided:",
+    "scope": ""
+   },
+   {
+    "term": "Finance Unit",
+    "para": "definitions clause",
+    "def": "means a financial institution as defined under clause (c) of sub-section",
+    "scope": ""
+   },
+   {
+    "term": "Non-resident",
+    "para": "definitions clause",
+    "def": "means a person resident outside India as defined under clause (w) of Section 2 of The Foreign Exchange Management Act, 1999;",
+    "scope": ""
+   },
+   {
+    "term": "Resident",
+    "para": "definitions clause",
+    "def": "means a person resident in India as defined under clause (v) of Section 2 of The Foreign Exchange Management Act, 1999;",
+    "scope": ""
+   },
+   {
+    "term": "Reserve Bank",
+    "para": "definitions clause",
+    "def": "means the Reserve Bank of India established under the Reserve Bank",
+    "scope": ""
+   },
+   {
+    "term": "Ship Lease",
+    "para": "definitions clause",
+    "def": "includes operating and financial lease and any hybrid of operating and financial lease of ships or ocean vessels and engines of ships or ocean vessels or any other part thereof; 2 nn) \"Special Purpose Vehicle (SPV)\" means a Finance Company incorporated or administered or both, by a Trust and Company Service Provider, in such manner as may be specified by the Authority, for undertaking permissible activities;",
+    "scope": ""
+   },
+   {
+    "term": "Trust and Company Service Provider (TCSP)",
+    "para": "definitions clause",
+    "def": "means an entity authorised under the International Financial Services Centres Authority (TechFin and Ancillary Services) Regulations, 2025, to provide TCSP services;\"",
+    "scope": ""
+   }
+  ],
+  "CIR-GRCTC": [
+   {
+    "term": "Act",
+    "para": "definitions",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of Section 4 of the International Financial Services Centres Authority Act, 2019;",
+    "scope": ""
+   },
+   {
+    "term": "Certificate of Registration",
+    "para": "definitions",
+    "def": "means the certificate granted by the Authority to a Finance Company/Finance Unit under sub-regulation (7) of regulation 3 of the FC Regulations, to undertake the activity of GRCTC;",
+    "scope": ""
+   },
+   {
+    "term": "Group Entities",
+    "para": "definitions",
+    "def": "means an arrangement involving two or more entities related to each other through any of the following relationships: (i) subsidiary - parent (as defined in Ind-AS 110/Accounting Standard 21); (ii) joint venture (as defined in Ind-AS 28/Accounting Standard 27); (iii) associate (as defined in Ind-AS 28/Accounting Standard 23); (iv) related party (as defined in terms of Ind-AS 24/ Accounting Standard 18), (v)…",
+    "scope": ""
+   },
+   {
+    "term": "Holding company",
+    "para": "definitions",
+    "def": "means a Finance Company which carries on the business of acquiring equity shares or preference shares of its group entities or investing in the bonds, debentures, debt or loans of its group entities, or such other activity as permitted by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "Owned Fund",
+    "para": "definitions",
+    "def": "means the paid-up-capital and free reserves, balance in share premium account and capital reserves representing surplus arising out of sale proceeds of assets, excluding reserves created by revaluation of asset, as reduced by accumulated loss balance, book value of intangible assets and deferred revenue expenditure, if any;",
+    "scope": ""
+   },
+   {
+    "term": "Permissible activities",
+    "para": "definitions",
+    "def": "means activities specified under clause 13 of the Framework;",
+    "scope": ""
+   },
+   {
+    "term": "Single Window IT System (SWIT)",
+    "para": "definitions",
+    "def": "refers to an online platform designed, inter-alia, to facilitate the processing of applications submitted by the applicant for obtaining registration from the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "Specified foreign currency",
+    "para": "definitions",
+    "def": "means the currency specified in the First Schedule of the International Financial Services Centres Authority (Banking) Regulations, 2020, or any other regulation notified by the Authority;",
+    "scope": ""
+   }
+  ],
+  "CIR-SHIP": [
+   {
+    "term": "Lessor",
+    "para": "definitions",
+    "def": "shall mean an entity registered with IFSCA as a Finance Company or Finance Unit in accordance with this Framework, and a. engaged in the business of providing ships or ocean vessel, engines of ship or ocean vessels, or any other part thereof under an operating lease, financial lease and/or a hybrid of financial and operating lease, and/or; b. any other related activity as may be specified by the Authority from…",
+    "scope": ""
+   },
+   {
+    "term": "Ocean vessel",
+    "para": "definitions",
+    "def": "shall include every description of watercraft used or capable of being used in the marine environment, such as ship, boat, sailing vessel, fishing vessel, submersible, semi-submersible, hydrofoils, non-displacement crafts, amphibious crafts, wing-in-ground crafts, pleasure crafts, barges, lighters, Mobile Offshore Drilling units, Mobile offshore Units, or of any other description, or any part thereof, and shall…",
+    "scope": ""
+   },
+   {
+    "term": "Ship",
+    "para": "definitions",
+    "def": "shall include any watercraft, used or capable of being used in navigation by its own propulsion, in, above, or under the water but does not include fishing or sailing watercraft.",
+    "scope": ""
+   }
+  ],
+  "REG-FACTORS": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Factoring Regulation Act, 2011 (12 of 2012);",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of Section 4 of the International Financial Services Centres Authority Act, 2019;",
+    "scope": ""
+   },
+   {
+    "term": "Central Registrar",
+    "para": "definitions clause",
+    "def": "means a person appointed as such under subsection (1) of section 21 of the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of 2002);",
+    "scope": ""
+   },
+   {
+    "term": "Central Registry",
+    "para": "definitions clause",
+    "def": "means the Central Registry set up under section 20 of the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of 2002); e. \"Factor\" shall have the meaning assigned to it in clause (i) of section 2 of the Act; f. \"Finance Company\" shall have the meaning assigned to it under clause (e) of sub-regulation (1) of regulation 2 of the International Financial Services…",
+    "scope": ""
+   },
+   {
+    "term": "International Trade Financing Services platform (ITFS)",
+    "para": "definitions clause",
+    "def": "means an electronic platform for facilitating the trade finance requirements of exporters or importers, through multiple financiers. i. \"Key managerial personnel\" shall have the meaning assigned to it in [clause6 51 of section 2 of the Companies Act, 2013 (18 of 2013) and shall include any other person whom the Factor may declare as key managerial personnel;",
+    "scope": ""
+   },
+   {
+    "term": "Relevant Person",
+    "para": "definitions clause",
+    "def": "means the Key Managerial Personnel and includes the persons exercising control over the Factor; 5 Modified vide Notification No. IFSCA/GN/2024/012, dated November 18, 2024, prior to modification, it read as : \"i\" 6 Modified vide Notification No. IFSCA/GN/2024/012, dated November 18, 2024, prior to modification, it read as : \"Clause 50 \". k. \"Trade Receivables Discounting System (TReDS)\" shall have the meaning…",
+    "scope": ""
+   }
+  ],
+  "CIR-FACT-CAP": [
+   {
+    "term": "Factoring transaction",
+    "para": "definitions",
+    "def": "means a transaction pertaining to factoring business;",
+    "scope": ""
+   },
+   {
+    "term": "Prudentially regulated financial institution",
+    "para": "definitions",
+    "def": "means a legal entity supervised by a regulator that imposes prudential requirements consistent with international norms or a legal entity (parent company or subsidiary) included in a consolidated group where any substantial legal entity in the consolidated group is supervised by a regulator that imposes prudential requirements consistent with international norms;",
+    "scope": ""
+   },
+   {
+    "term": "Protection provider",
+    "para": "definitions",
+    "def": "means an eligible institution as listed in para 4.1(b) of this circular and from which a Finance Company or Unit obtains credit protection;",
+    "scope": ""
+   }
+  ],
+  "REG-FM": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of",
+    "scope": ""
+   },
+   {
+    "term": "accredited investor",
+    "para": "definitions clause",
+    "def": "means any person who fulfils the eligibility criteria as specified by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "advertisement",
+    "para": "definitions clause",
+    "def": "shall include all forms of communication issued by or on behalf of the fund management entity that may influence investment decisions of any investor/prospective investors;",
+    "scope": ""
+   },
+   {
+    "term": "associate",
+    "para": "definitions clause",
+    "def": "means- Page 1 of 108",
+    "scope": ""
+   },
+   {
+    "term": "certificate of registration",
+    "para": "definitions clause",
+    "def": "means a certificate of registration granted by the Authority under regulation 12 of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "definitions clause",
+    "def": "shall include the right to appoint majority of the directors or to control the management or policy decisions exercisable by a person or persons acting individually or in concert, directly or indirectly, including by virtue of their shareholding or management rights or shareholders agreements or voting agreements or partnership agreements or in any other manner, including by holding interest, whether direct or…",
+    "scope": ""
+   },
+   {
+    "term": "close ended scheme",
+    "para": "definitions clause",
+    "def": "means any scheme in which the period of maturity of the scheme is specified;",
+    "scope": ""
+   },
+   {
+    "term": "compliance officer",
+    "para": "definitions clause",
+    "def": "means any senior officer, designated so and reporting to the board of directors or head of the organization in case board is not there, who is capable of understanding the financial statements and the requirements for legal and regulatory compliance under these regulations, and who shall be responsible for compliance of policies, procedures, maintenance of records, monitoring adherence to the rules for the…",
+    "scope": ""
+   },
+   {
+    "term": "corpus",
+    "para": "definitions clause",
+    "def": "means the total amount of funds committed by investors to the fund management entity under a scheme by way of a written contract or any such document as on a particular date;",
+    "scope": ""
+   },
+   {
+    "term": "discretionary portfolio manager",
+    "para": "definitions clause",
+    "def": "means a portfolio manager who under a contract relating to portfolio management, exercises or may exercise, any degree of discretion as to the investment of funds or management of the portfolio of securities of the client, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "family investment fund",
+    "para": "definitions clause",
+    "def": "means a fund, pooling money only from a single family under one or more investment vehicles and has been set up in terms of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "foreign jurisdiction",
+    "para": "definitions clause",
+    "def": "means a country, other than India, whose securities market regulator is a signatory to International Organization of Securities Commissions' Multilateral Memorandum of Understanding (Appendix A signatories) or a signatory to a bilateral Memorandum of Understanding with the Authority, and which is not identified in the public statement of Financial Action Task Force as:",
+    "scope": ""
+   },
+   {
+    "term": "fund management entity (FME)",
+    "para": "definitions clause",
+    "def": "means an entity registered with the Authority as a Fund Management Entity under any of the categories specified in these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "fund manager",
+    "para": "definitions clause",
+    "def": "means any individual who is appointed by the FME to manage investments by whatever name called;",
+    "scope": ""
+   },
+   {
+    "term": "fund of funds scheme",
+    "para": "definitions clause",
+    "def": "means a scheme that invests in other schemes whether in IFSC or India or foreign jurisdictions, except to the extent of funds required for meeting expenses, Page 3 of 108 hedging or liquidity requirements for the purpose of repurchases, redemptions and distribution, as disclosed in the placement memorandum or offer document of the scheme;",
+    "scope": ""
+   },
+   {
+    "term": "inspecting authority",
+    "para": "definitions clause",
+    "def": "means one or more persons authorised by the Authority to undertake inspection of the books, accounts, records and documents of a FME or related entities in terms of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "index scheme",
+    "para": "definitions clause",
+    "def": "means a scheme that invests in securities in the same proportion as an index of securities;",
+    "scope": ""
+   },
+   {
+    "term": "investee company",
+    "para": "definitions clause",
+    "def": "means any company, special purpose vehicle or limited liability partnership or body corporate or real estate investment trust or infrastructure investment trust or a fund in which an investment is made;",
+    "scope": ""
+   },
+   {
+    "term": "key managerial personnel (KMP)",
+    "para": "definitions clause",
+    "def": "means the officers or personnel of the FME who are members of its core management team and includes members of the management one level below the executive directors of the FME, functional heads and includes `key managerial personnel' as defined under the Companies Act, 2013, or any other person whom the FME may designate as a key managerial personnel;",
+    "scope": ""
+   },
+   {
+    "term": "net worth",
+    "para": "definitions clause",
+    "def": "means the aggregate value of the paid-up share capital (or capital contribution) and all reserves created out of the profits, securities premium account and debit or credit balance of profit and loss account, after deducting the aggregate value of the accumulated losses, deferred expenditure and miscellaneous expenditure not written off, as per the balance sheet, but does not include reserves created out of…",
+    "scope": ""
+   },
+   {
+    "term": "offer document",
+    "para": "definitions clause",
+    "def": "means any document by which a Registered FME (Retail) invites public for subscription in a retail scheme, exchange traded fund, or public offer by an Investment Trust;",
+    "scope": ""
+   },
+   {
+    "term": "open ended scheme",
+    "para": "definitions clause",
+    "def": "means a scheme which is not a close ended scheme;",
+    "scope": ""
+   },
+   {
+    "term": "placement memorandum",
+    "para": "definitions clause",
+    "def": "means any document by which a FME invites accredited investors or investors investing above a specified threshold to invest in a Venture Capital scheme or a restricted scheme or a private placement by an Investment Trust;",
+    "scope": ""
+   },
+   {
+    "term": "portfolio",
+    "para": "definitions clause",
+    "def": "means the total holdings of securities and financial assets belonging to any person;",
+    "scope": ""
+   },
+   {
+    "term": "principal officer",
+    "para": "definitions clause",
+    "def": "means an employee designated as such by the FME under sub- regulation (1) of regulation 7; Page 4 of 108",
+    "scope": ""
+   },
+   {
+    "term": "recognised stock exchange",
+    "para": "definitions clause",
+    "def": "means a recognised stock exchange in IFSC;",
+    "scope": ""
+   },
+   {
+    "term": "Registered FME",
+    "para": "definitions clause",
+    "def": "shall mean a FME which has received a Certificate of registration as Registered FME (Non-Retail) or Registered FME (Retail);",
+    "scope": ""
+   },
+   {
+    "term": "restricted scheme",
+    "para": "definitions clause",
+    "def": "means a scheme offered on private placement basis only to \"accredited investors\" or investors investing at least USD 1,50,000 and not having more than 1000 investors or such other number as may be specified by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "Retail scheme",
+    "para": "definitions clause",
+    "def": "means a scheme offered to all investors or a section of the investors for subscription with no ceiling as to number of investors in the scheme;",
+    "scope": ""
+   },
+   {
+    "term": "sectoral scheme",
+    "para": "definitions clause",
+    "def": "refers to a retail scheme which primarily invests in the securities of a particular sector as disclosed in its offer document;",
+    "scope": ""
+   },
+   {
+    "term": "single family",
+    "para": "definitions clause",
+    "def": "includes a group of individuals who are the lineal descendants of a common ancestor and includes their spouses (including widows and widowers, whether remarried or not) and children (including stepchildren, adopted children, ex nuptial children) and also includes entities such as sole proprietorship firm, partnership firm, company, limited liability partnership, trust or a body corporate, in which an individual…",
+    "scope": ""
+   },
+   {
+    "term": "Single Window IT Systems (SWITs)",
+    "para": "definitions clause",
+    "def": "refers to an online platform designed, inter-alia, to facilitate the processing of applications submitted by the applicants for obtaining Certificate of Registration under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "thematic scheme",
+    "para": "definitions clause",
+    "def": "means a retail scheme which primarily invests the securities of a particular theme as disclosed in its offer document;",
+    "scope": ""
+   },
+   {
+    "term": "trust",
+    "para": "definitions clause",
+    "def": "means a trust established under the Indian Trusts Act, 1882, or under an Act of Parliament or State Legislation.",
+    "scope": ""
+   },
+   {
+    "term": "Venture Capital Scheme",
+    "para": "definitions clause",
+    "def": "means a scheme that invests primarily in unlisted securities of start-ups, emerging or early-stage venture capital undertakings primarily involved in new products, new services, technology or intellectual property right based activities or a new business model or other schemes which invest in such entities and shall also include an angel fund as specified by the Authority.",
+    "scope": ""
+   },
+   {
+    "term": "special situation fund",
+    "para": "definitions clause",
+    "def": "means a scheme that invests in special situation assets in accordance with its investment objectives and may act as a resolution applicant under the Insolvency and Bankruptcy Code, 2016. Eligible FMEs and Filing of Placement Memorandum 55. (1) A Registered FME may launch a special situation fund through a private placement memorandum by filing the memorandum with the Authority along with the applicable fees in…",
+    "scope": ""
+   },
+   {
+    "term": "eligible infrastructure project",
+    "para": "definitions clause",
+    "def": "means an infrastructure project which, prior to the date of its acquisition by, or transfer to, the InvIT, satisfies the following conditions,",
+    "scope": ""
+   },
+   {
+    "term": "governing board",
+    "para": "definitions clause",
+    "def": "means a group of members assigned by the LLP to act in a manner similar to the board of directors in case of a company;",
+    "scope": ""
+   },
+   {
+    "term": "Investment Trust",
+    "para": "definitions clause",
+    "def": "means a REIT or an InvIT, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "investment management agreement",
+    "para": "definitions clause",
+    "def": "means an agreement between the trustee and the investment manager which lays down the roles and responsibilities of the investment manager towards the Investment Trust;",
+    "scope": ""
+   },
+   {
+    "term": "investment manager",
+    "para": "definitions clause",
+    "def": "means a Fund Management Entity registered under these regulations which manages assets and investments of the Investment Trust and undertakes activities of the Investment Trust;",
+    "scope": ""
+   },
+   {
+    "term": "InvIT assets",
+    "para": "definitions clause",
+    "def": "means assets owned by the InvIT, whether directly or through a holdco and/ or SPV, and includes all rights, interests and benefits arising from and incidental to ownership of such assets;",
+    "scope": ""
+   },
+   {
+    "term": "parties to the Investment Trust",
+    "para": "definitions clause",
+    "def": "includes the sponsor(s), investment manager, trustee and project manager(s), if applicable;",
+    "scope": ""
+   },
+   {
+    "term": "PPP project",
+    "para": "definitions clause",
+    "def": "means an infrastructure project undertaken on a Public- Private Partnership basis;",
+    "scope": ""
+   },
+   {
+    "term": "pre-COD project",
+    "para": "definitions clause",
+    "def": "means an infrastructure project: i. which has not achieved commercial operation date as defined under the relevant project agreements including the concession agreement, power purchase agreement or any other agreement of a similar nature entered into in relation to the operation of a project or any agreement entered into with the lenders; and ii. which has,- a. achieved completion of at least fifty per cent.…",
+    "scope": ""
+   },
+   {
+    "term": "project manager",
+    "para": "definitions clause",
+    "def": "means a company or LLP or a body corporate designated as the project manager by the InvIT, responsible for achieving execution /management of the project and in case of PPP projects, shall mean the entity responsible for such execution and achievement of project milestones in accordance with the concession agreement or any other relevant project document;",
+    "scope": ""
+   },
+   {
+    "term": "real estate related assets",
+    "para": "definitions clause",
+    "def": "shall mean listed or unlisted debt securities and listed shares of or issued by property corporations, mortgage-backed securities, other property funds, and assets incidental to the ownership of real estate;",
+    "scope": ""
+   },
+   {
+    "term": "REIT assets",
+    "para": "definitions clause",
+    "def": "means real estate assets and any other assets held by the REIT, on a freehold or leasehold basis, whether directly or through a holdco and/or a special purpose vehicle;",
+    "scope": ""
+   },
+   {
+    "term": "sponsor",
+    "para": "definitions clause",
+    "def": "means a company or LLP or body corporate which sets up the Investment Trust and is designated as such at the time of application;",
+    "scope": ""
+   },
+   {
+    "term": "trustee",
+    "para": "definitions clause",
+    "def": "means a person who holds the assets of Investment Trust in trust for the benefit of the investors;",
+    "scope": ""
+   },
+   {
+    "term": "valuer",
+    "para": "definitions clause",
+    "def": "means a person who is authorised to practice as a valuer under the law of the state or country where the valuation takes place; Page 54 of 108 Registration 84. (1) An application for the grant of certificate of registration as Investment Trust shall be made, by the sponsor on behalf of the trust to the Authority in the format specified by the recognised stock exchange(s) or the Authority, and shall be accompanied…",
+    "scope": ""
+   },
+   {
+    "term": "third-party fund manager",
+    "para": "definitions clause",
+    "def": "means and includes an entity registered or regulated, for the purposes of fund management, portfolio management, investment advisory or any other similar activity, by whatever name called, with the concerned financial sector regulator in the country of its incorporation, and which avails the third-party fund management services from a Registered FME. Obligation to seek Authorisation and compliances 107C. (1) A…",
+    "scope": ""
+   }
+  ],
+  "REG-CMI": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019",
+    "scope": ""
+   },
+   {
+    "term": "banker to an issue",
+    "para": "definitions clause",
+    "def": "means a bank carrying out banking related activities in an issue;",
+    "scope": ""
+   },
+   {
+    "term": "broker dealer",
+    "para": "definitions clause",
+    "def": "means a person which is in the business of buying and selling securities and other permitted financial products for its own account or on behalf of its customers and includes a trading member of a recognised stock exchange, and is registered as a broker dealer with the Authority under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "capital market intermediary (CMI)",
+    "para": "definitions clause",
+    "def": "means an intermediary registered or authorised with the Authority under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "clearing member",
+    "para": "definitions clause",
+    "def": "means a person having clearing and settlement rights in a recognised clearing corporation and is registered as a clearing member with the Authority under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "compliance officer",
+    "para": "definitions clause",
+    "def": "means any senior officer, designated so and reporting to the board of directors or the governing body, as the case may be, who is capable of understanding the financial statements and the requirements for legal and regulatory compliances under these regulations and all applicable legal and regulatory requirements for the activities of the capital market intermediary in the IFSC, including compliance of policies,…",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "definitions clause",
+    "def": "shall include the right to appoint majority of the directors or to control the management or policy decisions exercisable by a person or persons acting individually or in concert, directly or indirectly, including by virtue of their shareholding or management rights or shareholders agreements or voting agreements or in any other manner, including by holding interest, whether direct or indirect, to the extent of…",
+    "scope": ""
+   },
+   {
+    "term": "credit rating agency",
+    "para": "definitions clause",
+    "def": "means a person which is primarily engaged in rating of securities, financial products, issuers or sovereigns;",
+    "scope": ""
+   },
+   {
+    "term": "custodian",
+    "para": "definitions clause",
+    "def": "means a person who carries on or proposes to carry on the business of providing custodial services and is registered as a custodian with the Authority under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "debenture trustee",
+    "para": "definitions clause",
+    "def": "means a trustee appointed in respect of any issue of debentures;",
+    "scope": ""
+   },
+   {
+    "term": "depository participant",
+    "para": "definitions clause",
+    "def": "means a participant of a recognised depository and is registered as a depository participant with the Authority under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "distributor",
+    "para": "definitions clause",
+    "def": "means a person who for a commission or fee engages with clients to facilitate investment or subscription into \"capital market products\" or \"capital market services\";",
+    "scope": ""
+   },
+   {
+    "term": "ESG Data Products",
+    "para": "definitions clause",
+    "def": "includes products and services relating to ESG-related information provided by an ERDPP registered with the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "ESG Ratings",
+    "para": "definitions clause",
+    "def": "includes the broad spectrum of rating products relating to sustainable finance and include ESG scorings, ESG rankings, Sector ESG Ratings, and Thematic scores;",
+    "scope": ""
+   },
+   {
+    "term": "ESG Ratings and Data Products Provider (ERDPP)",
+    "para": "definitions clause",
+    "def": "means an entity engaged in the activity (ies) of providing services relating to ESG Rating or ESG Data Product and is registered with the Authority under these regulations:",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Jurisdiction",
+    "para": "definitions clause",
+    "def": "means a country, other than India, whose securities market regulator is a signatory to International Organization of Securities Commission's Multilateral Memorandum of Understanding (Appendix A signatories) or a signatory to a bilateral Memorandum of Understanding with the Authority, and which is not identified in the public statement of Financial Action Task Force as:",
+    "scope": ""
+   },
+   {
+    "term": "group entity",
+    "para": "definitions clause",
+    "def": "means an entity of a business group that consists of a parent company or of any other type of legal person exercising control over the rest of the group, together with branches and/or subsidiaries;",
+    "scope": ""
+   },
+   {
+    "term": "inspecting authority",
+    "para": "definitions clause",
+    "def": "means one or more persons appointed by the Authority to undertake inspection of the books, accounts, records and documents of a capital market intermediary under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "investment advice",
+    "para": "definitions clause",
+    "def": "means advice relating to investing in, purchasing, selling or otherwise dealing in securities or investment products, and advice on investment portfolio containing securities or investment products, whether written, oral or through any other means of communication for the benefit of the client and shall include financial planning: Provided that investment advice given through newspaper, magazines, any electronic…",
+    "scope": ""
+   },
+   {
+    "term": "investment adviser",
+    "para": "definitions clause",
+    "def": "means a person, who for consideration, is engaged in the business of providing investment advice to clients or other persons or group of persons and includes any person who holds out himself as an investment adviser, by whatever name called, and is registered with the Authority as an investment adviser under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "investment banker",
+    "para": "definitions clause",
+    "def": "means a person who is in the business of issue management either by making arrangements regarding selling, buying or subscribing to securities or acting as manager, consultant, adviser or rendering corporate advisory service in relation to such issue management, and is registered with the Authority as an investment banker under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "net worth",
+    "para": "definitions clause",
+    "def": "means the aggregate value of the paid-up share capital (or capital contribution) and all reserves created out of the profits, securities premium account and debit or credit balance of profit and loss account, after deducting the aggregate value of the accumulated losses, deferred expenditure and miscellaneous expenditure not written off, as per the balance sheet, but does not include reserves created out of…",
+    "scope": ""
+   },
+   {
+    "term": "recognised clearing corporation",
+    "para": "definitions clause",
+    "def": "means a clearing corporation recognised by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "recognised depository",
+    "para": "definitions clause",
+    "def": "means a depository recognised by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "registered credit rating agency",
+    "para": "definitions clause",
+    "def": "means a credit rating agency registered with the Authority under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "registered debenture trustee",
+    "para": "definitions clause",
+    "def": "means a debenture trustee registered with the Authority under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "research report",
+    "para": "definitions clause",
+    "def": "means any written or electronic communication that includes research analysis or research recommendation, or an opinion concerning securities or public offer, providing a basis for investment decision and does not include the following communications:",
+    "scope": ""
+   },
+   {
+    "term": "SEBI",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Securities and Exchange Board of India Act, 1992;",
+    "scope": ""
+   },
+   {
+    "term": "capital market products",
+    "para": "definitions clause",
+    "def": "shall mean \"securities\" as defined under sub-section",
+    "scope": ""
+   },
+   {
+    "term": "capital market services",
+    "para": "definitions clause",
+    "def": "shall mean and include investment advisory services, portfolio management services, by whatever name called, provided by a service provider which is a regulated financial entity, and such other services as may be specified by the Authority.",
+    "scope": ""
+   }
+  ],
+  "REG-LISTING": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority",
+    "scope": ""
+   },
+   {
+    "term": "business combination",
+    "para": "definitions clause",
+    "def": "means a merger or amalgamation or acquisition of shares or assets of one or more companies having business operations by a Special Purpose Acquisition Company;",
+    "scope": ""
+   },
+   {
+    "term": "certificate of deposit",
+    "para": "definitions clause",
+    "def": "means a negotiable, unsecured money market instrument issued in dematerialised form or as a Usance Promissory Note against funds deposited at a Banking Unit for a maturity period upto one year;",
+    "scope": ""
+   },
+   {
+    "term": "commercial paper",
+    "para": "definitions clause",
+    "def": "means an unsecured money market instrument issued in the form of promissory note;",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "definitions clause",
+    "def": "shall include the right to appoint majority of the directors or to control the management or policy decisions exercisable by a person or persons acting individually or in concert, directly or indirectly, including by virtue of their shareholding or management rights or shareholders agreements or voting agreements or in any other manner;",
+    "scope": ""
+   },
+   {
+    "term": "controlling shareholder",
+    "para": "definitions clause",
+    "def": "shall include a person who has control over the affairs of the issuer, directly or indirectly whether as a shareholder, director or otherwise;",
+    "scope": ""
+   },
+   {
+    "term": "convertible debt instrument",
+    "para": "definitions clause",
+    "def": "means an instrument which creates or acknowledges indebtedness and is convertible into equity shares of the issuer at a later date with or without the option of the holder of the instrument, whether constituting a charge on the assets of the issuer or",
+    "scope": ""
+   },
+   {
+    "term": "convertible preference shares",
+    "para": "definitions clause",
+    "def": "means preference shares which can be converted into a predetermined number of ordinary shares usually after a specified date or upon the occurrence of certain events;",
+    "scope": ""
+   },
+   {
+    "term": "convertible securities",
+    "para": "definitions clause",
+    "def": "means securities which are convertible into or exchangeable with equity shares of the issuer at a later date, with or without the option of the holder of such securities and includes convertible debt instruments and convertible preference shares;",
+    "scope": ""
+   },
+   {
+    "term": "debt securities",
+    "para": "definitions clause",
+    "def": "means non-convertible debt securities which create or acknowledge indebtedness and includes debentures, notes and bonds;",
+    "scope": ""
+   },
+   {
+    "term": "depository receipt (DR)",
+    "para": "definitions clause",
+    "def": "means a negotiable financial instrument representing underlying securities of an issuer in another jurisdiction;",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Jurisdiction",
+    "para": "definitions clause",
+    "def": "means a country, other than India, whose securities market regulator is a signatory to International Organization of Securities Commission's Multilateral Memorandum of Understanding or a signatory to a bilateral Memorandum of Understanding with the Authority, and which is not identified in the public statement of Financial Action Task Force as:",
+    "scope": ""
+   },
+   {
+    "term": "green shoe option",
+    "para": "definitions clause",
+    "def": "means an option of allotting specified securities in excess of the specified shares offered in the public issue as a post- listing price stabilizing mechanism;",
+    "scope": ""
+   },
+   {
+    "term": "group entity",
+    "para": "definitions clause",
+    "def": "means an entity of a business group that consists of a parent company or of any other type of legal person exercising control over the rest of the group, together with branches and/or subsidiaries;",
+    "scope": ""
+   },
+   {
+    "term": "information memorandum",
+    "para": "definitions clause",
+    "def": "means a document that provides investors with information about the issuer and the securities in connection with an application for listing of securities and includes an offering memorandum or an offering circular;",
+    "scope": ""
+   },
+   {
+    "term": "initial public offer (IPO)",
+    "para": "definitions clause",
+    "def": "means an offer of specified securities by an unlisted issuer to the public for subscription and includes an offer for sale of specified securities to the public by any existing holder of such specified securities in an unlisted issuer;",
+    "scope": ""
+   },
+   {
+    "term": "issuer",
+    "para": "definitions clause",
+    "def": "means an entity which makes or proposes to make or has made an issue of specified securities or debt securities or depository receipts or commercial paper or certificates of deposit or any other permitted financial products and intends to list on a recognised stock exchange under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "lead manager",
+    "para": "definitions clause",
+    "def": "means an investment banker registered with the Authority and appointed by the issuer to manage the issue and in case of a book built issue, the lead manager(s) appointed by the issuer shall act as the book running lead manager(s) for the purposes of book building;",
+    "scope": ""
+   },
+   {
+    "term": "Listed Entity",
+    "para": "definitions clause",
+    "def": "means an entity whose specified securities or debt securities or depository receipts or any other permitted financial products are listed on a recognised stock exchange under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "offer document",
+    "para": "definitions clause",
+    "def": "includes a red herring prospectus, prospectus, shelf prospectus, letter of offer, tranche prospectus, placement memorandum, as applicable;",
+    "scope": ""
+   },
+   {
+    "term": "qualified institutions placement",
+    "para": "definitions clause",
+    "def": "means issue of specified securities to qualified institutional buyers on a private placement basis and includes an offer for sale of specified securities by the promoters or controlling shareholders on a private placement basis;",
+    "scope": ""
+   },
+   {
+    "term": "recognised stock exchange",
+    "para": "definitions clause",
+    "def": "means a stock exchange recognised by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "Special Purpose Acquisition Company (SPAC)",
+    "para": "definitions clause",
+    "def": "means a company which does not have any operating business and has been formed with the primary objective to effect a business combination;",
+    "scope": ""
+   },
+   {
+    "term": "specified securities",
+    "para": "definitions clause",
+    "def": "means equity shares and convertible securities;",
+    "scope": ""
+   },
+   {
+    "term": "underwriter",
+    "para": "definitions clause",
+    "def": "means a person who engages in the business of underwriting of an issue of securities of a body corporate.",
+    "scope": ""
+   }
+  ],
+  "REG-MAR": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of 2019);",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "connected person",
+    "para": "definitions clause",
+    "def": "means a person who is or has been, during the six months prior to the concerned act, associated with an entity, directly or indirectly, in any capacity, including by reason of,-",
+    "scope": ""
+   },
+   {
+    "term": "designated person",
+    "para": "definitions clause",
+    "def": "means the controlling shareholders and directors of a listed entity, and includes such other persons who may be categorised as such by the listed entity;",
+    "scope": ""
+   },
+   {
+    "term": "fraud",
+    "para": "definitions clause",
+    "def": "means any act, expression, omission or concealment committed, whether in a deceitful manner or not, by a person, by any other person with his connivance, or by his agent while dealing in securities, in order to induce another person or his agent to deal in securities, whether or not there is any wrongful gain or avoidance of any loss, and includes,-",
+    "scope": ""
+   },
+   {
+    "term": "immediate relative",
+    "para": "definitions clause",
+    "def": "means spouse of a person and includes parent, sibling, and child of such person or of the spouse, any of whom is either dependent financially on such person, or consults such person in taking decisions relating to trading in securities;",
+    "scope": ""
+   },
+   {
+    "term": "insider",
+    "para": "definitions clause",
+    "def": "means any person who is,-",
+    "scope": ""
+   },
+   {
+    "term": "listed",
+    "para": "definitions clause",
+    "def": "means listed on a recognised stock exchange in the International Financial Services Centre;",
+    "scope": ""
+   },
+   {
+    "term": "market abuse",
+    "para": "definitions clause",
+    "def": "means unlawful behaviour in the securities market, and shall include, but not be restricted to, insider trading and manipulative, fraudulent and unfair trade practice;",
+    "scope": ""
+   },
+   {
+    "term": "mule account",
+    "para": "definitions clause",
+    "def": "includes a trading account maintained with a broker dealer or a dematerialised account or bank account linked with such trading account in the name(s) of a person, where the account is effectively controlled by another person, whether or not the consideration for transactions in such account is paid by such other person;",
+    "scope": ""
+   },
+   {
+    "term": "trading",
+    "para": "definitions clause",
+    "def": "includes subscribing, redeeming, switching, buying, selling, dealing, or agreeing to subscribe, redeem, switch, buy, sell, deal in any securities, and \"trade\" shall be construed accordingly.",
+    "scope": ""
+   }
+  ],
+  "REG-INS-REG": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of Section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Certificate",
+    "para": "definitions clause",
+    "def": "means a Certificate of Registration granted by the Authority under these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Domestic Tariff Area' or `DTA",
+    "para": "definitions clause",
+    "def": "means the whole of India (including the territorial waters and continental shelf) but does not include the areas of the Special Economic Zones;",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Insurer or Foreign Re-insurer",
+    "para": "definitions clause",
+    "def": "means a body corporate incorporated under the law of any country outside India and duly registered with its home country regulatory or supervisory authority for transacting insurance or re-insurance business, or both;",
+    "scope": ""
+   },
+   {
+    "term": "(d) `binding agreement",
+    "para": "definitions clause",
+    "def": "means an agreement between an MGA and a foreign insurer or foreign re-insurer, under which a foreign insurer or foreign re-insurer authorises an MGA to act as an agent and to enter into a contract of insurance on its behalf;\" Page 2 of 24",
+    "scope": ""
+   },
+   {
+    "term": "International Financial Service Centre Insurance Office' or `IIO",
+    "para": "definitions clause",
+    "def": "means a financial institution under clause (c) of sub-section (1) of Section 3 of the Act that is registered with the Authority to undertake permissible activities under these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "INR",
+    "para": "definitions clause",
+    "def": "means the Indian currency called Indian Rupee;",
+    "scope": ""
+   },
+   {
+    "term": "IRDAI",
+    "para": "definitions clause",
+    "def": "means The Insurance Regulatory and Development Authority of India constituted under the Insurance Regulatory and Development Authority",
+    "scope": ""
+   },
+   {
+    "term": "Lloyd's",
+    "para": "definitions clause",
+    "def": "means the society of underwriters known in the United Kingdom as Lloyd's and incorporated by the Lloyd's Act 1871 of the United Kingdom;",
+    "scope": ""
+   },
+   {
+    "term": "Lloyd's IFSC",
+    "para": "definitions clause",
+    "def": "means the branch office of the Lloyd's granted certificate of registration by the Authority under these Regulations to transact insurance or re-insurance business;",
+    "scope": ""
+   },
+   {
+    "term": "Parent Entity' or `Head Office",
+    "para": "definitions clause",
+    "def": "means the Applicant as defined under clause (b) of this sub-regulation or such other affiliate of the Applicant that has been designated as `Head Office', with the approval of the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "Net Owned Fund' or `NOF",
+    "para": "definitions clause",
+    "def": "means the sum of paid-up equity capital, free reserves and securities premium account reduced by accumulated losses and book value of intangible assets; 4 Omitted by International Financial Services Centres Authority (Managing General Agents) Regulations, 2026, w.e.f. 12-06-2026. Prior to its omission, clause (p) of sub-regulation (1) of regulation 3 read as under:",
+    "scope": ""
+   },
+   {
+    "term": "Regulations",
+    "para": "definitions clause",
+    "def": "means International Financial Services Centres Authority (Registration of Insurance Business) Regulations, 2021; and",
+    "scope": ""
+   },
+   {
+    "term": "USD",
+    "para": "definitions clause",
+    "def": "means United States Dollar.",
+    "scope": ""
+   },
+   {
+    "term": "binding authority",
+    "para": "definitions clause",
+    "def": "means an agreement between a Service Company and a coverholder under which the Service Company authorises the coverholder to enter into a contract of insurance on behalf of the members of a syndicate for whom the Service Company acts as an agent;",
+    "scope": ""
+   },
+   {
+    "term": "Council of Lloyd's",
+    "para": "definitions clause",
+    "def": "means the Council of Lloyd's established by the Lloyd's Act 1982 of the United Kingdom;",
+    "scope": ""
+   },
+   {
+    "term": "Members of Lloyd's",
+    "para": "definitions clause",
+    "def": "means a person admitted to membership of Lloyd's as an underwriting member who wish to participate in Lloyd's at the IFSC;",
+    "scope": ""
+   },
+   {
+    "term": "Syndicate",
+    "para": "definitions clause",
+    "def": "means a member or group of members underwriting insurance business at Lloyd's through the agency of a managing agent or a substitute agent to which a syndicate number is assigned by the Council of Lloyd's.",
+    "scope": ""
+   },
+   {
+    "term": "Syndicates of Lloyd's IFSC",
+    "para": "definitions clause",
+    "def": "means Syndicates of Lloyd's who wish to participate in Lloyd's IFSC through a service company or coverholder delegated authority arrangement.",
+    "scope": ""
+   }
+  ],
+  "REG-INS-INT": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act,",
+    "scope": ""
+   },
+   {
+    "term": "Authorised verifier",
+    "para": "definitions clause",
+    "def": "means a person employed by the insurance intermediary for insurance solicitation and procurement through telemarketing and distance marketing mode;",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under section 4 (1) of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Broker Qualified Person",
+    "para": "definitions clause",
+    "def": "means an individual who is an employee or director of the insurance broker engaged in solicitation and procurement of insurance business and who has undergone training and passed the examination as specified by Authority for them;",
+    "scope": ""
+   },
+   {
+    "term": "Certificate",
+    "para": "definitions clause",
+    "def": "means a Certificate of Registration (CoR) granted by the Authority under these regulations to act as an intermediary or insurance intermediary;",
+    "scope": ""
+   },
+   {
+    "term": "Composite broker",
+    "para": "definitions clause",
+    "def": "means an insurance broker registered with the Authority who for a remuneration and/or a fee, solicits and arranges insurance and/or re-insurance for its clients with insurers and/or reinsurers, and/or provide risk management services, as permitted under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Corporate agent",
+    "para": "definitions clause",
+    "def": "means a person registered with the Authority who undertakes solicitation and servicing of insurance business;",
+    "scope": ""
+   },
+   {
+    "term": "Direct broker",
+    "para": "definitions clause",
+    "def": "means an insurance broker registered with the Authority who for a remuneration and/or a fee, solicits and arranges insurance business for its clients with insurers, and/or provide risk management services as permitted under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "FATF compliant jurisdiction",
+    "para": "definitions clause",
+    "def": "means a jurisdiction compliant with International Standards on Combating Money Laundering and the Financing of Terrorism & Proliferation recommended by the Financial Action Task Force; Page 2 of 69",
+    "scope": ""
+   },
+   {
+    "term": "Health Services by the TPA",
+    "para": "definitions clause",
+    "def": "means services mentioned in clause (1) PART - D of SCHEDULE - II of these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Insurance Act",
+    "para": "definitions clause",
+    "def": "means the Insurance Act, 1938 (4 of 1938);",
+    "scope": ""
+   },
+   {
+    "term": "Insurance broker",
+    "para": "definitions clause",
+    "def": "means a person registered with the Authority under these regulations, who is a direct broker, a reinsurance broker or a composite broker;",
+    "scope": ""
+   },
+   {
+    "term": "Insurance self-network platform",
+    "para": "definitions clause",
+    "def": "means an electronic platform set- up by an intermediary or insurance intermediary for the purpose of distribution, procurement or solicitation of insurance or reinsurance business.",
+    "scope": ""
+   },
+   {
+    "term": "Insurance surveyor and loss assessor",
+    "para": "definitions clause",
+    "def": "means a person registered with the Authority under these regulations for providing services relating to losses under contracts of insurance;",
+    "scope": ""
+   },
+   {
+    "term": "IRDAI",
+    "para": "definitions clause",
+    "def": "means the Insurance Regulatory and Development Authority of India established under Section 3 of the Insurance Regulatory and Development Authority Act, 1999 (41 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "Principal officer",
+    "para": "definitions clause",
+    "def": "means an employee of the IIIO who is responsible for the decisions made by such intermediary for its management, administration and operations and in case of IIIO registered as a branch office, the same shall be construed as \"Branch Head\";",
+    "scope": ""
+   },
+   {
+    "term": "Regulations",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority (Insurance Intermediary) Regulations, 2021;",
+    "scope": ""
+   },
+   {
+    "term": "Reinsurance broker",
+    "para": "definitions clause",
+    "def": "means an insurance broker registered with the Authority who for a remuneration and/or a fee, solicits and arranges re- insurance for its clients with insurers and/or reinsurers, and/or provide risk management services, as permitted under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Risk Management",
+    "para": "definitions clause",
+    "def": "means providing insurance risk management services viz. risk assessment, risk advisory, risk mitigation or risk minimisation by an insurance broker to its clients for the benefit of its client;",
+    "scope": ""
+   },
+   {
+    "term": "Specified person",
+    "para": "definitions clause",
+    "def": "means a direct employee of a corporate agent who is responsible for soliciting and/or procuring insurance business on behalf of a corporate agent;",
+    "scope": ""
+   },
+   {
+    "term": "Telemarketer",
+    "para": "definitions clause",
+    "def": "means an entity registered with Telecom Regulatory Authority of India under Chapter III of The Telecom Commercial Communications Customer Preference Regulations, 2010;",
+    "scope": ""
+   }
+  ],
+  "REG-MGA": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of 2019);",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub- section (1) of Section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Binding Authority Agreement (BAA)",
+    "para": "definitions clause",
+    "def": "means a written contract executed between an MGA and a foreign insurer under which a foreign insurer authorises the MGA to act as an agent and to enter into a contract of insurance on its behalf; setting forth the terms, conditions for binding insurance risks or settlement of claims;",
+    "scope": ""
+   },
+   {
+    "term": "Board of the Applicant",
+    "para": "definitions clause",
+    "def": "means a `Board' as defined under the Companies Act, 2013 (No. 18 of 2013) or a body discharging equivalent functions, by whatever name called;",
+    "scope": ""
+   },
+   {
+    "term": "Domestic Tariff Area (DTA)",
+    "para": "definitions clause",
+    "def": "means the whole of India (including the territorial waters and continental shelf) but does not include the areas of the Special Economic Zones;",
+    "scope": ""
+   },
+   {
+    "term": "Fiduciary Account",
+    "para": "definitions clause",
+    "def": "means a designated account against each foreign insurer, maintained by an MGA, with an IFSC Banking Unit exclusively for holding premiums or claim settlements, or both on behalf of such foreign insurer;",
+    "scope": ""
+   },
+   {
+    "term": "Gross Written Premium (GWP)",
+    "para": "definitions clause",
+    "def": "means the total amount of premium received by an MGA on behalf of foreign insurer(s);",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Insurer",
+    "para": "definitions clause",
+    "def": "means a body corporate incorporated under the law of any country outside India and duly registered with its home country regulatory or supervisory authority for transacting direct insurance business;",
+    "scope": ""
+   },
+   {
+    "term": "IFSC Banking Unit (IBU)",
+    "para": "definitions clause",
+    "def": "means a unit licensed by the Authority to undertake permissible activities under International Financial Services Centres Authority (Banking) Regulations, 2020; (m)`Managing General Agent (MGA)' means an insurance intermediary registered under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "MGA Qualified Person (MQP)",
+    "para": "definitions clause",
+    "def": "means an individual who is an employee or director of the MGA engaged in solicitation, underwriting risks and/or settlement of claims of direct insurance business, and who has undergone such training and passed such examination as may be specified by the Competent Authority;",
+    "scope": ""
+   },
+   {
+    "term": "Principal Officer",
+    "para": "definitions clause",
+    "def": "means a designated employee of the MGA responsible for day-to-day affairs or conduct of its overall activities, including regulatory compliances of an MGA;",
+    "scope": ""
+   },
+   {
+    "term": "Specified Foreign Currency",
+    "para": "definitions clause",
+    "def": "means the currencies specified in the First Schedule of the International Financial Services Centres Authority (Banking) Regulations, 2020, as amended from time to time; and",
+    "scope": ""
+   },
+   {
+    "term": "Underwriting",
+    "para": "definitions clause",
+    "def": "refers to the process of accepting or rejecting insurance risk or insurance liability by an MGA on behalf of the foreign insurer.",
+    "scope": ""
+   }
+  ],
+  "REG-INS-MC": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of 2019);",
+    "scope": ""
+   },
+   {
+    "term": "Authority' or `IFSCA",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of Section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "benefits",
+    "para": "definitions clause",
+    "def": "refers to any promise or payment of incentive, direct or indirect, or both, in the nature of commissions, compensations, coupons, incentives, performance-based bonuses, rewards, remunerations, stock options, gratuity, insurance protection, cost of setting up infrastructure, competition prizes etc. and includes any other payment or incentive of similar nature;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the board of directors of an IIO; or the Board of the Parent Entity of an IIO, in case the IIO is in an unincorporated form;",
+    "scope": ""
+   },
+   {
+    "term": "capital",
+    "para": "definitions clause",
+    "def": "means the capital of an IIO, and includes equity share capital, preference share capital and subordinated debt;",
+    "scope": ""
+   },
+   {
+    "term": "commission",
+    "para": "definitions clause",
+    "def": "means any benefit payable to an insurance agent, intermediary or insurance intermediary in consideration of availing their servicesin relation to solicitation, procurement, retention or conversion of insurance policies;",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "definitions clause",
+    "def": "means and include the right to appoint majority of the directors or to control the management or policy decisions exercisable by a person or persons acting individually or in concert, directly or indirectly, including by virtue of their shareholding or management rights or shareholders agreements or voting agreements or in any other manner;",
+    "scope": ""
+   },
+   {
+    "term": "custodian of information",
+    "para": "definitions clause",
+    "def": "shall mean an officer, not below the rank of Deputy General Manager, of the Authority in whose custody the confidential information is kept;",
+    "scope": ""
+   },
+   {
+    "term": "expenses of management' or `EoM",
+    "para": "definitions clause",
+    "def": "includes all operating expenses such as commission, remuneration payable to the insurance agents, intermediaries or insurance intermediaries;",
+    "scope": ""
+   },
+   {
+    "term": "Foreign entity",
+    "para": "definitions clause",
+    "def": "means an entity incorporated and registered outside India and includes a foreign financial regulatory authority;",
+    "scope": ""
+   },
+   {
+    "term": "regulated entity",
+    "para": "definitions clause",
+    "def": "means an entity registered with the Authority for carryinginsurance or re- insurance business in the International Financial Services Centre and includes anentitywhich has applied for carrying out insurance or re-insurance business in the International Financial Services Centre;",
+    "scope": ""
+   },
+   {
+    "term": "requestedauthority",
+    "para": "definitions clause",
+    "def": "means the authority to whom request for information is made under these regulations;",
+    "scope": ""
+   }
+  ],
+  "REG-INS-INV": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019",
+    "scope": ""
+   },
+   {
+    "term": "Authority' or `IFSCA",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of Section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "board",
+    "para": "definitions clause",
+    "def": "means the board of directors of an IIO, or in case of an unincorporated IIO, the Board of the Parent Entity.",
+    "scope": ""
+   },
+   {
+    "term": "financial assets",
+    "para": "definitions clause",
+    "def": "means the following types of assets-",
+    "scope": ""
+   },
+   {
+    "term": "financial derivative",
+    "para": "definitions clause",
+    "def": "means an instrument whose value depends on (or is derived from) other assets, liabilities or indices (the \"underlying asset\") and is traded on a stock exchange or similar platform.",
+    "scope": ""
+   },
+   {
+    "term": "infrastructure assets",
+    "para": "definitions clause",
+    "def": "means any investment made in the infrastructure sub- sectors identified in the `Harmonised Master List of Infrastructure sub-sectors' as per Gazette Notification no. CG-DL-E-11102022-239561 dated October 11, 2022 of the Department of Economic Affairs, Ministry of Finance, Government of India, as revised from time to time, and shall also include the following: a. district heating; and b. financial institutions…",
+    "scope": ""
+   },
+   {
+    "term": "investment",
+    "para": "definitions clause",
+    "def": "refers to deployment of funds in financial assets or infrastructure assets, in accordance with these regulations, but shall not include:",
+    "scope": ""
+   },
+   {
+    "term": "Investible Funds' or `Investment Assets",
+    "para": "definitions clause",
+    "def": "means investments made out of the following funds:",
+    "scope": ""
+   }
+  ],
+  "REG-INS-SOLV": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of 2019);",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub- section (1) of Section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "incurred but not enough reported reserves",
+    "para": "definitions clause",
+    "def": "means the reserves reflecting the expected changes in the estimates of reported claims as on the accounting date;",
+    "scope": ""
+   },
+   {
+    "term": "incurred but not reported claim reserves",
+    "para": "definitions clause",
+    "def": "means the estimate made for reopened claims, provision for incurred but not reported claims, provision for claims in transit as on the accounting date and includes allocated loss adjustment expenses and incurred but not enough reported reserves;",
+    "scope": ""
+   },
+   {
+    "term": "outstanding claim reserves",
+    "para": "definitions clause",
+    "def": "means the provision made in respect of all outstanding reported claims as on the accounting date and includes allocated loss adjustment expenses;",
+    "scope": ""
+   },
+   {
+    "term": "premium deficiency reserve",
+    "para": "definitions clause",
+    "def": "means the reserve held in excess of the unearned premium reserve, which allows for any expectation that the unearned premium reserve will be insufficient to cover the cost of claims and related expenses incurred during the period of unexpired risk;",
+    "scope": ""
+   },
+   {
+    "term": "unearned premium reserve",
+    "para": "definitions clause",
+    "def": "means an amount representing that part of the premium written which is attributable and to be allocated to the succeeding accounting periods representing the unexpired portion of the risks on the policies;",
+    "scope": ""
+   },
+   {
+    "term": "unexpired risk reserves",
+    "para": "definitions clause",
+    "def": "means the reserves in respect of the liabilities for unexpired risks and determined as the aggregate of unearned premium reserve and premium deficiency reserve.",
+    "scope": ""
+   },
+   {
+    "term": "Available Solvency Margin (ASM)",
+    "para": "definitions clause",
+    "def": "means the excess of value of assets (as furnished in Form ALSM-GI- A) over the value of liabilities (as furnished in Form ALSM-GI-L) with further adjustments as shown in Table IB of Form ALSM-GI-SM.",
+    "scope": ""
+   },
+   {
+    "term": "Solvency Ratio",
+    "para": "definitions clause",
+    "def": "means the ratio of Available Solvency Margin to Required Solvency Margin as specified in Table IB.",
+    "scope": ""
+   },
+   {
+    "term": "Control level of Solvency",
+    "para": "definitions clause",
+    "def": "refers to the specified level of solvency margin to be maintained by the IIO in accordance with sub-section (3) of Section 64VA of the Insurance Act, 1938, on the breach of which the Authority shall act in accordance with sub- section (4) of section 64VA of the Insurance Act, 1938, without prejudice to taking any other remedial measures as deemed fit. The control level of solvency is hereby specified as a minimum…",
+    "scope": ""
+   }
+  ],
+  "GDL-AML": [
+   {
+    "term": "Controlling ownership interest",
+    "para": "definitions",
+    "def": "means ownership of or entitlement to more than ten per cent. of the shares or capital or profits of the company;",
+    "scope": ""
+   },
+   {
+    "term": "Control",
+    "para": "definitions",
+    "def": "shall include the right to appoint majority of the directors or to control the management or policy decisions including by virtue of their shareholding or management rights or shareholders agreements or voting agreements;",
+    "scope": ""
+   }
+  ],
+  "CIR-GRIEV": [
+   {
+    "term": "Ancillary Service Provider",
+    "para": "definitions",
+    "def": "shall mean an entity authorized by IFSCA for the purpose of providing ancillary services as defined under clause 1(B) of the circular titled \"Framework for enabling Ancillary services at International Financial Services Centres\" dated February 10, 2021 as amended from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "Group Entity",
+    "para": "definitions",
+    "def": "means an entity of a business group that consists of a parent company or of any other type of legal person exercising control over the rest of the group, together with branches and/or subsidiaries;",
+    "scope": ""
+   },
+   {
+    "term": "Professional Consumer",
+    "para": "definitions",
+    "def": "shall mean an accredited investor as covered under the circular titled `Accredited Investors in IFSC' dated January 25, 2024, as amended; a professional client as covered under the IFSCA Banking Handbook, as amended; or a corporate policy holder;",
+    "scope": ""
+   }
+  ]
+ }
+}

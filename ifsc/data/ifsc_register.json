@@ -1,0 +1,2032 @@
+{
+ "meta": {
+  "title": "IFSC (GIFT City) rules for financial institutions",
+  "as_of": "2026-11-26",
+  "count": 51,
+  "in_force": 46,
+  "lenses": [
+   {
+    "id": "ENT-IBU",
+    "name": "IFSC Banking Unit (IBU / IBC)"
+   },
+   {
+    "id": "ENT-FC",
+    "name": "Finance company / finance unit"
+   },
+   {
+    "id": "ENT-FME",
+    "name": "Fund management entity"
+   },
+   {
+    "id": "ENT-CMI",
+    "name": "Capital market intermediary / listed issuer"
+   },
+   {
+    "id": "ENT-INS",
+    "name": "Insurance office / intermediary"
+   }
+  ]
+ },
+ "instruments": [
+  {
+   "id": "ACT-IFSCA",
+   "type": "Act",
+   "short_name": "IFSCA Act, 2019",
+   "title": "The International Financial Services Centres Authority Act, 2019",
+   "issuing_department": "Parliament of India",
+   "theme": "Statute and foreign exchange status",
+   "reference_no": "Act 50 of 2019",
+   "issue_date": "2019-12-19",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/sKCVtbX6J9o=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f302d34c&fileName=59-ifsca-act-2019_mol-j09092020074609.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Financial products, financial services and financial institutions in an International Financial Services Centre (IFSC), including GIFT IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Financial institution, financial product, financial service and IFSC (s. 3)",
+    "IFSCA as the unified regulator (s. 4)",
+    "Duty to develop and regulate financial products, services and institutions in the IFSC (s. 12)",
+    "Powers of RBI, SEBI, IRDAI and PFRDA under the First Schedule Acts exercised by IFSCA in the IFSC (s. 13)",
+    "Transactions in the foreign currency the Authority specifies (s. 20)",
+    "Regulations (s. 28)",
+    "Overriding effect (s. 30)"
+   ],
+   "core_obligations": [
+    "s. 13(1): in an IFSC, the powers of the appropriate regulators under the First Schedule Acts (including the RBI Act, Banking Regulation Act, FEMA, Payment and Settlement Systems Act, SEBI Act, Securities Contracts (Regulation) Act, Depositories Act, Insurance Act, IRDA Act and PFRDA Act) are exercised by IFSCA alone, so far as they relate to regulating financial products, services and institutions",
+    "s. 13(4): the provisions of those Acts on registration, reports, inspection, investigation, adjudication, compounding, appeals and penalties apply to IFSC entities as they apply under those Acts",
+    "s. 20: transactions of financial services in an IFSC are carried on in the foreign currency the Authority specifies, in consultation with the Central Government",
+    "s. 30: the Act has effect notwithstanding anything inconsistent in any other law"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 13(5): penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI reference rate on the date of the order"
+   ],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [],
+   "repeals": ""
+  },
+  {
+   "id": "REG-FEMA-IFSC",
+   "type": "Regulation",
+   "short_name": "FEMA (IFSC) Regulations, 2015",
+   "title": "Foreign Exchange Management (International Financial Services Centre) Regulations, 2015 (as amended up to 07-01-2020)",
+   "issuing_department": "RBI",
+   "theme": "Statute and foreign exchange status",
+   "reference_no": "Notification No. FEMA 339/2015-RB, G.S.R. 218(E); amended by FEMA 397/RB-2020",
+   "issue_date": "2015-03-02",
+   "updated_as_on": "2020-01-16",
+   "effective_date": "2015-03-23",
+   "status": "In force (as amended)",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_FemaNotifications.aspx?Id=12098",
+   "official_pdf": "",
+   "statutory_powers": [
+    "FEMA s. 47"
+   ],
+   "applies_to": [
+    "Financial institutions and branches of financial institutions set up in an IFSC and permitted or recognised by the regulator"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "IFSC unit treated as a person resident outside India",
+    "Business in foreign currency with the persons the regulator determines",
+    "Other FEMA regulations do not apply to IFSC units except as provided"
+   ],
+   "core_obligations": [
+    "reg 3: a financial institution or a branch of a financial institution set up in an IFSC and permitted or recognised as such by the Government of India or a regulator is treated as a person resident outside India",
+    "reg 4: it conducts business in the foreign currency and with the persons, resident or non-resident, that the concerned regulator determines; the 2020 proviso lets RBI allow business in rupees",
+    "reg 5: the other FEMA regulations do not apply to such an institution or branch, except as these regulations provide"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "ACT-IFSCA",
+    "CIR-SNRR",
+    "CIR-IBU-RESACC"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-SNRR",
+   "type": "Circular",
+   "short_name": "SNRR accounts of IFSC units",
+   "title": "Permissible transactions through the Special Non-Resident Rupee (SNRR) accounts of IFSC units (29-01-2025, as amended 18-02-2025 and 19-06-2026)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Statute and foreign exchange status",
+   "reference_no": "F. No. IFSCA-FMPP0BR/4/2024-Banking",
+   "issue_date": "2025-01-29",
+   "updated_as_on": "2026-06-19",
+   "effective_date": "2025-01-29",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=91427247c5628a865846d173bcedd7c2&fileName=Circular_on_amendment_to_SNRR_account_transactions_circular__2__20260619_0602.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IFSC units that hold an SNRR account with an AD bank in India under the Foreign Exchange Management (Deposit) (Fifth Amendment) Regulations, 2025"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "SNRR account with an AD bank outside the IFSC for business outside the IFSC",
+    "Transfer of rupee receipts to the unit's IBU account in foreign currency",
+    "Administrative expenses carved out"
+   ],
+   "core_obligations": [
+    "An IFSC unit may use its SNRR account with an AD bank in India for its business outside the IFSC, as the Foreign Exchange Management (Deposit) (Fifth Amendment) Regulations, 2025 (14-01-2025) allow",
+    "Amounts received in the SNRR account must be remitted to the unit's account with an IBU in a specified foreign currency",
+    "The remittance requirement does not apply to amounts kept for administrative expenses"
+   ],
+   "timelines": [
+    "Amounts received in the SNRR account are remitted to the IBU account within 30 working days"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FEMA-IFSC",
+    "REG-BANK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-BANK",
+   "type": "Regulation",
+   "short_name": "IFSCA (Banking) Regulations, 2020",
+   "title": "International Financial Services Centres Authority (Banking) Regulations, 2020 (consolidated, with the 2024 amendment)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Banking units (IBU and IBC)",
+   "reference_no": "No. IFSCA/2020-21/GN/REG004; amended by IFSCA/GN/2024/004",
+   "issue_date": "2020-11-18",
+   "updated_as_on": "2024-07-04",
+   "effective_date": "2020-11-18",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31123a2&fileName=consolidated-ifsca-banking-regulations-as-on-july-14-202314082023111415.pdf",
+   "statutory_powers": [
+    "IFSCA Act ss. 12, 13 and 28"
+   ],
+   "applies_to": [
+    "IFSC Banking Units: an IFSC Banking Unit set up as a branch (IBU) or an IFSC Banking Company set up as a subsidiary (IBC)",
+    "Representative offices and Global Administrative Offices of banks in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Banking Unit as IBU (branch) or IBC (subsidiary)",
+    "Minimum capital",
+    "LCR, NSFR, leverage and exposure norms",
+    "Specified foreign currencies (First Schedule)",
+    "Permissible activities and referral services",
+    "No cash; savings accounts only for individuals",
+    "No lender of last resort",
+    "Reporting in USD"
+   ],
+   "core_obligations": [
+    "reg 3(3): an IBU keeps minimum capital of USD 20 million (maintained at the parent bank), with a no-objection from the home regulator and a liquidity support undertaking",
+    "reg 3(3A): an IBC keeps minimum capital of USD 50 million",
+    "reg 4: an IBU also follows its home regulator's directions",
+    "reg 5: a Banking Unit maintains the LCR (an IBU may, with approval, hold it at the parent) and the NSFR as the Authority specifies",
+    "regs 6 and 7: leverage ratio and exposure norms as specified",
+    "reg 8: no CRR on deposits generally, but deposits from individuals attract reserve ratios as specified; an IBC keeps reserves as the Banking Regulation Act and RBI Act require",
+    "reg 9: no lender-of-last-resort support is available to a Banking Unit",
+    "reg 10: business is conducted in the specified foreign currencies (First Schedule: USD, EUR, JPY, GBP, CAD, AUD, CHF, HKD, SGD, AED, RUB, and since 2024 SEK, NOK, NZD and DKK); rupee transactions are settled in a specified currency",
+    "reg 11: foreign currency accounts may be opened for residents within the Liberalised Remittance Scheme",
+    "reg 12: no cash transactions; savings accounts only for individuals",
+    "reg 13: activities permitted under IFSCA Act s. 3(1)(e) and Banking Regulation Act s. 6 unless prohibited; referral services allowed",
+    "reg 14: follow the IFSCA AML, CFT and KYC guidelines",
+    "regs 15 to 17: report in USD, keep books in the specified currencies, and keep a rupee account only for administrative expenses",
+    "reg 19: netting of margins as specified"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "reg 21: the Authority may withdraw the licence or permission after giving the Banking Unit 30 days to make its submissions"
+   ],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "ACT-IFSCA",
+    "HB-BANK",
+    "GDL-AML"
+   ],
+   "repeals": "Supersedes the RBI circular of 01-04-2015 on IFSC Banking Units (reg 22)"
+  },
+  {
+   "id": "HB-BANK",
+   "type": "Directions",
+   "short_name": "IFSCA Banking Handbook (GEN, COB, PRU)",
+   "title": "IFSCA Banking Handbook: General (GEN v5.0), Conduct of Business (COB v6.0) and Prudential (PRU v5.0) Directions",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Banking units (IBU and IBC)",
+   "reference_no": "Banking Handbook, 05-04-2024",
+   "issue_date": "2024-04-05",
+   "updated_as_on": "2025-12-08",
+   "effective_date": "2024-04-05",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f313dc1f&fileName=the-ifsca-banking-handbook-pru-directions-v5-005042024051629.pdf",
+   "statutory_powers": [
+    "IFSCA (Banking) Regulations, 2020"
+   ],
+   "applies_to": [
+    "IBUs and IBCs in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Base capital",
+    "Capital adequacy and leverage certificate",
+    "Liquidity coverage ratio",
+    "Significant currencies",
+    "Funding strategy",
+    "Credit risk policy and large exposures",
+    "Conduct of business modules"
+   ],
+   "core_obligations": [
+    "PRU: an IBU keeps base capital of USD 20 million; its leverage ratio is maintained by the parent as the home regulator requires",
+    "PRU: maintain an LCR of 100% (from 01-04-2021) or the home regulator's minimum where that is higher",
+    "PRU: a currency is significant where it is more than 10% of liabilities (or a lower home threshold), and LCR is tracked for it",
+    "PRU: keep a funding strategy reviewed at least every three years, a board-approved credit risk policy and large exposure limits",
+    "COB: conduct-of-business rules for customer dealings, including Module 16 on providing credit"
+   ],
+   "timelines": [
+    "PRU: file the quarterly capital adequacy and leverage certificate within 45 days of the end of each quarter"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-BANK",
+    "CIR-IBU-GOV",
+    "CIR-COB16"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-IBU-GOV",
+   "type": "Circular",
+   "short_name": "IBU governing body meetings",
+   "title": "Revision to the requirement of meetings of the governing body of IBUs in IFSC (amendment to the Banking Handbook)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Banking units (IBU and IBC)",
+   "reference_no": "No. IFSCA-FMPP0BR/8/2025-Banking/001",
+   "issue_date": "2025-04-08",
+   "updated_as_on": "",
+   "effective_date": "2025-04-08",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318bbb7&fileName=circular-pertaining-to-governing-body-meetings08042025071616.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IBUs in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Governing body of an IBU",
+    "Meeting frequency"
+   ],
+   "core_obligations": [
+    "The governing body of an IBU meets at least once a quarter"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "HB-BANK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-COB16",
+   "type": "Circular",
+   "short_name": "Loans to directors and related parties (COB Module 16)",
+   "title": "Amendments to Module 16 (Providing Credit) of the IFSCA Banking Handbook: COB Directions",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Banking units (IBU and IBC)",
+   "reference_no": "No. 110/IFSCA/Banking Regulation/2020-21",
+   "issue_date": "2025-12-08",
+   "updated_as_on": "",
+   "effective_date": "2025-12-08",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=38fea9cc5969551d78bf00e6704adcfe&fileName=circular_on_amendment_to_providing_credit_module___Dec_8__Final_20251208_0419.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IBUs of foreign banks and other Banking Units lending to related parties"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Banking Regulation Act s. 20(1) disapplied for foreign bank IBUs",
+    "Loans to directors and related parties of the parent bank",
+    "Loans for share buy-back"
+   ],
+   "core_obligations": [
+    "Banking Regulation Act s. 20(1) (bar on loans to directors) does not apply to an IBU of a foreign bank",
+    "Loans to directors or related parties of the parent bank need a board-approved policy, no conflict of interest, no terms more favourable than for others, recusal of the interested director, the home regulator's thresholds and periodic audit",
+    "Loans to fund a share buy-back are allowed where the home country law permits"
+   ],
+   "timelines": [
+    "Intimate the Department of Banking Supervision within 15 working days of such a loan"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "HB-BANK",
+    "REG-BANK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-BLA2025",
+   "type": "Circular",
+   "short_name": "Banking Laws (Amendment) Act, 2025 in IBUs",
+   "title": "Implementation of provisions of the Banking Laws (Amendment) Act, 2025",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Banking units (IBU and IBC)",
+   "reference_no": "No. IFSCA-FMPP0BR/35/2025-Banking",
+   "issue_date": "2025-12-12",
+   "updated_as_on": "",
+   "effective_date": "2025-11-01",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=38fea9cc5969551d78bf00e670663a2d&fileName=circular_nomination_of_depositor_money__v1__dec_12_20251212_0211.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Banking Units in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Banking Laws (Amendment) Act, 2025 ss. 10 to 13",
+    "Commencement on 01-11-2025 (S.O. 4789(E))"
+   ],
+   "core_obligations": [
+    "Banking Units comply with ss. 10 to 13 of the Banking Laws (Amendment) Act, 2025, in force from 01-11-2025 under S.O. 4789(E) dated 22-10-2025"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-BANK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-NETBANK",
+   "type": "Circular",
+   "short_name": "Internet banking for IBU clients",
+   "title": "Internet banking services to clients of IBUs: Review (29-12-2025, as amended 30-06-2026 and 31-07-2026)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Banking units (IBU and IBC)",
+   "reference_no": "F.No. IFSCA-FMPP0BR/5/2024-Banking",
+   "issue_date": "2025-12-29",
+   "updated_as_on": "2026-07-31",
+   "effective_date": "2025-12-29",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=38fea9cc5969551d78bf00e670d8a951&fileName=Circular_on_Internet_Banking_Services_IBUs_Review_final_20251229_0534.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IBUs offering liability products (deposits and accounts) to customers"
+   ],
+   "excluded": [
+    "IBUs without liability products are exempt from the interactive and transactional requirements"
+   ],
+   "key_concepts": [
+    "Unified dashboard for all linked accounts (deposit and loan)",
+    "Explicit customer consent",
+    "Dual-layer authentication, maker-checker and beneficiary whitelisting",
+    "Bar on onboarding new customers if non-compliant"
+   ],
+   "core_obligations": [
+    "Offer internet banking with explicit customer consent, and display the specified currencies and cut-off times",
+    "Provide a unified dashboard with real-time balances of all linked accounts (deposit and loan), machine-readable statements, inward remittance instructions, premature withdrawal and SMS or email alerts (live rates are not mandatory)",
+    "Transactional features include transfers and fixed deposits, with dual-layer authentication, maker-checker controls and beneficiary whitelisting",
+    "Applies to IBUs that began operating both before and after the circular"
+   ],
+   "timelines": [
+    "Original deadline 31-07-2026, extended once to 30-09-2026"
+   ],
+   "consequences_stated": [
+    "From 01-10-2026, an IBU that has not complied stops onboarding new customers for the liability product concerned"
+   ],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "HB-BANK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-SWIFT",
+   "type": "Circular",
+   "short_name": "SWIFT requirements for IBUs",
+   "title": "Directions to IBUs on SWIFT-related operational requirements",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Banking units (IBU and IBC)",
+   "reference_no": "No. IFSCA-FMPP0BR/12/2025-Banking",
+   "issue_date": "2026-02-26",
+   "updated_as_on": "",
+   "effective_date": "2026-02-26",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a8026049&fileName=Directions_to_IBUs_pertaining_to_SWIFT_related_operational_requirements_20260226_0116.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IBUs using SWIFT"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Distinct IBU BIC naming",
+    "Routing of misdirected messages",
+    "Quarterly SWIFT broadcast"
+   ],
+   "core_obligations": [
+    "The BIC name of the IBU includes the words \"GIFT IFSC Banking Unit\"",
+    "Put in place routing rules for misdirected messages and publicise the IBU's BIC",
+    "Send a quarterly SWIFT broadcast, from the quarter ending 31-03-2026, for one year"
+   ],
+   "timelines": [
+    "Report compliance to the Department of Banking Supervision by 30-06-2026"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "HB-BANK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-VOSTRO",
+   "type": "Circular",
+   "short_name": "Vostro balances in BAL statement",
+   "title": "Reporting of transactions for India's External Account Statistics: additional directions",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Banking units (IBU and IBC)",
+   "reference_no": "No. IFSCA-FMPP0BR/13/2023-Banking",
+   "issue_date": "2025-11-11",
+   "updated_as_on": "",
+   "effective_date": "2025-11-11",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a91542bdd&fileName=Vostro_circular_for_issuance_revised_20251111_0546.pdf",
+   "statutory_powers": [
+    "Banking Regulation Act s. 35A",
+    "IFSCA Act s. 13(1)"
+   ],
+   "applies_to": [
+    "IBUs reporting on the RBI balance of payments portal"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Fortnightly BAL statement",
+    "Vostro account balances"
+   ],
+   "core_obligations": [
+    "Report vostro account balances in the fortnightly BAL statement on the RBI balance of payments portal, from the second fortnight of November 2025, in addition to the 19-09-2022 circular"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-BANK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-FCSS",
+   "type": "Circular",
+   "short_name": "Foreign Currency Settlement System",
+   "title": "Foreign Currency Settlement System: instructions for IFSC Banking Units",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Banking units (IBU and IBC)",
+   "reference_no": "IFSCA circular dated 07-10-2025",
+   "issue_date": "2025-10-07",
+   "updated_as_on": "",
+   "effective_date": "2025-10-07",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=2a38901cd710ed10d1660d1c301ac883&fileName=Circular_on_Foreign_Currency_Settlement_System%E2%80%93_Instructions_for_IFSC_Banking_Units_20251007_0320.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IBUs that join the Foreign Currency Settlement System as members"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Gross settlement of USD payments within the IFSC",
+    "Membership under the system's business rules",
+    "ISO 20022 messaging"
+   ],
+   "core_obligations": [
+    "IBUs are eligible to become members of the Foreign Currency Settlement System under its business rules (notified 03-10-2025)",
+    "The system settles USD transactions first, on a gross basis, 08:00 to 20:00 IST, using ISO 20022 messages"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-BANK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-IBU-RESACC",
+   "type": "Circular",
+   "short_name": "Accounts of residents with IBUs",
+   "title": "Opening of an account of a person resident in India (13-08-2025, with the corrigendum of 02-09-2025)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Banking units (IBU and IBC)",
+   "reference_no": "No. IFSCA-FMPP0BR/4/2024-Banking",
+   "issue_date": "2025-08-13",
+   "updated_as_on": "2025-09-02",
+   "effective_date": "2025-08-13",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed022017d7361&fileName=circular_on_indian_exporter_opening_FCA__Final__2__20250813_0701.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IBUs opening foreign currency accounts for persons resident in India"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "IBU account as a foreign currency account with a bank outside India",
+    "Foreign Exchange Management (Foreign Currency Accounts) Regulations, 2015"
+   ],
+   "core_obligations": [
+    "An account with an IBU counts as a foreign currency account with a bank outside India for paras 5(B) to 5(F) of the Foreign Exchange Management (Foreign Currency Accounts by a person resident in India) Regulations, 2015",
+    "No prior permission of IFSCA is needed to open such an account"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-BANK",
+    "REG-FEMA-IFSC"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-FC",
+   "type": "Regulation",
+   "short_name": "IFSCA (Finance Company) Regulations, 2021",
+   "title": "International Financial Services Centres Authority (Finance Company) Regulations, 2021 (as amended up to 07-05-2026)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Finance companies, leasing and treasury centres",
+   "reference_no": "No. IFSCA/2020-21/GN/REG010; amended 2022 and IFSCA/GN/2026/009",
+   "issue_date": "2021-03-25",
+   "updated_as_on": "2026-05-07",
+   "effective_date": "2021-03-31",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7d455d1b&fileName=Vetted_FC_consolidated_final_regulations_2026_after_acc_cge_8_7_2026_20260709_0450.pdf",
+   "statutory_powers": [
+    "IFSCA Act ss. 12, 13 and 28"
+   ],
+   "applies_to": [
+    "Finance Companies (subsidiary, joint venture or new company in the IFSC) and Finance Units (branch of an entity incorporated in India or abroad)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Certificate of registration",
+    "Core activities (lending, factoring and forfaiting, investments, derivatives, treasury centres)",
+    "Non-core activities (merchant banking, advisory, operating leases, distribution and others)",
+    "Owned fund (Schedule)",
+    "Capital ratio, LCR and exposure ceiling",
+    "Change in control",
+    "Reporting in USD"
+   ],
+   "core_obligations": [
+    "reg 3: no Finance Company or Finance Unit carries on business without a certificate of registration; a regulated parent needs a home regulator no-objection; the applicant comes from a FATF-compliant jurisdiction",
+    "reg 3: a Finance Unit may undertake core activities only if it is a regulated financial institution with a no-objection, except a treasury centre; an LLP or trust may undertake non-core activities only",
+    "reg 4: an entity doing core activities keeps a capital ratio of 8% of risk-weighted assets, keeps an LCR (a Finance Unit may hold it at the parent with approval), and does not exceed 25% of its eligible capital base to a single counterparty or group without approval",
+    "reg 5: core activities are lending (loans, guarantees, credit enhancement, securitisation, financial lease, portfolio buys and sales), factoring and forfaiting, investments, derivatives and global or regional corporate treasury centres; non-core activities include merchant banking, investment advisory, portfolio management, operating leases of aircraft, ships and equipment, distribution and similar services",
+    "reg 5: non-core activities sit in a separately identifiable department with firewalls; entities doing only non-core activities use derivatives only to hedge; no speculative transactions; dealings with residents are subject to FEMA",
+    "reg 6: deal in freely convertible foreign currency, keep a rupee account only for administrative expenses, and keep the balance sheet in USD",
+    "reg 7: follow the KYC and AML requirements that apply to Banking Units",
+    "reg 8: follow the governance guidelines; prior approval for any change in control (20% or more)",
+    "reg 9: report to the Authority in USD"
+   ],
+   "timelines": [
+    "reg 3: an applicant has 30 days to rectify deficiencies the Authority points out",
+    "reg 8: a Finance Unit intimates a change in control of its parent within 15 days"
+   ],
+   "consequences_stated": [
+    "reg 11: on failure to meet a registration condition, the Authority may suspend, withdraw or cancel the registration after giving the entity an opportunity to make its submissions"
+   ],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "ACT-IFSCA",
+    "CIR-FC-GOV",
+    "CIR-GRCTC",
+    "CIR-AIRCRAFT",
+    "CIR-SHIP",
+    "REG-FACTORS"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-FC-GOV",
+   "type": "Guidelines",
+   "short_name": "Finance company governance and disclosure",
+   "title": "Guidelines on Corporate Governance and Disclosure Requirements for a Finance Company (updated 04-04-2025)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Finance companies, leasing and treasury centres",
+   "reference_no": "F. No. 172/IFSCA/Finance Company Regulations/2025-26/01",
+   "issue_date": "2021-08-09",
+   "updated_as_on": "2025-04-04",
+   "effective_date": "2025-04-04",
+   "status": "In force (as updated)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31899d7&fileName=03-amendatory-circular-cg-guidelines04042025060914.pdf",
+   "statutory_powers": [
+    "IFSCA (Finance Company) Regulations reg 8"
+   ],
+   "applies_to": [
+    "Part I: all Finance Companies and Finance Units except treasury centres",
+    "Part II: those doing core activities (except treasury centres)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Board and committee structure",
+    "Fit and proper",
+    "Disclosures in financial statements"
+   ],
+   "core_obligations": [
+    "Part I governance requirements apply to all Finance Companies and Finance Units other than global or regional corporate treasury centres",
+    "Part II adds requirements for entities undertaking core activities"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FC"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-GRCTC",
+   "type": "Framework",
+   "short_name": "Global / regional corporate treasury centre framework",
+   "title": "Framework for a Finance Company or Finance Unit undertaking the activity of Global / Regional Corporate Treasury Centre (04-04-2025, updated 09-06-2025)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Finance companies, leasing and treasury centres",
+   "reference_no": "F. No. IFSCA/24/2024-Banking-FC/01",
+   "issue_date": "2025-04-04",
+   "updated_as_on": "2025-06-09",
+   "effective_date": "2025-04-04",
+   "status": "In force (as updated)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb21232c&fileName=grctc_framework_updated_as_on_june_09_202509062025030915_20250610_1224.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Group companies setting up a treasury centre in the IFSC to serve group entities"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Treasury centre as company or branch",
+    "Staffing in the IFSC",
+    "Owned fund USD 0.2 million",
+    "Group service recipients"
+   ],
+   "core_obligations": [
+    "The treasury centre may be set up as a company or a branch; the parent must not be from a FATF call-for-action jurisdiction and must be fit and proper",
+    "Keep an owned fund of USD 0.2 million (a Finance Unit may hold it at the parent)",
+    "Have at least five qualified staff in the IFSC, including the Head of Treasury and the Compliance Officer, before starting (the Chairperson may relax this for up to one year)",
+    "Apply through the Single Window IT System with the list of group service recipients"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FC"
+   ],
+   "repeals": "Supersedes the framework of 25-06-2021"
+  },
+  {
+   "id": "CIR-AIRCRAFT",
+   "type": "Framework",
+   "short_name": "Aircraft lease framework",
+   "title": "Framework for Aircraft Lease (updated as on 26-02-2025)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Finance companies, leasing and treasury centres",
+   "reference_no": "F. No. 172/IFSCA/Finance Company Regulations/2022-23/01",
+   "issue_date": "2022-05-18",
+   "updated_as_on": "2025-02-26",
+   "effective_date": "2022-05-18",
+   "status": "In force (as updated)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31827cd&fileName=revised-framework-on-aircraft-lease_new_final04032025100638.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Finance Companies and Finance Units leasing aircraft, engines and related assets"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Operating lease as a non-core activity",
+    "Financial lease as a core activity",
+    "Aircraft, engines, ground support equipment and simulators"
+   ],
+   "core_obligations": [
+    "An aircraft lessor registers as a Finance Company or Finance Unit; an operating lease is a non-core activity and a financial lease a core activity",
+    "Keep an owned fund of USD 200,000 and come from a FATF-compliant jurisdiction",
+    "Transactions with residents follow the framework and FEMA"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FC"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-SHIP",
+   "type": "Framework",
+   "short_name": "Ship leasing framework",
+   "title": "Framework for Ship Leasing (updated as on 20-05-2026)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Finance companies, leasing and treasury centres",
+   "reference_no": "F. No. 496/IFSCA/FC/SLF/2022-23/001",
+   "issue_date": "2022-08-16",
+   "updated_as_on": "2026-05-20",
+   "effective_date": "2022-08-16",
+   "status": "In force (as updated)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=91427247c5628a865846d173bc5a240f&fileName=Final_Revised_Framework_for_Ship_Leasing_20260520_1207.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Finance Companies and Finance Units leasing ships"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Ship lessor as Finance Company or Finance Unit",
+    "Lease classified under Ind AS"
+   ],
+   "core_obligations": [
+    "A ship lessor registers as a Finance Company or Finance Unit and keeps an owned fund of USD 200,000",
+    "Whether a lease is operating or financial follows Ind AS"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FC"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-FACTORS",
+   "type": "Regulation",
+   "short_name": "IFSCA Factors Regulations, 2024",
+   "title": "IFSCA (Registration of Factors and Registration of Assignment of Receivables) Regulations, 2024 (consolidated to 13-03-2025)",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Finance companies, leasing and treasury centres",
+   "reference_no": "No. IFSCA/GN/2024/012",
+   "issue_date": "2024-11-18",
+   "updated_as_on": "2025-03-13",
+   "effective_date": "2024-11-22",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31868df&fileName=consolidated-ifsca-registration-of-factors-and-registration-of-assignement-of-receivables-13032025103225.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Finance Companies and Finance Units doing factoring business in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Registration as a factor on top of the finance company registration",
+    "International trade finance services platforms",
+    "Filing with the Central Registry"
+   ],
+   "core_obligations": [
+    "A factor holds a Finance Company registration and a factor registration; existing factors are deemed registered",
+    "Factoring may be done through international trade finance services platforms",
+    "Assignments of receivables are filed with the Central Registry"
+   ],
+   "timelines": [
+    "Commence business within 6 months of registration",
+    "File with the Central Registry within 10 days (extendable by 10 days)"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FC",
+    "CIR-FACT-CAP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-FACT-CAP",
+   "type": "Framework",
+   "short_name": "Capital relief for factoring",
+   "title": "Framework on capital relief and prudential requirements for factoring transactions",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Finance companies, leasing and treasury centres",
+   "reference_no": "F.No. IFSCA-FCR0ITFS/2/2024-Banking",
+   "issue_date": "2026-07-21",
+   "updated_as_on": "",
+   "effective_date": "2026-07-21",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7d790767&fileName=Circular_on_capital_relief_and_prudential_norms_for_factoring_20260721_0114.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Factors and Banking Units in the IFSC taking credit protection on factoring exposures"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Substitution of the protection provider's risk weight",
+    "Eligible protection providers",
+    "Two-factor model"
+   ],
+   "core_obligations": [
+    "The portion covered by eligible credit protection takes the risk weight of the protection provider",
+    "Eligible providers include sovereigns, export credit agencies, public sector entities, multilateral development banks, banks, securities firms and prudentially regulated financial institutions, including IFSC insurance offices and import factors",
+    "Capital relief applies only where the qualifying conditions in the framework are met"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FACTORS"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-FC-WEB",
+   "type": "Circular",
+   "short_name": "Website for finance companies",
+   "title": "Requirement for a Finance Company / Finance Unit to have a website or webpage",
+   "issuing_department": "IFSCA (Banking)",
+   "theme": "Finance companies, leasing and treasury centres",
+   "reference_no": "No. IFSCA-FCR/4/2026-Banking",
+   "issue_date": "2026-02-03",
+   "updated_as_on": "",
+   "effective_date": "2026-04-01",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe86880803&fileName=Circular_on_website_webpage_requirement_20260203_0647.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Finance Companies and Finance Units serving clients outside their group"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Public disclosure of registration, products, grievance procedure and contacts"
+   ],
+   "core_obligations": [
+    "Keep a website or webpage showing the certificate of registration, products and services, the grievance redressal procedure and contact details of key managerial personnel"
+   ],
+   "timelines": [
+    "From 01-04-2026"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FC",
+    "CIR-GRIEV"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-FM",
+   "type": "Regulation",
+   "short_name": "IFSCA (Fund Management) Regulations, 2025",
+   "title": "International Financial Services Centres Authority (Fund Management) Regulations, 2025 (as amended up to 10-09-2026)",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Fund management",
+   "reference_no": "No. IFSCA/GN/2025/002",
+   "issue_date": "2025-02-10",
+   "updated_as_on": "2026-09-10",
+   "effective_date": "2025-02-19",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d045999a2a508&fileName=IFSCA__Fund_Management__Regulations__2025__as_amended_up_to_September_10__2026_20260914_0701.pdf",
+   "statutory_powers": [
+    "IFSCA Act ss. 12, 13 and 28"
+   ],
+   "applies_to": [
+    "Fund Management Entities (FMEs) in the IFSC and the schemes they manage: venture capital, restricted and retail schemes, portfolio management, investment trusts and family investment funds"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Authorised FME, Registered FME (Non-Retail) and Registered FME (Retail)",
+    "Principal officer, compliance officer and KMPs based in the IFSC",
+    "Net worth (Second Schedule)",
+    "Scheme corpus, minimum investment and manager contribution",
+    "Code of conduct",
+    "Independent custodian"
+   ],
+   "core_obligations": [
+    "reg 3: register as an Authorised FME (venture capital schemes, family investment funds), a Registered FME (Non-Retail) (restricted schemes, portfolio management, private investment trusts) or a Registered FME (Retail) (retail schemes, public investment trusts, ETFs)",
+    "reg 5: the FME is a company, LLP or branch",
+    "reg 7: appoint a principal officer; a Registered FME also appoints a compliance officer; KMPs are based in the IFSC and complete the specified certification",
+    "reg 8 and Second Schedule: net worth of USD 75,000 (Authorised), USD 500,000 (Non-Retail) or USD 1,000,000 (Retail); a branch may hold it at the parent",
+    "Venture capital scheme: corpus USD 3 million to USD 200 million; minimum investment USD 250,000 (unless accredited); manager contribution at least 2.5% of corpus or USD 750,000, whichever is lower",
+    "Restricted scheme: minimum investment USD 150,000 (unless accredited); corpus USD 3 million; manager contribution 2.5% or USD 750,000 (close-ended) and 5% or USD 1.5 million (open-ended), whichever is lower",
+    "Retail scheme: at least 20 investors and corpus USD 3 million; minimum USD 10,000 where more than 15% is in unlisted securities",
+    "Portfolio management minimum USD 75,000 per client; family investment fund minimum corpus USD 10 million",
+    "reg 118: follow the Code of Conduct in the Third Schedule; reg 124: no guaranteed returns",
+    "regs 121 and 122: keep a business continuity plan reviewed every year and a cyber security framework",
+    "reg 132: appoint an independent custodian where required, including for schemes with AUM above USD 70 million"
+   ],
+   "timelines": [
+    "reg 7: a Retail FME appoints a fund-management KMP before its first retail scheme; an FME whose AUM reaches USD 1 billion appoints an additional KMP within 6 months",
+    "Restricted scheme may start investing after USD 1 million and reach USD 3 million within 12 months",
+    "reg 119: keep records for 8 years, and scheme records for 5 years after winding up"
+   ],
+   "consequences_stated": [
+    "reg 143: the Authority may suspend or cancel the registration"
+   ],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "ACT-IFSCA",
+    "CIR-FME-KMP",
+    "CIR-FME-CERT",
+    "CIR-FME-FIDUC",
+    "CIR-FME-WEB"
+   ],
+   "repeals": "Repeals the IFSCA (Fund Management) Regulations, 2022"
+  },
+  {
+   "id": "CIR-FME-KMP",
+   "type": "Circular",
+   "short_name": "KMP appointment and change by an FME",
+   "title": "Appointment and change of Key Managerial Personnel by a Fund Management Entity (20-02-2025, as amended 01-04-2026)",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Fund management",
+   "reference_no": "F. No. IFSCA-IF-10PR/1/2023-Capital Markets/6",
+   "issue_date": "2025-02-20",
+   "updated_as_on": "2026-04-01",
+   "effective_date": "2025-02-20",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318179b&fileName=appointment-and-change-of-key-managerial-personnel-by-a-fund-management-entity20022025061756.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "FMEs in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "KMP appointment or change by intimation with fee",
+    "Filling vacancies"
+   ],
+   "core_obligations": [
+    "An FME appoints or changes a KMP by intimation to IFSCA with the fee"
+   ],
+   "timelines": [
+    "A KMP vacancy is filled with intimation within 3 months and the person joins within 6 months"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FM"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-FME-CERT",
+   "type": "Circular",
+   "short_name": "Certification for FME KMPs and employees",
+   "title": "Certification course for KMPs and employees of FMEs (01-04-2026, 10-08-2026 and extension of 29-09-2026)",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Fund management",
+   "reference_no": "F. No. IFSCA-PLNP/80/2024-Capital Markets; F. No. IFSCA-AIF/127/2026-Capital Markets/1",
+   "issue_date": "2026-04-01",
+   "updated_as_on": "2026-09-29",
+   "effective_date": "2026-04-01",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a895a672&fileName=Circular_on_Specification_of_Certification_Course_for_KMPs___Employees_20260401_0543.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "KMPs and specified employees of FMEs"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Specified certification courses (ICSI and ICAI)"
+   ],
+   "core_obligations": [
+    "KMPs and specified employees of FMEs complete a certification course specified by IFSCA (courses offered by ICSI and ICAI)"
+   ],
+   "timelines": [
+    "Completion deadline extended to 31-12-2026"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FM"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-FME-FIDUC",
+   "type": "Circular",
+   "short_name": "Segregation of fiduciary roles in schemes",
+   "title": "Governance and oversight of schemes in IFSC: segregation of the role of fiduciaries",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Fund management",
+   "reference_no": "F. No. IFSCA-IF-10PR/7/2024-Capital Markets",
+   "issue_date": "2026-04-10",
+   "updated_as_on": "",
+   "effective_date": "2026-04-10",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a8bb71ec&fileName=Governance_and_oversight_of_Schemes_in_IFSC___Segregation_of_the_role_of_Fiduciaries__20260410_0759.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "FMEs and the fiduciaries of their schemes (trustee, board or designated partners)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Independence of fiduciaries from service providers"
+   ],
+   "core_obligations": [
+    "A fiduciary of a scheme does not also provide fund administration, valuation, audit or lending to the same scheme, directly or through an associate"
+   ],
+   "timelines": [
+    "Existing schemes comply by 30-09-2026"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FM"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-FME-WEB",
+   "type": "Circular",
+   "short_name": "Website for FMEs",
+   "title": "Requirement for Fund Management Entities to maintain a website or webpage",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Fund management",
+   "reference_no": "No. IFSCA-SOF/2/2026-Capital Markets",
+   "issue_date": "2026-08-26",
+   "updated_as_on": "",
+   "effective_date": "2026-12-01",
+   "status": "In force from 01-12-2026",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459994ee804&fileName=Circular_Requirement_for_Fund_Management_Entities__FMEs__to_maintain_a_website_or_webpage_26_Aug_2026_20260827_0806.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "All FMEs in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Own website or parent webpage",
+    "Disclosure of profile, registration number, address and schemes"
+   ],
+   "core_obligations": [
+    "Authorised and Non-Retail FMEs keep their own website or a webpage on the parent's site; Retail FMEs keep their own website",
+    "Show the FME's profile, registration number, address, schemes and other specified details"
+   ],
+   "timelines": [
+    "Applies from 01-12-2026",
+    "New FMEs comply before starting business and give IFSCA the URL within 30 days of registration"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-FM"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-CMI",
+   "type": "Regulation",
+   "short_name": "IFSCA (Capital Market Intermediaries) Regulations, 2025",
+   "title": "International Financial Services Centres Authority (Capital Market Intermediaries) Regulations, 2025 (as amended up to 05-09-2026)",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Capital market intermediaries and listing",
+   "reference_no": "No. IFSCA/GN/2025/003",
+   "issue_date": "2025-04-11",
+   "updated_as_on": "2026-09-05",
+   "effective_date": "2025-04-17",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d045999a553a8&fileName=IFSCA__Capital_Market_Intermediaries__Regulations__2025_as_amended_up_to_05_September_2026_20260916_0112.pdf",
+   "statutory_powers": [
+    "IFSCA Act ss. 12, 13 and 28"
+   ],
+   "applies_to": [
+    "Broker dealers, clearing members, credit rating agencies, custodians, debenture trustees, depository participants, distributors, ESG ratings providers, investment advisers, investment bankers and research entities in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Registration and unified registration",
+    "Net worth (Schedule I)",
+    "Principal officer and compliance officer in the IFSC",
+    "Grievances, business continuity, cyber security and risk management",
+    "Change in control",
+    "Annual compliance audit"
+   ],
+   "core_obligations": [
+    "reg 4: register with IFSCA for each capital market activity; unified registration for several activities is allowed; a Banking Unit may act as banker to an issue or investment banker",
+    "reg 7: keep the net worth in Schedule I (for example USD 200,000 for a credit rating agency; for broker dealers and clearing members as the stock exchange or clearing corporation specifies)",
+    "reg 9: appoint an IFSC-based principal officer (3 years' experience) and a separate compliance officer (2 years' experience)",
+    "regs 18, 20, 21 and 22: redress grievances, and keep business continuity, cyber security and risk management frameworks",
+    "reg 23: an incorporated intermediary needs prior approval for a change in control; a branch intimates it"
+   ],
+   "timelines": [
+    "reg 17(2): intimate a change of principal officer, compliance officer or KMP within 15 days",
+    "reg 23: a branch intimates a change in control within 15 days",
+    "reg 25: an annual compliance audit by a member of ICAI, ICSI or ICMAI (or a foreign auditor) is submitted by 30 September",
+    "Existing custodians meet the revised net worth by 30-06-2026"
+   ],
+   "consequences_stated": [
+    "reg 41: the Authority may suspend or cancel the registration"
+   ],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "ACT-IFSCA",
+    "CIR-CMI-REP",
+    "CIR-CMI-AUDIT",
+    "CIR-MASTERKEY"
+   ],
+   "repeals": "Repeals the IFSCA (Capital Market Intermediaries) Regulations, 2021 (reg 47)"
+  },
+  {
+   "id": "CIR-CMI-REP",
+   "type": "Circular",
+   "short_name": "Reporting norms for CMIs",
+   "title": "Reporting norms for Capital Market Intermediaries",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Capital market intermediaries and listing",
+   "reference_no": "F.No.1/IFSCA/CMI Supervision/2023-24",
+   "issue_date": "2026-04-08",
+   "updated_as_on": "",
+   "effective_date": "2026-04-08",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a8b10bd3&fileName=Circular_CMI_reporting_final_pdf_20260409_1010.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Capital market intermediaries in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Quarterly reports",
+    "Half-yearly AML compliance sheet"
+   ],
+   "core_obligations": [
+    "File the quarterly CMI reports and a half-yearly AML compliance sheet"
+   ],
+   "timelines": [
+    "Quarterly reports within 21 calendar days of the end of the quarter"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-CMI"
+   ],
+   "repeals": "Replaces the reporting norms of 08-02-2024"
+  },
+  {
+   "id": "CIR-CMI-AUDIT",
+   "type": "Circular",
+   "short_name": "Annual compliance audit format for CMIs",
+   "title": "Reporting format and norms for the Annual Compliance Audit for CMIs in IFSC",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Capital market intermediaries and listing",
+   "reference_no": "IFSCA circular dated 05-06-2026",
+   "issue_date": "2026-06-05",
+   "updated_as_on": "",
+   "effective_date": "2026-06-05",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=91427247c5628a865846d173bca7e304&fileName=Circular___ACAR___Signed_1__20260605_0645.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Capital market intermediaries in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Annual compliance audit report and certificate"
+   ],
+   "core_obligations": [
+    "Submit the annual compliance audit report and certificate to IFSCA by email (cmi-supervision@ifsca.gov.in)",
+    "Broker dealers, clearing members and depository participants also file with the market infrastructure institutions"
+   ],
+   "timelines": [
+    "By 30 September each year, starting with FY 2025-26"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-CMI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-MASTERKEY",
+   "type": "Circular",
+   "short_name": "Unified registration for CMIs",
+   "title": "Unified registration for multiple capital market activities under the CMI Regulations",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Capital market intermediaries and listing",
+   "reference_no": "No. IFSCA-PLNP/80/2024-Capital Markets",
+   "issue_date": "2026-02-13",
+   "updated_as_on": "",
+   "effective_date": "2026-02-16",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe86c6ec20&fileName=Unified_Registration_for_multiple_Capital_Market_Activities_under_the_IFSCA__Capital_Market_Intermediaries__Regulations__2025__Master_Key__20260213_0615.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Applicants for more than one capital market activity"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "One application for several activities through the Single Window IT System"
+   ],
+   "core_obligations": [
+    "Apply for unified registration for several capital market activities through the Single Window IT System, paying the fee for each activity"
+   ],
+   "timelines": [
+    "From 16-02-2026"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-CMI",
+    "CIR-FEES"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-LISTING",
+   "type": "Regulation",
+   "short_name": "IFSCA (Listing) Regulations, 2024",
+   "title": "International Financial Services Centres Authority (Listing) Regulations, 2024 (as amended up to 14-10-2025)",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Capital market intermediaries and listing",
+   "reference_no": "No. IFSCA/GN/2024/006",
+   "issue_date": "2024-08-30",
+   "updated_as_on": "2025-10-14",
+   "effective_date": "2024-08-30",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a912979f0&fileName=IFSCA__Listing__Regulaions_2024_as_amended_up_to_October_14_2025_20251028_0106.pdf",
+   "statutory_powers": [
+    "IFSCA Act ss. 12, 13 and 28"
+   ],
+   "applies_to": [
+    "Issuers listing equity, debt, depository receipts, ESG-labelled debt, commercial paper and certificates of deposit on IFSC stock exchanges, and the intermediaries involved"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "IPO and FPO",
+    "SPAC",
+    "Rights, preferential issues and QIP",
+    "Depository receipts",
+    "Debt securities (regs 68 to 74)",
+    "ESG-labelled debt (regs 75 to 78)",
+    "Commercial paper and certificates of deposit (regs 80 and 81)",
+    "Continuing obligations (regs 83 to 104)"
+   ],
+   "core_obligations": [
+    "A debt issuer applies for listing with an offer document or information memorandum and makes the disclosures required",
+    "Debt securities carry a credit rating from a credit rating agency registered with IFSCA (from 01-04-2025), with an optional global rating",
+    "Listed entities meet the continuing disclosure obligations in regs 83 to 104"
+   ],
+   "timelines": [
+    "\"Immediately\" means promptly and in any case within 24 hours",
+    "Disclose creation of encumbrances within 2 working days"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-CMI",
+    "REG-MAR"
+   ],
+   "repeals": "Replaces the IFSCA (Issuance and Listing of Securities) Regulations, 2021"
+  },
+  {
+   "id": "REG-MAR",
+   "type": "Regulation",
+   "short_name": "IFSCA Market Abuse Regulations, 2026",
+   "title": "IFSCA (Prohibition of Market Abuse in Securities Markets) Regulations, 2026",
+   "issuing_department": "IFSCA (Capital Markets)",
+   "theme": "Capital market intermediaries and listing",
+   "reference_no": "No. IFSCA/GN/2026/012",
+   "issue_date": "2026-08-25",
+   "updated_as_on": "",
+   "effective_date": "2026-09-05",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459997e12ae&fileName=IFSCA__prohibition_of_Market_Abuse_in_Securities_Markets__Regulations__2026_20260907_1122.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Listed entities, designated persons, intermediaries and anyone dealing in securities on IFSC markets"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Material non-public information",
+    "Designated persons",
+    "Trading plans",
+    "Disapplication of SEBI PIT and PFUTP regulations in the IFSC"
+   ],
+   "core_obligations": [
+    "No one communicates or trades on material non-public information",
+    "Designated persons disclose trades where their quarterly trades exceed USD 25,000; the listed entity notifies the stock exchange",
+    "A trading plan is publicly disclosed before it takes effect"
+   ],
+   "timelines": [
+    "Designated persons disclose within 2 trading days; the listed entity notifies the exchange within 2 working days",
+    "Trading plan disclosed 120 days ahead"
+   ],
+   "consequences_stated": [
+    "reg 10: sanctions under the Act",
+    "reg 11: warning, censure, suspension or cancellation of registration"
+   ],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-LISTING",
+    "REG-CMI"
+   ],
+   "repeals": "SEBI (Prohibition of Insider Trading) Regulations, 2015 and SEBI (PFUTP) Regulations, 2003 cease to apply in the IFSC (reg 15)"
+  },
+  {
+   "id": "REG-INS-REG",
+   "type": "Regulation",
+   "short_name": "IFSCA (Registration of Insurance Business) Regulations, 2021",
+   "title": "IFSCA (Registration of Insurance Business) Regulations, 2021 (consolidated, July 2026)",
+   "issuing_department": "IFSCA (Insurance)",
+   "theme": "Insurance offices and intermediaries",
+   "reference_no": "No. IFSCA/2020-21/GN/REG016",
+   "issue_date": "2021-10-18",
+   "updated_as_on": "2026-07-10",
+   "effective_date": "2021-10-18",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7d51a903&fileName=2026_06_12_Consolidated_IIO_Regulations_20260710_0639.pdf",
+   "statutory_powers": [
+    "IFSCA Act ss. 12, 13 and 28"
+   ],
+   "applies_to": [
+    "IFSC Insurance Offices (IIOs): branches or companies of insurers and reinsurers in the IFSC, and Lloyd's IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Classes of business: life, general, health and reinsurance",
+    "Freely convertible foreign currency",
+    "Where an IIO may write business",
+    "Assigned capital for branches",
+    "Solvency per home regulator for branches",
+    "Share transfers"
+   ],
+   "core_obligations": [
+    "Register as an IIO for life, general, health or reinsurance business",
+    "Write business in freely convertible foreign currencies other than INR",
+    "Write direct business in the IFSC, SEZs and abroad; business from the domestic tariff area only as Insurance Act s. 2CB allows; reinsurance from the domestic market in IRDAI's order of preference",
+    "A branch keeps assigned capital of USD 1.5 million and meets the home regulator's solvency requirement",
+    "Intimate any transfer of 5% or more of shares"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "The Authority may take disciplinary action, including suspension or cancellation of the certificate of registration, after giving the IIO an opportunity to make its submissions"
+   ],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "ACT-IFSCA",
+    "REG-INS-SOLV",
+    "REG-INS-INV",
+    "REG-INS-MC",
+    "REG-MGA"
+   ],
+   "repeals": "Replaces IRDAI's guidelines of 2017 and 2019 on IFSC insurance offices; managing general agent provisions moved to the MGA Regulations, 2026"
+  },
+  {
+   "id": "REG-INS-INT",
+   "type": "Regulation",
+   "short_name": "IFSCA (Insurance Intermediary) Regulations, 2021",
+   "title": "IFSCA (Insurance Intermediary) Regulations, 2021 (consolidated to 28-01-2022)",
+   "issuing_department": "IFSCA (Insurance)",
+   "theme": "Insurance offices and intermediaries",
+   "reference_no": "No. IFSCA/2020-21/GN/REG017",
+   "issue_date": "2021-10-18",
+   "updated_as_on": "2022-01-28",
+   "effective_date": "2021-10-18",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f30bb77a&fileName=insurance-intermediary-reg-consolidated28012022112903.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IFSC Insurance Intermediary Offices: direct, reinsurance and composite brokers, corporate agents, third-party administrators, surveyors and web aggregators"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Registration and renewal",
+    "Net worth by category",
+    "Professional indemnity cover",
+    "Segregation of premium",
+    "Returns"
+   ],
+   "core_obligations": [
+    "Register (and renew) as an IFSC insurance intermediary office in the category concerned and keep the net worth set for it",
+    "Hold professional indemnity cover (ranging from USD 25,000 to USD 13.5 million by category)",
+    "Keep premium in segregated accounts, respect the single-client concentration ceiling and file returns"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-INS-REG"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-MGA",
+   "type": "Regulation",
+   "short_name": "IFSCA (Managing General Agents) Regulations, 2026",
+   "title": "IFSCA (Managing General Agents) Regulations, 2026",
+   "issuing_department": "IFSCA (Insurance)",
+   "theme": "Insurance offices and intermediaries",
+   "reference_no": "Notified 08-06-2026",
+   "issue_date": "2026-06-08",
+   "updated_as_on": "",
+   "effective_date": "2026-06-08",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=91427247c5628a865846d173bcd55c88&fileName=IFSCA__Managing_General_Agents__Regulations__2026_20260616_0531.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Managing general agents acting for foreign insurers from the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Binding authority agreement",
+    "Net worth and deposit",
+    "Fiduciary accounts",
+    "Referral of large claims"
+   ],
+   "core_obligations": [
+    "The foreign insurer has a net worth of at least USD 100 million",
+    "The MGA keeps a net worth of USD 250,000 and a deposit of USD 500,000 with an IBU (reg 13), plus security and professional indemnity cover",
+    "Act under a written binding authority agreement and hold premium in fiduciary accounts",
+    "Refer claims above USD 10,000 to the insurer"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-INS-REG"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-INS-MC",
+   "type": "Regulation",
+   "short_name": "IFSCA insurance management control and market conduct regulations",
+   "title": "IFSCA (Management Control, Administrative Control and Market Conduct of Insurance Business) Regulations, 2023",
+   "issuing_department": "IFSCA (Insurance)",
+   "theme": "Insurance offices and intermediaries",
+   "reference_no": "No. IFSCA/2022-23/GN/REG035",
+   "issue_date": "2023-04-26",
+   "updated_as_on": "",
+   "effective_date": "2023-04-26",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3103f1a&fileName=ifsca-management-control-regulations03052023051300.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IIOs and IFSC insurance intermediary offices"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Change in control",
+    "Mergers and transfers",
+    "Expenses of management and commissions",
+    "Outsourcing",
+    "Advertisements",
+    "Policyholder protection"
+   ],
+   "core_obligations": [
+    "Prior approval for mergers, amalgamations and transfers, and the specified process for change in control",
+    "Keep expenses of management and commissions within the limits set; follow the outsourcing, advertisement and policyholder protection rules"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-INS-REG"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-INS-INV",
+   "type": "Regulation",
+   "short_name": "IFSCA (Investment by IIO) Regulations, 2022",
+   "title": "IFSCA (Investment by IFSC Insurance Office) Regulations, 2022 (consolidated to 05-11-2024)",
+   "issuing_department": "IFSCA (Insurance)",
+   "theme": "Insurance offices and intermediaries",
+   "reference_no": "No. IFSCA/2022-23/GN/REG030",
+   "issue_date": "2023-01-12",
+   "updated_as_on": "2024-11-05",
+   "effective_date": "2023-01-12",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f316fa52&fileName=consolidated-ifsca-investment-by-iio-regulations-202212112024105321.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IIOs set up as companies investing their funds"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Rating-based exposure limits",
+    "Caps on debt mutual funds and asset-backed securities"
+   ],
+   "core_obligations": [
+    "Invest within the rating-based exposure limits",
+    "Debt mutual funds at most 10% and mortgage-backed or asset-backed securities at most 5% of investments"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-INS-REG"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-INS-SOLV",
+   "type": "Regulation",
+   "short_name": "IFSCA solvency regulations (general, health and reinsurance)",
+   "title": "IFSCA (Assets, Liabilities and Solvency Margin of General, Health and Re-insurance Business) Regulations, 2023",
+   "issuing_department": "IFSCA (Insurance)",
+   "theme": "Insurance offices and intermediaries",
+   "reference_no": "No. IFSCA/2022-23/GN/REG038",
+   "issue_date": "2023-04-19",
+   "updated_as_on": "",
+   "effective_date": "2023-04-20",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3102c13&fileName=53-ifsca-assets-liabilities-and-solvency-margin-of-general-health-and-re-insurance-business-regulations-202327042023104402.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "IIOs writing general, health or reinsurance business"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Valuation of assets and liabilities",
+    "Required solvency margin",
+    "Solvency ratio"
+   ],
+   "core_obligations": [
+    "Maintain a solvency ratio of at least 150%",
+    "Unincorporated IIOs (branches) follow reg 17(4) of the Registration Regulations (home regulator solvency)"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "REG-INS-REG"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "GDL-AML",
+   "type": "Guidelines",
+   "short_name": "IFSCA AML, CFT and KYC Guidelines, 2022",
+   "title": "IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022 (updated as on 03-08-2026)",
+   "issuing_department": "IFSCA (AML/CFT)",
+   "theme": "AML, KYC and customer protection",
+   "reference_no": "No. IFSCA/2022-23/GN/GL001",
+   "issue_date": "2022-10-28",
+   "updated_as_on": "2026-08-03",
+   "effective_date": "2022-10-31",
+   "status": "In force (as updated)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/mizvnmwVAgs=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7db212d4&fileName=Master_Guidelines_as_on_03_Aug_2026_20260804_0157.pdf",
+   "statutory_powers": [
+    "Prevention of Money-laundering Act, 2002 and PML Rules, 2005"
+   ],
+   "applies_to": [
+    "All regulated entities in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Designated Director and Principal Officer",
+    "Customer due diligence and KYC",
+    "CKYCR and KRA",
+    "Reports to FIU-IND on FINGate 2.0",
+    "Record keeping"
+   ],
+   "core_obligations": [
+    "Appoint a Designated Director and a Principal Officer and give their details to FIU-IND and IFSCA",
+    "Carry out customer due diligence and update documents; use the CKYC Records Registry and KYC registration agencies as specified",
+    "File reports under PML Rules rules 3, 7 and 8 on FINGate 2.0",
+    "Filing a suspicious transaction report must not by itself lead to restrictions on the customer's accounts"
+   ],
+   "timelines": [
+    "Keep records for five years",
+    "Obtain updated documents within 30 days of a change"
+   ],
+   "consequences_stated": [
+    "Each day of delay in reporting is a separate violation"
+   ],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "CIR-AML-CERT",
+    "REG-BANK",
+    "REG-FC"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-AML-CERT",
+   "type": "Circular",
+   "short_name": "AML certification for Designated Director and Principal Officer",
+   "title": "Requirement of certification on AML/CFT for the Designated Director and Principal Officer under the AML guidelines",
+   "issuing_department": "IFSCA (AML/CFT)",
+   "theme": "AML, KYC and customer protection",
+   "reference_no": "F. No. IFSCA-DAC/8/2024-AMLCFT",
+   "issue_date": "2025-11-17",
+   "updated_as_on": "",
+   "effective_date": "2025-11-17",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a916ca9a6&fileName=AML_CTF_Circular_20251118_0443.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Designated Directors and Principal Officers of IFSC regulated entities"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "NISM-IFSCA-01 AML/CFT certification"
+   ],
+   "core_obligations": [
+    "The Designated Director and Principal Officer hold the NISM-IFSCA-01 AML/CFT certification at all times"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "GDL-AML"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-GRIEV",
+   "type": "Circular",
+   "short_name": "Complaint handling and grievance redressal",
+   "title": "Complaint handling and grievance redressal by regulated entities in the IFSC",
+   "issuing_department": "IFSCA (Legal and Regulatory Affairs)",
+   "theme": "AML, KYC and customer protection",
+   "reference_no": "F. No. IFSCA-LPRA/3/2024-Legal and Regulatory Affairs",
+   "issue_date": "2024-12-02",
+   "updated_as_on": "2025-01-13",
+   "effective_date": "2025-04-01",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3173a5b&fileName=complaint-handling-and-grievance-redressal-by-regulated-entities-in-the-ifsc02122024015438.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Regulated entities dealing with retail consumers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Acknowledgement and disposal of complaints",
+    "Complaint Redressal and Appellate Officer",
+    "Escalation to IFSCA"
+   ],
+   "core_obligations": [
+    "Accept a complaint in writing or reject it with reasons",
+    "Appoint a Complaint Redressal and Appellate Officer (at or one level below KMP) to hear appeals",
+    "A consumer not satisfied may approach IFSCA at grievance-redressal@ifsca.gov.in"
+   ],
+   "timelines": [
+    "Accept within 3 working days or reject within 5 working days",
+    "Dispose of the complaint preferably within 15 days and ordinarily within 30 days",
+    "Appeal preferably within 21 days; the appellate officer decides within 30 days",
+    "Approach IFSCA preferably within 21 days of the appellate decision"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "CIR-CHARTER"
+   ],
+   "repeals": "Supersedes Module 10 of the Banking Handbook COB Directions"
+  },
+  {
+   "id": "CIR-CHARTER",
+   "type": "Circular",
+   "short_name": "Consumer charter",
+   "title": "Consumer Charter by regulated entities in the IFSC",
+   "issuing_department": "IFSCA (Legal and Regulatory Affairs)",
+   "theme": "AML, KYC and customer protection",
+   "reference_no": "F. No. IFSCA-LPRA/4/2025-Legal and Regulatory Affairs",
+   "issue_date": "2026-05-08",
+   "updated_as_on": "",
+   "effective_date": "2026-05-08",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=91427247c5628a865846d173bc229a3c&fileName=Consumer_Charter_by_Regulated_Entities_in_the_IFSC_20260508_0343.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Regulated entities dealing with retail consumers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Consumer rights and service standards"
+   ],
+   "core_obligations": [
+    "Regulated entities dealing with retail consumers are encouraged to adopt and publish a Consumer Charter"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "CIR-GRIEV"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-CYBER",
+   "type": "Guidelines",
+   "short_name": "Cyber security and cyber resilience guidelines",
+   "title": "Guidelines on Cyber Security and Cyber Resilience for regulated entities in IFSCs (10-03-2025, as amended 10-03-2026)",
+   "issuing_department": "IFSCA",
+   "theme": "Fees, SEZ approval and cyber security",
+   "reference_no": "IFSCA circular dated 10-03-2025",
+   "issue_date": "2025-03-10",
+   "updated_as_on": "2026-03-10",
+   "effective_date": "2025-03-10",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318583b&fileName=guidelines-on-cyber-security-and-cyber-resilience-for-regulated-entities-in-ifscs_27032527032025010826.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "All regulated entities in the IFSC"
+   ],
+   "excluded": [
+    "For three years from 10-03-2026: branches of regulated entities, group-only entities such as global in-house centres and entities with fewer than 10 employees adopt the parent's framework and file a certificate instead"
+   ],
+   "key_concepts": [
+    "CISO or designated officer",
+    "Incident reporting",
+    "Annual cyber audit by a CERT-In empanelled auditor"
+   ],
+   "core_obligations": [
+    "Appoint a CISO or designated officer; the governing board and senior management oversee cyber security",
+    "Have an annual cyber audit by a CERT-In empanelled or certified auditor",
+    "Exempt entities adopt the parent framework (the parent CISO acts as designated officer), file a compliance certificate and still submit the annual audit"
+   ],
+   "timelines": [
+    "Report cyber incidents to cyber-incidents@ifsca.gov.in within 6 hours of detection",
+    "Submit the audit report within 90 days of the end of the financial year (or within 7 days of filing with a market infrastructure institution)"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "CIR-CERTIN"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-CERTIN",
+   "type": "Circular",
+   "short_name": "CERT-In advisories and vulnerability notes",
+   "title": "Adherence to advisories and vulnerability notes issued by CERT-In",
+   "issuing_department": "IFSCA",
+   "theme": "Fees, SEZ approval and cyber security",
+   "reference_no": "IFSCA circular dated 25-11-2026",
+   "issue_date": "2026-11-25",
+   "updated_as_on": "",
+   "effective_date": "2026-11-25",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=fc2cfb582037f82d92801abc770f5f9e&fileName=Adherence_to_advisories_and_vulnerability_notes_issued_by_the_Indian_Computer_Emergency_Response_Team__CERT_In__20261125_0641.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "All regulated entities in the IFSC, including systems run by the parent or third parties"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Tracking CERT-In advisories",
+    "Timely countermeasures"
+   ],
+   "core_obligations": [
+    "Comply with CERT-In advisories and vulnerability notes, including for systems operated by the parent or third parties",
+    "Keep a mechanism to track them, assess them promptly and implement countermeasures"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "CIR-CYBER"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "CIR-FEES",
+   "type": "Circular",
+   "short_name": "IFSCA fee structure",
+   "title": "Fee structure for entities undertaking or intending to undertake permissible activities in IFSC (02-03-2026, with corrigendum of 13-03-2026)",
+   "issuing_department": "IFSCA",
+   "theme": "Fees, SEZ approval and cyber security",
+   "reference_no": "IFSCA circular dated 02-03-2026",
+   "issue_date": "2026-03-02",
+   "updated_as_on": "2026-03-13",
+   "effective_date": "2026-03-02",
+   "status": "In force (as amended)",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a810d93a&fileName=02_03_2026_IFSCA_Fee_Circular_FY_2026_27_20260302_0641.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "All applicants and regulated entities in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Application, registration, flat recurring and conditional recurring fees",
+    "Interest on late payment"
+   ],
+   "core_obligations": [
+    "Pay the application and registration fees for each activity, the flat recurring fee each year and any conditional recurring fee",
+    "Late payment attracts interest"
+   ],
+   "timelines": [
+    "The flat recurring fee falls due on 1 April and is paid by 30 April",
+    "New registrants pay a pro-rata fee within 15 days of the grant",
+    "Conditional fee true-up by 30 April of the next financial year"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "CIR-MASTERKEY"
+   ],
+   "repeals": "Supersedes the earlier fee circulars, including that of 08-04-2025"
+  },
+  {
+   "id": "CIR-SEZ-LOA",
+   "type": "Circular",
+   "short_name": "SEZ Letter of Approval for regulated entities",
+   "title": "Directions to all regulated entities on holding a valid SEZ Letter of Approval",
+   "issuing_department": "IFSCA",
+   "theme": "Fees, SEZ approval and cyber security",
+   "reference_no": "IFSCA circular dated 10-08-2026",
+   "issue_date": "2026-08-10",
+   "updated_as_on": "",
+   "effective_date": "2026-08-10",
+   "status": "In force",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7dd68540&fileName=Circular___Directions_to_All_REs_20260810_0215.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "All regulated entities in the IFSC"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "SEZ Letter of Approval",
+    "Renewal under SEZ Rules rule 19(6A)"
+   ],
+   "core_obligations": [
+    "Hold a valid SEZ Letter of Approval and the IFSCA registration, licence or authorisation at all times"
+   ],
+   "timelines": [
+    "The Letter of Approval is valid for 1 year before commencement and 5 years after",
+    "Apply for renewal at least 2 months before expiry"
+   ],
+   "consequences_stated": [
+    "Breach can lead to a penalty, suspension or cancellation"
+   ],
+   "consequences_general": "International Financial Services Centres Authority Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.",
+   "cross_references": [
+    "CIR-FEES"
+   ],
+   "repeals": "Supersedes the directions of 03-04-2025"
+  },
+  {
+   "id": "OLD-FM22",
+   "type": "Superseded instrument",
+   "short_name": "Fund Management Regulations 2022",
+   "title": "IFSCA (Fund Management) Regulations, 2022",
+   "issuing_department": "IFSCA",
+   "theme": "Superseded (history)",
+   "reference_no": "No. IFSCA/2021-22/GN/REG024",
+   "issue_date": "2022-04-19",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Repealed by the 2025 Regulations",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f30c5629&fileName=32-ifsca-fund-management-regulations-202225042022010012.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "REG-FM"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "OLD-CMI21",
+   "type": "Superseded instrument",
+   "short_name": "CMI Regulations 2021",
+   "title": "IFSCA (Capital Market Intermediaries) Regulations, 2021",
+   "issuing_department": "IFSCA",
+   "theme": "Superseded (history)",
+   "reference_no": "No. IFSCA/2021-22/GN/REG018",
+   "issue_date": "2021-10-18",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Repealed by the 2025 Regulations",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f30ab7fd&fileName=21-ifsca-capital-market-intermediaries-regulations-202122102021102202.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "REG-CMI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "OLD-ILS21",
+   "type": "Superseded instrument",
+   "short_name": "Issuance and Listing Regulations 2021",
+   "title": "IFSCA (Issuance and Listing of Securities) Regulations, 2021",
+   "issuing_department": "IFSCA",
+   "theme": "Superseded (history)",
+   "reference_no": "No. IFSCA/2021-22/GN/REG015",
+   "issue_date": "2021-07-16",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Replaced by the Listing Regulations, 2024",
+   "official_url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f30999a0&fileName=ifsca-issuance-and-listing-of-securities-regulations-202120072021054301.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "REG-LISTING"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "OLD-FEE25",
+   "type": "Superseded instrument",
+   "short_name": "Fee circular of 08-04-2025",
+   "title": "Fee structure for entities undertaking permissible activities in IFSC (08-04-2025)",
+   "issuing_department": "IFSCA",
+   "theme": "Superseded (history)",
+   "reference_no": "IFSCA circular dated 08-04-2025",
+   "issue_date": "2025-04-08",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Superseded by the fee circular of 02-03-2026",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318bf64&fileName=ifsca-fee-circular-08apr202508042025073502.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "CIR-FEES"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "OLD-REDIR25",
+   "type": "Superseded instrument",
+   "short_name": "Directions to regulated entities of 03-04-2025",
+   "title": "Directions for all regulated entities (03-04-2025)",
+   "issuing_department": "IFSCA",
+   "theme": "Superseded (history)",
+   "reference_no": "IFSCA circular dated 03-04-2025",
+   "issue_date": "2025-04-03",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Superseded by the directions of 10-08-2026",
+   "official_url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "official_pdf": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31896f1&fileName=circular-on-holding-valid-and-subsisting-loa-and-cor03042025080912.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "CIR-SEZ-LOA"
+   ],
+   "repeals": ""
+  }
+ ]
+}

@@ -655,6 +655,108 @@
    "line": "Insolvency: CIRP, liquidation, NBFC insolvency"
   },
   {
+   "id": "ifsc",
+   "short": "IFSC",
+   "name": "IFSC",
+   "full": "International Financial Services Centres Authority (GIFT City)",
+   "status": "live",
+   "desc": "The IFSCA Act, 2019, the FEMA (IFSC) Regulations and the IFSCA regulations, frameworks and circulars for banking units, finance companies, fund managers, capital market intermediaries and insurance offices in GIFT IFSC.",
+   "href": "ifsc/",
+   "data": {
+    "register": "ifsc/data/ifsc_register.json",
+    "graph": "ifsc/data/ifsc_graph.json",
+    "definitions": "ifsc/data/definitions.json",
+    "glossary": "ifsc/data/glossary.json",
+    "updates": "ifsc/data/updates.json",
+    "fulltext": "ifsc/data/fulltext.json"
+   },
+   "official": "https://ifsca.gov.in",
+   "map": "ifsc/map/",
+   "subjects": [
+    {
+     "theme": "Statute and foreign exchange status",
+     "nice": "The Act and FEMA status",
+     "slug": "statute"
+    },
+    {
+     "theme": "Banking units (IBU and IBC)",
+     "nice": "Banking units",
+     "slug": "banking"
+    },
+    {
+     "theme": "Finance companies, leasing and treasury centres",
+     "nice": "Finance companies and leasing",
+     "slug": "finance"
+    },
+    {
+     "theme": "Fund management",
+     "nice": "Fund management",
+     "slug": "funds"
+    },
+    {
+     "theme": "Capital market intermediaries and listing",
+     "nice": "Capital markets and listing",
+     "slug": "markets"
+    },
+    {
+     "theme": "Insurance offices and intermediaries",
+     "nice": "Insurance",
+     "slug": "insurance"
+    },
+    {
+     "theme": "AML, KYC and customer protection",
+     "nice": "AML, KYC and complaints",
+     "slug": "aml"
+    },
+    {
+     "theme": "Fees, SEZ approval and cyber security",
+     "nice": "Fees, SEZ approval and cyber",
+     "slug": "operations"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-IBU",
+     "name": "IFSC Banking Unit",
+     "key": "ibu",
+     "desc": "Bank branch or subsidiary"
+    },
+    {
+     "id": "ENT-FC",
+     "name": "Finance company / unit",
+     "key": "fc",
+     "desc": "Lender, lessor or treasury centre"
+    },
+    {
+     "id": "ENT-FME",
+     "name": "Fund management entity",
+     "key": "fme",
+     "desc": "Manager of funds or portfolios"
+    },
+    {
+     "id": "ENT-CMI",
+     "name": "Capital market intermediary",
+     "key": "cmi",
+     "desc": "Broker, adviser or listed issuer"
+    },
+    {
+     "id": "ENT-INS",
+     "name": "Insurance office / intermediary",
+     "key": "ins",
+     "desc": "Insurer, broker or MGA"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally",
+   "line": "GIFT City: banks, finance cos, funds, insurers"
+  },
+  {
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",

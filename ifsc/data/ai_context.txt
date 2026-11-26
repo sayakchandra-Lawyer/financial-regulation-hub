@@ -1,0 +1,703 @@
+IFSC (GIFT City) REGISTER of IFSCA law for financial institutions (IFSC Banking Units, finance companies and units, fund management entities, capital market intermediaries and listed issuers, insurance offices and intermediaries) (as of 2026-11-26). One block per instrument. Fields: applies, excluded, concepts, duties, deadlines, breach (stated consequences), penalties (code of the shared statutory penalty text below), refs, repeals, defs (terms the instrument defines: term [para; scope]: meaning).
+
+SHARED STATUTORY PENALTY TEXTS:
+P1: IFSCA Act, 2019: in an IFSC, IFSCA exercises all the powers of RBI, SEBI, IRDAI and PFRDA under the Acts listed in the First Schedule (s. 13(1)). The provisions of those Acts on inspection, investigation, prosecution, settlement, compounding, adjudication, appeals, and the fees, fines and penalties for contravention apply to IFSC products, services and institutions as they apply under those Acts (s. 13(4)). Penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI rate on the date of the order (s. 13(5)). Each IFSCA regulation also lets the Authority suspend, withdraw or cancel a registration, licence or recognition after giving the entity an opportunity to make its submissions.
+
+[ACT-IFSCA] IFSCA Act, 2019 | The International Financial Services Centres Authority Act, 2019 | Act 50 of 2019 | Act | In force | issued 2019-12-19 | subject: Statute and foreign exchange status
+applies: Financial products, financial services and financial institutions in an IFSC (IFSC), including GIFT IFSC
+concepts: Financial institution, financial product, financial service and IFSC (s. 3)
+concepts: IFSCA as the unified regulator (s. 4)
+concepts: Duty to develop and regulate financial products, services and institutions in the IFSC (s. 12)
+concepts: Powers of RBI, SEBI, IRDAI and PFRDA under the First Schedule Acts exercised by IFSCA in the IFSC (s. 13)
+concepts: Transactions in the foreign currency the Authority specifies (s. 20)
+concepts: Regulations (s. 28)
+concepts: Overriding effect (s. 30)
+duties: s. 13(1): in an IFSC, the powers of the appropriate regulators under the First Schedule Acts (including the RBI Act, Banking Regulation Act, FEMA, Payment and Settlement Systems Act, SEBI Act, Securities Contracts (Regulation) Act, Depositories Act, Insurance Act, IRDA Act and PFRDA Act) are exercised by IFSCA alone, so far as they relate to regulating financial products, services and institutions
+duties: s. 13(4): the provisions of those Acts on registration, reports, inspection, investigation, adjudication, compounding, appeals and penalties apply to IFSC entities as they apply under those Acts
+duties: s. 20: transactions of financial services in an IFSC are carried on in the foreign currency the Authority specifies, in consultation with the Central Government
+duties: s. 30: the Act has effect notwithstanding anything inconsistent in any other law
+breach: s. 13(5): penalties, fines, fees and settlement amounts are collected in the foreign currency equivalent, at the RBI reference rate on the date of the order
+penalties: P1
+defined terms (wording is in the full text): appropriate regulator (definition clause); Authority (definition clause); financial institution (definition clause); International Financial Services Centre (definition clause); Member (definition clause); notification (definition clause); prescribed (definition clause); regulations (definition clause)
+
+[REG-FEMA-IFSC] FEMA (IFSC) Regulations, 2015 | Foreign Exchange Management (International Financial Services Centre) Regulations, 2015 (as amended up to 07-01-2020) | Notification No. FEMA 339/2015-RB, G.S.R. 218(E); amended by FEMA 397/RB-2020 | Regulation | In force (as amended) | issued 2015-03-02 | subject: Statute and foreign exchange status
+powers: FEMA s. 47
+applies: Financial institutions and branches of financial institutions set up in an IFSC and permitted or recognised by the regulator
+concepts: IFSC unit treated as a person resident outside India
+concepts: Business in foreign currency with the persons the regulator determines
+concepts: Other FEMA regulations do not apply to IFSC units except as provided
+duties: reg 3: a financial institution or a branch of a financial institution set up in an IFSC and permitted or recognised as such by the Government of India or a regulator is treated as a person resident outside India
+duties: reg 4: it conducts business in the foreign currency and with the persons, resident or non-resident, that the concerned regulator determines; the 2020 proviso lets RBI allow business in rupees
+duties: reg 5: the other FEMA regulations do not apply to such an institution or branch, except as these regulations provide
+refs: ACT-IFSCA; CIR-SNRR; CIR-IBU-RESACC
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Financial service (definitions clause); Financial transaction (definitions clause); FMC (definitions clause); IRDA (definitions clause); PFRDA (definitions clause); Regulatory Authority (definitions clause); SEBI (definitions clause)
+
+[CIR-SNRR] SNRR accounts of IFSC units | Permissible transactions through the Special Non-Resident Rupee (SNRR) accounts of IFSC units (29-01-2025, as amended 18-02-2025 and 19-06-2026) | F. No. IFSCA-FMPP0BR/4/2024-Banking | Circular | In force (as amended) | issued 2025-01-29 | subject: Statute and foreign exchange status
+applies: IFSC units that hold an SNRR account with an AD bank in India under the Foreign Exchange Management (Deposit) (Fifth Amendment) Regulations, 2025
+concepts: SNRR account with an AD bank outside the IFSC for business outside the IFSC
+concepts: Transfer of rupee receipts to the unit's IBU account in foreign currency
+concepts: Administrative expenses carved out
+duties: An IFSC unit may use its SNRR account with an AD bank in India for its business outside the IFSC, as the Foreign Exchange Management (Deposit) (Fifth Amendment) Regulations, 2025 (14-01-2025) allow
+duties: Amounts received in the SNRR account must be remitted to the unit's account with an IBU in a specified foreign currency
+duties: The remittance requirement does not apply to amounts kept for administrative expenses
+deadlines: Amounts received in the SNRR account are remitted to the IBU account within 30 working days
+refs: REG-FEMA-IFSC; REG-BANK
+penalties: P1
+
+[REG-BANK] IFSCA (Banking) Regulations, 2020 | International Financial Services Centres Authority (Banking) Regulations, 2020 (consolidated, with the 2024 amendment) | No. IFSCA/2020-21/GN/REG004; amended by IFSCA/GN/2024/004 | Regulation | In force (as amended) | issued 2020-11-18 | subject: Banking units (IBU and IBC)
+powers: IFSCA Act ss. 12, 13 and 28
+applies: IFSC Banking Units: an IFSC Banking Unit set up as a branch (IBU) or an IFSC Banking Company set up as a subsidiary (IBC); Representative offices and Global Administrative Offices of banks in the IFSC
+concepts: Banking Unit as IBU (branch) or IBC (subsidiary)
+concepts: Minimum capital
+concepts: LCR, NSFR, leverage and exposure norms
+concepts: Specified foreign currencies (First Schedule)
+concepts: Permissible activities and referral services
+concepts: No cash; savings accounts only for individuals
+concepts: No lender of last resort
+concepts: Reporting in USD
+duties: reg 3(3): an IBU keeps minimum capital of USD 20 million (maintained at the parent bank), with a no-objection from the home regulator and a liquidity support undertaking
+duties: reg 3(3A): an IBC keeps minimum capital of USD 50 million
+duties: reg 4: an IBU also follows its home regulator's directions
+duties: reg 5: a Banking Unit maintains the LCR (an IBU may, with approval, hold it at the parent) and the NSFR as the Authority specifies
+duties: regs 6 and 7: leverage ratio and exposure norms as specified
+duties: reg 8: no CRR on deposits generally, but deposits from individuals attract reserve ratios as specified; an IBC keeps reserves as the Banking Regulation Act and RBI Act require
+duties: reg 9: no lender-of-last-resort support is available to a Banking Unit
+duties: reg 10: business is conducted in the specified foreign currencies (First Schedule: USD, EUR, JPY, GBP, CAD, AUD, CHF, HKD, SGD, AED, RUB, and since 2024 SEK, NOK, NZD and DKK); rupee transactions are settled in a specified currency
+duties: reg 11: foreign currency accounts may be opened for residents within the Liberalised Remittance Scheme
+duties: reg 12: no cash transactions; savings accounts only for individuals
+duties: reg 13: activities permitted under IFSCA Act s. 3(1)(e) and Banking Regulation Act s. 6 unless prohibited; referral services allowed
+duties: reg 14: follow the IFSCA AML, CFT and KYC guidelines
+duties: regs 15 to 17: report in USD, keep books in the specified currencies, and keep a rupee account only for administrative expenses
+duties: reg 19: netting of margins as specified
+breach: reg 21: the Authority may withdraw the licence or permission after giving the Banking Unit 30 days to make its submissions
+refs: ACT-IFSCA; HB-BANK; GDL-AML
+penalties: P1
+repeals: Supersedes the RBI circular of 01-04-2015 on IFSC Banking Units (reg 22)
+defined terms (wording is in the full text): Act (definitions clause); Authority (definitions clause); Foreign Bank (definitions clause); Indian Bank (definitions clause); INR (definitions clause); Foreign Bank Unit (definitions clause); Indian Bank Unit (definitions clause); Reserve Bank (definitions clause); Securities and Exchange Board (definitions clause); Stock Exchange (definitions clause); Qualified Individual (definitions clause); Qualified Resident Individual (definitions clause); USD (definitions clause)
+
+[HB-BANK] IFSCA Banking Handbook (GEN, COB, PRU) | IFSCA Banking Handbook: General (GEN v5.0), Conduct of Business (COB v6.0) and Prudential (PRU v5.0) Directions | Banking Handbook, 05-04-2024 | Directions | In force (as amended) | issued 2024-04-05 | subject: Banking units (IBU and IBC)
+powers: IFSCA (Banking) Regulations, 2020
+applies: IBUs and IBCs in the IFSC
+concepts: Base capital
+concepts: Capital adequacy and leverage certificate
+concepts: Liquidity coverage ratio
+concepts: Significant currencies
+concepts: Funding strategy
+concepts: Credit risk policy and large exposures
+concepts: Conduct of business modules
+duties: PRU: an IBU keeps base capital of USD 20 million; its leverage ratio is maintained by the parent as the home regulator requires
+duties: PRU: maintain an LCR of 100% (from 01-04-2021) or the home regulator's minimum where that is higher
+duties: PRU: a currency is significant where it is more than 10% of liabilities (or a lower home threshold), and LCR is tracked for it
+duties: PRU: keep a funding strategy reviewed at least every three years, a board-approved credit risk policy and large exposure limits
+duties: COB: conduct-of-business rules for customer dealings, including Module 16 on providing credit
+deadlines: PRU: file the quarterly capital adequacy and leverage certificate within 45 days of the end of each quarter
+refs: REG-BANK; CIR-IBU-GOV; CIR-COB16
+penalties: P1
+defined terms (wording is in the full text): Banking Company (definitions); Clients (definitions); Capital account transaction (definitions); Current account transaction (definitions); Foreign currency (definitions); Financial promotion (definitions); Electronic trading platform (ETP) (definitions); Personal transaction (definitions); Current Account (definitions); Demand deposit (definitions); Floating rate deposit (definitions); Individual client (definitions); Notice deposit (definitions); Savings account (definitions); Structured deposit (definitions); Term deposit (definitions); Certificate of Deposit (CD) (definitions); Booked in IFSC (definitions); Initial margin (definitions); Professional client (definitions); Deemed professional client (definitions); Retail client (definitions); Counterparties (definitions); Recognised credit rating agency (definitions); Variation margin (definitions); Market maker (definitions); Netting set (definitions); IFSC covered entity (definitions); Entity engaged in financial business (definitions); Significant non-financial entity (definitions); Group (definitions); Foreign Covered Entity (definitions); Uncleared derivatives contract (definitions); Specified derivatives contract (definitions); Specified person (definitions); FX Prime Brokerage (FXPB) (definitions); Director (definitions); Related party of such Director (definitions); Support services (definitions); Group entities (definitions); Sales and trading services (definitions); Structuring services (definitions); Managing the risk (definitions); Providing support to global sales/ trading/ structuring teams (definitions); Governing Body (definitions); Governance framework (definitions); Internal controls and assurance framework (definitions); Controlled functions (definitions); Designated functions (definitions); Approved individual (definitions); Outsourcing (definitions)
+
+[CIR-IBU-GOV] IBU governing body meetings | Revision to the requirement of meetings of the governing body of IBUs in IFSC (amendment to the Banking Handbook) | No. IFSCA-FMPP0BR/8/2025-Banking/001 | Circular | In force | issued 2025-04-08 | subject: Banking units (IBU and IBC)
+applies: IBUs in the IFSC
+concepts: Governing body of an IBU
+concepts: Meeting frequency
+duties: The governing body of an IBU meets at least once a quarter
+refs: HB-BANK
+penalties: P1
+
+[CIR-COB16] Loans to directors and related parties (COB Module 16) | Amendments to Module 16 (Providing Credit) of the IFSCA Banking Handbook: COB Directions | No. 110/IFSCA/Banking Regulation/2020-21 | Circular | In force | issued 2025-12-08 | subject: Banking units (IBU and IBC)
+applies: IBUs of foreign banks and other Banking Units lending to related parties
+concepts: Banking Regulation Act s. 20(1) disapplied for foreign bank IBUs
+concepts: Loans to directors and related parties of the parent bank
+concepts: Loans for share buy-back
+duties: Banking Regulation Act s. 20(1) (bar on loans to directors) does not apply to an IBU of a foreign bank
+duties: Loans to directors or related parties of the parent bank need a board-approved policy, no conflict of interest, no terms more favourable than for others, recusal of the interested director, the home regulator's thresholds and periodic audit
+duties: Loans to fund a share buy-back are allowed where the home country law permits
+deadlines: Intimate the Department of Banking Supervision within 15 working days of such a loan
+refs: HB-BANK; REG-BANK
+penalties: P1
+
+[CIR-BLA2025] Banking Laws (Amendment) Act, 2025 in IBUs | Implementation of provisions of the Banking Laws (Amendment) Act, 2025 | No. IFSCA-FMPP0BR/35/2025-Banking | Circular | In force | issued 2025-12-12 | subject: Banking units (IBU and IBC)
+applies: Banking Units in the IFSC
+concepts: Banking Laws (Amendment) Act, 2025 ss. 10 to 13
+concepts: Commencement on 01-11-2025 (S.O. 4789(E))
+duties: Banking Units comply with ss. 10 to 13 of the Banking Laws (Amendment) Act, 2025, in force from 01-11-2025 under S.O. 4789(E) dated 22-10-2025
+refs: REG-BANK
+penalties: P1
+
+[CIR-NETBANK] Internet banking for IBU clients | Internet banking services to clients of IBUs: Review (29-12-2025, as amended 30-06-2026 and 31-07-2026) | F.No. IFSCA-FMPP0BR/5/2024-Banking | Circular | In force (as amended) | issued 2025-12-29 | subject: Banking units (IBU and IBC)
+applies: IBUs offering liability products (deposits and accounts) to customers
+excluded: IBUs without liability products are exempt from the interactive and transactional requirements
+concepts: Unified dashboard for all linked accounts (deposit and loan)
+concepts: Explicit customer consent
+concepts: Dual-layer authentication, maker-checker and beneficiary whitelisting
+concepts: Bar on onboarding new customers if non-compliant
+duties: Offer internet banking with explicit customer consent, and display the specified currencies and cut-off times
+duties: Provide a unified dashboard with real-time balances of all linked accounts (deposit and loan), machine-readable statements, inward remittance instructions, premature withdrawal and SMS or email alerts (live rates are not mandatory)
+duties: Transactional features include transfers and fixed deposits, with dual-layer authentication, maker-checker controls and beneficiary whitelisting
+duties: Applies to IBUs that began operating both before and after the circular
+deadlines: Original deadline 31-07-2026, extended once to 30-09-2026
+breach: From 01-10-2026, an IBU that has not complied stops onboarding new customers for the liability product concerned
+refs: HB-BANK
+penalties: P1
+
+[CIR-SWIFT] SWIFT requirements for IBUs | Directions to IBUs on SWIFT-related operational requirements | No. IFSCA-FMPP0BR/12/2025-Banking | Circular | In force | issued 2026-02-26 | subject: Banking units (IBU and IBC)
+applies: IBUs using SWIFT
+concepts: Distinct IBU BIC naming
+concepts: Routing of misdirected messages
+concepts: Quarterly SWIFT broadcast
+duties: The BIC name of the IBU includes the words "GIFT IFSC Banking Unit"
+duties: Put in place routing rules for misdirected messages and publicise the IBU's BIC
+duties: Send a quarterly SWIFT broadcast, from the quarter ending 31-03-2026, for one year
+deadlines: Report compliance to the Department of Banking Supervision by 30-06-2026
+refs: HB-BANK
+penalties: P1
+
+[CIR-VOSTRO] Vostro balances in BAL statement | Reporting of transactions for India's External Account Statistics: additional directions | No. IFSCA-FMPP0BR/13/2023-Banking | Circular | In force | issued 2025-11-11 | subject: Banking units (IBU and IBC)
+powers: Banking Regulation Act s. 35A; IFSCA Act s. 13(1)
+applies: IBUs reporting on the RBI balance of payments portal
+concepts: Fortnightly BAL statement
+concepts: Vostro account balances
+duties: Report vostro account balances in the fortnightly BAL statement on the RBI balance of payments portal, from the second fortnight of November 2025, in addition to the 19-09-2022 circular
+refs: REG-BANK
+penalties: P1
+
+[CIR-FCSS] Foreign Currency Settlement System | Foreign Currency Settlement System: instructions for IFSC Banking Units | IFSCA circular dated 07-10-2025 | Circular | In force | issued 2025-10-07 | subject: Banking units (IBU and IBC)
+applies: IBUs that join the Foreign Currency Settlement System as members
+concepts: Gross settlement of USD payments within the IFSC
+concepts: Membership under the system's business rules
+concepts: ISO 20022 messaging
+duties: IBUs are eligible to become members of the Foreign Currency Settlement System under its business rules (notified 03-10-2025)
+duties: The system settles USD transactions first, on a gross basis, 08:00 to 20:00 IST, using ISO 20022 messages
+refs: REG-BANK
+penalties: P1
+
+[CIR-IBU-RESACC] Accounts of residents with IBUs | Opening of an account of a person resident in India (13-08-2025, with the corrigendum of 02-09-2025) | No. IFSCA-FMPP0BR/4/2024-Banking | Circular | In force (as amended) | issued 2025-08-13 | subject: Banking units (IBU and IBC)
+applies: IBUs opening foreign currency accounts for persons resident in India
+concepts: IBU account as a foreign currency account with a bank outside India
+concepts: Foreign Exchange Management (Foreign Currency Accounts) Regulations, 2015
+duties: An account with an IBU counts as a foreign currency account with a bank outside India for paras 5(B) to 5(F) of the Foreign Exchange Management (Foreign Currency Accounts by a person resident in India) Regulations, 2015
+duties: No prior permission of IFSCA is needed to open such an account
+refs: REG-BANK; REG-FEMA-IFSC
+penalties: P1
+
+[REG-FC] IFSCA (Finance Company) Regulations, 2021 | International Financial Services Centres Authority (Finance Company) Regulations, 2021 (as amended up to 07-05-2026) | No. IFSCA/2020-21/GN/REG010; amended 2022 and IFSCA/GN/2026/009 | Regulation | In force (as amended) | issued 2021-03-25 | subject: Finance companies, leasing and treasury centres
+powers: IFSCA Act ss. 12, 13 and 28
+applies: Finance Companies (subsidiary, joint venture or new company in the IFSC) and Finance Units (branch of an entity incorporated in India or abroad)
+concepts: Certificate of registration
+concepts: Core activities (lending, factoring and forfaiting, investments, derivatives, treasury centres)
+concepts: Non-core activities (merchant banking, advisory, operating leases, distribution and others)
+concepts: Owned fund (Schedule)
+concepts: Capital ratio, LCR and exposure ceiling
+concepts: Change in control
+concepts: Reporting in USD
+duties: reg 3: no Finance Company or Finance Unit carries on business without a certificate of registration; a regulated parent needs a home regulator no-objection; the applicant comes from a FATF-compliant jurisdiction
+duties: reg 3: a Finance Unit may undertake core activities only if it is a regulated financial institution with a no-objection, except a treasury centre; an LLP or trust may undertake non-core activities only
+duties: reg 4: an entity doing core activities keeps a capital ratio of 8% of risk-weighted assets, keeps an LCR (a Finance Unit may hold it at the parent with approval), and does not exceed 25% of its eligible capital base to a single counterparty or group without approval
+duties: reg 5: core activities are lending (loans, guarantees, credit enhancement, securitisation, financial lease, portfolio buys and sales), factoring and forfaiting, investments, derivatives and global or regional corporate treasury centres; non-core activities include merchant banking, investment advisory, portfolio management, operating leases of aircraft, ships and equipment, distribution and similar services
+duties: reg 5: non-core activities sit in a separately identifiable department with firewalls; entities doing only non-core activities use derivatives only to hedge; no speculative transactions; dealings with residents are subject to FEMA
+duties: reg 6: deal in freely convertible foreign currency, keep a rupee account only for administrative expenses, and keep the balance sheet in USD
+duties: reg 7: follow the KYC and AML requirements that apply to Banking Units
+duties: reg 8: follow the governance guidelines; prior approval for any change in control (20% or more)
+duties: reg 9: report to the Authority in USD
+deadlines: reg 3: an applicant has 30 days to rectify deficiencies the Authority points out
+deadlines: reg 8: a Finance Unit intimates a change in control of its parent within 15 days
+breach: reg 11: on failure to meet a registration condition, the Authority may suspend, withdraw or cancel the registration after giving the entity an opportunity to make its submissions
+refs: ACT-IFSCA; CIR-FC-GOV; CIR-GRCTC; CIR-AIRCRAFT; CIR-SHIP; REG-FACTORS
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Aircraft Lease (definitions clause); Authority (definitions clause); Finance Company (definitions clause); Finance Unit (definitions clause); Non-resident (definitions clause); Resident (definitions clause); Reserve Bank (definitions clause); Ship Lease (definitions clause); Trust and Company Service Provider (TCSP) (definitions clause)
+
+[CIR-FC-GOV] Finance company governance and disclosure | Guidelines on Corporate Governance and Disclosure Requirements for a Finance Company (updated 04-04-2025) | F. No. 172/IFSCA/Finance Company Regulations/2025-26/01 | Guidelines | In force (as updated) | issued 2021-08-09 | subject: Finance companies, leasing and treasury centres
+powers: IFSCA (Finance Company) Regulations reg 8
+applies: Part I: all Finance Companies and Finance Units except treasury centres; Part II: those doing core activities (except treasury centres)
+concepts: Board and committee structure
+concepts: Fit and proper
+concepts: Disclosures in financial statements
+duties: Part I governance requirements apply to all Finance Companies and Finance Units other than global or regional corporate treasury centres
+duties: Part II adds requirements for entities undertaking core activities
+refs: REG-FC
+penalties: P1
+
+[CIR-GRCTC] Global / regional corporate treasury centre framework | Framework for a Finance Company or Finance Unit undertaking the activity of Global / Regional Corporate Treasury Centre (04-04-2025, updated 09-06-2025) | F. No. IFSCA/24/2024-Banking-FC/01 | Framework | In force (as updated) | issued 2025-04-04 | subject: Finance companies, leasing and treasury centres
+applies: Group companies setting up a treasury centre in the IFSC to serve group entities
+concepts: Treasury centre as company or branch
+concepts: Staffing in the IFSC
+concepts: Owned fund USD 0.2 million
+concepts: Group service recipients
+duties: The treasury centre may be set up as a company or a branch; the parent must not be from a FATF call-for-action jurisdiction and must be fit and proper
+duties: Keep an owned fund of USD 0.2 million (a Finance Unit may hold it at the parent)
+duties: Have at least five qualified staff in the IFSC, including the Head of Treasury and the Compliance Officer, before starting (the Chairperson may relax this for up to one year)
+duties: Apply through the Single Window IT System with the list of group service recipients
+refs: REG-FC
+penalties: P1
+repeals: Supersedes the framework of 25-06-2021
+defined terms (wording is in the full text): Act (definitions); Authority (definitions); Certificate of Registration (definitions); Group Entities (definitions); Holding company (definitions); Owned Fund (definitions); Permissible activities (definitions); Single Window IT System (SWIT) (definitions); Specified foreign currency (definitions)
+
+[CIR-AIRCRAFT] Aircraft lease framework | Framework for Aircraft Lease (updated as on 26-02-2025) | F. No. 172/IFSCA/Finance Company Regulations/2022-23/01 | Framework | In force (as updated) | issued 2022-05-18 | subject: Finance companies, leasing and treasury centres
+applies: Finance Companies and Finance Units leasing aircraft, engines and related assets
+concepts: Operating lease as a non-core activity
+concepts: Financial lease as a core activity
+concepts: Aircraft, engines, ground support equipment and simulators
+duties: An aircraft lessor registers as a Finance Company or Finance Unit; an operating lease is a non-core activity and a financial lease a core activity
+duties: Keep an owned fund of USD 200,000 and come from a FATF-compliant jurisdiction
+duties: Transactions with residents follow the framework and FEMA
+refs: REG-FC
+penalties: P1
+
+[CIR-SHIP] Ship leasing framework | Framework for Ship Leasing (updated as on 20-05-2026) | F. No. 496/IFSCA/FC/SLF/2022-23/001 | Framework | In force (as updated) | issued 2022-08-16 | subject: Finance companies, leasing and treasury centres
+applies: Finance Companies and Finance Units leasing ships
+concepts: Ship lessor as Finance Company or Finance Unit
+concepts: Lease classified under Ind AS
+duties: A ship lessor registers as a Finance Company or Finance Unit and keeps an owned fund of USD 200,000
+duties: Whether a lease is operating or financial follows Ind AS
+refs: REG-FC
+penalties: P1
+defined terms (wording is in the full text): Lessor (definitions); Ocean vessel (definitions); Ship (definitions)
+
+[REG-FACTORS] IFSCA Factors Regulations, 2024 | IFSCA (Registration of Factors and Registration of Assignment of Receivables) Regulations, 2024 (consolidated to 13-03-2025) | No. IFSCA/GN/2024/012 | Regulation | In force (as amended) | issued 2024-11-18 | subject: Finance companies, leasing and treasury centres
+applies: Finance Companies and Finance Units doing factoring business in the IFSC
+concepts: Registration as a factor on top of the finance company registration
+concepts: International trade finance services platforms
+concepts: Filing with the Central Registry
+duties: A factor holds a Finance Company registration and a factor registration; existing factors are deemed registered
+duties: Factoring may be done through international trade finance services platforms
+duties: Assignments of receivables are filed with the Central Registry
+deadlines: Commence business within 6 months of registration
+deadlines: File with the Central Registry within 10 days (extendable by 10 days)
+refs: REG-FC; CIR-FACT-CAP
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Authority (definitions clause); Central Registrar (definitions clause); Central Registry (definitions clause); International Trade Financing Services platform (ITFS) (definitions clause); Relevant Person (definitions clause)
+
+[CIR-FACT-CAP] Capital relief for factoring | Framework on capital relief and prudential requirements for factoring transactions | F.No. IFSCA-FCR0ITFS/2/2024-Banking | Framework | In force | issued 2026-07-21 | subject: Finance companies, leasing and treasury centres
+applies: Factors and Banking Units in the IFSC taking credit protection on factoring exposures
+concepts: Substitution of the protection provider's risk weight
+concepts: Eligible protection providers
+concepts: Two-factor model
+duties: The portion covered by eligible credit protection takes the risk weight of the protection provider
+duties: Eligible providers include sovereigns, export credit agencies, public sector entities, multilateral development banks, banks, securities firms and prudentially regulated financial institutions, including IFSC insurance offices and import factors
+duties: Capital relief applies only where the qualifying conditions in the framework are met
+refs: REG-FACTORS
+penalties: P1
+defined terms (wording is in the full text): Factoring transaction (definitions); Prudentially regulated financial institution (definitions); Protection provider (definitions)
+
+[CIR-FC-WEB] Website for finance companies | Requirement for a Finance Company / Finance Unit to have a website or webpage | No. IFSCA-FCR/4/2026-Banking | Circular | In force | issued 2026-02-03 | subject: Finance companies, leasing and treasury centres
+applies: Finance Companies and Finance Units serving clients outside their group
+concepts: Public disclosure of registration, products, grievance procedure and contacts
+duties: Keep a website or webpage showing the certificate of registration, products and services, the grievance redressal procedure and contact details of key managerial personnel
+deadlines: From 01-04-2026
+refs: REG-FC; CIR-GRIEV
+penalties: P1
+
+[REG-FM] IFSCA (Fund Management) Regulations, 2025 | International Financial Services Centres Authority (Fund Management) Regulations, 2025 (as amended up to 10-09-2026) | No. IFSCA/GN/2025/002 | Regulation | In force (as amended) | issued 2025-02-10 | subject: Fund management
+powers: IFSCA Act ss. 12, 13 and 28
+applies: Fund Management Entities (FMEs) in the IFSC and the schemes they manage: venture capital, restricted and retail schemes, portfolio management, investment trusts and family investment funds
+concepts: Authorised FME, Registered FME (Non-Retail) and Registered FME (Retail)
+concepts: Principal officer, compliance officer and KMPs based in the IFSC
+concepts: Net worth (Second Schedule)
+concepts: Scheme corpus, minimum investment and manager contribution
+concepts: Code of conduct
+concepts: Independent custodian
+duties: reg 3: register as an Authorised FME (venture capital schemes, family investment funds), a Registered FME (Non-Retail) (restricted schemes, portfolio management, private investment trusts) or a Registered FME (Retail) (retail schemes, public investment trusts, ETFs)
+duties: reg 5: the FME is a company, LLP or branch
+duties: reg 7: appoint a principal officer; a Registered FME also appoints a compliance officer; KMPs are based in the IFSC and complete the specified certification
+duties: reg 8 and Second Schedule: net worth of USD 75,000 (Authorised), USD 500,000 (Non-Retail) or USD 1,000,000 (Retail); a branch may hold it at the parent
+duties: Venture capital scheme: corpus USD 3 million to USD 200 million; minimum investment USD 250,000 (unless accredited); manager contribution at least 2.5% of corpus or USD 750,000, whichever is lower
+duties: Restricted scheme: minimum investment USD 150,000 (unless accredited); corpus USD 3 million; manager contribution 2.5% or USD 750,000 (close-ended) and 5% or USD 1.5 million (open-ended), whichever is lower
+duties: Retail scheme: at least 20 investors and corpus USD 3 million; minimum USD 10,000 where more than 15% is in unlisted securities
+duties: Portfolio management minimum USD 75,000 per client; family investment fund minimum corpus USD 10 million
+duties: reg 118: follow the Code of Conduct in the Third Schedule; reg 124: no guaranteed returns
+duties: regs 121 and 122: keep a business continuity plan reviewed every year and a cyber security framework
+duties: reg 132: appoint an independent custodian where required, including for schemes with AUM above USD 70 million
+deadlines: reg 7: a Retail FME appoints a fund-management KMP before its first retail scheme; an FME whose AUM reaches USD 1 billion appoints an additional KMP within 6 months
+deadlines: Restricted scheme may start investing after USD 1 million and reach USD 3 million within 12 months
+deadlines: reg 119: keep records for 8 years, and scheme records for 5 years after winding up
+breach: reg 143: the Authority may suspend or cancel the registration
+refs: ACT-IFSCA; CIR-FME-KMP; CIR-FME-CERT; CIR-FME-FIDUC; CIR-FME-WEB
+penalties: P1
+repeals: Repeals the IFSCA (Fund Management) Regulations, 2022
+defined terms (wording is in the full text): Act (definitions clause); accredited investor (definitions clause); advertisement (definitions clause); associate (definitions clause); certificate of registration (definitions clause); control (definitions clause); close ended scheme (definitions clause); compliance officer (definitions clause); corpus (definitions clause); discretionary portfolio manager (definitions clause); family investment fund (definitions clause); foreign jurisdiction (definitions clause); fund management entity (FME) (definitions clause); fund manager (definitions clause); fund of funds scheme (definitions clause); inspecting authority (definitions clause); index scheme (definitions clause); investee company (definitions clause); key managerial personnel (KMP) (definitions clause); net worth (definitions clause); offer document (definitions clause); open ended scheme (definitions clause); placement memorandum (definitions clause); portfolio (definitions clause); principal officer (definitions clause); recognised stock exchange (definitions clause); Registered FME (definitions clause); restricted scheme (definitions clause); Retail scheme (definitions clause); sectoral scheme (definitions clause); single family (definitions clause); Single Window IT Systems (SWITs) (definitions clause); thematic scheme (definitions clause); trust (definitions clause); Venture Capital Scheme (definitions clause); special situation fund (definitions clause); eligible infrastructure project (definitions clause); governing board (definitions clause); Investment Trust (definitions clause); investment management agreement (definitions clause); investment manager (definitions clause); InvIT assets (definitions clause); parties to the Investment Trust (definitions clause); PPP project (definitions clause); pre-COD project (definitions clause); project manager (definitions clause); real estate related assets (definitions clause); REIT assets (definitions clause); sponsor (definitions clause); trustee (definitions clause); valuer (definitions clause); third-party fund manager (definitions clause)
+
+[CIR-FME-KMP] KMP appointment and change by an FME | Appointment and change of Key Managerial Personnel by a Fund Management Entity (20-02-2025, as amended 01-04-2026) | F. No. IFSCA-IF-10PR/1/2023-Capital Markets/6 | Circular | In force (as amended) | issued 2025-02-20 | subject: Fund management
+applies: FMEs in the IFSC
+concepts: KMP appointment or change by intimation with fee
+concepts: Filling vacancies
+duties: An FME appoints or changes a KMP by intimation to IFSCA with the fee
+deadlines: A KMP vacancy is filled with intimation within 3 months and the person joins within 6 months
+refs: REG-FM
+penalties: P1
+
+[CIR-FME-CERT] Certification for FME KMPs and employees | Certification course for KMPs and employees of FMEs (01-04-2026, 10-08-2026 and extension of 29-09-2026) | F. No. IFSCA-PLNP/80/2024-Capital Markets; F. No. IFSCA-AIF/127/2026-Capital Markets/1 | Circular | In force (as amended) | issued 2026-04-01 | subject: Fund management
+applies: KMPs and specified employees of FMEs
+concepts: Specified certification courses (ICSI and ICAI)
+duties: KMPs and specified employees of FMEs complete a certification course specified by IFSCA (courses offered by ICSI and ICAI)
+deadlines: Completion deadline extended to 31-12-2026
+refs: REG-FM
+penalties: P1
+
+[CIR-FME-FIDUC] Segregation of fiduciary roles in schemes | Governance and oversight of schemes in IFSC: segregation of the role of fiduciaries | F. No. IFSCA-IF-10PR/7/2024-Capital Markets | Circular | In force | issued 2026-04-10 | subject: Fund management
+applies: FMEs and the fiduciaries of their schemes (trustee, board or designated partners)
+concepts: Independence of fiduciaries from service providers
+duties: A fiduciary of a scheme does not also provide fund administration, valuation, audit or lending to the same scheme, directly or through an associate
+deadlines: Existing schemes comply by 30-09-2026
+refs: REG-FM
+penalties: P1
+
+[CIR-FME-WEB] Website for FMEs | Requirement for Fund Management Entities to maintain a website or webpage | No. IFSCA-SOF/2/2026-Capital Markets | Circular | In force from 01-12-2026 | issued 2026-08-26 | subject: Fund management
+applies: All FMEs in the IFSC
+concepts: Own website or parent webpage
+concepts: Disclosure of profile, registration number, address and schemes
+duties: Authorised and Non-Retail FMEs keep their own website or a webpage on the parent's site; Retail FMEs keep their own website
+duties: Show the FME's profile, registration number, address, schemes and other specified details
+deadlines: Applies from 01-12-2026
+deadlines: New FMEs comply before starting business and give IFSCA the URL within 30 days of registration
+refs: REG-FM
+penalties: P1
+
+[REG-CMI] IFSCA (Capital Market Intermediaries) Regulations, 2025 | International Financial Services Centres Authority (Capital Market Intermediaries) Regulations, 2025 (as amended up to 05-09-2026) | No. IFSCA/GN/2025/003 | Regulation | In force (as amended) | issued 2025-04-11 | subject: Capital market intermediaries and listing
+powers: IFSCA Act ss. 12, 13 and 28
+applies: Broker dealers, clearing members, credit rating agencies, custodians, debenture trustees, depository participants, distributors, ESG ratings providers, investment advisers, investment bankers and research entities in the IFSC
+concepts: Registration and unified registration
+concepts: Net worth (Schedule I)
+concepts: Principal officer and compliance officer in the IFSC
+concepts: Grievances, business continuity, cyber security and risk management
+concepts: Change in control
+concepts: Annual compliance audit
+duties: reg 4: register with IFSCA for each capital market activity; unified registration for several activities is allowed; a Banking Unit may act as banker to an issue or investment banker
+duties: reg 7: keep the net worth in Schedule I (for example USD 200,000 for a credit rating agency; for broker dealers and clearing members as the stock exchange or clearing corporation specifies)
+duties: reg 9: appoint an IFSC-based principal officer (3 years' experience) and a separate compliance officer (2 years' experience)
+duties: regs 18, 20, 21 and 22: redress grievances, and keep business continuity, cyber security and risk management frameworks
+duties: reg 23: an incorporated intermediary needs prior approval for a change in control; a branch intimates it
+deadlines: reg 17(2): intimate a change of principal officer, compliance officer or KMP within 15 days
+deadlines: reg 23: a branch intimates a change in control within 15 days
+deadlines: reg 25: an annual compliance audit by a member of ICAI, ICSI or ICMAI (or a foreign auditor) is submitted by 30 September
+deadlines: Existing custodians meet the revised net worth by 30-06-2026
+breach: reg 41: the Authority may suspend or cancel the registration
+refs: ACT-IFSCA; CIR-CMI-REP; CIR-CMI-AUDIT; CIR-MASTERKEY
+penalties: P1
+repeals: Repeals the IFSCA (Capital Market Intermediaries) Regulations, 2021 (reg 47)
+defined terms (wording is in the full text): Act (definitions clause); banker to an issue (definitions clause); broker dealer (definitions clause); capital market intermediary (CMI) (definitions clause); clearing member (definitions clause); compliance officer (definitions clause); control (definitions clause); credit rating agency (definitions clause); custodian (definitions clause); debenture trustee (definitions clause); depository participant (definitions clause); distributor (definitions clause); ESG Data Products (definitions clause); ESG Ratings (definitions clause); ESG Ratings and Data Products Provider (ERDPP) (definitions clause); Foreign Jurisdiction (definitions clause); group entity (definitions clause); inspecting authority (definitions clause); investment advice (definitions clause); investment adviser (definitions clause); investment banker (definitions clause); net worth (definitions clause); recognised clearing corporation (definitions clause); recognised depository (definitions clause); registered credit rating agency (definitions clause); registered debenture trustee (definitions clause); research report (definitions clause); SEBI (definitions clause); capital market products (definitions clause); capital market services (definitions clause)
+
+[CIR-CMI-REP] Reporting norms for CMIs | Reporting norms for Capital Market Intermediaries | F.No.1/IFSCA/CMI Supervision/2023-24 | Circular | In force | issued 2026-04-08 | subject: Capital market intermediaries and listing
+applies: Capital market intermediaries in the IFSC
+concepts: Quarterly reports
+concepts: Half-yearly AML compliance sheet
+duties: File the quarterly CMI reports and a half-yearly AML compliance sheet
+deadlines: Quarterly reports within 21 calendar days of the end of the quarter
+refs: REG-CMI
+penalties: P1
+repeals: Replaces the reporting norms of 08-02-2024
+
+[CIR-CMI-AUDIT] Annual compliance audit format for CMIs | Reporting format and norms for the Annual Compliance Audit for CMIs in IFSC | IFSCA circular dated 05-06-2026 | Circular | In force | issued 2026-06-05 | subject: Capital market intermediaries and listing
+applies: Capital market intermediaries in the IFSC
+concepts: Annual compliance audit report and certificate
+duties: Submit the annual compliance audit report and certificate to IFSCA by email (cmi-supervision@ifsca.gov.in)
+duties: Broker dealers, clearing members and depository participants also file with the market infrastructure institutions
+deadlines: By 30 September each year, starting with FY 2025-26
+refs: REG-CMI
+penalties: P1
+
+[CIR-MASTERKEY] Unified registration for CMIs | Unified registration for multiple capital market activities under the CMI Regulations | No. IFSCA-PLNP/80/2024-Capital Markets | Circular | In force | issued 2026-02-13 | subject: Capital market intermediaries and listing
+applies: Applicants for more than one capital market activity
+concepts: One application for several activities through the Single Window IT System
+duties: Apply for unified registration for several capital market activities through the Single Window IT System, paying the fee for each activity
+deadlines: From 16-02-2026
+refs: REG-CMI; CIR-FEES
+penalties: P1
+
+[REG-LISTING] IFSCA (Listing) Regulations, 2024 | International Financial Services Centres Authority (Listing) Regulations, 2024 (as amended up to 14-10-2025) | No. IFSCA/GN/2024/006 | Regulation | In force (as amended) | issued 2024-08-30 | subject: Capital market intermediaries and listing
+powers: IFSCA Act ss. 12, 13 and 28
+applies: Issuers listing equity, debt, depository receipts, ESG-labelled debt, commercial paper and certificates of deposit on IFSC stock exchanges, and the intermediaries involved
+concepts: IPO and FPO
+concepts: SPAC
+concepts: Rights, preferential issues and QIP
+concepts: Depository receipts
+concepts: Debt securities (regs 68 to 74)
+concepts: ESG-labelled debt (regs 75 to 78)
+concepts: Commercial paper and certificates of deposit (regs 80 and 81)
+concepts: Continuing obligations (regs 83 to 104)
+duties: A debt issuer applies for listing with an offer document or information memorandum and makes the disclosures required
+duties: Debt securities carry a credit rating from a credit rating agency registered with IFSCA (from 01-04-2025), with an optional global rating
+duties: Listed entities meet the continuing disclosure obligations in regs 83 to 104
+deadlines: "Immediately" means promptly and in any case within 24 hours
+deadlines: Disclose creation of encumbrances within 2 working days
+refs: REG-CMI; REG-MAR
+penalties: P1
+repeals: Replaces the IFSCA (Issuance and Listing of Securities) Regulations, 2021
+defined terms (wording is in the full text): Act (definitions clause); business combination (definitions clause); certificate of deposit (definitions clause); commercial paper (definitions clause); control (definitions clause); controlling shareholder (definitions clause); convertible debt instrument (definitions clause); convertible preference shares (definitions clause); convertible securities (definitions clause); debt securities (definitions clause); depository receipt (DR) (definitions clause); Foreign Jurisdiction (definitions clause); green shoe option (definitions clause); group entity (definitions clause); information memorandum (definitions clause); initial public offer (IPO) (definitions clause); issuer (definitions clause); lead manager (definitions clause); Listed Entity (definitions clause); offer document (definitions clause); qualified institutions placement (definitions clause); recognised stock exchange (definitions clause); Special Purpose Acquisition Company (SPAC) (definitions clause); specified securities (definitions clause); underwriter (definitions clause)
+
+[REG-MAR] IFSCA Market Abuse Regulations, 2026 | IFSCA (Prohibition of Market Abuse in Securities Markets) Regulations, 2026 | No. IFSCA/GN/2026/012 | Regulation | In force | issued 2026-08-25 | subject: Capital market intermediaries and listing
+applies: Listed entities, designated persons, intermediaries and anyone dealing in securities on IFSC markets
+concepts: Material non-public information
+concepts: Designated persons
+concepts: Trading plans
+concepts: Disapplication of SEBI PIT and PFUTP regulations in the IFSC
+duties: No one communicates or trades on material non-public information
+duties: Designated persons disclose trades where their quarterly trades exceed USD 25,000; the listed entity notifies the stock exchange
+duties: A trading plan is publicly disclosed before it takes effect
+deadlines: Designated persons disclose within 2 trading days; the listed entity notifies the exchange within 2 working days
+deadlines: Trading plan disclosed 120 days ahead
+breach: reg 10: sanctions under the Act
+breach: reg 11: warning, censure, suspension or cancellation of registration
+refs: REG-LISTING; REG-CMI
+penalties: P1
+repeals: SEBI (Prohibition of Insider Trading) Regulations, 2015 and SEBI (PFUTP) Regulations, 2003 cease to apply in the IFSC (reg 15)
+defined terms (wording is in the full text): Act (definitions clause); Authority (definitions clause); connected person (definitions clause); designated person (definitions clause); fraud (definitions clause); immediate relative (definitions clause); insider (definitions clause); listed (definitions clause); market abuse (definitions clause); mule account (definitions clause); trading (definitions clause)
+
+[REG-INS-REG] IFSCA (Registration of Insurance Business) Regulations, 2021 | IFSCA (Registration of Insurance Business) Regulations, 2021 (consolidated, July 2026) | No. IFSCA/2020-21/GN/REG016 | Regulation | In force (as amended) | issued 2021-10-18 | subject: Insurance offices and intermediaries
+powers: IFSCA Act ss. 12, 13 and 28
+applies: IFSC Insurance Offices (IIOs): branches or companies of insurers and reinsurers in the IFSC, and Lloyd's IFSC
+concepts: Classes of business: life, general, health and reinsurance
+concepts: Freely convertible foreign currency
+concepts: Where an IIO may write business
+concepts: Assigned capital for branches
+concepts: Solvency per home regulator for branches
+concepts: Share transfers
+duties: Register as an IIO for life, general, health or reinsurance business
+duties: Write business in freely convertible foreign currencies other than INR
+duties: Write direct business in the IFSC, SEZs and abroad; business from the domestic tariff area only as Insurance Act s. 2CB allows; reinsurance from the domestic market in IRDAI's order of preference
+duties: A branch keeps assigned capital of USD 1.5 million and meets the home regulator's solvency requirement
+duties: Intimate any transfer of 5% or more of shares
+breach: The Authority may take disciplinary action, including suspension or cancellation of the certificate of registration, after giving the IIO an opportunity to make its submissions
+refs: ACT-IFSCA; REG-INS-SOLV; REG-INS-INV; REG-INS-MC; REG-MGA
+penalties: P1
+repeals: Replaces IRDAI's guidelines of 2017 and 2019 on IFSC insurance offices; managing general agent provisions moved to the MGA Regulations, 2026
+defined terms (wording is in the full text): Act (definitions clause); Authority (definitions clause); Certificate (definitions clause); Domestic Tariff Area' or `DTA (definitions clause); Foreign Insurer or Foreign Re-insurer (definitions clause); (d) `binding agreement (definitions clause); International Financial Service Centre Insurance Office' or `IIO (definitions clause); INR (definitions clause); IRDAI (definitions clause); Lloyd's (definitions clause); Lloyd's IFSC (definitions clause); Parent Entity' or `Head Office (definitions clause); Net Owned Fund' or `NOF (definitions clause); Regulations (definitions clause); USD (definitions clause); binding authority (definitions clause); Council of Lloyd's (definitions clause); Members of Lloyd's (definitions clause); Syndicate (definitions clause); Syndicates of Lloyd's IFSC (definitions clause)
+
+[REG-INS-INT] IFSCA (Insurance Intermediary) Regulations, 2021 | IFSCA (Insurance Intermediary) Regulations, 2021 (consolidated to 28-01-2022) | No. IFSCA/2020-21/GN/REG017 | Regulation | In force (as amended) | issued 2021-10-18 | subject: Insurance offices and intermediaries
+applies: IFSC Insurance Intermediary Offices: direct, reinsurance and composite brokers, corporate agents, third-party administrators, surveyors and web aggregators
+concepts: Registration and renewal
+concepts: Net worth by category
+concepts: Professional indemnity cover
+concepts: Segregation of premium
+concepts: Returns
+duties: Register (and renew) as an IFSC insurance intermediary office in the category concerned and keep the net worth set for it
+duties: Hold professional indemnity cover (ranging from USD 25,000 to USD 13.5 million by category)
+duties: Keep premium in segregated accounts, respect the single-client concentration ceiling and file returns
+refs: REG-INS-REG
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Authorised verifier (definitions clause); Authority (definitions clause); Broker Qualified Person (definitions clause); Certificate (definitions clause); Composite broker (definitions clause); Corporate agent (definitions clause); Direct broker (definitions clause); FATF compliant jurisdiction (definitions clause); Health Services by the TPA (definitions clause); Insurance Act (definitions clause); Insurance broker (definitions clause); Insurance self-network platform (definitions clause); Insurance surveyor and loss assessor (definitions clause); IRDAI (definitions clause); Principal officer (definitions clause); Regulations (definitions clause); Reinsurance broker (definitions clause); Risk Management (definitions clause); Specified person (definitions clause); Telemarketer (definitions clause)
+
+[REG-MGA] IFSCA (Managing General Agents) Regulations, 2026 | IFSCA (Managing General Agents) Regulations, 2026 | Notified 08-06-2026 | Regulation | In force | issued 2026-06-08 | subject: Insurance offices and intermediaries
+applies: Managing general agents acting for foreign insurers from the IFSC
+concepts: Binding authority agreement
+concepts: Net worth and deposit
+concepts: Fiduciary accounts
+concepts: Referral of large claims
+duties: The foreign insurer has a net worth of at least USD 100 million
+duties: The MGA keeps a net worth of USD 250,000 and a deposit of USD 500,000 with an IBU (reg 13), plus security and professional indemnity cover
+duties: Act under a written binding authority agreement and hold premium in fiduciary accounts
+duties: Refer claims above USD 10,000 to the insurer
+refs: REG-INS-REG
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Authority (definitions clause); Binding Authority Agreement (BAA) (definitions clause); Board of the Applicant (definitions clause); Domestic Tariff Area (DTA) (definitions clause); Fiduciary Account (definitions clause); Gross Written Premium (GWP) (definitions clause); Foreign Insurer (definitions clause); IFSC Banking Unit (IBU) (definitions clause); MGA Qualified Person (MQP) (definitions clause); Principal Officer (definitions clause); Specified Foreign Currency (definitions clause); Underwriting (definitions clause)
+
+[REG-INS-MC] IFSCA insurance management control and market conduct regulations | IFSCA (Management Control, Administrative Control and Market Conduct of Insurance Business) Regulations, 2023 | No. IFSCA/2022-23/GN/REG035 | Regulation | In force | issued 2023-04-26 | subject: Insurance offices and intermediaries
+applies: IIOs and IFSC insurance intermediary offices
+concepts: Change in control
+concepts: Mergers and transfers
+concepts: Expenses of management and commissions
+concepts: Outsourcing
+concepts: Advertisements
+concepts: Policyholder protection
+duties: Prior approval for mergers, amalgamations and transfers, and the specified process for change in control
+duties: Keep expenses of management and commissions within the limits set; follow the outsourcing, advertisement and policyholder protection rules
+refs: REG-INS-REG
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Authority' or `IFSCA (definitions clause); benefits (definitions clause); Board (definitions clause); capital (definitions clause); commission (definitions clause); control (definitions clause); custodian of information (definitions clause); expenses of management' or `EoM (definitions clause); Foreign entity (definitions clause); regulated entity (definitions clause); requestedauthority (definitions clause)
+
+[REG-INS-INV] IFSCA (Investment by IIO) Regulations, 2022 | IFSCA (Investment by IFSC Insurance Office) Regulations, 2022 (consolidated to 05-11-2024) | No. IFSCA/2022-23/GN/REG030 | Regulation | In force (as amended) | issued 2023-01-12 | subject: Insurance offices and intermediaries
+applies: IIOs set up as companies investing their funds
+concepts: Rating-based exposure limits
+concepts: Caps on debt mutual funds and asset-backed securities
+duties: Invest within the rating-based exposure limits
+duties: Debt mutual funds at most 10% and mortgage-backed or asset-backed securities at most 5% of investments
+refs: REG-INS-REG
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Authority' or `IFSCA (definitions clause); board (definitions clause); financial assets (definitions clause); financial derivative (definitions clause); infrastructure assets (definitions clause); investment (definitions clause); Investible Funds' or `Investment Assets (definitions clause)
+
+[REG-INS-SOLV] IFSCA solvency regulations (general, health and reinsurance) | IFSCA (Assets, Liabilities and Solvency Margin of General, Health and Re-insurance Business) Regulations, 2023 | No. IFSCA/2022-23/GN/REG038 | Regulation | In force | issued 2023-04-19 | subject: Insurance offices and intermediaries
+applies: IIOs writing general, health or reinsurance business
+concepts: Valuation of assets and liabilities
+concepts: Required solvency margin
+concepts: Solvency ratio
+duties: Maintain a solvency ratio of at least 150%
+duties: Unincorporated IIOs (branches) follow reg 17(4) of the Registration Regulations (home regulator solvency)
+refs: REG-INS-REG
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Authority (definitions clause); incurred but not enough reported reserves (definitions clause); incurred but not reported claim reserves (definitions clause); outstanding claim reserves (definitions clause); premium deficiency reserve (definitions clause); unearned premium reserve (definitions clause); unexpired risk reserves (definitions clause); Available Solvency Margin (ASM) (definitions clause); Solvency Ratio (definitions clause); Control level of Solvency (definitions clause)
+
+[GDL-AML] IFSCA AML, CFT and KYC Guidelines, 2022 | IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022 (updated as on 03-08-2026) | No. IFSCA/2022-23/GN/GL001 | Guidelines | In force (as updated) | issued 2022-10-28 | subject: AML, KYC and customer protection
+powers: Prevention of Money-laundering Act, 2002 and PML Rules, 2005
+applies: All regulated entities in the IFSC
+concepts: Designated Director and Principal Officer
+concepts: Customer due diligence and KYC
+concepts: CKYCR and KRA
+concepts: Reports to FIU-IND on FINGate 2.0
+concepts: Record keeping
+duties: Appoint a Designated Director and a Principal Officer and give their details to FIU-IND and IFSCA
+duties: Carry out customer due diligence and update documents; use the CKYC Records Registry and KYC registration agencies as specified
+duties: File reports under PML Rules rules 3, 7 and 8 on FINGate 2.0
+duties: Filing a suspicious transaction report must not by itself lead to restrictions on the customer's accounts
+deadlines: Keep records for five years
+deadlines: Obtain updated documents within 30 days of a change
+breach: Each day of delay in reporting is a separate violation
+refs: CIR-AML-CERT; REG-BANK; REG-FC
+penalties: P1
+defined terms (wording is in the full text): Controlling ownership interest (definitions); Control (definitions)
+
+[CIR-AML-CERT] AML certification for Designated Director and Principal Officer | Requirement of certification on AML/CFT for the Designated Director and Principal Officer under the AML guidelines | F. No. IFSCA-DAC/8/2024-AMLCFT | Circular | In force | issued 2025-11-17 | subject: AML, KYC and customer protection
+applies: Designated Directors and Principal Officers of IFSC regulated entities
+concepts: NISM-IFSCA-01 AML/CFT certification
+duties: The Designated Director and Principal Officer hold the NISM-IFSCA-01 AML/CFT certification at all times
+refs: GDL-AML
+penalties: P1
+
+[CIR-GRIEV] Complaint handling and grievance redressal | Complaint handling and grievance redressal by regulated entities in the IFSC | F. No. IFSCA-LPRA/3/2024-Legal and Regulatory Affairs | Circular | In force | issued 2024-12-02 | subject: AML, KYC and customer protection
+applies: Regulated entities dealing with retail consumers
+concepts: Acknowledgement and disposal of complaints
+concepts: Complaint Redressal and Appellate Officer
+concepts: Escalation to IFSCA
+duties: Accept a complaint in writing or reject it with reasons
+duties: Appoint a Complaint Redressal and Appellate Officer (at or one level below KMP) to hear appeals
+duties: A consumer not satisfied may approach IFSCA at grievance-redressal@ifsca.gov.in
+deadlines: Accept within 3 working days or reject within 5 working days
+deadlines: Dispose of the complaint preferably within 15 days and ordinarily within 30 days
+deadlines: Appeal preferably within 21 days; the appellate officer decides within 30 days
+deadlines: Approach IFSCA preferably within 21 days of the appellate decision
+refs: CIR-CHARTER
+penalties: P1
+repeals: Supersedes Module 10 of the Banking Handbook COB Directions
+defined terms (wording is in the full text): Ancillary Service Provider (definitions); Group Entity (definitions); Professional Consumer (definitions)
+
+[CIR-CHARTER] Consumer charter | Consumer Charter by regulated entities in the IFSC | F. No. IFSCA-LPRA/4/2025-Legal and Regulatory Affairs | Circular | In force | issued 2026-05-08 | subject: AML, KYC and customer protection
+applies: Regulated entities dealing with retail consumers
+concepts: Consumer rights and service standards
+duties: Regulated entities dealing with retail consumers are encouraged to adopt and publish a Consumer Charter
+refs: CIR-GRIEV
+penalties: P1
+
+[CIR-CYBER] Cyber security and cyber resilience guidelines | Guidelines on Cyber Security and Cyber Resilience for regulated entities in IFSCs (10-03-2025, as amended 10-03-2026) | IFSCA circular dated 10-03-2025 | Guidelines | In force (as amended) | issued 2025-03-10 | subject: Fees, SEZ approval and cyber security
+applies: All regulated entities in the IFSC
+excluded: For three years from 10-03-2026: branches of regulated entities, group-only entities such as global in-house centres and entities with fewer than 10 employees adopt the parent's framework and file a certificate instead
+concepts: CISO or designated officer
+concepts: Incident reporting
+concepts: Annual cyber audit by a CERT-In empanelled auditor
+duties: Appoint a CISO or designated officer; the governing board and senior management oversee cyber security
+duties: Have an annual cyber audit by a CERT-In empanelled or certified auditor
+duties: Exempt entities adopt the parent framework (the parent CISO acts as designated officer), file a compliance certificate and still submit the annual audit
+deadlines: Report cyber incidents to cyber-incidents@ifsca.gov.in within 6 hours of detection
+deadlines: Submit the audit report within 90 days of the end of the financial year (or within 7 days of filing with a market infrastructure institution)
+refs: CIR-CERTIN
+penalties: P1
+
+[CIR-CERTIN] CERT-In advisories and vulnerability notes | Adherence to advisories and vulnerability notes issued by CERT-In | IFSCA circular dated 25-11-2026 | Circular | In force | issued 2026-11-25 | subject: Fees, SEZ approval and cyber security
+applies: All regulated entities in the IFSC, including systems run by the parent or third parties
+concepts: Tracking CERT-In advisories
+concepts: Timely countermeasures
+duties: Comply with CERT-In advisories and vulnerability notes, including for systems operated by the parent or third parties
+duties: Keep a mechanism to track them, assess them promptly and implement countermeasures
+refs: CIR-CYBER
+penalties: P1
+
+[CIR-FEES] IFSCA fee structure | Fee structure for entities undertaking or intending to undertake permissible activities in IFSC (02-03-2026, with corrigendum of 13-03-2026) | IFSCA circular dated 02-03-2026 | Circular | In force (as amended) | issued 2026-03-02 | subject: Fees, SEZ approval and cyber security
+applies: All applicants and regulated entities in the IFSC
+concepts: Application, registration, flat recurring and conditional recurring fees
+concepts: Interest on late payment
+duties: Pay the application and registration fees for each activity, the flat recurring fee each year and any conditional recurring fee
+duties: Late payment attracts interest
+deadlines: The flat recurring fee falls due on 1 April and is paid by 30 April
+deadlines: New registrants pay a pro-rata fee within 15 days of the grant
+deadlines: Conditional fee true-up by 30 April of the next financial year
+refs: CIR-MASTERKEY
+penalties: P1
+repeals: Supersedes the earlier fee circulars, including that of 08-04-2025
+
+[CIR-SEZ-LOA] SEZ Letter of Approval for regulated entities | Directions to all regulated entities on holding a valid SEZ Letter of Approval | IFSCA circular dated 10-08-2026 | Circular | In force | issued 2026-08-10 | subject: Fees, SEZ approval and cyber security
+applies: All regulated entities in the IFSC
+concepts: SEZ Letter of Approval
+concepts: Renewal under SEZ Rules rule 19(6A)
+duties: Hold a valid SEZ Letter of Approval and the IFSCA registration, licence or authorisation at all times
+deadlines: The Letter of Approval is valid for 1 year before commencement and 5 years after
+deadlines: Apply for renewal at least 2 months before expiry
+breach: Breach can lead to a penalty, suspension or cancellation
+refs: CIR-FEES
+penalties: P1
+repeals: Supersedes the directions of 03-04-2025
+
+[OLD-FM22] Fund Management Regulations 2022 | IFSCA (Fund Management) Regulations, 2022 | No. IFSCA/2021-22/GN/REG024 | Superseded instrument | Repealed by the 2025 Regulations | issued 2022-04-19 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: REG-FM
+
+[OLD-CMI21] CMI Regulations 2021 | IFSCA (Capital Market Intermediaries) Regulations, 2021 | No. IFSCA/2021-22/GN/REG018 | Superseded instrument | Repealed by the 2025 Regulations | issued 2021-10-18 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: REG-CMI
+
+[OLD-ILS21] Issuance and Listing Regulations 2021 | IFSCA (Issuance and Listing of Securities) Regulations, 2021 | No. IFSCA/2021-22/GN/REG015 | Superseded instrument | Replaced by the Listing Regulations, 2024 | issued 2021-07-16 | subject: Superseded (history)
+refs: REG-LISTING
+
+[OLD-FEE25] Fee circular of 08-04-2025 | Fee structure for entities undertaking permissible activities in IFSC (08-04-2025) | IFSCA circular dated 08-04-2025 | Superseded instrument | Superseded by the fee circular of 02-03-2026 | issued 2025-04-08 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: CIR-FEES
+
+[OLD-REDIR25] Directions to regulated entities of 03-04-2025 | Directions for all regulated entities (03-04-2025) | IFSCA circular dated 03-04-2025 | Superseded instrument | Superseded by the directions of 10-08-2026 | issued 2025-04-03 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: CIR-SEZ-LOA
+
+GLOSSARY (plain-language meanings, not IFSCA text):
+IFSC (International Financial Services Centre): A centre set up under the SEZ Act that deals with non-residents and in foreign currency much as an offshore centre would, while sitting inside India. GIFT IFSC in Gujarat is the operational one.
+IFSCA (International Financial Services Centres Authority): The single regulator for banking, capital markets, funds and insurance in an IFSC. It exercises the powers RBI, SEBI, IRDAI and PFRDA would otherwise have there.
+Unit in an IFSC as a non-resident: Under the FEMA (IFSC) Regulations, a financial institution or branch set up in an IFSC is treated as a person resident outside India, so dealings with Indian residents are cross-border for FEMA.
+IBU (IFSC Banking Unit): A branch of an Indian or foreign bank set up in an IFSC. It keeps USD 20 million of capital at the parent bank level.
+IBC (IFSC Banking Company): A bank set up as a subsidiary company in an IFSC, with minimum capital of USD 50 million.
+Specified foreign currency: A currency listed in the First Schedule to the Banking Regulations in which Banking Units may do business, such as USD, EUR, GBP, JPY and, since 2024, SEK, NOK, NZD and DKK.
+Home regulator: The regulator of the parent entity in its home country. Branches in the IFSC often follow the home regulator's prudential norms, for example on leverage or solvency.
+LCR (Liquidity coverage ratio): High-quality liquid assets as a share of net cash outflows over 30 days of stress. IBUs keep 100% or the home regulator's minimum where higher.
+Finance Company: A company (subsidiary, joint venture or new company) registered with IFSCA to carry on lending, leasing, treasury or other permitted finance activities in the IFSC.
+Finance Unit: A branch in the IFSC of a company incorporated in India or abroad, registered to carry on finance activities.
+Core activities: For finance companies: lending, factoring and forfaiting, investments, derivatives and global or regional corporate treasury centres. These attract capital, liquidity and exposure norms.
+Non-core activities: For finance companies: services such as merchant banking, investment advice, operating leases of aircraft and ships, distribution and similar activities, kept in a separate department.
+Owned fund: The capital a finance company must hold: for example USD 3 million for core activities and USD 0.2 million for a treasury centre or an aircraft or ship lessor.
+GRCTC (Global / Regional Corporate Treasury Centre): A finance company or unit in the IFSC that runs treasury functions for its group entities.
+Factor: A finance company or unit registered to buy trade receivables, with or without recourse, and to register assignments with the Central Registry.
+FME (Fund Management Entity): An entity registered with IFSCA to manage funds and portfolios in the IFSC: an Authorised FME, a Registered FME (Non-Retail) or a Registered FME (Retail).
+Restricted scheme: A fund scheme offered by private placement to accredited or high-value investors (minimum USD 150,000), similar in function to an alternative investment fund.
+Retail scheme: A fund scheme offered to the public, with at least 20 investors and a USD 3 million corpus, managed only by a Registered FME (Retail).
+Venture capital scheme: A scheme investing in start-ups and early-stage companies, managed by an Authorised FME, with a corpus of USD 3 million to USD 200 million.
+Family Investment Fund (FIF): A fund that pools the money of a single family, with a minimum corpus of USD 10 million.
+Accredited investor: An investor recognised as financially sophisticated, who may invest below the usual minimum ticket size in venture capital and restricted schemes.
+KMP (Key managerial personnel): The principal officer, compliance officer and other key staff of a regulated entity. FME and CMI rules require them to be based in the IFSC.
+CMI (Capital market intermediary): A broker dealer, clearing member, credit rating agency, custodian, debenture trustee, depository participant, distributor, investment adviser, investment banker or similar entity registered under the CMI Regulations.
+Unified registration: A single registration through the Single Window IT System covering several capital market activities, with a fee for each activity.
+SWIT (Single Window IT System): The online system through which applications for IFSC registrations, SEZ approvals and related clearances are filed.
+IIO (IFSC Insurance Office): A branch or company of an insurer or reinsurer registered with IFSCA to write life, general, health or reinsurance business in the IFSC.
+IIIO (IFSC Insurance Intermediary Office): A broker, corporate agent, third-party administrator, surveyor or web aggregator registered to act in the IFSC.
+MGA (Managing General Agent): An agent that underwrites and binds insurance from the IFSC on behalf of a foreign insurer under a binding authority agreement.
+Assigned capital: The capital an insurer allocates to its IFSC branch, at least USD 1.5 million.
+Solvency ratio: Available solvency margin as a share of the required margin. IIOs writing general, health or reinsurance business keep at least 150%.
+SNRR account (Special Non-Resident Rupee account): A rupee account an IFSC unit may hold with an AD bank in India for its business outside the IFSC. Receipts are moved to its IBU account in foreign currency within 30 working days.
+Designated Director: The director responsible for the entity's AML compliance. With the Principal Officer, they must hold the NISM-IFSCA-01 certification.
+FINGate 2.0: FIU-IND's portal on which IFSC entities file cash, suspicious and other reports under the PML Rules.
+CRAO (Complaint Redressal and Appellate Officer): The officer, at or one level below KMP, who hears a customer's appeal against the entity's decision on a complaint.
+SEZ Letter of Approval (LoA): The approval under the SEZ Act that every IFSC unit needs to operate in the zone, renewed before expiry.
+CERT-In (Indian Computer Emergency Response Team): The national agency for cyber incidents. IFSC entities follow its advisories and use auditors it empanels.
+
+IFSC CHANGES (2026-01-01 to 2026-11-26):
+- 2026-11-25 Circular: All IFSC entities to act on CERT-In advisories and vulnerability notes (IFSCA circular dated 25-11-2026). Applies: All regulated entities, including systems run for them by the parent or third parties.. Changes: Comply with CERT-In advisories and vulnerability notes. Keep a mechanism to track them, assess them promptly and put countermeasures in place. Actions: Assign an owner to track CERT-In advisories and record the action taken on each.
+- 2026-09-29 Circular: Deadline for FME certification courses extended to 31-12-2026 (F. No. IFSCA-AIF/127/2026-Capital Markets/1). Applies: KMPs and specified employees of fund management entities.. Changes: KMPs and employees have until 31-12-2026 to complete the specified certification course (ICSI or ICAI). Actions: List staff who still need the certification and book them on a course.
+- 2026-08-26 Circular: Fund management entities must keep a website or webpage from 01-12-2026 (No. IFSCA-SOF/2/2026-Capital Markets). Applies: All FMEs.. Changes: Authorised and Non-Retail FMEs may use their own site or a page on the parent's site; Retail FMEs need their own site. The site shows the FME's profile, registration number, address and schemes. New FMEs comply before starting and send the URL within 30 days of registration. Actions: Prepare the disclosures and go live before 01-12-2026.
+- 2026-08-25 Regulations: IFSCA market abuse regulations replace SEBI insider trading and PFUTP rules in the IFSC (No. IFSCA/GN/2026/012). Applies: Listed entities, designated persons, intermediaries and investors on IFSC markets.. Changes: Ban on communicating or trading on material non-public information. Designated persons disclose trades within 2 trading days once quarterly trades exceed USD 25,000. Trading plans disclosed 120 days ahead. SEBI PIT Regulations, 2015 and PFUTP Regulations, 2003 no longer apply in the IFSC. Actions: Replace references to the SEBI PIT Regulations in IFSC policies. Set up trade disclosure for designated persons.
+- 2026-08-10 Circular: Every IFSC entity must hold a valid SEZ Letter of Approval at all times (IFSCA circular dated 10-08-2026). Applies: All regulated entities.. Changes: Hold a valid SEZ Letter of Approval and the IFSCA registration at all times. Apply for renewal at least 2 months before expiry. Replaces the directions of 03-04-2025. Actions: Diarise the Letter of Approval renewal at least 2 months before expiry.
+- 2026-07-31 Circular: Internet banking deadline for IBUs extended to 30-09-2026; onboarding bar from 01-10-2026 (F.No. IFSCA-FMPP0BR/5/2024-Banking/2). Applies: IBUs offering liability products.. Changes: One-time extension of the internet banking deadline to 30-09-2026. From 01-10-2026, an IBU that has not complied stops onboarding new customers for that liability product. Actions: Confirm the dashboard and transactional features are live.
+- 2026-07-21 Framework: Capital relief for factoring exposures covered by eligible credit protection (F.No. IFSCA-FCR0ITFS/2/2024-Banking). Applies: Factors and Banking Units with factoring exposures.. Changes: The protected portion takes the risk weight of the protection provider. Eligible providers include sovereigns, export credit agencies, MDBs, banks, regulated financial institutions, IFSC insurance offices and import factors. Actions: Check credit protection contracts against the qualifying conditions.
+- 2026-06-30 Circular: Internet banking for IBUs: deadline 31-07-2026 and clarifications (F.No. IFSCA-FMPP0BR/5/2024-Banking/1). Applies: IBUs offering liability products.. Changes: "All linked accounts" covers deposit and loan accounts. Live rates on the dashboard are not mandatory. Actions: 
+- 2026-06-08 Regulations: IFSCA (Managing General Agents) Regulations, 2026 (Notified 08-06-2026). Applies: Managing general agents acting from the IFSC for foreign insurers.. Changes: Foreign insurer net worth of at least USD 100 million. MGA net worth USD 250,000 and a USD 500,000 deposit with an IBU. Binding authority agreement, fiduciary premium accounts and referral of claims above USD 10,000. Actions: Check binding authority agreements against the regulations.
+- 2026-06-05 Circular: Annual compliance audit report and certificate for CMIs by 30 September (IFSCA circular dated 05-06-2026). Applies: Capital market intermediaries.. Changes: Submit the annual compliance audit report and certificate by email by 30 September, starting with FY 2025-26. Broker dealers, clearing members and depository participants also file with the market infrastructure institutions. Actions: Book the compliance audit for FY 2025-26.
+- 2026-05-08 Circular: Regulated entities encouraged to publish a Consumer Charter (F. No. IFSCA-LPRA/4/2025). Applies: Regulated entities dealing with retail consumers.. Changes: Entities dealing with retail consumers are encouraged to publish a Consumer Charter. Actions: 
+- 2026-05-07 Amendment Regulations: Finance Company Regulations amended (May 2026) (IFSCA/GN/2026/009). Applies: Finance Companies and Finance Units.. Changes: Defines a Special Purpose Vehicle: a finance company incorporated or administered by a Trust and Company Service Provider authorised under the TechFin and Ancillary Services Regulations, 2025. Leasing or financing by an SPV is added as a permitted activity, with an owned fund requirement linked to the Companies Act minimum. Actions: 
+- 2026-04-10 Circular: Scheme fiduciaries may not also provide administration, valuation, audit or loans to the scheme (F. No. IFSCA-IF-10PR/7/2024-Capital Markets). Applies: FMEs and the trustees, boards or designated partners of their schemes.. Changes: A fiduciary may not provide fund administration, valuation, audit or lending to the same scheme, directly or through an associate. Existing schemes comply by 30-09-2026. Actions: Map fiduciaries and their associates against service providers for each scheme.
+- 2026-04-08 Circular: New reporting norms for capital market intermediaries (F.No.1/IFSCA/CMI Supervision/2023-24). Applies: Capital market intermediaries.. Changes: Quarterly reports within 21 calendar days of quarter end. Half-yearly AML compliance sheet. Replaces the norms of 08-02-2024. Actions: Diarise quarterly filings for the 21st day after quarter end.
+- 2026-04-01 Circular: Certification course specified for FME KMPs and employees; KMP intimation process amended (IFSCA circulars dated 01-04-2026). Applies: Fund management entities and their KMPs and employees.. Changes: IFSCA specified a certification course (offered by ICSI; ICAI added on 10-08-2026). The KMP circular of 20-02-2025 was amended to remove the 7-working-day comment period. Actions: 
+- 2026-03-10 Circular: Three-year relief from parts of the cyber security guidelines for branches and small entities (IFSCA circular dated 10-03-2026). Applies: Branches of regulated entities, group-only entities such as global in-house centres, and entities with fewer than 10 employees.. Changes: Eligible entities adopt the parent's framework, with the parent CISO as designated officer. They file a compliance certificate within 90 days of year end and still submit the annual audit. Actions: 
+- 2026-03-02 Circular: New IFSCA fee structure (IFSCA circular dated 02-03-2026). Applies: All applicants and regulated entities.. Changes: Application, registration, flat recurring and conditional recurring fees, with interest on delay. Flat recurring fee due 1 April and payable by 30 April. Replaces earlier fee circulars, including that of 08-04-2025. Actions: Diarise the annual fee for 30 April.
+- 2026-02-26 Circular: SWIFT naming, routing and broadcast requirements for IBUs (No. IFSCA-FMPP0BR/12/2025-Banking). Applies: IBUs using SWIFT.. Changes: BIC name to include "GIFT IFSC Banking Unit". Routing rules for misdirected messages and a quarterly broadcast for one year. Compliance report by 30-06-2026. Actions: 
+- 2026-02-13 Circular: Unified registration for several capital market activities (No. IFSCA-PLNP/80/2024-Capital Markets). Applies: Applicants for more than one capital market activity.. Changes: One application through the Single Window IT System for several activities, with a fee for each. Actions: 
+- 2026-02-03 Circular: Finance companies serving outside clients must keep a website from 01-04-2026 (No. IFSCA-FCR/4/2026-Banking). Applies: Finance Companies and Finance Units serving clients outside their group.. Changes: Show the certificate of registration, products, grievance procedure and KMP contacts. Actions: 
