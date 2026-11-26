@@ -414,10 +414,28 @@
      "id": "ACT-IBC",
      "label": "Insolvency and Bankruptcy Code",
      "href": "../rbi/#d/ACT-IBC"
+    },
+    {
+     "section": "ibc",
+     "id": "CODE",
+     "label": "IBC, 2016",
+     "href": "../ibc/#d/CODE"
+    },
+    {
+     "section": "ibc",
+     "id": "RULES-PG",
+     "label": "Personal guarantor IRP Rules",
+     "href": "../ibc/#d/RULES-PG"
+    },
+    {
+     "section": "ibc",
+     "id": "REG-PGIRP",
+     "label": "Personal guarantor IRP Regulations",
+     "href": "../ibc/#d/REG-PGIRP"
     }
    ],
    "status": "Current",
-   "status_note": "",
+   "status_note": "From 26-05-2026, s. 96(4), inserted by the IBC (Amendment) Act, 2026, provides that the interim moratorium does not apply to personal guarantors to corporate debtors. The rest of the ruling is unaffected.",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_16_562_612_EN.pdf"
   },
   {
@@ -898,6 +916,12 @@
      "id": "MD-HFC",
      "label": "Housing Finance Companies",
      "href": "../rbi/#d/MD-HFC"
+    },
+    {
+     "section": "ibc",
+     "id": "CODE",
+     "label": "IBC, 2016",
+     "href": "../ibc/#d/CODE"
     }
    ],
    "status": "Current",
@@ -1026,6 +1050,18 @@
      "id": "MD-HFC",
      "label": "Housing Finance Companies",
      "href": "../rbi/#d/MD-HFC"
+    },
+    {
+     "section": "ibc",
+     "id": "CODE",
+     "label": "IBC, 2016",
+     "href": "../ibc/#d/CODE"
+    },
+    {
+     "section": "ibc",
+     "id": "REG-CIRP",
+     "label": "CIRP Regulations",
+     "href": "../ibc/#d/REG-CIRP"
     }
    ],
    "status": "Current",
@@ -1164,6 +1200,12 @@
      "id": "ACT-IBC",
      "label": "Insolvency and Bankruptcy Code",
      "href": "../rbi/#d/ACT-IBC"
+    },
+    {
+     "section": "ibc",
+     "id": "CODE",
+     "label": "IBC, 2016",
+     "href": "../ibc/#d/CODE"
     }
    ],
    "status": "Current",
@@ -1208,6 +1250,12 @@
      "id": "MD-STRESS",
      "label": "Resolution of Stressed Assets",
      "href": "../rbi/#d/MD-STRESS"
+    },
+    {
+     "section": "ibc",
+     "id": "CODE",
+     "label": "IBC, 2016",
+     "href": "../ibc/#d/CODE"
     }
    ],
    "status": "Current",

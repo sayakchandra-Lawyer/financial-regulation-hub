@@ -1,0 +1,444 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Plain-language explanations for readers who are new to the terms. They are summaries, not the legal definitions: the instrument named under 'See' governs."
+ },
+ "terms": [
+  {
+   "term": "IBC",
+   "full": "Insolvency and Bankruptcy Code, 2016",
+   "def": "The law for time-bound insolvency resolution and liquidation of companies and LLPs, and of personal guarantors to companies. Its provisions for other individuals and firms are not yet in force.",
+   "see": [
+    "CODE"
+   ],
+   "aka": [
+    "Insolvency and Bankruptcy Code",
+    "the Code"
+   ]
+  },
+  {
+   "term": "IBBI",
+   "full": "Insolvency and Bankruptcy Board of India",
+   "def": "The regulator under the Code. It makes regulations, registers and supervises insolvency professionals, their agencies, information utilities and registered valuers, and issues circulars under s. 196.",
+   "see": [
+    "CODE",
+    "REG-IP"
+   ],
+   "aka": [
+    "Board",
+    "Insolvency and Bankruptcy Board"
+   ]
+  },
+  {
+   "term": "NCLT",
+   "full": "National Company Law Tribunal",
+   "def": "The Adjudicating Authority for companies and LLPs and for their personal guarantors. It admits applications, approves resolution plans and orders liquidation.",
+   "see": [
+    "CODE"
+   ],
+   "aka": [
+    "Adjudicating Authority",
+    "AA",
+    "tribunal"
+   ]
+  },
+  {
+   "term": "NCLAT",
+   "full": "National Company Law Appellate Tribunal",
+   "def": "Hears appeals from NCLT orders under the Code; appeals are filed within 30 days, extendable by 15.",
+   "see": [
+    "CODE"
+   ],
+   "aka": [
+    "Appellate Tribunal"
+   ]
+  },
+  {
+   "term": "CIRP",
+   "full": "Corporate insolvency resolution process",
+   "def": "The process under Part II in which an insolvency professional runs the company and the creditors decide on a resolution plan within 180 days (outer limit 330 days).",
+   "see": [
+    "CODE",
+    "REG-CIRP"
+   ],
+   "aka": [
+    "corporate insolvency resolution process",
+    "insolvency resolution process"
+   ]
+  },
+  {
+   "term": "Default",
+   "full": "",
+   "def": "Non-payment of a debt that has become due. A CIRP needs a default of at least Rs 1 crore; a pre-pack needs at least Rs 10 lakh.",
+   "see": [
+    "CODE",
+    "NOTIF-S4-THRESHOLD"
+   ],
+   "aka": [
+    "minimum default",
+    "threshold"
+   ]
+  },
+  {
+   "term": "Financial creditor",
+   "full": "FC",
+   "def": "A person to whom a financial debt is owed, such as a bank or NBFC lender or a debenture holder. Homebuyers are financial creditors in a class. Financial creditors make up the CoC.",
+   "see": [
+    "CODE"
+   ],
+   "aka": [
+    "financial creditors",
+    "financial debt"
+   ]
+  },
+  {
+   "term": "Operational creditor",
+   "full": "OC",
+   "def": "A person owed an operational debt, such as a supplier, employee or a government authority for statutory dues.",
+   "see": [
+    "CODE"
+   ],
+   "aka": [
+    "operational creditors",
+    "operational debt"
+   ]
+  },
+  {
+   "term": "Corporate debtor",
+   "full": "CD",
+   "def": "The company or LLP that owes a debt and is in, or may face, insolvency.",
+   "see": [
+    "CODE"
+   ],
+   "aka": [
+    "corporate debtors"
+   ]
+  },
+  {
+   "term": "IRP / RP",
+   "full": "Interim resolution professional / resolution professional",
+   "def": "The insolvency professional who takes over management on admission (IRP) and then runs the CIRP for the CoC (RP).",
+   "see": [
+    "CODE",
+    "REG-CIRP"
+   ],
+   "aka": [
+    "IRP",
+    "RP",
+    "resolution professional",
+    "interim resolution professional"
+   ]
+  },
+  {
+   "term": "CoC",
+   "full": "Committee of creditors",
+   "def": "The unrelated financial creditors (operational creditors only where there are no financial creditors), who vote on key decisions: 51% for most matters, 66% for approving a resolution plan, extending the CIRP or replacing the RP, and 90% for withdrawal.",
+   "see": [
+    "CODE",
+    "REG-CIRP"
+   ],
+   "aka": [
+    "committee of creditors",
+    "committee"
+   ]
+  },
+  {
+   "term": "Moratorium",
+   "full": "",
+   "def": "The bar, during the CIRP, on suits and proceedings against the corporate debtor, transfer of its assets, enforcement of security it created (including SARFAESI) and recovery of property it occupies (s. 14). A government licence or permit cannot be suspended or cancelled on the ground of insolvency alone, provided current dues are paid.",
+   "see": [
+    "CODE"
+   ],
+   "aka": [
+    "s. 14",
+    "section 14"
+   ]
+  },
+  {
+   "term": "Interim moratorium",
+   "full": "",
+   "def": "A moratorium from the date an application is filed. It applies to NBFC/FSP insolvency under the FSP Rules. Since 26-05-2026 it no longer applies to personal guarantors to corporate debtors.",
+   "see": [
+    "RULES-FSP",
+    "CIR-2026-09-21-1"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Resolution plan",
+   "full": "",
+   "def": "The proposal to revive the corporate debtor, approved by 66% of the CoC and the NCLT. It binds all stakeholders, including government authorities and guarantors, and wipes out claims not included in it.",
+   "see": [
+    "CODE",
+    "REG-CIRP"
+   ],
+   "aka": [
+    "resolution plans",
+    "plan"
+   ]
+  },
+  {
+   "term": "Resolution applicant",
+   "full": "RA",
+   "def": "A person who submits a resolution plan. It must not be ineligible under s. 29A.",
+   "see": [
+    "CODE",
+    "CIR-2025-11-18-1"
+   ],
+   "aka": [
+    "prospective resolution applicant",
+    "PRA",
+    "bidder"
+   ]
+  },
+  {
+   "term": "Section 29A",
+   "full": "",
+   "def": "The list of persons who cannot submit a resolution plan or buy assets in liquidation, such as wilful defaulters, promoters of long-standing NPAs, undischarged insolvents, certain convicts and invoked guarantors, and persons connected with them. The NPA and guarantor bars do not apply to MSMEs (s. 240A).",
+   "see": [
+    "CODE",
+    "CIR-2025-11-18-1"
+   ],
+   "aka": [
+    "29A",
+    "ineligible",
+    "ineligibility"
+   ]
+  },
+  {
+   "term": "Section 32A",
+   "full": "",
+   "def": "Two protections: the corporate debtor is not liable for offences committed before the CIRP once an approved plan passes control to a person who was not involved, and its property cannot be attached for such offences after a plan or a liquidation sale to such a person. The individuals responsible remain liable, and the debtor must keep helping investigators.",
+   "see": [
+    "CODE",
+    "CIR-2025-12-29-1"
+   ],
+   "aka": [
+    "32A",
+    "clean slate"
+   ]
+  },
+  {
+   "term": "Liquidation value",
+   "full": "",
+   "def": "The estimated amount the assets would fetch if the company were liquidated on the insolvency commencement date. A financial creditor that votes against a plan must get at least the lower of its share of this in liquidation and its share of the plan amount in the s. 53 order.",
+   "see": [
+    "REG-CIRP"
+   ],
+   "aka": [
+    "fair value"
+   ]
+  },
+  {
+   "term": "Waterfall",
+   "full": "Section 53",
+   "def": "The order in which liquidation proceeds are paid: costs; workmen (24 months) and secured creditors who gave up their security; other employees (12 months); unsecured financial creditors; government dues (two years) and secured creditors' shortfall; remaining debts; preference shareholders; and equity shareholders.",
+   "see": [
+    "CODE"
+   ],
+   "aka": [
+    "s. 53",
+    "section 53",
+    "order of priority"
+   ]
+  },
+  {
+   "term": "Liquidation",
+   "full": "",
+   "def": "The sale of a corporate debtor's assets and distribution of proceeds under s. 53, ordered when no plan is approved or the CoC decides to liquidate. Since 02-06-2026 it is to be completed within 180 days.",
+   "see": [
+    "CODE",
+    "REG-LIQ"
+   ],
+   "aka": [
+    "liquidator",
+    "liquidation process"
+   ]
+  },
+  {
+   "term": "Voluntary liquidation",
+   "full": "",
+   "def": "Winding up of a solvent company by its own decision under s. 59, after a declaration of solvency and approval of its members (and two-thirds of its creditors by value, if it has debt).",
+   "see": [
+    "CODE",
+    "REG-VL"
+   ],
+   "aka": [
+    "s. 59"
+   ]
+  },
+  {
+   "term": "PPIRP",
+   "full": "Pre-packaged insolvency resolution process",
+   "def": "A faster, debtor-in-possession process for MSMEs, started with the approval of unrelated financial creditors and a base resolution plan, to finish within 120 days.",
+   "see": [
+    "CODE",
+    "REG-PPIRP"
+   ],
+   "aka": [
+    "pre-pack",
+    "pre-packaged"
+   ]
+  },
+  {
+   "term": "CIIRP",
+   "full": "Creditor-initiated insolvency resolution process",
+   "def": "A process in which notified financial institutions can start resolution out of court with the board kept in place. Enacted in 2026 (ss. 58A to 58L) but not yet in force.",
+   "see": [
+    "AMDACT-2026"
+   ],
+   "aka": [
+    "creditor-initiated"
+   ]
+  },
+  {
+   "term": "Group insolvency",
+   "full": "",
+   "def": "Coordinated insolvency of companies in a group under s. 59A, inserted in 2026 but not yet in force.",
+   "see": [
+    "AMDACT-2026"
+   ],
+   "aka": []
+  },
+  {
+   "term": "FSP",
+   "full": "Financial service provider",
+   "def": "A firm authorised to provide financial services. Banks are outside the Code; notified FSPs (currently NBFCs and HFCs with assets of Rs 500 crore or more) go through insolvency under the FSP Rules on the regulator's application.",
+   "see": [
+    "RULES-FSP",
+    "NOTIF-FSP-S227"
+   ],
+   "aka": [
+    "financial service providers",
+    "section 227",
+    "s. 227"
+   ]
+  },
+  {
+   "term": "Administrator",
+   "full": "",
+   "def": "The individual the NCLT appoints, on the regulator's proposal, to act as IRP, RP and liquidator of a notified FSP.",
+   "see": [
+    "RULES-FSP"
+   ],
+   "aka": []
+  },
+  {
+   "term": "Personal guarantor",
+   "full": "PG",
+   "def": "An individual who has guaranteed a corporate debtor's debt. Part III applies, with a repayment plan and, if that fails, bankruptcy.",
+   "see": [
+    "CODE",
+    "RULES-PG",
+    "REG-PGIRP"
+   ],
+   "aka": [
+    "personal guarantors",
+    "guarantor"
+   ]
+  },
+  {
+   "term": "Insolvency professional",
+   "full": "IP",
+   "def": "A person registered with IBBI and enrolled with an insolvency professional agency, who acts as IRP, RP, liquidator or bankruptcy trustee. Needs an authorisation for assignment.",
+   "see": [
+    "REG-IP"
+   ],
+   "aka": [
+    "insolvency professionals",
+    "IPE",
+    "insolvency professional entity"
+   ]
+  },
+  {
+   "term": "AFA",
+   "full": "Authorisation for assignment",
+   "def": "The authorisation an insolvency professional agency issues to an IP; without it an IP cannot take an assignment.",
+   "see": [
+    "REG-IP",
+    "REG-IPA-MBL"
+   ],
+   "aka": [
+    "authorisation for assignment"
+   ]
+  },
+  {
+   "term": "Information utility",
+   "full": "IU",
+   "def": "A registered entity that stores financial information and issues a record of default after seeking authentication from the debtor.",
+   "see": [
+    "REG-IU"
+   ],
+   "aka": [
+    "record of default",
+    "information utilities"
+   ]
+  },
+  {
+   "term": "Registered valuer",
+   "full": "RV",
+   "def": "A valuer registered with IBBI under the Companies (Registered Valuers and Valuation) Rules. Valuations under the Code follow the International Valuation Standards since 01-04-2026.",
+   "see": [
+    "RULES-RV",
+    "CIR-2026-04-01-1"
+   ],
+   "aka": [
+    "registered valuers",
+    "valuer",
+    "RVO"
+   ]
+  },
+  {
+   "term": "Avoidance transactions",
+   "full": "",
+   "def": "Preferential, undervalued, extortionate and fraudulent transactions before insolvency that the NCLT can reverse (ss. 43 to 51 and 66). Since 26-05-2026 these proceedings continue after the CIRP ends.",
+   "see": [
+    "CODE",
+    "REG-CIRP"
+   ],
+   "aka": [
+    "preferential transaction",
+    "undervalued transaction",
+    "fraudulent trading",
+    "wrongful trading",
+    "PUFE"
+   ]
+  },
+  {
+   "term": "Baanknet",
+   "full": "",
+   "def": "The e-auction platform that liquidators must use for liquidation sales (formerly eBKray).",
+   "see": [
+    "CIR-2025-03-28-1"
+   ],
+   "aka": [
+    "eBKray"
+   ]
+  },
+  {
+   "term": "Form G",
+   "full": "",
+   "def": "The invitation for expressions of interest from prospective resolution applicants, published by day 60 of the CIRP.",
+   "see": [
+    "REG-CIRP",
+    "CIR-2025-11-18-1"
+   ],
+   "aka": [
+    "expression of interest",
+    "EOI"
+   ]
+  },
+  {
+   "term": "Information memorandum",
+   "full": "IM",
+   "def": "The document the RP prepares on the corporate debtor's assets, liabilities, operations and tax losses for prospective resolution applicants.",
+   "see": [
+    "REG-CIRP",
+    "CIR-2025-03-17-1"
+   ],
+   "aka": [
+    "IM"
+   ]
+  }
+ ]
+}

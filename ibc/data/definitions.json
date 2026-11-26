@@ -1,0 +1,1258 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Terms as each instrument defines them, shortened where long. The instrument's own text governs."
+ },
+ "instruments": {
+  "CODE": [
+   {
+    "term": "Chairperson",
+    "para": "s. 3(5)",
+    "def": "means the Chairperson of the Board;",
+    "scope": ""
+   },
+   {
+    "term": "corporate person",
+    "para": "s. 3(7)",
+    "def": "means a company as defined in clause (20) of section 2 of the Companies Act, 2013 (18 of 2013), a limited liability partnership, as defined in clause (n) of sub-section (1) of section 2 of the Limited Liability Partnership Act, 2008 (6 of 2009), or any other person incorporated with limited liability under any law for the time being in force but shall not include any financial service provider;",
+    "scope": ""
+   },
+   {
+    "term": "corporate debtor",
+    "para": "s. 3(8)",
+    "def": "means a corporate person who owes a debt to any person;",
+    "scope": ""
+   },
+   {
+    "term": "core services",
+    "para": "s. 3(9)",
+    "def": "means services rendered by an information utility for—",
+    "scope": ""
+   },
+   {
+    "term": "creditor",
+    "para": "s. 3(10)",
+    "def": "means any person to whom a debt is owed and includes a financial creditor, an operational creditor, a secured creditor, an unsecured creditor and a decree-holder;",
+    "scope": ""
+   },
+   {
+    "term": "debt",
+    "para": "s. 3(11)",
+    "def": "means a liability or obligation in respect of a claim which is due from any person and includes a financial debt and operational debt;",
+    "scope": ""
+   },
+   {
+    "term": "default",
+    "para": "s. 3(12)",
+    "def": "means non-payment of debt when whole or any part or instalment of the amount of debt has become due and payable and is not paid by the debtor or the corporate debtor, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "financial product",
+    "para": "s. 3(15)",
+    "def": "means securities, contracts of insurance, deposits, credit arrangements including loans and advances by banks and financial institutions, retirement benefit plans, small savings instruments, foreign currency contracts other than contracts to exchange one currency (whether Indian or not) for another which are to be settled immediately, or any other instrument as may be prescribed;",
+    "scope": ""
+   },
+   {
+    "term": "financial service",
+    "para": "s. 3(16)",
+    "def": "includes any of the following services, namely:—",
+    "scope": ""
+   },
+   {
+    "term": "financial service provider",
+    "para": "s. 3(17)",
+    "def": "means a person engaged in the business of providing financial e services in terms of authorisation issued or registration granted by a financial sector regulator; od",
+    "scope": ""
+   },
+   {
+    "term": "insolvency professional agency",
+    "para": "s. 3(20)",
+    "def": "means any person registered with the Board under section 201 as an insolvency professional agency;",
+    "scope": ""
+   },
+   {
+    "term": "information utility",
+    "para": "s. 3(21)",
+    "def": "means a person who is registered with the Board as an information utility under section 210;",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "s. 3(22)",
+    "def": "means a notification published in the Official Gazette, and the terms “notified” and “notify” shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "person resident outside India",
+    "para": "s. 3(25)",
+    "def": "means a person other than a person resident in India;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 3(26)",
+    "def": "means prescribed by rules made by the Central Government;",
+    "scope": ""
+   },
+   {
+    "term": "property",
+    "para": "s. 3(27)",
+    "def": "includes money, goods, actionable claims, land and every description of property situated in India or outside India and every description of interest including present or future or vested or contingent interest arising out of, or incidental to, property;",
+    "scope": ""
+   },
+   {
+    "term": "regulations",
+    "para": "s. 3(28)",
+    "def": "means the regulations made by the Board under this Code;",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "s. 3(29)",
+    "def": "means the Schedule annexed to this Code;",
+    "scope": ""
+   },
+   {
+    "term": "secured creditor",
+    "para": "s. 3(30)",
+    "def": "means a creditor in favour of whom security interest is created;",
+    "scope": ""
+   },
+   {
+    "term": "security interest",
+    "para": "s. 3(31)",
+    "def": "means right, title or interest or a claim to property, created in favour of, or provided for a secured creditor by a transaction which secures payment or performance of an obligation and includes mortgage, charge, hypothecation, assignment and encumbrance or any other agreement or arrangement securing payment or performance of any obligation of any person: e Explanation.—For the removal of doubts, it is hereby…",
+    "scope": ""
+   },
+   {
+    "term": "specified",
+    "para": "s. 3(32)",
+    "def": "means specified by regulations made by the Board under this Code and the term “specify” shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "transaction",
+    "para": "s. 3(33)",
+    "def": "includes a agreement or arrangement in writing for the transfer of assets, or funds, goods or services, from or to the corporate debtor;",
+    "scope": ""
+   },
+   {
+    "term": "transfer",
+    "para": "s. 3(34)",
+    "def": "includes sale, purchase, exchange, mortgage, pledge, gift, loan or any other form of transfer of right, title, possession or lien;",
+    "scope": ""
+   },
+   {
+    "term": "transfer of property",
+    "para": "s. 3(35)",
+    "def": "means transfer of any property and includes a transfer of any interest in the property and creation of any charge upon such property;",
+    "scope": ""
+   },
+   {
+    "term": "auditor",
+    "para": "s. 5(2)",
+    "def": "means a chartered accountant certified to practice as such by the Institute of e Chartered Accountants of India under section 6 of the Chartered Accountants Act, 1949 (38 of 1949); d",
+    "scope": ""
+   },
+   {
+    "term": "dispute",
+    "para": "s. 5(6)",
+    "def": "includes a suit or arbitration proceedings relating to—",
+    "scope": ""
+   },
+   {
+    "term": "financial creditor",
+    "para": "s. 5(7)",
+    "def": "means any person to whom a financial debt is owed and includes a person to whom such debt has been legally assigned or transferred to;",
+    "scope": ""
+   },
+   {
+    "term": "financial debt",
+    "para": "s. 5(8)",
+    "def": "means a debt along with interest, if any, which is disbursed against the consideration for the time value of money and includes—",
+    "scope": ""
+   },
+   {
+    "term": "information memorandum",
+    "para": "s. 5(10)",
+    "def": "means a memorandum prepared by resolution professional under sub-section (1) of section 29;",
+    "scope": ""
+   },
+   {
+    "term": "initiation date",
+    "para": "s. 5(11)",
+    "def": "means the date on which a financial creditor, corporate applicant or operational creditor, as the case may be, makes an application to the Adjudicating Authority for initiating corporate insolvency resolution process or pre-packaged insolvency resolution process, as the case may be; Provided that where multiple applications for initiation of the corporate insolvency resolution process in respect of a corporate…",
+    "scope": ""
+   },
+   {
+    "term": "insolvency commencement date",
+    "para": "s. 5(12)",
+    "def": "means the date of admission of an application for initiating corporate insolvency resolution process by the Adjudicating Authority under sections 7, 9 or section 10, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "interim finance",
+    "para": "s. 5(15)",
+    "def": "means any financial debt raised by the resolution professional during the insolvency resolution process period or by the corporate debtor during the pre-packaged insolvency resolution process period, as the case may be and such other debt as may be notified;",
+    "scope": ""
+   },
+   {
+    "term": "liquidation cost",
+    "para": "s. 5(16)",
+    "def": "means any cost incurred by the liquidator during the period of liquidation subject to such regulations, as may be specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "liquidation commencement date",
+    "para": "s. 5(17)",
+    "def": "means the date on which proceedings for liquidation commence in accordance with section 33 or section 59, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "liquidator",
+    "para": "s. 5(18)",
+    "def": "means an insolvency professional appointed as a liquidator in accordance with the provisions of Chapter III or Chapter V of this Part, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "operational creditor",
+    "para": "s. 5(20)",
+    "def": "means a person to whom an operational debt is owed and includes any person to whom such debt has been legally assigned or transferred;",
+    "scope": ""
+   },
+   {
+    "term": "operational debt",
+    "para": "s. 5(21)",
+    "def": "means a claim in respect of the provision of goods or services including employment or a debt in respect of the payment of dues arising under any law for the time being in force and payable to the Central Government, any State Government or any local authority;",
+    "scope": ""
+   },
+   {
+    "term": "personal guarantor",
+    "para": "s. 5(22)",
+    "def": "means an individual who is the surety in a contract of guarantee to a corporate debtor;",
+    "scope": ""
+   },
+   {
+    "term": "personnel",
+    "para": "s. 5(23)",
+    "def": "includes the directors, managers, key managerial personnel, designated partners and employees, if any, of the corporate debtor;",
+    "scope": ""
+   },
+   {
+    "term": "pre-packaged insolvency commencement date",
+    "para": "s. 5(23B)",
+    "def": "means the date of admission of an application for initiating the pre-packaged insolvency resolution process by the Adjudicating Authority under clause (a) of sub-section (4) of section 54C;",
+    "scope": ""
+   },
+   {
+    "term": "pre-packaged insolvency resolution process period",
+    "para": "s. 5(23D)",
+    "def": "means the period beginning from the pre-packaged insolvency commencement date and ending on the date on which an order under sub-section (1) of section 54L, or sub-section (1) of section 54N, or sub-section (2) of section 54-O, as the case may be, is passed by the Adjudicating Authority;",
+    "scope": ""
+   },
+   {
+    "term": "resolution plan",
+    "para": "s. 5(26)",
+    "def": "means a plan proposed by resolution applicant for insolvency resolution of the corporate debtor as a going concern in accordance with Part II; Explanation.—For the removal of doubts, it is hereby clarified that a resolution plan may include provisions for the restructuring of the corporate debtor, including by way of merger, amalgamation, demerger and sale of one or more assets of the corporate debtor through one…",
+    "scope": ""
+   },
+   {
+    "term": "voting share",
+    "para": "s. 5(28)",
+    "def": "means the share of the voting rights of a single financial creditor in the committee of creditors which is based on the proportion of the financial debt owed to such financial creditor in relation to the financial debt owed by the corporate debtor to the members of the committee of creditors who are eligible to vote.",
+    "scope": ""
+   },
+   {
+    "term": "Adjudicating Authority",
+    "para": "s. 79(1)",
+    "def": "means the Debt Recovery Tribunal constituted under sub-section (1) of section 3 of the Recovery of Debts Due to Banks and Financial Institutions",
+    "scope": ""
+   },
+   {
+    "term": "bankruptcy commencement date",
+    "para": "s. 79(6)",
+    "def": "means the date on which a bankruptcy order is passed by the Adjudicating Authority under section 126;",
+    "scope": ""
+   },
+   {
+    "term": "bankruptcy order",
+    "para": "s. 79(7)",
+    "def": "means an order passed by an Adjudicating Authority under section 126;",
+    "scope": ""
+   },
+   {
+    "term": "bankruptcy process",
+    "para": "s. 79(8)",
+    "def": "means a process against a debtor under Chapters IV and V of this Part;",
+    "scope": ""
+   },
+   {
+    "term": "bankruptcy trustee",
+    "para": "s. 79(9)",
+    "def": "means the insolvency professional appointed as a trustee for the estate of the bankrupt under section 125;",
+    "scope": ""
+   },
+   {
+    "term": "Chapter",
+    "para": "s. 79(10)",
+    "def": "means a chapter under this Part;",
+    "scope": ""
+   },
+   {
+    "term": "committee of creditors",
+    "para": "s. 79(11)",
+    "def": "means a committee constituted under section 134;",
+    "scope": ""
+   },
+   {
+    "term": "debtor",
+    "para": "s. 79(12)",
+    "def": "includes a judgment-debtor;",
+    "scope": ""
+   },
+   {
+    "term": "discharge order",
+    "para": "s. 79(13)",
+    "def": "means an order passed by the Adjudicating Authority discharging the debtor under sections 92, 119 and section 138, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "partnership debt",
+    "para": "s. 79(18)",
+    "def": "means a debt for which all the partners in a firm are jointly liable;",
+    "scope": ""
+   },
+   {
+    "term": "qualifying debt",
+    "para": "s. 79(19)",
+    "def": "means amount due, which includes interest or any other sum due in respect of the amounts owed under any contract, by the debtor for a liquidated sum either immediately or at certain future time and does not include—",
+    "scope": ""
+   },
+   {
+    "term": "repayment plan",
+    "para": "s. 79(20)",
+    "def": "means a plan prepared by the debtor in consultation with the resolution professional under section 105 containing a proposal to the committee of creditors for restructuring of his debts or affairs;",
+    "scope": ""
+   },
+   {
+    "term": "resolution professional",
+    "para": "s. 79(21)",
+    "def": "means an insolvency professional appointed under this part as a resolution professional for conducting the fresh start process or insolvency resolution process;",
+    "scope": ""
+   },
+   {
+    "term": "undischarged bankrupt",
+    "para": "s. 79(22)",
+    "def": "means a bankrupt who has not received a discharge order under section 138.",
+    "scope": ""
+   }
+  ],
+  "AMDACT-2026": [
+   {
+    "term": "creditor-initiated insolvency commencement date",
+    "para": "definitions",
+    "def": "means the date of the public announcement referred to in sub-section (4) of section 58B; and 20 THE GAZETTE OF IN2D0IA EXTRAORDINARY [Part II-- Objections to",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "definitions",
+    "def": "includes the right to appoint majority of the directors or other key managerial personnel entitled to manage the affairs of the corporate person or to control the management or policy decisions exercisable by a person or persons acting individually or in concert, directly or indirectly, including by virtue of their shareholding, management rights, ownership interest, shareholders agreements, voting agreements,…",
+    "scope": ""
+   },
+   {
+    "term": "group",
+    "para": "definitions",
+    "def": "means two or more corporate debtors that are interconnected by control or significant ownership, and include a holding company, a subsidiary company and an associate company of a corporate debtor, as defined under the Companies Act, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "insolvency proceedings",
+    "para": "definitions",
+    "def": "means the corporate insolvency resolution process and liquidation process under Part II of this Code;",
+    "scope": ""
+   },
+   {
+    "term": "significant ownership",
+    "para": "definitions",
+    "def": "includes the right to exercise twenty-six per cent. or more voting rights. 26 THE GAZETTE OF IN2D6IA EXTRAORDINARY [Part II-- Amendment of (4) Notwithstanding anything contained in section 241, a draft of every section 61. rule proposed to be issued under this section, shall be laid before each House of Parliament, while it is in session, for a total period of Insertion of new thirty days which may be comprised…",
+    "scope": ""
+   }
+  ],
+  "RULES-AA": [
+   {
+    "term": "Code",
+    "para": "rule 2",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016);",
+    "scope": ""
+   },
+   {
+    "term": "corporate insolvency resolution process",
+    "para": "rule 2",
+    "def": "means the insolvency resolution process for corporate persons under Chapter II of Part II of the Code;",
+    "scope": ""
+   },
+   {
+    "term": "financial contract",
+    "para": "rule 2",
+    "def": "means a contract between a corporate debtor and a financial creditor setting out the terms of the financial debt, including the tenure of the debt, interest payable and date of repayment;",
+    "scope": ""
+   },
+   {
+    "term": "Form",
+    "para": "rule 2",
+    "def": "means a Form appended to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "identification number",
+    "para": "rule 2",
+    "def": "means the limited liability partnership identification number or the corporate identity number, as the case may be, of the corporate person;",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "rule 2",
+    "def": "means the Schedule appended to these rules.",
+    "scope": ""
+   }
+  ],
+  "RULES-FSP": [
+   {
+    "term": "Administrator",
+    "para": "rule 2",
+    "def": "means an individual appointed by the Adjudicating Authority under sub-clause (iii) of clause (a) of rule 5, to exercise the powers and functions of the insolvency professional, interim resolution professional, resolution professional or the liquidator for the purpose of insolvency and liquidation proceedings of a financial service provider;",
+    "scope": ""
+   },
+   {
+    "term": "Advisory Committee",
+    "para": "rule 2",
+    "def": "means the Committee constituted by the appropriate regulator in accordance with clause (c) of rule 5 of these rules;",
+    "scope": ""
+   },
+   {
+    "term": "appropriate regulator",
+    "para": "rule 2",
+    "def": "means the financial sector regulator, as may be notified by the Central Government under section 227, for a category of financial service providers;",
+    "scope": ""
+   },
+   {
+    "term": "Code",
+    "para": "rule 2",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016);",
+    "scope": ""
+   },
+   {
+    "term": "Form",
+    "para": "rule 2",
+    "def": "means a Form appended to these rules; and",
+    "scope": ""
+   },
+   {
+    "term": "identification number",
+    "para": "rule 2",
+    "def": "means the corporate identity number or the limited liability partnership identification number, as the case may be, of a financial service provider.",
+    "scope": ""
+   }
+  ],
+  "RULES-PG": [
+   {
+    "term": "Code",
+    "para": "rule 2",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016);",
+    "scope": ""
+   },
+   {
+    "term": "form",
+    "para": "rule 2",
+    "def": "means a form appended to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "guarantor",
+    "para": "rule 2",
+    "def": "means a debtor who is a personal guarantor to a corporate debtor and in respect of whom guarantee has been invoked by the creditor and remains unpaid in full or part;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "rule 2",
+    "def": "means section of the Code;",
+    "scope": ""
+   },
+   {
+    "term": "serve",
+    "para": "rule 2",
+    "def": "means sending any communication by any means, including registered post, speed post, courier or electronic form, which is capable of producing or generating an acknowledgement of receipt of such communication: Provided that where a document cannot be served in any of the modes, it shall be affixed at the outer door or some other conspicuous part of the house or building in which the addressee ordinarily resides…",
+    "scope": ""
+   },
+   {
+    "term": "urban area",
+    "para": "rule 2",
+    "def": "means any area other than rural area.",
+    "scope": ""
+   }
+  ],
+  "RULES-PGBKY": [
+   {
+    "term": "Code",
+    "para": "rule 2",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016);",
+    "scope": ""
+   },
+   {
+    "term": "electronic means",
+    "para": "rule 2",
+    "def": "means an authorized and secured computer programme which is capable of producing confirmation of sending communication to the participant entitled to receive such communication at the last electronic mail address provided by such participant and keeping record of such communication;",
+    "scope": ""
+   },
+   {
+    "term": "form",
+    "para": "rule 2",
+    "def": "means a form appended to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "guarantor",
+    "para": "rule 2",
+    "def": "means a debtor who is a personal guarantor to a corporate debtor and in respect of whom guarantee has been invoked by the creditor and remains unpaid in full or part;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "rule 2",
+    "def": "means section of the Code;",
+    "scope": ""
+   },
+   {
+    "term": "serve",
+    "para": "rule 2",
+    "def": "means sending any communication by any means, including registered post, speed post, courier or electronic means, which is capable of producing or generating an acknowledgement of receipt of such communication: Provided that where a document cannot be served in any of the modes, it shall be affixed at the outer door or some other conspicuous part of the house or building in which the addressee ordinarily resides…",
+    "scope": ""
+   },
+   {
+    "term": "urban area",
+    "para": "rule 2",
+    "def": "means any area other than rural area.",
+    "scope": ""
+   }
+  ],
+  "RULES-RV": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "authority",
+    "para": "rule 2",
+    "def": "means an authority specified by the Central Government under section 458 of the Companies Act, 2013 to perform the functions under these rules;",
+    "scope": ""
+   },
+   {
+    "term": "asset class",
+    "para": "rule 2",
+    "def": "means a distinct group of assets, such as land and building, machinery and equipment, displaying similar characteristics, that can be classified and requires separate set of valuers for valuation;",
+    "scope": ""
+   },
+   {
+    "term": "certificate of recognition",
+    "para": "rule 2",
+    "def": "means the certificate of recognition granted to a registered valuers organisation under sub-rule (5) of rule 13 and the term \"recognition\" shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "certificate of registration",
+    "para": "rule 2",
+    "def": "means the certificate of registration granted to a valuer under sub-rule (6) of rule 6 and the term \"registration\" shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "partnership entity",
+    "para": "rule 2",
+    "def": "means a partnership firm registered under the Indian Partnership Act, 1932 (9 of 1932) or a limited liability partnership registered under the Limited Liability Partnership Act, 2008 (6 of 2009); 1 Published in the Gazette of India, Extra., Part II, Sec.3, No. 1316 (E), dated 18th Oct., 2017. 2 Subs. by the Companies (Registered Valuers and Valuation) Fourth Amendment Rules, 2018, w.e.f. 13-11-2018. Before…",
+    "scope": ""
+   },
+   {
+    "term": "Annexure",
+    "para": "rule 2",
+    "def": "means an annexure to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "registered valuers organisation",
+    "para": "rule 2",
+    "def": "means a registered valuers organisation recognised under sub-rule (5) of rule 13;",
+    "scope": ""
+   },
+   {
+    "term": "valuation standards",
+    "para": "rule 2",
+    "def": "means the standards on valuation referred to in rule 18; and",
+    "scope": ""
+   },
+   {
+    "term": "valuer",
+    "para": "rule 2",
+    "def": "means a person registered with the authority in accordance with these rules and the term \"registered valuer\" shall be construed accordingly.",
+    "scope": ""
+   },
+   {
+    "term": "certificate of membership",
+    "para": "rule 2",
+    "def": "means the certificate of membership of the Organisation granted under bye-law 10;",
+    "scope": ""
+   },
+   {
+    "term": "Governing Board",
+    "para": "rule 2",
+    "def": "means the Board of Directors or Board of the Organisation as defined under clause (10) of section 2 of Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   }
+  ],
+  "REG-CIRP": [
+   {
+    "term": "applicant",
+    "para": "definitions clause",
+    "def": "means the person(s) filing an application under sections 7, 9 or 10, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016;",
+    "scope": ""
+   },
+   {
+    "term": "Code of Conduct",
+    "para": "definitions clause",
+    "def": "means the code of conduct for insolvency professionals as set out in the Insolvency and Bankruptcy Board of India (Insolvency Professionals) Regulations, 2016;",
+    "scope": ""
+   },
+   {
+    "term": "committee",
+    "para": "definitions clause",
+    "def": "means a committee of creditors established under section 21; 1Vide Notification No. IBBI/2016-17/GN/REG004, dated 30th November, 2016, published in the Gazette of India, Extraordinary, Part III, Sec.4, vide No. 432, dated 30th November, 2016 (w.e.f. 01-12-2016). 2Inserted by Notification No. IBBI/2018-19/GN/REG031, dated 3rd July, 2018 (w.e.f. 04-07-2018).",
+    "scope": ""
+   },
+   {
+    "term": "corporate insolvency resolution process",
+    "para": "definitions clause",
+    "def": "means the insolvency resolution process for corporate persons under Chapter II of Part II of the Code;",
+    "scope": ""
+   },
+   {
+    "term": "identification number",
+    "para": "definitions clause",
+    "def": "means the Limited Liability Partnership Identification Number or the Corporate Identity Number, as the case may be; 3Omitted by Notification No. IBBI/2018-19/GN/REG032, dated 5th October, 2018 (w.e.f. 05.10.2018). Prior to omission, clause (f) stood as under:-",
+    "scope": ""
+   },
+   {
+    "term": "dissenting financial creditor",
+    "para": "definitions clause",
+    "def": "means a financial creditor who voted against the resolution plan or abstained from voting for the resolution plan, approved by the committee;\" 4Inserted by Notification No. IBBI/2017-18/GN/REG024, dated 6th February, 2018 (w.e.f. 06-02-2018). 5 Substituted by Notification No. IBBI/2025-26/GN/REG135, dated 25th February, 2026 (w.e.f. 25-02-2026). Before substitution, the words stood as under: \"(hb)\"fair value\"…",
+    "scope": ""
+   },
+   {
+    "term": "insolvency professional entity",
+    "para": "definitions clause",
+    "def": "means an entity recognised as such under the Insolvency and Bankruptcy Board of India (Insolvency Professionals) Regulations,",
+    "scope": ""
+   },
+   {
+    "term": "participant",
+    "para": "definitions clause",
+    "def": "means a person entitled to attend a meeting of the committee under section 24 or any other person authorised by the committee to attend the meeting;",
+    "scope": ""
+   },
+   {
+    "term": "registered valuer",
+    "para": "definitions clause",
+    "def": "means a person registered as such in accordance with the Companies Act, 2013(18 of 2013) and rules made thereunder;",
+    "scope": ""
+   },
+   {
+    "term": "7[Schedule-I ]",
+    "para": "definitions clause",
+    "def": "means the Schedule-I to these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "definitions clause",
+    "def": "means section of the Code;",
+    "scope": ""
+   },
+   {
+    "term": "video conferencing or other audio and visual means",
+    "para": "definitions clause",
+    "def": "means such audio and visual facility which enables the participants in a meeting to communicate concurrently with one another and to participate effectively in the meeting.",
+    "scope": ""
+   },
+   {
+    "term": "asset class",
+    "para": "definitions clause",
+    "def": "means the definition provided under the Companies (Registered Valuers and Valuation) Rules, 2017;",
+    "scope": ""
+   },
+   {
+    "term": "significantly different",
+    "para": "definitions clause",
+    "def": "means a difference of twenty-five per cent. in liquidation value under an asset class and the same shall be calculated as (L1-L2)/L1, where, L1= higher valuation of liquidation value L2= lower valuation of liquidation value.",
+    "scope": ""
+   }
+  ],
+  "REG-LIQ": [
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016; 1Vide Notification No. IBBI/2016-17/GN/REG005, dated 15th December 2016, published in the Gazette of India, Extraordinary, Part III, Sec.4, dated 15th December, 2016 (w.e.f. 15.12.2016).",
+    "scope": ""
+   },
+   {
+    "term": "contributory",
+    "para": "definitions clause",
+    "def": "means a member of the company, a partner of the limited liability partnership, and any other person liable to contribute towards the assets of the corporate debtor in the event of its liquidation;",
+    "scope": ""
+   },
+   {
+    "term": "identification number",
+    "para": "definitions clause",
+    "def": "means the Limited Liability Partnership Identification Number or the Corporate Identity Number, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "Preliminary Report",
+    "para": "definitions clause",
+    "def": "means the report prepared in accordance with Regulation 13;",
+    "scope": ""
+   },
+   {
+    "term": "Progress Report",
+    "para": "definitions clause",
+    "def": "means the quarterly report prepared in accordance with Regulation 15;",
+    "scope": ""
+   },
+   {
+    "term": "registered valuer",
+    "para": "definitions clause",
+    "def": "means a person registered as such in accordance with the Companies Act, 2013 (18 of 2013) and rules made thereunder;",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "definitions clause",
+    "def": "means a schedule to these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "definitions clause",
+    "def": "means section of the Code; and",
+    "scope": ""
+   },
+   {
+    "term": "stakeholders",
+    "para": "definitions clause",
+    "def": "means the stakeholders entitled to distribution of proceeds under section 53.",
+    "scope": ""
+   }
+  ],
+  "REG-VL": [
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016;",
+    "scope": ""
+   },
+   {
+    "term": "contributory",
+    "para": "definitions clause",
+    "def": "means a member of a company, partner of a limited liability partnership, and any other person liable to contribute towards the assets of the corporate person in the event of its liquidation;",
+    "scope": ""
+   },
+   {
+    "term": "liquidation commencement date",
+    "para": "definitions clause",
+    "def": "means the date on which the proceedings for voluntary liquidation commence as per section 59(5) and Regulation",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "definitions clause",
+    "def": "means a section of the Code; and",
+    "scope": ""
+   }
+  ],
+  "REG-PPIRP": [
+   {
+    "term": "applicant",
+    "para": "definitions clause",
+    "def": "means the corporate applicant, filing an application for initiation of pre- packaged insolvency resolution process under section 54C;",
+    "scope": ""
+   },
+   {
+    "term": "class of creditors",
+    "para": "definitions clause",
+    "def": "means a class with at least ten financial creditors under clause (b) of sub-section (6A) of section 21 and the expression, \"creditors in a class\" shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016;",
+    "scope": ""
+   },
+   {
+    "term": "committee",
+    "para": "definitions clause",
+    "def": "means the committee of creditors constituted under section 54I;",
+    "scope": ""
+   },
+   {
+    "term": "electronic means",
+    "para": "definitions clause",
+    "def": "means an authorised and secured computer programme which is capable of producing confirmation of sending communication to the participant entitled to receive such communication at the latest electronic mail address as made available by such participant and keeping record of such communication;",
+    "scope": ""
+   },
+   {
+    "term": "fair value",
+    "para": "definitions clause",
+    "def": "means the estimated realisable value of the assets of the corporate debtor, if they were to be exchanged on the pre-packaged insolvency commencement date between a willing buyer and a willing seller in an arm's length transaction, after proper marketing and where the parties had acted knowledgeably, prudently and without compulsion;\" insolvency commencement date between a willing buyer and a willing seller in an…",
+    "scope": ""
+   },
+   {
+    "term": "Form",
+    "para": "definitions clause",
+    "def": "means such format as notified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "identification number",
+    "para": "definitions clause",
+    "def": "means the limited liability partnership identification number or the corporate identity number, as the case may be;",
+    "scope": ""
+   },
+   {
+    "term": "insolvency professional entity",
+    "para": "definitions clause",
+    "def": "means an entity recognised as such under the Insolvency and Bankruptcy Board of India (Insolvency Professionals) Regulations, 2016;",
+    "scope": ""
+   },
+   {
+    "term": "liquidation value",
+    "para": "definitions clause",
+    "def": "means the estimated realisable value of the assets of the corporate debtor, if it were to be liquidated on the pre-packaged insolvency commencement date;",
+    "scope": ""
+   },
+   {
+    "term": "participant",
+    "para": "definitions clause",
+    "def": "means a person entitled to attend the meeting of the committee under section 24 or any other person authorised by the committee to attend the meeting;",
+    "scope": ""
+   },
+   {
+    "term": "process",
+    "para": "definitions clause",
+    "def": "means pre-packaged insolvency resolution process for corporate debtors under",
+    "scope": ""
+   },
+   {
+    "term": "registered valuer",
+    "para": "definitions clause",
+    "def": "means a person registered as such in accordance with the Companies Act, 2013 (18 of 2013) and the rules made thereunder;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "definitions clause",
+    "def": "means section of the Code;",
+    "scope": ""
+   },
+   {
+    "term": "video conferencing or other audio and visual means",
+    "para": "definitions clause",
+    "def": "means such audio and visual facility which enables the participants in a meeting to communicate concurrently with one another and to participate effectively in the meeting.",
+    "scope": ""
+   },
+   {
+    "term": "tick size",
+    "para": "definitions clause",
+    "def": "means minimum improvement over another resolution plan in terms of score, as approved by the committee and disclosed in the invitation for resolution plans. Illustration 1 On the basis for evaluation, resolution plans `A' and `B' have scores of 105 and 108, respectively. Resolution applicant of `A' may wish to improve `A' over `B'. It must improve `A' such that the score of `A' exceeds that of `B' at least by…",
+    "scope": ""
+   }
+  ],
+  "REG-PGIRP": [
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016);",
+    "scope": ""
+   },
+   {
+    "term": "corporate debtor",
+    "para": "definitions clause",
+    "def": "means a corporate person for whom the guarantor has given a personal guarantee;",
+    "scope": ""
+   },
+   {
+    "term": "electronic means",
+    "para": "definitions clause",
+    "def": "means an authorised and secured computer programme which is capable of producing confirmation of sending communication to the participant entitled to receive such communication at the last electronic mail address provided by such participant and keeping record of such communication.",
+    "scope": ""
+   },
+   {
+    "term": "participant",
+    "para": "definitions clause",
+    "def": "means a person entitled to attend a meeting of creditors and includes a creditor, the guarantor, the resolution professional, and any other person authorised through a resolution by creditors to attend such meeting; 1 Omitted by Notification No IBBI/2026-27/GN/REG149, dated 01st June, 2026 (w.e.f. 02-06-2026). Prior to omission, stood as under: \"(e) \"form\" means a form appended to these regulations;\".",
+    "scope": ""
+   },
+   {
+    "term": "resolution process",
+    "para": "definitions clause",
+    "def": "means the insolvency resolution process of a guarantor;",
+    "scope": ""
+   },
+   {
+    "term": "resolution process commencement date",
+    "para": "definitions clause",
+    "def": "means the date of admission of an application under section 100;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "definitions clause",
+    "def": "means section of the Code;",
+    "scope": ""
+   }
+  ],
+  "REG-PGBKY": [
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016);",
+    "scope": ""
+   },
+   {
+    "term": "committee",
+    "para": "definitions clause",
+    "def": "means the committee of creditors as defined in sub-section (11) of section 79;",
+    "scope": ""
+   },
+   {
+    "term": "corporate debtor",
+    "para": "definitions clause",
+    "def": "means a corporate person for whom the guarantor has given a personal guarantee;",
+    "scope": ""
+   },
+   {
+    "term": "electronic means",
+    "para": "definitions clause",
+    "def": "means an authorised and secured computer programme which is capable of producing confirmation of sending communication to the participant entitled to receive such communication at the last electronic mail address provided by such participant and keeping record of such communication;",
+    "scope": ""
+   },
+   {
+    "term": "participant",
+    "para": "definitions clause",
+    "def": "means a person entitled to attend a meeting of the committee and includes a creditor, , bankrupt, bankruptcy trustee, and any other person authorised by the committee to attend such meeting;",
+    "scope": ""
+   },
+   {
+    "term": "registered valuer",
+    "para": "definitions clause",
+    "def": "means a person registered as such in accordance with the Companies Act, 2013 (18 of 2013) and the rules made thereunder;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "definitions clause",
+    "def": "means a section of the Code;",
+    "scope": ""
+   }
+  ],
+  "REG-IP": [
+   {
+    "term": "authorisation for assignment",
+    "para": "definitions clause",
+    "def": "means an authorisation to undertake an assignment, issued by an insolvency professional agency to an insolvency professional, who is its professional member, in accordance with its bye-laws;",
+    "scope": ""
+   },
+   {
+    "term": "Bar Council",
+    "para": "definitions clause",
+    "def": "means a Bar Council constituted under the Advocates Act, 1961 (25 of",
+    "scope": ""
+   },
+   {
+    "term": "certificate of registration",
+    "para": "definitions clause",
+    "def": "means a certificate of registration granted by the Board under section 207 of the Code read with these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016);",
+    "scope": ""
+   },
+   {
+    "term": "Institute of Chartered Accountants of India",
+    "para": "definitions clause",
+    "def": "means the Institute constituted under the Chartered Accountants Act, 1949 (38 of 1949); 1 Vide Notification No. IBBI/2016-17/GN/REG003, dated 23rd November, 2016 published in the Gazette of India, Extraordinary, Part III, Sec.4, vide No. 424, dated 23rd November, 2016 (w.e.f. 29.11.2016). 2 Substituted by Notification No. IBBI/2019-20/GN/REG045, dated 23rd July, 2019 (w.e.f. 23.07.2019). Clause (a), before…",
+    "scope": ""
+   },
+   {
+    "term": "Institute of Cost Accountants of India",
+    "para": "definitions clause",
+    "def": "means the Institute constituted under the Cost and Works Accountants Act, 1959 (23 of 1959);",
+    "scope": ""
+   },
+   {
+    "term": "Institute of Company Secretaries of India",
+    "para": "definitions clause",
+    "def": "means the Institute constituted under the Institute of the Company Secretaries Act, 1980 (56 of 1980); and",
+    "scope": ""
+   },
+   {
+    "term": "professional member",
+    "para": "definitions clause",
+    "def": "means an individual or an insolvency professional entity recognised by the Board under regulation 13 who has been enrolled as a member of an insolvency professional agency;",
+    "scope": ""
+   }
+  ],
+  "REG-IPA": [
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016;",
+    "scope": ""
+   },
+   {
+    "term": "certificate of registration",
+    "para": "definitions clause",
+    "def": "means a certificate of registration granted or renewed by the Board under these Regulations;",
+    "scope": ""
+   }
+  ],
+  "REG-IPA-MBL": [
+   {
+    "term": "Governing Board",
+    "para": "definitions clause",
+    "def": "means the Board of Directors, as defined under section 2(10) of Companies Act, 2013 (18 of 2013), of the company registered as an insolvency professional agency;",
+    "scope": ""
+   },
+   {
+    "term": "model bye-laws",
+    "para": "definitions clause",
+    "def": "means the model bye-laws as contained in the Schedule to these Regulations. 1Vide Notification No. IBBI/2016-17/GN/REG001, dated 21st November, 2016, published in Gazette of India, Extraordinary, Part III, Sec.4, vide No. 421, dated 22nd November, 2016 (w.e.f. 22.11.2016). 2 Inserted by Notification No. IBBI/2018-19/GN/REG35, dated 11th October, 2018 (w.e.f. 11-10-2018). 3 Renumbered by Notification No.…",
+    "scope": ""
+   },
+   {
+    "term": "authorisation for assignment",
+    "para": "definitions clause",
+    "def": "means an authorisation to undertake an assignment, issued by an insolvency professional agency to an insolvency professional, who is its professional member, in accordance with its bye-laws;",
+    "scope": ""
+   },
+   {
+    "term": "certificate of membership",
+    "para": "definitions clause",
+    "def": "means the certificate of membership of the Agency granted under bye-law 10;",
+    "scope": ""
+   },
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016);",
+    "scope": ""
+   },
+   {
+    "term": "professional member",
+    "para": "definitions clause",
+    "def": "means an insolvency professional who has been enrolled as such, in accordance with Part VI of these bye-laws;",
+    "scope": ""
+   }
+  ],
+  "REG-IU": [
+   {
+    "term": "Application Programming Interface",
+    "para": "definitions clause",
+    "def": "means a mechanism that allows a system or service to access data or functionality provided by another system or service;",
+    "scope": ""
+   },
+   {
+    "term": "certificate of registration",
+    "para": "definitions clause",
+    "def": "means a certificate of registration granted or renewed by the Board under section 210 read with these Regulations and the terms \"registration\" and \"renewal\" shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016) and includes the rules, regulations, guidelines and directions issued thereunder;",
+    "scope": ""
+   },
+   {
+    "term": "Governing Board",
+    "para": "definitions clause",
+    "def": "means the Board of Directors, as defined under section 2(10) of the Companies Act, 2013 (18 of 2013), of the company registered as an information utility;",
+    "scope": ""
+   },
+   {
+    "term": "host bank",
+    "para": "definitions clause",
+    "def": "means the financial institution hosting the repayment account;",
+    "scope": ""
+   },
+   {
+    "term": "information",
+    "para": "definitions clause",
+    "def": "means financial information as defined in section 3(13);",
+    "scope": ""
+   },
+   {
+    "term": "outsourcing",
+    "para": "definitions clause",
+    "def": "means contracting out services to a third party;",
+    "scope": ""
+   },
+   {
+    "term": "repayment account",
+    "para": "definitions clause",
+    "def": "means the bank account to which a debtor is obliged to repay its debt, as recorded in an information utility;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "definitions clause",
+    "def": "means a section of the Code; 3 Inserted by Notification No. IBBI/2020-21/GN/REG065, dated 13th November, 2020 (w.e.f. 13-11-2020). 4 Inserted by Notification No. IBBI/2022-23/GN/REG085, dated 14th June, 2022 (w.e.f. 14-06-2022). 5 Substituted by Notification No. IBBI/2026-27/GN/REG146, dated 01st June, 2026 (w.e.f. 02-06-2026). Before substitution, the words stood as under: - \"Form D of the Schedule\". 6 Inserted…",
+    "scope": ""
+   },
+   {
+    "term": "submission of information",
+    "para": "definitions clause",
+    "def": "includes updating of information, as the context may require;",
+    "scope": ""
+   },
+   {
+    "term": "Technical Standards",
+    "para": "definitions clause",
+    "def": "means the standards laid down by the Board through guidelines issued under Regulation 13, from time to time; and",
+    "scope": ""
+   },
+   {
+    "term": "user",
+    "para": "definitions clause",
+    "def": "means a person who avails of the services of an information utility.",
+    "scope": ""
+   }
+  ],
+  "REG-INSP": [
+   {
+    "term": "associated person",
+    "para": "definitions clause",
+    "def": "means a proprietor, partner, director, officer, or an employee of a service provider, a professional or a valuer engaged by a service provider or any other person acting for or on behalf of a service provider under inspection or investigation;",
+    "scope": ""
+   },
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016);",
+    "scope": ""
+   },
+   {
+    "term": "Disciplinary Committee",
+    "para": "definitions clause",
+    "def": "means a committee consisting of one or more persons as provided  under sub-section (1) of section 220 of the Code: Provided that the person(s) in the Disciplinary Committee shall not be associated with the investigation or inspection; 1 Vide Notification No. IBBI/2017-18/GN/REG011, dated 12th June, 2017, published in the Gazette of India, Extraordinary, Part III, Sec.4, vide No.239, dated 14th June, 2017 (w.e.f.…",
+    "scope": ""
+   },
+   {
+    "term": "Investigating Authority",
+    "para": "definitions clause",
+    "def": "means an officer or a team of officers of the Board, which has been directed by the Board, to conduct the investigation of a service provider;",
+    "scope": ""
+   },
+   {
+    "term": "Inspecting Authority",
+    "para": "definitions clause",
+    "def": "means an officer or a team of officers of the Board, which has been directed by the Board, to conduct the inspection of a service provider;",
+    "scope": ""
+   },
+   {
+    "term": "noticee",
+    "para": "definitions clause",
+    "def": "means a service provider or an associated person who is alleged to have contravened any provision of the Code, or the rules, regulations or guidelines made thereunder;",
+    "scope": ""
+   },
+   {
+    "term": "record",
+    "para": "definitions clause",
+    "def": "means the books of accounts, registers, documents, call records and other records, whether maintained in electronic form or otherwise, of a service provider and its associated person;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "definitions clause",
+    "def": "means section of the Code; *",
+    "scope": ""
+   }
+  ],
+  "REG-GRIEV": [
+   {
+    "term": "aggrieved",
+    "para": "definitions clause",
+    "def": "means a stakeholder who has filed a grievance with the Board on failing to get his grievance redressed from the concerned service provider;",
+    "scope": ""
+   },
+   {
+    "term": "associated person",
+    "para": "definitions clause",
+    "def": "means a proprietor, partner, director, officer, or an employee of a service provider, a professional or a valuer engaged by a service provider or any other person acting for or on behalf of a service provider;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Board of India established under sub-section (1) of section 188 of the Code;",
+    "scope": ""
+   },
+   {
+    "term": "Code",
+    "para": "definitions clause",
+    "def": "means the Insolvency and Bankruptcy Code, 2016 (31 of 2016);",
+    "scope": ""
+   },
+   {
+    "term": "complaint",
+    "para": "definitions clause",
+    "def": "means a written expression by a stakeholder alleging contravention of any provision of the Code or rules, regulations, or guidelines made thereunder or circulars or directions issued by the Board by a service provider or any of its associated persons and includes a complaint-cum- grievance;",
+    "scope": ""
+   },
+   {
+    "term": "complaint-cum-grievance",
+    "para": "definitions clause",
+    "def": "means a complaint and grievance in the same matter.",
+    "scope": ""
+   },
+   {
+    "term": "complainant",
+    "para": "definitions clause",
+    "def": "means a stakeholder who has filed a complaint or a complaint- cum-grievance with the Board;",
+    "scope": ""
+   },
+   {
+    "term": "grievance",
+    "para": "definitions clause",
+    "def": "means a written expression by a stakeholder of his suffering on account of conduct of a service provider or its associated persons;",
+    "scope": ""
+   },
+   {
+    "term": "stakeholder",
+    "para": "definitions clause",
+    "def": "means a debtor, a creditor, a claimant, a service provider, a resolution applicant and any other person having an interest in the insolvency, liquidation, voluntary liquidation, or bankruptcy transaction under the Code.",
+    "scope": ""
+   }
+  ]
+ }
+}
