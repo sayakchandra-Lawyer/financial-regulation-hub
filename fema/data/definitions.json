@@ -1,0 +1,1460 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Terms as each instrument defines them, shortened where long. The instrument's own text governs."
+ },
+ "instruments": {
+  "ACT-FEMA": [
+   {
+    "term": "Adjudicating Authority",
+    "para": "definition clause",
+    "def": "means an officer authorised under sub-section (1) of section 16;",
+    "scope": ""
+   },
+   {
+    "term": "authorised person",
+    "para": "definition clause",
+    "def": "means an authorised dealer, money changer, off-shore banking unit or any other person for the time being authorised under sub-section (1) of section 10 to deal in foreign exchange or foreign securities;",
+    "scope": ""
+   },
+   {
+    "term": "Bench",
+    "para": "definition clause",
+    "def": "means a Bench of the Appellate Tribunal;",
+    "scope": ""
+   },
+   {
+    "term": "capital account transaction",
+    "para": "definition clause",
+    "def": "means a transaction which alters the assets or liabilities, including contingent liabilities, outside India of persons resident in India or assets or liabilities in India of persons resident outside India, and includes transactions referred to in sub-section (3) of section 6;",
+    "scope": ""
+   },
+   {
+    "term": "Chairperson",
+    "para": "definition clause",
+    "def": "means the Chairperson of the Appellate Tribunal;",
+    "scope": ""
+   },
+   {
+    "term": "currency",
+    "para": "definition clause",
+    "def": "includes all currency notes, postal notes, postal orders, money orders, cheques, drafts, travellers cheques, letters of credit, bills of exchange and promissory notes, credit cards or such other similar instruments, as may be notified by the Reserve Bank; 1. 1st June, 2000, vide notification no. G.S.R. 371(E), dated 1st May, 2000, see Gazette of India, Extraordinary, Part II,",
+    "scope": ""
+   },
+   {
+    "term": "currency notes",
+    "para": "definition clause",
+    "def": "means and includes cash in the form of coins and bank notes;",
+    "scope": ""
+   },
+   {
+    "term": "current account transaction",
+    "para": "definition clause",
+    "def": "means a transaction other than a capital account transaction and without prejudice to the generality of the foregoing such transaction includes,—",
+    "scope": ""
+   },
+   {
+    "term": "Director of Enforcement",
+    "para": "definition clause",
+    "def": "means the Director of Enforcement appointed under sub-section (1) of section 36;",
+    "scope": ""
+   },
+   {
+    "term": "foreign currency",
+    "para": "definition clause",
+    "def": "means any currency other than Indian currency; e",
+    "scope": ""
+   },
+   {
+    "term": "foreign security",
+    "para": "definition clause",
+    "def": "means any security, in the form of shares, stocks, bonds, debentures or any other instrument denominated or expressed in foreign currency and includes securities expressed in foreign currency, but where redemption or any form of return such as interest or dividends is payable in Indian currency;",
+    "scope": ""
+   },
+   {
+    "term": "Indian currency",
+    "para": "definition clause",
+    "def": "means currency which is expressed or drawn in Indian rupees but does not include special bank notes and special one rupee notes issued under section 28A of the Reserve Bank",
+    "scope": ""
+   },
+   {
+    "term": "Member",
+    "para": "definition clause",
+    "def": "means a Member of the Appellate Tribunal and includes the Chairperson thereof;",
+    "scope": ""
+   },
+   {
+    "term": "notify",
+    "para": "definition clause",
+    "def": "means to notify in the Official Gazette and the expression “notification” shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "definition clause",
+    "def": "means prescribed by rules made under this Act; Ind",
+    "scope": ""
+   },
+   {
+    "term": "Reserve Bank",
+    "para": "definition clause",
+    "def": "means the Reserve Bank of India constituted under sub-section (1) of section 3 of the Reserve Bank of India Act, 1934 (2 of 1934);",
+    "scope": ""
+   },
+   {
+    "term": "security",
+    "para": "definition clause",
+    "def": "means shares, stocks, bonds and debentures, Government securities as defined in the Public Debt Act, 1944 (18 of 1944), savings certificates to which the Government Savings Certificates Act, 1959 (46 of 1959) applies, deposit receipts in respect of deposits of securities and units of the Unit Trust of India established under sub-section (1) of section 3 of the Unit Trust of India Act, 1963 (52 of 1963)* or of any…",
+    "scope": ""
+   },
+   {
+    "term": "service",
+    "para": "definition clause",
+    "def": "means service of any description which is made available to potential users and includes the provision of facilities in connection with banking, financing, insurance, medical assistance, legal assistance, chit fund, real estate, transport, processing, supply of electrical or other energy, boarding or lodging or both, entertainment, amusement or the purveying of news or other information, but does not include the…",
+    "scope": ""
+   },
+   {
+    "term": "Special Director (Appeals)",
+    "para": "definition clause",
+    "def": "means an officer appointed under section 17; *Now see the Unit Trust of India (transfer of Undertaking of Repeal) Act, 2002 (58 of 2002).",
+    "scope": ""
+   },
+   {
+    "term": "specify",
+    "para": "definition clause",
+    "def": "means to specify by regulations made under this Act and the expression “specified” shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "transfer",
+    "para": "definition clause",
+    "def": "includes sale, purchase, exchange, mortgage, pledge, gift, loan or any other form of transfer of right, title, possession or lien.",
+    "scope": ""
+   }
+  ],
+  "RULES-COMP": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "authorised officer",
+    "para": "rule 2",
+    "def": "means an officer authorised under rule 3;",
+    "scope": ""
+   },
+   {
+    "term": "applicant",
+    "para": "rule 2",
+    "def": "means a person who makes an application under sub-rule (4) of rule 4 or, as the case may be, subrule (4) of rule 5 to the compounding authority;",
+    "scope": ""
+   },
+   {
+    "term": "compounding order",
+    "para": "rule 2",
+    "def": "means an order issued for compounding a contravention as specified in sub-section (1) of section 15 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed Form",
+    "para": "rule 2",
+    "def": "means the Form annexed to these rules;",
+    "scope": ""
+   }
+  ],
+  "REG-BL": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "arm’s length basis",
+    "para": "definitions clause",
+    "def": "means a transaction between two related parties that is conducted as if the transacting parties were unrelated, so that there is no conflict of interest;",
+    "scope": ""
+   },
+   {
+    "term": "Authorised Dealer (AD)",
+    "para": "definitions clause",
+    "def": "means a person authorised as an Authorised Dealer under sub-section (1) of section 10 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "benchmark rate",
+    "para": "definitions clause",
+    "def": "means any widely accepted interbank rate or Alternative Reference Rate (ARR) of 6-month tenor, applicable to the currency of borrowing, in case of foreign currency (FCY) external commercial borrowing (ECB) / trade credit (TC). Further, it means prevailing yield of the Government of India security of corresponding maturity in case of Indian Rupees (INR) denominated ECB / TC;",
+    "scope": ""
+   },
+   {
+    "term": "cost of borrowing",
+    "para": "definitions clause",
+    "def": "means rate of interest, other fees, expenses, charges, guarantee fees and export credit agency charges, whether paid in FCY or INR, but shall not include commitment fees and statutory taxes payable in India;",
+    "scope": ""
+   },
+   {
+    "term": "Designated Authorised Dealer (AD) Category I Bank",
+    "para": "definitions clause",
+    "def": "means the AD Category I bank designated by the borrower for meeting the reporting requirements in respect of ECB and TC and monitoring of such transactions;",
+    "scope": ""
+   },
+   {
+    "term": "external commercial borrowing (ECB)",
+    "para": "definitions clause",
+    "def": "means borrowing by an eligible borrower from a recognised lender in accordance with Schedule I to these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "external commercial lending (ECL)",
+    "para": "definitions clause",
+    "def": "means lending by a person resident in India to a person resident outside India in accordance with Schedule III to these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "financial sector regulator",
+    "para": "definitions clause",
+    "def": "means a financial regulatory body established under any law in force in India and includes the Reserve Bank of India, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority;",
+    "scope": ""
+   },
+   {
+    "term": "Indian Entity",
+    "para": "definitions clause",
+    "def": "means a company incorporated in India under the Companies Act, 2013 (18 of 2013) or a body corporate established in India under a Central / State Act or a Limited Liability Partnership formed and registered in India under the Limited Liability Partnership Act, 2008;",
+    "scope": ""
+   },
+   {
+    "term": "Industrial Park",
+    "para": "definitions clause",
+    "def": "means a project in which quality infrastructure in the form of plots of developed land or built-up space or a combination with common facilities is developed and made available to all the allotee units for the purpose of industrial activity;",
+    "scope": ""
+   },
+   {
+    "term": "Liberalised Remittance Scheme",
+    "para": "definitions clause",
+    "def": "means the scheme formulated in terms of circular A.P. (DIR Series) Circular No. 64 dated February 4, 2004;",
+    "scope": ""
+   },
+   {
+    "term": "real estate business",
+    "para": "definitions clause",
+    "def": "means purchase, sale or lease of land or immovable property with a view to earning profit from there and does not include purchase, sale and lease (not amounting to transfer) of land or immovable property for the following purposes:",
+    "scope": ""
+   },
+   {
+    "term": "related party",
+    "para": "definitions clause",
+    "def": "means an entity which qualifies as a related party as per the provisions of the Companies Act, 2013 (18 of 2013). For a person other than a company, this definition shall apply mutatis mutandis;",
+    "scope": ""
+   },
+   {
+    "term": "trade credit (TC)",
+    "para": "definitions clause",
+    "def": "means credit extended by the overseas supplier or financial institution for permissible imports into India and includes both suppliers’ credit and buyers’ credit;",
+    "scope": ""
+   },
+   {
+    "term": "External Commercial Borrowings (ECB)",
+    "para": "definitions clause",
+    "def": "means borrowing by an eligible resident entity from outside India in accordance with framework decided by the Reserve Bank in consultation with the Government of India;",
+    "scope": ""
+   },
+   {
+    "term": "Foreign branches/subsidiaries of the Indian banks",
+    "para": "definitions clause",
+    "def": "means entities established overseas in terms of provisions contained in the Banking Regulation Act, 1949, as amended from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "Real Estate Activity",
+    "para": "definitions clause",
+    "def": "means any activity involving own or leased property for buying, selling and renting of commercial and residential properties or land and also includes activities either on a fee or contract basis assigning real estate agents for intermediating in buying, selling, letting or managing real estate. However, this would not include development of integrated township, purchase/ long term leasing of industrial land as…",
+    "scope": ""
+   },
+   {
+    "term": "Restricted End Uses",
+    "para": "definitions clause",
+    "def": "shall mean end uses where borrowed funds cannot be deployed and shall include the following:",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "definitions clause",
+    "def": "means the Schedule to these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Start-up",
+    "para": "definitions clause",
+    "def": "means an entity which complies with the conditions laid down in Notification No. G.S.R 180(E) dated February 17, 2016, as amended/ updated from time to time, issued by Department of Industrial Policy and Promotion, Ministry of Commerce and Industry, Government of India;",
+    "scope": ""
+   }
+  ],
+  "REG-BL-AMD-2026": [
+   {
+    "term": "Act",
+    "para": "definitions",
+    "def": "means the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "arm's length basis",
+    "para": "definitions",
+    "def": "means a transaction between two related parties that is conducted as if the transacting parties were unrelated, so that there is no conflict of interest;",
+    "scope": ""
+   },
+   {
+    "term": "Authorised Dealer (AD)",
+    "para": "definitions",
+    "def": "means a person authorised as an Authorised Dealer under sub-section (1) of section 10 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "benchmark rate",
+    "para": "definitions",
+    "def": "means any widely accepted interbank rate or Alternative Reference Rate (ARR) of 6-month tenor, applicable to the currency of borrowing, in case of foreign currency (FCY) external commercial borrowing (ECB) / trade credit (TC). Further, it means prevailing yield of the Government of India security of corresponding maturity in case of Indian Rupees (INR) denominated ECB / TC;",
+    "scope": ""
+   },
+   {
+    "term": "cost of borrowing",
+    "para": "definitions",
+    "def": "means rate of interest, other fees, expenses, charges, guarantee fees and export credit agency charges, whether paid in FCY or INR, but shall not include commitment fees and statutory taxes payable in India;",
+    "scope": ""
+   },
+   {
+    "term": "Designated Authorised Dealer (AD) Category I Bank",
+    "para": "definitions",
+    "def": "means the AD Category I bank designated by the borrower for meeting the reporting requirements in respect of ECB and TC and monitoring of such transactions;",
+    "scope": ""
+   },
+   {
+    "term": "external commercial borrowing (ECB)",
+    "para": "definitions",
+    "def": "means borrowing by an eligible borrower from a recognised lender in accordance with Schedule I to these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "external commercial lending (ECL)",
+    "para": "definitions",
+    "def": "means lending by a person resident in India to a person resident outside India in accordance with Schedule III to these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "financial sector regulator",
+    "para": "definitions",
+    "def": "means a financial regulatory body established under any law in force in India and includes the Reserve Bank of India, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority;",
+    "scope": ""
+   },
+   {
+    "term": "Indian Entity",
+    "para": "definitions",
+    "def": "means a company incorporated in India under the Companies Act, 2013 (18 of 2013) or a body corporate established in India under a Central / State Act or a Limited Liability Partnership formed and registered in India under the Limited Liability Partnership Act, 2008;",
+    "scope": ""
+   },
+   {
+    "term": "Industrial Park",
+    "para": "definitions",
+    "def": "means a project in which quality infrastructure in the form of plots of developed land or built-up space or a combination with common facilities is developed and made available to all the allotee units for the purpose of industrial activity;",
+    "scope": ""
+   },
+   {
+    "term": "Liberalised Remittance Scheme",
+    "para": "definitions",
+    "def": "means the scheme formulated in terms of circular A.P. (DIR Series) Circular No. 64 dated February 4, 2004;",
+    "scope": ""
+   },
+   {
+    "term": "real estate business",
+    "para": "definitions",
+    "def": "means purchase, sale or lease of land or immovable property with a view to earning profit from there and does not include purchase, sale and lease (not amounting to transfer) of land or immovable property for the following purposes:",
+    "scope": ""
+   },
+   {
+    "term": "related party",
+    "para": "definitions",
+    "def": "means an entity which qualifies as a related party as per the provisions of the Companies Act, 2013 (18 of 2013). For a person other than a company, this definition shall apply mutatis mutandis;",
+    "scope": ""
+   },
+   {
+    "term": "trade credit (TC)",
+    "para": "definitions",
+    "def": "means credit extended by the overseas supplier or financial institution for permissible imports into India and includes both suppliers' credit and buyers' credit;",
+    "scope": ""
+   }
+  ],
+  "REG-GUAR": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "Authorised dealer",
+    "para": "definitions clause",
+    "def": "means a person authorised as an authorised dealer under sub-section (1) of section 10 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Creditor",
+    "para": "definitions clause",
+    "def": "means a person to whom the guarantee is given;",
+    "scope": ""
+   },
+   {
+    "term": "Principal debtor",
+    "para": "definitions clause",
+    "def": "means a person in respect of whose default the guarantee is given;",
+    "scope": ""
+   },
+   {
+    "term": "Surety",
+    "para": "definitions clause",
+    "def": "means a person who gives a guarantee.",
+    "scope": ""
+   }
+  ],
+  "RULES-OI": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "rule 2",
+    "def": "means the right to appoint majority of the directors or to control management or policy decisions exercisable by a person or persons acting individually or in concert, directly or indirectly, including by virtue of their shareholding or management rights or shareholders’ agreements or voting agreements that entitle them to ten per cent. or more of voting rights or in any other manner in the entity;",
+    "scope": ""
+   },
+   {
+    "term": "disinvestment",
+    "para": "rule 2",
+    "def": "means partial or full extinguishment of right, title or possession of equity capital acquired under these rules;",
+    "scope": ""
+   },
+   {
+    "term": "equity capital",
+    "para": "rule 2",
+    "def": "means equity shares or perpetual capital or instruments that are irredeemable or contribution to non-debt capital of a foreign entity in the nature of fully and compulsorily convertible instruments;",
+    "scope": ""
+   },
+   {
+    "term": "financial commitment",
+    "para": "rule 2",
+    "def": "means the aggregate amount of investment made by a person resident in India by way of Overseas Direct Investment, debt other than Overseas Portfolio Investment in a foreign entity or entities in which the Overseas Direct Investment is made and shall include the non-fund-based facilities extended by such person to or on behalf of such foreign entity or entities;",
+    "scope": ""
+   },
+   {
+    "term": "financial service regulator",
+    "para": "rule 2",
+    "def": "means a financial service regulator established under any law in force in India and include the Reserve Bank, the Securities and Exchange Board of India, the Insurance Regulatory and Development Authority and the Pension Fund Regulatory and Development Authority;",
+    "scope": ""
+   },
+   {
+    "term": "foreign entity",
+    "para": "rule 2",
+    "def": "means an entity formed or registered or incorporated outside India, including International Financial Services Centre that has limited liability: Provided that the restriction of limited liability shall not apply to an entity with core activity in a strategic sector;",
+    "scope": ""
+   },
+   {
+    "term": "last audited balance sheet",
+    "para": "rule 2",
+    "def": "means audited balance sheet as on date not exceeding eighteen months preceding the date of the transaction;",
+    "scope": ""
+   },
+   {
+    "term": "listed foreign entity",
+    "para": "rule 2",
+    "def": "means a foreign entity whose equity shares or any other fully and compulsorily convertible instrument is listed on a recognised stock exchange outside India;",
+    "scope": ""
+   },
+   {
+    "term": "listed Indian company",
+    "para": "rule 2",
+    "def": "means an Indian company that has equity shares or any of its fully and compulsorily convertible instruments listed on a recognised stock exchange in India and the expression “unlisted Indian company” shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "mutual fund",
+    "para": "rule 2",
+    "def": "means any fund registered as such with the Securities and Exchange Board of India;",
+    "scope": ""
+   },
+   {
+    "term": "resident individual",
+    "para": "rule 2",
+    "def": "means a person resident in India who is a natural person;",
+    "scope": ""
+   },
+   {
+    "term": "SEBI",
+    "para": "rule 2",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "Society",
+    "para": "rule 2",
+    "def": "means a society registered under the Societies Registration Act, 1860 (21 of 1860);",
+    "scope": ""
+   },
+   {
+    "term": "strategic sector",
+    "para": "rule 2",
+    "def": "shall include energy and natural resources sectors such as oil, gas, coal, mineral ores, submarine cable system and start-ups and any other sector or sub-sector as deemed necessary by the Central Government;",
+    "scope": ""
+   },
+   {
+    "term": "sweat equity shares",
+    "para": "rule 2",
+    "def": "means such equity shares as are issued by an overseas entity to its directors or employees at a discount or for consideration other than cash, for providing their know-how or making available rights like intellectual property rights or value additions, by whatever name called;",
+    "scope": ""
+   },
+   {
+    "term": "Trust",
+    "para": "rule 2",
+    "def": "means a trust registered under the Indian Trust Act, 1882 (2 of 1882);",
+    "scope": ""
+   },
+   {
+    "term": "Venture Capital Fund",
+    "para": "rule 2",
+    "def": "means a fund registered as such with the SEBI.",
+    "scope": ""
+   },
+   {
+    "term": "indirect equity holding",
+    "para": "rule 2",
+    "def": "means indirect foreign equity holding through a special purpose vehicle or step down subsidiary;",
+    "scope": ""
+   },
+   {
+    "term": "Employee Benefit Scheme",
+    "para": "rule 2",
+    "def": "means any compensation or incentive given to the directors or employees of any entity which gives such directors or employees ownership interest in an overseas entity through ESOP or any similar scheme.",
+    "scope": ""
+   }
+  ],
+  "REG-OI": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   }
+  ],
+  "MD-ODI": [
+   {
+    "term": "strategic sector",
+    "para": "definitions",
+    "def": "shall include energy and natural resources sectors such as Oil, Gas, Coal, Mineral Ores, submarine cable system and start-ups and any other sector or sub-sector as deemed fit by the Central Government. The restriction of limited liability structure of foreign entity shall not be mandatory for entities with core activity in any strategic sector. Accordingly, Overseas Direct Investment (ODI) can be made in such…",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "definitions",
+    "def": "means the right to appoint majority of the directors or to control the management or policy decisions exercisable by a person or persons acting individually or in concert, directly or indirectly, including by virtue of their shareholding or management rights or shareholders’ agreements or voting agreements that entitle them to ten percent or more of voting rights or in any other manner in the entity.",
+    "scope": ""
+   },
+   {
+    "term": "Overseas Direct Investment (ODI)",
+    "para": "definitions",
+    "def": "means (i) acquisition of any unlisted equity capital or subscription as a part of the Memorandum of Association of a foreign entity, or (ii) investment in 10% or more of the paid-up equity capital of a listed foreign entity, or (iii) investment with control where investment is less than 10% of the paid-up equity capital of a listed foreign entity.",
+    "scope": ""
+   },
+   {
+    "term": "equity capital",
+    "para": "definitions",
+    "def": "means equity shares or perpetual capital or instruments that are irredeemable or contribution to non-debt capital of a foreign entity, which is in the nature of fully and compulsorily convertible instruments. Accordingly, any instrument which is redeemable or non-convertible or optionally convertible shall be treated as debt for the purpose of OI Rules/Regulations/Directions.",
+    "scope": ""
+   },
+   {
+    "term": "Overseas Portfolio Investment (OPI)",
+    "para": "definitions",
+    "def": "means investment, other than ODI, in foreign securities. The following is further provided:",
+    "scope": ""
+   }
+  ],
+  "REG-DI": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "asset reconstruction company",
+    "para": "definitions clause",
+    "def": "means a company registered with the Reserve Bank under section 3 of the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of 2002);",
+    "scope": ""
+   },
+   {
+    "term": "authorised dealer",
+    "para": "definitions clause",
+    "def": "includes a person authorised under sub-section (1) of section 10 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "debt instruments",
+    "para": "definitions clause",
+    "def": "means the instruments listed under Schedule 1 of the regulations;",
+    "scope": ""
+   },
+   {
+    "term": "foreign central bank",
+    "para": "definitions clause",
+    "def": "means an institution or organisation or body corporate established in a country outside India and entrusted with the responsibility of carrying out central bank functions under the law for the time being in force in that country;",
+    "scope": ""
+   },
+   {
+    "term": "FCNR (B) account",
+    "para": "definitions clause",
+    "def": "means a Foreign Currency Non-Resident (Bank) account maintained in accordance with the Foreign Exchange Management (Deposit) Regulations, 2016; “FPI” or “Foreign Portfolio Investor” means a person registered in accordance with the provisions of the Securities and Exchange Board of India (Foreign Portfolio Investors) Regulations, 2014;",
+    "scope": ""
+   },
+   {
+    "term": "Indian company",
+    "para": "definitions clause",
+    "def": "means a company incorporated in India;",
+    "scope": ""
+   },
+   {
+    "term": "Indian entity",
+    "para": "definitions clause",
+    "def": "shall mean an Indian company or a LLP; 1ia) “Infrastructure Investment Trust” or “InvIT” means a business trust as defined in sub-clause (i) of clause 13A of section 2 of the Income-tax Act, 1961.",
+    "scope": ""
+   },
+   {
+    "term": "investment",
+    "para": "definitions clause",
+    "def": "means to subscribe, acquire, hold or transfer any debt instrument or unit issued by a person resident in India;",
+    "scope": ""
+   },
+   {
+    "term": "investment on repatriation basis",
+    "para": "definitions clause",
+    "def": "means an investment, sale or maturity proceeds of which are net of taxes, eligible to be repatriated out of India, and the expression “investment on non-repatriation basis”, shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "mutual fund",
+    "para": "definitions clause",
+    "def": "means an entity governed by the Securities and Exchange Board of India (Mutual Funds) Regulations, 1996;",
+    "scope": ""
+   },
+   {
+    "term": "LLP",
+    "para": "definitions clause",
+    "def": "means a limited liability partnership formed and registered under the Limited Liability Partnership Act, 2008 (6 of 2009);",
+    "scope": ""
+   },
+   {
+    "term": "listed Indian company",
+    "para": "definitions clause",
+    "def": "means an Indian company which has any of its equity instruments or debt instruments listed on a recognised stock exchange in India and the expression “unlisted Indian company” shall be construed accordingly; “municipal bonds” mean debt instruments issued by municipalities constituted under Article 243Q of the Constitution of India; “NRI” or “Non-Resident Indian” means an individual resident outside India who is a…",
+    "scope": ""
+   },
+   {
+    "term": "unit",
+    "para": "definitions clause",
+    "def": "means a beneficial interest of an investor in a mutual fund;",
+    "scope": ""
+   },
+   {
+    "term": "venture capital fund",
+    "para": "definitions clause",
+    "def": "means a fund established in the form of a trust, a company including a body corporate and registered under the Securities and Exchange Board of India (Alternative Investment Funds) Regulations, 2012.",
+    "scope": ""
+   }
+  ],
+  "MD-NRDI": [
+   {
+    "term": "Corporate debt securities",
+    "para": "definitions",
+    "def": "shall include all instruments specified in sub-paragraph – A of paragraph 1 of Schedule 1 to Foreign Exchange Management (Debt Instruments) Regulations, 2019, other than Government securities and municipal bonds as specified at clause (a) and clause (k) of that sub-paragraph, as amended from time to time.",
+    "scope": ""
+   },
+   {
+    "term": "Default bonds",
+    "para": "definitions",
+    "def": "shall mean Non-Convertible Debentures/bonds, which are under default, either fully or partly, in the repayment of principal on maturity or principal instalment in the case of amortising bond.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Portfolio Investor (FPI)",
+    "para": "definitions",
+    "def": "shall mean a person registered in accordance with the provisions of the Securities and Exchange Board of India (Foreign Portfolio Investors) Regulations, 2019, as amended from time to time.",
+    "scope": ""
+   },
+   {
+    "term": "Government security",
+    "para": "definitions",
+    "def": "shall mean a security as defined under section 2(f) of the Government Securities Act, 2006.",
+    "scope": ""
+   },
+   {
+    "term": "Minor violations",
+    "para": "definitions",
+    "def": "shall mean violations that are, in the considered opinion of the custodians, unintentional, temporary in nature or have occurred on account of reasons beyond the control of FPIs, and in all cases are corrected on detection.",
+    "scope": ""
+   },
+   {
+    "term": "Non-resident",
+    "para": "definitions",
+    "def": "shall mean a person resident outside India as defined under section 2(w) of FEMA, 1999.",
+    "scope": ""
+   },
+   {
+    "term": "Non-Resident Indian (NRI)",
+    "para": "definitions",
+    "def": "shall mean an individual resident outside India who is a citizen of India.xxi",
+    "scope": ""
+   },
+   {
+    "term": "Over-the-Counter (OTC) Markets",
+    "para": "definitions",
+    "def": "shall mean markets where transactions are undertaken in any manner other than on exchanges and shall include those executed on electronic trading platforms (ETPs).",
+    "scope": ""
+   },
+   {
+    "term": "Related FPIs",
+    "para": "definitions",
+    "def": "shall mean ‘investor group’ as defined in Regulation 22(3) of Securities and Exchange Board of India (Foreign Portfolio Investors) Regulations, 2019.",
+    "scope": ""
+   },
+   {
+    "term": "Retention Period",
+    "para": "definitions",
+    "def": "shall mean the time period that an FPI voluntarily commits for retaining the CPS in India under the Voluntary Retention Route.",
+    "scope": ""
+   },
+   {
+    "term": "Specified securities",
+    "para": "definitions",
+    "def": "shall mean Central Government securities as periodically notified by the Reserve Bank for investment under the Fully Accessible Route.",
+    "scope": ""
+   }
+  ],
+  "RULES-NDI": [
+   {
+    "term": "authorised dealer",
+    "para": "rule 2",
+    "def": "includes a person authorised under sub-section (1) of section 10 of the Act; ‘(da) “control” shall have the same meaning as assigned to it in the Companies Act, 2013 and for the purposes of Limited Liability Partnership, shall mean the right to appoint majority of the designated partners, where such designated partners, with specific exclusion to others, have control over all the policies of an LLP;1…",
+    "scope": ""
+   },
+   {
+    "term": "debt instruments",
+    "para": "rule 2",
+    "def": "means all instruments other than non-debt instruments defined in clause (ai) of this rule;",
+    "scope": ""
+   },
+   {
+    "term": "depository receipt",
+    "para": "rule 2",
+    "def": "means a foreign currency denominated instrument, whether listed on an international exchange or not, issued by a foreign depository in a permissible jurisdiction on the back of eligible securities issued or transferred to that foreign depository and deposited with a domestic custodian and includes ‘global depository receipt’ as defined in the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "domestic custodian",
+    "para": "rule 2",
+    "def": "means a custodian of securities registered with the Securities and Exchange Board of India in accordance with the SEBI (Custodian of Securities) Regulations, 1996;",
+    "scope": ""
+   },
+   {
+    "term": "domestic depository",
+    "para": "rule 2",
+    "def": "means a custodian of securities registered with the Securities and Exchange Board of India and authorised by the issuing entity to issue Indian depository receipts;",
+    "scope": ""
+   },
+   {
+    "term": "ESOP",
+    "para": "rule 2",
+    "def": "means ‘Employees’ stock option’ as defined under the Companies Act, 2013 and issued under the regulations by the Securities and Exchange Board of India;",
+    "scope": ""
+   },
+   {
+    "term": "equity instruments",
+    "para": "rule 2",
+    "def": "means equity shares, convertible debentures, preference shares and share warrants issued by an Indian company;",
+    "scope": ""
+   },
+   {
+    "term": "escrow account",
+    "para": "rule 2",
+    "def": "means an escrow account maintained in accordance with the Foreign Exchange Management (Deposit) Regulations, 2016;",
+    "scope": ""
+   },
+   {
+    "term": "FDI linked performance conditions",
+    "para": "rule 2",
+    "def": "means the sector specific conditions specified in Schedule I of these rules for companies receiving foreign investment;",
+    "scope": ""
+   },
+   {
+    "term": "FVCI",
+    "para": "rule 2",
+    "def": "means a Foreign Venture Capital Investor incorporated and established outside India and registered with the Securities and Exchange Board of India under the Securities and Exchange Board of India (Foreign Venture Capital Investors) Regulations, 2000;",
+    "scope": ""
+   },
+   {
+    "term": "foreign central bank",
+    "para": "rule 2",
+    "def": "means an institution or organisation or body corporate established in a country outside India and entrusted with the responsibility of carrying out central bank functions under the law for the time being in force in that country;",
+    "scope": ""
+   },
+   {
+    "term": "FCNR (B) account",
+    "para": "rule 2",
+    "def": "means a Foreign Currency Non-Resident (Bank) account maintained in accordance with the Foreign Exchange Management (Deposit) Regulations, 2016;",
+    "scope": ""
+   },
+   {
+    "term": "foreign investment",
+    "para": "rule 2",
+    "def": "means any investment made by a person resident outside India on a repatriable basis in equity instruments of an Indian company or to the capital of a LLP;",
+    "scope": ""
+   },
+   {
+    "term": "foreign portfolio investment",
+    "para": "rule 2",
+    "def": "means any investment made by a person resident outside India through equity instruments where such investment is less than ten percent of the post issue paid-up share capital on a fully diluted basis of a listed Indian company or less than ten percent of the paid-up value of each series of equity instrument of a listed Indian company;",
+    "scope": ""
+   },
+   {
+    "term": "group company",
+    "para": "rule 2",
+    "def": "means two or more enterprises which, directly or indirectly, are in a position to (i) exercise twenty-six per cent, or more of voting rights in other enterprise; or (ii) appoint more than fifty per cent of members of Board of Directors in the other enterprise;",
+    "scope": ""
+   },
+   {
+    "term": "hybrid securities",
+    "para": "rule 2",
+    "def": "means hybrid instruments such as optionally or partially convertible preference shares or debentures and other such instruments as specified by the Central Government from time to time, which can be issued by an Indian company or trust to a person resident outside India;",
+    "scope": ""
+   },
+   {
+    "term": "Indian company",
+    "para": "rule 2",
+    "def": "means a company as defined in the Companies Act, 2013 or a body corporate established or constituted by or under any Central or State Act, which is incorporated in India; Note:",
+    "scope": ""
+   },
+   {
+    "term": "Indian entity",
+    "para": "rule 2",
+    "def": "shall mean an Indian company or a LLP;",
+    "scope": ""
+   },
+   {
+    "term": "International Exchange",
+    "para": "rule 2",
+    "def": "shall mean permitted stock exchange in permissible jurisdictions which are listed at Schedule XI annexed to these rules;7",
+    "scope": ""
+   },
+   {
+    "term": "investing company",
+    "para": "rule 2",
+    "def": "means an Indian company holding only investments in other Indian company/ies directly or indirectly, other than for trading of such holdings or securities;",
+    "scope": ""
+   },
+   {
+    "term": "investment",
+    "para": "rule 2",
+    "def": "means to subscribe, acquire, hold or transfer any security or unit issued by a person resident in India;",
+    "scope": ""
+   },
+   {
+    "term": "investment on repatriation basis",
+    "para": "rule 2",
+    "def": "means an investment, sale or maturity proceeds of which are net of taxes, eligible to be repatriated out of India, and the expression “investment on non-repatriation basis”, shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "investment vehicle",
+    "para": "rule 2",
+    "def": "means an entity registered and regulated under the regulations framed by the Securities and Exchange Board of India or any other authority designated for that purpose and shall include, namely:- (i) Real Estate Investment Trusts (REITs) governed by the Securities and Exchange Board of India (REITs) Regulations, 2014;(ii) Infrastructure Investment Trusts (InvIts) governed by the Securities and Exchange Board of…",
+    "scope": ""
+   },
+   {
+    "term": "LLP",
+    "para": "rule 2",
+    "def": "means a limited liability partnership formed and registered under the Limited Liability Partnership Act, 2008 (6 of 2009);",
+    "scope": ""
+   },
+   {
+    "term": "listed Indian company",
+    "para": "rule 2",
+    "def": "means an Indian company which has any of its equity instruments or debt instruments listed on a recognised stock exchange in India and on an International Exchange and the expression “unlisted Indian company” shall be construed accordingly;9",
+    "scope": ""
+   },
+   {
+    "term": "non-debt instruments",
+    "para": "rule 2",
+    "def": "means the following instruments; namely:-",
+    "scope": ""
+   },
+   {
+    "term": "permissible jurisdiction",
+    "para": "rule 2",
+    "def": "means such jurisdiction as notified by the Central Government under sub-clause (f) of sub-rule (3) of rule 9 of Prevention of Money-laundering (Maintenance of Records) Rules, 2005;10",
+    "scope": ""
+   },
+   {
+    "term": "resident Indian citizen",
+    "para": "rule 2",
+    "def": "means an individual who is a person resident in India and is a citizen of India by virtue of the Constitution of India or the Citizenship Act, 1955;",
+    "scope": ""
+   },
+   {
+    "term": "sectoral cap",
+    "para": "rule 2",
+    "def": "means the maximum investment including both foreign investment on a repatriation basis by persons resident outside India in equity 11instruments of a company or the capital of a LLP, as the case may be, and indirect foreign investment, unless provided otherwise. This shall be the composite limit for the Indian investee entity.",
+    "scope": ""
+   },
+   {
+    "term": "Share Based Employee Benefits",
+    "para": "rule 2",
+    "def": "means issue of equity instruments to employees or directors or employees or directors of the holding company or joint venture or wholly owned overseas subsidiary or subsidiaries who are resident outside India, pursuant to Share Based Employee Benefits schemes formulated by an Indian Company;12",
+    "scope": ""
+   },
+   {
+    "term": "startup company",
+    "para": "rule 2",
+    "def": "means a private company incorporated under the Companies Act, 2013 18 of 2013) and identified as “startup” under the notification of the Government of India number G.S.R. 127 (E), dated the 19th February, 2019 issued by the Department of Industrial Policy and Promotion, Ministry of Commerce and Industry, as amended from time to time;13",
+    "scope": ""
+   },
+   {
+    "term": "sweat equity shares",
+    "para": "rule 2",
+    "def": "means sweat equity shares defined under the Companies Act, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "unit",
+    "para": "rule 2",
+    "def": "means a beneficial interest of an investor in an investment vehicle;",
+    "scope": ""
+   },
+   {
+    "term": "venture capital fund",
+    "para": "rule 2",
+    "def": "means a fund established in the form of a trust, a company including a body corporate and registered under the Securities and Exchange Board of India (Alternative Investment Funds) Regulations, 2012.",
+    "scope": ""
+   },
+   {
+    "term": "ownership of an Indian company",
+    "para": "rule 2",
+    "def": "shall mean beneficial holding of more than fifty percent of the equity instruments of such company and “ownership of an LLP” shall mean contribution of more than fifty percent in its capital and having majority profit share;",
+    "scope": ""
+   },
+   {
+    "term": "company owned by resident Indian citizens",
+    "para": "rule 2",
+    "def": "shall mean an Indian company where ownership is vested in resident Indian citizens and/ or Indian companies, which are ultimately owned and controlled by resident Indian citizens and “LLP owned by resident Indian citizens” shall mean an LLP where ownership is vested in resident Indian citizens and/ or Indian entities, which are ultimately owned and controlled by resident Indian citizens;",
+    "scope": ""
+   },
+   {
+    "term": "company owned by persons resident outside India",
+    "para": "rule 2",
+    "def": "shall mean an Indian company that is owned by persons resident outside India and “LLP owned by persons resident outside India” shall mean an LLP that is owned by persons resident outside India;",
+    "scope": ""
+   },
+   {
+    "term": "company controlled by resident Indian citizens",
+    "para": "rule 2",
+    "def": "means an Indian company, the control of which is vested in resident Indian citizens and/or Indian companies which are ultimately owned and controlled by resident Indian citizens and “LLP controlled by resident Indian citizens” shall mean an LLP, the control of which is vested in resident Indian citizens and/or Indian entities, which are ultimately owned and controlled by resident Indian citizens;",
+    "scope": ""
+   },
+   {
+    "term": "company controlled by persons resident outside India",
+    "para": "rule 2",
+    "def": "shall mean an Indian company that is controlled by persons resident outside India and “LLP controlled by persons resident outside India” shall mean an LLP that is controlled by persons resident outside India;",
+    "scope": ""
+   },
+   {
+    "term": "downstream investment",
+    "para": "rule 2",
+    "def": "shall mean investment made by an Indian entity which has total foreign investment in it, or an Investment Vehicle in the capital instruments or the capital, as the case may be, of another Indian entity;",
+    "scope": ""
+   },
+   {
+    "term": "indirect foreign investment",
+    "para": "rule 2",
+    "def": "means downstream investment received by an Indian entity from,- (A) another Indian entity (IE) which has received foreign investment and (i) the IE is not owned and not controlled by resident Indian citizens or (ii) is owned or controlled by persons resident outside India; or (B) an investment vehicle whose sponsor or manager or investment manager (i) is not owned and not controlled by resident Indian citizens or…",
+    "scope": ""
+   },
+   {
+    "term": "total foreign investment",
+    "para": "rule 2",
+    "def": "means the total of foreign investment and indirect foreign investment and the same will be reckoned on a fully diluted basis;",
+    "scope": ""
+   },
+   {
+    "term": "strategic downstream investment",
+    "para": "rule 2",
+    "def": "means investment by banking companies incorporated in India in their subsidiaries, joint ventures and associates.",
+    "scope": ""
+   },
+   {
+    "term": "automatic route",
+    "para": "rule 2",
+    "def": "means the entry route through which investment by a person resident outside India does not require the prior approval of the Reserve Bank or the Central Government;",
+    "scope": ""
+   },
+   {
+    "term": "government route",
+    "para": "rule 2",
+    "def": "means the entry route through which investment by a person resident outside India requires prior Government approval and foreign investment received under this route shall be in accordance with the conditions stipulated by the Government in its approval.",
+    "scope": ""
+   },
+   {
+    "term": "Airport",
+    "para": "rule 2",
+    "def": "means a landing and taking off area for aircrafts, usually with runways and aircraft maintenance and passenger facilities and includes aerodrome as defined in clause (2) of section 2 of the Aircraft Act, 1934;",
+    "scope": ""
+   },
+   {
+    "term": "Aerodrome",
+    "para": "rule 2",
+    "def": "means any definite or limited ground or water area intended to be used, either wholly or in part, for the landing or departure of aircraft, and includes all buildings, sheds, vessels, piers and other structures thereon or pertaining thereto;",
+    "scope": ""
+   },
+   {
+    "term": "Air transport service",
+    "para": "rule 2",
+    "def": "means a service for the transport by air of persons, mails or any other thing, animate or inanimate, for any kind of remuneration whatsoever, whether such service consists of a single flight or series of flights;",
+    "scope": ""
+   },
+   {
+    "term": "Air Transport Undertaking",
+    "para": "rule 2",
+    "def": "means an undertaking whose business includes the carriage by air of passengers or cargo for hire or reward;",
+    "scope": ""
+   },
+   {
+    "term": "Aircraft component",
+    "para": "rule 2",
+    "def": "means any part, the soundness and correct functioning of which, when fitted to an aircraft, is essential to the continued airworthiness or safety of the aircraft and includes any item of equipment;",
+    "scope": ""
+   },
+   {
+    "term": "Helicopter",
+    "para": "rule 2",
+    "def": "means a heavier than air aircraft supported in flight by the reactions of the air on one or more power driven rotors on substantially vertical axis;",
+    "scope": ""
+   },
+   {
+    "term": "Scheduled air transport service",
+    "para": "rule 2",
+    "def": "means an air transport service undertaken between the same two or more places and operated according to a published time table or with flights so regular or frequent that they constitute a recognizably systematic series, each flight being open to use by members of the public;",
+    "scope": ""
+   },
+   {
+    "term": "Non-Scheduled air transport service",
+    "para": "rule 2",
+    "def": "means any service which is not a scheduled air transport service and will include Cargo airlines;",
+    "scope": ""
+   },
+   {
+    "term": "Seaplane",
+    "para": "rule 2",
+    "def": "means an aeroplane capable normally of taking off from and alighting solely on water;",
+    "scope": ""
+   },
+   {
+    "term": "Ground Handling",
+    "para": "rule 2",
+    "def": "means (i) ramp handling, (ii) traffic handling both of which shall include the activities as specified by the Ministry of Civil Aviation through the Aeronautical Information Circulars from time to time, and (iii) any other activity specified by the Central Government to be a part of either ramp handling or traffic handling. 9.2 Airports",
+    "scope": ""
+   },
+   {
+    "term": "Infrastructure",
+    "para": "rule 2",
+    "def": "refers to facilities required for functioning of units located in the Industrial Park and includes roads (including approach roads), railway line/ sidings including electrified railway lines and connectivity to the main railway line, water supply and sewerage, common effluent treatment facility, telecom network, generation and distribution of power, air conditioning.",
+    "scope": ""
+   },
+   {
+    "term": "Industrial Activity",
+    "para": "rule 2",
+    "def": "means manufacturing; electricity; gas and water supply; post and telecommunications; software publishing, consultancy and supply; data processing, database activities and distribution of electronic content; other computer related activities; basic and applied research and development on bio-technology, pharmaceutical sciences or life sciences, natural sciences and engineering; business and management consultancy…",
+    "scope": ""
+   },
+   {
+    "term": "E-commerce entity",
+    "para": "rule 2",
+    "def": "means a company incorporated under Companies Act 1956 or the Companies Act, 2013",
+    "scope": ""
+   },
+   {
+    "term": "Inventory based model of e-commerce",
+    "para": "rule 2",
+    "def": "means an e-commerce activity where inventory of goods and services is owned by e-commerce entity and is sold to the consumers directly;",
+    "scope": ""
+   },
+   {
+    "term": "Market place model of e-commerce",
+    "para": "rule 2",
+    "def": "means providing of an information technology platform by an e-commerce entity on a digital and electronic network to act as a facilitator between buyer and seller.",
+    "scope": ""
+   },
+   {
+    "term": "appropriate regulator",
+    "para": "rule 2",
+    "def": "means any financial sector regulator or Government Ministry or Department administering Acts applicable to the company, listed or unlisted;",
+    "scope": ""
+   },
+   {
+    "term": "foreign depository",
+    "para": "rule 2",
+    "def": "means a corporate entity registered and regulated in a permissible jurisdiction for the purpose of –",
+    "scope": ""
+   },
+   {
+    "term": "Indian depository",
+    "para": "rule 2",
+    "def": "means a depository as defined in clause (e) of sub-section (1) of section 2 of the Depositories Act, 1996 (22 of 1996);",
+    "scope": ""
+   },
+   {
+    "term": "offer by existing holders of equity shares",
+    "para": "rule 2",
+    "def": "means offer of existing equity shares of the company pursuant to formal agreement among the company, the Indian Depository and the Foreign Depository;",
+    "scope": ""
+   },
+   {
+    "term": "offer document",
+    "para": "rule 2",
+    "def": "means a prospectus, red herring prospectus, or shelf prospectus, as applicable, as referred to in clause (70) of section 2 of the Companies Act, 2013 (18 of 2013), in case of a public issue, and a letter of offer in case of a rights issue;",
+    "scope": ""
+   },
+   {
+    "term": "wilful defaulter",
+    "para": "rule 2",
+    "def": "means a person who is categorised as a wilful defaulter by any bank or financial institution or consortium thereof, in accordance with the guidelines on wilful defaulters issued by the Reserve Bank of India.",
+    "scope": ""
+   }
+  ],
+  "REG-MOP": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "Rules",
+    "para": "definitions clause",
+    "def": "means Foreign Exchange Management (Non-Debt Instrument) Rules, 2019; The words and expressions used but not defined in these regulations shall have the same meanings respectively assigned to them in the Act or the Rules.",
+    "scope": ""
+   }
+  ],
+  "REG-DEP": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "Authorised bank",
+    "para": "definitions clause",
+    "def": "means a bank including a co-operative bank (other than an authorised dealer) authorised by the Reserve Bank to maintain an account of a person resident outside India;",
+    "scope": ""
+   },
+   {
+    "term": "Authorised dealer",
+    "para": "definitions clause",
+    "def": "means a person authorised as an authorised dealer under subsection (1) of section 10 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Deposit",
+    "para": "definitions clause",
+    "def": "includes deposit of money with a bank, company, proprietary concern, partnership firm, corporate body, trust or any other person;",
+    "scope": ""
+   },
+   {
+    "term": "FCNR (B) account",
+    "para": "definitions clause",
+    "def": "means a Foreign Currency Non-Resident (Bank) account referred to in clause (ii) of sub-regulation (1) of Regulation 5; v-a) 1‘International Financial Services Centre’ or ‘IFSC’ shall have the same meaning as assigned to it in clause (g) of section 3 of the International Financial Services Centres Authority Act, 2019 (50 of 2019).",
+    "scope": ""
+   },
+   {
+    "term": "Non-Resident Indian (NRI)",
+    "para": "definitions clause",
+    "def": "means a person resident outside India who is a citizen of India.",
+    "scope": ""
+   },
+   {
+    "term": "NRE account",
+    "para": "definitions clause",
+    "def": "means a Non-Resident External account referred to in clause (i) of sub-regulation (1) of Regulation 5;",
+    "scope": ""
+   },
+   {
+    "term": "NRO account",
+    "para": "definitions clause",
+    "def": "means a Non-Resident Ordinary account referred to in clause (iii) of sub-regulation (1) of Regulation 5;",
+    "scope": ""
+   },
+   {
+    "term": "Permissible currency",
+    "para": "definitions clause",
+    "def": "means a foreign currency which is freely convertible;",
+    "scope": ""
+   },
+   {
+    "term": "Person of Indian Origin (PIO)",
+    "para": "definitions clause",
+    "def": "means a person resident outside India who is a citizen of any country other than Bangladesh or Pakistan or such other country as may be specified by the Central Government, satisfying the following conditions: Who was a citizen of India by virtue of the Constitution of India or the Citizenship Act, 1955 (57 of 1955); or Who belonged to a territory that became part of India after the 15th day of August, 1947; or…",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "definitions clause",
+    "def": "means schedule to these Regulations;",
+    "scope": ""
+   },
+   {
+    "term": "SNRR account",
+    "para": "definitions clause",
+    "def": "means a Special Non-Resident Rupee account referred to in sub-regulation (4) of Regulation 5;",
+    "scope": ""
+   }
+  ],
+  "MD-RISK": [
+   {
+    "term": "Anticipated exposure",
+    "para": "definitions",
+    "def": "means currency risk arising on account of current or capital account transactions permissible under the FEMA, 1999 or any rules or regulations made thereunder, that are proposed to be entered into in future.",
+    "scope": ""
+   },
+   {
+    "term": "Contracted exposure",
+    "para": "definitions",
+    "def": "means currency risk arising on account of current or capital account transactions permissible under the FEMA, 1999 or any rules or regulations made thereunder, that have been entered into.",
+    "scope": ""
+   },
+   {
+    "term": "Currency risk",
+    "para": "definitions",
+    "def": "means the potential for loss on account of movement in exchange rates of INR against a foreign currency or on account of movement in exchange rates of one foreign currency against another or on account of movement of interest rate applicable to a foreign currency.",
+    "scope": ""
+   },
+   {
+    "term": "Deliverable foreign exchange derivative contract",
+    "para": "definitions",
+    "def": "means an OTC foreign exchange derivative contract other than a non-deliverable foreign exchange derivative contract (NDDC).",
+    "scope": ""
+   },
+   {
+    "term": "Foreign currency interest rate derivative contract",
+    "para": "definitions",
+    "def": "means a financial contract which derives its value from the change in the interest rate of a foreign currency and which is for settlement at a future date, i.e. any date later than the spot settlement date, provided that contracts involving currencies of Nepal and Bhutan shall not qualify under this definition.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign exchange derivative contract",
+    "para": "definitions",
+    "def": "means a financial contract which derives its value from the change in the exchange rate of two currencies at least one of which is not Indian Rupee and which is for settlement at a future date, i.e. any date later than the spot settlement date, provided that contracts involving currencies of Nepal and Bhutan shall not qualify under this definition.",
+    "scope": ""
+   },
+   {
+    "term": "Hedging",
+    "para": "definitions",
+    "def": "means the activity of undertaking a foreign exchange derivative / foreign currency interest rate derivative transaction to offset the impact of an anticipated or a contracted exposure.",
+    "scope": ""
+   },
+   {
+    "term": "Leveraged derivative",
+    "para": "definitions",
+    "def": "means an OTC derivative whose potential pay-out during the tenure of the derivative can be more than the notional amount of the contract or whose pay-out calculation involves effective multiplication, by a factor of more than 1.0 of either the notional amount or the underlying rate / price / index.",
+    "scope": ""
+   },
+   {
+    "term": "Mid-market mark",
+    "para": "definitions",
+    "def": "means the price of the derivative that is free from profit, credit reserve, hedging, funding, liquidity, or any other costs or adjustments.",
+    "scope": ""
+   },
+   {
+    "term": "Non-deliverable foreign exchange derivative contract (NDDC)",
+    "para": "definitions",
+    "def": "means an OTC foreign exchange derivative contract in which there is no delivery of the notional amount of the underlying currencies of the contract and which is cash-settled.",
+    "scope": ""
+   },
+   {
+    "term": "Over-the-counter (OTC) derivative",
+    "para": "definitions",
+    "def": "means a derivative (deliverable or non-deliverable) other than those which are traded on Recognised Stock Exchanges and shall include those traded on electronic trading platforms (ETPs).",
+    "scope": ""
+   },
+   {
+    "term": "User",
+    "para": "definitions",
+    "def": "shall mean any person as defined in the Section 2(u) of the FEMA, 1999 (42 of 1999), whether resident in India or resident outside India, other than an Authorised Dealer.",
+    "scope": ""
+   },
+   {
+    "term": "Novation",
+    "para": "definitions",
+    "def": "means the replacement of an Authorised Dealer with another Authorised Dealer in an OTC derivative contract between two counterparties (transferor, who steps out of the existing deal, and remaining party) to an OTC derivative transaction with a new contract between remaining party and a third party (transferee). The transferee becomes the new counterparty to the remaining party. Provided that the instructions…",
+    "scope": ""
+   },
+   {
+    "term": "Currency swap",
+    "para": "definitions",
+    "def": "means an OTC foreign exchange derivative contract which commits two counterparties to exchange streams of interest payments and/or principal amounts in different currencies on specified dates over the duration of the swap at a pre-agreed exchange rate.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign exchange call option (European)",
+    "para": "definitions",
+    "def": "means an OTC / exchange traded foreign exchange derivative contract that gives the buyer the right, but not the obligation, to buy an agreed amount of a certain currency with another currency at a specified exchange rate on a specified date in the future.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign exchange call spread",
+    "para": "definitions",
+    "def": "means an OTC foreign exchange derivative contract involving simultaneous purchase and sale of equal number of OTC foreign exchange call options (European) of same expiry and different strike price.",
+    "scope": ""
+   },
+   {
+    "term": "Covered foreign exchange call option",
+    "para": "definitions",
+    "def": "means a written OTC foreign exchange call option where the writer of the option has a long position in the asset underlying the option.",
+    "scope": ""
+   },
+   {
+    "term": "Covered foreign exchange put option",
+    "para": "definitions",
+    "def": "means a written OTC foreign exchange put option where the writer of the option has a short position in the asset underlying the option.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign exchange forward",
+    "para": "definitions",
+    "def": "means an OTC foreign exchange derivative contract involving the exchange of two currencies on a specified date in the future (more than two business days later) at a rate agreed on the date of the contract.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign exchange future",
+    "para": "definitions",
+    "def": "means an exchange traded foreign exchange derivative contract involving the exchange of two currencies on a specified date in the future (more than two business days later) at a rate agreed on the date of the contract, but does not include foreign exchange forward.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign exchange put option (European)",
+    "para": "definitions",
+    "def": "means an OTC / exchange traded foreign exchange derivative contract that gives the buyer the right, but not the obligation, to sell an agreed amount of a certain currency for another currency at a specified exchange rate on a specified date in the future.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign exchange put spread",
+    "para": "definitions",
+    "def": "means an OTC foreign exchange derivative contract involving simultaneous purchase and sale of equal number of OTC foreign exchange put options (European) of same expiry and different strike price.",
+    "scope": ""
+   },
+   {
+    "term": "Foreign exchange swap",
+    "para": "definitions",
+    "def": "means an OTC foreign exchange derivative contract involving the actual exchange of two currencies (principal amount only) on a specified date (the near leg) and a reverse exchange of the same two currencies at a date further in the future (the far leg), at rates agreed at the time of the contract.",
+    "scope": ""
+   },
+   {
+    "term": "Forward rate agreement",
+    "para": "definitions",
+    "def": "means a cash-settled OTC foreign currency interest rate derivative contract between two counterparties, in which a buyer will pay or receive, on the settlement date, the difference between a pre-determined fixed rate (FRA rate) and a reference interest rate, applied on a notional principal amount, for a specified forward period.",
+    "scope": ""
+   },
+   {
+    "term": "Interest rate call option (European)",
+    "para": "definitions",
+    "def": "means an OTC foreign currency interest rate derivative contract that gives the buyer the right, but not the obligation, to buy an interest rate instrument or receive an interest rate on a notional principal at a pre-determined price / rate on a specified date in the future.",
+    "scope": ""
+   },
+   {
+    "term": "Interest rate cap",
+    "para": "definitions",
+    "def": "means a series of interest rate call options (European) (called caplets) in which the buyer of the option receives a payment at the end of each period when the underlying interest rate is above a rate agreed in advance.",
+    "scope": ""
+   },
+   {
+    "term": "Interest rate collar",
+    "para": "definitions",
+    "def": "means an OTC foreign currency interest derivative contract where a market participant simultaneously purchases an interest rate cap and sells an interest rate floor on the same interest rate for the same maturity and notional principal amount.",
+    "scope": ""
+   },
+   {
+    "term": "Interest rate floor",
+    "para": "definitions",
+    "def": "means a series of interest rate put options (European) in which the buyer of the option receives a payment at the end of each period when the underlying interest rate is below a rate agreed in advance.",
+    "scope": ""
+   },
+   {
+    "term": "Interest rate put option (European)",
+    "para": "definitions",
+    "def": "means an OTC foreign currency interest rate derivative contract that gives the buyer the right, but not the obligation, to sell an interest rate instrument or pay an interest rate on a notional principal at a pre-determined price/rate on a specified date in the future.",
+    "scope": ""
+   },
+   {
+    "term": "Interest rate swap",
+    "para": "definitions",
+    "def": "means an OTC foreign currency interest derivative contract in which two counterparties agree to exchange one stream of future interest payments for another, applied on a notional principal amount, over a specified period.",
+    "scope": ""
+   },
+   {
+    "term": "Reverse interest rate collar",
+    "para": "definitions",
+    "def": "means an OTC foreign currency interest rate derivative contract which involves simultaneous purchase of an interest rate floor and sale of an interest rate cap on the same interest rate for the same maturity and notional principal amount. Appendix I List of Notifications which have been consolidated in the Master Direction - Risk Management and Inter-Bank Dealings Sr. No. Notification / Circular Date",
+    "scope": ""
+   }
+  ],
+  "REG-FXD": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Foreign Exchange Management",
+    "scope": ""
+   },
+   {
+    "term": "authorised dealer",
+    "para": "definitions clause",
+    "def": "means a person authorised as authorised dealer under subsection (1) of section 10 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Cash delivery",
+    "para": "definitions clause",
+    "def": "means delivery of foreign exchange on the day of transaction;",
+    "scope": ""
+   },
+   {
+    "term": "Forward contract",
+    "para": "definitions clause",
+    "def": "means a transaction involving delivery, other than Cash or Tom or Spot delivery, of foreign exchange; 'Foreign exchange derivative contract' means a financial transaction or an arrangement in whatever form and by whatever name called, whose value is derived from price movement in one or more underlying assets, and includes, a transaction which involves at least one foreign currency other than currency of Nepal or…",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "definitions clause",
+    "def": "means a schedule annexed to these Regulations; (viii)",
+    "scope": ""
+   },
+   {
+    "term": "Spot delivery",
+    "para": "definitions clause",
+    "def": "means delivery of foreign exchange on the second working day after the day of transaction;",
+    "scope": ""
+   },
+   {
+    "term": "Tom delivery",
+    "para": "definitions clause",
+    "def": "means delivery of foreign exchange on a working day next to the day of transaction; the words and expressions used but not defined in these Regulations shall have the same meanings respectively assigned to them in the Act. Prohibition :- Save as otherwise provided in these Regulations, no person in India shall enter into a foreign exchange derivative contract without the prior permission of the Reserve Bank.…",
+    "scope": ""
+   }
+  ]
+ }
+}

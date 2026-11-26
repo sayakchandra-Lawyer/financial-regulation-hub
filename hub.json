@@ -314,8 +314,116 @@
    "short": "FEMA",
    "name": "FEMA",
    "full": "Foreign Exchange Management Act, 1999",
-   "status": "soon",
-   "desc": "FEMA, its rules and regulations, RBI notifications and Master Directions on cross-border lending: ECB, trade credit, guarantees and foreign borrowing by NBFCs.",
+   "status": "live",
+   "desc": "FEMA, its rules and regulations, RBI Master Directions and A.P. (DIR Series) circulars on cross-border lending: ECB, trade credit, rupee loans with non-residents, guarantees, overseas lending, FPI debt, reporting, hedging and compounding.",
+   "href": "fema/",
+   "data": {
+    "register": "fema/data/fema_register.json",
+    "graph": "fema/data/fema_graph.json",
+    "definitions": "fema/data/definitions.json",
+    "glossary": "fema/data/glossary.json",
+    "updates": "fema/data/updates.json",
+    "fulltext": "fema/data/fulltext.json"
+   },
+   "official": "https://www.rbi.org.in",
+   "map": "fema/map/",
+   "subjects": [
+    {
+     "theme": "Statute, penalties and compounding",
+     "nice": "Statute, penalties and compounding",
+     "slug": "statute"
+    },
+    {
+     "theme": "External commercial borrowing (ECB)",
+     "nice": "External commercial borrowing",
+     "slug": "ecb"
+    },
+    {
+     "theme": "Trade credit",
+     "nice": "Trade credit",
+     "slug": "trade-credit"
+    },
+    {
+     "theme": "Rupee borrowing and lending with non-residents",
+     "nice": "Rupee loans with non-residents",
+     "slug": "rupee"
+    },
+    {
+     "theme": "Lending abroad and overseas investment debt",
+     "nice": "Lending abroad",
+     "slug": "overseas"
+    },
+    {
+     "theme": "Guarantees",
+     "nice": "Guarantees",
+     "slug": "guarantees"
+    },
+    {
+     "theme": "Debt investment by non-residents",
+     "nice": "Debt investment by non-residents",
+     "slug": "debt"
+    },
+    {
+     "theme": "Conversion, pledge and foreign investment",
+     "nice": "Conversion, pledge and FDI",
+     "slug": "equity"
+    },
+    {
+     "theme": "Deposits and accounts",
+     "nice": "Deposits and accounts",
+     "slug": "deposits"
+    },
+    {
+     "theme": "Reporting and late submission fees",
+     "nice": "Reporting and late fees",
+     "slug": "reporting"
+    },
+    {
+     "theme": "Hedging and derivatives",
+     "nice": "Hedging",
+     "slug": "hedging"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-BOR",
+     "name": "Indian borrower (ECB and trade credit)",
+     "key": "borrower",
+     "desc": "Company or LLP raising ECB or trade credit"
+    },
+    {
+     "id": "ENT-NBFC",
+     "name": "NBFC / HFC",
+     "key": "nbfc",
+     "desc": "NBFC or HFC borrowing abroad or lending to NRIs"
+    },
+    {
+     "id": "ENT-LEND",
+     "name": "Lender to non-residents or abroad",
+     "key": "lender",
+     "desc": "Lending to NRIs, foreign entities or into India"
+    },
+    {
+     "id": "ENT-GUAR",
+     "name": "Party to a cross-border guarantee",
+     "key": "guarantee",
+     "desc": "Surety, debtor or creditor with a non-resident party"
+    },
+    {
+     "id": "ENT-AD",
+     "name": "AD Category-I bank",
+     "key": "adbank",
+     "desc": "Designated AD bank for ECB, guarantees, hedging"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally",
    "line": "Cross-border lending: ECB, trade credit, guarantees"
   },
   {

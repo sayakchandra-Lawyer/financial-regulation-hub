@@ -1,0 +1,1555 @@
+{
+ "meta": {
+  "title": "FEMA rules for lending and borrowing transactions",
+  "as_of": "2026-11-26",
+  "count": 36,
+  "in_force": 33,
+  "lenses": [
+   {
+    "id": "ENT-BOR",
+    "name": "Indian borrower (ECB and trade credit)"
+   },
+   {
+    "id": "ENT-NBFC",
+    "name": "NBFC / HFC"
+   },
+   {
+    "id": "ENT-LEND",
+    "name": "Lender to non-residents or abroad"
+   },
+   {
+    "id": "ENT-GUAR",
+    "name": "Party to a cross-border guarantee"
+   },
+   {
+    "id": "ENT-AD",
+    "name": "AD Category-I bank"
+   }
+  ]
+ },
+ "instruments": [
+  {
+   "id": "ACT-FEMA",
+   "type": "Act",
+   "short_name": "FEMA, 1999",
+   "title": "The Foreign Exchange Management Act, 1999 (as amended up to the IFSCA Act, 2019)",
+   "issuing_department": "Parliament of India",
+   "theme": "Statute, penalties and compounding",
+   "reference_no": "Act 42 of 1999",
+   "issue_date": "1999-12-29",
+   "updated_as_on": "2026-06-01",
+   "effective_date": "2000-06-01",
+   "status": "In force",
+   "official_url": "https://indiacode.gov.in/items/a972a617-5989-4b2c-a84f-617792137a57",
+   "official_pdf": "https://indiacode.gov.in/server/api/core/bitstreams/8024e4a4-c5b7-4f53-9326-0f9591087b39/content",
+   "statutory_powers": [],
+   "applies_to": [
+    "Every person resident in India, and every person resident outside India dealing in foreign exchange, foreign securities or Indian assets covered by the Act",
+    "Authorised persons, including authorised dealer banks"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Person resident in India and person resident outside India (s. 2(v) and (w))",
+    "Dealing in foreign exchange only through an authorised person (s. 3)",
+    "Capital account transactions (s. 6): RBI specifies permissible debt instruments transactions (s. 6(2)); the Central Government covers non-debt instruments (s. 6(2A)) and decides what is a debt instrument (s. 6(7))",
+    "Duties of authorised persons (s. 10)",
+    "Directions to authorised persons (s. 11)",
+    "Penalties (s. 13) and enforcement of orders (ss. 14 and 14A)",
+    "Compounding (s. 15)",
+    "Adjudication and appeals (ss. 16 to 19 and 35)",
+    "Contravention by companies (s. 42)"
+   ],
+   "core_obligations": [
+    "s. 3: no person may deal in or transfer foreign exchange or foreign security, or make any payment to or receive any payment from a person resident outside India, except as the Act, rules or regulations allow or with general or special permission of RBI",
+    "s. 6(3): RBI may by regulations prohibit, restrict or regulate borrowing or lending in foreign exchange and in rupees between residents and non-residents, and the giving of guarantees",
+    "s. 10(5): an authorised person must, before carrying out a transaction, require the customer to make such declaration and give such information as reasonably satisfies it that the transaction will not contravene the Act",
+    "s. 10(4) and 11: authorised persons must comply with RBI's directions and furnish the information RBI calls for"
+   ],
+   "timelines": [
+    "s. 14: civil imprisonment may follow if a penalty is not paid within 90 days of the notice to pay",
+    "s. 15(1): compounding within 180 days of the application",
+    "s. 16(6): the adjudicating authority tries to dispose of a complaint within one year",
+    "s. 17 and 19: appeal within 45 days of receiving the order (the Tribunal may require the penalty to be deposited first)",
+    "s. 35: appeal to the High Court on a question of law within 60 days, extendable by another 60 days"
+   ],
+   "consequences_stated": [
+    "s. 11(3): an authorised person that breaches RBI directions or fails to file a return may be fined up to Rs 10,000, and up to Rs 2,000 a day for a continuing breach",
+    "s. 13(1): up to three times the sum involved, or up to Rs 2 lakh where the amount cannot be quantified, plus up to Rs 5,000 a day while the contravention continues",
+    "s. 13(1A) to (1C): for foreign exchange, foreign security or immovable property held abroad above the notified threshold (s. 37A), up to three times the sum, confiscation of an equivalent value in India, and imprisonment of up to five years",
+    "s. 42: every person in charge of and responsible to the company for its business, and any director, manager, secretary or officer whose consent, connivance or neglect is shown, is deemed guilty"
+   ],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "RULES-COMP",
+    "MD-COMP",
+    "REG-BL",
+    "REG-GUAR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-COMP",
+   "type": "Rules",
+   "short_name": "Compounding Rules 2024",
+   "title": "Foreign Exchange (Compounding Proceedings) Rules, 2024",
+   "issuing_department": "Central Government (Ministry of Finance)",
+   "theme": "Statute, penalties and compounding",
+   "reference_no": "G.S.R. 566(E)",
+   "issue_date": "2024-09-12",
+   "updated_as_on": "",
+   "effective_date": "2024-09-12",
+   "status": "In force",
+   "official_url": "https://rbi.org.in/scripts/bs_viewcontent.aspx?Id=5082",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/ForeignExchangeRules2024_28042025.pdf",
+   "statutory_powers": [
+    "FEMA s. 15 and s. 46(2)(b)"
+   ],
+   "applies_to": [
+    "Any person who has contravened FEMA (other than s. 3(a)) and applies to compound the contravention"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Compounding authority in RBI set by the sum involved",
+    "Directorate of Enforcement compounds s. 3(a) contraventions",
+    "Application fee and the compounding order",
+    "Contraventions that cannot be compounded (rule 9)"
+   ],
+   "core_obligations": [
+    "rule 4(1): RBI officers compound by the sum involved: up to Rs 60 lakh by an Assistant General Manager, up to Rs 2.5 crore by a Deputy General Manager, up to Rs 5 crore by a General Manager, and above Rs 5 crore by a Chief General Manager",
+    "rule 4(4): application to RBI's Foreign Exchange Department in the prescribed form with a fee of Rs 10,000 plus applicable GST; contraventions of s. 3(a) go to the Directorate of Enforcement (rule 5)",
+    "rule 9: no compounding where the amount involved cannot be quantified, where s. 37A applies, where the Directorate of Enforcement considers it a serious contravention suspected of money-laundering, terror financing or affecting sovereignty, where a penalty has already been imposed under s. 13, or where it needs further investigation",
+    "rule 4(2): a contravention cannot be compounded within three years of an earlier similar contravention being compounded"
+   ],
+   "timelines": [
+    "rule 8: the compounding order is passed within 180 days of the application",
+    "rules 10 and 11: the compounding amount is paid within 15 days of the order, failing which the application is treated as never made and the contravention is dealt with under the Act"
+   ],
+   "consequences_stated": [
+    "If the sum is not paid on time, the compounding fails and adjudication under s. 16 can follow"
+   ],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "ACT-FEMA",
+    "MD-COMP",
+    "APDIR-26-28",
+    "RULES-COMP-OLD"
+   ],
+   "repeals": "Foreign Exchange (Compounding Proceedings) Rules, 2000"
+  },
+  {
+   "id": "MD-COMP",
+   "type": "Master Direction",
+   "short_name": "Compounding Master Direction",
+   "title": "Master Direction – Compounding of Contraventions under FEMA, 1999 (dated 22-04-2025, updated 23-10-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Statute, penalties and compounding",
+   "reference_no": "RBI/FED/2025-26/135",
+   "issue_date": "2025-04-22",
+   "updated_as_on": "2026-10-23",
+   "effective_date": "2025-04-22",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12839",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/135MD89B55F672F36443FA02C0C53DC207FFF.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "Persons applying to RBI to compound FEMA contraventions, and the RBI offices that handle them"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Computation matrix by type of contravention and sum involved",
+    "Applications through PRAVAAH",
+    "Which RBI office compounds which contravention",
+    "Publication of compounding orders"
+   ],
+   "core_obligations": [
+    "Reporting contraventions (including under the Borrowing and Lending Regulations): Rs 10,000 fixed plus an amount for each year of delay that rises with the sum involved: Rs 1,000 a year below Rs 10 lakh, Rs 2,500 for Rs 10-40 lakh, Rs 7,000 for Rs 40 lakh-1 crore, Rs 50,000 for Rs 1-10 crore, Rs 1 lakh for Rs 10-100 crore and Rs 2 lakh for Rs 100 crore and above",
+    "Guarantee contraventions other than reporting: Rs 5 lakh plus 0.050% to 0.075% of the sum per year, trebled where the loan proceeds were brought back into India",
+    "Other contraventions: Rs 50,000 plus 0.50% to 0.75% of the sum per year",
+    "The compounding amount cannot exceed 300% of the sum involved; for sums below Rs 1 lakh it is capped at simple interest of 5% a year (reporting) or 10% a year (others)",
+    "Applications are filed online on PRAVAAH with the Rs 10,000 fee"
+   ],
+   "timelines": [
+    "Compounding orders are passed within 180 days of a complete application and the amount is paid within 15 days"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "RULES-COMP",
+    "APDIR-26-28",
+    "ACT-FEMA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "APDIR-26-28",
+   "type": "Circular",
+   "short_name": "Compounding by Regional Offices",
+   "title": "Delegation of Compounding of certain Contraventions under FEMA, 1999 to Regional Offices of the Reserve Bank",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Statute, penalties and compounding",
+   "reference_no": "A.P. (DIR Series) Circular No. 28/2026-27 (RBI/FED/2026-27/298)",
+   "issue_date": "2026-10-23",
+   "updated_as_on": "",
+   "effective_date": "2026-10-23",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13745&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT298AC9CBAC4415B41D5B6CE45FF58A5AB54.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "Applicants compounding contraventions of the Borrowing and Lending Regulations, the Guarantees Regulations or the overseas investment framework"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Borrowing and lending and guarantee contraventions go to the Regional Office with jurisdiction over the registered office",
+    "Overseas investment cases go to one of seven Regional Offices by the prefix of the unique identification number",
+    "Mixed cases stay with the Central Office (CEFA, Mumbai)"
+   ],
+   "core_obligations": [
+    "File compounding applications for contraventions of the Borrowing and Lending Regulations and the Guarantees Regulations with the RBI Regional Office under whose jurisdiction the applicant's registered office falls",
+    "Where an application covers contraventions handled at different offices, file it with the Central Office"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-COMP",
+    "RULES-COMP",
+    "REG-BL",
+    "REG-GUAR",
+    "MD-ODI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-BL",
+   "type": "Regulation",
+   "short_name": "Borrowing and Lending Regulations",
+   "title": "Foreign Exchange Management (Borrowing and Lending) Regulations, 2018 (amended up to 16-02-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "External commercial borrowing (ECB)",
+   "reference_no": "FEMA 3(R)/2018-RB",
+   "issue_date": "2018-12-17",
+   "updated_as_on": "2026-02-16",
+   "effective_date": "2018-12-17",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11441&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/BORO17122018141D6FF9D78A4F3BBB96BC74A6C11945.PDF",
+   "statutory_powers": [
+    "FEMA s. 6(3)(d), 6(3)(e) and 47"
+   ],
+   "applies_to": [
+    "Persons resident in India borrowing or lending in foreign exchange, or borrowing in rupees from, or lending in rupees to, persons resident outside India",
+    "Authorised dealer banks, NBFCs and housing finance institutions lending to non-residents"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "General prohibition with listed exceptions (regulation 3)",
+    "Restricted end-uses for all borrowed funds (regulation 3A)",
+    "Foreign currency borrowing, including ECB and trade credit (regulation 4)",
+    "Foreign currency lending, including lending abroad (regulation 5)",
+    "Rupee borrowing from non-residents (regulation 6)",
+    "Rupee lending to non-residents (regulation 7)",
+    "Repo by non-residents (regulation 7A)",
+    "Change of residential status (regulation 8)",
+    "Schedule I: ECB framework; Schedule II: trade credit; Schedule III: lending in foreign currency"
+   ],
+   "core_obligations": [
+    "regulation 3: no resident may borrow or lend in foreign exchange, or borrow rupees from or lend rupees to a non-resident, except as the regulations allow or with RBI permission",
+    "regulation 3A: borrowed funds may not be used for chit funds, Nidhi companies, real estate business or farmhouses, agriculture and plantations (with listed exceptions), trading in transferable development rights, transacting in securities (except strategic corporate actions under company law, the SEBI takeover code, SARFAESI or the IBC), repaying a domestic rupee loan taken for a restricted end-use or classified as NPA, or on-lending for any of these",
+    "regulation 3A: borrowing for a construction-development project allows plots to be sold only after trunk infrastructure is developed; an industrial park needs at least 10 units, no unit above 50% and at least 66% of the allocable area for industry",
+    "regulation 4B(v) and (vi): a resident individual may borrow up to USD 250,000 from relatives abroad, and a student abroad may borrow up to USD 250,000 for fees and maintenance",
+    "regulation 6B(vi): a resident individual may borrow rupees from an NRI or OCI relative on a non-repatriation basis, received by inward remittance or from the lender's NRE, NRO, FCNR(B) or SNRR account; repayment goes only to the lender's NRO account",
+    "regulation 7B(i): a registered NBFC or housing finance institution may give a housing loan or vehicle loan to an NRI or OCI cardholder on RBI's terms, and the borrower must not use the money for a restricted end-use",
+    "regulation 7B(ii): a resident entity may lend rupees to its NRI or OCI employees under its staff welfare scheme",
+    "regulation 7B(iii): a resident individual may lend rupees to an NRI or OCI relative within the Liberalised Remittance Scheme limit",
+    "regulation 7A(iv): an AD bank may lend rupees to residents of Bhutan, Nepal and Sri Lanka, and to banks there, for cross-border trade"
+   ],
+   "timelines": [
+    "Schedule I para 16: Form ECB 1 to get a Loan Registration Number before drawdown; Revised Form ECB 1 and Form ECB 2 within 7 calendar days of the end of the month concerned"
+   ],
+   "consequences_stated": [
+    "Schedule I para 16(2): a borrower who misses a reporting timeline may pay a late submission fee after completing the reporting"
+   ],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "ACT-FEMA",
+    "MD-ECB",
+    "MD-INRBL",
+    "REG-GUAR",
+    "APDIR-25-22",
+    "REG-BL-AMD-2026",
+    "REG-BL-AMD-2025",
+    "MD-REP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-BL-AMD-2026",
+   "type": "Amendment regulation",
+   "short_name": "ECB framework 2026 (B&L First Amendment)",
+   "title": "Foreign Exchange Management (Borrowing and Lending) (First Amendment) Regulations, 2026",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "External commercial borrowing (ECB)",
+   "reference_no": "FEMA 3(R)(5)/2026-RB",
+   "issue_date": "2026-02-09",
+   "updated_as_on": "",
+   "effective_date": "2026-02-16",
+   "status": "In force (published in the Gazette on 16-02-2026)",
+   "official_url": "",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Any non-individual resident incorporated or registered under a Central or State Act that may borrow under that Act",
+    "Non-resident lenders, foreign branches of RBI-regulated lenders and financial institutions in IFSC",
+    "Designated AD Category-I banks"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "One ECB framework replacing the old tracks, eligible-borrower lists and recognised-lender rules",
+    "Borrowing limit: higher of USD 1 billion outstanding or 300% of net worth",
+    "Minimum average maturity of 3 years (1-3 years for manufacturers up to USD 150 million)",
+    "Market-based cost, with the trade credit ceiling for maturities under 3 years",
+    "New end-use list in regulation 3A",
+    "New Forms ECB 1 and ECB 2"
+   ],
+   "core_obligations": [
+    "Schedule I para 1: entities under restructuring or insolvency resolution may borrow only if the approved plan allows it; an entity facing a FEMA investigation, adjudication or appeal may borrow but must disclose it in Form ECB 1",
+    "Schedule I para 2: an ECB may be raised from any person resident outside India, a foreign branch of an RBI-regulated lender, or a financial institution in IFSC",
+    "Schedule I para 3: the ECB may be in foreign currency or rupees, and the currency may be changed in any direction at an exchange rate that does not raise the liability",
+    "Schedule I para 4: any commercial borrowing with interest and principal repayment counts, including FCCBs and FCEBs; preference shares or debentures that are not fully and mandatorily convertible, issued on or after 30-04-2007, are ECB; trade credit up to 3 years, export advances, Debt Instruments Regulations investments, convertible notes and FVCI debt are not",
+    "Schedule I para 5: ECB up to the higher of USD 1 billion outstanding or total borrowing of 300% of net worth on the last audited standalone balance sheet; the limit does not apply to entities regulated by a financial sector regulator",
+    "Schedule I para 6: minimum average maturity of 3 years; manufacturers may borrow at 1-3 years up to USD 150 million outstanding; no call or put option before the minimum maturity, with exceptions for conversion, repayment from fresh equity, refinance, waiver and corporate actions",
+    "Schedule I para 7 to 9: cost in line with market conditions (below 3 years, within the trade credit ceiling); prepayment and penal charges at market terms; related-party ECB at arm's length",
+    "Schedule I para 10: drawdown only after the Loan Registration Number; rupee proceeds credited to the designated AD bank by the end of the following month and, pending use, kept in an unencumbered fixed deposit of up to one year",
+    "Schedule I para 11: security by charge on assets or by guarantee under the Guarantees Regulations 2026, with a security clause in the loan agreement and a no-objection certificate from existing lenders; entities regulated by RBI shall not issue any guarantee",
+    "Schedule I para 13: conversion of ECB, including matured unpaid ECB, into equity under the NDI Rules with no extra cost, with lender consent and subject to RBI's restructuring norms where the borrower has RBI-regulated lenders",
+    "ECBs with a Loan Registration Number obtained before the amendment continue on their earlier terms, except for reporting"
+   ],
+   "timelines": [
+    "Revised Form ECB 1 within 7 calendar days of the end of the month in which a change takes effect",
+    "Form ECB 2 within 7 calendar days of the end of the month of drawdown or debt servicing"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "REG-BL",
+    "MD-ECB",
+    "APDIR-25-22",
+    "APDIR-25-23",
+    "MD-ECB-OLD"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-BL-AMD-2025",
+   "type": "Amendment regulation",
+   "short_name": "B&L Amendment 2025 (rupee lending to neighbours)",
+   "title": "Foreign Exchange Management (Borrowing and Lending) (Amendment) Regulations, 2025",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Rupee borrowing and lending with non-residents",
+   "reference_no": "FEMA 3(R)(4)/2025-RB",
+   "issue_date": "2025-10-06",
+   "updated_as_on": "",
+   "effective_date": "2025-10-09",
+   "status": "In force (published in the Gazette on 09-10-2025)",
+   "official_url": "",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "AD Category-I banks and their overseas branches lending rupees to persons resident in Bhutan, Nepal and Sri Lanka"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Rupee loans for cross-border trade transactions with neighbouring countries"
+   ],
+   "core_obligations": [
+    "regulation 7A(iv): an AD bank in India and its overseas branches may lend rupees to persons resident in Bhutan, Nepal or Sri Lanka, including banks there, for cross-border trade transactions, on RBI's terms"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "REG-BL"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MD-ECB",
+   "type": "Master Direction",
+   "short_name": "ECB and Trade Credit Master Direction",
+   "title": "Master Direction – External Commercial Borrowings, Trade Credits and Structured Obligations (updated 08-09-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Trade credit",
+   "reference_no": "RBI/FED/2018-19/67 (FED Master Direction No. 5/2018-19)",
+   "issue_date": "2019-03-26",
+   "updated_as_on": "2026-09-08",
+   "effective_date": "2019-03-26",
+   "status": "In force (ECB part now in the Regulations; trade credit part continues)",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11510",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/5MD2603201979CA1390E9E546869B2A9A92614DEDBF.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "Resident importers raising trade credit",
+    "AD Category-I banks handling ECB and trade credit"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Trade credit framework (para 14)",
+    "Trade credit in SEZ and FTWZ (para 15)",
+    "Security for trade credit (para 16)",
+    "Monthly Form TC (para 17)",
+    "Role of AD banks (para 18)",
+    "The ECB paragraphs (1 to 12) were deleted on 16-02-2026 when the framework moved into the Regulations"
+   ],
+   "core_obligations": [
+    "para 14: trade credit up to USD 150 million per import transaction for oil and gas refining and marketing companies, airlines and shipping companies, and USD 50 million for others",
+    "para 14: lenders are the supplier (suppliers' credit) or banks, financial institutions, foreign equity holders and IFSC financial institutions (buyers' credit); foreign branches of Indian banks may give only foreign currency trade credit",
+    "para 14: capital goods up to 3 years; non-capital goods up to one year or the operating cycle, whichever is less (shipyards up to 3 years)",
+    "para 14: all-in-cost ceiling of benchmark plus 300 bps for new foreign currency trade credit, and benchmark plus 250 bps for rupee trade credit",
+    "para 16.1: AD banks may issue guarantees to the overseas lender up to the trade credit amount and for no longer than the permitted period; letters of undertaking and letters of comfort are not permitted",
+    "para 16.2: the importer may offer a charge on movable or immovable assets (not land in SEZs) or a corporate or personal guarantee, with the AD bank's oversight"
+   ],
+   "timelines": [
+    "para 17.1: AD banks file a monthly consolidated Form TC by the 10th of the following month"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "REG-BL",
+    "REG-GUAR",
+    "MD-REP",
+    "APDIR-25-22",
+    "APDIR-25-19"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "APDIR-25-22",
+   "type": "Circular",
+   "short_name": "ECB framework circular (Feb 2026)",
+   "title": "Foreign Exchange Management (Borrowing and Lending) (First Amendment) Regulations, 2026",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "External commercial borrowing (ECB)",
+   "reference_no": "A.P. (DIR Series) Circular No. 22/2025-26 (RBI/2025-26/221)",
+   "issue_date": "2026-02-16",
+   "updated_as_on": "",
+   "effective_date": "2026-02-16",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13305&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/22APDIR160220265A80967793994EF9850D8E35EDDF7D45.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "AD Category-I banks and ECB borrowers"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Notifies the revised ECB framework to AD banks",
+    "Deletes the ECB part of the Master Direction (paras 1 to 12)",
+    "Continuity for ECBs already registered"
+   ],
+   "core_obligations": [
+    "AD banks process ECBs under Schedule I to the Borrowing and Lending Regulations as amended in 2026",
+    "ECBs for which a Loan Registration Number was obtained before the amendment continue under the earlier framework, except for reporting"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "REG-BL-AMD-2026",
+    "MD-ECB",
+    "REG-BL"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MD-INRBL",
+   "type": "Master Direction",
+   "short_name": "Rupee borrowing and lending with NRIs",
+   "title": "Master Direction – Borrowing and Lending transactions in Indian Rupee between Persons Resident in India and Non-Resident Indians / Persons of Indian Origin (updated 08-09-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Rupee borrowing and lending with non-residents",
+   "reference_no": "FED Master Direction No. 6/2015-16",
+   "issue_date": "2016-01-01",
+   "updated_as_on": "2026-09-08",
+   "effective_date": "2016-01-01",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10191",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/02MD787706E669D641C090B415DBE22DEE29.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "AD banks, registered NBFCs and housing finance institutions lending rupees to NRIs or persons of Indian origin",
+    "Resident individuals and bodies corporate lending to NRI relatives or employees"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "AD bank loans to NRIs against security (para 3)",
+    "Housing loans to NRIs and PIOs (para 4)",
+    "Staff loans (para 5)",
+    "Loans by resident individuals to NRI relatives (para 6)",
+    "Change of residential status (para 7)"
+   ],
+   "core_obligations": [
+    "para 3.1: AD banks may lend rupees to NRIs against shares, securities or immovable property; the loan may not be remitted abroad or credited to the borrower's NRE, FCNR(B) or NRNR account",
+    "para 3.2: loans to NRI employees to buy ESOP shares are limited to 90% of the purchase price or Rs 20 lakh per employee, whichever is lower",
+    "para 4: AD banks and housing finance institutions approved by NHB may give housing loans to NRIs and PIOs on the terms that apply to residents; the loan is not credited to NRE or FCNR(B) accounts, and repayment comes by inward remittance, from the borrower's NRE, FCNR(B) or NRO account, from rent on the property, or by a relative in India",
+    "para 5: a body corporate in India may lend rupees to its NRI or PIO employees for personal purposes, including housing, under its staff welfare scheme; the loan is credited to the borrower's NRO account and repaid only by remittance or from the borrower's NRE, NRO or FCNR(B) account",
+    "para 6: a resident individual may lend an NRI relative an interest-free loan of at least one year by crossed cheque or electronic transfer, within the LRS limit, credited to the borrower's NRO account and not remitted abroad"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "REG-BL",
+    "MD-LRS",
+    "MD-DEP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-GUAR",
+   "type": "Regulation",
+   "short_name": "Guarantees Regulations 2026",
+   "title": "Foreign Exchange Management (Guarantees) Regulations, 2026",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Guarantees",
+   "reference_no": "FEMA 8(R)/2026-RB",
+   "issue_date": "2026-01-06",
+   "updated_as_on": "",
+   "effective_date": "2026-01-10",
+   "status": "In force (from 10-01-2026)",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13269&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/GUARANTEEREGULATIONS120120264A3C04579A554DC083C1FBEA87D0C30E.PDF",
+   "statutory_powers": [
+    "FEMA s. 6(3)(j) and 47"
+   ],
+   "applies_to": [
+    "Any person resident in India who is a surety, principal debtor or creditor in a guarantee where any other party is resident outside India",
+    "AD banks issuing guarantees backed by non-resident counter-guarantees or collateral"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Single prohibition with permitted cases",
+    "Surety and principal debtor must each be eligible to lend and borrow under the Borrowing and Lending Regulations",
+    "Reporting of issue, change and invocation",
+    "Late submission fee"
+   ],
+   "core_obligations": [
+    "regulation 3: no resident may be a party to a guarantee where any other party is resident outside India, except as these regulations allow",
+    "regulation 4: the regulations do not apply to guarantees by AD bank branches outside India or in IFSC, by custodians for IPCs, or guarantees under the Overseas Investment Regulations",
+    "regulation 5: a resident may be a surety or principal debtor if the underlying transaction is permitted under FEMA and both the surety and the principal debtor are eligible to lend and borrow under the Borrowing and Lending Regulations",
+    "regulation 5: AD banks may also issue guarantees backed by a counter-guarantee or 100% collateral from a non-resident, and guarantees for shipping or airline agents",
+    "regulation 6: a resident may be the creditor in a guarantee given by a non-resident surety where the underlying transaction is permitted",
+    "regulation 7: the resident surety reports the guarantee (or, if there is none, the resident principal debtor, or else the resident creditor) through the AD bank"
+   ],
+   "timelines": [
+    "regulation 7: issue, change and invocation reported to the AD bank within 15 days of the end of the quarter",
+    "regulation 7: the AD bank reports to RBI within 30 days of the end of the quarter"
+   ],
+   "consequences_stated": [
+    "regulation 8: late reporting may be regularised by a late submission fee of Rs 7,500 plus 0.025% of the amount involved for each year of delay"
+   ],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "APDIR-25-19",
+    "APDIR-26-01",
+    "REG-BL",
+    "REG-OI",
+    "MD-COMP",
+    "REG-GUAR-OLD"
+   ],
+   "repeals": "Foreign Exchange Management (Guarantees) Regulations, 2000 (FEMA 8/2000-RB)"
+  },
+  {
+   "id": "APDIR-25-19",
+   "type": "Circular",
+   "short_name": "Guarantees Regulations circular (Jan 2026)",
+   "title": "Foreign Exchange Management (Guarantees) Regulations, 2026",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Guarantees",
+   "reference_no": "A.P. (DIR Series) Circular No. 19/2025-26 (RBI/2025-26/192)",
+   "issue_date": "2026-01-12",
+   "updated_as_on": "",
+   "effective_date": "2026-01-10",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13268&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/APPDIR191201202690F6A48208144E70817236152282BA14.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "AD Category-I banks and their customers who are parties to cross-border guarantees"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Notifies the Guarantees Regulations 2026 to AD banks",
+    "Withdraws 19 older guarantee circulars",
+    "Ends separate quarterly reporting of trade credit guarantees",
+    "Deletes the Master Direction's paragraphs on non-resident guarantees for domestic facilities and on credit enhancement"
+   ],
+   "core_obligations": [
+    "AD banks handle cross-border guarantees under the 2026 Regulations instead of the withdrawn circulars",
+    "Quarterly reporting of guarantees for trade credit stops from the quarter ending March 2026; guarantees are reported under regulation 7 of the 2026 Regulations"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "REG-GUAR",
+    "MD-ECB",
+    "APDIR-26-01"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "APDIR-26-01",
+   "type": "Circular",
+   "short_name": "Guarantee reporting forms",
+   "title": "Reporting under FEMA, 1999 – Returns pertaining to Foreign Exchange Management (Guarantees) Regulations, 2026",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Reporting and late submission fees",
+   "reference_no": "A.P. (DIR Series) Circular No. 1/2026-27 (RBI/2026-27/02)",
+   "issue_date": "2026-04-01",
+   "updated_as_on": "",
+   "effective_date": "2026-04-01",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13358&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/APDIR027C34873255BF491DA45D5776BEE4C3D4.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "Residents who must report guarantees under the 2026 Regulations, and AD Category-I banks"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Forms GRN Issue, GRN Modification and GRN Invocation",
+    "Guarantee Transaction Number",
+    "Reporting through CIMS"
+   ],
+   "core_obligations": [
+    "The reporting party files the GRN form for the issue, modification or invocation of a guarantee with the AD bank",
+    "The AD bank reports to RBI on CIMS and gives each guarantee a Guarantee Transaction Number",
+    "For the late submission fee, the amount involved is nil for GRN Issue and GRN Modification, and the surety's liability for GRN Invocation"
+   ],
+   "timelines": [
+    "AD bank reports to RBI within 30 days of the end of the quarter"
+   ],
+   "consequences_stated": [
+    "Late reporting attracts the late submission fee under regulation 8 of the Guarantees Regulations"
+   ],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "REG-GUAR",
+    "MD-REP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-OI",
+   "type": "Rules",
+   "short_name": "Overseas Investment Rules",
+   "title": "Foreign Exchange Management (Overseas Investment) Rules, 2022",
+   "issuing_department": "Central Government (Ministry of Finance)",
+   "theme": "Lending abroad and overseas investment debt",
+   "reference_no": "G.S.R. 646(E)",
+   "issue_date": "2022-08-22",
+   "updated_as_on": "",
+   "effective_date": "2022-08-22",
+   "status": "In force",
+   "official_url": "https://rbi.org.in/scripts/bs_viewcontent.aspx?Id=5087",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/OverseasInvestment_22062026.pdf",
+   "statutory_powers": [
+    "FEMA s. 46"
+   ],
+   "applies_to": [
+    "Indian entities and resident individuals making overseas investment, including financial commitment by debt or guarantee"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Overseas direct investment and financial commitment",
+    "Limit of 400% of net worth",
+    "No objection certificate from lenders in some cases",
+    "Financial services overseas investment (Schedule I para 2)",
+    "Restriction on structures with more than two layers of subsidiaries"
+   ],
+   "core_obligations": [
+    "Schedule I para 3: total financial commitment by an Indian entity, including debt and guarantees, may not exceed 400% of its net worth on its last audited balance sheet",
+    "rule 10: an Indian entity that is a non-performing asset, a wilful defaulter or under investigation by a bank, regulator or agency needs a no objection certificate from its lender or the regulator before any financial commitment (deemed given if not refused within 60 days)",
+    "Schedule I para 2(4): overseas investment by banks and non-banking financial institutions regulated by RBI is also subject to RBI's conditions"
+   ],
+   "timelines": [
+    "rule 10: no objection deemed granted if the lender or agency does not respond within 60 days"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "REG-OI",
+    "MD-ODI",
+    "REG-GUAR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-OI",
+   "type": "Regulation",
+   "short_name": "Overseas Investment Regulations",
+   "title": "Foreign Exchange Management (Overseas Investment) Regulations, 2022",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Lending abroad and overseas investment debt",
+   "reference_no": "FEMA 400/2022-RB",
+   "issue_date": "2022-08-22",
+   "updated_as_on": "",
+   "effective_date": "2022-08-22",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12380&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FEMA400E3410E8B6F384DF982443E53E6688627.PDF",
+   "statutory_powers": [
+    "FEMA s. 47"
+   ],
+   "applies_to": [
+    "Indian entities lending to, or guaranteeing the obligations of, their foreign entities",
+    "AD banks that report and monitor these transactions"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Loans to a foreign entity (regulation 3 and 4)",
+    "Guarantees for a foreign entity (regulation 5)",
+    "Pledge and charge (regulation 6)",
+    "Reporting (regulation 10)",
+    "Late submission fee (regulation 11)",
+    "Bar on further commitment until delays are regularised (regulation 12)"
+   ],
+   "core_obligations": [
+    "regulation 3: an Indian entity may lend to, or give a non-fund commitment for, a foreign entity only if it is eligible to make overseas direct investment, has made such investment and has control of the foreign entity",
+    "regulation 4: every loan must be backed by a loan agreement and carry interest on an arm's length basis",
+    "regulation 5: guarantees may not be open-ended; 50% of a performance guarantee counts towards the financial commitment limit; an invoked guarantee is treated as lending",
+    "regulation 6: the Indian entity may pledge its shares in the foreign entity, or create a charge on its assets, to secure funding for itself or the foreign entity"
+   ],
+   "timelines": [
+    "regulation 10: Form FC when the financial commitment is made; disinvestment reported within 30 days; Annual Performance Report by 31 December each year"
+   ],
+   "consequences_stated": [
+    "regulation 11: late reporting may be regularised by a late submission fee",
+    "regulation 12: no further financial commitment or transfer is allowed until delayed reporting is regularised"
+   ],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "RULES-OI",
+    "MD-ODI",
+    "REG-GUAR",
+    "REG-BL"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MD-ODI",
+   "type": "Master Direction",
+   "short_name": "Overseas Investment Master Direction",
+   "title": "Master Direction – Overseas Investment (updated 01-04-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Lending abroad and overseas investment debt",
+   "reference_no": "RBI/FED/2024-25/121 (FED Master Direction No. 15/2024-25)",
+   "issue_date": "2024-07-24",
+   "updated_as_on": "2026-04-01",
+   "effective_date": "2024-07-24",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12710",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/121MDOI2507202427D16C96B42C4E0B849FFD9732752B68.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "Indian entities and resident individuals making overseas investment and lending or guaranteeing abroad",
+    "AD Category-I banks"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Prior RBI approval above USD 1 billion a year",
+    "Debt only to a foreign entity in which the Indian entity has made direct investment",
+    "Late submission fee matrix",
+    "References handled by seven RBI Regional Offices"
+   ],
+   "core_obligations": [
+    "Financial commitment above USD 1 billion (or equivalent) in a financial year needs prior RBI approval even within the 400% limit",
+    "An Indian entity may not lend directly to its overseas step-down subsidiary, and a resident individual may not make financial commitment by way of debt",
+    "Late submission fee: Rs 7,500 for returns that do not capture flows (such as the Annual Performance Report), and Rs 7,500 plus 0.025% of the amount for each year of delay for returns that capture flows (such as Form FC); charged per return, capped at 100% of the amount, and available for 3 years from the due date",
+    "From 01-04-2026, references to RBI go to the Regional Office set by the prefix of the unique identification number"
+   ],
+   "timelines": [
+    "Late submission fee may be used only within 3 years of the due date of the return"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "RULES-OI",
+    "REG-OI",
+    "APDIR-26-28"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-DI",
+   "type": "Regulation",
+   "short_name": "Debt Instruments Regulations",
+   "title": "Foreign Exchange Management (Debt Instruments) Regulations, 2019 (amended up to 01-10-2025)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Debt investment by non-residents",
+   "reference_no": "FEMA 396/2019-RB",
+   "issue_date": "2019-10-17",
+   "updated_as_on": "2025-10-01",
+   "effective_date": "2019-10-17",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12099&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/DEBTINSTRUMENTS12BC56E5F7184DF78AC98A09F3E04236.PDF",
+   "statutory_powers": [
+    "FEMA s. 6(2), 6(3) and 47"
+   ],
+   "applies_to": [
+    "Indian companies and NBFCs issuing non-convertible debentures, commercial paper and other debt to non-residents",
+    "FPIs, NRIs, OCIs and other non-resident investors in Indian debt"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Permitted debt instruments for FPIs (Schedule 1)",
+    "NRI and OCI investment (Schedule 2)",
+    "Other non-resident investors",
+    "Investment by holders of rupee accounts for trade settlement"
+   ],
+   "core_obligations": [
+    "Schedule 1: FPIs may invest in listed and to-be-listed non-convertible debentures and bonds, commercial paper, security receipts, and securitised debt, including that of special purpose vehicles with NBFC originators",
+    "Schedule 2: NRIs and OCIs may invest in listed non-convertible debentures and other permitted debt on repatriation or non-repatriation basis",
+    "Fourth Amendment 2025: holders of rupee accounts under regulation 7(1) of the Deposit Regulations may invest in government securities, non-convertible debentures and commercial paper"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-NRDI",
+    "REG-BL",
+    "REG-DEP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MD-NRDI",
+   "type": "Master Direction",
+   "short_name": "Non-resident Investment in Debt Instruments Directions",
+   "title": "Master Direction – Reserve Bank of India (Non-resident Investment in Debt Instruments) Directions, 2025 (updated 05-06-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Debt investment by non-residents",
+   "reference_no": "",
+   "issue_date": "2025-01-07",
+   "updated_as_on": "2026-06-05",
+   "effective_date": "2025-01-07",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12765",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/MD126B9CF2E0CABD14471955E50A54D8291F2.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "Issuers of corporate bonds, NCDs and commercial paper bought by FPIs",
+    "FPIs, custodians and AD banks"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "FPI corporate bond limit of 15% of outstanding stock",
+    "General Route conditions for corporate debt (para 4.4)",
+    "Voluntary Retention Route merged into the General Route",
+    "Investment through Special Rupee Vostro accounts"
+   ],
+   "core_obligations": [
+    "FPI investment in corporate bonds is capped at 15% of the outstanding stock; the limit for 2026-27 is Rs 9,36,113 crore for April-September and Rs 9,91,392 crore for October-March",
+    "para 4.4: FPIs may buy corporate debt with residual maturity above one year, with no option to exit within a year; an FPI may hold up to 50% of any single issue",
+    "para 4.4: unlisted NCDs bought by FPIs may not be used for real estate business, capital market activities or buying land",
+    "para 4.4: an FPI must sell to-be-listed bonds back to the issuer if they are not listed within the allowed time",
+    "The short-term investment limit and the concentration limit for FPI corporate debt investment were removed on 08-05-2025",
+    "Balances in Special Rupee Vostro accounts may be invested in government securities, NCDs and commercial paper"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "REG-DI",
+    "APDIR-25-21"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "APDIR-25-21",
+   "type": "Circular",
+   "short_name": "VRR merged into General Route",
+   "title": "Voluntary Retention Route – Imparting predictability and increasing ease of doing business",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Debt investment by non-residents",
+   "reference_no": "A.P. (DIR Series) Circular No. 21/2025-26 (RBI/2025-26/205)",
+   "issue_date": "2026-02-06",
+   "updated_as_on": "",
+   "effective_date": "2026-04-01",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13289&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/205NT76FA3352D16D4E15939D848AA9349628.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "FPIs investing in debt under the Voluntary Retention Route, issuers and custodians"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Voluntary Retention Route subsumed into the General Route from 01-04-2026"
+   ],
+   "core_obligations": [
+    "From 01-04-2026, FPI debt investment that used the Voluntary Retention Route is governed by the General Route conditions in the Directions"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-NRDI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-NDI",
+   "type": "Rules",
+   "short_name": "Non-debt Instruments Rules",
+   "title": "Foreign Exchange Management (Non-debt Instruments) Rules, 2019 (updated up to 02-09-2026)",
+   "issuing_department": "Central Government (Ministry of Finance)",
+   "theme": "Conversion, pledge and foreign investment",
+   "reference_no": "S.O. 3732(E)",
+   "issue_date": "2019-10-17",
+   "updated_as_on": "2026-09-02",
+   "effective_date": "2019-10-17",
+   "status": "In force",
+   "official_url": "https://rbi.org.in/scripts/bs_viewcontent.aspx?Id=5083",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/NDIRules17102019E.pdf",
+   "statutory_powers": [
+    "FEMA s. 6(2A) and 46(2)(aa), (ab)"
+   ],
+   "applies_to": [
+    "Indian companies receiving foreign investment, including by conversion of ECB",
+    "Promoters pledging shares to secure borrowing",
+    "NBFCs taking pledges of shares held by non-residents"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Equity instruments are fully and mandatorily convertible",
+    "Pledge of shares (rule 9(8))",
+    "Convertible notes for start-ups (rule 18)",
+    "Other financial services: 100% under the automatic route (Schedule I, F.10)"
+   ],
+   "core_obligations": [
+    "rule 2: only instruments that are fully and mandatorily convertible are equity instruments; others fall under the debt framework",
+    "rule 9(8): a promoter of an Indian company that has raised ECB may pledge its shares in the company, or in its group companies, to secure the ECB, on terms that are co-terminus with the ECB and subject to an end-use certificate and the AD bank's no objection",
+    "rule 9(8): a non-resident may pledge shares of an Indian company to a bank in India, an overseas bank, or an RBI-registered NBFC, for credit facilities to the Indian company or its group",
+    "rule 18: a start-up may issue convertible notes of at least Rs 25 lakh in one tranche to a non-resident"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-FDI",
+    "REG-MOP",
+    "REG-BL"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MD-FDI",
+   "type": "Master Direction",
+   "short_name": "Foreign Investment Master Direction",
+   "title": "Master Direction – Foreign Investment in India (updated up to 15-06-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Conversion, pledge and foreign investment",
+   "reference_no": "RBI/FED/2017-18/60 (FED Master Direction No. 11/2017-18)",
+   "issue_date": "2018-01-04",
+   "updated_as_on": "2026-06-15",
+   "effective_date": "2018-01-04",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11200",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/MD11_04012018B4D0DB4E6DA04CC4B7AF62AA03D902BE.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "Indian companies receiving foreign investment, AD banks, and NBFCs that take pledges of shares"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Instruments that count as ECB rather than FDI",
+    "Pledge of shares by non-residents",
+    "Reporting on the FIRMS portal"
+   ],
+   "core_obligations": [
+    "para 4.6.4: non-convertible, optionally convertible or partly convertible preference shares and debentures are treated as debt and must follow the ECB framework",
+    "para 7.11.2: where an NBFC takes a pledge of shares and its holding breaches a concentration norm, it must bring the holding within the limit within 30 days"
+   ],
+   "timelines": [
+    "Form FC-GPR within 30 days of the issue of shares (under the Mode of Payment Regulations)"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "RULES-NDI",
+    "REG-MOP",
+    "MD-REP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-MOP",
+   "type": "Regulation",
+   "short_name": "Mode of Payment and Reporting (NDI) Regulations",
+   "title": "Foreign Exchange Management (Mode of Payment and Reporting of Non-Debt Instruments) Regulations, 2019 (amended up to 13-06-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Conversion, pledge and foreign investment",
+   "reference_no": "FEMA 395/2019-RB",
+   "issue_date": "2019-10-17",
+   "updated_as_on": "2026-06-13",
+   "effective_date": "2019-10-17",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11723&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FEMMPRND07112019923B015079E44E1C87B1B624707265F2.PDF",
+   "statutory_powers": [
+    "FEMA s. 47"
+   ],
+   "applies_to": [
+    "Indian companies issuing equity instruments to non-residents, including on conversion of ECB",
+    "Residents transferring equity instruments to or from non-residents"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Issue of shares within 60 days of receiving money",
+    "Form FC-GPR, FC-TRS, ESOP, DI and CN",
+    "Late submission fee for delayed reporting"
+   ],
+   "core_obligations": [
+    "regulation 3: equity instruments must be issued within 60 days of receiving the money; otherwise the money is refunded within 15 days after that",
+    "regulation 4: an Indian company reports an issue of equity instruments to a non-resident counted as FDI in Form FC-GPR within 30 days of the issue",
+    "regulation 4: transfers between residents and non-residents are reported in Form FC-TRS within 60 days of the transfer or of receiving or remitting the money, whichever is earlier",
+    "regulation 4: a start-up reports convertible notes in Form CN within 30 days of issue"
+   ],
+   "timelines": [
+    "FC-GPR within 30 days of issue",
+    "FC-TRS within 60 days",
+    "Form CN and Form DI within 30 days"
+   ],
+   "consequences_stated": [
+    "regulation 5: the person responsible for reporting pays a late submission fee for any delay"
+   ],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "RULES-NDI",
+    "MD-FDI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-DEP",
+   "type": "Regulation",
+   "short_name": "Deposit Regulations",
+   "title": "Foreign Exchange Management (Deposit) Regulations, 2016 (amended up to 29-06-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Deposits and accounts",
+   "reference_no": "FEMA 5(R)/2016-RB",
+   "issue_date": "2016-04-01",
+   "updated_as_on": "2026-06-29",
+   "effective_date": "2016-04-01",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10325&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTINO5(R)DE2833D3DFA8415BA5B586CFA3D4A946.PDF",
+   "statutory_powers": [
+    "FEMA s. 6(3)(f) and 47"
+   ],
+   "applies_to": [
+    "Banks and companies (including NBFCs) accepting deposits from non-residents",
+    "Non-residents holding NRE, NRO, FCNR(B) and SNRR accounts"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "NRE, NRO, FCNR(B) and SNRR accounts",
+    "Deposits by companies from NRIs on a non-repatriation basis (Schedule 7)",
+    "Accounts through which loans to non-residents are repaid or credited"
+   ],
+   "core_obligations": [
+    "Schedule 7: an Indian company, including an NBFC registered with RBI, may accept deposits from NRIs and OCIs only on a non-repatriation basis, subject to the rules that apply to it on deposit acceptance",
+    "Sixth Amendment 2026: any person resident outside India may open a Special Non-Resident Rupee (SNRR) account with an AD bank in India or its branch outside India, including in an IFSC"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-DEP",
+    "REG-BL",
+    "REG-DI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MD-DEP",
+   "type": "Master Direction",
+   "short_name": "Deposits and Accounts Master Direction",
+   "title": "Master Direction – Deposits and Accounts (updated 02-09-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Deposits and accounts",
+   "reference_no": "RBI/FED/2015-16/9 (FED Master Direction No. 14/2015-16)",
+   "issue_date": "2016-01-01",
+   "updated_as_on": "2026-09-02",
+   "effective_date": "2016-01-01",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10198",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/09MDD593B2F2D48648C8AB3D37625C9F245D.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "AD banks, and companies and NBFCs accepting deposits from non-residents"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Operation of NRE, NRO, FCNR(B) and SNRR accounts",
+    "Loans against non-resident deposits",
+    "Company deposits from NRIs"
+   ],
+   "core_obligations": [
+    "para 9: a company in India, including an NBFC registered with RBI, cannot accept deposits on a repatriation basis, though it may renew deposits accepted earlier under Schedule 6 of the Deposit Regulations",
+    "para 10.1: a proprietorship, firm or company (including an RBI-registered NBFC) may accept deposits from NRIs and PIOs on a non-repatriation basis on the terms of Schedule 7 of the Deposit Regulations"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "REG-DEP",
+    "MD-INRBL"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MD-LRS",
+   "type": "Master Direction",
+   "short_name": "Liberalised Remittance Scheme",
+   "title": "Master Direction – Liberalised Remittance Scheme (LRS) (updated 06-09-2024)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Rupee borrowing and lending with non-residents",
+   "reference_no": "FED Master Direction No. 7/2015-16",
+   "issue_date": "2016-01-01",
+   "updated_as_on": "2024-09-06",
+   "effective_date": "2016-01-01",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10192",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/03MD945692290C104C5595AEDAC89AE78788.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "Resident individuals remitting or lending within the LRS limit, and AD banks"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "USD 2,50,000 per financial year for resident individuals",
+    "Rupee loans to NRI relatives within the limit"
+   ],
+   "core_obligations": [
+    "para 18: a resident individual may lend rupees to an NRI or PIO relative by crossed cheque or electronic transfer, interest-free, for at least one year, within the LRS limit of USD 2,50,000 a year; the loan is credited to the borrower's NRO account and may not be remitted abroad"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-INRBL",
+    "REG-BL"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MD-REP",
+   "type": "Master Direction",
+   "short_name": "Reporting Master Direction",
+   "title": "Master Direction – Reporting under Foreign Exchange Management Act, 1999 (updated 01-10-2026)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Reporting and late submission fees",
+   "reference_no": "RBI/FED/2015-16/13 (FED Master Direction No. 18/2015-16)",
+   "issue_date": "2016-01-01",
+   "updated_as_on": "2026-10-01",
+   "effective_date": "2016-01-01",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10202",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/13MDRD77DCF42C4E64B6C9A83C24EF5D4E188.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "Every person who must file a FEMA return, and the AD banks that forward returns to RBI"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "ECB forms (Part V)",
+    "Trade credit Form TC",
+    "Guarantee reporting forms",
+    "Late submission fee (Part XIII)",
+    "Returns filed on CIMS"
+   ],
+   "core_obligations": [
+    "Forms ECB 1, Revised ECB 1 and ECB 2 are in the format prescribed in February 2026",
+    "Late submission fee is computed under Part XIII: a fixed amount for returns that do not capture flows, and a fixed amount plus an amount linked to the sum and the delay for returns that capture flows"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "APDIR-25-23",
+    "APDIR-25-25",
+    "APDIR-26-01",
+    "REG-BL",
+    "REG-GUAR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "APDIR-25-23",
+   "type": "Circular",
+   "short_name": "New ECB forms",
+   "title": "Reporting under FEMA, 1999 – Returns pertaining to External Commercial Borrowing (ECB)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Reporting and late submission fees",
+   "reference_no": "A.P. (DIR Series) Circular No. 23/2025-26 (RBI/2025-26/223)",
+   "issue_date": "2026-02-18",
+   "updated_as_on": "",
+   "effective_date": "2026-02-18",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13308&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT223FD1130943E654F7F93546B330CEE0E9D.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "ECB borrowers and designated AD Category-I banks"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Form ECB 1 and Revised Form ECB 1 replace Form ECB",
+    "New Form ECB 2"
+   ],
+   "core_obligations": [
+    "Borrowers use the new Form ECB 1 (for the Loan Registration Number), Revised Form ECB 1 (for changes) and Form ECB 2 (monthly) from 18-02-2026"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-REP",
+    "REG-BL-AMD-2026",
+    "APDIR-25-25"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "APDIR-25-25",
+   "type": "Circular",
+   "short_name": "ECB late submission fee changes",
+   "title": "Reporting under FEMA, 1999 – Returns pertaining to External Commercial Borrowing (ECB)",
+   "issuing_department": "RBI, Foreign Exchange Department",
+   "theme": "Reporting and late submission fees",
+   "reference_no": "A.P. (DIR Series) Circular No. 25/2025-26 (RBI/2025-26/253)",
+   "issue_date": "2026-03-30",
+   "updated_as_on": "",
+   "effective_date": "2026-04-01",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13345&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT253E76A87AD2C554CE9A5F01BC6F3C6BC9B.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "ECB borrowers and designated AD Category-I banks"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Forms ECB 1 and Revised ECB 1 treated as returns that do not capture flows",
+    "Fee per late Form ECB 2",
+    "Payment to the RBI Regional Office"
+   ],
+   "core_obligations": [
+    "Form ECB 1 and Revised Form ECB 1 are treated as returns that do not capture flows when computing the late submission fee",
+    "Each late Form ECB 2 under a Loan Registration Number is a separate instance for the fixed part of the fee",
+    "The AD bank forwards a complete return to RBI within 7 calendar days of receiving it, and monitors payment of any fee",
+    "The fee is paid to the RBI Regional Office by NEFT or RTGS after RBI's acknowledgement email"
+   ],
+   "timelines": [
+    "AD bank forwards the return within 7 calendar days of receipt"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-REP",
+    "APDIR-25-23",
+    "REG-BL"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MD-RISK",
+   "type": "Master Direction",
+   "short_name": "Risk Management and Inter-Bank Dealings",
+   "title": "Master Direction – Risk Management and Inter-Bank Dealings (updated 01-10-2026)",
+   "issuing_department": "RBI",
+   "theme": "Hedging and derivatives",
+   "reference_no": "RBI/FMRD/2016-17/31 (FMRD Master Direction No. 1/2016-17)",
+   "issue_date": "2016-07-05",
+   "updated_as_on": "2026-10-01",
+   "effective_date": "2016-07-05",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10485",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/MD3191FD1C01B7704FB9B24E7073F651AB51.PDF",
+   "statutory_powers": [
+    "FEMA s. 10(4), 11(1); RBI Act s. 45W"
+   ],
+   "applies_to": [
+    "Users hedging foreign currency borrowing and other exposures with AD banks",
+    "AD banks offering foreign exchange derivatives"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Hedging of contracted and anticipated exposures",
+    "Positions without establishing the underlying",
+    "Foreign Exchange Risk Reserve",
+    "Limits on related-party rupee derivatives"
+   ],
+   "core_obligations": [
+    "Users, including ECB and trade credit borrowers, may hedge contracted exposures with AD banks on the terms of the Direction",
+    "From 10-10-2026, positions without establishing the underlying exposure are limited to USD 5 million notional across all AD banks (and separately across exchanges)",
+    "From 10-10-2026, a rupee derivative cancelled with any AD bank may not be rebooked; rollovers on maturity are still allowed",
+    "The AD bank takes an undertaking that the same exposure has not been hedged with another AD bank",
+    "AD banks may not enter into rupee derivatives with their related parties except to cancel or roll over existing contracts or on a back-to-back basis with unrelated non-resident users"
+   ],
+   "timelines": [
+    "AD banks keep documents on the underlying exposure for at least two years"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "APDIR-26-25",
+    "APDIR-26-26",
+    "APDIR-26-27",
+    "REG-FXD"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "APDIR-26-25",
+   "type": "Circular",
+   "short_name": "Rebooking and threshold changes (Oct 2026)",
+   "title": "Risk Management and Inter-Bank Dealings",
+   "issuing_department": "RBI",
+   "theme": "Hedging and derivatives",
+   "reference_no": "A.P. (DIR Series) Circular No. 25/2026-27 (RBI/2026-27/291)",
+   "issue_date": "2026-10-10",
+   "updated_as_on": "",
+   "effective_date": "2026-10-10",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13737&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/291NT8DE5483CA3F84609A0CA56720CD64103.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "Users hedging with AD banks, and AD banks"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "No rebooking of cancelled rupee derivatives",
+    "Threshold without proof of underlying cut from USD 100 million to USD 5 million",
+    "Undertaking against duplicate hedging"
+   ],
+   "core_obligations": [
+    "AD banks shall not let users rebook any rupee foreign exchange derivative cancelled with any AD bank after 10-10-2026; rollovers on maturity remain allowed",
+    "The limit for positions without establishing an underlying exposure falls from USD 100 million to USD 5 million notional outstanding",
+    "When hedging a contracted exposure, the AD bank obtains the user's undertaking that the same exposure is not hedged with another AD bank (or the amounts already hedged)"
+   ],
+   "timelines": [
+    "Documents kept for at least two years"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-RISK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "APDIR-26-26",
+   "type": "Circular",
+   "short_name": "Foreign Exchange Risk Reserve",
+   "title": "Risk Management and Inter-Bank Dealings – Foreign Exchange Risk Reserve",
+   "issuing_department": "RBI",
+   "theme": "Hedging and derivatives",
+   "reference_no": "A.P. (DIR Series) Circular No. 26/2026-27 (RBI/2026-27/292)",
+   "issue_date": "2026-10-10",
+   "updated_as_on": "",
+   "effective_date": "2026-10-10",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13738&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/292NT63009643AFA847A48C9A73F31E26175F.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "AD banks offering rupee derivatives to users hedging current account transactions"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "20% reserve held with RBI in cash",
+    "Applies above USD 2 million notional where the user buys foreign currency against rupees"
+   ],
+   "core_obligations": [
+    "AD banks keep a Foreign Exchange Risk Reserve of 20% of the rupee equivalent of the notional amount of each rupee derivative above USD 2 million taken to hedge current account transactions where the user buys foreign currency",
+    "Splitting transactions to avoid the threshold is a violation",
+    "AD banks report the reserve daily on CIMS"
+   ],
+   "timelines": [
+    "Reserve maintained daily until the contract ends"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-RISK",
+    "APDIR-26-27"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "APDIR-26-27",
+   "type": "Circular",
+   "short_name": "NDDCs for hedging only; reserve on own hedges",
+   "title": "Risk Management and Inter-Bank Dealings",
+   "issuing_department": "RBI",
+   "theme": "Hedging and derivatives",
+   "reference_no": "A.P. (DIR Series) Circular No. 27/2026-27 (RBI/2026-27/293)",
+   "issue_date": "2026-10-12",
+   "updated_as_on": "",
+   "effective_date": "2026-10-12",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13739&Mode=0",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI293D62A07A6EF394B75BAB6BEBA6F159565.PDF",
+   "statutory_powers": [],
+   "applies_to": [
+    "AD banks with IFSC banking units, standalone primary dealers, and non-resident users of non-deliverable rupee derivatives"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Non-deliverable rupee derivatives to non-residents only for hedging",
+    "Reserve on AD banks' own hedges where they buy foreign currency"
+   ],
+   "core_obligations": [
+    "AD banks offer non-deliverable rupee derivatives to non-resident users only for hedging",
+    "AD banks keep a 20% Foreign Exchange Risk Reserve with RBI on rupee derivatives hedging their own assets and liabilities where they buy foreign currency"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-RISK",
+    "APDIR-26-26"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-FXD",
+   "type": "Regulation",
+   "short_name": "Foreign Exchange Derivative Contracts Regulations",
+   "title": "Foreign Exchange Management (Foreign Exchange Derivative Contracts) Regulations, 2000",
+   "issuing_department": "RBI",
+   "theme": "Hedging and derivatives",
+   "reference_no": "FEMA 25/RB-2000",
+   "issue_date": "2000-05-03",
+   "updated_as_on": "",
+   "effective_date": "2000-06-01",
+   "status": "In force (as amended)",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_FemaNotifications.aspx?Id=179",
+   "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/13275.pdf",
+   "statutory_powers": [
+    "FEMA s. 47(2)(h)"
+   ],
+   "applies_to": [
+    "Residents and non-residents entering into foreign exchange derivatives to hedge exposures, and AD banks"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Permitted foreign exchange derivatives",
+    "Hedging of exposures, including foreign currency borrowing"
+   ],
+   "core_obligations": [
+    "A person may enter into a foreign exchange derivative contract only as these regulations and RBI's directions allow, in practice to hedge an exposure"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
+   "cross_references": [
+    "MD-RISK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-GUAR-OLD",
+   "type": "Superseded instrument",
+   "short_name": "Guarantees Regulations 2000",
+   "title": "Foreign Exchange Management (Guarantees) Regulations, 2000",
+   "issuing_department": "RBI",
+   "theme": "Superseded (history)",
+   "reference_no": "FEMA 8/2000-RB",
+   "issue_date": "2000-05-03",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Superseded on 10-01-2026",
+   "official_url": "",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "REG-GUAR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MD-ECB-OLD",
+   "type": "Superseded instrument",
+   "short_name": "Earlier ECB framework (before 16-02-2026)",
+   "title": "ECB framework in the Master Direction and old Schedule I (FCY and INR tracks), replaced on 16-02-2026",
+   "issuing_department": "RBI",
+   "theme": "Superseded (history)",
+   "reference_no": "",
+   "issue_date": "2019-01-16",
+   "updated_as_on": "2026-02-16",
+   "effective_date": "",
+   "status": "Replaced on 16-02-2026 (continues for ECBs registered earlier, except reporting)",
+   "official_url": "",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [
+    "USD 750 million a year under the automatic route",
+    "ECB liability to equity of 7:1 for borrowing from a direct foreign equity holder",
+    "All-in-cost ceiling of benchmark plus 450 bps",
+    "Lenders had to be from FATF or IOSCO compliant countries",
+    "Indian banks, financial institutions and NBFCs could not guarantee ECBs"
+   ],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "REG-BL-AMD-2026"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-COMP-OLD",
+   "type": "Superseded instrument",
+   "short_name": "Compounding Rules 2000",
+   "title": "Foreign Exchange (Compounding Proceedings) Rules, 2000",
+   "issuing_department": "Central Government",
+   "theme": "Superseded (history)",
+   "reference_no": "G.S.R. 384(E)",
+   "issue_date": "2000-05-03",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "Superseded on 12-09-2024",
+   "official_url": "",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "RULES-COMP"
+   ],
+   "repeals": ""
+  }
+ ]
+}
