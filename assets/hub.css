@@ -110,5 +110,7 @@ select.chip{appearance:none;padding-right:28px;background:var(--surface) url("da
 #jsend{border:0;border-radius:10px;background:var(--accent);color:var(--accent-ink);width:46px;cursor:pointer;display:grid;place-items:center}
 #jsend:disabled{background:var(--surface-2);color:var(--muted);cursor:not-allowed}#jsend:active:not(:disabled){filter:brightness(.92)}
 .jdisc{font-size:11px;color:var(--muted);margin:0;padding:2px 12px 10px;background:var(--surface)}
-@media (max-width:700px){#jfab.wide .jtag{max-width:0;margin:0}#jfab{right:12px;bottom:12px}#jfab .jsvg{width:48px;height:48px}#judge{right:8px;left:8px;width:auto;bottom:76px;height:min(72vh,580px)}}
+#judge.max{width:min(760px,calc(100% - 48px));height:calc(100vh - 180px)}#judge.max .jmsg{max-width:88%}
+#judge header .iconbtn+.iconbtn{margin-left:-4px}
+@media (max-width:700px){#jfab.wide .jtag{max-width:0;margin:0}#jfab{right:12px;bottom:12px}#jfab .jsvg{width:48px;height:48px}#judge,#judge.max{right:8px;left:8px;width:auto;bottom:76px;height:min(72vh,580px)}#jmax{display:none}}
 @media (prefers-reduced-motion:reduce){*,*:before{animation:none!important;transition:none!important}}
