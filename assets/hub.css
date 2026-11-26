@@ -57,7 +57,7 @@ select.chip{appearance:none;padding-right:28px;background:var(--surface) url("da
 .foot a{text-decoration:underline;text-underline-offset:2px}
 /* animation */
 @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-.rise{animation:rise .45s cubic-bezier(.2,.7,.2,1) both}
+.anim .rise{animation:rise .45s cubic-bezier(.2,.7,.2,1) both}
 /* tiles and regulator cards */
 .tk{display:flex;align-items:center;gap:14px;padding:18px 20px;cursor:pointer;transition:transform .18s,box-shadow .18s,border-color .18s;text-align:left;width:100%}
 .tk:hover{border-color:color-mix(in srgb,var(--accent) 55%,var(--line))}.tk:active{background:var(--surface-2)}
@@ -74,7 +74,7 @@ select.chip{appearance:none;padding-right:28px;background:var(--surface) url("da
 .grid{display:grid;gap:14px}
 .g3{grid-template-columns:repeat(3,1fr)}.g5{grid-template-columns:repeat(5,1fr)}
 @media (max-width:1100px){.g5{grid-template-columns:repeat(3,1fr)}}
-@media (max-width:860px){.g3,.g5{grid-template-columns:repeat(2,1fr)}.nav a{display:none}.crumb{display:none}}
+@media (max-width:860px){.g3,.g5{grid-template-columns:repeat(2,1fr)}.crumb{display:none}}
 @media (max-width:560px){.g3,.g5{grid-template-columns:1fr}.brand small{display:none}}
 /* results */
 .results{margin-top:14px;text-align:left}
@@ -122,3 +122,21 @@ select.chip{appearance:none;padding-right:28px;background:var(--surface) url("da
 .sxt mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;border-radius:3px;padding:0 2px}
 .sxm{margin-top:10px;padding-left:12px;border-left:2px solid var(--line)}
 .sxc{overflow:hidden;margin-top:8px}
+/* header nav: one line; a menu button takes over when the links do not fit */
+.navl{display:flex;gap:4px;align-items:center;white-space:nowrap}
+#menubtn{display:none}
+@media (max-width:1240px){
+  .nav{position:relative}#menubtn{display:grid}
+  .navl{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;align-items:stretch;gap:2px;min-width:220px;padding:8px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);z-index:70}
+  .navl.open{display:flex}.navl a{padding:10px 12px;font-size:15px}
+}
+@media (max-width:1240px) and (min-width:861px){.crumb{display:none}}
+/* section pages: inner tabs keep only the title, search and tabs on screen */
+body.inner .shead{padding-top:18px}body.inner .shead h1{font-size:clamp(22px,2.6vw,28px)}
+body.inner .shead p,body.inner .shead>.btn,body.inner .shead>a.btn{display:none}
+/* tab strips that scroll: fade the clipped edge */
+.tabs.fr{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 48px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 48px),transparent)}
+.tabs.fl{-webkit-mask-image:linear-gradient(90deg,transparent,#000 48px);mask-image:linear-gradient(90deg,transparent,#000 48px)}
+.tabs.fl.fr{-webkit-mask-image:linear-gradient(90deg,transparent,#000 48px,#000 calc(100% - 48px),transparent);mask-image:linear-gradient(90deg,transparent,#000 48px,#000 calc(100% - 48px),transparent)}
+/* keep the floating assistant button clear of the last lines of the page */
+.foot{padding-bottom:96px}
