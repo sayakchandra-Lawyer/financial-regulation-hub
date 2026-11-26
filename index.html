@@ -287,8 +287,10 @@
     if (raw.length < 2 || !M()) { box.hidden = true; return; }
     const order = [K(), ...Object.keys(secs).filter(k => k !== K())];
     let h = order.map(k => block(k, raw)).join("") + updMatches(raw);
-    h += `<div class="rhead" style="justify-content:space-between"><span>Court rulings become searchable once that section goes live.</span>${hub.ai_endpoint?`<button class="lnk" type="button" id="askai">Ask Not So Intelligent AI →</button>`:""}</div>`;
+    h += `<div id="sxres"></div>`;
+    h += hub.ai_endpoint ? `<div class="rhead" style="justify-content:flex-end"><button class="lnk" type="button" id="askai">Ask Not So Intelligent AI →</button></div>` : "";
     box.innerHTML = h; box.hidden = false;
+    sxMount($("#sxres"), raw, { root: "", compact: true });
     const a = $("#askai"); if (a) a.addEventListener("click", () => openJudge(raw));
   }
   $("#q").addEventListener("input", () => { clearTimeout(tmr); tmr = setTimeout(runSearch, 160); });

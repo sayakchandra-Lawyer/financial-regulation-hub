@@ -196,6 +196,7 @@ function wordsFor(M, alt) {
 function rankDocs(M, P, opts = {}) {
   if (!P.groups.length && !P.para) return [];
   const N = M.docs.length, matchers = P.groups.map(g => g.alts.map(a => wordsFor(M, a)));
+  const pw = tok(P.raw).flatMap(w => w.split(/[.'-]/)).filter(Boolean), phrase = pw.length > 1 ? new RegExp("(^|[^a-z0-9])" + pw.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("[\\s\\-–/,]+") + "($|[^a-z0-9])", "i") : null;
   const idfs = P.groups.map((g, gi) => { let n = 0; M.docs.forEach(d => { if (d.lines.some(l => hitLine(l, matchers[gi]))) n++; }); return Math.log(1 + N / (1 + n)); });
   const out = [];
   M.docs.forEach(d => {
@@ -212,8 +213,13 @@ function rankDocs(M, P, opts = {}) {
     sc *= Math.pow(Math.max(cov, P.para ? 1 : 0) / G, 1.5);
     if (d.it.sc === "old") sc *= 0.6;
     hits.sort((a, b) => b.w - a.w);
-    out.push({ it: d.it, sc, hits });
+    // the words typed together, in that order, rank first
+    let exact = false;
+    if (phrase) { const ph = d.lines.filter(l => phrase.test(l.txt)); if (ph.length) { exact = true; sc *= 3; ph.forEach(l => { const k = hits.indexOf(l); if (k >= 0) hits.splice(k, 1); }); hits.unshift(...ph.sort((a, b) => b.w - a.w)); } }
+    out.push({ it: d.it, sc, hits, full: exact || cov >= G, exact });
   });
+  // when some instruments hold every word, leave out those that hold only some
+  if (P.groups.length > 1 && out.some(o => o.full)) { const keep = out.filter(o => o.full); out.length = 0; out.push(...keep); }
   out.sort((a, b) => b.sc - a.sc);
   const top = out[0] ? out[0].sc : 1; out.forEach(o => o.rel = o.sc / top);
   return out;
@@ -239,9 +245,172 @@ function matchDefs(M, P) {
 }
 function hl(txt, P) {
   let s = esc(txt);
-  const ws = [...new Set(P.groups.flatMap(g => g.alts).filter(a => a.length > 2))].sort((a, b) => b.length - a.length).slice(0, 12);
+  const ws = [...new Set([...(tok(P.raw).length > 1 ? [tok(P.raw).join(" ")] : []), ...P.groups.flatMap(g => g.alts)].filter(a => a.length > 2))].sort((a, b) => b.length - a.length).slice(0, 12);
   ws.forEach(w => { s = s.replace(new RegExp(`(^|[^\\w>])(${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\w*)`, "gi"), "$1<mark>$2</mark>"); });
   return s;
+}
+
+/* ---------- whole-site search: prebuilt index over every full text and judgment (search/, built by tools/build_search.py) ---------- */
+const SX = { root: "", meta: null, mp: null, vocab: null, common: null, bigCommon: null, shards: new Map(), texts: new Map(), cache: new Map() };
+const SX_NAME = { rbi: "RBI", sebi: "SEBI", irdai: "IRDAI", fema: "FEMA", judgments: "Judgments" };
+const sxTok = s => (String(s).toLowerCase().match(/[a-z0-9₹%]+/g) || []);
+const CRC = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+function crc32(str) { const b = new TextEncoder().encode(str); let c = 0xFFFFFFFF; for (const x of b) c = CRC[(c ^ x) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; }
+function sxLoad() {
+  if (!SX.mp) SX.mp = fetch(SX.root + "search/meta.json").then(r => { if (!r.ok) throw 0; return r.json(); }).then(m => {
+    SX.meta = m; SX.vocab = m.vocab.split(" "); SX.dfOf = new Map(SX.vocab.map((w, i) => [w, m.df[i]]));
+    SX.common = new Set(m.common); SX.bigCommon = new Set(m.bigCommon); SX.avg = m.plen.reduce((a, b) => a + b, 0) / m.n; return m;
+  }).catch(() => (SX.mp = null, null));
+  return SX.mp;
+}
+function sxGet(map, url) { if (!map.has(url)) map.set(url, fetch(url).then(r => r.ok ? r.json() : null).catch(() => (map.delete(url), null))); return map.get(url); }
+async function sxPost(term) {
+  const sh = await sxGet(SX.shards, `${SX.root}search/p/${crc32(term) % SX.meta.shards}.json`);
+  const s = sh && sh[term]; if (!s) return null;
+  const out = new Map(); let id = 0;
+  s.split(",").forEach(e => { const [d, n] = e.split(":"); id += parseInt(d, 36); out.set(id, n ? parseInt(n, 36) : 1); });
+  return out;
+}
+async function sxPassage(i) { const per = SX.meta.textPer, t = await sxGet(SX.texts, `${SX.root}search/t/${Math.floor(i / per)}.json`); return t ? t[i % per] : null; }
+function sxExpand(w) {
+  // the word itself, simple plural/singular forms, and longer words that start with it (5+ letters)
+  const V = SX.vocab, set = new Set();
+  [w, w + "s", w + "es", w.replace(/s$/, ""), w.replace(/es$/, "")].forEach(x => { if (x && SX.dfOf.has(x)) set.add(x); });
+  const pre = p => { let lo = 0, hi = V.length; while (lo < hi) { const m = (lo + hi) >> 1; if (V[m] < p) lo = m + 1; else hi = m; }
+    for (let i = lo; i < V.length && V[i].startsWith(p) && set.size < 25; i++) set.add(V[i]); };
+  if (w.length >= 5) pre(w);
+  // a light stem, so "securitisation" also finds "securitised" and "retention" finds "retained"
+  const sf = ["isation", "ization", "ations", "ation", "ised", "ized", "ising", "izing", "ions", "ion", "ings", "ing", "ers", "er", "ed", "es", "s"].find(x => w.endsWith(x) && w.length - x.length >= 5);
+  if (sf) pre(w.slice(0, w.length - sf.length));
+  return [...set];
+}
+function sxParse(raw) {
+  const q = String(raw || "").trim();
+  const quoted = [...q.matchAll(/["“”]([^"“”]+)["“”]/g)].map(m => sxTok(m[1])).filter(a => a.length > 1);
+  const all = sxTok(q), words = all.filter(w => !STOP.has(w));
+  const terms = [...new Set(words.length ? words : all)];
+  return { raw: q, all, terms, quoted, phrase: all.length > 1 ? all : null };
+}
+async function sxSearch(raw) {
+  if (SX.cache.has(raw)) return SX.cache.get(raw);
+  const m = await sxLoad(); if (!m) return null;
+  const Q = sxParse(raw); if (!Q.terms.length) return null;
+  const N = m.n, k1 = 1.2, b = .75, score = new Map(), cov = new Map();
+  const groups = Q.terms.filter(t => !SX.common.has(t));
+  const lists = await Promise.all(groups.map(async t => { const ws = sxExpand(t); const ps = await Promise.all(ws.map(w => sxPost(w).then(p => [w, p]))); return ps; }));
+  lists.forEach(ps => {
+    const tf = new Map(); ps.forEach(([w, p]) => { if (p) p.forEach((n, i) => tf.set(i, (tf.get(i) || 0) + (w === ps[0][0] ? n : n * .8))); });
+    if (!tf.size) return;
+    const idf = Math.log(1 + (N - tf.size + .5) / (tf.size + .5));
+    tf.forEach((n, i) => { score.set(i, (score.get(i) || 0) + idf * n * (k1 + 1) / (n + k1 * (1 - b + b * m.plen[i] / SX.avg))); cov.set(i, (cov.get(i) || 0) + 1); });
+  });
+  // phrases: a passage holds the phrase when it holds every adjacent word pair of it
+  const bigSets = async seq => { const pairs = []; for (let i = 0; i + 1 < seq.length; i++) { const k = seq[i] + " " + seq[i + 1]; if (!SX.bigCommon.has(k)) pairs.push(k); }
+    if (!pairs.length) return null;
+    const ps = await Promise.all(pairs.map(async (k, n) => { const a = await sxPost(k); if (n < pairs.length - 1 || /s$/.test(k)) return a;
+      const b2 = await sxPost(k + "s"); if (!a) return b2; if (b2) b2.forEach((v, i) => a.set(i, v)); return a; }));  // last word may be plural
+    if (ps.some(p => !p)) return new Set();
+    ps.sort((x, y) => x.size - y.size); return new Set([...ps[0].keys()].filter(i => ps.every(p => p.has(i)))); };
+  const req = await Promise.all(Q.quoted.map(bigSets));
+  const phr = Q.phrase ? await bigSets(Q.phrase) : null;
+  const G = Math.max(1, groups.length);
+  let ids = [...score.keys()];
+  req.forEach(s => { if (s) ids = ids.filter(i => s.has(i)); });
+  if (phr) phr.forEach(i => { if (!score.has(i)) { score.set(i, 1); cov.set(i, G); ids.push(i); } });
+  let full = ids.filter(i => cov.get(i) >= G || (phr && phr.has(i)));
+  const partial = !full.length;
+  if (!partial) ids = full;
+  const pas = ids.map(i => { const exact = !!(phr && phr.has(i)); let sc = score.get(i) * Math.pow((cov.get(i) || 0) / G, 2) * (exact ? 3 : 1);
+    const d = m.docs[m.pdoc[i]]; if (d[3]) sc *= .6; return { i, sc, exact, d: m.pdoc[i] }; }).sort((x, y) => y.sc - x.sc);
+  const byDoc = new Map();
+  pas.forEach(p => { let g = byDoc.get(p.d); if (!g) byDoc.set(p.d, g = { d: p.d, doc: m.docs[p.d], ps: [], sc: 0, exact: 0 }); g.ps.push(p); if (p.exact) g.exact++; });
+  const docs = [...byDoc.values()].map(g => { g.sc = g.ps[0].sc + .15 * g.ps.slice(1, 6).reduce((a, p) => a + p.sc, 0); return g; }).sort((x, y) => y.sc - x.sc);
+  const res = { Q, docs, n: pas.length, exactN: pas.filter(p => p.exact).length, partial };
+  SX.cache.set(raw, res); return res;
+}
+function sxHl(txt, Q) {
+  let s = esc(txt); const pats = [];
+  if (Q.phrase) pats.push(Q.phrase.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("[\\s\\-–/,]+") + "\\w*");
+  Q.quoted.forEach(a => pats.push(a.join("[\\s\\-–/,]+") + "\\w*"));
+  Q.terms.filter(w => w.length > 1).sort((a, b) => b.length - a.length).forEach(w => pats.push(w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\w*"));
+  if (!pats.length) return s;
+  return s.replace(new RegExp(`(^|[^\\w])(${pats.join("|")})`, "gi"), "$1<mark>$2</mark>");
+}
+function sxSnippet(txt, Q, n = 300) {
+  const low = txt.toLowerCase(); let at = -1;
+  if (Q.phrase) { const re = new RegExp(Q.phrase.join("[\\s\\-–/,]+"), "i"); const mm = re.exec(txt); if (mm) at = mm.index; }
+  if (at < 0) for (const w of Q.terms) { const j = low.search(new RegExp("\\b" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))); if (j >= 0 && (at < 0 || j < at)) at = j; }
+  let a = Math.max(0, at - Math.round(n * .35)); if (a > 0) { const sp = txt.indexOf(" ", a); if (sp > 0 && sp - a < 30) a = sp + 1; }
+  const s = txt.slice(a, a + n).replace(/\s+/g, " ").trim();
+  return (a > 0 ? "…" : "") + s + (a + n < txt.length ? "…" : "");
+}
+function sxWhere(doc, chap, para) {
+  if (doc[0] === "judgments") return [chap, para ? fmtDate(para) : ""].filter(Boolean).join(" · ");
+  const id = doc[1], unit = /^ACT-/.test(id) ? "Section" : /^REG-/.test(id) ? "Regulation" : /^RULES-/.test(id) ? "Rule" : "Para";
+  const p = String(para || "").replace(/\s*\(contd\.\)/, "");
+  return [chap, p === "footnotes" ? "Footnotes" : p ? `${unit} ${p}` : ""].filter(Boolean).join(" · ");
+}
+function sxHref(root, doc) { return doc[0] === "judgments" ? `${root}judgments/#j/${encodeURIComponent(doc[1])}` : `${root}${doc[0]}/#d/${encodeURIComponent(doc[1])}`; }
+/* Render whole-site full-text results into el.  opts: { root: "" | "../", here: section id or "", compact: bool } */
+async function sxMount(el, raw, opts = {}) {
+  if (!el) return;
+  SX.root = opts.root || ""; const tokn = (el._sx = (el._sx || 0) + 1);
+  el.innerHTML = `<div class="rhead"><b>Found in the full text</b><span>Searching every Act, rule, direction and judgment…</span></div>`;
+  const R = await sxSearch(raw); if (el._sx !== tokn) return;
+  if (!R) { el.innerHTML = ""; return; }
+  const Q = R.Q, here = opts.here || "", seen = new Set(R.docs.filter(g => g.doc[0] === here).map(g => g.doc[1]));
+  const docs = R.docs.filter(g => g.doc[0] === here || (!seen.has(g.doc[1]) && seen.add(g.doc[1])));
+  const mine = docs.filter(g => g.doc[0] === here), rest = docs.filter(g => g.doc[0] !== here);
+  const lim = opts.compact ? 5 : 12, show = opts.compact ? R.docs.slice(0, lim) : [...mine.slice(0, lim), ...rest.slice(0, here ? 6 : lim)];
+  if (opts.skipHere && !rest.length) { el.innerHTML = ""; return; }
+  if (!R.docs.length) { el.innerHTML = `<div class="rhead"><b>Found in the full text</b><span>No passage contains these words.</span></div>`; return; }
+  const secCount = {}; R.docs.forEach(g => secCount[g.doc[0]] = (secCount[g.doc[0]] || 0) + g.ps.length);
+  await Promise.all(show.map(g => sxPassage(g.ps[0].i))); if (el._sx !== tokn) return;
+  const item = async (g) => {
+    const [, chap, para, txt] = await sxPassage(g.ps[0].i) || [0, "", "", ""];
+    const more = g.ps.length - 1, d = g.doc;
+    return `<div class="res sx" data-d="${g.d}"><a class="t" href="${sxHref(SX.root, d)}">${esc(d[2])}</a> ${d[3] ? '<span class="pill p-old">Superseded</span>' : ""}
+      <div class="m">${SX_NAME[d[0]] || d[0]}<span class="sep"></span>${esc(sxWhere(d, chap, para))}${g.ps[0].exact ? '<span class="sep"></span>Exact phrase' : ""}</div>
+      <div class="s">${sxHl(sxSnippet(txt, Q), Q)}</div>
+      <div class="sxa"><button class="lnk" type="button" data-read="${g.ps[0].i}">Read passage</button>${more ? `<button class="lnk" type="button" data-more="${g.d}">${more} more passage${more > 1 ? "s" : ""} in this document</button>` : ""}</div></div>`;
+  };
+  const head = (t, extra) => opts.compact ? `<div class="rhead"><b>${t}</b><span>${extra}</span></div>` : `<h3 style="font-size:19px">${t}</h3><p class="tag" style="margin:4px 0 8px">${extra}</p>`;
+  const summary = `${R.n} passage${R.n === 1 ? "" : "s"} in ${R.docs.length} document${R.docs.length === 1 ? "" : "s"}${R.exactN && Q.phrase ? ` · ${R.exactN} with the exact phrase` : ""}${R.partial ? " · no passage has every word, closest matches shown" : ""}`;
+  let h = "";
+  if (opts.compact) h = head("Found in the full text", summary) + (await Promise.all(show.map(item))).join("");
+  else {
+    h = head("Found in the full text", summary);
+    if (here) {
+      const m1 = show.filter(g => g.doc[0] === here), r1 = show.filter(g => g.doc[0] !== here);
+      if (opts.skipHere) h = head("Also in the regulations", `${rest.reduce((a, g) => a + g.ps.length, 0)} passages in ${rest.length} documents`);
+      else h += m1.length ? `<div class="card sxc">${(await Promise.all(m1.map(item))).join("")}</div>` : `<p class="empty" style="padding:6px 0">Nothing in ${SX_NAME[here] || "this section"}'s full texts.</p>`;
+      if (r1.length) {
+        const others = Object.keys(secCount).filter(k => k !== here).map(k => `<a class="chip" href="${k === "judgments" ? SX.root + "judgments/" : SX.root + k + "/"}#search/${encodeURIComponent(raw)}">${SX_NAME[k] || k} · ${secCount[k]}</a>`).join("");
+        h += `${opts.skipHere ? "" : '<h3 style="font-size:17px;margin-top:20px">In other sections</h3>'}<div class="filter" style="margin:8px 0">${others}</div><div class="card sxc">${(await Promise.all(r1.map(item))).join("")}</div>`;
+      }
+    } else h += `<div class="card sxc">${(await Promise.all(show.map(item))).join("")}</div>`;
+  }
+  if (el._sx !== tokn) return;
+  el.innerHTML = h;
+  el.onclick = async e => {
+    const rb = e.target.closest("[data-read]"), mb = e.target.closest("[data-more]");
+    if (rb) {
+      e.preventDefault(); e.stopPropagation();
+      const box = rb.closest(".res"), open = box.querySelector(".sxp");
+      if (open) { open.remove(); rb.textContent = "Read passage"; return; }
+      const i = +rb.dataset.read, p = await sxPassage(i); if (!p) return; const d = SX.meta.docs[p[0]];
+      const div = document.createElement("div"); div.className = "sxp";
+      div.innerHTML = `<div class="m" style="margin-bottom:6px">${esc(sxWhere(d, p[1], p[2]))}</div><div class="sxt">${sxHl(p[3], Q)}</div><div class="sxa"><a class="lnk" href="${sxHref(SX.root, d)}">Open ${d[0] === "judgments" ? "the judgment summary" : "the instrument page"} →</a>${d[4] ? `<a class="lnk" href="${esc(d[4])}" target="_blank" rel="noopener">Official source ↗</a>` : ""}</div>`;
+      rb.closest(".sxa").after(div); rb.textContent = "Close passage";
+    } else if (mb) {
+      e.preventDefault(); e.stopPropagation();
+      const g = R.docs.find(x => x.d === +mb.dataset.more); if (!g) return;
+      const extra = g.ps.slice(1, 13), ps = await Promise.all(extra.map(p => sxPassage(p.i)));
+      const box = document.createElement("div"); box.className = "sxmore";
+      box.innerHTML = ps.map((p, k) => p ? `<div class="sxm"><div class="m">${esc(sxWhere(g.doc, p[1], p[2]))}${extra[k].exact ? '<span class="sep"></span>Exact phrase' : ""}</div><div class="s">${sxHl(sxSnippet(p[3], Q, 240), Q)}</div><div class="sxa"><button class="lnk" type="button" data-read="${extra[k].i}">Read passage</button></div></div>` : "").join("") + (g.ps.length > 13 ? `<div class="m" style="padding:6px 0">and ${g.ps.length - 13} more</div>` : "");
+      mb.closest(".sxa").after(box); mb.remove();
+    }
+  };
 }
 
 /* ---------- Not So Intelligent AI ---------- */

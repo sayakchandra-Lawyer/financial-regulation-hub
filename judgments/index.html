@@ -101,12 +101,13 @@
       ${chips(key ? "s/" + key : "all")}<div class="card" style="padding:4px 18px">${js.map(j => row(j)).join("") || '<p class="empty">No judgments yet.</p>'}</div></div>`;
   }
   function vSearch(raw){
+    setTimeout(() => sxMount($("#sxres"), raw, { root: "../", here: "judgments", skipHere: true }), 0);
     const words = raw.toLowerCase().split(/\s+/).filter(w => w.length > 1);
     const hay = j => [j.title, j.topic, j.issue, ...j.holding, ...j.impact, ...j.statutes, j.case_no, j.neutral_citation, j.report_citation, j.court, ...j.sectors.map(k => SI[k].name), ...j.links.map(l => l.label)].join(" ").toLowerCase();
     const score = j => { const h = hay(j), t = (j.title + " " + j.topic).toLowerCase(); return words.reduce((a, w) => a + (h.includes(w) ? 1 + (t.includes(w) ? 2 : 0) : -100), 0); };
     const hits = ALL.map(j => [j, score(j)]).filter(x => x[1] > 0).sort((a, b) => b[1] - a[1]).map(x => x[0]);
     return `<div class="pg" style="margin-top:28px"><h2>Results for “${esc(raw)}”</h2><p class="tag" style="margin:0">${hits.length} judgment${hits.length === 1 ? "" : "s"}</p>
-      <div class="card" style="padding:4px 18px;margin-top:14px">${hits.map(j => row(j)).join("") || `<p class="empty">No judgment matches every word. Try fewer words, or <a class="lnk" href="#all">browse all judgments</a>.</p>`}</div></div>`;
+      <div class="card" style="padding:4px 18px;margin-top:14px">${hits.map(j => row(j)).join("") || `<p class="empty">No judgment matches every word. Try fewer words, or <a class="lnk" href="#all">browse all judgments</a>.</p>`}</div><div id="sxres" style="margin-top:28px"></div></div>`;
   }
   function vJudgment(id){
     const j = byId.get(id); if (!j) return `<p class="empty" style="margin-top:28px">Judgment not found. <a class="lnk" href="#all">See all judgments</a></p>`;

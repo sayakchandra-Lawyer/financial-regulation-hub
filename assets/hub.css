@@ -114,3 +114,11 @@ select.chip{appearance:none;padding-right:28px;background:var(--surface) url("da
 #judge header .iconbtn+.iconbtn{margin-left:-4px}
 @media (max-width:700px){#jfab.wide .jtag{max-width:0;margin:0}#jfab{right:12px;bottom:12px}#jfab .jsvg{width:48px;height:48px}#judge,#judge.max{right:8px;left:8px;width:auto;bottom:76px;height:min(72vh,580px)}#jmax{display:none}}
 @media (prefers-reduced-motion:reduce){*,*:before{animation:none!important;transition:none!important}}
+/* whole-site full-text results */
+.res.sx{cursor:default}.res.sx .t{color:var(--ink);text-decoration:none}.res.sx .t:hover{text-decoration:underline}
+.sxa{display:flex;gap:16px;flex-wrap:wrap;margin-top:8px;font-size:13px}
+.sxp{margin-top:10px;padding:12px 14px;background:var(--surface-2);border:1px solid var(--line);border-radius:10px}
+.sxt{white-space:pre-wrap;font-size:14px;line-height:1.65;max-height:440px;overflow:auto;color:var(--ink)}
+.sxt mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;border-radius:3px;padding:0 2px}
+.sxm{margin-top:10px;padding-left:12px;border-left:2px solid var(--line)}
+.sxc{overflow:hidden;margin-top:8px}
