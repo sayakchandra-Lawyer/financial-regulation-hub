@@ -1959,6 +1959,678 @@
     "def": "shall mean an accredited investor as covered under the circular titled `Accredited Investors in IFSC' dated January 25, 2024, as amended; a professional client as covered under the IFSCA Banking Handbook, as amended; or a corporate policy holder;",
     "scope": ""
    }
+  ],
+  "REG-MII": [
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of section 4 of the IFSCA Act;",
+    "scope": ""
+   },
+   {
+    "term": "clearing member",
+    "para": "definitions clause",
+    "def": "means a person having clearing rights in any recognised clearing corporation;",
+    "scope": ""
+   },
+   {
+    "term": "Depositories Act",
+    "para": "definitions clause",
+    "def": "means the Depositories Act, 1996 (22 of 1996);",
+    "scope": ""
+   },
+   {
+    "term": "Foreign Jurisdiction",
+    "para": "definitions clause",
+    "def": "means a country, other than India, whose securities market regulator is a signatory to International Organization of Securities Commission's Multilateral Memorandum of Understanding (Appendix A signatories) or a signatory to bilateral Memorandum of Understanding with the Authority, and which is not identified in the public statement of Financial Action Task Force as: i. a jurisdiction having a strategic…",
+    "scope": ""
+   },
+   {
+    "term": "governing board",
+    "para": "definitions clause",
+    "def": "means the board of directors of a recognised stock exchange, a recognised clearing corporation or a recognised depository;",
+    "scope": ""
+   },
+   {
+    "term": "IFSCA Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority",
+    "scope": ""
+   },
+   {
+    "term": "netting",
+    "para": "definitions clause",
+    "def": "means the determination by clearing corporation of net payment or delivery obligations of the clearing members of a clearing corporation by setting off or adjustment of the inter-se obligations or claims arising out of buying and selling of securities, including the claims and obligations arising out of the determination by the clearing corporation or stock exchange, on the insolvency, winding-up, liquidation or…",
+    "scope": ""
+   },
+   {
+    "term": "novation",
+    "para": "definitions clause",
+    "def": "means the act of one or more recognised clearing corporations interposing between the parties of every trade, so as to be a legal counterparty;",
+    "scope": ""
+   },
+   {
+    "term": "recognised clearing corporation",
+    "para": "definitions clause",
+    "def": "means a clearing corporation in an IFSC recognised by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "recognised depository",
+    "para": "definitions clause",
+    "def": "means a depository in an IFSC recognised by the \"(j) \"key management personnel\" includes a person serving as head of any department or in such senior executive position that stands higher in hierarchy to the head(s) of the department(s) in the recognised market infrastructure institution, or any person who directly reports to chief executive officer or to the director on the governing board of the recognised…",
+    "scope": ""
+   },
+   {
+    "term": "recognised market infrastructure institution",
+    "para": "definitions clause",
+    "def": "means a recognised stock exchange, a recognised clearing corporation or a recognised depository;",
+    "scope": ""
+   },
+   {
+    "term": "recognised stock exchange",
+    "para": "definitions clause",
+    "def": "means a stock exchange in an IFSC recognised by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "rules",
+    "para": "definitions clause",
+    "def": "means the Securities Contracts (Regulations) Rules, 1957;",
+    "scope": ""
+   },
+   {
+    "term": "SCRA",
+    "para": "definitions clause",
+    "def": "means the Securities Contracts (Regulation) Act, 1956 (42 of",
+    "scope": ""
+   },
+   {
+    "term": "SEBI",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Securities and Exchange Board of India Act, 1992;",
+    "scope": ""
+   }
+  ],
+  "REG-PSR": [
+   {
+    "term": "account issuance service",
+    "para": "definitions clause",
+    "def": "means any of the following services: i. the service of issuing a payment account to a payment service user; ii. the service required for operating a payment account, and includes:",
+    "scope": ""
+   },
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of 2019);",
+    "scope": ""
+   },
+   {
+    "term": "agent",
+    "para": "definitions clause",
+    "def": "means any person who acts on behalf of a payment service provider in relation to the payment services provided by him;",
+    "scope": ""
+   },
+   {
+    "term": "applicable funds",
+    "para": "definitions clause",
+    "def": "means- i. funds received by a payment service provider from, or for the benefit of, a payment service user for the execution of a payment transaction; and 1 Vide Notification No. IFSCA/GN/2024/001, dated 29th January, 2024 published in the Gazette of India, Extraordinary, Part III, Sec.4, vide No. 66, dated 29th January, 2024 (w.e.f. 30.01.2024). ii. funds received by a payment service provider from another…",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of Section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "certificate of authorisation",
+    "para": "definitions clause",
+    "def": "means the certificate containing the details of the authorisation granted by the Authority to a payment service provider under regulation 10;",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions clause",
+    "def": "means a company as defined in sub-section 20 of section 2 of the Companies",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "definitions clause",
+    "def": "means control as defined in sub-section 27 of section 2 of the Companies Act,",
+    "scope": ""
+   },
+   {
+    "term": "crossborder money transfer service",
+    "para": "definitions clause",
+    "def": "means either of the following services: i. accepting money from a person in IFSC, whether as principal or agent, for the purpose of transmitting, or arranging for the transmission of, the money to any person outside IFSC; ii. receiving money from a person outside IFSC or arranging for the receipt of money from a person outside IFSC whether as principal or agent, for the purpose of transmitting or arranging for…",
+    "scope": ""
+   },
+   {
+    "term": "emoney",
+    "para": "definitions clause",
+    "def": "means any electronically stored monetary value that -- i. is denominated in any specified foreign currency; ii. has been paid for in advance to enable the making of payment transactions through the use of a payment account; iii. is accepted by a person other than its issuer; and iv. represents a claim on its issuer.",
+    "scope": ""
+   },
+   {
+    "term": "e-money issuance service",
+    "para": "definitions clause",
+    "def": "means the service of issuing e-money to a payment service user for the purpose of allowing a payment service user to make payment transactions;",
+    "scope": ""
+   },
+   {
+    "term": "group entities",
+    "para": "definitions clause",
+    "def": "means an arrangement involving two or more entities related to each other through any of the following relationships: (i) subsidiary - parent (as defined in Ind-AS 110/Accounting Standard 21); (ii) joint venture (as defined in Ind-AS 28/Accounting 2 Substituted vide Notification No. IFSCA/GN/2024/002 dated 2nd April, 2024. Before substitution, it stood as under: \"(l) \"escrow service\" means the service provided by…",
+    "scope": ""
+   },
+   {
+    "term": "merchant",
+    "para": "definitions clause",
+    "def": "means and includes all persons, in or outside IFSC, who accept payments for goods and services provided by them, through electronic/online payment modes;",
+    "scope": ""
+   },
+   {
+    "term": "merchant acquisition service",
+    "para": "definitions clause",
+    "def": "means any service of accepting and processing a payment transaction for a merchant under an agreement between the payment service provider and the merchant, which results in a transfer of money to the merchant pursuant to the payment transaction, regardless of whether the payment service provider comes into possession of any money in respect of the payment transaction;",
+    "scope": ""
+   },
+   {
+    "term": "money",
+    "para": "definitions clause",
+    "def": "includes e-money but excludes virtual digital asset and any excluded digital representation of value as may be specified by the Authority.",
+    "scope": ""
+   },
+   {
+    "term": "nodal bank",
+    "para": "definitions clause",
+    "def": "means an IFSC Banking Unit (`IBU') or an IFSC Banking Company (`IBC') identified by a payment service provider for maintenance of security deposits, if so specified by the Authority, or for holding of funds in escrow account or for any other purposes.",
+    "scope": ""
+   },
+   {
+    "term": "nth-party service provider",
+    "para": "definitions clause",
+    "def": "means a service provider that is part of a third- party service provider's supply chain and supports the ultimate delivery of services to one or more payment service providers;",
+    "scope": ""
+   },
+   {
+    "term": "payment account",
+    "para": "definitions clause",
+    "def": "means an account or facility (either in physical or electronic form) held in the name of one or more payment service users and is used for initiation of a payment order or execution of payment transactions or both;",
+    "scope": ""
+   },
+   {
+    "term": "payment instrument",
+    "para": "definitions clause",
+    "def": "means any written direction, personalised device or set of procedures through which a payment service user initiates a payment order;",
+    "scope": ""
+   },
+   {
+    "term": "payment order",
+    "para": "definitions clause",
+    "def": "means any instruction by a payment service user to the payment service provider requesting the execution of a payment transaction;",
+    "scope": ""
+   },
+   {
+    "term": "payment services",
+    "para": "definitions clause",
+    "def": "means any of the activities that is specified in Part A of Schedule I of these regulations but does not include activities specified in Part B of Schedule I of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "payment service provider",
+    "para": "definitions clause",
+    "def": "means a company authorised by the Authority, under these regulations, to provide one or more of the Payment Services;",
+    "scope": ""
+   },
+   {
+    "term": "payment service user",
+    "para": "definitions clause",
+    "def": "means any person, in IFSC or outside IFSC, that makes use of a Payment Service provided by a Payment Service Provider in the capacity of a payer or a payee, or both;",
+    "scope": ""
+   },
+   {
+    "term": "payment transaction",
+    "para": "definitions clause",
+    "def": "means the act of placing, transfer or withdrawal of money, whether for the purpose of paying for goods or services or for any other purpose, with or without any underlying obligations between the payer and payee;",
+    "scope": ""
+   },
+   {
+    "term": "regular payment service provider",
+    "para": "definitions clause",
+    "def": "means a Payment Service Provider, authorised under regulation 10 of these regulations, other than significant payment service provider;",
+    "scope": ""
+   },
+   {
+    "term": "safeguarding institution",
+    "para": "definitions clause",
+    "def": "means an IFSC Banking Unit (`IBU') or an IFSC Banking Company (`IBC'), as defined in clause (ec) and (eb), respectively, of sub-regulation (1) of regulation 2 of the International Financial Services Centres (Banking) Regulations, 2020.",
+    "scope": ""
+   },
+   {
+    "term": "significant payment service provider",
+    "para": "definitions clause",
+    "def": "means any Payment Service Provider, who is designated as such under sub-regulation 4 of regulation 4 of these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "specified foreign currency",
+    "para": "definitions clause",
+    "def": "means the currencies specified in the First Schedule of the International Financial Services Centres Authority (Banking) Regulations, 2020 or any other regulation issued by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "subsidiary",
+    "para": "definitions clause",
+    "def": "means a company as defined in sub-section 87of section 2 of the Companies",
+    "scope": ""
+   },
+   {
+    "term": "third-party service provider",
+    "para": "definitions clause",
+    "def": "means any person that provides services to one or more Payment Service Provider either directly or indirectly as part of the supply chain of another service provider;",
+    "scope": ""
+   },
+   {
+    "term": "third-party service relationship",
+    "para": "definitions clause",
+    "def": "means a formal arrangement for the provision of one or more services, or parts thereof, in the form of activities, functions, processes and tasks, to a Payment Service Provider by a third party including:",
+    "scope": ""
+   }
+  ],
+  "REG-BULLION": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub- section (1) of section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "bullion",
+    "para": "definitions clause",
+    "def": "means precious metals including gold, silver or any other precious metal in the form of bars or unallocated gold, silver, or such other precious metals, as the Authority may consider relevant in this regard, relating to good delivery, quality, quantity, and any other aspect in relation to bullion trading, from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "bullion clearing corporation",
+    "para": "definitions clause",
+    "def": "means an entity which has been granted recognition under these regulations to undertake the activity of clearing and settlement of trades on a bullion exchange;",
+    "scope": ""
+   },
+   {
+    "term": "bullion clearing member",
+    "para": "definitions clause",
+    "def": "means an entity having clearing rights in any bullion clearing corporation and as such registered by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "bullion contract",
+    "para": "definitions clause",
+    "def": "means a contract for the purchase and sale of bullion, and includes bullion depository receipts, bullion products similar to bullion depository receipts, derivative contracts related to bullion, bullion spot delivery contracts and any other bullion related contracts, as may be permitted by the Authority;",
+    "scope": ""
+   },
+   {
+    "term": "bullion depository",
+    "para": "definitions clause",
+    "def": "means an entity undertaking depository business in relation to securities including bullion depository receipts in an International Financial Services Centre and regulated by the Authority.;",
+    "scope": ""
+   },
+   {
+    "term": "bullion exchange",
+    "para": "definitions clause",
+    "def": "means an entity which has been granted recognition by the Authority for the purpose of assisting, regulating or controlling the business of buying, selling and dealing of bullion depository receipts and derivative contracts on bullion in an International Financial Services Centre;",
+    "scope": ""
+   },
+   {
+    "term": "bullion market",
+    "para": "definitions clause",
+    "def": "includes the bullion exchanges, bullion clearing corporations, bullion depositories, vaults, bullion contracts dealt therein, and any other entities connected thereto;",
+    "scope": ""
+   },
+   {
+    "term": "bullion trading member",
+    "para": "definitions clause",
+    "def": "means an entity having trading rights in a bullion exchange;",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "definitions clause",
+    "def": "includes the right to appoint majority of the directors or to control the management or policy decisions exercisable by a person or persons acting individually or in concert, directly or indirectly, including by virtue of their shareholding or management rights or shareholders agreements or voting agreements or in any other manner. Provided that a director or officer of a target company shall not be considered to…",
+    "scope": ""
+   },
+   {
+    "term": "foreign jurisdiction",
+    "para": "definitions clause",
+    "def": "means a country, other than India, whose securities market regulator is a signatory to International Organization of Securities Commission's Multilateral Memorandum of Understanding (Appendix A signatories) or a signatory to bilateral Memorandum of Understanding with the Authority, and which is not identified in the public statement of Financial Action Task Force as:",
+    "scope": ""
+   },
+   {
+    "term": "good delivery standard",
+    "para": "definitions clause",
+    "def": "means the quality or standard of bullion as notified by the Authority or any other entity as may be specified by the Authority or the bullion exchange;",
+    "scope": ""
+   },
+   {
+    "term": "governing board",
+    "para": "definitions clause",
+    "def": "means the board of directors of a bullion exchange or a bullion clearing corporation or a bullion depository;",
+    "scope": ""
+   },
+   {
+    "term": "netting",
+    "para": "definitions clause",
+    "def": "means the determination by bullion clearing corporation of net payment or delivery obligations of the bullion clearing members by setting off or adjustment of the inter se obligations or claims arising out of buying and selling of securities traded on bullion exchange, including the claims and obligations arising out of the determination by the bullion clearing corporation or bullion exchange, on the insolvency,…",
+    "scope": ""
+   },
+   {
+    "term": "net worth",
+    "para": "definitions clause",
+    "def": "means the aggregate value of paid up equity share capital plus share premium account and free reserves (excluding statutory funds, benefit funds and reserves created out of revaluation) reduced by the investments in businesses, whether related or unrelated, aggregate value of accumulated losses and deferred expenditure not written off, including miscellaneous expenses not written off;",
+    "scope": ""
+   },
+   {
+    "term": "non-independent director",
+    "para": "definitions clause",
+    "def": "means a director elected or nominated by the shareholders who is neither a bullion trading member nor bullion clearing member, as the case may be, or their associates or agents;",
+    "scope": ""
+   },
+   {
+    "term": "novation",
+    "para": "definitions clause",
+    "def": "means the act of bullion clearing corporation interposing itself between the parties of every trade, as a legal counterparty;",
+    "scope": ""
+   },
+   {
+    "term": "participant",
+    "para": "definitions clause",
+    "def": "means a bullion depository participant registered as such under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "public",
+    "para": "definitions clause",
+    "def": "includes any member or section of the public but does not include any bullion trading member or bullion clearing member or their associates or agents;",
+    "scope": ""
+   },
+   {
+    "term": "public interest director",
+    "para": "definitions clause",
+    "def": "means an independent director representing the interest of investors or traders or customers of securities traded on bullion exchange and who does not have any association, directly or indirectly, which in the opinion of the Authority, is in conflict with her role;",
+    "scope": ""
+   },
+   {
+    "term": "rules",
+    "para": "definitions clause",
+    "def": "means the Securities Contracts (Regulations) Rules, 1957;",
+    "scope": ""
+   },
+   {
+    "term": "vault",
+    "para": "definitions clause",
+    "def": "means any permitted premises wherein the vault manager takes custody of the bullion deposited by the depositor and includes such other place as may be permitted by the Authority, for storage of bullion;",
+    "scope": ""
+   },
+   {
+    "term": "vaulting business",
+    "para": "definitions clause",
+    "def": "means the business of establishing and maintaining vaults for storage of bullion;",
+    "scope": ""
+   },
+   {
+    "term": "vault manager",
+    "para": "definitions clause",
+    "def": "means an entity registered with the Authority for managing the vault and is empanelled with the bullion depository for carrying out the vaulting business.",
+    "scope": ""
+   }
+  ],
+  "REG-TECHFIN": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act,",
+    "scope": ""
+   },
+   {
+    "term": "Ancillary Services",
+    "para": "definitions clause",
+    "def": "means those services which, directly or indirectly, aid, help or assist in making arrangements for carrying on any of the financial services listed in sub-clauses (i) to (xi) of clause (e) of sub- section (1) of section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Group Entities",
+    "para": "definitions clause",
+    "def": "includes an arrangement involving two or more entities related to each other through any of the following relationships:",
+    "scope": ""
+   },
+   {
+    "term": "Inspecting Authority",
+    "para": "definitions clause",
+    "def": "means one or more persons appointed by the Authority to undertake inspection of a TechFin and Ancillary Service Provider; \"Intermediaries\", for the purposes of these regulations, refers to entities that obtain services from a TechFin and Ancillary Services Provider for delivering services to a Service Recipient directly without any layers: -",
+    "scope": ""
+   },
+   {
+    "term": "Non-resident",
+    "para": "definitions clause",
+    "def": "means a `person resident outside India' as defined under the Foreign Exchange Management Act, 1999 (42 of 1999) and shall also include financial institutions in an International Financial Service Centre;",
+    "scope": ""
+   },
+   {
+    "term": "Resident",
+    "para": "definitions clause",
+    "def": "means a `person resident in India' as defined under the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "Service Recipient",
+    "para": "definitions clause",
+    "def": "means an entity that receives services, directly from TechFin and Ancillary Service Provider or through an Intermediary for the purpose of carrying on any of the financial services listed in sub-clauses (i) to (xi) of clause (e) of sub-section (1) of Section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "Single Window IT Systems (SWIT)",
+    "para": "definitions clause",
+    "def": "refers to an online platform specified by the Authority, to facilitate the processing of applications submitted by the applicants for obtaining certificate of registration under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Specified Foreign Currency",
+    "para": "definitions clause",
+    "def": "means the currencies specified in the First Schedule of the International Financial Services Centres Authority (Banking) Regulations, 2020, as amended from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "TechFin and Ancillary Service Provider",
+    "para": "definitions clause",
+    "def": "means an entity which has been granted registration under these regulations for providing one or more (xiv). of the Ancillary Services or TechFin Services, specified in the First and Second Schedule, respectively, directly or indirectly, to aid, help or assist in making arrangements for carrying on any of the financial services listed in sub-clauses (i) to (xi) of clause (e) of sub-section (1) of Section 3 of the",
+    "scope": ""
+   },
+   {
+    "term": "TechFin Services",
+    "para": "definitions clause",
+    "def": "means technology solutions or services provided, directly or indirectly, to aid, help or assist in making arrangements for carrying on any of the financial services listed in sub- clauses (i) to (xi) of clause (e) of sub-section (1) of Section 3 of the Act.",
+    "scope": ""
+   },
+   {
+    "term": "Trust and Company Services Provider or TCSP",
+    "para": "definitions clause",
+    "def": "means an entity which has been granted registration as Tech Fin and Ancillary Services Provider under these regulations to undertake Trust and Company Services Provider services for leasing activities permitted by the Authority. 10 B. Obligation to seek registration",
+    "scope": ""
+   }
+  ],
+  "REG-GIC": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of 2019);",
+    "scope": ""
+   },
+   {
+    "term": "Authority",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section",
+    "scope": ""
+   },
+   {
+    "term": "Global-In-House Centre (GIC)",
+    "para": "definitions clause",
+    "def": "means a service provided by a GIC Unit for delivering services relating to financial products and financial services to a Financial Institution Group;",
+    "scope": ""
+   },
+   {
+    "term": "Global-In-House Centre Unit (GIC Unit)",
+    "para": "definitions clause",
+    "def": "means a unit set up in International Financial Services Centre by an entity of a Financial Institution Group, either directly or through a third party service provider, and registered under these regulations for undertaking the activities of Global In-House Centres under any of the operating models, viz Captive Centre, Build-Operate-Transfer, Joint Venture, Hybrid or any other model as may be permitted by the…",
+    "scope": ""
+   },
+   {
+    "term": "Financial Institution Group",
+    "para": "definitions clause",
+    "def": "means entity(ies) of a group engaged in providing financial services or carrying out financial activities, including but not limited to banks, non-banking financial companies, financial intermediaries, investment banks, insurance companies, re-insurance companies, actuaries, brokerage firms, funds, stock exchanges, clearing corporations, depositories, custodians, and any other similar financial institutions: For…",
+    "scope": ""
+   },
+   {
+    "term": "Inspecting Authority",
+    "para": "definitions clause",
+    "def": "means one or more persons appointed by the Authority to undertake inspection of a GIC Unit;",
+    "scope": ""
+   },
+   {
+    "term": "Non-resident",
+    "para": "definitions clause",
+    "def": "means a `person resident outside India' under the Foreign Exchange Management Act, 1999 (42 of 1999) and shall also include financial institutions in an International Financial Service Centre;",
+    "scope": ""
+   },
+   {
+    "term": "Resident",
+    "para": "definitions clause",
+    "def": "means a `person resident in India' as defined under the Foreign Exchange Management Act,",
+    "scope": ""
+   },
+   {
+    "term": "Single Window IT Systems (SWIT)",
+    "para": "definitions clause",
+    "def": "refers to an online platform designed, inter-alia, to facilitate the processing of applications submitted by the applicants for obtaining Certificate of Registration under these regulations;",
+    "scope": ""
+   },
+   {
+    "term": "Specified Foreign Currency",
+    "para": "definitions clause",
+    "def": "means the currencies specified in the First Schedule of the International Financial Services Centres Authority (Banking) Regulations, 2020, as amended from time to time.",
+    "scope": ""
+   }
+  ],
+  "REG-REINS": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority Act, 2019 (50 of 2019);",
+    "scope": ""
+   },
+   {
+    "term": "Alternate Risk Transfer' or `ART",
+    "para": "definitions clause",
+    "def": "means non-traditional structured re-insurance solutions tailored to suit specific needs and profile of an IIO, Indian insurer, foreign insurer or foreign re- insurer;",
+    "scope": ""
+   },
+   {
+    "term": "Authority' or `IFSCA",
+    "para": "definitions clause",
+    "def": "means the International Financial Services Centres Authority established under sub-section (1) of Section 4 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "board",
+    "para": "definitions clause",
+    "def": "means the board of directors of an IIO; or the Board of the Parent Entity of an IIO, in case the IIO is in an unincorporated form;",
+    "scope": ""
+   },
+   {
+    "term": "cedant",
+    "para": "definitions clause",
+    "def": "means an IIO who underwrites direct insurance business and contractually cedes a part of its risk to a re-insurer;",
+    "scope": ""
+   },
+   {
+    "term": "cession",
+    "para": "definitions clause",
+    "def": "means the part of risk passed to a re-insurer by the cedant;",
+    "scope": ""
+   },
+   {
+    "term": "cover note",
+    "para": "definitions clause",
+    "def": "means a written document, detailing the terms and conditions of the re-insurance contract, issued by a re-insurer, composite or re-insurance broker authorised by the re-insurer to the cedant or retrocessionaire;",
+    "scope": ""
+   },
+   {
+    "term": "Domestic Tariff Area' or `DTA",
+    "para": "definitions clause",
+    "def": "means the whole of India (including the territorial waters and continental shelf) but does not include the areas of the Special Economic Zones established under The Special Economic Zones Act, 2005 (28 of 2005);",
+    "scope": ""
+   },
+   {
+    "term": "fronting",
+    "para": "definitions clause",
+    "def": "means a process of transferring risk in which an IIO cedes or retro-cedes most or all of the assumed risk to a re-insurer or retrocessionaire;",
+    "scope": ""
+   },
+   {
+    "term": "insurance pool",
+    "para": "definitions clause",
+    "def": "means a joint underwriting operation of insurance or re-insurance business, in which the participating IIOs assume a predetermined share in all business written;",
+    "scope": ""
+   },
+   {
+    "term": "IRDAI",
+    "para": "definitions clause",
+    "def": "means The Insurance Regulatory and Development Authority of India constituted under the Insurance Regulatory and Development Authority Act, 1999 (41 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "re-insurance contract",
+    "para": "definitions clause",
+    "def": "refers to a commercial agreement which is legally binding on all the parties evidenced by a Re-insurance Slip or Cover Note or any other suitable document;",
+    "scope": ""
+   },
+   {
+    "term": "re-insurance slip",
+    "para": "definitions clause",
+    "def": "refers to a document which provides the abridged details of the risk, terms and conditions offered for re-insurance;",
+    "scope": ""
+   },
+   {
+    "term": "retention",
+    "para": "definitions clause",
+    "def": "means the portion of the risk which an IIO assumes for its own account;",
+    "scope": ""
+   },
+   {
+    "term": "retrocession",
+    "para": "definitions clause",
+    "def": "means a re-insurance transaction whereby a part of assumed re-insured risk is further ceded to another re-insurer;",
+    "scope": ""
+   },
+   {
+    "term": "treaty",
+    "para": "definitions clause",
+    "def": "means a re-insurance contract between a cedant and a re-insurer, or between a re-insurer and a retrocessionairewhich stipulates the technical particulars and financial terms applicable to the re-insurance of defined class(es) or segment(s) of business; (2). Words and expressions used and not defined in these regulations but defined in the Act or Acts mentioned in the First Schedule to the Act or any rules,…",
+    "scope": ""
+   }
   ]
  }
 }

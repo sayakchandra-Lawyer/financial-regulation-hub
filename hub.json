@@ -714,6 +714,11 @@
      "slug": "operations"
     },
     {
+     "theme": "Market infrastructure, payments, bullion and service providers",
+     "nice": "Infrastructure, payments and services",
+     "slug": "other"
+    },
+    {
      "theme": "Superseded (history)",
      "nice": "Superseded (history)",
      "slug": "history",

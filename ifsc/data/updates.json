@@ -42,8 +42,9 @@
    "effective": "2026-11-25",
    "applies": "All regulated entities, including systems run for them by the parent or third parties.",
    "changes": [
-    "Comply with CERT-In advisories and vulnerability notes.",
-    "Keep a mechanism to track them, assess them promptly and put countermeasures in place."
+    "Comply with CERT-In advisories and vulnerability notes, including for systems run by the parent or vendors.",
+    "Set up a tracking mechanism within 30 days; assessment and patching duties apply to advisories issued from 25-11-2026.",
+    "Reminds entities that CERT-In's own directions (6-hour incident reporting, 180-day logs) apply independently."
    ],
    "impact": {
     "ibu": {
@@ -273,12 +274,12 @@
    "title": "IFSCA (Managing General Agents) Regulations, 2026",
    "ref": "Notified 08-06-2026",
    "instrument": "REG-MGA",
-   "effective": "2026-06-08",
+   "effective": "2026-06-12",
    "applies": "Managing general agents acting from the IFSC for foreign insurers.",
    "changes": [
     "Foreign insurer net worth of at least USD 100 million.",
-    "MGA net worth USD 250,000 and a USD 500,000 deposit with an IBU.",
-    "Binding authority agreement, fiduciary premium accounts and referral of claims above USD 10,000."
+    "MGA capital of USD 500,000 held with an IBU, net worth of USD 250,000 or 50% of capital, whichever is higher, and a lien-marked deposit of USD 10,000 plus 10% of the minimum capital.",
+    "Binding authority agreement, fiduciary premium accounts and referral of claims above USD 10,000 to the insurer."
    ],
    "impact": {
     "ins": {
@@ -287,7 +288,7 @@
     },
     "ibu": {
      "level": "Low",
-     "text": "IBUs may hold MGA deposits."
+     "text": "IBUs hold MGA capital and lien-marked deposits."
     }
    },
    "actions": [

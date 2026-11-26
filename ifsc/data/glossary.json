@@ -151,7 +151,7 @@
   {
    "term": "Owned fund",
    "full": "",
-   "def": "The capital a finance company must hold: for example USD 3 million for core activities and USD 0.2 million for a treasury centre or an aircraft or ship lessor.",
+   "def": "The capital a finance company must hold: for example USD 3 million for core activities (including financial leasing) and USD 0.2 million for a treasury centre or an operating lessor of aircraft or ships.",
    "see": [
     "REG-FC",
     "CIR-GRCTC",
@@ -340,7 +340,7 @@
   {
    "term": "MGA",
    "full": "Managing General Agent",
-   "def": "An agent that underwrites and binds insurance from the IFSC on behalf of a foreign insurer under a binding authority agreement.",
+   "def": "An agent that underwrites and binds insurance from the IFSC on behalf of a foreign insurer under a binding authority agreement. It keeps USD 500,000 of capital with an IBU.",
    "see": [
     "REG-MGA"
    ],

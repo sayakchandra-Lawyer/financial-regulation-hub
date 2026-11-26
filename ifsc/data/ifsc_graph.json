@@ -2,8 +2,8 @@
  "meta": {
   "title": "IFSC (GIFT City) rules for financial institutions",
   "as_of": "2026-11-26",
-  "count": 51,
-  "in_force": 46,
+  "count": 57,
+  "in_force": 52,
   "lenses": [
    {
     "id": "ENT-IBU",
@@ -532,6 +532,72 @@
    "status": "In force",
    "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
    "issue_date": "2026-08-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-MII",
+   "label": "IFSCA (Market Infrastructure Institutions) Regulations, 2021",
+   "title": "IFSCA (Market Infrastructure Institutions) Regulations, 2021 (as amended up to 01-11-2024)",
+   "group": "Market infrastructure, payments, bullion and service providers",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2021-04-12",
+   "updated_as_on": "2024-11-01"
+  },
+  {
+   "id": "REG-PSR",
+   "label": "IFSCA (Payment Services) Regulations, 2024",
+   "title": "IFSCA (Payment Services) Regulations, 2024 (consolidated)",
+   "group": "Market infrastructure, payments, bullion and service providers",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2024-01-29",
+   "updated_as_on": "2024-04-02"
+  },
+  {
+   "id": "REG-BULLION",
+   "label": "IFSCA (Bullion Market) Regulations, 2025",
+   "title": "IFSCA (Bullion Market) Regulations, 2025",
+   "group": "Market infrastructure, payments, bullion and service providers",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2025-02-04",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-TECHFIN",
+   "label": "IFSCA (TechFin and Ancillary Services) Regulations, 2025",
+   "title": "IFSCA (TechFin and Ancillary Services) Regulations, 2025 (with the 2026 amendment)",
+   "group": "Market infrastructure, payments, bullion and service providers",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2025-07-08",
+   "updated_as_on": "2026-05-12"
+  },
+  {
+   "id": "REG-GIC",
+   "label": "IFSCA (Global In-House Centres) Regulations, 2025",
+   "title": "IFSCA (Global In-House Centres) Regulations, 2025",
+   "group": "Market infrastructure, payments, bullion and service providers",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2025-12-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-REINS",
+   "label": "IFSCA (Re-insurance) Regulations, 2023",
+   "title": "IFSCA (Re-insurance) Regulations, 2023",
+   "group": "Insurance offices and intermediaries",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2023-04-11",
    "updated_as_on": "not stated"
   },
   {
@@ -1921,6 +1987,168 @@
   {
    "source": "CIR-SEZ-LOA",
    "target": "CIR-FEES",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-MII",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Stock exchanges, clearing corporations and depositories in the IFSC; their members and participants follow the rules and bye-laws these institutions make under them"
+  },
+  {
+   "source": "REG-MII",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-MII",
+   "target": "REG-CMI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-MII",
+   "target": "REG-LISTING",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PSR",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Companies providing payment services in or from the IFSC, such as cross-border money transfer, merchant acquisition, account issuance and e-money issuance"
+  },
+  {
+   "source": "REG-PSR",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Companies providing payment services in or from the IFSC, such as cross-border money transfer, merchant acquisition, account issuance and e-money issuance"
+  },
+  {
+   "source": "REG-PSR",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-PSR",
+   "target": "REG-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BULLION",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Bullion exchanges, bullion clearing corporations, vaults and bullion market intermediaries in the IFSC, and banks dealing on the bullion exchange"
+  },
+  {
+   "source": "REG-BULLION",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Bullion exchanges, bullion clearing corporations, vaults and bullion market intermediaries in the IFSC, and banks dealing on the bullion exchange"
+  },
+  {
+   "source": "REG-BULLION",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-BULLION",
+   "target": "REG-MII",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "TechFin and ancillary service providers in the IFSC, including Trust and Company Service Providers, legal, compliance, accounting and technology service providers serving IFSC entities"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "TechFin and ancillary service providers in the IFSC, including Trust and Company Service Providers, legal, compliance, accounting and technology service providers serving IFSC entities"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "TechFin and ancillary service providers in the IFSC, including Trust and Company Service Providers, legal, compliance, accounting and technology service providers serving IFSC entities"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "TechFin and ancillary service providers in the IFSC, including Trust and Company Service Providers, legal, compliance, accounting and technology service providers serving IFSC entities"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "TechFin and ancillary service providers in the IFSC, including Trust and Company Service Providers, legal, compliance, accounting and technology service providers serving IFSC entities"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "REG-FC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GIC",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Global in-house centres in the IFSC that provide services only to entities of their own financial services group"
+  },
+  {
+   "source": "REG-GIC",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Global in-house centres in the IFSC that provide services only to entities of their own financial services group"
+  },
+  {
+   "source": "REG-GIC",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Global in-house centres in the IFSC that provide services only to entities of their own financial services group"
+  },
+  {
+   "source": "REG-GIC",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-GIC",
+   "target": "CIR-CYBER",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-REINS",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "IIOs placing or accepting re-insurance and retrocession"
+  },
+  {
+   "source": "REG-REINS",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-REINS",
+   "target": "REG-INS-REG",
    "relation": "cross_references",
    "basis": "Named in the instrument"
   },
