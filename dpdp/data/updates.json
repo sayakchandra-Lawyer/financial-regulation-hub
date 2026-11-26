@@ -1,0 +1,205 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "window_from": "2025-11-13",
+  "window_to": "2026-11-26",
+  "entities": [
+   {
+    "key": "lender",
+    "name": "Banks, NBFCs and HFCs",
+    "profile": "Lenders and deposit takers handling customer, borrower and employee data."
+   },
+   {
+    "key": "insurer",
+    "name": "Insurers and insurance intermediaries",
+    "profile": "Life, general and health insurers, brokers, corporate agents, TPAs and web aggregators."
+   },
+   {
+    "key": "securities",
+    "name": "Securities market entities",
+    "profile": "Stock brokers, depository participants, AMCs, AIFs, registrars and market infrastructure."
+   },
+   {
+    "key": "sdf",
+    "name": "Significant Data Fiduciaries",
+    "profile": "Entities the Central Government notifies as significant because of the volume and sensitivity of their data."
+   },
+   {
+    "key": "processor",
+    "name": "Processors and vendors",
+    "profile": "Cloud, IT, KYC, collection, call centre and lending service providers acting for a regulated entity."
+   }
+  ]
+ },
+ "updates": [
+  {
+   "id": "U-2026-11-13-CM",
+   "date": "2026-11-13",
+   "kind": "Commencement",
+   "title": "Consent Manager registration opens under the DPDP Act",
+   "ref": "s. 6(9) and s. 27(1)(d) of the Act; rule 4 of the DPDP Rules, 2025",
+   "instrument": "T-CONSENT",
+   "effective": "2026-11-13",
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "applies": "Companies that want to register as Consent Managers, and Data Fiduciaries that plan to accept consent through them.",
+   "changes": [
+    "Rule 4 and the First Schedule apply from 13-11-2026: an Indian company with net worth of at least Rs 2 crore and an independently certified platform may apply to the Board.",
+    "The Board may inquire into a breach of a Consent Manager's registration conditions (s. 27(1)(d)).",
+    "The duties of Data Fiduciaries on notice, consent, security and breaches still start on 13-05-2027."
+   ],
+   "impact": {
+    "lender": {
+     "level": "Low",
+     "text": "Decide whether to onboard to Consent Manager platforms once they are registered."
+    },
+    "insurer": {
+     "level": "Low",
+     "text": "Same."
+    },
+    "securities": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Track which Consent Managers the Board registers and publishes on its website."
+   ]
+  },
+  {
+   "id": "U-2026-10-06-ROD",
+   "date": "2026-10-06",
+   "kind": "Order",
+   "title": "DPDP (Removal of Difficulties) Order, 2026 adjusts the wording of ss. 9(1) and 10(2)(c)(ii)",
+   "ref": "S.O. 5458(E) dated 05-10-2026",
+   "instrument": "ORD-ROD-2026",
+   "effective": "2026-10-06",
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "applies": "Data Fiduciaries processing data of children or persons with disability, and Significant Data Fiduciaries.",
+   "changes": [
+    "s. 9(1) now refers to the personal data of a child or of a person with disability who has a lawful guardian.",
+    "s. 10(2)(c)(ii) now requires a periodic data audit.",
+    "No change to the commencement dates."
+   ],
+   "impact": {
+    "lender": {
+     "level": "Low",
+     "text": "Read the amended wording when designing guardian consent flows."
+    },
+    "insurer": {
+     "level": "Low",
+     "text": "Same."
+    },
+    "sdf": {
+     "level": "Low",
+     "text": "The periodic audit is a data audit."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-05-06-BOARD",
+   "date": "2026-05-06",
+   "kind": "Notice",
+   "title": "Applications invited for the Chairperson and four Members of the Data Protection Board",
+   "ref": "MeitY vacancy circular of 06-05-2026",
+   "instrument": "NOT-BOARD",
+   "effective": "2026-05-06",
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "applies": "The Data Protection Board of India.",
+   "changes": [
+    "The Ministry invited applications for one Chairperson and four Members, with applications closing on 06-07-2026.",
+    "The Board was established on 13-11-2025 and its strength fixed at four Members besides the Chairperson; appointments are made on the recommendation of search-cum-selection committees under rule 17."
+   ],
+   "impact": {
+    "lender": {
+     "level": "Low",
+     "text": "No direct duty; the Board's inquiries and penalties begin on 13-05-2027."
+    },
+    "insurer": {
+     "level": "Low",
+     "text": "Same."
+    },
+    "securities": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2025-12-11-CORR",
+   "date": "2025-12-11",
+   "kind": "Corrigendum",
+   "title": "Corrigendum to the DPDP Rules, 2025",
+   "ref": "G.S.R. 892(E) dated 10-12-2025",
+   "instrument": "NOT-CORR",
+   "effective": "2025-12-11",
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "applies": "Readers of the DPDP Rules.",
+   "changes": [
+    "Corrects wording errors in the Rules as published. The commencement periods are unchanged."
+   ],
+   "impact": {
+    "lender": {
+     "level": "Low",
+     "text": "Use the corrected text."
+    },
+    "insurer": {
+     "level": "Low",
+     "text": "Same."
+    },
+    "securities": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2025-11-13-RULES",
+   "date": "2025-11-13",
+   "kind": "Rules and commencement",
+   "title": "DPDP Rules, 2025 notified; Act brought into force in three phases; Data Protection Board established",
+   "ref": "G.S.R. 843(E), 844(E), 845(E) and 846(E) dated 13-11-2025",
+   "instrument": "RULES-DPDP",
+   "effective": "2025-11-13",
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "applies": "Every Data Fiduciary, including banks, NBFCs, insurers, intermediaries and market entities, and their processors.",
+   "changes": [
+    "Phase 1 (13-11-2025): definitions, the Board, the rule-making and overriding provisions, and the RTI Act amendment; rules 1, 2 and 17 to 21.",
+    "Phase 2 (13-11-2026): Consent Manager registration (s. 6(9), rule 4).",
+    "Phase 3 (13-05-2027): notice, consent, legitimate uses, security, breach intimation, retention, children, Significant Data Fiduciaries, rights, transfers abroad, exemptions, Board inquiries and penalties; omission of IT Act s. 43A.",
+    "The Board is set up with its head office in the National Capital Region, and the number of its Members is fixed at four."
+   ],
+   "impact": {
+    "lender": {
+     "level": "High",
+     "text": "Eighteen months to build notices, consent flows, breach playbooks with a 72-hour Board report, retention and erasure, and rights handling."
+    },
+    "insurer": {
+     "level": "High",
+     "text": "Same, including proposal-form consent and intermediary contracts."
+    },
+    "securities": {
+     "level": "High",
+     "text": "Same, alongside the CSCRF incident and data localisation rules."
+    },
+    "sdf": {
+     "level": "High",
+     "text": "Prepare for a Data Protection Officer, independent data audits and yearly impact assessments if notified."
+    },
+    "processor": {
+     "level": "Medium",
+     "text": "Expect new contract clauses on security safeguards, breach reporting, logs and erasure."
+    }
+   },
+   "actions": [
+    "Map personal data held and the lawful ground for each use.",
+    "Redesign notices and consent records so consent can be proved (s. 6(10)).",
+    "Build a breach response that reports to the Board without delay and within 72 hours, alongside RBI, SEBI or IRDAI and CERT-In six-hour reports.",
+    "Set retention schedules that reconcile erasure with KYC, PMLA and sector record-keeping laws.",
+    "Update processor contracts for rule 6 safeguards."
+   ]
+  }
+ ]
+}

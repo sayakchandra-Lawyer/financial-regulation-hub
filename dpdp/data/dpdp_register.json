@@ -1,0 +1,1231 @@
+{
+ "meta": {
+  "title": "Data protection rules for financial institutions",
+  "as_of": "2026-11-26",
+  "count": 24,
+  "in_force": 24,
+  "lenses": [
+   {
+    "id": "ENT-LEND",
+    "name": "Bank / NBFC / HFC"
+   },
+   {
+    "id": "ENT-INS",
+    "name": "Insurer / intermediary"
+   },
+   {
+    "id": "ENT-SEC",
+    "name": "Securities market entity"
+   },
+   {
+    "id": "ENT-SDF",
+    "name": "Significant Data Fiduciary"
+   },
+   {
+    "id": "ENT-PROC",
+    "name": "Processor / vendor"
+   }
+  ]
+ },
+ "instruments": [
+  {
+   "id": "ACT-DPDP",
+   "type": "Act",
+   "short_name": "DPDP Act, 2023",
+   "title": "The Digital Personal Data Protection Act, 2023",
+   "issuing_department": "Parliament of India",
+   "theme": "The Act, the Rules and commencement",
+   "reference_no": "Act 22 of 2023",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "2026-10-06",
+   "effective_date": "2025-11-13",
+   "status": "In force in part: the Board and definitions from 13-11-2025, Consent Manager registration from 13-11-2026, the main duties and penalties from 13-05-2027",
+   "official_url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Processing of digital personal data within India, whether collected in digital form or collected on paper and digitised later (s. 3(a))",
+    "Processing outside India if it is connected with offering goods or services to Data Principals in India (s. 3(b))",
+    "Banks, NBFCs, HFCs, insurers, insurance intermediaries, brokers and other market entities as Data Fiduciaries for the personal data of customers, employees and others"
+   ],
+   "excluded": [
+    "Personal data processed by an individual for a personal or domestic purpose (s. 3(c)(i))",
+    "Personal data made publicly available by the Data Principal herself, or by a person under a legal duty to publish it (s. 3(c)(ii))"
+   ],
+   "key_concepts": [
+    "Personal data (s. 2(t)) and digital personal data (s. 2(n))",
+    "Data Fiduciary (s. 2(i)) and Data Processor (s. 2(k))",
+    "Data Principal, including the parent of a child and the lawful guardian of a person with disability (s. 2(j))",
+    "Consent (s. 6) and certain legitimate uses (s. 7)",
+    "Personal data breach (s. 2(u))",
+    "Significant Data Fiduciary (s. 10)",
+    "Consent Manager (s. 2(g))",
+    "Data Protection Board of India (s. 18)",
+    "Overriding effect in a conflict (s. 38(2))"
+   ],
+   "core_obligations": [
+    "s. 4: personal data may be processed only for a lawful purpose, with the Data Principal's consent or for a certain legitimate use",
+    "s. 5: every request for consent must be accompanied or preceded by a notice of the data, the purpose, how to withdraw consent and exercise rights, and how to complain to the Board",
+    "s. 6: consent must be free, specific, informed, unconditional and unambiguous, given by a clear affirmative action, and limited to the data needed for the specified purpose; it can be withdrawn as easily as it was given",
+    "s. 8(1): the Data Fiduciary is responsible for compliance, including for processing done on its behalf by a Data Processor, whatever any agreement says",
+    "s. 8(5) and (6): take reasonable security safeguards to prevent a personal data breach, and intimate any breach to the Board and to each affected Data Principal",
+    "s. 8(7): erase personal data when consent is withdrawn or the purpose is no longer served, unless the law requires it to be kept, and make processors erase it too",
+    "s. 8(9) and (10): publish the contact details of a Data Protection Officer or other person who answers questions, and set up an effective grievance mechanism",
+    "s. 9: verifiable parental consent for children's data; no tracking, behavioural monitoring or targeted advertising directed at children",
+    "s. 10: a notified Significant Data Fiduciary must appoint a Data Protection Officer based in India and an independent data auditor, and carry out periodic Data Protection Impact Assessments and audits",
+    "ss. 11 to 14: Data Principals' rights to information, correction and erasure, grievance redressal and nomination",
+    "s. 16: transfers abroad are allowed unless the Central Government restricts transfers to a notified country; a sector law with stricter rules on transfer prevails",
+    "s. 38: the Act adds to other laws; where a provision conflicts with another law, the Act prevails to the extent of the conflict"
+   ],
+   "timelines": [
+    "13-11-2025: ss. 1(2), 2, 18 to 26, 35, 38 to 43, 44(1) and 44(3) in force (G.S.R. 843(E))",
+    "13-11-2026: s. 6(9) (registration of Consent Managers) and s. 27(1)(d) in force",
+    "13-05-2027: ss. 3 to 5, 6(1) to (8) and (10), 7 to 17, 27 (other than 27(1)(d)), 28 to 34, 36, 37 and 44(2) in force",
+    "s. 29(2): appeal to the Appellate Tribunal within 60 days of receiving the Board's order or direction",
+    "s. 17(5): the Central Government may exempt Data Fiduciaries from any provision by notification only within five years of commencement",
+    "s. 43(2): orders removing difficulties can be made only within three years of commencement"
+   ],
+   "consequences_stated": [
+    "Schedule item 1: failure to take reasonable security safeguards (s. 8(5)), up to Rs 250 crore",
+    "Schedule item 2: failure to notify the Board or an affected Data Principal of a breach (s. 8(6)), up to Rs 200 crore",
+    "Schedule item 3: breach of the additional obligations on children (s. 9), up to Rs 200 crore",
+    "Schedule item 4: breach of the additional obligations of a Significant Data Fiduciary (s. 10), up to Rs 150 crore",
+    "Schedule item 5: breach of a Data Principal's duties (s. 15), up to Rs 10,000",
+    "Schedule item 6: breach of a voluntary undertaking, up to the penalty for the breach that led to the proceedings",
+    "Schedule item 7: any other breach of the Act or the Rules, up to Rs 50 crore"
+   ],
+   "consequences_general": "Digital Personal Data Protection Act, 2023: if the Data Protection Board finds, on concluding an inquiry, that a breach of the Act or the Rules is significant, it may impose a monetary penalty under s. 33 and the Schedule: up to Rs 250 crore for failing to take reasonable security safeguards (s. 8(5)); up to Rs 200 crore for failing to notify a personal data breach (s. 8(6)) or for breaching the obligations on children's data (s. 9); up to Rs 150 crore for breaching the additional obligations of a Significant Data Fiduciary (s. 10); up to Rs 10,000 for a Data Principal who breaches her duties (s. 15); and up to Rs 50 crore for any other breach. The Board weighs the nature, gravity and duration of the breach, the data affected, repetition, any gain made or loss avoided, mitigation, proportionality and the likely impact of the penalty (s. 33(2)). It may accept a voluntary undertaking, which bars proceedings under the Act on its contents unless the undertaking is breached (s. 32(4) and (5)). An appeal lies to the Telecom Disputes Settlement and Appellate Tribunal within 60 days (s. 29). Where penalties have been imposed on a Data Fiduciary in two or more instances, the Central Government may, on the Board's reference, order public access to its service to be blocked (s. 37). These provisions apply from 13-05-2027.",
+   "cross_references": [
+    "RULES-DPDP",
+    "NOT-COMM",
+    "NOT-BOARD",
+    "ORD-ROD-2026",
+    "ACT-IT"
+   ],
+   "repeals": "s. 44(2) omits s. 43A of the Information Technology Act, 2000 from 13-05-2027; s. 44(3) narrows the personal information exemption in s. 8(1)(j) of the Right to Information Act, 2005 from 13-11-2025"
+  },
+  {
+   "id": "RULES-DPDP",
+   "type": "Rules",
+   "short_name": "DPDP Rules, 2025",
+   "title": "The Digital Personal Data Protection Rules, 2025",
+   "issuing_department": "Ministry of Electronics and Information Technology",
+   "theme": "The Act, the Rules and commencement",
+   "reference_no": "G.S.R. 846(E)",
+   "issue_date": "2025-11-13",
+   "updated_as_on": "2025-12-11",
+   "effective_date": "2025-11-13",
+   "status": "In force in part: rules 1, 2 and 17 to 21 from 13-11-2025, rule 4 from 13-11-2026, the rest from 13-05-2027",
+   "official_url": "https://www.meity.gov.in/data-protection-framework",
+   "official_pdf": "",
+   "statutory_powers": [
+    "s. 40(1) and (2) of the Digital Personal Data Protection Act, 2023"
+   ],
+   "applies_to": [
+    "Every Data Fiduciary, Consent Manager and Significant Data Fiduciary under the Act",
+    "The Data Protection Board and the Appellate Tribunal (procedure)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Notice (rule 3)",
+    "Consent Manager registration (rule 4 and First Schedule)",
+    "Reasonable security safeguards (rule 6)",
+    "Breach intimation (rule 7)",
+    "Retention and erasure (rule 8, Third and Seventh Schedules)",
+    "Verifiable consent for children (rule 10)",
+    "Significant Data Fiduciary duties (rule 13)",
+    "Rights requests and grievances (rule 14)",
+    "Transfer outside India (rule 15)"
+   ],
+   "core_obligations": [
+    "rule 3: a notice must stand on its own, be in clear and plain language, list the personal data item by item, state the specified purpose and the goods, services or uses enabled, and give a link and the means to withdraw consent, exercise rights and complain to the Board",
+    "rule 6: reasonable security safeguards include at least encryption, obfuscation, masking or virtual tokens; access controls; logs, monitoring and review; backups for continuity; one-year retention of logs; security clauses in contracts with Data Processors; and technical and organisational measures",
+    "rule 7: intimate a personal data breach to each affected Data Principal without delay, and to the Board without delay and again in detail within 72 hours",
+    "rule 8(3): keep personal data, associated traffic data and processing logs for at least one year from the processing, for the purposes in the Seventh Schedule, then erase them unless another law requires more",
+    "rule 9: publish on the website or app, and in every reply to a rights request, the business contact information of the Data Protection Officer or person who can answer questions",
+    "rule 10: before processing a child's data, obtain verifiable consent of a parent who is an identifiable adult, checked against reliable details held or a virtual token issued by an authorised entity such as a DigiLocker service provider",
+    "rule 13: a Significant Data Fiduciary carries out a Data Protection Impact Assessment and an audit every twelve months, reports significant observations to the Board, checks that its algorithmic software does not risk Data Principals' rights, and keeps specified personal data in India",
+    "rule 14: publish how Data Principals can make requests and the identifiers needed; respond to grievances within the period published, which may not exceed ninety days",
+    "rule 15: transfers abroad must meet any requirements the Central Government specifies by general or special order about making personal data available to a foreign State or its agencies",
+    "rule 23: the Central Government may, for the purposes in the Seventh Schedule, call for information from a Data Fiduciary or intermediary and may bar it from telling the Data Principal"
+   ],
+   "timelines": [
+    "rule 1(2): rules 1, 2 and 17 to 21 in force from 13-11-2025",
+    "rule 1(3): rule 4 (Consent Managers) in force one year after publication, that is from 13-11-2026",
+    "rule 1(4): rules 3, 5 to 16, 22 and 23 in force eighteen months after publication, that is from 13-05-2027",
+    "rule 7(2)(b): detailed breach report to the Board within 72 hours of becoming aware, or such longer period as the Board allows on a written request",
+    "rule 8(2): tell the Data Principal at least 48 hours before her data is erased under the Third Schedule",
+    "rule 13(1): Data Protection Impact Assessment and audit once in every twelve months",
+    "rule 14(3): respond to grievances within a reasonable period not exceeding ninety days",
+    "rule 19(9): the Board completes an inquiry within six months, extendable by up to three months at a time"
+   ],
+   "consequences_stated": [
+    "A breach of the Rules is a breach for the Schedule to the Act: see the penalties under s. 33"
+   ],
+   "consequences_general": "Digital Personal Data Protection Act, 2023: if the Data Protection Board finds, on concluding an inquiry, that a breach of the Act or the Rules is significant, it may impose a monetary penalty under s. 33 and the Schedule: up to Rs 250 crore for failing to take reasonable security safeguards (s. 8(5)); up to Rs 200 crore for failing to notify a personal data breach (s. 8(6)) or for breaching the obligations on children's data (s. 9); up to Rs 150 crore for breaching the additional obligations of a Significant Data Fiduciary (s. 10); up to Rs 10,000 for a Data Principal who breaches her duties (s. 15); and up to Rs 50 crore for any other breach. The Board weighs the nature, gravity and duration of the breach, the data affected, repetition, any gain made or loss avoided, mitigation, proportionality and the likely impact of the penalty (s. 33(2)). It may accept a voluntary undertaking, which bars proceedings under the Act on its contents unless the undertaking is breached (s. 32(4) and (5)). An appeal lies to the Telecom Disputes Settlement and Appellate Tribunal within 60 days (s. 29). Where penalties have been imposed on a Data Fiduciary in two or more instances, the Central Government may, on the Board's reference, order public access to its service to be blocked (s. 37). These provisions apply from 13-05-2027.",
+   "cross_references": [
+    "ACT-DPDP",
+    "NOT-CORR",
+    "T-CONSENT",
+    "T-DUTY",
+    "T-SDF"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "NOT-COMM",
+   "type": "Notification",
+   "short_name": "Commencement notification",
+   "title": "Notification appointing the dates on which provisions of the DPDP Act come into force",
+   "issuing_department": "Ministry of Electronics and Information Technology",
+   "theme": "The Act, the Rules and commencement",
+   "reference_no": "G.S.R. 843(E)",
+   "issue_date": "2025-11-13",
+   "updated_as_on": "",
+   "effective_date": "2025-11-13",
+   "status": "In force",
+   "official_url": "https://www.meity.gov.in/data-protection-framework",
+   "official_pdf": "",
+   "statutory_powers": [
+    "s. 1(2) of the Digital Personal Data Protection Act, 2023"
+   ],
+   "applies_to": [
+    "Every person to whom the Act applies"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Phased commencement",
+    "One year: Consent Managers",
+    "Eighteen months: main obligations and penalties"
+   ],
+   "core_obligations": [
+    "Brings ss. 1(2), 2, 18 to 26, 35, 38 to 43, 44(1) and 44(3) into force on the date of publication",
+    "Brings s. 6(9) and s. 27(1)(d) into force one year after publication",
+    "Brings ss. 3 to 5, 6(1) to (8) and (10), 7 to 17, 27 (except 27(1)(d)), 28 to 34, 36, 37 and 44(2) into force eighteen months after publication"
+   ],
+   "timelines": [
+    "13-11-2025: Board, definitions and procedural provisions",
+    "13-11-2026: Consent Manager registration",
+    "13-05-2027: obligations of Data Fiduciaries, rights, Board inquiries and penalties"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "ACT-DPDP",
+    "RULES-DPDP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "NOT-BOARD",
+   "type": "Notification",
+   "short_name": "Board establishment notifications",
+   "title": "Notifications establishing the Data Protection Board of India and fixing its strength",
+   "issuing_department": "Ministry of Electronics and Information Technology",
+   "theme": "Data Protection Board, penalties and appeals",
+   "reference_no": "G.S.R. 844(E) and G.S.R. 845(E)",
+   "issue_date": "2025-11-13",
+   "updated_as_on": "",
+   "effective_date": "2025-11-13",
+   "status": "In force",
+   "official_url": "https://www.meity.gov.in/data-protection-framework",
+   "official_pdf": "",
+   "statutory_powers": [
+    "ss. 18 and 19(1) of the Digital Personal Data Protection Act, 2023"
+   ],
+   "applies_to": [
+    "The Data Protection Board of India"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Data Protection Board of India",
+    "Head office in the National Capital Region",
+    "Four Members"
+   ],
+   "core_obligations": [
+    "G.S.R. 844(E): establishes the Data Protection Board of India under s. 18 with effect from 13-11-2025, with its head office in the National Capital Region",
+    "G.S.R. 845(E): fixes the number of Members of the Board under s. 19(1) at four",
+    "Rule 17: separate search-cum-selection committees recommend the Chairperson and the other Members; the Central Government appoints them"
+   ],
+   "timelines": [
+    "s. 20(2): the Chairperson and Members hold office for two years and may be re-appointed"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "ACT-DPDP",
+    "T-BOARD"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "NOT-CORR",
+   "type": "Notification",
+   "short_name": "Corrigendum to the DPDP Rules",
+   "title": "Corrigendum to the Digital Personal Data Protection Rules, 2025",
+   "issuing_department": "Ministry of Electronics and Information Technology",
+   "theme": "The Act, the Rules and commencement",
+   "reference_no": "G.S.R. 892(E)",
+   "issue_date": "2025-12-10",
+   "updated_as_on": "",
+   "effective_date": "2025-12-11",
+   "status": "In force",
+   "official_url": "https://www.meity.gov.in/data-protection-framework",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Readers of the DPDP Rules, 2025"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Drafting corrections"
+   ],
+   "core_obligations": [
+    "Corrects wording errors in the Rules as published; it does not change the commencement dates or add duties"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "RULES-DPDP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ORD-ROD-2026",
+   "type": "Order",
+   "short_name": "Removal of Difficulties Order, 2026",
+   "title": "The Digital Personal Data Protection (Removal of Difficulties) Order, 2026",
+   "issuing_department": "Ministry of Electronics and Information Technology",
+   "theme": "The Act, the Rules and commencement",
+   "reference_no": "S.O. 5458(E)",
+   "issue_date": "2026-10-05",
+   "updated_as_on": "",
+   "effective_date": "2026-10-06",
+   "status": "In force",
+   "official_url": "https://www.meity.gov.in/data-protection-framework",
+   "official_pdf": "",
+   "statutory_powers": [
+    "s. 43(1) of the Digital Personal Data Protection Act, 2023"
+   ],
+   "applies_to": [
+    "Readers of ss. 9(1) and 10(2)(c)(ii) of the Act"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Removal of difficulties",
+    "Persons with disability",
+    "Data audit"
+   ],
+   "core_obligations": [
+    "Changes the wording of s. 9(1) so that it refers to the personal data of a child or of a person with disability who has a lawful guardian",
+    "Changes s. 10(2)(c)(ii) so that a Significant Data Fiduciary's periodic audit reads as a periodic data audit",
+    "Does not change any commencement date"
+   ],
+   "timelines": [
+    "Published in the Gazette on 06-10-2026"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "ACT-DPDP",
+    "T-CHILD",
+    "T-SDF"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "T-SCOPE",
+   "type": "DPDP topic",
+   "short_name": "Scope, lawful grounds and exemptions",
+   "title": "Where the Act applies, when data may be processed without consent, and the exemptions (ss. 3, 4, 7, 17 and 38; rules 5 and 16)",
+   "issuing_department": "Parliament of India; Ministry of Electronics and Information Technology",
+   "theme": "Scope, lawful grounds and exemptions",
+   "reference_no": "Act ss. 3, 4, 7, 17, 38; Rules 5, 16",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "",
+   "effective_date": "2027-05-13",
+   "status": "Notified; in force from 13-05-2027 (s. 38 from 13-11-2025)",
+   "official_url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Every Data Fiduciary processing digital personal data",
+    "Financial institutions recovering loans, meeting KYC and reporting duties, or merging"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Lawful purpose (s. 4(2))",
+    "Certain legitimate uses (s. 7)",
+    "Voluntarily provided data (s. 7(a))",
+    "Legal obligation to disclose to the State (s. 7(d))",
+    "Loan default exemption (s. 17(1)(f))",
+    "Regulatory and supervisory functions (s. 17(1)(b))",
+    "Research, archiving or statistics (s. 17(2)(b))"
+   ],
+   "core_obligations": [
+    "s. 4: process personal data only for a lawful purpose, that is one not expressly forbidden by law, and only with consent or for a certain legitimate use",
+    "s. 7(a): data the Data Principal has voluntarily given for a specified purpose may be used for that purpose unless she says she does not consent",
+    "s. 7(d) and (e): data may be processed to meet a legal duty to disclose information to the State, or to comply with a judgment, decree or order",
+    "s. 7(i): data may be processed for employment purposes, including preventing corporate espionage and protecting trade secrets, or giving an employee a benefit she seeks",
+    "s. 17(1): Chapter II (other than s. 8(1) and (5)), Chapter III and s. 16 do not apply where processing is needed to enforce a legal right or claim; by a body with a judicial, quasi-judicial, regulatory or supervisory function; for preventing, detecting, investigating or prosecuting an offence; for non-residents' data under a foreign contract; or for a court-approved merger, demerger or arrangement",
+    "s. 17(1)(f): the same relief applies to processing to ascertain the financial information, assets and liabilities of a person who has defaulted on a loan or advance from a financial institution, if done in line with the disclosure provisions of other laws (default and financial institution as in the Insolvency and Bankruptcy Code)",
+    "s. 17(1) keeps two duties even in these cases: the Data Fiduciary stays responsible (s. 8(1)) and must keep reasonable security safeguards (s. 8(5))",
+    "s. 17(2)(b) and rule 16: the Act does not apply to processing for research, archiving or statistical purposes that is not used for decisions about a particular Data Principal and follows the Second Schedule standards",
+    "s. 17(3): the Central Government may exempt notified Data Fiduciaries, including startups, from ss. 5, 8(3), 8(7), 10 and 11",
+    "s. 38: the Act is in addition to other laws such as KYC, record-keeping and secrecy laws; in a conflict the Act prevails to the extent of the conflict"
+   ],
+   "timelines": [
+    "13-05-2027: ss. 3, 4, 7 and 17 and rules 5 and 16 apply",
+    "s. 38 has applied since 13-11-2025"
+   ],
+   "consequences_stated": [
+    "Processing without a lawful ground is a breach of s. 4: up to Rs 50 crore (Schedule item 7)"
+   ],
+   "consequences_general": "Digital Personal Data Protection Act, 2023: if the Data Protection Board finds, on concluding an inquiry, that a breach of the Act or the Rules is significant, it may impose a monetary penalty under s. 33 and the Schedule: up to Rs 250 crore for failing to take reasonable security safeguards (s. 8(5)); up to Rs 200 crore for failing to notify a personal data breach (s. 8(6)) or for breaching the obligations on children's data (s. 9); up to Rs 150 crore for breaching the additional obligations of a Significant Data Fiduciary (s. 10); up to Rs 10,000 for a Data Principal who breaches her duties (s. 15); and up to Rs 50 crore for any other breach. The Board weighs the nature, gravity and duration of the breach, the data affected, repetition, any gain made or loss avoided, mitigation, proportionality and the likely impact of the penalty (s. 33(2)). It may accept a voluntary undertaking, which bars proceedings under the Act on its contents unless the undertaking is breached (s. 32(4) and (5)). An appeal lies to the Telecom Disputes Settlement and Appellate Tribunal within 60 days (s. 29). Where penalties have been imposed on a Data Fiduciary in two or more instances, the Central Government may, on the Board's reference, order public access to its service to be blocked (s. 37). These provisions apply from 13-05-2027.",
+   "cross_references": [
+    "ACT-DPDP",
+    "RULES-DPDP",
+    "RBI-KYC"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "T-CONSENT",
+   "type": "DPDP topic",
+   "short_name": "Notice, consent and Consent Managers",
+   "title": "Notice before consent, the standard for valid consent, withdrawal, and registered Consent Managers (ss. 5, 6; rules 3, 4 and First Schedule)",
+   "issuing_department": "Parliament of India; Ministry of Electronics and Information Technology",
+   "theme": "Notice, consent and Consent Managers",
+   "reference_no": "Act ss. 5, 6; Rules 3, 4, First Schedule",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "",
+   "effective_date": "2027-05-13",
+   "status": "Notified; Consent Manager registration from 13-11-2026, the rest from 13-05-2027",
+   "official_url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Every Data Fiduciary that relies on consent",
+    "Companies seeking registration as Consent Managers with the Board"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Notice (s. 5 and rule 3)",
+    "Itemised description of personal data",
+    "Specified purpose (s. 2(za))",
+    "Free, specific, informed, unconditional and unambiguous consent",
+    "Withdrawal of consent (s. 6(4))",
+    "Burden of proving consent (s. 6(10))",
+    "Consent Manager (s. 2(g))",
+    "Consent given before commencement (s. 5(2))"
+   ],
+   "core_obligations": [
+    "s. 5(1) and rule 3: precede or accompany every request for consent with a notice that stands on its own, uses clear and plain language, lists the personal data item by item, states the specified purpose and the goods, services or uses it enables, and links to the means to withdraw consent, exercise rights and complain to the Board",
+    "s. 5(1) illustration: a bank opening an account through video-based customer identification must give the notice before or with the request for data",
+    "s. 5(2): for consent obtained before commencement, give the same notice as soon as reasonably practicable; processing may continue until the Data Principal withdraws consent",
+    "s. 5(3) and 6(3): offer the notice and the consent request in English or any language in the Eighth Schedule to the Constitution, with the contact details of the Data Protection Officer or authorised person",
+    "s. 6(1): consent must be free, specific, informed, unconditional and unambiguous, by a clear affirmative action, and limited to the data necessary for the specified purpose",
+    "s. 6(2): any part of a consent that infringes the Act or another law is invalid to that extent; the Act's illustration is an insurer whose consent form asks the buyer to waive the right to complain to the Board",
+    "s. 6(4) to (6): the Data Principal may withdraw consent at any time, as easily as she gave it; the Data Fiduciary must then, within a reasonable time, stop processing and make its processors stop, unless the law requires or allows processing without consent",
+    "s. 6(10): in any proceeding, the Data Fiduciary must prove that it gave notice and obtained consent in line with the Act and Rules",
+    "s. 6(7) to (9) and rule 4: a Data Principal may give, manage, review and withdraw consent through a Consent Manager registered with the Board",
+    "First Schedule Part A: a Consent Manager must be a company incorporated in India with net worth of at least Rs 2 crore, sound management and an interoperable platform independently certified against the Board's standards",
+    "First Schedule Part B: a Consent Manager must not be able to read the data it routes, must keep records of consents, notices and sharing for at least seven years, may not sub-contract its obligations, acts in a fiduciary capacity, must avoid conflicts with Data Fiduciaries, must disclose shareholders above 2%, must be audited, and may not change control without the Board's approval"
+   ],
+   "timelines": [
+    "13-11-2026: Consent Manager registration (s. 6(9) and rule 4) in force",
+    "13-05-2027: notice and consent duties (ss. 5 and 6, rule 3) apply",
+    "First Schedule Part B item 4(c): Consent Managers keep consent records for at least seven years"
+   ],
+   "consequences_stated": [
+    "Breach of the notice or consent provisions: up to Rs 50 crore (Schedule item 7)",
+    "Rule 4(5): the Board may suspend or cancel a Consent Manager's registration after a hearing"
+   ],
+   "consequences_general": "Digital Personal Data Protection Act, 2023: if the Data Protection Board finds, on concluding an inquiry, that a breach of the Act or the Rules is significant, it may impose a monetary penalty under s. 33 and the Schedule: up to Rs 250 crore for failing to take reasonable security safeguards (s. 8(5)); up to Rs 200 crore for failing to notify a personal data breach (s. 8(6)) or for breaching the obligations on children's data (s. 9); up to Rs 150 crore for breaching the additional obligations of a Significant Data Fiduciary (s. 10); up to Rs 10,000 for a Data Principal who breaches her duties (s. 15); and up to Rs 50 crore for any other breach. The Board weighs the nature, gravity and duration of the breach, the data affected, repetition, any gain made or loss avoided, mitigation, proportionality and the likely impact of the penalty (s. 33(2)). It may accept a voluntary undertaking, which bars proceedings under the Act on its contents unless the undertaking is breached (s. 32(4) and (5)). An appeal lies to the Telecom Disputes Settlement and Appellate Tribunal within 60 days (s. 29). Where penalties have been imposed on a Data Fiduciary in two or more instances, the Central Government may, on the Board's reference, order public access to its service to be blocked (s. 37). These provisions apply from 13-05-2027.",
+   "cross_references": [
+    "ACT-DPDP",
+    "RULES-DPDP",
+    "RBI-DL",
+    "RBI-AA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "T-DUTY",
+   "type": "DPDP topic",
+   "short_name": "Security, breach and retention",
+   "title": "Accountability, security safeguards, breach intimation, accuracy, retention and erasure (s. 8; rules 6 to 9, Third and Seventh Schedules)",
+   "issuing_department": "Parliament of India; Ministry of Electronics and Information Technology",
+   "theme": "Security, breach and retention",
+   "reference_no": "Act s. 8; Rules 6, 7, 8, 9",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "",
+   "effective_date": "2027-05-13",
+   "status": "Notified; in force from 13-05-2027",
+   "official_url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Every Data Fiduciary, for its own processing and processing done for it by Data Processors",
+    "Data Processors through their contracts with Data Fiduciaries"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Accountability for processors (s. 8(1) and (2))",
+    "Accuracy where data drives decisions (s. 8(3))",
+    "Reasonable security safeguards (rule 6)",
+    "Personal data breach (s. 2(u))",
+    "72-hour report to the Board (rule 7(2))",
+    "Erasure when the purpose ends (s. 8(7))",
+    "One-year log retention (rules 6 and 8(3))"
+   ],
+   "core_obligations": [
+    "s. 8(1): the Data Fiduciary remains responsible for compliance, including for processing by its Data Processors, whatever the contract says",
+    "s. 8(2): engage a Data Processor only under a valid contract",
+    "s. 8(3): keep personal data complete, accurate and consistent where it is used for a decision affecting the Data Principal or shared with another Data Fiduciary",
+    "s. 8(5) and rule 6(1): take reasonable security safeguards, at least encryption, obfuscation, masking or virtual tokens; access control; logs and monitoring to detect and investigate unauthorised access; backups for continuity; and security clauses in processor contracts",
+    "rule 6(1)(e): keep the logs and personal data needed to detect and investigate unauthorised access for one year, unless another law requires otherwise",
+    "s. 8(6) and rule 7(1): on becoming aware of a breach, tell each affected Data Principal without delay, through her user account or registered contact, what happened, the likely consequences, the mitigation, what she can do and whom to contact",
+    "rule 7(2): tell the Board without delay of the breach, its nature, extent, timing, location and likely impact, then within 72 hours of becoming aware of it send the facts, causes, mitigation, findings about who caused it, remedial measures and a report on the intimations to Data Principals",
+    "s. 8(7): erase personal data when consent is withdrawn or once it is reasonable to assume the specified purpose is no longer served, whichever is earlier, unless the law requires it to be kept, and make processors erase it; the Act's own illustration is a bank keeping identity records after an account closes because banking law requires it",
+    "s. 8(8) and rule 8(1): for e-commerce entities and social media intermediaries with at least two crore registered users and online gaming intermediaries with at least fifty lakh, the purpose is deemed over three years after the Data Principal last approached them for the purpose or exercised her rights, or after the Rules commenced, whichever is latest; the thresholds count registered users in India, and keeping data that lets her reach her user account or a stored virtual token usable for money, goods or services is excluded",
+    "rule 8(3): keep personal data, associated traffic data and processing logs for at least one year from the processing for the Seventh Schedule purposes, then erase them unless another law requires more",
+    "s. 8(9) and rule 9: publish the business contact information of the Data Protection Officer or a person who can answer questions, and include it in every reply to a rights request",
+    "s. 8(10): establish an effective mechanism to redress grievances"
+   ],
+   "timelines": [
+    "Breach: intimate affected Data Principals and the Board without delay (rule 7(1) and (2)(a))",
+    "Breach: detailed report to the Board within 72 hours, or longer if the Board allows on a written request (rule 7(2)(b))",
+    "Logs and processing records: at least one year (rules 6(1)(e) and 8(3))",
+    "Notice of erasure under the Third Schedule: at least 48 hours before (rule 8(2))",
+    "Third Schedule: three years of inactivity for the listed large platforms",
+    "All of these apply from 13-05-2027"
+   ],
+   "consequences_stated": [
+    "Failure to take reasonable security safeguards (s. 8(5)): up to Rs 250 crore (Schedule item 1)",
+    "Failure to notify the Board or affected Data Principals of a breach (s. 8(6)): up to Rs 200 crore (Schedule item 2)",
+    "Any other breach of s. 8: up to Rs 50 crore (Schedule item 7)"
+   ],
+   "consequences_general": "Digital Personal Data Protection Act, 2023: if the Data Protection Board finds, on concluding an inquiry, that a breach of the Act or the Rules is significant, it may impose a monetary penalty under s. 33 and the Schedule: up to Rs 250 crore for failing to take reasonable security safeguards (s. 8(5)); up to Rs 200 crore for failing to notify a personal data breach (s. 8(6)) or for breaching the obligations on children's data (s. 9); up to Rs 150 crore for breaching the additional obligations of a Significant Data Fiduciary (s. 10); up to Rs 10,000 for a Data Principal who breaches her duties (s. 15); and up to Rs 50 crore for any other breach. The Board weighs the nature, gravity and duration of the breach, the data affected, repetition, any gain made or loss avoided, mitigation, proportionality and the likely impact of the penalty (s. 33(2)). It may accept a voluntary undertaking, which bars proceedings under the Act on its contents unless the undertaking is breached (s. 32(4) and (5)). An appeal lies to the Telecom Disputes Settlement and Appellate Tribunal within 60 days (s. 29). Where penalties have been imposed on a Data Fiduciary in two or more instances, the Central Government may, on the Board's reference, order public access to its service to be blocked (s. 37). These provisions apply from 13-05-2027.",
+   "cross_references": [
+    "ACT-DPDP",
+    "RULES-DPDP",
+    "RBI-OUTS",
+    "RBI-CYBER",
+    "DIR-CERTIN",
+    "SEBI-CSCRF",
+    "RBI-KYC"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "T-RIGHTS",
+   "type": "DPDP topic",
+   "short_name": "Rights of Data Principals and grievances",
+   "title": "Rights to information, correction and erasure, grievance redressal and nomination, and the duties of Data Principals (ss. 11 to 15; rule 14)",
+   "issuing_department": "Parliament of India; Ministry of Electronics and Information Technology",
+   "theme": "Rights of Data Principals and grievances",
+   "reference_no": "Act ss. 11 to 15; Rule 14",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "",
+   "effective_date": "2027-05-13",
+   "status": "Notified; in force from 13-05-2027",
+   "official_url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Every Data Fiduciary to which a Data Principal has given consent, including by voluntarily providing data under s. 7(a)",
+    "Consent Managers (grievances)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Right to a summary of data and processing (s. 11)",
+    "Correction, completion, updating and erasure (s. 12)",
+    "Grievance redressal before the Board (s. 13)",
+    "Nomination for death or incapacity (s. 14)",
+    "Duties of Data Principals (s. 15)",
+    "Identifier such as a customer identification file number (rule 14(5))"
+   ],
+   "core_obligations": [
+    "s. 11(1): on request, give a summary of the personal data processed and the processing, and the identities of the other Data Fiduciaries and Data Processors it was shared with, with a description of what was shared",
+    "s. 11(2): the identities need not be disclosed for sharing with a Data Fiduciary authorised by law that asked in writing for the prevention, detection or investigation of offences or cyber incidents",
+    "s. 12(2): on request, correct inaccurate or misleading data, complete incomplete data and update data",
+    "s. 12(3): on request, erase the data unless it must be kept for the specified purpose or to comply with law",
+    "s. 13: give readily available means of grievance redressal; the Data Principal must use them before approaching the Board",
+    "s. 14: let a Data Principal nominate another individual to exercise her rights on death or incapacity",
+    "rule 14(1) and (2): publish on the website or app the means of making a request and the username, customer identification file number, application reference number or other identifier needed",
+    "rule 14(3): publish the grievance response period and put measures in place to meet it; the period may not exceed ninety days",
+    "s. 15: a Data Principal must not impersonate anyone, suppress material information when applying for an identity document, file false or frivolous complaints, or give information that is not verifiably authentic when seeking correction or erasure (s. 15)"
+   ],
+   "timelines": [
+    "Grievances: respond within the period published, not more than ninety days (rule 14(3))",
+    "Applies from 13-05-2027"
+   ],
+   "consequences_stated": [
+    "Breach of a Data Principal's duties (s. 15): up to Rs 10,000 (Schedule item 5)",
+    "Failure to honour rights: up to Rs 50 crore (Schedule item 7)",
+    "s. 28(12): the Board may warn or impose costs on a complainant whose complaint is false or frivolous"
+   ],
+   "consequences_general": "Digital Personal Data Protection Act, 2023: if the Data Protection Board finds, on concluding an inquiry, that a breach of the Act or the Rules is significant, it may impose a monetary penalty under s. 33 and the Schedule: up to Rs 250 crore for failing to take reasonable security safeguards (s. 8(5)); up to Rs 200 crore for failing to notify a personal data breach (s. 8(6)) or for breaching the obligations on children's data (s. 9); up to Rs 150 crore for breaching the additional obligations of a Significant Data Fiduciary (s. 10); up to Rs 10,000 for a Data Principal who breaches her duties (s. 15); and up to Rs 50 crore for any other breach. The Board weighs the nature, gravity and duration of the breach, the data affected, repetition, any gain made or loss avoided, mitigation, proportionality and the likely impact of the penalty (s. 33(2)). It may accept a voluntary undertaking, which bars proceedings under the Act on its contents unless the undertaking is breached (s. 32(4) and (5)). An appeal lies to the Telecom Disputes Settlement and Appellate Tribunal within 60 days (s. 29). Where penalties have been imposed on a Data Fiduciary in two or more instances, the Central Government may, on the Board's reference, order public access to its service to be blocked (s. 37). These provisions apply from 13-05-2027.",
+   "cross_references": [
+    "ACT-DPDP",
+    "RULES-DPDP",
+    "ACT-CICRA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "T-CHILD",
+   "type": "DPDP topic",
+   "short_name": "Children and persons with disability",
+   "title": "Verifiable consent of parents and lawful guardians, and the limits on processing children's data (s. 9; rules 10 to 12, Fourth Schedule)",
+   "issuing_department": "Parliament of India; Ministry of Electronics and Information Technology",
+   "theme": "Children and persons with disability",
+   "reference_no": "Act s. 9; Rules 10, 11, 12, Fourth Schedule",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "",
+   "effective_date": "2027-05-13",
+   "status": "Notified; in force from 13-05-2027",
+   "official_url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Data Fiduciaries processing data of anyone under eighteen, such as minor savings accounts, child insurance policies and minor investment accounts",
+    "Data Fiduciaries processing data of a person with disability who has a lawful guardian"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Child: under eighteen (s. 2(f))",
+    "Verifiable consent of a parent (rule 10)",
+    "Lawful guardian (rule 11)",
+    "No tracking, behavioural monitoring or targeted advertising at children (s. 9(3))",
+    "Exempt classes and purposes (rule 12, Fourth Schedule)"
+   ],
+   "core_obligations": [
+    "s. 9(1): obtain verifiable consent of the parent or lawful guardian before processing a child's data or the data of a person with disability who has a lawful guardian (wording as changed by the 2026 Removal of Difficulties Order)",
+    "rule 10(1): check that the person giving consent as parent is an identifiable adult, by reference to reliable identity and age details already held, or details or a virtual token issued by an entity entrusted by law or Government, including through a DigiLocker service provider",
+    "rule 11: verify that a person claiming to be the lawful guardian of a person with disability was appointed by a court, a designated authority under the Rights of Persons with Disabilities Act, 2016 or a local level committee under the National Trust Act, 1999",
+    "s. 9(2): do not process a child's data in a way likely to harm her well-being",
+    "s. 9(3): do not track or behaviourally monitor children or direct targeted advertising at them",
+    "rule 12 and Fourth Schedule: the parental consent and tracking limits do not apply to listed classes (healthcare, educational institutions, crèches and their transport) and listed purposes (such as legal functions in a child's interest, email accounts, real-time location for safety, and confirming that a user is not a child); none is specific to financial services"
+   ],
+   "timelines": [
+    "Applies from 13-05-2027"
+   ],
+   "consequences_stated": [
+    "Breach of the additional obligations on children (s. 9): up to Rs 200 crore (Schedule item 3)"
+   ],
+   "consequences_general": "Digital Personal Data Protection Act, 2023: if the Data Protection Board finds, on concluding an inquiry, that a breach of the Act or the Rules is significant, it may impose a monetary penalty under s. 33 and the Schedule: up to Rs 250 crore for failing to take reasonable security safeguards (s. 8(5)); up to Rs 200 crore for failing to notify a personal data breach (s. 8(6)) or for breaching the obligations on children's data (s. 9); up to Rs 150 crore for breaching the additional obligations of a Significant Data Fiduciary (s. 10); up to Rs 10,000 for a Data Principal who breaches her duties (s. 15); and up to Rs 50 crore for any other breach. The Board weighs the nature, gravity and duration of the breach, the data affected, repetition, any gain made or loss avoided, mitigation, proportionality and the likely impact of the penalty (s. 33(2)). It may accept a voluntary undertaking, which bars proceedings under the Act on its contents unless the undertaking is breached (s. 32(4) and (5)). An appeal lies to the Telecom Disputes Settlement and Appellate Tribunal within 60 days (s. 29). Where penalties have been imposed on a Data Fiduciary in two or more instances, the Central Government may, on the Board's reference, order public access to its service to be blocked (s. 37). These provisions apply from 13-05-2027.",
+   "cross_references": [
+    "ACT-DPDP",
+    "RULES-DPDP",
+    "ORD-ROD-2026"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "T-SDF",
+   "type": "DPDP topic",
+   "short_name": "Significant Data Fiduciaries and transfers abroad",
+   "title": "Additional duties of Significant Data Fiduciaries, and transfer of personal data outside India (ss. 10 and 16; rules 13 and 15)",
+   "issuing_department": "Parliament of India; Ministry of Electronics and Information Technology",
+   "theme": "Significant Data Fiduciaries and transfers abroad",
+   "reference_no": "Act ss. 10, 16; Rules 13, 15",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "",
+   "effective_date": "2027-05-13",
+   "status": "Notified; in force from 13-05-2027",
+   "official_url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Data Fiduciaries or classes the Central Government notifies as Significant Data Fiduciaries (s. 10)",
+    "Every Data Fiduciary transferring personal data abroad, and its processors abroad (s. 16, rule 15)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Significant Data Fiduciary (s. 2(z))",
+    "Data Protection Officer based in India (s. 10(2)(a))",
+    "Independent data auditor (s. 10(2)(b))",
+    "Data Protection Impact Assessment (s. 10(2)(c))",
+    "Algorithmic due diligence (rule 13(3))",
+    "Data localisation for specified data (rule 13(4))",
+    "Negative-list approach to transfers (s. 16(1))"
+   ],
+   "core_obligations": [
+    "s. 10(1): the Central Government may notify a Data Fiduciary or class as significant, considering the volume and sensitivity of data, risk to Data Principals' rights, sovereignty and integrity, electoral democracy, security of the State and public order; large banks, insurers and market infrastructure handle data at the scale these factors look at",
+    "s. 10(2)(a): appoint a Data Protection Officer who represents the Significant Data Fiduciary, is based in India, answers to its board of directors or similar governing body and is the point of contact for grievances",
+    "s. 10(2)(b) and (c): appoint an independent data auditor, and carry out periodic Data Protection Impact Assessments and periodic data audits",
+    "rule 13(1) and (2): carry out the Data Protection Impact Assessment and audit every twelve months from notification, and have the person who carried them out report significant observations to the Board",
+    "rule 13(3): check with due diligence that technical measures, including algorithmic software for handling personal data, are not likely to pose a risk to Data Principals' rights",
+    "rule 13(4): ensure that personal data specified by the Central Government on a committee's recommendation, and the traffic data about its flow, is not transferred outside India",
+    "s. 16(1): personal data may be transferred abroad except to a country or territory the Central Government restricts by notification",
+    "s. 16(2): a law giving higher protection or stricter limits on transfer abroad continues to apply, such as RBI's requirement that digital lending data be stored in India",
+    "rule 15: a transfer abroad must meet any requirements the Central Government sets by general or special order on making personal data available to a foreign State or its agencies"
+   ],
+   "timelines": [
+    "rule 13(1): Data Protection Impact Assessment and audit every twelve months from the date of notification as a Significant Data Fiduciary",
+    "Applies from 13-05-2027"
+   ],
+   "consequences_stated": [
+    "Breach of the additional obligations of a Significant Data Fiduciary (s. 10): up to Rs 150 crore (Schedule item 4)",
+    "Breach of a transfer restriction: up to Rs 50 crore (Schedule item 7)"
+   ],
+   "consequences_general": "Digital Personal Data Protection Act, 2023: if the Data Protection Board finds, on concluding an inquiry, that a breach of the Act or the Rules is significant, it may impose a monetary penalty under s. 33 and the Schedule: up to Rs 250 crore for failing to take reasonable security safeguards (s. 8(5)); up to Rs 200 crore for failing to notify a personal data breach (s. 8(6)) or for breaching the obligations on children's data (s. 9); up to Rs 150 crore for breaching the additional obligations of a Significant Data Fiduciary (s. 10); up to Rs 10,000 for a Data Principal who breaches her duties (s. 15); and up to Rs 50 crore for any other breach. The Board weighs the nature, gravity and duration of the breach, the data affected, repetition, any gain made or loss avoided, mitigation, proportionality and the likely impact of the penalty (s. 33(2)). It may accept a voluntary undertaking, which bars proceedings under the Act on its contents unless the undertaking is breached (s. 32(4) and (5)). An appeal lies to the Telecom Disputes Settlement and Appellate Tribunal within 60 days (s. 29). Where penalties have been imposed on a Data Fiduciary in two or more instances, the Central Government may, on the Board's reference, order public access to its service to be blocked (s. 37). These provisions apply from 13-05-2027.",
+   "cross_references": [
+    "ACT-DPDP",
+    "RULES-DPDP",
+    "ORD-ROD-2026",
+    "RBI-DL",
+    "SEBI-CSCRF"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "T-BOARD",
+   "type": "DPDP topic",
+   "short_name": "The Board, inquiries, penalties and appeals",
+   "title": "How the Data Protection Board receives complaints and breach reports, inquires, settles, penalises, and how appeals and blocking work (ss. 18 to 37; rules 17 to 23)",
+   "issuing_department": "Parliament of India; Ministry of Electronics and Information Technology",
+   "theme": "Data Protection Board, penalties and appeals",
+   "reference_no": "Act ss. 18 to 37, Schedule; Rules 17 to 23",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "",
+   "effective_date": "2025-11-13",
+   "status": "In force in part: Board provisions from 13-11-2025; inquiries, penalties and appeals from 13-05-2027",
+   "official_url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Every Data Fiduciary, Consent Manager and intermediary that may face Board proceedings",
+    "Data Principals who complain to the Board"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Board as a digital office (s. 28(1), rule 20)",
+    "Inquiry and civil court powers (s. 28)",
+    "Mediation (s. 31)",
+    "Voluntary undertaking (s. 32)",
+    "Monetary penalty (s. 33)",
+    "Appeal to the Telecom Disputes Settlement and Appellate Tribunal (s. 29)",
+    "Blocking after repeated penalties (s. 37)",
+    "Calling for information (s. 36, rule 23)"
+   ],
+   "core_obligations": [
+    "s. 27(1): the Board may direct urgent remedial or mitigation measures on a breach intimation, and inquires into breaches on intimation, complaint, Government reference or court direction",
+    "s. 28(3) to (6): the Board decides whether there are sufficient grounds, may close the case with reasons, and conducts any inquiry following natural justice",
+    "s. 28(7) and (8): the Board has civil court powers to summon, take evidence and inspect documents and data, but may not stop access to premises or seize equipment in a way that affects day-to-day functioning",
+    "s. 28(10): the Board may issue interim orders after a hearing",
+    "s. 31 and 32: the Board may send a dispute to mediation, and may accept a voluntary undertaking at any stage, which bars proceedings under the Act on its contents unless it is breached (s. 32(4) and (5))",
+    "s. 33: penalties only for a breach the Board finds significant, after a hearing, within the Schedule limits; sums go to the Consolidated Fund of India (s. 34)",
+    "s. 36 and rule 23: the Central Government may call for information from a Data Fiduciary or intermediary for the Seventh Schedule purposes, and may bar disclosure of the request",
+    "s. 37: after penalties in two or more instances and on the Board's advice, the Central Government may, after a hearing, order public access to the Data Fiduciary's service to be blocked",
+    "s. 39: civil courts may not hear matters the Board can deal with",
+    "rule 22: appeals are filed digitally, with the fee payable for appeals under the TRAI Act, 1997"
+   ],
+   "timelines": [
+    "rule 19(9): the Board completes an inquiry within six months of the intimation, complaint, reference or direction, extendable by up to three months at a time with reasons",
+    "s. 29(2): appeal within 60 days of receiving the order; late appeals allowed for sufficient cause (s. 29(3))",
+    "s. 29(6) and (7): the Appellate Tribunal endeavours to dispose of an appeal within six months and records its reasons in writing if it does not",
+    "s. 29(9): a further appeal from the Appellate Tribunal follows s. 18 of the TRAI Act, 1997"
+   ],
+   "consequences_stated": [
+    "Schedule: up to Rs 250 crore, Rs 200 crore, Rs 150 crore, Rs 50 crore or Rs 10,000 depending on the provision breached",
+    "s. 37: blocking of access to the service after repeated penalties"
+   ],
+   "consequences_general": "Digital Personal Data Protection Act, 2023: if the Data Protection Board finds, on concluding an inquiry, that a breach of the Act or the Rules is significant, it may impose a monetary penalty under s. 33 and the Schedule: up to Rs 250 crore for failing to take reasonable security safeguards (s. 8(5)); up to Rs 200 crore for failing to notify a personal data breach (s. 8(6)) or for breaching the obligations on children's data (s. 9); up to Rs 150 crore for breaching the additional obligations of a Significant Data Fiduciary (s. 10); up to Rs 10,000 for a Data Principal who breaches her duties (s. 15); and up to Rs 50 crore for any other breach. The Board weighs the nature, gravity and duration of the breach, the data affected, repetition, any gain made or loss avoided, mitigation, proportionality and the likely impact of the penalty (s. 33(2)). It may accept a voluntary undertaking, which bars proceedings under the Act on its contents unless the undertaking is breached (s. 32(4) and (5)). An appeal lies to the Telecom Disputes Settlement and Appellate Tribunal within 60 days (s. 29). Where penalties have been imposed on a Data Fiduciary in two or more instances, the Central Government may, on the Board's reference, order public access to its service to be blocked (s. 37). These provisions apply from 13-05-2027.",
+   "cross_references": [
+    "ACT-DPDP",
+    "RULES-DPDP",
+    "NOT-BOARD"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RBI-DL",
+   "type": "Directions",
+   "short_name": "RBI digital lending data rules (NBFCs)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025: digital lending data provisions (paras 6, 13 to 15)",
+   "issuing_department": "Reserve Bank of India, Department of Regulation",
+   "theme": "Banks and NBFCs: RBI rules that overlap",
+   "reference_no": "DOR.CRE.REC.No.266/07-01-008/2025-26",
+   "issue_date": "2025-11-28",
+   "updated_as_on": "2026-07-15",
+   "effective_date": "2025-11-28",
+   "status": "In force (amended)",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12957",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "NBFCs lending through digital lending apps",
+    "Lending service providers acting for them"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Need-based collection with prior explicit consent",
+    "No access to contacts, files, call logs",
+    "Data stored only in India",
+    "Comprehensive privacy policy",
+    "Lending service provider (LSP)"
+   ],
+   "core_obligations": [
+    "para 6(2): before engaging a lending service provider, carry out enhanced due diligence including the robustness of its data privacy policies and storage systems",
+    "para 13(1): collect data through the app only as needed and with the borrower's prior explicit consent, with an audit trail; no access to files, media, contact lists, call logs or telephony; one-time access to camera, microphone or location only for onboarding or KYC",
+    "para 13(2) to (4): let the borrower give or refuse consent for specific data, restrict disclosure to third parties, limit retention, revoke consent and have the data deleted; disclose the purpose at each stage; take explicit consent before sharing with a third party unless law requires the sharing",
+    "para 14(1): lending service providers may keep only minimal data such as name, address and contact details; the NBFC stays responsible for data privacy and security",
+    "para 14(2) and (3): publish a data storage policy covering the data kept, how long, restrictions on use, destruction and breach handling; no biometric data unless the law allows it",
+    "para 14(4): store all data only on servers in India; data processed abroad must be deleted there and brought back to India within 24 hours",
+    "para 15: the NBFC and its lending service providers must publish a comprehensive privacy policy compliant with applicable laws and name third parties allowed to collect data through the app",
+    "With the DPDP Act: the NBFC is the Data Fiduciary and the lending service provider usually its Data Processor; the stricter India-storage rule continues under s. 16(2) of the Act"
+   ],
+   "timelines": [
+    "para 14(4): data processed outside India must be deleted there and brought back within 24 hours"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Reserve Bank of India Act, 1934: RBI may impose penalties on an NBFC that fails to comply with its directions (s. 58G read with s. 58B), and may cancel its certificate of registration (s. 45-IA(6)). The DPDP Act applies alongside these directions (s. 38).",
+   "cross_references": [
+    "T-CONSENT",
+    "T-SDF",
+    "RBI-OUTS"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RBI-KYC",
+   "type": "Directions",
+   "short_name": "RBI KYC records and secrecy (NBFCs)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025: consent, record-keeping and secrecy provisions",
+   "issuing_department": "Reserve Bank of India, Department of Regulation",
+   "theme": "Banks and NBFCs: RBI rules that overlap",
+   "reference_no": "DOR.AML.REC.No.280/14.01.003/2025-26",
+   "issue_date": "2025-11-28",
+   "updated_as_on": "2025-12-29",
+   "effective_date": "2025-11-28",
+   "status": "In force (amended)",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12943",
+   "official_pdf": "",
+   "statutory_powers": [
+    "Prevention of Money-Laundering Act, 2002 and the PML (Maintenance of Records) Rules, 2005",
+    "ss. 45JA, 45K and 45L of the RBI Act, 1934"
+   ],
+   "applies_to": [
+    "NBFCs as regulated entities under the PML Act"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Retention required by law",
+    "Aadhaar redaction",
+    "V-CIP records in India",
+    "Secrecy of customer information",
+    "No cross-selling without express permission"
+   ],
+   "core_obligations": [
+    "para 17(5): obtain information beyond what the KYC policy requires only with the customer's explicit consent",
+    "para 23, Explanation 1: make the customer redact or black out the Aadhaar number where Aadhaar authentication is not required",
+    "para 27: store all data and recordings of video-based customer identification on systems located in India",
+    "para 47(1) and (2): keep transaction records for at least five years from the transaction, and identification and address records for at least five years after the relationship ends",
+    "para 61(1) and (2): keep customer information secret, and treat account opening information as confidential, not to be used for cross-selling or any other purpose without the customer's express permission",
+    "With the DPDP Act: these retention duties are the kind of legal requirement that lets a Data Fiduciary keep data despite a request for erasure (ss. 8(7) and 12(3))"
+   ],
+   "timelines": [
+    "para 47: records kept for at least five years"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Reserve Bank of India Act, 1934: RBI may impose penalties on an NBFC that fails to comply with its directions (s. 58G read with s. 58B), and may cancel its certificate of registration (s. 45-IA(6)). The DPDP Act applies alongside these directions (s. 38).",
+   "cross_references": [
+    "T-DUTY",
+    "T-SCOPE"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RBI-OUTS",
+   "type": "Directions",
+   "short_name": "RBI outsourcing and data (NBFCs)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Managing Risks in Outsourcing) Directions, 2025: confidentiality and data clauses",
+   "issuing_department": "Reserve Bank of India, Department of Regulation",
+   "theme": "Banks and NBFCs: RBI rules that overlap",
+   "reference_no": "DOR.ORG.REC.No.282/21-04-158/2025-26",
+   "issue_date": "2025-11-28",
+   "updated_as_on": "",
+   "effective_date": "2025-11-28",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12941",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "NBFCs that outsource activities, including IT and cloud services",
+    "Service providers acting for them"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Need-to-know access",
+    "Segregation of customer data",
+    "Notice of security breach to RBI",
+    "Contract clauses on data storage and protection"
+   ],
+   "core_obligations": [
+    "para 23 and 24: ensure the confidentiality, security and protection of customer information held by a service provider; give its staff access only on a need-to-know basis",
+    "para 25: review the service provider's security practices regularly and require it to disclose security breaches",
+    "para 26 and 27: where a service provider serves several entities, keep each entity's customer information separate and identifiable",
+    "para 28: notify RBI immediately of a security breach or leakage of confidential customer information; the NBFC is liable to its customers for any damage",
+    "para 74: IT outsourcing contracts must cover access to data and logs, reporting of data breaches, compliance with the IT Act and other law protecting customer data, storage of data only in India where required, and details of data captured, processed and stored",
+    "With the DPDP Act: these contracts are also the valid contract a Data Fiduciary needs with a Data Processor (s. 8(2)) and should carry the rule 6 security clauses"
+   ],
+   "timelines": [
+    "para 28: notify RBI immediately of a breach or leak"
+   ],
+   "consequences_stated": [
+    "para 28: the NBFC is liable to its customers for damage from a breach or leak"
+   ],
+   "consequences_general": "Reserve Bank of India Act, 1934: RBI may impose penalties on an NBFC that fails to comply with its directions (s. 58G read with s. 58B), and may cancel its certificate of registration (s. 45-IA(6)). The DPDP Act applies alongside these directions (s. 38).",
+   "cross_references": [
+    "T-DUTY",
+    "RBI-DL",
+    "RBI-CYBER"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RBI-CYBER",
+   "type": "Directions",
+   "short_name": "RBI cybersecurity incident reporting (NBFCs)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026: incident reporting",
+   "issuing_department": "Reserve Bank of India, Department of Supervision",
+   "theme": "Banks and NBFCs: RBI rules that overlap",
+   "reference_no": "DoS.CO.CSITEG.55/31.01.015/2026-27",
+   "issue_date": "2026-07-31",
+   "updated_as_on": "",
+   "effective_date": "2026-07-31",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13592",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "NBFCs (HFCs report to NHB)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "DAKSH reporting",
+    "Six-hour window",
+    "Parallel reporting to CERT-In"
+   ],
+   "core_obligations": [
+    "para 28 and 141: report cyber incidents to RBI on the DAKSH platform within six hours of detection, and notify CERT-In proactively",
+    "With the DPDP Act: an incident that is also a personal data breach must separately be intimated to each affected Data Principal and to the Board under rule 7, with the detailed report to the Board within 72 hours"
+   ],
+   "timelines": [
+    "RBI: within six hours of detection (para 141)",
+    "CERT-In: within six hours under its 2022 directions",
+    "Board: without delay, and a detailed report within 72 hours (DPDP rule 7)"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Reserve Bank of India Act, 1934: RBI may impose penalties on an NBFC that fails to comply with its directions (s. 58G read with s. 58B), and may cancel its certificate of registration (s. 45-IA(6)). The DPDP Act applies alongside these directions (s. 38).",
+   "cross_references": [
+    "T-DUTY",
+    "DIR-CERTIN"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RBI-AA",
+   "type": "Directions",
+   "short_name": "RBI Account Aggregator consent (NBFC-AA)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Account Aggregator) Directions, 2025: consent architecture",
+   "issuing_department": "Reserve Bank of India, Department of Regulation",
+   "theme": "Banks and NBFCs: RBI rules that overlap",
+   "reference_no": "DoR.FIN.REC.No.287/03-10-123/2025-26",
+   "issue_date": "2025-11-28",
+   "updated_as_on": "",
+   "effective_date": "2025-11-28",
+   "status": "In force",
+   "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12936",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "NBFC-Account Aggregators",
+    "Banks, NBFCs and others acting as financial information providers or users"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Explicit consent",
+    "Consent artefact",
+    "No data residing with the aggregator"
+   ],
+   "core_obligations": [
+    "para 14(1): provide services only on the customer's explicit consent",
+    "para 14(7) and (9): no financial information may reside with the aggregator, and it may not access customers' login credentials",
+    "para 14(10) and 15: do not part with or retrieve, share or transfer any financial information without the customer's explicit consent",
+    "para 17: obtain consent in a standardised consent artefact",
+    "With the DPDP Act: account aggregation is a separate RBI-regulated consent framework; financial information users and providers remain Data Fiduciaries for what they receive and hold"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Reserve Bank of India Act, 1934: RBI may impose penalties on an NBFC that fails to comply with its directions (s. 58G read with s. 58B), and may cancel its certificate of registration (s. 45-IA(6)). The DPDP Act applies alongside these directions (s. 38).",
+   "cross_references": [
+    "T-CONSENT"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ACT-CICRA",
+   "type": "Act",
+   "short_name": "Credit Information Companies (Regulation) Act, 2005",
+   "title": "Credit Information Companies (Regulation) Act, 2005: privacy and accuracy provisions",
+   "issuing_department": "Parliament of India",
+   "theme": "IT Act, CERT-In and credit information",
+   "reference_no": "Act 30 of 2005",
+   "issue_date": "2005-06-23",
+   "updated_as_on": "",
+   "effective_date": "2006-12-14",
+   "status": "In force (as amended)",
+   "official_url": "https://www.indiacode.nic.in/handle/123456789/2057",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Credit information companies, credit institutions (banks, NBFCs, HFCs) and specified users"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Accuracy and security of credit information (s. 19)",
+    "Privacy principles (s. 20)",
+    "Correction within 30 days (s. 21(3))",
+    "Unauthorised access (s. 22)"
+   ],
+   "core_obligations": [
+    "s. 19: credit information companies, credit institutions and specified users must keep credit information accurate, complete and protected against loss or unauthorised access, use or disclosure",
+    "s. 20: they must follow the privacy principles on collecting, processing, keeping, sharing and using credit information, including purpose limits and deletion",
+    "s. 21(1) and (2): a loan applicant may ask the credit institution for a copy of the credit information it obtained",
+    "s. 21(3): on a borrower's request, update or correct credit information within 30 days, after the credit institution certifies the change",
+    "s. 22: no access to credit information without authority of law or a court or tribunal direction",
+    "With the DPDP Act: correction and access rights under ss. 11 and 12 of the DPDP Act sit alongside these; the DPDP Act prevails only where the two conflict (s. 38(2))"
+   ],
+   "timelines": [
+    "s. 21(3): correct or update credit information within 30 days of the request"
+   ],
+   "consequences_stated": [
+    "s. 22(2): unauthorised access, fine up to Rs 1 lakh per offence and Rs 10,000 a day while it continues",
+    "s. 23(2): wilful breach of the privacy principles, fine up to Rs 1 crore",
+    "s. 23(3): wilfully providing false credit information or omitting a material statement, fine up to Rs 1 crore",
+    "s. 23(4): any other contravention, fine up to Rs 1 lakh, and up to Rs 5,000 a day while it continues"
+   ],
+   "consequences_general": "Credit Information Companies (Regulation) Act, 2005: fines imposed by a court under ss. 22 and 23 (up to Rs 1 crore for wilful breach of the privacy principles or wilfully false credit information; otherwise up to Rs 1 lakh, plus Rs 5,000 a day while it continues), and penalties imposed by RBI under s. 25. The DPDP Act applies alongside it (s. 38).",
+   "cross_references": [
+    "T-RIGHTS"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ACT-IT",
+   "type": "Act",
+   "short_name": "IT Act s. 43A and CERT-In powers",
+   "title": "Information Technology Act, 2000: s. 43A (until 13-05-2027) and s. 70B",
+   "issuing_department": "Parliament of India",
+   "theme": "IT Act, CERT-In and credit information",
+   "reference_no": "Act 21 of 2000",
+   "issue_date": "2000-06-09",
+   "updated_as_on": "",
+   "effective_date": "2000-10-17",
+   "status": "In force (as amended); s. 43A omitted from 13-05-2027",
+   "official_url": "https://www.indiacode.nic.in/handle/123456789/1999",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Body corporates handling sensitive personal data (s. 43A)",
+    "Service providers, intermediaries, data centres and body corporates (s. 70B)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Reasonable security practices (s. 43A)",
+    "Sensitive personal data or information",
+    "CERT-In directions (s. 70B(6))"
+   ],
+   "core_obligations": [
+    "s. 43A: a body corporate that is negligent in maintaining reasonable security practices for sensitive personal data and causes wrongful loss or gain must pay compensation; the section is omitted by s. 44(2)(a) of the DPDP Act from 13-05-2027",
+    "s. 70B(6): CERT-In may call for information and give directions to service providers, intermediaries, data centres, body corporates and others",
+    "From 13-05-2027 s. 44(2) of the DPDP Act omits s. 43A and s. 87(2)(ob), the power under which the 2011 sensitive personal data rules were made; the DPDP Act and Rules then govern, while liabilities that arose before that date are dealt with under the general law on omitted provisions"
+   ],
+   "timelines": [
+    "13-05-2027: s. 43A and s. 87(2)(ob) omitted"
+   ],
+   "consequences_stated": [
+    "s. 70B(7): failure to provide information or comply with a CERT-In direction, imprisonment up to one year, or fine up to Rs 1 crore, or both",
+    "s. 43A: compensation for negligent security of sensitive personal data, until 13-05-2027"
+   ],
+   "consequences_general": "Information Technology Act, 2000: compensation under s. 43A until it is omitted, and the offence under s. 70B(7).",
+   "cross_references": [
+    "ACT-DPDP",
+    "DIR-CERTIN"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "DIR-CERTIN",
+   "type": "Directions",
+   "short_name": "CERT-In cyber incident directions, 2022",
+   "title": "CERT-In Directions No. 20(3)/2022-CERT-In under s. 70B(6) of the IT Act on information security practices and reporting of cyber incidents",
+   "issuing_department": "Indian Computer Emergency Response Team, Ministry of Electronics and Information Technology",
+   "theme": "IT Act, CERT-In and credit information",
+   "reference_no": "No. 20(3)/2022-CERT-In",
+   "issue_date": "2022-04-28",
+   "updated_as_on": "",
+   "effective_date": "2022-06-27",
+   "status": "In force",
+   "official_url": "https://www.cert-in.org.in/Directions70B.jsp",
+   "official_pdf": "",
+   "statutory_powers": [
+    "s. 70B(6) of the Information Technology Act, 2000"
+   ],
+   "applies_to": [
+    "Service providers, intermediaries, data centres, body corporates and Government organisations, including banks, NBFCs, insurers and market intermediaries"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Six-hour incident reporting",
+    "180-day log retention in India",
+    "Point of contact with CERT-In",
+    "Clock synchronisation"
+   ],
+   "core_obligations": [
+    "direction (ii): report the cyber incidents listed in Annexure I to CERT-In within 6 hours of noticing them or being told of them",
+    "direction (iv): keep logs of all ICT systems securely for a rolling 180 days within Indian jurisdiction and provide them to CERT-In on request",
+    "With the DPDP Act: CERT-In reporting continues; a personal data breach also needs intimation to the Board and to each affected Data Principal under rule 7"
+   ],
+   "timelines": [
+    "direction (ii): within 6 hours of noticing or being told of an incident",
+    "direction (iv): logs kept for a rolling 180 days in India"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Information Technology Act, 2000, s. 70B(7): failure to provide information or comply with a CERT-In direction is punishable with imprisonment up to one year, or fine up to Rs 1 crore, or both.",
+   "cross_references": [
+    "ACT-IT",
+    "RBI-CYBER",
+    "SEBI-CSCRF"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "SEBI-CSCRF",
+   "type": "Circular",
+   "short_name": "SEBI cybersecurity framework (CSCRF)",
+   "title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities",
+   "issuing_department": "Securities and Exchange Board of India",
+   "theme": "Securities market: SEBI rules that overlap",
+   "reference_no": "SEBI/HO/ITD-1/ITD_CSC_EXT/P/CIR/2024/113",
+   "issue_date": "2024-08-20",
+   "updated_as_on": "2026-08-24",
+   "effective_date": "2025-01-01",
+   "status": "In force (with later clarifications)",
+   "official_url": "https://www.sebi.gov.in/legal/circulars/aug-2024/cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_85964.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "SEBI-regulated entities such as stock brokers, depository participants, mutual funds and AMCs, AIFs, registrars and market infrastructure institutions"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Regulatory data",
+    "Data stored within India",
+    "Data classification",
+    "Six-hour incident reporting",
+    "FIRE-format staged reporting (2026)"
+   ],
+   "core_obligations": [
+    "Definition 16: regulatory data, including data on core activities and investor communications, must be stored in an easily accessible, legible and usable form within the legal boundaries of India",
+    "Regulated entities must classify their data and protect it according to its classification",
+    "Incidents covered by the CERT-In directions must be notified to SEBI and CERT-In within 6 hours of noticing them, with details on the SEBI incident portal within 24 hours; since SEBI's circular of 24-08-2026 the portal follows the FIRE format and takes reports in stages, from initial report through intermediate updates to final closure; stock brokers and depository participants also inform the exchanges or depositories within 6 hours",
+    "With the DPDP Act: a personal data breach also needs intimation to the Board and to each affected Data Principal (rule 7); the India-storage requirement continues under s. 16(2) of the Act"
+   ],
+   "timelines": [
+    "Incidents: to SEBI and CERT-In within 6 hours; details on the SEBI portal within 24 hours",
+    "Other incidents: within 24 hours"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "Securities and Exchange Board of India Act, 1992: SEBI may issue directions and impose penalties for failure to comply with its circulars. The DPDP Act applies alongside (s. 38).",
+   "cross_references": [
+    "DIR-CERTIN",
+    "T-DUTY",
+    "T-SDF"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "IRDAI-PPHI",
+   "type": "Regulation",
+   "short_name": "IRDAI privacy and confidentiality of policyholder data",
+   "title": "IRDAI (Protection of Policyholders' Interests, Operations and Allied Matters of Insurers) Regulations, 2024: privacy provisions",
+   "issuing_department": "Insurance Regulatory and Development Authority of India",
+   "theme": "Insurance: IRDAI rules that overlap",
+   "reference_no": "IRDAI Regulations, 2024",
+   "issue_date": "2024-04-01",
+   "updated_as_on": "",
+   "effective_date": "2024-04-01",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%A7+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Protection+of+Policyholder%27s+Interests%2C+operations+and+allied+matters+of+insurers%29+Regulations%2C+2024.pdf/330674c5-0adb-4eb7-a399-95d779246ff8?version=1.2&t=1712320815911&download=true",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Insurers and their distribution channels"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Confidentiality of proposal information",
+    "Explicit consent before sharing",
+    "Board-approved policy for electronic policies"
+   ],
+   "core_obligations": [
+    "reg 13(a): an insurer issuing policies in electronic form must have a board-approved policy that includes measures to safeguard the privacy of data and information and a framework on data security",
+    "reg 15(1): subject to the law on data protection, insurers and distribution channels must keep information and documents collected during solicitation and afterwards confidential, private and protected",
+    "reg 15(2): proposal form information may not be shared with a third party without the policyholder's explicit consent, except with statutory authorities under law, for underwriting or claim settlement, or with an institution IRDAI authorises",
+    "With the DPDP Act: the insurer is the Data Fiduciary; agents, brokers, TPAs and other intermediaries may be Data Fiduciaries or processors depending on who decides the purpose and means"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may impose penalties and give directions for failure to comply with its regulations. The DPDP Act applies alongside (s. 38).",
+   "cross_references": [
+    "T-CONSENT",
+    "IRDAI-CYBER"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "IRDAI-CYBER",
+   "type": "Guidelines",
+   "short_name": "IRDAI Information and Cybersecurity Guidelines, 2026",
+   "title": "IRDAI Information and Cybersecurity Guidelines, 2026",
+   "issuing_department": "Insurance Regulatory and Development Authority of India",
+   "theme": "Insurance: IRDAI rules that overlap",
+   "reference_no": "IRDAI/GA&HR/CIR/MISC/51/4/2026",
+   "issue_date": "2026-04-06",
+   "updated_as_on": "",
+   "effective_date": "2026-04-06",
+   "status": "In force",
+   "official_url": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2026+_+IRDAI+Information+and+Cybersecurity+Guidelines%2C+2026.pdf/9714979d-6006-3809-297f-91a4593ac072?version=2.0&t=1777011998536&download=true",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "All insurers including foreign reinsurance branches, insurance intermediaries (brokers, corporate agents, web aggregators, TPAs, IMFs, insurance repositories, ISNP, corporate surveyors, MISPs, CSCs) and the Insurance Information Bureau of India"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Minimum information and cyber security standards",
+    "Governance mechanism",
+    "Replaces the 2023 guidelines"
+   ],
+   "core_obligations": [
+    "Replaces the 2023 IRDAI guidelines on information and cyber security and sets minimum standards and governance mechanisms for all regulated entities",
+    "With the DPDP Act: these controls support the reasonable security safeguards required by s. 8(5) and rule 6, and incident handling should cover rule 7 intimations to the Board and Data Principals"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Insurance Act, 1938: IRDAI may impose penalties and give directions for failure to comply with its guidelines. The DPDP Act applies alongside (s. 38).",
+   "cross_references": [
+    "T-DUTY",
+    "IRDAI-PPHI",
+    "DIR-CERTIN"
+   ],
+   "repeals": ""
+  }
+ ]
+}

@@ -1,0 +1,300 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Terms as each instrument defines them, shortened where long. The instrument's own text governs."
+ },
+ "instruments": {
+  "ACT-DPDP": [
+   {
+    "term": "Appellate Tribunal",
+    "para": "s. 2(a)",
+    "def": "means the Telecom Disputes Settlement and Appellate Tribunal established under section 14 of the Telecom Regulatory Authority of India Act, 1997;",
+    "scope": ""
+   },
+   {
+    "term": "automated",
+    "para": "s. 2(b)",
+    "def": "means any digital process capable of operating automatically in response to instructions given or otherwise for the purpose of processing data;",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "s. 2(c)",
+    "def": "means the Data Protection Board of India established by the Central Government under section 18;",
+    "scope": ""
+   },
+   {
+    "term": "certain legitimate uses",
+    "para": "s. 2(d)",
+    "def": "means the uses referred to in section 7;",
+    "scope": ""
+   },
+   {
+    "term": "Chairperson",
+    "para": "s. 2(e)",
+    "def": "means the Chairperson of the Board;",
+    "scope": ""
+   },
+   {
+    "term": "child",
+    "para": "s. 2(f)",
+    "def": "means an individual who has not completed the age of eighteen years;",
+    "scope": ""
+   },
+   {
+    "term": "Consent Manager",
+    "para": "s. 2(g)",
+    "def": "means a person registered with the Board, who acts as a single point of contact to enable a Data Principal to give, manage, review and withdraw her consent through an accessible, transparent and interoperable platform;",
+    "scope": ""
+   },
+   {
+    "term": "data",
+    "para": "s. 2(h)",
+    "def": "means a representation of information, facts, concepts, opinions or instructions in a manner suitable for communication, interpretation or processing by human beings or by automated means;",
+    "scope": ""
+   },
+   {
+    "term": "Data Fiduciary",
+    "para": "s. 2(i)",
+    "def": "means any person who alone or in conjunction with other persons determines the purpose and means of processing of personal data;",
+    "scope": ""
+   },
+   {
+    "term": "Data Principal",
+    "para": "s. 2(j)",
+    "def": "means the individual to whom the personal data relates and where such individual is— (i) a child, includes the parents or lawful guardian of such a child; (ii) a person with disability, includes her lawful guardian, acting on her behalf;",
+    "scope": ""
+   },
+   {
+    "term": "Data Processor",
+    "para": "s. 2(k)",
+    "def": "means any person who processes personal data on behalf of a Data Fiduciary;",
+    "scope": ""
+   },
+   {
+    "term": "Data Protection Officer",
+    "para": "s. 2(l)",
+    "def": "means an individual appointed by the Significant Data Fiduciary under clause (a) of sub-section (2) of section 10;",
+    "scope": ""
+   },
+   {
+    "term": "digital office",
+    "para": "s. 2(m)",
+    "def": "means an office that adopts an online mechanism wherein the proceedings, from receipt of intimation or complaint or reference or directions or appeal, as the case may be, to the disposal thereof, are conducted in online or digital mode;",
+    "scope": ""
+   },
+   {
+    "term": "digital personal data",
+    "para": "s. 2(n)",
+    "def": "means personal data in digital form;",
+    "scope": ""
+   },
+   {
+    "term": "gain",
+    "para": "s. 2(o)",
+    "def": "means— (i) a gain in property or supply of services, whether temporary or permanent; or (ii) an opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of legitimate remuneration;",
+    "scope": ""
+   },
+   {
+    "term": "loss",
+    "para": "s. 2(p)",
+    "def": "means— (i) a loss in property or interruption in supply of services, whether temporary or permanent; or (ii) a loss of opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of legitimate remuneration;",
+    "scope": ""
+   },
+   {
+    "term": "Member",
+    "para": "s. 2(q)",
+    "def": "means a Member of the Board and includes the Chairperson;",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "s. 2(r)",
+    "def": "means a notification published in the Official Gazette and the expressions “notify” and “notified” shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "person",
+    "para": "s. 2(s)",
+    "def": "includes— (i) an individual; (ii) a Hindu undivided family; (iii) a company; (iv) a firm; (v) an association of persons or a body of individuals, whether incorporated or not; (vi) the State; and (vii) every artificial juristic person, not falling within any of the preceding sub-clauses;",
+    "scope": ""
+   },
+   {
+    "term": "personal data",
+    "para": "s. 2(t)",
+    "def": "means any data about an individual who is identifiable by or in relation to such data;",
+    "scope": ""
+   },
+   {
+    "term": "personal data breach",
+    "para": "s. 2(u)",
+    "def": "means any unauthorised processing of personal data or accidental disclosure, acquisition, sharing, use, alteration, destruction or loss of access to personal data, that compromises the confidentiality, integrity or availability of personal data;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 2(v)",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "proceeding",
+    "para": "s. 2(w)",
+    "def": "means any action taken by the Board under the provisions of this Act;",
+    "scope": ""
+   },
+   {
+    "term": "processing",
+    "para": "s. 2(x)",
+    "def": "means a wholly or partly automated operation or set of operations performed on digital personal data, and includes operations such as collection, recording, organisation, structuring, storage, adaptation, retrieval, use, alignment or combination, indexing, sharing, disclosure by transmission, dissemination or otherwise making available, restriction, erasure or destruction;",
+    "scope": ""
+   },
+   {
+    "term": "Significant Data Fiduciary",
+    "para": "s. 2(z)",
+    "def": "means any Data Fiduciary or class of Data Fiduciaries as may be notified by the Central Government under section 10;",
+    "scope": ""
+   },
+   {
+    "term": "specified purpose",
+    "para": "s. 2(za)",
+    "def": "means the purpose mentioned in the notice given by the Data Fiduciary to the Data Principal in accordance with the provisions of this Act and the rules made thereunder; and",
+    "scope": ""
+   },
+   {
+    "term": "State",
+    "para": "s. 2(zb)",
+    "def": "means the State as defined under article 12 of the Constitution.",
+    "scope": ""
+   }
+  ],
+  "RULES-DPDP": [
+   {
+    "term": "Act",
+    "para": "rule 2(a)",
+    "def": "means the Digital Personal Data Protection Act, 2023 (22 of 2023);",
+    "scope": ""
+   },
+   {
+    "term": "techno-legal measures",
+    "para": "rule 2(b)",
+    "def": "means as referred to under rules 20 and 22;",
+    "scope": ""
+   },
+   {
+    "term": "user account",
+    "para": "rule 2(c)",
+    "def": "means the online account registered by the Data Principal with the Data Fiduciary, and includes any profiles, pages, handles, email address, mobile number and other similar presences by means of which such Data Principal is able to access the services of such Data Fiduciary; and",
+    "scope": ""
+   },
+   {
+    "term": "verifiable consent",
+    "para": "rule 2(d)",
+    "def": "means a consent as specified in rule 10 or 11.",
+    "scope": ""
+   },
+   {
+    "term": "adult",
+    "para": "rule 10",
+    "def": "shall mean an individual who has completed the age of eighteen years;",
+    "scope": ""
+   },
+   {
+    "term": "authorised entity",
+    "para": "rule 10",
+    "def": "shall mean — (i) an entity entrusted by law or by the Central Government or by the State Government with the issuance of details of the identity and age or a virtual token mapped to such details; or (ii) a person appointed or permitted by the entity specified under clause (i), for such issuance, and also includes details of identity and age or token made available and verified by a Digital Locker Service Provider;",
+    "scope": ""
+   },
+   {
+    "term": "Digital Locker service provider",
+    "para": "rule 10",
+    "def": "shall mean such intermediary, including a body corporate or an agency of the appropriate Government, as may be notified by the Central Government, in accordance with the rules made in this regard under the Information Technology Act, 2000 (21 of 2000);",
+    "scope": ""
+   },
+   {
+    "term": "designated authority",
+    "para": "rule 11",
+    "def": "shall mean an authority designated under section 15 of the Rights of Persons with Disabilities Act, 2016 (49 of 2016) to support persons with disabilities in exercise of their legal capacity;",
+    "scope": ""
+   },
+   {
+    "term": "law applicable to guardianship",
+    "para": "rule 11",
+    "def": "shall mean, — (i) in relation to an individual who has long term physical, mental, intellectual or sensory impairment which, in interaction with barriers, hinders her full and effective participation in society equally with others and who despite being provided adequate and appropriate support is unable to take legally binding decisions, the provisions of law contained in - Rights of Persons with Disabilities…",
+    "scope": ""
+   },
+   {
+    "term": "local level committee",
+    "para": "rule 11",
+    "def": "shall mean a local level committee constituted under section 13 of the National Trust for the Welfare of Persons with Autism, Cerebral Palsy, Mental Retardation and Multiple Disabilities Act, 1999 (44 of 1999);",
+    "scope": ""
+   },
+   {
+    "term": "person with disability",
+    "para": "rule 11",
+    "def": "shall mean and include— (i) an individual who has long term physical, mental, intellectual or sensory impairment which, in interaction with barriers, hinders her full and effective participation in society equally with others and who, despite being provided adequate and appropriate support, is unable to take legally binding decisions; and (ii) an individual who is suffering from any of the conditions relating to…",
+    "scope": ""
+   },
+   {
+    "term": "committee",
+    "para": "rule 13",
+    "def": "means a committee constituted by the Central Government for the purpose of this rule, which shall include officials from the Ministry of Electronics and Technology and may include officials from other Ministries or Department of the Central Government.",
+    "scope": ""
+   },
+   {
+    "term": "identifier",
+    "para": "rule 14",
+    "def": "shall mean any sequence of characters issued by the Data Fiduciary to identify the Data Principal and includes a customer identification file number, customer acquisition form number, application reference number, enrolment ID, email address, mobile number or licence number that enables such identification.",
+    "scope": ""
+   },
+   {
+    "term": "body corporate",
+    "para": "First Schedule",
+    "def": "shall include a company, a body corporate as defined under clause (11) of section 2 of the Companies Act, 2013 (18 of 2013), a firm, a financial institution, a scheduled bank or a public sector enterprise established or constituted by or under any Central Act, Provincial Act or State Act, and any other incorporated association of persons or body of individuals;",
+    "scope": ""
+   },
+   {
+    "term": "net worth",
+    "para": "First Schedule",
+    "def": "shall mean the aggregate value of total assets as reduced by the value of liabilities of the Consent Manager as appearing in its books of accounts; and",
+    "scope": ""
+   },
+   {
+    "term": "e-commerce entity",
+    "para": "Third Schedule",
+    "def": "means any person who owns, operates or manages a digital facility or platform for e-commerce as defined in the Consumer Protection Act, 2019 (35 of 2019), but does not include a seller offering her goods or services for sale on a marketplace e-commerce entity as defined in the said Act;",
+    "scope": ""
+   },
+   {
+    "term": "online gaming intermediary",
+    "para": "Third Schedule",
+    "def": "means any intermediary who enables the users of its computer resource to access one or more online games;",
+    "scope": ""
+   },
+   {
+    "term": "social media intermediary",
+    "para": "Third Schedule",
+    "def": "means an intermediary as defined in clause (w) of sub-rule (1) of rule 2 of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021; and",
+    "scope": ""
+   },
+   {
+    "term": "educational institution",
+    "para": "Fourth Schedule",
+    "def": "shall mean and include an institution of learning that imparts education, including vocational education;",
+    "scope": ""
+   },
+   {
+    "term": "health services",
+    "para": "Fourth Schedule",
+    "def": "shall mean the services required to be provided by a healthcare professional as referred to in clause (j) of section 2 of the National Commission for Allied and Healthcare Professions Act, 2021 (14 of 2021); and",
+    "scope": ""
+   },
+   {
+    "term": "pay matrix",
+    "para": "Fifth Schedule",
+    "def": "shall mean the pay matrix specified in Annexure I to the Central Government’s Resolution published in the Official Gazette vide Notification no. 1-2/2016-IC, dated the th July, 2016. SIXTH SCHEDULE [See rule 21(2) Terms and conditions of appointment and service of officers and employees of Board Classes of officials. — (1) The Board may, in accordance with the Fundamental Rules and applicable guidelines issued by…",
+    "scope": ""
+   }
+  ]
+ }
+}
