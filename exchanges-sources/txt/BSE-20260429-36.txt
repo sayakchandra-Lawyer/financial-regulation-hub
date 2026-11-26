@@ -1,0 +1,3870 @@
+ID: BSE-20260429-36
+Source: BSE | 20260429-36 | 2026-04-29
+Title: BSE Clearing - Master circular for Debt segment
+Detail page: https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260429-36
+File: https://www.bseindia.com/downloads/UploadDocs/Notices/20260429-36/20260429-36.pdf
+======================================================================
+Notice No.            NOTICE
+Notice Date
+Category     20260429-36
+Segment      29 Apr 2026
+Department   Settlement/RMS
+Subject      Debt
+Attachments  ICCL
+             Master circular for Debt segment
+             Annexure-1
+To
+All Members,
+
+Attention of members is drawn to SEBI's Circular No. SEBI/HO/MRD/POD
+3/CIR/P/2023/58 dated April 20, 2023 on `Issue of Master Circular by Stock Exchanges,
+Clearing Corporations and Depositories'. Members are aware that ICCL has issued
+segment wise master circulars in accordance with the aforesaid SEBI circular. These
+master circulars are published on ICCL's website under `Home>Downloads>Master
+Circulars' section.
+
+The master circular for Debt updated till March 31, 2026 is attached herewith as
+Annexure 1.
+
+In case of any inconsistency between the Master circular and the applicable Notice,
+readers / users should refer to the relevant notice. This master circular shall be effective
+from the date of its issue. The Notices issued prior to this master circular and the existing
+master circular relevant to the segment shall stand rescinded with the issuance of the
+master circular.
+
+"Notwithstanding such rescission,
+
+a. Anything done or any action taken or purported to have been done or
+    contemplated under the rescinded guidelines before the commencement of this
+    Master Circular shall be deemed to have been done or taken or commenced or
+    contemplated under the corresponding provisions of the Master Circular or
+    rescinded guidelines whichever is applicable.
+
+b. The previous operation of the rescinded guidelines or anything duly done or
+    suffered thereunder, any right, privilege, obligation or liability acquired, accrued
+    or incurred under the rescinded guidelines, any penalty, incurred in respect of any
+    violation committed against the rescinded guidelines, or any investigation, legal
+    proceeding or remedy in respect of any such right, privilege, obligation, liability,
+    penalty as aforesaid, shall remain unaffected as if the rescinded guidelines have
+    never been rescinded."
+
+Members are hereby requested to take note of the above.
+
+Contact details for any clarification related to this circular.
+
+Contact No.                        email ID
+
+022-69158590 / 45720490 / 45720690 iccl.helpdesk@icclindia.com
+
+For Indian Clearing Corporation Limited
+
+Akshat Chaturvedi                  Anita Bhatia
+Head of Operations                 Chief Regulatory and Compliance Officer
+
+                                                                 INTERNAL
+
+===== [attachment] Annexure-1$66578af2-ad7e-4dce-b875-e34885fd980c.pdf =====
+MASTER CIRCULAR FOR DEBT SEGMENT
+       (Updated till March 31, 2026)
+                                          TABLE OF CONTENTS
+1. Deals ............................................................................................................................................... 3
+2. Liquid Assets (Collateral Deposits) .......................................................................................... 5
+3. Margins ........................................................................................................................................ 27
+4. Clearing & Settlement ............................................................................................................... 35
+5. Maintenance of Depository Account ...................................................................................... 42
+6. Core Settlement Guarantee Fund............................................................................................ 43
+7. Charges and Penalties ............................................................................................................... 46
+8. Privity Of Contracts.................................................................................................................... 53
+9. Tri Party Repo (Basket Repo).................................................................................................. 53
+10. Negotiated Trades Reported on BSE-ICDM Portal .......................................................... 59
+11. Annexures ............................................................................................................................... 61
+
+                                                    Page 2 of 100
+1. Deals
+
+Deals executed on the Debt Segment are eligible to be cleared and settled through Indian
+Clearing Corporation Limited unless specifically deferred or not allowed to or rejected
+from admission by the relevant authority.
+
+1.1 Cleared Deals
+
+Settlement Cycle: The trades settled on DVP-3 basis in debt segment shall have settlement
+cycle of T+1. In case of trades settled on DVP-1 basis, Stock exchanges shall have flexibility
+to settle trades on T+0 or T+1.
+
+Settlement Basis:
+
+    a. Retail Market: The Stock Exchanges shall continue to settle trades on DVP-3 basis in
+         retail market of debt segment for publicly issued corporate bonds.
+
+    b. Institutional Market: The Stock exchanges may provide settlement on DVP-3 basis
+         for publicly issued corporate bonds and for such privately placed corporate bonds
+         which meet certain selection/ eligibility criteria to be specified by the exchanges.
+
+    c. The minimum selection/eligibility criteria for privately issued corporate bonds to be
+         eligible for DVP-3 settlement shall include the following:
+
+(1) The corporate bonds shall have a minimum rating of AA+ (or similar nomenclature).
+
+(2) The yield spread of corporate bonds over similar residual tenure government securities
+     shall not exceed 150 basis points.
+
+(3) New corporate bonds listed during the month shall also be eligible for DVP-3 settlement
+     if they meet the rating and yield spread criteria stated at 1 and 2 above.
+
+(4) In case of existing corporate bonds, only liquid bonds shall be permitted. The stock
+     exchanges may consider one or more following factors while defining liquid bonds:
+
+       (i) Bonds to have traded for at least 5 trading days in every month (including both
+              exchange trades and reported trades).
+
+      (ii) Bonds to have minimum trading volumes of Rs. 25 crores in every month
+              (including both exchange trades i.e. NSE & BSE and reported trades).
+
+(5) The list of eligible bonds may be reviewed on monthly basis and made applicable from
+     15th of subsequent month.
+
+                                                       Page 3 of 100
+(6) In all other cases, privately issued corporate bonds shall continue to settle on DVP-1
+     basis.
+
+1.2 Auction Market Deals
+      Auction Market deals shall be cleared and settled on a trade for trade basis.
+      Auction Market deals shall be settled on a gross obligation's basis.
+      Settlement guarantee shall be provided.
+
+                                                       Page 4 of 100
+2. Liquid Assets (Collateral Deposits)
+The liquid assets for trading in Debt Segment are to be maintained separately.
+
+2.1 Composition of Liquid Assets
+
+The acceptable liquid assets and the applicable haircuts are listed below:1
+
+Sr. no. Eligible Collateral Haircut                                             Concentration
+                                                                                Limit
+1. Cash Equivalent
+                                                                                No Limit
+2. Cash                  No haircut                                             No limit
+
+3. Bank Fixed Deposits No haircut                                               Limit on exposure
+                                                                                to a single bank.
+Receipts ("FDRs")                                                               (see Note 4a*)
+                                                                                No limit
+4. Bank Guarantees       No haircut
+
+5. Securities of the     Type / Residual Maturity      Haircut
+    Central              Liquid GoI up to 3 years      2%
+    Government (T-bills  residual maturity             5%
+    and G-Secs).         Liquid GoI more than 3 years  10%
+                         residual maturity             15%
+                         GoI Dated Securities with
+                         CCIL haircut  8%
+                         GoI Dated Securities with
+                         CCIL haircut > 8%
+
+                         Note* - As jointly decided by ICCL and other
+                         clearing corporations. The classification of the
+                         Government of India Dated Securities, as above,
+                         shall be reviewed on 15th of every month. The
+                         revision in classification, if any, shall be
+                         implemented with effect from 1st of the next
+                         month.
+
+6. Units of growth plans 5%                                                     No limit
+    of overnight mutual
+    fund schemes
+
+1 ICCL Notice no. 20240531-3 dated 31 May 2024 & SEBI Circular No.: SEBI/HO/MRD/MRD-PoD-
+3/P/CIR/2024/65 dated May 29, 2024
+
+                                                       Page 5 of 100
+Sr. no. Eligible Collateral Haircut                         Concentration
+                                                            Limit
+7. Units of overnight                               10% No limit
+
+mutual fund schemes
+
+(other than growth
+
+plans), liquid mutual
+
+fund schemes or
+
+government
+
+securities mutual
+
+fund schemes (by
+
+whatever      name
+
+called which invest in
+
+government
+
+securities).
+
+Other Liquid Assets
+
+1. Cannot be used for mark to market losses (For Derivatives Markets, mark to market
+losses shall be paid by the member only in the form of cash or cash equivalents.)
+
+2. Total of Other Liquid Assets cannot exceed total of Cash Equivalents
+(The cash/cash equivalent component should be at least 50% of the total liquid assets.
+Hence, noncash equivalent component in excess of the total cash/cash equivalent
+component would not be considered as part of Total Liquid Assets)
+
+8. Equity shares with       VaR Margin based on 6, subject to minimum of            Limit on exposure
+    impact cost of upto     9%.                                                     to a single issuer
+    0.1% for an order       (VaR Margin applicable to liquid securities (Group      (see Note 8a**)
+    value of Rupees 1       I) as mentioned at Chapter 4 (1.1.9.1)of SEBI
+    lakh and traded for at  Master Circular dated 30-Dec-2024)                      No limit
+    least 99% of days
+    over the period of      VaR Margin based on 6, subject to minimum of            Not to exceed
+    previous 6 months.      9%. (VaR Margin for the units computed using the        10% of the total
+                            traded price on stock exchange, if available, or else,  liquid assets of
+9. Units of mutual fund     using the NAV of the unit treating it as liquid         the CM.
+    schemes other than      securities (Group I) as mentioned at Chapter 4
+    those listed under      (1.1.9.1)of SEBI Master Circular dated 30-Dec-
+    cash equivalents.       2024)
+
+10. Corporate Bonds         Fixed percentage based or VaR based haircut. A
+                            higher haircut may be considered to cover the
+                            expected time frame for liquidation. However, the
+                            haircut shall not be less than 10%.
+
+                                     Page 6 of 100
+Note 4a.
+
+a. The exposure of CCs and its subsidiaries towards banks through Cash, FDs and BGs must
+    be adequately diversified, and daily exposure to a single bank shall not exceed:
+
+i. 15% of the average daily exposure of previous three months considering all liquid
+      assets of CCs, for banks with AAA rating; and
+
+ii. 10% of the average daily exposure of previous three months considering all liquid
+      assets of CCs, for banks with AA (include both AA and AA+) and above rating but
+      below AAA.
+
+b. At the end of every month, the average daily exposure of CC in liquid assets shall be
+    calculated based on the exposure of previous three months. The single bank exposure
+    limit for the next month would be based on this average daily exposure. The same shall
+    be monitored on daily basis.
+
+c. In order to allow the CCs to have operational flexibility, the daily exposure may be
+    extended by 5%. In those cases, the CCs shall record the reasons for such increase in
+    exposure and ensure to bring down the daily exposure to a single bank to 15% (or 10%
+    as the case may be) on monthly average basis on priority.
+
+d. The above limits shall be applicable separately for the following heads:
+
+i.         CCs' own funds.
+
+ii. Core SGF corpus.
+
+iii. CCs' exposure through their members, warehouse service providers or other
+
+           entities.
+
+e. CCs' own funds and core SGF corpus can only be deployed in FDs, T-bills, G-secs and units
+    of Liquid and Overnight mutual fund scheme.
+
+f. The exposure to FDs shall be through premature withdrawable FDs, which can be
+    terminated at any time before maturity, at the discretion of the CM/CC, without any loss
+    of principal.
+
+g. Margin monies or cash collateral received after closing of RTGS window and/or market
+    hours leading to breach of the exposure limit shall not be treated as non-compliance on
+    that day and shall be rebalanced on the next day.
+
+*Note 8a.
+
+                            Page 7 of 100
+Exposure of ICCL (as CC) to equity, corporate debt instruments and units of overnight &
+liquid mutual fund schemes:
+
+Exposure of ICCL to equity and debt instruments (both bank and non-bank entities) through
+CMs may be subject to the following:
+
+    a. ICCL shall devise well-defined criteria for exposure to equity and debt instruments
+        through CMs (i.e. acceptance of collateral) in order to ensure adequate diversification,
+        liquidity, etc.
+
+    b. Total exposure of ICCL to equity and debt instruments of an issuer, received as
+        collateral from CM in both cash and F&O segment (including commodity and currency
+        derivatives segment) put together, shall not exceed 15% of total liquid assets of CC
+        (i.e. ICCL) received from CMs; and shall be treated as part of non-cash component of
+        the total liquid assets of ICCL.
+
+    c. ICCL shall ensure that the corporate bonds provided by a CM shall not exceed;
+
+       c(i) 10% of the total liquid assets of the CM placed with ICCL, in case the unsupported
+             long-term issuer rating or unsupported rating of long-term instruments of that
+             issuer is AAA.
+
+       c(ii) 8% of the total liquid assets of the CM placed with ICCL, in case the unsupported
+             long-term issuer rating or unsupported rating of long-term instruments of that
+             issuer is AA and above but below AAA.
+
+       c(iii)Exposure for this purpose through equity and debt instruments shall be based on
+             mark to market value of the securities less the applicable haircuts.
+
+       c(iv) In case of exposure to entities whose own rating or rating of any of its instruments
+             has been downgraded subsequently from the rating criteria specified in
+             paragraphs above, the ICCL shall remove the exposure to such issuers at the
+             earliest.
+
+    d. In case the equity security does not meet the liquid security criteria, the same needs
+        to be replaced by the CM at the earliest. In case of passive breach in exposure limit for
+        equity securities due to mark to market valuation, ICCL shall rebalance the excess
+        exposure to the issuer within three months from such deviation.
+
+    e. ICCL shall not accept the collaterals from CMs, which are acquired through bespoke
+        transactions (i.e. the CM is the sole subscriber of such corporate debt issuances).
+
+    f. The aforesaid exposure limits to debt instruments shall not be applicable to securities
+        which are underlying the repo on corporate debt securities.
+
+                                                       Page 8 of 100
+    g. Investments made by ICCL in units of Overnight and Liquid Mutual Fund Schemes
+        shall not exceed a limit of 10% of the total investible resources held in ICCL's own
+        funds and its Core SGF corpus separately, at any point in time.
+
+    (i) For Debt Markets, mark to market losses shall be paid by the member only in the form
+        of cash or cash equivalents.
+
+   (ii) Cash equivalents shall be at least 50% of liquid assets. This would imply that Other
+        Liquid Assets in excess of the total Cash Equivalents would not be regarded as part of
+        Total Liquid Assets.
+
+Clearing Members of the Debt Segment may deposit liquid assets in form of cash and cash
+equivalent i.e. bank guarantees, fixed deposit receipts of scheduled commercial
+banks, eligible government securities, eligible liquid mutual fund units and non-cash
+equivalent i.e. eligible securities, eligible Mutual Fund Units (other than Liquid Mutual
+Fund) and in any other form of collateral as may be prescribed by the Indian Clearing
+Corporation Ltd. (ICCL / Clearing Corporation) from time to time. List of eligible securities
+and mutual fund units are available on website of ICCL
+https://www.icclindia.com/Static/Risk_Management/liquid_assets_equity.aspx .
+
+As per SEBI circular MRD/DoP/SE/Cir-07/2005 dated February 23, 2005, the cash
+component shall be at least 50% of liquid assets. This implies that non-cash component in
+excess of the total cash component would not be regarded as part of total liquid assets.
+
+The cash / cash equivalent component should be at least 50% of the total liquid assets.
+Further, the Liquid Assets deposited in form of cash equivalent and non-cash equivalent are
+subject to applicable norms in respect of haircuts, single bank and single issuer exposure
+limits, etc. as per the guidelines issued by Securities and Exchange Board of India (SEBI),
+BSE and ICCL as well as any other circulars/guidelines that may be issued in respect of the
+same from time to time.
+
+2.2 Additional Liquid Assets
+
+Clearing members may deposit additional liquid assets at any point of time based on the
+composition of Liquid Assets as detailed in 2.1 above.
+
+     2.3 Cash Deposit requirement for Members
+
+     As a part of the membership requirement every member is required to maintain cash
+     deposit of Rs. 1.25 lakhs mandatorily.
+
+     The benefit of such cash deposit requests shall be subject to bank confirmation from the
+     respective clearing bank. A member who has authorized by the Clearing Corporation to
+     debit his clearing account as above shall ensure due performance of the commitment.
+
+                                                       Page 9 of 100
+    Nonfulfillment of such obligation will be treated as a violation and/ or non-performance
+    of obligations and shall attract consequences, penalty and/ or penal charges as
+    applicable to violations
+
+2.4.A Procedure for depositing various types of collateral deposits towards Liquid
+    Assets Cash Deposits
+
+     For depositing cash towards liquid assets, the Clearing Members need to send their
+         online instruction in respect of the same through the Collateral Module (CLASS-
+         Collateral Management System) to their respective Clearing Banks for confirmation
+         of such request for enhancement of cash collateral.
+
+     ICCL has provided an on-line facility to members for sending instructions to Clearing
+         Banks for enhancement of cash collateral. Through the said facility, Members can
+         place their on-line requests to their designated Clearing Bank during the specified
+         timings for enhancement of cash collateral for the relevant segment of the Exchange.
+         The concerned Clearing Banks have also been provided the on-line web-based
+         facility for confirmation of such cash collateral enhancement requests. Based on the
+         request forwarded by the Member, the respective Clearing Banks may confirm or
+         reject the enhancement of cash collateral request received by them.
+
+     The cash can be deposited by the Members towards capital by submitting
+         instructions to their clearing banks to debit their bank accounts and credit the
+         amount to BSE/ICCL's account.
+
+     Alternatively, in case of any contingency the Clearing Members and their designated
+         Clearing Banks may at their discretion avail the facility of manual updations of cash
+         collateral. For this purpose, the members may instruct their Clearing Banks to
+         confirm the cash collateral deposits to the ICCL through written mode viz. Fax,
+         letters or email. Based on such written confirmations received from the Clearing
+         Banks, the cash collateral deposits of the members will be manually updated in the
+         system by the ICCL.
+
+2.4.B Fixed Deposit Receipts (FDRs)
+
+Clearing Members can deposit FDR(s) of a scheduled commercial bank towards liquid assets.
+The FDRs deposited by the Clearing Members should be issued in favour of "Indian Clearing
+Corporation Ltd. A/c - Trade Name of the Clearing Member" and should be duly discharged
+by the Clearing Member himself or an authorized signatory of the member on the reverse of
+the FDRs. The FDRs need to be deposited along with a covering letter of the Clearing Member
+in the format given in Annexure-I, and also with a letter from the concerned bank addressed
+to ICCL in the format given in Annexure-II.
+
+                                                      Page 10 of 100
+CCs shall not accept FDs issued by CMs/TMs themselves or their group or associate entities.
+A Declaration to that effect will be given by CMs/TMs mentioning all their group/associate
+entities to CCs
+
+The FDRs submitted by the Member towards the capital have to be in the approved format in
+favour of ICCL either issued or payable by any Mumbai-based branch of a scheduled
+commercial bank only. However, in case FDRs are issued by the outstation branches of
+scheduled commercial banks (i.e., branches outside Mumbai), the payment of the proceeds on
+encashment of FDRs by BSE/ICCL has to be assured by a Mumbai-based branch of the
+concerned issuing bank. As regards the Fixed Deposit Receipts (FDRs) of banks, the duly
+discharged FDRs are required to be submitted by the Members to ICCL in the name of "Indian
+Clearing Corporation Limited. A/c - trade name of the Member" issued by any Mumbai-based
+branch or payable at any Mumbai-based branch of any scheduled commercial bank.
+
+2.4.C Fixed Deposit Receipts in electronic form (E-FDRs)
+
+The Clearing Members can also deposit the Fixed Deposit Receipts in electronic form (E-
+FDRs) in favour of ICCL towards their liquid assets. The process for issuance of E-FDR is
+as follows:
+
+      Members who wish to avail of the facility can approach any of the empaneled banks.
+      Submit required documents and information such as member code, segment for
+
+         which FDR is to be deposited towards Liquid Assets (Collateral) requirements,
+         Amount, Tenure etc.
+      Request the bank to create a FDR and mark lien in favour of ICCL.
+      Bank will issue the FDR, mark lien in favour of ICCL.
+      Bank will update and confirm the FDR information electronically to ICCL through
+         the system provided by ICCL.
+
+The process for withdrawal of E-FDR would be same as that of the current process for the
+FDRs. ICCL shall from time to time, inform the Clearing Members of the empaneled banks who
+shall provide this facility.
+
+2.4.D Renewal of FDRs
+
+Clearing Members may renew the FDRs deposited towards Liquid Assets by submitting a
+renewal letter from the concerned bank in the prescribed format given in Annexure-III.
+The renewal letter should be submitted along with a covering letter by the Clearing
+Member in the prescribed format given in Annexure-IV. In case the renewed FDR / fresh
+FDR is not submitted and whereby the member does not fulfill the security deposit
+requirements, action as provided in this chapter above shall be applicable.
+
+                                                       Page 11 of 100
+2.4.E Bank Guarantee (BGs)
+
+Clearing Members can deposit Bank Guarantees (BGs) issued by Scheduled Commercial
+Banks towards Liquid Assets requirements in the prescribed format given in Annexure-V.
+The BG may be deposited along with a covering letter of the Clearing Member in the format
+given in Annexure-VI.
+
+Clearing Members can deposit bank guarantee(s) with/without the claim period. In cases
+where bank guarantee(s) are submitted without a claim period, the amount of the bank
+guarantee(s) would be removed from the liquid assets of the member at least seven days
+before the expiry date of the bank guarantee(s) or such other period as may be decided by
+ICCL from time to time. In cases where bank guarantee(s) are submitted with a claim
+period, the amount of the bank guarantee(s) would be removed on the expiry date of the
+bank guarantee(s) or such other date as may be decided by ICCL from time to time.
+
+Clearing Members are required to ensure the following at the time of deposit of bank
+guarantees:
+
+      The bank guarantee should be strictly as per the formats prescribed by the
+         Clearing Corporation.
+
+      No relevant portion of the bank guarantee should be left blank
+      All irrelevant portions struck off on the printed format should be authenticated by
+
+         the bank by affixing the bank seal / stamp duly authorized.
+      All handwritten corrections and blanks should be attested by the bank by affixing
+
+         the bank seal / stamp duly authorized.
+      Each page of the bank guarantee should bear the bank guarantee number, issue
+
+         date and should be signed by at least two authorized signatories of the bank.
+      That the bank guarantee should be free from any discrepancy before the same is
+
+         submitted to ICCL.
+
+2.4.F Bank Guarantee in electronic form
+
+The Clearing Members can also deposit the Bank Guarantee in electronic form in favour of
+ICCL towards their liquid assets. The process for issuance Bank Guarantees in electronic
+form is as follows:
+
+ Members who wish to avail such facility can approach any of the empanelled banks.
+ Submit their request along with the required documents/information and complete
+
+     the necessary formalities as may be required by the concerned banks for issuing Bank
+     Guarantees towards Liquid Assets (Collateral) requirements. If the documents are in
+
+                                                       Page 12 of 100
+     order as per Bank's requirements, then the Bank may issue the Bank Guarantee
+     documents in favour of ICCL as per the existing process.
+ Bank will update and confirm such Bank Guarantee information electronically to ICCL
+     through the system provided by ICCL.
+
+The process for withdrawal of such Bank Guarantees would be same as that of the current
+process for the Bank Guarantee Release. ICCL shall from time to time, inform the Clearing
+Members of the empaneled banks who shall provide this facility.
+
+2.4.G Renewal of BGs
+
+Clearing Members may renew the BGs deposited towards Liquid Assets by submitting a
+renewal letter from the concerned bank in the prescribed format given in Annexure-VII. The
+renewal letter should be submitted along with a covering letter by the Clearing Member in
+the prescribed format given in Annexure-VIII.
+
+2.4.H Eligible securities and units by way of pledge towards Liquid Assets
+
+Clearing Members can deposit eligible securities and units in dematerialized form towards
+liquid assets by way of pledge. The list of eligible securities and units is available on ICCL
+website. These securities and units shall be pledged in favor of ICCL in the designated
+depository accounts.
+
+The valuation of the securities and units deposited towards Liquid Assets shall be in
+accordance with the norms and limits as prescribed by ICCL from time to time. The value of
+the securities shall be subject to such haircut as may be prescribed by ICCL from time to time
+to arrive at the collateral value of the securities. The valuation of securities and units will be
+done on a periodic interval by ICCL and benefit to the extent of net value of the securities/units
+after haircut shall be considered.
+
+ICCL may revise the list of approved securities/units and the norms in respect of same
+from time to time. Clearing Members shall regularly monitor their valuation of
+securities/units lying towards Liquid Assets and replace/replenish the same based on the
+revised list of approved securities/units and change in norms.
+
+Clearing Members shall also ensure that only eligible securities are pledged and lying
+towards their Liquid Assets with ICCL and that the said securities are not subject to any
+lock in period, buy back scheme, any charge or lien, encumbrance of any kind, or such other
+limitations or title is questioned before the court or any regulatory body.
+
+                                                       Page 13 of 100
+CCs shall not accept securities issued by CMs/TMs themselves or their group or associate
+entities. A Declaration to that effect will be given by CMs/TMs mentioning all their
+group/associate entities to CCs.
+
+2.4.I Procedure for pledging of demat securities / units towards Liquid Assets
+
+Clearing Members need to follow the following procedure for availing the facility to pledge
+demat securities / units towards Liquid Assets:
+
+Clearing Members need to execute a deed of pledge in favour of ICCL, for deposit of
+approved securities towards liquid assets with ICCL for the concerned segment in the
+prescribed format given in Annexure-IX. The said deed of pledge should be:
+
+     Signed and stamped on all pages and where manual changes have been carried out
+         by (i) Clearing Member in case of individual, (ii) all partners in case of a Partnership
+         Firm (iii) by any two of the following persons (Managing Director, Whole-time
+         Director, Directors) in case of a company.
+
+     Accompanied with a certified true copy of the Board Resolution, authorizing the
+         signatory to sign this deed, to be submitted in case of a company. By Authorized
+         Signatory as approved by the Bank, in case of a Bank.
+
+     Accompanied with a copy of the authority letter addressed by the member to its
+         Clearing Bank authorizing them to carry out the debit in respect of charges levied by
+         ICCL / ICCL's custodian. The said copy of letter shall be duly acknowledged by their
+         Clearing bank.
+
+     A covering letter of the Clearing Member enclosing details of the aforesaid and
+         requesting for opening of a pledgee account of ICCL in whose favour the said demat
+         securities/units towards Liquid Assets of the member shall be pledged.
+
+Clearing Members can initiate pledging of securities/units in favour of ICCL for deposit of
+same towards their Liquid Assets, and requisite benefits in respect of same will be available
+after receipt of confirmation of the pledge from the Depository system.
+
+2.4.J Government of India Securities towards Liquid Assets
+
+Clearing Members may deposit eligible securities of Central Government of India (G-Sec)
+and Treasury bills (T-bills). The procedure for depositing eligible securities in form of G-
+Sec and T-Bills shall be as prescribed in Annexure-X.
+
+                                                      Page 14 of 100
+In addition to the existing mode of depositing the G-Secs through the E-kuber system of
+RBI, the Clearing Members can create a lien on the G-Secs held in CSGL (Constituent
+Subsidiary General Ledger) account of the members in favour of ICCL as part of their
+collateral requirements.
+
+CCs shall not accept debt securities issued by CMs/TMs themselves or their group or
+associate entities. A Declaration to that effect will be given by CMs/TMs mentioning all
+their group/associate entities to CCs.
+
+2.4.K Transfer of collateral from one trading segment to another trading segment
+
+Clearing Members who intend to transfer collateral across segments need to send their on-
+line instruction in respect of same through the Collateral Module. Members can log-in
+through specific user-ids and passwords into the Collateral Module.
+
+Clearing Members can avail facility of on-line transfer of collateral across segments to the
+extent of the available amount of unutilized collateral (collateral which is not
+utilized/blocked towards margins and/or other obligations of the member). The transfer
+requests received from Clearing Members through the Collateral Module shall be treated
+as request from the member and no separate letter would be required to be submitted.
+
+In case of collateral lying in form of bank guarantees issued by banks the same would be
+available for transfer from one trading segment to another, only after submission of letter
+from the concerned bank regarding transfer of scope of the bank guarantee in the specified
+format given in Annexure-XI, to ICCL.
+
+The evaluation of collateral transfer across the segments will be subject to hair-cut and
+other criteria/norms in respect of the concerned segments as specified by SEBI/BSE/ICCL
+in this behalf from time to time.
+
+Clearing Members may verify the details of their request for transfer and its status in the
+Class Collateral Module
+
+2.4.L Process of creation of lien on Government of India Securities
+
+     1. Clearing Member should fill Form no. XVII (copy enclosed as Annexure Form XVII
+         - Notice of Pledge / Hypothecation / Lien of Government Securities required
+         to be submitted to the Public Debt Office (PDO), Reserve Bank of India (RBI), after
+         getting it approved by authorized signatories of the CSGL holder and ICCL.
+
+                                                      Page 15 of 100
+     2. PDO, RBI, will confirm having recorded the lien in its books and will issue
+         confirmation in triplicate copies.
+
+     3. Clearing Member should submit duplicate copy of the PDO's confirmation to ICCL
+         and the triplicate copy with the CSGL holder.
+
+     4. On receipt of the duplicate copy as aforesaid, ICCL shall update the collateral limits
+         of the member.
+
+2.4.M Process of cancellation of lien on Government of India Securities
+
+    1. Clearing Member should send request to ICCL for cancellation of lien.
+
+    2. Clearing Member should submit Form no. XVIII (copy enclosed as Annexure Form
+         XVIII- Cancellation of Pledge / Hypothecation / Lien) in triplicate to the PDO,
+         RBI.
+
+    3. PDO will record the cancellation of lien in its books and confirm the cancellation in
+         triplicate copies. Clearing Member will submit duplicate copy of the PDO's
+         confirmation to ICCL and the triplicate copy with the CSGL holder.
+
+    4. CSGL holder will remove lien in the gilt account of the client and intimate the
+         Clearing Member.
+
+2.4.N Open ended mutual fund units as Collaterals
+
+ Units of mutual funds are also accepted as in dematerialized form as approved
+    collaterals through approved custodians.
+
+ The list of eligible open-ended mutual fund schemes along with the market wide
+    acceptable quantity shall be disseminated by ICCL on monthly basis along with the
+    approved list of securities.
+
+2.4.O Corporate Bonds as Collaterals
+
+    Corporate Bonds are also accepted in dematerialized form as approved collaterals
+        through approved custodians. The list of eligible Corporate Bonds along with the
+        market wide acceptable quantity shall be disseminated by ICCL on monthly basis.
+
+    The valuation of the Corporate Bonds and haircut applicable shall be in accordance
+        with the norms prescribed by the Clearing Corporation from time to time. The value
+        of the Corporate Bonds shall be reduced by such haircut.
+
+                                                      Page 16 of 100
+     Valuation of Corporate Bonds shall be done by the custodians at such periodic
+         intervals as may be specified by the Clearing Corporation from time to time.
+
+     The total value of Corporate Bonds provided as noncash portion of the liquid assets
+         shall not exceed 10% of the total liquid assets of the respective member.
+
+2.5 Pledge / Re-pledge of Securities
+
+Deposit of eligible demat securities (inclusive of Equity shares/MF Units/Corporate
+bonds, G-sec's etc.) by way of pledge/re-pledge in favour of ICCL towards collateral
+requirements by Clearing Members (CMs) through the Depositories system, the
+undermentioned new process will be followed as prescribed in the aforementioned
+SEBI Circular dated February 25, 2020, w.e.f. August 01, 2020.
+
+2.5.A Pledging-Repledging of Securities
+
+   1. As per the process prescribed in the aforesaid SEBI Circular, the Depositories will
+       provide the files pertaining to pledge/re-pledge to ICCL.
+
+   2. Clearing Members will be required to open separate designated demat account in the
+       Depositories system for the purpose of providing securities as collateral. CMs need to
+       provide the details of designated demat accounts from where the pledge/re-pledge of
+       eligible securities will be created in favour of ICCL. The said demat account details are
+       to be provided by email addressed to CM_Settlements@icclindia.com latest by July 20,
+       2020.
+
+   3. The details of ICCL's demat accounts in favour of which pledge / re-pledge of eligible
+       securities are to be created by CMs will be provided through a separate circular.
+       Details of such demat accounts of ICCL will also be available in the respective
+       Depository system at the time of creation of pledge/re-pledge of eligible securities.
+
+   4. Custodians would be required to enter Custodial participant (CP) code in pledge /
+       re-pledge instructions pertaining to their CP clients as per the procedure stipulated
+       by the Depositories.
+
+   5. After creating pledge/re-pledge in the Depository system, based on the details
+       provided by the Depositories, the following fields will be provided to the respective
+       CMs in the collateral holding report.
+
+              v" Client UCC
+              v" Trading Member (TM) Code/CP Code
+              v" CM Code
+
+                                                       Page 17 of 100
+              v" Segment Indicator
+
+       CM Demat account details
+       Description of Securities
+       Depository ISIN
+       Quantity
+       Depository Pledge/Re-pledge sequence No etc.
+
+ Such collateral holding report will be available in the existing ICCL Collateral Management
+ Module -Reports - Holding Statement / New Holding Statement provided to the CMs. CMs
+ may note that the Depository system will accept only eligible securities towards
+ pledge/re-pledge by CMs in favour of ICCL. The evaluation of collateral will be subject to
+ existing norms/criteria pertaining to haircut, composition of cash/cash equivalent & non-
+ cash equivalent etc. as specified by SEBI/ICCL in this behalf from time to time
+
+2.5.B Release of Securities
+
+1. For release of pledged securities lying with ICCL, the CMs can place their online requests
+     through ICCL Collateral Module as per existing process.
+
+2. Such pledge/re-pledge securities will be released only if the same are not utilized
+     towards margin/obligations of the respective clients/TMs of the concerned CM or;
+     there is sufficient unutilized collateral deposit of the concerned CM available with ICCL
+     to meet such margin/obligation requirements.
+
+3. For other details, Members are requested to refer the aforesaid SEBI Circular No
+     SEBI/HO/MIRSD/DOP/CIR/P/2020/28 dated February 25, 2020 & SEBI circular no
+     SEBI/HO/MIRSD/DOP/CIR/P/2020/88 dated May 25, 2020, or any other circular
+     issued by SEBI/Exchanges/ICCL/Depositories from time to time.
+
+2.6 Client Allocation for Cash and Cash Equivalent Collateral
+
+ In view of SEBI Circular Ref No. SEBI/HO/MRD2/DCAP/P/CIR/202 dated November 23,
+ 2021, for availing collateral limits in case of Cash and Cash equivalent collateral, CMs will
+ be required to provide client level collateral allocation details to ICCL through File
+ upload/API. The same may be done through upload of file through member extranet portal
+ or via API.
+
+                                                       Page 18 of 100
+2.7 Process for upload of ICCLCOLL file through members' extranet portal: a. File to be
+    uploaded on extranet URL https://member.bseindia.com.
+
+   a. Path Menu: uploads-select file type, Collateral Allocation File- Click upload.
+
+   b. Maximum 50,000 records can be uploaded in a single allocation file.
+
+   c. After upload of the first full allocation file, all subsequent files uploaded by CMs would
+        be for changing the allocated collateral amounts (except in case of transfer) of existing
+        TM/Client/CP or for adding collateral allocation for any new TM/Client/CP.
+
+   d. The allocated amount (except in case of transfer) mentioned in the file would be the
+        allocation requested amount for the respective data string i.e., segment wise collateral
+        allocated for respective CM/TM/Client/CP. Accordingly, the allocated amount provided in
+        the file would replace the previous values for the mentioned data string. However, in case
+        of transfer of collateral amount from one segment to another segment, CM should mention
+        the actual amount to be transferred in the field against "Sr No. 8" and mention the segment
+        where the collateral amount is to be transferred in the field against "Sr No.
+
+e. Format for ICCLCOLL file:2
+
+File              ICCL COLL_CM CODE_ ddmmyyyy _batch no (CM will upload single file for
+Nomenclature      all segments.
+
+                  The segment wise details to be taken from field number two i.e. Segment
+                  Indicator.
+
+                  Segment indicator details are provided on page number 3.
+                  Nomenclature date should be the current business date.)
+
+File type         Batch No - Batch no will be unique four-digit sequence no (0001 to 9999)
+Frequency         CSV
+reporting         Online basis. It will always be a final file at client level.
+Cut-off time for
+submission        Morning 8:00 AM to 8:00 PM (tentative-to be parameterized). Cut-Off time
+                  for Commodity and Gold Spot segment to be till 11 pm (tentative-to be
+                  parameterized). Records which are uploaded by the members post the
+                  above stipulated end time, collateral system will read the records on the
+                  next working day.
+
+2 BSE Notice No. 20211118-65 dated 18 Nov 2021
+
+                                                       Page 19 of 100
+Sr. No Field Name   Data Type       Remarks
+  1. Current Date   Char (11)       DD-MMM-YYYY. Date will be the current
+                                    business date (file upload date).
+2. Segment Indicator Char (03)
+                                    It should match with the date.
+                                    *Values shall be CM, FO, CD, CO, SLB, OFS, TPR,
+                                    ITP, DT and NCB
+
+3. Clearing Member Code VarChar (5) ICCL CM Code
+
+4. Trading Member Code VarChar (5) TM Code
+
+5. CP Code          VarChar (12) CP Code
+
+6. Client Code      VarChar (10)    UCC Code. Value should be Blank when CP code
+                                    is populated, or Account type is 'P'
+
+7. Account Type     Char (1)        P-prop, C-Client
+
+8. Cash & Cash Number (15,2) Value in Rs. (Cash + FDR +BG)
+Equivalents Amount
+9. Transfer to segment Char (03)    Values shall be CM, FO, CD, CO, SLB, OFS, TPR,
+
+                                    ITP, DT and NCB (Actual value to be provided
+
+10. Filler 1                        Reserved for future
+
+11. Filler 2                        Reserved for future
+
+12. Filler 3                        Reserved for future
+
+13. Filler 4                        Reserved for future
+
+14. Filler 5        Char (1)         Reserved for future
+15. Action
+                                    Expected sample value:
+                                     Allocated Collateral amount (A)
+                                     Transfer (T)
+
+*Segment description -
+CM - Equity Cash Segment
+FO - Equity Derivatives Segment
+CD - Currency Derivatives Segment
+CO - Commodity Derivatives Segment
+SLB - SLB Segment
+OFS - Offer for Sale Segment.
+TPR - Tri-party Repo Segment
+ITP - ITP Segment
+DT - New Debt Segment
+NCB - NCBGSEC Segment
+
+                              Page 20 of 100
+f. Format: Input fields for each client/proprietary type
+
+Sr. No.          Level         Clearing  Tradin           Client  Account Mandator
+ 1.                            Member        g CP Code    Code
+ 2.      CMProprietary                                            Type                               y
+         account                  Code   Membe
+         CM'sown TM           CM Code
+         Proprietary account             Blank Blank Blank        P     Yes
+                              CM Code
+                                         TM Blank Blank P No*
+                                         Code
+
+         CM's aggregated                 (-) TM Blank Blank P No*
+                                         Code
+3. CP Proprietary             CM Code
+         account
+
+4. Client's account           CM Code    TM    Blank Client C           Yes
+
+5. CP account                 CM Code    Code             Code
+                                         Blank CP Blank C               Yes
+
+6. TM's Proprietary CM Code              TM    Blank Blank P            Yes
+         account
+                                         Code
+
+ CM should input the above applicable fields for allocation pertaining to each
+    type.
+
+ CM Proprietary account Allocation would be at CM Proprietary level -
+    This allocation would be available towards the excess non-cash collateral
+    of all TMs and their clients including the CM's own TM and CP clients
+    (Example: CM: 1234)
+
+ CM's own TM Proprietary account
+
+Allocation would be at CM's own TM's Proprietary level. This allocation would be available
+towards the excess non-cash collateral of clients clearing directly through the CM in its
+capacity as a TM. Excess cash-equivalent collateral of the CM's own TM Proprietary account
+would first be used to offset the excess non-cash collateral of his clients. In case, excess cash-
+equivalent collateral of the CM's own TM Proprietary account is not provided or is insufficient
+to offset the excess non-cash collateral of his clients, then the excess cash-equivalent collateral
+of the CM as in point 1 would be used. Example: CM: 1234; TM:1234
+
+ CM's aggregated CP Proprietary account
+Allocation would be at CM's CP Proprietary level. This is an additional functionality for the CM
+to allocate his own collateral for all CP clients cleared by him on an aggregate basis. This
+
+                                                       Page 21 of 100
+allocation would be available only towards the excess non-cash collateral of CPs clearing
+directly through the CM. Excess cash-equivalent collateral of the CM's own CP Proprietary
+account would first be used to offset the excess non-cash collateral of his CPs. In case, excess
+cash-equivalent collateral of the CM's own CP Proprietary account is not provided or is
+insufficient to offset the excess non-cash collateral of his CPs, then the excess cash-equivalent
+collateral of the CM as in point 1 would be used.
+
+ Client account
+
+This is applicable for clients of the CM in its capacity as a TM or for any clients of the other TM(s)
+clearing through the CM.
+
+Example: CM: 1234; TM:1234; Client Code: ABC Or CM: 1234; TM:4370; Client Code: PQR
+
+ CP account
+
+This is applicable for CPs directly clearing through the CM.. Example: CM: 1234; CP Code: XYZ
+
+ TM's Proprietary account
+
+Allocation would be at TM Proprietary level. Example: CM: 1234; TM: 4370.
+
+* Point 2 and Point 3 are additional optional allocation levels provided by ICCL to enable
+the CM to ring-fence the CM's own client/CP trades from the trades executed by his other
+TMs.
+
+            a. In case of allocation to CM Prop, values in TM Code, CP Code, Client Code will
+                 be blank
+
+            b. In case of allocation to TM Prop, values in CP Code, Client Code will be blank
+            c. In case of allocation to CP, values in TM Code, Client Code will be blank
+            d. A response file will be provided to the CMs for the above collateral breakup
+
+                 on Member Extranet portal under folder `Allocation Response File' for
+                 rejected records. The format of response file is provided below:
+
+Format: CM Collateral Allocation Response file
+
+File          Res_ ICCLCOLL_ CMCODE_ ddmmyyyy_ batch no
+Nomenclature  CSV
+File type     Immediate basis post matching of member allocation file
+              vis a vis available collateral in Class Collateral system
+Frequency
+
+              Page 22 of 100
+Sr. No.  Field Name         Data Type Remarks
+    1.
+         Current Date       Char (11) DD-MMM-YYYY. Date shall be
+    2.
+    3.                                 the current business date (file
+    4.
+    5.                                            upload date)
+    6.   Segment Indicator Char (03) *Values shall be CM, FO, CD, CO, SLB,
+
+    7.                                             OFS, TPR, ITP, DT and NCB
+    8.   Clearing Member VarChar (5) ICCL CM Code
+
+    9.   Code
+         Trading Member VarChar (5) TM Code
+    10.
+    11.  Code               VarChar (12)CP Code
+    12.  CP Code
+    13.
+    14.  Client Code        VarChar (10)UCC Code. Value should be Blank
+    15.
+                                       when CP code is populated,or
+    16.
+                                       Account type is 'P'
+
+         Account Type       Char (1)   P-prop, C-Client
+         Cash & Cash        Number     Value in Rs. (Cash + FDR +BG)
+         Equivalents        (15,2)
+         Amount                        Values shall be CM, FO, CD, CO, SLB,
+         Transfer to        Char (03)  OFS, TPR, ITP, DT and NCB
+         segment
+
+         Filler 1           Char (1)   Reserved for future
+         Filler 2                      Reserved for future
+         Filler 3                      Reserved for future
+         Filler 4                      Reserved for future
+         Filler 5                      Reserved for future
+         Action                        Expected sample value:
+
+         Errorcode / Error                   Allocated Collateral amount (A)
+         reason                              Transfer (T)
+                            VarChar (50)In case of rejection, appropriate
+                                             error code/error reason to be
+                                             displayed.
+
+(1) A report utility is provided in ICCL Collateral system to view the status of allocation
+ file uploaded on the below path: Reports-Member Reports - Collateral Allocation
+
+   File Upload Status
+
+(2) In case of erroneous records, following Error codes with reasons will be provided for
+       rejected entries in the field "Sr No. 16":
+
+                            Page 23 of 100
+a. Invalid CM Code in File nomenclature (For Invalid CM code in file nomenclature, entire
+    file would be rejected.)
+
+ (3) Invalid CM Code in respective field record (For Invalid CM code in respective field
+         record, respective record would be rejected.)
+
+ (4) Invalid TM Code (For Invalid TM code respective record would be rejected.)
+ (5) Invalid segment indicator (Records pertaining to wrong segment would be rejected.)
+ (6) Invalid CP Code (For Invalid CP code respective record would be rejected.)
+ (7) Total Allocated amount is more than available collateral (entire file would be
+
+         rejected)
+ (8) Negative values in amount field not accepted (Respective records would be rejected)
+ (9) Request Rejected due to non-availability of un-utilized collateral (Respective record
+
+         would be rejected)
+ (10) File format error (Invalid date, Junk characters, Blank rows - entire file would be
+
+         rejected)
+
+Process for Collateral Allocation through API Facility.
+
+The New API is a JSON based API Request facilitating Collateral Management for the
+Members.3
+
+The document contains:
+
+i. Member registration for API access through the Web Application
+ii. Collateral API Authorization Structure Request and Response
+iii. Collateral Management API Structure Request and Response
+iv. The given API shall provide the following facilities:
+
+a. Authentication / Session Creation APIs
+b. Collateral Allocation (Allocation & Transfer)
+c. Data validation error codes
+
+Fines and Penalties for due to non-availability of Total Liquid Assets during trading session
+
+       Instances of                            Penalty to be levied
+       disablement
+                        0.07% per day
+1st instance            Trading limit violation upto Rs.1 crore = 0.07% per day
+2nd to 5th instance of  + Rs.1,000/- per instance from 2nd to 5th instance.
+disablement
+
+3 ICCL Notice No. 20220124-38 dated 24 Jan 2022
+
+                                                       Page 24 of 100
+       Instances of                             Penalty to be levied
+       disablement
+                         Trading limit violation above Rs. 1 crore = 0.07% per
+6th to 10th instance of  day + Rs.5,000/- per instance from 2nd to 5th instance
+disablement              Trading limit violation upto Rs. 1 Crore = 0.07% per
+                         day + Rs. 4,000/- (for 2nd to 5th instance) + Rs.2,000/- per
+11th     instance        instance from 6th to 10th instance.
+onwards                  Trading limit violation above Rs. 1 Crore = 0.07% per
+                         day + Rs.20,000/- (for 2nd to 5th instance) + Rs.10000/-
+                         per from 6th to 10th instance.
+                         Trading limit violation upto Rs. 1 Crore = 0.07% per
+                         day + Rs.24,000/- (for 2nd to 10th instance) + Rs.2,000/-
+                         per instance from 11th instance onwards Additionally, the
+                         member will be referred to the
+                         Disciplinary Action Committee for Suitable action.
+                         Trading limit violation above Rs. 1 Crore = 0.07% per
+                         day + Rs.70,000/- (for 2nd to 10th instance) + Rs.10,000/-
+                         per instance from 11th instance onwards. Additionally,
+                         the member will be referred to the Disciplinary Action
+                         Committee for suitable action.
+
+* The instances as mentioned above refer to all de-activation/Risk Reduction Mode of
+trading terminals during market hours in a calendar month.
+
+BSE, as a precautionary measure, provides on-line warnings to its members on the trading
+terminals when they reach 70%, 80% and 90% of the utilization of total liquid assets (TLA).
+When a member crosses 100% of the utilization of TLA, a message is flashed on his trading
+terminal and immediately thereafter, all his trading terminals get deactivated. The trading
+terminals of the member in such cases are reactivated only after they deposit the required
+additional liquid assets. To avoid de-activation of trading terminals and levy of fines/penalties,
+the additional liquid assets should be deposited by the member sufficiently in advance.
+
+     Enablement/Disablement by CCs
+
+When the CCs decide to disable a trading/clearing member, the CCs will notify all exchanges
+for such disablement and all exchanges will act on such instructions. CCs will only disable
+members for violations/non-compliance with CC requirements and not for exchange
+obligations (e.g., margin violation, settlement shortfall etc.). Similarly, when a CC decides to
+enable a member, it would enable the member on all exchanges.
+
+ Enablement / Disablement by Exchanges
+
+                         Page 25 of 100
+If the exchanges decide to disable a trading member, such disablement will be enforced on the
+respective exchange only and will not have any effect on the activity of the trading member
+on other exchanges. Such disablement will be due to violations/non-compliance with the
+exchange requirements and will be initiated by the relevant department of the exchange (e.g.,
+breach of high order/trade ratio) and send to CC for enablement/ disablement.
+
+2.8 Eligible Banks
+
+List of banks which are eligible as on today as per Section 3.2 Criteria for selection of Banks
+of the SEBI Circular no. SEBI/HO/MRD/MRD-PoD-3/P/CIR/2024/65 dated 29-May-2024:
+
+          1. AU SMALL FINANCE BANK LTD
+          2. AXIS BANK LTD
+          3. BANK OF BARODA
+          4. BANK OF INDIA
+          5. BANK OF MAHARASHTRA
+          6. BARCLAYS BANK PLC
+          7. CANARA BANK
+          8. CENTRAL BANK OF INDIA
+          9. CITIBANK N.A.
+          10. CREDIT AGRICOLE CIB (INDIA)
+          11. DBS BANK
+          12. DEUTSCH BANK AG
+          13. HDFC BANK LTD
+          14. HSBC BANK LTD
+          15. ICICI BANK LTD
+          16. IDBI BANK
+          17. IDFC FIRST BANK LTD
+          18. INDIAN BANK
+          19. INDIAN OVERSEAS BANK
+          20. INDUSIND BANK LTD
+          21. JP MORGAN CHASE BANK, N.A.
+          22. KARUR VYSYA BANK LTD
+          23. KOTAK MAHINDRA BANK LTD
+          24. MIZUHO BANK LTD
+          25. MUFG BANK LTD
+          26. PUNJAB AND SINDH BANK
+          27. PUNJAB NATIONAL BANK
+          28. STANDARD CHARTERED BANK
+          29. STATE BANK OF INDIA
+
+                                                       Page 26 of 100
+          30. SUMITOMO MITSUI BANKING CORPORATION
+          31. THE FEDERAL BANK LTD
+          32. THE SOUTH INDIAN BANK
+          33. UCO BANK
+          34. UNION BANK OF INDIA
+
+ICCL Notice no. 20260226-8dated 26 Feb 2026
+3. Margins
+
+3.1 Margining Process
+
+The core of the risk management system followed in Debt Segment is based on the Liquid
+Assets deposited by members with the Clearing Corporation and is, inter alia, intended to
+cover mainly the requirements of:
+
+       VaR Margin (Initial Margin)
+       Extreme Loss Margin (ELM)
+       Mark to Market (MTM)
+
+The liquid assets deposited by members at all points of time should be adequate to cover
+the aforesaid requirements.
+
+3.2 Initial Margin
+
+3.2a. Volatility
+
+The standard deviation (volatility estimate) is computed using the Exponentially Weighted
+Moving Average method ("EWMA").
+
+The estimate at the end of time period t (t) is estimated using the volatility estimate at the
+end of the previous time period. i.e., as at the end of t-1 time period (t-1), and the return (rt)
+observed in the spot market during the time period t.
+
+The volatility estimated at the end of the day's trading is used in calculating the initial
+margin calls at the end of the same day.
+
+The formula is as under:
+
+Where:
+
+        Page 27 of 100
+  is a parameter which determines how rapidly volatility estimates changes. The
+    value of  is currently fixed at 0.995.
+
+  (sigma) means the standard deviation of daily returns in the futures market.
+
+ r (return) is defined as the logarithmic return: rt = ln (St/St-1) where St is the price
+    of the Stock at time t.
+
+3.3 Value at Risk (VaR) Margin
+
+The VaR Margin is a margin intended to cover the largest loss that can be encountered on
+99% of the days i.e., 99% Value at Risk.
+
+The Value at Risk ("VaR") margin rates are as follows:
+
+Product   VaR Margin Rates
+Group 1   Based on 6, subject to a minimum of 9%
+Group 2   Based on 6, subject to a minimum of 21.5%
+Group 3*  50% if traded at least once per week on any stock exchange; 75%
+          otherwise
+
+*In case of Exchange Traded Funds ("ETFs") that track broad based market, indices and do
+not include indices which track sectoral indices, the VaR margin rate shall be 6, subject
+to a minimum of 6%.
+
+*In case of Group 3 the securities shall be monitored on a weekly basis, and the VaR -
+margin rates shall be increased to 75% if the security has not traded for a week. In case
+the VaR margin rate is 75% and the security is traded during the day, the VaR margin rate
+shall be revised to 50% from start of next trading day.
+
+3.4Extreme Loss Margin (ELM)
+
+Extreme Loss Margin (ELM) covers the expected loss in situation that go beyond those
+envisaged in the 99% Value at Risk estimates used in the VaR Margin.
+
+Stocks            3.5%
+Broad based ETF*  2%
+
+*ETFs that track broad based market indices and do not include ETFs which track sectoral
+indices.
+
+3.5 Current Exposure Margin
+
+                                Page 28 of 100
+a. Intraday Current Exposure Margin
+
+The margining system of Clearing Corporations currently levies margin based on net value
+(Buy -Sales value) of unsettled trades in the Debt segment.
+
+b. Intraday Crystallized Loss Margin - is levied to cover the risk arising out of
+    accumulation of crystallized obligations incurred on account of intra-day squaring off
+    of position. The intra-day crystallized losses are monitored and blocked by Clearing
+    Corporations from the free collateral on a real-time basis only for those transactions
+    which are subject to upfront margining.
+
+Crystallized losses are offset against Crystallized profits at a client level, if any. If Crystallized
+losses exceed the free collateral available with the Clearing Corporation, then the entity shall
+be put into risk reduction mode. Crystallized losses are calculated based on weighted average
+prices of trades executed. Adjustment of intraday Crystallized losses is not done from the
+exposure free liquid net worth of the clearing member.
+
+3.6 Mark to Market (MTM) margin
+
+a. Mark to Market Losses is collected in the following manner:
+
+     Clearing Corporations collect the mark to market margin ("MTM") from the
+         Clearing Member before the start of the trading of the next day.
+
+     The MTM margin is collected from the Clearing Member first by adjusting the same
+         from the available cash and cash equivalent component of the liquid assets and the
+         balance MTM in form of cash from the Clearing Member through their Clearing
+         Banks before the start of the trading of the next day.
+
+     The MTM margin is collected on the gross open position of the clearing member.
+     There is no netting off of the positions and setoff against MTM profits across 2
+
+         rolling settlements i.e., T Day and T-1 day. However, for computation of MTM
+         profits/losses for the day, netting or setoff against MTM profits is permitted.
+     The margin so collected is released along with the pay-in, including early pay-in.
+
+b. Example of Member's Gross Open Position for the purpose of VAR & ELM Margins
+
+Sett. No. Scrip.  Client ID.  Purchase Qty (+) Sale Qty(-) Net Qty.
+
+001/0  Security X A           200             500  - 300
+5- 06
+
+                              Page 29 of 100
+       Security X. Proprietary Position 300                 nil    + 300
+
+       Security Y B                     Nil                 200    - 200
+       Security Y A                                                + 500
+       Security Z. C                    500                 Nil    + 500
+       Security Z B                                                - 100
+                                        1000                500
+                                                                   + 300
+                                        100                 200
+                                                                   -500
+002/0 Security X A                      1000                700    - 200
+                                                                   + 500
+5- 06                                                              - 500
+
+       Security X B                     200                 700
+
+       Security Y B                     Nil                 200
+
+       Security Z Proprietary           500                 00
+
+       Security Z C                     Nil                 -500
+
+Member's gross position:-
+
+               Scrip.      Sett. No.    Gross Position Qty.
+               Security X  001/05-06    600
+               Security Y               700
+               Security Z               600
+
+               Security X  002/05-06    800
+               Security Y               200
+               Security Z               1000
+
+c. Methodology for computation of MTM margin
+
+For a Client A, his MTM profit/ loss would be calculated separately for his positions on T-1 and
+T day (two different rolling settlements). For the same day positions of the client, his losses in
+some securities can be set off/netted against profits of some other securities. Thus, we would
+arrive at the MTM loss/profit figures of the two different days T and T-1. These two figures
+cannot be netted. Any loss will have to be collected and same will not be set-off against profit
+arising out of positions of the other day.
+
+Thus, as stated above MTM profits / losses would be computed for each of the clients; Client A,
+Client B, Client C etc. As regards collection of margin from the broker, the MTM would be grossed
+across all the clients i.e. no setoff of loss of one client with the profit of another client. In other
+words, only the losses will be added to give the total MTM loss that the broker has to deposit with
+the exchange.
+
+       Client                T-  T day           Total      MTM
+                                                 profit/lo  for
+                             1                   ss of      broke
+               Security da
+
+                                 Page 30 of 100
+Client A Security X 800 300           -900
+            Security Y -500 -         -300
+            Total 300 -900            -800
+                                      1000
+Client B Security Z 700 -400
+
+        Security -    800
+
+        Total -300 400
+
+Client C Security X 1000 500
+
+        Security Z -  -800
+
+        Total -500 -300
+
+Client D Security Y 700 -200
+            Security R -300 800
+            Total 400 600
+
+Member                                                              -2000
+
+In this example, the broker has to deposit MTM Margin of Rs. 2000.
+
+ Procedure for early pay-in is mentioned in this URL -
+    https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.asp
+    x?page=20050526-20
+     &
+
+d. Default
+
+In the event of default by a trading member / clearing member / custodian, as the case
+may be, whose clients have availed cross margining benefit, the Clearing Corporation shall
+have the option to:
+
+ Hold the positions in the cross-margin account till expiry in its own name.
+ Liquidate the positions / collateral in either segment and use the proceeds to meet the
+
+    default obligation in the other segment.
+
+The Clearing Corporation shall enter into agreement with client/clearing member/trading
+member / custodian, as the case may be, clearly laying down the inter-se distribution of
+liability / responsibility in the event of default. The Clearing Corporation shall also specify
+the legal agreements between the clearing entities for the purpose of margin utilization in
+case of liquidation / default etc.
+
+                      Page 31 of 100
+3.7 Notwithstanding the margins specified above, ICCL may prescribe and implement such
+       additional risk mitigation measures, including levy of additional margins, as it may
+       consider necessary as part of risk management.
+
+3.8 Updation of Risk Parameters
+
+ The risk arrays are updated intra-day in the Debt market.
+
+ The applicable VaR margin rates along with the latest traded price/ close price to arrive
+ at the latest VaR Margin Value are updated as follows:
+
+       Beginning-of-Day
+       11:00 a.m.
+       12:30 p.m.
+       02:00 p.m.
+       03:30 p.m.
+       04:00 p.m.
+       End-of-Day
+
+3.9 Risk Reduction Mode
+
+Members are compulsorily placed in risk reduction mode when a predetermined
+percentage of the member's capital is utilized towards margins. When a member moves
+into risk reduction mode -
+
+     All unexecuted orders are cancelled. Only fresh orders placed by members to
+         reduce open positions are be accepted.
+
+     Fresh orders placed by members that increase open positions are checked for
+         sufficiency of margins and orders that do not satisfy sufficiency of margins are
+         rejected.
+
+     Fresh orders can be placed for immediate or cancel (IOC) only
+     Members will be able to trade in normal mode as and when the utilization goes
+
+         below the predetermined %.
+     Additionally, Members are not allowed to place orders with custodial participant
+
+         code
+     Client and Custodial Participant code modification is not permitted
+
+The entry and exit threshold is detailed below:
+
+     Clearing Members: Put in RRM at 90% collateral utilization & moved back to normal
+         mode when utilization goes below 85%.
+
+                                                       Page 32 of 100
+     Trading Members: Put on RRM at 90% utilization of trading limit assigned by their
+         Clearing Members & moved back to normal mode when limit utilization goes below
+         85%.
+
+3.10 Collection of Margins
+
+The VaR margin, ELM, Crystallized Loss Margin, etc. are collected/adjusted on an upfront
+basis from the Liquid Assets of the Clearing Member on an on-line real time basis. The said
+margins are collected on the gross open position of the member. The gross open position for
+this purpose would mean the gross of all net positions across all the clients of a member
+including its proprietary position. For this purpose, there is no netting of positions across
+different settlements.
+
+The MTM margin is collected from the members first by adjusting the same from the
+available cash and cash equivalent component of the liquid assets and the balance MTM in
+form of cash from the members through their clearing banks before the start of the trading
+of the next day.
+
+In case of Institutional transactions, the margins are collected on T+1 day, subsequent to
+confirmation of the transactions by the custodians. The margins shall be levied on the
+custodial clearing members in respect of those institutional transactions confirmed by
+them. In respect of the institutional transactions rejected/not confirmed by the custodians
+the margins on same would be levied on the concerned clearing member who has cleared
+the transaction.
+
+Upfront collection of Margins from Clients:
+
+It is reiterated that the applicable upfront margins are required to be collected from the
+clients in advance of the trade. The aforesaid framework specified in the Annexure is only
+for the purpose of verification of upfront collection of margin and levy of penalty
+
+Framework to Enable Verification of Upfront Collection of Margins i. Clearing Corporations
+shall send minimum 4 snapshots of client wise margin requirement to TMs/CMs for them
+to know the intraday margin requirement per client in each segment. The number of times
+snapshots need to be sent in a day may be decided by the respective Clearing Corporation
+depending on market timings subject to a minimum of 4 snapshots in a day. The snapshots
+would be randomly taken in pre-defined time windows.
+
+ Note: Notwithstanding the margins specified above, ICCL may prescribe and implement
+ such additional risk mitigation measures, including levy of additional margins, as it may
+ consider necessary in the interest of risk management.
+
+                                                       Page 33 of 100
+3.11 Capping of margins
+In case of a buy transaction in Debt market, VaR margins, Extreme loss margins and mark
+to market losses together shall not exceed the purchase value of the transaction.
+In case of a sale transaction in Debt market, VaR margins and Extreme loss margins
+together shall not exceed the sale value of the transaction and mark to market losses shall
+also be levied.
+
+3.12 Exemption from margins
+The exemption from margins are given in cases where early pay-in of securities and funds is
+made, the outstanding position to the extent of early pay-in are not considered for margin
+purposes. Clearing Members have the facility to do early pay-in of securities and funds
+prior to execution of trade / after execution of the trade.
+
+3.13 Release of blocked margins
+The above-referred margins so collected are released on completion of pay-in of the
+respective settlement.
+
+3.14 Margin Shortfall
+Clearing Members shall maintain adequate liquid assets with ICCL at all point of time to cover
+their margin requirements. In case of de-activation of the trading terminal during a trading
+session in the Debt Segment on account of margin shortfall, the same shall attract fines /
+penalties or such disciplinary action as may be specified from time to time.
+
+                                                       Page 34 of 100
+4. Clearing & Settlement
+
+Trades done by the members in the Debt Segment of BSE Ltd., are cleared and settled
+through Indian Clearing Corporation Ltd. (ICCL) as per the norms/guidelines issued by
+Securities and Exchange Board of India (SEBI) and as per the provisions of Rules, Bye-Laws
+and Regulations of ICCL and BSE as well as any other norms/circulars/guidelines which
+may be issued by BSE/ICCL in respect of the same from time to time.
+
+The members need to participate in the settlement process as per the guidelines and
+settlement schedule prescribed by ICCL from time to time for settlement of trades.
+Facility is also available for Custodial Participants to settle their trades through Custodian
+Members of ICCL. For this purpose, the members need to give-up the trades to the
+Custodian Members for confirmation within such time and through such facility as may be
+provided from time to time by ICCL.
+
+4.1 Settlement Cycle
+
+The trading and settlement periods are specified by the relevant authority from time to time.
+The pay-in and pay-out of securities and funds pertaining to trades done in various groups of
+securities in the Debt Segment on various exchanges are to be effected in accordance with the
+settlement schedule issued by ICCL periodically. Clearing Members should maintain clear
+balance of securities in their respective depository accounts and funds in their settlement
+accounts with the respective designated Clearing Banks towards their settlement pay-in
+obligation at the scheduled pay-in time on the settlement day.
+
+The pay-out of demat securities is credited to the respective designated depository
+accounts or directly credited to the respective client's demat accounts as specified by
+Clearing Members to ICCL and the funds pay-out is credited to the receiving Clearing
+Member's settlement account maintained with their designated Clearing Bank.
+
+4.2 Settlement Process
+
+Trades done in the securities under various groups in the Debt Segment on Exchanges are
+settled through ICCL as per Settlement Type decided by Exchanges i.e., T+1, T+0 or T+2
+basis.
+
+Settlement of Funds & Securities is done at Clearing Member (CM) level as per the present
+timelines for settlement related activities. In case of Trading Member (TM)/CM scenario, the
+positions are netted at Client/Trading Member/Clearing Member level for normal scrips (i.e.,
+netting of buy and sell positions in the same scrip for the same settlement) as at present for
+settlement purposes.
+
+                                                       Page 35 of 100
+For scrips traded on Trade-to-Trade (T to T) basis, the delivery positions would be settled
+on a gross basis (no netting of buy and sell positions) as at present. For this, the position
+would be grossed at Client/Trading Member/Clearing Member level for T-to-T
+transactions. Settlement would be at Clearing Member (CM) level.
+
+The clearing members would settle all obligations including margins arising out of trades
+done by them as trading members and also of those trading members for whom they have
+undertaken to settle as clearing members. The settlement calendar, providing the settlement
+schedule of the various settlement related activities, is drawn by ICCL in advance and
+circulated among the market participants.
+
+The settlement of trades done in the Debt Segment is settled either on netting- off basis
+(i.e., netting of buy and sell positions of a member-broker in the same scrip and same
+settlement) or on trade-to-trade basis (i.e. on gross basis - no netting of buy and sell
+positions) depending on the applicable norms/categorization of the securities as decided
+by Exchanges / ICCL from time to time. The funds obligations for the members are netted
+for transactions across all groups of securities.
+
+Additional practices in clearing and settlement functions include trading member code
+mapping, masking of trade data, client code/CP code modification, client margin reporting,
+securities mapping, allocation, and confirmation process for custodial clients (identified
+by CP codes).
+
+SEBI vide circular no. MRD/DoP/SE/Cir-17/2005, dated September 02, 2005, has
+mandated that all institutional trades shall be settled through Custodians and to levy
+penalties on any unconfirmed institutional trades. The unconfirmed institutional trades
+by the custodians would attract penalty @ 0.1% of the total value of unconfirmed trades
+for the settlement or 10,000/- whichever is less. The penalty would be levied on the
+trading members. The penalty amount would be included in the settlement obligation
+statement of the trading members for the concerned settlement.
+
+4.3 Securities pay-in and pay-out process
+
+The pay-in and pay-out of settlement obligations for securities in Debt segment is to be done
+by members are compulsorily in demat mode which the member has traded.
+
+The pay-in and pay-out process in the demat mode is as under:
+
+4.3.1 Securities pay-in in demat mode
+
+Clearing Members can effect pay-in of demat securities to ICCL through either of the
+Depositories i.e. Central Depository Services India Ltd. (CDSL) or National Securities Depository
+Ltd. (NSDL). Clearing Members are required to give instructions to their respective Depository
+
+                                                       Page 36 of 100
+Participants (DPs) specifying details viz., settlement no., effective pay-in date, quantity, etc. for
+effecting pay-in of the demat securities to ICCL by the stipulated time on the scheduled
+settlement day. Members may also effect pay-in directly from the clients' beneficiary accounts
+through CDSL. For this, the clients are required to mention the settlement details and clearing
+member ID through whom they have sold the securities. Thus, in such cases the Clearing
+Members are not required to give any delivery instructions from their accounts.
+
+In case a member fails to deliver the securities, the value of shares delivered short is
+recovered from him at the standard/closing rate of the Securities on the trading day.
+
+4.3.2 Auto delivery facility for pay-in of demat securities
+
+Members can avail the auto delivery facility for pay-in of demat securities whereby delivery
+instructions to the concerned depositories are automatically generated on behalf of the
+Clearing Members for transfer of demat securities from their Pool account/Principal account
+maintained with the depositories. This auto delivery facility is available for CRS (Normal &
+Auction) and for trade-to-trade settlements. This facility is, however, not available for delivery
+of non-pari passu shares and shares having multiple ISINs. Members wishing to avail of this
+facility have to submit an authority letter to the Clearing House. This auto delivery facility is
+currently available for Clearing Member (CM) Pool accounts and Principal accounts maintained
+by the Members with the respective depositories.
+
+4.3.3 Securities pay-in shortages
+
+In case of shortfall/failure by the members to deliver securities to ICCL in a settlement, the
+same are auctioned (in case of securities which are traded/settled on netting-off basis as
+aforesaid) or directly closed-out (in case of securities which are traded/settled on trade to
+trade - gross basis as aforesaid) as may be specified by ICCL from time to time. On scheduled
+pay-in/pay-out day of respective settlement, a statement of securities short
+delivered/received is provided to Clearing Members. The value of un-delivered securities is
+recovered from the Clearing Members, based on the `T' day closing price of the security,
+through their Clearing Banks.
+
+4.3.4 Auction and Close-out of securities settlement shortages
+
+The auction / close-out are conducted as per the auction/ close-out schedule declared from
+time to time. Currently auctions are conducted on T+1 day. Auction Settlement is done on T+2
+day. The selling members who have failed to deliver securities in particular settlement are not
+allowed to offer the same securities in the auction pertaining to that settlement. In case of pay-
+in/pay-out of multiple settlements are scheduled on same day, then the auction in respect of
+first settlement is conducted on the same day and the auction in respect of second settlement
+is conducted on the next trading day. In cases where a particular scrip could not be bought-in
+
+                                                       Page 37 of 100
+the auction or in case where members fail to deliver securities offered in auction then the same
+are closed out.
+
+For T+0 settlement mechanism, there won't be any Auction session conducted. All short,
+delivered securities will go for Close Out.
+
+4.3.5 Securities Pay-out in demat
+
+After completion of the settlement pay-in process by ICCL, the pay-out of demat securities
+are credited by ICCL to the depository Pool/Principal Accounts of the Clearing Members. In
+case of pay-out of demat securities to Clearing Members, ICCL has provided facilities to
+members for (a) direct pay-out of demat securities to clients' demat accounts and (b) pay-out
+of securities in pool account of the concerned member with selected Depository.
+
+In case delivery of securities received from one depository is to be credited to an account
+in the other depository, the Clearing House does an inter-depository transfer to give effect
+to such transfers.
+
+4.3.6 Direct pay-out of demat securities to clients' beneficiary account
+
+ICCL has provided a facility of direct pay-out of demat securities to clients' demat accounts,
+whereby pay-out of demat securities of the members are directly released to their respective
+clients' demat beneficiary accounts. For availing the said facility of direct pay-out of demat
+securities to the clients' beneficiary account, the concerned members are required to upload the
+settlement-wise client - wise break-up file to ICCL. Based on the details provided in the said
+uploaded file by the members to ICCL, the pay-out of demat securities is released to the demat
+accounts of the respective clients of the members.
+
+4.3.7 Pay-out of securities in member's pool account with selected Depository
+
+ICCL has provided a facility to Clearing Members to receive their demat securities pay-out in
+their pool account with selected depository. Accordingly, Clearing Members can receive pay-out
+of demat securities in their specified pool account in either of the depositories, viz, NSDL or
+CDSL.
+
+4.3.8 Funds pay-in and pay-out process
+
+ The pay-in and pay-out of funds in Debt segment is done through banks designated as
+     Clearing Banks by ICCL.
+
+                                                        Page 38 of 100
+ Clearing Members of Debt Segment need to maintain and operate a separate settlement
+    account with any one of the designated Clearing Banks. The said settlement account shall
+    be exclusively used for clearing & settlement operations viz., for settlement of funds
+    obligation, payment of margins, obligations to ICCL, fines, penalty charges, etc., or as may be
+    specified by ICCL from time to time. Format of letter to be submitted by the member to the
+    clearing bank for the above purpose is enclosed as Annexure XVI.
+
+4.3.9 Funds pay-in shortages
+
+In case of non-fulfillment of funds pay-in obligations pertaining to normal pay-in, securities
+shortages pay-in, auction pay-in and for failure to deposit additional capital towards capital
+cushion requirements as per SEBI norms within stipulated time to ICCL, the same are treated as
+violations and/ or non-performance of obligations and attract late fees / fines / penalties or such
+disciplinary action as may be specified from time to time. The present norms for imposing late
+fees/fines/penalties on member brokers, inter alia, for non-fulfilment of funds obligations in the
+Debt Segment is enclosed as Annexure XIX.
+
+4.5 Valuation Price for failure to deliver
+
+The valuation price for securities which were not delivered on the settlement day for securities,
+shall be the closing price of such securities, on the immediate trading day preceding the pay-in day
+for the securities unless prescribed otherwise from time to time by the relevant authority. For the
+purpose of this clause, the closing price shall be the price as announced by BSE and the day of
+valuation shall be the day as decided by ICCL from time to time.
+
+4.6 Clearing Bank
+
+    Every clearing member shall maintain a settlement account for the Currency Derivatives
+    Segment with any one of the designated Clearing Banks. The settlement account shall be
+    used exclusively for clearing and Settlement operations i.e., for settling funds obligations,
+    payment of margins, penal charges, etc. as may be specified by ICCL from time to time.
+    The list of Clearing Banks currently available for settlement is provided below.
+    (https://www.icclindia.com/Static/Clearing/List_of_Clearing_Banks.aspx)
+
+1. Axis Bank Limited
+2. AU Small Finance Bank
+3. Bank Of Baroda
+4. Bank Of India
+5. Canara Bank
+
+                          Page 39 of 100
+    6. Central Bank of India
+    7. Citibank N.A.
+    8. DBS Bank India Limited
+    9. Deutsche Bank AG
+    10. HDFC Bank Limited
+    11. Hong Kong and Shanghai Banking Corporation Limited
+    12. ICICI Bank Limited
+    13. IDBI Bank Limited
+    14. IDFC First Bank Limited
+    15. Indian Bank
+    16. Indian Overseas Bank
+    17. IndusInd Bank Limited
+    18. J P Morgan Chase Bank N.A.
+    19. Kotak Mahindra Bank Limited
+    20. Punjab National Bank
+    21. Standard Chartered Bank
+    22. State Bank Of India
+    23. UCO Bank
+    24. Union Bank of India
+
+4.6.1 Operation of settlement Account
+
+     Clearing Members shall irrevocably authorize their designated clearing banks to
+         access their settlement accounts for debiting and crediting their settlement accounts
+         as per the instructions of ICCL, reporting of balances and other information as may be
+         required by ICCL from time to time.
+
+     Clearing Members shall maintain clear balance of funds in their settlement accounts
+         with their designated clearing banks towards their funds obligations to ICCL.
+
+     Clearing Members shall not seek to close or de-activate the settlement accounts
+         without the prior written consent of ICCL.
+
+     The Clearing Banks shall debit/credit the settlement accounts of Clearing Members as
+         per instructions received by them from ICCL from time to time. Any request from the
+         Clearing Members for revoking the authorisation furnished by them shall not be
+         considered by the Clearing Banks. The Clearing Banks shall not close the settlement
+         accounts or permit deactivation of the same without the prior written consent of ICCL.
+
+                                                       Page 40 of 100
+4.6.1 Procedure for change in designated Clearing Bank
+In case a Clearing Member wishes to shift their settlement account from one designated
+Clearing Bank to another, the following procedure shall be followed:
+
+    1. The Clearing Member shall submit their request letters (on their letterhead) of their
+         intent to shift their settlement account from one designated Clearing Bank to another,
+         to ICCL as per the format enclosed as (Annexure-XII).
+
+    2. No Objection Certificate (NOC) from the existing Clearing Bank (format enclosed as
+         (Annexure-XIII).
+
+    3. Letter from the new clearing bank confirming the settlement account number and
+         the client account number of the member (in the format enclosed as (Annexure-XIV).
+
+    4. Copy of Authorisation Letter addressed to new clearing bank (in the format enclosed
+         as (Annexure-XV) and shifting .
+
+                                                       Page 41 of 100
+5. Maintenance of Depository Account
+Depository Account
+The members shall operate a clearing account with a Depository Participant of the
+depositories, National Securities Depository Ltd (NSDL) and Central Depository Services Ltd
+(CDSL) for the purpose of settlement of depository deals or for any other purpose as the
+relevant authority may specify from time to time.
+
+                                                       Page 42 of 100
+6. Core Settlement Guarantee Fund
+
+6.1Core Settlement Guarantee Fund
+
+A Core Settlement Guarantee Fund (Core SGF) shall be maintained in respect of the Debt
+segment. The administration and utilization of this fund shall be applicable to such deals as
+may be prescribed by the relevant authority.
+
+The Minimum Required Corpus (MRC) of the Core SGF shall be arrived based on the stress
+test methodology prescribed by SEBI. ICCL shall compute the Minimum Required Corpus
+(MRC) for Debt Segment which shall be subject to the following:
+
+(i) The MRC shall be fixed for a month.
+(ii) By 15th of every month, ICCL shall review and determine the MRC for next month based
+
+       on the results of daily stress tests of the preceding month. ICCL shall also review and
+       determine by 15th of every month, the adequacy of contributions made by various
+       contributors and any further contributions to the Core SGF required to be made by various
+       contributors for the next month.
+(iii) For every day of the preceding month, uncovered loss numbers shall be estimated by the
+       various stress tests for credit risk conducted by the ICCL for the segment and highest of
+       such numbers shall be taken as worst-case loss number for the day.
+(iv) Average of all the daily worst case loss numbers determined in (3) shall be calculated.
+(v) The MRC for next month shall be higher of the average arrived in at step (4) and the
+       segment MRC as per previous review.
+
+6.2 Contribution towards Core Settlement Guarantee Fund
+
+At any point of time, the contributions of various contributors to Core Settlement Guarantee
+Fund (SGF) of any segment shall be as follows:
+
+a. Clearing Corporation contribution: ICCL contribution to Core SGF shall be at least 50% of
+    the Minimum Required Corpus (MRC). ICCL shall make this contribution from its own
+    funds. ICCL contribution to core SGFs shall be considered as part of its net worth.
+
+b. Stock Exchange contribution: Stock Exchange contribution to Core SGF shall be at least
+    25% of the MRC (can be adjusted against transfer of profit by Stock Exchange as per
+    Regulation 33 of SECC Regulations, which may be reviewed in view of these guidelines).
+
+c. Clearing Member primary contribution: If the ICCL wishes, it can seek risk-based
+    contribution from Clearing Members (CMs) of the segment (including custodial
+    clearing members) to the Core SGF subject to the following conditions:
+
+     that total contribution from CMs shall not be more than 25% of the MRC,
+
+                                                       Page 43 of 100
+     that no exposure shall be available on Core SGF contribution of any CM (exposure-
+         free collateral of CM available with ICCL can be considered towards Core SGF
+         contribution of CM), and
+
+     that required contributions of individual CMs shall be pro-rata based on the risk
+         they bring to the system.
+
+ICCL shall have the flexibility to collect CM primary contribution either upfront or staggered
+over a period of time. In case of staggered contribution, the remaining balance shall be met
+by ICCL to ensure adequacy of total Core SGF corpus at all times. Such ICCL contribution shall
+be available to ICCL for withdrawal as and when further contributions from CMs are
+received.
+
+Contribution towards replenishment of Core SGF by the members would be restricted to only
+once during a period of 30 calendar days regardless of the number of defaults during the period.
+The period of 30 calendar days shall commence from the date of notice of default by Clearing
+Corporation to market participants.
+
+ICCL shall call for the capped additional contribution only once during a period of 30
+calendar days regardless of the number of defaults during the period. The period of 30
+calendar days shall commence from the date of notice of default by ICCL to market
+participants.
+
+ICCL shall have relevant regulations/provisions for non- defaulting members to resign
+unconditionally within the abovementioned period of 30 calendar days, subject to member
+closing out/settling any outstanding positions, paying the capped additional contribution
+and any outstanding dues to SEBI. No further contribution shall be called from such resigned
+members.
+
+The maximum capped additional contribution by non-defaulting members shall be lower of
+2 times of their primary contribution to Core SGF or 10% of the Core SGF of the segment on
+the date of default in case of equity/ debt segments.
+
+The maximum capped additional contribution by non-defaulting members shall be lower of
+2 times of their primary contribution to Core SGF or 20% of the Core SGF of the segment on
+the date of default in case of derivatives segment.
+
+Any penalties levied by ICCL (as per Regulation 34 of SECC Regulations) shall be credited to
+Core SGF corpus.
+
+Interest on cash contribution to Core SGF shall also accrue to the Core SGF and pro-rata
+attributed to the contributors in proportion to their cash contribution.
+ICCL shall ordinarily accept cash collateral for Core SGF contribution. However, ICCL may
+accept CM contribution in the form of bank FDs too. ICCL shall adhere to specific guidance
+which may be issued by SEBI from time to time in this regard.
+
+                                                       Page 44 of 100
+Page 45 of 100
+7. Charges and Penalties
+
+          Violation/s             Shortage Amount            Late Fees/ Fines / Penalty
+                                            ()
+Non-fulfilment of funds                               0.07% per day of the shortage amount,
+obligations (viz. normal pay-   If such funds         and the trading facility of such member
+in, securities shortage pay-in  obligation amount is  will be withdrawn (Trading terminals
+and auction pay-in) and for     more than the Base    will be de-activated/put on Risk
+failure to deposit additional   Minimum Capital (at   Reducing Mode) and the member's
+capital towards capital         present 10 lakhs) :   securities pay-out to be withheld.
+cushion requirement as per
+SEBI / Exchange / ICCL          If such funds         0.07% per day of the shortage amount
+norms within stipulated         obligation amount is  and, in cases where the amount of
+time                            less than the Base    shortage exceeds 20% of the BMC on 6
+                                Minimum Capital (at   occasions within a period of three
+                                present 10 lakhs) :   months, then also the trading facility of
+                                                      the member to be withdrawn (Trading
+                                                      terminals will be de-activated/put on
+                                                      Risk Reducing Mode) and the securities
+                                                      pay-out due to the member will be
+                                                      withheld. The member will be
+                                                      permitted to trade upon recovery of the
+                                                      complete shortages of funds and
+                                                      subject to the member providing a
+                                                      deposit equivalent to his cumulative
+                                                      funds shortage as the "funds shortage
+                                                      collateral".
+                                                      Such deposit will be kept with the
+                                                      Clearing Corporation for a period of ten
+                                                      rolling settlements and released
+                                                      thereafter.
+                                                      Such deposit will not available against
+                                                      margin liabilities and also such deposit
+                                                      will not earn any interest.
+
+                                                      Such deposit can be placed with ICCL by
+                                                      member brokers by way of cash, bank
+                                                      fixed deposit receipts or bank
+                                                      guarantee.
+
+7.1Penalty on member brokers in case of non-fulfilment of funds obligations in the
+    Debt Segment
+
+                                Page 46 of 100
+In case a member fails to meet his obligation amounting to less than 20% of BMC, a penalty
+equivalent to his obligation amount or 5,000/- whichever is less will be levied.
+
+Further, if a member fails to meet his pay-in obligations of a normal settlement, auction
+settlement and that of securities delivered short in the pay-in for the same settlement, then
+such instances of default would be considered as a single instance for the purpose of
+counting violations and levying penalties as above.
+
+Non deposit of additional capital under capital cushion requirement would be as a separate
+instance for the purpose of counting instances of violation and levying fines/penalties as
+above.
+
+7.2Penalty on member brokers in case of de-activation of trading terminals during
+    trading session in the Debt Segment:
+
+Instances of                               Penalty to be levied
+Disablement
+                    0.07% per day
+1st instance
+                    Trading limit violation upto 1 crore = 0.07% per day
+2nd to 5th          + 1,000/- per instance from 2nd to 5th instance.
+
+instance      of    Trading limit violation above Rs. 1 crore = 0.07% per
+                    day + 5,000/- per instance from 2nd to 5th instance
+disablement
+                    Trading limit violation upto 1 Crore = 0.07% per day
+6th to 10th         + 4,000/- (for 2nd to 5th instance) + 2,000/- per
+                    instance from 6th to 10th instance.
+instance      of
+                    Trading limit violation above 1 Crore = 0.07% per day
+disablement         + Rs.20,000/- (for 2nd to 5th instance) + Rs.10000/- per
+                    from 6th to 10th instance.
+11th      instance
+                    Trading limit violation upto 1 Crore = 0.07% per day
+onwards             + 24,000/- (for 2nd to 10th instance) + 2,000/- per
+                    instance
+                    from 11th instance onwards Additionally, the member
+                    will be
+                    referred to the Disciplinary Action Committee for Suitable
+
+                    Page 47 of 100
+                               Trading limit violation above Rs. 1 Crore = 0.07% per
+                               day
+                               + 70,000/- (for 2nd to 10th instance) + 10,000/-
+                               per instance from 11th instance onwards.
+
+                               Additionally, the member will be referred to the
+                               Disciplinary Action Committee for suitable action.
+* The instances as mentioned above refer to all de-activation/Risk Reduction Mode of
+trading terminals during market hours in a calendar month.
+
+7.3Norms for imposing late fees/fines/penalties on member brokers in case of
+    delay/non-clearance of margin obligations4
+
+Short collection/non-collection of margins by members will attract penalty with effect
+from April 1, 2020. in addition to the existing EOD Files for Debt Segment, additional
+Margin reporting and penalty Files will also be available for download and reporting
+purpose.
+
+Short collection for each member     Penalty
+                                     percentage %
+(< 1 lakh) And (< 10% of applicable  0.5%
+margin)
+( 1 lakh) Or ( 10% of applicable     1.0%
+margin)
+
+The following penalty shall be levied in case of short reporting by trading / clearing member
+per instance.
+
+       If short/non-collection of margins for a client continues for more than 3
+          consecutive days, then penalty of 5% of the shortfall amount shall be levied for
+          each day of continued shortfall beyond the 3rd day of shortfall.
+
+       If short/non-collection of margins for a client takes place for more than 5 days in
+          a month, then penalty of 5% of the shortfall amount shall be levied for each day,
+          during the month, beyond the 5th day of shortfall.
+
+       All instances of non-reporting shall amount to 100% short collection and the
+          penalty as applicable shall be charged on these instances in respect of short
+          collection.
+
+4 ICCL Notice No. 20091211-20 dated 11 Dec 2009
+
+                                                       Page 48 of 100
+ The above penalties shall be collected from the clearing member by debiting the
+    settlement account with designated primary clearing bank in Debt Segment on a
+    monthly basis. Penalty applicable for the trade dates of the calendar month shall
+    be collected by the tenth working day of the subsequent calendar month.
+
+  VIOLATION/S                          LATE FEES / FINES / PENALTY
+Non-fulfillment of       In case of non-fulfillment of margin obligation, the
+marginobligations to     trading facility of such members shall be withdrawn
+the Exchange.            immediately and fine/penalty of 1% of the unpaid
+                         margin amount will be levied. In addition, the trading
+                         facility of the member shall be withdrawn
+                         immediately. The trading facility shall be restored
+                         after fulfillment of the margin obligation by the
+
+Unconfirmed institutional trades by the custodians would attract penalty @ 0.1% of the
+total value of unconfirmed trades for the settlement or 10,000/- whichever is less. This
+penalty would be levied on the trading members.
+
+The necessary File Format is mentioned below.
+
+       Violation/s                Shortage Amount         Late Fees/fines/penalty
+                             If such funds
+Non-fulfillment of funds     obligation amount is         0.07% per day of the
+                             more
+obligations         (viz.    Than the Base Minimum        shortage amount, and the
+                             Capital (BMC)(at present
+       normal pay-in,        10 lakhs) :                  trading    facility of such
+
+securities shortage pay-     If such funds                member will be withdrawn
+                             obligation amount is less
+in and auction pay-in)       than                         (Trading terminals will be
+                             the Base Minimum Capital
+and for failure to deposit   (at present Rs. 10 lakhs) :  de-activated/put on Risk
+
+additional          capital                               Reducing Mode) and the
+
+towards             capital                               member's securities pay-
+
+       cushion                                            out to be withheld.
+
+requirement as per
+
+SEBI/Exchange/ICCL                                        0.07% per day of the
+
+norms               within                                shortage amount and, in
+
+       stipulated time.                                   cases where the amount of
+
+                                                          shortage exceeds 20% of the
+
+                                                          BMC on 6 occasions within a
+
+                                                          period of three months, then
+
+                                                          also the trading facility of
+
+                                                          the member to be
+
+                                                          withdrawn              (Trading
+
+                                                          terminals will be de-
+
+                                                          activated / put on Risk
+
+                                                          Reducing Mode) and the
+
+                             Page 49 of 100
+Violation/s  Shortage Amount   Late Fees/fines/penalty
+                              securities pay-out due to the
+                              member will be withheld.
+
+                              The member will be
+                              permitted to trade upon
+                              recovery of the complete
+                              shortages of funds and
+                              subject to the member
+                              providing a deposit
+                              equivalent to his cumulative
+                              funds shortage as the "funds
+                              shortage collateral".
+
+                              Such deposit will be kept
+
+                              with the Clearing
+
+                              Corporation for a period of
+
+                              ten rolling settlements and
+
+                              released thereafter. Such
+
+                              deposit  will      not
+
+                              available against margin
+
+                              liabilities and also such
+
+                              deposit will not earn any
+
+                              interest. Such deposit can be
+
+                              placed with ICCL by member
+
+                              brokers by way of cash, bank
+
+                              fixed deposit receipts or
+
+                              bank guarantee.
+
+7.4Penalty in case institutional trades are not confirmed by the Custodians
+
+The trading members are advised that all institutional trades executed on BSE should be
+confirmed by a Custodian and settled through ICCL.
+
+If the institutional trades are not confirmed by the custodians (after the trade has been
+executed, in the time allotted for the same i.e., till 1:00 p.m. on T+1 day), then such trades
+would be settled as the Hand Delivery Bargain on a DVP basis and would attract margins.
+Such margins would be collected from the trading members in the evening on T+1 day along
+with other margins payable by the trading members.
+
+             Page 50 of 100
+Unconfirmed institutional trades by the custodians would attract penalty @ 0.1% of the total
+value of unconfirmed trades for the settlement or 10,000/- whichever is less. This penalty
+would be levied on the trading members.
+
+The penalty amount would be included in the settlement obligation statement of the trading
+members for the concerned settlement.
+
+SEBI has directed that non-confirmation of Institutional trades by custodians may be
+permitted by the stock exchanges without attracting any margins and penalty only in case of
+the following exceptional circumstances:
+
+     Total connectivity failure to the Exchange/STP (specific connectivity issues of the
+         custodians and trading members shall not be considered as valid exceptions).
+
+     International Holidays that may be decided upfront by the Stock Exchanges in
+         consultation with the custodians. (List of such holidays will be issued separately).
+
+     Closing of national/international centers due to calamity.
+
+7.5Settlement Charges:5
+
+Revised Settlement Charges in respect of deals reported on BSE - RFQ platform for
+settlement through ICCL.
+
+Further to ICCL Circular No.20230519-11 dated May 19, 2023, all participants should note
+that, w.e.f. November 01, 2023, for all RFQ Deals the settlement charges on Value of deal
+(amount on which Stamp Duty is Calculated) for settlement are revised as follows:
+
+     Nil settlement charges will be levied on unregistered participants for the period of
+         01/11/2023 to 31/03/2024 for value of deal upto 50 lacs.
+
+     Rs.5/- + applicable Taxes, per deal will be charged to both buyer and seller
+         participants for deal amount of upto lacs.
+
+     Rs.25/- + applicable Taxes, per deal will be charged to both buyer and seller
+         participants for deal amount of above 50 lacs and upto 5 crores.
+
+     Additional, 5/- + applicable Taxes per crore will be charged for any deal above 5
+         crore with maximum settlement charges capped to 500/- + applicable Taxes per deal.
+
+     All above Settlement charges will be collected on monthly basis from Registered
+         entities and from Custodian for deals which are settled through Custodians.
+
+In respect of unregistered counter party same will be collected from its Registered Counter
+Party / OBPP for the deal.
+
+5 ICCL Circular 20231005-13 dated October 05,2023
+
+                                                       Page 51 of 100
+ All participants are requested to update their correct address, email id's, GST number etc.
+    in their UCC details.
+
+ Monthly bill will be generated and will be available for download through system.
+
+                                                       Page 52 of 100
+    8. Privity Of Contracts
+
+The following settlement obligations are specifically excluded:
+
+Settlement obligations arising out of any deal where in the opinion of the Clearing
+Corporation or the specified Stock Exchange there are prima facie suspicion of fraud, willful
+misrepresentations, malpractice or are subject to any investigation by the relevant authority
+of either the Clearing Corporation or the Specified Stock Exchange or by any statutory
+authority or are deals which are not properly executed in accordance with the respective
+Bye Laws, Rules and Regulations of the Specified Stock Exchange.
+
+9. Tri Party Repo (Basket Repo)
+
+                       Terminologies
+
+T0  Settlement on Same Day
+
+T1  Settlement on T+1 Day
+
+F   Forward Leg Settlement
+
+T   Transferable Type            Securities transferred to Lender in ready leg
+
+                                 pay-out
+
+NT  Non-Transferable Type Securities to be retained by ICCL
+
+Early pay-in for Borrow Orders
+
+    � Ready leg (T0 and T1) type and forward leg of Repo transactions are to be settled as
+         per separate settlement calendar notified by ICCL.
+
+    � Members may note that the borrow orders will be pre-validated for borrowing limit
+         against early pay-in of any of the eligible securities forming part of the respective
+         basket.
+
+    � For this purpose, the Members/Custodians are required to deliver the eligible
+         securities to ICCL through the early pay-in mechanism available in the Depository
+         system. For early pay-in the settlement type and settlement number are specified in
+         settlement calendar. Further, members are also required to upload the .EPR file,
+         through the extranet module, containing the requisite details.
+
+    � Client level borrowing limit will be provided to members on the basis of valuation of
+         the securities (net of hair-cut) delivered by members to ICCL through early pay-in
+         process.
+
+    � The Custodian/Clearing members will be required to deliver the early pay-in of
+         securities and upload the .EPR file before the member inputs order in the system. .EPR
+         file should, inter alia, include Trading Member/Clearing Member/Custodian Code,
+         client code etc.
+
+                                                       Page 53 of 100
+� In case where early pay-in is done by the Custodian member, the .EPR file, in addition
+    to the other details, should also contain Custodian Code.
+
+� If a member is doing early pay-in then Custody code/CM code field should be kept
+    blank in the .EPR File.
+
+� The shares delivered through early pay-in mechanism, will be treated as Securities
+    Pay-in of the Members for ready leg (first leg) settlement.
+
+� In case of transferable type of Repo contracts the lender will have to return back the
+    securities to ICCL through securities pay-in process for the forward leg settlement.
+
+� Following market types are to be used for giving instructions to Depositories for
+    securities pay-in:
+
+CDSL                  Market Type Code
+Market Type           65
+REPO READY LEG (T+0)  66
+REPO READY LEG (T+1)  67
+REPO FORWARD LEG
+
+NSDL      Market Type                   Market Type Code
+CC ID     REPO LEG T+0                  35
+IN001150  REPO LEG T+1                  36
+          REPO FORWARD LEG              37
+
+Margining Framework
+
+a. Tri-Party repo on Basket Repo (Securities Transferred to Lender) From
+     Transaction to Ready Leg
+
+     ICCL shall levy an Initial Margin of 0.5% of the transaction value on the Lender. The
+         Initial Margin shall be collected online on an upfront basis by adjusting against the
+         eligible collateral deposited by the Lender with ICCL at the time of transaction.
+
+     The Initial Margin so levied on the Lender shall be released when the funds pay in
+         obligation is honored by the Lender depending on the settlement cycle chosen by him
+         i.e. T+0 (same day) or T+1 (next trading day).
+
+     ICCL shall not levy any Initial Margin on the Borrower.
+
+b. From Ready Leg to Forward Leg
+
+    Ready Leg Margin: ICCL shall levy a Ready Leg Margin as a percentage on the
+        transaction value on the Lender as specified by ICCL from time to time. The
+        percentage shall be at least equal to the applicable haircut on the eligible repo
+        security.
+
+                                                      Page 54 of 100
+    ICCL shall not levy a Ready Leg Margin on the Borrower.
+
+c. Mark to Market Margin
+
+    The eligible repo securities shall be marked-to-market on a daily basis. The Mark to
+        Market Margin shall be levied on either the Borrower or the Lender as the case may
+        be for each repo transaction.
+
+    The Borrower would be required to bring in additional eligible collateral in case of a
+        down movement in the price resulting in a mark-to-market loss on the eligible repo
+        securities portfolio of the borrower.
+
+    The Lender would be required to bring in additional eligible collateral in case of an
+        upward movement in the price resulting in a mark-to-market profit on the eligible
+        repo securities portfolio.
+
+    This MTM would be retained by ICCL. The MTM margin shall be released after
+        completion of the settlement pay-in of the Forward Leg.
+
+d. Forward Leg
+
+   � Margins levied on the Borrower and Lender shall be released after completion of the
+        settlement pay-in of the forward leg.
+
+e. Tri-Party repo on Basket Repo (Securities held by ICCL) From Transaction to
+    Ready Leg
+
+    ICCL shall levy an Initial Margin of 0.5% of the transaction value on the Lender. The
+        Initial Margin shall be collected online on an upfront basis by adjusting against the
+        eligible collateral deposited by the Lender with ICCL at the time of transaction.
+
+    The Initial Margin so levied on the Lender shall be released when the funds pay in
+        obligation is honored by the Lender depending on the settlement cycle chosen by him
+        i.e. T+0 (same day) or T+1 (next trading day).
+
+    ICCL shall not levy any Initial Margin on the Borrower.
+
+f. From Ready Leg to Forward Leg
+
+    Ready Leg Margin: In this model, ICCL shall not levy a Ready Leg Margin on the
+        Borrower or the Lender.
+
+                                                      Page 55 of 100
+g. Mark to Market Margin
+
+    The eligible repo securities shall be marked-to-market on a daily basis. The Mark to
+        Market Margin shall be levied on the Borrower only.
+
+    The Borrower would be required to bring in additional eligible collateral in case of a
+        down movement in the price resulting in a mark-to-market loss on the eligible repo
+        securities portfolio of the borrower.
+
+    This MTM would be retained by ICCL. The MTM margin shall be released after
+        completion of the settlement pay-in of the Forward Leg.
+
+h. Forward Leg
+
+Margins levied on the Borrower and Lender shall be released after completion of the
+settlement pay-in of the forward leg.
+
+i. Collateral (Liquid Assets)
+
+The eligibility criteria for collateral in the Equity Cash Segment shall also be applicable in the
+
+Repo                           Segment.
+
+j. Liquid Assets
+
+The Liquid Assets shall be in the form of cash and non-cash cash equivalent assets. The cash
+component shall be at least 50% of the total liquid assets. The Liquid Assets deposited in the
+form of cash equivalent and non-cash equivalent are subject to the norms in respect of
+applicable haircuts, single bank and single issuer exposure limits, etc. as per the guidelines
+prescribed by ICCL from time to time.
+
+k. Clearing and Settlement
+
+     The settlement of transactions would be on gross basis i.e. there shall be no netting
+         of transactions.
+
+     The pay-in and pay-out of securities and funds pertaining to transactions done in
+         Repo segment would be effected in accordance with the settlement schedule issued
+         by ICCL periodically.
+
+     Members should maintain clear balance of funds in their settlement account with the
+         designated clearing bank towards their settlement pay-in obligation at the scheduled
+         pay-in time on the settlement day.
+
+     For Transferable type of transaction, the securities pay-out will be credited to the
+         depository pool accounts of members as designated or specified by them to ICCL.
+
+                                                       Page 56 of 100
+     For Non-transferable type of transaction, the securities will be retained by ICCL.
+     The funds pay-out shall be credited to the receiving Member's settlement account
+
+         maintained with their designated clearing bank.
+     In case of the forward (return) leg of the transaction, the settlement obligation shall
+
+         be generated one day prior to the return leg settlement date of the respective Repo
+         contracts series.
+     All Borrowers are required to return the funds borrowed on completion of the tenor
+         of Repo contracts on the designated settlement day. The securities to be returned by
+         the lender to ICCL in case of transferable type of Repo contracts.
+     All Borrowers are required to return the funds borrowed on completion of the tenor
+         of Repo contracts on the designated settlement day. The securities to be returned by
+         the lender to ICCL in case of transferable type of Repo contracts.
+     For settlement through Custodian for borrow transactions, the
+         members/participants will be required to mention Clearing No. of the custodians on
+         the order entry screen at the time of placement of order and for settlement through
+         custodians for lend transactions, the members / participants will be required to give-
+         up positions during Give-up/Take-up session.
+
+l. Give-up / Take-up of Repo transaction for settlement through Custodians
+
+     Lending members/participants can give-up their Repo transactions to the Custodians
+         for confirmation through the give-up/take-up module up to the specified time on the
+         T day. Members/Participants need to send transaction-wise give-up requests to the
+         Custodians for confirmation.
+
+     The Custodians will be required to confirm such given-up entries transaction-wise
+         within the specified time on the same day and should maintain sufficient collateral
+         deposits with ICCL for meeting their obligations and liabilities at the time of
+         confirmation of transaction.
+
+     The pay-in and pay-out of funds and securities shall be through the designated
+         clearing bank account and securities settlement account respectively.
+
+m. Tri-Party Special Repo Contracts
+
+     Settlement of all Special Repo Transactions is to be done on DVP- I basis.
+     The Settlement calendar will be notified by ICCL periodically.
+     Once the transaction is reported on the NDS-RST, The participants registered with
+
+         BSE/ICCL can settle their transactions in BSE Special Repo Contracts through ICCL.
+     Such Repo contracts would be divided into two legs of settlement viz. Ready leg and
+
+         Forward leg.
+     For Ready Leg settlement participants can choose the option for T0 and T1 settlement
+
+         based on settlement type selected.
+     Forward leg settlement would be decided on the basis of tenor of the respective
+
+         contracts.
+
+                                                       Page 57 of 100
+     Cut-off timings for reporting of trades and confirmations for settlement.
+     For funds pay-in, the participants will be required to transfer funds (as per their
+
+         obligations) to ICCL's RTGS Settlement account with Reserve Bank of India (RBI).
+         (The participants should enter/instruct "UCC Code", "Deal ID" and "Bank Account
+         details" in the Remarks/narration column in the RTGS FUNDS TRANSFER
+         APPLICATION FORM while transferring the funds.)
+     For securities pay in, the members will be required to transfer the securities to ICCL's
+         Pool account with CDSL and NSDL respectively.
+For details and latest updates participants may refer BSE and ICCL circulars and any other
+circulars issued from time to time.
+     http://www.icclindia.com/DynamicPages/DispNoticesNCirculars.aspx?page=20180
+         523-18
+     http://www.icclindia.com/DynamicPages/DispNoticesNCirculars.aspx?page=20180
+         522-38
+
+                                                       Page 58 of 100
+10. Negotiated Trades Reported on BSE-ICDM Portal
+
+ Settlement of negotiated trades for debt securities on ICDM platform for corporate
+    Bonds/Gsec-SDL(Demat)/PTC /CP/CD
+
+ The settlement shall be done on ICCL e-settlement platform.
+
+ Exchange and clearing corporation didn't provide any settlement Guarantee .
+
+ Settlement Shall be done on DVP basis (Gross Settlement)
+
+ Settlement cycle will be T+0, T+1 & T+2 as per transaction initiated on ICDM platform
+    of Exchange.
+
+ Fund and securities settlement carried out directly by clients/participants and their
+    custodians respectively.
+
+ The cut-off timing 05:45 PM of each settlement day.
+
+ Once pay-in of both securities and funds done by clients /participants/custodians, the
+    payout of securities / funds shall be transferred by ICCL to the depository / bank
+    account of the clients/participants/custodians respectively.
+
+ The funds settlement account details of ICCL for (CB/CP/CD/SD/GSEC/SDL/TBILL)
+    for OTC & RFQ Trade
+
+Settlement of funds through RTGS mode (Rupees Two lakh and above)
+
+Beneficiary Name:  Indian Clearing Corporation Limited
+
+RTGS Settlement Account No. 8715962
+
+IFSC Code:         ICLL0000001
+
+Settlement of funds through RTGS / NEFT/ IMPS (G-Sec, T-Bill & SDL) :-
+
+Beneficiary Name:  Indian Clearing Corporation Limited
+Bank Name:         HDFC Bank Ltd, Fort Branch
+Account No.        57500001086245
+IFSC Code:         HDFC0000060
+UPI Handle:-       ICCL.ICDM.CC@VALIDHDFC
+
+Settlement of funds through via UPI mechanism will be made available to members
+with following specification: PHI Commerce Private Limited shall provide the services in
+consideration of the below Phi Commerce Fees:
+
+                   Page 59 of 100
+Sr. No.                  Particulars              Charges
+1        Internet Banking: ICICI /Axis / HDFC  12/- per trxn
+2        Internet Banking (Other Banks)        9/- per trxn
+3        UPI Platform Fee                      Nil
+
+ All the above charges are exclusive of taxes.
+ Further, members are requested to note that, payment via UPI mechanism settles on
+
+    T+1 day.
+ And therefore, for deals settling on T+1 day, funds payment via UPI mechanism
+
+    mandatorily needs to be issued on T+0 day.
+
+ Demat account details for settlement of Securities of ICCL.
+
+NSDL pool account details (NSDL TO NSDL and NDSL to CDSL (IDT) )
+
+CM BP ID        IN619994
+Settlement      ICDM T+0 / ICDM T+1 /ICDM T+2
+Type
+Settlement No.  As per the transaction
+
+CDSL Pool Account Details
+
+EARLY PAYIN                YES (tick yes on slip or select on
+                           Easiest)
+CM ID                      999
+ALTERNATE BO ID            1100002900000030
+
+The other details like their own ID, Market Type, Settlement No. ISIN and quantity as
+applicable will also be required to be filled in the slip
+
+** In Case of the participants / custodians / clients fails to honour their pay-in obligation,
+either fully or partially, by stipulated time then the transaction shall not be considered for
+settlement. Further the securities / funds received towards the pay-in obligation shall be
+returned back to the respective participants / custodians/ clients.
+
+                           Page 60 of 100
+11. Annexures
+
+Annexure-I - Format of covering letter to be given by the clearing member for deposit
+of Fixed Deposit Receipts (FDRs) in ICCL - Debt Segment
+
+(To be typed on Clearing member letter head)
+
+Date :
+
+To
+Indian Clearing Corporation Ltd.
+Phiroze Jeejeebhoy Towers,
+Dalal Street, Fort
+Mumbai - 400 001.
+
+Dear Sir,
+
+Re: Deposit of Fixed Deposit Receipt towards ICCL - Currency Derivatives Segment.
+
+Please find enclosed the following Fixed Deposit Receipt/s (FDR) issued in your favour
+towards the margin deposit of the ICCL - Debt Segment.
+
+Sr. Bank Name                     FDR No.     FDR Date Maturity Amount
+No.
+                                                  Date  ()
+
+Yours faithfully,
+
+Authorized Signatory
+(Clg. No. ___________).
+
+                                  Page 61 of 100
+Annexure-II - Format of letter to be submitted by the concerned bank along with the
+instrument
+
+(Bank's Letter Head)
+
+Indian Clearing Corporation Ltd. (ICCL)
+Phiroze Jeejeebhoy Towers
+Dalal Street
+Mumbai - 400 001.
+
+Dear Sir,
+
+We refer to deposit receipt (FDR) No. .................... issued in the name of Indian Clearing
+Corporation Ltd. A/c. .... (members's name) ......."
+
+Sr. No. FDR Number           Issue Date          Principal Amount  Maturity Date
+                                                 ()
+
+We hereby confirm that,
+
+i.         There is no lock in period for encashment of the said FDR and the lien on the said
+
+           FDR has been created in favour of Indian Clearing Corporation Ltd. (ICCL) only.
+
+ii. The amount under the said FDR would be paid to ICCL on demand without
+
+           demure on or before or after the maturity of the said FDR without any reference
+
+           to M/s. ..... (member's name).......
+
+iii. The FDR is payable at Mumbai
+
+iv. Encashment by ICCL, whether premature or otherwise would not require any
+
+           clearance from M/s. (member's name) or any other authority/person.
+
+v. We agree that on encashment of FDR by ICCL, the interest accrued will also be
+
+           released to you.
+
+vi. We undertake that at the time of encashment of aforesaid FDR No. ______________
+
+           by M/s. (member name) or any other authority/person, whether premature or
+
+           otherwise will be done only if the aforesaid FDR No. _____________ is accompanied
+
+           with the release of lien letter issued by ICCL.
+
+vii. We undertake that the aforesaid FDR No. _____________ would stand automatically
+
+           renewed by the Bank on the respective maturity dates.
+
+viii. The abovementioned FDR issued in the favour of ICCL has not been funded
+
+           by the bank.
+
+Yours faithfully,
+
+                             Page 62 of 100
+For ...... (bank) .......
+
+    Authorized Signatory (with Bank's stamp)
+Annexure-III - Format of covering letter to be given by the clearing member for deposit
+of renewed Fixed Deposit Receipt in ICCL - Debt Segment
+
+           (To be typed on Clearing member letter head)
+                           ICCL - Debt Segment
+
+Date :
+
+To
+Indian Clearing Corporation Ltd.
+Phiroze Jeejeebhoy Towers,
+Dalal Street, Fort
+Mumbai - 400 001.
+
+Dear Sir,
+
+Re: Deposit of renewed Fixed Deposit Receipt towards ICCL - Debt Segment.
+
+We refer to following Fixed Deposit Receipt issued on our behalf in your favour towards the
+margin deposit of the ICCL - Debt Segment:
+
+Sr. FDR No.                       Issue Date Amount ()   Maturity Date
+No.
+
+The above Fixed Deposit Receipt/s has been renewed for a further period the details are as
+follows:
+
+Sr. New FDR No.                   Issue Date  New Amount New Maturity
+No.
+                                              ()         Date
+
+Yours faithfully,
+
+                                  Page 63 of 100
+Authorized Signatory
+(Clg. No. ___________).
+
+Annexure-IV - Prescribed format for letter for FDR Renewal
+
+                                              (Bank's Letter Head)
+
+The General Manager
+Indian Clearing Corporation Ltd.
+Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai - 400 001.
+
+Dear Sir,
+
+We refer to deposit receipt (FDR) No. .................... issued in the name of "Indian Clearing
+
+Corporation Ltd. A/c. .... (members's name) ......."
+
+Sr. No. FDR Number       Issue Date                    Principal         Maturity Date
+                                                      Amount ()
+
+The above FDR has been renewed for a further period of ...... months/years under the auto
+
+renewal facility on the request of the member. Details are as follows :
+
+Sr. No. FDR Number       Issue Date                    Principal         Maturity Date
+                                                      Amount ()
+
+We hereby confirm that,
+
+     i. There is no lock in period for encashment of the said FDR and the lien on the said FDR
+        has been created in favour of Indian Clearing Corporation Ltd. (ICCL) only.
+
+    ii. The amount under the said FDR would be paid to ICCL on demand without demure
+         on or before or after the maturity of the said FDR without any reference to M/s. .....
+         (member's name).......
+
+    iii. Old instrument will remain valid and no new instrument with new FDR No. ---- is
+         issued.
+
+    iv. The FDR is payable at Mumbai
+
+                         Page 64 of 100
+v. Encashment by ICCL, whether premature or otherwise would not require any
+
+   clearance from M/s. (member's name) or any other authority/person.
+
+vi. We agree that on encashment of FDR by ICCL, the interest accrued will also be
+
+   released to you.
+
+vii. We undertake that at the time of encashment of aforesaid FDR No. ______________ by
+
+   M/s. (member name) or any other authority/person, whether premature or
+
+   otherwise will be done only if the aforesaid FDR No. _____________ is accompanied with
+
+   the release of lien letter issued by ICCL.
+
+viii.     We undertake that the aforesaid FDR No. _____________ would stand
+
+   automatically renewed by the Bank on the respective maturity date.
+
+ix. The abovementioned FDR issued in the favour of ICCL has not been funded by the
+
+   bank.
+
+Yours faithfully,
+For ...... (bank) ... Authorized Signatory (with Bank's stamp)
+
+Annexure-V - Format of Letter of Bank Guarantee towards Additional Capital (Liquid
+Assets) in favour of Indian Clearing Corporation Ltd. (ICCL)
+
+(To be on Stamp/Franked Paper of 100/- or the value prevailing in the State where executed,
+                                              whichever is higher)
+
+                       Letter of Guarantee in favour of Indian Clearing Corporation Limited
+
+                                                                       BG  No.               :
+
+____________________.
+
+                                                                       BG  Date              :
+
+___________________.
+From:
+
+Insert Name
+
+&
+
+Address of the Bank
+
+(hereinafter referred to as "the Bank")
+
+To
+Indian Clearing Corporation Limited
+25th Floor, Phiroze Jeejeebhoy Towers,
+Dalal Street, Fort,
+
+                                                       Page 65 of 100
+Mumbai - 400 001
+
+(hereinafter referred to as "ICCL ")
+
+WHEREAS:
+
+(i) (Delete inapplicable portion >>>>) Mr./Ms./M/s.________________________, an
+         individual / a sole proprietary concern / a partnership firm / a body corporate,
+         registered / incorporated under the provisions of the Indian Partnership Act, 1932 /
+         the Companies Act, 1956 / 2013, having his / her / its Registered Office at ..............
+         ..... ...... ....... ......
+
+(ii) ....... ...... ...... ..... ... .. .. .. .. .. .. .. .. .. . ...... .. .. ..... .. .. .. .. .. .. .. ... ... ... .. .. .. .. .. . is a Clearing
+         Member of ICCL having Clearing No. ............, hereinafter referred to as "Clearing
+         Member" (which expression shall unless repugnant to the context or meaning
+         thereof be deemed to mean and include his / her / its successors, administrators and
+         permitted assigns);
+
+(iii) As per the Rules, Bye-laws and Regulations of the ICCL and in pursuance of various
+         notices/circulars issued by the Securities and Exchange Board of India
+         ("SEBI")/RBI/ICCL, all its Clearing Members shall maintain with ICCL, collateral in the
+         form of Cash or Fixed Deposit of Banks or approved Securities or Bank Guarantees
+         etc. after applying suitable haircut/margins, as prescribed by ICCL for various
+         segments from time to time.
+
+                                       BG  No.  :
+
+____________________.
+
+                                           BG Date :
+
+___________________.
+
+(iv) Clearing Members of the ICCL are also required to keep a certain amount as additional
+         liquid asset with ICCL for availing of the trading/clearing limits and / or adjustment
+         against margins prescribed by ICCL from time to time.
+
+(v) Clearing Members are also required to pay to ICCL, various types of margins
+         (comprising, inter alia, of gross exposure, mark to market, Value at Risk margin,
+         Special margins, Extreme Loss margins, additional volatility margins, etc.) or any
+         other margins in cash or any other form of collateral based on their exposure and
+         volume of the business done by them in ICCL from time to time.
+
+                       Page 66 of 100
+(vi) Clearing Members are also required to fulfil their engagements, commitments,
+         obligations arising out of Clearing & Settlement of trades in various segments by ICCL.
+
+(vii) ICCL requires that the maintenance of various collateral / deposit requirements as
+         also the obligations arising out of the clearing and settlement of the trades executed
+         in various segments of ICCL may be secured by the Clearing Members, inter alia, by
+         executing a Bank Guarantee, in favour of ICCL.
+
+(viii)  At the request of the Clearing Member, ICCL has agreed to accept a Bank Guarantee
+        issued in its favour from a Scheduled Bank for an amount of Rs. _____________, (Rupees
+        __________ only) in lieu of various collateral / deposit requirements as prescribed by
+        ICCL from time to time and to meet his/ its obligations and commitments under the
+        Clearing & Settlement of trades in various segments of ICCL.
+
+(ix) The Clearing Member has requested the Bank to furnish to ICCL a guarantee of Rs.
+         _____________ (Rupees _______________ only).
+
+IT IS HEREBY AGREED BY THE BANK AS UNDER:-
+
+1. We, the above mentioned Bank at the request and desire of the Clearing Member of ICCL
+    do hereby irrevocably and unconditionally guarantee to pay Rs. _____________ (Rupees
+    _______________) to ICCL as a security for various collateral / deposit requirements and due
+    performance and fulfillment by the Clearing Member of his / its engagements,
+    commitments, operations, obligations or liabilities arising out of the clearing and
+    settlement of trades on various segments of ICCL including the arbitration awards passed
+    in terms of circulars issued by SEBI from time to time. The Bank agrees and confirms that
+    the said guarantee shall be available as a security for meeting, satisfying, discharging or
+    fulfilling all or any obligations or liabilities of the Clearing Member arising
+
+                                       BG  No.  :
+
+____________________.                      BG Date :
+___________________.
+
+                       Page 67 of 100
+out of requirements of various collateral / deposit requirements and obligations or liabilities
+arising out of and clearing and settlement of trades on various segments of ICCL , as directed
+and decided by ICCL or such other person or persons or committee or committees appointed
+by ICCL from time to time including the arbitration awards passed in terms of circulars
+issued by SEBI from time to time.
+
+         2. The Bank declares and confirms that this guarantee submitted on behalf of the
+             Clearing Member is not backed by the funds of clients of the Clearing Member in
+             terms with ICCL Notice no. 20230427-21 dated April 27, 2023 on Bank
+             Guarantees (BGs) created out of clients' funds, amended from time to time. (strike
+             off in case of proprietary funds of Stock Broker).
+
+         3. The Bank hereby agrees that if in the opinion of ICCL, the Clearing Member has
+             been or may become unable to meet, satisfy, discharge or fulfil any obligations,
+             liabilities or commitments or any part thereof to ICCL arising out of various
+             collateral / deposit requirements or its clearing & settlement activities, then
+             without prejudice to the rights of the Clearing Member under its Rules, Bye-laws
+             and Regulations of ICCL or otherwise, ICCL, may at any time thereafter and
+             without giving any notice to the Clearing Member invoke this guarantee to meet
+             the aforesaid obligations, liabilities or commitments of the Clearing Member.
+
+         4. The Bank undertakes that it shall on first demand of the ICCL, without any demur,
+             protest or contest and without any reference to the Clearing Member and
+             notwithstanding any contest by the Clearing Member, pay to ICCL sums not
+             exceeding Rs._________ (Rupees ______________) as may be demanded by ICCL. The
+             decision of the ICCL from time to time as to the obligations or liabilities or
+             commitments of the Clearing Member and the amount claimed shall be final and
+             binding on the Bank.
+
+         5. This guarantee shall not be prejudiced by the failure of the Clearing Member to
+             comply with the Rules, Bye-laws or Regulations of ICCL. ICCL shall be at liberty to
+             vary, amend, change or alter any terms or conditions or its Rules or Bye-laws or
+             Regulations relating to membership of ICCL in general or as applicable to the
+             Clearing Member in particular without thereby affecting its rights against the
+             Clearing Member or the Bank or any security belonging to the Clearing Member
+             now or hereafter held or taken by ICCL, at any time. The discretion to make
+             demands under this guarantee shall exclusively be that of ICCL and ICCL is entitled
+             to demand hereunder notwithstanding being in possession of any deposits or
+             other securities of the Clearing Member.
+
+         6. The validity of this guarantee shall not be affected in any manner whatsoever if
+             ICCL takes any action against the Clearing Member including default, suspension
+             or expulsion of the Clearing Member from ICCL.
+
+                                                       Page 68 of 100
+7. This guarantee shall not be affected by any change in the constitution of ICCL or
+    the Clearing Member or the Bank and it shall remain in force notwithstanding any
+    forbearance or indulgence that may be shown by ICCL to its Clearing Member.
+
+8. The Bank undertakes to pay to ICCL, the amount hereby guaranteed within forty
+    eight hours (excluding any holidays or bank strike) of being served with a written
+    notice requiring the payment of the amount to the Branch Manager of the Bank's
+    Branch office address stated hereinabove or to such other address as ICCL may be
+    aware of either by hand delivery or by Registered Post or by Speed Post or by
+    Courier Service.
+
+9. The Bank hereby consents to ICCL for:
+
+    (i) Making any variance, change or modification of any agreement with the
+        Clearing Member and/ or others as ICCL thinks fit; and
+
+   (ii) Giving time to the Clearing Member for payment of any sums due from the
+        Clearing Member; and
+
+    (iii) Making any composition with the Clearing Member; and
+
+     (iv) Releasing or parting with any security and/ or
+
+      (v) ICCL may not be suing the Clearing Member.
+
+10. The Bank irrevocably agrees that this guarantee shall not be avoided, released or
+    prejudicially affected and the Bank shall not be discharged from its liability
+    hereunder to ICCL by reason of the aforesaid or by reason of any act or omission
+    by ICCL, the legal consequence whereof may be to discharge the Clearing
+    Member and/ or the Bank or by any act or omission by ICCL which would, but for
+    this provision, be inconsistent with the Bank's right as a surety. The Bank agrees
+    that this guarantee shall remain valid and enforceable notwithstanding any
+    forbearance or delay in the enforcement of the terms of the contract between the
+    Bank and Clearing Member or of ICCL's Rules, Bye-laws and Regulations. The Bank
+    waives all the rights available to the Bank as surety under Section 133,
+    134,135,139 and 141 of the Indian Contract Act, 1872. The Bank also agrees that
+    the Bank shall not be entitled to the benefit of subrogation to any security held by
+    ICCL.
+
+11. The Bank agrees that in the event of ICCL now or at any time hereafter holding
+    any security, the Bank shall not be entitled to the benefit of such security or to
+    receive such security notwithstanding that the Bank may have made payment
+    under this guarantee.
+
+                                             Page 69 of 100
+12. The Bank undertakes not to revoke this guarantee during its currency except with
+    the previous consent of ICCL in writing and this guarantee shall be continuous and
+    irrevocable.
+
+13. The Bank hereby states that this guarantee is not issued on the basis of any
+    arrangement with or counter guarantee of any other Bank.
+
+                                                                       BG  No.:
+
+____________________.
+
+                                                                       BG  Date:
+
+___________________.
+
+14. Notwithstanding anything mentioned hereinbefore, the aggregate liability of the
+    Bank under this guarantee is restricted to Rs. ____________ (Rupees
+    _____________________) and it will remain in force for a period of ___ months i.e. upto
+    ______ day of __________ ______.
+
+15. Unless a claim/demand in writing is made against the Bank under this guarantee
+    before the expiry of three months from the aforesaid date i.e. on or before
+    ________day of ________ ____________, all rights of ICCL under this guarantee shall cease
+    and the Bank shall be relieved and discharged from all liabilities thereunder.
+
+Executed at ______________, this ______ day of ___________, ________.
+
+For ____________________________ (Bank)
+____________________________ (Name of the Branch)
+Sd. /-
+Authorized Signatories
+Seal of the Bank.
+
+                       Page 70 of 100
+Page 71 of 100
+Annexure-VI - Prescribed format for Clearing Members can deposit Bank Guarantees
+(BGs) issued by Scheduled Commercial Banks towards Liquid Assets requirements.
+(on letter head of the bank )
+
+DD/MM/YYYY
+Indian Clearing Corporation Ltd. (ICCL)
+Phiroze Jeejeebhoy Towers
+Dalal Street
+Mumbai 400 001.
+
+Re. : New Bank Guarantee/s - ICCL - Debt Segment
+
+Dear Sir,
+We confirm having issued the following bank guarantee/s favouring yourself on behalf of
+(clearing member name).
+ Bank Guarantee No. Expiry Date Amount ()
+
+We also confirm that the persons who have signed the above guarantee(s) are authorized
+signatories of the bank.
+Yours faithfully,
+For ( bank name )
+
+Authorized Signatory.
+
+                                                       Page 72 of 100
+Annexure-VII - Prescribed format for renewal letter w.r.t. BGs deposited by clearing
+members with ICCL towards Liquid Assets by submitting a from the concerned bank
+
+                                        (on letter head of the bank )
+
+DD/MM/YYYY
+
+Indian Clearing Corporation Ltd. (ICCL)
+25th Floor, Phiroze Jeejeebhoy Towers
+Dalal Street, Fort,
+Mumbai 400 001.
+
+Re. : Renewal of Bank Guarantee(s) for ICCL - Debt Segment
+
+Dear Sir,
+
+We confirm having issued the following bank guarantees(s) favoring yourself on behalf of
+(clearing member name ).
+
+Bank Guarantee No.  Expiry Date     Amount ( Rs ).
+
+We also confirm that the persons who have signed the above guarantee(s) are authorized
+signatories of the bank.
+Yours faithfully,
+For ( bank name )
+Authorized Signatory.
+
+                    Page 73 of 100
+Annexure-VII(i) - Format of Renewal of letter for Bank Guarantee towards fulfilment
+of various requirements/liabilities/obligations of Clearing Members in relation to
+various segments of ICCL
+
+(To be on Stamp/Franked Paper of 100/- or the value prevailing in the State where executed,
+whichever is higher)
+
+                                                       BG No. : ____________________
+
+                                                       BG Date : __________________
+
+From:
+
+Insert Name
+
+&
+
+Address of the Bank
+
+(hereinafter referred to as "the Bank")
+
+To
+
+Indian Clearing Corporation Ltd.
+25th Floor, Phiroze Jeejeebhoy Towers,
+Dalal Street, Fort,
+Mumbai - 400001.
+
+We (bank name ) a body corporate constituted under the Companies Act 1956 having our
+
+Registered Office at ( Bank's address ) and our branch office at ( branch office address ), refer
+
+to the Bank Guarantee Bearing No. ( original BG No. ) executed by us on the           (original
+
+BG date) at Mumbai (hereinafter referred to said bank guarantee) on account of (Clearing
+
+Member Name) (hereinafter referred to as a clearing member) for a sum of  _____________/-
+
+(Rupees ________________________only) in your favour.
+
+We, the above mentioned Bank, now at the request of the Clearing Member further extend
+the period of the said guarantee by ___________ months, i.e. from ____________ to _____________ on
+the same terms and conditions as stated in the said guarantee and unless a demand under
+this guarantee is made on us in writing by you within three months after the date of expiry of
+
+                                                       Page 74 of 100
+this guarantee, i.e., on or before _____________, all your rights under this guarantee shall cease
+and the bank shall be relieved and discharged from all liabilities hereunder.
+We hereby affirm and confirm that save and except to the extent as provided for
+hereinabove, the said guarantee together with all other terms and conditions therein shall
+remain operational and in full force and effect till _____________.
+"Now withstanding anything contained herein our liability under this Bank Guarantee shall
+not exceed  _____________/- (Rupees ___________________ only). This Bank Guarantee shall be
+valid up to _______________. And we are liable to pay the guarantee amount or pay part thereof
+under this Bank Guarantee only and only if you serve upon us a written claim on or before
+_______________." (date of expiry of the claim period).
+All other provisions of the said Bank Guarantee would remain unchanged.
+Sign for and on behalf of (bank name) on this the _______________, Mumbai.
+Yours truly,
+For (bank name)
+_______________ Branch
+
+Authorized Signatories
+
+                                                       Page 75 of 100
+Annexure-VIII - Prescribed format for letter for Bank Guarantee w.r.t. submitted along
+with a covering letter by the Clearing Member
+
+                    (On letter head of the bank)
+
+DD/MM/YYYY
+
+Indian Clearing Corporation Ltd. (ICCL)
+Phiroze Jeejeebhoy Towers
+Dalal Street
+Mumbai 400 001.
+
+Re. : Renewal of Bank Guarantee(s) - ICCL - Debt Segment.
+
+Dear Sir,
+
+We confirm having issued the following bank guarantees(s) favouring yourself on behalf of
+(clearing member name ).
+
+Bank Guarantee No.  Expiry Date                            Amount ( Rs ).
+
+We also confirm that the persons who have signed the above guarantee(s) are authorized
+signatories of the bank.
+
+Yours faithfully,
+
+For ( bank name )
+
+Authorized Signatory.
+
+                    Page 76 of 100
+Annexure-IX - Deed of pledge to deposit approved securities with Indian Clearing
+Corporation Limited
+
+(On Stamp/Franked paper of 300/- or the value prevailing in the state where executed,
+whichever is higher and purchased in the name of the Clearing Member of Indian Clearing
+Corporation Ltd)
+
+Deed of Pledge to Deposit Approved Securities with Indian Clearing Corporation
+Limited
+
+This Deed of Pledge (hereinafter referred to as "the Deed" is executed at ___________ this
+..........day of ............, 20.........
+
+By
+
+Mr./Ms./M/s.___________________________, an individual/ a sole proprietary concern/ a
+partnership firm/ a body corporate, registered/incorporated under the provisions of the
+Indian Partnership Act, 1932/the Companies Act, 1956, having his/her/its Registered Office
+at ......................... is a clearing member of the Indian Clearing Corporation Limited (ICCL),
+having Clearing No. .........., (hereinafter referred to as "the Clearing Member", which
+expression shall unless repugnant to the context or meaning thereof be deemed to mean and
+include his/her heirs, legal representatives, executors and administrators/ the partners for
+the time being of the said firm, the survivor or survivors of them and the heirs, executors and
+administrators of such last survivor /its successors and assigns, as the case may be);
+
+In favour of
+
+Indian Clearing Corporation Limited, a company incorporated under the Companies Act,
+1956 and having its registered office at 25th Floor, P. J. Towers, Dalal Street, Fort, Mumbai -
+400 001 (hereinafter referred to as "ICCL" which expression shall unless it be repugnant to
+the context or meaning thereof, be deemed to mean and include its successors and permitted
+assigns)
+
+WHEREAS
+
+(i) Mr./Ms./M/s.___________________________, is a Clearing Member of ICCL; and
+
+(ii) As per the Rules, Bye-laws and Regulations of the ICCL and in terms of the
+         notices/circulars issued by ICCL/SEBI in this regard, all Clearing members of ICCL (
+         hereinafter referred to as "ICCL") shall maintain the requisite collateral with ICCL in
+         terms of Rules, Bye-laws and Regulations of ICCL and direction/circular issued by
+         SEBI/ICCL. Further, a Clearing Member desirous of availing additional exposure shall
+         deposit with ICCL the requisite collateral towards additional capital (Liquid Assets)
+         for the due performance by him, of his engagements, commitments, operations,
+         obligations or liabilities as a Clearing member of ICCL arising out of the clearing and
+         settlement of transactions done by the Clearing member as per the Rules, Bye-laws
+         and Regulations of ICCL. The collateral security to be deposited may be in the form of
+         Cash, FDR of approved Banks or approved Securities, Bank Guarantees, Government
+
+                                                       Page 77 of 100
+         Securities and the units of the approved Mutual Funds; after applying suitable
+         haircut/margins, as prescribed by the ICCL for various deposit / collateral
+         requirements, for various segments, from time to time; and
+
+(iii) At the request of the Clearing Member, ICCL has agreed to accept the approved
+         securities pledged in its favour, as per the norms prescribed by ICCL from time to time
+         and to meet his/its obligations and commitments under the Rules, Bye-laws and
+         Regulations of ICCL and directions/circulars issued by SEBI/ICCL; and
+
+(iv) The Clearing Member shall deposit the approved securities with ICCL or a Custodian
+         / Depository Participant of ICCL ("Empaneled Collateral Agent") as may be
+         determined and notified by ICCL from time to time.
+
+NOW, THIS DEED OF PLEDGE WITNESSETH AS FOLLOWS:
+
+  1. The Clearing Member hereby pledges the securities (hereinafter referred to as the "the
+      Said Securities") and ICCL hereby accepts the first and present security interest in (i)
+      the securities (ii) all dividends/interest/redemption (iii) all additional securities and
+      (iv) such other collateral listed in the Schedule hereto to secure and performance of all
+      obligations of the Clearing Member under this Deed of Pledge. The Said Securities shall
+      include all the securities deposited from time to time (in addition, substitution or
+      replacement thereof) with ICCL as security for due performance and fulfillment by
+      him/them of all engagements, commitments, operations, obligations or liabilities as a
+      Clearing Member of ICCL arising out of or incidental to any trades/contracts made,
+      executed, undertaken, carried out or entered into by him/them on any recognized stock
+      exchange and cleared by ICCL as per the Rules, Bye-laws and Regulations of the ICCL.
+
+  2. The Clearing Member, if so determined by ICCL, shall place the Said Securities in the
+      absolute disposition of ICCL or such Empaneled Collateral Agent in such manner as
+      decided by the ICCL and such possession and disposition may be apparent and
+      indisputable notwithstanding the fact that the Clearing Member may be permitted to
+      have access to the Said Securities in the manner and subject to such terms and
+      conditions as may be determined by ICCL. The Clearing Member confirms, affirms and
+      covenants with ICCL that during the period of the Said Securities remaining in
+      possession and disposition of ICCL or the Empaneled Collateral Agent as decided by
+      ICCL, he/they shall do all such acts and things, sign such documents and pay and incur
+      such costs, taxes including capital gain tax or related tax demand/s, debts and expenses
+      as may be necessary without prejudice to any other obligations, liabilities, duties which
+      he/they owe as a Clearing Member of ICCL. The Clearing Member agrees that the
+      applicable charges for the pledging and un-pledging of securities shall be solely borne
+      by the Clearing Member.
+
+  3. The Clearing Member represents, declares and assures that in respect of the Said
+      Securities which belong to the Clearing member (a) are in existence, (b) are owned by
+      him/them, (c) are free from any prior charge, lien, encumbrance, (d) not subject to any
+      lock-in, and further that all the Said Securities over which pledge may be created in
+
+                                                       Page 78 of 100
+    future would be in existence and owned by him/them at the time of creation of such
+    pledge and that all the Said Securities to be given in future as security to ICCL will be
+    unencumbered, absolute and disposable property of the Clearing Member.
+
+4. In respect of such of the Said Securities which belongs to the constituents of the
+    Clearing Member, the Clearing Member represents, declares and assures that (a) all
+    the Said Securities are in existence, are owned by its constituents, are in the
+    possession/custody of the Clearing Member in the ordinary course of the Clearing
+    Member's business, are free from any prior charge, lien, encumbrance and are not
+    subject to any lock-in and shall be liable for any dispute/difference/claim raised by its
+    constituents in relation to the Said Securities, (b) the Clearing Member has been
+    expressly Authorized in writing by the constituents, who own the Said Securities to
+    pledge the same in favour of ICCL and to incur such costs, charges and expenses for and
+    on behalf of the constituent as the Clearing Member may deem necessary in respect of
+    such pledge, (c) the Clearing Member represents and warrants that he/they has
+    apprised the rights of ICCL over Said Securities to the constituents and that the
+    constituents does not have any objection/demur in case of invocation of pledge by ICCL
+    in its favour and in the manner deem fit by ICCL and (d) that all of the above
+    representations, assurances and declarations shall remain true, valid and binding upon
+    the Clearing Member in respect of all securities that may hereafter be pledged by the
+    Clearing Member in pursuance of this Deed of Pledge. The Clearing Member also agrees
+    that it shall report to ICCL, in a format as may be prescribed by ICCL, details of the Said
+    Securities as belong to the constituents of the Clearing Member.
+
+5. The Clearing Member agrees that he/they shall not without the written permission
+    from ICCL create any charge, lien or encumbrance of any kind upon or over the Said
+    Securities hereby pledged to ICCL. The Clearing Member further agrees that he/they
+    shall not permit any charge, lien or encumbrance to be created and shall not do or allow
+    anything to be done that may prejudice the Said Securities while he/they remain liable
+    to ICCL, in any manner, without the prior written permission of the ICCL.
+
+6. The Clearing Member agrees that he/they shall also similarly pledge all corporate
+    actions/benefits in respect of the Said Securities if ICCL or the Empanelled Collateral
+    Agent does not automatically pledge the same.
+
+7. The Clearing Member agrees, declares, and undertakes that he/they shall be bound and
+    shall abide by the terms and conditions of the scheme for the deposit of securities as
+    formulated and determined by ICCL, for security towards liquid assets and/or
+    additional liquid assets, either in their existing form or as modified/amended from time
+    to time.
+
+8. The Clearing Member is aware and agrees that in accordance with the Rules, Bye-laws
+    & Regulations of the ICCL, the Said Securities shall be subject to a first and paramount
+    lien for any sum due to the ICCL and all other claims against the Clearing Member for
+    fulfilment of engagements, obligations and liabilities of Clearing Members arising out
+    of or incidental to any Dealing made subject to the Bye-Laws, Rules and Regulations of
+    ICCL.
+
+                                                    Page 79 of 100
+9. If in the opinion of ICCL, the Clearing Member has failed to perform and/or fails to fulfil
+    his/their engagements, commitments, operations, obligations or liabilities as a Clearing
+    Member of ICCL arising out of or incidental to any trades/dealings made by him/them
+    in accordance with the Rules, Bye-laws and Regulations of the ICCL, then the Clearing
+    Member agrees that the ICCL as a pledgee, shall be empowered/ entitled to invoke the
+    pledge, and to sell, dispose of or otherwise effect any other transfer of the Said
+    Securities in such manner and subject to such terms and conditions as ICCL may deem
+    fit and that the money, if any, realised from such pledge/sale/disposal/or other
+    transfer of the Said Securities shall be utilized/disbursed by ICCL in such manner and
+    subject to such terms and conditions as ICCL may deem fit and further the Clearing
+    Member shall do all such things, deeds, acts and execute such documents as are
+    necessary to enable ICCL to effect such pledge/sale/disposal/ or other transfer of the
+    Said Securities. The decision of the ICCL as to the obligations or liabilities or
+    commitments of the Clearing Member and the amount claimed shall be final and
+    binding on the Clearing Member.
+
+10. All dividends/interests hereinafter declared on or payable with respect to any
+    approved securities during the term of the Deed will be immediately delivered to the
+    ICCL to be held under this Deed of Pledge. Notwithstanding this Deed of Pledge, so long
+    as the Clearing Member owns the securities and no event of default has occurred in
+    fulfilling its obligations or liabilities, the Clearing Member will be entitled to vote any
+    shares comprising the collateral, subject to any proxies granted by the Clearing
+    Member, if law permits.
+
+11. In the event that during the term of this Deed of Pledge, any stock dividend,
+    reclassification, readjustment, stock split or other change is declared or made with
+    respect to the collateral, or if warrants or any other rights, options or securities are
+    issued in respect of the collateral (the `Additional Securities") then all new,
+    substituted and/ or additional shares or other securities issued by reason of such
+    change or by reason of the exercise of such warrants, rights, options or securities, if
+    delivered to the Clearing Member, immediately surrendered to ICCL, will be pledged to
+    the ICCL to be held under the terms of this Deed of Pledge as and in the same manner
+    as the collateral is held hereunder.
+
+12. Until all obligations and liabilities of the Clearing Member are fulfilled and under this
+    Deed of Pledge have been satisfied in full, all collateral will continue to be held in pledge
+    in favour of ICCL under this Deed of Pledge.
+
+13. The Clearing Member shall, at the request of the ICCL, execute and deliver such further
+    documents and take such further actions as ICCL may reasonably request to perfect and
+    maintain the security interest of the ICCL in the collateral, or in any part thereof.
+
+14. This Deed of Pledge will inure to the benefit of the respective heirs, personal
+    representatives, successors and assigns of the parties hereto.
+
+15. The Said Securities pledged as security shall be available at the disposal of ICCL as a
+    continuing security and remain available in respect of the obligations, liabilities or
+
+                                                    Page 80 of 100
+      commitments of the Clearing Member jointly or severally and may be utilized as such
+      in the discretion of ICCL, as if each of the obligations, liabilities or commitments is
+      secured by the Said Securities. This Deed shall not be considered as cancelled or in any
+      way affected on its utilization for meeting any specific obligation, liability or
+      commitment by the ICCL, but shall continue and remain in operation in respect of all
+      subsequent obligations, liabilities or commitments of the Clearing Member.
+
+  16. The Clearing Member agrees to execute such further documents whether of a legal
+      nature or otherwise as may be required by ICCL for the purpose of giving effect to the
+      provisions of this Deed and the scheme for the deposit of securities.
+
+  17. The Clearing Member agrees that deposit of the Said Securities and pledge thereof shall
+      not be affected in any manner whatsoever if ICCL takes any action against the Clearing
+      Member including suspension or expulsion or declaration of the Clearing Member as a
+      defaulter.
+
+  18. The Clearing Member agrees that ICCL shall not be under any liability whatsoever to
+      the Clearing Member or any other person for any loss, damage, expenses, costs etc,
+      arising out of the deposit of the Said Securities, in any manner, due to any cause,
+      whatsoever, irrespective of whether the Said Securities shall be in the possession of the
+      ICCL or not at the time of such loss or damage or the happening of the cause thereof.
+      The Clearing Member shall at all times indemnify and keep indemnified ICCL from and
+      against all suits, proceedings, costs, charges, claims and demands whatsoever that may
+      at any time arise or be brought or made by any person against ICCL in respect of any
+      acts, matters and things lawfully done or caused to be done by ICCL in connection with
+      the Said Securities or in pursuance of the rights and powers of ICCL under this Deed.
+
+  19. The Clearing Member shall be released from its obligations/liabilities/commitments
+      under this Deed only when ICCL in writing expressly provides for the same.
+
+  20. The Clearing Member agrees that ICCL shall be entitled to sell, dispose of or otherwise
+      transfer the Said Securities and to execute transfer documents and/or any other
+      necessary documents, wherever applicable or other endorsements for this purpose and
+      that ICCL shall be entitled to receive from the Clearing Member all expenses incurred
+      by ICCL or the Empanelled Collateral Agent for the aforesaid purposes.
+
+  21. The Clearing Member undertakes that the deposit of the Said Securities and pledge
+      thereof shall be binding on him/them as continuing and that the same shall not be
+      prejudiced by his/their failure to comply with the Rules, Bye-laws or Regulations of the
+      ICCL in their existing form or as modified/altered/ amended from time to time.
+
+  22. No change whatsoever in the constitution of the Clearing Member during the
+      continuance of this Deed shall impair or discharge the liability of the Clearing Member
+      hereunder.
+
+SCHEDULE
+
+.....................................................................................................
+
+                                                       Page 81 of 100
+IN WITNESS WHEREOF the Clearing Member has executed these presents on the day and
+year first hereinabove mentioned.
+Signed, sealed and delivered by the within named Clearing Member
+
+Mr./ M/s ---------------------------
+
+In the presence of witnesses : (Name, address and signature of witnesses)
+1.
+
+2.
+
+Note :
+(Signature and stamp in all pages by)
+
+  1. Clearing Member in case of individual.
+  2. All partners in case of a Partnership Firm.
+  3. By any two of the following persons in case of a company.
+
+             a) Managing Director
+             b) Whole-time Director
+             c) Directors.
+(A certified true copy of the Board Resolution, authorizing the signatory to sign this deed, to be
+submitted in case of a company).
+4. By Authorized Signatory as approved by the Bank, in case of a Bank.
+
+                                                       Page 82 of 100
+ANNEXURE-X - Deposit of Government of India Securities (G-sec) with ICCL towards
+Liquid Assets (collateral) requirements
+
+The procedure for submitting G-SEC's as collateral shall be as under:
+
+ Members desirous of providing G-sec's will inform ICCL about the details of such G-
+    Sec's in the format enclosed as Annexure - I. A copy of such letter should be sent to
+    ICCL (Fax No. 2272 3130) or email at collaterals@icclindia.com
+
+ The details filled in said form by the Member brokers need to be entered into in the
+    Ekuber System under Margin Transfer Module before 4.00 p.m. for transfer of
+    securities to the following CSGL account of ICCL.
+
+Account Name               : Indian Clearing Corporation Ltd. -CSGL Account.
+CSGL Account No.  : 53111600001
+
+ The process of transfer shall get completed on confirmation of the transfer
+    instructions received by ICCL through EKUBER for acceptance of the said Govt.
+    Securities.
+
+ Members may note that the valuation of G-Sec's shall be based on the latest available
+    closing price (subject to a minimum hair-cut of 10%) of G-Sec's.
+
+Process for withdrawal of G-Sec's
+
+     For withdrawal of G-Sec's (deposited towards Liquid Assets with ICCL), members will
+         be required to send the release request in the prescribed format (Annexure-II) by
+         4:00 pm, on a working day to ICCL.
+
+     Member brokers may note that the periodic coupon/redemption payments received
+         on such G-Sec's will be distributed/passed by ICCL to concerned Clearing Members
+         by crediting the same to their settlement Accounts with the designated Clearing
+         banks upon receipt of amount from RBI.
+
+                  Page 83 of 100
+      ANNEXURE-X(i) - Format of covering letter to be given by the member for deposit of
+      Government Securities in ICCL - Debt Segments
+
+                   (To be typed on Letter Head of Member)
+
+      Date:
+
+      To,
+      Indian Clearing Corporation Ltd. (ICCL)
+      Phiroze Jeejeebhoy Towers
+      Dalal Street
+      Mumbai 400 001.
+
+      Dear Sir / Madam,
+      Re: Request for Addition of Securities (G-Sec / T-Bills ) as Collaterals.
+
+      We would like to deposit below mentioned G-Sec / T-Bill as Margin Deposit in ICCL - Debt
+      Segment:
+
+      Details are as under: (Ekuber Ref No #   )
+
+Membe Member Source SGL Source SGL Instrumen ISIN Maturit Face                                  Qty.
+
+r ID         Name  A/c no A/c Holder t details no. y Date Value (in
+
+                   Name                                                          digits &
+
+                                                                                 words)
+
+      Further, we have initiated transfer of securities to CSGL account (53111600001) of ICCL,
+      vide Margin Transfer module through Ekuber System. You are requested to confirm the same
+      and consider the above G-Sec / T-Bills towards our margin deposit.
+
+      We would like to inform you that since this transfer of securities is on account of margin
+      deposit and the same is been settled through Margin Transfer module, no monetary
+      consideration is involved in this transaction.
+
+      Declaration : These Margin Transfer of Government Securities pertain to margins submitted
+      towards trade in Debt Segment
+
+                   Page 84 of 100
+Thanking You,
+Yours Faithfully,
+Authorized Signatory
+
+                                                       Page 85 of 100
+      ANNEXURE-X(ii) - (Format of covering letter to be given by the member for
+      withdrawal of Government Securities in ICCL - Debt Segments
+
+      Date:
+
+      To,
+      Indian Clearing Corporation Ltd. (ICCL)
+      Phiroze Jeejeebhoy Towers
+      Dalal Street
+      Mumbai 400 001.
+
+      Dear Sir / Madam,
+
+      Re: Request for withdrawal of Securities (G-Sec / T-Bills ) as Collaterals in ICCL - Debt
+      Segment.
+
+      We would like to withdraw below mentioned G-Sec / T-Bill as Margin Deposit in ICCL-Debt
+      Segment:
+
+      Details are as under: (Ekuber Ref No #  ) :
+
+Membe Member Source SGL Source SGL Instrumen ISIN Maturit Face                   Qty.
+
+r ID  Name  A/c no A/c Holder t details no. y Date Value (in
+
+            Name                                   digits &
+
+                                                   words)
+
+      We would like to inform you that since this transfer of securities is on account of margin deposit
+      and the same has been settled through Margin Transfer module, no monetary consideration is
+      involved in this transaction.
+
+      Declaration : These Margin Transfer of Government Securities pertain to margins submitted
+      towards trade in ICCL - Equity Cash / Equity Derivatives / Currency Derivatives Segments.
+
+      Thanking You,
+      Yours Faithfully,
+
+                                                             Page 86 of 100
+Authorized Signatory
+
+ANNEXURE-XI - Format of extension of scope of Bank Guarantee from one segment to
+any other segments of ICCL.
+
+(To be on Stamp/Franked Paper of 100/- or the value prevailing in the State where executed,
+whichever is higher)
+
+Letter of extension of scope of guarantee in favour of Indian Clearing Corporation Ltd. (ICCL)
+from one segment to any other segment of ICCL.
+
+                                                        BG No. : ____________________
+
+                                                        BG Date : __________________
+
+From:
+
+Insert Name
+
+&
+
+Address of the Bank
+
+(hereinafter referred to as "the Bank")
+
+To
+Indian Clearing Corporation Ltd.
+25th Floor, Phiroze Jeejeebhoy Towers,
+Dalal Street, Fort,
+Mumbai - 400 001.
+
+We, __________________________, having registered office at _________________________________
+____________________________ and having branch amongst others at ________________, refer to the
+Bank Guarantee No. __________ issued by us on ____ day of _______ _____ at _________ (hereinafter
+referred to as "said Guarantee") on behalf of ________________(hereinafter referred to as
+"Clearing Member") having its registered office at _____________________________________ for a sum
+of ____________ (Rupees _________________________ only) issued in favour of ICCL - BSE Equity
+Cash Segment / ICCL - BSE Equity Derivatives Segment / ICCL - BSE Currency Derivatives
+Segment. The said bank guarantee was issued to cover the Clearing Member's collateral
+requirements, margin requirements, settlement & other obligations in the ICCL-BSE Equity
+
+                                        Page 87 of 100
+Cash Segment/ICCL-BSE Equity Derivatives Segment / ICCL- BSE Currency Derivatives
+Segment.
+We, the above mentioned Bank at the request and desire of the said Clearing Member, do
+hereby irrevocably and unconditionally agree to extend the scope of the said guarantee to
+cover the liabilities/obligations of the Clearing Member arising out of the collateral
+requirements and various margins, settlement & other obligations of the ICCL - BSE Equity
+Derivatives Segment, ICCL - BSE Equity Cash Segment, ICCL - BSE Currency Derivatives
+Segment, ICCL BSE SLB Segment and ICCL BSE New Debt Segment and any of the Segments
+of ICCL- BSE of which the said Clearing member is admitted as a Clearing Member as may be
+determined by BSE/ICCL from time to time without demur/protest or reference to the
+Clearing Member.
+We agree that the said Clearing Member is admitted to the membership of various segments
+of BSE/ICCL and that the Bank Guarantee amount specified in the above referred Bank
+Guarantee document is available for meeting the liabilities/obligations of any of the clearing
+segments as aforesaid.
+All other provisions of the said Bank Guarantee would remain unchanged.
+
+Executed at ______________, this ______ day of ____________, ________.
+
+For _____________________________ (Bank)
+____________________________ (Name of the Branch)
+Sd. /-
+Authorized Signatories
+Seal of the Bank.
+
+                                                       Page 88 of 100
+Page 89 of 100
+Annexure-XII - Format of member's request letter for change of Designated Bank
+Date
+Manager,
+Clearing & Settlement Dept.
+Indian Clearing Corporation Ltd. (ICCL)
+Phiroze Jeejeebhoy Towers
+Dalal Street, Fort
+Mumbai - 400 001
+
+Dear Sir,
+Re: Change of Designated Bank for Clearing & Settlement Purpose
+I/We _________________________ Clg. No._________ is/ are having A/c. No.___________ with
+____________________ Bank for margins /clearing & settlement obligations of ICCL - BSE Equity
+Derivatives Segment. I/We wish to shift my / our designated bank from
+_________________________ to ____________________________ bank.
+
+Our Account No. with _______________________ bank is _________________________ and we wish to
+designate the same for Clearing & Settlement purpose including margin payments for ICCL -
+BSE Equity Derivatives Segment.
+I/We agree that the operations in the abovementioned account would start only after
+receiving intimation regarding the same from ICCL.
+You are requested to please do the needful.
+
+Signature & Stamp of the Member(s) / Director(s)
+
+                                                       Page 90 of 100
+Annexure-XIII - No Objection Certificate
+
+(To be issued by the existing Clearing Bank on its letterhead)
+
+Date:
+
+We, _____________  __________, as a Clearing Bank to Indian Clearing Corporation Limited,
+
+have been providing the clearing services to _____________________________ (name of the
+
+Member), a member of ICCL.
+
+The said Member desires to appoint other Bank as their Clearing Bank and has requested us
+to close his settlement account and client account with us.
+
+We hereby inform that we do not have any objection in the said member appointing other
+Clearing Bank for the purpose.
+
+The settlement account number of the said member is ______________________ (Settlement
+account no.) and client account number is ______________________(client account no.). These said
+accounts will be closed on receipt of a request of the member on its opening settlement and
+client accounts with other Clearing Bank.
+
+For and on behalf of the (name of the Bank)
+
+Authorized Signatory
+(Affix bank seal/stamp)
+
+                            Page 91 of 100
+Annexure-XIV - Letter from the new clearing bank confirming the settlement account
+number and the client account number of the member
+
+       (To be issued by the new Clearing Bank on its letterhead)
+
+Date:
+
+The Clearing & Settlement Department
+Indian Clearing Corporation Limited.
+15TH Floor, P J Towers, Dalal Street,
+Mumbai -400001, India.
+
+Dear Sir,                                              (name of the member) with Clearing
+
+Settlement and Client accounts of __________________
+Member ID - ____________.
+
+This is to inform you that we are one of the Clearing Banks of ICCL and that one of the
+members of ICCL, __________________ (name of the member of ICCL) has appointed us as their
+Clearing Bankers.
+
+We hereby confirm having opened the following accounts of the said member:
+
+SETTLEMENT ACCOUNT       (ACCOUNT NO.)
+CLIENT ACCOUNT           (ACCOUNT NO.)
+
+We further confirm that the above-mentioned accounts are active for ICCL operations on the
+date of issue of this letter.
+
+For and on behalf of the (name of the Bank)
+
+Authorized Signatory
+(Affix bank seal/stamp)
+
+                                       Page 92 of 100
+Annexure-XV - Authorisation Letter addressed to new clearing bank
+
+                                    (On the letter head of the member)
+
+Date:
+
+From:
+Clearing Member Name & Address:
+
+To
+Name of Clearing Bank Address:
+
+Dear Sir/ Madam
+
+Sub: Operation of Clearing Bank for Indian Clearing Corporation of Limited (ICCL) with effect
+from the date of account opening in _________________(Segment)
+
+Ref: Our Clearing Bank Account no. ___________________with ___________________ (Name of Bank)
+______________________________(Address), With reference to above we note that:
+
+    1. ICCL to undertake Clearing and Settlement activity for its Clearing Members. ICCL has
+         established a system whereby its Clearing Members will be able to undertake the
+         Clearing and Settlement of deals admitted.
+
+    2. The bank has been nominated/appointed as Clearing Bank for the purpose of Clearing
+         and Settlement by ICCL.
+
+    3. As per the Bylaws, Rules and Regulation of ICCL, the Clearing Member shall authorize
+         the Clearing Bank to access their clearing account for debiting and crediting their
+         accounts as per the instruction received from ICCL from time to time.
+
+    4. Having due regard to the above, we hereby irrevocably authorize the Clearing Bank
+         to debit and credit our above-mentioned account number from time to time. Further,
+         we authorize the Clearing Bank to report balance and other information relating to
+
+                                                       Page 93 of 100
+         this account to ICCL/ as may be required by ICCL from time to time. This irrevocable
+         undertaking will be effective from the date of commencement of our operations with
+         ICCL.
+    5. We further hereby undertake to abide by such other or further guidelines /
+         instructions as may be communication / decided by ICCL from time to time.
+Yours faithfully,
+For (Name of Clearing Member)
+Authorized Signatories
+
+                                                       Page 94 of 100
+Annexure-XVI - Format of Authorization Letter to Clearing Bank for Debiting
+Settlement Account
+
+Date:
+
+To,
+Name of the Clearing Bank
+Address of the Clearing Bank
+
+Dear Sir,
+
+Sub: Authority Letter for debiting our Account No:________________________ by  Indian
+Clearing Corporation Ltd. towards settlement, margin or other charges.
+
+With reference to the our Account No.______________________________ which has been
+opened in your bank in our name, we hereby authorize you to debit the same towards
+settlement, margin or other charges which ICCL shall submit to you from time to time.
+
+In the event of any wrong debit made by the bank on the basis of the bills submitted by ICCL,
+we shall bring the same to the notice of ICCL and any adjustment to be made shall be at ICCL's
+end only.
+
+We further declare that the bank would not be held responsible in any manner whatsoever for
+debiting our current account from time to time on the advice of ICCL.
+
+Thanking you,
+Yours faithfully,
+
+For Clearing Members Name
+Clg No. ________________
+Name of the Official
+Designation
+
+NOTE: (Submit acknowledged copy given by bank to ICCL)
+
+                   Page 95 of 100
+Annexure Form XVII - Notice of Pledge / Hypothecation / Lien of Government
+Securities
+
+FORM - XVII
+[See regulations 21 (1), (2), (3) and 22(2)]
+
+To,                            To,                                                         To,       Manager
+The Regional       Director    The                          Manager,                       The
+Reserv Bank        of          India Name                   ......................... ...
+Public Debt                    Address:                                                    Indian Clearing Corporation
+                       Office
+                                                                                           Ltd.
+
+                                                                                           Address:
+
+Dear Sir,
+
+Please take notice that I/we ................................................... [name(s) of the holder(s)] have
+pledged/hypothecated/created lien1 on the Government securities specified in Schedule 'A' hereto
+annexed {and have deposited the original scrip(s)
+with. ............................................................................................................. .......................................................................name(s) of the
+Pledgee(s)/Creditor(s)}. A duly executed transfer form is deposited with the pledgee2. Please record
+pledge/hypothecation/lien1 in your books of account in respect of the securities listed in Schedule `A' and
+oblige.
+
+Yours faithfully,
+
+Signature(s) and name(s) of the Holder(s) / Borrower(s)..............................
+
+Mailing address:                                            .............................................................................
+
+Signature(s) and name(s) of the Pledgee(s) / Creditor(s)..............................
+
+Mailing address:                                            ............................................................................
+
+Dated this ...............day of .........................
+
+Schedule 'A'
+
+Nomenclature of    Distinctive                              SGL/ CSGL/ Bond                Date of   Face value of
+the security and   number of the                            LedgerAccount                  maturity  security
+ISIN               physical security                        No.
+
+                                                            Page 96 of 100
+Note: (i) This form has to be submitted in triplicate. Counter receipt will be issued if
+submitted at the counter. The Public Debt Office will retain the original. Confirmation of
+having recorded the pledge/hypothecation/lien in the books of Public Debt Office will be
+issued on the duplicate and triplicate. Holder(s)/borrower(s) or pledge(s)/creditor(s) shall
+arrange to collect the same by surrendering the counter receipt duly discharged."
+(ii) If this Form is submitted otherwise than at the counter, the duplicate and triplicate of
+the Form shall be dispatched by Post/Courier at the mailing addresses.
+
+For Office use only:
+
+Return Memo
+Notice of pledge/hypothecation/lien could not be recorded in the books of account of Public
+Debt Office for the following reason(s).
+
+     Discrepancies in the particulars of securities/Account No(s).
+     Discrepancies in the names of holders.
+     Form is incomplete.
+     Enclosures not compiled properly.
+     Signature not matching.
+     Security not eligible for pledge/hypothecation/lien
+     Security already under pledge/hypothecation/lien in favour of another creditor.
+     Claims in respect of the security are pending.
+     Under Stoppage.
+     Any other reason........................................................................
+Authorized Officer
+Confirmation
+Confirmed that the notice of pledge/hypothecation/lien is recoded in the books of account
+of Public Debt Office / CSGL Account Holder / Agent.
+Authorized Officer
+
+                                                       Page 97 of 100
+Annexure Form XVIII- Cancellation of Pledge / Hypothecation / Lien
+
+FORM - XVIII
+[See regulations 21 (5) (6) and 22 (2) (4)]
+
+To,                      To,                                                To,
+The Regional Director
+                         The                                Manager,        The                                Manager
+Reserve Bank of India
+Public Debt Office       Name of CSGL A/c Holder                            Indian Clearing Corporation
+.......................  Address:.....................Limited
+                         .................................                  Address:         .....................
+
+                                                                            .................................
+
+Dear Sir,
+
+The holder(s) of the Government securities listed in Schedule `A' had created
+pledge/hypothecation/lien*, on the said Government securities in my/our favour. I/we
+enclose in original, the duplicate of Form - XV containing the confirmation regarding the
+recording of the said pledge/hypothecation/lien* in your books of account and request that
+the said pledge/hypothecation/lien be cancelled and that my/our name(s) be deleted from
+your books of account as the pledgee(s)/ creditor(s) in respect of the said Government
+securities.
+
+Yours faithfully,
+
+Signature(s) and name(s) of the Pledgee(s)/Creditor(s).....................................
+
+Mailing address:                                            ..................................................................................
+
+Dated this ...............day of .........................
+
+*: Strike out whichever is not applicable
+
+Schedule 'A'
+
+Nomenclature       Distinctive                              SGL/CSGL/Bond Date of Face value of
+         of        number of the                            Ledger Account maturity security
+                   physical security                        No
+the security and
+ISIN
+
+Note: (i) This form has to be submitted in triplicate. Counter receipt will be issued if
+submitted at the counter. The Public Debt Office will retain the original. Confirmation of
+having cancelled the pledge/hypothecation/lien in the books of Public Debt Office will be
+issued on the duplicate and triplicate. Holder(s)/borrower(s) or pledgee(s)/creditor(s) shall
+arrange to collect the same within by surrendering the counter receipt duly discharged.
+
+                                                            Page 98 of 100
+(ii) If this Form is submitted otherwise than at the counter, the duplicate and triplicate of the
+Form shall be dispatched by Post/Courier at the mailing addresses.
+
+                                                       Page 99 of 100
+For Office use only:
+Return Memo
+Cancellation of pledge/hypothecation/lien could not be recorded in the books of account of
+PDO for the following reason(s).
+
+     Discrepancies in the particulars of securities/account no(s).
+     Discrepancies in the names of holders.
+     Form is incomplete.
+     Enclosures not compiled properly.
+     Signature not matching.
+     Any other reason.....................................................................
+Authorized Officer
+Confirmation
+Confirmed that the pledge/hypothecation /
+lien has been cancelled in the books of
+account of Public Debt Office.
+Authorized Officer
+
+                                                      Page 100 of 100
+

@@ -1,0 +1,1035 @@
+ID: NSE-EBP-OG
+Source: NSE | NSE/DS/71301 | 2025-11-14
+Title: Review of provisions pertaining to EBP platform to increase its efficacy and utility (revised NSE EBP operational guidelines)
+Detail page: https://www.nseindia.in/resources/exchange-communication-circulars
+File: https://nsearchives.nseindia.in/content/circulars/DS71301.zip
+======================================================================
+
+===== [zip member] Annexure I -Revised Operating Guidelines.pdf =====
+                                                             Annexure - I
+
+                        Revised Operating Guidelines for NSE Electronic Bidding Platform
+
+SEBI vide its Master Circular No. SEBI/HO/DDHS/PoD1/P/CIR/2024/54 dated May 22, 2024
+consolidated all applicable circulars/directions for issue and listing of Non-convertible Securities,
+Securitized Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper.
+The Master Circular in its Chapter VI- "Electronic Book Provider platform", Chapter VII -
+"Standardization of timelines for listing of securities issued on a private placement basis" and
+Chapter XV - "Reporting of primary issuances" of the Master Circular prescribes provisions related
+to the EBP platform.
+
+Further, provisions of EBP platform were further reviewed by SEBI vide its circular no.
+SEBI/HO/DDHS/DDHS-PoD-1/P/CIR/2025/0000000073 dated May 16, 2025 in order to increase
+the efficacy and utility of the EBP platform.
+
+These operating guidelines ("Operating Guidelines") shall be applicable to all Participants who
+use/access NSE-EBP platform of the National Stock Exchange of India Limited (hereinafter
+referred as "NSE" and/or "Exchange" and/or "Electronic Bidding Platform Provider") for issuances
+as defined in the above Operating Circular.
+
+1. Applicability of EBP
+
+    As specified by SEBI from time to time.
+
+2. Definition, Eligibility and Enrolment of Participants
+
+    `Participant' shall mean an Issuer, Arranger, Qualified Institutional Buyers (QIBs), non-
+    Qualified Institutional Buyers (non-QIBs) and Custodians as identified by SEBI from time to
+    time and who have enrolled and / or are eligible and / or have entered into an agreement with
+    / provided an undertaking to the EBP in this regard.
+
+    The participants can register on NSE-EBP from the below link:
+
+    https://www.nse-ebp.com/ebp/rest/login
+
+Issuer        � An issuer shall be defined as the entity issuing any of eligible securities
+                 as defined by SEBI from time to time
+
+              � The Issuer shall furnish an undertaking and documents specified by the
+                 Exchange from time to time to access the NSE-EBP platform.
+
+Securities    � A private placement of debt securities and NCRPS as per the provisions
+Eligible for     of SEBI NCS Regulations, 2021 and municipal debt securities as per
+issuance on
+
+NSE-EBP Operating Guidelines  Page 1
+EBP             provisions of SEBI (Issue and Listing of Municipal Debt Securities)
+Platform        Regulations, 2015, if it is:
+                a) a single issue, inclusive of green shoe option, if any, of Rs. 20 crore
+Arranger
+Investors -          or more
+Qualified       b) a shelf issue, consisting of multiple tranches, which cumulatively
+
+                     amounts to Rs. 20 crore or more, in a financial year; and
+                c) a subsequent issue, where aggregate of all previous issues by an
+
+                     issuer in a financial year equals or exceeds Rs. 20 crore.
+             � Issues of debt securities and NCRPS on private placement basis,
+
+                irrespective of issue size, by issuers who are in existence for less than
+                three years, in accordance with Clause 3.3.10 c. of Schedule I to the
+                SEBI NCS Regulations, 2021.
+             � The issuance of PDIs, PNCPS and instruments of similar nature which
+                are essentially non-equity regulatory instruments, forming part of a
+                bank's or NBFC's capital, issued as per RBI stipulations and listed under
+                Chapter V of the SEBI NCS Regulations, 2021, irrespective of the issue
+                size.
+             � Issuer may also choose to access EBP platform for private placement of
+                securitised debt instruments or security receipts or CPs or CDs.
+             � Issuers constituted as REITs, SM REITs and InvITs may also access the
+                EBP platform for private placement of units of REITs, SM REITs and
+                InvITs.
+             � Issuers of debt securities, NCRPS and municipal debt securities on
+                private placement basis of issue size less than Rs. 20 crore may also
+                choose to access the EBP platform for such issuances.
+             � Market Linked Debentures will be excluded from the purview of this
+                product
+             � Bilateral deals to be routed through EBP
+             � All securities as specified by SEBI from time to time will be eligible for
+                using the EBP platform
+
+             � SEBI registered Merchant Banker, broker or a RBI registered Primary
+                Dealer, who on behalf of the eligible participants bid on the EBP
+                platform; or any other entity as specified by SEBI from time to time
+
+             � The Arranger shall furnish an undertaking and documents specified by
+                the Exchange from time to time to access the NSE-EBP platform.
+
+             � Arranger(s) shall be eligible to participate in the bidding for an issue only
+                if they are enabled by the Issuer
+
+             � Qualified Institutional Buyers (QIBs) shall be as defined in the
+                Regulation 2 (ss) of SEBI (Issue of Capital and Disclosure Requirements)
+                Regulations, 2018 or as notified by SEBI from time to time
+
+NSE-EBP Operating Guidelines  Page 2
+Institutional  � The QIBs who wish to participate directly on the platform shall furnish
+Buyers            an undertaking and documents specified by the Exchange from time to
+                  time to access the NSE-EBP platform
+Investors -
+Non-           � QIBs will be enrolled on NSE-EBP subject to necessary KYC as specified
+Qualified         by SEBI from time to time
+Institutional
+Buyers         � Exchange will provide unique code to each participant which can be used
+                  to participate in NSE-EBP platform
+Anchor
+Investors      � All QIBs are allowed to participate in all issues on NSE-EBP
+               � QIBs can enter proprietary bid provided that the minimum application or
+Declaration
+by Bidders        bid value is more than or equal to minimum bid size
+Custodian      � QIBs cannot bid for an amount more than Rs.100 crore or 5% of the base
+
+                  issue size, whichever is lower, through arranger(s).
+               � Provided that the foreign portfolio Investors may bid through their
+
+                  pre-registered custodians.
+
+               � All participants other than QIBs as defined above shall be considered as
+                  Non-Qualified Institutional Buyers (non-QIB).
+
+               � Any non-QIB Investor, including Arranger(s), has to be authorized by the
+                  Issuer to participate in a particular issue on EBP Platform
+
+               � The non-QIBs who wish to participate directly on the platform, shall
+                  furnish an undertaking to the Exchange to access the NSE-EBP platform
+
+               � Exchange will provide unique code to each participant which can be used
+                  to participate in NSE-EBP platform
+
+               � Non-QIBs can enter proprietary bid provided that the minimum
+                  application or bid value is more than or equal to minimum bid size
+
+               � Non-QIBs cannot bid for an amount more than Rs.100 crore or 5% of the
+                  base issue size, whichever is lower, through arranger(s).
+
+               � All participants registered as Arrangers or Investors (QIB and Non-QIB)
+                  on EBP platform are eligible to be nominated as Anchor Investor by the
+                  Issuer
+
+               � Any Arranger or Non-QIB Investor who is nominated as Anchor Investor
+                  and wish to participate in the bidding of non-anchor portion has to be
+                  authorized by the Issuer
+
+               � The participants shall give a declaration on EBP that they are not using
+                  any software algorithm, Bots or other automation tools which would give
+                  unfair access for placing bids.
+
+               � Custodian may choose to bid on behalf of its FPI clients
+
+NSE-EBP Operating Guidelines  Page 3
+KYC         � The custodian who wish to participate on behalf of FPIs shall furnish an
+               undertaking and documents specified by Exchange from time to time to
+Bank           access the NSE-EBP platform
+Account
+Details     � For QIB Investors bidding directly or through Arranger(s), KYCs and
+               enrolment shall be done by the EBP. For Non QIB Investors bidding
+DP Account     directly, KYCs shall be done by the Issuer and enrolment shall be done
+Details        by the EBP;
+
+            � For Non QIB Investors, which are bidding through Arranger(s), KYC and
+               enrolment on EBP shall be ensured by Arranger(s)
+
+            � KYC verification shall be undertaken by obtaining/utilizing existing KYCs
+               of clients from KRAs registered with SEBI or on the basis of the
+               guidelines as prescribed by SEBI from time to time
+
+            � Any changes in the KYC regulations by the regulator, the updated
+               regulations will be applicable from the date as specified in the relevant
+               regulatory notification
+
+            � All Issuers, Investors and Arrangers shall ensure updated bank account
+               details linked to their respective EBP Issuer/Investor/
+               Arranger/Custodian codes as per the procedure provided by Exchange
+               from time to time
+
+            � Issuer shall disclose the details of the escrow account on EBP in case
+               issuer has pre-selected settlement through an escrow mechanism
+
+            � An Issuer/Investor/Arranger/Custodian can have pre-registered
+               multiple bank accounts linked to their respective codes
+
+            � The fund pay-in for a successful bid has to be made from the linked
+               accounts
+
+            � The mechanism for adding and updating the bank account details will be
+               as specified by EBP from time to time. The addition and modification has
+               to be supported by scanned documents as specified
+
+            � All Investors and Arrangers shall ensure updated DP account details
+               linked to their respective EBP Investor/ Arranger/Custodian codes as
+               per the procedure provided by Exchange from time to time
+
+            � An Investor/Arranger/Custodian can have multiple DP accounts linked
+               to their respective codes as specified by EBP
+
+            � The securities pay-out for a successful bid has to be made only into one
+               of the linked accounts
+
+            � The mechanism for adding and updating the DP account details will be
+               as specified by EBP from time to time. The addition and modification has
+               to be supported by scanned documents as specified
+
+NSE-EBP Operating Guidelines  Page 4
+Other        � Issuers, Arrangers and Investors shall, vide the application provided by
+Information     the Exchange, be required to furnish the details of the Admin and
+                registered email IDs, including the information of the Participants, for
+                the purpose of registration on the platform.
+
+             � The details of the Admin as provided on the application for registering
+                on the Platform includes the full legal name of the Admin, e-mail ID,
+                mobile no and telephone number as requested by the Exchange from
+                time to time
+
+             � The Participant shall ensure that any changes to the details of the admin
+                and/or any addition to the list of admin(s) is forthwith communicated to
+                the Exchange, and the Exchange shall not be responsible for omissions
+                by the Bidder (Arrangers and Investors) in this regard
+
+             � The participants may define the limits/ranges within which quotes may
+                be placed to avoid `fat finger' error.
+
+             � The maker checker mapping provision will be available for the Issuer
+                while setting up the issue
+
+3. Market Parameters
+
+Bidding      � Bidding session will be minimum of 60 minutes
+Session      � Bidding can be kept open for multiple days, however bidding slot will be
+
+Bidding         a continuous one spanning multiple days
+Hours        � The modification to the bidding start date and time can be done by the
+Bidding
+Holiday         Issuer directly to EBP ensuring that such announcement is made within
+Master          the operating hours of the EBP atleast a day before the bidding date
+                Provided that such changes in bidding date or time shall be allowed for
+                maximum of two times
+             � Bidding window, once started, can be extended only once before the
+                start of the last 10 minutes of the bidding window
+             � Bidding window extension cannot span multiple days
+             � Pre-closure of bidding window is not permissible
+
+             � 9AM to 5PM from Monday to Friday
+             � The bidding has to end before 5 PM
+
+             � As per Exchange Holiday Master
+
+4. Pre-Bid Procedure
+
+NSE-EBP Operating Guidelines  Page 5
+In-Principle  � Issuer has to ensure the receipt of In-Principle approval from the
+Approval         Exchange(s) where it wishes to list the securities, prior to date of
+                 providing the General Information Document (GID) and Key Information
+Issue            Document (KID) on the EBP platform
+Parameters
+              � Issuer has to fill in the issue parameters as specified by the EBP and / or
+
+              SEBI from time to time
+
+              � Green shoe portion, if any, shall not exceed five times the base issue size.
+
+              � In case the Issuer is availing Anchor portion, the quantum of
+
+              allocation(s) to the anchor investor(s) shall be at the discretion of
+
+              the issuer, subject to total allocation to the anchor(s) not exceeding the
+
+              base issue size, as per thresholds mentioned below
+
+                              Instrument  Anchor Portion (%) of
+                              Rating      base size
+
+                              AAA/        Not exceeding 30%
+                              AA+/AA/AA-
+
+                              A+/A/A-     Not exceeding 40%
+
+                              Others      Not exceeding 50%
+
+              � Issuer shall disclose details of the Anchor Investor(s) and the
+                  corresponding quantum allocated on the EBP Platform. Such anchor
+                  investors shall provide electronic confirmation on the EBP platform of
+                  their participation by 5:00 p.m. on T-1 day. Amount not confirmed by
+                  any such investor shall be added back to the base issue size.
+
+              � Issuer shall disclose the Issuance category on EBP i.e. Coupon specified
+                  by the Issuer' or `Coupon/Spread discovered during bidding'.
+
+              � In case of a reissuance, the Issuer has also to specify the ISIN of the
+                  existing security and the accrued interest as on the date of pay-in
+                  (banking date) for the reissued securities.
+
+              � The Bidding for re-issuance will be on clean price basis
+              � Issuer may mention the Coupon/Price setup size in multiples of i.e 0.01
+
+                  or 0.001, 0.0001. Default value is 0.01
+              � The face value of each debt security or non-convertible redeemable
+
+                  preference share issued on private placement basis shall be INR 1
+                  lakh/INR 0.10 lakh or any other face value as specified by SEBI from time
+                  to time.
+              � The face value of each security mentioned under Chapter V of SEBI NCS
+                  Regulations, 2021 and Chapter XIII of the Master Circular shall be INR 1
+                  crore.
+              � Minimum bid lot* shall be equal to the INR face value and in multiple of
+                  INR face value thereafter
+
+NSE-EBP Operating Guidelines  Page 6
+Issue         � In case of Non-Banking Finance Company (NBFC) and Housing Finance
+related           Company (HFC), the minimum bid lot* shall be INR 1 crore and in
+uploads           multiples of INR face value thereafter
+
+Minimum       � In case of security mentioned under Chapter V of SEBI NCS Regulations,
+market            2021 and Chapter XIII of the Master Circular, the minimum bid lot shall
+notification      be INR 1 crore and in multiples of INR 1 crore thereafter
+time
+              *For Separately Transferable Redeemable Principal Parts (STRPPs)
+              Structure, the minimum bid lot size will be determined based on the
+              cumulative value of STRPP issuance. In case of NBFC and HFC the lot size
+              shall be to the nearest multiple of cumulative value of STRPP issuance such
+              that the bid amount is not less than INR 1 crore.
+
+              � No information regarding issues presented on the website shall be
+                  construed to fall within the meaning of a "public offer" as contemplated
+                  under Section 23 read with Section 42 of the Companies Act, 2013
+
+              � Necessary issue specific documentation like Term sheet, General
+                  Information Document, Key Information Document and Credit rating
+                  letters/Rating reports or Rating rationale or any other document as
+                  mandated by the regulators or as specified by the EBP from time to time
+
+              � Details of size of the issue and green shoe portion (if any) , anchor portion
+                  (if any), Mode of bidding (open/close), manner of allotment
+                  (uniform/multiple yield), Interest Rate parameter (Zero Coupon, Fixed
+                  Coupon or Floating coupon), manner of settlement (through clearing
+                  corporation/escrow bank account of issuer) and settlement cycle (T+1
+                  or T+2) should be mandatorily disclosed in Key Information Document.
+
+              � Issuer shall provide an Issue Notification including the General
+                  Information Document (GID), Key Information Document (KID) , term
+                  sheet, mode of bidding (open/close), manner of allotment
+                  (uniform/multiple yield), Interest Rate parameter (Zero Coupon, Fixed
+                  Coupon or Floating coupon), manner of settlement (through clearing
+                  corporation/escrow bank account of issuer) and settlement cycle (T+1
+                  or T+2), details of anchor investor(s) to the EBP at least two working days
+                  prior to the start of issue opening date.
+
+               However, the issuer issuing the securities for the first time through EBP
+                   platform shall provide the above information at least three working days
+                   prior to the issue to the opening date.
+
+              � Issuer has to notify the issue to the eligible participants during market
+                  hours (9 AM to 5 PM)
+
+              � Issuer shall make the bidding announcement on EBP at least one
+                  working day before initiating the bidding process. Issuer has to make the
+
+NSE-EBP Operating Guidelines  Page 7
+Eligible         bidding announcement to the eligible participants during market hours
+Participants     (9 AM to 5 PM). In case the announcement is not made within the
+                 specified timelines, the issue will be deemed cancelled
+Intimation    � Issue Opening Date and Issue Closing Date to be considered as Bid Open
+to market        date and Bid Close date
+              � The Issuer may choose to disclose estimated cut off yield to the EBP,
+                 however the same has to be disclosed at least one hour prior to opening
+                 of the bidding for the issue
+              � The Issuer can withdraw the issue at least one hour before the issue
+                 opens.
+
+              � Arrangers as appointed by Issuer
+              � All QIBs enrolled for direct participation on NSE-EBP platform.
+              � Non-QIB Investor(s) enrolled on NSE-EBP platform and authorized by
+
+                 the Issuer to participate in the bidding process.
+              � In case the Issuer is Non-Banking Financial Company (not eligible to be
+
+                 a QIB) registered with Reserve Bank of India and Housing Finance
+                 Company registered with National Housing Bank, the eligible
+                 participants may participate in the bidding process subject to them
+                 complying with RBI requirements, if any prescribed in this regard
+              � In case of Non-Equity Regulatory capital instruments as mentioned in
+                 the Master Circular, only QIBs are allowed to participate in the issue.
+              � Issuer may map the details of Arrangers and Non-QIB Investors
+                 (Non-QIB participating directly or through arranger) for a particular issue
+                 on the EBP platform not later than one hour before the bidding start time.
+
+              � Only the eligible participants shall have access to GID/KID and issue
+                 specific information and to the bidding portal provided by EBP
+
+              � The Exchange shall intimate the issue related information to the eligible
+                 participants in a manner as specified by SEBI from time to time
+
+5. Bidding Procedure
+
+Process of    � An Arranger can place multiple bids on behalf of investor provided that
+Bidding          the cumulative bids placed for an investor should not be more than
+                 Rs.100 crore or 5% of the base issue size
+
+              � Arrangers are allowed to enter consolidated bids, i.e. an aggregate bid
+                 consisting of proprietary bid and on behalf of multiple clients subject to
+                 conditions specified by SEBI. The bid amount for each client will be
+                 subject to minimum bid value as specified in the issue details
+
+NSE-EBP Operating Guidelines  Page 8
+Bidding       � Investors participating directly can place bids only for self (proprietary).
+Parameters        Participants will be allowed to enter multiple bids i.e. single participant
+                  can enter more than one bid
+Rules for
+Consolidated  � Bids on behalf of an Investor can be made by more than one Arranger(s)
+Bids          � Cancellation and Modification of bids will be allowed during bidding time
+
+Bid Book          as specified by SEBI
+Disclosure    � Every bid will be assigned a timestamp (in milliseconds). The timestamp
+
+                  of bid will be attached at the time of bid entry. Any modification to the
+                  bid will result in change in timestamp.
+              � In the last 10 minutes of bidding period, cancellation is not allowed.
+                  Revision is allowed only for improvement of rate and bid size
+              � In cases of Issuances with Anchor portion, remaining portion of the issue
+                  (i.e. non-anchor portion within the base issue size and green shoe option)
+                  shall be open for bidding by eligible participants
+              � Anchor investor can place bids for the remaining portion of the issue if
+                  identified as eligible participants by the Issuer.
+              � An anchor investor can also participate in the non-anchor portion
+
+              � Bidders shall place bids with two parameters as per the Issuance
+                  category
+                    o Coupon specified by Issuer: Amount (INR) and Price
+                    o Coupon/spread discovered during bidding: Amount (INR) and
+                         Coupon/spread in basis points
+
+              � The clients on whose behalf the bids are being entered have to be
+                  enrolled on the NSE-EBP platform.
+
+              � Each multiple bid will be treated as unique bid placed by
+                  Arranger/Investor/Custodian
+
+              � In case of participants entering consolidated bids (for single PAN), they
+                  have to provide the scheme wise allocation within one hour from the
+                  acceptance of the issue.
+
+              � Issuer shall disclose mode of bidding (Open/Close) in the GID/KID.
+              � In case of open bidding, the bid information, such as bid value and bid
+
+                  rate / price (except the bidder's name), will be available to the market
+                  during the bidding window.
+              � However, in case of closed bidding, the same shall be disclosed post
+                  bidding. Only the cumulative bids amount (INR in crore) will be
+                  displayed to the eligible participants during the bidding period.
+
+NSE-EBP Operating Guidelines  Page 9
+Action After  � System will determine the initial cut-off rate computed on the base issue
+Bidding          size
+Period
+              � However, in case of a green-shoe option, the issuer will have an option
+                 to pick up amount up to the green-shoe amount above the base issue
+                 size. The cut-off for this will be computed basis the total accepted size
+
+              � After the end of the bidding window the Issuer has the option to
+                  o Withdraw the issue
+                  o Or Accept the issue
+                 In case of multiple yield allotment, system shall display the price and
+                 settlement obligation up to the accepted amount. The settlement value
+                 for multiple yield allotment will be calculated on NPV basis as the
+                 convention followed in fixed income market dealings. Issuer shall
+                 confirm the same and close the issue at the system determined cut-off
+                 rate/price.
+
+              � If no bids are received for the non-anchor portion, Issuer may opt to
+                 withdraw the issuance or accept the allotment to Anchor Investors at
+                 par/face value in the case of Coupon Specified by the Issuer.
+
+              � Acceptance or withdrawal of the issue by the Issuer shall be within 1
+                 hour after bidding closure
+
+              � In case the Issuer does not accept or withdraw the issue before the
+                 specified deadline, then the issue will be withdrawn and the Issuer will
+                 be debarred as per rules specified by SEBI from time to time
+
+6. Post Bidding Procedure
+
+Allotment     � Exchange will provide the complete bid book information to Issuer in an
+                 electronic format, once the issue is accepted by the Issuer
+
+              � Allotment Mechanism shall be based on the Issuance category
+                     o For `Coupon specified by Issuer' issuances, successful bids will be
+                          determined by the EBP system on price priority basis.
+                     o For `Coupon/spread discovered during bidding' issuances,
+                          successful bids will be determined by the yield priority basis.
+                     o If there are two or more bids at cut-off coupon/spread/price, then
+                          allotment shall be done on pro-rata basis.
+
+              � EBP will electronically inform all the bidders about the status of their
+                 respective bids
+
+              � EBP will also electronically notify all the successful bidders about
+                      o Total payable amount in INR
+                      o Details of the pay-in account where the amount is to be deposited
+                      o Pay-in date and cut-off time
+
+NSE-EBP Operating Guidelines  Page 10
+Settlement      � Issuer needs to provide the bank account details into which the issue
+Amount -           proceeds will be credited by the clearing corporation or the escrow bank
+Bidders/Allott     account details if the issuer has selected the escrow bank account as the
+ees                mechanism for pay-in.
+
+Settlement      � Exchange reserves the right to cancel any bids placed by Bidder or any
+Amount -           transaction, if found in contravention of Terms & Conditions, or when
+Anchor             requested/directed by any competent legal authority(ies), or if found
+Investors          that occurrence of material events have bearing on the performance/
+                   operations of the Issuer or an informed appraisal of the status/ position
+                   of the Issuer by Bidder/ its client
+
+                � Settlement amount for allottees will be determined by the EBP system
+                   based on Issuance category and the allotment type
+
+                � Coupon specified by Issuer -
+                       o Uniform yield allotment: Settlement value will be based on the
+                            cut-off price determined in the bidding process
+                       o Multiple yield allotment: Settlement value will be based on the
+                            price quoted by each bidder/allottee
+
+                � Coupon/spread discovered during bidding -
+                       o Uniform yield allotment: Settlement value will be based on the
+                            face value
+                       o Multiple yield allotment: Settlement value will be based on the
+                            price adjusted as per the coupon/spread quoted by each
+                            bidder/allottee
+
+                � Settlement amount for anchor investors will be determined by the EBP
+                   system based on Issuance category and the allotment type
+
+                � Coupon specified by Issuer -
+                         o Uniform yield allotment: Settlement value will be based on the
+                              cut-off price determined in the bidding process
+                         o Multiple yield allotment: Settlement value will be based on the
+                              face value of the security. In case of reissuances/ zero coupon,
+                              settlement value will be based on the cut-off price determined
+                              in the bidding process
+
+                � Coupon/Spread discovered during bidding -
+                         o Uniform yield allotment or Multiple yield allotment: Settlement
+                              amount will be based on the Face value of security.
+
+                � In case of Coupon specified by Issuer, if no bids are received for non-
+                   anchor portion and the Issuer opting to proceed with the anchor portion
+                   allotment, the settlement amount will be based on the Face Value of
+                   security for both Uniform yield allotment and Multiple yield allotment
+                   mechanism.
+
+NSE-EBP Operating Guidelines  Page 11
+Disseminatio    � EBP will disseminate the issue bidding & allotment information to market
+n of Issue         as specified by SEBI/EBP from time to time
+details
+                � At the end of the bidding window, EBP will disclose the aggregate volume
+                   data, including yield/coupon/price, amount including the amount of
+                   oversubscription, total bids received, rating(s), category of Investor,
+                   Anchor portion details etc on an anonymous basis.
+
+                � EBP will upload the allotment data on its website to be made available
+                   to the public as per the format specified by EBP or SEBI from time to
+                   time.
+                   https://www.nseindia.com/primary-market/ebp-placement-reporting
+
+Disseminatio    � For issues which are not done through Electronic Book Mechanism, the
+n of details       Issuer will disclose the bidding information to one of the EBP platforms
+for Issues not     in the format and timelines as specified by EBP and/or SEBI from time to
+done through       time
+Electronic
+Book            � The EBP platforms will exchange information and disseminate the
+Mechanism          consolidated data so received from the Issuer and the other EBP
+                   providers to market as specified by SEBI/EBP from time to time
+
+7. Clearing and Settlement
+
+7.1.      Settlement through Exchange Clearing Corporation
+
+Clearing        � Successful Bidders shall be required to transfer funds from bank
+                   account(s) registered with EBP to the bank account of the Clearing
+                   Corporation to the extent of funds pay-in obligation on or before 10.30
+                   AM on T+1 or T+2 day as defined by Issuer at the time of issue setup, T
+                   being the bidding end date
+
+                � All funds pay-in obligations need to be fulfilled in totality. Partial fund
+                   receipt against any given obligation will be treated as a default and
+                   debarment penalties will be applicable as specified by the regulations
+
+                � The pay-in is required to be made from the accounts available in the EBP
+                   system on the pay-in date before the pay-in cut-off time. Any amount
+                   received from third party accounts or from accounts not specified in the
+                   EBP system will be refunded and no allotment will be made against such
+                   payments
+
+                � EBP shall display to the Issuer about the funds collected from the bidder
+                   on T+1 or T+2 day
+
+NSE-EBP Operating Guidelines  Page 12
+Settlement     � EBP shall also display the details of bidder(s) who failed to provide funds
+                  towards their obligation, either in part or in full, to the Issuer
+
+               � The Issuer will need to confirm to EBP if it is going ahead with the issue
+                  by 12.00 noon on T+1 or T+2 day
+
+               � Issuer/RTA shall give instruction to depositories for crediting securities
+                  to successful bidders by 12.00 noon on T+1 or T+2 day
+
+               � In case the issue is called off by the Issuer, then Clearing Corporation of
+                  EBP will initiate the return of funds received from successful bidders.
+
+               � The complete process of pay-in and pay-out will be completed in one
+                  day ie. either on T+1 or on T+2.
+
+               � On the basis of funds pay-in status, the issuer (or RTA on behalf of the
+                  issuer) will issue instructions to the Depository to credit securities to the
+                  demat account of the investors
+
+               � Depositories shall confirm to the Clearing Corporation of EBP of the
+                  allotment made to the investors. This confirmation to include details
+                  such as names, demat account and the quantum of securities credited
+
+               � The Clearing Corporation of EBP shall reconcile the confirmation as
+                  received from the depositories with the details of successful bidders,
+                  who have made pay-in of the funds, as available with them. On
+                  reconciliation Clearing Corporation shall transfer the funds to the bank
+                  account designated by the Issuer on T+1 or T+2 day
+
+7.2 Settlement through Escrow Bank Account of Issuer
+
+Registrar and  � In case the settlement is through Escrow Bank Account of Issuer, Issuer
+Share             shall appoint a RTA
+Transfer
+Agent (RTA)    � RTA shall get enrolled on NSE-EBP. Exchange will provide unique code
+                  to each RTA to access the NSE-EBP platform
+
+Clearing &     � EBP shall share the allocation details with the Registrar to the
+Settlement        issue(RTA), associated with the issue, pursuant to successful closure of
+                  the issue
+
+               � The indicative timelines of activities for the settlement procedure with
+                  clearing corporation of EBP will be applicable for activities across
+                  settlement procedure with Escrow bank account of Issuer as well. RTA
+                  shall confirm the status of the issue on EBP, i.e. successful or
+                  withdrawn, details of defaulting investors, etc., upon closure of the issue
+
+8. Other Rules                Page 13
+NSE-EBP Operating Guidelines
+Withdrawal of  � An Issuer may withdraw any issue subject to conditions as specified by
+Issue             SEBI from time to time
+
+Non-           � In case of Issuances with anchor portion, withdrawal from the issue
+fulfilment of     process shall imply withdrawal of the total issue including anchor portion
+Obligation by
+Bidders        � In case, the Issuer withdraws an issue outside the permissible
+                  conditions as specified by SEBI, appropriate action will be taken on the
+Debarment of      Issuer as per SEBI guidelines
+Entities
+               � In case of non-fulfillment of any funds obligation by an Investor or an
+Terms &           Arranger, such bidders shall be debarred from accessing the bidding
+Conditions        platform across all EBPs for a period of thirty days from the date of such
+                  default.
+
+               � In case a bid is placed by an Arranger/Custodian on behalf an Investor
+                  and there is a default, then the default liability is on the Investor.
+                  However, in case of three instances of non-fulfilment of pay-in
+                  obligations, across all EBPs by client(s) for whom an arranger has bid,
+                  then such arranger shall be debarred from accessing the bidding
+                  platform on any EBP, for a period of seven days from the date of such
+                  third or subsequent default.
+
+               � Details of all entities debarred on NSE-EBP shall be shared with other
+                  EBP providers as per timelines specified by SEBI from time to time
+
+               � The debarment will be effective from the next working day
+               � The debarment will be effective across EBP providers
+               � An Issuer will not be able to conduct bidding during the debarment
+
+                  period. Any issue setup previously and falling within the debarment
+                  period will be cancelled. However, any other obligations arising out of
+                  current or previous issuances will continue to exist
+               � An Arranger/Custodian or Investor will not be able to place any bids
+                  during the debarment period. All other obligations arising out of any bids
+                  made prior to start of debarment will continue to exist
+
+               � The participants on the platform agree to be bound by the Privacy Policy
+                  stated herein and the applicable Terms and Conditions in a click wrap
+                  format on the EBP platform, as displayed on the platform website
+
+               � Revision made to the Terms and Conditions and Operating Guidelines,
+                  will be notified to the Participants by email or by means of notice on the
+                  site prior to revision becoming effective.
+
+               � The Exchange shall make the Platform available for prior testing to all
+                  concerned participants upon registration, and in case any material
+                  changes have been carried out to the software or the functionality of the
+                  Platform, upon the implementation of such changes, to enable such
+
+NSE-EBP Operating Guidelines  Page 14
+                   participants to satisfy themselves of the utility and functionality of the
+                   Platform for the intended purpose. Use of the Platform by participants
+                   subsequent to being offered such opportunity to test the Platform
+                   constitutes acceptance by such participants of the utility and
+                   functionality of such Platform for all intended purposes, and such use
+                   shall constitute a waiver by such participants of their right to hold the
+                   Exchange responsible for any loss, damage, or other costs, including
+                   without limitation any incidental special or consequential damages or
+                   loss of profit arising out of any use of the Platform.
+                � The rights and remedies of available may be exercised as often as
+                   necessary and are cumulative and not exclusive of rights or remedies
+                   provided by law. It may be waived only in writing. Delay in exercising or
+                   non-exercise of any such right or remedy does not constitute a waiver of
+                   that right or remedy, or any other right or remedy
+
+                � This Policy applies to both current and former Participants on the
+
+                Platform.
+
+                � The Participants will be understood to have read carefully and agreed the
+
+                Terms and Conditions of the Platform, which incorporates this Privacy
+
+                Policy by reference, before registering on the Platform.
+
+                � Participants will be required to share Personal Information at the time of
+
+                registering with the EBP Platform to help the Exchange verify their
+
+                identity, to correspond with them, and to allow it to fulfill its legal and
+
+                regulatory requirements.
+
+                � Any of the information Exchange collects from the participant may be
+
+                used in one of the following ways:
+
+Privacy Policy  1. To confirm Participant's identity, and to avoid fraud or other
+                    misconduct and to validate the information provided to us.
+
+                2. To correspond with the Participant in order to send the administrative
+
+                              information, including information regarding the Site and changes to
+
+                              the Terms and Conditions and other policies including this Privacy
+
+                              Policy.
+
+                3. To enable the issue of securities - to the extent Participant upload
+
+                              Personal Information and sign documentation via the Site in
+
+                              connection with an investment or sale of debt securities, we may
+
+                              share the Personal Information and the documentation executed by
+
+                              Participant with the parties involved in the issue. Accordingly, bidder
+
+                              information, including Personal Information and other information
+
+                              such as the auction and bid details, will be shared with the Issuer
+
+                              whose securities the bidder may wish to purchase. Issuer information
+
+NSE-EBP Operating Guidelines           Page 15
+         will be shared to potential bidders post their approval, and only to
+         pre-identified bidders.
+    4. To improve the Platform's services - we may use Personal
+         Information provided by the Participant at the time of registration and
+         otherwise from time to time during their participation in an issue to
+         enhance the user experience of our websites in relation to the
+         Platform.
+
+� The Exchange will also protect against the loss, misuse and alteration of
+    the information entrusted to, shared with, or disseminated by us, we take
+    generally accepted and industry standard security measures, both during
+    the transmission and storage of such information. When Participant enter
+    private, personal or confidential information on our registration forms or
+    other forms specific to the need, the Exchange uniformly encrypt such
+    information using secure socket layer technology (SSL). All sensitive
+    information such as passwords of Members is encrypted when stored on
+    Exchange servers.
+
+� The Exchange is committed to keeping your information secure and
+     using it appropriately, and have adopted this Privacy Policy to ensure
+     that personal information of the Participants is handled safely and
+     responsibly, and unfailingly:
+
+    1. Respect Participant's trust and the confidential nature of the
+         information you provide through your financial relationship with us;
+
+    2. Limit the collection and use of Personal Information to that which the
+         Exchange believes is necessary to serve the Participants, administer
+         business or tell about our services;
+
+    3. Restrict employee access to Participant's Personal Information to
+         those employees who need access to such information in order to
+         provide them with services related to the issues they are participating
+         in through the Site;
+
+    4. Continually educate the members of our team to constantly reinforce
+         the importance of confidentiality and client privacy;
+
+    5. Maintain appropriate physical, electronic and procedural safeguards
+         and controls, including encryption technologies, designed to protect
+         your Personal Information, in line with industry standards and
+         practices, to protect information about you; and
+
+� Quickly respond to your request to correct any inaccurate information
+� The website on which EBP platform is available is controlled by the
+
+     Exchange from India; accordingly, the operations on the site are
+     governed by Indian law, and users of the Platform or the Site from
+
+NSE-EBP Operating Guidelines  Page 16
+    outside India acknowledge that the Site is subject to Indian law, and
+    consent to the transfer of their information to India.
+� The Exchange has invested in software systems and procedures aimed
+    at offering a safe and secure environment and protect personal, financial
+    and historical information, and plans to constantly review, refine and
+    upgrade our security technology as new tools become available.
+    However, please be aware that no security measures are perfect or
+    impenetrable. In unforeseen circumstances of technical failures or
+    malfunctions, we will not be responsible to any Member or participant
+    for any damage or loss resulting from it. We are not responsible for third
+    party circumvention of any privacy settings or security measures on our
+    Site. In such cases we cannot guarantee that only authorized persons
+    will view your personal information, and we cannot ensure that
+    information you share on our Site will not become publicly available,
+    unless such breach of security has been caused as a direct result of our
+    gross negligence or wilful default. You can reduce some of these risks by
+    using common sense security practices such as choosing a strong
+    password and using up to date antivirus software. Your user
+    identification and password are personal to you and should not be made
+    available to any other person. Also, you should discontinue their use and
+    notify us if you have any reason to suspect that someone else may be
+    using them. We do not store or exercise any control over your user
+    identification and password details, and bear no responsibility for the
+    safekeeping of the same.
+� Login credentials, that constitute a unique signature of the Bidder/its
+    authorized representative(s), and its modification/ resetting, to establish
+    their identity, consent to the acts/operations carried out, will be
+    provided by the Exchange. However, the Bidder agrees that sharing its
+    login credentials to access the Platform with any unauthorized third
+    party can result in adverse consequences, and shall be at its sole risk
+    and liability, and the Exchange shall not be liable for any consequences
+    of the same faced by the Bidder, unless such unauthorized access can
+    be solely attributed to any wilful default, or fraud on the part of the
+    Exchange.
+� The Exchange may use third-party cloud service providers that provide
+    hosting, data storage and other services pursuant to standard terms and
+    conditions that are generally non-negotiable; accordingly, although the
+    Exchange would seek to conduct reasonable due diligence on such
+    service providers, but may be unable to impose contractual obligations
+    on them with respect to the measures they use to protect Personal
+
+NSE-EBP Operating Guidelines  Page 17
+    Information. The Exchange not responsible for the data security
+    measures of any third parties
+� "Cookies" are a feature of a web browser that allows web servers to
+    recognize the computer used to access a site. They are small pieces of
+    data that are stored by a user's web browser on the user's hard drive.
+    Information gathered through cookies and web server logs may include
+    information such as the date and time of visits, the pages viewed, time
+    spent at this site, and the websites visited just before and just after this
+    Site. Cookies are used to make the online experience easier and more
+    personalized. Cookies are only read by the server that placed them, and
+    are unable to execute any code or virus.
+� This information helps the Exchange to design and arrange our web
+    pages in the most user-friendly manner and to continually improve this
+    site to better meet the needs of our current and prospective users. We
+    do not link cookies to personally identifiable information, and all
+    information gathered through cookies is gathered in a manner so as to
+    preserve the anonymity of its source, and is kept strictly confidential.
+    The information is used and analyzed only at an aggregate level and
+    none of this information is reviewed at an individual level. The
+    Participant can either disable cookies or opt-out at the relevant
+    download or request page. For more information on how to do so, please
+    refer to the documentation accompanying your browser. However, if you
+    have turned off all cookies, many features of this Site may not be
+    available to you.
+� The services primarily rely on relevant Participant details that are
+    submitted, which play a key role in accurately and efficiently mapping
+    Participant to specific issues, and help us ensure that are services are
+    provided properly and without any error or lapses. Therefore, if
+    information changes, we urge the Participant to update your information
+    in their Member Profile page, and if they ever discover inaccuracies in
+    data, we encourage to notify the Exchange immediately.
+� The right to privacy, and the confidentiality of Personal Information
+    collected, are of paramount importance to the Exchange. Any
+    information provided will not be shared with any third party, except for
+    the intended purpose for which such information is provided by the
+    Participant, in which case Participant's consent would be implied. To the
+    extent that you upload Personal Information and sign necessary
+    documentation via the Site in connection with an issue, we may share
+    your Personal Information and the documentation that you execute with
+    the parties with which you are transacting, for which your prior
+    authorization shall be sought. Accordingly, bidder information will be
+
+NSE-EBP Operating Guidelines  Page 18
+               shared with the Issuer whose business the bidder expresses interest in.
+               Where consented to by you, we will share your Personal Information
+               with other selected and pre-disclosed Participants only to the extent
+               necessary to enable such Participants to effectively participate in the
+               issues held on the Platform.
+           � The Exchange may share information with affiliates if the information is
+               required to provide the services requested by the Participant. An affiliate
+               is a company the Exchange own or control, or with which there is
+               common ownership with the Exchange. As business develops, Exchange
+               might sell or buy businesses or assets. In the event of a corporate sale,
+               merger, reorganization, dissolution or similar event, Personal
+               Information may be part of the transferred assets.
+           � With Participant's prior consent, we may also share your Personal
+               Information with our third-party service providers that may provide
+               services such as hosting of the Site, data analysis, IT services and
+               infrastructure, customer service, e-mail delivery, auditing, information
+               and identity verification, background checks, credit checks, payment
+               processing and other similar services. In such an event, the third parties'
+               use of your information will be bound by the Privacy Policy.
+           � The Exchange do not however rent, sell, or share Personal Information
+               with other people or non-affiliated companies for their direct marketing
+               purposes. The Exchange reserve the right to disclose Personal
+               Information when required by law, to regulatory, law enforcement, or
+               government authorities.
+           � Unauthorized access by third party or the third party links present on
+               website are subjected to Terms & Conditions. These third party sites
+               have separate and independent privacy policies, and the Participants are
+               advised to peruse the policies regarding privacy and related topics
+               posted by such third party sites before use.
+
+           � The service offered by the Exchange on the Platform do not constitute an
+
+           offer to sell, a solicitation of an offer to purchase or a recommendation of
+
+           any interest in any fund, security, business venture or investment
+
+           opportunity described herein
+
+Disclaimer to � The Exchange will not solicit the sharing of any personal or private
+
+Investors  information from you through emails, phone calls, or through any like
+
+           medium other than our Site, or by means previously disclosed.
+
+           � On submission of the Participant, the details of the Admin or any related
+
+           third party to us or our third-party service providers or business partners
+
+           in connection with the site, the Participant represents to have the
+
+NSE-EBP Operating Guidelines  Page 19
+Investor       authority to do so and to permit the Exchange to use and disclose such
+Grievance      information in accordance with this Policy.
+           � Offer or solicitation pursuant to sharing the final confidential offering
+               documents of any Issuer described on this website will contain inter alia
+               the information about the fund's or corporate's investment or business
+               objectives, terms and conditions of the investment, and may also
+               describe certain risks and tax information related to an investment
+               therein and which qualifies in its entirety the information set forth herein.
+               The Exchange does not make any recommendations regarding the
+               appropriateness of the particular opportunities for any Investors and the
+               Investor must conduct their own investigation.
+           � The Investors will read investment documents carefully, and obtain
+               independent investment, legal, and tax advice from their advisers before
+               deciding to invest.
+           � Offerings on this Site are made to be suitable for prospective Investors
+               presuming that they are familiar with, fully comprehend and are willing to
+               accept high risk, and have carefully read all relevant offer documents and
+               the applicable private placement offer letter.
+           � Nothing in the offer document or the related memorandum shall be
+               deemed or construed to be cleared or approved by Exchange.
+           � The Exchange does not provide or offer any business advice, investment
+               advice, tax advice or legal advice to anyone just by using the Site or the
+               Platform, or the services as defined in the Terms and Conditions, no
+               information and that the Investors are advised to read the investment
+               documents carefully, and obtain independent advice, if any, related to
+               usage of the Site or the Platform.
+           � The Exchange does not make any recommendations regarding the
+               appropriateness of particular opportunities for any Participant.
+               Participants must conduct their own investigation of the merits and risks
+               of each opportunity.
+
+           The Investor grievances, if any, arising from bidding process shall be
+           addressed by the Issuer in accordance with the respective agreement. In
+           addition, the Exchange shall also address the Investor grievance arising from
+           bidding process. Further, any dispute between Issuer and bidders before
+           listing of privately placed debt securities in recognized Stock Exchange(s)
+           shall be settled as per the respective agreement. Post listing disputes
+           between Issuer and constituents shall be settled in accordance with the
+           provisions of Bye-law 1C of Chapter IX of the Exchange byelaws
+
+NSE-EBP Operating Guidelines  Page 20
+
+===== [zip member] DS71301.pdf =====
+National Stock Exchange of India Limited
+Circular
+
+Department: DEBT SEGMENT       Date: November 14, 2025
+Download Ref No: NSE/DS/71301
+Circular Ref. No: 15/2025
+
+All Participants,
+
+Review of provisions pertaining to Electronic Book Provider (EBP) platform to increase its efficacy and
+utility.
+
+SEBI vide Circular No. SEBI/HO/DDHS/DDHS-PoD-1/P/CIR/2025/0000000073 dated May 16, 2025
+prescribed modifications to the Master circular no. SEBI/HO/DDHS/PoD1/P/CIR/2024/54 dated May 22,
+2024, in its Chapter VI - "Electronic Book Provider platform", and Chapter VII - "Standardization of
+timelines for listing of securities issued on a private placement basis".
+
+The modifications prescribed in Clauses 3 and 7.11.3 of Chapter VI of the Master circular shall come into
+effect from November 17, 2025.
+
+In view of the above, please find revised operating guidelines for NSE Electronic Bidding Platform
+enclosed as Annexure - I
+
+All Participants are requested to make note of the above.
+
+For and on behalf of
+National Stock Exchange of India Limited
+
+Prithviraj Pawar               Email id
+Chief Manager                  msm@nse.co.in
+
+ Toll Free No
+ 1800-266-0050 (Option 1)
+
+                                                        Page 1 of 1
+

@@ -1,0 +1,47 @@
+ID: BSE-20251121-72
+Source: BSE | 20251121-72 | 2025-11-21
+Title: XBRL based filing of Regulation 50 for entities with listed non-convertible securities
+Detail page: https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20251121-72
+File: 
+======================================================================
+Notice No. 
+ 20251121-72 
+ Notice Date 
+ 21 Nov 2025 
+ Category 
+ Circulars Listed Companies 
+ Segment 
+ Debt 
+ Subject 
+ XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities 
+ Content 
+ To, 
+ The Company Secretaries, 
+ All Entities which has listed its non-convertible securities (Listed entities) 
+ This is with reference to the amendment dated December 13, 2024 to Regulation 50 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (LODR Regulations) wherein SEBI mandated listed entities to make disclosures under Regulation 50 in XBRL format in accordance with the guidelines specified by the stock exchanges from time to time. 
+ Pursuant to the above, the Exchange is pleased to inform you that the Excel utility for submission of disclosures under Regulation 50 in XBRL format has been made available by the Exchange on the Listing Centre portal on the below path: 
+ Listing Compliance > XBRL > XBRL>Excel Utility> Regulation 50 Prior Intimation of Meeting for Debt 
+ In continuation to our efforts towards ease of compliance, the Exchanges have put in place a common XBRL taxonomy for this purpose and an off-line excel utility has been made available for XBRL filing. 
+ The User Manual to submit the aforementioned disclosures in XBRL mode is annexed herewith. 
+ With effect from December 1, 2025 , the listed entities shall be required to submit the disclosures under Regulation 50 as per the prescribed timelines in XBRL mode only. Please note that the submission of the said disclosures in any other mode (including pdf) shall be treated as non-submission . 
+ In case of any queries concerning the captioned subject, you may contact debt.compliance@bseindia.com . 
+ Listed entities are requested to take note and comply accordingly. 
+ Shilpa Saboo 
+ Deputy Vice President 
+ Listing Compliance and Monitoring 
+ Kunal Borkar 
+ Manager 
+ Listing Compliance and Monitoring 
+ Steps for submission of disclosures under Regulation 50 in XBRL mode on BSE Listing Centre Portal: 
+ 1. Download the Excel utility for ‘Regulation 50 Prior Intimation of Meeting for Debt’ from BSE Listing Centre portal under XBRL Information- https://listing.bseindia.com/xbrl.aspx 
+ 2. Fill-in the required details in the utility off-line and validate the same. 
+ 3. After successful validation, generate Xml file and save it. 
+ 4. Upload XML file generated on Listing Center as below: 
+ a. Navigate to Listing Compliance > XBRL > E-Filing > select ‘Regulation 50 Prior Intimation of Meeting for Debt’ from Modules dropdown. 
+ b. Select the type of submission. 
+ c. Click on “Chose File” 
+ d. Browse and select Xml file to be uploaded and click on Validate. 
+ e. On successful validation, upload the file. 
+ f. Acknowledgement copy will be downloadable from the reports section. 
+ 5. Submission made by the listed entity will be visible under reports section on the Listing Centre Portal on the path: Listing Compliance > XBRL > Report>Regulation 50 Prior Intimation of Meeting for Debt 
+ 6. Post submission, the intimation shall be disseminated on Get Quote page of the company on the website of the Exchange.

@@ -1,0 +1,66 @@
+ID: NSE-RFQ-ENH-20251016
+Source: NSE | NSE/DS/70879 | 2025-10-16
+Title: Operational enhancements on RFQ platform
+Detail page: https://www.nseindia.in/resources/exchange-communication-circulars
+File: https://nsearchives.nseindia.in/content/circulars/DS70879.pdf
+======================================================================
+National Stock Exchange of India Limited
+
+Circular                         Date: October 16, 2025
+
+   Department: Debt Segment
+  Download Ref No: NSE/DS/70879
+  Circular Ref. No: 09/2025
+
+All Participants,
+
+Implementation of Operational Enhancements on RFQ Platform
+
+Exchange has implemented below mentioned key operational enhancements to improve RFQ
+platform efficiency, transparency, and user experience as per SEBI direction and recommendations.
+
+1. Brokers to execute `Brokered' transactions on behalf of participants in OTM:
+The manual option for participants to mark deals as `Brokered' for One-to-Many (OTM) transactions
+has been removed. Henceforth, brokered transactions need to be executed by brokers on behalf of
+participants on the RFQ Platform in OTM mode. While participants can continue to execute `Direct'
+transactions by themselves in OTM mode.
+
+2. Independent Yield Price Calculator Functionality:
+A yield-price calculator has been additionally introduced as a separate feature to facilitate seamless
+conversion between clean/dirty price and yield. Now participants can select any ISIN to generate
+corresponding yield and prices for the respective inputs.
+
+3. Facility to upload client holdings - Risk Management:
+An optional facility has been made available for brokers under risk management to upload client
+holdings and cash positions to mitigate the risk of trade failures and short sales. Clients may
+selectively disclose relevant portions of their portfolio, thereby enabling brokers to execute trades
+with improved certainty.
+
+4. Introduction of FIX API:
+To further enhance connectivity and trading flexibility, the Exchange has introduced FIX API
+integration for the RFQ platform. While the existing RFQ API continues to be available, the newly
+launched FIX API offers an additional interface for seamless integration with global trading systems.
+The FIX API is currently available in the UAT environment for testing purposes, and market
+participants are encouraged to begin integration and validation as per their requirements. Both RFQ
+API and FIX API are available, giving participants the flexibility to choose based on their system needs.
+
+                                                         Page 1 of 2
+National Stock Exchange of India Limited
+
+  All market participants are requested to take note of the above-mentioned changes; these changes
+  will be effective from 28th October 2025.
+
+  For any further information or assistance, participants may contact the RFQ Platform Helpdesk at
+  1800 266 0050 (Option 1) or email us at DL-DEBT-BD@nse.co.in.
+
+For and on behalf of                      Email id
+National Stock Exchange of India Limited  msm@nse.co.in
+
+Prithviraj Pawar
+Chief Manager
+
+   Toll Free No
+   1800-266-0050 (Option 1)
+
+                                                         Page 2 of 2
+

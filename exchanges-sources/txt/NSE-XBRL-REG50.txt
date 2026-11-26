@@ -1,0 +1,81 @@
+ID: NSE-XBRL-REG50
+Source: NSE | NSE circular 21-11-2025 | 2025-11-21
+Title: XBRL based filing of Regulation 50 for entities with listed non-convertible securities
+Detail page: https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market
+File: https://nsearchives.nseindia.in/web/circular/2025-11/Circular_Introduction_to_XBRL_for_Regulation_50_1_20251124155835.pdf
+======================================================================
+Circular                            Date: November 21, 2025
+
+  Department: Listing
+
+ Circular Ref. No: NSE/CML/2025/09
+
+To,
+The Company Secretaries
+All Entities which have listed its non-convertible securities (Listed entities),
+
+Subject: XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities
+
+This is with reference to the amendment dated December 13, 2024 to Regulation 50 of SEBI (Listing Obligations
+and Disclosure Requirements) Regulations, 2015 (LODR Regulations) wherein SEBI mandated listed entities to
+make disclosures under Regulation 50 in XBRL format in accordance with the guidelines specified by the stock
+exchanges from time to time.
+
+Pursuant to the above, the Exchange is pleased to inform you that the Excel utility for submission of disclosures
+under Regulation 50 in XBRL format has been made available by the Exchange on the NEAPS portal on the below
+path:
+
+Compliance > Debt Common XBRL Upload > Regulation 50
+
+In continuation to our efforts towards ease of compliance, the Exchanges have put in place a common XBRL
+taxonomy for this purpose and an off-line excel utility has been made available for XBRL filing.
+
+The User Manual to submit the aforementioned disclosures in XBRL mode is annexed herewith.
+
+With effect from December 1, 2025, the listed entities shall be required to submit the disclosures under
+Regulation 50 as per the prescribed timelines in XBRL mode only. Please note that the submission of the said
+disclosures in any other mode (including pdf) shall be treated as non-submission.
+
+In case of any queries concerning the captioned subject, you may contact the respective team members on the
+contact details available in the NEAPS platform at path - NEAPS > Help > Contact Us > Listing Compliance or
+send an email to dl-debtcompliance@nse.co.in.
+
+Listed entities are requested to please take note of the above and ensure compliance.
+
+For and on behalf of
+National Stock Exchange of India Limited
+
+Priya Iyer
+Chief Manager
+
+Encl: Annexure
+                                                                                                                                                    Continuation Sheet
+
+                                                                Annexure
+
+Steps for submission of disclosures under Regulation 50 in XBRL mode on NSE Electronic Application
+Processing System (NEAPS) Portal:
+
+1. Download the Excel utility for Regulation 50- Prior Intimation of Meeting from NSE website under XBRL
+       Information- https://www.nseindia.com/static/companies-listing/xbrl-information
+
+2. Fill-in the required details in the utility off-line and validate the same.
+
+3. After successful validation, generate Xml file and save it.
+
+4. Upload XML file generated on NEAPS as below:
+
+a. Navigate to Neaps > Compliance > Debt Common XBRL upload > Select option of Regulation 50 from
+       Modules dropdown.
+
+b. Click on upload XBRL file tab.
+c. Browse and select Xml file to be uploaded and click on upload.
+d. On successful upload, "File import successfully" message would be displayed.
+e. Acknowledgement copy will be downloadable from the reports section.
+
+5. Submission made by the listed entity will be visible under reports section on the NEAPS Portal on the path:
+       Neaps Login>Debt>Report>Regulation 50
+
+6. Post submission, the report shall be available on the website on the below path:
+       https://www.nseindia.com/companies-listing/debt-centralised-database/debtreg50
+

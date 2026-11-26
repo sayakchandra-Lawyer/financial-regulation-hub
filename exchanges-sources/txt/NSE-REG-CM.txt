@@ -1,0 +1,3221 @@
+ID: NSE-REG-CM
+Source: NSE | Regulations (CM segment) | 2026-04-10
+Title: NSE Capital Market Segment Trading Regulations 2026
+Detail page: https://www.nseindia.in/regulations/exchange-market-regulations-rules-byelaws-nseil
+File: https://nsearchives.nseindia.in/web/mediaattachment/2026-04/NSECMregulations2026_20260410111823.pdf
+======================================================================
+National Stock Exchange of India Limited     Regulations - Part A (Capital Market Segment)
+
+PART A - TRADING REGULATIONS
+
+              CONTENTS
+
+INTRODUCTION ...............................................................................................
+
+APPLICABILITY ...............................................................................................
+
+1. DEFINITIONS                            ............................................................................................
+
+1.3 DEFINITIONS..................................................................................
+
+1.3.1 APPROVED OFFICE...........................................................
+
+1.3.2 APPROVED WORKSTATION ...........................................
+
+1.3.3 AUTHORISED PERSON.....................................................
+
+1.3.4 BOOKS OF ACCOUNTS, RECORDS AND DOCUMENTS
+1.3.5 BRANCH OFFICE ...............................................................
+1.3.6 CLEARING DELIVERY .....................................................
+1.3.7 CONSTITUENT...................................................................
+1.3.8 HAND DELIVERY..............................................................
+1.3.9 MARKET TYPE...................................................................
+1.3.10 MEMBER-CONSTITUENT AGREEMENT.......................
+1.3.10A MEMBER-SUB BROKER AGREEMENT....................
+1.3.10 B MEMBER-SUB BROKER-CONSTITUENT AGREEMENT
+1.3.11 NOTIFICATION, NOTICE OR COMMUNICATION
+1.3.12 NSE.......................................................................................
+1.3.13 PARTICIPANT.....................................................................
+1.3.13 ARISK DISCLOSURE DOCUMENT..................................
+1.3.14 SPECIAL DELIVERY CONTRACT...................................
+1.3.15 SPOT DELIVERY CONTRACT .........................................
+1.3.15 ASUB-BROKER...................................................
+1.3.16 TRADING MEMBER ..........................................................
+1.3.17 TRADING SYSTEM............................................................
+1.3.18 TRADE TYPE ......................................................................
+1.3.19 TRANSACTION TYPE .......................................................
+1.3.20 USER....................................................................................
+
+2. DEALINGS ON THE EXCHANGE.........................................................
+   2.1. TRADING SYSTEM........................................................................
+ 2.2. TRADING MEMBERS AND USERS.............................................
+  2.3. TRADING DAYS.............................................................................
+  2.4. TRADING HOURS..........................................................................
+
+                                          i
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+      2.5. TRADING PARAMETERS .............................................................
+  2.6. TRADE TYPES/SETTLEMENT PERIODS/TRANSACTION TYPES
+  2.7. FAILURE OF TRADING MEMBER'S TERMINAL......................
+
+3. DEALINGS INSECURITIES...................................................................
+     3.1. DEALINGS INSECURITIES..........................................................
+
+  3.2. TRADE OPERATIONS...................................................................
+  3.3. MARGINREQUIREMENTS..........................................................
+  3.3A. COMPOSITION OF ADDITIONAL CAPITAL AND MARGINS
+  3.4. ORDER MANAGEMENT ...............................................................
+
+             3.4.1 ORDER TYPE......................................................................
+             3.4.2 ORDER ATTRIBUTES........................................................
+              3.4.3 MODIFICATION AND CANCELLATION OF ORDERS.
+              3.4.4 ORDER VALIDATION .......................................................
+
+                  3.4.5 MATCHING RULES ...........................................................
+     3.5. CONTRACT NOTE.........................................................................
+  3.5A ................................................................................
+  3.6. BROKERAGE ..................................................................................
+  3.7. TURNOVER LIMITS......................................................................
+  3.8. INTEREST, DIVIDEND, RIGHTS/BONUS AND CALLS............
+  3.9. MARGIN FROM THE CONSTITUENTS ......................................
+
+  3.10 TRADING MEMBER IN DEFAULT ....................................
+  3.11 CONSTITUENT INDEFAULT..........................................
+  3.12 MARGINTRADING FACILITY........................................
+
+  3.13 COLLECTION OF SECURITIES TRANSACTION TAX............
+  3.14 ................................................................................
+
+ 4. CONDUCT OF BUSINESS BY TRADING MEMBERS .......................
+  4.1 OFFICE RELATEDPROCEDURE....................................................
+  4.2 SUPERVISION.................................................................................
+
+       4.2.1 PROCEDURES TO BE FOLLOWED.................................
+           4.2.2 INTERNAL INSPECTIONS ................................................
+           4.2.3 WRITTEN APPROVAL ......................................................
+              4.2.4 QUALIFICATIONS INVESTIGATED...............................
+
+       4.3 RELATION WITH THE CONSTITUENTS....................................
+  4.4 GUIDELINES GOVERNING RELATIONSHIP BETWEEN
+
+            TRADING MEMBERS AND CONSTITUENT..............................
+  4.5 CODE OFCONDUCT FOR TRADING MEMBERS.....................
+
+                                          ii
+National Stock Exchange of India Limited  Regulations - Part A (Capital Market Segment)
+
+         4.5.1 ADHERENCE TO SEBI CODE OF CONDUCT ................
+          4.5.2 GENERAL PRINCIPLES ....................................................
+          4.5.3 TRADING PRINCIPLES .....................................................
+
+             4.5.4 GENERAL GUIDELINES ...................................................
+      4.6 UNFAIR TRADING PRACTICES..................................................
+4.7 ................................................................................
+
+4A. RESIDUAL PENALTY..........................................................
+4A.1 PENALTY FOR VIOLATIONS WHERE SPECIFIC PENALTY IS NOT
+PRESCRIBED
+
+5. ARBITRATION..........................................................................................
+ 5.1 DEFINITIONS..................................................................................
+5.2 SEAT OF ARBITRATION ..............................................................
+5.3 JURISDICTION OF COURTS ........................................................
+5.4 REFERENCE OF THE CLAIM, DIFFERENCE OR DISPUTE.....
+5.5 CRITERIA AND PROCEDURE FOR SELECTION OF
+
+          PERSONS ELIGIBLE TO ACT AS ARBITRATORS....................
+5.6 PROCEDURE FOR APPOINTMENT OF ARBITRATORS..........
+5.7 VACANCY IN THE OFFICE OF THE ARBITRATOR.................
+5.8 COST OF ARBITRATION ..............................................................
+5.9 PROCEDURE FOR ARBITRATION..............................................
+5.10 REQUIREMENT FOR HEARINGS................................................
+5.11 NOTICE OF HEARING...................................................................
+5.12 ADJOURNMENT OF HEARING ...................................................
+5.12 A ................................................................................
+5.13 ARBITRAL AWARD ON AGREED TERMS ................................
+5.13 A ARBITRAL AWARD UNDER CERTAIN CIRCUMSTANCES...
+5.14 MAKING OF ARBITRAL AWARD...............................................
+5.15 INTEREST........................................................................................
+5.15 A LIABILITY OF THE TRADING MEMBER...................................
+5.16 ARBITRATION FEES AND CHARGES, COSTS, ETC................
+5.17 ADMINISTRATIVE ASSISTANCE WHICH MAY BE
+
+          PROVIDED BY THE EXCHANGE ................................................
+5.18 MODE OFCOMMUNICATION.....................................................
+5.19 ......................................................................................
+5.20 .................................................................................
+5.21 APPELLATE ARBITRATION
+
+                                               3
+National Stock Exchange of India Limited  Regulations - Part A (Capital Market Segment)
+
+5A. DISPUTE RESOLUTION..............................................................................
+         5A.1 DEFINITIONS...................................................................................
+         5A.2 VENUE AND SEAT OF PROCEEDINGS OF CONCILIATION AND
+         ARBITRATION.......................................................................................
+         5A.3 JURISDICTION OF COURTS................................................................
+         5A.4 CRITERIA AND PROCEDURE FOR EMPANELMENT OF ODR
+         INSTITUTIONS.......................................................................................
+         5A.5 CRITERIA AND PROCEDURE FOR SELECTION OF PERSONS ELIGIBLE TO
+         ACT AS CONCILIATORS/ ARBITRATORS....................................................
+         5A.6 FEES & COST OF CONCILIATION/ ARBITRATION..................................
+         5A.7 PROCEDURE FOR CONCILIATION/ ARBITRATION.................................
+         5A.8 LIABILITY OF THE TRADING MEMBER................................................
+         5A.9 ADMINISTRATIVE ASSISTANCE WHICH MAY BE PROVIDED BY THE
+         EXCHANGE............................................................................................
+         5A.10 MODE OF COMMUNICATION............................................................
+         5A.11 APPLICABILITY..............................................................................
+
+6. RECORDS, ANNUAL ACCOUNTS AND AUDIT.................................
+
+6.1     RECORDS....................................................................................
+
+6.2 ANNUAL ACCOUNTS AND AUDIT............................................
+
+  7.    INSPECTION..............................................................................................
+7.1     INSPECTION AUTHORITY..........................................................
+7.2     NOTICE............................................................................................
+
+   7.3     OBLIGATIONS OF A TRADING MEMBER ON INSPECTION .
+7.4     SUBMISSIONOFREPORT............................................................
+
+   7.5     COLLECTION AND DISSEMINATION OF INFORMATION ....
+
+8. TRI-PARTY REPOS.............................................................
+
+8.1 DEALINGS IN TRI-PARTY REPOS..................................
+8.2 MARGIN REQUIREMENT.............................................
+8.3 ORDER MATCHING RULES..........................................
+8.4 TRADE PROCESS FLOW...............................................
+
+ANNEXURES
+1. APPLICATION FOR APPROVAL AS USER
+2. CONTRACT NOTE
+
+      A. AS BROKERS & AGENTS
+      B. AS PRINCIPALS
+3. MEMBER AND CLIENT AGREEMENT
+
+                                                     4
+National Stock Exchange of India Limited     Regulations - Part A (Capital Market Segment)
+
+                               INTRODUCTION
+
+The Regulations framed hereunder shall be known as National Stock Exchange (Capital
+Market) Trading Regulations, 1994.
+
+These Regulations shall be in addition to the provisions of the Securities Contracts
+(Regulation) Act, 1956, the Securities Contracts (Regulation) Rules, 1957, Securities and
+Exchange Board of India Act, 1992 and Rules and Byelaws of National Stock Exchange of
+India Limited (NSEIL), as may be applicable to Trading Members and Participants.
+
+                               APPLICABILITY
+
+  These Regulations (read in conjunction with USER Manual) shall be applicable to all
+  Trading Members and Participants to the extent specified herein, in the Capital Market
+  Segment of National Stock Exchange. They shall be subject to jurisdiction of the Courts
+  of Mumbai irrespective of the place of business of Trading Members in India. These
+  Regulations shall also be applicable mutatis mutandis to all the Trading Members and
+  Participants in the Debt segment of National Stock Exchange unless the context requires
+  otherwise or unless otherwise specified by the relevant authority from time to time.
+
+  These Regulations shall also be applicable mutatis mutandis to all Trading Members in the
+  Tri Party Repo Market ("TRM") segment, under the Debt segment of National Stock
+  Exchange unless the context requires otherwise or unless otherwise specified by the
+  relevant authority from time to time including under Chapter 8 of these Regulations.
+
+                                          1
+National Stock Exchange of India Limited     Regulations - Part A (Capital Market Segment)
+
+                                1. DEFINITIONS
+
+1.1. Unless in the context it is explicitly stated otherwise, all words and expressions used
+         herein but not defined, and defined in the following, shall have the meanings
+         respectively assigned to them therein:
+         1. Securities Contracts (Regulation) Act, 1956 and Rules thereunder.
+         2. Securities and Exchange Board of India Act, 1992 and Rules thereunder.
+         3. Rules and Byelaws of National Stock Exchange of India Limited.
+         4. The Companies Act, 1956.
+
+1.2 In case a term is defined in more than one Acts then its meaning as defined in that
+         Act or statute which precedes in the above order shall prevail, unless in the
+         context it is explicitly stated otherwise.
+
+1.3 DEFINITIONS:
+
+1.3.1 APPROVED OFFICE
+         Approved office means the registered office of a Trading Member including such
+         premises or offices from which the Trading Member is allowed by the Exchange to
+         trade on the Trading system and carry out back office works.
+
+1.3.2 APPROVED WORKSTATION
+         Approved workstation refers to such trading workstation of a Trading Member or a
+         Participant comprising of computer terminal(s) and all associated equipment
+         installed and connected to the Trading System and used by the trading member or
+         the Participant for the purpose of market inquiry, execution of orders/trades and
+         settlement of its trades on the Trading System, and all other actions associated with
+         the trading and settlement on the Trading System.
+
+1.3.3 AUTHORISED PERSON
+         Authorised Person means a person being an individual, registered partnership firm
+         or a body corporate or company as defined under the Companies Act, 1956 who is
+         approved as such by the Exchange and who is employed whether through a contract
+         of employment or otherwise by a Trading member / Participant for remuneration
+         (whether by way of salary, commission, allowance or otherwise) expressed in terms
+         of money or capable of being so expressed and gets such remuneration directly or
+         indirectly from the trading member or a Participant for any activity relating to the
+         trades done and executed on the Exchange.
+
+1.3.4 BOOKS OF ACCOUNTS, RECORDS AND DOCUMENTS
+         Books of accounts, records and documents include books of accounts, records and
+         documents which are required to be maintained under Chapter 6 of the Regulations
+         of the Exchange and records maintained in a computer or in any magnetic form.
+
+                                          2
+National Stock Exchange of India Limited     Regulations - Part A (Capital Market Segment)
+
+1.3.5 BRANCH OFFICE
+
+         Branch office in relation to a Trading Member means:-
+         (a) any establishment described as a branch
+         (b) any establishment carrying on either the same or substantially the same
+
+                activity as that carried on by the head office
+         (c) any other place which the Exchange may notify
+
+1.3.6 CLEARING DELIVERY
+         "Clearing delivery" means clearing and settlement through the Clearing House in
+         the manner prescribed in the relevant regulations of the Exchange.
+
+1.3.7 CONSTITUENT
+         A constituent means a person, on whose instructions and, on whose account, the
+         Trading Member enters into any contract for the purchase or sale of any securit y or
+         does any act in relation thereto.
+         Explanation: For the purpose of these regulations, the term Constituent includes a
+         Participant as defined under the Byelaws of the Exchange unless expressly stated
+         otherwise.
+
+1.3.8 HAND DELIVERY
+
+         "Hand delivery" means delivery and payment within the time or on the date
+         stipulated when entering into the contract which time or date shall not be more than
+         fourteen days following the date of the contract.
+
+1.3.9 MARKET TYPE
+
+         Market type refers to the different markets in which trading is permitted on the
+         Trading system and includes Regular Markets, Auction Markets, Negotiated
+         Markets.
+
+1.3.10  MEMBER-CONSTITUENT AGREEMENT
+
+        Member-Constituent agreement is an agreement which is executed between a
+        Trading Member and its constituent as per the Exchange requirements.
+
+1.3.10A MEMBER-SUB BROKER AGREEMENT
+
+         Member-Sub broker agreement is an agreement which is executed between a
+         Trading Member and his Sub-broker as per the Exchange requirements.
+
+1.3.10 B MEMBER-SUB BROKER-CONSTITUENT AGREEMENT
+
+         Member-Sub broker-Constituent agreement is a tripartite agreement which is
+         executed among the Trading Member, Sub-broker and its Constituent as per the
+         Exchange/SEBIrequirements.
+
+                                          3
+National Stock Exchange of India Limited     Regulations - Part A (Capital Market Segment)
+
+1.3.11  NOTIFICATION, NOTICE OR COMMUNICATION
+        (1) It refers to any such intimation that can be served at ordinary business
+
+                 address and/or ordinary place of residence and/or last known address of the
+                 party in any one or more of the following ways:-
+                 (a) by post
+
+                 (b) by registered post
+                 (c) under certificate of posting
+
+                 (d) by speed post / courier services.
+
+                 (e) by telegram
+
+                 (f) by affixing it on the door at the last known business or residential
+                     address
+
+                 (g) by oral communication to the party in the presence of a third person
+
+                 (h) by advertising it in at least one prominent daily newspaper having
+                     circulation in the area where the last known business or residential
+                     address of Respondent is situated
+
+                 (i) by sending a message through the Trading System
+                 (j) by electronic mail or fax
+
+                 (k) by hand delivery
+
+        (2) Any communication sent by the Exchange to any party shall be deemed to
+                 have been properly delivered or served, even if such communication is
+                 returned to the Exchange as unclaimed/ refused/ undelivered, if the same is
+                 sent to the ordinary business address and/ or ordinary place of residence and/
+                 or last known address of the party, in any one or more of the ways mentioned
+                 in clause (1) above.
+
+1.3.12  NSE
+
+        NSE means the National Stock Exchange of India Limited. The terms NSE and
+        Exchange are used interchangeably.
+
+1.3.13  PARTICIPANT
+
+        Participant refers to an entity as defined under Chapter VI of the Byelaws of
+        National Stock Exchange of India Limited.
+
+1.3.13 A RISK DISCLOSURE DOCUMENT
+
+         Risk Disclosure Document refers to the document, to be issued by all trading
+         members to all potential investors before registration, detailing the basic risks
+         involved in trading on the Capital Market segment of the Exchange, the rights and
+         obligations of the constituents, etc.
+
+                                          4
+National Stock Exchange of India Limited     Regulations - Part A (Capital Market Segment)
+
+1.3.14  SPECIAL DELIVERY CONTRACT
+
+        "Special delivery contract" means delivery and payment within any time exceeding
+        fourteen days but not exceeding two months following the date of the contract
+        unless extended by the relevant authority as provided in the relevant Regulations of
+        the Exchange.
+
+1.3.15  SPOT DELIVERY CONTRACT
+
+        "Spot delivery contract" means delivery and payment on the same day as the date
+        of the contract or on the next day.
+
+1.3.15 A SUB-BROKER
+
+        Sub-broker means any person affiliated to a Trading Member, being an individual,
+        registered partnership firm or a body corporate or company as defined under the
+        Companies Act, who is recognised as such by the Exchange subject to such terms
+        and conditions as it may deem fit.
+
+1.3.16  TRADING MEMBER
+
+        Trading Member refers to an entity as defined under Chapter III of the Rules and
+        Chapter V of the Byelaws of National Stock Exchange of India Limited.
+
+1.3.17  TRADING SYSTEM
+
+        Trading System refers to NEAT Trading System of the Exchange. NEAT stands for
+        National Exchange for Automated Trading.
+
+1.3.18  TRADE TYPE
+
+        Trade Type means the types of trades in any security admitted to the official list of
+        the Exchange and includes Normal market trades, Negotiated trades and Odd lot
+        trades.
+
+1.3.19  TRANSACTION TYPE
+
+        Transaction type refers to the different transaction types which are permitted on the
+        Trading System and includes spot delivery, hand delivery, special delivery and
+        clearing delivery transactions.
+
+1.3.20  USER
+
+        An User is a person as approved by the Exchange under Regulation 2.2.8 of the
+        National Stock Exchange (Capital Market) Trading Regulations, 1994.
+
+                                          5
+National Stock Exchange of India Limited     Regulations - Part A (Capital Market Segment)
+
+       2. DEALINGS ON THE EXCHANGE
+
+2.     DEALINGS ON THE EXCHANGE
+2.1
+2.1.1  TRADING SYSTEM
+2.1.2
+2.1.3  The Exchange shall provide an Automated Trading facility in all the Securities
+2.1.4  admitted for dealings on the Capital Market and such a system shall herein after be
+2.1.5  referred to as NEAT (National Exchange for Automated Trading) system.
+2.1.6
+2.1.7  Trading on the Exchange shall be allowed only through approved Workstation(s)
+       located at approved locations for the office(s) of a Trading Member. If an approved
+2.1.8  workstation of a Trading Member is connected by LAN or any other way to
+       other workstations at any place it shall require an approval of the Exchange.
+
+       Each Trading Member/Participant shall have a unique identification number which
+       shall be provided by the Exchange and which shall be used to log on (sign on) to
+       the system.
+
+       A Trading Member/Participant shall have a non-exclusive permission to use the
+       Trading system as provided by the Exchange in the ordinary course of business as
+       Trading Member/Participant.
+
+       A Trading Member/Participant shall not have any title, rights or interest with
+       respect to Trading System, its facilities, software and the information provided by
+       the NEAT.
+
+       The permission to use the Trading System shall be subject to payment of such
+       charges as the Exchange may from time to time prescribe in this regard.
+
+       A Trading Member/Participant shall not, permit itself or any other person(s) to:
+       (a) use the software provided by the Exchange for any purpose other than the
+
+              purpose as approved and specified by the Exchange
+       (b) use the software provided by the Exchange on any equipment other than the
+
+              workstation approved by the Exchange
+       (c) copy, alter, modify or make available to any other person the software
+
+              provided by the Exchange
+       (d) use the software in any manner other than the manner as specified by the
+
+              Exchange
+       (e) attempt directly or indirectly to decompile, dissemble or reverse engineer
+
+              the same.
+
+       A Trading Member/Participant shall not, by itself or through any other persons on
+       his behalf, publish, supply, show or make available to any other person or reprocess,
+       retransmit, store or use the facilities of the Trading System or the information
+       provided by the Trading System except with the explicit approval of
+
+                                          6
+National Stock Exchange of India Limited     Regulations - Part A (Capital Market Segment)
+
+         the Exchange and in the ordinary course of business to complete the transactions
+         on the Exchange.
+
+2.1.9 The Exchange shall provide its services on a best effort basis. However the
+         Exchange shall not be liable for failure of the system or for any loss, damage, or
+         other costs arising in any way out of:
+         (a) telecom network or system failures including failure of ancillary or associated
+                systems, or fluctuation of power, or other environmental conditions; or
+         (b) accident, transportation, neglect, misuse, errors, frauds of the Trading
+                Member/Participant or its Authorised Persons or the agents or any third party;
+                or
+
+         (c) any fault in any attachments or associated equipment (either supplied by the
+                Exchange or approved by the Exchange) which forms or does not form part
+                of the trading workstation installation; or
+
+         (d) act of God, fire, flood, war, act of violence, or any other similar occurrence;
+                or
+
+         (e) any incidental, special or consequential damages including without limitation
+                of loss of profit.
+
+2.1.10 Without prejudice to anything contained in 2.1.9, such failure shall not reduce, alter
+         or affect the liability of the Trading Member/Participant in respect of any trades to
+         which it is a party.
+
+2.1.11 No Trading Member shall deal on or access the NEAT system or related facilities
+         through another Trading Member or on behalf of another Trading Member, unless
+         the prior approval of the Exchange in writing is obtained in this regard.
+
+2.1.12 (a) A Trading Member/Sub-broker shall not deal with another Trading Member/Sub-
+             broker for proprietary trading or for trading on behalf of Constituents, unless
+             the prior permission of the Exchange in writing is obtained in this regard. The
+             Exchange while granting such permission shall consider the reasons stated by
+             the Trading Member/Sub-broker and after carrying out due diligence may allow
+             such Trading Member/Sub-broker to deal with only one Trading Member/Sub-
+             broker of the Exchange.
+
+         (b) A Trading Member/Sub-broker can deal with only one broker/sub-broker of
+             another stock exchange for proprietary trading after intimating the name of such
+             broker /sub-broker to the Exchange.
+
+         (c) A Trading Member can deal with only one broker of another stock exchange on
+             behalf of Constituents after necessary registration as a sub-broker.
+
+         (d) A Sub-broker shall not be affiliated to more than one Trading Member of the
+             Exchange.
+
+                                          7
+National Stock Exchange of India Limited     Regulations - Part A (Capital Market Segment)
+
+2.2 TRADING MEMBERS AND USERS
+
+2.2.1 Trading Members and participants shall be entitled to appoint, subject to such terms
+         and conditions as may be specified by the Relevant Authority from time to time-
+         (a) Authorised Persons;
+
+         (b) Approved Users.
+
+2.2.1.1 No person shall be approved as an Authorised Person if
+
+         (a) he is an individual under 18 years of age;
+
+         (b) he is already an authorised person of any other trading member;
+
+         (c) any disciplinary action has been taken against him by the Exchange
+               or any other Stock Exchange;
+
+         (d) he is in the employment of any other trading member;
+
+         Provided however, sub-clauses (b), (c) & (d) are applicable to partnership
+         firms and companies seeking approval as Authorised Person.
+
+2.2.1.2  The Exchange shall have a right at any time to withdraw approval granted
+         to an authorised person or suspend approval of an authorised person
+         temporarily. However, the Relevant Authority, at its discretion, may afford
+         an opportunity of being heard to such authorised person before or after such
+         suspension; provided however, where no such opportunity of being heard is
+         afforded, the relevant authority shall record the reasons for the same. Such
+         suspension may be conditional and may be revoked on fulfillment of
+         condition(s) specified, if any, to the satisfaction of the Exchange.
+
+2.2.1.3 Without prejudice to the generality of the above, the Capital Market segment
+         of the Exchange may withdraw any approval granted to such authorised
+         person after giving an opportunity, if
+
+         (a) he fails to abide by the Byelaws, Rules, Regulations and the
+               guidelines or circulars thereunder,
+
+         (b) he violates / contravenes any statute or the Rules or Regulations
+               made thereunder,
+
+         (c) on receipt of a request from the Trading Member or the Authorised
+               Person through the Trading Member, subject to compliance with the
+               requirements as may be prescribed by the Exchange.
+
+                                          8
+National Stock Exchange of India Limited     Regulations - Part A (Capital Market Segment)
+
+       2.2.1.4 Notwithstanding anything contained in Regulations 2.2.1.2 and 2.2.1.3, an
+                authorised person shall cease to be so, ipso facto, on
+
+       (a) the Trading Member to whom he is attached ceases to be a Trading
+                Member: or
+
+       (b) On the expiry/cessation of this contract of employment with such
+                Trading Member.
+
+2.2.2 Each Trading Member/Participant shall be permitted to appoint such number of
+         Users as may be notified from time to time by the Exchange.
+
+2.2.3 The appointment of Users shall be subject to such terms and conditions as the
+         Exchange may from time to time prescribe.
+
+2.2.4 Each User shall be given an unique identification number through which he shall
+         have access to the system.
+
+2.2.5 A User can access the system through a password and can change such password
+         from time to time.
+
+2.2.6 A Trading Member/Participant or its Users thereof shall maintain complete secrecy
+         of its password.
+
+2.2.7  A User shall be required to change his password at the end of the password expiry
+       period. The password expiry period shall be prescribed by the Exchange from time
+       to time.
+
+2.2.8 (a) Only persons who are registered as Trading Members and Participants in
+                accordance with provisions of the Bye-Laws, Rules and Regulations of the
+                Exchange or are agents of Trading Members for whom an application has
+                been made to the Exchange by the Trading Members in accordance with the
+                format specified by the Managing Director from time to time may be
+                approved as Users.
+
+         (b) [Deleted].
+
+         (c) No person shall be admitted as a User against whom any disciplinary action
+                has been taken by the Exchange or any other Stock Exchange.
+
+         (d) No Trading Member/Participant shall without permission of the Exchange
+                take into his employment a former Trading Member or User of such Trading
+                Member as a User, if such Trading Member or User is one against whom any
+                disciplinary action has been taken by the Exchange or any other Stock
+                Exchange.
+
+2.2.9 The Exchange shall have a right to reject any application made under 2.2.8 (a) or
+         at any time withdraw any approval previously granted, or suspend a User
+         temporarily from access to the system. Such suspension may be conditional and
+         may be revoked on the fulfillment of condition specified, if any, to the satisfaction
+         of the Exchange.
+
+                                          9
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+2.2.10  A Trading Member/Participant desiring to change the User Id or cancel the authority
+        given to its User to operate the trading system on its behalf shall intimate the
+        Exchange in writing, in such form and manner as the Exchange may specify,
+        immediately on taking such action and obtain confirmation from the Exchange of
+        having received such intimation, and of the disabling of the particular User by
+        the Exchange. However the Trading Member/Participant will continue to be liable
+        for all the activities reported on the basis of such or previous User Id undertaken
+        upto a period of 24 hours after his obtaining a confirmation as mentioned above
+        from the Exchange. The Trading Member shall cancel all his outstanding orders
+        in respect of such User.
+
+2.2.11 Whenever a User of the Trading Member/Participant ceases to act in such or any
+         capacity with the Trading Member then each such Trading Member shall inform
+         the Exchange, within 24 hours, the name and other particulars of such User.
+
+2.2.12 No application shall be made by any Trading Member/Participant under 2.2.8(a), if
+         such a person for whom such an application is made, is already an approved User
+         of any other Trading Member/Participant.
+
+2.2.13 The Exchange shall notify different level of the Users for each workstation
+         provided. These levels shall define the access to the system by the Users and shall
+         include a provision for inquiry only on the terminal, provision for order entry and
+         trading, or such others as may be specified by the Exchange.
+
+2.2.14 The Exchange may change the status of the User of the Trading Member from
+         Trader to Inquiry only where circumstances warrant and intimate to such Trading
+         Member any reasons thereof.
+
+2.2.15 A Trading Member/Participant, shall not access the trading system using a different
+         Trading Member/Participant or User Id other than the one allotted to him.
+
+2.2.16 A User shall not attempt to aid in or access the trading system using the Trading
+         Member code from a location other than the Trading Member's location, unless he
+         has the express prior approval of the Trading Member for whom he is an approved
+         User.
+
+2.2.17 A Trading Member/Participant who wants the Exchange to reset his password, has
+         to make a request in writing signed by the Trading Member/Participant indicating
+         his Broker Id and User Id. A Trading Member/Participant shall not make a request
+         for resetting the password of any other Trading Member/Participant.
+
+2.3     TRADING DAYS
+2.3.1
+        The Exchange shall operate on all days except Sundays and on such Exchange
+2.3.2   holidays as the Exchange may declare from time to time.
+
+        The Exchange may close the market on days other than or in addition to scheduled
+        holidays or open the market on days originally declared to be holidays
+
+                                          10
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+       under 2.3.1 to be called unscheduled opening or closing of the markets or segments
+       and the decision of the Exchange in this matter shall be final and binding.
+
+2.4    TRADING HOURS
+2.4.1
+       The Exchange shall announce the normal trading hours for every calendar year in
+2.4.2  advance.
+
+       The Exchange may extend, advance or reduce trading hours by notifying Trading
+       Members as and when it deems fit and necessary in this regard.
+
+2.5    TRADING PARAMETERS
+2.5.1
+2.5.2  The Exchange shall from time to time specify various trading parameters relating
+       to the Trading System.
+2.5.3
+2.5.4  The Exchange shall from time to time prescribe different order books that shall be
+2.5.5  maintained on the Trading System and shall specify such various conditions on the
+2.5.6  order that will make it eligible to place it in those books. Such conditions may
+       include 'MINIMUM FILL' and 'ALL OR NONE' and other order attributes such
+       as 'DISCLOSED QUANTITY', 'IMMEDIATE OR CANCEL' and 'ON STOP'
+
+       The Exchange shall specify the minimum disclosed quantity for orders that will
+       be allowed.
+
+       The Exchange shall specify the number of days after which Good Till Cancelled
+       orders will be cancelled by the system.
+
+       The Exchange shall specify from time to time the lot size in which orders can be
+       placed for any or all securities traded on the Exchange.
+
+       The Exchange shall specify from time to time price steps in which orders shall be
+       entered on the trading system of the Exchange.
+
+2.6 TRADE TYPES/SETTLEMENT PERIODS/TRANSACTION TYPES
+
+2.6.1  The Exchange shall permit and notify different kinds of trades in the securities
+2.6.2  included in the official list of NSE securities which shall include:
+       (a) Regular market trades
+       (b) Odd lot trades
+       (c) Negotiated trades.
+
+       The Exchange shall prescribe from time to time different trade types, market types,
+       that will be permitted to Trading Members or Participants for dealings in securities.
+
+                                          11
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+2.6.3  The Exchange shall prescribe from time to time the different settlement periods that
+2.6.4  will be permitted for Trading Members or securities and will be in conformity with
+       the settlement Regulations of the Exchange.
+
+       The Exchange shall allow from time to time different transactions types which shall
+       include transaction for clearing, hand, special and spot delivery.
+
+2.7 FAILURE OF TRADING MEMBERS' TERMINAL
+
+         In the event of failure of Trading Members'/Participants' workstation and / or the
+         loss of access to the trading system, the Exchange may at its discretion undertake
+         on behalf of the Trading Member/Participant (although not guarantee) to carry out
+         the necessary functions which the Trading Member/Participant is eligible on a valid
+         request from such Trading Member/Participant subject to such terms and conditions
+         which the Exchange may deem necessary to be imposed. The Exchange shall
+         entertain such request only if such request is made in writing in a clear and precise
+         manner by the Trading Member and in a manner as prescribed by the Exchange.
+         The Trading Member/Participant shall be accountable for the functions executed by
+         the Exchange on their behalf and shall indemnify the Exchange against any losses
+         or costs arising out of the above situation.
+
+                                          12
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+                      3. DEALINGS IN SECURITIES
+
+3.1 DEALINGS IN SECURITIES
+
+3.1.1 Dealings shall be permitted on the Exchange in securities as provided in these
+         Regulations and Byelaws of the Exchange and for such categories of Trading
+         Members/Participants, trade types, market types, settlement periods and for such
+         trading hours as the Exchange may specify from time to time.
+
+3.1.2 The Exchange may at its discretion at any time suspend trading in particular
+         securities as it deems fit. Such suspension shall take effect, on such conditions and
+         in such time and manner as the Exchange may prescribe in this regard.
+
+3.1.3 The Exchange may also revoke suspension of trading in securities at any time.
+
+3.1.4 Trading Members may trade on the Trading System in securities that are admitted
+         for dealing on the Exchange, either on behalf of their constituents or on their own
+         account unless otherwise specified by the relevant authority and trading shall be
+         subject to such conditions as the Exchange may prescribe from time to time.
+
+3.1.4 A When a Trading Member enters an order on behalf of a Mutual Fund or any of
+         its Schemes, Foreign Institutional Investor or any of its sub-account holders, then
+         such a Trading Member shall at the time of entering orders on behalf of such
+         clients, enter the unique code in respect of such Mutual Fund or its Scheme,
+         Foreign Institutional Investor or any of its sub-accounts in such format and with
+         effect from such date as may be notified by the Exchange.
+
+3.1.5 The Exchange may, at any time restrict conditionally or unconditionally a Trading
+         Member/Participant from dealing in a specified security.
+
+3.1.6 The Trading Member/Participant shall continue to be liable for all trades executed
+         on the system for orders entered into the system on his behalf. Trading
+         Member/Participant shall be responsible for all the actions of their authorised
+         persons.
+
+3.1.7 Without prejudice to Regulation 4.5.3 (c) and (d), a Trading Member shall be
+         responsible for all the actions including trades originating through or with the use
+         of all following variables - Trading Member Id, User Id, valid User password at that
+         point of time. However if the Trading Member satisfies the Exchange that the
+         action(s) and /or trade(s) took place due to fraud or misrepresentation by any other
+         person other than his authorised person(s) and that the action(s) and/or trades did
+         not originate from any of his approved workstations, the Exchange may issue such
+         directions as it considers just and reasonable. The directions may include referring
+         the matter to arbitration and /or annulment of trade(s) so effected.
+
+                                          13
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+3.1.8 Particulars of Unique Client Code
+
+        When a Trading Member enters an order on behalf of a Constituent, then such a
+        Trading Member shall at the time of entering orders on behalf of such Constituent,
+        enter the unique code in respect of such Constituent in such format and with effect
+        from such date as may be notified by the Exchange. Every Trading Member shall
+        be responsible to furnish particulars of unique client codes of each of his
+        Constituents to the Exchange in such form, manner, at such intervals and within
+        such time as may be specified by the Exchange from time to time.
+
+3.1.9 The Trading Member shall, in respect of all transactions in a scrip, where total
+         quantity of shares bought/sold under proprietary or any single client code is more
+         than 0.5 % of the number of equity shares of the company listed on the Exchange,
+         disclose to the Exchange immediately upon execution of the trade, the name of the
+         scrip, name of the Constituent, quantity of shares bought / sold and the traded price.
+         The Exchange shall disseminate such information on the same day after market
+         hours to the general public. The information is to be furnished to the Exchange in
+         such format and within such time as may be prescribed by the Exchange from time
+         to time.
+
+3.1.10  Every Trading Member and the Sub-broker shall comply with the SEBI (Central
+        Database of Market Participants) Regulations, 2003. The Trading Member shall
+        ensure that his Constituents comply with the SEBI (Central Database of Market
+        Participants) Regulations, 2003.
+
+3.2 TRADE OPERATIONS
+
+3.2.1 Trading Members shall ensure that appropriate confirmed order instructions are
+         obtained from the constituents before placement of an order on the system and shall
+         keep relevant records or documents of the same and of the completion or otherwise
+         of these orders thereof.
+
+3.2.2   Notwithstanding the above, wherever the order instructions are received from
+3.2.3   clients through the telephone, Members shall mandatorily use telephone recording
+3.2.4   system to record the instructions and maintain telephone recordings as part of its
+        records.
+
+        The Trading Member shall make available to his constituent the NEAT order
+        number and copies of the order confirmation slip / modification slip be despatched
+        to the constituent.
+
+        However where the Trading Member has accumulated the orders of several
+        constituents to meet the requirement of the Regular lot quantity he may give his
+        own order number referred to as the Reference Number, together with a reference
+        to the NEAT Order Number, to the constituent.
+
+        The procedures and conditions for amendment or cancellation of orders would be
+        subject to such conditions and as specified by the Exchange from time to time.
+
+                                          14
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+3.2.5  Trading Members shall be solely responsible for the accuracy of details of orders
+3.2.6  entered into the trading system including orders entered on behalf of his
+       constituents.
+3.2.7
+3.2.8  A potential trade match shall be subject to validation for turnover limits. A turnover
+       limit refers to the maximum value of trades that a Trading Member/Participant will
+       be permitted to execute on the trading system. Subject to the provisions relating to
+       capital adequacy norms and turnover limits as may be specified by SEBI or other
+       regulatory authorities from time to time, turnover limits shall be prescribed by
+       the Exchange, Trading Memberwise, for all transactions done by him on the
+       Exchange. The Exchange may specify from time to time the manner in which all
+       regulations relating to turnover limits shall apply.
+
+       Trades generated on the system are irrevocable and 'locked in'. The Exchange may
+       specify from time to time the markets in which trade cancellation can be effected.
+
+       Where a trade cancellation is permitted and Trading Member wishes to cancel a
+       trade, it may be done only with the approval of the Exchange and in the following
+       manner:
+
+       (a) The Trading Member wishing to cancel the trade shall initiate a cancellation
+              request to the Exchange. The counter Trading Member to the trade too will
+              have to put in his cancellation request separately.
+
+       (b) Where a Trading Member initiates such request the onus shall be on the
+              Trading Member to ensure that he receives a written request from the
+              constituent.
+
+       (c) Where a trade cancellation request(s) comes to Exchange from only one party
+              to trade and is/are pending with the Exchange as a result of it being not
+              confirmed by the counterparty to such trade till such time as may be notified
+              by the Exchange, such request may be cancelled at the discretion of the
+              Exchange.
+
+       (d) The Exchange shall not consider any request for a Trade Cancellation after
+              such period after the market close on a trading day as may be notified from
+              time to time.
+
+       (e) The Exchange shall not give the reasons for rejection or approval of any such
+              trade cancellation request.
+
+       (f) The Exchange may cancel a trade suo-motu without any request by either of
+              the parties to the trade at any time without giving any reason thereof which
+              cancellation shall be final and binding upon the parties to the trade. In the
+              event of such cancellation, Trading Member shall be entitled to cancel
+              relative contract(s) with his constituents.
+
+3.3 MARGIN REQUIREMENTS
+
+3.3.1 Subject to the provisions as contained in the Exchange Byelaws and such other
+         regulations as may be in force, every Trading Member/Participant shall in respect
+         of trades in which he is a party, deposit a margin with Exchange authorities, in the
+
+                                          15
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+         manner and to the extent and from such date as may be specified by the Exchange.
+         Whenever a margin is payable by a Participant, it shall pay such margins directly
+         to the Exchange, unless otherwise directed by the Exchange including VaR margins
+         on an upfront basis.
+
+3.3.2 The Exchange shall prescribe from time to time the securities, the settlement
+         periods and trade types for which margin would be attracted.
+
+3.3.3 The margin shall be deposited with the Exchange within such time as may be
+         notified by the Exchange from time to time.
+
+3.3A COMPOSITION OF ADDITIONAL CAPITAL AND MARGINS
+
+3.3A.1 The relevant authority may specify the requirements of additional capital and
+         margins for the Trading Members. The minimum cash component of such
+         additional capital and margins shall be 50% and the cash component may be in the
+         form of cash or cash equivalents. Cash equivalents are as follows:-
+
+         (a) Cash equivalent shall include FDRs, bank guarantees (as specified in
+             Regulation 3.3A.1d), government securities and units of the schemes of liquid
+             mutual funds or government securities mutual funds (by whatever name called
+             which invest in government securities).
+
+         (b) The margin for government securities shall be such as may be prescribed from
+             time to time by the relevant authority but not less than 10%.
+
+         (c) The margin for units of the schemes of liquid mutual funds or government
+             securities mutual funds (by whatever name called which invest in government
+             securities) shall be such as may be prescribed from time to time by the relevant
+             authority but not less than 10% of Net Asset Value (NAV).
+
+         (d) The bank guarantees shall be considered as cash equivalent only if the
+             guarantees have been provided by the banks whose networth is more than
+             Rs. 500 crores; Provided further
+
+             (i) the relevant authority may lay down the exposure limits either in rupee
+                  terms or otherwise subject to limits set by SEBI.
+
+             (ii) the exposure as mentioned above would include guarantees provided by the
+                  bank for itself or for others as well as debt or equity securities of the bank
+                  which have been deposited by members for additional capital or margins.
+
+3.3A.2 The relevant authority specifies the following securities, including equity shares,
+         units of mutual funds which could be considered as eligible securities and margin
+         for the purpose of non-cash component of base minimum capital, additional capital
+         and margin.
+
+                                          16
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+       (a) Equity shares classified in Group I at the Exchange in accordance with the
+             parameters of volatility and liquidity as stipulated by SEBI and specified by
+             relevant authority shall be eligible as security for the non-cash component of
+             the additional capital and margin, subject to margin equivalent to the
+             respective VaR of the equity shares.
+
+       (b) Units of all mutual funds shall also be eligible security for the purpose of non-
+             cash component of additional capital and margin subject to a margin
+             equivalent to the VaR of the unit's NAV plus any exit load charged by the
+             mutual fund.
+
+       (c) The valuation of the equity shares and units of mutual funds above shall be
+             done on a daily basis.
+
+3.3.4  (d) The eligible shares for the purpose of the securities portion of the base
+3.3.5        minimum capital shall only be those which are classified as Group I, in terms
+             of the parameters of volatility and liquidity as stipulated by SEBI and
+3.3.6        specified by the relevant authority subject to a standard margin of 15%. The
+3.3.7        valuation for these shares would be done atleast once a week.
+
+       The Exchange shall prescribe from time to time such categories of securities that
+       would be eligible for a margin deposit as also the method of valuation and amount
+       of securities that would be required to be so deposited against the margin amount.
+
+       The Exchange shall at any time, exempt any Trading Member/Participant or
+       category of Trading Members/Participants from all or any of the margin
+       requirements stipulated or modify the specific requirements for a Trading
+       Member/Participant.
+
+       The procedure for refund/adjustment of margins will be such as may be notified by
+       the Exchange from time to time.
+
+       The Exchange shall from time to time, impose upon any particular Trading
+       Member/Participant or category of Trading Member/Participant any special or other
+       margin requirement.
+
+3.4 ORDERMANAGEMENT
+
+3.4.1 ORDER TYPE
+         The Exchange shall stipulate from time to time, the kinds of orders that a Trading
+         Member can place in the system which may include Normal order, Special Term
+         order, etc. as also the order attributes that he could place thereon.
+
+3.4.2 ORDER ATTRIBUTES
+
+         (a) The Exchange shall from time to time allow various order attributes subject
+                to restrictions as prescribed in the trading parameters, which will include
+                (i) ON STOP
+
+                                          17
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+3.4.3         (ii) DISCLOSED QUANTITY
+3.4.4         (iii) IMMEDIATE OR CANCEL
+3.4.5         (iv) GOOD TILL DAY
+              (v) GOOD TILL CANCELED
+              (vi) GOOD TILL DATE
+
+       (b) The attributes of special term order shall be specified by the Exchange from
+              time to time and shall include
+              (i) MINIMUM FILL
+              (ii) ALL OR NONE
+
+       (c) The Exchange shall specify the order types and order attributes permitted for
+              different market types, trade types, etc.
+
+       MODIFICATION AND CANCELLATION OF ORDERS
+       (a) A Trading Member shall be permitted to modify or cancel his orders,
+
+              provided a trade has not already taken place in respect of that order.
+
+       (b) The order can be modified by effecting changes in the order input parameters
+              in the manner and on such condition as specified by the Exchange.
+
+       (c) The modified order shall lose or retain its time priority as per the trading
+              parameter set by the Exchange.
+
+       ORDER VALIDATION
+       Orders entered into the Trading System by Trading Members shall be subject to
+       various validation requirements as prescribed by the Exchange from time to time
+       including trading parameters, turnover limits and/or other restrictions placed on
+       traded securities. Orders that do not meet the validation checks will not be accepted
+       by the Trading System.
+
+       MATCHING RULES
+       (a) The Exchange shall specify from time to time the kinds of order books that
+
+              shall be maintained on the system, the order matching algorithms and the
+              matching rules and parameters that shall be followed therein.
+
+       (b) The Exchange may modify or change the matching algorithms relevant to
+              any market or order books any time where it is necessary to do so.
+
+       (c) Where the Exchange feels that it is in the interests of the market to do so, it
+              may at any time make unavailable any particular order books or forms of
+              matching, in the case of a particular security or Trading Member or to the
+              market as a whole.
+
+       (d) Without prejudice to the generality of the above, the order matching rules
+              would include the following:
+              (i) Orders in the Normal market will be matched on price -time priority
+                    basis.
+              (ii) The best buy order shall match with the best sell order. For trading on
+                    price, the best buy order would be the one with the highest price and the
+                    best sell order would be the one with the lowest price.
+
+                                          18
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+         (e) The trading system shall store orders for the purpose of matching in
+                different order books including:
+                (i) Regular lot book.
+                (ii) Special Term order book.
+                (iii) On Stop order book.
+
+3.5 CONTRACT NOTE
+
+3.5.1 Every Trading Member shall issue a contract note to his constituents for trades
+         executed in such format as may be prescribed by the Exchange from time to time
+         with all relevant details as required therein to be filled in and issued in such manner
+         and within such time as prescribed by the Exchange.
+
+3.5.2 A contract note shall be signed by a Trading Member or his Authorised signatory
+         or constituted Attorney.
+
+3.5.3 The Contract Notes shall be numbered with unique running serial number
+         commencing from one which shall be reset only at the beginning of every financial
+         year. In case separate series are maintained in respect of different dealing offices
+         of the trading member, then the dealing office name or code shall be prefixed to the
+         serial number.
+
+3.5 A Notwithstanding anything contained in Regulation 3.5, a contract note may also
+         be issued by a Trading Member in electronic form in such format as may be
+         prescribed by the Exchange from time to time duly authenticated by means of a
+         digital signature as specified in the Information Technology Act, 2000 and the Rules
+         made thereunder.
+
+3.6 BROKERAGE
+
+3.6.1 All the orders entered on the Trading System shall be at prices exclusive of
+         brokerage.
+
+3.6.2 Trading Members shall charge brokerage at rates not exceeding such scale as the
+         Exchange may from time to time prescribe.
+
+3.6.3 A Trading Member shall charge brokerage separately to their constituents and this
+         shall be indicated separately from the price, in the contract note.
+
+3.7 TURNOVER LIMITS
+         The Exchange has a right to impose limits with or without reasons on turnover
+         position of Trading Members.
+         (a) The Exchange shall set turnover limits for each Trading Member.
+         (b) The Exchange shall use the total consideration for the trade to maintain this
+                limit.
+         (c) The turnover figure for each member would include the next possible
+                potential match (i.e. the next trade to be executed)
+
+3.8 INTEREST, DIVIDEND, RIGHTS/BONUS AND CALLS
+
+                                          19
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+         The buyer shall be entitled to receive all coupons, dividends, bonus, rights and other
+         privileges which may appertain to securities cum coupon, cum dividend, cum
+         bonus, cum rights, etc. and the seller shall be entitled to receive all coupons,
+         dividends, bonus issues, rights and other privileges which may appertain to
+         securities sold ex coupon, ex dividend, ex bonus, ex rights, etc.
+
+3.9 MARGIN FROM THE CONSTITUENTS
+         The Trading Members shall have the right to demand from its constituents the
+         Margin Deposit which the member has to provide under these Trading Regulations
+         in respect of the business done by the Members for such constituents.
+
+The Trading Members shall buy securities on behalf of the constituent only on the
+receipt of margin of minimum such percentage as the relevant authority may decide
+from time to time, on the price of the securities proposed to be purchased, unless
+the constituent already has an equivalent credit with the broker. The Trading
+Member may not, if so desire, collect such a margin from Financial Institutions,
+Mutual funds and Foreign Institutional Investors.
+
+The Trading Members shall buy securities on behalf of the constituent only on the
+receipt of margin of minimum of such percentage as the relevant authority may
+decide from time to time, on the price of the securities proposed to be sold, unless
+the Trading Member has received the securities to be sold with valid transfer
+documents to his satisfaction prior to such sale. The Trading Member may not, if
+so desire, collect such a margin from Financial Institutions, Mutual funds, and
+Foreign Institutional Investors.
+
+         The Trading Member shall obtain a written undertaking from the constituents that
+         the latter shall when called upon to do so forthwith from time to time provide a
+         Margin Deposit and/or furnish additional Margin as required under these Rules and
+         Regulations in respect of the business done for the constituent by and/or as agreed
+         upon by constituent with the Trading Member concerned.
+
+         The Trading Member may keep the unutilised margin deposits of his client in bank
+         deposits and pay interest on the same at such rate as may be mutually agreed in
+         writing between the Trading Member and his constituent out of the interest accrued
+         on the said deposits.
+
+3.10 TRADING MEMBER IN DEFAULT
+
+         For the purpose of Byelaw 8 of Chapter X of the Byelaws of the Exchange, the
+         period within which a constituent shall close out his contract shall be seven trading
+         days from the date of pay out of securities due to him; Provided however, if the
+         constituent has not effected the close out as stated above, he shall be deemed to
+         have closed out at the highest price of the said security deliverable to
+
+                                          20
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+         him from the date of trading till the 7th trading day from the date of pay out and loss
+         or damage referred in the said Byelaw shall be ascertained accordingly.
+
+3.11 CONSTITUENT IN DEFAULT
+
+         If a Constituent fails to make payment of consideration to the trading member in
+         respect of any one or more securities purchased by him before the pay-in date
+         notified by the Exchange from time to time, the Trading Member shall be at liberty
+         to sell the securities received in pay-out, in proportion to the amount not received,
+         after taking into account any amount lying to the credit of the Constituent, by selling
+         equivalent securities at any time on the Exchange not later than the fifth trading day
+         reckoned from the date of pay-in. If the trading member has not sold the securities
+         for any reason whatsoever, such securities shall be deemed to have been closed out
+         at the close out price declared by the Exchange for the fifth trading day. The loss,
+         if any, on account of the close out shall be to the account of the Constituent.
+
+         If a Constituent fails to deliver any one or more securities to the pool account of the
+         trading member in respect of the securities sold by him before the pay-in date
+         notified by the Exchange from time to time, such undischarged obligation in relation
+         to delivering any one or more securities shall be deemed to have been closed out at
+         the auction price or close-out price, as may be debited to the Trading Member in
+         respect of the security for the respective settlement, to the extent traceable to the
+         Constituent who has failed to deliver; otherwise the close out price on the date of
+         pay-out in respect of the relevant securities, declared by the Exchange. The loss, if
+         any, on account of the close out shall be to the account of the Constituent.
+
+         Subject to what is stated above, no further claims shall lie between the Constituent
+         and Trading Member.
+
+         Explanation: If for any reason, schedule of pay-in and pay-out is modified the above
+         provision shall be made applicable reckoning the actual date of pay-in and/or pay-
+         out, as the case may be.
+
+3.12 MARGIN TRADING FACILITY
+
+         Every Trading Member of the Exchange who desires to provide Margin Trading
+         facility to his Constituents may be permitted by the Exchange to do so subject to
+         such norms, guidelines, eligibility criteria as may be prescribed by SEBI or the
+         Exchange from time to time.
+
+         For the purpose of this Regulation `Margin Trading facility' means and refers to the
+         facility pursuant to which part of the transaction value due to the Exchange, at the
+         time of purchase of securities, shall be paid by the Trading Member on behalf of
+         the Constituent on Constituent's request, subject to norms, guidelines
+
+                                          21
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+prescribed by SEBI or the Exchange from time to time and on such terms as may
+be mutually agreed between the Trading Member and the Constituent.
+
+3.13 COLLECTION OF SECURITIES TRANSACTION TAX
+
+         Every Trading Member shall remit to the Exchange the Securities Transaction Tax
+         (STT), in respect of the transactions entered into by him on the Exchange either on
+         his own behalf or on behalf of his Constituents in accordance with the procedures
+         prescribed by the Relevant Authority from time to time for the calculation and
+         collection of such tax. Any Trading Member who fails to make the payment in
+         accordance with the procedures prescribed by the Relevant Authority from time to
+         time would be liable for such consequences of non- payment including but not
+         limited to withdrawal of trading facility, appropriation from the monies of the
+         Trading Member, withholding of pay-outs, etc. as may be prescribed from time to
+         time.
+
+3.14 The trading members shall -
+
+         (i) collect copies of Permanent Account Number (PAN) cards issued to their
+                  existing as well as new clients by the Income-tax department and maintain
+                  the same in their record after verifying with the original;
+
+         (ii) cross check the aforesaid details collected from their clients with the details
+                  on the website of the Income tax department; and
+
+         (iii) upload the details of PAN so collected to the Exchanges as part of unique
+                  client code.
+
+                                          22
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+       4. CONDUCT OF BUSINESS BY TRADING MEMBERS
+
+4.1    OFFICE RELATED PROCEDURE
+4.1.1
+       No Trading Member shall carry on in any office or premises any activit y connected
+4.1.2  with or pertaining to its operations as a Trading Member of the Exchange unless it
+4.1.3  has intimated to the Exchange the full address of such office or premises with details
+4.1.4  of the activity proposed to be so carried on therein and the person in whose
+       supervision and control it is to be so carried on.
+4.1.5
+       Each office, department for trading on the NSE, shall be under the supervision and
+       control of the Trading Member establishing it and of the personnel delegated with
+       such authority and responsibility in this regard.
+
+       Every Trading Member shall ensure that all persons acting in his behalf on the
+       Trading System shall subscribe at all times to high standards of professional
+       expertise and integrity.
+
+       Each Trading Member shall at all times maintain such infrastructure, staff,
+       communication facilities and records so as to be able to service his constituents
+       satisfactorily and as per the requirements enumerated in the Exchange Bye-laws,
+       Rules and Regulations or any other relevant Act(s) in force for the time being.
+
+       Where the Exchange feels it necessary, in the public interest to do so, it may at its
+       own instance or on a complaint from another Trading Member or client, seek
+       explanation from the Trading Member regarding the level of service or professional
+       conduct of the Trading Member or any of his staff where such service or conduct
+       has been found unsatisfactory or contrary to principles enumerated in the Exchange
+       Bye-laws, Rules and Regulations, or notifications, directions or circulars issued
+       thereunder.
+
+4.2    SUPERVISION
+4.2.1
+       PROCEDURES TO BE FOLLOWED
+       (a) Each Trading Member shall establish, maintain, and enforce procedures to
+
+              supervise its business and to supervise the activities of its employees that are
+              reasonably designed to achieve compliance with the NSE Byelaws, Rules and
+              Regulations and any notifications, directions etc. issued thereunder as well as
+              the relevant statutory Acts.
+       (b) The Trading Member for the purpose of better control may, if it so desires,
+              maintain an internal record of the names of all persons who are designated as
+              supervisory personnel and the dates for which such designation is or was
+              effective.
+       (c) Every Trading Member shall specifically authorise in writing person or
+              persons, who may be authorised to transact on behalf of the Trading Member
+              and to do such acts which Trading Member may wish to delegate to such
+              person and make available a copy of such power of attorney to the Exchange
+              before such person transacts any business on the Exchange.
+
+                                          23
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+       (d) A Trading Member shall maintain such records and make available to
+              inspection by any person authorised in this behalf by the Exchange, the
+              information related to such Trading Member's financial condition as
+              prescribed by the Exchange for this purpose.
+
+       (e) The Trading Member shall pay such fees, charges and other sum as the
+              Exchange may notify from time to time, in such time and manner as required
+              by the Exchange.
+
+       (f) No Trading Member shall permit or effect or cause to be permitted or effected
+              any change in the status or constitution, or enlargement, modification or
+              restriction of its activities or operations, or commencement, modification or
+              termination of any arrangement or understanding (not being an agreement
+              executed with a constituent in terms of the Regulations) with any entity with
+              respect to its operations as a Trading Member, unless the prior approval of
+              the Exchange in writing is obtained in respect thereof.
+
+4.2.2  INTERNAL INSPECTIONS
+
+       Each Trading Member shall conduct a review, at least annually, of the business in
+       which it engages, which shall be reasonably designed to assist in detecting and
+       preventing violations of and achieving compliance with Bye Laws, Rules and
+       Regulations.
+
+4.2.3 WRITTEN APPROVAL
+
+         Each Trading Member shall establish procedures for the review and endorsement
+         by an appropriate senior officer in writing, on an internal record, of all transactions
+         and all correspondence of its employees pertaining to the solicitation or execution
+         of any securities transaction.
+
+4.2.4 QUALIFICATIONS INVESTIGATED
+
+         Each Trading Member shall have the responsibility and duty to ascertain the good
+         character, business repute, qualifications and experience of any person prior to
+         making such certification in the application of such person for registration with the
+         Exchange as User.
+
+4.3 RELATION WITH THE CONSTITUENTS
+
+4.3.1 Every Trading Member shall enter into an agreement with each of his constituents,
+         i.e. clients, before accepting or placing orders on the constituent's behalf. Such
+         agreement, shall include provisions specified by the Exchange in this behalf and
+         shall be in such format as may be prescribed by the Exchange from time to time.
+         The term constituent herein shall not include a Participant. The Exchange may
+         categorise constituents into such types as may be necessary for the above purpose
+         and specify the clauses to be included in agreements to be entered into by the
+         Trading Member depending on the category of such constituent. However the
+         Trading Member's responsibility shall not in any way be reduced due to non-
+         execution of agreement with the constituent;
+
+                                          24
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+         Provided however, a Trading Member and a Constituent, who is a SEBI registered
+         Foreign Institutional Investor, Mutual Fund, Venture Capital Fund and Foreign
+         Venture Capital Investor, Scheduled Commercial Bank, Multilateral and Bilateral
+         Development Financial Institution, State Industrial Development Corporation,
+         Insurance Company registered with IRDA and Public Financial Institution as
+         defined under Section 4A of the Companies Act, 1956, may, at their discretion,
+         decide about the requirement of entering into such agreement.
+
+4.3.1 A Every Trading Member shall enter into an agreement with each of his Sub-
+         brokers, before accepting or placing orders on behalf of the Constituents of the Sub-
+         broker. Such agreement shall include provisions specified by the Exchange in this
+         behalf and shall be in such format as may be prescribed by the Exchange from time
+         to time. However the Trading Member's responsibility shall not in any way be
+         reduced due to non-execution of agreement with the Sub-broker.
+
+4.3.1 B Every Trading Member and each of his recognised Sub-brokers affiliated to him
+         shall enter into a tripartite agreement from such date as may be specified by SEBI
+         / the Exchange, with each of the Sub-broker's Constituents, i.e. clients, before
+         accepting or placing orders on the Constituent's behalf. Such agreement shall
+         include provisions specified by the Exchange in this behalf and shall be in such
+         format as may be prescribed by the Exchange from time to time. However the
+         Trading Member's and Sub-broker's responsibility shall not in any way be reduced
+         due to non-execution of agreement with the Constituent.
+
+4.3.2 When establishing a relationship with a new client, Trading Members must take
+         reasonable steps to assess the background, genuineness, financial soundness of such
+         person and his investment objectives by obtaining from the new client/constituent
+         a Constituent Registration Form in such format as may be prescribed by the
+         Exchange from time to time;
+
+         Provided however, a Trading Member may, at his discretion, not obtain Constituent
+         Registration Form from a Constituent, who is a SEBI registered Foreign Institutional
+         Investor, Mutual Fund, Venture Capital Fund and Foreign Venture Capital Investor,
+         Scheduled Commercial Bank, Multilateral and Bilateral Development Financial
+         Institution, State Industrial Development Corporation, Insurance Company
+         registered with IRDA and Public Financial Institution as defined under Section 4A
+         of the Companies Act, 1956.
+
+4.3.2 A Prior to registering Constituents, every Trading Member is required to identify his
+         Constituents and to ensure `in-person' verification of the Constituents as per
+         guidelines as may be prescribed by the Exchange from time to time.
+
+4.3.2 B The trading members shall give, free of charge, a copy of all the documents executed
+         by his Constituent with him within such time, from the date of such execution, as
+         may be prescribed by the Exchange from time to time and shall obtain Constituent's
+         acknowledgement on receipt of the same.
+
+                                          25
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+4.3.3  Trading Member shall make the Constituent aware of trading segment to which
+4.3.4  Trading Member is admitted, particulars of SEBI registration number, employee
+4.3.5  primarily responsible for the Constituents affairs, the precise nature of the Trading
+       Member's liability for business to be conducted, basic risks involved in trading on
+       the Exchange (equity and other instruments) including any limitations on the
+       liability and the capacity in which the Trading Member acts and the Constituent's
+       liability thereon, investors' rights and obligations, etc. by issuing to the Constituent
+       a Risk Disclosure Document in such format, as may be prescribed by the Exchange
+       from time to time and shall obtain the same from his Constituents duly signed, from
+       such date as may be specified by the Exchange. Signing of the Risk Disclosure
+       Document is optional in case of institutional clients
+
+       The Trading Member shall provide extracts of relevant provisions governing the
+       rights and obligations of constituents as constituents of Trading Members including
+       Participants as prescribed in the Bye-laws, Rules and Regulations, relevant
+       manuals, notifications, circulars, any additions or amendments thereto etc. of the
+       Exchange, or of any regulatory authority, to the extent it governs the relationship
+       between Trading Members and constituents, to the constituents at no extra cost. The
+       Trading Member shall also bring to the notice of his constituents, including
+       Participants any indictments, penalties etc. imposed on him by the Exchange or
+       anyother regulatory authority.
+
+       Recommendations to the constituents:
+
+       (a) A Trading Member shall make adequate disclosures of relevant material
+              information in its dealing with his constituents.
+
+       (b) No Trading Member or person associated with the Trading Member shall
+              guarantee a constituent against a loss in any securities transactions effected
+              by the Trading Member with or for such constituent.
+
+4.4    GUIDELINES GOVERNING RELATIONSHIP BETWEEN TRADING
+4.4.1  MEMBER AND CONSTITUENT
+
+4.4.2  The Trading Member shall not recommend to the constituent a sale or purchase of
+       securities traded on the Trading System, unless he has reasonable grounds to believe
+       that such recommendation is suitable for the constituent on the basis of the facts, if
+       any, disclosed by the constituent, whether in writing or orally, regarding the
+       constituent's security holdings, financial soundness and investment objectives.
+
+       The Trading Member shall make adequate disclosures of relevant material
+       information in dealing with the constituent including the current best price of trade
+       and trade or order quantities on the Trading System, as also any allocation policy
+       inter se constituents, any relevant announcement from the Exchange relating to
+       margin, trading restrictions as to price, quantity or where the Trading Member is
+       the counter party to a trade executed on the NEAT with the constituent.
+
+                                          26
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+4.4.3 Where the Trading Member manages a discretionary account for or on behalf of the
+         constituent, he should abide by the Securities and Exchange Board of India
+         (Portfolio Managers) Rules and Regulations, 1993.
+
+4.4.4 The Trading Member shall not furnish any false or misleading information or advice
+         with a view to inducing the constituent to do business in particular securities and
+         which will enable the Trading Member to earn a gain thereby.
+
+4.4.5 The Trading Member shall explain the NEAT Trading System and order matching
+         process to the constituent before accepting any orders from him.
+
+4.4.5 A Trading Members shall inform their Constituents whether they do client based
+         trading or Pro-account trading. Trading Members shall disclose the aforesaid
+         information-
+         (a) to their existing Constituents within such period as specified by the Exchange;
+         (b) to their new Constituents upfront at the time of entering into Member-Client
+             Agreement;
+         (c) to their Constituents before carrying out any Pro-account trading, in case they
+             presently do not do Pro-account trading, but choose to do so at a later date.
+
+4.4.6 Where the constituent requires an order to be placed or any of his order to be
+         modified after the order has entered the system but has not been traded, the Trading
+         Member may, if it so desires, obtain order placement/modification details in writing
+         from the constituent. The Trading Member shall accordingly provide the constituent
+         with the relevant order confirmation/modification slip or copy thereof, forthwith, if
+         so required by the constituent.
+
+4.4.7 Where the constituent requires any of his orders to be cancelled after the order has
+         been entered in the system but has not been executed, the Trading Member may, if
+         it so desires, obtain the order cancellation details in writing from the constituent.
+         The Trading Member shall accordingly provide the constituent with the relevant
+         order cancellation details, forthwith, if so required by the constituent.
+
+4.4.8 The Trading Member may, if it so desires, obtain in writing, the delivery and
+         payment requirement in any instructions of an order that it receives from the
+         constituent. Where a Trading Member receives a request for order modification or
+         order cancellation from the constituent, it shall duly bring it to their notice that if
+         the order results in a trade in the meantime, the requests for modification or
+         cancellation cannot be executed.
+
+4.4.9 The Trading Member shall not accumulate constituent's order / unexecuted balances
+         of order where such aggregate orders / aggregate of unexecuted balance is greater
+         than the Regular lot size, specified for that security by the Exchange. The Trading
+         Member shall place forthwith all the accumulated orders where they exceed the
+         Regular lot size.
+
+4.4.10 The Trading Member agrees to act promptly in accordance with instructions
+         provided by the constituent unless it has a discretion as to timing, in which case it
+         must exercise its judgment as to the best moment.
+
+                                          27
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+4.4.11 The Trading Member shall provide constituent with a copy of the trade confirmation
+         slip as generated on the Trading System forthwith on execution of the trade, if so
+         desired by the constituent.
+
+4.4.12 In addition to the guidelines issued by SEBI relating to the regulation of transactions
+         between clients and brokers, member shall at all times keep the moneys of the
+         constituent in a separate bank account.
+
+4.4.13 Where the member is required to pay margin money on transaction executed on
+         behalf of the constituent, it shall collect the same from the constituent in such form
+         and manner as may be prescribed by NSEIL.
+
+4.4.14  Where the constituent requires an executed trade to be cancelled, the Trading
+        Member shall obtain a written request for trade cancellation from the constituent.
+        In all instances of trade cancellation requests, the member shall explain to the
+        constituent that the right to approve or reject such trade cancellation requests rests
+        with the Exchange.
+
+4.4.15  The Trading Member shall make pay out of funds or delivery of securities, as the
+        case may be, to the Constituent within one (1) working day of receipt of the payout
+        from the Exchange.
+        Provided, however, that in case the Constituent has given specific authorisation for
+        retaining funds and securities, payout of such funds or delivery of such securities,
+        as the case may be, may not be made within one working day from the receipt of
+        payout from the Exchange, subject to such terms and conditions as may be
+        prescribed by the Exchange from time to time.
+
+4.4.16 (a) Trading Members should not accept cash from the Constituents whether against
+               obligations or as margin for purchase of securities and/or give cash against
+               sale of securities to the Constituents.
+
+         (b) All payments shall be received / made by the Trading Members from / to the
+               Constituents strictly by account payee crossed cheques / demand drafts or by
+               way of direct credit into the bank account through EFT, or any other mode
+               allowed by RBI. The Trading Members shall accept cheques drawn only, for
+               their transactions.
+
+         (c) Similarly in the case of securities also, giving / taking delivery of securities in
+               `demat mode' should be directly to / from the `beneficiary accounts' of the
+               Constituents except delivery of securities to a recognised entity under the
+               approved scheme of the Exchange and /or SEBI.
+
+4.4.17 Where a Power of Attorney is executed by the Constituent in favour of the
+           trading member, authorising the trading member to operate Constituent's bank
+
+                                          28
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+       and demat accounts, such Power of Attorney shall be subject to such terms and
+       conditions as may be prescribed by the Exchange from time to time.
+
+4.5 CODE OF CONDUCT FOR TRADING MEMBERS
+
+4.5.1  ADHERENCE TO SEBI CODE OF CONDUCT
+
+       The Trading Member shall at all times subscribe to the Code of Conduct as
+       prescribed by the Securities and Exchange Board of India (Stock Brokers and Sub-
+       Brokers ) Regulations, 1992.
+
+4.5.2 GENERAL PRINCIPLES
+
+         (a) Professionalism : A Trading Member in the conduct of his business, shall
+                observe high standards of commercial honour of just and equitable principles
+                of trade.
+
+         (b) Adherence to Trading Practices : Trading Members shall adhere to the
+                Rules, Regulations and Byelaws of the Exchange and shall comply with such
+                operational parameters, rulings, notices, guidelines and instructions of the
+                relevant authority as may be applicable from time to time.
+
+         (c) Honesty and Fairness: In conducting his business activities, a Trading
+                Member shall act honestly and fairly, in the best interests of his constituents.
+
+         (d) Capabilities : A Trading Member shall have and employ effectively the
+                resources and procedures which are needed for the proper performance of his
+                business activities.
+
+4.5.3 TRADING PRINCIPLES
+
+         (a) Trading Members/Participants shall ensure that the fiduciary and other
+                obligations imposed on them and their staff by the various statutory Acts,
+                Rules and Regulations are complied with.
+
+         (b) Trading Members/Participants shall ensure -
+                (i) that any employee who commits the Trading Members or Participants
+                      to a transaction has the necessary authority to do so
+                (ii) that employees are adequately trained in operating in the relevant market
+                      segment in which they deal, are aware of their own, and their
+                      organisation's responsibilities as well as the relevant Statutory Acts
+                      governing the Trading Member, the Rules, Regulations and Bye-laws of
+                      the Exchange including any additions or amendments thereof.
+
+         (c) Without prejudice to regulation 3.1.6 and 3.1.7, a Trading Member shall be
+                responsible for all the actions including trades originating through or with the
+                use of all following variables - Trading Member Id, User Id, valid User
+                password at that point of time. However if the Trading Member satisfies the
+                Exchange that the action(s) and /or trade(s) took place due to fraud or
+                misrepresentation by any other person other than his authorised person(s) and
+                that the action(s) and/or trades did not originate from any of his approved
+                workstations, the Exchange may issue such directions as it
+
+                                          29
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+       considers just and reasonable. The directions may include referring the
+       matter to arbitration and/or annulment of trade(s) so effected.
+
+(d) When entering into transactions on behalf of constituents, the Trading
+       Members shall ensure that they abide by the Code of Conduct and regulations
+       as enumerated in the current chapter of these regulations.
+
+(e) No Trading Member or person associated with a Trading Member shall make
+       improper use of constituent's securities or funds.
+
+(f) No Trading Member shall publish and circulate or cause to be published or
+       circulated, any notice, circular, advertisement, newspaper article, investment
+       service or communication of any kind which purports to report any
+       transaction as a purchase or sale of any security unless such Trading Member
+       can establish if called for that such transaction was a bonafide purchase or
+       sale of such security or which purports to quote the purchase/sale price for
+       any security unless such Trading Member can establish if called for that such
+       quotation represents a bonafide order of such security.
+
+(g) When entering into or arranging transactions, Trading Members must ensure
+       that at all times great care is taken not to misrepresent in any way the nature
+       of transaction.
+
+(h) No Trading Member shall exercise any discretionary power in a client's
+       account unless such client has given prior written authorization to a stated
+       individual or individuals and the account has been accepted by the Trading
+       Member, as evidenced in writing by the Trading Member.
+
+(i) A Trading Member shall not act as a principal or enter into any agreement or
+       arrangement with a client or client's agents, employees or any other person
+       connected to the client, employee or agency, whereby special or unusual rates
+       are given with intent to give special or unusual advantage to such client for
+       the purpose of securing his business.
+
+(j) The facilit y of placing orders on `Pro-account' through trading terminals
+       shall be availed by the Trading Members only at one location of the
+       Trading Members as specified / required by the Trading Members. Any t
+       rading terminal located at a place other than the above location shall have
+       a facilit y to place order only for and on behalf of a Constituent by entering
+       client code details as required by the Exchange / SEBI. In case any t rading
+       member requires the facilit y of using `Pro-account' through trading
+       terminals from more than one location, such trading member shall request
+       the Exchange stating the reason for using the `Pro- account' at multiple
+       locations and the Exchange may, on a case to case basis after due diligence,
+       consider extending the facilit y of allowing use of `Pro- account' from more
+       than one location.
+
+                                          30
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+4.5.4 GENERAL GUIDELINES
+
+         A Trading Member shall desist from the following trading practices while
+         conducting business on the Exchange.
+
+         (a) Shielding or Assisting:
+                No Trading Member shall shield or assist or omit to report any Trading
+                Member whom he has known to have committed a breach or evasion of any
+                Rules, Bye-Laws or Regulations of the Exchange or of any resolution,
+                order, notice or direction thereunder of the Governing Board or the Managing
+                Director or of any committee or officer of the Exchange authorised in that
+                behalf.
+
+         (b) Suspended Securities
+                Except with the permission of the Exchange, business shall not be transacted
+                by the Trading Member in securities which have been suspended from official
+                quotation.
+
+         (c) Misleading Transactions
+                A Trading Member shall not-
+                (i) make bids and/or offers for securities with an intention of creating a
+                      false or misleading appearance with respect to the market for, or the
+                      price of any security or;
+                (ii) make a transaction or give an order for the purchase or sale of securities,
+                      the execution of which would involve no change of beneficial
+                      ownership, unless the Trading Member had no knowledge that the
+                      transaction would not involve a change in the beneficial ownership of
+                      securities.
+
+         (d) Use of information obtained in Fiduciary Capacity
+                A Trading Member who in the capacity of paying agent, transfer agent,
+                trustee, or in any other similar capacity, has received information as to the
+                ownership of securities, shall under no circumstances make use of such
+                information for the purpose of soliciting purchases, sales except at the request
+                and on behalf of the issuer.
+
+ 4.6   UNFAIR TRADING PRACTICES
+4.6.1
+       No Trading Member shall execute or cause to be executed or participate in an
+4.6.2  account for which there are executed purchases of any eligible security at
+       successively higher prices, or executed sales of any such security at successively
+       lower prices, for the purpose of creating or inducing a false, misleading or artificial
+       appearance of activity in such security or for the purpose of unduly or improperly
+       influencing the market price for such security or for the purpose of establishing
+       a price which does not reflect the true state of the market in such security.
+
+       No Trading Member shall, for the purpose of creating or inducing a false or
+       misleading appearance of activity in an eligible security or creating or inducing a
+       false or misleading appearance with respect to the market in such security,
+
+                                          31
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+         (a) enter any order or orders for the purchase of such security with knowledge
+                that an order or orders of substantially the same size, and at substantially
+                the same price, for the sale of any such security, has been or will be entered
+                by or for the same or different parties, or
+
+         (b) enter any order or orders for the sale of such security with the knowledge that
+                an order or orders of substantially the same size, and at substantially the
+                same price for the purchase of such security has been or will be entered by or
+                for the same or different parties.
+
+4.7 Every Sub-broker shall comply with all relevant statutory Acts, including Securities
+         Contracts (Regulation) Act, 1956 and Rules thereunder of 1957, and Securities
+         Exchange Board of India Act, 1992 and Rules, Regulations and guidelines
+         thereunder, Byelaws, Rules and Regulations of the Exchange and the requirements
+         of and under any notifications, directives, guidelines and circulars issued by SEBI
+         and/or the Exchange.
+
+                                          32
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+                             4A. RESIDUAL PENALTY
+
+4A.1 PENALTY FOR VIOLATIONS WHERE SPECIFIC PENALTY IS NOT PRESCRIBED
+
+         Trading Members who fail to comply with the Rules, Byelaws, and Regulations of the
+         Exchange or of any resolutions, orders, notices, directions or decisions or rulings issued/
+         passed by the Exchange or the relevant authority thereunder for which no separate penalty
+         has been provided, shall be liable to a penal action which may extend from giving
+         `Warning' to monetary penalty not exceeding Rs. 1 Crore, where the extent of violation is
+         not quantifiable.
+
+         However, in case the extent of violation is quantifiable, the broad criteria for taking penal
+         action shall include the following but not limited to:
+
+             (i) The amount of disproportionate gain or unfair advantage, wherever quantifiable,
+                  made as a result of the contravention
+
+             (ii) The amount of loss caused to an investor or group of investors as a result of the
+                  contravention
+
+             (iii) The repetitive nature of the contravention
+             (iv) The cost incurred by the Exchange, if any, due to the violation committed by the
+
+                  Trading Member
+             (v) Impact due to lack of Risk Management systems and processes at the Trading
+
+                  Member
+
+                                          33
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+                                   5. ARBITRATION
+
+5.1 DEFINITIONS
+
+         (a) `Act' shall mean the Arbitration and Conciliation Act, 1996 and includes any
+              statutory modification, replacement or re-enactment thereof, for the time being
+              in force.
+
+         (b) 'arbitrator' means a sole arbitrator or a panel of arbitrators.
+         (c) `Appellate Arbitrator' shall mean a panel of arbitrators who hear the appeal
+
+              filed against the arbitral award.
+         (d) `arbitral award' shall mean an award passed by the Arbitrator.
+         (e) `Appellate Arbitral Award' shall mean an award passed by the Appellate
+
+              Arbitrator
+         (f) 'Applicant' means the person who makes the application for initiating arbitral
+
+              proceedings.
+         (g) 'Respondent' means the person against whom the Applicant lodges an
+
+              arbitration application, whether or not there is a claim against such person.
+
+5.2 SEAT OF ARBITRATION
+
+         (a) The Relevant Authority may provide for different seats of arbitration for
+              different regions of the country either generally or specifically and in such an
+              event the seat of arbitration shall be the place so provided by the Relevant
+              Authority.
+
+         (b) The premises/location where arbitration shall take place shall be such place as
+              may be identified by the Exchange from time to time and intimated to the
+              arbitrator and the parties to the dispute accordingly.
+
+5.3 JURISDICTION OF COURTS
+         For the purpose of Byelaw 17 of Chapter XI of the Byelaws of the Exchange, the
+         application under section 34 of the Act, if any, against the decision of the Appellate
+         Arbitrators shall be filed in the competent court nearest to the address provided by
+         the constituent in the KYC form or as per the change in address communicated
+         thereafter by the constituent to the trading member.
+
+5.4 REFERENCE OF THE CLAIM, DIFFERENCE OR DISPUTE
+
+         (a) Save as otherwise specified by the Relevant Authority, if the value of the claim,
+             difference or dispute is more than Rupees Twenty Five Lakhs on the date of
+             application, then such claim, difference or dispute shall be referred to a panel
+             of three arbitrators and if the value of the claim, difference or dispute is upto
+             Rupees Twenty Five Lakhs, then the same shall be referred to a sole arbitrator;
+
+             Provided further that in any claim difference or dispute which is less than
+             Rupees Twenty Five Lakhs, if there is a counter claim in excess of Rupees
+
+                                          34
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+             Twenty Five Lakhs, then the arbitration panel shall be expanded to three
+             arbitrators from a sole arbitrator.
+
+         (b) Where any claim, difference or dispute arises between Sub-broker and Client
+              of the Sub-broker, in such claim, difference or dispute, the trading member, to
+              whom such Sub-broker is affiliated, shall be impleaded as a party.
+
+5.5 CRITERIA AND PROCEDURE FOR SELECTION OF PERSONS
+         ELIGIBLE TO ACT AS ARBITRATORS
+
+         For facilitating arbitration, the Relevant Authority from time to time may specify
+         as the following:
+
+         (i) Eligibility criteria for arbitrators
+         (ii) The declarations/disclosures/ undertakings to be given by arbitrators
+         (iii) Code of conduct for arbitrators.
+         (iv) List of arbitrators for each Regional Arbitration Centre.
+
+5.6 PROCEDURE FOR APPOINTMENT OF ARBITRATORS
+         (a) The Applicant shall submit the arbitration application to the Exchange in
+                  Form No.I/IA alongwith preferred choice of arbitrators in the descending
+                  order of preference.
+
+         (b) Form No.I/IA received from the Applicant shall be forwarded by the
+                  Exchange to the Respondent.
+
+         (c) The Respondent may choose his preference from the list submitted by the
+                  Applicant or submit his preferred choice of arbitrators in the descending
+                  order of preference in Form No.II /IIA within seven days of the receipt of
+                  Form No. I/IA from the Exchange.
+
+         (d) On receipt of Form No. I/IA and II/IIA, the Relevant Authority shall identify
+                  and appoint an arbitrator(s) in the first instance from amongst the preferred
+                  choices indicated by the Constituent.
+
+         (e) If the Constituent fails to provide the preferred choice of arbitrators, then
+                  the Relevant Authority shall identify and appoint an arbitrator(s) from
+                  amongst the preferred choices indicated by the other party to the arbitration
+                  application.
+
+         (f) If both the parties to the arbitration fail to provide the preferred choice of
+                  arbitrators, then the Relevant Authority shall identify and appoint an
+                  arbitrator(s) from amongst the list of arbitrators.
+
+         (g) In the case of arbitration matters which are to be decided by a panel of
+                  arbitrators, the appointed arbitrators shall select from amongst themselves
+
+                                          35
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+                  an arbitrator who shall act as a presiding arbitrator. In case of failure or lack
+                  of consensus among the panel to select a presiding arbitrator, the Relevant
+                  Authority shall select the presiding arbitrator.
+
+         (h) The process of appointment of arbitrator shall be completed within 30 days
+                  from the date of receipt of application from the Applicant, subject to further
+                  period of extension by the Relevant Authority in case of hardships for the
+                  reasons to be recorded in writing. For the purpose of this clause, where
+                  deficiency in the application is found, the date of receipt of application shall
+                  be date on which the rectified application is received by the Exchange.
+
+5.7 VACANCY IN THE OFFICE OF THE ARBITRATOR
+
+         If the office of the sole arbitrator or any one or more of the arbitrators in the panel
+         of arbitrators falls vacant after the appointment thereto, the Relevant Authority shall
+         appoint the arbitrator preferably from the list of arbitrators in Form No.I/IA and
+         II/IIA already submitted by the Applicant and by the Respondent.
+
+5.8 COST OF ARBITRATION
+
+         (a) The parties to the claim, difference or dispute shall bear cost of arbitration.
+                  For this purpose, both the parties to arbitration shall make a deposit with the
+                  Exchange along with Form No. I/IA or Form No. II/IIA as the case may be,
+                  for defraying the costs that may be incurred for conducting the arbitration
+                  proceeding provided when there is failure, neglect or refusal by Respondent,
+                  being a constituent, to make a deposit accordingly, the Applicant shall be
+                  responsible for making such deposit. The Exchange shall have the right to
+                  recover the deposit from the trading member from the moneys due to it if
+                  the trading member fails to make the deposit.
+
+         (b) Without prejudice to provisions of clause (a) above, in any claim, difference
+                  or dispute referred to arbitration pursuant to Byelaw 1(A) if the Sub-broker
+                  fails to make the deposit with the Exchange in accordance with the
+                  provisions of clause (a) above, then the trading member to whom such Sub-
+                  broker is affiliated shall be liable to make the deposit with the Exchange.
+
+         (c) The amount of deposit, which has to be deposited is determined by the
+                  amount of the claim initially and thereafter determined based on a higher
+                  counter claim, if any, and is as specified below. The deposits (exclusive of
+                  statutory dues - stamp duty, service tax, etc.) shall not exceed the amount
+                  as indicated under
+
+                                          36
+National Stock Exchange of India Limited                Regulations - Part A (Capital Market Segment)
+
+Amount of Claim                           If claim is filed within      If claim is filed after six
+/Counter Claim,                           six months                    months
+whichever is higher
+(Rs.)                                     1.3% subject to a             3.9% subject to a minimum
+ 10,00,000                                                              of Rs.30,000/-
+                                          minimum                   of
+> 10,00,000 - 
+25,00,000                                 Rs.10,000/-
+
+> 25,00,000                               Rs. 13,000 plus 0.3%          Rs. 39,000    plus 0.9%
+                                                                        amount               above
+                                          amount        above           Rs. 10 lakh
+
+                                          Rs. 10 lakh
+
+                                          Rs. 17,500/- plus             Rs. 52,500/- plus 0.6 %
+
+                                          0.2 % amount above Rs.        amount            above
+
+                                          25 lakh subject to            Rs. 25 lakh subject to
+
+                                          maximum of Rs.                maximum       of
+
+                                          30,000/-                      Rs. 90,000/-
+
+Six months shall be computed from the end of the quarter during which the
+disputed transaction(s) were executed/ settled, whichever is relevant for the
+dispute. The deposits shall be rounded off to nearest to Rs.10/-.
+
+(d) Notwithstanding anything contained above, if the amount of claim is less
+        than or equal to Rs. 20 lakhs, then the cost of arbitration with respect to the
+        Constituent, whether Applicant or Respondent, shall be borne by the
+        Exchange.
+
+(e) In all arbitration applications on issue of the arbitral award, the deposit shall
+        be refunded by the Exchange to the party in whose favor the arbitral award
+        has been passed.
+
+(f) In all arbitration cases where claim was filed within six months from the date
+        of dispute, the full deposit made by the party against whom the arbitral
+        award has been passed shall be appropriated towards arbitration fees.
+
+(g) In all arbitration applications where claim was filed after six months from the
+        date of dispute, one-third of the deposit collected from the party against
+        whom the arbitral award has been passed, shall be appropriated towards
+        arbitration fees and balance two-third amount shall be credited to the
+        Investor Protection Fund of the Exchange.
+
+Explanation :
+   The six months period as referred in clauses (c), (d), (f) and (g) shall be
+   computed from the end of the quarter during which the disputed
+
+                                                    37
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+                  transaction (s) were executed/ settled, whichever is relevant for the
+                  dispute, and after excluding:-
+                  (i) the time taken by the Investors Services Cell of the Exchange
+
+                             (the time taken from the date of receipt of dispute till the decision
+                             by the Investor Services Cell) to resolve the dispute , and
+                  (ii) the time taken by the Trading Member to attempt the resolution of
+                           the dispute (the time from the date of receipt of dispute by the
+                           Trading Member to the date of receipt of the Trading Member's last
+                           communication by the Constituent) or one month from the date of
+                           receipt of the dispute by the Trading Member, whichever is earlier.
+
+         (h) With regard to issue of limitation, in all arbitration applications where three
+                  years have not yet elapsed from the date of dispute and the parties have
+                  not filed for arbitration with the Exchange, the cost of arbitration will be
+                  subject to the fee amount as mentioned in this Regulation or where the
+                  arbitration application was filed but was rejected solely on the ground of
+                  delay in filing within earlier limitation period of six months as prescribed
+                  under Bye-law (3) of Chapter XI as was in effect prior to September 1, 2010;
+                  and three years have not yet elapsed; the amount of fee already paid would
+                  be deducted from the amount of fee mentioned in this Regulation and the
+                  balance shall be borne by the parties to the arbitration in the manner
+                  specified under this Regulation.
+
+5.9 PROCEDURE FOR ARBITRATION
+
+         (a) The Applicant shall submit to the Exchange application for arbitration in
+                  Form No. I/IA, (three copies in case of sole arbitrator and five copies in case
+                  of panel of arbitrators) alongwith the following enclosures:
+
+                  (i) The Statement of Case (containing all the relevant facts about the
+                  dispute and relief sought)
+                  (ii) The Statement of Accounts
+                  (iii) Copies of Member - Constituent Agreement
+                  (iv) Copies of the relevant Contract Notes and Bills
+                  (v) A cheque/pay order/demand draft for the deposit payable at the seat of
+                  arbitration in favour of National Stock Exchange of India Limited
+                  (vi) List of names of the persons eligible to act as arbitrators
+
+         (b) If any deficiency/defect in the application is found, the Exchange shall call
+                  upon the Applicant to rectify the deficiency/defect either by return of the
+                  arbitration application or otherwise and the Applicant shall rectify the
+                  deficiency/defect within 15 days of receipt of intimation from the Exchange.
+                  If the Applicant fails to rectify the deficiency/defect within the prescribed
+                  period, the Exchange shall return the deficient/defective
+
+                                          38
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+     application to the Applicant in case the arbitration application has not
+     already been returned. However, the Applicant shall have the right to file a
+     revised application which shall be considered as a fresh application for all
+     purposes and dealt with accordingly.
+
+(c)  Upon receipt of Form No. I/IA, the Exchange shall forward a copy of the
+
+     statement of case and related documents to the Respondent. Upon receiving
+
+     Form No. I/IA, the Respondent shall submit Form II/IIA to the Exchange,
+
+     within 7 days from the date of receipt of Form I from the Exchange, three
+
+     copies in case of sole arbitrator and five copies in case of panel of arbitrators
+
+     along with the following -
+
+     i. The Statement of Reply (containing all available defences to the
+
+           claim)
+
+     ii. The Statement of Accounts
+
+     iii.  Copies of the Member Constituent Agreement,
+
+     iv. Copies of the relevant Contract Notes and Bills
+
+     v. Statement of the set-off or counter claim alongwith statements of
+
+           accounts and copies of relevant contract notes and bills
+
+     vi. Cheque/pay order/demand draft for the deposit payable at the seat
+
+           of arbitration in favour of National Stock Exchange of India Limited
+
+           along with Form No. II/IIA
+
+     (d) Upon receiving Form No.II/IIA from the Respondent(s), the arbitrator shall
+             be appointed as per the procedure prescribed in Regulation 5.6.
+
+     (e) In the event there is more than one Respondent, being legal heirs of a
+             deceased Constituent, then such legal heirs shall authorise one of them to
+             represent the deceased Constituent in the arbitration proceedings including
+             signing of Form II and such other documents as may be required.
+
+     (f) Upon receiving Form No. II/IIA from the Respondent, the Exchange shall
+             forward one copy to the Applicant. The Applicant shall within seven days
+             from the date of receipt of copy of Form II/IIA, submit to the Exchange, a
+             reply to any counterclaim, if any, which may have been raised by the
+             Respondent in its reply to the Applicant. The Exchange shall forward the
+             reply to the Respondent.
+
+     (g) The time period to file any pleading referred to herein may be extended for
+             such further periods as may be decided by the Relevant Authority in
+             consultation with the arbitrator depending on the circumstances of the
+             matter.
+
+     (h) Formats of Form No. I, IA, II, IIA and Form No. III and IIIA, IV and IVA in
+             case of appeals will be as prescribed by the Relevant Authority from time to
+             time.
+
+                                          39
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+5.10 REQUIREMENT FOR HEARINGS
+
+        (a) No hearing shall be required to be given to the parties to the dispute if the
+                value of the claim, difference or dispute is Rs.25,000/- or less. In such a
+                case the arbitrator shall proceed to decide the matter on the basis of
+                documents submitted by both the parties provided however the arbitrator for
+                reasons to be recorded in writing may hear both the parties to the dispute.
+
+        (b) If the value of claim, difference or dispute is more than Rs.25,000/-, the
+                arbitrator shall offer to hear the parties to the dispute unless both parties
+                waive their right for such hearing in writing.
+
+5.11 NOTICE OF HEARING
+
+        Unless otherwise specified, the Exchange shall in consultation with the arbitrator
+        determine the date, the time and place of the first hearing. Notice for the first
+        hearing shall be given at least ten days in advance, unless the parties shall, by their
+        mutual consent, waive the notice. The arbitrator shall determine the date, the
+        time and place of subsequent hearings of which a notice shall be given by the
+        Exchange to the parties concerned.
+
+5.12 ADJOURNMENT OF HEARING
+
+        If any party to the reference wants to make an application for adjournment of
+        hearing by the arbitrator, the party shall make an application in writing giving
+        reasons for seeking adjournment to the Exchange sufficiently in advance to enable
+        the Exchange to forward such request to the arbitrator. The arbitrator at his
+        discretion may grant the adjournment subject to such conditions as deemed fit by
+        him.
+
+5.12 A  Any person representing the constituent in the arbitral proceedings shall be
+        permitted to do so on production of a power of attorney duly executed and notarised
+        by the Constituent in his favour, provided however in case of a Trading Member,
+        he shall appear in the hearings on his own or through his authorised representative.
+        For the purpose of this Regulation, an authorised representative in case of a Trading
+        Member who/which is
+
+        (a) an individual - an employee or authorised person, as defined in these
+            Regulations, of such Trading Member; or
+
+        (b) a partnership firm - any partner or employee or authorised person,               as
+
+        defined in these Regulations, of such Trading Member; or
+
+                                          40
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+         (c) a company - any director or employee or authorised person, as defined in
+              these Regulations, of such Trading Member.
+
+5.13 ARBITRAL AWARD ON AGREED TERMS
+
+         If after the appointment of an arbitrator, the parties settle the dispute, then the
+         arbitrator shall record the settlement in the form of an arbitral award on agreed
+         terms.
+
+5.13 A ARBITRAL AWARD UNDER CERTAIN CIRCUMSTANCES
+
+         The arbitrator, in case of any arbitration proceedings which is not defended or in
+         his opinion is not effectively defended or if the award is on agreed terms, besides
+         the documents produced by the applicant, shall, for the purpose of passing a fair
+         and proper award, also consider any other document in general, which the arbitrator
+         considers necessary for the purpose of coming to a proper conclusion and in
+         particular the following documents for the purpose of arriving at a decision:
+
+         1. Copyof member-constituent agreement
+         2. Contract notes and bills
+         3. Statement of accounts given by the trading member to the constituent on
+
+             periodic basis.
+         4. Bank statements supported by confirmation from the bank regarding
+
+             payments/receipts.
+         5. Transaction cum Holding statements of the demat account(s) of the applicants
+
+             and respondents with the depository.
+         6. Unique id upload, if any, from the members to Exchange with regard to the
+
+             client.
+         7. Trade log in respect of transactions relating to dispute.
+
+         For the purpose of the above, the arbitrator may also seek relevant information from
+         the applicant as well as the Exchange, to the extent available with the Exchange.
+
+5.14 MAKING OF ARBITRAL AWARD
+
+         (a) The arbitral award shall be in writing and made in three originals duly dated
+                  and signed by the sole arbitrator or in case of a panel of arbitrators by all
+                  the three arbitrators.
+
+         (b) The arbitrator shall file all the three original awards with the Exchange,
+                  which shall arrange to send one original each to the parties to the dispute
+                  and the stamped original award shall be retained by the Exchange.
+
+                                          41
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+         (c) The award inter alia shall be in such form as may be prescribed by the
+                  Relevant Authority from time to time.
+
+5.15 INTEREST
+
+         (a) The arbitrator may include in the sum for which the award is made interest
+                  at such rate on such sum and for such period as the arbitrator deems
+                  reasonable.
+
+         (b) A sum directed to be paid by an award shall, unless the award otherwise
+                  directs, carry interest at the rate as specified in Section 31(7)(b) of the Arbitration
+                  and Conciliation Act, 1996 as in force at the relevant time.
+
+5.15 A LIABILITY OF THE TRADING MEMBER
+
+          In case of claims, differences and disputes to which a Sub-broker is a party, if the
+          arbitral award is made against such a Sub-broker then the Sub-broker shall be liable
+          to comply with such arbitral award. If the Sub-broker fails to comply with such
+          arbitral award, then the trading member to whom the Sub-broker is affiliated shall
+          be liable to comply with such arbitral award as if such arbitral award has been made
+          against such trading member within such time period as may be specified by the
+          Exchange.
+
+5.16 ARBITRATION FEES AND CHARGES, COSTS, ETC.
+
+         (a) The fees and expenses payable to arbitrator shall be as determined by the
+                  Relevant Authority from time to time.
+
+         (b) The costs, if any, to be awarded to either of the party in addition to the fees
+                  and charges that have to be borne by the parties for conducting the
+                  arbitration shall be decided by the arbitrator.
+
+          (c) Unless the arbitrator directs otherwise each party shall bear their own
+                  expenses of traveling and other incidental expenses incurred.
+
+5.17 ADMINISTRATIVE ASSISTANCE WHICH MAY BE PROVIDED BY THE
+         EXCHANGE
+
+         The Exchange shall-
+         (a) maintain a register of references;
+         (b) receive all applications for arbitration and communications addressed by the
+
+                  parties before or during the course of arbitration proceedings or otherwise
+                  in relation thereto;
+         (c) receive payment of all costs, charges, fees and other expenses;
+
+                                          42
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+(d) give notices of hearing and all other notices to be given to the parties before
+        or during the course of the arbitration proceedings or otherwise in relation
+        thereto;
+
+(e) communicate to the parties all orders and directions of the arbitrator;
+
+(f) receive and record all documents and papers relating to the reference and keep
+        in custody all such documents and papers except such as the parties are
+        allowed to retain;
+
+(g) communicate the award on behalf of the arbitrator;
+
+(h) generally do such things and take all such steps as may be necessary to assist
+        the arbitrator in the execution of their function.
+
+5.18 MODE OF COMMUNICATION
+
+(a) Any communication sent by the Exchange to either of the parties shall be
+
+deemed to have been properly delivered or served, even if such
+
+communication is returned to                  the      Exchange                              as
+
+unclaimed/refused/undelivered, if the same is sent to the ordinary business
+
+address and/or ordinary place of residence and/or last known address of the
+
+party, in any one or more of the following ways: -
+
+(i) by post,
+
+(ii) by registered post,
+
+(iii) under certificate of posting
+
+(iv) by speed post/courier services,
+
+(v) by telegram,
+
+(vi) by affixing it on the door at the last known business or residential address,
+
+(vii) by oral communication to the party in the presence of a third person,
+
+(viii) by advertising it in at least one prominent daily newspaper having
+
+circulation in the area where the last known business or residential address
+
+of Respondent is situated,
+
+(ix) by sending a message through the Trading System,
+
+(x) by electronic mail or fax
+
+(xi) by hand delivery
+
+(b) Any communication sent by either of the parties to the Exchange shall be
+    made in any one or more of the following ways:
+
+(i) by post (ordinary or registered or speed) or Courier service
+(ii) by telegram
+(iii) by fax
+(iv) by hand delivery
+
+5.19 The following documents shall be preserved by the Exchange for the time periods
+         as mentioned hereunder:
+
+(a) The original arbitration award along with acknowledgements shall be
+    preserved permanently.
+
+                                          43
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+         (b) In case an appeal for setting aside the award is not filed, then apart from the
+              original award, all the other records pertaining to arbitration shall be preserved
+              for 5 years from the date of award.
+
+         (c) In case an appeal for setting aside the award is filed, then apart from the original
+              award, all the other records pertaining to arbitration shall be preserved for 5
+              years from the date of final disposal by court.
+
+5.20 The destruction of records by the Exchange shall be subject to the previous order,
+         in writing of the relevant authority and the details of the destruction shall be entered
+         in a register wherein the brief particulars of the records destroyed along with the
+         certification regarding the date and mode of destruction shall be mentioned. The
+         registry of destruction shall be maintained by the Exchange permanently.
+
+5.21 APPELLATE ARBITRATION
+
+         (a) A party filing an appeal before the Appellate Arbitrator shall pay such fees as
+             prescribed by the Relevant Authority from time to time in addition to statutory
+             dues (stamp duty, service tax, etc) along with the appeal.
+
+         (b) The above provisions of Regulations 5.5 to 5.20 shall be applicable to Appellate
+             Arbitration.
+
+                                          44
+National Stock Exchange of India Limited  Regulations - Part A (Capital Market Segment)
+
+                  5A. DISPUTE RESOLUTION
+
+5A.1 DEFINITIONS
+
+      (a) 'Act' shall mean the Arbitration and Conciliation Act, 1996 and includes any
+               statutory modification, replacement or re-enactment thereof, for the time being
+               in force.
+
+      (b) 'Arbitrator' I 'arbitrator' shall mean a sole arbitrator or a panel of arbitrators.
+
+      (c) 'Arbitral Award' shall mean an award passed by the Arbitrator.
+
+          (d) 'ODR Institution' shall mean an alternative dispute resolution organization
+                   empaneled by the Exchange, for facilitating, administering and undertaking
+                   time bound resolution of disputes between parties in accordance with processes
+                   and procedures specified by the Relevant Authority from time to time.
+
+5A.2 VENUE AND SEAT OF PROCEEDINGS OF CONCILIATION AND
+         ARBITRATION
+
+5A.3  (e) The venue and seat of the proceedings of conciliation and arbitration shall be
+               determined in terms of Byelaw (18) of Chapter XIA of the Byelaws of National
+               Stock Exchange of India Limited.
+
+      (f) The Relevant Authority may, from time to time, determine the venue and seat
+               of proceedings of conciliation and arbitration.
+
+      JURISDICTION OF COURTS
+
+          For the purpose of Byelaw 20 of Chapter XIA of the Byelaws of National Stock
+          Exchange of India Limited, the application under Section 34 of the Act, if any, against
+          the decision of the Arbitrator shall be filed before the court having such competent
+          jurisdiction in India.
+
+5A.4 CRITERIA AND PROCEDURE FOR EMPANELMENT OF ODR
+         INSTITUTIONS
+
+      The Exchange may work in conjunction with other market infrastructure institutions to
+      specify the following, from time to time:
+
+      (i) Minimum criteria for empanelment of ODR Institutions;
+
+      (ii) Minimum standards of infrastructure, manpower and resources required to be
+              empanelled as ODR Institutions;
+
+      (iii) Procedure for conducting inspection/ audit of the ODR Institutions to ensure
+               adherence to applicable circulars/ guidelines/ regulations issued by the
+               Exchange and/ or the Relevant Authority;
+                                                     45
+National Stock Exchange of India Limited  Regulations - Part A (Capital Market Segment)
+
+      (iv) Formats for undertakings/documents to be furnished by the ODR Institutions;
+
+      (v) Procedure for monitoring adherence of the ODR Institutions to the Code of
+              Conduct as specified by the Relevant Authority;
+
+      (vi) Procedure for suspension I termination of the empanelment of the ODR
+               Institutions.
+
+          The criteria and procedure for empanelment of ODR Institutions will be subject to the
+          circulars/ guidelines/ regulations issued by the Relevant Authority from time to time.
+
+5A.5 CRITERIA AND PROCEDURE FOR SELECTION OF PERSONS ELIGIBLE
+         TO ACT AS CONCILIATORS/ ARBITRATORS
+
+          The Exchange is empowered to work in conjunction with market infrastructure
+          institutions to specify the following, from time to time:
+
+          (g) Eligibility criteria for conciliators/ arbitrators;
+
+      (h) Procedure to appoint conciliators/ arbitrators.
+
+5A.6  The criteria and procedure for selection of persons eligible to act as conciliators /
+      arbitrators will be subject to the circulars/ guidelines/ regulations issued by the
+      Relevant Authority from time to time.
+
+      FEES & COST OF CONCILIATION/ ARBITRATION
+
+      (i) The Exchange may, from time to time prescribe Circulars for the following:
+
+      (i) Determining the fees and costs associated with conciliation/ arbitration,
+               including late fees;
+
+      (ii) Procedure for recovery of fees paid by the Exchange towards
+               conciliation / arbitration from the concerned parties;
+
+      (iii) Procedure to be followed by the concerned parties for deposit of late fees.
+
+5A.7           The Exchange from time to time may amend, modify, alter, repeal, or add to the
+               provisions of the Circulars.
+
+      (j) The Circulars prescribed by the Exchange with respect to the above will be
+               subject to the circulars/ guidelines/ regulations issued by the Relevant Authority
+               from time to time.
+
+      PROCEDURE FOR CONCILIATION/ ARBITRATION
+
+      (k) The Exchange may prescribe for the following:
+
+      (i) The mode, manner and time period in which either party can initiate
+               conciliation/ arbitration proceedings;
+
+                                           46
+National Stock Exchange of India Limited  Regulations - Part A (Capital Market Segment)
+
+(ii) Procedure to be followed for conducting a review of the complaints/
+
+disputes filed by parties;
+
+(iii) Procedure to be followed for monitoring due payment/ adherence of
+        parties to the settlement agreement I Arbitral Award, etc., including
+        procedure to determine the:
+
+(A) Time period within which complete adherence to the settlement
+         agreement/Arbitral Award, etc., must be carried out by the concerned
+         parties;
+
+         (B) Manner and periodicity with which the Exchange shall notify the
+                  Relevant Authority of any non-compliance with the Arbitral
+                  Award.
+
+(iv) Collection of amounts payable from parties and pay-out/ release of the
+         same to concerned parties including procedure to determine the:
+
+         (A) Manner in which admissible claim value / amounts payable may
+                  be collected from the parties;
+
+         (B) Manner of pay-out of admissible claim value/ amounts payable;
+
+         (C) Undertakings, declarations and agreements that shall be obtained
+                  from the parties.
+
+(v) Procedure to impose penalties / issue directions / initiate actions with
+         respect to non-adherence by concerned parties to inter alia payment of
+         the admissible claim value determined I settlement agreement/ Arbitral
+         Award/ interim relief of the Arbitrator or any directions issued by
+         concerned ODR Institutions and/or market infrastructure institutions,
+         including procedure to determine:
+
+         (A) Quantum of penalties that can be imposed with respect to non-
+                  return of admissible claim value determined / non-adherence to
+                  the settlement agreement I Arbitral Award / interim relief of the
+                  Arbitrator by concerned parties, and issuance of directions and
+                  initiation of actions including debarment from participation in
+                  the Indian securities markets;
+
+         (B) Escalation of instances of non-compliance by the concerned
+                  parties to the Relevant Authority for necessary action.
+
+         (vi) Any other matter which in the opinion of the Exchange is required in
+                  order to facilitate conciliation / arbitration under this Chapter.
+
+         The Exchange from time to time may amend, modify, alter, repeal, or add to the
+         provisions of the Circulars.
+
+(l) The Circulars prescribed by the Exchange with respect to the above will be
+         subject to the circulars/ guidelines/ regulations issued by the Relevant Authority
+         from time to time.
+                                               47
+National Stock Exchange of India Limited  Regulations - Part A (Capital Market Segment)
+
+5A.8 LIABILITY OF THE TRADING MEMBER
+
+          In case of claims, differences and disputes to which an Authorised Person is a
+          party, if the admissible claim value is determined against such an Authorised
+          Person, or if a settlement agreement is executed, or if a Arbitral Award I interim relief
+          of the Arbitrator is made against such an Authorised Person, then the Authorised Person
+          shall be liable to comply with such settlement agreement/ Arbitral Award I interim relief
+          of the Arbitrator/ payment of the admissible claim value. If the Authorised Person fails
+          to comply with such settlement agreement/ Arbitral Award/ interim relief of the
+          Arbitrator, or pay out the determined admissible claim value, then the Trading Member
+          to whom the Authorised Person is affiliated shall be liable to comply with such
+          settlement agreement/ Arbitral Award I interim relief of the Arbitrator/ pay out such
+          admissible claim value as if such determination of admissible claim value had been
+          made against the Trading Member or as if such settlement agreement / Arbitral Award I
+          interim relief of the Arbitrator has been made against such Trading Member within such
+          time period as may be specified by the Exchange.
+
+5A.9 ADMINISTRATIVE ASSISTANCE WHICH MAY BE PROVIDED BY THE
+         EXCHANGE
+
+          The Exchange shall be empowered to provide administrative assistance towards
+          enforcement of the settlement agreement / Arbitral Award I interim relief pronounced
+          by Conciliator/ Arbitrator.
+
+5A.10 MODE OF COMMUNICATION
+
+(m) Any communication sent by the Exchange to either of the parties shall be
+        deemed to have been properly delivered or served, even if such communication
+        is returned to the Exchange as unclaimed/refused/undelivered, if the same is
+        sent to the ordinary business address and/or ordinary place of residence and/or
+        last known address of the party, in any one or more of the foUowing ways:
+
+         (i) by post.
+
+(ii) by registered post.
+
+(iii) under certificate of posting.
+
+(iv) by speed post/courier services.
+
+(v) by telegram.
+
+(vi) by affixing it on the door at the last known business or residential
+         address.
+
+(vii) by oral communication to the party in the presence of a third person.
+
+(viii) by advertising it in at least one prominent daily newspaper having
+         circulation in the area where the last known business or residential
+
+                                     48
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+address of party is situated.
+
+(ix) by sending a message through the Trading System.
+
+(x) by electronic mail or fax or SMS.
+
+(xi) by hand delivery.
+
+(n) Any communication sent by either of the parties to the Exchange shall be
+        made in any one or more of the following ways:
+        (i) by post (ordinary or registered or speed) or courier service.
+
+        (ii) by telegram.
+
+        (iii) by fax.
+
+        (iv) by hand delivery.
+
+5A.11 APPLICABILITY
+
+Notwithstanding anything contained in this Chapter, all claims, differences or disputes under
+consideration of the GRC or in arbitration/ appellate arbitration before August 16, 2023, shall
+be resolved as per Chapters XI and XIII of the Byelaws of National Stock Exchange of India
+Limited read with Chapter 5 of the National Stock Exchange (Capital Market) Trading
+Regulations,1994.
+
+                                          49
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+6. RECORDS, ANNUAL ACCOUNTS & AUDIT
+
+6.1 RECORDS
+
+6.1.1 Every Trading Member shall comply with all relevant statutory Acts, including
+         Securities Contracts (Regulation) Act, 1956 and Rules thereunder of 1957, and
+         Securities Exchange Board of India Act, 1992 and Rules, Regulations and
+         guidelines thereunder, and the requirements of and under any notifications,
+         directives and guidelines issued by the Central Government and any statutory body
+         or local authority or any body or authority acting under the authority or direction of
+         the Central Government relating to maintenance of accounts and records.
+
+6.1.2 In addition to the requirements as per Regulation 6.1.1 above, every Trading
+         Member of the Exchange shall comply with the following requirements and such
+         other requirements as the Exchange may from time to time notify in this behalf
+         relating to books of accounts, records and documents in respect of his membership
+         and trading on the CM segment of the Exchange.
+
+6.1.3 A Every Trading Member of the Exchange shall maintain the following records
+         relating to its business for a period of five years either in hard form or non-
+         tamperable soft form.
+
+         (a) Statements of fund and securities obligations received from the clearing
+                house.
+
+         (b) Records in respect of dividend/ interest received on securities of constituents,
+                monies borrowed and loaned including monies received.
+
+         (c) Records in respect of brokerage collected separately from constituents.
+
+         (d) Register of transaction (or other records of original entry) containing an
+                itemised daily record of all purchases and sales of securities, showing for
+                each such transaction effected, the name of securities, value of securities,
+                rates both gross and net of brokerage and name of constituents.
+
+         (e) Register or Ledger Account of Securities client wise and security wise,
+                giving, inter alia, the details as prescribed by Exchange from time to time.
+
+        (f) Client-wise and scrip-wise securities holding statement for all accounts where
+               client securities are held.
+
+6.1.3 B Every Trading Member of the Exchange may for the purpose of better internal
+         control and management, if it so desires, also maintain the following records
+         relating to its business
+
+         (a) Order confirmation slips, Order modification slips as obtained from the
+                trading system of the Exchange
+
+                                          50
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+       (b) Trade confirmation slips as obtained from the trading system of the
+              Exchange
+
+       (c) Record of all statements received from the settling agencies and record of
+              all correspondence with them.
+
+       (d) Order Book reflecting the following:
+                 (i) identityof person receiving the order
+                (ii) date and time of order received
+
+               (iii) name of person placing the order
+               (iv) name of constituent, description and value of securities to be bought
+
+                      and sold
+                (v) terms and conditions of the order stating particularly price/rate limit
+
+                      or price/rate related instructions and time limit on the order (if any)
+               (vi) the NEAT order number as per the trading system of the Exchange or
+
+                      Trading Member order number as the case may be.
+              (vii) any modification or cancellation thereof including cases when it is
+
+                      cancelled by the system or cancelled due to maturity of an instrument.
+              (viii) if executed, the price/rate at which executed and to the extent feasible,
+
+                      the time of execution or cancellation and trade number as per the
+                      trading system of the Exchange.
+               (ix) reference number of the contract issued in case of executed orders.
+                (x) orders entered pursuant to the exercise of discretionary power shall
+                      be so designated.
+               (xi) entries of orders shall be serially numbered.
+       (e) Reports produced from the trading system like Order log and Trades Done
+              Today
+
+       (f) Copies of all instructions obtained in writing from constituents including
+              Participants for an order placement, order modification, order cancellation,
+              trade cancellation, etc.
+
+6.1.3 C Notwithstanding anything contained in R e g u l a t i o n 6 . 1 . 3 A and 6.1.3B
+         hereinabove, every Trading Member of the Exchange shall preserve the originals of
+         the documents, both in electronic and physical form, copies of which have been
+         taken by CBI, Police or any other enforcement agency during the course of any
+         investigation till the trial is completed.
+
+6.1.3 D Every Trading Member of the Exchange shall maintain the evidence of order
+         placement for a minimum period as may be specified by SEBI/Exchange from time
+         to time
+
+6.1.4  Trading Members shall maintain and preserve for a period of seven years a
+6.1.5  mapping of client IDs used at the time of order entry in the trading system with
+       those unique client IDs along with client name, address and other particulars
+       given in the Know Your Client form.
+
+       (a) Every Trading Member shall keep such books of accounts, as will be necessary,
+              to show and distinguish, in connection with his business as a Trading
+              Member:
+
+                                          51
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+(i) The moneys received from or on account of and moneys paid to or on
+
+account of each of his clients and,
+
+(ii) The moneys received and the moneys paid on Trading Member's own
+
+account.
+
+(b) It shall be compulsory for all Trading Members to keep the money of the
+
+clients in a separate account and their own money in a separate account. Bank
+
+account(s) holding clients funds shall be named as "Name of Stock Broker -
+
+Client Account". No payment for transaction in which the Trading Member is
+
+taking a position as a principal will be allowed to be made from the client's
+account.
+
+(c) The transfer from client's account to Trading Member's account shall be
+       allowed under circumstances enumerated below :
+       (i) Obligation to pay money into "Clients account" : Every Trading
+               Member who holds or receives money on account of a client shall
+               forthwith pay such money to current or deposit account at bank to be
+               kept in the name of the Member in the title of which the word "Clients"
+               shall appear (hereinafter referred to as "Clients Account"). Trading
+               Member may keep one consolidated clients account for all the clients
+               or accounts in the name of each client, as he thinks fit; provided that
+               when a Trading Member receives a cheque or draft representing in part
+               money belonging to the client and in part money due to the Trading
+               Member, he shall pay the whole of such cheque or draft into the clients
+               account and effect subsequent transfer as laid down below in para
+               (iii.B).
+       (ii) Moneys to be paid into "clients account": No money shall be paid
+               into clients account other than
+               A. money held or received on account of clients;
+               B. such moneys belonging to the Trading Member as may be
+                      necessary for the purpose of opening or maintaining the account;
+               C. money for replacement of any sum which may by mistake or
+                      accident have been drawn from the account;
+               D. a cheque or draft received by the Trading Member representing
+                      in part money belonging to the client and in part money due to
+                      the Trading Member.
+       (iii) Moneys to be withdrawn from "clients account": No money shall
+               be drawn from clients account other than -
+               A. money properly required for payment to or on behalf of clients
+                      for or towards payment of a debt due to the Member from clients
+                      or money drawn on client's authority, or money in respect of
+                      which there is a liability of clients to the Trading Member,
+                      provided that money so drawn shall not in any case exceed the
+                      total of the money so held for the time being for such each client;
+               B. such money belonging to the Trading Member as may have been
+                      paid into the client account under para (ii.B) and (ii.D) above.
+                      money which may by mistake or accident have been paid into
+                      such account.
+
+                                          52
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+       (iv) Right to lien, set-off etc., not affected: Nothing in this para 1 shall
+               deprive a Trading Member of any recourse or right, whether by way of
+               lien, set-off, counter-claim charge(s) or otherwise against moneys
+               standing to the credit of clients account.
+
+(d) Every Trading Member shall send a complete `Statement of Accounts' for
+         both funds and securities in respect of each of its clients in such periodicity
+         not exceeding three months (calendar quarter) within a month of the expiry
+         of the said period. The Statement shall also state that the client shall report
+         errors, if any, in the Statement within 30 days of receipt thereof to the
+         Trading Member.
+
+(e) The Trading Members shall keep a separate ledger account for each client
+         in respect of the transactions on the Exchange and shall not mingle such
+         account with the account of the client in respect of transactions of any other
+         stock exchange or any other transaction which the trading member may
+         enter into with such client.
+
+(f) (i) The Trading Members shall keep the dematerialised securities of
+         Constituents in a separate beneficiary account distinct from the beneficiary
+         account maintained for holding their own dematerialised securities. No
+         delivery towards the own transactions of the Trading Members shall be
+         allowed to be made from the account meant for Constituents. For this
+         purpose, every Trading Member is required to open a beneficiary account in
+         the name of the Trading Member exclusively for the securities of the
+         Constituents (hereinafter to be referred to as "Constituents beneficiary
+         account"). A Trading Member may keep one consolidated Constituents'
+         beneficiary account for all its Constituents or different accounts for each of
+         its Constituents as it may deem fit.
+
+(ii) Securities to be delivered into Constituents beneficiary account: No
+         security shall be delivered into Constituents beneficiary account, other than
+         A. securities held or received on account of Constituents towards
+                  margin or security deposit
+         B. securities for replacement of those which may by mistake or
+                  accident have been drawn from the account.
+
+(iii) Securities to be withdrawn from Constituents beneficiary account: No
+         security shall be drawn from Constituents beneficiary account other than
+         A. when they are properly required, for delivery to or on behalf of
+                  Constituents, for or towards meeting the Constituents' margin or
+                  pay-in obligations;
+         B. what are drawn under Constituents' authority in respect of which
+                  there is a liability of Constituents to the Trading Member;
+
+                                          53
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+        C. securities which by mistake or accident have been deposited
+                 into the account;
+
+        Provided further that the securities so drawn shall not in any case exceed
+        the securities so held for the time being for the respective Constituent.
+
+6.1.6   Every Trading Member shall maintain permanently copies of agreements executed
+6.1.7   with each of its constituent in accordance with the Exchange requirements.
+6.1.8
+6.1.9   Every Trading Member shall maintain permanently copies of agreements executed
+6.1.10  with each of the settling agencies or banks.
+
+6.1.11  Every Trading Member shall maintain record of all relevant particulars of persons
+6.1.12  which are approved as Users by the Exchange.
+
+6.1.13  Every Trading Member shall maintain originals of all communications received
+6.1.14  and copies of all communications sent by such Trading Member (including inter-
+        office memo and communications ) relating to its business as such.
+6.1.15
+        Every Trading Member shall maintain all guarantees of accounts and all powers
+        of attorney and other evidence of the granting of any discretionary authority given
+        in respect of any account and copies of resolutions empowering an agent to act
+        on behalf of a Trading Member.
+
+        Every Trading Member shall maintain all written agreements (or copies thereof)
+        entered into by that Trading Member relating to its business as such, including
+        agreements with respect to any account.
+
+        Every Trading Member shall preserve for a period of not less than six years after
+        the closing of any constituent's account any records which relate to the terms and
+        conditions with respect to the opening and maintenance of such account, date of
+        entering into agreement with the constituent, date of modification thereof, date of
+        termination and representatives of such constituent who signed in each case.
+
+        A Trading Member shall intimate to the Exchange the place where these records
+        are kept and available for audit/inspection.
+
+        The above requirements relating to maintenance of records shall apply not only to
+        records of the member's principal office but also to those of any branch office and
+        to any nominee company owned or controlled by a Trading Member for the
+        purpose of conducting the business of the Trading Member.
+
+        Each Trading Member shall keep and preserve a record of all written complaints
+        of its constituents showing the reference number of constituent, date, constituent's
+        name, particulars of the complaints, action taken by the Trading Member, if
+        the matter is referred to arbitration to the Exchange then the particulars thereof.
+
+                                          54
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+6.1.16  Every Trading Member shall maintain details of securities which are the property
+6.1.17  of a Trading Member showing with whom they are deposited and if held otherwise
+        than by the member, whether they have been lodged as collateral security for loans
+        or advances.
+
+        Every Trading Member shall keep copies/duplicates of Contract Notes issued by
+        the Member and details of any statements which are required by these Rules to
+        appear on Contract Notes.
+
+6.1.18  The Trading Member shall maintain records of collateral so as to ensure proper
+         audit trail of use of Constituent's collateral and such other records relating to his
+         business as may be prescribed by the Exchange from time to time.
+
+6.1.19  All Trading Members shall maintain the register of Securities, securities holding
+        statements, client ledger & Bank books in format as may be prescribed by the
+        Exchange from time to time
+
+6.2 ANNUAL ACCOUNTS AND AUDIT
+
+          1. Each Trading Member shall prepare annual accounts for each financial year
+                  ending on 31st March or such other date as advised to the Exchange.
+
+          2. The Assets and Liabilities of the Trading Member's business shall be
+                  brought into account in the balance sheet at such amounts and shall be
+                  classified and described therein in such manner that the balance sheet gives
+                  a true and fair view of the state of affairs of such business as at the date
+                  to which it is made up.
+
+          3. Each Trading Member shall furnish to the Exchange, its audited financial
+                  statement and such report shall be furnished not later than six months after
+                  the end of the Trading Member's financial year, provided that when the
+                  Exchange is satisfied that circumstances warrant an extension of time is
+                  necessary to furnish such report, it may grant an extension of such time as
+                  it may deem fit.
+
+          4 Each Trading Member shall get the complete internal audit done on a half yearly
+                  basis by an independent qualified Chartered Accountant, Company
+                  Secretary or Cost and Management Accountant, who is in practice and does
+                  not have any conflict of interest and submit the report within such time and
+                  in such format as may be prescribed by the Exchange from time to time.
+
+                                          55
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+                                          7. INSPECTION
+
+7.1    INSPECTION AUTHORITY
+7.1.1
+       Where it appears to the Exchange so to do, it may appoint one or more persons as
+7.1.2  inspecting authority to undertake inspection of books of accounts, other records and
+       documents of the Trading Members for any of the purposes specified in regulation.
+       7.1.2.
+
+       (a) The Inspecting authority appointed by the Exchange under Regulation
+              7.1.1. may be either its own officials or outside professionals.
+
+       (b) When the Exchange appoints outside professionals as an inspecting authority,
+              it shall notify the Trading Member the names and addresses of the
+              professionals or firms so appointed as an inspecting authority at the time of
+              inspection.
+
+       (c) When outside professionals are appointed as an inspecting authority in
+              respect of a Trading Member and such professionals are already related in
+              any other capacity with the Trading Member then such member shall
+              forthwith inform the Exchange of such relationship.
+
+       (d) Where after appointment of any outside professional as an inspecting
+              authority in respect of a Trading Member, the Trading Member or any of its
+              associates engages the inspecting authority for its services in any other
+              capacity, the inspecting authority shall not engage itself in such other
+              professional capacity with the Trading Member or any of its associates
+              without prior consent of the Exchange.
+
+       The purposes referred to in regulation 7.1.1. shall be as follows, namely :
+
+       (a) to ensure that the books of accounts and other books are being maintained in
+              the manner required;
+
+       (b) to ensure that the provisions of SEBI Act, Rules and Regulations thereunder
+              are being complied with;
+
+       (c) to ensure that provisions of the Securities Contracts (Regulation) Act and the
+              Rules made thereunder are being complied with;
+
+       (d) to ensure that various provisions of NSE Bye-laws, Rules and Regulations
+              and any directions or instructions issued thereunder are being complied with;
+
+       (e) to investigate into the complaints received from investors, other members of
+              the Exchange or any other person on any matter having a bearing on the
+              activities of the Trading Member;
+
+       (f) to investigate suo-motu, for any reason where circumstances so warrant an
+              inspection into the affairs of the Trading Member in public interest;
+
+       (g) to examine whether any notices, circulars, instructions or orders issued by the
+              Exchange from time to time relating to trading and other activities of Trading
+              Members are being complied with;
+
+                                          56
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+       (h) to comply with any of the directives issued in this behalf by any regulating
+              authority including Government of India.
+
+7.2    NOTICE
+7.2.1
+7.2.2  Before undertaking any inspection under regulation 7.1.1, the Exchange shall give
+       a reasonable notice to the Trading Member for that purpose.
+7.2.3
+       Notwithstanding anything contained in sub regulation 7.2.1, where the Exchange is
+       of the opinion that no such notice should be given, it may direct in writing that the
+       inspection of the affairs of the Trading Member be taken up without such notice.
+
+       Exchange officials or the inspecting authority who is directed by the Exchange to
+       undertake the inspection, shall undertake the inspection and the Trading Member
+       against whom an inspection is being carried out shall be bound to discharge his
+       obligations as provided under regulation 7.3.
+
+7.3    OBLIGATIONS OF A TRADING MEMBER ON INSPECTION
+7.3.1
+       It shall be the duty of every director, officer and employee of the Trading Member,
+7.3.2  who is being inspected, to produce to the inspecting authority such books, accounts
+       and other documents in his custody or control or arrange to produce where such
+7.3.3  books, accounts and other documents when they are in any other person's custodyor
+7.3.4  controland furnish him such statements and information within such time as the said
+7.3.5  inspection authority may require.
+7.3.6
+       The Trading Member shall allow the inspecting authority to have reasonable access
+       to the premises occupied by him or by any other person on his behalf and also extend
+       reasonable facilities for examining any books, records, documents and
+       computerised data in his possession or any other person and also provide copies of
+       documents or other materials which in the opinion of the inspecting authority are
+       relevant.
+
+       The inspecting authority, in the course of inspection shall be entitled to examine or
+       record statements of any member, director, officer and employee of the Trading
+       Member or of any associate of such Trading Member.
+
+       It shall be the duty of every director, officer and employee of the Trading Member
+       or where an associate is examined, such associate to give to the inspecting authority
+       all assistance in connection with the inspection which the Trading Member may be
+       reasonably expected to give.
+
+       The inspecting authority shall be entitled to examine the records relating to the
+       Trading Member's financial affairs held with its bankers or any other agency which
+       the inspecting authority may find it relevant.
+
+       The inspecting authority shall have access to accounts and other records relating to
+       the Trading Member or such access as authorised by the Exchange to accounts
+
+                                          57
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+7.4    and other records relating to any associate of the Trading Member as are within
+7.4.1  the power of the Trading Member to provide.
+7.4.2
+       SUBMISSION OF REPORT
+7.4.3
+       The inspecting authority shall, as soon as possible submit an inspection report to
+       the Exchange.
+
+       All documents, papers, returns or their copies submitted to the inspecting authority
+       may be retained by it on behalf of the Exchange. It shall maintain complete
+       confidentiality thereof and no disclosure of any information contained therein shall
+       be made to any person, firm, company or authority unless required by any law for
+       the time being in force and without approval of the Exchange in this regard.
+
+       (a) The Exchange shall after consideration of the inspection report communicate
+              the findings to the Trading Member to give him an opportunity of being heard
+              before any action is taken by the Exchange on the findings of the inspecting
+              authority.
+
+       (b) On receipt of the explanation, if any, from the Trading Member the Exchange
+              may call upon Trading Member to take such measures as the Exchange may
+              deem fit in public interest.
+
+       (c) Notwithstanding anything contained in sub regulation 7.4.3 (a), where the
+              Exchange is of the opinion that no such hearing should be provided in certain
+              circumstances, it may take action forthwith without giving an opportunityof
+              being heard.
+
+7.5    COLLECTION AND DISSEMINATION OF INFORMATION
+7.5.1
+7.5.2  The Exchange may call upon the trading members to furnish such information and
+       /or explanation with regard to any constitution, dealings, settlement, account
+7.5.3  and/or other related matters.
+
+       The Stock Exchange shall maintain the details of the clients of the members in
+       confidence and that it shall not disclose to any person/ entity such details of the
+       client as mentioned in the client registration form or any other information
+       pertaining to the client except as required under the law or by any authority.
+
+       Notwithstanding anything contained in any of the regulations, the Exchange may at
+       its discretion disseminate to other stock exchanges or regulatory authorities or to
+       the general public, any information including information relating to any trades,
+       dealings, settlement of dealings, accounting, disciplinary action initiated/taken
+       against Trading Members and/or other matters relevant for enforcement or
+       regulatory purposes.
+
+                                          58
+National Stock Exchange of India Limited  Regulations - Part A (Capital Market Segment)
+
+       8. TRI-PARTY REPOS
+
+8.1 DEALINGS IN TRI-PARTY REPOS
+
+8.1.1 REPO
+         "Repo" means an instrument for borrowing funds by selling securities with an
+         agreement to repurchase the securities on a mutually agreed future date at an
+         agreed price which includes interest for the funds borrowed and will also include
+         all such types of repos which may be prescribed by the relevant authority from
+         time to time.
+
+8.1.2  TRI-PARTY REPOS
+       Tri-party Repo is a type of repo contract where a third entity (apart from the
+       borrower and lender) acts as an intermediary between the two parties to the repo
+       to facilitate services like collateral selection, payment and settlement, custody
+       and management during the life of the transaction. Any reference to trades under
+       the Bye-Laws, Rules and Regulations of the Exchange shall also include
+       reference to the Tri-party Repos.
+
+8.1.3 TRI-PARTY REPO AGENT
+         Tri-party Repo Agent is the third party entity (apart from the borrower and
+         lender) to the Tri-party Repo transaction, which acts as the intermediary between
+         the parties for the purpose of such transaction. For the purpose of these
+         Regulations, NSE will be the Tri-party Repo Agent for the Tri-party Repo
+         transactions between the Trading Members of the TRM segment.
+
+8.1.4 TRI-PARTY REPO MARKET / TRM
+         Tri-party Repo Market ("TRM") is the sub segment under the Debt Segment of
+         NSE, which facilitates trading in Tri-party Repos.
+
+8.1.5 REPO TYPE
+         The type of Repo permitted to be transacted on the TRM segment will be Basket
+         Repo or such other type of Repo as may be prescribed by the relevant authority
+         from time to time. Basket Repos shall facilitate borrowing and lending of funds
+         against various baskets of securities. The baskets and the securities eligible to be
+         included in respective baskets shall be as notified by the Exchange / National
+         Securities Clearing Corporation Limited (NSCCL) from time to time.
+         Additional facility for special repos and any other type of Repo may also be
+         provided, as may be prescribed by the relevant authority from time to time.
+
+8.1.6 PERMITTED REPO TRADES
+         The Exchange shall prescribe from time to time permitted trades based on basket
+         type/ any other type of repo, repo tenor and settlement type. The Exchange shall
+         make available a combination of these repo parameters on the TRM segment.
+
+8.1.7 BASKET TYPE
+         The baskets would comprise either one or more securities that have been grouped
+         together based on criteria such as tenor, instrument category, instrument type,
+         number of securities or any other attribute as prescribed by the Exchange /
+
+                                                      54
+National Stock Exchange of India Limited  Regulations - Part A (Capital Market Segment)
+
+       NSCCL from time to time. The Exchange / NSCCL shall also provide details in
+
+       relation to the number of baskets to be made available for trading from time to
+
+       time.
+
+       NSCCL will define baskets and securities available in each basket. The securities
+       in each basket will be mutually exclusive.
+
+8.1.8 COLLATERAL
+         (a) The permitted collateral for the Tri-party Repos, i.e. the permissible
+         `Securities' for the purpose of Tri-party Repos would mean:
+         (i) Listed corporate debt securities of original maturity of more than one year
+         which are rated `AA' or above by the rating agencies registered with SEBI, that
+         are held in the security account of the Repo seller, in the dematerialised form.
+         (ii) Commercial Papers (CPs) and Certificates of Deposit (CDs) of original
+         maturity upto one year which are rated A2 or above by the rating agencies
+         registered with SEBI.
+         (iii) Such other securities as may be prescribed by the relevant authority from
+         time to time.
+         (b) The Trading Member of the TRM segment will be provided the facilities of
+         intra-day substitution of collateral, early pay-in of funds, intraday release of
+         securities etc.
+         (c) In case of cancellation of the order before matching (as stated under the Trade
+         Process Flow below), the collateral will be released to that extent.
+
+8.2 MARGIN REQUIREMENTS
+
+8.2.1  Subject to the provisions as contained in the Exchange Bye-laws and such other
+8.2.2  regulations as may be in force or prescribed by the relevant authority from time
+8.2.3  to time, every Trading Member of the TRM segment shall in respect of trades in
+       which he is a lender, deposit a margin with NSCCL, in the form of cash margin.
+       Such margin will be required to be deposited in the manner and to the extent and
+       from such date as may be specified by the Exchange / NSCCL. Whenever margin
+       is payable by a Trading Member in the TRM segment, it shall pay such margins
+       directly to NSCCL, unless otherwise directed by the Exchange / NSCCL.
+       The Exchange / NSCCL shall permit placing of the order on behalf of the lender
+       only on the receipt of margin of minimum such percentage as the relevant
+       authority may decide from time to time. In case of margin being insufficient at
+       the time of validation of the order, the order will get cancelled. The lender in
+       such a scenario, will be intimated in case of such cancellation by means of a
+       message.
+
+8.3 ORDER MATCHING RULES
+
+8.3.1 Orders in the Basket Repo will be matched on Repo rate - time priority basis.
+
+8.3.2 The best borrow order shall match with the best lend order. The best borrow
+         order in the Basket Repo shall be the one which seeks to borrow at the highest
+         Repo rate.
+
+                                                      54
+National Stock Exchange of India Limited      Regulations - Part A (Capital Market Segment)
+
+The best lend order in the Basket Repo shall be the one which seeks to lend at
+
+the lowest Repo rate.
+
+8.3.3 The best Repo rate for a lend order shall be the borrow Repo rate equal to or
+         more than the lend Repo rate. The best Repo rate for a borrow order shall be the
+         lend Repo rate equal to or lesser than the borrow repo rate.
+
+8.3.4 Without prejudice to the generality of the above, the relevant authority may
+         prescribe additional order matching rules/ modify the existing order matching
+         rules by way of circulars, for various types of repos as may be introduced from
+         time to time.
+
+8.4 TRADE PROCESS FLOW
+
+8.4.1 On the day of the trade, the borrower under the Tri-party Repo will enter borrow
+         order (i.e. selling of security) and the lender will enter lend order (i.e. buying of
+         security) on TRM segment. The borrower and lender will specify the value and
+         rate for the trade.
+
+8.4.2 Before confirmation of order by the Trading Member in the TRM segment, the
+         Exchange will display the first leg consideration and second leg consideration to
+         the Trading Member in the TRM segment.
+
+�        Both borrowing and lending orders would be validated against the
+
+security and margin availability before accepting those orders for matching;
+
+�        Security value would be blocked for the forward leg consideration (i.e.
+
+the first leg consideration plus repo interest for the repo tenor) for the borrowing
+
+orders.
+
+8.4.3 The first leg consideration would be the transaction value of borrowing and
+
+lending.
+
+8.4.4 The settlement obligation for forward leg shall be based on the repo rate at which
+         trade has been executed. The settlement value shall be computed as under:
+
+�        Forward leg obligation = Ready leg obligation + Repo Interest
+
+�        The repo interest shall be computed based on Actual/365 day count
+
+convention
+
+8.4.5 The order will be matched on order matching logic defined by the Exchange.
+         The partial value of matching will be allowed.
+
+8.4.6 Once the trade is executed, the confirmation slip will be generated and also the
+         appropriate message will be broadcast on the TRM segment.
+
+8.4.7 Without prejudice to the generality of the above, the relevant authority may
+         prescribe additional rules/modify the existing rules relating to trade process flow
+         in the TRM segment by way of Circulars, Bye Laws, Rules and Regulations from
+         time to time.
+
+                                          55
+
