@@ -72,7 +72,7 @@ if (document.visibilityState === "visible" && !(window.matchMedia && matchMedia(
 
 function renderChrome(hub, opts) {
   const root = opts.root || "";
-  const nav = hub.sections.map(s => `<a href="${s.status === "live" ? root + s.href : root + "#" + s.id}" class="${s.id === opts.active ? "on" : ""} ${s.status === "live" ? "" : "soon"}">${esc(s.short)}</a>`).join("");
+  const nav = hub.sections.filter(s => s.status === "live").map(s => `<a href="${s.status === "live" ? root + s.href : root + "#" + s.id}" class="${s.id === opts.active ? "on" : ""} ${s.status === "live" ? "" : "soon"}">${esc(s.short)}</a>`).join("");
   const crumb = opts.crumb ? `<span class="crumb">${opts.crumb}</span>` : "";
   $("#top").innerHTML = `<a class="brand" href="${root || "./"}"><span class="logo">${I.logo}</span><span><b>${esc(hub.title)}</b><small>${esc(opts.sub || hub.tagline)}</small></span></a>${crumb}
     <nav class="nav" aria-label="Regulators"><div class="navl" id="navl">${nav}</div><button class="iconbtn" id="themebtn" type="button"></button><button class="iconbtn" id="menubtn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navl">${I.menu}</button></nav>`;
@@ -353,12 +353,14 @@ function sxHl(txt, Q) {
   if (!pats.length) return s;
   return s.replace(new RegExp(`(^|[^\\w])(${pats.join("|")})`, "gi"), "$1<mark>$2</mark>");
 }
+/* table text from PDFs: drop empty cells and runs of pipes so snippets read as prose */
+const sxClean = t => String(t || "").replace(/\|(?:[ \t]*\|)+/g, "|").replace(/[ \t]*\|[ \t]*(?=\n|$)/g, "").replace(/(^|\n)[ \t]*\|[ \t]*/g, "$1").replace(/[ \t]*\|[ \t]*/g, " · ");
 function sxSnippet(txt, Q, n = 300) {
   const low = txt.toLowerCase(); let at = -1;
   if (Q.phrase) { const re = new RegExp(Q.phrase.join("[\\s\\-–/,]+"), "i"); const mm = re.exec(txt); if (mm) at = mm.index; }
   if (at < 0) for (const w of Q.terms) { const j = low.search(new RegExp("\\b" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))); if (j >= 0 && (at < 0 || j < at)) at = j; }
   let a = Math.max(0, at - Math.round(n * .35)); if (a > 0) { const sp = txt.indexOf(" ", a); if (sp > 0 && sp - a < 30) a = sp + 1; }
-  const s = txt.slice(a, a + n).replace(/\s+/g, " ").trim();
+  const s = sxClean(txt.slice(a, a + n)).replace(/\s+/g, " ").trim();
   return (a > 0 ? "…" : "") + s + (a + n < txt.length ? "…" : "");
 }
 function sxWhere(doc, chap, para) {
@@ -428,7 +430,7 @@ async function sxMount(el, raw, opts = {}) {
       if (open) { open.remove(); rb.textContent = "Read passage"; return; }
       const i = +rb.dataset.read, p = await sxPassage(i); if (!p) return; const d = SX.meta.docs[p[0]];
       const div = document.createElement("div"); div.className = "sxp";
-      div.innerHTML = `<div class="m" style="margin-bottom:6px">${esc(sxWhere(d, p[1], p[2]))}</div><div class="sxt">${sxHl(p[3], Q)}</div><div class="sxa"><a class="lnk" href="${sxHref(SX.root, d)}">Open ${d[0] === "judgments" ? "the judgment summary" : "the instrument page"} →</a>${d[4] ? `<a class="lnk" href="${esc(d[4])}" target="_blank" rel="noopener">Official source ↗</a>` : ""}</div>`;
+      div.innerHTML = `<div class="m" style="margin-bottom:6px">${esc(sxWhere(d, p[1], p[2]))}</div><div class="sxt">${sxHl(sxClean(p[3]), Q)}</div><div class="sxa"><a class="lnk" href="${sxHref(SX.root, d)}">Open ${d[0] === "judgments" ? "the judgment summary" : "the instrument page"} →</a>${d[4] ? `<a class="lnk" href="${esc(d[4])}" target="_blank" rel="noopener">Official source ↗</a>` : ""}</div>`;
       rb.closest(".sxa").after(div); rb.textContent = "Close passage";
     } else if (mb) {
       e.preventDefault(); e.stopPropagation();
@@ -509,7 +511,7 @@ function openJudge(prefill) {
 function closeJudge() { const w = $("#judge"); if (!w) return; w.hidden = true; $("#jfab").setAttribute("aria-expanded", "false"); $("#jfab").classList.remove("open"); }
 function aiFormat(t) {
   const M = Judge.M;
-  return esc(t).split(/\n{2,}/).map(par => `<p>${par.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/\n/g, "<br>").replace(/\[([A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+)\]/g, (m, id) => M && M.byId.has(id) ? `<a class="lnk" href="${Judge.link(id)}">${id}</a>` : /^JUD-/.test(id) && Judge.judLink && JUD.byId && JUD.byId.has(id.slice(4)) ? `<a class="lnk" href="${Judge.judLink(id.slice(4))}">${esc(JUD.byId.get(id.slice(4)).short)}</a>` : m)}</p>`).join("");
+  return esc(t).split(/\n{2,}/).map(par => `<p>${par.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/\n/g, "<br>").replace(/\[([A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+)\]/g, (m, id) => M && M.byId.has(id) ? `<a class="lnk" href="${Judge.link(id)}" title="${id}">${esc(trunc(M.byId.get(id).label, 48))}</a>` : /^JUD-/.test(id) && Judge.judLink && JUD.byId && JUD.byId.has(id.slice(4)) ? `<a class="lnk" href="${Judge.judLink(id.slice(4))}">${esc(JUD.byId.get(id.slice(4)).short)}</a>` : m)}</p>`).join("");
 }
 /* key judgments: the rulings that best match a question go to the assistant with any regulator's texts */
 const JUD = { p: null, list: [], byId: null, df: new Map() };
