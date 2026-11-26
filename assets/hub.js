@@ -74,7 +74,7 @@ if (document.visibilityState === "visible" && !(window.matchMedia && matchMedia(
 
 function renderChrome(hub, opts) {
   const root = opts.root || "";
-  const nav = hub.sections.filter(s => s.status === "live").map(s => `<a href="${s.status === "live" ? root + s.href : root + "#" + s.id}" class="${s.id === opts.active ? "on" : ""} ${s.status === "live" ? "" : "soon"}">${esc(s.short)}</a>`).join("");
+  const nav = hub.sections.filter(s => s.status === "live").map(s => `<a href="${s.status === "live" ? root + s.href : root + "#" + s.id}" class="${s.id === opts.active ? "on" : ""} ${s.status === "live" ? "" : "soon"}">${esc(s.short)}</a>`).join("") + (hub.tools || []).map(t => `<a href="${root + t.href}" class="${t.id === opts.active ? "on" : ""}" title="${esc(t.name || t.short)}">${esc(t.short)}</a>`).join("");
   const crumb = opts.crumb ? `<span class="crumb">${opts.crumb}</span>` : "";
   $("#top").innerHTML = `<a class="brand" href="${root || "./"}"><span class="logo">${I.logo}</span><span><b>${esc(hub.title)}</b><small>${esc(opts.sub || hub.tagline)}</small></span></a>${crumb}
     <nav class="nav" aria-label="Regulators"><div class="navl" id="navl">${nav}</div><button class="iconbtn" id="themebtn" type="button"></button><button class="iconbtn" id="menubtn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navl">${I.menu}</button></nav>`;

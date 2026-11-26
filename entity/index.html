@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>What applies to my entity · Financial Regulation Hub</title>
+<meta name="description" content="Build your entity from its type, size, listings, licences, roles and activities, and see every RBI, SEBI, IRDAI, FEMA, DPDP, IBC, IFSC and stock exchange instrument that applies to it, and why, as a mind map or a list.">
+<!-- og:start -->
+<link rel="canonical" href="https://sayakchandra-lawyer.github.io/financial-regulation-hub/entity/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Financial Regulation Hub">
+<meta property="og:title" content="What applies to my entity">
+<meta property="og:description" content="Build your entity from its type, size, listings, licences, roles and activities, and see every instrument that applies to it, across regulators, and why.">
+<meta property="og:url" content="https://sayakchandra-lawyer.github.io/financial-regulation-hub/entity/">
+<meta property="og:image" content="https://sayakchandra-lawyer.github.io/financial-regulation-hub/assets/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What applies to my entity">
+<meta name="twitter:description" content="Build your entity from its type, size, listings, licences, roles and activities, and see every instrument that applies to it, across regulators, and why.">
+<!-- og:end -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="../assets/hub.css?v=20261126x">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
+<style>
+.hero{padding:36px 0 6px}.hero h1{font-size:clamp(30px,4.4vw,42px);margin-top:8px}.hero p{color:var(--ink-2);margin:10px 0 0;max-width:720px}
+.presets{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:18px 0 22px}
+.presets .chip{cursor:pointer}
+.eb{display:grid;grid-template-columns:320px minmax(0,1fr);gap:22px;align-items:start}
+.bld{padding:18px 18px 6px;position:sticky;top:84px;max-height:calc(100vh - 100px);overflow:auto}
+.bld h3{font:600 12.5px/1.35 var(--f-b);color:var(--ink-2);margin:0 0 8px}.bld h3 i{font-style:normal;color:var(--muted);font-weight:500;margin-left:6px}
+.grp{padding:0 0 13px;margin-bottom:13px;border-bottom:1px solid var(--line)}.grp:last-of-type{border:0}
+.grp .chips{display:flex;flex-wrap:wrap;gap:6px}
+.grp .chip{font-size:12.5px;padding:4px 10px;cursor:pointer}
+.grp .chip.on::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block}
+.grp .chip.role{border-style:dashed}
+.grp .chip[aria-disabled=true]{opacity:.45;cursor:not-allowed}
+.help{font-size:12px;color:var(--muted);margin:8px 0 0;line-height:1.45}
+.bfoot{display:flex;gap:10px;align-items:center;padding:4px 0 12px;flex-wrap:wrap}
+.res{overflow:hidden;min-width:0}
+.rhead{display:flex;gap:20px;align-items:center;padding:16px 20px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.stat b{display:block;font:500 26px/1 var(--f-d)}.stat span{font-size:12px;color:var(--muted)}
+.rhead .sp{flex:1}
+.seg{display:flex;gap:2px;background:var(--surface-2);padding:3px;border-radius:10px}
+.seg button{border:0;background:none;padding:6px 12px;border-radius:8px;font-size:13px;color:var(--ink-2);cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--surface);color:var(--ink);font-weight:600;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.ebar{display:none;gap:6px;align-items:center;flex-wrap:wrap;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.ebar .chip{font-size:12px;padding:3px 9px}
+.mapwrap{position:relative;background:var(--bg);overflow:hidden;height:min(680px,calc(100vh - 220px));min-height:420px;touch-action:none;cursor:grab}
+.mapwrap.drag{cursor:grabbing}
+svg.mm{display:block;width:100%;height:100%;user-select:none}
+.mm text{font-family:var(--f-b);fill:var(--ink)}
+.mm .nd{cursor:pointer}.mm .nd:focus{outline:none}.mm .nd:focus-visible rect,.mm .nd:hover rect.hit{stroke:var(--accent);stroke-width:2}
+.mm .nd rect.hit{fill:transparent}
+.mm .new{animation:pop .45s ease-out both}.mm path.new{animation:fadein .5s ease-out both}
+@keyframes pop{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:none}}@keyframes fadein{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.mm .new,.mm path.new{animation:none}}
+.mm .nd{transform-box:fill-box;transform-origin:center}#vp{transform-origin:0 0}
+.zoom{position:absolute;left:14px;top:14px;display:flex;flex-direction:column;gap:6px}
+.legend{position:absolute;left:14px;bottom:12px;display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--ink-2);background:color-mix(in srgb,var(--surface) 92%,transparent);padding:6px 12px;border-radius:12px;border:1px solid var(--line);max-width:calc(100% - 28px)}
+.legend i{display:inline-block;width:24px;height:0;border-top:2px solid var(--ink-2);vertical-align:middle;margin-right:6px}.legend i.d{border-top-style:dashed}.legend i.c{border-top:2px dashed var(--accent)}
+.hnote{position:absolute;right:14px;top:14px;font-size:12px;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:6px 10px;max-width:300px}
+.drawer{position:absolute;right:0;top:0;bottom:0;width:min(400px,100%);background:var(--surface);border-left:1px solid var(--line);box-shadow:var(--shadow);padding:18px 20px;overflow:auto;cursor:auto;z-index:2}
+.drawer h2{font-size:21px;line-height:1.25;margin:6px 0 10px;padding-right:28px}
+.drawer .x{position:absolute;right:12px;top:12px}
+.why{background:var(--accent-soft);border-radius:12px;padding:10px 12px;font-size:13px;margin:0 0 12px}.why b{color:var(--accent-text)}
+.adds{list-style:none;padding:0;margin:0}.adds li{border-top:1px solid var(--line);padding:10px 0;font-size:13.5px;line-height:1.5}
+.adds .src{font-size:12px;font-weight:600;display:flex;gap:6px;align-items:center;margin-bottom:2px;color:var(--ink-2)}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none}
+.empty-map{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:30px;color:var(--ink-2)}
+.empty-map h2{font-size:22px;margin-bottom:6px}
+.list{padding:4px 20px 20px}
+.lsec{margin-top:16px}.lsec h3{font-size:19px;display:flex;gap:10px;align-items:center;margin:6px 0}
+.lrow{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,.7fr);gap:14px;padding:9px 0;border-top:1px solid var(--line);font-size:13.5px}
+.lrow a{font-weight:600}.lrow a:hover{color:var(--accent-text)}
+.lrow .bec{color:var(--ink-2);font-size:12.5px}.lrow .t{font-size:12px;color:var(--muted)}
+.lrow .sc{display:block;font-size:12px;color:var(--accent-text);font-weight:500;margin-top:2px}
+.lhead{font-size:12px;color:var(--muted);font-weight:600}
+.combo-pill{background:var(--accent-soft);color:var(--accent-text)}
+.dl{padding:8px 20px 20px}.dl li{font-size:13.5px;margin:4px 0}.dl h4{margin:14px 0 4px;font-size:14px}
+@media (max-width:900px){.eb{grid-template-columns:1fr}.bld{position:static;max-height:none}.bld.fold{display:none}.ebar{display:flex}.lrow{grid-template-columns:1fr}.lrow .t{display:none}.hnote{display:none}.rhead{gap:14px}.stat b{font-size:22px}}
+</style>
+</head>
+<body>
+<header id="top"></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow">All regulators</div>
+    <h1>What applies to my entity</h1>
+    <p>Pick what your company is, what it holds and what it does. See every Act, rule and direction that binds it, across regulators, and why.</p>
+    <div class="presets" id="presets"></div>
+  </section>
+  <div class="eb">
+    <aside class="card bld" id="bld" aria-label="Build your entity"></aside>
+    <section class="card res" aria-label="What applies">
+      <div class="rhead" id="rhead"></div>
+      <div class="ebar" id="ebar"></div>
+      <div id="out"></div>
+    </section>
+  </div>
+</main>
+<footer id="foot"></footer>
+<script src="../assets/hub.js?v=20261126x"></script>
+<script>
+(async function(){
+  const hub = await getJSON("../hub.json");
+  renderChrome(hub, { root: "../", active: "entity", sub: "What applies to my entity", crumb: `<a href="../">Home</a> / <b>My entity</b>` });
+  const D = await getJSON("data/entity.json");
+  $("#asof").textContent = D.meta.as_of ? `Registers as on ${fmtDate(D.meta.as_of)}` : "";
+  const A = new Map(D.attrs.map(a => [a.id, a]));
+  const SEC = new Map(D.sections.map(s => [s.id, s]));
+  const COL = id => ({ lender: "var(--rbi)", combo: "var(--accent)", rulings: "var(--jud)" })[id] || `var(--${id})`;
+  const LIDX = Object.fromEntries(D.layers.map((l, i) => [l.cat, i]));
+  const LBYID = Object.fromEntries(D.layers.map((l, i) => [l.id, i]));
+  const SECTOR = { lending: "Lending", hfc: "Housing finance", life: "Life insurance", health: "Health insurance", broking: "Broking", mf: "Mutual funds" };
+  const short = (s, n) => s.length > n ? s.slice(0, n - 1).trim() + "…" : s;
+  const phone = () => matchMedia("(max-width:900px)").matches;
+
+  /* ---------- state: selection in the hash (#e=icc,ml,debt), view in local storage ---------- */
+  let sel = new Set(), view = store.get("entity.view", "") || (phone() ? "list" : "map"), open = new Set(), panel = null, seen = new Set(), T = null;
+  function readHash(){
+    const m = /(?:^|&)e=([\w,-]*)/.exec(location.hash.slice(1));
+    sel = new Set((m ? m[1].split(",") : []).filter(x => A.has(x)));
+    tidy();
+  }
+  function writeHash(){ const h = sel.size ? "#e=" + [...sel].join(",") : " "; history.replaceState(null, "", h === " " ? location.pathname + location.search : h); }
+  const typeOf = () => [...sel].map(x => A.get(x)).find(a => a.group === "type");
+  function tidy(){
+    const t = typeOf();
+    for (const g of D.groups.filter(g => g.single)) { const on = [...sel].filter(x => A.get(x).group === g.id); on.slice(0, -1).forEach(x => sel.delete(x)); }
+    const lay = [...sel].find(x => A.get(x).group === "layer");
+    if (!t || !t.layers.length) { if (lay) sel.delete(lay); }
+    else if (lay && !t.layers.includes(lay)) sel.delete(lay);
+    if (t && t.layers.length && ![...sel].some(x => A.get(x).group === "layer")) sel.add(t.layers[0]);
+  }
+
+  /* ---------- the engine: selection -> instruments, each with its reasons ---------- */
+  function compute(){
+    const t = typeOf(), rbiReg = !!(t && t.rbi), items = new Map(), lab = a => a.short || a.label;
+    const layerId = [...sel].find(x => A.get(x).group === "layer"), L = layerId != null ? LBYID[layerId] : -1;
+    const add = (sec, id, why, o = {}) => {
+      const k = (o.via ? "via:" + o.via + ":" : "") + sec + "/" + id;
+      let it = items.get(k);
+      if (!it) { const r = D.inst[sec] && D.inst[sec][id]; if (!r) return null; it = { k, sec: o.via ? "lender" : sec, home: sec, id, name: r[0], type: r[1], theme: r[2], tl: r[4], why: new Set(), scope: [], focus: [], notes: [], via: o.via || "", combos: [], also: [] }; items.set(k, it); }
+      if (why) it.why.add(why);
+      if (o.scope && !it.scope.includes(o.scope)) it.scope.push(o.scope);
+      if (o.focus && !it.focus.includes(o.focus)) it.focus.push(o.focus);
+      if (o.note) it.notes.push(o.note);
+      if (o.combo) it.combos.push(o.combo);
+      return it;
+    };
+    if (rbiReg) {
+      const cats = [t.rbi_cat].concat(sel.has("dep") ? ["CAT-D"] : []);
+      const why = `${t.label}${L >= 0 ? " · " + D.layers[L].label + " Layer" : ""}`;
+      for (const [id, r] of Object.entries(D.inst.rbi)) {
+        const tags = r[3]; if (!tags.length) continue;
+        const c = tags.filter(x => !(x in LIDX)), ls = tags.filter(x => x in LIDX).map(x => LIDX[x]);
+        if (c.length && !cats.some(x => c.includes(x))) continue;
+        if (ls.length && Math.min(...ls) > Math.max(L, 0)) continue;
+        add("rbi", id, c.includes(t.rbi_cat) || !c.length ? why : "Takes public deposits");
+      }
+    }
+    const lens = {};
+    const feed = (f, why) => { if (f.layers && !f.layers.includes(layerId)) return; (lens[f.sec] = lens[f.sec] || {})[f.lens] = (lens[f.sec][f.lens] || new Set()).add(why); };
+    for (const x of sel) {
+      const a = A.get(x), w = a.group === "type" ? a.label : lab(a);
+      if (a.rbi_only && !rbiReg) continue;
+      (a.feeds || []).forEach(f => feed(f, w));
+      (rbiReg ? a.feeds_rbi || [] : a.feeds_other || []).forEach(f => feed(f, w));
+      (a.adds || []).forEach(d => { if (d.rbi_only && !rbiReg) return; add(d.sec, d.id, w, a.group === "act" ? { focus: d.scope } : { scope: d.scope }); });
+      (a.via || []).forEach(d => add(d.sec, d.id, w, { via: a.id, scope: d.scope, note: d.note }));
+    }
+    for (const [sec, m] of Object.entries(lens)) {
+      for (const [id, r] of Object.entries(D.inst[sec] || {})) {
+        const hit = r[3].filter(x => m[x]); if (!hit.length) continue;
+        const it = add(sec, id); hit.forEach(h => m[h].forEach(w => it.why.add(w)));
+      }
+    }
+    const combos = D.combos.filter(c => (c.all || []).every(x => sel.has(x)) && (!c.any || c.any.some(x => sel.has(x))) && (!c.any2 || c.any2.some(x => sel.has(x))) && !(c.none || []).some(x => sel.has(x)));
+    for (const c of combos) {
+      const w = [...(c.all || []), ...(c.any || []).filter(x => sel.has(x)), ...(c.any2 || []).filter(x => sel.has(x))].map(x => lab(A.get(x)));
+      c._why = c.because ? [c.because] : [...new Set(w)];
+      c.adds.forEach(d => add(d.sec, d.id, c._why.join(" + "), { scope: d.scope, combo: c.id }));
+    }
+    for (const [[ps, pi], [ss, si]] of D.same_as) {
+      const p = items.get(ps + "/" + pi), s = items.get(ss + "/" + si);
+      if (p && s) { s.why.forEach(w => p.why.add(w)); p.also.push(SEC.get(ss).short); items.delete(s.k); }
+    }
+    const sectors = new Set([...sel].flatMap(x => A.get(x).sectors || []));
+    const rulings = D.rulings.filter(j => j.sectors.some(s => sectors.has(s)));
+    return { items: [...items.values()], combos, rulings, rbiReg, t, L };
+  }
+
+  /* ---------- builder ---------- */
+  $("#presets").innerHTML = `<span class="tag">Start from an example:</span>` + D.presets.map((p, i) => `<button type="button" class="chip" data-preset="${i}">${esc(p.label)}</button>`).join("");
+  function renderBuilder(){
+    const t = typeOf();
+    $("#bld").innerHTML = D.groups.map(g => {
+      const opts = D.attrs.filter(a => a.group === g.id);
+      if (g.id === "layer" && !(t && t.layers.length)) return `<div class="grp"><h3>${esc(g.label)}<i>${esc(g.hint)}</i></h3><p class="help" style="margin:0">${t ? "Not used for this type." : "Pick an NBFC or HFC type first."}</p></div>`;
+      return `<div class="grp" role="group" aria-label="${esc(g.label)}"><h3>${esc(g.label)}${g.hint ? `<i>${esc(g.hint)}</i>` : ""}</h3><div class="chips">${opts.map(a => {
+        const dis = g.id === "layer" && !t.layers.includes(a.id);
+        return `<button type="button" class="chip ${g.id === "role" ? "role" : ""} ${sel.has(a.id) ? "on" : ""}" data-a="${a.id}" aria-pressed="${sel.has(a.id)}" ${dis ? 'aria-disabled="true"' : ""}>${esc(a.label)}</button>`; }).join("")}</div>${g.help ? `<p class="help">${esc(g.help)}</p>` : ""}</div>`;
+    }).join("") + `<div class="bfoot"><button type="button" class="btn g" id="copy" style="font-size:13px">Copy link to this entity</button><button type="button" class="lnk" id="clear" style="font-size:13px">Clear</button><span class="tag" id="copied" aria-live="polite"></span></div>`;
+    $$("#presets .chip").forEach(b => b.classList.toggle("on", D.presets[+b.dataset.preset].sel.join() === [...sel].join()));
+  }
+  $("#bld").addEventListener("click", e => {
+    const b = e.target.closest("[data-a]");
+    if (b) {
+      if (b.getAttribute("aria-disabled") === "true") return;
+      const a = A.get(b.dataset.a), g = D.groups.find(x => x.id === a.group);
+      if (sel.has(a.id)) { if (a.group !== "layer") sel.delete(a.id); }
+      else { if (g.single) [...sel].filter(x => A.get(x).group === g.id).forEach(x => sel.delete(x)); sel.add(a.id); }
+      tidy(); panel = null; update(); return;
+    }
+    if (e.target.closest("#clear")) { sel.clear(); open.clear(); panel = null; update(); }
+    if (e.target.closest("#copy")) { const u = location.href; (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(() => $("#copied").textContent = "Link copied", () => $("#copied").textContent = u); }
+  });
+  $("#presets").addEventListener("click", e => { const b = e.target.closest("[data-preset]"); if (!b) return; sel = new Set(D.presets[+b.dataset.preset].sel); tidy(); open.clear(); panel = null; update(); });
+  $("#ebar").addEventListener("click", e => { if (e.target.closest("#editent")) { $("#bld").classList.toggle("fold"); if (!$("#bld").classList.contains("fold")) $("#bld").scrollIntoView({ behavior: "smooth" }); } });
+
+  /* ---------- result shape: branches for the map and the list ---------- */
+  function branches(R){
+    const out = [];
+    const order = ["rbi", "sebi", "exchanges", "irdai", "fema", "dpdp", "ibc", "ifsc"];
+    if (R.combos.length) out.push({ id: "combo", name: "Your combination", themes: R.combos.map(c => ({ name: c.title, combo: c, items: R.items.filter(i => i.combos.includes(c.id)) })) });
+    for (const s of order) {
+      const its = R.items.filter(i => i.sec === s); if (!its.length) continue;
+      const th = new Map(); its.forEach(i => { if (!th.has(i.theme)) th.set(i.theme, []); th.get(i.theme).push(i); });
+      out.push({ id: s, name: SEC.get(s).short, count: its.length, themes: [...th].map(([name, items]) => ({ name, items })) });
+    }
+    const via = R.items.filter(i => i.sec === "lender");
+    if (via.length) { const g = new Map(); via.forEach(i => { const a = A.get(i.via); if (!g.has(a.id)) g.set(a.id, { name: "If you act as: " + a.label, items: [] }); g.get(a.id).items.push(i); }); out.splice(R.combos.length ? 1 : 0, 0, { id: "lender", name: "RBI, via your lender", count: via.length, via: true, themes: [...g.values()] }); }
+    if (R.rulings.length) { const g = new Map(); R.rulings.forEach(j => { const s = j.sectors.find(x => SECTOR[x]) || "lending"; if (!g.has(s)) g.set(s, { name: SECTOR[s], items: [] }); g.get(s).items.push({ k: "j:" + j.id, ruling: j, name: j.title, sec: "rulings" }); }); out.push({ id: "rulings", name: "Key rulings", count: R.rulings.length, themes: [...g.values()] }); }
+    return out;
+  }
+  const whyText = i => [...i.why].join("; ");
+  const hrefOf = i => i.ruling ? `../judgments/#j/${encodeURIComponent(i.ruling.id)}` : `../${SEC.get(i.home).href}#d/${encodeURIComponent(i.id)}`;
+  const HIDE = { sebi: "a listing", exchanges: "a listing", irdai: "IRDAI corporate agent", fema: "“Borrows abroad or lends to non-residents”", ifsc: "IFSC unit", ibc: "an NBFC or HFC type", dpdp: "an NBFC or HFC type, a licence or a role", rbi: "an NBFC or HFC type" };
+
+  /* ---------- header, entity bar and view switch ---------- */
+  function renderHead(R, B){
+    const direct = R.items.filter(i => i.sec !== "lender"), regs = new Set(direct.map(i => i.home));
+    $("#rhead").innerHTML = `<div class="stat"><b>${direct.length}</b><span>instruments apply</span></div><div class="stat"><b>${regs.size}</b><span>regulators</span></div><div class="stat"><b>${R.combos.length}</b><span>extra rules from your combination</span></div>${R.items.some(i => i.via) ? `<div class="stat"><b>${R.items.filter(i => i.via).length}</b><span>via your lender</span></div>` : ""}<div class="sp"></div>
+      <div class="seg" role="group" aria-label="View">${[["map", "Mind map"], ["list", "List"], ["dl", "Deadlines"]].map(([k, l]) => `<button type="button" data-v="${k}" aria-pressed="${view === k}">${l}</button>`).join("")}</div>`;
+    $("#ebar").innerHTML = `<b style="font-size:13px">Your entity</b>${sel.size ? [...sel].map(x => `<span class="chip on">${esc(A.get(x).short || A.get(x).label)}</span>`).join("") : '<span class="tag">nothing picked yet</span>'}<button type="button" class="lnk" id="editent" style="font-size:13px;margin-left:auto">Edit entity</button>`;
+  }
+  $("#rhead").addEventListener("click", e => { const b = e.target.closest("[data-v]"); if (b) { view = b.dataset.v; store.set("entity.view", view); panel = null; update(); } });
+
+  /* ---------- list and deadlines ---------- */
+  function renderList(R, B){
+    if (!sel.size) return emptyState(false);
+    const sec = b => `<div class="lsec"><h3><span class="dot" style="background:${COL(b.id)}"></span>${esc(b.name)} <span class="tag">${b.count || b.themes.length}</span></h3>
+      ${b.id === "combo" ? b.themes.map(t => `<div class="lrow"><div><span class="pill combo-pill">Combination</span> <b>${esc(t.name)}</b></div><div class="bec">Because: ${esc(t.combo._why.join(" + "))}</div><div class="t">${t.combo.adds.map(a => esc(D.inst[a.sec][a.id][0]) + (a.scope ? " · " + esc(a.scope) : "")).join("<br>")}</div></div>`).join("")
+      : `<div class="lrow lhead"><div>${b.id === "rulings" ? "Ruling" : "Instrument"}</div><div>${b.id === "rulings" ? "Court and date" : "Applies because"}</div><div class="t">${b.id === "rulings" ? "Topic" : "Subject"}</div></div>` + b.themes.flatMap(t => t.items.map(i => i.ruling
+        ? `<div class="lrow"><div><a href="${hrefOf(i)}">${esc(i.name)}</a></div><div class="bec">${esc(i.ruling.court)} · ${fmtDate(i.ruling.date)}</div><div class="t">${esc(i.ruling.topic)}</div></div>`
+        : `<div class="lrow"><div><a href="${hrefOf(i)}">${esc(i.name)}</a>${i.scope.length ? `<span class="sc">Applies in part: ${esc(i.scope.join("; "))}</span>` : ""}${i.focus.length ? `<span class="sc">For your activity: ${esc(i.focus.join("; "))}</span>` : ""}</div><div class="bec">${i.via ? "Binds your lender; reaches you by contract" : esc(whyText(i))}${i.also.length ? ` · also in ${esc(i.also.join(", "))}` : ""}</div><div class="t">${esc(t.name)}</div></div>`)).join("")}</div>`;
+    return `<div class="list">${B.map(sec).join("")}${hiddenNote(R, B, true)}</div>`;
+  }
+  function renderDeadlines(R){
+    if (!sel.size) return emptyState(false);
+    const its = R.items.filter(i => !i.via && i.tl && i.tl.length);
+    const by = new Map(); its.forEach(i => { if (!by.has(i.home)) by.set(i.home, []); by.get(i.home).push(i); });
+    const n = its.reduce((a, i) => a + i.tl.length, 0);
+    return `<div class="dl"><p class="tag" style="margin-top:14px">${n} time limits and filing cycles named in the instruments that apply, as the text states them. Check the paragraph before relying on one.</p>${[...by].map(([s, list]) => `<h3 style="font-size:19px;margin-top:18px;display:flex;gap:10px;align-items:center"><span class="dot" style="background:${COL(s)}"></span>${esc(SEC.get(s).short)}</h3>${list.map(i => `<h4><a href="${hrefOf(i)}">${esc(i.name)}</a></h4><ul>${i.tl.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`).join("")}`).join("")}</div>`;
+  }
+  function hiddenNote(R, B, inList){
+    const shown = new Set(B.map(b => b.id)), miss = D.sections.map(s => s.id).filter(s => !shown.has(s) && HIDE[s]);
+    if (!miss.length || !sel.size) return "";
+    const txt = miss.length > 2 ? `Not shown: ${miss.map(s => SEC.get(s).short).join(", ")}. Add ${typeOf() ? "a listing, licence or activity" : "a type, listing, licence or activity"} to bring them in.` : miss.length === 1 ? `Not shown: ${SEC.get(miss[0]).short}. Add ${HIDE[miss[0]]} to include it.` : `Not shown: ${miss.map(s => `${SEC.get(s).short} (add ${HIDE[s]})`).join(", ")}.`;
+    return inList ? `<p class="tag" style="margin-top:18px">${txt}</p>` : `<div class="hnote">${txt}</div>`;
+  }
+  function emptyState(map){
+    return `<div class="${map ? "empty-map" : "list"}"><div style="padding:${map ? 0 : 40}px 0;text-align:center"><h2>Start with what your entity is</h2><p class="tag">Pick a type on the left, or one of the examples above.</p></div></div>`;
+  }
+
+  /* ---------- the mind map: a balanced tree, own SVG, pan and zoom ---------- */
+  const ctx = document.createElement("canvas").getContext("2d");
+  const tw = (s, px, w = 400) => { ctx.font = `${w} ${px}px Inter, system-ui, sans-serif`; return ctx.measureText(s).width; };
+  let vb = null;
+  function renderMap(R, B){
+    if (!sel.size) return `<div class="mapwrap">${emptyState(true)}</div>`;
+    return `<div class="mapwrap" id="mw"><svg class="mm" id="mm" role="img" aria-label="Mind map of the instruments that apply to your entity"><g id="vp"></g></svg>
+      <div class="zoom"><button type="button" class="iconbtn" data-z="1.25" aria-label="Zoom in">+</button><button type="button" class="iconbtn" data-z="0.8" aria-label="Zoom out">−</button><button type="button" class="iconbtn" data-z="fit" aria-label="Fit to screen">⤢</button></div>
+      <div class="legend"><span><i></i>binds you directly</span>${B.some(b => b.via) ? '<span><i class="d"></i>reaches you through your lender</span>' : ""}${R.combos.length ? '<span><i class="c"></i>added by your combination</span>' : ""}<span class="tag">Click a branch to open it</span></div>
+      ${panel ? "" : hiddenNote(R, B, false)}${panel ? drawer(R, panel) : ""}</div>`;
+  }
+  function drawMap(R, B){
+    const svg = $("#mm"); if (!svg) return; const vp = $("#vp"); const NS = "http://www.w3.org/2000/svg";
+    const el = (t, a, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); p.appendChild(e); return e; };
+    const isOpen = k => open.has(k);
+    const ROW = 28, GAP = 12;
+    const hOf = b => !isOpen(b.id) ? ROW : b.themes.reduce((a, t) => a + (isOpen(b.id + "|" + t.name) ? Math.max(1, t.items.length) : 1) * ROW, 0);
+    const left = [], right = []; let hl = 0, hr = 0;
+    B.forEach(b => { const h = hOf(b) + GAP; if (hr <= hl) { right.push(b); hr += h; } else { left.push(b); hl += h; } });
+    const gE = el("g", {}, vp), gN = el("g", {}, vp); const now = new Set();
+    const curve = (x1, y1, x2, y2, col, dash, w, key) => { const mx = (x1 + x2) / 2; const p = el("path", { d: `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`, fill: "none", stroke: col, "stroke-width": w, "stroke-opacity": .55, "stroke-dasharray": dash || "" }, gE); if (!seen.has(key)) p.classList.add("new"); };
+    const node = (key, label, act) => { const g = el("g", { class: "nd", tabindex: 0, role: "button", "data-k": key, "aria-label": label }, gN); if (!seen.has(key)) g.classList.add("new"); now.add(key); g.addEventListener("click", e => { e.stopPropagation(); act(); }); g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); act(); } }); return g; };
+    const txt = (g, x, y, s, a = {}) => { const t = el("text", Object.assign({ x, y, "dominant-baseline": "central", "font-size": 13 }, a), g); t.textContent = s; return t; };
+    const toggle = k => { open.has(k) ? open.delete(k) : open.add(k); draw(); fit(); };
+    const cx = 0, cy = 0;
+    function side(list, dir){
+      const H = list.reduce((a, b) => a + hOf(b) + GAP, 0) - GAP; let y = cy - H / 2;
+      list.forEach(b => {
+        const h = hOf(b), ry = y + h / 2, col = COL(b.id), dash = b.via ? "6 5" : b.id === "combo" ? "5 4" : "";
+        const lbl = b.id === "combo" ? `${b.name}  ${b.themes.length}` : `${b.name}  ${b.count}`;
+        const w = tw(lbl, 13.5, 600) + 34, rx = cx + dir * 170, x0 = dir > 0 ? rx : rx - w;
+        curve(cx + dir * 115, cy, rx, ry, col, dash, 2.2, "e:" + b.id);
+        const g = node("b:" + b.id, `${lbl}. ${isOpen(b.id) ? "Close" : "Open"} branch`, () => toggle(b.id));
+        el("rect", { x: x0, y: ry - 15, width: w, height: 30, rx: 15, fill: b.id === "combo" ? "var(--accent-soft)" : "var(--surface)", stroke: col, "stroke-width": 1.6, "stroke-dasharray": dash, class: "hit" }, g);
+        el("circle", { cx: x0 + 15, cy: ry, r: 4, fill: col }, g); txt(g, x0 + 25, ry, lbl, { "font-size": 13.5, "font-weight": 600 });
+        const end = dir > 0 ? x0 + w : x0;
+        if (!isOpen(b.id)) { txt(gN, end + dir * 10, ry, "+", { "text-anchor": dir > 0 ? "start" : "end", "font-size": 15, fill: "var(--muted)" }); y += h + GAP; return; }
+        let ty0 = y;
+        b.themes.forEach(t => {
+          const tk = b.id + "|" + t.name, topen = isOpen(tk), th = (topen ? Math.max(1, t.items.length) : 1) * ROW, ty = ty0 + th / 2, tx = end + dir * 40;
+          curve(end, ry, tx - dir * 6, ty, col, dash ? "4 4" : "", 1.5, "e:" + tk);
+          const name = short(t.name, 40), cnt = b.id === "combo" ? "" : String(t.items.length);
+          const tg = node("t:" + tk, `${t.name}, ${t.items.length}`, () => b.id === "combo" ? (panel = { combo: t.combo.id }, update()) : toggle(tk));
+          const fw = b.id === "combo" ? 600 : 500, wN = tw(name, 12.5, fw), wC = cnt ? tw(cnt, 11.5) + 8 : 0, bw = wN + wC + 12;
+          const bx = dir > 0 ? tx - 6 : tx - bw + 6;
+          el("rect", { x: bx, y: ty - 12, width: bw, height: 24, rx: 7, class: "hit", stroke: panel && panel.combo && t.combo && panel.combo === t.combo.id ? "var(--accent)" : "none" }, tg);
+          const t1 = txt(tg, dir > 0 ? tx : tx - wC, ty, name, { "text-anchor": dir > 0 ? "start" : "end", "font-size": 12.5, "font-weight": fw, fill: b.id === "combo" ? "var(--accent-text)" : "var(--ink)" });
+          el("title", {}, t1).textContent = t.name;
+          if (cnt) txt(tg, dir > 0 ? tx + wN + 8 : tx, ty, cnt, { "text-anchor": dir > 0 ? "start" : "end", "font-size": 11.5, fill: "var(--muted)" });
+          if (topen) {
+            const ix = tx + dir * (wN + wC + 46);
+            t.items.forEach((i, j) => {
+              const iy = ty0 + j * ROW + ROW / 2, ik = "i:" + i.k;
+              curve(tx + dir * (wN + wC + 6), ty, ix - dir * 6, iy, col, i.via ? "4 4" : "", 1.2, "e:" + ik);
+              const nm = short(i.name, 46) + (i.scope && i.scope.length ? " ◐" : "");
+              const ig = node(ik, i.name, () => { panel = { item: i.k }; update(); });
+              const wi = tw(nm, 12.5) + 12, ibx = dir > 0 ? ix - 6 : ix - wi + 6;
+              el("rect", { x: ibx, y: iy - 12, width: wi, height: 24, rx: 7, class: "hit", stroke: panel && panel.item === i.k ? "var(--accent)" : "none" }, ig);
+              const t2 = txt(ig, ix, iy, nm, { "text-anchor": dir > 0 ? "start" : "end", "font-size": 12.5, fill: "var(--ink-2)" });
+              el("title", {}, t2).textContent = i.name + (i.scope && i.scope.length ? " (applies in part)" : "");
+            });
+          }
+          ty0 += th;
+        });
+        y += h + GAP;
+      });
+    }
+    function draw(){
+      gE.innerHTML = ""; gN.innerHTML = ""; now.clear();
+      const L2 = [], R2 = []; let a = 0, c = 0;
+      B.forEach(b => { const h = hOf(b) + GAP; if (c <= a) { R2.push(b); c += h; } else { L2.push(b); a += h; } });
+      side(R2, 1); side(L2, -1);
+      const lines = [...sel].map(x => A.get(x).short || A.get(x).label).slice(0, 6), cw = Math.max(200, ...lines.map(l => tw(short(l, 34), 12) + 30)), ch = 44 + lines.length * 17;
+      const g = node("center", "Your entity", () => { $("#bld").scrollIntoView({ behavior: "smooth" }); });
+      el("rect", { x: cx - cw / 2, y: cy - ch / 2, width: cw, height: ch, rx: 16, fill: "var(--accent)" }, g);
+      txt(g, cx, cy - ch / 2 + 22, "Your entity", { "text-anchor": "middle", "font-size": 15, "font-weight": 700, fill: "var(--accent-ink)" });
+      lines.forEach((l, i) => txt(g, cx, cy - ch / 2 + 42 + i * 17, short(l, 34), { "text-anchor": "middle", "font-size": 12, fill: "var(--accent-ink)" }));
+      now.forEach(k => seen.add(k)); [...gE.children].forEach(p => {}); B.forEach(b => { seen.add("e:" + b.id); b.themes.forEach(t => { seen.add("e:" + b.id + "|" + t.name); t.items.forEach(i => seen.add("e:i:" + i.k)); }); });
+      if (!vb) fit(); else apply();
+    }
+    const mw = $("#mw");
+    function bbox(){ const b = vp.getBBox(); return { x: b.x - 30, y: b.y - 30, w: b.width + 60, h: b.height + 60 }; }
+    function fit(){ const W = mw.clientWidth - (panel ? Math.min(400, mw.clientWidth) : 0), H = mw.clientHeight, b = bbox(); const s = Math.max(0.55, Math.min(1.15, W / b.w, H / b.h)); const anim = !!vb; vb = { s, x: (W - b.w * s) / 2 - b.x * s, y: (H - b.h * s) / 2 - b.y * s }; apply(anim); }
+    function apply(anim){ vp.style.transition = anim ? "transform .35s ease" : "none"; vp.style.transform = `translate(${vb.x}px,${vb.y}px) scale(${vb.s})`; }
+    mw.querySelector(".zoom").addEventListener("click", e => { const z = e.target.closest("[data-z]"); if (!z) return; if (z.dataset.z === "fit") return fit(); const k = +z.dataset.z, W = mw.clientWidth / 2, H = mw.clientHeight / 2; vb.x = W - (W - vb.x) * k; vb.y = H - (H - vb.y) * k; vb.s *= k; apply(true); });
+    svg.addEventListener("wheel", e => { if (!e.ctrlKey && !e.metaKey) return; e.preventDefault(); const r = svg.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top, k = e.deltaY < 0 ? 1.1 : 0.9; vb.x = mx - (mx - vb.x) * k; vb.y = my - (my - vb.y) * k; vb.s *= k; apply(); }, { passive: false });
+    let drag = null;
+    svg.addEventListener("pointerdown", e => { if (e.target.closest(".nd")) return; drag = { x: e.clientX, y: e.clientY, vx: vb.x, vy: vb.y }; mw.classList.add("drag"); svg.setPointerCapture(e.pointerId); });
+    svg.addEventListener("pointermove", e => { if (!drag) return; vb.x = drag.vx + e.clientX - drag.x; vb.y = drag.vy + e.clientY - drag.y; apply(); });
+    svg.addEventListener("pointerup", () => { drag = null; mw.classList.remove("drag"); });
+    T = { draw, fit };
+    draw();
+  }
+  function drawer(R, p){
+    const close = `<button type="button" class="iconbtn x" data-close aria-label="Close">×</button>`;
+    if (p.combo) {
+      const c = R.combos.find(x => x.id === p.combo); if (!c) return "";
+      return `<aside class="drawer" aria-label="Why it applies">${close}<div class="eyebrow" style="color:var(--accent-text)">Added by your combination</div><h2>${esc(c.title)}</h2>
+        <div class="why">Applies because you picked ${c._why.map(w => `<b>${esc(w)}</b>`).join(" and ")}. Each choice alone does not bring these in.</div>
+        <ul class="adds">${c.adds.map(a => { const r = D.inst[a.sec][a.id]; return `<li><div class="src"><span class="dot" style="background:${COL(a.sec)}"></span>${esc(SEC.get(a.sec).short)} · ${esc(r[0])}${a.scope ? ", " + esc(a.scope) : ""}</div>${a.note ? esc(a.note) : ""} <a class="lnk" href="../${SEC.get(a.sec).href}#d/${encodeURIComponent(a.id)}">Open</a></li>`; }).join("")}</ul></aside>`;
+    }
+    const i = R.items.find(x => x.k === p.item); if (!i) return "";
+    const sec = SEC.get(i.home);
+    return `<aside class="drawer" aria-label="Why it applies">${close}<div class="eyebrow"${i.via ? "" : ` style="color:var(--accent-text)"`}>${i.via ? "Reaches you through your lender" : esc(sec.short) + " · " + esc(i.type)}</div><h2>${esc(i.name)}</h2>
+      <div class="why">${i.via ? `<b>${esc(A.get(i.via).label)}</b> is not a licence. This binds the NBFC or HFC you work for, which must make you follow it under your agreement.` : `Applies because: ${[...i.why].map(w => `<b>${esc(w)}</b>`).join(", ")}.`}${i.also.length ? ` Also covered in the ${esc(i.also.join(", "))} section.` : ""}</div>
+      ${i.scope.length ? `<p style="font-size:13.5px;margin:0 0 10px"><b>Applies in part:</b> ${esc(i.scope.join("; "))}</p>` : ""}
+      ${i.focus.length ? `<p style="font-size:13.5px;margin:0 0 10px"><b>For your activity:</b> ${esc(i.focus.join("; "))}</p>` : ""}
+      ${i.notes.length ? `<ul class="adds">${i.notes.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
+      ${i.tl && i.tl.length && !i.via ? `<h3 style="font:600 13px var(--f-b);margin:14px 0 4px">Time limits named</h3><ul style="padding-left:18px;margin:0;font-size:13px">${i.tl.slice(0, 6).map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+      <p style="margin-top:16px"><a class="btn p" style="font-size:13px" href="${hrefOf(i)}">Open in the ${esc(sec.short)} section</a></p></aside>`;
+  }
+  $("#out").addEventListener("click", e => {
+    if (e.target.closest("[data-close]")) { panel = null; update(); return; }
+    if (e.target.closest(".drawer")) return;
+    if (panel && e.target.closest(".mapwrap") && !e.target.closest(".nd") && !e.target.closest(".zoom")) { panel = null; update(); }
+  });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && panel) { panel = null; update(); } });
+
+  /* ---------- update cycle ---------- */
+  let lastSel = null, lastPanel = null;
+  function update(){
+    writeHash(); renderBuilder();
+    const R = compute(), B = branches(R);
+    const key = [...sel].join();
+    if (key !== lastSel) { vb = null; open.clear(); const first = B.find(b => b.id === "combo") || B.find(b => b.id === "lender"); if (first) open.add(first.id); lastSel = key; }
+    renderHead(R, B);
+    $("#out").innerHTML = view === "list" ? renderList(R, B) : view === "dl" ? renderDeadlines(R) : renderMap(R, B);
+    if (view === "map" && sel.size) { drawMap(R, B); if (!!panel !== !!lastPanel) T.fit(); }
+    lastPanel = panel;
+  }
+  readHash(); if (phone()) $("#bld").classList.add("fold");
+  if (!sel.size && phone()) $("#bld").classList.remove("fold");
+  update();
+  addEventListener("hashchange", () => { panel = null; readHash(); update(); });
+  addEventListener("resize", () => { if (view === "map" && T) T.fit(); });
+
+  /* Counsel's Clerk, answering from the RBI texts (loaded after the page is ready) */
+  const rs = hub.sections.find(s => s.id === "rbi");
+  if (hub.ai_endpoint && rs) loadSection(rs, "../").then(M => initJudge({ M, endpoint: hub.ai_endpoint, section: "rbi", fulltext: rs.data.fulltext ? "../" + rs.data.fulltext : "", link: id => "../rbi/#d/" + id,
+    judUrl: "../judgments/data/judgments.json", judLink: id => "../judgments/#j/" + id,
+    scope: "Answers from the RBI texts on this site",
+    intro: "Put your question on what an NBFC or HFC must do, and I shall answer from the RBI texts on this site, citing the paragraph. Check what I say.",
+    placeholder: "Ask a question, e.g. Must an NBFC that sells insurance get RBI approval?" })).catch(() => {});
+})();
+</script>
+</body>
+</html>

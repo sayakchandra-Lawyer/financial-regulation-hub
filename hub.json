@@ -999,5 +999,13 @@
    "desc": "Anti-money laundering and housing finance supervision.",
    "line": "PMLA, NHB"
   }
+ ],
+ "tools": [
+  {
+   "id": "entity",
+   "short": "My entity",
+   "name": "What applies to my entity",
+   "href": "entity/"
+  }
  ]
 }
