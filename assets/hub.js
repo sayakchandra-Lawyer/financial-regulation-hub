@@ -353,6 +353,12 @@ function sxWhere(doc, chap, para) {
   return [chap, p === "footnotes" ? "Footnotes" : p ? `${unit} ${p}` : ""].filter(Boolean).join(" · ");
 }
 function sxHref(root, doc) { return doc[0] === "judgments" ? `${root}judgments/#j/${encodeURIComponent(doc[1])}` : `${root}${doc[0]}/#d/${encodeURIComponent(doc[1])}`; }
+/* For a phrase of 2+ words that no instrument summary holds, the full-text passages are the better answer: show them first */
+function sxFirst(raw, docs) {
+  const el = $("#sxres"); if (!el || tok(raw).length < 2 || (docs || []).some(d => d.exact)) return false;
+  const pg = el.parentNode, tgt = pg && pg.querySelector("h3"); if (tgt) { tgt.before(el); el.style.margin = "18px 0 6px"; }
+  return true;
+}
 /* Render whole-site full-text results into el.  opts: { root: "" | "../", here: section id or "", compact: bool } */
 async function sxMount(el, raw, opts = {}) {
   if (!el) return;
@@ -363,11 +369,16 @@ async function sxMount(el, raw, opts = {}) {
   const Q = R.Q, here = opts.here || "", seen = new Set(R.docs.filter(g => g.doc[0] === here).map(g => g.doc[1]));
   const docs = R.docs.filter(g => g.doc[0] === here || (!seen.has(g.doc[1]) && seen.add(g.doc[1])));
   const mine = docs.filter(g => g.doc[0] === here), rest = docs.filter(g => g.doc[0] !== here);
-  const lim = opts.compact ? 5 : 12, show = opts.compact ? R.docs.slice(0, lim) : [...mine.slice(0, lim), ...rest.slice(0, here ? 6 : lim)];
+  const lim = opts.compact ? 6 : 12, show = opts.compact ? docs.slice(0, lim) : [...mine.slice(0, lim), ...rest.slice(0, here ? 6 : lim)];
   if (opts.skipHere && !rest.length) { el.innerHTML = ""; return; }
   if (!R.docs.length) { el.innerHTML = `<div class="rhead"><b>Found in the full text</b><span>No passage contains these words.</span></div>`; return; }
   const secCount = {}; R.docs.forEach(g => secCount[g.doc[0]] = (secCount[g.doc[0]] || 0) + g.ps.length);
   await Promise.all(show.map(g => sxPassage(g.ps[0].i))); if (el._sx !== tokn) return;
+  { // the same text kept under two sections (e.g. the FDI direction under RBI and FEMA) shows once
+    const seenT = new Set();
+    const keep = []; for (const g of [...show].sort((a, b) => (b.doc[0] === here) - (a.doc[0] === here))) { const p = await sxPassage(g.ps[0].i), t = p ? p[3].slice(0, 400) : g.d; if (!seenT.has(t)) { seenT.add(t); keep.push(g); } }
+    for (let k = show.length - 1; k >= 0; k--) if (!keep.includes(show[k])) show.splice(k, 1);
+  }
   const item = async (g) => {
     const [, chap, para, txt] = await sxPassage(g.ps[0].i) || [0, "", "", ""];
     const more = g.ps.length - 1, d = g.doc;
@@ -379,7 +390,7 @@ async function sxMount(el, raw, opts = {}) {
   const head = (t, extra) => opts.compact ? `<div class="rhead"><b>${t}</b><span>${extra}</span></div>` : `<h3 style="font-size:19px">${t}</h3><p class="tag" style="margin:4px 0 8px">${extra}</p>`;
   const summary = `${R.n} passage${R.n === 1 ? "" : "s"} in ${R.docs.length} document${R.docs.length === 1 ? "" : "s"}${R.exactN && Q.phrase ? ` · ${R.exactN} with the exact phrase` : ""}${R.partial ? " · no passage has every word, closest matches shown" : ""}`;
   let h = "";
-  if (opts.compact) h = head("Found in the full text", summary) + (await Promise.all(show.map(item))).join("");
+  if (opts.compact) h = head(R.exactN && Q.phrase ? "The exact words, in the full text" : "Found in the full text", summary) + (await Promise.all(show.map(item))).join("");
   else {
     h = head("Found in the full text", summary);
     if (here) {
