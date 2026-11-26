@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Contact · Financial Regulation Hub</title>
+<meta name="description" content="How to get in touch with Financial Regulation Hub.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="../assets/hub.css?v=20261126i">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
+</head>
+<body>
+<header id="top"></header>
+<main class="wrap">
+  <div class="ipage">
+    <section class="rise">
+      <div class="eyebrow">Contact</div>
+      <h1>Get in touch</h1>
+      <p class="lede">For corrections and suggestions, the feedback form is the quickest route. For anything else, use one of the options below.</p>
+      <div class="cways" id="ways"></div>
+      <h2>Before you write</h2>
+      <ul>
+        <li>This site cannot give advice on a specific transaction or dispute, and writing to us does not create any professional relationship.</li>
+        <li>For a regulator's official position, contact that regulator directly. Each section links to the regulator's website.</li>
+        <li>Please do not send confidential or personal information about clients or customers.</li>
+      </ul>
+    </section>
+    <aside>
+      <div class="card"><h3>About this site</h3><a class="il" href="../about/">About</a><a class="il" href="../feedback/">Feedback</a><a class="il" href="../contact/" aria-current="page">Contact</a><a class="il" href="../disclaimer/">Disclaimer & privacy</a></div>
+      <div class="card"><h3>Spotted an error?</h3><p class="tag" style="margin:0 0 12px">Tell us which page and what looks wrong. Corrections are the most useful feedback we get.</p><a class="btn p" href="../feedback/?type=error">Report an error</a></div>
+    </aside>
+  </div>
+</main>
+<footer id="foot"></footer>
+<script src="../assets/hub.js?v=20261126i"></script>
+<script>
+(async function(){
+  const hub = await getJSON("../hub.json");
+  renderChrome(hub, { root: "../", active: "contact", crumb: `<a href="../">Home</a> / <b>Contact</b>` });
+  const C = hub.contact || {};
+  const W = [`<div class="card"><h3>Feedback and corrections</h3><p class="tag">Report an error, a missing rule or a broken page.</p><a class="btn p" href="../feedback/">Open the feedback form</a></div>`];
+  if (C.email) W.push(`<div class="card"><h3>Email</h3><p class="tag">${esc(C.email)}</p><a class="btn g" href="mailto:${esc(C.email)}">Write an email</a></div>`);
+  if (C.linkedin) W.push(`<div class="card"><h3>LinkedIn</h3><p class="tag">${esc(C.name || "Message us on LinkedIn")}</p><a class="btn g" href="${esc(C.linkedin)}" target="_blank" rel="noopener">Open LinkedIn</a></div>`);
+  W.push(`<div class="card"><h3>GitHub</h3><p class="tag">Public issues and discussion about the site. Needs a free GitHub account.</p><a class="btn g" href="https://github.com/sayakchandra-lawyer/financial-regulation-hub/issues" target="_blank" rel="noopener">Open GitHub issues</a></div>`);
+  $("#ways").innerHTML = W.join("");
+})();
+</script>
+</body>
+</html>
