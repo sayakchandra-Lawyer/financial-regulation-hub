@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Key judgments for financial services",
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-26",
   "count": 34,
   "sectors": [
    {
@@ -192,7 +192,20 @@
     "Arbitration and Conciliation Act, 1996, ss. 7, 34, 37",
     "BSE Bye-laws, 1957"
    ],
-   "links": [],
+   "links": [
+    {
+     "section": "sebi",
+     "id": "REG-SB",
+     "label": "Stock Brokers Regulations 2026",
+     "href": "../sebi/#d/REG-SB"
+    },
+    {
+     "section": "sebi",
+     "id": "MC-SB",
+     "label": "Stock Brokers Master Circular",
+     "href": "../sebi/#d/MC-SB"
+    }
+   ],
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2025/english/2025_2_1545_1568_EN.pdf"
@@ -352,7 +365,20 @@
     "Companies Act, 1956, ss. 109A, 109B",
     "Depositories Act, 1996 and depository bye-laws"
    ],
-   "links": [],
+   "links": [
+    {
+     "section": "sebi",
+     "id": "ACT-DEP",
+     "label": "Depositories Act, 1996",
+     "href": "../sebi/#d/ACT-DEP"
+    },
+    {
+     "section": "sebi",
+     "id": "REG-DP",
+     "label": "Depositories and Participants",
+     "href": "../sebi/#d/REG-DP"
+    }
+   ],
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_16_695_723_EN.pdf"
@@ -552,7 +578,20 @@
     "SEBI (Mutual Funds) Regulations, 1996, regs. 39-41, 52",
     "SEBI (Mutual Funds) Regulations, 2026, reg. 38"
    ],
-   "links": [],
+   "links": [
+    {
+     "section": "sebi",
+     "id": "REG-MF",
+     "label": "Mutual Funds Regulations 2026",
+     "href": "../sebi/#d/REG-MF"
+    },
+    {
+     "section": "sebi",
+     "id": "REG-MF-OLD",
+     "label": "Mutual Funds Regulations 1996",
+     "href": "../sebi/#d/REG-MF-OLD"
+    }
+   ],
    "status": "Current",
    "status_note": "Decided under the 1996 Regulations, which the SEBI (Mutual Funds) Regulations, 2026 replaced from 1 April 2026. The 2026 Regulations follow this ruling.",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2022/english/2022_6_880_887_EN.pdf"
@@ -675,7 +714,20 @@
     "SEBI (Mutual Funds) Regulations, 2026, regs. 36-38",
     "SEBI Act, 1992"
    ],
-   "links": [],
+   "links": [
+    {
+     "section": "sebi",
+     "id": "REG-MF",
+     "label": "Mutual Funds Regulations 2026",
+     "href": "../sebi/#d/REG-MF"
+    },
+    {
+     "section": "sebi",
+     "id": "REG-MF-OLD",
+     "label": "Mutual Funds Regulations 1996",
+     "href": "../sebi/#d/REG-MF-OLD"
+    }
+   ],
    "status": "Current",
    "status_note": "Decided under the 1996 Regulations, which the SEBI (Mutual Funds) Regulations, 2026 replaced from 1 April 2026. Regulations 36 to 38 of the 2026 Regulations carry the same consent requirement.",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_5_559_612_EN.pdf"
@@ -791,7 +843,20 @@
    "statutes": [
     "SEBI (Mutual Funds) Regulations, 1996, regs. 18(15)(c), 39"
    ],
-   "links": [],
+   "links": [
+    {
+     "section": "sebi",
+     "id": "REG-MF",
+     "label": "Mutual Funds Regulations 2026",
+     "href": "../sebi/#d/REG-MF"
+    },
+    {
+     "section": "sebi",
+     "id": "REG-MF-OLD",
+     "label": "Mutual Funds Regulations 1996",
+     "href": "../sebi/#d/REG-MF-OLD"
+    }
+   ],
    "status": "Current",
    "status_note": "Decided under the 1996 Regulations, which the SEBI (Mutual Funds) Regulations, 2026 replaced from 1 April 2026. Regulation 36(4) of the 2026 Regulations reflects this ruling. Read with the July 2021 judgment in the same case.",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_14_573_610_EN.pdf"
@@ -1175,7 +1240,20 @@
     "SEBI (PFUTP) Regulations, 2003, regs. 3, 4",
     "SEBI (Stock Brokers) Regulations"
    ],
-   "links": [],
+   "links": [
+    {
+     "section": "sebi",
+     "id": "REG-PFUTP",
+     "label": "PFUTP Regulations",
+     "href": "../sebi/#d/REG-PFUTP"
+    },
+    {
+     "section": "sebi",
+     "id": "REG-SB",
+     "label": "Stock Brokers Regulations 2026",
+     "href": "../sebi/#d/REG-SB"
+    }
+   ],
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2018/english/2018_1_937_1006_EN.pdf"
@@ -1206,7 +1284,14 @@
     "SEBI (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 2003, regs. 3, 4(1)",
     "SEBI Act, 1992"
    ],
-   "links": [],
+   "links": [
+    {
+     "section": "sebi",
+     "id": "REG-PFUTP",
+     "label": "PFUTP Regulations",
+     "href": "../sebi/#d/REG-PFUTP"
+    }
+   ],
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2017/english/2017_14_268_300_EN.pdf"
@@ -1237,7 +1322,20 @@
     "SEBI (Stock Brokers and Sub-Brokers) Regulations, 1992",
     "SEBI (PFUTP) Regulations, 2003"
    ],
-   "links": [],
+   "links": [
+    {
+     "section": "sebi",
+     "id": "REG-PFUTP",
+     "label": "PFUTP Regulations",
+     "href": "../sebi/#d/REG-PFUTP"
+    },
+    {
+     "section": "sebi",
+     "id": "REG-SB",
+     "label": "Stock Brokers Regulations 2026",
+     "href": "../sebi/#d/REG-SB"
+    }
+   ],
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2016/english/2016_1_1118_1140_EN.pdf"
@@ -1339,7 +1437,14 @@
     "Securities Contracts (Regulation) Act, 1956 and Rules",
     "Income Tax Act, 1961, s. 226(3)"
    ],
-   "links": [],
+   "links": [
+    {
+     "section": "sebi",
+     "id": "REG-SB",
+     "label": "Stock Brokers Regulations 2026",
+     "href": "../sebi/#d/REG-SB"
+    }
+   ],
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2014/english/2014_14_409_455_EN.pdf"

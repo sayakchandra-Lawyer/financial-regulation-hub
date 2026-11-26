@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "default": "sebi",
+  "maps": [
+    {
+      "id": "sebi",
+      "title": "SEBI Securities Regulation Map",
+      "hubLabel": "SEBI",
+      "hubSub": "Securities regulation",
+      "section": "sebi",
+      "register": "../data/sebi_register.json",
+      "graph": "../data/sebi_graph.json",
+      "categoryGroup": "Who it applies to",
+      "layers": [
+        "ENT-LE",
+        "ENT-LD",
+        "ENT-AMC",
+        "ENT-BRK",
+        "ENT-AIF"
+      ],
+      "cumulativeLayers": false,
+      "historyTheme": "Superseded (history)",
+      "categoryCaveat": "Each instrument is tagged to the entity types its applicability clause names. The Acts, the insider trading and market abuse rules and the grievance framework apply to everyone. Check the clause before relying on a tag.",
+      "caveatShort": "Tags follow each applicability clause. See the clause.",
+      "milestones": [
+        {
+          "date": "2026-04-01",
+          "label": "Mutual Funds Regulations 2026 take effect"
+        },
+        {
+          "date": "2026-11-07",
+          "label": "Settlement Proceedings Regulations 2026 in force"
+        }
+      ],
+      "updates": "../data/updates.json",
+      "glossary": "../data/glossary.json",
+      "definitions": "../data/definitions.json",
+      "fulltext": "../data/fulltext.json",
+      "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev"
+    }
+  ]
+}

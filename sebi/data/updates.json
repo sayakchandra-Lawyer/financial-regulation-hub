@@ -1,0 +1,577 @@
+{
+ "meta": {
+  "as_of": "2026-11-25",
+  "window_from": "2026-09-01",
+  "window_to": "2026-11-25",
+  "entities": [
+   {
+    "key": "equity",
+    "name": "Listed entities (equity)",
+    "profile": "Companies with equity shares listed on the main board or SME platform."
+   },
+   {
+    "key": "debt",
+    "name": "Listed entities (debt)",
+    "profile": "Issuers with listed non-convertible debt securities or commercial paper."
+   },
+   {
+    "key": "amc",
+    "name": "AMCs and mutual funds",
+    "profile": "Asset management companies, trustees and mutual fund schemes."
+   },
+   {
+    "key": "broker",
+    "name": "Stock brokers",
+    "profile": "Stock brokers and clearing members."
+   },
+   {
+    "key": "aif",
+    "name": "AIFs and managers",
+    "profile": "Alternative Investment Funds of all categories and their managers."
+   }
+  ]
+ },
+ "updates": [
+  {
+   "id": "U-2026-11-25-KRA",
+   "date": "2026-11-25",
+   "kind": "Circular",
+   "title": "Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
+   "ref": "",
+   "instrument": "REG-KRA",
+   "effective": "2026-12-24",
+   "applies": "All SEBI-registered intermediaries that on-board clients, and KYC Registration Agencies.",
+   "changes": [
+    "Common supplementary client information (such as income range, FATCA/CRS details, PEP status and occupation) is centralised at the KRA, along with CKYC ID, DIGIPIN and the expiry date of the officially valid document.",
+    "Intermediaries upload the specified KYC information to the KRA within three working days of completing KYC.",
+    "In force from 24-12-2026; KRAs issue an operating procedure within 30 days."
+   ],
+   "impact": {
+    "amc": {
+     "level": "Medium",
+     "text": "Update on-boarding forms and KRA uploads."
+    },
+    "broker": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "aif": {
+     "level": "Medium",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Update account opening forms and KRA upload processes before 24-12-2026."
+   ]
+  },
+  {
+   "id": "U-2026-11-11-FATCA",
+   "date": "2026-11-11",
+   "kind": "Circular",
+   "title": "FATCA and CRS reporting revised under the Income-Tax Act, 2025 and Income-Tax Rules, 2026",
+   "ref": "",
+   "instrument": "",
+   "effective": "2026-11-11",
+   "applies": "Registered intermediaries that are Reporting Financial Institutions.",
+   "changes": [
+    "Reporting and due diligence now follow s. 508 of the Income-Tax Act, 2025 and rules 238 to 240 and Form 166 of the Income-Tax Rules, 2026.",
+    "Self-certification, controlling person and account classification systems must capture the new fields; FATCA/CRS certifications are uploaded to the KRA."
+   ],
+   "impact": {
+    "amc": {
+     "level": "Medium",
+     "text": "Update FATCA/CRS self-certification and Form 166 reporting."
+    },
+    "broker": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "aif": {
+     "level": "Medium",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Review on-boarding and reporting systems for the new mandatory fields."
+   ]
+  },
+  {
+   "id": "U-2026-11-07-SETTLE",
+   "date": "2026-11-07",
+   "kind": "Regulations",
+   "title": "SEBI (Settlement of Administrative and Civil Proceedings) Regulations, 2026 in force",
+   "ref": "SEBI/LAD-DOP/2026/318",
+   "instrument": "REG-SETTLE",
+   "effective": "2026-11-07",
+   "applies": "Anyone facing or likely to face SEBI proceedings.",
+   "changes": [
+    "Replace the Settlement Proceedings Regulations, 2018.",
+    "Settlement notices before a show cause notice, a formula-based settlement amount, and fast track settlement for delayed or wrong-format disclosures.",
+    "Applications within 90 days of a show cause notice; pending cases not settled under the 2018 rules may apply within 90 days at a 20% higher amount."
+   ],
+   "impact": {
+    "equity": {
+     "level": "Medium",
+     "text": "New route and costs for settling disclosure defaults."
+    },
+    "debt": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "amc": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "broker": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "aif": {
+     "level": "Medium",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Check any pending show cause notices against the 90-day window."
+   ]
+  },
+  {
+   "id": "U-2026-11-06-AMLCP",
+   "date": "2026-11-06",
+   "kind": "Consultation paper",
+   "title": "Consultation paper: AML/CFT certification for Principal Officers of intermediaries",
+   "ref": "",
+   "instrument": "",
+   "effective": "",
+   "applies": "All intermediaries registered under s. 12 of the SEBI Act.",
+   "changes": [
+    "Proposes a mandatory AML/CFT certification for the Principal Officer responsible for PMLA compliance.",
+    "No rule has changed yet."
+   ],
+   "impact": {
+    "amc": {
+     "level": "Low",
+     "text": "Principal Officer may need to certify."
+    },
+    "broker": {
+     "level": "Low",
+     "text": "Same."
+    },
+    "aif": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-11-05-AI",
+   "date": "2026-11-05",
+   "kind": "Circular",
+   "title": "Review of the framework for Accredited Investors",
+   "ref": "",
+   "instrument": "REG-AIF",
+   "effective": "2026-11-05",
+   "applies": "AIF managers, SIF AMCs and portfolio managers, and their investors.",
+   "changes": [
+    "Managers may determine and record an investor's accredited status themselves, valid for three years and recognised across the same group.",
+    "Securities market exposure qualifies: at least Rs 5 crore for individuals, HUFs, family trusts and sole proprietorships, and Rs 20 crore for bodies corporate and other trusts."
+   ],
+   "impact": {
+    "aif": {
+     "level": "High",
+     "text": "New manager-led accreditation route and exposure-based criteria."
+    },
+    "amc": {
+     "level": "Medium",
+     "text": "Applies to SIF investors."
+    }
+   },
+   "actions": [
+    "Set up a documented accreditation process if using the manager route."
+   ]
+  },
+  {
+   "id": "U-2026-11-05-MFNET",
+   "date": "2026-11-05",
+   "kind": "Circular",
+   "title": "Framework for net settlement of funds for mutual fund cash market transactions",
+   "ref": "",
+   "instrument": "REG-MF",
+   "effective": "2027-04-01",
+   "applies": "Mutual funds, custodians, stock brokers and clearing corporations.",
+   "changes": [
+    "Funds for outright transactions in the cash segment may be settled net at the level of each scheme; securities still settle gross.",
+    "No netting across schemes. In force from 01-04-2027."
+   ],
+   "impact": {
+    "amc": {
+     "level": "Medium",
+     "text": "Operational change for scheme-level fund settlement."
+    },
+    "broker": {
+     "level": "Low",
+     "text": "Settlement processes with mutual fund clients change."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-11-04-PROI",
+   "date": "2026-11-04",
+   "kind": "Circular",
+   "title": "Review of KYC process for individual Person Resident Outside India clients",
+   "ref": "",
+   "instrument": "REG-KRA",
+   "effective": "2026-12-03",
+   "applies": "Intermediaries on-boarding NRI, OCI and foreign national individual clients.",
+   "changes": [
+    "Digital KYC is allowed for individual clients located in FATF-compliant countries, without being in India.",
+    "Intermediaries may rely on KYC by another SEBI or financial sector regulated entity through KRA or CKYCRR records."
+   ],
+   "impact": {
+    "broker": {
+     "level": "Medium",
+     "text": "Digital on-boarding of non-resident individuals opens up."
+    },
+    "amc": {
+     "level": "Medium",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-10-30-ACC",
+   "date": "2026-10-30",
+   "kind": "Circular",
+   "title": "Extension of timeline for digital accessibility compliance",
+   "ref": "",
+   "instrument": "",
+   "effective": "2026-10-30",
+   "applies": "All SEBI regulated entities.",
+   "changes": [
+    "Appointment of an accessibility auditor, the accessibility audit of digital platforms and fixing its findings are extended to 31-01-2027."
+   ],
+   "impact": {
+    "amc": {
+     "level": "Low",
+     "text": "New deadline 31-01-2027."
+    },
+    "broker": {
+     "level": "Low",
+     "text": "Same."
+    },
+    "aif": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-10-27-DT",
+   "date": "2026-10-27",
+   "kind": "Circular",
+   "title": "Further extension for debenture trustees to move non-SEBI activities to separate business units",
+   "ref": "",
+   "instrument": "REG-DT",
+   "effective": "2026-10-27",
+   "applies": "Debenture trustees.",
+   "changes": [
+    "The deadline to comply with regulation 9C and the separate business unit framework moves to 27-04-2027 while an expert group reviews it."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Low",
+     "text": "No change for issuers."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-10-15-CAS",
+   "date": "2026-10-15",
+   "kind": "Circular",
+   "title": "Closing Auction Session, market timings and settlement methodology for derivatives",
+   "ref": "",
+   "instrument": "",
+   "effective": "2026-12-07",
+   "applies": "Stock exchanges, clearing corporations and stock brokers.",
+   "changes": [
+    "Changes to the closing auction session, market timings and the settlement price method for derivatives; parts take effect from 07-12-2026."
+   ],
+   "impact": {
+    "broker": {
+     "level": "Medium",
+     "text": "Trading and risk systems need changes."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-10-15-AIF3",
+   "date": "2026-10-14",
+   "kind": "Amendment Regulations",
+   "title": "SEBI (Alternative Investment Funds) (Third Amendment) Regulations, 2026",
+   "ref": "SEBI/LAD-NRO/GN/2026/326",
+   "instrument": "REG-AIF",
+   "effective": "2026-10-14",
+   "applies": "AIFs, their managers and investors.",
+   "changes": [
+    "Accredited investors may now be accredited by a specified SEBI-registered entity, and securities market exposure becomes a qualifying test.",
+    "Regulation 25 on dispute resolution between investors and the AIF or manager is substituted."
+   ],
+   "impact": {
+    "aif": {
+     "level": "High",
+     "text": "Update accreditation and dispute resolution terms in fund documents."
+    }
+   },
+   "actions": [
+    "Review PPM and contribution agreement dispute clauses."
+   ]
+  },
+  {
+   "id": "U-2026-10-15-LODR3",
+   "date": "2026-10-14",
+   "kind": "Amendment Regulations",
+   "title": "SEBI (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026",
+   "ref": "SEBI/LAD-DOP/2026/329",
+   "instrument": "REG-LODR",
+   "effective": "2026-10-14",
+   "applies": "Entities that list non-convertible debt securities.",
+   "changes": [
+    "Regulation 62A(1) substituted: an entity whose non-convertible debt securities are listed on or after 14-10-2026 must list all non-convertible debt securities it issues after that listing.",
+    "Regulation 62A(2) and (3) omitted."
+   ],
+   "impact": {
+    "debt": {
+     "level": "High",
+     "text": "Later debt issues must also be listed once a first listing happens on or after 14-10-2026."
+    }
+   },
+   "actions": [
+    "Plan future NCD issues on the basis that they will be listed."
+   ]
+  },
+  {
+   "id": "U-2026-10-14-SMECP",
+   "date": "2026-10-14",
+   "kind": "Consultation paper",
+   "title": "Consultation paper: review of ICDR provisions on SME IPOs",
+   "ref": "",
+   "instrument": "REG-ICDR",
+   "effective": "",
+   "applies": "SME issuers and merchant bankers.",
+   "changes": [
+    "Working group recommendations to revise the SME IPO framework.",
+    "No rule has changed yet."
+   ],
+   "impact": {
+    "equity": {
+     "level": "Low",
+     "text": "SME IPO rules may tighten."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-10-13-LODRCP",
+   "date": "2026-10-13",
+   "kind": "Consultation paper",
+   "title": "Consultation paper: monitoring and disclosure of utilisation of issue proceeds (LODR review)",
+   "ref": "",
+   "instrument": "REG-LODR",
+   "effective": "",
+   "applies": "Listed entities raising funds.",
+   "changes": [
+    "Working group recommendations on monitoring agency reports and disclosure of how issue proceeds are used.",
+    "No rule has changed yet."
+   ],
+   "impact": {
+    "equity": {
+     "level": "Low",
+     "text": "Possible new disclosure on use of proceeds."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-10-09-INT2",
+   "date": "2026-10-09",
+   "kind": "Amendment Regulations",
+   "title": "SEBI (Intermediaries) (Second Amendment) Regulations, 2026: common advertisement code",
+   "ref": "SEBI/LAD-NRO/GN/2026/323",
+   "instrument": "REG-INTERMED",
+   "effective": "",
+   "applies": "Regulated entities that advertise, including AMCs, stock brokers and AIF managers.",
+   "changes": [
+    "New Chapter IIID sets a common advertisement code, including rules on celebrity endorsements and influencers.",
+    "In force 180 days after publication on 09-10-2026. The MF Regulations' own advertisement schedule is removed by a matching amendment."
+   ],
+   "impact": {
+    "amc": {
+     "level": "Medium",
+     "text": "Mutual fund advertising moves to the common code."
+    },
+    "broker": {
+     "level": "Medium",
+     "text": "Review advertising and influencer tie-ups."
+    },
+    "aif": {
+     "level": "Low",
+     "text": "Review any public communication."
+    }
+   },
+   "actions": [
+    "Review advertising and celebrity or influencer arrangements before the code takes effect."
+   ]
+  },
+  {
+   "id": "U-2026-10-12-PMS",
+   "date": "2026-10-08",
+   "kind": "Regulations",
+   "title": "SEBI (Portfolio Managers) Regulations, 2026",
+   "ref": "",
+   "instrument": "",
+   "effective": "2027-04-01",
+   "applies": "Portfolio managers, including AMCs that offer portfolio management services.",
+   "changes": [
+    "New regulations replace the Portfolio Managers Regulations, 2020 from 01-04-2027."
+   ],
+   "impact": {
+    "amc": {
+     "level": "Medium",
+     "text": "AMCs running portfolio management services must move to the new rules by 01-04-2027."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-10-07-CRM",
+   "date": "2026-10-07",
+   "kind": "Circular",
+   "title": "Credit Risk-o-Meter for debt securities",
+   "ref": "",
+   "instrument": "MC-NCS",
+   "effective": "2026-11-21",
+   "applies": "Issuers of debt securities and online bond platform providers.",
+   "changes": [
+    "A colour-coded Credit Risk-o-Meter becomes mandatory in offer documents, abridged prospectuses, private placement memoranda, issuer advertisements and online bond platforms.",
+    "In force 45 days after issue."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Medium",
+     "text": "Add the Credit Risk-o-Meter to offer documents and advertisements."
+    }
+   },
+   "actions": [
+    "Update offer document templates."
+   ]
+  },
+  {
+   "id": "U-2026-10-07-MB",
+   "date": "2026-10-07",
+   "kind": "Circular",
+   "title": "No mandatory merchant banker for certain private placements of debt by listed regulated issuers",
+   "ref": "",
+   "instrument": "MC-NCS",
+   "effective": "2026-10-07",
+   "applies": "Listed issuers regulated by SEBI, RBI, IRDAI or PFRDA issuing debt of Rs 10,000 face value on private placement.",
+   "changes": [
+    "Such issuers may skip the merchant banker if they meet all the conditions, including at least one year of listing and no pending fines."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Medium",
+     "text": "Lower cost for small-ticket private placements by regulated listed issuers."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-10-07-ISIN",
+   "date": "2026-10-07",
+   "kind": "Circular",
+   "title": "More ISINs for privately placed debt securities",
+   "ref": "",
+   "instrument": "MC-NCS",
+   "effective": "2026-10-07",
+   "applies": "Issuers of privately placed debt securities.",
+   "changes": [
+    "Up to 17 ISINs may mature in a financial year (12 plain vanilla, 5 structured and similar), plus six for capital gains bonds, with extra ISINs for large issuers."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Low",
+     "text": "More flexibility in maturity planning."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-10-01-JAGROOK",
+   "date": "2026-10-01",
+   "kind": "Circular",
+   "title": "Investor awareness messages on stock brokers' websites and apps (Project Jagrook)",
+   "ref": "",
+   "instrument": "REG-SB",
+   "effective": "2026-11-01",
+   "applies": "Stock brokers.",
+   "changes": [
+    "From 01-11-2026, investor awareness messages shared by SEBI go on the landing page of brokers' websites, and alternate with risk disclosures on trading apps."
+   ],
+   "impact": {
+    "broker": {
+     "level": "Medium",
+     "text": "Website and app changes required."
+    }
+   },
+   "actions": [
+    "Confirm the messages are live on the website and app landing pages."
+   ]
+  },
+  {
+   "id": "U-2026-09-28-DTMC",
+   "date": "2026-09-28",
+   "kind": "Master Circular",
+   "title": "Master Circular for Debenture Trustees",
+   "ref": "",
+   "instrument": "MC-DT",
+   "effective": "2026-09-28",
+   "applies": "Debenture trustees and issuers of listed debt.",
+   "changes": [
+    "Consolidates the circulars for debenture trustees."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Low",
+     "text": "Check information flows to the debenture trustee against the consolidated text."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-09-07-ANGEL",
+   "date": "2026-09-07",
+   "kind": "Circular",
+   "title": "More time for older angel funds to move to accredited investors only",
+   "ref": "",
+   "instrument": "MC-AIF",
+   "effective": "2026-09-07",
+   "applies": "Angel funds registered on or before 10-09-2025.",
+   "changes": [
+    "The accredited-investor-only deadline moves from 08-09-2026 to 31-03-2027; up to 200 non-accredited investors may be offered deals until then."
+   ],
+   "impact": {
+    "aif": {
+     "level": "Medium",
+     "text": "New deadline 31-03-2027 for older angel funds."
+    }
+   },
+   "actions": []
+  }
+ ]
+}

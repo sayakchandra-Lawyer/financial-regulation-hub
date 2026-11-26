@@ -95,8 +95,111 @@
    "short": "SEBI",
    "name": "SEBI",
    "full": "Securities and Exchange Board of India",
-   "status": "soon",
-   "desc": "Listed debt, LODR obligations, issue of NCDs and commercial paper, and securitised debt as they apply to NBFCs."
+   "status": "live",
+   "desc": "SEBI Act, SCRA and SEBI Regulations and Master Circulars for listed companies, issuers of listed debt, mutual funds, stock brokers and AIFs: disclosure, insider trading, takeovers, fund rules, broker conduct and penalties.",
+   "href": "sebi/",
+   "data": {
+    "register": "sebi/data/sebi_register.json",
+    "graph": "sebi/data/sebi_graph.json",
+    "definitions": "sebi/data/definitions.json",
+    "glossary": "sebi/data/glossary.json",
+    "updates": "sebi/data/updates.json",
+    "fulltext": "sebi/data/fulltext.json"
+   },
+   "official": "https://www.sebi.gov.in",
+   "map": "sebi/map/",
+   "subjects": [
+    {
+     "theme": "Statutes, enforcement, penalties and settlement",
+     "nice": "Acts, enforcement and settlement",
+     "slug": "statutes"
+    },
+    {
+     "theme": "Entry and registration",
+     "nice": "Registration",
+     "slug": "registration"
+    },
+    {
+     "theme": "Issue and listing (equity and debt)",
+     "nice": "Issue and listing",
+     "slug": "issue"
+    },
+    {
+     "theme": "Continuous disclosure and corporate governance",
+     "nice": "Disclosure and governance",
+     "slug": "disclosure"
+    },
+    {
+     "theme": "Insider trading and market abuse",
+     "nice": "Insider trading and market abuse",
+     "slug": "abuse"
+    },
+    {
+     "theme": "Takeovers, buy-back and delisting",
+     "nice": "Takeovers, buy-back and delisting",
+     "slug": "takeovers"
+    },
+    {
+     "theme": "Fund management (MF and AIF)",
+     "nice": "Mutual funds and AIFs",
+     "slug": "funds"
+    },
+    {
+     "theme": "Intermediary conduct and net worth",
+     "nice": "Intermediaries",
+     "slug": "intermediaries"
+    },
+    {
+     "theme": "Investor protection, grievances and ODR",
+     "nice": "Investor grievances and ODR",
+     "slug": "investors"
+    },
+    {
+     "theme": "Cyber security and IT",
+     "nice": "Cyber security",
+     "slug": "cyber"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-LE",
+     "name": "Listed company (equity)",
+     "key": "equity",
+     "desc": "Company with equity shares listed on a stock exchange"
+    },
+    {
+     "id": "ENT-LD",
+     "name": "Issuer of listed debt",
+     "key": "debt",
+     "desc": "Issuer of listed NCDs, NCRPS or commercial paper"
+    },
+    {
+     "id": "ENT-AMC",
+     "name": "Mutual fund / AMC",
+     "key": "amc",
+     "desc": "Asset management company, trustee or sponsor of a mutual fund"
+    },
+    {
+     "id": "ENT-BRK",
+     "name": "Stock broker",
+     "key": "broker",
+     "desc": "Trading member or clearing member of an exchange"
+    },
+    {
+     "id": "ENT-AIF",
+     "name": "AIF and its manager",
+     "key": "aif",
+     "desc": "Alternative Investment Fund, its manager and sponsor"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally"
   },
   {
    "id": "irdai",

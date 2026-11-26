@@ -89,8 +89,8 @@
       <aside style="display:flex;flex-direction:column;gap:18px">
         <div class="card panel"><div style="display:flex;align-items:baseline"><h2 style="font-size:19px">Most recent rulings</h2><a class="lnk tag" style="margin-left:auto" href="#all">See all</a></div>
           ${ALL.slice(0, 5).map(j => `<a href="#j/${j.id}" style="display:block;padding:12px 0;border-top:1px solid var(--line)"><div class="tag">${fmtDate(j.date)} · ${esc(j.court)}</div><div style="font-weight:600;font-size:14px;margin-top:4px;line-height:1.4">${esc(j.title)}</div><div class="tag">${esc(j.topic)}</div></a>`).join("")}</div>
-        <div class="card panel"><h3 style="font-size:19px">From ruling to rule</h3><p class="tag" style="margin:6px 0 12px">Each judgment links to the RBI Directions or IRDAI Regulations it affects, so you can read the rule as it stands today.</p>
-          <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn g" href="../rbi/">RBI rules ${I.arrow}</a><a class="btn g" href="../irdai/">IRDAI rules ${I.arrow}</a></div></div>
+        <div class="card panel"><h3 style="font-size:19px">From ruling to rule</h3><p class="tag" style="margin:6px 0 12px">Each judgment links to the RBI, SEBI or IRDAI rules it affects, so you can read the rule as it stands today.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn g" href="../rbi/">RBI rules ${I.arrow}</a><a class="btn g" href="../sebi/">SEBI rules ${I.arrow}</a><a class="btn g" href="../irdai/">IRDAI rules ${I.arrow}</a></div></div>
       </aside></div>`;
   }
   function vList(key){
