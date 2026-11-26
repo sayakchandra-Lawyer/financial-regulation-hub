@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "default": "dpdp",
+  "maps": [
+    {
+      "id": "dpdp",
+      "title": "Data Protection Regulation Map",
+      "hubLabel": "DPDP",
+      "hubSub": "Data protection",
+      "section": "dpdp",
+      "register": "../data/dpdp_register.json",
+      "graph": "../data/dpdp_graph.json",
+      "categoryGroup": "Who it applies to",
+      "layers": [
+        "ENT-LEND",
+        "ENT-INS",
+        "ENT-SEC",
+        "ENT-SDF",
+        "ENT-PROC"
+      ],
+      "cumulativeLayers": false,
+      "historyTheme": "Superseded (history)",
+      "categoryCaveat": "Each instrument is tagged to the entities it names or most directly affects. The DPDP Act, the Rules and the notifications apply to every Data Fiduciary. Check the provision before relying on a tag.",
+      "caveatShort": "Tags follow each instrument's scope. See the provision.",
+      "milestones": [
+        {
+          "date": "2025-11-13",
+          "label": "Rules notified; Board provisions in force"
+        },
+        {
+          "date": "2026-11-13",
+          "label": "Consent Manager registration opens"
+        },
+        {
+          "date": "2027-05-13",
+          "label": "Main duties and penalties in force"
+        }
+      ],
+      "updates": "../data/updates.json",
+      "glossary": "../data/glossary.json",
+      "definitions": "../data/definitions.json",
+      "fulltext": "../data/fulltext.json",
+      "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev"
+    }
+  ]
+}

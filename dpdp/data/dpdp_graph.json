@@ -1,0 +1,1379 @@
+{
+ "meta": {
+  "title": "Data protection rules for financial institutions",
+  "as_of": "2026-11-26",
+  "count": 24,
+  "in_force": 24,
+  "lenses": [
+   {
+    "id": "ENT-LEND",
+    "name": "Bank / NBFC / HFC"
+   },
+   {
+    "id": "ENT-INS",
+    "name": "Insurer / intermediary"
+   },
+   {
+    "id": "ENT-SEC",
+    "name": "Securities market entity"
+   },
+   {
+    "id": "ENT-SDF",
+    "name": "Significant Data Fiduciary"
+   },
+   {
+    "id": "ENT-PROC",
+    "name": "Processor / vendor"
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "id": "ACT-DPDP",
+   "label": "DPDP Act, 2023",
+   "title": "The Digital Personal Data Protection Act, 2023",
+   "group": "The Act, the Rules and commencement",
+   "type": "Act",
+   "status": "In force in part: the Board and definitions from 13-11-2025, Consent Manager registration from 13-11-2026, the main duties and penalties from 13-05-2027",
+   "url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "2026-10-06"
+  },
+  {
+   "id": "RULES-DPDP",
+   "label": "DPDP Rules, 2025",
+   "title": "The Digital Personal Data Protection Rules, 2025",
+   "group": "The Act, the Rules and commencement",
+   "type": "Rules",
+   "status": "In force in part: rules 1, 2 and 17 to 21 from 13-11-2025, rule 4 from 13-11-2026, the rest from 13-05-2027",
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "issue_date": "2025-11-13",
+   "updated_as_on": "2025-12-11"
+  },
+  {
+   "id": "NOT-COMM",
+   "label": "Commencement notification",
+   "title": "Notification appointing the dates on which provisions of the DPDP Act come into force",
+   "group": "The Act, the Rules and commencement",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "issue_date": "2025-11-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NOT-BOARD",
+   "label": "Board establishment notifications",
+   "title": "Notifications establishing the Data Protection Board of India and fixing its strength",
+   "group": "Data Protection Board, penalties and appeals",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "issue_date": "2025-11-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NOT-CORR",
+   "label": "Corrigendum to the DPDP Rules",
+   "title": "Corrigendum to the Digital Personal Data Protection Rules, 2025",
+   "group": "The Act, the Rules and commencement",
+   "type": "Notification",
+   "status": "In force",
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "issue_date": "2025-12-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ORD-ROD-2026",
+   "label": "Removal of Difficulties Order, 2026",
+   "title": "The Digital Personal Data Protection (Removal of Difficulties) Order, 2026",
+   "group": "The Act, the Rules and commencement",
+   "type": "Order",
+   "status": "In force",
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "issue_date": "2026-10-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "T-SCOPE",
+   "label": "Scope, lawful grounds and exemptions",
+   "title": "Where the Act applies, when data may be processed without consent, and the exemptions (ss. 3, 4, 7, 17 and 38; rules 5 and 16)",
+   "group": "Scope, lawful grounds and exemptions",
+   "type": "DPDP topic",
+   "status": "Notified; in force from 13-05-2027 (s. 38 from 13-11-2025)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "T-CONSENT",
+   "label": "Notice, consent and Consent Managers",
+   "title": "Notice before consent, the standard for valid consent, withdrawal, and registered Consent Managers (ss. 5, 6; rules 3, 4 and First Schedule)",
+   "group": "Notice, consent and Consent Managers",
+   "type": "DPDP topic",
+   "status": "Notified; Consent Manager registration from 13-11-2026, the rest from 13-05-2027",
+   "url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "T-DUTY",
+   "label": "Security, breach and retention",
+   "title": "Accountability, security safeguards, breach intimation, accuracy, retention and erasure (s. 8; rules 6 to 9, Third and Seventh Schedules)",
+   "group": "Security, breach and retention",
+   "type": "DPDP topic",
+   "status": "Notified; in force from 13-05-2027",
+   "url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "T-RIGHTS",
+   "label": "Rights of Data Principals and grievances",
+   "title": "Rights to information, correction and erasure, grievance redressal and nomination, and the duties of Data Principals (ss. 11 to 15; rule 14)",
+   "group": "Rights of Data Principals and grievances",
+   "type": "DPDP topic",
+   "status": "Notified; in force from 13-05-2027",
+   "url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "T-CHILD",
+   "label": "Children and persons with disability",
+   "title": "Verifiable consent of parents and lawful guardians, and the limits on processing children's data (s. 9; rules 10 to 12, Fourth Schedule)",
+   "group": "Children and persons with disability",
+   "type": "DPDP topic",
+   "status": "Notified; in force from 13-05-2027",
+   "url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "T-SDF",
+   "label": "Significant Data Fiduciaries and transfers abroad",
+   "title": "Additional duties of Significant Data Fiduciaries, and transfer of personal data outside India (ss. 10 and 16; rules 13 and 15)",
+   "group": "Significant Data Fiduciaries and transfers abroad",
+   "type": "DPDP topic",
+   "status": "Notified; in force from 13-05-2027",
+   "url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "T-BOARD",
+   "label": "The Board, inquiries, penalties and appeals",
+   "title": "How the Data Protection Board receives complaints and breach reports, inquires, settles, penalises, and how appeals and blocking work (ss. 18 to 37; rules 17 to 23)",
+   "group": "Data Protection Board, penalties and appeals",
+   "type": "DPDP topic",
+   "status": "In force in part: Board provisions from 13-11-2025; inquiries, penalties and appeals from 13-05-2027",
+   "url": "https://www.indiacode.nic.in/handle/123456789/19939",
+   "issue_date": "2023-08-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RBI-DL",
+   "label": "RBI digital lending data rules (NBFCs)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025: digital lending data provisions (paras 6, 13 to 15)",
+   "group": "Banks and NBFCs: RBI rules that overlap",
+   "type": "Directions",
+   "status": "In force (amended)",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12957",
+   "issue_date": "2025-11-28",
+   "updated_as_on": "2026-07-15"
+  },
+  {
+   "id": "RBI-KYC",
+   "label": "RBI KYC records and secrecy (NBFCs)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025: consent, record-keeping and secrecy provisions",
+   "group": "Banks and NBFCs: RBI rules that overlap",
+   "type": "Directions",
+   "status": "In force (amended)",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12943",
+   "issue_date": "2025-11-28",
+   "updated_as_on": "2025-12-29"
+  },
+  {
+   "id": "RBI-OUTS",
+   "label": "RBI outsourcing and data (NBFCs)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Managing Risks in Outsourcing) Directions, 2025: confidentiality and data clauses",
+   "group": "Banks and NBFCs: RBI rules that overlap",
+   "type": "Directions",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12941",
+   "issue_date": "2025-11-28",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RBI-CYBER",
+   "label": "RBI cybersecurity incident reporting (NBFCs)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026: incident reporting",
+   "group": "Banks and NBFCs: RBI rules that overlap",
+   "type": "Directions",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13592",
+   "issue_date": "2026-07-31",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RBI-AA",
+   "label": "RBI Account Aggregator consent (NBFC-AA)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Account Aggregator) Directions, 2025: consent architecture",
+   "group": "Banks and NBFCs: RBI rules that overlap",
+   "type": "Directions",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12936",
+   "issue_date": "2025-11-28",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-CICRA",
+   "label": "Credit Information Companies (Regulation) Act, 2005",
+   "title": "Credit Information Companies (Regulation) Act, 2005: privacy and accuracy provisions",
+   "group": "IT Act, CERT-In and credit information",
+   "type": "Act",
+   "status": "In force (as amended)",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2057",
+   "issue_date": "2005-06-23",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ACT-IT",
+   "label": "IT Act s. 43A and CERT-In powers",
+   "title": "Information Technology Act, 2000: s. 43A (until 13-05-2027) and s. 70B",
+   "group": "IT Act, CERT-In and credit information",
+   "type": "Act",
+   "status": "In force (as amended); s. 43A omitted from 13-05-2027",
+   "url": "https://www.indiacode.nic.in/handle/123456789/1999",
+   "issue_date": "2000-06-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "DIR-CERTIN",
+   "label": "CERT-In cyber incident directions, 2022",
+   "title": "CERT-In Directions No. 20(3)/2022-CERT-In under s. 70B(6) of the IT Act on information security practices and reporting of cyber incidents",
+   "group": "IT Act, CERT-In and credit information",
+   "type": "Directions",
+   "status": "In force",
+   "url": "https://www.cert-in.org.in/Directions70B.jsp",
+   "issue_date": "2022-04-28",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "SEBI-CSCRF",
+   "label": "SEBI cybersecurity framework (CSCRF)",
+   "title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities",
+   "group": "Securities market: SEBI rules that overlap",
+   "type": "Circular",
+   "status": "In force (with later clarifications)",
+   "url": "https://www.sebi.gov.in/legal/circulars/aug-2024/cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_85964.html",
+   "issue_date": "2024-08-20",
+   "updated_as_on": "2026-08-24"
+  },
+  {
+   "id": "IRDAI-PPHI",
+   "label": "IRDAI privacy and confidentiality of policyholder data",
+   "title": "IRDAI (Protection of Policyholders' Interests, Operations and Allied Matters of Insurers) Regulations, 2024: privacy provisions",
+   "group": "Insurance: IRDAI rules that overlap",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366405/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%2C+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%A7+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2024+_+IRDAI+%28Protection+of+Policyholder%27s+Interests%2C+operations+and+allied+matters+of+insurers%29+Regulations%2C+2024.pdf/330674c5-0adb-4eb7-a399-95d779246ff8?version=1.2&t=1712320815911&download=true",
+   "issue_date": "2024-04-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "IRDAI-CYBER",
+   "label": "IRDAI Information and Cybersecurity Guidelines, 2026",
+   "title": "IRDAI Information and Cybersecurity Guidelines, 2026",
+   "group": "Insurance: IRDAI rules that overlap",
+   "type": "Guidelines",
+   "status": "In force",
+   "url": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2026+_+IRDAI+Information+and+Cybersecurity+Guidelines%2C+2026.pdf/9714979d-6006-3809-297f-91a4593ac072?version=2.0&t=1777011998536&download=true",
+   "issue_date": "2026-04-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ENT-LEND",
+   "label": "Bank / NBFC / HFC",
+   "title": "Bank / NBFC / HFC",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-INS",
+   "label": "Insurer / intermediary",
+   "title": "Insurer / intermediary",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-SEC",
+   "label": "Securities market entity",
+   "title": "Securities market entity",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-SDF",
+   "label": "Significant Data Fiduciary",
+   "title": "Significant Data Fiduciary",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-PROC",
+   "label": "Processor / vendor",
+   "title": "Processor / vendor",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  }
+ ],
+ "edges": [
+  {
+   "source": "ACT-DPDP",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Processing of digital personal data within India, whether collected in digital form or collected on paper and digitised later (s. 3(a)); Processing outside India if it is connected with offering goods or services to Data Principals in India (s. 3(b)); Banks, NBFCs, HFCs, insurers, insurance intermed"
+  },
+  {
+   "source": "ACT-DPDP",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Processing of digital personal data within India, whether collected in digital form or collected on paper and digitised later (s. 3(a)); Processing outside India if it is connected with offering goods or services to Data Principals in India (s. 3(b)); Banks, NBFCs, HFCs, insurers, insurance intermed"
+  },
+  {
+   "source": "ACT-DPDP",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Processing of digital personal data within India, whether collected in digital form or collected on paper and digitised later (s. 3(a)); Processing outside India if it is connected with offering goods or services to Data Principals in India (s. 3(b)); Banks, NBFCs, HFCs, insurers, insurance intermed"
+  },
+  {
+   "source": "ACT-DPDP",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Processing of digital personal data within India, whether collected in digital form or collected on paper and digitised later (s. 3(a)); Processing outside India if it is connected with offering goods or services to Data Principals in India (s. 3(b)); Banks, NBFCs, HFCs, insurers, insurance intermed"
+  },
+  {
+   "source": "ACT-DPDP",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Processing of digital personal data within India, whether collected in digital form or collected on paper and digitised later (s. 3(a)); Processing outside India if it is connected with offering goods or services to Data Principals in India (s. 3(b)); Banks, NBFCs, HFCs, insurers, insurance intermed"
+  },
+  {
+   "source": "ACT-DPDP",
+   "target": "RULES-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-DPDP",
+   "target": "NOT-COMM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-DPDP",
+   "target": "NOT-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-DPDP",
+   "target": "ORD-ROD-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-DPDP",
+   "target": "ACT-IT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, Consent Manager and Significant Data Fiduciary under the Act; The Data Protection Board and the Appellate Tribunal (procedure)"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, Consent Manager and Significant Data Fiduciary under the Act; The Data Protection Board and the Appellate Tribunal (procedure)"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, Consent Manager and Significant Data Fiduciary under the Act; The Data Protection Board and the Appellate Tribunal (procedure)"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, Consent Manager and Significant Data Fiduciary under the Act; The Data Protection Board and the Appellate Tribunal (procedure)"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, Consent Manager and Significant Data Fiduciary under the Act; The Data Protection Board and the Appellate Tribunal (procedure)"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "NOT-CORR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "T-CONSENT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "T-DUTY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "T-SDF",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOT-COMM",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Every person to whom the Act applies"
+  },
+  {
+   "source": "NOT-COMM",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Every person to whom the Act applies"
+  },
+  {
+   "source": "NOT-COMM",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every person to whom the Act applies"
+  },
+  {
+   "source": "NOT-COMM",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Every person to whom the Act applies"
+  },
+  {
+   "source": "NOT-COMM",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Every person to whom the Act applies"
+  },
+  {
+   "source": "NOT-COMM",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOT-COMM",
+   "target": "RULES-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOT-BOARD",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "The Data Protection Board of India"
+  },
+  {
+   "source": "NOT-BOARD",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "The Data Protection Board of India"
+  },
+  {
+   "source": "NOT-BOARD",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "The Data Protection Board of India"
+  },
+  {
+   "source": "NOT-BOARD",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "The Data Protection Board of India"
+  },
+  {
+   "source": "NOT-BOARD",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "The Data Protection Board of India"
+  },
+  {
+   "source": "NOT-BOARD",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOT-BOARD",
+   "target": "T-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NOT-CORR",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Readers of the DPDP Rules, 2025"
+  },
+  {
+   "source": "NOT-CORR",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Readers of the DPDP Rules, 2025"
+  },
+  {
+   "source": "NOT-CORR",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Readers of the DPDP Rules, 2025"
+  },
+  {
+   "source": "NOT-CORR",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Readers of the DPDP Rules, 2025"
+  },
+  {
+   "source": "NOT-CORR",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Readers of the DPDP Rules, 2025"
+  },
+  {
+   "source": "NOT-CORR",
+   "target": "RULES-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ORD-ROD-2026",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Readers of ss. 9(1) and 10(2)(c)(ii) of the Act"
+  },
+  {
+   "source": "ORD-ROD-2026",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Readers of ss. 9(1) and 10(2)(c)(ii) of the Act"
+  },
+  {
+   "source": "ORD-ROD-2026",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Readers of ss. 9(1) and 10(2)(c)(ii) of the Act"
+  },
+  {
+   "source": "ORD-ROD-2026",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Readers of ss. 9(1) and 10(2)(c)(ii) of the Act"
+  },
+  {
+   "source": "ORD-ROD-2026",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Readers of ss. 9(1) and 10(2)(c)(ii) of the Act"
+  },
+  {
+   "source": "ORD-ROD-2026",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ORD-ROD-2026",
+   "target": "T-CHILD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ORD-ROD-2026",
+   "target": "T-SDF",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-SCOPE",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary processing digital personal data; Financial institutions recovering loans, meeting KYC and reporting duties, or merging"
+  },
+  {
+   "source": "T-SCOPE",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary processing digital personal data; Financial institutions recovering loans, meeting KYC and reporting duties, or merging"
+  },
+  {
+   "source": "T-SCOPE",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary processing digital personal data; Financial institutions recovering loans, meeting KYC and reporting duties, or merging"
+  },
+  {
+   "source": "T-SCOPE",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary processing digital personal data; Financial institutions recovering loans, meeting KYC and reporting duties, or merging"
+  },
+  {
+   "source": "T-SCOPE",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary processing digital personal data; Financial institutions recovering loans, meeting KYC and reporting duties, or merging"
+  },
+  {
+   "source": "T-SCOPE",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-SCOPE",
+   "target": "RULES-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-SCOPE",
+   "target": "RBI-KYC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-CONSENT",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary that relies on consent; Companies seeking registration as Consent Managers with the Board"
+  },
+  {
+   "source": "T-CONSENT",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary that relies on consent; Companies seeking registration as Consent Managers with the Board"
+  },
+  {
+   "source": "T-CONSENT",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary that relies on consent; Companies seeking registration as Consent Managers with the Board"
+  },
+  {
+   "source": "T-CONSENT",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary that relies on consent; Companies seeking registration as Consent Managers with the Board"
+  },
+  {
+   "source": "T-CONSENT",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary that relies on consent; Companies seeking registration as Consent Managers with the Board"
+  },
+  {
+   "source": "T-CONSENT",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-CONSENT",
+   "target": "RULES-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-CONSENT",
+   "target": "RBI-DL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-CONSENT",
+   "target": "RBI-AA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, for its own processing and processing done for it by Data Processors; Data Processors through their contracts with Data Fiduciaries"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, for its own processing and processing done for it by Data Processors; Data Processors through their contracts with Data Fiduciaries"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, for its own processing and processing done for it by Data Processors; Data Processors through their contracts with Data Fiduciaries"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, for its own processing and processing done for it by Data Processors; Data Processors through their contracts with Data Fiduciaries"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, for its own processing and processing done for it by Data Processors; Data Processors through their contracts with Data Fiduciaries"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "RULES-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "RBI-OUTS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "RBI-CYBER",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "DIR-CERTIN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "SEBI-CSCRF",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "RBI-KYC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-RIGHTS",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary to which a Data Principal has given consent, including by voluntarily providing data under s. 7(a); Consent Managers (grievances)"
+  },
+  {
+   "source": "T-RIGHTS",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary to which a Data Principal has given consent, including by voluntarily providing data under s. 7(a); Consent Managers (grievances)"
+  },
+  {
+   "source": "T-RIGHTS",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary to which a Data Principal has given consent, including by voluntarily providing data under s. 7(a); Consent Managers (grievances)"
+  },
+  {
+   "source": "T-RIGHTS",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary to which a Data Principal has given consent, including by voluntarily providing data under s. 7(a); Consent Managers (grievances)"
+  },
+  {
+   "source": "T-RIGHTS",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-RIGHTS",
+   "target": "RULES-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-RIGHTS",
+   "target": "ACT-CICRA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-CHILD",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Data Fiduciaries processing data of anyone under eighteen, such as minor savings accounts, child insurance policies and minor investment accounts; Data Fiduciaries processing data of a person with disability who has a lawful guardian"
+  },
+  {
+   "source": "T-CHILD",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Data Fiduciaries processing data of anyone under eighteen, such as minor savings accounts, child insurance policies and minor investment accounts; Data Fiduciaries processing data of a person with disability who has a lawful guardian"
+  },
+  {
+   "source": "T-CHILD",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Data Fiduciaries processing data of anyone under eighteen, such as minor savings accounts, child insurance policies and minor investment accounts; Data Fiduciaries processing data of a person with disability who has a lawful guardian"
+  },
+  {
+   "source": "T-CHILD",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Data Fiduciaries processing data of anyone under eighteen, such as minor savings accounts, child insurance policies and minor investment accounts; Data Fiduciaries processing data of a person with disability who has a lawful guardian"
+  },
+  {
+   "source": "T-CHILD",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-CHILD",
+   "target": "RULES-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-CHILD",
+   "target": "ORD-ROD-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-SDF",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Data Fiduciaries or classes the Central Government notifies as Significant Data Fiduciaries (s. 10); Every Data Fiduciary transferring personal data abroad, and its processors abroad (s. 16, rule 15)"
+  },
+  {
+   "source": "T-SDF",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Data Fiduciaries or classes the Central Government notifies as Significant Data Fiduciaries (s. 10); Every Data Fiduciary transferring personal data abroad, and its processors abroad (s. 16, rule 15)"
+  },
+  {
+   "source": "T-SDF",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Data Fiduciaries or classes the Central Government notifies as Significant Data Fiduciaries (s. 10); Every Data Fiduciary transferring personal data abroad, and its processors abroad (s. 16, rule 15)"
+  },
+  {
+   "source": "T-SDF",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Data Fiduciaries or classes the Central Government notifies as Significant Data Fiduciaries (s. 10); Every Data Fiduciary transferring personal data abroad, and its processors abroad (s. 16, rule 15)"
+  },
+  {
+   "source": "T-SDF",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Data Fiduciaries or classes the Central Government notifies as Significant Data Fiduciaries (s. 10); Every Data Fiduciary transferring personal data abroad, and its processors abroad (s. 16, rule 15)"
+  },
+  {
+   "source": "T-SDF",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-SDF",
+   "target": "RULES-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-SDF",
+   "target": "ORD-ROD-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-SDF",
+   "target": "RBI-DL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-SDF",
+   "target": "SEBI-CSCRF",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-BOARD",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, Consent Manager and intermediary that may face Board proceedings; Data Principals who complain to the Board"
+  },
+  {
+   "source": "T-BOARD",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, Consent Manager and intermediary that may face Board proceedings; Data Principals who complain to the Board"
+  },
+  {
+   "source": "T-BOARD",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, Consent Manager and intermediary that may face Board proceedings; Data Principals who complain to the Board"
+  },
+  {
+   "source": "T-BOARD",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, Consent Manager and intermediary that may face Board proceedings; Data Principals who complain to the Board"
+  },
+  {
+   "source": "T-BOARD",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Every Data Fiduciary, Consent Manager and intermediary that may face Board proceedings; Data Principals who complain to the Board"
+  },
+  {
+   "source": "T-BOARD",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-BOARD",
+   "target": "RULES-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "T-BOARD",
+   "target": "NOT-BOARD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-DL",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "NBFCs lending through digital lending apps; Lending service providers acting for them"
+  },
+  {
+   "source": "RBI-DL",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "NBFCs lending through digital lending apps; Lending service providers acting for them"
+  },
+  {
+   "source": "RBI-DL",
+   "target": "T-CONSENT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-DL",
+   "target": "T-SDF",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-DL",
+   "target": "RBI-OUTS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-KYC",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "NBFCs as regulated entities under the PML Act"
+  },
+  {
+   "source": "RBI-KYC",
+   "target": "T-DUTY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-KYC",
+   "target": "T-SCOPE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-OUTS",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "NBFCs that outsource activities, including IT and cloud services; Service providers acting for them"
+  },
+  {
+   "source": "RBI-OUTS",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "NBFCs that outsource activities, including IT and cloud services; Service providers acting for them"
+  },
+  {
+   "source": "RBI-OUTS",
+   "target": "T-DUTY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-OUTS",
+   "target": "RBI-DL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-OUTS",
+   "target": "RBI-CYBER",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-CYBER",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "NBFCs (HFCs report to NHB)"
+  },
+  {
+   "source": "RBI-CYBER",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "NBFCs (HFCs report to NHB)"
+  },
+  {
+   "source": "RBI-CYBER",
+   "target": "T-DUTY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-CYBER",
+   "target": "DIR-CERTIN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-AA",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "NBFC-Account Aggregators; Banks, NBFCs and others acting as financial information providers or users"
+  },
+  {
+   "source": "RBI-AA",
+   "target": "T-CONSENT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-CICRA",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Credit information companies, credit institutions (banks, NBFCs, HFCs) and specified users"
+  },
+  {
+   "source": "ACT-CICRA",
+   "target": "T-RIGHTS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-IT",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Body corporates handling sensitive personal data (s. 43A); Service providers, intermediaries, data centres and body corporates (s. 70B)"
+  },
+  {
+   "source": "ACT-IT",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Body corporates handling sensitive personal data (s. 43A); Service providers, intermediaries, data centres and body corporates (s. 70B)"
+  },
+  {
+   "source": "ACT-IT",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Body corporates handling sensitive personal data (s. 43A); Service providers, intermediaries, data centres and body corporates (s. 70B)"
+  },
+  {
+   "source": "ACT-IT",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Body corporates handling sensitive personal data (s. 43A); Service providers, intermediaries, data centres and body corporates (s. 70B)"
+  },
+  {
+   "source": "ACT-IT",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Body corporates handling sensitive personal data (s. 43A); Service providers, intermediaries, data centres and body corporates (s. 70B)"
+  },
+  {
+   "source": "ACT-IT",
+   "target": "ACT-DPDP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-IT",
+   "target": "DIR-CERTIN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "DIR-CERTIN",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Service providers, intermediaries, data centres, body corporates and Government organisations, including banks, NBFCs, insurers and market intermediaries"
+  },
+  {
+   "source": "DIR-CERTIN",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Service providers, intermediaries, data centres, body corporates and Government organisations, including banks, NBFCs, insurers and market intermediaries"
+  },
+  {
+   "source": "DIR-CERTIN",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "Service providers, intermediaries, data centres, body corporates and Government organisations, including banks, NBFCs, insurers and market intermediaries"
+  },
+  {
+   "source": "DIR-CERTIN",
+   "target": "ENT-SDF",
+   "relation": "applies_to",
+   "basis": "Service providers, intermediaries, data centres, body corporates and Government organisations, including banks, NBFCs, insurers and market intermediaries"
+  },
+  {
+   "source": "DIR-CERTIN",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "Service providers, intermediaries, data centres, body corporates and Government organisations, including banks, NBFCs, insurers and market intermediaries"
+  },
+  {
+   "source": "DIR-CERTIN",
+   "target": "ACT-IT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "DIR-CERTIN",
+   "target": "RBI-CYBER",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "DIR-CERTIN",
+   "target": "SEBI-CSCRF",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SEBI-CSCRF",
+   "target": "ENT-SEC",
+   "relation": "applies_to",
+   "basis": "SEBI-regulated entities such as stock brokers, depository participants, mutual funds and AMCs, AIFs, registrars and market infrastructure institutions"
+  },
+  {
+   "source": "SEBI-CSCRF",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "SEBI-regulated entities such as stock brokers, depository participants, mutual funds and AMCs, AIFs, registrars and market infrastructure institutions"
+  },
+  {
+   "source": "SEBI-CSCRF",
+   "target": "DIR-CERTIN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SEBI-CSCRF",
+   "target": "T-DUTY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SEBI-CSCRF",
+   "target": "T-SDF",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "IRDAI-PPHI",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Insurers and their distribution channels"
+  },
+  {
+   "source": "IRDAI-PPHI",
+   "target": "T-CONSENT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "IRDAI-PPHI",
+   "target": "IRDAI-CYBER",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "IRDAI-CYBER",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "All insurers including foreign reinsurance branches, insurance intermediaries (brokers, corporate agents, web aggregators, TPAs, IMFs, insurance repositories, ISNP, corporate surveyors, MISPs, CSCs) and the Insurance Information Bureau of India"
+  },
+  {
+   "source": "IRDAI-CYBER",
+   "target": "ENT-PROC",
+   "relation": "applies_to",
+   "basis": "All insurers including foreign reinsurance branches, insurance intermediaries (brokers, corporate agents, web aggregators, TPAs, IMFs, insurance repositories, ISNP, corporate surveyors, MISPs, CSCs) and the Insurance Information Bureau of India"
+  },
+  {
+   "source": "IRDAI-CYBER",
+   "target": "T-DUTY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "IRDAI-CYBER",
+   "target": "IRDAI-PPHI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "IRDAI-CYBER",
+   "target": "DIR-CERTIN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-DPDP",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "NOT-COMM",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "NOT-BOARD",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "NOT-CORR",
+   "target": "RULES-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ORD-ROD-2026",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "T-SCOPE",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "T-CONSENT",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "T-DUTY",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "T-RIGHTS",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "T-CHILD",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "T-SDF",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "T-BOARD",
+   "target": "ACT-DPDP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "DIR-CERTIN",
+   "target": "ACT-IT",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  }
+ ]
+}

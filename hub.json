@@ -427,6 +427,122 @@
    "line": "Cross-border lending: ECB, trade credit, guarantees"
   },
   {
+   "id": "dpdp",
+   "short": "DPDP",
+   "name": "DPDP",
+   "full": "Digital Personal Data Protection Act, 2023",
+   "status": "live",
+   "desc": "The DPDP Act, 2023, the DPDP Rules, 2025 and the commencement and Board notifications, with the RBI, SEBI, IRDAI, IT Act and credit information rules on customer data that overlap: consent, notice, security, breach reporting, retention, rights, children, Significant Data Fiduciaries and penalties.",
+   "href": "dpdp/",
+   "data": {
+    "register": "dpdp/data/dpdp_register.json",
+    "graph": "dpdp/data/dpdp_graph.json",
+    "definitions": "dpdp/data/definitions.json",
+    "glossary": "dpdp/data/glossary.json",
+    "updates": "dpdp/data/updates.json",
+    "fulltext": "dpdp/data/fulltext.json"
+   },
+   "official": "https://www.meity.gov.in/data-protection-framework",
+   "map": "dpdp/map/",
+   "subjects": [
+    {
+     "theme": "The Act, the Rules and commencement",
+     "nice": "The Act, the Rules and commencement",
+     "slug": "law"
+    },
+    {
+     "theme": "Scope, lawful grounds and exemptions",
+     "nice": "Scope and lawful grounds",
+     "slug": "scope"
+    },
+    {
+     "theme": "Notice, consent and Consent Managers",
+     "nice": "Notice, consent and Consent Managers",
+     "slug": "consent"
+    },
+    {
+     "theme": "Security, breach and retention",
+     "nice": "Security, breach and retention",
+     "slug": "security"
+    },
+    {
+     "theme": "Rights of Data Principals and grievances",
+     "nice": "Rights and grievances",
+     "slug": "rights"
+    },
+    {
+     "theme": "Children and persons with disability",
+     "nice": "Children and persons with disability",
+     "slug": "children"
+    },
+    {
+     "theme": "Significant Data Fiduciaries and transfers abroad",
+     "nice": "Significant Data Fiduciaries and transfers",
+     "slug": "sdf"
+    },
+    {
+     "theme": "Data Protection Board, penalties and appeals",
+     "nice": "The Board, penalties and appeals",
+     "slug": "board"
+    },
+    {
+     "theme": "Banks and NBFCs: RBI rules that overlap",
+     "nice": "RBI rules that overlap",
+     "slug": "rbi"
+    },
+    {
+     "theme": "Securities market: SEBI rules that overlap",
+     "nice": "SEBI rules that overlap",
+     "slug": "sebi"
+    },
+    {
+     "theme": "Insurance: IRDAI rules that overlap",
+     "nice": "IRDAI rules that overlap",
+     "slug": "irdai"
+    },
+    {
+     "theme": "IT Act, CERT-In and credit information",
+     "nice": "IT Act, CERT-In and credit information",
+     "slug": "it"
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-LEND",
+     "name": "Bank / NBFC / HFC",
+     "key": "lender",
+     "desc": "Lender holding customer data"
+    },
+    {
+     "id": "ENT-INS",
+     "name": "Insurer / intermediary",
+     "key": "insurer",
+     "desc": "Insurer, broker or corporate agent"
+    },
+    {
+     "id": "ENT-SEC",
+     "name": "Securities market entity",
+     "key": "securities",
+     "desc": "Broker, depository, AMC"
+    },
+    {
+     "id": "ENT-SDF",
+     "name": "Significant Data Fiduciary",
+     "key": "sdf",
+     "desc": "If notified as one"
+    },
+    {
+     "id": "ENT-PROC",
+     "name": "Processor / vendor",
+     "key": "processor",
+     "desc": "Vendor handling customer data"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally",
+   "line": "Data protection for banks, NBFCs, insurers"
+  },
+  {
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",
@@ -445,10 +561,10 @@
    "id": "misc",
    "short": "Other regulators",
    "name": "Other regulators",
-   "full": "PMLA · IBC / IBBI · NHB · Exchanges · DPDP",
+   "full": "PMLA · IBC / IBBI · NHB · Exchanges",
    "status": "soon",
-   "desc": "Anti-money laundering, insolvency, housing finance supervision, stock exchange rules and data protection.",
-   "line": "PMLA, IBC, NHB, exchanges, DPDP"
+   "desc": "Anti-money laundering, insolvency, housing finance supervision and stock exchange rules.",
+   "line": "PMLA, IBC, NHB, exchanges"
   }
  ]
 }

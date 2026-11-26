@@ -1,0 +1,289 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Plain-language explanations for readers who are new to the terms. They are summaries, not the legal definitions: the instrument named under 'See' governs."
+ },
+ "terms": [
+  {
+   "term": "DPDP Act",
+   "full": "Digital Personal Data Protection Act, 2023",
+   "def": "India's general law on the processing of digital personal data. It applies to banks, NBFCs, insurers and market intermediaries like any other business, alongside their sector rules.",
+   "see": [
+    "ACT-DPDP"
+   ],
+   "aka": [
+    "DPDPA",
+    "Digital Personal Data Protection Act",
+    "DPDP"
+   ]
+  },
+  {
+   "term": "DPDP Rules",
+   "full": "Digital Personal Data Protection Rules, 2025",
+   "def": "The rules made under the Act on notice, Consent Managers, security, breach reporting, retention, children's data, Significant Data Fiduciaries and the Board, notified on 13 November 2025.",
+   "see": [
+    "RULES-DPDP"
+   ],
+   "aka": [
+    "DPDP Rules 2025"
+   ]
+  },
+  {
+   "term": "Personal data",
+   "full": "",
+   "def": "Any data about an individual who can be identified by or in relation to it. The Act covers it when it is in digital form or digitised later.",
+   "see": [
+    "ACT-DPDP"
+   ],
+   "aka": [
+    "digital personal data"
+   ]
+  },
+  {
+   "term": "Data Fiduciary",
+   "full": "",
+   "def": "The person who decides, alone or with others, why and how personal data is processed. A lender, insurer or broker is the Data Fiduciary for its customers' data.",
+   "see": [
+    "ACT-DPDP",
+    "T-DUTY"
+   ],
+   "aka": [
+    "fiduciary",
+    "data controller",
+    "controller"
+   ]
+  },
+  {
+   "term": "Data Processor",
+   "full": "",
+   "def": "A person that processes personal data on behalf of a Data Fiduciary, such as a cloud provider, call centre or lending service provider. It needs a valid contract with the Data Fiduciary, which stays responsible.",
+   "see": [
+    "ACT-DPDP",
+    "RBI-OUTS"
+   ],
+   "aka": [
+    "processor",
+    "vendor",
+    "service provider"
+   ]
+  },
+  {
+   "term": "Data Principal",
+   "full": "",
+   "def": "The individual the data is about. For a child it includes the parent, and for a person with disability it includes the lawful guardian.",
+   "see": [
+    "ACT-DPDP",
+    "T-RIGHTS"
+   ],
+   "aka": [
+    "data subject",
+    "customer data"
+   ]
+  },
+  {
+   "term": "Consent",
+   "full": "",
+   "def": "Permission that is free, specific, informed, unconditional and unambiguous, given by a clear affirmative action, for a specified purpose, after a notice. It can be withdrawn as easily as it was given.",
+   "see": [
+    "T-CONSENT"
+   ],
+   "aka": [
+    "valid consent",
+    "withdrawal of consent"
+   ]
+  },
+  {
+   "term": "Notice",
+   "full": "",
+   "def": "The statement a Data Fiduciary must give with or before a request for consent, listing the data, the purpose and how to withdraw consent, exercise rights and complain to the Board.",
+   "see": [
+    "T-CONSENT",
+    "RULES-DPDP"
+   ],
+   "aka": [
+    "privacy notice"
+   ]
+  },
+  {
+   "term": "Legitimate uses",
+   "full": "Certain legitimate uses",
+   "def": "Cases in s. 7 where data may be processed without consent, such as data the person gave voluntarily for a purpose, legal duties to disclose to the State, court orders, emergencies and employment.",
+   "see": [
+    "T-SCOPE"
+   ],
+   "aka": [
+    "certain legitimate uses",
+    "legitimate use"
+   ]
+  },
+  {
+   "term": "Consent Manager",
+   "full": "",
+   "def": "A company registered with the Data Protection Board that runs a platform through which people give, manage, review and withdraw consent across Data Fiduciaries. Registration opened on 13 November 2026.",
+   "see": [
+    "T-CONSENT"
+   ],
+   "aka": [
+    "consent managers"
+   ]
+  },
+  {
+   "term": "Personal data breach",
+   "full": "",
+   "def": "Any unauthorised processing, or accidental disclosure, acquisition, sharing, use, alteration, destruction or loss of access to personal data, that compromises its confidentiality, integrity or availability.",
+   "see": [
+    "T-DUTY",
+    "ACT-DPDP"
+   ],
+   "aka": [
+    "data breach",
+    "breach intimation",
+    "breach notification"
+   ]
+  },
+  {
+   "term": "72-hour report",
+   "full": "",
+   "def": "The detailed report on a personal data breach that a Data Fiduciary must send to the Board within 72 hours of becoming aware of it, after a first intimation without delay.",
+   "see": [
+    "T-DUTY",
+    "RULES-DPDP"
+   ],
+   "aka": [
+    "72 hours"
+   ]
+  },
+  {
+   "term": "Significant Data Fiduciary",
+   "full": "SDF",
+   "def": "A Data Fiduciary, or class of them, that the Central Government notifies because of the volume and sensitivity of its data and the risks involved. It must appoint a Data Protection Officer in India and an independent auditor, and run yearly impact assessments and audits.",
+   "see": [
+    "T-SDF"
+   ],
+   "aka": [
+    "SDF",
+    "significant data fiduciaries"
+   ]
+  },
+  {
+   "term": "Data Protection Officer",
+   "full": "DPO",
+   "def": "The individual a Significant Data Fiduciary appoints, based in India and answerable to its board, who represents it under the Act and handles grievances.",
+   "see": [
+    "T-SDF"
+   ],
+   "aka": [
+    "DPO"
+   ]
+  },
+  {
+   "term": "DPIA",
+   "full": "Data Protection Impact Assessment",
+   "def": "An assessment of the rights of Data Principals, the purpose of processing and the risks to their rights, which a Significant Data Fiduciary must carry out every twelve months.",
+   "see": [
+    "T-SDF"
+   ],
+   "aka": [
+    "data protection impact assessment",
+    "impact assessment"
+   ]
+  },
+  {
+   "term": "Data Protection Board",
+   "full": "Data Protection Board of India",
+   "def": "The body set up on 13 November 2025 to take breach reports and complaints, inquire, direct remedial steps and impose penalties under the Act. It works as a digital office.",
+   "see": [
+    "T-BOARD",
+    "NOT-BOARD"
+   ],
+   "aka": [
+    "Board",
+    "DPB",
+    "DPBI"
+   ]
+  },
+  {
+   "term": "Voluntary undertaking",
+   "full": "",
+   "def": "A commitment that a person under inquiry offers the Board and the Board accepts. It bars further proceedings on what it covers, unless it is breached.",
+   "see": [
+    "T-BOARD"
+   ],
+   "aka": [
+    "undertaking"
+   ]
+  },
+  {
+   "term": "Verifiable consent",
+   "full": "",
+   "def": "Consent of a parent or lawful guardian that the Data Fiduciary checks against reliable identity and age details, or a token from an authorised entity such as DigiLocker, before processing a child's data.",
+   "see": [
+    "T-CHILD"
+   ],
+   "aka": [
+    "parental consent"
+   ]
+  },
+  {
+   "term": "Child",
+   "full": "",
+   "def": "Anyone under eighteen. Their data needs a parent's verifiable consent, and they may not be tracked, monitored or targeted with advertising.",
+   "see": [
+    "T-CHILD"
+   ],
+   "aka": [
+    "children",
+    "minor",
+    "minors"
+   ]
+  },
+  {
+   "term": "Cross-border transfer",
+   "full": "",
+   "def": "Sending personal data outside India. The Act allows it unless the Government restricts a country by notification, and keeps stricter sector rules, such as RBI's data storage rules, in force.",
+   "see": [
+    "T-SDF",
+    "RBI-DL"
+   ],
+   "aka": [
+    "transfer outside India",
+    "data localisation",
+    "data localization"
+   ]
+  },
+  {
+   "term": "Lending service provider",
+   "full": "LSP",
+   "def": "An agent of a lender that does part of its digital lending, such as sourcing, servicing or recovery. RBI makes the lender responsible for the LSP's handling of borrower data.",
+   "see": [
+    "RBI-DL"
+   ],
+   "aka": [
+    "LSP"
+   ]
+  },
+  {
+   "term": "CERT-In",
+   "full": "Indian Computer Emergency Response Team",
+   "def": "The national agency for cyber incidents. Its 2022 directions require incidents to be reported within six hours and logs kept for 180 days in India.",
+   "see": [
+    "DIR-CERTIN"
+   ],
+   "aka": [
+    "CERT In"
+   ]
+  },
+  {
+   "term": "Sensitive personal data",
+   "full": "",
+   "def": "Passwords, financial, health, biometric and similar information protected under the 2011 rules made under s. 43A of the IT Act. On 13 May 2027 the DPDP Act omits s. 43A and the rule-making power behind those rules, and the DPDP regime takes over.",
+   "see": [
+    "ACT-IT"
+   ],
+   "aka": [
+    "SPDI",
+    "sensitive personal data or information"
+   ]
+  }
+ ]
+}
