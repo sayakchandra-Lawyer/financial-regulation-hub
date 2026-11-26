@@ -1,0 +1,2402 @@
+{
+ "meta": {
+  "title": "IFSC (GIFT City) rules for financial institutions",
+  "as_of": "2026-11-26",
+  "count": 57,
+  "in_force": 52,
+  "lenses": [
+   {
+    "id": "ENT-IBU",
+    "name": "IFSC Banking Unit (IBU / IBC)"
+   },
+   {
+    "id": "ENT-FC",
+    "name": "Finance company / finance unit"
+   },
+   {
+    "id": "ENT-FME",
+    "name": "Fund management entity"
+   },
+   {
+    "id": "ENT-CMI",
+    "name": "Capital market intermediary / listed issuer"
+   },
+   {
+    "id": "ENT-INS",
+    "name": "Insurance office / intermediary"
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "id": "ACT-IFSCA",
+   "label": "IFSCA Act, 2019",
+   "title": "The International Financial Services Centres Authority Act, 2019",
+   "group": "Statute and foreign exchange status",
+   "type": "Act",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/sKCVtbX6J9o=",
+   "issue_date": "2019-12-19",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-FEMA-IFSC",
+   "label": "FEMA (IFSC) Regulations, 2015",
+   "title": "Foreign Exchange Management (International Financial Services Centre) Regulations, 2015 (as amended up to 07-01-2020)",
+   "group": "Statute and foreign exchange status",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://www.rbi.org.in/Scripts/BS_FemaNotifications.aspx?Id=12098",
+   "issue_date": "2015-03-02",
+   "updated_as_on": "2020-01-16"
+  },
+  {
+   "id": "CIR-SNRR",
+   "label": "SNRR accounts of IFSC units",
+   "title": "Permissible transactions through the Special Non-Resident Rupee (SNRR) accounts of IFSC units (29-01-2025, as amended 18-02-2025 and 19-06-2026)",
+   "group": "Statute and foreign exchange status",
+   "type": "Circular",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-01-29",
+   "updated_as_on": "2026-06-19"
+  },
+  {
+   "id": "REG-BANK",
+   "label": "IFSCA (Banking) Regulations, 2020",
+   "title": "International Financial Services Centres Authority (Banking) Regulations, 2020 (consolidated, with the 2024 amendment)",
+   "group": "Banking units (IBU and IBC)",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2020-11-18",
+   "updated_as_on": "2024-07-04"
+  },
+  {
+   "id": "HB-BANK",
+   "label": "IFSCA Banking Handbook (GEN, COB, PRU)",
+   "title": "IFSCA Banking Handbook: General (GEN v5.0), Conduct of Business (COB v6.0) and Prudential (PRU v5.0) Directions",
+   "group": "Banking units (IBU and IBC)",
+   "type": "Directions",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2024-04-05",
+   "updated_as_on": "2025-12-08"
+  },
+  {
+   "id": "CIR-IBU-GOV",
+   "label": "IBU governing body meetings",
+   "title": "Revision to the requirement of meetings of the governing body of IBUs in IFSC (amendment to the Banking Handbook)",
+   "group": "Banking units (IBU and IBC)",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-04-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-COB16",
+   "label": "Loans to directors and related parties (COB Module 16)",
+   "title": "Amendments to Module 16 (Providing Credit) of the IFSCA Banking Handbook: COB Directions",
+   "group": "Banking units (IBU and IBC)",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-12-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-BLA2025",
+   "label": "Banking Laws (Amendment) Act, 2025 in IBUs",
+   "title": "Implementation of provisions of the Banking Laws (Amendment) Act, 2025",
+   "group": "Banking units (IBU and IBC)",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-12-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-NETBANK",
+   "label": "Internet banking for IBU clients",
+   "title": "Internet banking services to clients of IBUs: Review (29-12-2025, as amended 30-06-2026 and 31-07-2026)",
+   "group": "Banking units (IBU and IBC)",
+   "type": "Circular",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-12-29",
+   "updated_as_on": "2026-07-31"
+  },
+  {
+   "id": "CIR-SWIFT",
+   "label": "SWIFT requirements for IBUs",
+   "title": "Directions to IBUs on SWIFT-related operational requirements",
+   "group": "Banking units (IBU and IBC)",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-02-26",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-VOSTRO",
+   "label": "Vostro balances in BAL statement",
+   "title": "Reporting of transactions for India's External Account Statistics: additional directions",
+   "group": "Banking units (IBU and IBC)",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-11-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-FCSS",
+   "label": "Foreign Currency Settlement System",
+   "title": "Foreign Currency Settlement System: instructions for IFSC Banking Units",
+   "group": "Banking units (IBU and IBC)",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-10-07",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-IBU-RESACC",
+   "label": "Accounts of residents with IBUs",
+   "title": "Opening of an account of a person resident in India (13-08-2025, with the corrigendum of 02-09-2025)",
+   "group": "Banking units (IBU and IBC)",
+   "type": "Circular",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-08-13",
+   "updated_as_on": "2025-09-02"
+  },
+  {
+   "id": "REG-FC",
+   "label": "IFSCA (Finance Company) Regulations, 2021",
+   "title": "International Financial Services Centres Authority (Finance Company) Regulations, 2021 (as amended up to 07-05-2026)",
+   "group": "Finance companies, leasing and treasury centres",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2021-03-25",
+   "updated_as_on": "2026-05-07"
+  },
+  {
+   "id": "CIR-FC-GOV",
+   "label": "Finance company governance and disclosure",
+   "title": "Guidelines on Corporate Governance and Disclosure Requirements for a Finance Company (updated 04-04-2025)",
+   "group": "Finance companies, leasing and treasury centres",
+   "type": "Guidelines",
+   "status": "In force (as updated)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2021-08-09",
+   "updated_as_on": "2025-04-04"
+  },
+  {
+   "id": "CIR-GRCTC",
+   "label": "Global / regional corporate treasury centre framework",
+   "title": "Framework for a Finance Company or Finance Unit undertaking the activity of Global / Regional Corporate Treasury Centre (04-04-2025, updated 09-06-2025)",
+   "group": "Finance companies, leasing and treasury centres",
+   "type": "Framework",
+   "status": "In force (as updated)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-04-04",
+   "updated_as_on": "2025-06-09"
+  },
+  {
+   "id": "CIR-AIRCRAFT",
+   "label": "Aircraft lease framework",
+   "title": "Framework for Aircraft Lease (updated as on 26-02-2025)",
+   "group": "Finance companies, leasing and treasury centres",
+   "type": "Framework",
+   "status": "In force (as updated)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2022-05-18",
+   "updated_as_on": "2025-02-26"
+  },
+  {
+   "id": "CIR-SHIP",
+   "label": "Ship leasing framework",
+   "title": "Framework for Ship Leasing (updated as on 20-05-2026)",
+   "group": "Finance companies, leasing and treasury centres",
+   "type": "Framework",
+   "status": "In force (as updated)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2022-08-16",
+   "updated_as_on": "2026-05-20"
+  },
+  {
+   "id": "REG-FACTORS",
+   "label": "IFSCA Factors Regulations, 2024",
+   "title": "IFSCA (Registration of Factors and Registration of Assignment of Receivables) Regulations, 2024 (consolidated to 13-03-2025)",
+   "group": "Finance companies, leasing and treasury centres",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2024-11-18",
+   "updated_as_on": "2025-03-13"
+  },
+  {
+   "id": "CIR-FACT-CAP",
+   "label": "Capital relief for factoring",
+   "title": "Framework on capital relief and prudential requirements for factoring transactions",
+   "group": "Finance companies, leasing and treasury centres",
+   "type": "Framework",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-07-21",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-FC-WEB",
+   "label": "Website for finance companies",
+   "title": "Requirement for a Finance Company / Finance Unit to have a website or webpage",
+   "group": "Finance companies, leasing and treasury centres",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-02-03",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-FM",
+   "label": "IFSCA (Fund Management) Regulations, 2025",
+   "title": "International Financial Services Centres Authority (Fund Management) Regulations, 2025 (as amended up to 10-09-2026)",
+   "group": "Fund management",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2025-02-10",
+   "updated_as_on": "2026-09-10"
+  },
+  {
+   "id": "CIR-FME-KMP",
+   "label": "KMP appointment and change by an FME",
+   "title": "Appointment and change of Key Managerial Personnel by a Fund Management Entity (20-02-2025, as amended 01-04-2026)",
+   "group": "Fund management",
+   "type": "Circular",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-02-20",
+   "updated_as_on": "2026-04-01"
+  },
+  {
+   "id": "CIR-FME-CERT",
+   "label": "Certification for FME KMPs and employees",
+   "title": "Certification course for KMPs and employees of FMEs (01-04-2026, 10-08-2026 and extension of 29-09-2026)",
+   "group": "Fund management",
+   "type": "Circular",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-04-01",
+   "updated_as_on": "2026-09-29"
+  },
+  {
+   "id": "CIR-FME-FIDUC",
+   "label": "Segregation of fiduciary roles in schemes",
+   "title": "Governance and oversight of schemes in IFSC: segregation of the role of fiduciaries",
+   "group": "Fund management",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-04-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-FME-WEB",
+   "label": "Website for FMEs",
+   "title": "Requirement for Fund Management Entities to maintain a website or webpage",
+   "group": "Fund management",
+   "type": "Circular",
+   "status": "In force from 01-12-2026",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-08-26",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-CMI",
+   "label": "IFSCA (Capital Market Intermediaries) Regulations, 2025",
+   "title": "International Financial Services Centres Authority (Capital Market Intermediaries) Regulations, 2025 (as amended up to 05-09-2026)",
+   "group": "Capital market intermediaries and listing",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2025-04-11",
+   "updated_as_on": "2026-09-05"
+  },
+  {
+   "id": "CIR-CMI-REP",
+   "label": "Reporting norms for CMIs",
+   "title": "Reporting norms for Capital Market Intermediaries",
+   "group": "Capital market intermediaries and listing",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-04-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-CMI-AUDIT",
+   "label": "Annual compliance audit format for CMIs",
+   "title": "Reporting format and norms for the Annual Compliance Audit for CMIs in IFSC",
+   "group": "Capital market intermediaries and listing",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-06-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-MASTERKEY",
+   "label": "Unified registration for CMIs",
+   "title": "Unified registration for multiple capital market activities under the CMI Regulations",
+   "group": "Capital market intermediaries and listing",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-02-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-LISTING",
+   "label": "IFSCA (Listing) Regulations, 2024",
+   "title": "International Financial Services Centres Authority (Listing) Regulations, 2024 (as amended up to 14-10-2025)",
+   "group": "Capital market intermediaries and listing",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2024-08-30",
+   "updated_as_on": "2025-10-14"
+  },
+  {
+   "id": "REG-MAR",
+   "label": "IFSCA Market Abuse Regulations, 2026",
+   "title": "IFSCA (Prohibition of Market Abuse in Securities Markets) Regulations, 2026",
+   "group": "Capital market intermediaries and listing",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2026-08-25",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-INS-REG",
+   "label": "IFSCA (Registration of Insurance Business) Regulations, 2021",
+   "title": "IFSCA (Registration of Insurance Business) Regulations, 2021 (consolidated, July 2026)",
+   "group": "Insurance offices and intermediaries",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2021-10-18",
+   "updated_as_on": "2026-07-10"
+  },
+  {
+   "id": "REG-INS-INT",
+   "label": "IFSCA (Insurance Intermediary) Regulations, 2021",
+   "title": "IFSCA (Insurance Intermediary) Regulations, 2021 (consolidated to 28-01-2022)",
+   "group": "Insurance offices and intermediaries",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2021-10-18",
+   "updated_as_on": "2022-01-28"
+  },
+  {
+   "id": "REG-MGA",
+   "label": "IFSCA (Managing General Agents) Regulations, 2026",
+   "title": "IFSCA (Managing General Agents) Regulations, 2026",
+   "group": "Insurance offices and intermediaries",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2026-06-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-INS-MC",
+   "label": "IFSCA insurance management control and market conduct regulations",
+   "title": "IFSCA (Management Control, Administrative Control and Market Conduct of Insurance Business) Regulations, 2023",
+   "group": "Insurance offices and intermediaries",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2023-04-26",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-INS-INV",
+   "label": "IFSCA (Investment by IIO) Regulations, 2022",
+   "title": "IFSCA (Investment by IFSC Insurance Office) Regulations, 2022 (consolidated to 05-11-2024)",
+   "group": "Insurance offices and intermediaries",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2023-01-12",
+   "updated_as_on": "2024-11-05"
+  },
+  {
+   "id": "REG-INS-SOLV",
+   "label": "IFSCA solvency regulations (general, health and reinsurance)",
+   "title": "IFSCA (Assets, Liabilities and Solvency Margin of General, Health and Re-insurance Business) Regulations, 2023",
+   "group": "Insurance offices and intermediaries",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2023-04-19",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "GDL-AML",
+   "label": "IFSCA AML, CFT and KYC Guidelines, 2022",
+   "title": "IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022 (updated as on 03-08-2026)",
+   "group": "AML, KYC and customer protection",
+   "type": "Guidelines",
+   "status": "In force (as updated)",
+   "url": "https://ifsca.gov.in/Legal/Index/mizvnmwVAgs=",
+   "issue_date": "2022-10-28",
+   "updated_as_on": "2026-08-03"
+  },
+  {
+   "id": "CIR-AML-CERT",
+   "label": "AML certification for Designated Director and Principal Officer",
+   "title": "Requirement of certification on AML/CFT for the Designated Director and Principal Officer under the AML guidelines",
+   "group": "AML, KYC and customer protection",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-11-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-GRIEV",
+   "label": "Complaint handling and grievance redressal",
+   "title": "Complaint handling and grievance redressal by regulated entities in the IFSC",
+   "group": "AML, KYC and customer protection",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2024-12-02",
+   "updated_as_on": "2025-01-13"
+  },
+  {
+   "id": "CIR-CHARTER",
+   "label": "Consumer charter",
+   "title": "Consumer Charter by regulated entities in the IFSC",
+   "group": "AML, KYC and customer protection",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-05-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-CYBER",
+   "label": "Cyber security and cyber resilience guidelines",
+   "title": "Guidelines on Cyber Security and Cyber Resilience for regulated entities in IFSCs (10-03-2025, as amended 10-03-2026)",
+   "group": "Fees, SEZ approval and cyber security",
+   "type": "Guidelines",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-03-10",
+   "updated_as_on": "2026-03-10"
+  },
+  {
+   "id": "CIR-CERTIN",
+   "label": "CERT-In advisories and vulnerability notes",
+   "title": "Adherence to advisories and vulnerability notes issued by CERT-In",
+   "group": "Fees, SEZ approval and cyber security",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-11-25",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CIR-FEES",
+   "label": "IFSCA fee structure",
+   "title": "Fee structure for entities undertaking or intending to undertake permissible activities in IFSC (02-03-2026, with corrigendum of 13-03-2026)",
+   "group": "Fees, SEZ approval and cyber security",
+   "type": "Circular",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-03-02",
+   "updated_as_on": "2026-03-13"
+  },
+  {
+   "id": "CIR-SEZ-LOA",
+   "label": "SEZ Letter of Approval for regulated entities",
+   "title": "Directions to all regulated entities on holding a valid SEZ Letter of Approval",
+   "group": "Fees, SEZ approval and cyber security",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2026-08-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-MII",
+   "label": "IFSCA (Market Infrastructure Institutions) Regulations, 2021",
+   "title": "IFSCA (Market Infrastructure Institutions) Regulations, 2021 (as amended up to 01-11-2024)",
+   "group": "Market infrastructure, payments, bullion and service providers",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2021-04-12",
+   "updated_as_on": "2024-11-01"
+  },
+  {
+   "id": "REG-PSR",
+   "label": "IFSCA (Payment Services) Regulations, 2024",
+   "title": "IFSCA (Payment Services) Regulations, 2024 (consolidated)",
+   "group": "Market infrastructure, payments, bullion and service providers",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2024-01-29",
+   "updated_as_on": "2024-04-02"
+  },
+  {
+   "id": "REG-BULLION",
+   "label": "IFSCA (Bullion Market) Regulations, 2025",
+   "title": "IFSCA (Bullion Market) Regulations, 2025",
+   "group": "Market infrastructure, payments, bullion and service providers",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2025-02-04",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-TECHFIN",
+   "label": "IFSCA (TechFin and Ancillary Services) Regulations, 2025",
+   "title": "IFSCA (TechFin and Ancillary Services) Regulations, 2025 (with the 2026 amendment)",
+   "group": "Market infrastructure, payments, bullion and service providers",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2025-07-08",
+   "updated_as_on": "2026-05-12"
+  },
+  {
+   "id": "REG-GIC",
+   "label": "IFSCA (Global In-House Centres) Regulations, 2025",
+   "title": "IFSCA (Global In-House Centres) Regulations, 2025",
+   "group": "Market infrastructure, payments, bullion and service providers",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2025-12-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-REINS",
+   "label": "IFSCA (Re-insurance) Regulations, 2023",
+   "title": "IFSCA (Re-insurance) Regulations, 2023",
+   "group": "Insurance offices and intermediaries",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2023-04-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-FM22",
+   "label": "Fund Management Regulations 2022",
+   "title": "IFSCA (Fund Management) Regulations, 2022",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Repealed by the 2025 Regulations",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2022-04-19",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-CMI21",
+   "label": "CMI Regulations 2021",
+   "title": "IFSCA (Capital Market Intermediaries) Regulations, 2021",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Repealed by the 2025 Regulations",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2021-10-18",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-ILS21",
+   "label": "Issuance and Listing Regulations 2021",
+   "title": "IFSCA (Issuance and Listing of Securities) Regulations, 2021",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Replaced by the Listing Regulations, 2024",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+   "issue_date": "2021-07-16",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-FEE25",
+   "label": "Fee circular of 08-04-2025",
+   "title": "Fee structure for entities undertaking permissible activities in IFSC (08-04-2025)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded by the fee circular of 02-03-2026",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-04-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-REDIR25",
+   "label": "Directions to regulated entities of 03-04-2025",
+   "title": "Directions for all regulated entities (03-04-2025)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded by the directions of 10-08-2026",
+   "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+   "issue_date": "2025-04-03",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ENT-IBU",
+   "label": "IFSC Banking Unit (IBU / IBC)",
+   "title": "IFSC Banking Unit (IBU / IBC)",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-FC",
+   "label": "Finance company / finance unit",
+   "title": "Finance company / finance unit",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-FME",
+   "label": "Fund management entity",
+   "title": "Fund management entity",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-CMI",
+   "label": "Capital market intermediary / listed issuer",
+   "title": "Capital market intermediary / listed issuer",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-INS",
+   "label": "Insurance office / intermediary",
+   "title": "Insurance office / intermediary",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  }
+ ],
+ "edges": [
+  {
+   "source": "ACT-IFSCA",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Financial products, financial services and financial institutions in an International Financial Services Centre (IFSC), including GIFT IFSC"
+  },
+  {
+   "source": "ACT-IFSCA",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Financial products, financial services and financial institutions in an International Financial Services Centre (IFSC), including GIFT IFSC"
+  },
+  {
+   "source": "ACT-IFSCA",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "Financial products, financial services and financial institutions in an International Financial Services Centre (IFSC), including GIFT IFSC"
+  },
+  {
+   "source": "ACT-IFSCA",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Financial products, financial services and financial institutions in an International Financial Services Centre (IFSC), including GIFT IFSC"
+  },
+  {
+   "source": "ACT-IFSCA",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Financial products, financial services and financial institutions in an International Financial Services Centre (IFSC), including GIFT IFSC"
+  },
+  {
+   "source": "REG-FEMA-IFSC",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Financial institutions and branches of financial institutions set up in an IFSC and permitted or recognised by the regulator"
+  },
+  {
+   "source": "REG-FEMA-IFSC",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Financial institutions and branches of financial institutions set up in an IFSC and permitted or recognised by the regulator"
+  },
+  {
+   "source": "REG-FEMA-IFSC",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "Financial institutions and branches of financial institutions set up in an IFSC and permitted or recognised by the regulator"
+  },
+  {
+   "source": "REG-FEMA-IFSC",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Financial institutions and branches of financial institutions set up in an IFSC and permitted or recognised by the regulator"
+  },
+  {
+   "source": "REG-FEMA-IFSC",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Financial institutions and branches of financial institutions set up in an IFSC and permitted or recognised by the regulator"
+  },
+  {
+   "source": "REG-FEMA-IFSC",
+   "target": "ACT-IFSCA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FEMA-IFSC",
+   "target": "CIR-SNRR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FEMA-IFSC",
+   "target": "CIR-IBU-RESACC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-SNRR",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "IFSC units that hold an SNRR account with an AD bank in India under the Foreign Exchange Management (Deposit) (Fifth Amendment) Regulations, 2025"
+  },
+  {
+   "source": "CIR-SNRR",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "IFSC units that hold an SNRR account with an AD bank in India under the Foreign Exchange Management (Deposit) (Fifth Amendment) Regulations, 2025"
+  },
+  {
+   "source": "CIR-SNRR",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "IFSC units that hold an SNRR account with an AD bank in India under the Foreign Exchange Management (Deposit) (Fifth Amendment) Regulations, 2025"
+  },
+  {
+   "source": "CIR-SNRR",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "IFSC units that hold an SNRR account with an AD bank in India under the Foreign Exchange Management (Deposit) (Fifth Amendment) Regulations, 2025"
+  },
+  {
+   "source": "CIR-SNRR",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "IFSC units that hold an SNRR account with an AD bank in India under the Foreign Exchange Management (Deposit) (Fifth Amendment) Regulations, 2025"
+  },
+  {
+   "source": "CIR-SNRR",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-SNRR",
+   "target": "REG-FEMA-IFSC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-SNRR",
+   "target": "REG-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BANK",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "IFSC Banking Units: an IFSC Banking Unit set up as a branch (IBU) or an IFSC Banking Company set up as a subsidiary (IBC); Representative offices and Global Administrative Offices of banks in the IFSC"
+  },
+  {
+   "source": "REG-BANK",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-BANK",
+   "target": "ACT-IFSCA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BANK",
+   "target": "HB-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BANK",
+   "target": "GDL-AML",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "HB-BANK",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "IBUs and IBCs in the IFSC"
+  },
+  {
+   "source": "HB-BANK",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "HB-BANK",
+   "target": "REG-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "HB-BANK",
+   "target": "CIR-IBU-GOV",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "HB-BANK",
+   "target": "CIR-COB16",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-IBU-GOV",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "IBUs in the IFSC"
+  },
+  {
+   "source": "CIR-IBU-GOV",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-IBU-GOV",
+   "target": "HB-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-COB16",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "IBUs of foreign banks and other Banking Units lending to related parties"
+  },
+  {
+   "source": "CIR-COB16",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-COB16",
+   "target": "HB-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-COB16",
+   "target": "REG-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-BLA2025",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Banking Units in the IFSC"
+  },
+  {
+   "source": "CIR-BLA2025",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-BLA2025",
+   "target": "REG-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-NETBANK",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "IBUs offering liability products (deposits and accounts) to customers"
+  },
+  {
+   "source": "CIR-NETBANK",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-NETBANK",
+   "target": "HB-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-SWIFT",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "IBUs using SWIFT"
+  },
+  {
+   "source": "CIR-SWIFT",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-SWIFT",
+   "target": "HB-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-VOSTRO",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "IBUs reporting on the RBI balance of payments portal"
+  },
+  {
+   "source": "CIR-VOSTRO",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-VOSTRO",
+   "target": "REG-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-FCSS",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "IBUs that join the Foreign Currency Settlement System as members"
+  },
+  {
+   "source": "CIR-FCSS",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-FCSS",
+   "target": "REG-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-IBU-RESACC",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "IBUs opening foreign currency accounts for persons resident in India"
+  },
+  {
+   "source": "CIR-IBU-RESACC",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-IBU-RESACC",
+   "target": "REG-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-IBU-RESACC",
+   "target": "REG-FEMA-IFSC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FC",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Finance Companies (subsidiary, joint venture or new company in the IFSC) and Finance Units (branch of an entity incorporated in India or abroad)"
+  },
+  {
+   "source": "REG-FC",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-FC",
+   "target": "ACT-IFSCA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FC",
+   "target": "CIR-FC-GOV",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FC",
+   "target": "CIR-GRCTC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FC",
+   "target": "CIR-AIRCRAFT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FC",
+   "target": "CIR-SHIP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FC",
+   "target": "REG-FACTORS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-FC-GOV",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Part I: all Finance Companies and Finance Units except treasury centres; Part II: those doing core activities (except treasury centres)"
+  },
+  {
+   "source": "CIR-FC-GOV",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-FC-GOV",
+   "target": "REG-FC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-GRCTC",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Group companies setting up a treasury centre in the IFSC to serve group entities"
+  },
+  {
+   "source": "CIR-GRCTC",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-GRCTC",
+   "target": "REG-FC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-AIRCRAFT",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Finance Companies and Finance Units leasing aircraft, engines and related assets"
+  },
+  {
+   "source": "CIR-AIRCRAFT",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-AIRCRAFT",
+   "target": "REG-FC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-SHIP",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Finance Companies and Finance Units leasing ships"
+  },
+  {
+   "source": "CIR-SHIP",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-SHIP",
+   "target": "REG-FC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FACTORS",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Finance Companies and Finance Units doing factoring business in the IFSC"
+  },
+  {
+   "source": "REG-FACTORS",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-FACTORS",
+   "target": "REG-FC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FACTORS",
+   "target": "CIR-FACT-CAP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-FACT-CAP",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Factors and Banking Units in the IFSC taking credit protection on factoring exposures"
+  },
+  {
+   "source": "CIR-FACT-CAP",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Factors and Banking Units in the IFSC taking credit protection on factoring exposures"
+  },
+  {
+   "source": "CIR-FACT-CAP",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-FACT-CAP",
+   "target": "REG-FACTORS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-FC-WEB",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Finance Companies and Finance Units serving clients outside their group"
+  },
+  {
+   "source": "CIR-FC-WEB",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-FC-WEB",
+   "target": "REG-FC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-FC-WEB",
+   "target": "CIR-GRIEV",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FM",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "Fund Management Entities (FMEs) in the IFSC and the schemes they manage: venture capital, restricted and retail schemes, portfolio management, investment trusts and family investment funds"
+  },
+  {
+   "source": "REG-FM",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-FM",
+   "target": "ACT-IFSCA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FM",
+   "target": "CIR-FME-KMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FM",
+   "target": "CIR-FME-CERT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FM",
+   "target": "CIR-FME-FIDUC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FM",
+   "target": "CIR-FME-WEB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-FME-KMP",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "FMEs in the IFSC"
+  },
+  {
+   "source": "CIR-FME-KMP",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-FME-KMP",
+   "target": "REG-FM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-FME-CERT",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "KMPs and specified employees of FMEs"
+  },
+  {
+   "source": "CIR-FME-CERT",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-FME-CERT",
+   "target": "REG-FM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-FME-FIDUC",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "FMEs and the fiduciaries of their schemes (trustee, board or designated partners)"
+  },
+  {
+   "source": "CIR-FME-FIDUC",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-FME-FIDUC",
+   "target": "REG-FM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-FME-WEB",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "All FMEs in the IFSC"
+  },
+  {
+   "source": "CIR-FME-WEB",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-FME-WEB",
+   "target": "REG-FM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CMI",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Broker dealers, clearing members, credit rating agencies, custodians, debenture trustees, depository participants, distributors, ESG ratings providers, investment advisers, investment bankers and research entities in the IFSC"
+  },
+  {
+   "source": "REG-CMI",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-CMI",
+   "target": "ACT-IFSCA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CMI",
+   "target": "CIR-CMI-REP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CMI",
+   "target": "CIR-CMI-AUDIT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-CMI",
+   "target": "CIR-MASTERKEY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-CMI-REP",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Capital market intermediaries in the IFSC"
+  },
+  {
+   "source": "CIR-CMI-REP",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-CMI-REP",
+   "target": "REG-CMI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-CMI-AUDIT",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Capital market intermediaries in the IFSC"
+  },
+  {
+   "source": "CIR-CMI-AUDIT",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-CMI-AUDIT",
+   "target": "REG-CMI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-MASTERKEY",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Applicants for more than one capital market activity"
+  },
+  {
+   "source": "CIR-MASTERKEY",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-MASTERKEY",
+   "target": "REG-CMI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-MASTERKEY",
+   "target": "CIR-FEES",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-LISTING",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Issuers listing equity, debt, depository receipts, ESG-labelled debt, commercial paper and certificates of deposit on IFSC stock exchanges, and the intermediaries involved"
+  },
+  {
+   "source": "REG-LISTING",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-LISTING",
+   "target": "REG-CMI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-LISTING",
+   "target": "REG-MAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-MAR",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Listed entities, designated persons, intermediaries and anyone dealing in securities on IFSC markets"
+  },
+  {
+   "source": "REG-MAR",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "Listed entities, designated persons, intermediaries and anyone dealing in securities on IFSC markets"
+  },
+  {
+   "source": "REG-MAR",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-MAR",
+   "target": "REG-LISTING",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-MAR",
+   "target": "REG-CMI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INS-REG",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "IFSC Insurance Offices (IIOs): branches or companies of insurers and reinsurers in the IFSC, and Lloyd's IFSC"
+  },
+  {
+   "source": "REG-INS-REG",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-INS-REG",
+   "target": "ACT-IFSCA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INS-REG",
+   "target": "REG-INS-SOLV",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INS-REG",
+   "target": "REG-INS-INV",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INS-REG",
+   "target": "REG-INS-MC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INS-REG",
+   "target": "REG-MGA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INS-INT",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "IFSC Insurance Intermediary Offices: direct, reinsurance and composite brokers, corporate agents, third-party administrators, surveyors and web aggregators"
+  },
+  {
+   "source": "REG-INS-INT",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-INS-INT",
+   "target": "REG-INS-REG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-MGA",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Managing general agents acting for foreign insurers from the IFSC"
+  },
+  {
+   "source": "REG-MGA",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-MGA",
+   "target": "REG-INS-REG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INS-MC",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "IIOs and IFSC insurance intermediary offices"
+  },
+  {
+   "source": "REG-INS-MC",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-INS-MC",
+   "target": "REG-INS-REG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INS-INV",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "IIOs set up as companies investing their funds"
+  },
+  {
+   "source": "REG-INS-INV",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-INS-INV",
+   "target": "REG-INS-REG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-INS-SOLV",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "IIOs writing general, health or reinsurance business"
+  },
+  {
+   "source": "REG-INS-SOLV",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-INS-SOLV",
+   "target": "REG-INS-REG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "GDL-AML",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "GDL-AML",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "GDL-AML",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "GDL-AML",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "GDL-AML",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "GDL-AML",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "GDL-AML",
+   "target": "CIR-AML-CERT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "GDL-AML",
+   "target": "REG-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "GDL-AML",
+   "target": "REG-FC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-AML-CERT",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Designated Directors and Principal Officers of IFSC regulated entities"
+  },
+  {
+   "source": "CIR-AML-CERT",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Designated Directors and Principal Officers of IFSC regulated entities"
+  },
+  {
+   "source": "CIR-AML-CERT",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "Designated Directors and Principal Officers of IFSC regulated entities"
+  },
+  {
+   "source": "CIR-AML-CERT",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Designated Directors and Principal Officers of IFSC regulated entities"
+  },
+  {
+   "source": "CIR-AML-CERT",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Designated Directors and Principal Officers of IFSC regulated entities"
+  },
+  {
+   "source": "CIR-AML-CERT",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-AML-CERT",
+   "target": "GDL-AML",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-GRIEV",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Regulated entities dealing with retail consumers"
+  },
+  {
+   "source": "CIR-GRIEV",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Regulated entities dealing with retail consumers"
+  },
+  {
+   "source": "CIR-GRIEV",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "Regulated entities dealing with retail consumers"
+  },
+  {
+   "source": "CIR-GRIEV",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Regulated entities dealing with retail consumers"
+  },
+  {
+   "source": "CIR-GRIEV",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Regulated entities dealing with retail consumers"
+  },
+  {
+   "source": "CIR-GRIEV",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-GRIEV",
+   "target": "CIR-CHARTER",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-CHARTER",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Regulated entities dealing with retail consumers"
+  },
+  {
+   "source": "CIR-CHARTER",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Regulated entities dealing with retail consumers"
+  },
+  {
+   "source": "CIR-CHARTER",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "Regulated entities dealing with retail consumers"
+  },
+  {
+   "source": "CIR-CHARTER",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Regulated entities dealing with retail consumers"
+  },
+  {
+   "source": "CIR-CHARTER",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Regulated entities dealing with retail consumers"
+  },
+  {
+   "source": "CIR-CHARTER",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-CHARTER",
+   "target": "CIR-GRIEV",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-CYBER",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-CYBER",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-CYBER",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-CYBER",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-CYBER",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-CYBER",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-CYBER",
+   "target": "CIR-CERTIN",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-CERTIN",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC, including systems run by the parent or third parties"
+  },
+  {
+   "source": "CIR-CERTIN",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC, including systems run by the parent or third parties"
+  },
+  {
+   "source": "CIR-CERTIN",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC, including systems run by the parent or third parties"
+  },
+  {
+   "source": "CIR-CERTIN",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC, including systems run by the parent or third parties"
+  },
+  {
+   "source": "CIR-CERTIN",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC, including systems run by the parent or third parties"
+  },
+  {
+   "source": "CIR-CERTIN",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-CERTIN",
+   "target": "CIR-CYBER",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-FEES",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "All applicants and regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-FEES",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "All applicants and regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-FEES",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "All applicants and regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-FEES",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "All applicants and regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-FEES",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "All applicants and regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-FEES",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-FEES",
+   "target": "CIR-MASTERKEY",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CIR-SEZ-LOA",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-SEZ-LOA",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-SEZ-LOA",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-SEZ-LOA",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-SEZ-LOA",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "All regulated entities in the IFSC"
+  },
+  {
+   "source": "CIR-SEZ-LOA",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "CIR-SEZ-LOA",
+   "target": "CIR-FEES",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-MII",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Stock exchanges, clearing corporations and depositories in the IFSC; their members and participants follow the rules and bye-laws these institutions make under them"
+  },
+  {
+   "source": "REG-MII",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-MII",
+   "target": "REG-CMI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-MII",
+   "target": "REG-LISTING",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-PSR",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Companies providing payment services in or from the IFSC, such as cross-border money transfer, merchant acquisition, account issuance and e-money issuance"
+  },
+  {
+   "source": "REG-PSR",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Companies providing payment services in or from the IFSC, such as cross-border money transfer, merchant acquisition, account issuance and e-money issuance"
+  },
+  {
+   "source": "REG-PSR",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-PSR",
+   "target": "REG-BANK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BULLION",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Bullion exchanges, bullion clearing corporations, vaults and bullion market intermediaries in the IFSC, and banks dealing on the bullion exchange"
+  },
+  {
+   "source": "REG-BULLION",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "Bullion exchanges, bullion clearing corporations, vaults and bullion market intermediaries in the IFSC, and banks dealing on the bullion exchange"
+  },
+  {
+   "source": "REG-BULLION",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-BULLION",
+   "target": "REG-MII",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "TechFin and ancillary service providers in the IFSC, including Trust and Company Service Providers, legal, compliance, accounting and technology service providers serving IFSC entities"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "TechFin and ancillary service providers in the IFSC, including Trust and Company Service Providers, legal, compliance, accounting and technology service providers serving IFSC entities"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ENT-FME",
+   "relation": "applies_to",
+   "basis": "TechFin and ancillary service providers in the IFSC, including Trust and Company Service Providers, legal, compliance, accounting and technology service providers serving IFSC entities"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ENT-CMI",
+   "relation": "applies_to",
+   "basis": "TechFin and ancillary service providers in the IFSC, including Trust and Company Service Providers, legal, compliance, accounting and technology service providers serving IFSC entities"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "TechFin and ancillary service providers in the IFSC, including Trust and Company Service Providers, legal, compliance, accounting and technology service providers serving IFSC entities"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-TECHFIN",
+   "target": "REG-FC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GIC",
+   "target": "ENT-IBU",
+   "relation": "applies_to",
+   "basis": "Global in-house centres in the IFSC that provide services only to entities of their own financial services group"
+  },
+  {
+   "source": "REG-GIC",
+   "target": "ENT-FC",
+   "relation": "applies_to",
+   "basis": "Global in-house centres in the IFSC that provide services only to entities of their own financial services group"
+  },
+  {
+   "source": "REG-GIC",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "Global in-house centres in the IFSC that provide services only to entities of their own financial services group"
+  },
+  {
+   "source": "REG-GIC",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-GIC",
+   "target": "CIR-CYBER",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-REINS",
+   "target": "ENT-INS",
+   "relation": "applies_to",
+   "basis": "IIOs placing or accepting re-insurance and retrocession"
+  },
+  {
+   "source": "REG-REINS",
+   "target": "ACT-IFSCA",
+   "relation": "issued_under",
+   "basis": "IFSCA Act, 2019 (s. 12 and 13 for directions and circulars; s. 28 for regulations)"
+  },
+  {
+   "source": "REG-REINS",
+   "target": "REG-INS-REG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "OLD-FM22",
+   "target": "REG-FM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "OLD-CMI21",
+   "target": "REG-CMI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "OLD-ILS21",
+   "target": "REG-LISTING",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "OLD-FEE25",
+   "target": "CIR-FEES",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "OLD-REDIR25",
+   "target": "CIR-SEZ-LOA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FM",
+   "target": "OLD-FM22",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "REG-CMI",
+   "target": "OLD-CMI21",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "REG-LISTING",
+   "target": "OLD-ILS21",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "CIR-FEES",
+   "target": "OLD-FEE25",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "CIR-SEZ-LOA",
+   "target": "OLD-REDIR25",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "HB-BANK",
+   "target": "REG-BANK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-IBU-GOV",
+   "target": "HB-BANK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-COB16",
+   "target": "HB-BANK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-BLA2025",
+   "target": "REG-BANK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-NETBANK",
+   "target": "HB-BANK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-SWIFT",
+   "target": "REG-BANK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-VOSTRO",
+   "target": "REG-BANK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-FCSS",
+   "target": "REG-BANK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-IBU-RESACC",
+   "target": "REG-BANK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-SNRR",
+   "target": "REG-FEMA-IFSC",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-FC-GOV",
+   "target": "REG-FC",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-GRCTC",
+   "target": "REG-FC",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-AIRCRAFT",
+   "target": "REG-FC",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-SHIP",
+   "target": "REG-FC",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-FACTORS",
+   "target": "REG-FC",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-FACT-CAP",
+   "target": "REG-FACTORS",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-FC-WEB",
+   "target": "REG-FC",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-FME-KMP",
+   "target": "REG-FM",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-FME-CERT",
+   "target": "REG-FM",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-FME-FIDUC",
+   "target": "REG-FM",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-FME-WEB",
+   "target": "REG-FM",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-CMI-REP",
+   "target": "REG-CMI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-CMI-AUDIT",
+   "target": "REG-CMI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-MASTERKEY",
+   "target": "REG-CMI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-MGA",
+   "target": "REG-INS-REG",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-INS-INT",
+   "target": "REG-INS-REG",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-INS-MC",
+   "target": "REG-INS-REG",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-INS-INV",
+   "target": "REG-INS-REG",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-INS-SOLV",
+   "target": "REG-INS-REG",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-AML-CERT",
+   "target": "GDL-AML",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "CIR-CERTIN",
+   "target": "CIR-CYBER",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  }
+ ]
+}
