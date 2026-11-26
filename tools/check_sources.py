@@ -10,6 +10,7 @@ OFFICIAL = ("rbi.org.in", "sebi.gov.in", "irdai.gov.in", "meity.gov.in", "ibbi.g
             "nhb.org.in", "fiuindia.gov.in", "mca.gov.in", "egazette.gov.in", "egazette.nic.in", "indiacode.nic.in",
             "indiacode.gov.in", "pib.gov.in", "cert-in.org.in", "finmin.gov.in", "dea.gov.in", "incometaxindia.gov.in",
             "main.sci.gov.in", "sci.gov.in", "nclat.nic.in", "nclt.gov.in", "sansad.in",
+            "financialservices.gov.in", "dolr.gov.in", "tn.gov.in", "karnataka.gov.in", "assam.gov.in",
             "nseindia.com", "nseindia.in", "bseindia.com")
 def official(u):
     h = urlparse(u).netloc.lower()

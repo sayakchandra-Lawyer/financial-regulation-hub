@@ -1,0 +1,241 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "window_from": "2025-11-01",
+  "window_to": "2026-11-26",
+  "entities": [
+   {
+    "key": "lender",
+    "name": "Lenders (banks, NBFCs, HFCs)",
+    "profile": "Regulated lenders documenting loans, guarantees and security."
+   },
+   {
+    "key": "secured",
+    "name": "Secured creditors enforcing",
+    "profile": "Lenders enforcing security through SARFAESI, the DRT or the courts."
+   },
+   {
+    "key": "borrower",
+    "name": "Borrowers and guarantors",
+    "profile": "Individuals and businesses that borrow or guarantee loans."
+   },
+   {
+    "key": "mfi",
+    "name": "Microfinance and small-loan lenders",
+    "profile": "Lenders to low-income households, subject to State money-lending and coercive-recovery laws."
+   },
+   {
+    "key": "digital",
+    "name": "Digital lenders and payments",
+    "profile": "Lenders using e-agreements, e-mandates, electronic records and credit bureau data."
+   }
+  ]
+ },
+ "updates": [
+  {
+   "id": "U-2026-10-01-BBE",
+   "date": "2026-10-01",
+   "kind": "Act",
+   "title": "Bankers' Books Evidence Act, 2026 in force: cloud and electronic bank records",
+   "ref": "Act 15 of 2026",
+   "instrument": "ACT-BBE-2026",
+   "effective": "2026-10-01",
+   "applies": "Banks, and other financial sector entities to which the Central Government extends the Act, producing account statements in court or tribunal.",
+   "changes": [
+    "The 1891 Act is repealed.",
+    "Bankers' books expressly include electronic, offsite, cloud and disaster-recovery records.",
+    "Certified copies can be signed digitally by the branch head, office head or an authorised officer, in the forms in the Schedules."
+   ],
+   "impact": {
+    "secured": {
+     "level": "High",
+     "text": "Use the new certificate forms for statements filed with DRT, SARFAESI and civil cases."
+    },
+    "lender": {
+     "level": "Medium",
+     "text": "Update certification templates and authorisations."
+    },
+    "digital": {
+     "level": "Medium",
+     "text": "Electronic records are admissible subject to s. 7 conditions."
+    }
+   },
+   "actions": [
+    "Adopt the Schedule certificate formats and designate authorised signatories."
+   ],
+   "url": "https://financialservices.gov.in/sites/default/files/Act-Policies/2026-11/Bankers-Books-Evidence-Act--2026.pdf"
+  },
+  {
+   "id": "U-2026-08-17-PSS",
+   "date": "2026-08-17",
+   "kind": "Act",
+   "title": "PSS Act s. 10A: no-charge rule now covers modes notified by the Central Government",
+   "ref": "Act 21 of 2026, s. 2",
+   "instrument": "AMD-PSS-20260817",
+   "effective": "2026-08-17",
+   "applies": "Banks and payment system providers.",
+   "changes": [
+    "The electronic payment modes on which no charge may be levied are now those notified by the Central Government, no longer those prescribed under s. 269SU of the Income-tax Act, 1961."
+   ],
+   "impact": {
+    "digital": {
+     "level": "Medium",
+     "text": "Check fee schedules against the notified modes."
+    },
+    "lender": {
+     "level": "Low",
+     "text": "Relevant to banks' payment charges."
+    }
+   },
+   "actions": [
+    "Map current charges to the notified list once it is published."
+   ],
+   "url": "https://sansad.in/getFile/BillsTexts/LSBillTexts/PassedBothHouses/TAXATION824202654015PM.pdf?source=legislation"
+  },
+  {
+   "id": "U-2026-08-13-TRA",
+   "date": "2026-08-13",
+   "kind": "Act",
+   "title": "Tribunals Reforms Act, 2026: DRT, DRAT and consumer commission appointments",
+   "ref": "Act 17 of 2026",
+   "instrument": "AMD-RDB-20260813",
+   "effective": "2026-08-25",
+   "applies": "Debts Recovery Tribunals, Appellate Tribunals and consumer commissions.",
+   "changes": [
+    "RDB Act ss. 6A and 15A are substituted: service conditions of DRT Presiding Officers and the DRAT Chairperson follow the Tribunals Reforms Act, 2026.",
+    "Consumer Protection Act s. 55(1A) is substituted to the same effect."
+   ],
+   "impact": {
+    "secured": {
+     "level": "Low",
+     "text": "No change to filing or recovery procedure."
+    },
+    "borrower": {
+     "level": "Low",
+     "text": "No change to remedies."
+    }
+   },
+   "actions": [
+    "No action needed."
+   ],
+   "url": "https://sansad.in/getFile/BillsTexts/LSBillTexts/PassedBothHouses/153821202623736PM.pdf?source=legislation"
+  },
+  {
+   "id": "U-2026-08-04-TN270",
+   "date": "2026-08-04",
+   "kind": "Order",
+   "title": "Tamil Nadu extends registration deadline to 270 days",
+   "ref": "G.O. Ms. No. 254, Home",
+   "instrument": "MF-TN-2026-S31",
+   "effective": "2026-08-04",
+   "applies": "Money lending entities operating in Tamil Nadu on 19-11-2025.",
+   "changes": [
+    "Removal of Difficulties Order, 2026 substitutes 'two hundred and seventy days' for 'ninety days' in the proviso to s. 5(1), because the online portal was notified only on 27-02-2026."
+   ],
+   "impact": {
+    "mfi": {
+     "level": "High",
+     "text": "Existing lenders had until about mid-August 2026 (270 days from 19-11-2025) to register."
+    }
+   },
+   "actions": [
+    "Confirm registration certificates are in hand for every district."
+   ],
+   "url": "https://stationeryprinting.tn.gov.in/extraordinary/2026/339_Ex_II_2_2026.pdf"
+  },
+  {
+   "id": "U-2026-02-16-TNREG",
+   "date": "2026-02-16",
+   "kind": "Notification",
+   "title": "Tamil Nadu: District Collectors named Registering Authorities for money lending entities",
+   "ref": "G.O. Ms. No. 85, Home",
+   "instrument": "MF-TN-2026-S4",
+   "effective": "2026-02-16",
+   "applies": "Money lending entities that must register under the Tamil Nadu Act.",
+   "changes": [
+    "District Collectors are the Registering Authorities for their districts under s. 4(1)."
+   ],
+   "impact": {
+    "mfi": {
+     "level": "Medium",
+     "text": "Registration applications and complaints go to the District Collector."
+    },
+    "borrower": {
+     "level": "Low",
+     "text": "Complaints can be made to the Collector."
+    }
+   },
+   "actions": [
+    "Identify the Collector's office for each district of operation."
+   ],
+   "url": "https://stationeryprinting.tn.gov.in/extraordinary/2026/76_Ex_II_2_2026.pdf"
+  },
+  {
+   "id": "U-2025-12-20-REPAMD",
+   "date": "2025-12-20",
+   "kind": "Act",
+   "title": "Notices by post: 'registered post' becomes 'speed post with registration'",
+   "ref": "Act 37 of 2025",
+   "instrument": "ACT-REPAMD-2025",
+   "effective": "2025-12-20",
+   "applies": "Anyone serving notices by post under central laws, including SARFAESI and cheque-bounce demand notices.",
+   "changes": [
+    "General Clauses Act s. 27 now deems service by post effected when a notice is sent by speed post with registration.",
+    "Matching changes are made to the Code of Civil Procedure.",
+    "Spent amending Acts, including Arbitration, NI and Factoring amendments, are repealed; their changes stay in the principal Acts."
+   ],
+   "impact": {
+    "lender": {
+     "level": "Medium",
+     "text": "Update notice dispatch to speed post with registration."
+    },
+    "secured": {
+     "level": "Medium",
+     "text": "Same for SARFAESI s. 13(2) notices."
+    },
+    "borrower": {
+     "level": "Low",
+     "text": "No change to rights."
+    }
+   },
+   "actions": [
+    "Change notice templates and mailroom instructions."
+   ],
+   "url": "https://sansad.in/getFile/BillsTexts/LSBillTexts/PassedBothHouses/Reapealing1229202522007PM.pdf?source=legislation"
+  },
+  {
+   "id": "U-2025-11-19-TNMF",
+   "date": "2025-11-19",
+   "kind": "State Act",
+   "title": "Tamil Nadu coercive-recovery law comes into force",
+   "ref": "G.O.(Ms) No. 580, Home",
+   "instrument": "MF-TN-GO580",
+   "effective": "2025-11-19",
+   "applies": "Money lending entities in Tamil Nadu. RBI-registered NBFCs, co-operative banks and co-operative societies are covered by the ban on coercive action only; banks are outside the Act.",
+   "changes": [
+    "Tamil Nadu Act 40 of 2025 is in force from 19-11-2025.",
+    "Unregistered lenders may not lend or recover; the Act sets pricing, disclosure and loan-card rules.",
+    "Coercive recovery against borrowers and their families is an offence with up to five years' imprisonment."
+   ],
+   "impact": {
+    "mfi": {
+     "level": "High",
+     "text": "Register, re-price to the four permitted components and change collection practices."
+    },
+    "lender": {
+     "level": "Medium",
+     "text": "NBFCs must keep recovery agents within the s. 20 ban in Tamil Nadu."
+    },
+    "borrower": {
+     "level": "Medium",
+     "text": "Complaints can go to the Registering Authority or the police."
+    }
+   },
+   "actions": [
+    "Review collection scripts and agency contracts for Tamil Nadu against s. 20.",
+    "Unregistered entities: apply for registration on the State portal."
+   ],
+   "url": "https://cms.tn.gov.in/cms_migrated/document/GO/home_e_580_2025_ms.pdf"
+  }
+ ]
+}

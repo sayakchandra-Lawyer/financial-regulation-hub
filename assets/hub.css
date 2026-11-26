@@ -4,11 +4,11 @@
  * structural notes, not rebuilt: 44c, 58, 59, 77, 78 · waive 10b: the judge button's label slide is the owner's chosen behaviour
  * built: the project · redesign: polish · v2.0.0 */
 :root{--bg:#FAF9F5;--surface:#FFFFFF;--surface-2:#F0EEE6;--ink:#141413;--ink-2:#5E5D59;--muted:#6B6A64;--line:#E8E6DC;--accent:#C15F3C;--accent-ink:#FFFDF9;--accent-text:#A4502F;--on-c:#FFFDF9;--accent-soft:#F5E4DB;--ok:#5E7D3A;--danger:#B0392B;--warn-bg:#FBF0DA;
---rbi:#4D7EA8;--sebi:#6F8A4E;--irdai:#8565B0;--jud:#B9577A;--misc:#A2852F;--fema:#3E8A84;--companies:#5F6B7A;--dpdp:#5B6FB5;--ibc:#8E5A3C;--ifsc:#2F7A9E;--nhb:#8A4F7D;--exchanges:#B5672B;
+--rbi:#4D7EA8;--sebi:#6F8A4E;--irdai:#8565B0;--jud:#B9577A;--misc:#A2852F;--fema:#3E8A84;--companies:#5F6B7A;--laws:#6B5B3E;--dpdp:#5B6FB5;--ibc:#8E5A3C;--ifsc:#2F7A9E;--nhb:#8A4F7D;--exchanges:#B5672B;
 --t1:#4D7EA8;--t2:#6F8A4E;--t3:#C8693F;--t4:#B9577A;--t5:#8565B0;--t6:#A2852F;
 --l-bl:#6F8A4E;--l-ml:#A2852F;--l-ul:#C8693F;--l-tl:#B0392B;
 --shadow:0 12px 32px -14px rgba(20,20,19,.22);--f-d:"Source Serif 4",Georgia,serif;--f-b:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:light}
-:root[data-theme=dark]{--bg:#1F1E1D;--surface:#262624;--surface-2:#30302E;--ink:#FAF9F5;--ink-2:#C2C0B6;--muted:#9A988F;--line:#3B3A37;--accent:#D97757;--accent-ink:#1F1E1D;--accent-text:#E89A7E;--on-c:#1F1E1D;--accent-soft:#41291F;--ok:#A6C27F;--danger:#F0907F;--warn-bg:#3A2D16;--rbi:#8FB4E3;--sebi:#A6C27F;--irdai:#B9A0E3;--jud:#E596B3;--misc:#D9BC6A;--fema:#7CC7BF;--companies:#A9B6C6;--dpdp:#9DADE6;--ibc:#D9A47F;--ifsc:#7FC0DE;--nhb:#D39BC6;--exchanges:#E8A46E;--t1:#8FB4E3;--t2:#A6C27F;--t3:#E89A78;--t4:#E596B3;--t5:#B9A0E3;--t6:#D9BC6A;--l-bl:#A6C27F;--l-ml:#D9BC6A;--l-ul:#E89A78;--l-tl:#F0907F;--shadow:0 12px 32px -14px rgba(0,0,0,.6);color-scheme:dark}
+:root[data-theme=dark]{--bg:#1F1E1D;--surface:#262624;--surface-2:#30302E;--ink:#FAF9F5;--ink-2:#C2C0B6;--muted:#9A988F;--line:#3B3A37;--accent:#D97757;--accent-ink:#1F1E1D;--accent-text:#E89A7E;--on-c:#1F1E1D;--accent-soft:#41291F;--ok:#A6C27F;--danger:#F0907F;--warn-bg:#3A2D16;--rbi:#8FB4E3;--sebi:#A6C27F;--irdai:#B9A0E3;--jud:#E596B3;--misc:#D9BC6A;--fema:#7CC7BF;--companies:#A9B6C6;--laws:#CBB68C;--dpdp:#9DADE6;--ibc:#D9A47F;--ifsc:#7FC0DE;--nhb:#D39BC6;--exchanges:#E8A46E;--t1:#8FB4E3;--t2:#A6C27F;--t3:#E89A78;--t4:#E596B3;--t5:#B9A0E3;--t6:#D9BC6A;--l-bl:#A6C27F;--l-ml:#D9BC6A;--l-ul:#E89A78;--l-tl:#F0907F;--shadow:0 12px 32px -14px rgba(0,0,0,.6);color-scheme:dark}
 *{box-sizing:border-box}html{scroll-padding-top:80px;overflow-x:clip}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--f-b);-webkit-font-smoothing:antialiased;overflow-x:clip;font-variant-numeric:tabular-nums}
 .wrap p,.wrap li{max-width:75ch}

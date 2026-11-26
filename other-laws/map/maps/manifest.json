@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "default": "laws",
+  "maps": [
+    {
+      "id": "laws",
+      "title": "Other Relevant Laws Map",
+      "hubLabel": "Other laws",
+      "hubSub": "Security, enforcement and recovery",
+      "section": "laws",
+      "register": "../data/laws_register.json",
+      "graph": "../data/laws_graph.json",
+      "categoryGroup": "Who it applies to",
+      "layers": [
+        "ENT-LNDR",
+        "ENT-SEC",
+        "ENT-BORR",
+        "ENT-MFI",
+        "ENT-DIG"
+      ],
+      "cumulativeLayers": false,
+      "historyTheme": "Superseded (history)",
+      "categoryCaveat": "Each Act is tagged to the parties it names or most directly affects. Check the provision before relying on a tag.",
+      "caveatShort": "Tags follow each Act's scope. See the provision.",
+      "milestones": [
+        {
+          "date": "2002-12-17",
+          "label": "SARFAESI Act"
+        },
+        {
+          "date": "2016-09-01",
+          "label": "SARFAESI and DRT amendments (Act 44 of 2016)"
+        },
+        {
+          "date": "2024-07-01",
+          "label": "Bharatiya Sakshya Adhiniyam replaces the Evidence Act"
+        },
+        {
+          "date": "2025-11-19",
+          "label": "Tamil Nadu coercive-recovery law in force"
+        },
+        {
+          "date": "2026-10-01",
+          "label": "Bankers' Books Evidence Act, 2026 in force"
+        }
+      ],
+      "updates": "../data/updates.json",
+      "glossary": "../data/glossary.json",
+      "definitions": "../data/definitions.json",
+      "fulltext": "../data/fulltext.json",
+      "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev"
+    }
+  ]
+}

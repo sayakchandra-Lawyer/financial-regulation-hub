@@ -1067,6 +1067,118 @@
    "line": "HFC supervision, returns, GRIDS, refinance"
   },
   {
+   "id": "laws",
+   "short": "Other laws",
+   "name": "Other relevant laws",
+   "full": "Contract, property, security, recovery and conduct laws",
+   "status": "live",
+   "desc": "Contract Act, Transfer of Property Act, stamp and registration, SARFAESI and CERSAI, DRT, cheque bounce, limitation, electronic evidence, consumer protection, State money-lending and recovery laws, deposits, chit funds, payments, credit information and PMLA.",
+   "href": "other-laws/",
+   "data": {
+    "register": "other-laws/data/laws_register.json",
+    "graph": "other-laws/data/laws_graph.json",
+    "definitions": "other-laws/data/definitions.json",
+    "glossary": "other-laws/data/glossary.json",
+    "updates": "other-laws/data/updates.json",
+    "fulltext": "other-laws/data/fulltext.json"
+   },
+   "official": "https://www.indiacode.nic.in",
+   "map": "other-laws/map/",
+   "subjects": [
+    {
+     "theme": "Contracts, guarantees and pledges",
+     "nice": "Contracts, guarantees and pledges",
+     "slug": "contracts"
+    },
+    {
+     "theme": "Mortgages, property and goods as security",
+     "nice": "Mortgages and property security",
+     "slug": "security"
+    },
+    {
+     "theme": "Stamp duty and registration",
+     "nice": "Stamp duty and registration",
+     "slug": "stamp"
+    },
+    {
+     "theme": "Enforcement and recovery",
+     "nice": "Enforcement and recovery",
+     "slug": "recovery"
+    },
+    {
+     "theme": "Cheques and negotiable instruments",
+     "nice": "Cheques (NI Act)",
+     "slug": "cheques"
+    },
+    {
+     "theme": "Electronic contracts and evidence",
+     "nice": "E-contracts and evidence",
+     "slug": "evidence"
+    },
+    {
+     "theme": "Consumer protection and State lending laws",
+     "nice": "Consumer and State lending laws",
+     "slug": "conduct"
+    },
+    {
+     "theme": "Deposits and chit funds",
+     "nice": "Deposits and chit funds",
+     "slug": "deposits"
+    },
+    {
+     "theme": "Payments, credit information and anti-money laundering",
+     "nice": "Payments, credit data and AML",
+     "slug": "payments"
+    },
+    {
+     "theme": "Proposed changes",
+     "nice": "Proposed changes",
+     "slug": "proposed"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-LNDR",
+     "name": "Lender (bank / NBFC / HFC)",
+     "key": "lender",
+     "desc": "Documents, security and conduct"
+    },
+    {
+     "id": "ENT-SEC",
+     "name": "Secured creditor enforcing",
+     "key": "secured",
+     "desc": "SARFAESI, DRT, cheques"
+    },
+    {
+     "id": "ENT-BORR",
+     "name": "Borrower or guarantor",
+     "key": "borrower",
+     "desc": "Rights, defences and remedies"
+    },
+    {
+     "id": "ENT-MFI",
+     "name": "Microfinance / small-loan lender",
+     "key": "mfi",
+     "desc": "State lending and recovery laws"
+    },
+    {
+     "id": "ENT-DIG",
+     "name": "Digital lender / payments",
+     "key": "digital",
+     "desc": "E-contracts, e-stamps, payments, data"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally",
+   "line": "Security, enforcement, recovery, conduct"
+  },
+  {
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",
@@ -1077,18 +1189,9 @@
    "data": {
     "judgments": "judgments/data/judgments.json"
    },
-   "count": 108,
+   "count": 122,
    "countLabel": "Judgments",
    "line": "Supreme Court, High Courts and NCLAT"
-  },
-  {
-   "id": "misc",
-   "short": "Other regulators",
-   "name": "Other regulators",
-   "full": "PMLA",
-   "status": "soon",
-   "desc": "Anti-money laundering.",
-   "line": "PMLA"
   }
  ],
  "tools": [
