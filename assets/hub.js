@@ -619,6 +619,10 @@ function countUp(el, to, ms = 900) {
 function hubTabState() {
   const seg = decodeURIComponent((location.hash || "").replace(/^#/, "").split("/")[0]);
   document.body.classList.toggle("inner", !!seg);
+  /* instrument pages: name the browser tab after the instrument */
+  if (!hubTabState.base) hubTabState.base = document.title;
+  if (seg === "d" && document.querySelector(".tabs")) { const h = document.querySelector("#view h1"); document.title = h ? h.textContent.trim() + " · " + hubTabState.base : hubTabState.base; }
+  else if (document.querySelector(".tabs") && !/^#j\//.test(location.hash)) document.title = hubTabState.base;
   document.querySelectorAll(".tabs").forEach(t => {
     const on = t.querySelector("a.on"); if (on) { const l = on.offsetLeft - t.offsetLeft, r = l + on.offsetWidth; if (l < t.scrollLeft || r > t.scrollLeft + t.clientWidth) t.scrollLeft = Math.max(0, l - 24); }
     const fit = () => { t.classList.toggle("fl", t.scrollLeft > 4); t.classList.toggle("fr", t.scrollLeft + t.clientWidth < t.scrollWidth - 4); };
