@@ -128,9 +128,10 @@
     const m = M(), k = K(), h = secs[k].href;
     const live = m ? m.items.filter(it => appliesAt(m, it, L())) : [];
     const nT = live.reduce((a, it) => a + it.time.length, 0), nC = live.filter(it => it.cons.length).length;
-    const nU = m ? m.updates.length : 0;
+    const wk = Object.keys(MS).map(r => [r, MS[r].updates.filter(u => String(u.date) >= WEEK_FROM).length]).filter(x => x[1] > 0);
+    const nU = wk.reduce((t, x) => t + x[1], 0);
     const tasks = [
-      [k !== "rbi" ? "What changed recently" : "What changed this week", nU ? `${nU} new item${nU>1?"s":""} from ${NAME[k]}, with what each one means` : "New circulars and amendments, explained", "new", `${h}#changes`],
+      ["What changed this week", nU ? `${nU} new item${nU>1?"s":""}: ${wk.map(([r, n]) => `${n} ${NAME[r]}`).join(", ")}, with what each one means` : `Latest changes from ${Object.keys(MS).map(r => NAME[r]).join(", ")}, explained`, "new", "#updh"],
       ["Compliance calendar", `${nT} timelines across ${live.filter(it=>it.time.length).length} ${NAME[k]} instruments${L()>=0?` for your ${unit()}`:""}`, "cal", `${h}#calendar`],
       ["Look up a defined term", m ? `${m.defs.length.toLocaleString("en-IN")} ${NAME[k]} definitions, each with the provision that governs` : "Defined terms with their paragraph", "def", `${h}#definitions`],
       ["Penalties and consequences", `What a breach can cost: ${nC} ${NAME[k]} instruments state their own consequences`, "pen", `${h}#penalties`],
