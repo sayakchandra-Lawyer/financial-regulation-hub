@@ -34,6 +34,7 @@
 .ulist{display:grid;gap:12px}
 .utags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.utags .pill{font-weight:500}
 .hid{font-size:13px;color:var(--ink-2);margin-top:8px}
+#regs .rc{min-height:0;padding:16px 18px}#regs .rc .ic{width:36px;height:36px;border-radius:10px}#regs .rc .ic svg{width:20px;height:20px}#regs .rc .go{width:30px;height:30px}
 </style>
 </head>
 <body>
@@ -195,9 +196,9 @@
       const cnt = !m ? 0 : s.id === "rbi" ? m.items.filter(x=>x.type==="Master Direction"&&x.sc!=="old").length : m.items.filter(x=>/^Regulation/.test(x.type)&&x.sc!=="old").length;
       const stat = live && m ? `<span class="pill p-live"><span data-count="${cnt}">0</span> ${s.id === "rbi" ? "Directions" : "Regulations"}</span>` : live && s.count ? `<span class="pill p-live"><span data-count="${s.count}">0</span> ${esc(s.countLabel || "")}</span>` : `<span class="pill p-soon">In preparation</span>`;
       return `<${live?"a":"div"} class="card rc rise ${live?"":"soon"}" id="${s.id}" style="--c:var(--${s.id});animation-delay:${.06*i}s" ${live?`href="${s.href}"`:""}>
-        <span class="ic">${I[s.id]}</span><h3 style="font-size:21px;margin-top:16px">${esc(s.name)}</h3><div class="tag" style="margin-top:2px">${esc(s.full)}</div>
-        <p style="font-size:13.5px;color:var(--ink-2);margin:10px 0 0">${esc(s.desc)}</p>
-        <div style="margin-top:auto;padding-top:16px;display:flex;align-items:center;gap:8px">${stat}${live?`<span class="go">${I.arrow}</span>`:""}</div></${live?"a":"div"}>`;
+        <div style="display:flex;align-items:center;gap:10px"><span class="ic">${I[s.id]}</span><h3 style="font-size:19px">${esc(s.name)}</h3></div>
+        <p style="font-size:13.5px;color:var(--ink-2);margin:8px 0 0" title="${esc(s.full)}">${esc(s.line || s.full)}</p>
+        <div style="margin-top:auto;padding-top:12px;display:flex;align-items:center;gap:8px">${stat}${live?`<span class="go">${I.arrow}</span>`:""}</div></${live?"a":"div"}>`;
     }).join("");
     $$("[data-count]").forEach(el => countUp(el, +el.dataset.count));
   }

@@ -88,7 +88,8 @@
      "slug": "history",
      "history": true
     }
-   ]
+   ],
+   "line": "NBFCs and housing finance companies"
   },
   {
    "id": "sebi",
@@ -199,7 +200,8 @@
     }
    ],
    "cumulative": false,
-   "lensAll": "Applies generally"
+   "lensAll": "Applies generally",
+   "line": "Listed companies, mutual funds, brokers, AIFs"
   },
   {
    "id": "irdai",
@@ -304,7 +306,8 @@
     }
    ],
    "cumulative": false,
-   "lensAll": "Applies generally"
+   "lensAll": "Applies generally",
+   "line": "Insurers and insurance agents"
   },
   {
    "id": "jud",
@@ -318,7 +321,8 @@
     "judgments": "judgments/data/judgments.json"
    },
    "count": 34,
-   "countLabel": "Judgments"
+   "countLabel": "Judgments",
+   "line": "Supreme Court and High Courts, since 2010"
   },
   {
    "id": "misc",
@@ -326,7 +330,8 @@
    "name": "Other regulators",
    "full": "PMLA · IBC / IBBI · NHB · Exchanges · DPDP",
    "status": "soon",
-   "desc": "Anti-money laundering, insolvency, housing finance supervision, stock exchange rules and data protection."
+   "desc": "Anti-money laundering, insolvency, housing finance supervision, stock exchange rules and data protection.",
+   "line": "PMLA, IBC, NHB, exchanges, DPDP"
   }
  ]
 }
