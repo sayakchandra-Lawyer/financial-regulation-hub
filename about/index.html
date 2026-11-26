@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>About · Financial Regulation Hub</title>
+<meta name="description" content="What Financial Regulation Hub covers, who it is for and how to use it.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="../assets/hub.css?v=20261126k">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
+</head>
+<body>
+<header id="top"></header>
+<main class="wrap">
+  <div class="ipage">
+    <section class="rise">
+      <div class="eyebrow">About</div>
+      <h1>Financial regulation, in one place</h1>
+      <p class="lede">Financial Regulation Hub brings together the rules that finance professionals work with every day: what each rule requires, who it applies to, when things are due and what happens on a breach, with a link to the official text for every point.</p>
+      <h2>What it covers</h2>
+      <p>Each regulator or law has its own section. Inside a section you can browse by subject, see a calendar of deadlines, read definitions and penalties, and open the full text of each instrument.</p>
+      <div class="secgrid" id="secs"></div>
+      <h2>Who it is for</h2>
+      <ul>
+        <li>Compliance, legal and risk teams at NBFCs, housing finance companies, banks, insurers, brokers, asset managers and other regulated entities.</li>
+        <li>Company secretaries, auditors and consultants who advise them.</li>
+        <li>Students and anyone who wants a plain-English starting point before reading the official text.</li>
+      </ul>
+      <h2>How to use it</h2>
+      <ul>
+        <li><b>Search</b> from the home page across every section, or inside one section.</li>
+        <li><b>What changed this week</b> on the home page lists new and amended rules, each linked to the regulator's own notice.</li>
+        <li><b>Ask Not So Intelligent AI</b> (bottom right on the home and section pages) answers questions from the texts on this site and cites the provision. Treat its answers as a pointer, not an opinion.</li>
+      </ul>
+      <h2>Independent and unofficial</h2>
+      <p>This site is not run by, linked to or endorsed by any regulator, court or government body. It summarises public documents for general information. It is not legal advice, and it may be incomplete or out of date. Always check the official text, and take professional advice for a specific situation. See the <a class="lnk" href="../disclaimer/">disclaimer</a>.</p>
+      <h2>Help us improve it</h2>
+      <p>If a summary is wrong, a rule is missing or something is hard to find, please <a class="lnk" href="../feedback/">send feedback</a>.</p>
+    </section>
+    <aside>
+      <div class="card"><h3>About this site</h3><a class="il" href="../about/" aria-current="page">About</a><a class="il" href="../feedback/">Feedback</a><a class="il" href="../contact/">Contact</a><a class="il" href="../disclaimer/">Disclaimer & privacy</a></div>
+      <div class="card"><h3>Spotted an error?</h3><p class="tag" style="margin:0 0 12px">Tell us which page and what looks wrong. Corrections are the most useful feedback we get.</p><a class="btn p" href="../feedback/?type=error">Report an error</a></div>
+    </aside>
+  </div>
+</main>
+<footer id="foot"></footer>
+<script src="../assets/hub.js?v=20261126k"></script>
+<script>
+(async function(){
+  const hub = await getJSON("../hub.json");
+  renderChrome(hub, { root: "../", active: "about", crumb: `<a href="../">Home</a> / <b>About</b>` });
+  const C = hub.contact || {};
+  $("#secs").innerHTML = hub.sections.map(s => s.status === "live"
+    ? `<a class="card" style="--c:var(--${s.id})" href="../${s.href}"><span class="ic">${I[s.id] || I.misc}</span><span><b>${esc(s.name)}</b><span>${esc(s.full)}</span></span></a>`
+    : `<div class="card" style="--c:var(--${s.id});display:flex;gap:12px;padding:14px 16px;border-top:3px solid var(--c);opacity:.75"><span class="ic" style="color:var(--c)">${I[s.id] || I.misc}</span><span><b>${esc(s.name)}</b><span style="font-size:13px;color:var(--muted)">${esc(s.full)} · coming soon</span></span></div>`).join("");
+})();
+</script>
+</body>
+</html>

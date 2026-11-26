@@ -73,7 +73,14 @@ function renderChrome(hub, opts) {
   applyTheme(store.get("theme", ""));
   $("#themebtn").addEventListener("click", () => { const t = isDark() ? "light" : "dark"; store.set("theme", t); applyTheme(t); });
   const f = $("#foot");
-  if (f) { f.className = "foot"; f.innerHTML = `<span><b>Not legal advice.</b> An independent, unofficial summary for general information. It may be incomplete or out of date and is not endorsed by any regulator. Verify every point against the official text before relying on it.</span><span id="asof"></span>`; }
+  if (f) {
+    f.className = "foot";
+    const fl = [["about/", "About"], ["feedback/", "Feedback"], ["contact/", "Contact"], ["disclaimer/", "Disclaimer & privacy"]];
+    f.innerHTML = `<nav class="flinks" aria-label="Site">${fl.map(([h, t]) => `<a href="${root}${h}"${opts.active === h.slice(0, -1) ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav><span><b>Not legal advice.</b> An independent, unofficial summary for general information. It may be incomplete or out of date and is not endorsed by any regulator. Verify every point against the official text before relying on it.</span><span id="asof"></span>`;
+    /* the Feedback link carries the page the reader was on, so the form can prefill it */
+    const fb = f.querySelector(`a[href="${root}feedback/"]`);
+    if (fb && opts.active !== "feedback") fb.addEventListener("click", () => { fb.href = `${root}feedback/?from=${encodeURIComponent(location.pathname + location.hash)}`; });
+  }
   document.addEventListener("keydown", e => {
     if (e.key === "/" && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)) { const q = $(".search input"); if (q) { e.preventDefault(); q.focus(); } }
   });
