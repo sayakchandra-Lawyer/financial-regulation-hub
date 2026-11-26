@@ -40,6 +40,15 @@
 .stat{font:500 26px var(--f-d)}
 .ctx{display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:10px;font-size:13.5px;color:var(--ink-2)}
 .ctx b{color:var(--ink);font-weight:600}
+.qtry{font-size:13.5px;color:var(--ink-2);margin:12px auto 0;max-width:720px;line-height:1.6}.qtry .lnk{font-weight:600}
+.hacts{display:flex;gap:12px;justify-content:center;align-items:stretch;flex-wrap:wrap;margin-top:16px}
+.clerkbtn{padding:6px 16px 6px 6px;border-radius:999px;font-size:14.5px;border-color:color-mix(in srgb,var(--accent) 55%,var(--line))}.clerkbtn:hover{border-color:var(--accent)}
+.clerkbtn .cav{width:30px;height:30px;border-radius:50%;overflow:hidden;display:grid;place-items:center;flex:none}.clerkbtn .cav svg{width:30px;height:30px}
+.dsearch{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid color-mix(in srgb,var(--muted) 60%,var(--line));border-radius:999px;padding:0 14px;min-width:0;flex:0 1 380px}
+.dsearch:focus-within{border-color:var(--accent);outline:2px solid var(--accent);outline-offset:2px}.dsearch svg{width:16px;height:16px;color:var(--accent);flex:none}
+.dsearch input{flex:1;min-width:0;border:0;background:none;font:inherit;font-size:14.5px;padding:10px 0;color:var(--ink);outline:none}.dsearch input::placeholder{color:var(--muted)}
+.dres .dsec{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-left:8px}
+@media (max-width:560px){.hacts{flex-direction:column;align-items:stretch}.clerkbtn{justify-content:center}.dsearch{flex:none}}
 .sugg{padding:14px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;text-align:left}.sugg .tag{width:100%;margin-bottom:2px}
 .rgrp{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:28px}
 .rgrp h3{font-size:19px;display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;margin:0 0 12px}.rgrp h3 .tag{font-family:var(--f-b);font-size:13px;font-weight:400}
@@ -87,9 +96,19 @@
     <p class="lede rise" style="animation-delay:.1s">Plain-language summaries of the rules that bind NBFCs, HFCs, listed companies, market intermediaries, insurers and insurance distributors: obligations, deadlines and consequences of breach, each linked to the official text.</p>
     <form class="search rise" style="animation-delay:.15s" id="qform" role="search">
       <span id="qicon"></span><label class="sr" for="q">Search</label>
-      <input id="q" type="search" autocomplete="off" placeholder="Ask a question or search, e.g. “minimum retention for securitisation”">
+      <input id="q" type="search" autocomplete="off" placeholder="Search by keyword, e.g. “securitisation”, “ECB”, “Form CHG-4”">
       <span class="kbd">/</span>
     </form>
+    <p class="qtry rise" style="animation-delay:.17s" id="qtry">Search works best with keywords, a form or a section number. Try
+      <button type="button" class="lnk" data-q="co-lending">co-lending</button>, <button type="button" class="lnk" data-q="related party transaction">related party transaction</button>, <button type="button" class="lnk" data-q="free look period">free look period</button>, <button type="button" class="lnk" data-q="Form ECB 2">Form ECB 2</button> or <button type="button" class="lnk" data-q="section 186">section 186</button>. For a question in your own words, ask Counsel’s Clerk.</p>
+    <div class="hacts rise" style="animation-delay:.19s">
+      <button type="button" class="btn g clerkbtn" id="askclerk" hidden><span class="cav" id="cav"></span>Ask Counsel’s Clerk</button>
+      <form class="dsearch" id="dform" role="search">
+        <span id="dicon"></span><label class="sr" for="dq">Search definitions</label>
+        <input id="dq" type="search" autocomplete="off" placeholder="Look up a defined term across all regulators">
+      </form>
+    </div>
+    <div class="results dres" id="dres" hidden></div>
     <div class="lens rise" style="animation-delay:.2s">
       <label for="layer">I am a:</label>
       <select class="chip" id="layer" aria-label="Who you are">
@@ -360,6 +379,43 @@
   $("#q").addEventListener("focus", () => { if (!$("#q").value.trim()) suggest(); });
   $("#q").addEventListener("blur", () => setTimeout(() => { if (!$("#q").value.trim()) $("#results").hidden = true; }, 150));
   $("#q").addEventListener("keydown", e => { if (e.key === "Escape") { $("#q").value = ""; $("#results").hidden = true; $("#q").blur(); } });
+  if (innerWidth <= 560) { $("#q").placeholder = "Search by keyword, e.g. “ECB”"; $("#dq").placeholder = "Look up a defined term"; }
+  /* example searches under the box */
+  $$("#qtry [data-q]").forEach(b => b.addEventListener("click", () => { $("#q").value = b.dataset.q; $("#q").focus(); runSearch(); }));
+  /* Ask Counsel's Clerk button: opens the same chat as the round button */
+  if (hub.ai_endpoint) { const cb = $("#askclerk"); $("#cav").innerHTML = JUDGE_SVG; cb.hidden = false; cb.addEventListener("click", () => openJudge($("#q").value.trim())); }
+  /* definitions: every defined term from every regulator and subject */
+  $("#dicon").outerHTML = I.search;
+  const DEFS = Object.keys(MS).flatMap(k => (MS[k] ? MS[k].defs : []).map(d => ({ k, d, t: d.term.toLowerCase(), it: MS[k].byId.get(d.id) })));
+  function runDefs(){
+    const raw = $("#dq").value.trim(), box = $("#dres"), q = raw.toLowerCase().replace(/[“”"']/g, "");
+    if (q.length < 2) { box.hidden = true; return; }
+    const ws = tok(q).filter(w => !STOP.has(w));
+    const hits = [];
+    DEFS.forEach(x => {
+      let sc = 0;
+      const at = x.t.indexOf(q), wordStart = at > 0 && /[^a-z0-9]/.test(x.t[at - 1]);
+      if (x.t === q) sc = 100; else if (at === 0) sc = 80 - Math.min(20, x.t.length - q.length); else if (wordStart) sc = 60; else if (at > 0) sc = 20;
+      else if (ws.length && ws.every(w => x.t.includes(w))) sc = 40;
+      else if (ws.length && ws.every(w => x.d.def.toLowerCase().includes(w))) sc = 10;
+      if (!sc) return;
+      if (x.it && x.it.sc === "old") sc -= 5;
+      hits.push([sc, x]);
+    });
+    hits.sort((a, b) => b[0] - a[0] || a[1].t.length - b[1].t.length);
+    const nsec = new Set(hits.map(h => h[1].k)).size;
+    /* best 12, at most 3 from one section first, so every regulator with the term shows */
+    const per = {}, pick = [], rest = [];
+    hits.forEach(h => ((per[h[1].k] = (per[h[1].k] || 0) + 1) <= 3 ? pick : rest).push(h));
+    const best = pick.slice(0, 12).concat(rest).slice(0, 12).sort((a, b) => b[0] - a[0]);
+    const top = best.map(([, x]) => `<a class="res" href="${secs[x.k].href}#d/${x.d.id}/definitions"><div class="t">“${esc(x.d.term)}”<span class="dsec">${esc(NAME[x.k])}</span></div><div class="m">${esc(x.it ? x.it.label : x.d.id)} · ${esc(x.d.para)}${x.d.scope ? " · " + esc(x.d.scope) : ""}${x.it && x.it.sc === "old" ? " · superseded" : ""}</div><div class="s">${esc(trunc(x.d.def, 240))}</div></a>`).join("");
+    box.innerHTML = `<div class="rhead"><b>Definitions</b><span>${hits.length ? `${hits.length} ${hits.length === 1 ? "match" : "matches"} in ${nsec} ${nsec === 1 ? "section" : "sections"}${hits.length > 12 ? ", best 12 shown" : ""}` : "No defined term matches. Try a shorter word."}</span></div>` + top;
+    box.hidden = false;
+  }
+  let dt = 0;
+  $("#dq").addEventListener("input", () => { clearTimeout(dt); dt = setTimeout(runDefs, 140); });
+  $("#dq").addEventListener("keydown", e => { if (e.key === "Escape") { $("#dq").value = ""; $("#dres").hidden = true; } });
+  $("#dform").addEventListener("submit", e => { e.preventDefault(); runDefs(); });
   $("#qform").addEventListener("submit", e => { e.preventDefault(); const raw = $("#q").value.trim(); if (raw) location.href = `${secs[K()].href}#search/` + encodeURIComponent(raw); });
 
 
