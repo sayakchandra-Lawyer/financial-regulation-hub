@@ -1182,16 +1182,16 @@
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",
-   "full": "Mainly Supreme Court rulings, with High Court rulings being added, 2010 onwards",
+   "full": "Supreme Court, High Court and NCLAT rulings, Insurance Ombudsman awards and earlier landmark cases",
    "status": "live",
-   "desc": "Rulings that changed lending, housing finance, mutual funds, broking, health and life insurance: what was held, what it means and the rules it touches.",
+   "desc": "Rulings on lending, insolvency, security, arbitration, housing finance, mutual funds, broking and insurance: the facts, what was held, what it means and the rules it touches.",
    "href": "judgments/",
    "data": {
     "judgments": "judgments/data/judgments.json"
    },
-   "count": 34,
+   "count": 131,
    "countLabel": "Judgments",
-   "line": "Mainly Supreme Court rulings, since 2010"
+   "line": "Supreme Court, High Courts and NCLAT"
   }
  ],
  "tools": [

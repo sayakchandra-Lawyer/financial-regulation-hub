@@ -1,9 +1,35 @@
-KEY JUDGMENTS REGISTER (44 rulings on financial services from the Supreme Court, High Courts, NCLAT and consumer and ombudsman forums, as on 2026-11-26). Each ruling starts with its id in square brackets.
+KEY JUDGMENTS REGISTER (131 rulings on financial services from the Supreme Court, High Courts, NCLAT and consumer and ombudsman forums, as on 2026-11-26). Each ruling starts with its id in square brackets.
 
+
+[JUD-YES-AT1] Yes Bank Ltd v. Axis Trustee Services Ltd | Supreme Court | 2026-10-15 | 2026 INSC 1132 | Civil Appeal No. 3182 of 2025 and connected appeals
+Bench: Dipankar Datta and Augustine George Masih JJ.
+Topic: Write-down of Additional Tier 1 bonds. Category: RBI powers and lending conduct. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Review pending. The bank and the Reserve Bank filed review petitions in November 2026, which are pending. The ruling affirms the Bombay High Court's judgment of 20 January 2023 in Writ Petition No. 785 of 2021.
+Facts: A private sector bank issued Additional Tier 1 bonds of Rs 3,000 crore in 2016 and Rs 5,415 crore in 2017. On 5 March 2020 the bank was placed under moratorium and an Administrator was appointed. The draft reconstruction scheme published next day provided for the bonds to be written down, but the final scheme notified on 13 March 2020 did not. On 14 March 2020 the Administrator wrote the bonds down in full. The Bombay High Court quashed the write-down in January 2023, and the bank, the Reserve Bank and the Union appealed.
+Issue: Could the Administrator write down the bank's AT-1 bonds after the reconstruction scheme had come into force without a write-down clause?
+Held: No. The appeals were dismissed and the write-down stays quashed. The validity of the decision is judged as on the date it was taken; later events cannot rescue it.
+Held: Under the Basel III Master Circular, a write-down at the point of non-viability has to happen before the bank is reconstituted, that is, before the scheme takes effect. Once the final scheme was in force without a write-down clause, the bonds could not be written down contrary to it.
+Held: At the point of non-viability it is the Reserve Bank that decides whether instruments are written down, not the bank or its Administrator. The Administrator only stands in place of the board.
+Held: The annual coupon remains payable in terms of the information memoranda.
+Held: The Court was critical of the sale of these high-risk instruments to individual investors, which the Master Circular did not permit.
+What it means: Loss-absorption terms in regulatory capital instruments will be enforced, but only if the regulator and the issuer follow the sequence and the decision-maker laid down in the Reserve Bank's capital framework and in the scheme itself.
+What it means: Issuers and distributors of AT-1 and similar instruments (banks, and NBFCs issuing perpetual debt) should keep to the permitted investor classes and give clear risk disclosure. Mis-selling to retail investors was a central concern.
+Law involved: Banking Regulation Act, 1949, ss. 36ACA, 45; Yes Bank Ltd Reconstruction Scheme, 2020; RBI Master Circular - Basel III Capital Regulations, Annex 16
+
+[JUD-SHIKHA-AXIS] Shikha Ghosh v. Axis Bank Ltd | Delhi High Court | 2026-09-30 | FAO(COMM) No. 91 of 2025
+Bench: Prathiba M. Singh and Dinesh Bhatt JJ.
+Topic: Bank's mass use of one arbitrator. Category: Arbitration. Forum: High Courts. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current. The court kept the matter part-heard for affidavits from the bank and RBI, so further orders may follow.
+Facts: A borrower challenged an award passed by a sole arbitrator whom the bank had appointed alone under the loan agreement. It emerged that the same arbitrator had been given thousands of the bank's recovery cases.
+Issue: Is an award by an arbitrator appointed unilaterally by the lender enforceable, and what should regulators do about the practice?
+Held: The bank conceded that awards by arbitrators it had appointed alone are void, following Perkins Eastman and CORE (2025). The award was declared unenforceable against the borrower, and the bank was left free to take fresh recovery steps in accordance with law.
+Held: The same arbitrator had handled 4,155 of the bank's cases. The bank was directed to explain this on affidavit and to say how it would deal with such awards, and RBI was asked to caution banks and consider guidance.
+What it means: Awards from arbitrators appointed by the lender alone, or used in bulk by one lender, are open to challenge as void, and the court has drawn RBI into the issue. Under section 12(5), an ineligible arbitrator can act only if the parties waive the bar by express written agreement after the dispute has arisen.
+Law involved: Arbitration and Conciliation Act, 1996, ss. 12(5), 34, 37
 
 [JUD-BHADRA] Bhadra International (India) Pvt Ltd v. Airports Authority of India | Supreme Court | 2026-01-05 | 2026 INSC 6, [2026] 1 SCR 30 | Civil Appeal Nos. 37-38 of 2026
 Bench: J.B. Pardiwala and K.V. Viswanathan JJ.
-Topic: Unilaterally appointed sole arbitrators. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance, Stock broking.
+Topic: Unilaterally appointed sole arbitrators. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance, Stock broking.
 Status: Current. Applies the Constitution Bench ruling in Central Organisation for Railway Electrification (2024).
 Issue: Is an award by a sole arbitrator appointed by one party alone valid, and can the other party lose its objection by taking part in the arbitration?
 Held: The unilateral appointment of a sole arbitrator is void from the start, and the arbitrator is ineligible under section 12(5) read with the Seventh Schedule. Where the arbitration agreement itself breaches section 12(5), no appointment made under it is valid.
@@ -15,7 +41,7 @@ Law involved: Arbitration and Conciliation Act, 1996, ss. 12(5), 14, 18, 34 and 
 
 [JUD-TARI] Sanjabij Tari v. Kishore S. Borcar | Supreme Court | 2025-09-25 | 2025 INSC 1158, [2025] 9 SCR 1515 | Criminal Appeal No. 1755 of 2010
 Bench: Manmohan and N.V. Anjaria JJ.
-Topic: Cheque bounce: presumptions and trial directions. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Cheque bounce: presumptions and trial directions. Category: Other laws (PMLA, cheques, evidence). Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
 Issue: How should trial courts apply the statutory presumptions in cheque-dishonour cases, and how should the backlog be handled?
 Held: Courts must give effect to the presumptions in sections 118 and 139 of the NI Act. Treating a section 138 case as a civil recovery suit and asking the complainant to prove the underlying debt is contrary to what Parliament intended.
@@ -27,7 +53,7 @@ Law involved: Negotiable Instruments Act, 1881, ss. 118, 138, 139, 143, 147; Bha
 
 [JUD-PNBHF] PNB Housing Finance Ltd v. Manoj Saha | Supreme Court | 2025-07-15 | 2025 INSC 847, [2025] 7 SCR 1041 | Civil Appeal No. 9492 of 2025
 Bench: P.S. Narasimha and Joymalya Bagchi JJ.
-Topic: SARFAESI: tenants claiming occupation. Category: . Forum: . Sectors: Housing finance, Lending (NBFCs and banks).
+Topic: SARFAESI: tenants claiming occupation. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Housing finance, Lending (NBFCs and banks).
 Status: Current.
 Issue: Can a person claiming an old, unregistered tenancy get back possession of a mortgaged property that a housing finance company has taken under SARFAESI?
 Held: A person claiming tenancy through an oral or unregistered agreement must prove it with independent evidence such as rent receipts, tax receipts or electricity bills for the period before the demand notice under section 13(2).
@@ -37,9 +63,24 @@ What it means: Lenders can resist tenancy claims set up to block possession of m
 What it means: At loan origination, HFCs should record who occupies the property and on what terms.
 Law involved: SARFAESI Act, 2002, ss. 13(2), 13(4), 17(4A); Transfer of Property Act, 1882; West Bengal Premises Tenancy Act, 1997
 
+[JUD-DHFL] Piramal Capital and Housing Finance Ltd v. 63 Moons Technologies Ltd | Supreme Court | 2025-04-01 | 2025 INSC 421, [2025] 4 SCR 344 | Civil Appeal Nos. 1632-1634 of 2022
+Bench: Bela M. Trivedi and Satish Chandra Sharma JJ.
+Topic: Resolution of a housing finance company under the IBC. Category: Insolvency: starting and running the process. Forum: Supreme Court. Sectors: Housing finance, Lending (NBFCs and banks).
+Status: Current. From 26 May 2026 the substituted section 26 expressly provides that avoidance and fraudulent or wrongful trading applications do not affect the insolvency process and continue after it ends.
+Facts: The Reserve Bank superseded the board of a large housing finance company and, as the first use of the special insolvency route for financial service providers, started its corporate insolvency. The approved resolution plan gave the benefit of any recoveries from fraudulent trading applications (section 66) to the resolution applicant, valuing them at a notional Re 1. A debenture holder objected, and the NCLAT sent that term back to the creditors. Fixed deposit holders demanded full repayment, and former promoters and directors sought to take part in the process.
+Issue: Could the appellate tribunal reopen the plan's treatment of section 66 recoveries, are deposit holders entitled to full repayment, and can directors of a superseded board take part in the committee of creditors?
+Held: The plan was restored. How recoveries are dealt with is a commercial decision of the committee of creditors, and the NCLAT could not substitute its own view.
+Held: Avoidance applications (preferential, undervalued and extortionate transactions) are different from fraudulent and wrongful trading applications under section 66. The plan could assign section 66 recoveries to the resolution applicant, while the NCLT still decides those applications.
+Held: A vote cast by the authorised representative for a class of creditors binds every member of that class, including those who voted against.
+Held: Fixed deposit holders cannot claim full repayment by relying on section 45QA of the RBI Act or section 36A of the National Housing Bank Act. Once the plan is approved, they are bound by it.
+Held: Directors of a board superseded by the Reserve Bank under section 45-IE are not 'suspended directors'. They cannot attend committee meetings or demand copies of the plan.
+What it means: For lenders and bidders, the ruling confirms that the special route for NBFCs and HFCs works like an ordinary insolvency once it starts, with the Reserve Bank's administrator in charge and the old board out.
+What it means: Depositors and debenture holders of a failed NBFC or HFC are creditors under the plan and take what the plan gives their class.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 25A, 30, 31, 43-51, 66, 227; Reserve Bank of India Act, 1934, ss. 45-IE, 45QA; National Housing Bank Act, 1987, s. 36A
+
 [JUD-MAHAVEER] Mahaveer Sharma v. Exide Life Insurance Co. Ltd | Supreme Court | 2025-02-25 | 2025 INSC 268, [2025] 2 SCR 1311 | Civil Appeal No. 3562 of 2025
 Bench: B.V. Nagarathna and S.C. Sharma JJ.
-Topic: Substantial disclosure is enough. Category: . Forum: . Sectors: Life insurance.
+Topic: Substantial disclosure is enough. Category: Insurance claims. Forum: Supreme Court. Sectors: Life insurance.
 Status: Current.
 Issue: Can a life insurer reject a claim because the insured disclosed one large existing policy but not some smaller ones?
 Held: No. The insured had disclosed a Rs 40 lakh policy, much larger than the undisclosed policies and the policy in question. That was a substantial disclosure.
@@ -47,9 +88,19 @@ Held: The undisclosed policies were of inconsequential amounts, and their omissi
 What it means: Not every omission is material. Insurers should ask whether the missing fact would have changed a prudent insurer's decision before repudiating.
 Law involved: Insurance Act, 1938, s. 45; Consumer Protection Act, 1986
 
+[JUD-NCLAT-HOMEKRAFT] Home Kraft Avenues v. Jayesh Sanghrajka (Resolution Professional, Ornate Spaces Pvt Ltd) | National Company Law Appellate Tribunal | 2025-02-14 | Company Appeal (AT) (Insolvency) No. 756 of 2023
+Bench: Yogesh Khanna J. and Arun Baroka.
+Topic: Unregistered charge in the CIRP. Category: Security, charges and SARFAESI. Forum: NCLAT. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current.
+Facts: In a company's insolvency a creditor's security interest had not been registered with the Registrar of Companies under section 77. The question was whether it could be classified as a secured creditor in the resolution process.
+Issue: Does failure to register a charge stop a creditor being treated as secured in the CIRP?
+Held: No. In the CIRP, a security interest can be proved by other evidence; non-registration under section 77 does not by itself stop the creditor being a secured creditor.
+What it means: The position differs in liquidation, where registration or other proof under the Liquidation Regulations is needed (Volkswagen Finance, 2020). Registration remains the safe course.
+Law involved: Companies Act, 2013, s. 77; Insolvency and Bankruptcy Code, 2016, ss. 3(30), 3(31)
+
 [JUD-CHOKSHI] AC Chokshi Share Broker Pvt Ltd v. Jatin Pratap Desai | Supreme Court | 2025-02-10 | 2025 INSC 174, [2025] 2 SCR 1545 | Civil Appeal No. 2227 of 2025
 Bench: P.S. Narasimha and Sandeep Mehta JJ.
-Topic: Broker-client arbitration and family accounts. Category: . Forum: . Sectors: Stock broking.
+Topic: Broker-client arbitration and family accounts. Category: Securities markets and mutual funds. Forum: Supreme Court. Sectors: Stock broking.
 Status: Current.
 Issue: Can a broker invoke exchange arbitration against a husband for his wife's trading debt, based on an oral arrangement?
 Held: Yes. Courts must read contracts practically, looking at the parties' conduct and intention. The husband's oral instructions and the joint way the two accounts were operated showed joint and several liability.
@@ -57,9 +108,29 @@ Held: Separate client registration agreements, client codes and accounts did not
 What it means: Brokers who act on a client's oral instructions to move credit balances to a family member's account may be able to recover from both. This does not relax SEBI's requirements on evidence of client orders, which still apply.
 Law involved: Arbitration and Conciliation Act, 1996, ss. 7, 34, 37; BSE Bye-laws, 1957
 
+[JUD-NCLAT-ESSDEE] State Bank of India v. IDBI Bank Ltd | National Company Law Appellate Tribunal | 2025-01-28 | Company Appeal (AT) (Insolvency) Nos. 321 and 335 of 2024
+Bench: Ashok Bhushan J. (Chairperson) and Barun Mitra.
+Topic: Liquidation proceeds shared by admitted claims. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current. Subject to the Supreme Court's decision on the Technology Development Board appeal.
+Facts: Secured lenders in a liquidation disagreed on how the sale proceeds should be shared: by the value of each lender's security or in proportion to admitted claims.
+Issue: How are liquidation proceeds shared among secured creditors who relinquished their security?
+Held: In proportion to admitted claims, following the Supreme Court in India Resurgence ARC v. Amit Metaliks (2021), subject to the outcome of the pending Supreme Court appeal against the Technology Development Board ruling.
+What it means: Until the Supreme Court decides, liquidators distribute pro rata to admitted claims among secured creditors in the same class.
+Law involved: Insolvency and Bankruptcy Code, 2016, s. 53
+
+[JUD-NCLAT-GST] Assistant Commissioner, CGST and Central Excise v. Pradeep Kabra (Cengres Tiles Ltd) | National Company Law Appellate Tribunal | 2025-01-23 | Company Appeal (AT) (Insolvency) No. 844 of 2024
+Bench: Ashok Bhushan J. (Chairperson), Barun Mitra and Arun Baroka.
+Topic: Excise and GST dues in a resolution plan. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: The tax department's admitted claim of about Rs 11.77 crore for excise and GST dues was given Rs 1 lakh under the approved resolution plan. It appealed, relying on Rainbow Papers to argue it was a secured creditor.
+Issue: Are central excise and GST dues secured debt, entitling the department to more than the plan offered?
+Held: No. These dues are operational debts. Rainbow Papers turned on the statutory first charge under the Gujarat VAT Act and did not apply. The appeal was dismissed.
+What it means: Central tax departments rank as operational creditors. After the IBC (Amendment) Act, 2026, government dues have a fixed place in section 53 regardless of any statutory charge.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(21), 30(2), 53; Central Goods and Services Tax Act, 2017
+
 [JUD-HSBC-AWAZ] Hongkong and Shanghai Banking Corp. Ltd v. Awaz | Supreme Court | 2024-12-20 | 2024 INSC 1044, [2024] 12 SCR 1482 | Civil Appeal No. 5273 of 2008
 Bench: Bela M. Trivedi and Satish Chandra Sharma JJ.
-Topic: Credit card interest rates. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Credit card interest rates. Category: RBI powers and lending conduct. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
 Issue: Could the National Consumer Commission cap credit card interest at 30% a year as an unfair trade practice?
 Held: The National Commission's ruling that interest above 30% a year is usurious was set aside. It was contrary to section 21A of the Banking Regulation Act, which bars courts and tribunals from reopening a bank transaction on the ground that the interest is excessive, and it encroached on RBI's domain.
@@ -69,9 +140,32 @@ What it means: Interest on credit cards and loans is set by the lender's Board-a
 What it means: The bar in section 21A is written for banking companies, so NBFCs should rely on the RBI framework and fair-dealing rules rather than on section 21A itself.
 Law involved: Banking Regulation Act, 1949, s. 21A; Consumer Protection Act, 1986
 
+[JUD-NCLAT-EIH] EIH Ltd v. Subodh Kumar Agrawal (Golden Jubilee Hotels) | National Company Law Appellate Tribunal | 2024-12-11 | Company Appeal (AT) (Insolvency) No. 336 of 2020
+Bench: Rakesh Kumar Jain J. and Naresh Salecha.
+Topic: Plan can end existing contracts. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A hotel operator had a management contract with a hotel company that went into insolvency. The approved resolution plan terminated the contract, and the operator challenged the plan.
+Issue: Can a resolution plan terminate the corporate debtor's existing contracts, and how far can the tribunals review the committee's decision?
+Held: Yes. The committee's commercial decision to approve a plan that ends existing contracts cannot be questioned, provided the plan complies with section 30(2).
+Held: Judicial review is limited to the grounds in sections 30(2), 31 and 61(3).
+What it means: Counterparties of a borrower in insolvency, such as operators and service providers, may see their contracts ended by the plan.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 30(2), 31, 61(3)
+
+[JUD-HARERAM] Hare Ram Singh v. Reserve Bank of India | Delhi High Court | 2024-11-18 | 2024:DHC:8816 | W.P.(C) 13497/2022
+Bench: Dharmesh Sharma J.
+Topic: Unauthorised electronic transactions: customer's liability. Category: Customer protection and consumer disputes. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A bank customer clicked a link in a message that appeared to come from his bank, and Rs 2.60 lakh was debited from his account in April 2021. He reported it at once to the bank and the police. The bank said he had shared his credentials and refused a refund. The Banking Ombudsman directed payment of only a part of the amount.
+Issue: Who bears the loss from a phishing or vishing fraud that the customer reports promptly?
+Held: Under the Reserve Bank's 2017 circular on customer protection in unauthorised electronic banking transactions, the burden of proving the customer's liability is on the bank.
+Held: Clicking a fraudulent link is not by itself gross negligence. The bank did not show that the customer gave away his credentials, did not act promptly to block or recall the money, and its controls for authenticating the transactions fell short of the Reserve Bank's digital payment security requirements.
+Held: The customer had zero liability. The bank was directed to refund Rs 2.60 lakh with interest at 9 per cent a year and pay Rs 25,000 in costs.
+What it means: Banks, card issuers and prepaid instrument issuers should record the evidence of customer negligence at the time, act on a fraud report immediately (blocking, chargeback or recall) and be able to show that authentication worked. Without that, the loss stays with the institution.
+Law involved: RBI circular on Customer Protection - Limiting Liability of Customers in Unauthorised Electronic Banking Transactions, 6 July 2017; RBI Master Direction on Digital Payment Security Controls, 2021
+
 [JUD-CORE] Central Organisation for Railway Electrification v. ECI SPIC SMO MCML (JV) | Supreme Court (Constitution Bench) | 2024-11-08 | 2024 INSC 857, [2024] 11 SCR 2173 | Civil Appeal Nos. 9486-9487 of 2019
 Bench: Five Judges, D.Y. Chandrachud CJI presiding.
-Topic: Unilateral appointment of arbitrators. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: Unilateral appointment of arbitrators. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current. Prospective for appointments after 8 November 2024, as stated for three-member tribunals.
 Issue: Is a clause valid if it lets one party appoint a sole arbitrator, or makes the other side choose from a panel curated by that party?
 Held: Equal treatment of parties applies at every stage of arbitration, including the appointment of arbitrators.
@@ -81,9 +175,33 @@ What it means: Loan agreements that let the lender alone name the arbitrator are
 What it means: Awards by an arbitrator the lender appointed alone, without an express written waiver by the borrower after the dispute arose, are at risk of being set aside. Bhadra International (2026) confirms that such a sole arbitrator is ineligible.
 Law involved: Arbitration and Conciliation Act, 1996, ss. 12(5), 18
 
+[JUD-BHOWMICK] State Bank of India v. Pallabh Bhowmick | Gauhati High Court | 2024-09-13 | Writ Appeal No. 364 of 2022
+Bench: Lanusungkum Jamir and Kardak Ete JJ.
+Topic: Unauthorised electronic transactions: proof of negligence. Category: Customer protection and consumer disputes. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Current. The Supreme Court dismissed the bank's special leave petition on 3 January 2025.
+Facts: After a data breach at an online retailer, a fraudster posing as its customer care persuaded a customer to install a mobile application. Rs 94,204.80 was then taken from his bank account in October 2021. He reported it within a day. The bank refused a refund, alleging that he must have shared his one-time passwords, and the Banking Ombudsman closed his complaint. A single judge directed the bank to refund the amount.
+Issue: Is a customer who is tricked into installing an application negligent, so that the bank need not refund the loss?
+Held: The Division Bench upheld the direction to refund. The bank has to prove the customer's negligence with cogent material; a general allegation that he must have shared credentials is not enough.
+Held: The loss arose from a third-party breach and was reported within the time allowed by the Reserve Bank's 2017 circular, so the customer's liability was zero. The bank had also not raised a chargeback.
+What it means: Read with the Delhi High Court's ruling in Hare Ram Singh, the position is that prompt reporting shifts the loss to the bank unless it can prove the customer's negligence. An Ombudsman closure does not prevent the High Court from granting relief.
+Law involved: RBI circular on Customer Protection - Limiting Liability of Customers in Unauthorised Electronic Banking Transactions, 6 July 2017
+
+[JUD-BRS] BRS Ventures Investments Ltd v. SREI Infrastructure Finance Ltd | Supreme Court | 2024-07-23 | 2024 INSC 548, [2024] 7 SCR 2143 | Civil Appeal No. 4565 of 2021
+Bench: Abhay S. Oka and Pankaj Mithal JJ.
+Topic: Recovering from both borrower and corporate guarantor. Category: Guarantees, pledges and third-party security. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: An NBFC lent Rs 100 crore to a company, with the borrower's holding company as corporate guarantor. In the guarantor's insolvency the NBFC received Rs 38.87 crore under the resolution plan. It then filed for insolvency of the borrower for the balance. The successful resolution applicant of the guarantor argued that the debt stood satisfied and that the borrower's assets were part of the guarantor's plan.
+Issue: After receiving part payment in the corporate guarantor's insolvency, can the lender proceed against the principal borrower for the balance?
+Held: Yes. Part payment under the guarantor's resolution plan does not extinguish the borrower's liability for the rest. The liability of borrower and surety is co-extensive, and the creditor can proceed against both, together or one after the other.
+Held: A holding company does not own the assets of its subsidiary. The subsidiary's assets cannot be treated as part of the holding company's resolution plan.
+Held: The guarantor (or whoever steps into its shoes) is subrogated to the creditor's rights only to the extent of the amount actually paid.
+What it means: Lenders can file separate or simultaneous section 7 applications against the borrower and the corporate guarantor, and accepting a payout in one does not close the claim in the other, so long as total recovery does not exceed the debt.
+What it means: Buyers of a guarantor company under a plan get subrogation rights only for what was paid, not control over the borrower's assets.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 7, 18, 31, 36; Indian Contract Act, 1872, ss. 128, 134, 140
+
 [JUD-SUJATHA] Mahakali Sujatha v. Branch Manager, Future Generali India Life Insurance Co. Ltd | Supreme Court | 2024-04-10 | 2024 INSC 296, [2024] 4 SCR 724 | Civil Appeal No. 3821 of 2024
 Bench: B.V. Nagarathna and Augustine George Masih JJ.
-Topic: Insurer's burden to prove suppression. Category: . Forum: . Sectors: Life insurance.
+Topic: Insurer's burden to prove suppression. Category: Insurance claims. Forum: Supreme Court. Sectors: Life insurance.
 Status: Current.
 Issue: Who must prove that the insured suppressed other policies, and with what evidence?
 Held: Where the insurer repudiates on the ground of suppression, the burden is on the insurer to prove that the fact suppressed was material and that the insured knew of it.
@@ -91,9 +209,22 @@ Held: The insurer had produced no documents to show the other policies. The repu
 What it means: Claims teams must keep documentary proof, such as other insurers' records, before repudiating for non-disclosure. Allegations alone will fail.
 Law involved: Insurance Act, 1938, s. 45 (before the 2015 amendment); Evidence Act, 1872
 
+[JUD-MILIND] Milind Patel v. Union Bank of India | Bombay High Court | 2024-03-04 | Writ Petition No. 3671 of 2023
+Bench: B.P. Colabawalla and Somasekhar Sundaresan JJ.
+Topic: Wilful defaulter process: disclosure and reasons. Category: Wilful default and fraud. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A former joint managing director of an infrastructure finance group received a show cause notice from a bank proposing to declare him a wilful defaulter for the group's borrowings. The notice did not enclose the material relied on, and the orders of the bank's identification and review committees gave no real reasons.
+Issue: What must a lender disclose and record when it declares a person a wilful defaulter?
+Held: The lender must give the person all the material relevant to the proposed declaration, not only what it relies on. That includes material that helps the person's case.
+Held: Both the identification committee and the review committee must pass reasoned orders, and those orders must be served on the person. The members of the committees who took the decision should be identifiable.
+Held: The bank withdrew its orders, and the Court directed the credit information companies to remove the petitioner's name.
+What it means: Lenders (banks and NBFCs to whom the wilful defaulter directions apply) should send the full record with the show cause notice, record reasons at both stages and keep the committee composition on file. Orders passed on a bare notice are likely to be set aside.
+What it means: A wilful defaulter tag closes access to credit and has reputational effects, so courts hold lenders to a strict standard of fairness.
+Law involved: RBI Master Circular on Wilful Defaulters, 1 July 2015 (since replaced by the 2024 Directions)
+
 [JUD-YEZDANI] Shakti Yezdani v. Jayanand Jayant Salgaonkar | Supreme Court | 2023-12-14 | 2023 INSC 1076, [2023] 16 SCR 695 | Civil Appeal No. 7107 of 2017
 Bench: Hrishikesh Roy and Pankaj Mithal JJ.
-Topic: Nominee versus legal heirs. Category: . Forum: . Sectors: Stock broking, Mutual funds.
+Topic: Nominee versus legal heirs. Category: Securities markets and mutual funds. Forum: Supreme Court. Sectors: Stock broking, Mutual funds.
 Status: Current.
 Issue: Does a nominee of shares or securities become the owner on the holder's death, to the exclusion of the legal heirs?
 Held: No. The nominee does not get absolute title. Vesting in the nominee under section 109A of the Companies Act, 1956 (section 72 of the 2013 Act) and Bye-law 9.11.1 under the Depositories Act is for a limited purpose.
@@ -104,7 +235,7 @@ Law involved: Companies Act, 2013, s. 72; Companies Act, 1956, ss. 109A, 109B; D
 
 [JUD-INTERPLAY] In re: Interplay between Arbitration Agreements under the Arbitration and Conciliation Act, 1996 and the Indian Stamp Act, 1899 | Supreme Court | 2023-12-13 | 2023 INSC 1066, [2023] 15 SCR 1081 | Curative Petition (C) No. 44 of 2023 in Review Petition (C) No. 704 of 2021 in Civil Appeal No. 1599 of 2020
 Bench: D.Y. Chandrachud CJI, Sanjay Kishan Kaul, Sanjiv Khanna, B.R. Gavai, Surya Kant, J.B. Pardiwala and Manoj Misra JJ.
-Topic: Unstamped agreements and arbitration. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: Unstamped agreements and arbitration. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current.
 Issue: Is an arbitration agreement in an unstamped or insufficiently stamped contract void, and must the court deal with stamping before appointing an arbitrator?
 Held: An unstamped or insufficiently stamped agreement is inadmissible in evidence under section 35 of the Stamp Act, but it is not void, void from the start or unenforceable. Non-stamping is a curable defect, and the Stamp Act itself sets out how it is cured.
@@ -116,7 +247,7 @@ Law involved: Indian Stamp Act, 1899, ss. 33, 35, 42; Arbitration and Conciliati
 
 [JUD-JIWRAJKA] Dilip B. Jiwrajka v. Union of India | Supreme Court | 2023-11-09 | 2023 INSC 1018, [2023] 16 SCR 562 | Writ Petition (Civil) No. 1281 of 2021
 Bench: D.Y. Chandrachud CJI, J.B. Pardiwala and Manoj Misra JJ.
-Topic: Insolvency of personal guarantors. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Insolvency of personal guarantors. Category: Guarantees, pledges and third-party security. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current. From 26-05-2026, s. 96(4), inserted by the IBC (Amendment) Act, 2026, provides that the interim moratorium does not apply to personal guarantors to corporate debtors. The rest of the ruling is unaffected.
 Issue: Are sections 95 to 100 of the IBC, on insolvency of individuals such as personal guarantors, constitutional?
 Held: Sections 95 to 100 are valid and do not violate Articles 14 and 21.
@@ -125,9 +256,20 @@ Held: No hearing is needed before the resolution professional is appointed under
 What it means: Lenders can file insolvency against personal guarantors of corporate borrowers without a prior hearing on 'jurisdictional facts'. The guarantor is heard in the resolution professional's examination and before the Adjudicating Authority decides.
 Law involved: Insolvency and Bankruptcy Code, 2016, ss. 95-100
 
+[JUD-IFCI-SUTANU] IFCI Ltd v. Sutanu Sinha | Supreme Court | 2023-11-09 | 2023 INSC 1023, [2023] 15 SCR 280 | Civil Appeal No. 4929 of 2023
+Bench: Sanjay Kishan Kaul, Sudhanshu Dhulia and Ahsanuddin Amanullah JJ.
+Topic: Compulsorily convertible debentures are equity. Category: Insolvency: creditors, claims and distribution. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: IFCI had subscribed to compulsorily convertible debentures (CCDs) of a toll-road project company. In the company's insolvency it claimed as a financial creditor; the resolution professional rejected the claim because the project documents, the concessioning authority and the lenders had treated the CCDs as equity.
+Issue: Are compulsorily convertible debentures debt or equity for a claim in insolvency?
+Held: The CCDs were equity. The project documents treated them as equity, they were never recategorised with the concessioning authority's approval, and repayment obligations lay with the sponsor, not the company.
+Held: Instruments compulsorily convertible into shares are generally equity, not debt. The holder was not a financial creditor.
+What it means: On these project documents, CCD holders ranked as shareholders. Whether an instrument is debt or equity turns on its terms and how the parties treated it; a redemption obligation points towards debt.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(7), 5(8), 62
+
 [JUD-CELIR] Celir LLP v. Bafna Motors (Mumbai) Pvt Ltd | Supreme Court | 2023-09-21 | 2023 INSC 838, [2023] 13 SCR 53 | Civil Appeal Nos. 5542-5543 of 2023
 Bench: D.Y. Chandrachud CJI and J.B. Pardiwala J.
-Topic: SARFAESI: right of redemption. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: SARFAESI: right of redemption. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current.
 Issue: Until when can a borrower redeem a mortgaged property that a secured creditor is selling under SARFAESI?
 Held: Under section 13(8) of SARFAESI as amended in 2016, the borrower's right to redeem ends on the date the auction notice is published under Rule 9(1) of the Security Interest (Enforcement) Rules, not when the sale is completed.
@@ -137,9 +279,43 @@ What it means: Borrowers must pay in full before the auction notice is published
 What it means: Auction purchasers get firmer title, which supports bids at SARFAESI auctions.
 Law involved: SARFAESI Act, 2002, ss. 13(8), 17; Security Interest (Enforcement) Rules, 2002, r. 9; Transfer of Property Act, 1882, s. 60
 
+[JUD-AHUJA] Om Prakash Ahuja v. Reliance General Insurance Co Ltd | Supreme Court | 2023-07-04 | 2023 INSC 598, [2023] 10 SCR 83 | Civil Appeal Nos. 2769-2770 of 2023
+Bench: Abhay S. Oka and Rajesh Bindal JJ.
+Topic: Refusing renewal for an immaterial non-disclosure. Category: Insurance claims. Forum: Supreme Court. Sectors: Health insurance.
+Status: Current.
+Facts: A policyholder claimed the cost of his wife's cancer treatment under a health policy first taken in 2007. The insurer rejected the claims, and later refused to renew the policy, because the proposal had not mentioned her rheumatic heart disease. The consumer fora ordered payment of the claims for the first two years, and the insurer paid. The National Commission, however, set aside the direction to renew and rejected the claims for the later period.
+Issue: Can a health insurer refuse renewal, and reject later claims, on a non-disclosure that has already been held not to justify rejecting the earlier claims?
+Held: No. The non-disclosed condition had no connection with the illness treated, and the insurer had accepted the finding that it was not a ground to reject the earlier claims. It could not use the same ground to refuse renewal.
+Held: The insurer had taken, and not refunded, premium for the later years. With a valid policy in place, the treatment expenses for that period were payable. The directions to renew were restored.
+What it means: A non-disclosure matters only if it is material to the risk. An insurer that loses on that point for a claim cannot fall back on it to refuse renewal or deny later claims.
+What it means: Health insurers should not decline renewal on underwriting grounds that the policy and the regulator's renewal rules do not allow. Renewal can be refused only on limited grounds such as established fraud.
+Law involved: Consumer Protection Act, 1986; Insurance Act, 1938, s. 45
+
+[JUD-NCLAT-EDELWEISS] Edelweiss Asset Reconstruction Co. Ltd v. Anuj Jain (Resolution Professional, Ballarpur Industries Ltd) | National Company Law Appellate Tribunal | 2023-07-04 | Company Appeal (AT) (Insolvency) Nos. 517 and 518 of 2023
+Bench: Ashok Bhushan J. (Chairperson) and Naresh Salecha.
+Topic: Resolution plan can extinguish third-party security. Category: Guarantees, pledges and third-party security. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: An asset reconstruction company held loans given to a group company that were secured by assets of the corporate debtor. The resolution plan for the corporate debtor released that security without the lender's consent.
+Issue: Can a resolution plan extinguish security that the corporate debtor gave for a third party's loan?
+Held: Yes. The plan can extinguish such security interests; the lender's consent is not required.
+Held: The lender keeps its claim against the principal borrower and can ask that borrower for fresh security.
+What it means: Third-party security from a company that goes into insolvency can be lost under its plan. Lenders should monitor group companies' insolvencies and take guarantees.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 30, 31
+
+[JUD-VISTRA] Vistra ITCL (India) Ltd v. Dinkar Venkatasubramanian | Supreme Court | 2023-05-04 | 2023 INSC 500, [2023] 6 SCR 806 | Civil Appeal No. 3606 of 2020
+Bench: M.R. Shah and Sanjiv Khanna JJ.
+Topic: Pledgee for a third party's loan in a resolution plan. Category: Guarantees, pledges and third-party security. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: Amtek Auto had pledged shares it held to a security trustee, Vistra, to secure loans to a group company. In Amtek's insolvency, Vistra was not treated as a financial creditor and the resolution plan did not deal properly with its pledge.
+Issue: What rights does a lender holding only a pledge from the corporate debtor for someone else's loan have in the debtor's insolvency?
+Held: The pledgee is not a financial creditor of the pledgor (following Anuj Jain and Phoenix ARC), so it has no seat or vote on the committee of creditors.
+Held: It is a secured creditor and keeps the rights of a secured creditor under sections 52 and 53 and the pledge agreement. It cannot be treated worse than a dissenting financial creditor or an operational creditor.
+What it means: Third-party security holders keep their rights as secured creditors and can object to a plan that ignores their security. The Court noted that giving them a vote to the value of the security would need a larger bench to revisit Anuj Jain and Phoenix ARC.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(7), 30(2), 52, 53; Indian Contract Act, 1872, ss. 172-176
+
 [JUD-SIB-NAVEEN] South Indian Bank Ltd v. Naveen Mathew Philip | Supreme Court | 2023-04-17 | 2023 INSC 379, [2023] 4 SCR 18 | Civil Appeal Nos. 2861-2862 of 2023
 Bench: Sanjiv Khanna and M.M. Sundresh JJ.
-Topic: SARFAESI: writs against lenders. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: SARFAESI: writs against lenders. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current.
 Issue: Should High Courts entertain writ petitions against SARFAESI notices when the Debts Recovery Tribunal is available?
 Held: The power under Article 226 is wide but should be used only in extraordinary cases. Where the legislature has provided a specific remedy, as SARFAESI does through the Debts Recovery Tribunal, the writ remedy should not be used.
@@ -149,7 +325,7 @@ Law involved: SARFAESI Act, 2002, ss. 13(4), 17; Constitution of India, Art. 226
 
 [JUD-SBI-RAJESH] State Bank of India v. Rajesh Agarwal | Supreme Court | 2023-03-27 | 2023 INSC 303, [2023] 7 SCR 476 | Civil Appeal No. 7300 of 2022
 Bench: D.Y. Chandrachud CJI and Hima Kohli J.
-Topic: Fraud classification. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: Fraud classification. Category: Wilful default and fraud. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current. Clarified in State Bank of India v. Amit Iron Pvt Ltd (2026 INSC 323): no personal hearing is needed, and the steps it requires are part of RBI's Master Directions of 2024 on fraud.
 Issue: Must a lender hear the borrower before classifying its account as fraud under RBI's Master Directions on Frauds?
 Held: Classifying an account as fraud has civil consequences for the borrower: the penal measures that apply to wilful defaulters, no restructuring and, in effect, a credit freeze that the Court described as close to 'civil death'.
@@ -160,9 +336,33 @@ What it means: In State Bank of India v. Amit Iron Pvt Ltd (7 April 2026, 2026 I
 What it means: RBI's Fraud Risk Management Directions for NBFCs now build these steps into the process.
 Law involved: RBI Act, 1934; Banking Regulation Act, 1949; RBI Master Directions on Frauds, 2016
 
+[JUD-RCAP-NCLAT] Vistra ITCL (India) Ltd v. Torrent Investments Pvt Ltd | National Company Law Appellate Tribunal, New Delhi | 2023-03-02 | Company Appeal (AT) (Insolvency) Nos. 132-134 and 139 of 2023
+Bench: Ashok Bhushan J. (Chairperson) and Barun Mitra (Member, Technical).
+Topic: Creditors can keep negotiating after the challenge round. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Appeal pending. The highest bidder in the first round appealed to the Supreme Court. In March 2023 the Court let the further round go ahead without prejudice to the parties' rights; the appeal has not been finally decided.
+Facts: The Reserve Bank superseded the board of a large NBFC in November 2021 and its insolvency was started with an Administrator in charge. Bidders took part in a challenge mechanism (an auction among resolution applicants) on 21 December 2022, which ended with a highest bid of Rs 8,640 crore in net present value. Another bidder then sent a higher offer. The committee of creditors decided to hold an extended challenge round. On the highest bidder's application the NCLT held that the committee could not negotiate further once the challenge mechanism had concluded.
+Issue: After a challenge mechanism under regulation 39(1A) has concluded, can the committee of creditors negotiate further or hold another round?
+Held: Yes. Regulation 39(1A) lets the committee use a challenge mechanism to improve plans. It does not take away the committee's power to negotiate with one or more resolution applicants afterwards, or to annul the process and invite fresh plans, where the request for resolution plans reserves those rights.
+Held: The highest bidder in the challenge round gets no vested right to have its plan approved. Maximising the value of the corporate debtor's assets is the committee's commercial decision.
+Held: The NCLT's order was set aside and the committee was allowed to hold a further round.
+What it means: Lenders on a committee of creditors can seek better offers after an auction round, provided the bid documents keep that right open. Bid documents should say so clearly.
+What it means: Bidders should treat the result of a challenge round as provisional until the committee votes on a plan.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 30, 227; IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016, reg. 39(1A)
+
+[JUD-NCLAT-ARBCLAIM] Shapoorji Pallonji and Co. Pvt Ltd v. Korba West Power Company Ltd | National Company Law Appellate Tribunal | 2023-02-23 | Company Appeal (AT) (Insolvency) No. 816 of 2019
+Bench: Anant Bijay Singh J. and Shreesha Merla.
+Topic: Arbitration claims in a resolution plan. Category: Arbitration. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A contractor had claims against a company in insolvency that were pending in arbitration. The resolution plan did not deal with them, and the contractor appealed against the plan's approval.
+Issue: What happens to an operational creditor's claims pending in arbitration when a resolution plan is approved?
+Held: The plan was upheld. The contractor, whose claim had been treated as contingent, was given liberty to continue the arbitration and have its claim decided.
+Held: On the resolution applicant's appeal (Civil Appeal No. 1741 of 2023), the Supreme Court held that any award could not add to the applicant's obligations beyond the approved plan.
+What it means: Claims not provided for in an approved plan are extinguished (Ghanashyam Mishra, 2021). A pending arbitration may at most quantify a claim; it cannot impose a new liability on the resolution applicant.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 30, 31; Arbitration and Conciliation Act, 1996
+
 [JUD-GIRNAR] Kotak Mahindra Bank Ltd v. Girnar Corrugators Pvt Ltd | Supreme Court | 2023-01-05 | 2023 INSC 12, [2023] 1 SCR 873 | Civil Appeal No. 6662 of 2022
 Bench: M.R. Shah and Krishna Murari JJ.
-Topic: SARFAESI priority over MSME dues. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: SARFAESI priority over MSME dues. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current.
 Issue: Does recovery under the MSMED Act prevail over a secured creditor's enforcement under SARFAESI?
 Held: The MSMED Act provides a forum for buyer-seller disputes but gives no priority over secured creditors. Section 26E of SARFAESI gives a secured creditor with a registered security interest priority over other debts and Government dues, subject to the IBC.
@@ -171,9 +371,65 @@ Held: The Magistrate under section 14 only assists the secured creditor to take 
 What it means: Registering the security interest with CERSAI matters: section 26E priority depends on registration.
 Law involved: SARFAESI Act, 2002, ss. 14, 17, 26E; Micro, Small and Medium Enterprises Development Act, 2006, ss. 15-24
 
+[JUD-NCLAT-WAVE] Wave Megacity Centre Pvt Ltd v. Rakesh Taneja | National Company Law Appellate Tribunal | 2023-01-05 | Company Appeal (AT) (Insolvency) No. 918 of 2022
+Bench: Ashok Bhushan J. (Chairperson) and Barun Mitra.
+Topic: Fraudulent self-filing for insolvency. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Housing finance, Lending (NBFCs and banks).
+Status: Current.
+Facts: A real estate developer filed for its own insolvency under section 10, largely to avoid dues to the development authority. The authority argued the filing was fraudulent.
+Issue: Can a company's own insolvency application be rejected as filed with fraudulent or malicious intent?
+Held: Yes. The application was rejected under section 65 as filed to defeat a creditor rather than to resolve insolvency.
+Held: The section 10A bar on filings for defaults during the COVID-19 period does not cover defaults before 25 March 2020.
+What it means: Lenders and authorities can resist a borrower's tactical self-filing by showing malicious intent.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 10, 10A, 65
+
+[JUD-GOKAL] Gokal Chand (D) through LRs v. Axis Bank Ltd | Supreme Court | 2022-12-15 | 2022 INSC 1287, [2022] 17 SCR 739 | Civil Appeal No. 9237 of 2022
+Bench: K.M. Joseph and Hrishikesh Roy JJ.
+Topic: Loan-linked life cover: death before the policy is issued. Category: Insurance claims. Forum: Supreme Court. Sectors: Life insurance, Housing finance.
+Status: Current.
+Facts: A home loan was sanctioned on condition that the borrower took life cover. On the day of sanction the bank, through which the cover was arranged, paid a premium of about Rs 6.24 lakh to the insurer out of the loan. The borrower underwent the medical tests five days later, and they showed nothing abnormal. He died of cardiac arrest nine days after the tests. After the death was reported, the insurer sent a back-dated letter postponing the proposal by six months, refunded the premium to the loan account and declined cover. The State and National Commissions dismissed the family's complaint.
+Issue: Can an insurer avoid liability by postponing or declining a proposal after it learns of the proposer's death, when it has held the premium and the medical tests were clear?
+Held: No. The complaint was allowed, and the insurer was directed to process and pay the claim.
+Held: Silence alone does not amount to acceptance of a proposal. But where the premium has been received, the medical examination is complete and nothing adverse is communicated, the insurer's conduct can show acceptance.
+Held: Sending a back-dated postponement letter after learning of the death, on a medical ground the test report did not support, and unilaterally refunding the premium was not bona fide and was a deficiency in service.
+What it means: Lenders that bundle credit-life cover with home loans, and the insurers they act for, should make sure the proposal is decided and communicated quickly once premium is debited. A borrower who has paid and cleared the medicals is likely to be treated as covered.
+What it means: For a bank or HFC acting as corporate agent, the gap between debiting premium and issue of the policy is a conduct risk that needs a clear process.
+Law involved: Consumer Protection Act, 1986; Indian Contract Act, 1872 (acceptance of proposal)
+
+[JUD-MAITREYA] Maitreya Doshi v. Anand Rathi Global Finance Ltd | Supreme Court | 2022-09-22 | 2022 INSC 1004, [2022] 15 SCR 536 | Civil Appeal No. 6613 of 2021
+Bench: Indira Banerjee and J.K. Maheshwari JJ.
+Topic: Insolvency against both co-borrowers. Category: Guarantees, pledges and third-party security. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: An NBFC lent to Premier Ltd under loan-cum-pledge agreements that Doshi Holdings signed both as a borrower and as a pledgor of shares. After Premier's insolvency began, the NBFC filed a section 7 application against Doshi Holdings too.
+Issue: Can a financial creditor start insolvency against two companies that are both liable for the same debt?
+Held: Yes. If both companies are corporate debtors for the same debt, section 7 proceedings may be brought against both. A pledgor as such may not be a financial debtor, but Doshi Holdings had been found to be a co-borrower.
+Held: The creditor cannot recover the same amount twice. What it recovers from one reduces what it can claim from the other.
+What it means: Lenders can run parallel insolvencies against a borrower and a co-borrower or corporate guarantor, and must give credit in each for recoveries made in the other.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8), 7, 60
+
+[JUD-NCLAT-SIDBI] Small Industries Development Bank of India v. Vivek Raheja (Resolution Professional, Gupta Exim (India) Pvt Ltd) | National Company Law Appellate Tribunal | 2022-09-16 | Company Appeal (AT) (Insolvency) No. 570 of 2022
+Bench: Ashok Bhushan J. (Chairperson) and Barun Mitra.
+Topic: Distribution under a resolution plan by voting share. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Under reconsideration. In DBS Bank v. Ruchi Soya (2024 INSC 14) the Supreme Court referred to a larger bench what a dissenting secured financial creditor must receive under a plan.
+Facts: A secured lender with a charge on particular assets objected that the resolution plan distributed proceeds by voting share rather than by the value of each lender's security.
+Issue: Must a resolution plan distribute proceeds according to the value of each creditor's security?
+Held: No. The committee of creditors may distribute by voting share. A dissenting secured creditor is entitled only to what it would get in liquidation under section 53, not to the value of its security.
+What it means: Lenders holding better security should negotiate within the committee; the value of their collateral is not guaranteed in a resolution plan.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 30(2)(b), 30(4), 53
+
+[JUD-RAINBOW-SC] State Tax Officer v. Rainbow Papers Ltd | Supreme Court | 2022-09-06 | 2022 INSC 927, [2022] 13 SCR 808 | Civil Appeal Nos. 1661 and 2568 of 2020
+Bench: Indira Banerjee and A.S. Bopanna JJ.
+Topic: State tax dues as secured debt. Category: Insolvency: creditors, claims and distribution. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Law since changed. The IBC (Amendment) Act, 2026 ranks government dues in section 53 regardless of a statutory charge.
+Facts: The Gujarat sales tax department claimed VAT dues in the insolvency of Rainbow Papers. Section 48 of the Gujarat VAT Act gives the State a first charge on the dealer's property. The resolution plan gave the department almost nothing.
+Issue: Is a State with a statutory first charge for tax dues a secured creditor under the IBC, and can a plan ignore those dues?
+Held: A charge created by statute is a 'security interest', so the State was a secured creditor and its dues ranked with secured creditors in the section 53 waterfall.
+Held: A resolution plan that does not provide for statutory dues as required is not binding and can be rejected.
+What it means: For a time this put tax authorities alongside secured lenders. The IBC (Amendment) Act, 2026, in force from 26 May 2026, now places government dues at their own place in section 53 whether or not a security interest arises by operation of law, which removes that parity.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 3(30), 3(31), 30, 31, 53; Gujarat Value Added Tax Act, 2003, s. 48
+
 [JUD-FT-2022] Franklin Templeton Trustee Services Pvt Ltd v. Amruta Garg (August 2022) | Supreme Court | 2022-08-12 | 2022 INSC 829, [2022] 6 SCR 880 | I.A. No. 53453 of 2022 in Civil Appeal Nos. 498-501 of 2021
 Bench: S. Abdul Nazeer and Sanjiv Khanna JJ.
-Topic: Distributor commission on winding up. Category: . Forum: . Sectors: Mutual funds.
+Topic: Distributor commission on winding up. Category: Securities markets and mutual funds. Forum: Supreme Court. Sectors: Mutual funds.
 Status: Current. Decided under the 1996 Regulations, which the SEBI (Mutual Funds) Regulations, 2026 replaced from 1 April 2026. The 2026 Regulations follow this ruling.
 Issue: Are mutual fund distributors entitled to trail commission from a scheme that is being wound up?
 Held: Regulation 52, which allows recurring expenses including distributor commission, applies only while a scheme is operating, not after the notice of winding up is published.
@@ -181,9 +437,65 @@ Held: Distributor commission is not an expense connected with winding up. Future
 What it means: Once a winding-up notice is published, distributors stop earning trail commission from that scheme. The SEBI (Mutual Funds) Regulations, 2026 now say expressly that distribution commission is not a winding-up cost (regulation 38(1)(d), Explanation).
 Law involved: SEBI (Mutual Funds) Regulations, 1996, regs. 39-41, 52; SEBI (Mutual Funds) Regulations, 2026, reg. 38
 
+[JUD-BHATIYA] Arun Bhatiya v. HDFC Bank | Supreme Court | 2022-08-08 | 2022 INSC 804, [2022] 7 SCR 91 | Civil Appeal Nos. 5204-5205 of 2022
+Bench: D.Y. Chandrachud and A.S. Bopanna JJ.
+Topic: Complaints about a bank's handling of a joint deposit. Category: Customer protection and consumer disputes. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A son and his father held a joint fixed deposit with a bank. The son complained that the bank credited the proceeds to the father's account alone. The State Commission refused to hear the complaint, saying it was really a family dispute for the civil court, and the National Commission agreed.
+Issue: Can a consumer forum refuse to hear a complaint against a bank because the facts also involve a dispute between the joint account holders?
+Held: No. A person who avails of a service from a bank is a consumer and can use the consumer remedies. The complaint was against the bank for deficiency in service, not against the father.
+Held: The State Commission had to decide on the merits whether there was a deficiency in the bank's service. It could not send the complainant to the civil court.
+What it means: Banks and deposit-taking NBFCs cannot avoid a consumer complaint by pointing to a quarrel between joint holders. They need to be able to show that a payout or premature closure followed the mandate and the terms of the deposit.
+Law involved: Consumer Protection Act, 1986, ss. 2(1)(d), 2(1)(g), 2(1)(o)
+
+[JUD-VIDARBHA] Vidarbha Industries Power Ltd v. Axis Bank Ltd | Supreme Court | 2022-07-12 | 2022 INSC 710, [2022] 12 SCR 139 | Civil Appeal No. 4633 of 2021
+Bench: Indira Banerjee and J.K. Maheshwari JJ.
+Topic: Must the NCLT admit a lender's insolvency application?. Category: Insolvency: starting and running the process. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Law since changed. Section 7(5) was substituted with effect from 26 May 2026: the NCLT shall admit the application within 14 days if a default has occurred, the application is complete and no disciplinary proceeding is pending against the proposed resolution professional, and no other ground may be used to reject it.
+Facts: A power generating company defaulted on bank loans. It asked the NCLT to defer the bank's section 7 application because it held an order of the electricity appellate tribunal in its favour worth about Rs 1,730 crore, more than the bank's claim, which was under appeal. The NCLT and NCLAT held that once debt and default are shown, nothing else is relevant.
+Issue: Is admission of a financial creditor's application under section 7(5)(a) mandatory once a debt and default are shown?
+Held: The Court read the word 'may' in section 7(5)(a), in contrast to 'shall' in section 9(5)(a), as giving the NCLT a discretion. It could consider relevant factors such as the overall financial health and viability of the corporate debtor before admitting.
+Held: In a later order on a review petition the Court said these observations were made on the facts of the case. In M. Suresh Kumar Reddy v. Canara Bank (2023 INSC 521) the Court held that Vidarbha was confined to its facts and that, once default is shown, admission must ordinarily follow.
+What it means: For applications decided under the amended section 7(5), the borrower can no longer rely on Vidarbha to resist admission on grounds such as pending claims or general viability. The ruling remains relevant to older matters and to understanding why the provision was rewritten.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 7(5), 9(5)
+
+[JUD-PUNEET] Puneet Kaur v. K V Developers Pvt Ltd | National Company Law Appellate Tribunal, New Delhi | 2022-06-01 | Company Appeal (AT) (Insolvency) Nos. 390-394 of 2022
+Bench: Ashok Bhushan J. (Chairperson), Shreesha Merla (Member, Technical) and Naresh Salecha (Member, Technical).
+Topic: Homebuyers who did not file claims. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Housing finance.
+Status: Current. The ruling is about homebuyers shown in the developer's own records. For other creditors the Supreme Court has refused a belated claim made after the committee approved the plan, even though the NCLT's approval was pending (RPS Infrastructure Ltd v. Mukul Kumar, 2023 INSC 816).
+Facts: In the insolvency of a real estate developer, several homebuyers filed their claims after the resolution plan had been approved by the committee of creditors and was awaiting the NCLT's approval. The resolution professional and the NCLT refused to take the late claims, and it was argued that the claims stood extinguished.
+Issue: What happens to homebuyers whose payments and allotments are in the developer's own records but who did not file a claim in time?
+Held: Until the NCLT approves the plan, the claims are not extinguished. That does not give late claimants a right to have their claims admitted.
+Held: The resolution professional is not bound to put late claimants in the list of creditors. But the developer's records show every allottee, the amounts paid and the units allotted, and that liability should be reflected in the information memorandum so that the resolution applicant deals with it.
+Held: Leaving such homebuyers out is inequitable. The resolution professional was directed to give their details to the resolution applicant, who was to prepare an addendum to the plan for the committee and the NCLT to consider.
+What it means: Lenders on the committee of creditors of a developer, and bidders, should expect the plan to provide for all allottees shown in the books and not only those who filed claims. That affects the amount available for financial creditors.
+What it means: Home loan lenders can point to this ruling where a borrower's allotment appears in the developer's records but no claim was filed.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8)(f), 29, 30, 31; IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016, regs. 12, 13, 36
+
+[JUD-KOTAK-BALA] Kotak Mahindra Bank Ltd v. A. Balakrishnan | Supreme Court | 2022-05-30 | 2022 INSC 630, [2022] 5 SCR 1072 | Civil Appeal No. 689 of 2021
+Bench: L. Nageswara Rao and B.R. Gavai JJ.
+Topic: Recovery certificates and decrees are financial debt. Category: Insolvency: creditors, claims and distribution. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: Kotak Mahindra Bank had obtained a recovery certificate from the Debts Recovery Tribunal for a loan, so the certificate arose from a financial debt. It then filed a section 7 application relying on the certificate. The appellate tribunal held that a recovery certificate holder was not a financial creditor.
+Issue: Is a liability under a DRT recovery certificate a financial debt, and does the certificate give a fresh starting point for limitation?
+Held: A liability under a recovery certificate is a financial debt, and its holder is a financial creditor who may file under section 7.
+Held: A recovery certificate gives a fresh cause of action, so a section 7 application filed within three years of the certificate is in time.
+What it means: Lenders that have won at the DRT can still use the IBC, but should file within three years of the recovery certificate.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(7), 5(8), 7; Recovery of Debts and Bankruptcy Act, 1993, s. 19(22); Limitation Act, 1963, Art. 137
+
+[JUD-NCLAT-OBC] Oriental Bank of Commerce v. Anil Anchalia (Liquidator of Bala Techno Industries Ltd) | National Company Law Appellate Tribunal | 2022-05-26 | Company Appeal (AT) (Insolvency) No. 547 of 2022
+Bench: Ashok Bhushan J. (Chairperson) and Shreesha Merla.
+Topic: Exclusive charge holder in liquidation distribution. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current. The related question of inter se priority among secured creditors is pending in the Supreme Court.
+Facts: A bank with an exclusive charge over certain assets of a company in liquidation relinquished its security and asked to be paid the full sale value of those assets.
+Issue: Is a secured creditor that relinquishes an exclusive charge paid from the value of that asset, or pro rata with other secured creditors?
+Held: Pro rata. After relinquishment, all secured creditors share in proportion to their claims under section 53. The tribunal relied on the Supreme Court's ruling in India Resurgence ARC v. Amit Metaliks (2021).
+What it means: A lender with an exclusive charge that wants to keep the benefit of it should consider realising the security itself under section 52 rather than relinquishing it.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 52, 53
+
 [JUD-PTCIFS] PTC India Financial Services Ltd v. Venkateswarlu Kari | Supreme Court | 2022-05-12 | 2022 INSC 562, [2022] 9 SCR 1063 | Civil Appeal No. 5443 of 2019
 Bench: Sanjiv Khanna and M.R. Shah JJ.
-Topic: Pledge of demat shares. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Pledge of demat shares. Category: Guarantees, pledges and third-party security. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
 Issue: When a lender invokes a pledge of dematerialised shares and is recorded as beneficial owner, has it 'sold' them and must it credit their value against the debt?
 Held: The Depositories Act and its regulations add to, and do not displace, the pledge provisions of the Contract Act.
@@ -192,9 +504,67 @@ Held: The notice under section 176 before sale is mandatory and parties cannot c
 What it means: A lender invoking a share pledge must still give reasonable notice and sell to a third party, and should credit the borrower only with the actual sale proceeds. Until then the borrower can redeem.
 Law involved: Indian Contract Act, 1872, ss. 172, 176, 177; Depositories Act, 1996; SEBI (Depositories and Participants) Regulations, 1996, reg. 58
 
+[JUD-NEDUMPILLI] Nedumpilli Finance Co Ltd v. State of Kerala | Supreme Court | 2022-05-10 | 2022 INSC 545, [2022] 7 SCR 1005 | Civil Appeal No. 5233 of 2012
+Bench: Hemant Gupta and V. Ramasubramanian JJ.
+Topic: State money-lending laws do not apply to NBFCs. Category: RBI powers and lending conduct. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: NBFCs registered with the Reserve Bank were asked by State authorities in Kerala and Gujarat to take money-lending licences and follow the interest caps in the State money lenders Acts. The Kerala High Court held that the State Act applied to them; the Gujarat High Court held that it did not.
+Issue: Do State money-lending laws apply to NBFCs registered under the RBI Act and regulated by the Reserve Bank?
+Held: No. Chapter III-B of the RBI Act is a complete code, and the Reserve Bank's control over an NBFC runs 'from the cradle to the grave': registration, capital, deposits, prudential norms, directions and winding up.
+Held: The Kerala Money Lenders Act, 1958 and the Gujarat Money Lenders Act, 2011 have no application to NBFCs registered under the RBI Act and regulated by the Reserve Bank.
+Held: The Reserve Bank has power to deal with the interest NBFCs charge, through sections 45JA and 45L of the RBI Act.
+What it means: A registered NBFC does not need a State money-lending licence and is not bound by State caps on interest. Its pricing is governed by the Reserve Bank's directions on interest rates, fair practices and, for microfinance loans, the pricing framework.
+What it means: The ruling does not cover unregistered lenders, and it does not exempt NBFCs from other State laws such as those on coercive recovery, which need to be checked separately.
+Law involved: Reserve Bank of India Act, 1934, Chapter III-B, ss. 45-IA, 45JA, 45L, 45Q; Kerala Money Lenders Act, 1958; Gujarat Money Lenders Act, 2011
+
+[JUD-SUBHANKAR] Subhankar Bhowmik v. Union of India | Tripura High Court | 2022-03-14 | W.P.(C) (PIL) No. 04 of 2022
+Bench: Indrajit Mahanty CJ.
+Topic: Decree holders are not financial creditors. Category: Insolvency: creditors, claims and distribution. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A decree holder filed a public interest petition arguing that the IBC was discriminatory because decree holders were not given a place on the committee of creditors alongside financial creditors.
+Issue: Must the IBC treat decree holders on a par with financial creditors?
+Held: No. Decree holders form a different class from financial creditors, and the classification is reasonable. They have no right to a seat on the committee of creditors. The petition was dismissed.
+What it means: A decree does not by itself make the holder a financial creditor. A lender's decree or recovery certificate for a financial debt is different: see Kotak Mahindra Bank v. A. Balakrishnan (2022).
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 3(10), 5(7), 21; Constitution of India, Art. 14
+
+[JUD-MANTRI] Shrikant G. Mantri v. Punjab National Bank | Supreme Court | 2022-02-22 | 2022 INSC 217, [2022] 5 SCR 945 | Civil Appeal No. 11397 of 2016
+Bench: L. Nageswara Rao and B.R. Gavai JJ.
+Topic: Business borrowers are not 'consumers'. Category: Customer protection and consumer disputes. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Stock broking.
+Status: Current.
+Facts: A stockbroker took an overdraft facility from a bank against a pledge of shares to run his broking business. After a dispute over the sale of pledged shares and the settlement of the account, he filed a consumer complaint claiming deficiency in service.
+Issue: Is a person who takes a bank facility for his business a 'consumer' who can file a consumer complaint?
+Held: No. A service availed for a commercial purpose is outside the definition of 'consumer'. The test is the dominant purpose of the transaction: whether it is closely linked to profit generation.
+Held: The overdraft was taken to expand the broker's business, so the relationship was purely business to business. The exception for self-employed persons earning a livelihood did not apply.
+What it means: Lenders facing consumer complaints from business borrowers on working capital, overdraft or trade facilities can raise this as a threshold objection. Individuals borrowing for personal needs, or to earn a livelihood by self-employment, remain consumers.
+Law involved: Consumer Protection Act, 1986, s. 2(1)(d) (now Consumer Protection Act, 2019, s. 2(7))
+
+[JUD-PRADEEP] Pradeep Kumar v. Post Master General | Supreme Court | 2022-02-07 | 2022 INSC 156, [2022] 19 SCR 583 | Civil Appeal Nos. 8775-8776 of 2016
+Bench: L. Nageswara Rao, Sanjiv Khanna and B.R. Gavai JJ.
+Topic: Liability for fraud by an employee. Category: Customer protection and consumer disputes. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A couple handed Kisan Vikas Patras with a face value of Rs 32.60 lakh to a post office agent to move them to another post office. The certificates were instead encashed, and Rs 25.54 lakh was paid out in cash through the agent with the involvement of a post office employee. The consumer fora refused relief, treating the agent as the investors' own agent.
+Issue: Is a post office or bank liable for the fraud or wrongful act of its employee?
+Held: Yes. An employer is liable for the fraud or wrong of its employee committed in the course of employment. Proof of the employee's guilt in a criminal case is not required.
+Held: Payment in cash to someone other than the holder, contrary to the rules, was not a valid discharge under the Negotiable Instruments Act. The post office could not claim to be a holder or payer in due course.
+Held: The post office and its officers were held jointly and severally liable to pay the maturity value with interest, with Rs 1 lakh as compensation.
+What it means: Banks, NBFCs and other deposit-takers bear the loss when staff collude in paying out a customer's instrument or deposit to the wrong person. The Court expressly applied the same principle to banks.
+What it means: Controls over cash payouts, identification of the payee and supervision of agents are the practical defence.
+Law involved: Negotiable Instruments Act, 1881, ss. 8, 9, 10, 78, 82; Consumer Protection Act, 1986
+
+[JUD-VISHWA] Phoenix ARC Pvt Ltd v. Vishwa Bharati Vidya Mandir | Supreme Court | 2022-01-12 | 2022 INSC 44, [2022] 1 SCR 950 | Civil Appeal Nos. 257-259 of 2022
+Bench: M.R. Shah and B.V. Nagarathna JJ.
+Topic: No writ petition against a private lender's SARFAESI action. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current.
+Facts: An asset reconstruction company that had acquired a loan gave notice of its intention to take possession of the mortgaged properties under the SARFAESI Act. The borrowers filed writ petitions in the High Court, which ordered status quo on a small deposit although about Rs 117 crore was due, and the order continued for years.
+Issue: Can a borrower challenge a private bank's or ARC's SARFAESI measures by writ petition under Article 226?
+Held: A writ petition against a private financial institution or ARC over its proposed action under section 13(4) is not maintainable. Lending and recovery by a private lender is a commercial activity and not a public function.
+Held: The borrower's remedy is an application to the Debts Recovery Tribunal under section 17. Filing writ petitions to stall recovery was described as an abuse of process.
+What it means: Private banks, NBFCs, HFCs and ARCs can ask for early dismissal of writ petitions against SARFAESI steps. Borrowers have to use the section 17 route.
+Law involved: SARFAESI Act, 2002, ss. 13(2), 13(4), 17; Constitution of India, Art. 226
+
 [JUD-PUNNEN] Jacob Punnen v. United India Insurance Co. Ltd | Supreme Court | 2021-12-09 | 2021 INSC 853, [2021] 9 SCR 787 | Civil Appeal No. 6778 of 2013
 Bench: K.M. Joseph and S. Ravindra Bhat JJ.
-Topic: Changed terms on renewal. Category: . Forum: . Sectors: Health insurance.
+Topic: Changed terms on renewal. Category: Insurance claims. Forum: Supreme Court. Sectors: Health insurance.
 Status: Current. IRDAI's current product and policyholder rules also govern disclosure of changes at renewal.
 Issue: Can a health insurer rely on a new cap on cover that it introduced at renewal without telling the policyholder?
 Held: The policyholders were led to believe they were renewing the same policy, while the insurer had introduced caps on certain surgical procedures. The insurer had a duty to tell them about the new limits.
@@ -204,7 +574,7 @@ Law involved: Consumer Protection Act, 1986, s. 2(1)(g); IRDAI (Health Insurance
 
 [JUD-NANDA] Manmohan Nanda v. United India Assurance Co. Ltd | Supreme Court | 2021-12-06 | 2021 INSC 826, [2021] 11 SCR 1138 | Civil Appeal No. 8386 of 2015
 Bench: D.Y. Chandrachud and B.V. Nagarathna JJ.
-Topic: Pre-existing conditions disclosed at proposal. Category: . Forum: . Sectors: Health insurance.
+Topic: Pre-existing conditions disclosed at proposal. Category: Insurance claims. Forum: Supreme Court. Sectors: Health insurance.
 Status: Current.
 Issue: Can a health insurer reject a claim by citing a medical condition that the insured disclosed, and that the insurer assessed, before issuing the policy?
 Held: The insurer must assess the risks from the health condition disclosed in the proposal form before it issues the policy.
@@ -212,9 +582,43 @@ Held: Once the policy is issued after that assessment, the insurer cannot reject
 What it means: Underwriting must be done before issue. A health insurer that conducted a medical examination and accepted disclosed conditions cannot later rely on them to repudiate.
 Law involved: Consumer Protection Act, 1986; Indian Contract Act, 1872 (utmost good faith)
 
+[JUD-GTL-SC] GTL Infrastructure Ltd v. Canara Bank | Supreme Court | 2021-12-06 | Civil Appeal Nos. 7449 and 7450 of 2021 and Writ Petition (C) No. 649 of 2021
+Bench: Uday Umesh Lalit and S. Ravindra Bhat JJ.
+Topic: Lenders cannot be forced into a majority deal. Category: Stressed assets, restructuring and NPAs. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current. RBI's stressed asset and loan transfer rules now sit in its consolidated Directions for each regulated entity.
+Facts: Most of GTL Infrastructure's lenders agreed to sell their loans to an asset reconstruction company, and the GTL group's domestic lenders signed an inter-creditor agreement under RBI's June 2019 stressed assets framework. Canara Bank did neither and filed for insolvency. The borrowers asked the courts to compel it to follow the majority.
+Issue: Do RBI's rules on sale of loans to ARCs, or the inter-creditor agreement under the June 2019 framework, oblige a dissenting bank to follow the majority of lenders?
+Held: No. Under paragraph 6.4 of RBI's Master Circular on prudential norms (IRAC) of 1 July 2015, on sale of financial assets to ARCs, each bank decides for itself whether to accept an offer; the 75% clause does not oblige a dissenting bank to sell.
+Held: The June 2019 framework did not stop Canara Bank from starting insolvency, and banks cannot be compelled to accept a borrower's settlement or resolution plan. The Bombay High Court's dismissal of the writ petitions was upheld.
+What it means: Borrowers cannot use RBI's stressed-asset rules to force a lender into a majority deal. The binding effect of the 75% decision is a matter between lenders who signed the inter-creditor agreement.
+Law involved: RBI Prudential Framework for Resolution of Stressed Assets, 7 June 2019, paras 9-10; RBI Master Circular on Prudential Norms on Income Recognition, Asset Classification and Provisioning, 1 July 2015, para 6.4; Insolvency and Bankruptcy Code, 2016, s. 7
+
+[JUD-KSE-ELEC] KSE Electricals Pvt Ltd v. Project Director | Calcutta High Court | 2021-11-23 | A.P. No. 230 of 2021
+Bench: Moushumi Bhattacharya J.
+Topic: Stopping invocation of a bank guarantee. Category: Guarantees, pledges and third-party security. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A contractor asked the court to restrain the employer from invoking bank guarantees it had furnished, arguing the invocation did not follow the terms of the guarantees.
+Issue: When can a court stop a beneficiary from invoking an unconditional bank guarantee?
+Held: Courts rarely interfere with bank guarantees, but an injunction is available in cases of fraud, irretrievable injustice or special equities, or where the invocation does not conform to the terms of the guarantee.
+Held: On the facts the invocation was not in terms of the guarantees and special equities existed, so the injunction was confirmed.
+What it means: Banks paying under guarantees should check that the demand matches the guarantee's terms exactly.
+Law involved: Indian Contract Act, 1872, s. 126; Arbitration and Conciliation Act, 1996, s. 9
+
+[JUD-SUNITA] Life Insurance Corporation of India v. Sunita | Supreme Court | 2021-10-29 | 2021 INSC 704, [2021] 10 SCR 180 | Civil Appeal No. 6537 of 2021
+Bench: Sanjiv Khanna and Bela M. Trivedi JJ.
+Topic: Lapsed policy revived after the accident. Category: Insurance claims. Forum: Supreme Court. Sectors: Life insurance.
+Status: Current.
+Facts: A life policy with an accident benefit rider lapsed in October 2011 for non-payment of premium. The life assured met with an accident on 6 March 2012. The overdue premium was paid on 9 March 2012 without mentioning the accident, and he died later that month. The insurer paid the basic sum assured of Rs 3.75 lakh but refused the additional accident benefit. The consumer fora awarded it.
+Issue: Is the accident benefit payable when the policy was in a lapsed condition on the date of the accident and was revived afterwards?
+Held: No. The policy condition required the policy to be in force when the accident took place. It had lapsed and was revived only after the accident, so the accident benefit was not payable.
+Held: Paying the overdue premium without disclosing the accident was a suppression of a material fact. Insurance requires utmost good faith from the insured as well.
+Held: The terms of a policy are to be read strictly. A consumer forum cannot rewrite the contract on grounds of sympathy.
+What it means: Life insurers can decline rider benefits for an event that occurred while the policy was lapsed, even if the base policy is later revived. Revival processes should ask about events since the lapse.
+Law involved: Consumer Protection Act, 1986
+
 [JUD-DENA] Dena Bank (now Bank of Baroda) v. C. Shivakumar Reddy | Supreme Court | 2021-08-04 | 2021 INSC 380, [2021] 8 SCR 1061 | Civil Appeal No. 1650 of 2020
 Bench: Indira Banerjee and V. Ramasubramanian JJ.
-Topic: Balance sheet entries and limitation. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Balance sheet entries and limitation. Category: Recovery, limitation and winding up. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
 Issue: When does limitation run for a lender's insolvency application, and do acknowledgements and recovery decrees restart it?
 Held: An application under section 7 or 9 of the IBC is governed by Article 137 of the Limitation Act: three years from the date of default.
@@ -223,9 +627,19 @@ Held: A final decree or a DRT recovery certificate gives the creditor a fresh ca
 What it means: Lenders should track acknowledgements (balance sheets, restructuring letters, one-time settlement proposals) to keep claims alive, and can rely on a recovery certificate to start a later insolvency application.
 Law involved: Limitation Act, 1963, s. 18, Art. 137; Insolvency and Bankruptcy Code, 2016, s. 7
 
+[JUD-KHANDERIA] Ajoy Khanderia v. Barclays Bank | Delhi High Court | 2021-07-20 | W.P.(C) No. 4030 of 2020
+Bench: Rajiv Sahai Endlaw and Asha Menon JJ.
+Topic: Pledgor's liability is limited to the pledge. Category: Guarantees, pledges and third-party security. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A person pledged securities to a bank for a loan to someone else but was neither the borrower nor a guarantor. After selling the pledged securities, the bank sought to recover the shortfall from him.
+Issue: Is a third-party pledgor liable for the shortfall after the pledged goods are sold?
+Held: No. Under section 176 of the Contract Act, the pawnee can sue the debtor for the shortfall, but a pledgor who is not the debtor or a guarantor is liable only up to the value of the pledged goods.
+What it means: Lenders who want recourse beyond the pledged assets must take a guarantee from the third-party pledgor.
+Law involved: Indian Contract Act, 1872, ss. 172, 176
+
 [JUD-FT-2021B] Franklin Templeton Trustee Services Pvt Ltd v. Amruta Garg (July 2021) | Supreme Court | 2021-07-14 | 2021 INSC 333, [2021] 5 SCR 559 | Civil Appeal Nos. 498-501 of 2021
 Bench: S. Abdul Nazeer and Sanjiv Khanna JJ.
-Topic: Winding up: trustees and SEBI powers. Category: . Forum: . Sectors: Mutual funds.
+Topic: Winding up: trustees and SEBI powers. Category: Securities markets and mutual funds. Forum: Supreme Court. Sectors: Mutual funds.
 Status: Current. Decided under the 1996 Regulations, which the SEBI (Mutual Funds) Regulations, 2026 replaced from 1 April 2026. Regulations 36 to 38 of the 2026 Regulations carry the same consent requirement.
 Issue: Can trustees wind up a scheme without unitholders' prior consent, and are Regulations 39 to 42 valid?
 Held: Regulations 39 to 42 are valid. Being economic regulations, they get judicial restraint.
@@ -233,9 +647,34 @@ Held: Read together with Regulation 18(15)(c), the trustees' opinion that the sc
 What it means: Trustees cannot close a scheme on their own. They need unitholder consent, which shapes how stress in debt schemes is handled. Under regulation 36(5) of the 2026 Regulations, a scheme reopens for business if consent is not obtained.
 Law involved: SEBI (Mutual Funds) Regulations, 1996, regs. 18(15)(c), 39-42; SEBI (Mutual Funds) Regulations, 2026, regs. 36-38; SEBI Act, 1992
 
+[JUD-LALIT] Lalit Kumar Jain v. Union of India | Supreme Court | 2021-05-21 | 2021 INSC 297, [2021] 3 SCR 1075 | Transferred Case (Civil) No. 245 of 2020
+Bench: L. Nageswara Rao and S. Ravindra Bhat JJ.
+Topic: Personal guarantors after a resolution plan. Category: Guarantees, pledges and third-party security. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current. From 26 May 2026 the interim moratorium on filing an application no longer applies to personal guarantors of corporate debtors (IBC (Amendment) Act, 2026).
+Facts: By a notification of 15 November 2019 the Central Government brought the personal insolvency provisions of the Insolvency and Bankruptcy Code into force only for personal guarantors to corporate debtors. Promoters and directors who had guaranteed company loans challenged the notification in several High Courts, and the cases were transferred to the Supreme Court.
+Issue: Could the Government bring Part III of the Code into force only for personal guarantors to corporate debtors, and does approval of the company's resolution plan release the guarantor?
+Held: The notification is valid. The Code itself treats personal guarantors to corporate debtors as a separate class, and bringing the provisions into force for that class alone is not excessive delegation.
+Held: Approval of a resolution plan for the corporate debtor does not by itself discharge the personal guarantor. A discharge of the principal borrower by operation of law, such as in insolvency, does not release the surety.
+Held: The National Company Law Tribunal dealing with the company's insolvency is also the forum for proceedings against its personal guarantor (section 60(2)).
+What it means: A lender can pursue the promoter's personal guarantee for the unpaid balance even after the borrower company's resolution plan is approved, and can start insolvency resolution against the guarantor before the NCLT.
+What it means: Whether the guarantee survives still depends on its terms and on the plan: a plan may itself deal with guarantees.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 1(3), 2(e), 31, 60, 95; Indian Contract Act, 1872, ss. 128, 133-135
+
+[JUD-AMITMET] India Resurgence ARC Pvt Ltd v. Amit Metaliks Ltd | Supreme Court | 2021-05-13 | 2021 INSC 296, [2021] 6 SCR 611 | Civil Appeal No. 1700 of 2021
+Bench: Vineet Saran and Dinesh Maheshwari JJ.
+Topic: Dissenting secured creditor's payout under a plan. Category: Insolvency: creditors, claims and distribution. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Under reconsideration. The minimum payout was re-stated in 2026: under the new section 30(2)(ba), dissenting financial creditors must get at least the lower of their liquidation entitlement under section 53 and what they would get if the plan amount were distributed in the section 53 order. It does not apply where, before the amendment, the committee of creditors had already approved a plan or liquidation had been ordered or resolved on. Separately, in DBS Bank Ltd v. Ruchi Soya Industries Ltd (2024 INSC 14) a two-judge Bench doubted this ruling's reasoning on the dissenting secured creditor's minimum entitlement and referred the question to a larger Bench; that reference does not overrule it.
+Facts: An asset reconstruction company held security over the corporate debtor's assets which it valued far above what the resolution plan offered it. The plan was approved by about 95 per cent of the committee of creditors. The ARC voted against it and argued that the committee had to take the value of each creditor's security into account.
+Issue: Can a dissenting secured financial creditor challenge an approved resolution plan on the ground that it gets less than the value of its security?
+Held: No. How the plan money is shared among creditors is a matter for the commercial wisdom of the committee of creditors. A dissenting secured creditor cannot insist on being paid by reference to the value of its security.
+Held: What the Code assures a dissenting financial creditor is the minimum amount set out in section 30(2)(b). It cannot enforce its security interest outside the plan.
+Held: Courts review an approved plan only on the limited grounds in sections 30(2) and 61(3).
+What it means: A secured lender in the minority is bound by the majority's distribution. Its protection is the statutory minimum for dissenting creditors, so its vote and the negotiation inside the committee matter more than a later challenge.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 30(2), 30(4), 31, 53, 61(3)
+
 [JUD-SHIKHA] Shikha Nischal v. National Insurance Company Ltd | Delhi High Court | 2021-04-19 | W.P.(C) 3190/2021 | W.P.(C) 3190 of 2021
 Bench: Prathiba M. Singh J.
-Topic: Cover for mental illness. Category: . Forum: . Sectors: Health insurance.
+Topic: Cover for mental illness. Category: Insurance claims. Forum: High Courts. Sectors: Health insurance.
 Status: Current.
 Issue: Can a health insurer treat mental illness differently from physical illness?
 Held: Section 21(4) of the Mental Healthcare Act, 2017 requires every insurer to provide medical insurance for treatment of mental illness on the same basis as physical illness. Insurers are bound by the Act regardless of any circular.
@@ -243,9 +682,30 @@ Held: The insurer was ordered to pay costs because the policyholder had to litig
 What it means: Health policies cannot exclude or sub-limit mental illness in a way that does not apply to physical illness. Claims for mental health treatment must be assessed on the same basis.
 Law involved: Mental Healthcare Act, 2017, s. 21(4)
 
+[JUD-NCLAT-TDB] Technology Development Board v. Anil Goel | National Company Law Appellate Tribunal | 2021-04-05 | Company Appeal (AT) (Insolvency) No. 731 of 2020
+Bench: Bansi Lal Bhat J. (Acting Chairperson), Ashok Kumar Mishra and Alok Srivastava.
+Topic: Equal ranking of secured creditors in liquidation. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Under reconsideration. Stayed by the Supreme Court on 29 June 2021; the appeal is pending.
+Facts: In a liquidation, a lender with a first charge on specific assets argued it should be paid from those assets before lenders with a second or no charge on them.
+Issue: In liquidation, do secured creditors who give up their security keep their priority over particular assets?
+Held: No. Secured creditors who relinquish their security to the liquidation estate all rank equally under section 53(1)(b)(ii), whatever their prior inter se priority.
+What it means: The Supreme Court stayed this ruling on 29 June 2021, and the question of inter se priority is pending before it. Lenders should keep priority arguments open and consider whether to realise security themselves under section 52.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 52, 53
+
+[JUD-INDUS-KOTAK] Indus Biotech Pvt Ltd v. Kotak India Venture (Offshore) Fund | Supreme Court | 2021-03-26 | 2021 INSC 216, [2021] 7 SCR 112 | Arbitration Petition (Civil) No. 48 of 2019 with connected matters
+Bench: S.A. Bobde CJI, A.S. Bopanna and V. Ramasubramanian JJ.
+Topic: IBC application versus arbitration. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: An investor holding optionally convertible redeemable preference shares in Indus Biotech filed a section 7 application, claiming a default on redemption. Indus Biotech asked the tribunal to refer the dispute to arbitration under section 8 of the Arbitration Act.
+Issue: When a section 7 application and a request to refer the dispute to arbitration are both pending, which comes first?
+Held: The tribunal must first decide whether there is a default under section 7. If it admits the application, the proceedings become proceedings in rem and the dispute is no longer arbitrable.
+Held: If no default is found and the application is rejected, the parties can go to arbitration. On the facts there was no default, and the Court appointed an arbitral tribunal.
+What it means: An arbitration clause does not stop a lender from filing under section 7, but the tribunal will look at whether a default is really shown before admitting.
+Law involved: Insolvency and Bankruptcy Code, 2016, s. 7; Arbitration and Conciliation Act, 1996, ss. 8, 11
+
 [JUD-SSIMA] Small Scale Industrial Manufactures Association v. Union of India | Supreme Court | 2021-03-23 | 2021 INSC 203, [2021] 15 SCR 1 | Writ Petition (Civil) No. 476 of 2020
 Bench: Ashok Bhushan, R. Subhash Reddy and M.R. Shah JJ.
-Topic: COVID-19 moratorium and interest. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: COVID-19 moratorium and interest. Category: Stressed assets, restructuring and NPAs. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current.
 Issue: Could courts order a full interest waiver, sector-wise relief or a longer moratorium during the COVID-19 pandemic?
 Held: Economic and financial policy of RBI and the Government is open to only limited judicial review. Courts will not order particular relief packages, a full waiver of interest or a longer moratorium.
@@ -254,9 +714,20 @@ What it means: Lenders had to reverse interest on interest and penal interest fo
 What it means: Courts will usually defer to RBI on the design of relief and restructuring schemes, unless they are arbitrary, mala fide or contrary to law.
 Law involved: Disaster Management Act, 2005; RBI COVID-19 Regulatory Package circulars, 2020
 
+[JUD-AYAN] Ayan Mallick v. State Bank of India | Calcutta High Court | 2021-03-04 | WPO No. 23 of 2021
+Bench: Sabyasachi Bhattacharyya J.
+Topic: IBC moratorium does not stop wilful defaulter action. Category: Wilful default and fraud. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A bank started proceedings to declare a company's directors and guarantors wilful defaulters while the company was under insolvency. The directors argued that the moratorium under section 14 of the IBC barred the bank from proceeding.
+Issue: Does the IBC moratorium on the company protect its directors and guarantors from wilful defaulter proceedings?
+Held: No. The moratorium protects the corporate debtor and its assets. Wilful defaulter proceedings target the conduct of the persons behind the company and are not a recovery action against it.
+Held: For this purpose the corporate veil can be lifted to look at the conduct of directors and promoters.
+What it means: Lenders may run wilful defaulter proceedings against promoters, directors and guarantors while the borrower is in insolvency.
+Law involved: Insolvency and Bankruptcy Code, 2016, s. 14; RBI Master Circular on Wilful Defaulters
+
 [JUD-MOHANRAJ] P. Mohanraj v. Shah Brothers Ispat Pvt Ltd | Supreme Court | 2021-03-01 | 2021 INSC 133, [2021] 14 SCR 204 | Civil Appeal No. 10355 of 2018
 Bench: R.F. Nariman, Navin Sinha and K.M. Joseph JJ.
-Topic: Cheque bounce cases and the IBC moratorium. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Cheque bounce cases and the IBC moratorium. Category: Other laws (PMLA, cheques, evidence). Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
 Issue: Does the IBC moratorium stop section 138 cheque-dishonour cases against a company in insolvency and its directors?
 Held: A section 138/141 proceeding against the corporate debtor is a 'proceeding' covered by the moratorium under section 14(1)(a) of the IBC, so it cannot be started or continued against the company during the moratorium.
@@ -265,9 +736,23 @@ Held: Under section 14(3)(b), a surety under a guarantee of the corporate debtor
 What it means: When a corporate borrower enters insolvency, a lender holding dishonoured cheques can still proceed against its signatory directors, and can enforce guarantees, but not against the company itself during the moratorium.
 Law involved: Negotiable Instruments Act, 1881, ss. 138, 141; Insolvency and Bankruptcy Code, 2016, s. 14
 
+[JUD-DASGUPTA] Amitabha Dasgupta v. United Bank of India | Supreme Court | 2021-02-19 | 2021 INSC 104, [2021] 1 SCR 905 | Civil Appeal No. 3966 of 2010
+Bench: Mohan M. Shantanagoudar and Vineet Saran JJ.
+Topic: Bank's duty of care for lockers. Category: Customer protection and consumer disputes. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A bank broke open a customer's locker without notice, wrongly believing rent was unpaid, and allotted it to someone else. When the customer came to operate it, only some of the ornaments were returned. The consumer fora awarded modest compensation and left the dispute over the contents to a civil court.
+Issue: What duty does a bank owe a locker holder, and can it be held liable under consumer law for breaking open a locker without notice?
+Held: Breaking open the locker without notice and in breach of the Reserve Bank's instructions was a gross deficiency in service. The bank was directed to pay Rs 5 lakh as compensation and Rs 1 lakh as litigation costs.
+Held: Whatever the contract says, a bank cannot disclaim all responsibility for lockers. It owes a separate duty of care in running the facility.
+Held: The Court laid down interim rules: a locker register and key register, notice before any change in allotment, a record of access, breaking open only as the law permits and after notice, with an inventory, and no unilateral or unfair terms. The Reserve Bank was directed to issue comprehensive rules within six months.
+Held: A disputed claim about what was inside the locker needs evidence and goes to the civil court.
+What it means: The Reserve Bank's revised safe deposit locker instructions of August 2021, including the model locker agreement, follow from this ruling. Under those instructions, where contents are lost through events such as fire, theft, burglary, building collapse or fraud by the bank's employees, the bank's liability is an amount equal to one hundred times the prevailing annual rent of the locker.
+What it means: Banks should be able to show notice, an inventory and a witnessed procedure before any locker is broken open.
+Law involved: Consumer Protection Act, 1986; Indian Contract Act, 1872 (bailment)
+
 [JUD-FT-2021A] Franklin Templeton Trustee Services Pvt Ltd v. Amruta Garg (February 2021) | Supreme Court | 2021-02-12 | 2021 INSC 87, [2021] 14 SCR 573 | Civil Appeal Nos. 498-501 of 2021
 Bench: S. Abdul Nazeer and Sanjiv Khanna JJ.
-Topic: Winding up: unitholders' consent. Category: . Forum: . Sectors: Mutual funds.
+Topic: Winding up: unitholders' consent. Category: Securities markets and mutual funds. Forum: Supreme Court. Sectors: Mutual funds.
 Status: Current. Decided under the 1996 Regulations, which the SEBI (Mutual Funds) Regulations, 2026 replaced from 1 April 2026. Regulation 36(4) of the 2026 Regulations reflects this ruling. Read with the July 2021 judgment in the same case.
 Issue: When trustees wind up a scheme, what does 'consent of the unitholders' under Regulation 18(15)(c) mean?
 Held: Consent means consent of a majority of the unitholders who take part in the poll, not a majority of all unitholders of the scheme.
@@ -275,9 +760,42 @@ Held: Consent of the majority binds all unitholders, including those who did not
 What it means: Trustees seeking unitholders' consent to wind up need a simple majority of those voting. Regulation 36(4) of the SEBI (Mutual Funds) Regulations, 2026 now writes this in: votes are counted at one vote per unit, and results must be published within 45 calendar days of the winding-up notice.
 Law involved: SEBI (Mutual Funds) Regulations, 1996, regs. 18(15)(c), 39
 
+[JUD-PHOENIX-KETUL] Phoenix ARC Pvt Ltd v. Ketulbhai Ramubhai Patel | Supreme Court | 2021-02-03 | 2021 INSC 59, [2021] 1 SCR 1043 | Civil Appeal No. 5146 of 2019
+Bench: Ashok Bhushan, R. Subhash Reddy and M.R. Shah JJ.
+Topic: A pledgor for another's loan is not a financial debtor. Category: Guarantees, pledges and third-party security. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A company had pledged shares it held in another company to secure a loan given to its parent. Phoenix ARC, as assignee of the loan, claimed in the pledgor's insolvency as a financial creditor.
+Issue: Is a lender who holds a pledge from a company for a loan to a different borrower a financial creditor of the pledgor?
+Held: No. The pledgor had no liability to repay the loan. Following Anuj Jain (Jaypee Infratech), security alone does not make the lender a financial creditor; at best it is a secured creditor of the pledgor.
+What it means: Where a group company provides security, lenders should also take a guarantee or make it a co-borrower so that they rank as financial creditors in its insolvency.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(7), 5(8); Indian Contract Act, 1872, s. 172
+
+[JUD-SPADE] Phoenix ARC Pvt Ltd v. Spade Financial Services Ltd | Supreme Court | 2021-02-01 | 2021 INSC 51, [2021] 15 SCR 1079 | Civil Appeal No. 2842 of 2020
+Bench: D.Y. Chandrachud, Indu Malhotra and Indira Banerjee JJ.
+Topic: Collusive loans and related parties in the creditors' committee. Category: Insolvency: creditors, claims and distribution. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: In the insolvency of a real estate company, two entities connected with its promoter group claimed to be financial creditors on the basis of inter-corporate deposits and a property development arrangement, and sought seats on the committee of creditors. An asset reconstruction company holding genuine debt objected that the transactions were collusive and that the claimants were related parties who had shed that status before the insolvency began.
+Issue: Are sham or collusive transactions 'financial debt', and can an entity that stopped being a related party before insolvency sit on the committee of creditors?
+Held: A transaction that is sham or collusive is not a financial debt, even if it is dressed up as a loan. The money must have been disbursed against consideration for the time value of money in a real transaction.
+Held: The definition of 'related party' is wide. The bar in the first proviso to section 21(2) is normally tested at the time the committee is formed, but it also covers a creditor that ceased to be a related party only to get around the bar.
+What it means: Genuine lenders can challenge the admission of promoter-linked claims and their voting share. Resolution professionals should look at the substance of inter-corporate deposits and at recent changes in shareholding or directorships of claimants.
+What it means: A lender that takes equity, board seats or other control rights in a borrower should check whether it risks being treated as a related party. The Code has a specific carve-out for regulated financial creditors that become related only through conversion of debt into equity.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(7), 5(8), 5(24), 21(2)
+
+[JUD-HARSAC] Haryana Space Application Centre (HARSAC) v. Pan India Consultants Pvt Ltd | Supreme Court | 2021-01-20 | 2021 INSC 33, [2021] 1 SCR 282 | Civil Appeal No. 131 of 2021
+Bench: L. Nageswara Rao, Indu Malhotra and Ajay Rastogi JJ.
+Topic: Substituting an ineligible arbitrator. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: HARSAC, a nodal agency of the Haryana government, appointed the State's Principal Secretary as its nominee arbitrator in a dispute with a contractor. The tribunal's mandate later lapsed under section 29A and the contractor applied for a substitute tribunal.
+Issue: Can an officer with a controlling influence over a party act as its arbitrator, and how is a tribunal whose mandate has lapsed replaced?
+Held: The Principal Secretary had a controlling influence over the State agency, so he was ineligible under section 12(5) read with the Seventh Schedule.
+Held: With both parties' consent, the Court used its power under section 29A(6) to replace the tribunal with a retired Supreme Court judge as sole arbitrator, continuing from the stage reached.
+What it means: A senior officer of a party, or of a government controlling it, cannot sit as that party's arbitrator. Courts can replace a tribunal whose time has lapsed.
+Law involved: Arbitration and Conciliation Act, 1996, ss. 12(5), 29A, Seventh Schedule
+
 [JUD-MANISH] Manish Kumar v. Union of India | Supreme Court | 2021-01-19 | 2021 INSC 28, [2021] 14 SCR 895 | Writ Petition (Civil) No. 26 of 2020
 Bench: R.F. Nariman, Navin Sinha and K.M. Joseph JJ.
-Topic: Minimum number of homebuyers to file. Category: . Forum: . Sectors: Housing finance.
+Topic: Minimum number of homebuyers to file. Category: Insolvency: starting and running the process. Forum: Supreme Court. Sectors: Housing finance.
 Status: Current.
 Issue: Is the 2020 amendment requiring at least 100 allottees, or 10% of allottees, of the same project (whichever is less) to file an insolvency application valid?
 Held: The threshold is valid. A critical mass of allottees of the same real estate project must agree before the Code is triggered.
@@ -287,7 +805,7 @@ Law involved: Insolvency and Bankruptcy Code (Amendment) Act, 2020, s. 3; Insolv
 
 [JUD-DROLIA] Vidya Drolia v. Durga Trading Corporation | Supreme Court | 2020-12-14 | 2020 INSC 697, [2020] 11 SCR 1001 | Civil Appeal No. 2402 of 2019
 Bench: N.V. Ramana, Sanjiv Khanna and Krishna Murari JJ.
-Topic: Debt recovery disputes are not arbitrable. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Debt recovery disputes are not arbitrable. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
 Issue: When is a dispute not arbitrable, and can claims that fall within the Debts Recovery Tribunal's jurisdiction be referred to arbitration?
 Held: A dispute is not arbitrable where it relates to rights in rem, affects third parties and needs centralised adjudication, concerns sovereign or public functions of the State, or is made non-arbitrable expressly or by necessary implication by a mandatory statute.
@@ -296,9 +814,44 @@ Held: At the stage of sections 8 and 11 the court interferes only where the agre
 What it means: Banks and financial institutions entitled to use the DRT cannot take claims that fall within the DRT's jurisdiction (debts at or above the RDB Act s. 1(4) threshold: Rs 10 lakh in the Act, or another amount the Central Government notifies) to arbitration instead. Lenders that cannot use the DRT, such as NBFCs not notified as financial institutions under the RDB Act, commonly use arbitration for recovery.
 Law involved: Arbitration and Conciliation Act, 1996, ss. 2(3), 8, 11; Recovery of Debts and Bankruptcy Act, 1993, ss. 17, 18; Transfer of Property Act, 1882
 
+[JUD-ATHENA] State Bank of India v. Athena Energy Ventures Pvt Ltd | National Company Law Appellate Tribunal, New Delhi | 2020-11-24 | Company Appeal (AT) (Insolvency) No. 633 of 2020
+Bench: A.I.S. Cheema J. (Member, Judicial) and V.P. Singh (Member, Technical).
+Topic: Insolvency against borrower and guarantor at the same time. Category: Guarantees, pledges and third-party security. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A consortium of banks lent to a power company, with its promoter company as corporate guarantor. Insolvency of the borrower had been admitted. The NCLT refused to admit the bank's section 7 application against the guarantor for the same debt, following the appellate tribunal's earlier ruling in Vishnu Kumar Agarwal v. Piramal Enterprises that the same claim cannot be pursued in two insolvency processes.
+Issue: Can a lender pursue corporate insolvency against the principal borrower and the corporate guarantor at the same time for the same debt?
+Held: Yes. Under section 128 of the Contract Act the guarantor's liability is co-extensive with the borrower's, and the Code (section 60(2) and (3)) itself contemplates insolvency proceedings against a corporate debtor and its guarantor going on together.
+Held: The Bench declined to follow Vishnu Kumar Agarwal on this point. The lender can file its claim in both processes, and what it recovers in one is adjusted in the other.
+Held: The NCLT was directed to admit the application against the guarantor, preferably with the same resolution professional as for the borrower.
+What it means: Lenders need not choose between borrower and corporate guarantor. Both applications can be filed and run in parallel, subject to the total recovery not exceeding the debt.
+What it means: The Supreme Court took the same view of the creditor's rights in BRS Ventures v. SREI Infrastructure Finance (2024 INSC 548), listed separately on this page.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 7, 60(2), 60(3); Indian Contract Act, 1872, s. 128
+
+[JUD-NCLAT-VW] Volkswagen Finance Pvt Ltd v. Shree Balaji Printopack Pvt Ltd | National Company Law Appellate Tribunal | 2020-10-19 | Company Appeal (AT) (Insolvency) No. 02 of 2020
+Bench: A.I.S. Cheema J. and Shreesha Merla.
+Topic: Unregistered vehicle loan charge in liquidation. Category: Security, charges and SARFAESI. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: An NBFC had financed a car for a company. Its hypothecation was endorsed on the vehicle's registration certificate but not registered as a charge with the Registrar of Companies, an information utility or CERSAI. In the company's liquidation it claimed as a secured creditor.
+Issue: Is a vehicle financier with an endorsement on the registration certificate, but no registered charge, a secured creditor in liquidation?
+Held: No. Without registration under section 77 of the Companies Act, 2013 or any other proof required by the Liquidation Regulations, the financier could not be treated as a secured creditor. An endorsement under the Motor Vehicles Act is not enough.
+What it means: Vehicle and equipment lenders to companies must register the charge with the Registrar of Companies and CERSAI, not rely only on the RC endorsement. Compare Home Kraft (2025) on the CIRP stage.
+Law involved: Companies Act, 2013, s. 77; Insolvency and Bankruptcy Code, 2016, s. 52(3); Motor Vehicles Act, 1988, s. 51; IBBI (Liquidation Process) Regulations, 2016, reg. 21
+
+[JUD-MAGMA] Magma Fincorp Ltd v. Rajesh Kumar Tiwari | Supreme Court | 2020-10-01 | 2020 INSC 574, [2020] 11 SCR 59 | Civil Appeal No. 5622 of 2019
+Bench: D.Y. Chandrachud and Indira Banerjee JJ.
+Topic: Repossession of a financed vehicle. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A borrower took a vehicle on hire purchase from an NBFC and paid 7 of 35 instalments. The financier repossessed and sold the vehicle. The consumer fora held that repossession without notice was a deficiency in service and ordered a refund of the instalments paid, with compensation.
+Issue: Can a financier repossess a vehicle under a hire purchase agreement without notice, and what relief can a consumer forum give if it does?
+Held: Under a hire purchase agreement the financier remains the owner until all instalments are paid, and may take back the vehicle on default as the agreement provides.
+Held: Whether notice is needed before repossession depends on the terms of the agreement, express or implied. If the agreement requires notice, repossessing without it is a breach and a deficiency in service.
+Held: The remedy for such a breach is damages for the loss actually caused. A refund of all instalments, which were in substance hire charges for use of the vehicle, is not automatic. The refund ordered by the fora was set aside, and the financier was directed to pay a composite Rs 15,000 as damages and costs for not giving a proper notice before repossession.
+What it means: NBFCs financing vehicles should follow the notice terms of their own agreements and the Reserve Bank's fair practices code, and take possession peacefully. A lapse in the notice leads to modest damages measured by actual loss, not to a refund of what the borrower paid.
+Law involved: Consumer Protection Act, 1986, ss. 2(1)(g), 14; Hire-Purchase Act, 1972 (not brought into force)
+
 [JUD-KHOTKAR] Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal | Supreme Court | 2020-07-14 | 2020 INSC 453, [2020] 7 SCR 180 | Civil Appeal Nos. 20825-20826 of 2017
 Bench: R.F. Nariman, S. Ravindra Bhat and V. Ramasubramanian JJ.
-Topic: Electronic records as evidence. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Electronic records as evidence. Category: Other laws (PMLA, cheques, evidence). Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current. Decided under the Evidence Act; the same rule now sits in s. 63 of the Bharatiya Sakshya Adhiniyam, 2023.
 Issue: Is a certificate always needed to prove an electronic record, and when can it be produced?
 Held: Sections 65A and 65B of the Evidence Act are a complete code for admitting electronic records. A written certificate under section 65B(4) is a condition for admissibility of a copy; oral evidence cannot replace it.
@@ -307,9 +860,41 @@ Held: The certificate can be directed to be produced at any stage before the tri
 What it means: Loan files, e-agreements, statements of account and call or message records relied on in recovery suits, arbitration or cheque cases need the certificate. Since 01-07-2024 the rule is in section 63 of the Bharatiya Sakshya Adhiniyam, 2023, which prescribes the certificate in its Schedule.
 Law involved: Indian Evidence Act, 1872, ss. 65A, 65B (now Bharatiya Sakshya Adhiniyam, 2023, ss. 62, 63); Information Technology Act, 2000
 
+[JUD-NCLAT-SRIKANTH] Srikanth Dwarakanath (Liquidator of Surana Power Ltd) v. Bharat Heavy Electricals Ltd | National Company Law Appellate Tribunal | 2020-06-18 | Company Appeal (AT) (Insolvency) No. 1510 of 2019
+Bench: Venugopal M. J., V.P. Singh and Shreesha Merla.
+Topic: Realising security outside liquidation needs 60%. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A secured creditor with a pari passu charge over assets of a company in liquidation sought to realise its security outside the liquidation, although it did not hold 60% of the secured debt on those assets.
+Issue: Can a secured creditor with a shared charge enforce its security outside liquidation on its own?
+Held: No. Read with section 13(9) of SARFAESI, a secured creditor with a non-exclusive charge needs the agreement of creditors holding at least 60% in value of the debt secured on the same assets before it can realise them under section 52.
+What it means: Consortium lenders with pari passu security must coordinate before opting out of the liquidation estate.
+Law involved: Insolvency and Bankruptcy Code, 2016, s. 52; SARFAESI Act, 2002, s. 13(9); IBBI (Liquidation Process) Regulations, 2016, reg. 37
+
+[JUD-NCLAT-ICA] Amitabh Kumar Jha v. Bank of India | National Company Law Appellate Tribunal | 2020-05-22 | Company Appeal (AT) (Insolvency) No. 1392 of 2019
+Bench: Bansi Lal Bhat J., Venugopal M. J. and V.P. Singh.
+Topic: Inter-creditor agreement does not stop one lender filing. Category: Stressed assets, restructuring and NPAs. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: Bank of India, one of a consortium of lenders to a toll-road company, filed under section 7 after a default of about Rs 21.68 crore. A director argued that the inter-creditor agreement among the lenders barred a single lender from acting alone.
+Issue: Does an inter-creditor agreement prevent one consortium lender from filing for insolvency on its own?
+Held: No. The agreement governed relations among the lenders and expressly preserved each lender's rights against the borrower. The borrower had no standing to rely on it.
+Held: The appeal was dismissed as frivolous.
+What it means: Borrowers cannot rely on lenders' inter-creditor arrangements to resist insolvency by one lender. The Supreme Court took the same view in GTL Infrastructure (2021).
+Law involved: Insolvency and Bankruptcy Code, 2016, s. 7; RBI Prudential Framework for Resolution of Stressed Assets, 2019
+
+[JUD-TRANSCON] Transcon Skycity Pvt Ltd v. ICICI Bank Ltd | Bombay High Court | 2020-04-11 | Commercial Arbitration Petition (interim application)
+Bench: G.S. Patel J.
+Topic: Lockdown and NPA classification. Category: Stressed assets, restructuring and NPAs. Forum: High Courts. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Interim order. Interim, expressly not a precedent, and overtaken by the Supreme Court's 2021 ruling on the COVID-19 moratorium.
+Facts: A borrower whose instalments were overdue before March 2020 asked the court to stop its lender from classifying the account as an NPA during the COVID-19 lockdown.
+Issue: Should the 90-day NPA period run while the national lockdown was in force?
+Held: As an interim measure, the lockdown period was excluded from the 90-day period for NPA classification, without deciding the merits.
+Held: The court said expressly that the order was not a precedent.
+What it means: The order was overtaken by RBI's COVID-19 moratorium circulars and the Supreme Court's ruling in Small Scale Industrial Manufacturers Association (2021).
+Law involved: RBI Prudential Norms on Income Recognition and Asset Classification; Constitution of India, Art. 226
+
 [JUD-IAMAI] Internet and Mobile Association of India v. Reserve Bank of India | Supreme Court | 2020-03-04 | 2020 INSC 264, [2020] 2 SCR 297 | Writ Petition (Civil) No. 528 of 2018
 Bench: R.F. Nariman, Aniruddha Bose and V. Ramasubramanian JJ.
-Topic: Limits of RBI's powers. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Limits of RBI's powers. Category: RBI powers and lending conduct. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
 Issue: Could RBI direct the entities it regulates to stop serving anyone dealing in virtual currencies?
 Held: The RBI Act, the Banking Regulation Act and the Payment and Settlement Systems Act together give RBI very wide powers over the currency, credit and payment systems, enough to cover virtual currency activity that may affect them.
@@ -318,9 +903,68 @@ What it means: RBI's directions to regulated entities are tested for proportiona
 What it means: The judgment confirms how wide RBI's statutory powers are, including the NBFC powers in Chapter IIIB of the RBI Act.
 Law involved: RBI Act, 1934, ss. 45JA, 45L; Banking Regulation Act, 1949, ss. 35A, 36; Payment and Settlement Systems Act, 2007
 
+[JUD-JAYPEE-AXIS] Anuj Jain, Interim Resolution Professional for Jaypee Infratech Ltd v. Axis Bank Ltd | Supreme Court | 2020-02-26 | 2020 INSC 227, [2020] 8 SCR 291 | Civil Appeal Nos. 8512-8527 of 2019 with connected matters
+Bench: A.M. Khanwilkar, Ajay Rastogi and Dinesh Maheshwari JJ.
+Topic: Mortgages for a parent's loans: preferential and not financial debt. Category: Insolvency: creditors, claims and distribution. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current.
+Facts: Jaypee Infratech had mortgaged its land to secure loans that banks gave to its parent, Jaiprakash Associates. In Jaypee Infratech's insolvency, the resolution professional asked for these mortgages to be set aside as preferential, and the parent's lenders claimed to be financial creditors of Jaypee Infratech.
+Issue: Were the mortgages preferential transactions, and are lenders holding only such third-party security financial creditors of the company that gave it?
+Held: The mortgages were preferential transactions under section 43: they were given to benefit a related party (the parent), within the two-year look-back for related parties, and not in the ordinary course of business. They were set aside.
+Held: A lender who holds only a mortgage from a company for someone else's loan, with no claim against that company to repay, is not its financial creditor. At most it is a secured creditor.
+What it means: Third-party security from group companies is vulnerable in their insolvency. Lenders who want a vote and a claim should take a guarantee as well as the security.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(7), 5(8), 43, 44
+
+[JUD-CANARA] Canara Bank v. United India Insurance Co Ltd | Supreme Court | 2020-02-06 | 2020 INSC 140, [2020] 7 SCR 498 | Civil Appeal No. 1042 of 2020
+Bench: S. Abdul Nazeer and Deepak Gupta JJ.
+Topic: Insurance of hypothecated goods: bank's and insurer's duties. Category: Customer protection and consumer disputes. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: Farmers stored their produce in a cold store and took bank loans against it. The cold store had taken a fire policy covering the stock, at the bank's insistence. A fire destroyed the stock. The insurer rejected the claim, alleging that the fire was not accidental and that the farmers were strangers to the policy; the bank kept charging interest on the loans.
+Issue: Can persons for whose benefit a policy is taken claim under it as consumers, and what is the position of the bank that required the insurance?
+Held: A beneficiary of a policy is a consumer even though he is not a party to it. The farmers could claim directly against the insurer.
+Held: An insurer relying on an exclusion must prove it. Where the fire was not caused by the insured, the reason for the fire does not defeat the claim.
+Held: A bank that insists on insurance of hypothecated goods and is in touch with the insurer has a duty to see that the cover is in place and the insurer is informed. Because of its own deficiency the bank could recover only simple interest at 12 per cent a year and not the contractual rate.
+What it means: Lenders that require borrowers to insure the security should track that the policy is issued, names the right interests and is renewed. A lapse can cost the lender its contractual interest.
+Law involved: Consumer Protection Act, 1986, s. 2(1)(d); Insurance Act, 1938
+
+[JUD-UMANG] Flat Buyers Association Winter Hills-77, Gurgaon v. Umang Realtech Pvt Ltd | National Company Law Appellate Tribunal, New Delhi | 2020-02-04 | Company Appeal (AT) (Insolvency) No. 926 of 2019
+Bench: S.J. Mukhopadhaya J. (Chairperson) and Bansi Lal Bhat J. (Member, Judicial).
+Topic: Project-wise insolvency of a real estate company. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Housing finance, Lending (NBFCs and banks).
+Status: Current. This is a tribunal ruling built on the facts of one project. Tribunals have followed the project-wise approach in later cases, but it is not laid down in the Code.
+Facts: Two allottees had a real estate developer admitted into insolvency over one housing project. The association of flat buyers of that project appealed, pointing out that an ordinary resolution process would stall construction and that the company had other, separate projects. One of the promoters offered to fund completion of the project.
+Issue: How should the insolvency of a real estate developer be run where the default relates to one project and the allottees want their homes?
+Held: Insolvency of a real estate company started by allottees or lenders of one project is confined to that project. It does not extend to the company's other projects, and creditors of other projects cannot file claims in it.
+Held: Allottees are financial creditors whose claim is met by delivery of the flat. A secured lender such as a bank or financial institution cannot be given the flats in preference to the allottees for whom the project was approved.
+Held: The Tribunal allowed a 'reverse' process: the promoter funds completion from outside as a lender, under the supervision of the resolution professional, and banks and financial institutions are paid alongside. If the promoter fails, the normal process resumes.
+What it means: Banks, HFCs and NBFCs financing a housing project should expect the tribunal to keep the project going and to protect delivery to allottees; the lender's recovery comes from project cash flows and unsold stock under the resolution professional's control.
+What it means: Project-wise accounts and security matter: a lender's exposure to one project may be dealt with separately from the developer's other projects.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8)(f), 7, 25, 30
+
+[JUD-PERKINS] Perkins Eastman Architects DPC v. HSCC (India) Ltd | Supreme Court | 2019-11-26 | 2019 INSC 1285, [2019] 17 SCR 275 | Arbitration Application No. 32 of 2019
+Bench: Uday Umesh Lalit and Indu Malhotra JJ.
+Topic: A party cannot appoint the sole arbitrator. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current. Confirmed by the Constitution Bench in Central Organisation for Railway Electrification v. ECI SPIC SMO MCML (2024), whose ruling on unilateral appointment applies to appointments made after 8 November 2024.
+Facts: The contract allowed the chairman and managing director of HSCC, a public sector company, to appoint the sole arbitrator. A dispute arose and the foreign contractor asked the Supreme Court to appoint an independent arbitrator.
+Issue: Can a person who has an interest in the dispute appoint the sole arbitrator, even if he is not himself the arbitrator?
+Held: No. A person who is ineligible to act as arbitrator because of interest cannot appoint a sole arbitrator either. Whoever has an interest in the outcome will have an element of exclusivity in choosing the arbitrator.
+Held: The Court appointed an independent sole arbitrator.
+What it means: Unilateral appointment clauses in loan and other contracts cannot be relied on. The Constitution Bench in CORE (2024) confirmed the principle.
+Law involved: Arbitration and Conciliation Act, 1996, ss. 11(6), 12(5)
+
+[JUD-JIGNESH] Jignesh Shah v. Union of India | Supreme Court | 2019-09-25 | 2019 INSC 1080, [2019] 12 SCR 678 | Writ Petition (Civil) No. 455 of 2019 with connected matters
+Bench: R.F. Nariman, R. Subhash Reddy and Surya Kant JJ.
+Topic: Limitation for winding-up and insolvency petitions. Category: Recovery, limitation and winding up. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: IL&FS Financial Services filed a winding-up petition against La-Fin Financial Services in October 2016 on a debt that had fallen due in August 2012. The petition was transferred to the NCLT and treated as an insolvency application.
+Issue: When does the limitation period start for a winding-up or insolvency petition based on a debt?
+Held: Article 137 of the Limitation Act applies: the petition must be filed within three years from the date of default.
+Held: Filing a suit for the debt does not extend that period for a winding-up or insolvency petition. The two remedies are separate.
+Held: The petition, filed more than three years after the default, was time-barred and could not continue.
+What it means: Lenders must start insolvency within three years of default, unless the debt is acknowledged in writing (which restarts limitation) or another exclusion applies.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 7, 238A; Limitation Act, 1963, Art. 137; Companies Act, 1956, s. 433(e)
+
 [JUD-VISALAKSHI] Authorised Officer, Indian Bank v. D. Visalakshi | Supreme Court | 2019-09-23 | 2019 INSC 1067, [2019] 13 SCR 177 | Civil Appeal No. 6295 of 2015
 Bench: A.M. Khanwilkar and Dinesh Maheshwari JJ.
-Topic: SARFAESI: who can order possession. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: SARFAESI: who can order possession. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current.
 Issue: Can a Chief Judicial Magistrate deal with a secured creditor's request under section 14 of SARFAESI to take possession?
 Held: Yes. In non-metropolitan areas the Chief Judicial Magistrate is competent, as the expressions CMM and CJM are interchangeable. This settled conflicting High Court views.
@@ -330,7 +974,7 @@ Law involved: SARFAESI Act, 2002, s. 14; Code of Criminal Procedure, 1973
 
 [JUD-PIONEER] Pioneer Urban Land and Infrastructure Ltd v. Union of India | Supreme Court | 2019-08-09 | 2019 INSC 889, [2019] 10 SCR 381 | Writ Petition (Civil) No. 43 of 2019
 Bench: R.F. Nariman, Sanjiv Khanna and Surya Kant JJ.
-Topic: Homebuyers as financial creditors. Category: . Forum: . Sectors: Housing finance, Lending (NBFCs and banks).
+Topic: Homebuyers as financial creditors. Category: Insolvency: starting and running the process. Forum: Supreme Court. Sectors: Housing finance, Lending (NBFCs and banks).
 Status: Current. See also Manish Kumar (2021) on the minimum number of allottees.
 Issue: Is the 2018 amendment to the IBC that treats allottees of real estate projects as financial creditors constitutional?
 Held: The amendment is valid. Allottees are financial creditors who can start insolvency under section 7 and sit on the Committee of Creditors through authorised representatives.
@@ -339,9 +983,22 @@ What it means: In a builder's insolvency, homebuyers can hold a large share of t
 What it means: Construction finance needs to price the risk that homebuyers will drive the resolution plan.
 Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8)(f), 21(6A), 25A; Real Estate (Regulation and Development) Act, 2016
 
+[JUD-RHC-NCLAT] Housing Development Finance Corporation Ltd v. RHC Holding Pvt Ltd | National Company Law Appellate Tribunal, New Delhi | 2019-07-10 | Company Appeal (AT) (Insolvency) No. 26 of 2019
+Bench: S.J. Mukhopadhaya J. (Chairperson) and A.I.S. Cheema J. (Member, Judicial).
+Topic: A creditor cannot file for insolvency of an NBFC. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current. In November 2019 the Central Government notified rules under section 227: insolvency of NBFCs and HFCs with assets of Rs 500 crore or more can be started only on the Reserve Bank's application.
+Facts: A housing finance company filed a section 7 application against a group holding company that held a Reserve Bank certificate of registration as a non-deposit-taking NBFC. The NCLT rejected the application on the ground that an NBFC is a financial service provider outside the Code. The lender argued that the company only invested in and guaranteed the debts of its own group and provided none of the financial services listed in the Code.
+Issue: Can a financial creditor start corporate insolvency under section 7 against a company registered with the Reserve Bank as an NBFC?
+Held: No. A 'corporate person' under the Code does not include a financial service provider, and a company registered with the Reserve Bank to carry on the business of a non-banking financial institution is a financial service provider.
+Held: The list of financial services in section 3(16) is inclusive. It is not necessary that the company accepts public deposits.
+Held: An allegation that the NBFC is breaching the conditions of its registration is a matter for the Reserve Bank. It is not a ground to admit or reject an insolvency application.
+What it means: A lender to an NBFC or HFC cannot itself use section 7 or 9 against it. Insolvency of a notified financial service provider can be started only by its regulator under the section 227 rules, and other recovery routes remain for the lender.
+What it means: Lenders to group holding and investment companies should check whether the borrower holds an NBFC or core investment company registration before choosing a recovery route.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 3(7), 3(8), 3(16), 3(17), 7, 227; Reserve Bank of India Act, 1934, ss. 45-I, 45-IA
+
 [JUD-JAH] State Bank of India v. Jah Developers Pvt Ltd | Supreme Court | 2019-05-08 | 2019 INSC 652, [2019] 7 SCR 701 | Civil Appeal No. 4776 of 2019
 Bench: R.F. Nariman and Vineet Saran JJ.
-Topic: Wilful defaulters. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: Wilful defaulters. Category: Wilful default and fraud. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current.
 Issue: Can a borrower be represented by a lawyer before a lender's committees that decide wilful default?
 Held: The in-house committees under RBI's wilful defaulter circular exercise administrative, not judicial, power. A borrower has no right to be represented by a lawyer before them.
@@ -350,9 +1007,19 @@ What it means: Wilful default classification needs a show-cause notice, a chance
 What it means: RBI's Wilful Defaulter Directions of 2024 now go further: the Review Committee must also give the borrower, guarantor, promoter or director an opportunity for a personal hearing. Follow the Directions for the current procedure.
 Law involved: Advocates Act, 1961, s. 30; Constitution of India, Art. 19(1)(g); RBI Master Circular on Wilful Defaulters, 2015
 
+[JUD-NCLAT-RABOBANK] Cooperatieve Rabobank U.A. v. Shailendra Ajmera (Ruchi Soya Industries) | National Company Law Appellate Tribunal | 2019-04-29 | Company Appeal (AT) (Insolvency) No. 261 of 2018
+Bench: S.J. Mukhopadhaya J. (Chairperson) and Bansi Lal Bhat J.
+Topic: Discounting a supplier's bills makes the bank an operational creditor. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A foreign supplier sold goods to Ruchi Soya and Rabobank discounted the supplier's bills of exchange drawn on Ruchi Soya. In Ruchi Soya's insolvency Rabobank claimed as a financial creditor.
+Issue: Is a bank that discounted a supplier's bills a financial creditor of the buyer?
+Held: No. The bank stood in the shoes of the supplier and its claim arose from the supply of goods. It was an operational creditor of the buyer.
+What it means: Banks discounting receivables without recourse to the buyer's own borrowing should expect to rank as operational creditors in the buyer's insolvency.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8), 5(20), 5(21); Negotiable Instruments Act, 1881
+
 [JUD-REKHABEN] Reliance Life Insurance Co. Ltd v. Rekhaben Nareshbhai Rathod | Supreme Court | 2019-04-24 | 2019 INSC 565, [2019] 6 SCR 733 | Civil Appeal No. 4261 of 2019
 Bench: D.Y. Chandrachud and Hemant Gupta JJ.
-Topic: Disclosure of other policies. Category: . Forum: . Sectors: Life insurance, Health insurance.
+Topic: Disclosure of other policies. Category: Insurance claims. Forum: Supreme Court. Sectors: Life insurance, Health insurance.
 Status: Current. Decided under section 45 as it stood before the 2015 amendment.
 Issue: Can a life insurer repudiate because the insured did not disclose another life policy taken shortly before?
 Held: Insurance contracts rest on utmost good faith. The duty of full disclosure means no information of substance or interest to the insurer may be omitted or concealed.
@@ -361,9 +1028,20 @@ What it means: Questions on existing cover in the proposal form are material. In
 What it means: Section 45 was amended in 2015: a life policy now cannot be questioned on any ground after three years from the date of issue, commencement of risk, revival or rider, whichever is later. Within three years, the insurer must still show the grounds section 45 requires and communicate them in writing.
 Law involved: Insurance Act, 1938, s. 45; Consumer Protection Act, 1986
 
+[JUD-BHARAT-BB] Bharat Broadband Network Ltd v. United Telecoms Ltd | Supreme Court | 2019-04-16 | 2019 INSC 537, [2019] 6 SCR 97 | Civil Appeal No. 3972 of 2019
+Bench: R.F. Nariman and Vineet Saran JJ.
+Topic: Ineligible arbitrators and waiver. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: The chairman and managing director of a public sector company appointed the sole arbitrator under the contract. After the TRF ruling of 2017, the company itself sought to remove the arbitrator, arguing he was ineligible.
+Issue: Is an arbitrator appointed by a person who is ineligible under section 12(5) also ineligible, and can the parties waive this by conduct?
+Held: A person ineligible under section 12(5) and the Seventh Schedule cannot appoint another arbitrator. The appointment was void and the arbitrator's mandate terminated.
+Held: Ineligibility can be waived only by an express agreement in writing made after the dispute arose. Taking part in the arbitration or filing a statement of claim is not a waiver.
+What it means: Loan agreements that let the lender's officer appoint the sole arbitrator are vulnerable. The Constitution Bench in CORE (2024) and Bhadra (2026) built on this line.
+Law involved: Arbitration and Conciliation Act, 1996, ss. 12(5), 14, 15, Seventh Schedule
+
 [JUD-DHARANI] Dharani Sugars and Chemicals Ltd v. Union of India | Supreme Court | 2019-04-02 | 2019 INSC 457, [2019] 6 SCR 307 | Transferred Case (Civil) No. 66 of 2018
 Bench: R.F. Nariman and Vineet Saran JJ.
-Topic: RBI powers over stressed assets. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: RBI powers over stressed assets. Category: Stressed assets, restructuring and NPAs. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current. RBI later replaced the struck-down circular with a new prudential framework.
 Issue: Was RBI's circular of 12 February 2018 on resolution of stressed assets (the 'one-day default' framework) within its powers?
 Held: Sections 35AA and 35AB of the Banking Regulation Act are valid. They confer regulatory powers on RBI and are not manifestly arbitrary.
@@ -373,9 +1051,33 @@ What it means: RBI's power to push lenders into insolvency is case-specific. A g
 What it means: For NBFCs, directions under section 45L must meet that section's conditions. The current stressed-asset rules for NBFCs were issued on this footing.
 Law involved: Banking Regulation Act, 1949, ss. 21, 35A, 35AA, 35AB; RBI Act, 1934, s. 45L; Insolvency and Bankruptcy Code, 2016
 
+[JUD-ED-AXIS] Deputy Director, Directorate of Enforcement v. Axis Bank | Delhi High Court | 2019-04-02 | Criminal Appeal No. 143 of 2018 with connected appeals
+Bench: R.K. Gauba J.
+Topic: PMLA attachment versus a secured lender. Category: Other laws (PMLA, cheques, evidence). Forum: High Courts. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current.
+Facts: The Enforcement Directorate attached properties under the Prevention of Money-laundering Act that had been mortgaged to banks before the alleged offence. The Appellate Tribunal had released the properties in favour of the banks.
+Issue: Can the ED attach property already mortgaged to a bona fide lender, and whose claim prevails?
+Held: The ED can attach 'property of equivalent value' even if it is not tainted, but the attachment does not defeat a prior charge of a bona fide secured creditor who had no part in the offence.
+Held: Where the secured creditor had begun enforcement (under SARFAESI, the RDB Act or the IBC) before the attachment, the attachment is subject to its charge and may only reach any value above the secured debt.
+Held: The appeals were sent back to the Appellate Tribunal to apply these principles.
+What it means: Lenders facing a PMLA attachment should show that the mortgage predates the offence, that they acted in good faith, and when enforcement began. Section 32A of the IBC and the IBBI's 2025 circular on restitution of PMLA-attached assets now help in insolvency cases.
+Law involved: Prevention of Money-laundering Act, 2002, ss. 2(1)(u), 5, 8; SARFAESI Act, 2002, ss. 26E, 35; Insolvency and Bankruptcy Code, 2016, s. 32A
+
+[JUD-VK-JAIN] Vijay Kumar Jain v. Standard Chartered Bank | Supreme Court | 2019-01-31 | 2019 INSC 122, [2019] 1 SCR 779 | Civil Appeal No. 8430 of 2018 with Writ Petition (Civil) No. 1266 of 2018
+Bench: R.F. Nariman and Navin Sinha JJ.
+Topic: Directors' access to resolution plans. Category: Insolvency: starting and running the process. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A former director of a company in insolvency asked for copies of the resolution plans placed before the committee of creditors. The resolution professional refused and the appellate tribunal upheld the refusal.
+Issue: Are members of the suspended board entitled to see the resolution plans considered by the committee of creditors?
+Held: Members of the suspended board may attend committee meetings under section 24(3), and to take part meaningfully they must be given the resolution plans.
+Held: The resolution professional may ask them for a confidentiality undertaking before sharing the plans.
+Held: The Court directed the committee to consider the plans afresh with the directors participating.
+What it means: Lenders and resolution professionals should circulate plans to suspended directors with a confidentiality undertaking. A plan approved without this can be challenged.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 21, 24, 30
+
 [JUD-SWISS] Swiss Ribbons Pvt Ltd v. Union of India | Supreme Court | 2019-01-25 | 2019 INSC 95, [2019] 3 SCR 535 | Writ Petition (Civil) No. 99 of 2018
 Bench: R.F. Nariman and Navin Sinha JJ.
-Topic: Insolvency and Bankruptcy Code upheld. Category: . Forum: . Sectors: Lending (NBFCs and banks), Housing finance.
+Topic: Insolvency and Bankruptcy Code upheld. Category: Insolvency: starting and running the process. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
 Status: Current.
 Issue: Is the Insolvency and Bankruptcy Code constitutional, in particular its different treatment of financial and operational creditors?
 Held: The Code is constitutionally valid.
@@ -384,18 +1086,107 @@ Held: A financial creditor must prove a 'default', while an operational creditor
 What it means: Financial creditors, including NBFCs and HFCs, vote in the Committee of Creditors and so have a strong say in the outcome. Section 7 is a route to collective resolution of a defaulting company, not a debt collection tool, though lenders often recover through it.
 Law involved: Insolvency and Bankruptcy Code, 2016
 
+[JUD-NCLAT-PUTOPTION] Pushpa Shah v. IL&FS Financial Services Ltd | National Company Law Appellate Tribunal | 2019-01-21 | Company Appeal (AT) (Insolvency) Nos. 521 and 643 of 2018
+Bench: S.J. Mukhopadhaya J. (Chairperson) and Bansi Lal Bhat J.
+Topic: Put option obligations as financial debt. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: An NBFC bought shares in a group company under an arrangement that obliged a group entity to buy them back at a price giving the NBFC a return. When the buy-back was not honoured, the NBFC filed under section 7.
+Issue: Is an obligation to buy back shares at a price that gives the investor a return a financial debt?
+Held: Yes. The transaction had the commercial effect of a borrowing, because the amount was raised against the time value of money. It fell within section 5(8)(f), so the investor was a financial creditor.
+What it means: Structured equity with a guaranteed exit can be a financial debt. In the related appeal, Jignesh Shah v. Union of India (2019), the Supreme Court held a winding-up petition on the same debt time-barred, without disturbing this point.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8)(f), 7
+
+[JUD-NCLAT-VISHNU] Vishnu Kumar Agarwal v. Piramal Enterprises Ltd | National Company Law Appellate Tribunal | 2019-01-08 | Company Appeal (AT) (Insolvency) Nos. 346 and 347 of 2018
+Bench: S.J. Mukhopadhaya J. (Chairperson) and Bansi Lal Bhat J.
+Topic: Two insolvencies for one debt. Category: Guarantees, pledges and third-party security. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Law since changed. Not followed: the NCLAT itself departed from it in later cases, and the Supreme Court allowed parallel proceedings in Maitreya Doshi (2022) and BRS Ventures (2024).
+Facts: A lender had already admitted its claim in the insolvency of one corporate guarantor and then filed a second section 7 application against another corporate guarantor for the same debt.
+Issue: Can a financial creditor start a second insolvency for the same debt against another guarantor?
+Held: The tribunal held that once a claim was admitted in one corporate debtor's insolvency, a second application for the same debt against another corporate debtor was not maintainable, though the creditor could file against both at once.
+What it means: The Supreme Court later held in Maitreya Doshi (2022) that insolvency can run against both co-obligors, subject to no double recovery. The NCLAT's restriction is no longer followed.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 7, 60
+
+[JUD-NCLAT-BINANI] Binani Industries Ltd v. Bank of Baroda | National Company Law Appellate Tribunal | 2018-11-14 | Company Appeal (AT) (Insolvency) No. 82 of 2018 with connected appeals
+Bench: S.J. Mukhopadhaya J. (Chairperson) and Bansi Lal Bhat J.
+Topic: Maximising value and treating creditors fairly. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current. Read with the Supreme Court's ruling in Committee of Creditors of Essar Steel v. Satish Kumar Gupta (2019).
+Facts: In Binani Cement's insolvency the committee of creditors approved a plan that treated some financial and operational creditors less favourably than others. A rival bidder then offered a higher plan that paid creditors more fairly.
+Issue: What is the purpose of the resolution process, and can a plan discriminate between creditors of the same kind?
+Held: The objective of the IBC is resolution and maximisation of the value of assets, not recovery for particular creditors.
+Held: A plan that discriminates among similarly placed creditors without reason is not in line with the IBC. The tribunal set aside the earlier plan and approved the higher, non-discriminatory plan.
+What it means: Lenders on a committee should be able to justify differences in treatment between creditors. The Supreme Court later held in Essar Steel (2019) that different treatment of secured and unsecured creditors is permitted if it is fair.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 30, 31, 53
+
+[JUD-ARCELOR] ArcelorMittal India Pvt Ltd v. Satish Kumar Gupta | Supreme Court | 2018-10-04 | 2018 INSC 935, [2018] 12 SCR 362 | Civil Appeal Nos. 9402-9405 of 2018
+Bench: R.F. Nariman and Indu Malhotra JJ.
+Topic: Who may bid: section 29A. Category: Insolvency: starting and running the process. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: In the insolvency of Essar Steel, the resolution professional found both bidders, ArcelorMittal and Numetal, ineligible under section 29A: ArcelorMittal because of its link to a defaulting company, Numetal because of its link to the Ruia promoters.
+Issue: How is section 29A applied to resolution applicants, and what are the roles of the committee of creditors and the tribunals?
+Held: Section 29A is read by looking at the substance: 'control', 'management' and 'connected person' cover persons who act jointly or in concert, and the corporate veil may be lifted to see who really stands behind a bid.
+Held: Both bidders were ineligible when they bid, but were given a chance to become eligible by paying the overdue debts of the connected defaulting companies within two weeks.
+Held: The feasibility and commercial merits of a plan are for the committee of creditors. The tribunals review only legality. Time lost in litigation may be excluded from the CIRP timeline.
+What it means: Lenders on a committee of creditors must test eligibility under section 29A on substance and cannot leave it to the resolution professional alone.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 29A, 30, 31, 60, 61
+
 [JUD-RAMAKRISHNAN] State Bank of India v. V. Ramakrishnan | Supreme Court | 2018-08-14 | 2018 INSC 711, [2018] 10 SCR 974 | Civil Appeal No. 3595 of 2018
 Bench: R.F. Nariman and Indu Malhotra JJ.
-Topic: Guarantors and the moratorium. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Guarantors and the moratorium. Category: Guarantees, pledges and third-party security. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
 Issue: Does the moratorium in the corporate borrower's insolvency protect its personal guarantors?
 Held: The moratorium under section 14 of the IBC applies only to the corporate debtor. It does not mention, and does not protect, personal guarantors.
 What it means: A lender can sue or proceed against a guarantor while the corporate borrower is under moratorium. This fits the co-extensive liability of a surety under section 128 of the Contract Act. Section 14(3)(b), inserted in 2018, now says so expressly.
 Law involved: Insolvency and Bankruptcy Code, 2016, ss. 14, 60; Indian Contract Act, 1872, s. 128
 
+[JUD-KISHAN] K. Kishan v. Vijay Nirman Company Pvt Ltd | Supreme Court | 2018-08-14 | 2018 INSC 710, [2018] 10 SCR 959 | Civil Appeal Nos. 21824-21825 of 2017
+Bench: R.F. Nariman and Indu Malhotra JJ.
+Topic: Arbitral award under challenge is a dispute. Category: Insolvency: starting and running the process. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A contractor obtained arbitral awards against a company and then served an IBC demand notice and filed a section 9 application for the awarded sums. The company had already challenged the awards under section 34 of the Arbitration Act.
+Issue: Can an operational creditor start insolvency on an arbitral award that is under challenge?
+Held: A pending challenge under section 34 means there is a pre-existing dispute, so the section 9 application cannot be admitted.
+Held: The IBC is not a tool to recover debts or to pressure a debtor into paying an award it is lawfully contesting.
+What it means: A creditor with an award that is under challenge should enforce it through execution once the challenge fails, not through the IBC.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 8, 9; Arbitration and Conciliation Act, 1996, ss. 34, 36
+
+[JUD-ITC-BLUECOAST] ITC Ltd v. Blue Coast Hotels Ltd | Supreme Court | 2018-03-19 | 2018 INSC 241, [2018] 5 SCR 516 | Civil Appeal Nos. 2928-2930 of 2018 with connected appeals
+Bench: S.A. Bobde and L. Nageswara Rao JJ.
+Topic: SARFAESI sale and a borrower's conduct. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current. The right of redemption after the 2016 amendment to section 13(8) is now explained in Celir LLP (2023).
+Facts: IFCI took action under SARFAESI against a hotel company in Goa and sold the hotel to ITC. The borrower had repeatedly sought time and promised to pay. The High Court set the sale aside for defects in the SARFAESI procedure, including the response to the borrower's objection under section 13(3A).
+Issue: Can a borrower who has repeatedly sought time and not paid have a SARFAESI sale set aside on procedural grounds?
+Held: The secured creditor was entitled to take possession and sell. On the law as it then stood, the borrower's right to redeem the property ended when the sale was made.
+Held: A borrower whose conduct was to seek time repeatedly without paying cannot rely on non-compliance with section 13(3A), and is not entitled to discretionary relief under Article 226.
+What it means: Courts look at the borrower's conduct before granting writ relief against a SARFAESI sale. A sale can still be set aside for failure to follow section 13 and the Security Interest Rules. Since the 2016 amendment to section 13(8), the right to redeem ends on publication of the sale notice (Celir LLP, 2023).
+Law involved: SARFAESI Act, 2002, ss. 13(2), 13(3A), 13(4), 13(8); Security Interest (Enforcement) Rules, 2002
+
+[JUD-NCLAT-IRPCOST] State Bank of India v. SKC Retails Ltd | National Company Law Appellate Tribunal | 2018-03-06 | Company Appeal (AT) (Insolvency) Nos. 08, 09 and 43 of 2018
+Bench: S.J. Mukhopadhaya J. (Chairperson) and Bansi Lal Bhat J.
+Topic: Who pays the interim resolution professional. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: The NCLT directed the committee of creditors to bear the interim resolution professional's expenses in proportion to their claims. SBI, a committee member, appealed.
+Issue: Who must bear the interim resolution professional's fees and expenses?
+Held: Under Regulation 33 of the CIRP Regulations, the applicant who filed the petition and proposed the interim resolution professional bears the expenses first.
+Held: The committee of creditors reimburses the applicant to the extent it ratifies the expenses, which then form part of the insolvency resolution process costs.
+What it means: A lender that files should budget for the interim professional's fees and seek ratification at the first committee meeting.
+Law involved: Insolvency and Bankruptcy Code, 2016, s. 5(13); IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016, reg. 33
+
+[JUD-TAYAL] United India Insurance Co Ltd v. Jai Parkash Tayal | Delhi High Court | 2018-02-26 | RFA 610/2016
+Bench: Prathiba M. Singh J.
+Topic: Exclusion of genetic disorders. Category: Insurance claims. Forum: High Courts. Sectors: Health insurance.
+Status: Partly stayed. On 27 August 2018 the Supreme Court stayed the High Court's general conclusions and directions (including the findings under Articles 14 and 21 and the direction to the regulator), while leaving the payment to the policyholder undisturbed. The insurer's appeal is pending.
+Facts: A policyholder with a heart condition (hypertrophic obstructive cardiomyopathy) was refused a mediclaim payout under an exclusion for 'genetic disorders' that the insurer had added to the policy at a renewal. The trial court decreed his suit, and the insurer appealed.
+Issue: Is a blanket exclusion of 'genetic disorders' in a health insurance policy valid?
+Held: A broad exclusion of all genetic disorders is too wide, ambiguous and discriminatory. It violates Article 14, and it is contrary to public policy when used to deny claims.
+Held: The right to avail of health insurance is part of the right to health and healthcare under Article 21.
+Held: The insurance regulator was asked to look again at exclusion clauses so that claims are not rejected on the basis of genetic disorders. The decree for Rs 5 lakh with interest was upheld.
+What it means: The regulator afterwards told insurers not to reject claims on the basis of a 'genetic disorder' exclusion and standardised the permitted exclusions. Insurers should follow those regulatory requirements; the High Court's wider constitutional conclusions are stayed.
+What it means: Exclusions added at renewal without clear notice to the policyholder are open to challenge.
+Law involved: Constitution of India, Arts. 14, 21; Insurance Act, 1938
+
 [JUD-RAKHI] SEBI v. Rakhi Trading Pvt Ltd | Supreme Court | 2018-02-08 | 2018 INSC 119, [2018] 1 SCR 937 | Civil Appeal No. 1969 of 2011
 Bench: Kurian Joseph and R. Banumathi JJ.
-Topic: Synchronised and reversal trades. Category: . Forum: . Sectors: Stock broking.
+Topic: Synchronised and reversal trades. Category: Securities markets and mutual funds. Forum: Supreme Court. Sectors: Stock broking.
 Status: Current.
 Issue: Can pre-arranged, reversed trades in the futures and options segment be manipulative, even though they are cash-settled?
 Held: Yes. Trading is meant to make profit. Where one party consistently loses in pre-planned, rapid reversal trades, the trades are not genuine and amount to an unfair trade practice.
@@ -404,9 +1195,20 @@ Held: SEBI's appeals against the brokers were dismissed. Merely facilitating a t
 What it means: Clients who trade in pre-arranged reversals in derivatives are exposed to action even though the trades are cash-settled. A broker is liable only on proof of its own negligence or connivance, so surveillance alerts and records of client instructions matter.
 Law involved: SEBI (PFUTP) Regulations, 2003, regs. 3, 4; SEBI (Stock Brokers) Regulations
 
+[JUD-MOBILOX] Mobilox Innovations Pvt Ltd v. Kirusa Software Pvt Ltd | Supreme Court | 2017-09-21 | 2017 INSC 975, [2017] 10 SCR 1006 | Civil Appeal No. 9405 of 2017
+Bench: R.F. Nariman and Sanjay Kishan Kaul JJ.
+Topic: Pre-existing disputes bar operational creditors. Category: Insolvency: starting and running the process. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: Kirusa, which provided tele-voting services, sent Mobilox a demand notice for unpaid invoices and applied under section 9 of the IBC. Mobilox replied that Kirusa had breached a non-disclosure agreement, so the amounts were disputed.
+Issue: When does a dispute raised by the debtor defeat an operational creditor's insolvency application?
+Held: If the debtor shows a plausible dispute about the debt that existed before the demand notice, the tribunal must reject the section 9 application. The dispute need not already be in a suit or arbitration.
+Held: The tribunal does not decide who is right. It only separates a real dispute that needs further investigation from one that is spurious, hypothetical or patently feeble.
+What it means: Suppliers, service providers and other operational creditors cannot use the IBC to recover disputed dues. Financial creditors under section 7 are not subject to this test.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(6), 8, 9
+
 [JUD-KANAIYALAL] SEBI v. Kanaiyalal Baldevbhai Patel | Supreme Court | 2017-09-20 | 2017 INSC 963, [2017] 14 SCR 268 | Civil Appeal No. 2595 of 2013
 Bench: Ranjan Gogoi and N.V. Ramana JJ.
-Topic: Front-running. Category: . Forum: . Sectors: Mutual funds, Stock broking.
+Topic: Front-running. Category: Securities markets and mutual funds. Forum: Supreme Court. Sectors: Mutual funds, Stock broking.
 Status: Current.
 Issue: Can front-running by persons who are not intermediaries be punished under the PFUTP Regulations?
 Held: Information about trades a large investor is about to place is that investor's confidential information.
@@ -414,9 +1216,105 @@ Held: A person who passes on such information in breach of duty, and a 'tippee' 
 What it means: Fund managers, dealers and anyone with advance knowledge of a fund's orders, and those they tip off, are exposed to SEBI action. AMCs need controls on order information and on staff and related-party trading.
 Law involved: SEBI (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 2003, regs. 3, 4(1); SEBI Act, 1992
 
+[JUD-INNOVENTIVE] Innoventive Industries Ltd v. ICICI Bank | Supreme Court | 2017-08-31 | 2017 INSC 837, [2017] 8 SCR 33 | Civil Appeal Nos. 8337-8338 of 2017
+Bench: R.F. Nariman and Sanjay Kishan Kaul JJ.
+Topic: Admission of a creditor's insolvency petition. Category: Insolvency: starting and running the process. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current.
+Facts: ICICI Bank applied under section 7 of the IBC to start insolvency against Innoventive Industries. The company argued that its liabilities stood suspended by a Maharashtra government notification under the Maharashtra Relief Undertakings (Special Provisions) Act, 1958, so no debt was payable.
+Issue: What must the tribunal examine before admitting a financial creditor's application, and can a State relief law suspending a company's debts block insolvency under the IBC?
+Held: On a section 7 application the tribunal only has to be satisfied that a default has occurred, that is, that a financial debt was due and has not been paid. The debtor may show that the debt is not due or not payable in law, but the creditor need not prove more.
+Held: The Maharashtra Act is repugnant to the IBC, a later Parliamentary law on the same subject, and gives way to it under Article 254 of the Constitution. A State law suspending liabilities cannot stop an IBC process.
+Held: The IBC is a complete code designed for speed; the tribunal must decide admission within the statutory timelines.
+What it means: Lenders filing under section 7 need clear proof of the debt and the default (loan documents, statements, record from an information utility). Arguments about the borrower's general hardship or other relief schemes do not defeat admission.
+What it means: Later rulings refined the discretion to admit, but default remains the trigger for a financial creditor's petition.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 3(12), 7, 238; Constitution of India, Art. 254
+
+[JUD-OMB-S45] Group credit life claim rejected for non-disclosure: premium refunded under section 45 | Insurance Ombudsman, Pune | 2017-08-28 | Award No. IO/PUN/A/LI/0104/2017-2018 (Complaint No. PUN-L-006-1718-0301)
+Topic: Early death claim under loan-linked group life cover. Category: Insurance claims. Forum: Ombudsman. Sectors: Life insurance, Lending (NBFCs and banks).
+Status: Current. An Ombudsman award binds the insurer in that complaint only. It is not a precedent, but it shows how such complaints are decided. The source is the summary of the award published by the Council for Insurance Ombudsmen.
+Facts: A borrower was covered under a group term life policy taken with a loan from an NBFC. She died 362 days into the cover. The insurer rejected the death claim because she had not disclosed treatment for cancer in the proposal, and the cause of death was related to it.
+Issue: What is payable where a life insurer proves suppression of a material fact but does not allege fraud?
+Held: The insurer proved the non-disclosure with cogent evidence, so the rejection of the death claim stood.
+Held: Because the insurer had not alleged fraud, the amended section 45 of the Insurance Act required it to refund the premium paid. It was directed to do so.
+What it means: For loan-linked group life cover sold through lenders, the health declaration taken at the time of the loan decides whether an early claim is paid. Lenders acting as master policyholders should make sure borrowers complete it themselves.
+What it means: Where a claim within three years is rejected for misstatement not amounting to fraud, the insurer has to refund the premiums.
+Law involved: Insurance Act, 1938, s. 45 (as substituted in 2015); Insurance Ombudsman Rules, 2017
+
+[JUD-ALKA] Alka Chandewar v. Shamshul Ishrar Khan | Supreme Court | 2017-07-06 | 2017 INSC 593, [2017] 6 SCR 533 | Civil Appeal No. 8720 of 2017
+Bench: R.F. Nariman and Sanjay Kishan Kaul JJ.
+Topic: Enforcing an arbitral tribunal's interim orders. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A party ignored interim orders made by an arbitral tribunal under section 17 of the Arbitration Act. The tribunal referred the default to the court under section 27(5), but the Bombay High Court held that it had no power to punish for such disobedience.
+Issue: Can disobedience of an arbitral tribunal's interim order be punished as contempt?
+Held: Yes. Under section 27(5), a person who fails to comply with an arbitral tribunal's interim order is guilty of contempt of the tribunal, and the tribunal may make a representation to the court, which can punish as for contempt of court.
+Held: From 23 October 2015 section 17(2) also makes the tribunal's interim orders enforceable as if they were orders of the court.
+What it means: Lenders that get interim relief from an arbitral tribunal (for example, to secure a vehicle or deposit funds) can enforce it through the court.
+Law involved: Arbitration and Conciliation Act, 1996, ss. 17, 27(5)
+
+[JUD-OMB-24H] Eye injection treatment refused as under 24 hours and 'out-patient' | Insurance Ombudsman, Ahmedabad | 2017-06-22 | Complaint No. AHD-G-050-1718-0228
+Topic: 24-hour hospitalisation and day-care procedures. Category: Insurance claims. Forum: Ombudsman. Sectors: Health insurance.
+Status: Current. An Ombudsman award binds the insurer in that complaint only. It is not a precedent, but it shows how such complaints are decided. The source is the summary of the award published by the Council for Insurance Ombudsmen.
+Facts: An insured under a family floater policy had two intravitreal injection procedures for a retinal condition, costing Rs 50,225 in all. The insurer refused both claims, saying the hospital stay was under 24 hours, the treatment could have been taken as an out-patient and it was 'unproven'.
+Issue: Can a claim be refused for a stay of less than 24 hours where the procedure is done in an operation theatre by a specialist?
+Held: No. Procedures that once needed longer admission are now done in a few hours because of advances in technology. Eye surgery was covered by the policy's day-care clause with no 24-hour condition.
+Held: The treatment needed an operation theatre and a specialist and was not an ordinary out-patient treatment. The insurer did not prove that it was unproven. The claim was allowed, less the policy's 10 per cent co-payment.
+What it means: Insurers should test short-stay claims against the day-care clause and the nature of the procedure, and should state one clear ground of rejection. A different award in the same compilation upheld rejection where the procedure was not in that policy's day-care list, so the wording of the policy decides the outcome.
+Law involved: Insurance Ombudsman Rules, 2017
+
+[JUD-OMB-RC] Deduction from a cataract claim as above 'reasonable and customary' charges | Insurance Ombudsman, Ahmedabad | 2017-06-05 | Complaint No. AHD-G-051-1718-0045
+Topic: 'Reasonable and customary charges' deductions. Category: Insurance claims. Forum: Ombudsman. Sectors: Health insurance.
+Status: Current. An Ombudsman award binds the insurer in that complaint only. It is not a precedent, but it shows how such complaints are decided. The source is the summary of the award published by the Council for Insurance Ombudsmen.
+Facts: A senior citizen claimed Rs 62,227 for cataract surgery. The insurer paid Rs 32,927 and disallowed the rest under the policy's 'reasonable and customary charges' clause, saying a multifocal lens was a betterment she did not need.
+Issue: What must an insurer show before cutting a health claim as above reasonable and customary charges?
+Held: The insurer must prove that the charges were unreasonable, by reference to prevailing charges for the same treatment in the same area. It produced no comparative rates, so the deduction was arbitrary.
+Held: The surgeon's fee and the actual cost of the lens could not be treated as unreasonable. The insurer was directed to pay a further Rs 23,323.
+What it means: A 'reasonable and customary' deduction needs evidence: rate comparisons for the same provider type and geography. An insurer's or administrator's opinion on what the patient needed is not enough.
+Law involved: Insurance Ombudsman Rules, 2017
+
+[JUD-NCLAT-STARLOG] Starlog Enterprises Ltd v. ICICI Bank Ltd | National Company Law Appellate Tribunal | 2017-05-24 | Company Appeal (AT) (Insolvency) No. 5 of 2017
+Bench: S.J. Mukhopadhaya J. (Chairperson) and Balvinder Singh.
+Topic: Admission without notice set aside. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: The NCLT admitted ICICI Bank's section 7 application against Starlog Enterprises ex parte. The company had not been served, and the claim did not match the record.
+Issue: Can a section 7 application be admitted without notice to the company?
+Held: The admission was set aside. The company must be given notice and a hearing before admission, and the claim and default must be properly shown.
+Held: Costs were imposed on the bank.
+What it means: Lenders must serve the application and get the figures right; defective filings delay the process and can attract costs.
+Law involved: Insolvency and Bankruptcy Code, 2016, s. 7
+
+[JUD-OMB-PORT] Health claim rejected for non-disclosure at portability (knee replacement) | Insurance Ombudsman, Ahmedabad | 2017-04-12 | Complaint No. AHD-G-023-1617-1511
+Topic: Non-disclosure at portability unrelated to the claim. Category: Insurance claims. Forum: Ombudsman. Sectors: Health insurance.
+Status: Current. An Ombudsman award binds the insurer in that complaint only. It is not a precedent, but it shows how such complaints are decided. The source is the summary of the award published by the Council for Insurance Ombudsmen.
+Facts: A family had been continuously insured since 2000 and moved to a new general insurer under portability in 2015. A claim of about Rs 2.06 lakh for the wife's knee replacement was rejected because her ten-year history of hypertension had not been mentioned in the proposal form at portability.
+Issue: Can a ported health policy claim be rejected for non-disclosure of a condition that has no connection with the treatment claimed?
+Held: The complaint was allowed and the insurer was directed to pay the claim in full.
+Held: There was no nexus between hypertension and the knee replacement, and the benefits accrued over fifteen years under the earlier policies were available to the insured after portability.
+What it means: Health insurers should not reject a claim on a non-disclosure that is unrelated to the illness treated, least of all on a ported policy that carries continuity benefits.
+Law involved: Insurance Ombudsman Rules, 2017
+
+[JUD-SREE-MET] Sree Metaliks Ltd v. Union of India | Calcutta High Court | 2017-04-07 | W.P. No. 7144 (W) of 2017
+Bench: Debangsu Basak J.
+Topic: Hearing the company before admission. Category: Insolvency: starting and running the process. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A company against which a bank had filed a section 7 application challenged the validity of section 7, arguing it did not give the company a hearing before admission.
+Issue: Is section 7 valid, and must the tribunal hear the company before admitting a financial creditor's application?
+Held: Section 7 is valid. The tribunal must follow natural justice, which section 424 of the Companies Act makes it apply, so the company must be given notice and a chance to be heard before admission.
+What it means: Lenders filing under section 7 must serve the application on the company. Admission without notice can be set aside (see Starlog Enterprises).
+Law involved: Insolvency and Bankruptcy Code, 2016, s. 7; Companies Act, 2013, s. 424
+
+[JUD-IDFC-RUCHI] IDFC Bank Ltd v. Ruchi Soya Industries Ltd | Bombay High Court | 2017-02-14 | Company Petition No. 570 of 2016
+Bench: R.D. Dhanuka J.
+Topic: Lone lender's winding-up petition while JLF restructures. Category: Stressed assets, restructuring and NPAs. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Law since changed. Insolvency petitions are now under the IBC, where a lender's right to file does not depend on the majority's wishes.
+Facts: IDFC Bank, holding about 1% of Ruchi Soya's debt, filed a winding-up petition. The other lenders, holding about 98% of the debt, were working on a revival plan through a joint lenders' forum under RBI's framework.
+Issue: Should a winding-up petition by a small lender be admitted while the joint lenders' forum is pursuing revival?
+Held: The petition was dismissed. Winding up is discretionary, and the court considered the wishes of the overwhelming majority of lenders who were pursuing revival under RBI's framework.
+What it means: Winding up has since been replaced by the IBC for insolvency, where any financial creditor may file on default. Ruchi Soya itself went through the IBC later.
+Law involved: Companies Act, 1956, ss. 433, 434; RBI Framework for Revitalising Distressed Assets, 2014
+
 [JUD-AJMERA] SEBI v. Kishore R. Ajmera | Supreme Court | 2016-02-23 | 2016 INSC 201, [2016] 1 SCR 1118 | Civil Appeal No. 2818 of 2008
 Bench: Ranjan Gogoi and Prafulla C. Pant JJ.
-Topic: Proof of manipulation by brokers. Category: . Forum: . Sectors: Stock broking.
+Topic: Proof of manipulation by brokers. Category: Securities markets and mutual funds. Forum: Supreme Court. Sectors: Stock broking.
 Status: Current.
 Issue: What proof does SEBI need to hold a broker or sub-broker liable for manipulative trading?
 Held: Direct proof of a meeting of minds is rarely available. Civil liability under the SEBI Act and its regulations is decided on the preponderance of probabilities; prosecution needs proof beyond reasonable doubt.
@@ -426,7 +1324,7 @@ Law involved: SEBI Act, 1992; SEBI (Stock Brokers and Sub-Brokers) Regulations, 
 
 [JUD-INSUREPLUS] LIC of India v. Insure Policy Plus Services Pvt Ltd | Supreme Court | 2015-12-29 | 2015 INSC 946, [2015] 10 SCR 1067 | Civil Appeal No. 8542 of 2009
 Bench: Vikramajit Sen and Shiva Kirti Singh JJ.
-Topic: Assignment of life policies. Category: . Forum: . Sectors: Life insurance.
+Topic: Assignment of life policies. Category: Insurance claims. Forum: Supreme Court. Sectors: Life insurance.
 Status: Law since changed. Section 38 was substituted by the Insurance Laws (Amendment) Act, 2015.
 Issue: Could an insurer refuse to register assignments of life policies made for trading?
 Held: Under section 38 as it then stood, life policies were transferable and assignable. Once the procedure was followed, the insurer had to register the assignment, and its circular refusing assignments for trading was ultra vires.
@@ -436,7 +1334,7 @@ Law involved: Insurance Act, 1938, s. 38
 
 [JUD-JAYANTILAL] Reserve Bank of India v. Jayantilal N. Mistry | Supreme Court | 2015-12-16 | 2015 INSC 942, [2015] 14 SCR 505 | Transferred Case (Civil) No. 91 of 2015
 Bench: M.Y. Eqbal and C. Nagappan JJ.
-Topic: RBI inspection reports under RTI. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: RBI inspection reports under RTI. Category: RBI powers and lending conduct. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Under reconsideration. In HDFC Bank Ltd v. Union of India (30 September 2022, 2022 INSC 1056) the Supreme Court held that banks' writ petitions questioning this judgment are maintainable, observing that prima facie it did not balance the right to information against the right to privacy.
 Issue: Can RBI refuse to disclose inspection reports and other information about the entities it regulates under the Right to Information Act?
 Held: RBI does not hold such information in a fiduciary relationship with the banks it regulates, and cannot refuse disclosure on the grounds of economic interest or commercial confidence in this case.
@@ -444,9 +1342,20 @@ Held: Inspection reports and similar documents obtained by RBI from a regulated 
 What it means: Findings in RBI inspection reports can become public through RTI requests, subject to the exemptions in section 8 that apply on the facts. Regulated entities should expect supervisory findings to be disclosable.
 Law involved: Right to Information Act, 2005, ss. 2(f), 8(1)
 
+[JUD-TATA-UNITY] Tata Capital Financial Services Ltd v. Unity Infraprojects Ltd | Bombay High Court | 2015-07-06 | Arbitration Petition No. 800 of 2014 and Company Petition No. 443 of 2014
+Bench: G.S. Patel J.
+Topic: NBFC outside a CDR package. Category: Stressed assets, restructuring and NPAs. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Law since changed. Winding up for inability to pay debts has been replaced by the IBC.
+Facts: An NBFC had given a term loan of about Rs 50 crore to a construction company. When the company defaulted, its banks put it into corporate debt restructuring (CDR), which the NBFC had not joined. The NBFC sought interim relief, a receiver and winding up.
+Issue: Can an NBFC outside a CDR package wind up the borrower or seize its assets while the banks' restructuring is under way?
+Held: The court refused to admit the winding-up petition while the CDR package was in progress.
+Held: The receiver and the injunction were vacated. The NBFC was allowed to join the CDR, and otherwise had to be told before any disposal of assets.
+What it means: Under the IBC a lender that has not joined a restructuring can still file on default, and RBI's framework now binds only lenders who sign the inter-creditor agreement.
+Law involved: Arbitration and Conciliation Act, 1996, s. 9; Companies Act, 1956, ss. 433, 434
+
 [JUD-KANDALGAONKAR] Stock Exchange, Bombay v. V.S. Kandalgaonkar | Supreme Court | 2014-09-25 | 2014 INSC 678, [2014] 14 SCR 409 | Civil Appeal No. 4354 of 2003
 Bench: R.M. Lodha CJI, Kurian Joseph and R.F. Nariman JJ.
-Topic: Exchange's lien over a defaulting broker. Category: . Forum: . Sectors: Stock broking.
+Topic: Exchange's lien over a defaulting broker. Category: Securities markets and mutual funds. Forum: Supreme Court. Sectors: Stock broking.
 Status: Current.
 Issue: When a broker defaults, who gets paid first from the membership card and the deposited securities: the stock exchange or the Income Tax Department?
 Held: A membership card is only a personal privilege granted by the exchange under its rules. Its sale proceeds cannot be paid over to the Income Tax Department for the member's tax dues.
@@ -454,9 +1363,31 @@ Held: For securities deposited with the exchange, the exchange's lien makes it a
 What it means: Securities a broker has deposited with the exchange are first applied to the broker's obligations under the exchange's rules, ahead of tax dues. The membership card's value is not available to the tax department.
 Law involved: Securities Contracts (Regulation) Act, 1956 and Rules; Income Tax Act, 1961, s. 226(3)
 
+[JUD-IONIC] Ionic Metalliks v. Union of India | Gujarat High Court | 2014-09-09 | Special Civil Application No. 645 of 2014 with No. 10120 of 2014
+Bench: Akil Kureshi and J.B. Pardiwala JJ.
+Topic: Wilful defaulter rules and independent directors. Category: Wilful default and fraud. Forum: High Courts. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current. The 2012 Master Circular has been replaced by RBI's Master Direction on Treatment of Wilful Defaulters and Large Defaulters, 2024, which includes these safeguards.
+Facts: Two borrowers and their directors challenged RBI's Master Circular on wilful defaulters of 2 July 2012 and show-cause notices issued to them by banks. One petition was against a private sector bank.
+Issue: Is RBI's wilful defaulter regime valid, and can it be applied to every director of a defaulting company?
+Held: The Master Circular is valid, including the bar on fresh credit and the five-year bar on new ventures. It has statutory backing under the Banking Regulation Act.
+Held: Treating every director as a wilful defaulter regardless of role is arbitrary. Only directors shown to be responsible may be named, and promoter-directors are treated differently. A show-cause notice must give particulars of the alleged wilful default.
+Held: A private bank is not amenable to the writ jurisdiction, so the petition against it was not maintainable.
+What it means: Lenders must identify the specific role of each director before naming them. RBI's current wilful defaulter directions build in these safeguards: non-whole-time directors are named only where their involvement is shown.
+Law involved: Banking Regulation Act, 1949, ss. 21, 35A; RBI Master Circular on Wilful Defaulters, 2 July 2012; Constitution of India, Arts. 14, 19(1)(g), 226
+
+[JUD-YES-A2Z] Yes Bank Ltd v. A2Z Maintenance & Engineering Services Ltd | Delhi High Court | 2014-07-30 | CS(OS) No. 217 of 2014
+Bench: Manmohan Singh J.
+Topic: Exclusive charge holder outside CDR. Category: Stressed assets, restructuring and NPAs. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Law since changed. CDR has been replaced by RBI's June 2019 framework, under which lenders holding 75% by value and 60% by number bind those who sign the inter-creditor agreement.
+Facts: Yes Bank held an exclusive charge over certain assets of a borrower. The borrower went into corporate debt restructuring, which Yes Bank did not join, and the CDR package proposed sharing that security with the other lenders.
+Issue: Can a lender with an exclusive charge be made to share its security under a restructuring it did not join?
+Held: No. A CDR package binds only lenders who are party to it. Yes Bank was entitled to protect its exclusive charge, and the borrower was restrained from dealing with the charged assets.
+What it means: Lenders that do not sign an inter-creditor agreement are not bound by the majority's decisions, but the resolution plan must give dissenting lenders at least their liquidation value.
+Law involved: Indian Contract Act, 1872; Transfer of Property Act, 1882, s. 48; Code of Civil Procedure, 1908, Order XXXIX
+
 [JUD-CITICORP] Citicorp Maruti Finance Ltd v. S. Vijayalaxmi | Supreme Court | 2011-11-14 | 2011 INSC 793, [2011] 14 SCR 1050 | Civil Appeal No. 9711 of 2011
 Bench: Altamas Kabir, Cyriac Joseph and Surinder Singh Nijjar JJ.
-Topic: Repossession by force. Category: . Forum: . Sectors: Lending (NBFCs and banks).
+Topic: Repossession by force. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
 Issue: Can a financier take back a vehicle by force under a hire-purchase agreement?
 Held: Even for goods under hire-purchase, recovery must follow the law. The owner-financier cannot use force to take back possession on the strength of the agreement.
@@ -467,10 +1398,63 @@ Law involved: Consumer Protection Act, 1986; RBI Fair Practices Code and recover
 
 [JUD-SURAJ] Suraj Lamp & Industries Pvt Ltd v. State of Haryana | Supreme Court | 2011-10-11 | 2011 INSC 739, [2011] 11 SCR 848 | Special Leave Petition (C) No. 13917 of 2009
 Bench: R.V. Raveendran, A.K. Patnaik and H.L. Gokhale JJ.
-Topic: Title only by registered conveyance. Category: . Forum: . Sectors: Housing finance, Lending (NBFCs and banks).
+Topic: Title only by registered conveyance. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Housing finance, Lending (NBFCs and banks).
 Status: Current.
 Issue: Do sale agreements, general powers of attorney and wills ('GPA sales') transfer title to immovable property?
 Held: Immovable property can be transferred only by a registered deed of conveyance. 'SA/GPA/Will' transactions neither convey title nor create any interest in the property, except to the limited extent of section 53A of the Transfer of Property Act.
 Held: Such documents cannot be treated as title deeds or used for mutation in municipal or revenue records.
 What it means: Lenders taking a mortgage must check that the mortgagor's title rests on registered conveyances. A chain built on GPA sales gives no mortgageable title and the security may fail.
 Law involved: Transfer of Property Act, 1882, ss. 53A, 54; Registration Act, 1908, ss. 17, 49; Indian Stamp Act, 1899
+
+[JUD-BNY-WOCK] BNY Corporate Trustee Services Ltd v. Wockhardt Ltd | Bombay High Court | 2011-03-11 | Company Petition No. 971 of 2009
+Bench: S.C. Dharmadhikari J.
+Topic: Bondholders' trustee seeks winding up. Category: Recovery, limitation and winding up. Forum: High Courts. Sectors: Lending (NBFCs and banks).
+Status: Law since changed. Insolvency petitions are now under the IBC.
+Facts: Wockhardt failed to redeem foreign currency convertible bonds on maturity. The bond trustee filed a winding-up petition. Wockhardt argued that it was under corporate debt restructuring and that the trustee lacked standing.
+Issue: Can a bond trustee petition for winding up on non-payment of matured bonds while the company is under restructuring with its other lenders?
+Held: The trustee had standing and the debt was due and unpaid, so the petition was admitted. Corporate debt restructuring with banks did not bind bondholders who were not part of it.
+What it means: The same principle now applies under the IBC: a debenture trustee may file for insolvency on behalf of bondholders, and a lender-only restructuring does not bind holders who did not join.
+Law involved: Companies Act, 1956, ss. 433(e), 434
+
+[JUD-TRANSCORE] Transcore v. Union of India | Supreme Court | 2006-11-29 | 2006 INSC 924, [2006] Supp. 9 SCR 785 | Civil Appeal No. 3228 of 2006 with connected matters
+Bench: Arijit Pasayat and S.H. Kapadia JJ.
+Topic: SARFAESI alongside a DRT case. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current.
+Facts: Banks with recovery applications pending before the Debts Recovery Tribunal started SARFAESI action against the same borrowers without withdrawing those applications. The borrowers argued that the banks had to elect one remedy and that symbolic possession was not enough.
+Issue: Must a bank withdraw its DRT application before using SARFAESI, and is symbolic possession of immovable property valid?
+Held: SARFAESI remedies are in addition to the DRT remedy. The doctrine of election does not apply, and the bank need not withdraw its DRT application first.
+Held: Under Rule 8 of the Security Interest (Enforcement) Rules, possession of immovable property under section 13(4) may be symbolic; the bank may then seek physical possession through the Magistrate under section 14.
+What it means: Lenders can pursue DRT recovery and SARFAESI enforcement in parallel, as long as they do not recover twice.
+Law involved: SARFAESI Act, 2002, ss. 13, 14, 35, 37; Recovery of Debts Due to Banks and Financial Institutions Act, 1993, s. 19; Security Interest (Enforcement) Rules, 2002, r. 8
+
+[JUD-KSFE-OL] Kerala State Financial Enterprises Ltd v. Official Liquidator, High Court of Kerala | Supreme Court | 2006-09-29 | 2006 INSC 678, [2006] Supp. 6 SCR 855 | Civil Appeal No. 4333 of 2006
+Bench: S.B. Sinha and Dalveer Bhandari JJ.
+Topic: Unregistered charge and attachment in winding up. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current. Decided under the Companies Act, 1956; the registration rule is now in section 77 of the 2013 Act.
+Facts: A government-owned chit company lent to a company and attached its properties under the Kerala Revenue Recovery Act. Its charge was never registered with the Registrar of Companies. When the borrower was wound up, the chit company asked for leave to continue the sale.
+Issue: Does a lender with an unregistered charge, or with an attachment under a revenue recovery law, rank as a secured creditor in a winding up?
+Held: A charge not registered under section 125 of the Companies Act, 1956 is void against the liquidator and creditors.
+Held: An attachment does not create a charge. A government company's dues are not government dues, so the lender was an unsecured creditor and the Companies Act prevailed.
+What it means: Registering every charge with the Registrar (now section 77 of the Companies Act, 2013) remains essential. See the NCLAT's rulings in Volkswagen Finance and Home Kraft for how this plays out under the IBC.
+Law involved: Companies Act, 1956, ss. 125, 446, 537; Companies Act, 2013, s. 77
+
+[JUD-SIDCO] ICICI Bank Ltd v. SIDCO Leathers Ltd | Supreme Court | 2006-04-28 | 2006 INSC 268, [2006] Supp. 1 SCR 528 | Civil Appeal No. 2332 of 2006
+Bench: S.B. Sinha and P.K. Balasubramanyan JJ.
+Topic: First and second charge holders in liquidation. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current. Decided under the Companies Act, 1956. Under the IBC, priority among secured creditors in liquidation is pending in the Supreme Court.
+Facts: ICICI Bank held a first charge over a company's assets and another lender held a second charge. When the company was wound up, the second charge holder argued that section 529A of the Companies Act, which ranks secured creditors pari passu with workmen, also wiped out priority among secured creditors.
+Issue: In a winding up, does a first charge holder keep its priority over a second charge holder?
+Held: Yes. Section 529A puts workmen's dues and secured creditors' dues on an equal footing, but it does not abolish the priority among secured creditors that comes from section 48 of the Transfer of Property Act and their contracts.
+What it means: Lenders rely on this principle when arguing that charge priority should be respected in an IBC liquidation. The IBC's section 53 treats secured creditors who relinquish security as one class, and the NCLAT's rulings on pro-rata distribution (see Technology Development Board and later cases) are being tested in the Supreme Court.
+Law involved: Companies Act, 1956, ss. 529, 529A; Transfer of Property Act, 1882, s. 48
+
+[JUD-INDIAN-BANK-OL] Indian Bank v. Official Liquidator, Chemmeens Exports (P) Ltd | Supreme Court | 1998-05-08 | 1998 INSC 223, [1998] 3 SCR 255 | Civil Appeal arising from M.C.A. No. 11 of 1986 (Kerala High Court)
+Bench: B.N. Kirpal and Syed Shah Mohammed Quadri JJ.
+Topic: Unregistered mortgage merged in a decree. Category: Security, charges and SARFAESI. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Current. Decided under the Companies Act, 1956.
+Facts: Indian Bank obtained a mortgage decree (giving time to pay before sale) against a company. The mortgage had not been registered with the Registrar of Companies. When the company was wound up, the official liquidator asked the court to declare the decree void.
+Issue: Is a mortgage decree void against the liquidator because the underlying charge was not registered?
+Held: It depends on the decree. If the decree keeps the unregistered charge alive, section 125 applies and it is void against the liquidator. If the time to pay under the decree has passed and what operates is an order for sale, the matter has passed from contract to judgment and the decree stands.
+Held: On the facts the time to pay had expired before the liquidator applied, so the decree was valid.
+What it means: A decree may protect a lender whose charge was not registered, but registration is the only safe course.
+Law involved: Companies Act, 1956, s. 125; Code of Civil Procedure, 1908, Order XXXIV
