@@ -24,6 +24,9 @@ LENDER_FEEDS = [
     {"sec": "ibc", "lens": "ENT-FSP", "layers": ["ml", "ul", "tl"]},
 ]
 
+# an HFC is supervised by NHB: show the NHB section through its HFC lens
+NHB_FEED = [{"sec": "nhb", "lens": "ENT-HFC"}]
+
 GROUPS = [
     {"id": "type", "label": "What is it?", "hint": "pick one", "single": True},
     {"id": "layer", "label": "Size under scale based regulation", "hint": "NBFCs and HFCs", "single": True},
@@ -41,7 +44,7 @@ def nbfc_type(i, label, cat, layers, extra=(), sectors=("lending",)):
 ALL4 = ["bl", "ml", "ul", "tl"]
 ATTRS = [
     nbfc_type("icc", "NBFC (Investment and Credit)", "CAT-ICC", ALL4),
-    nbfc_type("hfc", "Housing Finance Company", "CAT-HFC", ["ml", "ul", "tl"], [{"sec": "rbi", "id": "ACT-NHB"}], ("lending", "hfc")),
+    dict(nbfc_type("hfc", "Housing Finance Company", "CAT-HFC", ["ml", "ul", "tl"], [{"sec": "rbi", "id": "ACT-NHB"}], ("lending", "hfc")), feeds=LENDER_FEEDS + NHB_FEED),
     nbfc_type("cic", "Core Investment Company", "CAT-CIC", ["ml", "ul", "tl"]),
     nbfc_type("mfi", "NBFC-MFI", "CAT-MFI", ALL4),
     nbfc_type("factor", "NBFC-Factor", "CAT-FACTOR", ALL4,

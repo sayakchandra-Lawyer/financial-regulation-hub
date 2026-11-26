@@ -1,0 +1,293 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Plain-language explanations for readers who are new to the terms. They are summaries, not the legal definitions: the instrument named under 'See' governs."
+ },
+ "terms": [
+  {
+   "term": "NHB",
+   "full": "National Housing Bank",
+   "def": "A statutory body, wholly owned by the Government of India, set up under the NHB Act, 1987 to promote housing finance. Since 09-08-2019 it supervises and inspects HFCs, collects their returns, handles complaints against them and gives refinance to housing lenders; RBI registers and regulates HFCs.",
+   "see": [
+    "ACT-NHB",
+    "PR-RBI-2019"
+   ],
+   "aka": [
+    "National Housing Bank",
+    "the Bank"
+   ]
+  },
+  {
+   "term": "HFC",
+   "full": "Housing finance company",
+   "def": "A company registered with RBI under s. 29A of the NHB Act whose principal business is housing finance: at least 60% of total assets in housing finance and at least 50% in individual housing loans, with net owned fund of at least Rs 20 crore.",
+   "see": [
+    "ACT-NHB",
+    "RBI-HFC-DIR-2025"
+   ],
+   "aka": [
+    "housing finance company",
+    "housing finance companies",
+    "HFCs"
+   ]
+  },
+  {
+   "term": "Certificate of registration",
+   "full": "CoR",
+   "def": "The licence RBI grants under s. 29A of the NHB Act to carry on housing finance. Certificates NHB granted before 09-08-2019 continue as if granted by RBI.",
+   "see": [
+    "ACT-NHB",
+    "AMDACT-2019"
+   ],
+   "aka": [
+    "CoR",
+    "registration",
+    "s. 29A"
+   ]
+  },
+  {
+   "term": "Primary lending institution",
+   "full": "PLI",
+   "def": "A lender that gives housing loans to individuals and can borrow refinance from NHB against them: HFCs, scheduled commercial banks, small finance banks, regional rural banks, co-operative banks and similar institutions.",
+   "see": [
+    "REF-BOOKLET"
+   ],
+   "aka": [
+    "PLI",
+    "PLIs",
+    "primary lending institutions"
+   ]
+  },
+  {
+   "term": "Refinance",
+   "full": "",
+   "def": "A loan from NHB to a lender against a pool of individual housing loans the lender has already made. The lender keeps the credit risk and repays NHB on fixed quarterly dates whatever its borrowers pay.",
+   "see": [
+    "REF-BOOKLET",
+    "ACT-NHB"
+   ],
+   "aka": [
+    "refinance scheme",
+    "s. 14(b)"
+   ]
+  },
+  {
+   "term": "LRS",
+   "full": "Liberalized Refinance Scheme",
+   "def": "NHB's regular refinance scheme for individual housing loans. Rates are linked to NHB's prime lending rate, with concessions for smaller loans, lower-income borrowers and some regions; a fixed-rate option is available.",
+   "see": [
+    "REF-BOOKLET",
+    "REF-LRS-FIXED",
+    "REF-CONCESSION-2025"
+   ],
+   "aka": [
+    "Liberalized Refinance Scheme",
+    "regular refinance"
+   ]
+  },
+  {
+   "term": "Flagged loan pool",
+   "full": "",
+   "def": "The individual housing loans a lender earmarks to NHB as backing for refinance. The pool must meet the scheme's eligibility terms at all times; ineligible loans must be replaced or the shortfall repaid.",
+   "see": [
+    "REF-BOOKLET",
+    "REF-EARMARK-2024",
+    "REF-PENAL-POOL"
+   ],
+   "aka": [
+    "loan pool",
+    "flagged loans",
+    "earmarked pool"
+   ]
+  },
+  {
+   "term": "Adverse balance",
+   "full": "",
+   "def": "The shortfall when the outstanding flagged loan pool falls below the refinance outstanding (for example after prepayments or NPAs). It must be certified and made good by remitting money or replenishing the pool.",
+   "see": [
+    "REF-BOOKLET",
+    "REF-ADVBAL-2023",
+    "REF-REPLENISH-2025"
+   ],
+   "aka": [
+    "adverse balance certificate"
+   ]
+  },
+  {
+   "term": "Book debts",
+   "full": "",
+   "def": "Amounts owed to the lender by its borrowers. HFCs secure NHB refinance by a charge over the book debts covering the flagged loan pool.",
+   "see": [
+    "REF-BOOKLET",
+    "REF-BOOKDEBT-2024"
+   ],
+   "aka": [
+    "charge on book debts"
+   ]
+  },
+  {
+   "term": "CRaMIS",
+   "full": "Comprehensive Risk-based Analysis and Monitoring Information System",
+   "def": "NHB's online portal through which HFCs file their supervisory returns.",
+   "see": [
+    "SUP-CRAMIS-2022",
+    "MC-RETURNS"
+   ],
+   "aka": [
+    "CRaMIS portal"
+   ]
+  },
+  {
+   "term": "FMR",
+   "full": "Fraud monitoring returns",
+   "def": "The fraud reports HFCs file with NHB: FMR-1 for each fraud (within 14 days of classification), FMR-2 and FMR-3 quarterly (within 15 days of quarter end) and FMR-4 for theft, burglary, dacoity and robbery (within 7 days).",
+   "see": [
+    "FMR-2026"
+   ],
+   "aka": [
+    "FMR-1",
+    "FMR-2",
+    "FMR-3",
+    "FMR-4",
+    "fraud reporting"
+   ]
+  },
+  {
+   "term": "PBC",
+   "full": "Principal business criteria",
+   "def": "The asset tests an HFC must meet: housing finance at least 60% of total assets and individual housing loans at least 50%. HFCs report their position to NHB every month, and refinance depends on meeting them.",
+   "see": [
+    "RBI-HFC-DIR-2025",
+    "ADV-PBC-2024",
+    "REF-PBC-2025"
+   ],
+   "aka": [
+    "principal business criteria",
+    "principal business"
+   ]
+  },
+  {
+   "term": "PLR",
+   "full": "Prime lending rate",
+   "def": "The benchmark rate an HFC uses to price floating rate loans. HFCs report its components (cost of funds, margin, risk premium) to NHB every month.",
+   "see": [
+    "ADV-PLR-2026"
+   ],
+   "aka": [
+    "prime lending rate",
+    "benchmark rate"
+   ]
+  },
+  {
+   "term": "GRIDS",
+   "full": "Grievance Registration and Information Database System",
+   "def": "NHB's online portal for complaints against HFCs. A customer may use it if the HFC has not replied within one month or the reply is unsatisfactory; NHB aims to resolve complaints within 21 days and hears appeals filed within 30 days.",
+   "see": [
+    "GRP-NHB"
+   ],
+   "aka": [
+    "NHB complaint",
+    "grievance portal"
+   ]
+  },
+  {
+   "term": "CERSAI",
+   "full": "Central Registry of Securitisation Asset Reconstruction and Security Interest of India",
+   "def": "The central registry where lenders must file every security interest they create, such as a mortgage of a house. Wrong filings can mislead later lenders and cause disputes over priority.",
+   "see": [
+    "ADV-CERSAI-2026"
+   ],
+   "aka": [
+    "central registry"
+   ]
+  },
+  {
+   "term": "Early warning signals",
+   "full": "EWS",
+   "def": "Indicators, tracked as part of credit monitoring, that a loan may turn bad or fraudulent, so that the lender acts before it becomes an NPA.",
+   "see": [
+    "SUP-EWS-2023"
+   ],
+   "aka": [
+    "EWS",
+    "red flags"
+   ]
+  },
+  {
+   "term": "Penal charges",
+   "full": "",
+   "def": "Charges for breach of loan terms, such as late payment. They must not be used to raise revenue and should not be stacked with bounce charges for the same default.",
+   "see": [
+    "ADV-PENAL-2026"
+   ],
+   "aka": [
+    "bounce charges",
+    "penal interest"
+   ]
+  },
+  {
+   "term": "PMAY-U 2.0 ISS",
+   "full": "Pradhan Mantri Awas Yojana (Urban) 2.0, Interest Subsidy Scheme",
+   "def": "The Government scheme that gives an interest subsidy on home loans to eligible urban families, paid through lenders. NHB is one of the central nodal agencies.",
+   "see": [
+    "PMAY-ISS",
+    "ADV-PMAY-2025"
+   ],
+   "aka": [
+    "PMAY",
+    "ISS",
+    "interest subsidy",
+    "CLSS"
+   ]
+  },
+  {
+   "term": "CRGFTLIH",
+   "full": "Credit Risk Guarantee Fund Trust for Low Income Housing",
+   "def": "A Government-backed trust, managed by NHB, that guarantees housing loans to low-income borrowers given without collateral or third-party guarantee.",
+   "see": [
+    "CRGFTLIH"
+   ],
+   "aka": [
+    "credit risk guarantee",
+    "CRGFT"
+   ]
+  },
+  {
+   "term": "Liquid assets",
+   "full": "Section 29B",
+   "def": "Approved securities and bank or NHB deposits that a deposit-taking HFC must hold against its public deposits (now 15%); a shortfall attracts penal interest payable to NHB.",
+   "see": [
+    "ACT-NHB",
+    "RBI-HFC-DIR-2025"
+   ],
+   "aka": [
+    "s. 29B",
+    "SLR"
+   ]
+  },
+  {
+   "term": "Reserve fund",
+   "full": "Section 29C",
+   "def": "At least 20% of net profit that an HFC must transfer every year before declaring a dividend. Any use of it must be reported to NHB and RBI within 21 days.",
+   "see": [
+    "ACT-NHB"
+   ],
+   "aka": [
+    "s. 29C",
+    "statutory reserve"
+   ]
+  },
+  {
+   "term": "Section 52A",
+   "full": "",
+   "def": "The penalty power under the NHB Act. RBI or NHB may impose money penalties on an HFC or its auditor after a show-cause notice and hearing.",
+   "see": [
+    "ACT-NHB"
+   ],
+   "aka": [
+    "s. 52A",
+    "penalty"
+   ]
+  }
+ ]
+}

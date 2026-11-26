@@ -27,6 +27,7 @@ const I = {
   ifsc: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20.5h16"/><path d="M6 20.5V10l4-2v12.5"/><path d="M10 20.5V5l6 2.5v13"/><path d="M16 20.5v-8l3 1.5v6.5"/><path d="M12.5 10h1M12.5 13h1M12.5 16h1"/></svg>',
   exchanges: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5h17"/><path d="M4 16l4.5-5 3.5 3 4-5.5 4 3.5"/><path d="M16 8.5h4v4"/><path d="M6 20.5v-2M10 20.5v-3.5M14 20.5v-2.5M18 20.5v-4"/></svg>',
   companies: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20.5V8l8-4.5L20 8v12.5"/><path d="M2.5 20.5h19"/><path d="M8 11v6M12 11v6M16 11v6"/><path d="M7 8.5h10"/></svg>',
+  nhb: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11L12 4l8.5 7"/><path d="M5.5 9.5v10h13v-10"/><path d="M10 19.5v-5h4v5"/><path d="M15.5 6.2V4.5h2v3.3"/></svg>',
   misc: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg>',
   search: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
   moon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg>',
@@ -278,7 +279,7 @@ function hl(txt, P) {
 
 /* ---------- whole-site search: prebuilt index over every full text and judgment (search/, built by tools/build_search.py) ---------- */
 const SX = { root: "", meta: null, mp: null, vocab: null, common: null, bigCommon: null, shards: new Map(), texts: new Map(), cache: new Map() };
-const SX_NAME = { rbi: "RBI", sebi: "SEBI", irdai: "IRDAI", fema: "FEMA", dpdp: "DPDP", ibc: "IBC", ifsc: "IFSC", exchanges: "Stock exchanges", companies: "Companies Act", judgments: "Judgments" };
+const SX_NAME = { rbi: "RBI", sebi: "SEBI", irdai: "IRDAI", fema: "FEMA", dpdp: "DPDP", ibc: "IBC", ifsc: "IFSC", nhb: "NHB", exchanges: "Stock exchanges", companies: "Companies Act", judgments: "Judgments" };
 const sxTok = s => (String(s).toLowerCase().match(/[a-z0-9₹%]+/g) || []);
 const CRC = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
 function crc32(str) { const b = new TextEncoder().encode(str); let c = 0xFFFFFFFF; for (const x of b) c = CRC[(c ^ x) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; }

@@ -1,0 +1,485 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "window_from": "2025-12-01",
+  "window_to": "2026-11-26",
+  "entities": [
+   {
+    "key": "hfc",
+    "name": "Housing finance companies",
+    "profile": "HFCs supervised by NHB: returns, inspections, advisories and complaints."
+   },
+   {
+    "key": "pli",
+    "name": "Lenders borrowing refinance from NHB",
+    "profile": "HFCs, banks and co-operative lenders that refinance their home loan books with NHB."
+   },
+   {
+    "key": "customer",
+    "name": "Home loan customers",
+    "profile": "Borrowers, depositors and applicants dealing with an HFC."
+   },
+   {
+    "key": "auditor",
+    "name": "Auditors of HFCs",
+    "profile": "Statutory auditors who report to NHB and RBI."
+   }
+  ]
+ },
+ "updates": [
+  {
+   "id": "U-2026-11-12-ARB",
+   "date": "2026-11-12",
+   "kind": "Advisory",
+   "title": "Arbitrators must be independent; report action to NHB",
+   "ref": "RBI DoR.CO.BCG(MCS).No.S6464/01.01.008/2026-27",
+   "instrument": "ADV-ARB-2026",
+   "effective": "2026-11-12",
+   "applies": "Banks and NBFCs, including HFCs.",
+   "changes": [
+    "After a Delhi High Court order of 30-09-2026, RBI cautioned lenders against appointing the same arbitrators unilaterally across many disputes.",
+    "Arbitrators are to be appointed only in line with the Arbitration and Conciliation Act, 1996 and court rulings on independence and neutrality.",
+    "HFCs report the action taken to NHB."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "High",
+     "text": "Review arbitration clauses and panels used for loan recovery."
+    },
+    "customer": {
+     "level": "Medium",
+     "text": "Awards by a unilaterally appointed arbitrator are open to challenge."
+    }
+   },
+   "actions": [
+    "Review loan agreement arbitration clauses and the arbitrator panel.",
+    "Send the action taken report to NHB."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/11/Advisory-Letter-dated-12-11-2026-English.pdf"
+  },
+  {
+   "id": "U-2026-09-24-INS",
+   "date": "2026-09-24",
+   "kind": "Advisory",
+   "title": "Branch notice: insurance is voluntary and not linked to a loan",
+   "ref": "HO/DOS/DAK/2026/05646",
+   "instrument": "ADV-INS-2026",
+   "effective": "2026-09-24",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "Every branch must display, in English and Hindi or the State's language, a notice that buying insurance is voluntary and not linked to any loan.",
+    "The notice board should be at least 2 feet by 2 feet; NHB gives suggested wording."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Medium",
+     "text": "Branch signage and sales scripts to change."
+    },
+    "customer": {
+     "level": "Medium",
+     "text": "Clear notice that insurance cannot be made a loan condition."
+    }
+   },
+   "actions": [
+    "Put up the notice at every branch.",
+    "Send NHB an action taken report within 30 days."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/09/Advisory-on-Mis-Selling-of-Insurance-with-Housing-Loans-Other-Loans-English-Version-1.pdf"
+  },
+  {
+   "id": "U-2026-09-07-FMR",
+   "date": "2026-09-07",
+   "kind": "Advisory",
+   "title": "Fraud monitoring returns to be filed with NHB",
+   "ref": "HO/DOS/DAK/2026/05615",
+   "instrument": "FMR-2026",
+   "effective": "2026-09-07",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "FMR-1 for every fraud within 14 days of classification; FMR-2 and FMR-3 on CRaMIS within 15 days of each quarter end.",
+    "Theft, burglary, dacoity and robbery reported within 7 days in FMR-4.",
+    "Frauds in unregulated group entities are also reported to NHB; withdrawal or closure of an FMR needs NHB's approval."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "High",
+     "text": "Fraud reporting calendar and approvals change."
+    },
+    "auditor": {
+     "level": "Low",
+     "text": "Check fraud reporting in audit work."
+    }
+   },
+   "actions": [
+    "Update the fraud reporting process and owners.",
+    "Map group entities not regulated by any financial regulator."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/09/Advisory-Letter-Dated-September-072026-English-Version-1.pdf"
+  },
+  {
+   "id": "U-2026-07-24-FPC",
+   "date": "2026-07-24",
+   "kind": "Advisory",
+   "title": "Interest only from actual disbursement; cancelled cheques not loans",
+   "ref": "HO/DOS/DAK/2026/05489",
+   "instrument": "ADV-FPC-2026",
+   "effective": "2026-07-24",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "Keep the borrower's acknowledgement of cheque or draft handover, with instrument details.",
+    "Cancelled instruments must not be shown as loans in NHB returns or financial statements."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "High",
+     "text": "Disbursement records and reporting to change."
+    },
+    "customer": {
+     "level": "Medium",
+     "text": "No interest before money is actually handed over."
+    },
+    "auditor": {
+     "level": "Medium",
+     "text": "Check cancelled instruments at year end."
+    }
+   },
+   "actions": [
+    "Add a handover acknowledgement to the disbursement advice.",
+    "Reconcile cancelled instruments before finalising accounts."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/07/Advisory-Letter-Dated-24-07-2026_-English.pdf"
+  },
+  {
+   "id": "U-2026-07-17-CERSAI",
+   "date": "2026-07-17",
+   "kind": "Advisory",
+   "title": "Accurate CERSAI filings and periodic reconciliation",
+   "ref": "HO/DoS/DoC/2026/05473",
+   "instrument": "ADV-CERSAI-2026",
+   "effective": "2026-07-17",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "CERSAI found wrong borrower, property and address data, including records naming people who never borrowed.",
+    "HFCs must set internal controls and reconcile CERSAI data periodically."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Medium",
+     "text": "Data checks on security interest filings."
+    },
+    "customer": {
+     "level": "Medium",
+     "text": "Fewer wrong records against a person's name or property."
+    }
+   },
+   "actions": [
+    "Reconcile CERSAI records with the loan book and correct errors."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/07/Adviory-Letter-dated-17-July-2026_English.pdf"
+  },
+  {
+   "id": "U-2026-07-07-CALLS",
+   "date": "2026-07-07",
+   "kind": "Advisory",
+   "title": "1600xx only for service calls; 140xx for promotional calls",
+   "ref": "HO/DOS/DAK/2026/05419",
+   "instrument": "ADV-CALLS-2026",
+   "effective": "2026-07-07",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "1600xx numbers may be used only for service and transactional calls, never for marketing.",
+    "Promotional calls only from 140xx numbers."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Medium",
+     "text": "Telecalling set-up and vendor contracts."
+    },
+    "customer": {
+     "level": "Low",
+     "text": "Easier to tell service calls from sales calls."
+    }
+   },
+   "actions": [
+    "Set up monitoring of calling numbers.",
+    "Report compliance to NHB."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/07/Advisory_English-Version-1.pdf"
+  },
+  {
+   "id": "U-2026-06-29-FLOW",
+   "date": "2026-06-29",
+   "kind": "Advisory",
+   "title": "Complaints flowchart on the website",
+   "ref": "HO/DOS/DAK/2026/05396",
+   "instrument": "ADV-FLOW-2026",
+   "effective": "2026-06-29",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "A flowchart under the website's 'Complaint' section must show how to complain, the escalation route and the officers who handle grievances."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Low",
+     "text": "Website change."
+    },
+    "customer": {
+     "level": "Medium",
+     "text": "Clearer path to complain and escalate."
+    }
+   },
+   "actions": [
+    "Publish the flowchart by 15-07-2026 and report compliance to NHB."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/06/Lodging-of-Customer-Complaints_Dislosure-Requirements-on-Websites-of-Housing-Finance-Companies_English-version.pdf"
+  },
+  {
+   "id": "U-2026-04-23-PENAL",
+   "date": "2026-04-23",
+   "kind": "Advisory",
+   "title": "Penal and bounce charges not to raise revenue",
+   "ref": "HO/DOS/DAK/2026/05245",
+   "instrument": "ADV-PENAL-2026",
+   "effective": "2026-04-23",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "Inspections found bounce charges on top of penal charges for the same default and visit charges recovering costs already in the lending rate.",
+    "The Board policy on penal and similar charges must be reviewed."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "High",
+     "text": "Fee schedule and Board policy to review."
+    },
+    "customer": {
+     "level": "High",
+     "text": "Fewer stacked charges for one missed EMI."
+    }
+   },
+   "actions": [
+    "Review the penal charges policy and the fee schedule."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/22.-Advisory-Letter-Dated-23-04-2026-Levy-of-Bounce-Charges-by-HFCs.pdf"
+  },
+  {
+   "id": "U-2026-04-07-GRM",
+   "date": "2026-04-07",
+   "kind": "Advisory",
+   "title": "Grievance officer details on website and in branches",
+   "ref": "HO/DOS/DAK/2026/05202",
+   "instrument": "ADV-GRM-2026",
+   "effective": "2026-04-07",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "Full contact details of grievance redressal officers on the website.",
+    "The complaint procedure displayed in every branch and office."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Low",
+     "text": "Website and branch display."
+    },
+    "customer": {
+     "level": "Medium",
+     "text": "Easier to reach the right officer."
+    }
+   },
+   "actions": [
+    "Comply by 21-04-2026 and report status to NHB."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/21.-Strengthening-of-Grievance-Redressal-Mechanism-of-Housing-Finance-Companies-HFCs_07-04-2026.pdf"
+  },
+  {
+   "id": "U-2026-03-24-PLR",
+   "date": "2026-03-24",
+   "kind": "Advisory",
+   "title": "Monthly report of prime lending rate components",
+   "ref": "HO/DOS/DAK/2026/05181",
+   "instrument": "ADV-PLR-2026",
+   "effective": "2026-04-01",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "Component-wise prime lending rate or benchmark rate data to NHB every month, by the 10th, from 01-04-2026."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Medium",
+     "text": "New monthly return."
+    },
+    "customer": {
+     "level": "Low",
+     "text": "Closer watch on floating rate pricing."
+    }
+   },
+   "actions": [
+    "Set up the monthly submission in NHB's format."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/20.-Advisory-on-monthly-reporting-of-Prime-Lending-RateBenchmark-Rates-to-NHB_24-03-2026.pdf"
+  },
+  {
+   "id": "U-2026-03-05-KYC",
+   "date": "2026-03-05",
+   "kind": "Advisory",
+   "title": "KYC lapses found in inspections",
+   "ref": "MRO/DOS/DOC/2026/05157",
+   "instrument": "ADV-KYC-2026",
+   "effective": "2026-03-05",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "Inspections found late CKYCR uploads, late periodic updation and identification lapses.",
+    "HFCs must comply strictly with the RBI NBFC KYC Directions, 2025."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Medium",
+     "text": "KYC backlog to clear."
+    },
+    "customer": {
+     "level": "Low",
+     "text": "Periodic KYC requests may increase."
+    }
+   },
+   "actions": [
+    "Clear CKYCR upload and periodic updation backlogs."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/19.-Advisory-with-regard-to-the-Reserve-Bank-of-India-Non-Banking-Financial-Companies-Know-Your-Customer-Direction-2025.pdf"
+  },
+  {
+   "id": "U-2026-01-30-ACCESS",
+   "date": "2026-01-30",
+   "kind": "Advisory",
+   "title": "Accessibility for persons with disabilities",
+   "ref": "MRO/DOS/DOC/2026/05106",
+   "instrument": "ADV-ACCESS-2026",
+   "effective": "2026-01-30",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "HFCs must follow RBI's accessibility instructions in the NBFC conduct and KYC Directions, 2025, which implement the Supreme Court's directives of 30-04-2025 on accessible digital KYC."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Medium",
+     "text": "Digital KYC journeys to be made accessible."
+    },
+    "customer": {
+     "level": "Medium",
+     "text": "Accessible onboarding."
+    }
+   },
+   "actions": [
+    "Test digital KYC journeys for accessibility."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/18.-Implementation-of-Accessibility-related-instructions_January-30-2026.pdf"
+  },
+  {
+   "id": "U-2025-12-15-BOOKLET",
+   "date": "2025-12-15",
+   "kind": "Refinance",
+   "title": "New refinance booklet for lenders",
+   "ref": "NHB Refinance Booklet (w.e.f. 15-12-2025)",
+   "instrument": "REF-BOOKLET",
+   "effective": "2025-12-15",
+   "applies": "HFCs, banks and co-operative lenders that borrow refinance from NHB.",
+   "changes": [
+    "One booklet now sets the terms of all refinance schemes, including eligibility, security, repayment, prepayment and returns.",
+    "CEO and CFO certify the flagged loan pool every quarter within 15 days; late payment over 3 working days carries a 2% penal charge."
+   ],
+   "impact": {
+    "pli": {
+     "level": "High",
+     "text": "Refinance terms and returns consolidated."
+    },
+    "hfc": {
+     "level": "Medium",
+     "text": "PBC and pool rules for HFC borrowers."
+    }
+   },
+   "actions": [
+    "Check existing sanctions and returns against the booklet."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/09/Refinance-Booklet-PLIs-2025.pdf"
+  },
+  {
+   "id": "U-2025-12-12-IS17802",
+   "date": "2025-12-12",
+   "kind": "Advisory",
+   "title": "Digital services to meet IS 17802 accessibility standards",
+   "ref": "MRO/DOS/DOC/2025/04973",
+   "instrument": "ADV-ACCESS-2025",
+   "effective": "2025-12-12",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "Websites, apps and devices to meet IS 17802 Parts I and II before the standard is made mandatory."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Medium",
+     "text": "Accessibility audit of digital channels."
+    },
+    "customer": {
+     "level": "Medium",
+     "text": "More accessible digital services."
+    }
+   },
+   "actions": [
+    "Run an IS 17802 audit of the website and app."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/17.-Compliance-with-IS-17802-Part-I-Part-II-standards-published-by-Bureau-of-Indian-Standards-BIS.pdf"
+  },
+  {
+   "id": "U-2025-12-11-1600",
+   "date": "2025-12-11",
+   "kind": "Advisory",
+   "title": "Service calls only from 1600-series numbers",
+   "ref": "MRO/DOS/DOC/2025/04967",
+   "instrument": "ADV-CALLS-2025",
+   "effective": "2025-12-11",
+   "applies": "All registered HFCs.",
+   "changes": [
+    "Transactional and service calls only from 1600-series numbers: by 01-02-2026 for HFCs with assets above Rs 5,000 crore, by 01-03-2026 for others."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Medium",
+     "text": "Telecom migration."
+    },
+    "customer": {
+     "level": "Low",
+     "text": "Genuine service calls easier to recognise."
+    }
+   },
+   "actions": [
+    "Confirm completion of the switch to NHB by e-mail."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/16.-Advisory-on-the-phased-implementation-timeline-for-mandatory-adoption-of-1600-%E2%80%93-series-numbers-combined.pdf"
+  },
+  {
+   "id": "U-2025-12-01-GRIDS",
+   "date": "2025-12-01",
+   "kind": "Policy",
+   "title": "NHB Grievance Redressal Policy (GRIDS)",
+   "ref": "NHB Grievance Redressal Policy, version 1.7",
+   "instrument": "GRP-NHB",
+   "effective": "2025-12-01",
+   "applies": "Customers of HFCs and the HFCs themselves.",
+   "changes": [
+    "A customer may complain to NHB on GRIDS if the HFC does not reply within one month or its reply is unsatisfactory; NHB aims to resolve complaints within 21 days.",
+    "Appeals within 30 days of closure, decided within 15 days."
+   ],
+   "impact": {
+    "customer": {
+     "level": "High",
+     "text": "The route to escalate a complaint against an HFC."
+    },
+    "hfc": {
+     "level": "Medium",
+     "text": "Respond to NHB on complaints with reasons for any delay."
+    }
+   },
+   "actions": [
+    "Point customers to GRIDS in the HFC's own complaint replies."
+   ],
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/04/Grievance-Redressal-Policy.pdf"
+  }
+ ]
+}

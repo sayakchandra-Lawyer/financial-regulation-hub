@@ -1,0 +1,2635 @@
+{
+ "meta": {
+  "title": "National Housing Bank: supervision, returns, grievances and refinance",
+  "as_of": "2026-11-26",
+  "count": 67,
+  "in_force": 56,
+  "lenses": [
+   {
+    "id": "ENT-HFC",
+    "name": "Housing finance company"
+   },
+   {
+    "id": "ENT-PLI",
+    "name": "Lender borrowing refinance from NHB"
+   },
+   {
+    "id": "ENT-CUS",
+    "name": "Home loan customer"
+   },
+   {
+    "id": "ENT-AUD",
+    "name": "Auditor of an HFC"
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "id": "ACT-NHB",
+   "label": "NHB Act, 1987",
+   "title": "The National Housing Bank Act, 1987 (as amended, including by the Finance (No. 2) Act, 2019 and the Jan Vishwas (Amendment of Provisions) Act, 2023)",
+   "group": "The NHB Act and who does what",
+   "type": "Act",
+   "status": "In force (amended)",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/02/NHB-Act-amended-upto-2023.pdf",
+   "issue_date": "1987-12-23",
+   "updated_as_on": "2024-01-22"
+  },
+  {
+   "id": "AMDACT-2019",
+   "label": "Finance (No. 2) Act, 2019 (Part VII)",
+   "title": "The Finance (No. 2) Act, 2019, Chapter VI Part VII: amendments to the National Housing Bank Act, 1987",
+   "group": "The NHB Act and who does what",
+   "type": "Act",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/02/NHB-Act-amended-upto-2023.pdf",
+   "issue_date": "2019-08-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "PR-RBI-2019",
+   "label": "RBI takes over HFC regulation",
+   "title": "RBI Press Release 2019-2020/419: Transfer of Regulation of Housing Finance Companies (HFCs) to Reserve Bank of India",
+   "group": "The NHB Act and who does what",
+   "type": "Press release",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47871",
+   "issue_date": "2019-08-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RBI-HFC-DIR-2025",
+   "label": "RBI HFC Directions, 2025",
+   "title": "Reserve Bank of India (Housing Finance Companies) Directions, 2025 (read in full in the RBI section)",
+   "group": "The NHB Act and who does what",
+   "type": "RBI Direction",
+   "status": "In force (amended)",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12939",
+   "issue_date": "2025-11-28",
+   "updated_as_on": "2026-10-01"
+  },
+  {
+   "id": "SUP-EWS-2023",
+   "label": "Early Warning Signals framework",
+   "title": "Early Warning Signals Framework in HFCs (NHB(ND)/DOS/Sup. Circular No. 9/2022-23)",
+   "group": "Supervision and inspection",
+   "type": "Supervisory circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2023/04/NHBNDDOSSup.-Circular-No.92022-23-English.pdf",
+   "issue_date": "2023-04-26",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-STAMP-2024",
+   "label": "Stamp duty and registration of mortgages",
+   "title": "Adherence to Indian Stamp Act, 1899 and Indian Registration Act, 1908 – Advisory",
+   "group": "Supervision and inspection",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/5.-Adherence-to-Indian-Stamp-Act-1899-and-Indian-Registration-Act-1908_September-13-2024.pdf",
+   "issue_date": "2024-09-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-CCO-2024",
+   "label": "Separate Chief Compliance Officer and Company Secretary",
+   "title": "Separation of Roles of Chief Compliance Officer (CCO) & Company Secretary (CS)",
+   "group": "Supervision and inspection",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/10.-Separation-of-roles-of-Chief-Compliance-Officer-CCO-Company-Secretary-CS_December-13-2024.pdf",
+   "issue_date": "2024-12-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-CCO-2024-SUGG",
+   "label": "CCO and Company Secretary roles (suggestion)",
+   "title": "Roles of Chief Compliance Officer (CCO) & Company Secretary (CS) – Suggestion",
+   "group": "Supervision and inspection",
+   "type": "Advisory",
+   "status": "In force (made mandatory by the advisory of 13-12-2024)",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/6.-Roles-of-Chief-Compliance-Officer-CCO-Company-Secretary-CS-Suggestion_September-20-2024.pdf",
+   "issue_date": "2024-09-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-AA-2023",
+   "label": "Join the Account Aggregator system",
+   "title": "Joining the Account Aggregator ecosystem – Advisory",
+   "group": "Supervision and inspection",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/3.-Joining-the-Account-Aggregator-Ecosystem-November-28-2023.pdf",
+   "issue_date": "2023-11-28",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-AADHAAR-2024",
+   "label": "Deactivated Aadhaar data",
+   "title": "Communication of DFS on Sharing of Deactivated Aadhaar with Banks & Financial Institutions",
+   "group": "Supervision and inspection",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/11.-Communication-of-DFS-on-Sharing-of-Deactivated-Aadhar-with-Banks-Financial-Institutions_December-16-2024-combined-1.pdf",
+   "issue_date": "2024-12-16",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-ACCESS-2025",
+   "label": "Accessible digital services (IS 17802)",
+   "title": "Compliance with IS 17802 (Part I & Part II) standards published by Bureau of Indian Standards (BIS)",
+   "group": "Supervision and inspection",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/17.-Compliance-with-IS-17802-Part-I-Part-II-standards-published-by-Bureau-of-Indian-Standards-BIS.pdf",
+   "issue_date": "2025-12-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-ACCESS-2026",
+   "label": "Accessibility instructions for persons with disabilities",
+   "title": "Implementation of Accessibility related instructions",
+   "group": "Supervision and inspection",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/18.-Implementation-of-Accessibility-related-instructions_January-30-2026.pdf",
+   "issue_date": "2026-01-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-KYC-2026",
+   "label": "KYC lapses found in inspections",
+   "title": "Advisory with regard to the Reserve Bank of India (Non-Banking Financial Companies - Know Your Customer) Directions, 2025",
+   "group": "Supervision and inspection",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/19.-Advisory-with-regard-to-the-Reserve-Bank-of-India-Non-Banking-Financial-Companies-Know-Your-Customer-Direction-2025.pdf",
+   "issue_date": "2026-03-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-CERSAI-2026",
+   "label": "Accurate CERSAI filings",
+   "title": "Advisory regarding Data Submitted to the Central Registry of Securitisation Asset Reconstruction and Security Interest of India (CERSAI)",
+   "group": "Supervision and inspection",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/07/Adviory-Letter-dated-17-July-2026_English.pdf",
+   "issue_date": "2026-07-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-ARB-2026",
+   "label": "Appointing arbitrators",
+   "title": "Appointment of Arbitrators for Resolution of Disputes (RBI letter to banks and NBFCs, circulated by NHB to HFCs)",
+   "group": "Supervision and inspection",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/11/Advisory-Letter-dated-12-11-2026-English.pdf",
+   "issue_date": "2026-11-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "FMR-2026",
+   "label": "Fraud reporting to NHB (FMR returns)",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies - Fraud Risk Management) Directions, 2026 – Advisory on submission of Fraud Monitoring Returns",
+   "group": "Returns and reporting to NHB",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/09/Advisory-Letter-Dated-September-072026-English-Version-1.pdf",
+   "issue_date": "2026-09-07",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MC-RETURNS",
+   "label": "Master Circular on returns (CRaMIS)",
+   "title": "Master Circular – Returns to be submitted by Housing Finance Companies (HFCs) (NHB(ND)/DOS/Sup. Circular No. 10/2023-24, updated as on 21-07-2023)",
+   "group": "Returns and reporting to NHB",
+   "type": "Master circular",
+   "status": "In force (updated as on 21-07-2023)",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2023/07/Master-Circular-Return-updated-21-07-2023_ENG-1.pdf",
+   "issue_date": "2021-12-31",
+   "updated_as_on": "2023-07-21"
+  },
+  {
+   "id": "SUP-CRAMIS-2022",
+   "label": "Returns move to CRaMIS",
+   "title": "Submission of Supervisory Returns through Centralised Reporting and Management Information Systems (CRaMIS) Portal",
+   "group": "Returns and reporting to NHB",
+   "type": "Supervisory circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2020/10/Supervisory-Circular-No.-8-CRaMIS-Dt.-29-12-2022.pdf",
+   "issue_date": "2022-12-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-PBC-2024",
+   "label": "Monthly principal business data",
+   "title": "Advisory on monthly reporting of Principal Business Criteria",
+   "group": "Returns and reporting to NHB",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/7.-Advisory-on-monthly-reporting-of-Principal-Business-Criteria_October-29-2024.pdf",
+   "issue_date": "2024-10-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-DPD-2024",
+   "label": "Monthly delinquent accounts report",
+   "title": "Advisory on monthly reporting of Delinquent Loan Accounts",
+   "group": "Returns and reporting to NHB",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/9.-Advisory-on-monthly-reporting-of-Delinquent-Loan-account_December-11-2024.pdf",
+   "issue_date": "2024-12-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-PLR-2026",
+   "label": "Monthly prime lending rate report",
+   "title": "Advisory on monthly reporting of Prime Lending Rate/Benchmark rates to NHB",
+   "group": "Returns and reporting to NHB",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/20.-Advisory-on-monthly-reporting-of-Prime-Lending-RateBenchmark-Rates-to-NHB_24-03-2026.pdf",
+   "issue_date": "2026-03-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-PURPOSE-2023",
+   "label": "State the purpose of the loan",
+   "title": "Purpose of Loan – Advisory",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/1.-Purpose-of-Loan-Advisory.pdf",
+   "issue_date": "2023-07-27",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-VALUERS-2025",
+   "label": "Qualified valuers",
+   "title": "Internal Technical Valuers of Housing Finance Companies (HFCs)",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/4.-Internal-Technical-Valuers-of-Housing-Finance-Companies-HFCs_January-24-2024.pdf",
+   "issue_date": "2025-01-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-INS-2024",
+   "label": "Insurance mis-selling (2024)",
+   "title": "Advisory on Mis-selling of Insurance with Housing Loans",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/8.-Advisory-on-Mis-selling-of-Insurance-with-Housing-Loans_December-10-2024.pdf",
+   "issue_date": "2024-12-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-INS-2025",
+   "label": "Insurance: consent and choice of insurers",
+   "title": "Advisory on Mis-selling of Insurance with Housing Loans (reiteration)",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/13.-Advisory-on-Mis-selling-of-Insurance-with-Housing-Loans_.March-12-2025.pdf",
+   "issue_date": "2025-03-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-INS-2026",
+   "label": "Insurance is voluntary: branch notice",
+   "title": "Advisory on Mis-selling of Insurance with Housing Loans/Other Loans",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/09/Advisory-on-Mis-Selling-of-Insurance-with-Housing-Loans-Other-Loans-English-Version-1.pdf",
+   "issue_date": "2026-09-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-EMI-2025",
+   "label": "EMI collection practices",
+   "title": "Practices adopted by HFCs for EMI collections – Advisory",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/12.-Practices-adopted-by-HFCs-for-EMI-Collections-Advisory_February-20-2025.pdf",
+   "issue_date": "2025-02-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-STAGE-2025",
+   "label": "Disburse only by construction stage",
+   "title": "Disbursement of housing loan to individuals linked to the stages of construction",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/15.-Disbursement-of-Housing-Loan-to-individuals-linked-to-the-stages-of-construction_November-20-2025.pdf",
+   "issue_date": "2025-11-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-PENAL-2026",
+   "label": "Penal and bounce charges",
+   "title": "Advisory on levy of Penal Charges by Housing Finance Companies (HFCs)",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/22.-Advisory-Letter-Dated-23-04-2026-Levy-of-Bounce-Charges-by-HFCs.pdf",
+   "issue_date": "2026-04-23",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-FPC-2026",
+   "label": "Interest only from actual disbursement",
+   "title": "Advisory with respect to compliance with RBI circular on Fair Practices Code for Lenders – Charging of Interest dated April 29, 2024",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/07/Advisory-Letter-Dated-24-07-2026_-English.pdf",
+   "issue_date": "2026-07-24",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-CALLS-2025",
+   "label": "1600-series numbers for service calls",
+   "title": "Advisory on the phased implementation timeline for mandatory adoption of 1600-series numbers",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/16.-Advisory-on-the-phased-implementation-timeline-for-mandatory-adoption-of-1600-%E2%80%93-series-numbers-combined.pdf",
+   "issue_date": "2025-12-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-CALLS-2026",
+   "label": "1600xx and 140xx calling numbers",
+   "title": "Compliance with Directions regarding Usage of Designated Numbering Series (1600xx and 140xx) for Service, Transactional, and Promotional Calls",
+   "group": "Lending conduct advisories",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/07/Advisory_English-Version-1.pdf",
+   "issue_date": "2026-07-07",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "GRP-NHB",
+   "label": "NHB Grievance Redressal Policy (GRIDS)",
+   "title": "National Housing Bank Grievance Redressal Policy, version 1.7 (2025-26)",
+   "group": "Complaints and grievance redressal",
+   "type": "Policy",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/04/Grievance-Redressal-Policy.pdf",
+   "issue_date": "2025-12-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-GRIEV-2023",
+   "label": "Root causes of customer complaints",
+   "title": "Public Grievances with respect to Housing Finance Companies – Advisory",
+   "group": "Complaints and grievance redressal",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/2.-Public-Grievances-with-respect-to-Housing-Finance-Companies_August-16-2023.pdf",
+   "issue_date": "2023-08-16",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-GRM-2026",
+   "label": "Grievance officer details on website and branches",
+   "title": "Advisory on Strengthening of Grievance Redressal Mechanism of Housing Finance Companies (HFCs)",
+   "group": "Complaints and grievance redressal",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/21.-Strengthening-of-Grievance-Redressal-Mechanism-of-Housing-Finance-Companies-HFCs_07-04-2026.pdf",
+   "issue_date": "2026-04-07",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-FLOW-2026",
+   "label": "Complaints flowchart on website",
+   "title": "Lodging of Customer Complaints – Disclosure Requirements on Websites of Housing Finance Companies",
+   "group": "Complaints and grievance redressal",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/06/Lodging-of-Customer-Complaints_Dislosure-Requirements-on-Websites-of-Housing-Finance-Companies_English-version.pdf",
+   "issue_date": "2026-06-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-BOOKLET",
+   "label": "Refinance Booklet for lenders",
+   "title": "Refinance Booklet for Primary Lending Institutions (PLIs), with effect from 15-12-2025",
+   "group": "Refinance from NHB",
+   "type": "Refinance scheme",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/09/Refinance-Booklet-PLIs-2025.pdf",
+   "issue_date": "2025-12-15",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-PSL-POOL",
+   "label": "75% priority sector pool",
+   "title": "Pool of flagged IHL for availing refinance (Refinance Circular No. 4/2024-25 and addendum)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/10/ROD-Circular-4-2024.pdf",
+   "issue_date": "2024-10-09",
+   "updated_as_on": "2024-10-16"
+  },
+  {
+   "id": "REF-BOOKDEBT-2024",
+   "label": "Only individual housing loans in the pool",
+   "title": "Regarding submission of Book Debt to NHB for availing refinance (Refinance Circular No. 3/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/10/Refinance-Circular-No.-3-2024-25.pdf",
+   "issue_date": "2024-10-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-PENAL-POOL",
+   "label": "5% penal charge for ineligible loans",
+   "title": "Penal charges for submission of ineligible Loan Pool against Refinance Facility (Refinance Circular No. 13/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2025/02/Refinance-Circular-No.-13-English.pdf",
+   "issue_date": "2025-01-31",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-REPLENISH-2025",
+   "label": "Replace closed loans in the pool",
+   "title": "Replenishment of Flagged Loans for Adverse Balance Adjustment (Refinance Circular No. 10/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2025/01/Refinance-Circular-No.-10-English.pdf",
+   "issue_date": "2025-01-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-NOMINEE-2025",
+   "label": "NHB nominee director",
+   "title": "Appointment of Nominee Director on the Board of Housing Finance Companies under Refinance Arrangements (Refinance Circular No. 9/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2025/01/Refinance-Circular-No.-09_2024-25-Eng.pdf",
+   "issue_date": "2025-01-07",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-MDCEO-2025",
+   "label": "NHB consent for MD/CEO when promoter holds under 26%",
+   "title": "Requirement of Prior Consent for Appointment or Continuation of MD/CEO/Head of the Institution in cases of Promoter Shareholding Dilution by HFCs under Refinance Arrangements (Refinance Circulars No. 11/2024-25 and 15/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2025/01/Refinance-Circular-No.-11-English.pdf",
+   "issue_date": "2025-01-08",
+   "updated_as_on": "2025-05-02"
+  },
+  {
+   "id": "REF-PBC-2025",
+   "label": "Principal business test for refinance",
+   "title": "Compliance with Principal Business Criteria (PBC) for Refinance Eligibility (Refinance Circular No. 12/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2025/01/Refinance-Circular-No.-12-English.pdf",
+   "issue_date": "2025-01-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-LRS-FIXED",
+   "label": "Fixed rate refinance (LRS)",
+   "title": "Introduction of Fixed Rate Refinance under Liberalized Refinance Scheme (LRS) (Refinance Circular No. 07/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2025/01/Refinance-Circular-No.-07_2024-25-English.pdf",
+   "issue_date": "2025-01-02",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-CONCESSION-2025",
+   "label": "LRS concessions: priority sector and women",
+   "title": "Introduction / Enhancements in Concessions under the Liberalized Refinance Scheme (Refinance Circular No. 8/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2025/01/Refinance-Circular-No.-08_2024-25-Eng.pdf",
+   "issue_date": "2025-01-07",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-PLOT-2025",
+   "label": "Plot plus construction loans",
+   "title": "Refinance for 'Plot + Construction' Loans and 'Construction Linked' Loans (Refinance Circular No. 14/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2025/04/Refinance-Circular-no.-14-2024-25.pdf",
+   "issue_date": "2025-04-02",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-SANCTION-2025",
+   "label": "Processing fee and repair loan rate",
+   "title": "Change in Refinance Sanction terms and conditions (Refinance Circular No. 16/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2025/05/Refinance-Circular-No.-16-2024-25.pdf",
+   "issue_date": "2025-05-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-RATING",
+   "label": "Public external rating of NHB exposure",
+   "title": "Requirement of external rating of refinance limit sanction by NHB (Refinance Circulars No. 5/2024 and No. 1/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/03/ROD-Circular-No.-05-2024.pdf",
+   "issue_date": "2024-03-21",
+   "updated_as_on": "2024-09-05"
+  },
+  {
+   "id": "REF-VALUATION-2024",
+   "label": "NHB may value flagged properties",
+   "title": "NHB's right to carry out valuation of underlying residential units flagged by HFCs for availing refinance (Refinance Circular No. 2/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/09/NHB_ROD_2.pdf",
+   "issue_date": "2024-09-05",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-EARMARK-2024",
+   "label": "Earmark the flagged pool in systems",
+   "title": "Earmarking of Loan Pool Flagged to NHB for Refinance in the Internal System of Primary Lending Institutions (Refinance Circular No. 06/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/12/Refinance-Circular-No.-06_2024-25-English.pdf",
+   "issue_date": "2024-12-23",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-RELEASE-2024",
+   "label": "Release of excess flagged loans",
+   "title": "Release of Excess Loan Pool (Refinance Circular No. 5/2024-25)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/12/NHB-ROD-Refinance-Circular-No.5-2024-25.pdf",
+   "issue_date": "2024-12-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REF-ADVBAL-2023",
+   "label": "Adverse balance certificates",
+   "title": "Timely Submission of Certificates on Adverse Balance (Refinance Circular No. 01/2023-24) and revised return formats (Refinance Circular No. 4/2024)",
+   "group": "Refinance from NHB",
+   "type": "Refinance circular",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2023/07/Circular-1-23-24_English.pdf",
+   "issue_date": "2023-07-27",
+   "updated_as_on": "2024-03-13"
+  },
+  {
+   "id": "PMAY-ISS",
+   "label": "PMAY-U 2.0 interest subsidy",
+   "title": "Pradhan Mantri Awas Yojana – Urban 2.0: Scheme Guidelines (Interest Subsidy Scheme vertical)",
+   "group": "Government housing schemes",
+   "type": "Government scheme",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/10/Operational-Guidelines-of-PMAY-U-2.pdf",
+   "issue_date": "2024-09-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ADV-PMAY-2025",
+   "label": "Timely loans to PMAY-U beneficiaries",
+   "title": "Timely and hassle-free loans to beneficiaries of PMAY-U/PMAY-U 2.0",
+   "group": "Government housing schemes",
+   "type": "Advisory",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/05/14.-Timely-and-hassle-free-loans-to-beneficiaries-of-PMAY-U-PMAY-U-2.0_September-13-2025.pdf",
+   "issue_date": "2025-09-23",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CRGFTLIH",
+   "label": "Credit risk guarantee for low-income housing",
+   "title": "Credit Risk Guarantee Fund Trust for Low Income Housing (CRGFTLIH): operational guidelines to lending institutions",
+   "group": "Government housing schemes",
+   "type": "Government scheme",
+   "status": "In force",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/04/Operational-guidelines-CRGFTLIH.pdf",
+   "issue_date": "2023-11-21",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-HFC-DIR-2010",
+   "label": "HFC (NHB) Directions, 2010",
+   "title": "The Housing Finance Companies (NHB) Directions, 2010 (Master Circular as on 01-07-2019)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2019/07/MC01-Master-Circular-The-Housing-Finance-Companies-NHB-Directions-2010.pdf",
+   "issue_date": "2010-06-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-AUDREP-2016",
+   "label": "HFC Auditor's Report Directions, 2016",
+   "title": "Housing Finance Companies – Auditor's Report (National Housing Bank) Directions, 2016 (Master Circular as on 01-07-2019)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2019/07/MC05-Master-Circular-Housing-Finance-Companies-%E2%80%93-Auditor%E2%80%99s-Report-National-Housing-Bank-Directions-2016.pdf",
+   "issue_date": "2017-02-03",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-CG-2016",
+   "label": "HFC Corporate Governance Directions, 2016",
+   "title": "Housing Finance Companies – Corporate Governance (National Housing Bank) Directions, 2016 (Master Circular as on 01-07-2019)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2019/07/MC07-Master-Circular-Housing-Finance-Companies-%E2%80%93-Corporate-Governance-National-Housing-Bank-Directions-2016.pdf",
+   "issue_date": "2017-02-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-ATC-2016",
+   "label": "HFC Acquisition or Transfer of Control Directions, 2016",
+   "title": "Housing Finance Companies – Approval of Acquisition or Transfer of Control (National Housing Bank) Directions, 2016 (Master Circular as on 01-07-2019)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2019/07/MC06-Master-Circular-Housing-Finance-Companies-%E2%80%93-Approval-of-Acquisition-or-Transfer-of-Control-National-Housing-Bank-Directions-2016.pdf",
+   "issue_date": "2017-02-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-NCD-2014",
+   "label": "HFC private placement NCD Directions, 2014",
+   "title": "Housing Finance Companies issuance of Non-Convertible Debentures on private placement basis (NHB) Directions, 2014 (Master Circular as on 01-07-2019)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2019/07/MC02-Master-Circular-Housing-Finance-Companies-issuance-of-Non-Convertible-Debentures-on-private-placement-basis-NHB-Directions-2014.pdf",
+   "issue_date": "2014-03-19",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-FPC-2019",
+   "label": "Master Circular on Fair Practice Code",
+   "title": "Master Circular – Fair Practice Code (NHB), as on 01-07-2019",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2019/07/MC03-Master-Circular-Fair-Practices-Code.pdf",
+   "issue_date": "2019-07-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-MISC-2019",
+   "label": "Master Circular on miscellaneous instructions",
+   "title": "Master Circular – Miscellaneous Instructions to all Housing Finance Companies (NHB), as on 01-07-2019",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2019/07/MC04-Master-Circular-Miscellaneous-Instructions-to-all-Housing-Finance-Companies.pdf",
+   "issue_date": "2019-07-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-MCRET-2021",
+   "label": "Master Circular on returns, April 2021",
+   "title": "Master Circular – Returns to be submitted by Housing Finance Companies (NHB(ND)/DOS/Sup. Circular No. 5/2020-21)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2021/05/Sup.-Circular-No.-5.pdf",
+   "issue_date": "2021-04-13",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-COVID-RET",
+   "label": "COVID-19 extensions for returns",
+   "title": "Extension of due dates for supervisory returns (DMC circular of 02-04-2020 and Sup. Circular No. 6/2020-21 of 17-05-2021)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2020/10/Sup-Circular-no-1.pdf",
+   "issue_date": "2020-04-02",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-EXGRATIA-2020",
+   "label": "Ex-gratia interest relief scheme, 2020",
+   "title": "Scheme for grant of ex-gratia payment of difference between compound interest and simple interest for six months (Sup. Circular No. 3/2020-21)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2020/10/Sup-Circular-No-3.pdf",
+   "issue_date": "2020-10-26",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "OLD-CONCESSION-2024",
+   "label": "LRS concessions of January 2024",
+   "title": "Concessions under the Regular Refinance Scheme (Refinance Circular No. 3/2024)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/01/LRS-Concession.pdf",
+   "issue_date": "2024-01-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ENT-HFC",
+   "label": "Housing finance company",
+   "title": "Housing finance company",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-PLI",
+   "label": "Lender borrowing refinance from NHB",
+   "title": "Lender borrowing refinance from NHB",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-CUS",
+   "label": "Home loan customer",
+   "title": "Home loan customer",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-AUD",
+   "label": "Auditor of an HFC",
+   "title": "Auditor of an HFC",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  }
+ ],
+ "edges": [
+  {
+   "source": "ACT-NHB",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance institutions that are companies (housing finance companies, HFCs): Chapter V; Scheduled banks, HFCs and other institutions that borrow from NHB (s. 14); Auditors of HFCs (s. 33) and depositors of HFCs (ss. 36A and 36B)"
+  },
+  {
+   "source": "ACT-NHB",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "Housing finance institutions that are companies (housing finance companies, HFCs): Chapter V; Scheduled banks, HFCs and other institutions that borrow from NHB (s. 14); Auditors of HFCs (s. 33) and depositors of HFCs (ss. 36A and 36B)"
+  },
+  {
+   "source": "ACT-NHB",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "Housing finance institutions that are companies (housing finance companies, HFCs): Chapter V; Scheduled banks, HFCs and other institutions that borrow from NHB (s. 14); Auditors of HFCs (s. 33) and depositors of HFCs (ss. 36A and 36B)"
+  },
+  {
+   "source": "ACT-NHB",
+   "target": "ENT-AUD",
+   "relation": "applies_to",
+   "basis": "Housing finance institutions that are companies (housing finance companies, HFCs): Chapter V; Scheduled banks, HFCs and other institutions that borrow from NHB (s. 14); Auditors of HFCs (s. 33) and depositors of HFCs (ss. 36A and 36B)"
+  },
+  {
+   "source": "ACT-NHB",
+   "target": "AMDACT-2019",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-NHB",
+   "target": "PR-RBI-2019",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-NHB",
+   "target": "RBI-HFC-DIR-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMDACT-2019",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies and their auditors"
+  },
+  {
+   "source": "AMDACT-2019",
+   "target": "ENT-AUD",
+   "relation": "applies_to",
+   "basis": "Housing finance companies and their auditors"
+  },
+  {
+   "source": "AMDACT-2019",
+   "target": "ACT-NHB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "AMDACT-2019",
+   "target": "PR-RBI-2019",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "PR-RBI-2019",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "PR-RBI-2019",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "PR-RBI-2019",
+   "target": "AMDACT-2019",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "PR-RBI-2019",
+   "target": "ACT-NHB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "PR-RBI-2019",
+   "target": "RBI-HFC-DIR-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs registered under s. 29A of the NHB Act (Middle and Upper Layers); Auditors of HFCs (Chapter IX)"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "HFCs registered under s. 29A of the NHB Act (Middle and Upper Layers); Auditors of HFCs (Chapter IX)"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "ENT-AUD",
+   "relation": "applies_to",
+   "basis": "HFCs registered under s. 29A of the NHB Act (Middle and Upper Layers); Auditors of HFCs (Chapter IX)"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "ACT-NHB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "MC-RETURNS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "GRP-NHB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SUP-EWS-2023",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs with assets of Rs 1,000 crore or more as on 31-03-2023"
+  },
+  {
+   "source": "SUP-EWS-2023",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "SUP-EWS-2023",
+   "target": "FMR-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-STAMP-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-STAMP-2024",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-STAMP-2024",
+   "target": "ADV-CERSAI-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-CCO-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-CCO-2024",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-CCO-2024",
+   "target": "ADV-CCO-2024-SUGG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-CCO-2024-SUGG",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-CCO-2024-SUGG",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-CCO-2024-SUGG",
+   "target": "ADV-CCO-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-AA-2023",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-AA-2023",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-AADHAAR-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-AADHAAR-2024",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-ACCESS-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-ACCESS-2025",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-ACCESS-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-ACCESS-2025",
+   "target": "ADV-ACCESS-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-ACCESS-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-ACCESS-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-ACCESS-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-ACCESS-2026",
+   "target": "ADV-ACCESS-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-ACCESS-2026",
+   "target": "ADV-KYC-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-KYC-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-KYC-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-KYC-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-KYC-2026",
+   "target": "ADV-ACCESS-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-CERSAI-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-CERSAI-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-CERSAI-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-CERSAI-2026",
+   "target": "ADV-STAMP-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-ARB-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Banks and NBFCs, including HFCs"
+  },
+  {
+   "source": "ADV-ARB-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "Banks and NBFCs, including HFCs"
+  },
+  {
+   "source": "ADV-ARB-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "FMR-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs (the RBI fraud directions tell HFCs to report frauds and robberies to NHB, not RBI)"
+  },
+  {
+   "source": "FMR-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "FMR-2026",
+   "target": "MC-RETURNS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "FMR-2026",
+   "target": "SUP-EWS-2023",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-RETURNS",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs; some returns only for deposit-taking HFCs or by asset size"
+  },
+  {
+   "source": "MC-RETURNS",
+   "target": "ENT-AUD",
+   "relation": "applies_to",
+   "basis": "All registered HFCs; some returns only for deposit-taking HFCs or by asset size"
+  },
+  {
+   "source": "MC-RETURNS",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "MC-RETURNS",
+   "target": "SUP-CRAMIS-2022",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-RETURNS",
+   "target": "ADV-PBC-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-RETURNS",
+   "target": "ADV-DPD-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-RETURNS",
+   "target": "ADV-PLR-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-RETURNS",
+   "target": "FMR-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MC-RETURNS",
+   "target": "ACT-NHB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SUP-CRAMIS-2022",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "SUP-CRAMIS-2022",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "SUP-CRAMIS-2022",
+   "target": "MC-RETURNS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-PBC-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-PBC-2024",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-PBC-2024",
+   "target": "MC-RETURNS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-PBC-2024",
+   "target": "REF-PBC-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-DPD-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs with assets of more than Rs 1,000 crore"
+  },
+  {
+   "source": "ADV-DPD-2024",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-DPD-2024",
+   "target": "MC-RETURNS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-PLR-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-PLR-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-PLR-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-PLR-2026",
+   "target": "MC-RETURNS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-PLR-2026",
+   "target": "ADV-PENAL-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-PURPOSE-2023",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs, for loans against property and other non-housing loans"
+  },
+  {
+   "source": "ADV-PURPOSE-2023",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs, for loans against property and other non-housing loans"
+  },
+  {
+   "source": "ADV-PURPOSE-2023",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-VALUERS-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-VALUERS-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-INS-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-INS-2024",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-INS-2024",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-INS-2024",
+   "target": "ADV-INS-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-INS-2024",
+   "target": "ADV-INS-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-INS-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-INS-2025",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-INS-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-INS-2025",
+   "target": "ADV-INS-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-INS-2025",
+   "target": "ADV-INS-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-INS-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-INS-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-INS-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-INS-2026",
+   "target": "ADV-INS-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-INS-2026",
+   "target": "ADV-INS-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-EMI-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-EMI-2025",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-EMI-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-EMI-2025",
+   "target": "ADV-FPC-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-STAGE-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-STAGE-2025",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-STAGE-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-STAGE-2025",
+   "target": "REF-PLOT-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-PENAL-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-PENAL-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-PENAL-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-PENAL-2026",
+   "target": "ADV-PLR-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-PENAL-2026",
+   "target": "ADV-EMI-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-FPC-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-FPC-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-FPC-2026",
+   "target": "ENT-AUD",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-FPC-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-FPC-2026",
+   "target": "MC-RETURNS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-FPC-2026",
+   "target": "ADV-EMI-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-CALLS-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-CALLS-2025",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-CALLS-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-CALLS-2025",
+   "target": "ADV-CALLS-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-CALLS-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-CALLS-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-CALLS-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-CALLS-2026",
+   "target": "ADV-CALLS-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "GRP-NHB",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "Customers (applicants, depositors, borrowers, co-borrowers and their legal heirs) of HFCs; Applicants and beneficiaries of PMAY-CLSS and RHISS loans for which NHB is the central nodal agency; HFCs, which must answer complaints NHB takes up"
+  },
+  {
+   "source": "GRP-NHB",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Customers (applicants, depositors, borrowers, co-borrowers and their legal heirs) of HFCs; Applicants and beneficiaries of PMAY-CLSS and RHISS loans for which NHB is the central nodal agency; HFCs, which must answer complaints NHB takes up"
+  },
+  {
+   "source": "GRP-NHB",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "GRP-NHB",
+   "target": "RBI-HFC-DIR-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "GRP-NHB",
+   "target": "ADV-GRM-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "GRP-NHB",
+   "target": "ADV-FLOW-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "GRP-NHB",
+   "target": "ADV-GRIEV-2023",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-GRIEV-2023",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-GRIEV-2023",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-GRIEV-2023",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-GRIEV-2023",
+   "target": "GRP-NHB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-GRIEV-2023",
+   "target": "ADV-GRM-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-GRM-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-GRM-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-GRM-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-GRM-2026",
+   "target": "ADV-FLOW-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-GRM-2026",
+   "target": "GRP-NHB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-GRM-2026",
+   "target": "RBI-HFC-DIR-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-FLOW-2026",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-FLOW-2026",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-FLOW-2026",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-FLOW-2026",
+   "target": "ADV-GRM-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-FLOW-2026",
+   "target": "GRP-NHB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-BOOKLET",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "HFCs, scheduled commercial banks, small finance banks, regional rural banks, scheduled co-operative and urban co-operative banks, apex co-operative housing finance societies and agriculture and rural development banks"
+  },
+  {
+   "source": "REF-BOOKLET",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs, scheduled commercial banks, small finance banks, regional rural banks, scheduled co-operative and urban co-operative banks, apex co-operative housing finance societies and agriculture and rural development banks"
+  },
+  {
+   "source": "REF-BOOKLET",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-BOOKLET",
+   "target": "REF-LRS-FIXED",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-BOOKLET",
+   "target": "REF-CONCESSION-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-BOOKLET",
+   "target": "REF-PSL-POOL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-BOOKLET",
+   "target": "REF-PENAL-POOL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-BOOKLET",
+   "target": "REF-SANCTION-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-BOOKLET",
+   "target": "ACT-NHB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-PSL-POOL",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "HFCs availing refinance"
+  },
+  {
+   "source": "REF-PSL-POOL",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs availing refinance"
+  },
+  {
+   "source": "REF-PSL-POOL",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-PSL-POOL",
+   "target": "REF-BOOKLET",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-PSL-POOL",
+   "target": "REF-BOOKDEBT-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-BOOKDEBT-2024",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "HFCs availing refinance"
+  },
+  {
+   "source": "REF-BOOKDEBT-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs availing refinance"
+  },
+  {
+   "source": "REF-BOOKDEBT-2024",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-BOOKDEBT-2024",
+   "target": "REF-PSL-POOL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-BOOKDEBT-2024",
+   "target": "REF-PENAL-POOL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-PENAL-POOL",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "HFCs with refinance outstanding on 01-01-2025 or availing it later"
+  },
+  {
+   "source": "REF-PENAL-POOL",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs with refinance outstanding on 01-01-2025 or availing it later"
+  },
+  {
+   "source": "REF-PENAL-POOL",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-PENAL-POOL",
+   "target": "REF-BOOKDEBT-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-PENAL-POOL",
+   "target": "REF-REPLENISH-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-REPLENISH-2025",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "Primary lending institutions with refinance outstanding"
+  },
+  {
+   "source": "REF-REPLENISH-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Primary lending institutions with refinance outstanding"
+  },
+  {
+   "source": "REF-REPLENISH-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-REPLENISH-2025",
+   "target": "REF-BOOKLET",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-REPLENISH-2025",
+   "target": "REF-PENAL-POOL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-NOMINEE-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs with existing or future refinance from NHB"
+  },
+  {
+   "source": "REF-NOMINEE-2025",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "HFCs with existing or future refinance from NHB"
+  },
+  {
+   "source": "REF-NOMINEE-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-NOMINEE-2025",
+   "target": "REF-MDCEO-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-MDCEO-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs with existing or future refinance from NHB whose single largest promoter holds, or will hold, less than 26%"
+  },
+  {
+   "source": "REF-MDCEO-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-MDCEO-2025",
+   "target": "REF-NOMINEE-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-PBC-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs seeking refinance"
+  },
+  {
+   "source": "REF-PBC-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-PBC-2025",
+   "target": "ADV-PBC-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-PBC-2025",
+   "target": "REF-BOOKLET",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-LRS-FIXED",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "HFCs, scheduled banks and co-operative sector institutions that meet NHB's eligibility norms"
+  },
+  {
+   "source": "REF-LRS-FIXED",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs, scheduled banks and co-operative sector institutions that meet NHB's eligibility norms"
+  },
+  {
+   "source": "REF-LRS-FIXED",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-LRS-FIXED",
+   "target": "REF-BOOKLET",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-LRS-FIXED",
+   "target": "REF-CONCESSION-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-CONCESSION-2025",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "Primary lending institutions, for future disbursements"
+  },
+  {
+   "source": "REF-CONCESSION-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Primary lending institutions, for future disbursements"
+  },
+  {
+   "source": "REF-CONCESSION-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-CONCESSION-2025",
+   "target": "REF-LRS-FIXED",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-CONCESSION-2025",
+   "target": "REF-BOOKLET",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-CONCESSION-2025",
+   "target": "OLD-CONCESSION-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-PLOT-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs availing refinance"
+  },
+  {
+   "source": "REF-PLOT-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-PLOT-2025",
+   "target": "ADV-STAGE-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-PLOT-2025",
+   "target": "REF-BOOKDEBT-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-SANCTION-2025",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "All primary lending institutions"
+  },
+  {
+   "source": "REF-SANCTION-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All primary lending institutions"
+  },
+  {
+   "source": "REF-SANCTION-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-SANCTION-2025",
+   "target": "REF-BOOKLET",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-RATING",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "All eligible primary lending institutions"
+  },
+  {
+   "source": "REF-RATING",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All eligible primary lending institutions"
+  },
+  {
+   "source": "REF-RATING",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-RATING",
+   "target": "REF-BOOKLET",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-VALUATION-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs availing refinance"
+  },
+  {
+   "source": "REF-VALUATION-2024",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-VALUATION-2024",
+   "target": "REF-EARMARK-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-EARMARK-2024",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "All primary lending institutions availing refinance"
+  },
+  {
+   "source": "REF-EARMARK-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All primary lending institutions availing refinance"
+  },
+  {
+   "source": "REF-EARMARK-2024",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-EARMARK-2024",
+   "target": "REF-VALUATION-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-EARMARK-2024",
+   "target": "REF-RELEASE-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-RELEASE-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs with refinance outstanding"
+  },
+  {
+   "source": "REF-RELEASE-2024",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-RELEASE-2024",
+   "target": "REF-EARMARK-2024",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-ADVBAL-2023",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "HFCs with refinance outstanding"
+  },
+  {
+   "source": "REF-ADVBAL-2023",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "REF-ADVBAL-2023",
+   "target": "REF-BOOKLET",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REF-ADVBAL-2023",
+   "target": "REF-REPLENISH-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "PMAY-ISS",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "Primary lending institutions that sign an MoU with a central nodal agency such as NHB; EWS, LIG and MIG households in urban areas"
+  },
+  {
+   "source": "PMAY-ISS",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Primary lending institutions that sign an MoU with a central nodal agency such as NHB; EWS, LIG and MIG households in urban areas"
+  },
+  {
+   "source": "PMAY-ISS",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "Primary lending institutions that sign an MoU with a central nodal agency such as NHB; EWS, LIG and MIG households in urban areas"
+  },
+  {
+   "source": "PMAY-ISS",
+   "target": "ADV-PMAY-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "PMAY-ISS",
+   "target": "GRP-NHB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-PMAY-2025",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-PMAY-2025",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "All registered HFCs"
+  },
+  {
+   "source": "ADV-PMAY-2025",
+   "target": "ACT-NHB",
+   "relation": "issued_under",
+   "basis": "NHB Act, 1987 (ss. 14 and 14A for refinance; ss. 30A, 32 and 34 for directions, returns and supervision)"
+  },
+  {
+   "source": "ADV-PMAY-2025",
+   "target": "PMAY-ISS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ADV-PMAY-2025",
+   "target": "CRGFTLIH",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CRGFTLIH",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "Banks and HFCs registered as member lending institutions that lend to EWS and LIG households in urban areas"
+  },
+  {
+   "source": "CRGFTLIH",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Banks and HFCs registered as member lending institutions that lend to EWS and LIG households in urban areas"
+  },
+  {
+   "source": "CRGFTLIH",
+   "target": "ADV-PMAY-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "OLD-HFC-DIR-2010",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-AUDREP-2016",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Auditors of housing finance companies"
+  },
+  {
+   "source": "OLD-AUDREP-2016",
+   "target": "ENT-AUD",
+   "relation": "applies_to",
+   "basis": "Auditors of housing finance companies"
+  },
+  {
+   "source": "OLD-CG-2016",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-ATC-2016",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-NCD-2014",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-FPC-2019",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-FPC-2019",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-MISC-2019",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-MCRET-2021",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-COVID-RET",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-EXGRATIA-2020",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-EXGRATIA-2020",
+   "target": "ENT-CUS",
+   "relation": "applies_to",
+   "basis": "Housing finance companies"
+  },
+  {
+   "source": "OLD-CONCESSION-2024",
+   "target": "ENT-PLI",
+   "relation": "applies_to",
+   "basis": "Primary lending institutions"
+  },
+  {
+   "source": "OLD-CONCESSION-2024",
+   "target": "ENT-HFC",
+   "relation": "applies_to",
+   "basis": "Primary lending institutions"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "OLD-HFC-DIR-2010",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "OLD-AUDREP-2016",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "OLD-CG-2016",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "OLD-ATC-2016",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "OLD-NCD-2014",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "OLD-FPC-2019",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "RBI-HFC-DIR-2025",
+   "target": "OLD-MISC-2019",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "MC-RETURNS",
+   "target": "OLD-MCRET-2021",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "REF-CONCESSION-2025",
+   "target": "OLD-CONCESSION-2024",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "AMDACT-2019",
+   "target": "ACT-NHB",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "PR-RBI-2019",
+   "target": "AMDACT-2019",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-CCO-2024-SUGG",
+   "target": "ADV-CCO-2024",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-INS-2025",
+   "target": "ADV-INS-2024",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-INS-2026",
+   "target": "ADV-INS-2025",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-ACCESS-2026",
+   "target": "ADV-ACCESS-2025",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-CALLS-2026",
+   "target": "ADV-CALLS-2025",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-GRM-2026",
+   "target": "GRP-NHB",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-FLOW-2026",
+   "target": "GRP-NHB",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-GRIEV-2023",
+   "target": "GRP-NHB",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-PBC-2024",
+   "target": "MC-RETURNS",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-DPD-2024",
+   "target": "MC-RETURNS",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-PLR-2026",
+   "target": "MC-RETURNS",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "FMR-2026",
+   "target": "MC-RETURNS",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "SUP-CRAMIS-2022",
+   "target": "MC-RETURNS",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-PSL-POOL",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-BOOKDEBT-2024",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-PENAL-POOL",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-REPLENISH-2025",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-NOMINEE-2025",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-MDCEO-2025",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-PBC-2025",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-LRS-FIXED",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-CONCESSION-2025",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-PLOT-2025",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-SANCTION-2025",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-RATING",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-VALUATION-2024",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-EARMARK-2024",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-RELEASE-2024",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REF-ADVBAL-2023",
+   "target": "REF-BOOKLET",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "ADV-PMAY-2025",
+   "target": "PMAY-ISS",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  }
+ ]
+}
