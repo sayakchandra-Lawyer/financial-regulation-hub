@@ -14,12 +14,14 @@ concepts: s. 29B: liquid assets on deposits (approved securities and bank or NHB
 concepts: s. 29C: reserve fund of at least 20% of net profit before any dividend
 concepts: s. 36A: an NHB officer authorised by the Central Government may order an HFC to repay a matured deposit
 duties: s. 29A(1)-(2): apply to RBI for a certificate of registration and keep the minimum net owned fund; certificates NHB granted before 09-08-2019 are deemed granted under the Act
-duties: s. 29B(1)-(2): keep at least 5% of deposits in unencumbered approved securities and, with bank or NHB deposits or NHB bonds, at least 10% (or the higher rate RBI notifies; RBI HFC Directions 2025 para 76 now sets 15% from 01-07-2025)
+duties: s. 29B(1)-(2): keep liquid assets against public deposits: the Act sets at least 5% in unencumbered approved securities and, with bank or NHB deposits or NHB bonds, at least 10%, or the higher rates RBI notifies. RBI HFC Directions 2025 para 76 now require 10% in approved securities and 15% in all, from 01-07-2025, measured on public deposits outstanding on the last working day of the second preceding quarter
 duties: s. 29C(1)-(2): transfer at least 20% of net profit to a reserve fund every year; any appropriation from it must be for a purpose RBI specifies and be reported to NHB and RBI within 21 days
 duties: s. 31: a deposit-taking HFC must give NHB and RBI the statements on deposits NHB specifies, and send its annual accounts to large depositors if NHB requires
 duties: s. 32: every HFC must furnish the statements, information or particulars NHB or RBI calls for and comply with directions under Chapter V
 duties: s. 33(1)-(2): the auditor must enquire whether the HFC has furnished the deposit statements and, if not, report to NHB and RBI the aggregate deposits, and include that report in the audit report under s. 143(2) of the Companies Act, 2013
 duties: s. 34(2): directors, officers and employees must produce books and documents and give information to NHB's inspecting authority within the time it fixes
+duties: s. 16B: a borrowing institution holds repayments and recoveries on loans refinanced by NHB, to the extent of NHB's outstanding accommodation, and the related securities, in trust for NHB
+duties: s. 20: NHB may call for immediate repayment of its loan if the application had false or misleading information, the terms are breached, the borrower may be unable to pay its debts, or to protect NHB's interests
 duties: s. 35: no one may solicit deposits for an HFC without its written authority and an advertisement complying with RBI orders
 deadlines: s. 29C(2): report an appropriation from the reserve fund to NHB and RBI within 21 days
 deadlines: s. 29B(5): penal interest on a liquid asset shortfall is payable within 14 days of NHB's demand
@@ -50,7 +52,7 @@ penalties: P1
 applies: Housing finance companies
 concepts: HFCs are treated as a category of NBFC for regulatory purposes from 09-08-2019
 concepts: NHB continues to supervise HFCs, HFCs continue to file returns with NHB, and grievance redressal for HFC customers stays with NHB
-duties: HFCs were to follow NHB's directions until RBI issued its own framework (it did so on 17-02-2021, now replaced by the 2025 Directions)
+duties: HFCs were to follow NHB's directions until RBI issued its own framework (RBI set out a revised framework on 22-10-2020 and issued consolidated HFC Directions on 17-02-2021, now replaced by the 2025 Directions)
 duties: Applications for registration under s. 29A(2) go to RBI
 refs: AMDACT-2019; ACT-NHB; RBI-HFC-DIR-2025
 penalties: P1
@@ -60,17 +62,18 @@ powers: RBI Act 1934 ss. 45L and 45MA; NHB Act 1987 ss. 30, 30A, 32 and 33
 applies: HFCs registered under s. 29A of the NHB Act (Middle and Upper Layers); Auditors of HFCs (Chapter IX)
 concepts: The RBI rulebook for HFCs; this page lists only the parts that send an HFC to NHB
 concepts: Reporting and instructions that the RBI directions address to the supervisor are to be made to NHB as the supervisor of HFCs (paras 5 and 8)
-concepts: Principal business test: at least 60% of total assets in housing finance and 50% in individual housing loans (para 10(9)); minimum net owned fund Rs 20 crore (para 16)
+concepts: Principal business test (para 10(9)): housing finance at least 60%, and housing finance for individuals at least 50%, of total assets net of intangible assets; minimum net owned fund Rs 20 crore (para 16)
 duties: para 144: tell customers, at branches and on the website, that if the HFC does not reply within one month or the reply is unsatisfactory, they may complain to NHB online or by post
 duties: para 234: supervision of HFCs rests with NHB; para 236: NHB inspects HFCs under s. 34 of the NHB Act
 duties: para 237: send NHB the audited financial statements, auditor's report and Board's report within 15 days of the AGM; para 238: deposit-taking HFCs add an auditor's certificate on depositor liabilities
 duties: para 239: comply with any reporting requirement NHB prescribes
 duties: para 221: quarterly report to NHB on counterfeit notes detected, within 7 days of the quarter end (nil report if none)
 duties: para 54: take NHB's prior approval before approaching the Registrar of Companies to change the accounting year
+duties: paras 123 to 126: besides the Companies Act audit report, the auditor makes a separate report to the Board covering registration and the principal business criteria, net owned fund, the s. 29C reserve, the borrowing limits and, for deposit-taking HFCs, deposit matters, giving reasons for any unfavourable or qualified statement or for being unable to give an opinion
 duties: para 127: the auditor must report unfavourable or qualified statements and non-compliance to NHB and RBI
 deadlines: 15 days after the AGM: annual accounts to NHB (para 237)
 deadlines: 7 days after each quarter: counterfeit note report to NHB (para 221)
-deadlines: One month: wait before a customer may escalate to NHB (para 144)
+deadlines: Escalation to NHB: if the HFC does not reply within one month, or at once if its reply is unsatisfactory (para 144)
 breach: para 235: RBI or NHB may impose a penalty under s. 52A of the NHB Act for any contravention of the Act or directions
 breach: para 233: an unreported appropriation from the reserve fund is a violation attracting penalty
 refs: ACT-NHB; MC-RETURNS; GRP-NHB
@@ -201,6 +204,7 @@ duties: Keep a reporting system that files every return on time; delay is reckon
 duties: Keep CRaMIS details current whenever the MD and CEO, directors, statutory auditors, principal, nodal, compliance or grievance redressal officers, branches or corporate office change
 duties: Schedule V monthly by the 10th of the next month; Schedule IV quarterly (15th of the month after the quarter, 15 May for March); Schedule II half-yearly by 12 May and 12 November; Schedule I annually by 30 June
 duties: LCR return weekly (as at Friday, by the next Wednesday) for deposit-taking HFCs and non-deposit HFCs with assets of Rs 5,000 crore or more
+duties: Due dates (Annex): ALM-I, the 20 major exposures return and the Broad Liquidity return within 10 days of each quarter end; Schedule III within 15 days of each quarter end; ALM-II within 20 days of 31 March and 30 September
 duties: ALM returns for deposit-taking HFCs and non-deposit HFCs with assets of Rs 100 crore or more; Schedule III and the Broad Liquidity return for deposit-taking HFCs
 duties: Statutory Auditor's Certificate every year confirming the HFC is in housing finance business needing a certificate of registration, advised within one month of finalising the balance sheet
 duties: Statutory auditors certify the March figures in Schedules I, III and IV and the September and March Schedule II
@@ -357,6 +361,7 @@ excluded: Complaints against entities without a valid HFC registration, sub-judi
 concepts: HFCs are not covered by the RBI Integrated Ombudsman Scheme, 2026; complaints against HFCs go to NHB
 concepts: Complaints are lodged on NHB's GRIDS portal (grids.nhbonline.org.in), on CPGRAMS, or by post to NHB, New Delhi
 concepts: NHB plays a facilitative role: it takes the complaint up with the HFC; it does not replace courts or consumer forums, which the customer may approach at any time
+concepts: NHB does not take up matters that are sub judice or already decided by a court or quasi-judicial authority, matters under investigation by a government or statutory body, complaints by non-customers, anonymous complaints or incomplete complaints (para 7.2)
 duties: The customer must first complain to the HFC; NHB takes the complaint if the HFC does not reply within one month or the reply is unsatisfactory (para 5.3)
 duties: The complaint must give the customer's details, loan or deposit account, the date of the complaint to the HFC and supporting documents (para 7.1)
 duties: HFCs must respond to NHB on complaints and give an interim reply with reasons if resolution is delayed
@@ -405,8 +410,8 @@ penalties: P1
 powers: NHB Act 1987 s. 14(b) and (ba) (loans and financial assistance for housing); NHB Refinance Policy
 applies: HFCs, scheduled commercial banks, small finance banks, regional rural banks, scheduled co-operative and urban co-operative banks, apex co-operative housing finance societies and agriculture and rural development banks
 concepts: Schemes: Regular Refinance (Liberalized Refinance Scheme, LRS), Affordable Housing Fund, LRS fixed rate refinance, special refinance for small ticket loans (with or without rooftop solar), construction finance for affordable housing, and slum redevelopment and low-cost housing
-concepts: Refinance is against individual housing loans for purchase, construction, repair or upgradation; loans against property are not eligible; for HFCs, 75% of the loan pool flagged to NHB must meet the priority sector definition
-concepts: HFCs must meet the RBI principal business criteria (60% of assets in housing finance, 50% in individual housing loans)
+concepts: Refinance is against individual housing loans for purchase, construction, repair or upgradation; loans against property are not eligible; for HFCs, at least 75% of the loan pool flagged to NHB must be individual housing loans that are priority sector compliant (booklet para 1.2)
+concepts: HFCs must meet the RBI principal business criteria (housing finance at least 60%, and individual housing loans at least 50%, of total assets net of intangible assets)
 duties: Refinance up to 100% of eligible loans, for 1 to 15 years, repaid in equal quarterly instalments on 1 January, April, July and October after one clear quarter
 duties: Interest is compounded monthly and paid quarterly; rates are fixed (annual reset) or floating (quarterly reset) and linked to NHB's prime lending rate
 duties: HFCs secure refinance by a charge on book debts (more security at NHB's discretion); banks give a letter of authority to debit their RBI current account
@@ -425,7 +430,8 @@ penalties: P1
 powers: NHB Act 1987 s. 14(b) and (ba) (loans and financial assistance for housing); NHB Refinance Policy
 applies: HFCs availing refinance
 concepts: Individual housing loans meeting the priority sector definition (as quoted then: up to Rs 35 lakh in metropolitan centres and Rs 25 lakh elsewhere, for dwellings costing up to Rs 45 lakh and Rs 30 lakh)
-duties: At least 75% of the loan pool assigned to NHB against the refinance amount must be priority sector compliant individual housing loans
+concepts: RBI has since raised the priority sector housing limits (para 13.1 of its PSL Directions): loans up to Rs 50 lakh for a dwelling costing up to Rs 63 lakh in centres of 50 lakh population or more, Rs 45 lakh and Rs 57 lakh in centres of 10 to 50 lakh, and Rs 35 lakh and Rs 44 lakh elsewhere; check the current RBI limits and the refinance sanction terms
+duties: In proportion to the refinance limit availed, assign to NHB a loan pool at least 75% of which is priority sector compliant individual housing loans
 duties: The pool beyond 75% of the refinance amount and margin may be non-priority sector individual housing loans (addendum of 16-10-2024)
 refs: REF-BOOKLET; REF-BOOKDEBT-2024
 penalties: P1
@@ -493,7 +499,7 @@ penalties: P1
 [REF-CONCESSION-2025] LRS concessions: priority sector and women | Introduction / Enhancements in Concessions under the Liberalized Refinance Scheme (Refinance Circular No. 8/2024-25) | NHB(ND)/ROD/Refinance Circular No. 8/2024-25; HO/ROD/DAK/2025/04271 | Refinance circular | In force | issued 2025-01-07 | subject: Refinance from NHB
 powers: NHB Act 1987 s. 14(b) and (ba) (loans and financial assistance for housing); NHB Refinance Policy
 applies: Primary lending institutions, for future disbursements
-concepts: 25 bps concession for pools of individual housing loans that fully meet the priority sector criteria (para 12.1(i) of RBI's PSL Directions)
+concepts: 25 bps concession for pools of individual housing loans that fully meet the priority sector criteria (para 12.1(i) of RBI's PSL Directions as then numbered; now para 13.1)
 concepts: Concession for loans to women borrowers raised from 10 bps to 25 bps
 concepts: Concessions cannot be combined; none applies to LRS fixed rate refinance
 duties: Claim only one concession per refinance and only on pools that meet its conditions
@@ -561,7 +567,9 @@ penalties: P1
 [PMAY-ISS] PMAY-U 2.0 interest subsidy | Pradhan Mantri Awas Yojana – Urban 2.0: Scheme Guidelines (Interest Subsidy Scheme vertical) | Ministry of Housing and Urban Affairs, PMAY-U 2.0 Operational Guidelines | Government scheme | In force | issued 2024-09-01 | subject: Government housing schemes
 applies: Primary lending institutions that sign an MoU with a central nodal agency such as NHB; EWS, LIG and MIG households in urban areas
 concepts: EWS: household income up to Rs 3 lakh; LIG: Rs 3 to 6 lakh; MIG: Rs 6 to 9 lakh (para 3.3)
-concepts: Interest subsidy of 4% a year on the first Rs 8 lakh of a loan of up to Rs 25 lakh, for a house worth up to Rs 35 lakh and up to 120 sq m carpet area, for tenure up to 12 years; maximum Rs 1.80 lakh, paid in 5 yearly instalments (para 5.4.3)
+concepts: Interest subsidy of 4% a year on the first Rs 8 lakh of a loan of up to Rs 25 lakh, for a house worth up to Rs 35 lakh and up to 120 sq m carpet area, for tenure up to 12 years; maximum release Rs 1.80 lakh (net present value up to Rs 1.50 lakh), for loans with tenure of more than five years, paid in 5 equal yearly instalments (para 5.4.3)
+concepts: Eligible families must not own a pucca house anywhere in India (para 3.1) and must not have been allotted a house under any government housing scheme in the last 20 years (para 3.2)
+concepts: Each instalment is released only while the loan is active and more than 50% of principal is outstanding (para 5.4.10)
 concepts: Applies to home loans sanctioned and disbursed on or after 01-09-2024 (para 5.4.1)
 duties: Check on the unified web portal that the property has not already received the subsidy; subsidy is available once per property and is lost on a balance transfer (para 5.4.5)
 duties: Treat family members borrowing on the same property as one family for income and benefit (para 5.4.5)
@@ -659,4 +667,4 @@ NHB CHANGES (2025-12-01 to 2026-11-26):
 - 2025-12-15 Refinance: New refinance booklet for lenders (NHB Refinance Booklet (w.e.f. 15-12-2025)). Applies: HFCs, banks and co-operative lenders that borrow refinance from NHB.. Changes: One booklet now sets the terms of all refinance schemes, including eligibility, security, repayment, prepayment and returns. CEO and CFO certify the flagged loan pool every quarter within 15 days; late payment over 3 working days carries a 2% penal charge. Actions: Check existing sanctions and returns against the booklet.
 - 2025-12-12 Advisory: Digital services to meet IS 17802 accessibility standards (MRO/DOS/DOC/2025/04973). Applies: All registered HFCs.. Changes: Websites, apps and devices to meet IS 17802 Parts I and II before the standard is made mandatory. Actions: Run an IS 17802 audit of the website and app.
 - 2025-12-11 Advisory: Service calls only from 1600-series numbers (MRO/DOS/DOC/2025/04967). Applies: All registered HFCs.. Changes: Transactional and service calls only from 1600-series numbers: by 01-02-2026 for HFCs with assets above Rs 5,000 crore, by 01-03-2026 for others. Actions: Confirm completion of the switch to NHB by e-mail.
-- 2025-12-01 Policy: NHB Grievance Redressal Policy (GRIDS) (NHB Grievance Redressal Policy, version 1.7). Applies: Customers of HFCs and the HFCs themselves.. Changes: Complaints against HFCs go to NHB on GRIDS after one month with the HFC; NHB aims to resolve them within 21 days. Appeals within 30 days of closure, decided within 15 days. Actions: Point customers to GRIDS in the HFC's own complaint replies.
+- 2025-12-01 Policy: NHB Grievance Redressal Policy (GRIDS) (NHB Grievance Redressal Policy, version 1.7). Applies: Customers of HFCs and the HFCs themselves.. Changes: A customer may complain to NHB on GRIDS if the HFC does not reply within one month or its reply is unsatisfactory; NHB aims to resolve complaints within 21 days. Appeals within 30 days of closure, decided within 15 days. Actions: Point customers to GRIDS in the HFC's own complaint replies.
