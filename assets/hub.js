@@ -1,4 +1,4 @@
-/* Financial Regulation Hub: shared engine (header, theme, data loading, search, Not So Intelligent AI) */
+/* Financial Regulation Hub: shared engine (header, theme, data loading, search, Counsel’s Clerk) */
 "use strict";
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -33,6 +33,8 @@ const I = {
   arrow: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
   ext: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>',
   map: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="2.5"/><circle cx="4.5" cy="5" r="1.8"/><circle cx="19.5" cy="5" r="1.8"/><circle cx="4.5" cy="19" r="1.8"/><circle cx="19.5" cy="19" r="1.8"/><path d="m6 6.3 4.2 4M18 6.3l-4.2 4M6 17.7l4.2-4M18 17.7l-4.2-4"/></svg>',
+  menu: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>',
+  close: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>',
   logo: '<svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="16" r="14" stroke-width="1.6" opacity=".9"/><circle cx="16" cy="16" r="11.6" stroke-width=".9" stroke-dasharray="1.2 2" opacity=".7"/><path transform="translate(5.8 5.4) scale(.85)" stroke-width="2.4" d="M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7"/></svg>',
   grow: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg>',
   shrink: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 10h-6V4M4 14h6v6M14 10l7-7M10 14l-7 7"/></svg>',
@@ -56,20 +58,32 @@ const JUDGE_SVG = `<svg viewBox="0 0 64 64" aria-hidden="true" class="jsvg">
 
 /* ---------- theme + chrome ---------- */
 function applyTheme(t) {
-  if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
+  const sys = typeof SYS_DARK !== "undefined" && SYS_DARK && SYS_DARK.matches ? "dark" : "light";
+  document.documentElement.dataset.theme = t === "light" || t === "dark" ? t : sys;
   const b = $("#themebtn"); if (!b) return;
   const dark = isDark(); b.innerHTML = dark ? I.sun : I.moon; b.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
 }
-function isDark() { return document.documentElement.dataset.theme === "dark"; }  /* light by default; dark only when chosen */
+/* follow the device's light/dark setting until the reader picks one with the toggle */
+const SYS_DARK = window.matchMedia ? matchMedia("(prefers-color-scheme: dark)") : null;
+function isDark() { const t = document.documentElement.dataset.theme; return t ? t === "dark" : !!(SYS_DARK && SYS_DARK.matches); }
 applyTheme(store.get("theme", ""));
+if (SYS_DARK && SYS_DARK.addEventListener) SYS_DARK.addEventListener("change", () => applyTheme(store.get("theme", "")));
+/* entrance animations only when the page is actually on screen, so content never stays hidden at opacity 0 */
+if (document.visibilityState === "visible" && !(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches)) document.documentElement.classList.add("anim");
 
 function renderChrome(hub, opts) {
   const root = opts.root || "";
-  const nav = hub.sections.map(s => `<a href="${s.status === "live" ? root + s.href : root + "#" + s.id}" class="${s.id === opts.active ? "on" : ""} ${s.status === "live" ? "" : "soon"}">${esc(s.short)}</a>`).join("");
+  const nav = hub.sections.filter(s => s.status === "live").map(s => `<a href="${s.status === "live" ? root + s.href : root + "#" + s.id}" class="${s.id === opts.active ? "on" : ""} ${s.status === "live" ? "" : "soon"}">${esc(s.short)}</a>`).join("");
   const crumb = opts.crumb ? `<span class="crumb">${opts.crumb}</span>` : "";
   $("#top").innerHTML = `<a class="brand" href="${root || "./"}"><span class="logo">${I.logo}</span><span><b>${esc(hub.title)}</b><small>${esc(opts.sub || hub.tagline)}</small></span></a>${crumb}
-    <nav class="nav" aria-label="Regulators">${nav}<button class="iconbtn" id="themebtn" type="button"></button></nav>`;
+    <nav class="nav" aria-label="Regulators"><div class="navl" id="navl">${nav}</div><button class="iconbtn" id="themebtn" type="button"></button><button class="iconbtn" id="menubtn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navl">${I.menu}</button></nav>`;
   $("#top").className = "top";
+  const mb = $("#menubtn"), nl = $("#navl");
+  const setMenu = on => { nl.classList.toggle("open", on); mb.setAttribute("aria-expanded", on ? "true" : "false"); mb.innerHTML = on ? I.close : I.menu; };
+  mb.addEventListener("click", e => { e.stopPropagation(); setMenu(!nl.classList.contains("open")); });
+  document.addEventListener("click", e => { if (!e.target.closest("#navl")) setMenu(false); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") setMenu(false); });
+  nl.addEventListener("click", e => { if (e.target.closest("a")) setMenu(false); });
   applyTheme(store.get("theme", ""));
   $("#themebtn").addEventListener("click", () => { const t = isDark() ? "light" : "dark"; store.set("theme", t); applyTheme(t); });
   const f = $("#foot");
@@ -347,12 +361,14 @@ function sxHl(txt, Q) {
   if (!pats.length) return s;
   return s.replace(new RegExp(`(^|[^\\w])(${pats.join("|")})`, "gi"), "$1<mark>$2</mark>");
 }
+/* table text from PDFs: drop empty cells and runs of pipes so snippets read as prose */
+const sxClean = t => String(t || "").replace(/\|(?:[ \t]*\|)+/g, "|").replace(/[ \t]*\|[ \t]*(?=\n|$)/g, "").replace(/(^|\n)[ \t]*\|[ \t]*/g, "$1").replace(/[ \t]*\|[ \t]*/g, " · ");
 function sxSnippet(txt, Q, n = 300) {
   const low = txt.toLowerCase(); let at = -1;
   if (Q.phrase) { const re = new RegExp(Q.phrase.join("[\\s\\-–/,]+"), "i"); const mm = re.exec(txt); if (mm) at = mm.index; }
   if (at < 0) for (const w of Q.terms) { const j = low.search(new RegExp("\\b" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))); if (j >= 0 && (at < 0 || j < at)) at = j; }
   let a = Math.max(0, at - Math.round(n * .35)); if (a > 0) { const sp = txt.indexOf(" ", a); if (sp > 0 && sp - a < 30) a = sp + 1; }
-  const s = txt.slice(a, a + n).replace(/\s+/g, " ").trim();
+  const s = sxClean(txt.slice(a, a + n)).replace(/\s+/g, " ").trim();
   return (a > 0 ? "…" : "") + s + (a + n < txt.length ? "…" : "");
 }
 function sxWhere(doc, chap, para) {
@@ -422,7 +438,7 @@ async function sxMount(el, raw, opts = {}) {
       if (open) { open.remove(); rb.textContent = "Read passage"; return; }
       const i = +rb.dataset.read, p = await sxPassage(i); if (!p) return; const d = SX.meta.docs[p[0]];
       const div = document.createElement("div"); div.className = "sxp";
-      div.innerHTML = `<div class="m" style="margin-bottom:6px">${esc(sxWhere(d, p[1], p[2]))}</div><div class="sxt">${sxHl(p[3], Q)}</div><div class="sxa"><a class="lnk" href="${sxHref(SX.root, d)}">Open ${d[0] === "judgments" ? "the judgment summary" : "the instrument page"} →</a>${d[4] ? `<a class="lnk" href="${esc(d[4])}" target="_blank" rel="noopener">Official source ↗</a>` : ""}</div>`;
+      div.innerHTML = `<div class="m" style="margin-bottom:6px">${esc(sxWhere(d, p[1], p[2]))}</div><div class="sxt">${sxHl(sxClean(p[3]), Q)}</div><div class="sxa"><a class="lnk" href="${sxHref(SX.root, d)}">Open ${d[0] === "judgments" ? "the judgment summary" : "the instrument page"} →</a>${d[4] ? `<a class="lnk" href="${esc(d[4])}" target="_blank" rel="noopener">Official source ↗</a>` : ""}</div>`;
       rb.closest(".sxa").after(div); rb.textContent = "Close passage";
     } else if (mb) {
       e.preventDefault(); e.stopPropagation();
@@ -435,7 +451,7 @@ async function sxMount(el, raw, opts = {}) {
   };
 }
 
-/* ---------- Not So Intelligent AI ---------- */
+/* ---------- Counsel’s Clerk ---------- */
 let FT = { state: "idle", p: null, chunks: [], idx: null, len: [], avg: 1 };
 const FTS = {};
 function loadFull(url) {
@@ -503,7 +519,7 @@ function openJudge(prefill) {
 function closeJudge() { const w = $("#judge"); if (!w) return; w.hidden = true; $("#jfab").setAttribute("aria-expanded", "false"); $("#jfab").classList.remove("open"); }
 function aiFormat(t) {
   const M = Judge.M;
-  return esc(t).split(/\n{2,}/).map(par => `<p>${par.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/\n/g, "<br>").replace(/\[([A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+)\]/g, (m, id) => M && M.byId.has(id) ? `<a class="lnk" href="${Judge.link(id)}">${id}</a>` : /^JUD-/.test(id) && Judge.judLink && JUD.byId && JUD.byId.has(id.slice(4)) ? `<a class="lnk" href="${Judge.judLink(id.slice(4))}">${esc(JUD.byId.get(id.slice(4)).short)}</a>` : m)}</p>`).join("");
+  return esc(t).split(/\n{2,}/).map(par => `<p>${par.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/\n/g, "<br>").replace(/\[([A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+)\]/g, (m, id) => M && M.byId.has(id) ? `<a class="lnk" href="${Judge.link(id)}" title="${id}">${esc(trunc(M.byId.get(id).label, 48))}</a>` : /^JUD-/.test(id) && Judge.judLink && JUD.byId && JUD.byId.has(id.slice(4)) ? `<a class="lnk" href="${Judge.judLink(id.slice(4))}">${esc(JUD.byId.get(id.slice(4)).short)}</a>` : m)}</p>`).join("");
 }
 /* key judgments: the rulings that best match a question go to the assistant with any regulator's texts */
 const JUD = { p: null, list: [], byId: null, df: new Map() };
@@ -563,10 +579,10 @@ async function askJudge() {
     const j = await r.json().catch(() => ({}));
     wait.classList.remove("thinking");
     const more = docs.slice(0, 3).map(d => `<a class="lnk" href="${Judge.link(d.it.id)}">${esc(trunc(d.it.label, 40))}</a>`).join(" · ");
-    wait.innerHTML = j.answer ? aiFormat(j.answer) + (more ? `<p class="jsrc">Read further: ${more}</p>` : "") : `<p>${esc(j.error || "Not So Intelligent AI is not available right now. Please try again later, or use the search box.")}</p>`;
+    wait.innerHTML = j.answer ? aiFormat(j.answer) + (more ? `<p class="jsrc">Read further: ${more}</p>` : "") : `<p>${esc(j.error || "Counsel’s Clerk is not available right now. Please try again later, or use the search box.")}</p>`;
   } catch (e) {
     wait.classList.remove("thinking");
-    wait.innerHTML = `<p>Not So Intelligent AI could not be reached. Please check your connection, or use the search box.</p>`;
+    wait.innerHTML = `<p>Counsel’s Clerk could not be reached. Please check your connection, or use the search box.</p>`;
   }
   btn.disabled = false; judgeShowStart(asked);
 }
@@ -577,13 +593,13 @@ function initJudge(opts) {
   if (!Judge.endpoint || $("#jfab")) return;
   const fab = document.createElement("button");
   fab.id = "jfab"; fab.type = "button"; fab.setAttribute("aria-controls", "judge"); fab.setAttribute("aria-expanded", "false");
-  fab.setAttribute("aria-label", "Ask Not So Intelligent AI, the AI assistant"); fab.title = "Ask Not So Intelligent AI";
-  fab.innerHTML = `${JUDGE_SVG}<span class="jtag">Ask Not So Intelligent AI</span>`;
-  if (opts.wide) fab.classList.add("wide");
+  fab.setAttribute("aria-label", "Ask Counsel’s Clerk, the AI assistant"); fab.title = "Ask Counsel’s Clerk";
+  fab.innerHTML = `${JUDGE_SVG}<span class="jtag">Ask Counsel’s Clerk</span>`;
+  if (opts.wide) { fab.classList.add("wide"); const narrow = () => { if (scrollY > 120) { fab.classList.remove("wide"); removeEventListener("scroll", narrow); } }; addEventListener("scroll", narrow, { passive: true }); }
   const w = document.createElement("section");
-  w.id = "judge"; w.hidden = true; w.setAttribute("role", "dialog"); w.setAttribute("aria-label", "Not So Intelligent AI");
-  w.innerHTML = `<header>${JUDGE_SVG}<div><b>Not So Intelligent AI</b><span id="jscope">${esc(Judge.scope || "Answers from the RBI texts on this site")}</span></div><button class="iconbtn" id="jmax" type="button" aria-label="Enlarge chat window" title="Enlarge">${I.grow}</button><button class="iconbtn" id="jclose" type="button" aria-label="Close">✕</button></header>
-  <div id="jlog" aria-live="polite"><div class="jmsg bot"><p><b>Order, order!</b> I am Not So Intelligent AI. ${esc(Judge.intro)}</p><p class="jtry">Try: ${Judge.tries.map(([q, t]) => `<button class="lnk" data-try="${esc(q)}">${esc(t)}</button>`).join(" · ")}</p></div></div>
+  w.id = "judge"; w.hidden = true; w.setAttribute("role", "dialog"); w.setAttribute("aria-label", "Counsel’s Clerk");
+  w.innerHTML = `<header>${JUDGE_SVG}<div><b>Counsel’s Clerk</b><span id="jscope">${esc(Judge.scope || "Answers from the RBI texts on this site")}</span></div><button class="iconbtn" id="jmax" type="button" aria-label="Enlarge chat window" title="Enlarge">${I.grow}</button><button class="iconbtn" id="jclose" type="button" aria-label="Close">✕</button></header>
+  <div id="jlog" aria-live="polite"><div class="jmsg bot"><p><b>Order, order!</b> I am Counsel’s Clerk. ${esc(Judge.intro)}</p><p class="jtry">Try: ${Judge.tries.map(([q, t]) => `<button class="lnk" data-try="${esc(q)}">${esc(t)}</button>`).join(" · ")}</p></div></div>
   <form id="jform"><label class="sr" for="jq">Your question</label><textarea id="jq" rows="2" maxlength="500" placeholder="${esc(Judge.placeholder)}"></textarea><button id="jsend" type="submit" aria-label="Ask">${I.gavel}</button></form>
   <p class="jdisc">AI-generated answers can be wrong. Not legal advice: read the official text. Each question is answered on its own.</p>`;
   document.body.appendChild(w); document.body.appendChild(fab);
@@ -608,3 +624,23 @@ function countUp(el, to, ms = 900) {
   const step = t => { const k = Math.min(1, (t - t0) / ms), v = Math.round(to * (1 - Math.pow(1 - k, 3))); el.textContent = v.toLocaleString("en-IN"); if (k < 1) requestAnimationFrame(step); };
   requestAnimationFrame(step);
 }
+
+/* section pages: compact header on inner tabs; fade + scroll for tab strips that do not fit */
+function hubTabState() {
+  const seg = decodeURIComponent((location.hash || "").replace(/^#/, "").split("/")[0]);
+  document.body.classList.toggle("inner", !!seg);
+  /* instrument pages: name the browser tab after the instrument */
+  if (!hubTabState.base) hubTabState.base = document.title;
+  if (seg === "d" && document.querySelector(".tabs")) { const h = document.querySelector("#view h1"); document.title = h ? h.textContent.trim() + " · " + hubTabState.base : hubTabState.base; }
+  else if (document.querySelector(".tabs") && !/^#j\//.test(location.hash)) document.title = hubTabState.base;
+  document.querySelectorAll(".tabs").forEach(t => {
+    const on = t.querySelector("a.on"); if (on) { const l = on.offsetLeft - t.offsetLeft, r = l + on.offsetWidth; if (l < t.scrollLeft || r > t.scrollLeft + t.clientWidth) t.scrollLeft = Math.max(0, l - 24); }
+    const fit = () => { t.classList.toggle("fl", t.scrollLeft > 4); t.classList.toggle("fr", t.scrollLeft + t.clientWidth < t.scrollWidth - 4); };
+    if (!t.dataset.fade) { t.dataset.fade = 1; t.addEventListener("scroll", fit, { passive: true }); }
+    fit();
+  });
+}
+addEventListener("hashchange", () => setTimeout(hubTabState, 60));
+addEventListener("resize", () => hubTabState());
+addEventListener("load", () => setTimeout(hubTabState, 300));
+new MutationObserver((m, o) => { if (document.querySelector(".tabs")) { o.disconnect(); setTimeout(hubTabState, 60); } }).observe(document.documentElement, { childList: true, subtree: true });

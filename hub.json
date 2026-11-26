@@ -872,7 +872,7 @@
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",
-   "full": "Supreme Court and High Courts, 2010 onwards",
+   "full": "Mainly Supreme Court rulings, with High Court rulings being added, 2010 onwards",
    "status": "live",
    "desc": "Rulings that changed lending, housing finance, mutual funds, broking, health and life insurance: what was held, what it means and the rules it touches.",
    "href": "judgments/",
@@ -881,7 +881,7 @@
    },
    "count": 34,
    "countLabel": "Judgments",
-   "line": "Supreme Court and High Courts, since 2010"
+   "line": "Mainly Supreme Court rulings, since 2010"
   },
   {
    "id": "misc",

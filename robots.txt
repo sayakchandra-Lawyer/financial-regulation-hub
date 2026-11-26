@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /search/
+
+Sitemap: https://sayakchandra-lawyer.github.io/financial-regulation-hub/sitemap.xml
