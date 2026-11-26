@@ -1,0 +1,227 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "window_from": "2025-11-01",
+  "window_to": "2026-11-26",
+  "entities": [
+   {
+    "key": "borrower",
+    "name": "Borrowing companies",
+    "profile": "Companies that borrow, issue debentures and create charges on their assets."
+   },
+   {
+    "key": "lender",
+    "name": "Lenders and charge-holders",
+    "profile": "Banks, NBFCs, HFCs and debenture trustees that take security and rely on the borrower's approvals and filings."
+   },
+   {
+    "key": "group",
+    "name": "Companies lending or guaranteeing",
+    "profile": "Companies giving inter-corporate loans, guarantees or security, including for group companies and directors' entities."
+   },
+   {
+    "key": "nbfc",
+    "name": "NBFCs and HFCs",
+    "profile": "Registered finance companies with their own exemptions under ss. 185, 186 and the deposit rules."
+   },
+   {
+    "key": "pvt",
+    "name": "Private companies",
+    "profile": "Private companies relying on the s. 462 exemptions and small company relaxations."
+   }
+  ]
+ },
+ "updates": [
+  {
+   "id": "U-2026-08-03-JPC",
+   "date": "2026-08-03",
+   "kind": "Committee report",
+   "title": "Joint Committee reports on the Corporate Laws (Amendment) Bill, 2026",
+   "ref": "JPC Report No. 1",
+   "instrument": "JPC-CLAB-2026",
+   "effective": "",
+   "applies": "Readers tracking the Bill. Proposal only; not in force.",
+   "changes": [
+    "Recommends limiting the 120-day charge registration window to prescribed classes of small companies.",
+    "Accepts the LLP extension of s. 185(1)(b).",
+    "Accepts the civil penalty for s. 186(9) and (10) register defaults without change."
+   ],
+   "impact": {
+    "group": {
+     "level": "Low",
+     "text": "Proposal only."
+    },
+    "borrower": {
+     "level": "Low",
+     "text": "Proposal only."
+    },
+    "pvt": {
+     "level": "Low",
+     "text": "Small companies may get more time to register charges if enacted."
+    }
+   },
+   "actions": [
+    "Track the Bill through Parliament."
+   ],
+   "url": "https://sansad.in/getFile/app/lsscommittee/Joint%20Committee%20on%20the%20Corporate%20Laws%20(Amendment)%20Bill,%202026/18_Joint_Committee_on_the_Corporate_Laws_(Amendment)_Bill_2026_1.pdf?source=app"
+  },
+  {
+   "id": "U-2026-06-19-DPT3",
+   "date": "2026-06-19",
+   "kind": "Circular",
+   "title": "DPT-3 for FY 2025-26 can be filed until 31-07-2026 without additional fee",
+   "ref": "General Circular 2/2026",
+   "instrument": "CIR-2026-02",
+   "effective": "2026-06-19",
+   "applies": "Companies filing the annual DPT-3 return, including particulars of loans received that are not deposits.",
+   "changes": [
+    "Additional fees are waived for DPT-3 for the year ended 31-03-2026 filed up to 31-07-2026."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "Low",
+     "text": "One-time relief for this year's DPT-3."
+    },
+    "pvt": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "The relief ended on 31-07-2026; later DPT-3 filings for that year attract additional fees."
+   ],
+   "url": "https://www.mca.gov.in/bin/ebook/dms/getdocument?doc=NjU4NzQ0MzA3&docCategory=Circulars"
+  },
+  {
+   "id": "U-2026-03-23-BILL",
+   "date": "2026-03-23",
+   "kind": "Bill",
+   "title": "Corporate Laws (Amendment) Bill, 2026 introduced: changes to charges, s. 185, s. 186 and compounding proposed",
+   "ref": "Bill No. 85 of 2026",
+   "instrument": "BILL-CLAB-2026",
+   "effective": "",
+   "applies": "All companies, if enacted. Proposal only; not in force.",
+   "changes": [
+    "A 120-day further window to register charges is proposed for prescribed classes of companies.",
+    "s. 185(1)(b) would also cover LLPs in which a director or relative is a partner.",
+    "Defaults in keeping the s. 186 register would attract a civil penalty instead of a fine.",
+    "The Regional Director could compound offences with a maximum fine up to Rs 1 crore.",
+    "Small company ceilings in the Act would rise to Rs 20 crore and Rs 200 crore."
+   ],
+   "impact": {
+    "group": {
+     "level": "Medium",
+     "text": "Proposal only: watch for the LLP extension of s. 185 and the new s. 186 register penalty."
+    },
+    "borrower": {
+     "level": "Low",
+     "text": "Proposal only."
+    },
+    "pvt": {
+     "level": "Low",
+     "text": "Proposal only."
+    }
+   },
+   "actions": [
+    "Track the Bill; no change in compliance until it is enacted and brought into force."
+   ],
+   "url": "https://sansad.in/getFile/BillsTexts/LSBillTexts/Asintroduced/as%20intro3232026122530PM.pdf?source=legislation"
+  },
+  {
+   "id": "U-2026-02-10-ADJ",
+   "date": "2026-02-10",
+   "kind": "Notification",
+   "title": "Registrars appointed afresh as adjudicating officers under s. 454",
+   "ref": "S.O. 698(E)",
+   "instrument": "NOTIF-S454-20260211",
+   "effective": "2026-02-11",
+   "applies": "Companies and officers facing penalties for defaults such as late charge or resolution filings.",
+   "changes": [
+    "Registrars of Companies are appointed as adjudicating officers with the jurisdictions listed in the notification.",
+    "The 2015 and 2019 appointment notifications are superseded."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "Low",
+     "text": "Penalty proceedings go to the Registrar named for the company's location."
+    },
+    "pvt": {
+     "level": "Low",
+     "text": "Same."
+    },
+    "group": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Check which Registrar is the adjudicating officer for the company's registered office."
+   ],
+   "url": "https://egazette.gov.in/WriteReadData/2026/270051.pdf"
+  },
+  {
+   "id": "U-2025-12-01-SMALL",
+   "date": "2025-12-01",
+   "kind": "Rules",
+   "title": "Small company limits raised to Rs 10 crore paid-up capital and Rs 100 crore turnover",
+   "ref": "G.S.R. 880(E)",
+   "instrument": "AMD-DEFN-20251201",
+   "effective": "2025-12-01",
+   "applies": "Private companies that are not holding or subsidiary companies.",
+   "changes": [
+    "Rule 2(1)(t) is substituted: a small company's paid-up capital must not exceed Rs 10 crore and turnover must not exceed Rs 100 crore."
+   ],
+   "impact": {
+    "pvt": {
+     "level": "Medium",
+     "text": "More private companies qualify for lower late fees on charge filings and halved penalties under s. 446B."
+    },
+    "borrower": {
+     "level": "Medium",
+     "text": "Recheck small company status when computing CHG-1 late fees."
+    },
+    "lender": {
+     "level": "Low",
+     "text": "Check the borrower's status when it files charges late."
+    }
+   },
+   "actions": [
+    "Recheck small company status on the latest audited figures."
+   ],
+   "url": "https://egazette.gov.in/WriteReadData/2025/268124.pdf"
+  },
+  {
+   "id": "U-2025-11-03-MBP",
+   "date": "2025-11-03",
+   "kind": "Rules",
+   "title": "NBFC and IFSC finance company lending treated as 'financing industrial enterprises' for s. 186",
+   "ref": "G.S.R. 811(E)",
+   "instrument": "AMD-MBP-20251103",
+   "effective": "2025-11-03",
+   "applies": "RBI-registered NBFCs and IFSCA-registered finance companies giving loans, guarantees or security in the ordinary course of business.",
+   "changes": [
+    "Rule 11(2) of the Board meetings rules is substituted.",
+    "An RBI-registered NBFC's loans, guarantees and security in the ordinary course of business count as 'business of financing industrial enterprises', so s. 186 (other than s. 186(1)) does not apply to them.",
+    "The same treatment now covers IFSCA-registered finance companies for their lending activities."
+   ],
+   "impact": {
+    "nbfc": {
+     "level": "High",
+     "text": "Confirms the s. 186(11)(a) carve-out for ordinary-course lending, guarantees and security, and extends it to IFSC finance companies."
+    },
+    "group": {
+     "level": "Low",
+     "text": "No change for non-finance companies."
+    },
+    "lender": {
+     "level": "Medium",
+     "text": "Fewer s. 186 approvals to check when the guarantor or lender is an NBFC."
+    }
+   },
+   "actions": [
+    "Confirm that the NBFC's loans, guarantees and security are in the ordinary course of its business before relying on the carve-out."
+   ],
+   "url": "https://egazette.gov.in/WriteReadData/2025/267408.pdf"
+  }
+ ]
+}

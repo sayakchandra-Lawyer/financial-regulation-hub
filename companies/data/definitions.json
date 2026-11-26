@@ -1,0 +1,798 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Terms as each instrument defines them, shortened where long. The instrument's own text governs."
+ },
+ "instruments": {
+  "CA-BOARD": [
+   {
+    "term": "undertaking",
+    "para": "definitions",
+    "def": "shall mean an undertaking in which the investment of the company exceeds twenty per cent. of its net worth as per the audited balance sheet of the preceding financial year or an undertaking which generates twenty per cent. of the total income of the company during the previous financial year;",
+    "scope": ""
+   }
+  ],
+  "CA-ACT": [
+   {
+    "term": "abridged prospectus",
+    "para": "s. 2(1)",
+    "def": "means a memorandum containing such salient features of a prospectus as may be specified by the Securities and Exchange Board by making regulations in this behalf;",
+    "scope": ""
+   },
+   {
+    "term": "accounting standards",
+    "para": "s. 2(2)",
+    "def": "means the standards of accounting or any addendum thereto for companies or class of companies referred to in section 133;",
+    "scope": ""
+   },
+   {
+    "term": "Appellate Tribunal",
+    "para": "s. 2(4)",
+    "def": "means the National Company Law Appellate Tribunal constituted under section 410;",
+    "scope": ""
+   },
+   {
+    "term": "articles",
+    "para": "s. 2(5)",
+    "def": "means the articles of association of a company as originally framed or as altered from time to time or applied in pursuance of any previous company law or of this Act;",
+    "scope": ""
+   },
+   {
+    "term": "auditing standards",
+    "para": "s. 2(7)",
+    "def": "means the standards of auditing or any addendum thereto for companies or class of companies referred to in sub-section (10) of section 143;",
+    "scope": ""
+   },
+   {
+    "term": "banking company",
+    "para": "s. 2(9)",
+    "def": "means a banking company as defined in clause (c) of section 5 of the Banking Regulation Act, 1949 (10 of 1949);",
+    "scope": ""
+   },
+   {
+    "term": "books of account",
+    "para": "s. 2(13)",
+    "def": "includes records maintained in respect of--",
+    "scope": ""
+   },
+   {
+    "term": "called-up capital",
+    "para": "s. 2(15)",
+    "def": "means such part of the capital, which has been called for payment;",
+    "scope": ""
+   },
+   {
+    "term": "charge",
+    "para": "s. 2(16)",
+    "def": "means an interest or lien created on the property or assets of a company or any of its undertakings or both as security and includes a mortgage;",
+    "scope": ""
+   },
+   {
+    "term": "chartered accountant",
+    "para": "s. 2(17)",
+    "def": "means a chartered accountant as defined in clause (b) of sub-section (1) of section 2 of the Chartered Accountants Act, 1949 (38 of 1949) who holds a valid certificate of practice under sub-section (1) of section 6 of that Act;",
+    "scope": ""
+   },
+   {
+    "term": "Chief Executive Officer",
+    "para": "s. 2(18)",
+    "def": "means an officer of a company, who has been designated as such by",
+    "scope": ""
+   },
+   {
+    "term": "Chief Financial Officer",
+    "para": "s. 2(19)",
+    "def": "means a person appointed as the Chief Financial Officer of a company;",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "s. 2(20)",
+    "def": "means a company incorporated under this Act or under any previous company law;",
+    "scope": ""
+   },
+   {
+    "term": "company limited by guarantee",
+    "para": "s. 2(21)",
+    "def": "means a company having the liability of its members limited by the memorandum to such amount as the members may respectively undertake to contribute to the assets of the company in the event of its being wound up;",
+    "scope": ""
+   },
+   {
+    "term": "company limited by shares",
+    "para": "s. 2(22)",
+    "def": "means a company having the liability of its members limited by the memorandum to the amount, if any, unpaid on the shares respectively held by them;",
+    "scope": ""
+   },
+   {
+    "term": "company secretary in practice",
+    "para": "s. 2(25)",
+    "def": "means a company secretary who is deemed to be in practice under sub-section (2) of section 2 of the Company Secretaries Act, 1980 (56 of 1980);",
+    "scope": ""
+   },
+   {
+    "term": "contributory",
+    "para": "s. 2(26)",
+    "def": "means a person liable to contribute towards the assets of the company in the event of its being wound up.",
+    "scope": ""
+   },
+   {
+    "term": "control",
+    "para": "s. 2(27)",
+    "def": "shall include the right to appoint majority of the directors or to control the management or policy decisions exercisable by a person or persons acting individually or in concert, directly or indirectly, including by virtue of their shareholding or management rights or shareholders agreements or voting agreements or in any other manner;",
+    "scope": ""
+   },
+   {
+    "term": "debenture",
+    "para": "s. 2(30)",
+    "def": "includes debenture stock, bonds or any other instrument of a company evidencing a debt, whether constituting a charge on the assets of the company or not: Provided that--",
+    "scope": ""
+   },
+   {
+    "term": "deposit",
+    "para": "s. 2(31)",
+    "def": "includes any receipt of money by way of deposit or loan or in any other form by a company, but does not include such categories of amount as may be prescribed in consultation with the Reserve Bank of India;",
+    "scope": ""
+   },
+   {
+    "term": "depository",
+    "para": "s. 2(32)",
+    "def": "means a depository as defined in clause (e) of sub-section (1) of section 2 of the Depositories Act, 1996 (22 of 1996);",
+    "scope": ""
+   },
+   {
+    "term": "derivative",
+    "para": "s. 2(33)",
+    "def": "means the derivative as defined in clause (ac) of section 2 of the Securities Contracts (Regulation) Act, 1956 (42 of 1956);",
+    "scope": ""
+   },
+   {
+    "term": "director",
+    "para": "s. 2(34)",
+    "def": "means a director appointed to the Board of a company;",
+    "scope": ""
+   },
+   {
+    "term": "dividend",
+    "para": "s. 2(35)",
+    "def": "includes any interim dividend;",
+    "scope": ""
+   },
+   {
+    "term": "document",
+    "para": "s. 2(36)",
+    "def": "includes summons, notice, requisition, order, declaration, form and register, whether issued, sent or kept in pursuance of this Act or under any other law for the time being in force or otherwise, maintained on paper or in electronic form;",
+    "scope": ""
+   },
+   {
+    "term": "employees' stock option",
+    "para": "s. 2(37)",
+    "def": "means the option given to the directors, officers or employees of a company or of its holding company or subsidiary company or companies, if any, which gives such directors, officers or employees, the benefit or right to purchase, or to subscribe for, the shares of the company at a future date at a pre-determined price;",
+    "scope": ""
+   },
+   {
+    "term": "expert",
+    "para": "s. 2(38)",
+    "def": "includes an engineer, a valuer, a chartered accountant, a company secretary, a cost accountant and any other person who has the power or authority to issue a certificate in pursuance of any law for the time being in force;",
+    "scope": ""
+   },
+   {
+    "term": "financial institution",
+    "para": "s. 2(39)",
+    "def": "includes a scheduled bank, and any other financial institution defined or notified under the Reserve Bank of India Act, 1934 (2 of 1934);",
+    "scope": ""
+   },
+   {
+    "term": "foreign company",
+    "para": "s. 2(42)",
+    "def": "means any company or body corporate incorporated outside India which--",
+    "scope": ""
+   },
+   {
+    "term": "free reserves",
+    "para": "s. 2(43)",
+    "def": "means such reserves which, as per the latest audited balance sheet of a company, are available for distribution as dividend: Provided that--",
+    "scope": ""
+   },
+   {
+    "term": "Global Depository Receipt",
+    "para": "s. 2(44)",
+    "def": "means any instrument in the form of a depository receipt, by whatever name called, created by a foreign depository outside India and authorised by a company making an issue of such depository receipts;",
+    "scope": ""
+   },
+   {
+    "term": "Government company",
+    "para": "s. 2(45)",
+    "def": "means any company in which not less than fifty-one per cent. of the paid-up share capital is held by the Central Government, or by any State Government or Governments, or partly by the Central Government and partly by one or more State Governments, and includes a company which is a subsidiary company of such a Government company;",
+    "scope": ""
+   },
+   {
+    "term": "independent director",
+    "para": "s. 2(47)",
+    "def": "means an independent director referred to in sub-section (6) of section",
+    "scope": ""
+   },
+   {
+    "term": "Indian Depository Receipt",
+    "para": "s. 2(48)",
+    "def": "means any instrument in the form of a depository receipt created by a domestic depository in India and authorised by a company incorporated outside India making an issue of such depository receipts;",
+    "scope": ""
+   },
+   {
+    "term": "issued capital",
+    "para": "s. 2(50)",
+    "def": "means such capital as the company issues from time to time for subscription;",
+    "scope": ""
+   },
+   {
+    "term": "listed company",
+    "para": "s. 2(52)",
+    "def": "means a company which has any of its securities listed on any recognised stock exchange: Provided that such class of companies, which have listed or intend to list such class of securities, as may be prescribed in consultation with the Securities and Exchange Board, shall not be considered as listed companies.",
+    "scope": ""
+   },
+   {
+    "term": "manager",
+    "para": "s. 2(53)",
+    "def": "means an individual who, subject to the superintendence, control and direction of the Board of Directors, has the management of the whole, or substantially the whole, of the affairs of a company, and includes a director or any other person occupying the position of a manager, by whatever name called, whether under a contract of service or not;",
+    "scope": ""
+   },
+   {
+    "term": "managing director",
+    "para": "s. 2(54)",
+    "def": "means a director who, by virtue of the articles of a company or an agreement with the company or a resolution passed in its general meeting, or by its Board of Directors, is entrusted with substantial powers of management of the affairs of the company and includes a director occupying the position of managing director, by whatever name called.",
+    "scope": ""
+   },
+   {
+    "term": "memorandum",
+    "para": "s. 2(56)",
+    "def": "means the memorandum of association of a company as originally framed or as altered from time to time in pursuance of any previous company law or of this Act;",
+    "scope": ""
+   },
+   {
+    "term": "net worth",
+    "para": "s. 2(57)",
+    "def": "means the aggregate value of the paid-up share capital and all reserves created out of the profits , securities premium account and debit or credit balance of profit and loss account, after deducting the aggregate value of the accumulated losses, deferred expenditure and miscellaneous expenditure not written off, as per the audited balance sheet, but does not include reserves created out of revaluation of assets,…",
+    "scope": ""
+   },
+   {
+    "term": "notification",
+    "para": "s. 2(58)",
+    "def": "means a notification published in the Official Gazette and the expression \"notify\" shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "officer",
+    "para": "s. 2(59)",
+    "def": "includes any director, manager or key managerial personnel or any person in accordance with whose directions or instructions the Board of Directors or any one or more of the directors is or are accustomed to act;",
+    "scope": ""
+   },
+   {
+    "term": "Official Liquidator",
+    "para": "s. 2(61)",
+    "def": "means an Official Liquidator appointed under sub-section (1) of section 59;",
+    "scope": ""
+   },
+   {
+    "term": "One Person Company",
+    "para": "s. 2(62)",
+    "def": "means a company which has only one person as a member;",
+    "scope": ""
+   },
+   {
+    "term": "ordinary or special resolution",
+    "para": "s. 2(63)",
+    "def": "means an ordinary resolution, or as the case may be, special resolution referred to in section 114;",
+    "scope": ""
+   },
+   {
+    "term": "postal ballot",
+    "para": "s. 2(65)",
+    "def": "means voting by post or through any electronic mode;",
+    "scope": ""
+   },
+   {
+    "term": "prescribed",
+    "para": "s. 2(66)",
+    "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "previous company law",
+    "para": "s. 2(67)",
+    "def": "means any of the laws specified below:--",
+    "scope": ""
+   },
+   {
+    "term": "private company",
+    "para": "s. 2(68)",
+    "def": "means a company having a minimum paid-up share capital as may be prescribed, and which by its articles,--",
+    "scope": ""
+   },
+   {
+    "term": "promoter",
+    "para": "s. 2(69)",
+    "def": "means a person--",
+    "scope": ""
+   },
+   {
+    "term": "prospectus",
+    "para": "s. 2(70)",
+    "def": "means any document described or issued as a prospectus and includes a red herring prospectus referred to in section 32 or shelf prospectus referred to in section 31 or any notice, circular, advertisement or other document inviting offers from the public for the subscription or purchase of any securities of a body corporate;",
+    "scope": ""
+   },
+   {
+    "term": "public company",
+    "para": "s. 2(71)",
+    "def": "means a company which--",
+    "scope": ""
+   },
+   {
+    "term": "recognised stock exchange",
+    "para": "s. 2(73)",
+    "def": "means a recognised stock exchange as defined in clause (f) of section 2 of the Securities Contracts (Regulation) Act, 1956 (42 of 1956);",
+    "scope": ""
+   },
+   {
+    "term": "register of companies",
+    "para": "s. 2(74)",
+    "def": "means the register of companies maintained by the Registrar on paper or in any electronic mode under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Registrar",
+    "para": "s. 2(75)",
+    "def": "means a Registrar, an Additional Registrar, a Joint Registrar, a Deputy Registrar or an Assistant Registrar, having the duty of registering companies and discharging various functions under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "remuneration",
+    "para": "s. 2(78)",
+    "def": "means any money or its equivalent given or passed to any person for services rendered by him and includes perquisites as defined under the Income-tax Act, 1961 (43 of 1961);",
+    "scope": ""
+   },
+   {
+    "term": "Schedule",
+    "para": "s. 2(79)",
+    "def": "means a Schedule annexed to this Act;",
+    "scope": ""
+   },
+   {
+    "term": "scheduled bank",
+    "para": "s. 2(80)",
+    "def": "means the scheduled bank as defined in clause (e) of section 2 of the Reserve Bank of India Act, 1934 (2 of 1934);",
+    "scope": ""
+   },
+   {
+    "term": "securities",
+    "para": "s. 2(81)",
+    "def": "means the securities as defined in clause (h) of section 2 of the Securities Contracts",
+    "scope": ""
+   },
+   {
+    "term": "Securities and Exchange Board",
+    "para": "s. 2(82)",
+    "def": "means the Securities and Exchange Board of India established under section 3 of the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "Serious Fraud Investigation Office",
+    "para": "s. 2(83)",
+    "def": "means the office referred to in section 211;",
+    "scope": ""
+   },
+   {
+    "term": "share",
+    "para": "s. 2(84)",
+    "def": "means a share in the share capital of a company and includes stock;",
+    "scope": ""
+   },
+   {
+    "term": "small company",
+    "para": "s. 2(85)",
+    "def": "means a company, other than a public company,--",
+    "scope": ""
+   },
+   {
+    "term": "subscribed capital",
+    "para": "s. 2(86)",
+    "def": "means such part of the capital which is for the time being subscribed by the members of a company;",
+    "scope": ""
+   },
+   {
+    "term": "sweat equity shares",
+    "para": "s. 2(88)",
+    "def": "means such equity shares as are issued by a company to its directors or employees at a discount or for consideration, other than cash, for providing their know-how or making available rights in the nature of intellectual property rights or value additions, by whatever name called;",
+    "scope": ""
+   },
+   {
+    "term": "Tribunal",
+    "para": "s. 2(90)",
+    "def": "means the National Company Law Tribunal constituted under section 408;",
+    "scope": ""
+   },
+   {
+    "term": "unlimited company",
+    "para": "s. 2(92)",
+    "def": "means a company not having any limit on the liability of its members;",
+    "scope": ""
+   },
+   {
+    "term": "voting right",
+    "para": "s. 2(93)",
+    "def": "means the right of a member of a company to vote in any meeting of the company or by means of postal ballot;",
+    "scope": ""
+   },
+   {
+    "term": "whole-time director",
+    "para": "s. 2(94)",
+    "def": "includes a director in the whole-time employment of the company;",
+    "scope": ""
+   }
+  ],
+  "CA-PEN": [
+   {
+    "term": "Regional Director",
+    "para": "definitions",
+    "def": "means a person appointed by the Central Government as a Regional Director for the purposes of this Act.",
+    "scope": ""
+   },
+   {
+    "term": "Producer Company",
+    "para": "definitions",
+    "def": "means a company as defined in clause (l) of section 378A;",
+    "scope": ""
+   },
+   {
+    "term": "start-up company",
+    "para": "definitions",
+    "def": "means a private company incorporated under this Act or under the Companies Act, 1956 (1 of 1956) and recognised as start-up in accordance with the notification issued by the Central Government in the Department for Promotion of Industry and Internal Trade.",
+    "scope": ""
+   },
+   {
+    "term": "wrongful gain",
+    "para": "definitions",
+    "def": "means the gain by unlawful means of property to which the person gaining is not legally entitled;",
+    "scope": ""
+   },
+   {
+    "term": "wrongful loss",
+    "para": "definitions",
+    "def": "means the loss by unlawful means of property to which the person losing is legally entitled.",
+    "scope": ""
+   }
+  ],
+  "RULES-CHG": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "Annexure",
+    "para": "rule 2",
+    "def": "means the Annexure appended to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "Fees",
+    "para": "rule 2",
+    "def": "means the fees as specified in the Companies (Registration offices and fees) Rules, 2014;",
+    "scope": ""
+   },
+   {
+    "term": "Regional Director",
+    "para": "rule 2",
+    "def": "means the person appointed by the Central Government in the Ministry of Corporate Affairs as a Regional ‘Director;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "rule 2",
+    "def": "means the section of the Act.",
+    "scope": ""
+   }
+  ],
+  "RULES-MBP": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Companies Act, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "Annexure",
+    "para": "rule 2",
+    "def": "means the Annexure appended to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "Fees",
+    "para": "rule 2",
+    "def": "means the fees as specified in the Companies (Registration Offices and Fees) Rules, 2014;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "rule 2",
+    "def": "means the section of the Act.",
+    "scope": ""
+   }
+  ],
+  "RULES-MGT": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "Annexure",
+    "para": "rule 2",
+    "def": "means the Annexure to these Rules;",
+    "scope": ""
+   },
+   {
+    "term": "Fees",
+    "para": "rule 2",
+    "def": "means the fees as specified in the Companies (Registration offices and fees) Rules, 2014;",
+    "scope": ""
+   },
+   {
+    "term": "Regional Director",
+    "para": "rule 2",
+    "def": "means the person appointed by the Central Government in the Ministry of Corporate Affairs as a Regional Director;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "rule 2",
+    "def": "means section of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "agency",
+    "para": "rule 2",
+    "def": "means the National Securities Depository Limited, the Central Depository Services (India) Limited or any other entity approved by the Ministry of Corporate Affairs subject to condition that the National Securities Depository Limited, the Central Depository Services (India) Limited or such other entity has obtained a certificate from the Standardisation Testing and Quality Certification Directorate, Department of…",
+    "scope": ""
+   },
+   {
+    "term": "cut-off date",
+    "para": "rule 2",
+    "def": "means a date not earlier than seven days before the date of general meeting for determining the eligibility to vote by electronic means or in the general meeting;",
+    "scope": ""
+   },
+   {
+    "term": "cyber security",
+    "para": "rule 2",
+    "def": "means protecting information, equipment, devices, computer, computer resource, communication device and information stored therein from unauthorised access, use, disclosures, disruption, modification or destruction;",
+    "scope": ""
+   },
+   {
+    "term": "electronic voting system",
+    "para": "rule 2",
+    "def": "means a secured system based process of display of electronic ballots, recording of votes of the members and the number of votes polled in favour or against, in such a manner that the entire voting exercised by way of electronic means gets registered and counted in an electronic registry in a centralised server with adequate cyber security;",
+    "scope": ""
+   },
+   {
+    "term": "remote e-voting",
+    "para": "rule 2",
+    "def": "means the facility of casting votes by a member using an electronic voting system from a place other than venue of general meeting",
+    "scope": ""
+   },
+   {
+    "term": "secured system",
+    "para": "rule 2",
+    "def": "means computer hardware, software, and procedure that-",
+    "scope": ""
+   },
+   {
+    "term": "Voting by electronic mean",
+    "para": "rule 2",
+    "def": "includes “remote e-voting and voting” at the general meeting through an electronic voting system which may be the same as used for remote e-voting. **(3) A member may exercise his right to vote through voting by electronic means in resolutions referred to in sub-rule (2) and the company shall pass such resolutions in accordance with the provisions of this rule.",
+    "scope": ""
+   }
+  ],
+  "RULES-DEP": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "Annexure",
+    "para": "rule 2",
+    "def": "means the Annexure attached to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "deposit",
+    "para": "rule 2",
+    "def": "includes any receipt of money by way of deposit or loan or in any other form, by a company, but does not include -",
+    "scope": ""
+   },
+   {
+    "term": "eligible company",
+    "para": "rule 2",
+    "def": "means a public company as referred to in sub-section (1) of section 76, having a net worth of not less than one hundred crore rupees of a turnover of not less than five hundred crore rupees and which has obtained the prior consent of the company in general meeting by means of a resolution and also filed the said resolution with the Registrar of Companies before making any invitation to the Public for acceptance…",
+    "scope": ""
+   },
+   {
+    "term": "fees",
+    "para": "rule 2",
+    "def": "means fees as specified in the Companies (Registration Offices and Fees) Rules, 2014;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "rule 2",
+    "def": "means section of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "trustee",
+    "para": "rule 2",
+    "def": "means the trustee as defined in section 3 of the Indian Trusts Act, 1882 (12 of 1882). 12 [(xv) any amount received by way of subscription in respect of a chit under the Chit Fund Act, 1982 (40 of 1982);",
+    "scope": ""
+   }
+  ],
+  "RULES-SCD": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "Annexure",
+    "para": "rule 2",
+    "def": "means the Annexure to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "Fees",
+    "para": "rule 2",
+    "def": "means the fees as specified in the Companies (Registration offices and fees) Rules, 2014;",
+    "scope": ""
+   },
+   {
+    "term": "Regional Director",
+    "para": "rule 2",
+    "def": "means the person appointed by the Central Government in the Ministry of Corporate Affairs as a Regional Director;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "rule 2",
+    "def": "means the section of the Act.",
+    "scope": ""
+   }
+  ],
+  "RULES-PAS": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "Annexure",
+    "para": "rule 2",
+    "def": "means the Annexure to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "fees",
+    "para": "rule 2",
+    "def": "means fees as specified in the Companies (Registration Offices and Fees) Rules, 2014;",
+    "scope": ""
+   },
+   {
+    "term": "Regional Director",
+    "para": "rule 2",
+    "def": "means the person appointed by the Central Government in the Ministry of Corporate Affairs as a Regional Director;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "rule 2",
+    "def": "means section of the Act;",
+    "scope": ""
+   }
+  ],
+  "RULES-FEES": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "Annexure",
+    "para": "rule 2",
+    "def": "means Annexure to these rules;",
+    "scope": ""
+   },
+   {
+    "term": "Digital Signature",
+    "para": "rule 2",
+    "def": "means digital signature as defined under clause (p) of sub-section (1) of section 2 of the Information Technology Act, 2000; (21 of 2000);",
+    "scope": ""
+   },
+   {
+    "term": "Digital Signature Certificate",
+    "para": "rule 2",
+    "def": "means a Digital Signature Certificate as defined under clause (q) of sub-section (1) of section 2 of the Information Technology Act, 2000 (21 of 2000)",
+    "scope": ""
+   },
+   {
+    "term": "electronic record",
+    "para": "rule 2",
+    "def": "means electronic record as defined under clause (t) of sub-section (1) of section 2 of the Information Technology Act, 2000; (21 of 2000);",
+    "scope": ""
+   },
+   {
+    "term": "electronic registry",
+    "para": "rule 2",
+    "def": "means an electronic repository or storage system of the Central Government in which the information or documents are received, stored, protected and preserved in electronic form;",
+    "scope": ""
+   },
+   {
+    "term": "electronic mail",
+    "para": "rule 2",
+    "def": "means message sent, received or forwarded in digital form using any electronic communication mechanism such that the message so sent, received or forwarded is storable and retrievable;",
+    "scope": ""
+   },
+   {
+    "term": "Regional Director",
+    "para": "rule 2",
+    "def": "means the person appointed by the Central Government in the Ministry of Corporate Affairs as a Regional Director;",
+    "scope": ""
+   },
+   {
+    "term": "Registrar’s Facilitation Office",
+    "para": "rule 2",
+    "def": "means an office maintained by the Central Government or an agency authorised by it to facilitate e-filing of documents into the electronic registry and their inspection and viewing;",
+    "scope": ""
+   },
+   {
+    "term": "Straight Through Process",
+    "para": "rule 2",
+    "def": "means the process in which an e-from is approved through system without manual interruption.",
+    "scope": ""
+   }
+  ],
+  "RULES-ADJ": [
+   {
+    "term": "Act",
+    "para": "rule 2",
+    "def": "means the Companies Act, 2013 (18 of 2013);",
+    "scope": ""
+   },
+   {
+    "term": "Annexure",
+    "para": "rule 2",
+    "def": "means the Annexure enclosed to these Rules;",
+    "scope": ""
+   },
+   {
+    "term": "Fees",
+    "para": "rule 2",
+    "def": "means fees as prescribed in the Companies (Registration Offices and Fees) Rules, 2014;",
+    "scope": ""
+   },
+   {
+    "term": "Regional Director",
+    "para": "rule 2",
+    "def": "means the person appointed by the Central Government in the Ministry of Corporate Affairs as a Regional Director;",
+    "scope": ""
+   },
+   {
+    "term": "section",
+    "para": "rule 2",
+    "def": "means section of the Act;",
+    "scope": ""
+   }
+  ]
+ }
+}
