@@ -90,6 +90,7 @@
 
   const V = $("#view");
   const cite = j => [j.neutral_citation, j.report_citation].filter(Boolean).join(" · ");
+  const heldH = j => j.forum === "ombudsman" ? "What the Ombudsman decided" : j.forum === "nclat" ? "What the tribunal held" : "What the court held";
   const statusPill = j => j.status === "Current" ? `<span class="pill p-live">Current</span>` : `<span class="pill p-grey">${esc(j.status)}</span>`;
   const secPills = j => j.sectors.map(k => `<span class="pill p-grey"><span class="sdot" style="--c:${SI[k].c}"></span>${esc(SI[k].name)}</span>`).join(" ");
   const row = (j, extra = "") => `<a class="row" href="#j/${j.id}"><div style="flex:1;min-width:0"><div class="t">${esc(j.title)}</div>
@@ -139,14 +140,14 @@
   function vJudgment(id){
     const j = byId.get(id); if (!j) return `<p class="empty" style="margin-top:28px">Judgment not found. <a class="lnk" href="#all">See all judgments</a></p>`;
     const same = [...ALL.filter(x => x.id !== j.id && x.area === j.area), ...ALL.filter(x => x.id !== j.id && x.area !== j.area && x.sectors.some(k => j.sectors.includes(k)))].slice(0, 4);
-    return `<div class="dpage"><nav class="toc" aria-label="On this page">${j.facts ? `<a href="#j/${j.id}" data-sec="facts">The facts</a>` : ""}<a href="#j/${j.id}" data-sec="issue">The question</a><a href="#j/${j.id}" data-sec="held">What the court held</a><a href="#j/${j.id}" data-sec="impact">What it means</a>${j.links.length || j.statutes.length ? `<a href="#j/${j.id}" data-sec="law">Law involved</a>` : ""}</nav>
+    return `<div class="dpage"><nav class="toc" aria-label="On this page">${j.facts ? `<a href="#j/${j.id}" data-sec="facts">The facts</a>` : ""}<a href="#j/${j.id}" data-sec="issue">The question</a><a href="#j/${j.id}" data-sec="held">${heldH(j)}</a><a href="#j/${j.id}" data-sec="impact">What it means</a>${j.links.length || j.statutes.length ? `<a href="#j/${j.id}" data-sec="law">Law involved</a>` : ""}</nav>
       <article class="dossier"><a class="lnk tag" href="#s/${j.sectors[0]}">← ${esc(SI[j.sectors[0]].name)}</a>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">${statusPill(j)}${AI[j.area] ? `<a class="pill p-grey" href="#a/${j.area}">${esc(AI[j.area].name)}</a>` : ""}${secPills(j)}</div>
         <h1 style="font-size:clamp(26px,3.6vw,36px);margin-top:12px">${esc(j.title)}</h1>
         <p class="tag" style="margin:6px 0 0">${esc(j.court)} · decided ${fmtDate(j.date)}${cite(j) ? ` · ${esc(cite(j))}` : ""}</p>
         ${j.facts ? `<h2 id="facts">The facts</h2><p>${esc(j.facts)}</p>` : ""}
         <h2 id="issue">The question</h2><div class="callout">${esc(j.issue)}</div>
-        <h2 id="held">What the court held</h2><ol>${j.holding.map(h => `<li>${esc(h)}</li>`).join("")}</ol>
+        <h2 id="held">${heldH(j)}</h2><ol>${j.holding.map(h => `<li>${esc(h)}</li>`).join("")}</ol>
         <h2 id="impact">What it means in practice</h2><ul>${j.impact.map(h => `<li>${esc(h)}</li>`).join("")}</ul>
         ${j.links.length || j.statutes.length ? `<h2 id="law">Law involved</h2>
           ${j.links.length ? `<p class="tag" style="margin:0 0 8px">Rules on this site</p><div style="display:flex;gap:8px;flex-wrap:wrap">${j.links.map(l => `<a class="chip" href="${esc(l.href)}">${esc(l.section.toUpperCase())} · ${esc(l.label)}</a>`).join("")}</div>` : ""}
@@ -156,7 +157,7 @@
           <dt>Court</dt><dd>${esc(j.court)}</dd>${AI[j.area] ? `<dt>Topic</dt><dd><a class="lnk" href="#a/${j.area}">${esc(AI[j.area].name)}</a></dd>` : ""}${j.bench ? `<dt>Bench</dt><dd>${esc(j.bench)}</dd>` : ""}<dt>Decided</dt><dd>${fmtDate(j.date)}</dd>
           ${j.case_no ? `<dt>Case</dt><dd>${esc(j.case_no)}</dd>` : ""}${j.neutral_citation ? `<dt>Neutral citation</dt><dd>${esc(j.neutral_citation)}</dd>` : ""}${j.report_citation && j.report_citation !== j.case_no ? `<dt>Reported</dt><dd>${esc(j.report_citation)}</dd>` : ""}
           <dt>Status</dt><dd>${esc(j.status)}${j.status_note ? `<div class="tag" style="margin-top:2px">${esc(j.status_note)}</div>` : ""}</dd></dl>
-          <a class="btn p" style="margin-top:14px;width:100%;justify-content:center" href="${esc(j.url)}" target="_blank" rel="noopener">Read the judgment ${I.ext}</a></div>
+          <a class="btn p" style="margin-top:14px;width:100%;justify-content:center" href="${esc(j.url)}" target="_blank" rel="noopener">${j.forum === "ombudsman" ? "Source: published award summaries" : "Read the judgment"} ${I.ext}</a></div>
         ${same.length ? `<div class="card panel"><h3 style="font-size:17px;margin:0 0 4px">Related rulings</h3>${same.map(x => `<a href="#j/${x.id}" style="display:block;padding:10px 0;border-top:1px solid var(--line)"><div style="font-weight:600;font-size:14px;line-height:1.4">${esc(x.title)}</div><div class="tag">${esc(x.topic)} · ${fmtDate(x.date)}</div></a>`).join("")}</div>` : ""}
       </aside></div>`;
   }

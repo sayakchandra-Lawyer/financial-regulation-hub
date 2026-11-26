@@ -1,4 +1,4 @@
-KEY JUDGMENTS REGISTER (122 rulings on financial services from the Supreme Court, High Courts, NCLAT and consumer and ombudsman forums, as on 2026-11-26). Each ruling starts with its id in square brackets.
+KEY JUDGMENTS REGISTER (131 rulings on financial services from the Supreme Court, High Courts, NCLAT and consumer and ombudsman forums, as on 2026-11-26). Each ruling starts with its id in square brackets.
 
 
 [JUD-YES-AT1] Yes Bank Ltd v. Axis Trustee Services Ltd | Supreme Court | 2026-10-15 | 2026 INSC 1132 | Civil Appeal No. 3182 of 2025 and connected appeals
@@ -336,6 +336,19 @@ What it means: In State Bank of India v. Amit Iron Pvt Ltd (7 April 2026, 2026 I
 What it means: RBI's Fraud Risk Management Directions for NBFCs now build these steps into the process.
 Law involved: RBI Act, 1934; Banking Regulation Act, 1949; RBI Master Directions on Frauds, 2016
 
+[JUD-RCAP-NCLAT] Vistra ITCL (India) Ltd v. Torrent Investments Pvt Ltd | National Company Law Appellate Tribunal, New Delhi | 2023-03-02 | Company Appeal (AT) (Insolvency) Nos. 132-134 and 139 of 2023
+Bench: Ashok Bhushan J. (Chairperson) and Barun Mitra (Member, Technical).
+Topic: Creditors can keep negotiating after the challenge round. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Appeal pending. The highest bidder in the first round appealed to the Supreme Court. In March 2023 the Court let the further round go ahead without prejudice to the parties' rights; the appeal has not been finally decided.
+Facts: The Reserve Bank superseded the board of a large NBFC in November 2021 and its insolvency was started with an Administrator in charge. Bidders took part in a challenge mechanism (an auction among resolution applicants) on 21 December 2022, which ended with a highest bid of Rs 8,640 crore in net present value. Another bidder then sent a higher offer. The committee of creditors decided to hold an extended challenge round. On the highest bidder's application the NCLT held that the committee could not negotiate further once the challenge mechanism had concluded.
+Issue: After a challenge mechanism under regulation 39(1A) has concluded, can the committee of creditors negotiate further or hold another round?
+Held: Yes. Regulation 39(1A) lets the committee use a challenge mechanism to improve plans. It does not take away the committee's power to negotiate with one or more resolution applicants afterwards, or to annul the process and invite fresh plans, where the request for resolution plans reserves those rights.
+Held: The highest bidder in the challenge round gets no vested right to have its plan approved. Maximising the value of the corporate debtor's assets is the committee's commercial decision.
+Held: The NCLT's order was set aside and the committee was allowed to hold a further round.
+What it means: Lenders on a committee of creditors can seek better offers after an auction round, provided the bid documents keep that right open. Bid documents should say so clearly.
+What it means: Bidders should treat the result of a challenge round as provisional until the committee votes on a plan.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 30, 227; IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016, reg. 39(1A)
+
 [JUD-NCLAT-ARBCLAIM] Shapoorji Pallonji and Co. Pvt Ltd v. Korba West Power Company Ltd | National Company Law Appellate Tribunal | 2023-02-23 | Company Appeal (AT) (Insolvency) No. 816 of 2019
 Bench: Anant Bijay Singh J. and Shreesha Merla.
 Topic: Arbitration claims in a resolution plan. Category: Arbitration. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
@@ -445,6 +458,19 @@ Held: The Court read the word 'may' in section 7(5)(a), in contrast to 'shall' i
 Held: In a later order on a review petition the Court said these observations were made on the facts of the case. In M. Suresh Kumar Reddy v. Canara Bank (2023 INSC 521) the Court held that Vidarbha was confined to its facts and that, once default is shown, admission must ordinarily follow.
 What it means: For applications decided under the amended section 7(5), the borrower can no longer rely on Vidarbha to resist admission on grounds such as pending claims or general viability. The ruling remains relevant to older matters and to understanding why the provision was rewritten.
 Law involved: Insolvency and Bankruptcy Code, 2016, ss. 7(5), 9(5)
+
+[JUD-PUNEET] Puneet Kaur v. K V Developers Pvt Ltd | National Company Law Appellate Tribunal, New Delhi | 2022-06-01 | Company Appeal (AT) (Insolvency) Nos. 390-394 of 2022
+Bench: Ashok Bhushan J. (Chairperson), Shreesha Merla (Member, Technical) and Naresh Salecha (Member, Technical).
+Topic: Homebuyers who did not file claims. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Housing finance.
+Status: Current. The ruling is about homebuyers shown in the developer's own records. For other creditors the Supreme Court has refused a belated claim made after the committee approved the plan, even though the NCLT's approval was pending (RPS Infrastructure Ltd v. Mukul Kumar, 2023 INSC 816).
+Facts: In the insolvency of a real estate developer, several homebuyers filed their claims after the resolution plan had been approved by the committee of creditors and was awaiting the NCLT's approval. The resolution professional and the NCLT refused to take the late claims, and it was argued that the claims stood extinguished.
+Issue: What happens to homebuyers whose payments and allotments are in the developer's own records but who did not file a claim in time?
+Held: Until the NCLT approves the plan, the claims are not extinguished. That does not give late claimants a right to have their claims admitted.
+Held: The resolution professional is not bound to put late claimants in the list of creditors. But the developer's records show every allottee, the amounts paid and the units allotted, and that liability should be reflected in the information memorandum so that the resolution applicant deals with it.
+Held: Leaving such homebuyers out is inequitable. The resolution professional was directed to give their details to the resolution applicant, who was to prepare an addendum to the plan for the committee and the NCLT to consider.
+What it means: Lenders on the committee of creditors of a developer, and bidders, should expect the plan to provide for all allottees shown in the books and not only those who filed claims. That affects the amount available for financial creditors.
+What it means: Home loan lenders can point to this ruling where a borrower's allotment appears in the developer's records but no claim was filed.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8)(f), 29, 30, 31; IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016, regs. 12, 13, 36
 
 [JUD-KOTAK-BALA] Kotak Mahindra Bank Ltd v. A. Balakrishnan | Supreme Court | 2022-05-30 | 2022 INSC 630, [2022] 5 SCR 1072 | Civil Appeal No. 689 of 2021
 Bench: L. Nageswara Rao and B.R. Gavai JJ.
@@ -637,7 +663,7 @@ Law involved: Insolvency and Bankruptcy Code, 2016, ss. 1(3), 2(e), 31, 60, 95; 
 [JUD-AMITMET] India Resurgence ARC Pvt Ltd v. Amit Metaliks Ltd | Supreme Court | 2021-05-13 | 2021 INSC 296, [2021] 6 SCR 611 | Civil Appeal No. 1700 of 2021
 Bench: Vineet Saran and Dinesh Maheshwari JJ.
 Topic: Dissenting secured creditor's payout under a plan. Category: Insolvency: creditors, claims and distribution. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
-Status: Current. The minimum payout was re-stated in 2026: under the new section 30(2)(ba), dissenting financial creditors must get at least the lower of their liquidation entitlement under section 53 and what they would get if the plan amount were distributed in the section 53 order. It does not apply where the plan was approved before 26 May 2026.
+Status: Under reconsideration. The minimum payout was re-stated in 2026: under the new section 30(2)(ba), dissenting financial creditors must get at least the lower of their liquidation entitlement under section 53 and what they would get if the plan amount were distributed in the section 53 order. It does not apply where, before the amendment, the committee of creditors had already approved a plan or liquidation had been ordered or resolved on. Separately, in DBS Bank Ltd v. Ruchi Soya Industries Ltd (2024 INSC 14) a two-judge Bench doubted this ruling's reasoning on the dissenting secured creditor's minimum entitlement and referred the question to a larger Bench; that reference does not overrule it.
 Facts: An asset reconstruction company held security over the corporate debtor's assets which it valued far above what the resolution plan offered it. The plan was approved by about 95 per cent of the committee of creditors. The ARC voted against it and argued that the committee had to take the value of each creditor's security into account.
 Issue: Can a dissenting secured financial creditor challenge an approved resolution plan on the ground that it gets less than the value of its security?
 Held: No. How the plan money is shared among creditors is a matter for the commercial wisdom of the committee of creditors. A dissenting secured creditor cannot insist on being paid by reference to the value of its security.
@@ -720,7 +746,7 @@ Held: Breaking open the locker without notice and in breach of the Reserve Bank'
 Held: Whatever the contract says, a bank cannot disclaim all responsibility for lockers. It owes a separate duty of care in running the facility.
 Held: The Court laid down interim rules: a locker register and key register, notice before any change in allotment, a record of access, breaking open only as the law permits and after notice, with an inventory, and no unilateral or unfair terms. The Reserve Bank was directed to issue comprehensive rules within six months.
 Held: A disputed claim about what was inside the locker needs evidence and goes to the civil court.
-What it means: The Reserve Bank's revised safe deposit locker instructions of August 2021, including the model locker agreement and the bank's liability where loss is due to its negligence or staff fraud, follow from this ruling.
+What it means: The Reserve Bank's revised safe deposit locker instructions of August 2021, including the model locker agreement, follow from this ruling. Under those instructions, where contents are lost through events such as fire, theft, burglary, building collapse or fraud by the bank's employees, the bank's liability is an amount equal to one hundred times the prevailing annual rent of the locker.
 What it means: Banks should be able to show notice, an inventory and a witnessed procedure before any locker is broken open.
 Law involved: Consumer Protection Act, 1986; Indian Contract Act, 1872 (bailment)
 
@@ -788,6 +814,19 @@ Held: At the stage of sections 8 and 11 the court interferes only where the agre
 What it means: Banks and financial institutions entitled to use the DRT cannot take claims that fall within the DRT's jurisdiction (debts at or above the RDB Act s. 1(4) threshold: Rs 10 lakh in the Act, or another amount the Central Government notifies) to arbitration instead. Lenders that cannot use the DRT, such as NBFCs not notified as financial institutions under the RDB Act, commonly use arbitration for recovery.
 Law involved: Arbitration and Conciliation Act, 1996, ss. 2(3), 8, 11; Recovery of Debts and Bankruptcy Act, 1993, ss. 17, 18; Transfer of Property Act, 1882
 
+[JUD-ATHENA] State Bank of India v. Athena Energy Ventures Pvt Ltd | National Company Law Appellate Tribunal, New Delhi | 2020-11-24 | Company Appeal (AT) (Insolvency) No. 633 of 2020
+Bench: A.I.S. Cheema J. (Member, Judicial) and V.P. Singh (Member, Technical).
+Topic: Insolvency against borrower and guarantor at the same time. Category: Guarantees, pledges and third-party security. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
+Status: Current.
+Facts: A consortium of banks lent to a power company, with its promoter company as corporate guarantor. Insolvency of the borrower had been admitted. The NCLT refused to admit the bank's section 7 application against the guarantor for the same debt, following the appellate tribunal's earlier ruling in Vishnu Kumar Agarwal v. Piramal Enterprises that the same claim cannot be pursued in two insolvency processes.
+Issue: Can a lender pursue corporate insolvency against the principal borrower and the corporate guarantor at the same time for the same debt?
+Held: Yes. Under section 128 of the Contract Act the guarantor's liability is co-extensive with the borrower's, and the Code (section 60(2) and (3)) itself contemplates insolvency proceedings against a corporate debtor and its guarantor going on together.
+Held: The Bench declined to follow Vishnu Kumar Agarwal on this point. The lender can file its claim in both processes, and what it recovers in one is adjusted in the other.
+Held: The NCLT was directed to admit the application against the guarantor, preferably with the same resolution professional as for the borrower.
+What it means: Lenders need not choose between borrower and corporate guarantor. Both applications can be filed and run in parallel, subject to the total recovery not exceeding the debt.
+What it means: The Supreme Court took the same view of the creditor's rights in BRS Ventures v. SREI Infrastructure Finance (2024 INSC 548), listed separately on this page.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 7, 60(2), 60(3); Indian Contract Act, 1872, s. 128
+
 [JUD-NCLAT-VW] Volkswagen Finance Pvt Ltd v. Shree Balaji Printopack Pvt Ltd | National Company Law Appellate Tribunal | 2020-10-19 | Company Appeal (AT) (Insolvency) No. 02 of 2020
 Bench: A.I.S. Cheema J. and Shreesha Merla.
 Topic: Unregistered vehicle loan charge in liquidation. Category: Security, charges and SARFAESI. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
@@ -806,8 +845,8 @@ Facts: A borrower took a vehicle on hire purchase from an NBFC and paid 7 of 35 
 Issue: Can a financier repossess a vehicle under a hire purchase agreement without notice, and what relief can a consumer forum give if it does?
 Held: Under a hire purchase agreement the financier remains the owner until all instalments are paid, and may take back the vehicle on default as the agreement provides.
 Held: Whether notice is needed before repossession depends on the terms of the agreement, express or implied. If the agreement requires notice, repossessing without it is a breach and a deficiency in service.
-Held: The remedy for such a breach is damages for the loss actually caused. A refund of all instalments, which were in substance hire charges for use of the vehicle, is not automatic. On the facts there was no deficiency.
-What it means: NBFCs financing vehicles should follow the notice terms of their own agreements and the Reserve Bank's fair practices code, and take possession peacefully. A repossession that follows the contract will not be treated as deficient service only because the borrower objects.
+Held: The remedy for such a breach is damages for the loss actually caused. A refund of all instalments, which were in substance hire charges for use of the vehicle, is not automatic. The refund ordered by the fora was set aside, and the financier was directed to pay a composite Rs 15,000 as damages and costs for not giving a proper notice before repossession.
+What it means: NBFCs financing vehicles should follow the notice terms of their own agreements and the Reserve Bank's fair practices code, and take possession peacefully. A lapse in the notice leads to modest damages measured by actual loss, not to a refund of what the borrower paid.
 Law involved: Consumer Protection Act, 1986, ss. 2(1)(g), 14; Hire-Purchase Act, 1972 (not brought into force)
 
 [JUD-KHOTKAR] Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal | Supreme Court | 2020-07-14 | 2020 INSC 453, [2020] 7 SCR 180 | Civil Appeal Nos. 20825-20826 of 2017
@@ -887,6 +926,19 @@ Held: A bank that insists on insurance of hypothecated goods and is in touch wit
 What it means: Lenders that require borrowers to insure the security should track that the policy is issued, names the right interests and is renewed. A lapse can cost the lender its contractual interest.
 Law involved: Consumer Protection Act, 1986, s. 2(1)(d); Insurance Act, 1938
 
+[JUD-UMANG] Flat Buyers Association Winter Hills-77, Gurgaon v. Umang Realtech Pvt Ltd | National Company Law Appellate Tribunal, New Delhi | 2020-02-04 | Company Appeal (AT) (Insolvency) No. 926 of 2019
+Bench: S.J. Mukhopadhaya J. (Chairperson) and Bansi Lal Bhat J. (Member, Judicial).
+Topic: Project-wise insolvency of a real estate company. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Housing finance, Lending (NBFCs and banks).
+Status: Current. This is a tribunal ruling built on the facts of one project. Tribunals have followed the project-wise approach in later cases, but it is not laid down in the Code.
+Facts: Two allottees had a real estate developer admitted into insolvency over one housing project. The association of flat buyers of that project appealed, pointing out that an ordinary resolution process would stall construction and that the company had other, separate projects. One of the promoters offered to fund completion of the project.
+Issue: How should the insolvency of a real estate developer be run where the default relates to one project and the allottees want their homes?
+Held: Insolvency of a real estate company started by allottees or lenders of one project is confined to that project. It does not extend to the company's other projects, and creditors of other projects cannot file claims in it.
+Held: Allottees are financial creditors whose claim is met by delivery of the flat. A secured lender such as a bank or financial institution cannot be given the flats in preference to the allottees for whom the project was approved.
+Held: The Tribunal allowed a 'reverse' process: the promoter funds completion from outside as a lender, under the supervision of the resolution professional, and banks and financial institutions are paid alongside. If the promoter fails, the normal process resumes.
+What it means: Banks, HFCs and NBFCs financing a housing project should expect the tribunal to keep the project going and to protect delivery to allottees; the lender's recovery comes from project cash flows and unsold stock under the resolution professional's control.
+What it means: Project-wise accounts and security matter: a lender's exposure to one project may be dealt with separately from the developer's other projects.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8)(f), 7, 25, 30
+
 [JUD-PERKINS] Perkins Eastman Architects DPC v. HSCC (India) Ltd | Supreme Court | 2019-11-26 | 2019 INSC 1285, [2019] 17 SCR 275 | Arbitration Application No. 32 of 2019
 Bench: Uday Umesh Lalit and Indu Malhotra JJ.
 Topic: A party cannot appoint the sole arbitrator. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks), Housing finance.
@@ -930,6 +982,19 @@ Held: RERA must be read harmoniously with the Code. Where the two conflict, the 
 What it means: In a builder's insolvency, homebuyers can hold a large share of the votes in the Committee of Creditors. This can dilute the voting power of lenders to builders, including HFCs and NBFCs, depending on the amounts admitted for each class.
 What it means: Construction finance needs to price the risk that homebuyers will drive the resolution plan.
 Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8)(f), 21(6A), 25A; Real Estate (Regulation and Development) Act, 2016
+
+[JUD-RHC-NCLAT] Housing Development Finance Corporation Ltd v. RHC Holding Pvt Ltd | National Company Law Appellate Tribunal, New Delhi | 2019-07-10 | Company Appeal (AT) (Insolvency) No. 26 of 2019
+Bench: S.J. Mukhopadhaya J. (Chairperson) and A.I.S. Cheema J. (Member, Judicial).
+Topic: A creditor cannot file for insolvency of an NBFC. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Lending (NBFCs and banks), Housing finance.
+Status: Current. In November 2019 the Central Government notified rules under section 227: insolvency of NBFCs and HFCs with assets of Rs 500 crore or more can be started only on the Reserve Bank's application.
+Facts: A housing finance company filed a section 7 application against a group holding company that held a Reserve Bank certificate of registration as a non-deposit-taking NBFC. The NCLT rejected the application on the ground that an NBFC is a financial service provider outside the Code. The lender argued that the company only invested in and guaranteed the debts of its own group and provided none of the financial services listed in the Code.
+Issue: Can a financial creditor start corporate insolvency under section 7 against a company registered with the Reserve Bank as an NBFC?
+Held: No. A 'corporate person' under the Code does not include a financial service provider, and a company registered with the Reserve Bank to carry on the business of a non-banking financial institution is a financial service provider.
+Held: The list of financial services in section 3(16) is inclusive. It is not necessary that the company accepts public deposits.
+Held: An allegation that the NBFC is breaching the conditions of its registration is a matter for the Reserve Bank. It is not a ground to admit or reject an insolvency application.
+What it means: A lender to an NBFC or HFC cannot itself use section 7 or 9 against it. Insolvency of a notified financial service provider can be started only by its regulator under the section 227 rules, and other recovery routes remain for the lender.
+What it means: Lenders to group holding and investment companies should check whether the borrower holds an NBFC or core investment company registration before choosing a recovery route.
+Law involved: Insolvency and Bankruptcy Code, 2016, ss. 3(7), 3(8), 3(16), 3(17), 7, 227; Reserve Bank of India Act, 1934, ss. 45-I, 45-IA
 
 [JUD-JAH] State Bank of India v. Jah Developers Pvt Ltd | Supreme Court | 2019-05-08 | 2019 INSC 652, [2019] 7 SCR 701 | Civil Appeal No. 4776 of 2019
 Bench: R.F. Nariman and Vineet Saran JJ.
@@ -1109,13 +1174,13 @@ Law involved: Insolvency and Bankruptcy Code, 2016, s. 5(13); IBBI (Insolvency R
 [JUD-TAYAL] United India Insurance Co Ltd v. Jai Parkash Tayal | Delhi High Court | 2018-02-26 | RFA 610/2016
 Bench: Prathiba M. Singh J.
 Topic: Exclusion of genetic disorders. Category: Insurance claims. Forum: High Courts. Sectors: Health insurance.
-Status: Appeal pending. The insurer's special leave petition, filed in 2018, is pending in the Supreme Court.
+Status: Partly stayed. On 27 August 2018 the Supreme Court stayed the High Court's general conclusions and directions (including the findings under Articles 14 and 21 and the direction to the regulator), while leaving the payment to the policyholder undisturbed. The insurer's appeal is pending.
 Facts: A policyholder with a heart condition (hypertrophic obstructive cardiomyopathy) was refused a mediclaim payout under an exclusion for 'genetic disorders' that the insurer had added to the policy at a renewal. The trial court decreed his suit, and the insurer appealed.
 Issue: Is a blanket exclusion of 'genetic disorders' in a health insurance policy valid?
 Held: A broad exclusion of all genetic disorders is too wide, ambiguous and discriminatory. It violates Article 14, and it is contrary to public policy when used to deny claims.
 Held: The right to avail of health insurance is part of the right to health and healthcare under Article 21.
 Held: The insurance regulator was asked to look again at exclusion clauses so that claims are not rejected on the basis of genetic disorders. The decree for Rs 5 lakh with interest was upheld.
-What it means: Health insurers cannot rely on a general 'genetic disorder' exclusion. The regulator afterwards told insurers not to reject claims on that basis and standardised the permitted exclusions.
+What it means: The regulator afterwards told insurers not to reject claims on the basis of a 'genetic disorder' exclusion and standardised the permitted exclusions. Insurers should follow those regulatory requirements; the High Court's wider constitutional conclusions are stayed.
 What it means: Exclusions added at renewal without clear notice to the policyholder are open to challenge.
 Law involved: Constitution of India, Arts. 14, 21; Insurance Act, 1938
 
@@ -1164,6 +1229,17 @@ What it means: Lenders filing under section 7 need clear proof of the debt and t
 What it means: Later rulings refined the discretion to admit, but default remains the trigger for a financial creditor's petition.
 Law involved: Insolvency and Bankruptcy Code, 2016, ss. 3(12), 7, 238; Constitution of India, Art. 254
 
+[JUD-OMB-S45] Group credit life claim rejected for non-disclosure: premium refunded under section 45 | Insurance Ombudsman, Pune | 2017-08-28 | Award No. IO/PUN/A/LI/0104/2017-2018 (Complaint No. PUN-L-006-1718-0301)
+Topic: Early death claim under loan-linked group life cover. Category: Insurance claims. Forum: Ombudsman. Sectors: Life insurance, Lending (NBFCs and banks).
+Status: Current. An Ombudsman award binds the insurer in that complaint only. It is not a precedent, but it shows how such complaints are decided. The source is the summary of the award published by the Council for Insurance Ombudsmen.
+Facts: A borrower was covered under a group term life policy taken with a loan from an NBFC. She died 362 days into the cover. The insurer rejected the death claim because she had not disclosed treatment for cancer in the proposal, and the cause of death was related to it.
+Issue: What is payable where a life insurer proves suppression of a material fact but does not allege fraud?
+Held: The insurer proved the non-disclosure with cogent evidence, so the rejection of the death claim stood.
+Held: Because the insurer had not alleged fraud, the amended section 45 of the Insurance Act required it to refund the premium paid. It was directed to do so.
+What it means: For loan-linked group life cover sold through lenders, the health declaration taken at the time of the loan decides whether an early claim is paid. Lenders acting as master policyholders should make sure borrowers complete it themselves.
+What it means: Where a claim within three years is rejected for misstatement not amounting to fraud, the insurer has to refund the premiums.
+Law involved: Insurance Act, 1938, s. 45 (as substituted in 2015); Insurance Ombudsman Rules, 2017
+
 [JUD-ALKA] Alka Chandewar v. Shamshul Ishrar Khan | Supreme Court | 2017-07-06 | 2017 INSC 593, [2017] 6 SCR 533 | Civil Appeal No. 8720 of 2017
 Bench: R.F. Nariman and Sanjay Kishan Kaul JJ.
 Topic: Enforcing an arbitral tribunal's interim orders. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
@@ -1175,6 +1251,26 @@ Held: From 23 October 2015 section 17(2) also makes the tribunal's interim order
 What it means: Lenders that get interim relief from an arbitral tribunal (for example, to secure a vehicle or deposit funds) can enforce it through the court.
 Law involved: Arbitration and Conciliation Act, 1996, ss. 17, 27(5)
 
+[JUD-OMB-24H] Eye injection treatment refused as under 24 hours and 'out-patient' | Insurance Ombudsman, Ahmedabad | 2017-06-22 | Complaint No. AHD-G-050-1718-0228
+Topic: 24-hour hospitalisation and day-care procedures. Category: Insurance claims. Forum: Ombudsman. Sectors: Health insurance.
+Status: Current. An Ombudsman award binds the insurer in that complaint only. It is not a precedent, but it shows how such complaints are decided. The source is the summary of the award published by the Council for Insurance Ombudsmen.
+Facts: An insured under a family floater policy had two intravitreal injection procedures for a retinal condition, costing Rs 50,225 in all. The insurer refused both claims, saying the hospital stay was under 24 hours, the treatment could have been taken as an out-patient and it was 'unproven'.
+Issue: Can a claim be refused for a stay of less than 24 hours where the procedure is done in an operation theatre by a specialist?
+Held: No. Procedures that once needed longer admission are now done in a few hours because of advances in technology. Eye surgery was covered by the policy's day-care clause with no 24-hour condition.
+Held: The treatment needed an operation theatre and a specialist and was not an ordinary out-patient treatment. The insurer did not prove that it was unproven. The claim was allowed, less the policy's 10 per cent co-payment.
+What it means: Insurers should test short-stay claims against the day-care clause and the nature of the procedure, and should state one clear ground of rejection. A different award in the same compilation upheld rejection where the procedure was not in that policy's day-care list, so the wording of the policy decides the outcome.
+Law involved: Insurance Ombudsman Rules, 2017
+
+[JUD-OMB-RC] Deduction from a cataract claim as above 'reasonable and customary' charges | Insurance Ombudsman, Ahmedabad | 2017-06-05 | Complaint No. AHD-G-051-1718-0045
+Topic: 'Reasonable and customary charges' deductions. Category: Insurance claims. Forum: Ombudsman. Sectors: Health insurance.
+Status: Current. An Ombudsman award binds the insurer in that complaint only. It is not a precedent, but it shows how such complaints are decided. The source is the summary of the award published by the Council for Insurance Ombudsmen.
+Facts: A senior citizen claimed Rs 62,227 for cataract surgery. The insurer paid Rs 32,927 and disallowed the rest under the policy's 'reasonable and customary charges' clause, saying a multifocal lens was a betterment she did not need.
+Issue: What must an insurer show before cutting a health claim as above reasonable and customary charges?
+Held: The insurer must prove that the charges were unreasonable, by reference to prevailing charges for the same treatment in the same area. It produced no comparative rates, so the deduction was arbitrary.
+Held: The surgeon's fee and the actual cost of the lens could not be treated as unreasonable. The insurer was directed to pay a further Rs 23,323.
+What it means: A 'reasonable and customary' deduction needs evidence: rate comparisons for the same provider type and geography. An insurer's or administrator's opinion on what the patient needed is not enough.
+Law involved: Insurance Ombudsman Rules, 2017
+
 [JUD-NCLAT-STARLOG] Starlog Enterprises Ltd v. ICICI Bank Ltd | National Company Law Appellate Tribunal | 2017-05-24 | Company Appeal (AT) (Insolvency) No. 5 of 2017
 Bench: S.J. Mukhopadhaya J. (Chairperson) and Balvinder Singh.
 Topic: Admission without notice set aside. Category: Insolvency: starting and running the process. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
@@ -1185,6 +1281,16 @@ Held: The admission was set aside. The company must be given notice and a hearin
 Held: Costs were imposed on the bank.
 What it means: Lenders must serve the application and get the figures right; defective filings delay the process and can attract costs.
 Law involved: Insolvency and Bankruptcy Code, 2016, s. 7
+
+[JUD-OMB-PORT] Health claim rejected for non-disclosure at portability (knee replacement) | Insurance Ombudsman, Ahmedabad | 2017-04-12 | Complaint No. AHD-G-023-1617-1511
+Topic: Non-disclosure at portability unrelated to the claim. Category: Insurance claims. Forum: Ombudsman. Sectors: Health insurance.
+Status: Current. An Ombudsman award binds the insurer in that complaint only. It is not a precedent, but it shows how such complaints are decided. The source is the summary of the award published by the Council for Insurance Ombudsmen.
+Facts: A family had been continuously insured since 2000 and moved to a new general insurer under portability in 2015. A claim of about Rs 2.06 lakh for the wife's knee replacement was rejected because her ten-year history of hypertension had not been mentioned in the proposal form at portability.
+Issue: Can a ported health policy claim be rejected for non-disclosure of a condition that has no connection with the treatment claimed?
+Held: The complaint was allowed and the insurer was directed to pay the claim in full.
+Held: There was no nexus between hypertension and the knee replacement, and the benefits accrued over fifteen years under the earlier policies were available to the insured after portability.
+What it means: Health insurers should not reject a claim on a non-disclosure that is unrelated to the illness treated, least of all on a ported policy that carries continuity benefits.
+Law involved: Insurance Ombudsman Rules, 2017
 
 [JUD-SREE-MET] Sree Metaliks Ltd v. Union of India | Calcutta High Court | 2017-04-07 | W.P. No. 7144 (W) of 2017
 Bench: Debangsu Basak J.

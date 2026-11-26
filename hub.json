@@ -1182,14 +1182,14 @@
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",
-   "full": "Supreme Court, High Court and NCLAT rulings, with earlier landmark cases",
+   "full": "Supreme Court, High Court and NCLAT rulings, Insurance Ombudsman awards and earlier landmark cases",
    "status": "live",
    "desc": "Rulings on lending, insolvency, security, arbitration, housing finance, mutual funds, broking and insurance: the facts, what was held, what it means and the rules it touches.",
    "href": "judgments/",
    "data": {
     "judgments": "judgments/data/judgments.json"
    },
-   "count": 122,
+   "count": 131,
    "countLabel": "Judgments",
    "line": "Supreme Court, High Courts and NCLAT"
   }

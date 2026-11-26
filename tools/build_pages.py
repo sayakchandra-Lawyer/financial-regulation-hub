@@ -161,7 +161,7 @@ def judgment_body(j):
             ("Report citation", j.get("report_citation")), ("Case no.", j.get("case_no")), ("Bench", j.get("bench")),
             ("Statutes", "; ".join(j.get("statutes") or [])), ("Status", j.get("status_note") or "")]
     dl = "".join(f"<dt>{E(k)}</dt><dd>{E(v)}</dd>" for k, v in rows if str(v or "").strip())
-    src = f'<a class="btn g" href="{E(j["url"])}" target="_blank" rel="noopener">Judgment text ↗</a>' if j.get("url") else ""
+    src = f'<a class="btn g" href="{E(j["url"])}" target="_blank" rel="noopener">{"Source: published award summaries" if j.get("forum") == "ombudsman" else "Judgment text"} ↗</a>' if j.get("url") else ""
     parts = ['<div class="crumbs"><a href="../../../">Home</a> / <a href="../../">Key judgments</a></div>',
              f"<h1>{E(j.get('title'))}</h1>", f'<p class="full">{E(j.get("topic"))}</p>',
              f'<div class="acts"><a class="btn p" href="../../#j/{E(j["id"])}">Open in Key judgments</a>{src}</div>',
@@ -170,7 +170,7 @@ def judgment_body(j):
         parts.append(f"<h2>The facts</h2><p>{E(j['facts'])}</p>")
     if j.get("issue"):
         parts.append(f"<h2>The question</h2><p>{E(j['issue'])}</p>")
-    for head, key in [("What the court held", "holding"), ("What it means in practice", "impact")]:
+    for head, key in [({"ombudsman": "What the Ombudsman decided", "nclat": "What the tribunal held"}.get(j.get("forum"), "What the court held"), "holding"), ("What it means in practice", "impact")]:
         block = ul(j.get(key) or [])
         if block:
             parts.append(f"<h2>{head}</h2>{block}")
