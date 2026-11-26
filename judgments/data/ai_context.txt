@@ -1,15 +1,30 @@
-KEY JUDGMENTS REGISTER (107 rulings on financial services from the Supreme Court, High Courts, NCLAT and consumer and ombudsman forums, as on 2026-11-26). Each ruling starts with its id in square brackets.
+KEY JUDGMENTS REGISTER (108 rulings on financial services from the Supreme Court, High Courts, NCLAT and consumer and ombudsman forums, as on 2026-11-26). Each ruling starts with its id in square brackets.
 
+
+[JUD-YES-AT1] Yes Bank Ltd v. Axis Trustee Services Ltd | Supreme Court | 2026-10-15 | 2026 INSC 1132 | Civil Appeal No. 3182 of 2025 and connected appeals
+Bench: Dipankar Datta and Augustine George Masih JJ.
+Topic: Write-down of Additional Tier 1 bonds. Category: RBI powers and lending conduct. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
+Status: Review pending. The bank and the Reserve Bank filed review petitions in November 2026, which are pending. The ruling affirms the Bombay High Court's judgment of 20 January 2023 in Writ Petition No. 785 of 2021.
+Facts: A private sector bank issued Additional Tier 1 bonds of Rs 3,000 crore in 2016 and Rs 5,415 crore in 2017. On 5 March 2020 the bank was placed under moratorium and an Administrator was appointed. The draft reconstruction scheme published next day provided for the bonds to be written down, but the final scheme notified on 13 March 2020 did not. On 14 March 2020 the Administrator wrote the bonds down in full. The Bombay High Court quashed the write-down in January 2023, and the bank, the Reserve Bank and the Union appealed.
+Issue: Could the Administrator write down the bank's AT-1 bonds after the reconstruction scheme had come into force without a write-down clause?
+Held: No. The appeals were dismissed and the write-down stays quashed. The validity of the decision is judged as on the date it was taken; later events cannot rescue it.
+Held: Under the Basel III Master Circular, a write-down at the point of non-viability has to happen before the bank is reconstituted, that is, before the scheme takes effect. Once the final scheme was in force without a write-down clause, the bonds could not be written down contrary to it.
+Held: At the point of non-viability it is the Reserve Bank that decides whether instruments are written down, not the bank or its Administrator. The Administrator only stands in place of the board.
+Held: The annual coupon remains payable in terms of the information memoranda.
+Held: The Court was critical of the sale of these high-risk instruments to individual investors, which the Master Circular did not permit.
+What it means: Loss-absorption terms in regulatory capital instruments will be enforced, but only if the regulator and the issuer follow the sequence and the decision-maker laid down in the Reserve Bank's capital framework and in the scheme itself.
+What it means: Issuers and distributors of AT-1 and similar instruments (banks, and NBFCs issuing perpetual debt) should keep to the permitted investor classes and give clear risk disclosure. Mis-selling to retail investors was a central concern.
+Law involved: Banking Regulation Act, 1949, ss. 36ACA, 45; Yes Bank Ltd Reconstruction Scheme, 2020; RBI Master Circular - Basel III Capital Regulations, Annex 16
 
 [JUD-SHIKHA-AXIS] Shikha Ghosh v. Axis Bank Ltd | Delhi High Court | 2026-09-30 | FAO(COMM) No. 91 of 2025
 Bench: Prathiba M. Singh and Dinesh Bhatt JJ.
 Topic: Bank's mass use of one arbitrator. Category: Arbitration. Forum: High Courts. Sectors: Lending (NBFCs and banks), Housing finance.
-Status: Current. The appeal was part-heard when last listed in November 2026; later orders may follow.
+Status: Current. The court kept the matter part-heard for affidavits from the bank and RBI, so further orders may follow.
 Facts: A borrower challenged an award passed by a sole arbitrator whom the bank had appointed alone under the loan agreement. It emerged that the same arbitrator had been given thousands of the bank's recovery cases.
 Issue: Is an award by an arbitrator appointed unilaterally by the lender enforceable, and what should regulators do about the practice?
-Held: The award was unenforceable because the arbitrator had been appointed by the bank alone, following the Supreme Court's rulings on unilateral appointments.
-Held: The bank was directed to explain on affidavit why thousands of cases had been sent to one arbitrator, and RBI was asked to caution banks against the practice.
-What it means: Retail lenders that use the same arbitrator for bulk recovery cases risk unenforceable awards and regulatory scrutiny. Appointment through an institution or with the borrower's consent is safer.
+Held: The bank conceded that awards by arbitrators it had appointed alone are void, following Perkins Eastman and CORE (2025). The award was declared unenforceable against the borrower, and the bank was left free to take fresh recovery steps in accordance with law.
+Held: The same arbitrator had handled 4,155 of the bank's cases. The bank was directed to explain this on affidavit and to say how it would deal with such awards, and RBI was asked to caution banks and consider guidance.
+What it means: Awards from arbitrators appointed by the lender alone, or used in bulk by one lender, are open to challenge as void, and the court has drawn RBI into the issue. Under section 12(5), an ineligible arbitrator can act only if the parties waive the bar by express written agreement after the dispute has arisen.
 Law involved: Arbitration and Conciliation Act, 1996, ss. 12(5), 34, 37
 
 [JUD-BHADRA] Bhadra International (India) Pvt Ltd v. Airports Authority of India | Supreme Court | 2026-01-05 | 2026 INSC 6, [2026] 1 SCR 30 | Civil Appeal Nos. 37-38 of 2026
@@ -121,7 +136,7 @@ Facts: A hotel operator had a management contract with a hotel company that went
 Issue: Can a resolution plan terminate the corporate debtor's existing contracts, and how far can the tribunals review the committee's decision?
 Held: Yes. The committee's commercial decision to approve a plan that ends existing contracts cannot be questioned, provided the plan complies with section 30(2).
 Held: Judicial review is limited to the grounds in sections 30(2), 31 and 61(3).
-What it means: Counterparties of a borrower in insolvency, including service providers and lessees, may see their contracts ended by the plan.
+What it means: Counterparties of a borrower in insolvency, such as operators and service providers, may see their contracts ended by the plan.
 Law involved: Insolvency and Bankruptcy Code, 2016, ss. 30(2), 31, 61(3)
 
 [JUD-HARERAM] Hare Ram Singh v. Reserve Bank of India | Delhi High Court | 2024-11-18 | 2024:DHC:8816 | W.P.(C) 13497/2022
@@ -225,7 +240,7 @@ Facts: IFCI had subscribed to compulsorily convertible debentures (CCDs) of a to
 Issue: Are compulsorily convertible debentures debt or equity for a claim in insolvency?
 Held: The CCDs were equity. The project documents treated them as equity, they were never recategorised with the concessioning authority's approval, and repayment obligations lay with the sponsor, not the company.
 Held: Instruments compulsorily convertible into shares are generally equity, not debt. The holder was not a financial creditor.
-What it means: Investors in CCDs rank as shareholders in insolvency. Those who want creditor rights must structure instruments as debt (for example, non-convertible or optionally convertible with a redemption obligation).
+What it means: On these project documents, CCD holders ranked as shareholders. Whether an instrument is debt or equity turns on its terms and how the parties treated it; a redemption obligation points towards debt.
 Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(7), 5(8), 62
 
 [JUD-CELIR] Celir LLP v. Bafna Motors (Mumbai) Pvt Ltd | Supreme Court | 2023-09-21 | 2023 INSC 838, [2023] 13 SCR 53 | Civil Appeal Nos. 5542-5543 of 2023
@@ -259,7 +274,7 @@ Facts: Amtek Auto had pledged shares it held to a security trustee, Vistra, to s
 Issue: What rights does a lender holding only a pledge from the corporate debtor for someone else's loan have in the debtor's insolvency?
 Held: The pledgee is not a financial creditor of the pledgor (following Anuj Jain and Phoenix ARC), so it has no seat or vote on the committee of creditors.
 Held: It is a secured creditor and keeps the rights of a secured creditor under sections 52 and 53 and the pledge agreement. It cannot be treated worse than a dissenting financial creditor or an operational creditor.
-What it means: A plan must provide for third-party security holders, at least to the value of their security; they are not simply wiped out.
+What it means: Third-party security holders keep their rights as secured creditors and can object to a plan that ignores their security. The Court noted that giving them a vote to the value of the security would need a larger bench to revisit Anuj Jain and Phoenix ARC.
 Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(7), 30(2), 52, 53; Indian Contract Act, 1872, ss. 172-176
 
 [JUD-SIB-NAVEEN] South Indian Bank Ltd v. Naveen Mathew Philip | Supreme Court | 2023-04-17 | 2023 INSC 379, [2023] 4 SCR 18 | Civil Appeal Nos. 2861-2862 of 2023
@@ -285,14 +300,15 @@ What it means: In State Bank of India v. Amit Iron Pvt Ltd (7 April 2026, 2026 I
 What it means: RBI's Fraud Risk Management Directions for NBFCs now build these steps into the process.
 Law involved: RBI Act, 1934; Banking Regulation Act, 1949; RBI Master Directions on Frauds, 2016
 
-[JUD-NCLAT-ARBCLAIM] Shapoorji Pallonji and Co. Pvt Ltd v. Kobra West Power Company Ltd | National Company Law Appellate Tribunal | 2023-02-23 | Company Appeal (AT) (Insolvency) No. 816 of 2019
+[JUD-NCLAT-ARBCLAIM] Shapoorji Pallonji and Co. Pvt Ltd v. Korba West Power Company Ltd | National Company Law Appellate Tribunal | 2023-02-23 | Company Appeal (AT) (Insolvency) No. 816 of 2019
 Bench: Anant Bijay Singh J. and Shreesha Merla.
 Topic: Arbitration claims in a resolution plan. Category: Arbitration. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
 Status: Current.
 Facts: A contractor had claims against a company in insolvency that were pending in arbitration. The resolution plan did not deal with them, and the contractor appealed against the plan's approval.
 Issue: What happens to an operational creditor's claims pending in arbitration when a resolution plan is approved?
-Held: On the facts the claims were preserved: the contractor was given liberty to pursue the arbitration, and its rights depended on the outcome.
-What it means: Usually claims not provided for in an approved plan are extinguished (Ghanashyam Mishra, 2021). This ruling turns on the plan's terms, so creditors with pending arbitrations should file claims and check how the plan treats them.
+Held: The plan was upheld. The contractor, whose claim had been treated as contingent, was given liberty to continue the arbitration and have its claim decided.
+Held: On the resolution applicant's appeal (Civil Appeal No. 1741 of 2023), the Supreme Court held that any award could not add to the applicant's obligations beyond the approved plan.
+What it means: Claims not provided for in an approved plan are extinguished (Ghanashyam Mishra, 2021). A pending arbitration may at most quantify a claim; it cannot impose a new liability on the resolution applicant.
 Law involved: Insolvency and Bankruptcy Code, 2016, ss. 30, 31; Arbitration and Conciliation Act, 1996
 
 [JUD-NCLAT-WAVE] Wave Megacity Centre Pvt Ltd v. Rakesh Taneja | National Company Law Appellate Tribunal | 2023-01-05 | Company Appeal (AT) (Insolvency) No. 918 of 2022
@@ -320,7 +336,7 @@ Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8), 7, 60
 [JUD-NCLAT-SIDBI] Small Industries Development Bank of India v. Vivek Raheja (Resolution Professional, Gupta Exim (India) Pvt Ltd) | National Company Law Appellate Tribunal | 2022-09-16 | Company Appeal (AT) (Insolvency) No. 570 of 2022
 Bench: Ashok Bhushan J. (Chairperson) and Barun Mitra.
 Topic: Distribution under a resolution plan by voting share. Category: Insolvency: creditors, claims and distribution. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
-Status: Current.
+Status: Under reconsideration. In DBS Bank v. Ruchi Soya (2024 INSC 14) the Supreme Court referred to a larger bench what a dissenting secured financial creditor must receive under a plan.
 Facts: A secured lender with a charge on particular assets objected that the resolution plan distributed proceeds by voting share rather than by the value of each lender's security.
 Issue: Must a resolution plan distribute proceeds according to the value of each creditor's security?
 Held: No. The committee of creditors may distribute by voting share. A dissenting secured creditor is entitled only to what it would get in liquidation under section 53, not to the value of its security.
@@ -363,7 +379,7 @@ Law involved: Insolvency and Bankruptcy Code, 2016, ss. 7(5), 9(5)
 Bench: L. Nageswara Rao and B.R. Gavai JJ.
 Topic: Recovery certificates and decrees are financial debt. Category: Insolvency: creditors, claims and distribution. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
-Facts: Kotak Mahindra Bank had obtained a recovery certificate from the Debts Recovery Tribunal for a loan. It then filed a section 7 application relying on the certificate. The appellate tribunal held that a recovery certificate holder was not a financial creditor.
+Facts: Kotak Mahindra Bank had obtained a recovery certificate from the Debts Recovery Tribunal for a loan, so the certificate arose from a financial debt. It then filed a section 7 application relying on the certificate. The appellate tribunal held that a recovery certificate holder was not a financial creditor.
 Issue: Is a liability under a DRT recovery certificate a financial debt, and does the certificate give a fresh starting point for limitation?
 Held: A liability under a recovery certificate is a financial debt, and its holder is a financial creditor who may file under section 7.
 Held: A recovery certificate gives a fresh cause of action, so a section 7 application filed within three years of the certificate is in time.
@@ -464,10 +480,10 @@ Topic: Lenders cannot be forced into a majority deal. Category: Stressed assets,
 Status: Current. RBI's stressed asset and loan transfer rules now sit in its consolidated Directions for each regulated entity.
 Facts: Most of GTL Infrastructure's lenders agreed to sell their loans to an asset reconstruction company, and the GTL group's domestic lenders signed an inter-creditor agreement under RBI's June 2019 stressed assets framework. Canara Bank did neither and filed for insolvency. The borrowers asked the courts to compel it to follow the majority.
 Issue: Do RBI's rules on sale of loans to ARCs, or the inter-creditor agreement under the June 2019 framework, oblige a dissenting bank to follow the majority of lenders?
-Held: No. Under RBI's 2007 guidelines on sale of financial assets to ARCs, each bank decides for itself whether to accept an offer; the 75% clause does not oblige a dissenting bank to sell.
+Held: No. Under paragraph 6.4 of RBI's Master Circular on prudential norms (IRAC) of 1 July 2015, on sale of financial assets to ARCs, each bank decides for itself whether to accept an offer; the 75% clause does not oblige a dissenting bank to sell.
 Held: The June 2019 framework did not stop Canara Bank from starting insolvency, and banks cannot be compelled to accept a borrower's settlement or resolution plan. The Bombay High Court's dismissal of the writ petitions was upheld.
 What it means: Borrowers cannot use RBI's stressed-asset rules to force a lender into a majority deal. The binding effect of the 75% decision is a matter between lenders who signed the inter-creditor agreement.
-Law involved: RBI Prudential Framework for Resolution of Stressed Assets, 7 June 2019, paras 9-10; RBI Guidelines on sale of financial assets to SCs/RCs, 2007, para 6.4; Insolvency and Bankruptcy Code, 2016, s. 7
+Law involved: RBI Prudential Framework for Resolution of Stressed Assets, 7 June 2019, paras 9-10; RBI Master Circular on Prudential Norms on Income Recognition, Asset Classification and Provisioning, 1 July 2015, para 6.4; Insolvency and Bankruptcy Code, 2016, s. 7
 
 [JUD-KSE-ELEC] KSE Electricals Pvt Ltd v. Project Director | Calcutta High Court | 2021-11-23 | A.P. No. 230 of 2021
 Bench: Moushumi Bhattacharya J.
@@ -628,11 +644,11 @@ Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(7), 5(8), 5(24), 21(2)
 Bench: L. Nageswara Rao, Indu Malhotra and Ajay Rastogi JJ.
 Topic: Substituting an ineligible arbitrator. Category: Arbitration. Forum: Supreme Court. Sectors: Lending (NBFCs and banks).
 Status: Current.
-Facts: An arbitration under a government contract stalled after the time limit under section 29A lapsed. The State proposed that its Principal Secretary appoint a new arbitrator under the contract.
-Issue: Can an officer with a controlling influence over a party appoint or act as arbitrator, and how is a stalled tribunal replaced?
+Facts: HARSAC, a nodal agency of the Haryana government, appointed the State's Principal Secretary as its nominee arbitrator in a dispute with a contractor. The tribunal's mandate later lapsed under section 29A and the contractor applied for a substitute tribunal.
+Issue: Can an officer with a controlling influence over a party act as its arbitrator, and how is a tribunal whose mandate has lapsed replaced?
 Held: The Principal Secretary had a controlling influence over the State agency, so he was ineligible under section 12(5) read with the Seventh Schedule.
-Held: Using its power under section 29A(6), the Court substituted a retired Supreme Court judge as sole arbitrator to continue from the stage reached.
-What it means: Courts will replace an arbitrator whose time has lapsed or who is ineligible, and will not allow a party's officer to choose the replacement.
+Held: With both parties' consent, the Court used its power under section 29A(6) to replace the tribunal with a retired Supreme Court judge as sole arbitrator, continuing from the stage reached.
+What it means: A senior officer of a party, or of a government controlling it, cannot sit as that party's arbitrator. Courts can replace a tribunal whose time has lapsed.
 Law involved: Arbitration and Conciliation Act, 1996, ss. 12(5), 29A, Seventh Schedule
 
 [JUD-MANISH] Manish Kumar v. Union of India | Supreme Court | 2021-01-19 | 2021 INSC 28, [2021] 14 SCR 895 | Writ Petition (Civil) No. 26 of 2020
@@ -880,7 +896,7 @@ Law involved: Insolvency and Bankruptcy Code, 2016, ss. 5(8)(f), 7
 [JUD-NCLAT-VISHNU] Vishnu Kumar Agarwal v. Piramal Enterprises Ltd | National Company Law Appellate Tribunal | 2019-01-08 | Company Appeal (AT) (Insolvency) Nos. 346 and 347 of 2018
 Bench: S.J. Mukhopadhaya J. (Chairperson) and Bansi Lal Bhat J.
 Topic: Two insolvencies for one debt. Category: Guarantees, pledges and third-party security. Forum: NCLAT. Sectors: Lending (NBFCs and banks).
-Status: Doubted. Departed from by the Supreme Court in Maitreya Doshi v. Anand Rathi Global Finance (2022).
+Status: Law since changed. Not followed: the NCLAT itself departed from it in later cases, and the Supreme Court allowed parallel proceedings in Maitreya Doshi (2022) and BRS Ventures (2024).
 Facts: A lender had already admitted its claim in the insolvency of one corporate guarantor and then filed a second section 7 application against another corporate guarantor for the same debt.
 Issue: Can a financial creditor start a second insolvency for the same debt against another guarantor?
 Held: The tribunal held that once a claim was admitted in one corporate debtor's insolvency, a second application for the same debt against another corporate debtor was not maintainable, though the creditor could file against both at once.
@@ -927,9 +943,9 @@ Topic: SARFAESI sale and a borrower's conduct. Category: Security, charges and S
 Status: Current. The right of redemption after the 2016 amendment to section 13(8) is now explained in Celir LLP (2023).
 Facts: IFCI took action under SARFAESI against a hotel company in Goa and sold the hotel to ITC. The borrower had repeatedly sought time and promised to pay. The High Court set the sale aside for defects in the SARFAESI procedure, including the response to the borrower's objection under section 13(3A).
 Issue: Can a borrower who has repeatedly sought time and not paid have a SARFAESI sale set aside on procedural grounds?
-Held: The secured creditor was entitled to take possession and sell. The borrower's right to redeem the property ended when the sale was made.
+Held: The secured creditor was entitled to take possession and sell. On the law as it then stood, the borrower's right to redeem the property ended when the sale was made.
 Held: A borrower whose conduct was to seek time repeatedly without paying cannot rely on non-compliance with section 13(3A), and is not entitled to discretionary relief under Article 226.
-What it means: Courts look at the borrower's conduct before granting writ relief against a SARFAESI sale. Lenders should still follow the steps in section 13 and the Security Interest Rules strictly.
+What it means: Courts look at the borrower's conduct before granting writ relief against a SARFAESI sale. A sale can still be set aside for failure to follow section 13 and the Security Interest Rules. Since the 2016 amendment to section 13(8), the right to redeem ends on publication of the sale notice (Celir LLP, 2023).
 Law involved: SARFAESI Act, 2002, ss. 13(2), 13(3A), 13(4), 13(8); Security Interest (Enforcement) Rules, 2002
 
 [JUD-NCLAT-IRPCOST] State Bank of India v. SKC Retails Ltd | National Company Law Appellate Tribunal | 2018-03-06 | Company Appeal (AT) (Insolvency) Nos. 08, 09 and 43 of 2018
@@ -1109,7 +1125,7 @@ Law involved: Banking Regulation Act, 1949, ss. 21, 35A; RBI Master Circular on 
 [JUD-YES-A2Z] Yes Bank Ltd v. A2Z Maintenance & Engineering Services Ltd | Delhi High Court | 2014-07-30 | CS(OS) No. 217 of 2014
 Bench: Manmohan Singh J.
 Topic: Exclusive charge holder outside CDR. Category: Stressed assets, restructuring and NPAs. Forum: High Courts. Sectors: Lending (NBFCs and banks).
-Status: Current.
+Status: Law since changed. CDR has been replaced by RBI's June 2019 framework, under which lenders holding 75% by value and 60% by number bind those who sign the inter-creditor agreement.
 Facts: Yes Bank held an exclusive charge over certain assets of a borrower. The borrower went into corporate debt restructuring, which Yes Bank did not join, and the CDR package proposed sharing that security with the other lenders.
 Issue: Can a lender with an exclusive charge be made to share its security under a restructuring it did not join?
 Held: No. A CDR package binds only lenders who are party to it. Yes Bank was entitled to protect its exclusive charge, and the borrower was restrained from dealing with the charged assets.

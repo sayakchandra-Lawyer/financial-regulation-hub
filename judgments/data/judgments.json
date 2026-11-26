@@ -2,7 +2,7 @@
  "meta": {
   "title": "Key judgments for financial services",
   "as_of": "2026-11-26",
-  "count": 107,
+  "count": 108,
   "sectors": [
    {
     "key": "lending",
@@ -102,6 +102,51 @@
  },
  "judgments": [
   {
+   "id": "YES-AT1",
+   "title": "Yes Bank Ltd v. Axis Trustee Services Ltd",
+   "court": "Supreme Court",
+   "date": "2026-10-15",
+   "neutral_citation": "2026 INSC 1132",
+   "report_citation": "",
+   "case_no": "Civil Appeal No. 3182 of 2025 and connected appeals",
+   "bench": "Dipankar Datta and Augustine George Masih JJ.",
+   "topic": "Write-down of Additional Tier 1 bonds",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "Could the Administrator write down the bank's AT-1 bonds after the reconstruction scheme had come into force without a write-down clause?",
+   "holding": [
+    "No. The appeals were dismissed and the write-down stays quashed. The validity of the decision is judged as on the date it was taken; later events cannot rescue it.",
+    "Under the Basel III Master Circular, a write-down at the point of non-viability has to happen before the bank is reconstituted, that is, before the scheme takes effect. Once the final scheme was in force without a write-down clause, the bonds could not be written down contrary to it.",
+    "At the point of non-viability it is the Reserve Bank that decides whether instruments are written down, not the bank or its Administrator. The Administrator only stands in place of the board.",
+    "The annual coupon remains payable in terms of the information memoranda.",
+    "The Court was critical of the sale of these high-risk instruments to individual investors, which the Master Circular did not permit."
+   ],
+   "impact": [
+    "Loss-absorption terms in regulatory capital instruments will be enforced, but only if the regulator and the issuer follow the sequence and the decision-maker laid down in the Reserve Bank's capital framework and in the scheme itself.",
+    "Issuers and distributors of AT-1 and similar instruments (banks, and NBFCs issuing perpetual debt) should keep to the permitted investor classes and give clear risk disclosure. Mis-selling to retail investors was a central concern."
+   ],
+   "statutes": [
+    "Banking Regulation Act, 1949, ss. 36ACA, 45",
+    "Yes Bank Ltd Reconstruction Scheme, 2020",
+    "RBI Master Circular - Basel III Capital Regulations, Annex 16"
+   ],
+   "links": [
+    {
+     "section": "rbi",
+     "id": "MD-CAP",
+     "label": "Prudential Norms on Capital Adequacy",
+     "href": "../rbi/#d/MD-CAP"
+    }
+   ],
+   "status": "Review pending",
+   "status_note": "The bank and the Reserve Bank filed review petitions in November 2026, which are pending. The ruling affirms the Bombay High Court's judgment of 20 January 2023 in Writ Petition No. 785 of 2021.",
+   "url": "https://api.sci.gov.in/supremecourt/2023/6245/6245_2023_6_1501_75512_Judgement_15-Oct-2026.pdf",
+   "facts": "A private sector bank issued Additional Tier 1 bonds of Rs 3,000 crore in 2016 and Rs 5,415 crore in 2017. On 5 March 2020 the bank was placed under moratorium and an Administrator was appointed. The draft reconstruction scheme published next day provided for the bonds to be written down, but the final scheme notified on 13 March 2020 did not. On 14 March 2020 the Administrator wrote the bonds down in full. The Bombay High Court quashed the write-down in January 2023, and the bank, the Reserve Bank and the Union appealed.",
+   "forum": "sc",
+   "area": "rbi"
+  },
+  {
    "id": "SHIKHA-AXIS",
    "title": "Shikha Ghosh v. Axis Bank Ltd",
    "court": "Delhi High Court",
@@ -117,11 +162,11 @@
    ],
    "issue": "Is an award by an arbitrator appointed unilaterally by the lender enforceable, and what should regulators do about the practice?",
    "holding": [
-    "The award was unenforceable because the arbitrator had been appointed by the bank alone, following the Supreme Court's rulings on unilateral appointments.",
-    "The bank was directed to explain on affidavit why thousands of cases had been sent to one arbitrator, and RBI was asked to caution banks against the practice."
+    "The bank conceded that awards by arbitrators it had appointed alone are void, following Perkins Eastman and CORE (2025). The award was declared unenforceable against the borrower, and the bank was left free to take fresh recovery steps in accordance with law.",
+    "The same arbitrator had handled 4,155 of the bank's cases. The bank was directed to explain this on affidavit and to say how it would deal with such awards, and RBI was asked to caution banks and consider guidance."
    ],
    "impact": [
-    "Retail lenders that use the same arbitrator for bulk recovery cases risk unenforceable awards and regulatory scrutiny. Appointment through an institution or with the borrower's consent is safer."
+    "Awards from arbitrators appointed by the lender alone, or used in bulk by one lender, are open to challenge as void, and the court has drawn RBI into the issue. Under section 12(5), an ineligible arbitrator can act only if the parties waive the bar by express written agreement after the dispute has arisen."
    ],
    "statutes": [
     "Arbitration and Conciliation Act, 1996, ss. 12(5), 34, 37"
@@ -135,7 +180,7 @@
     }
    ],
    "status": "Current",
-   "status_note": "The appeal was part-heard when last listed in November 2026; later orders may follow.",
+   "status_note": "The court kept the matter part-heard for affidavits from the bank and RBI, so further orders may follow.",
    "url": "https://sayakchandra-lawyer.github.io/financial-regulation-hub/judgments/pdf/SHIKHA-AXIS.pdf",
    "facts": "A borrower challenged an award passed by a sole arbitrator whom the bank had appointed alone under the loan agreement. It emerged that the same arbitrator had been given thousands of the bank's recovery cases.",
    "forum": "hc",
@@ -580,7 +625,7 @@
     "Judicial review is limited to the grounds in sections 30(2), 31 and 61(3)."
    ],
    "impact": [
-    "Counterparties of a borrower in insolvency, including service providers and lessees, may see their contracts ended by the plan."
+    "Counterparties of a borrower in insolvency, such as operators and service providers, may see their contracts ended by the plan."
    ],
    "statutes": [
     "Insolvency and Bankruptcy Code, 2016, ss. 30(2), 31, 61(3)"
@@ -983,7 +1028,7 @@
     "Instruments compulsorily convertible into shares are generally equity, not debt. The holder was not a financial creditor."
    ],
    "impact": [
-    "Investors in CCDs rank as shareholders in insolvency. Those who want creditor rights must structure instruments as debt (for example, non-convertible or optionally convertible with a redemption obligation)."
+    "On these project documents, CCD holders ranked as shareholders. Whether an instrument is debt or equity turns on its terms and how the parties treated it; a redemption obligation points towards debt."
    ],
    "statutes": [
     "Insolvency and Bankruptcy Code, 2016, ss. 5(7), 5(8), 62"
@@ -1117,7 +1162,7 @@
     "It is a secured creditor and keeps the rights of a secured creditor under sections 52 and 53 and the pledge agreement. It cannot be treated worse than a dissenting financial creditor or an operational creditor."
    ],
    "impact": [
-    "A plan must provide for third-party security holders, at least to the value of their security; they are not simply wiped out."
+    "Third-party security holders keep their rights as secured creditors and can object to a plan that ignores their security. The Court noted that giving them a vote to the value of the security would need a larger bench to revisit Anuj Jain and Phoenix ARC."
    ],
    "statutes": [
     "Insolvency and Bankruptcy Code, 2016, ss. 5(7), 30(2), 52, 53",
@@ -1232,7 +1277,7 @@
   },
   {
    "id": "NCLAT-ARBCLAIM",
-   "title": "Shapoorji Pallonji and Co. Pvt Ltd v. Kobra West Power Company Ltd",
+   "title": "Shapoorji Pallonji and Co. Pvt Ltd v. Korba West Power Company Ltd",
    "court": "National Company Law Appellate Tribunal",
    "date": "2023-02-23",
    "neutral_citation": "",
@@ -1245,10 +1290,11 @@
    ],
    "issue": "What happens to an operational creditor's claims pending in arbitration when a resolution plan is approved?",
    "holding": [
-    "On the facts the claims were preserved: the contractor was given liberty to pursue the arbitration, and its rights depended on the outcome."
+    "The plan was upheld. The contractor, whose claim had been treated as contingent, was given liberty to continue the arbitration and have its claim decided.",
+    "On the resolution applicant's appeal (Civil Appeal No. 1741 of 2023), the Supreme Court held that any award could not add to the applicant's obligations beyond the approved plan."
    ],
    "impact": [
-    "Usually claims not provided for in an approved plan are extinguished (Ghanashyam Mishra, 2021). This ruling turns on the plan's terms, so creditors with pending arbitrations should file claims and check how the plan treats them."
+    "Claims not provided for in an approved plan are extinguished (Ghanashyam Mishra, 2021). A pending arbitration may at most quantify a claim; it cannot impose a new liability on the resolution applicant."
    ],
    "statutes": [
     "Insolvency and Bankruptcy Code, 2016, ss. 30, 31",
@@ -1385,8 +1431,8 @@
      "href": "../ibc/#d/CODE"
     }
    ],
-   "status": "Current",
-   "status_note": "",
+   "status": "Under reconsideration",
+   "status_note": "In DBS Bank v. Ruchi Soya (2024 INSC 14) the Supreme Court referred to a larger bench what a dissenting secured financial creditor must receive under a plan.",
    "url": "https://sayakchandra-lawyer.github.io/financial-regulation-hub/judgments/pdf/NCLAT-SIDBI.pdf",
    "facts": "A secured lender with a charge on particular assets objected that the resolution plan distributed proceeds by voting share rather than by the value of each lender's security.",
    "forum": "nclat",
@@ -1572,7 +1618,7 @@
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2022/english/2022_5_1072_1111_EN.pdf",
-   "facts": "Kotak Mahindra Bank had obtained a recovery certificate from the Debts Recovery Tribunal for a loan. It then filed a section 7 application relying on the certificate. The appellate tribunal held that a recovery certificate holder was not a financial creditor.",
+   "facts": "Kotak Mahindra Bank had obtained a recovery certificate from the Debts Recovery Tribunal for a loan, so the certificate arose from a financial debt. It then filed a section 7 application relying on the certificate. The appellate tribunal held that a recovery certificate holder was not a financial creditor.",
    "forum": "sc",
    "area": "ibc-creditors"
   },
@@ -1924,7 +1970,7 @@
    ],
    "issue": "Do RBI's rules on sale of loans to ARCs, or the inter-creditor agreement under the June 2019 framework, oblige a dissenting bank to follow the majority of lenders?",
    "holding": [
-    "No. Under RBI's 2007 guidelines on sale of financial assets to ARCs, each bank decides for itself whether to accept an offer; the 75% clause does not oblige a dissenting bank to sell.",
+    "No. Under paragraph 6.4 of RBI's Master Circular on prudential norms (IRAC) of 1 July 2015, on sale of financial assets to ARCs, each bank decides for itself whether to accept an offer; the 75% clause does not oblige a dissenting bank to sell.",
     "The June 2019 framework did not stop Canara Bank from starting insolvency, and banks cannot be compelled to accept a borrower's settlement or resolution plan. The Bombay High Court's dismissal of the writ petitions was upheld."
    ],
    "impact": [
@@ -1932,7 +1978,7 @@
    ],
    "statutes": [
     "RBI Prudential Framework for Resolution of Stressed Assets, 7 June 2019, paras 9-10",
-    "RBI Guidelines on sale of financial assets to SCs/RCs, 2007, para 6.4",
+    "RBI Master Circular on Prudential Norms on Income Recognition, Asset Classification and Provisioning, 1 July 2015, para 6.4",
     "Insolvency and Bankruptcy Code, 2016, s. 7"
    ],
    "links": [
@@ -1947,6 +1993,12 @@
      "id": "MD-TDCR",
      "label": "Transfer and Distribution of Credit Risk (loan transfers, co-lending)",
      "href": "../rbi/#d/MD-TDCR"
+    },
+    {
+     "section": "rbi",
+     "id": "MD-IRACP",
+     "label": "Income Recognition, Asset Classification and Provisioning",
+     "href": "../rbi/#d/MD-IRACP"
     },
     {
      "section": "rbi",
@@ -2558,13 +2610,13 @@
    "sectors": [
     "lending"
    ],
-   "issue": "Can an officer with a controlling influence over a party appoint or act as arbitrator, and how is a stalled tribunal replaced?",
+   "issue": "Can an officer with a controlling influence over a party act as its arbitrator, and how is a tribunal whose mandate has lapsed replaced?",
    "holding": [
     "The Principal Secretary had a controlling influence over the State agency, so he was ineligible under section 12(5) read with the Seventh Schedule.",
-    "Using its power under section 29A(6), the Court substituted a retired Supreme Court judge as sole arbitrator to continue from the stage reached."
+    "With both parties' consent, the Court used its power under section 29A(6) to replace the tribunal with a retired Supreme Court judge as sole arbitrator, continuing from the stage reached."
    ],
    "impact": [
-    "Courts will replace an arbitrator whose time has lapsed or who is ineligible, and will not allow a party's officer to choose the replacement."
+    "A senior officer of a party, or of a government controlling it, cannot sit as that party's arbitrator. Courts can replace a tribunal whose time has lapsed."
    ],
    "statutes": [
     "Arbitration and Conciliation Act, 1996, ss. 12(5), 29A, Seventh Schedule"
@@ -2573,7 +2625,7 @@
    "status": "Current",
    "status_note": "",
    "url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_1_282_288_EN.pdf",
-   "facts": "An arbitration under a government contract stalled after the time limit under section 29A lapsed. The State proposed that its Principal Secretary appoint a new arbitrator under the contract.",
+   "facts": "HARSAC, a nodal agency of the Haryana government, appointed the State's Principal Secretary as its nominee arbitrator in a dispute with a contractor. The tribunal's mandate later lapsed under section 29A and the contractor applied for a substitute tribunal.",
    "forum": "sc",
    "area": "arb"
   },
@@ -3589,8 +3641,8 @@
      "href": "../ibc/#d/CODE"
     }
    ],
-   "status": "Doubted",
-   "status_note": "Departed from by the Supreme Court in Maitreya Doshi v. Anand Rathi Global Finance (2022).",
+   "status": "Law since changed",
+   "status_note": "Not followed: the NCLAT itself departed from it in later cases, and the Supreme Court allowed parallel proceedings in Maitreya Doshi (2022) and BRS Ventures (2024).",
    "url": "https://sayakchandra-lawyer.github.io/financial-regulation-hub/judgments/pdf/NCLAT-VISHNU.pdf",
    "facts": "A lender had already admitted its claim in the insolvency of one corporate guarantor and then filed a second section 7 application against another corporate guarantor for the same debt.",
    "forum": "nclat",
@@ -3737,11 +3789,11 @@
    ],
    "issue": "Can a borrower who has repeatedly sought time and not paid have a SARFAESI sale set aside on procedural grounds?",
    "holding": [
-    "The secured creditor was entitled to take possession and sell. The borrower's right to redeem the property ended when the sale was made.",
+    "The secured creditor was entitled to take possession and sell. On the law as it then stood, the borrower's right to redeem the property ended when the sale was made.",
     "A borrower whose conduct was to seek time repeatedly without paying cannot rely on non-compliance with section 13(3A), and is not entitled to discretionary relief under Article 226."
    ],
    "impact": [
-    "Courts look at the borrower's conduct before granting writ relief against a SARFAESI sale. Lenders should still follow the steps in section 13 and the Security Interest Rules strictly."
+    "Courts look at the borrower's conduct before granting writ relief against a SARFAESI sale. A sale can still be set aside for failure to follow section 13 and the Security Interest Rules. Since the 2016 amendment to section 13(8), the right to redeem ends on publication of the sale notice (Celir LLP, 2023)."
    ],
    "statutes": [
     "SARFAESI Act, 2002, ss. 13(2), 13(3A), 13(4), 13(8)",
@@ -4456,8 +4508,8 @@
      "href": "../rbi/#d/MD-STRESS"
     }
    ],
-   "status": "Current",
-   "status_note": "",
+   "status": "Law since changed",
+   "status_note": "CDR has been replaced by RBI's June 2019 framework, under which lenders holding 75% by value and 60% by number bind those who sign the inter-creditor agreement.",
    "url": "https://sayakchandra-lawyer.github.io/financial-regulation-hub/judgments/pdf/YES-A2Z.pdf",
    "facts": "Yes Bank held an exclusive charge over certain assets of a borrower. The borrower went into corporate debt restructuring, which Yes Bank did not join, and the CDR package proposed sharing that security with the other lenders.",
    "forum": "hc",
