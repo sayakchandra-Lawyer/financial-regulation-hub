@@ -1,0 +1,3411 @@
+National Disaster Management Guidelines
+
+On Ensuring Disaster Resilient Construction of
+Buildings and Infrastructure financed through
+
+       Banks and Other Lending Institutions
+
+                         September 2010
+
+ National Disaster Management Authority
+
+                      Government of India
+                       Table of Contents
+
+Section                                                          Page
+                                                                 1
+1        Introduction                                            1
+                                                                 3
+2        Current Practice of Financing Construction-related      5
+                                                                 6
+         Projects                                                7
+                                                                 7
+3        The Way Forward                                         9
+                                                                 13
+4        Types of Structures Considered
+                                                                 17
+5        Natural Hazards Considered                              26
+
+6        Safety Items Considered                                 30
+                                                                 35
+7        Safety of Both Structural System and Non-Structural     41
+                                                                 47
+         Systems                                                 54
+                                                                 62
+8        Retrofitting of Existing Construction
+
+9        Proposed Reforms in Ensuring Disaster Resilience
+
+      I  ANNEXURES
+         Forms to Assist Architects undertaking Peer Review on
+FORM A1  behalf of the Bank
+FORM N1  Structural Configuration of Buildings
+         Non-Structural Aspects of Buildings
+
+    II   Forms to Assist Structural Engineers undertaking Peer
+         Review on behalf of the Bank
+Form M1  Load Bearing Masonry Buildings of Height Less than 15m
+Form C1  Concrete Buildings of Height Less than 15m
+Form C2  Concrete Buildings of Height More than 15m
+Form S1  Steel Buildings of Height Less than 15m
+Form S2  Steel Buildings of Height More than 15m
+
+         Members of the Core Group for Preparation of these
+         Guidelines
+
+                                  ii
+1. Introduction
+
+1.1 The trend of steady growth in housing construction in India in the recent past
+is a reflection of the increasing demand for housing in the country and the easy
+access to housing loans from banks and other lending institutions. The Eleventh
+Five Year Plan estimates that housing finance disbursals by banks, financial
+corporations, and co-operative sector institutions would grow at a rate of about 15%
+per annum during the Eleventh Plan period. It is estimated that the gross flow of
+credit disbursal from these institutions would be about Rs 7.75 lakh crores during
+2007-2012.1 The Reserve Bank of India (RBI) has advised the commercial banks to
+lend 3% of deposits for priority sector lending including housing loans to
+individuals and others (cooperative & private sector).
+
+1.2 Every year, several lakhs of houses are destroyed and damaged in India by
+natural disasters like earthquakes, floods, landslides and cyclones. It is therefore
+important to ensure that the bank-financed construction is able to withstand the
+adverse impact of various natural hazards. Damage to or destruction of such assets
+not only result in adverse economic consequences, but may also compromise the
+bank's financial security due to these assets becoming Non Performing Assets
+(NPA) because of the weak coping capacities of most of the people who turn to
+banks and lending institutions for housing loans.
+
+2. Current Practice of Financing Construction-Related
+       Projects
+
+2.1 Currently, construction projects in India are expected to comply with several
+technical provisions that are specified in various Acts, Bye-laws, Rules and
+Regulations enforced by Urban Local Bodies (ULBs) or local Urban Development
+Authorities. However, experiences from recent natural disasters clearly illustrate
+that the provisions of the Techno-Legal Regime are not strictly complied with,
+resulting in avoidable damage to the built environment and the consequent adverse
+economic impact. Secondly, the techno-legal regime implemented in the
+jurisdiction of ULBs or local Urban Development Authorities do not have any
+regulatory control over building constructions in rural areas. Therefore, the onus of
+checking the compliance to safety provisions by the loan-financed buildings lies
+with the banks extending housing loans.
+
+1 Page 412, Paragraph 11.95, Urban Infrastructure, Housing, Basic Services, and Poverty Alleviation, Volume-III, Eleventh Five Year Plan, Planning
+Commission, Govt. of India.
+2.2 In the context of disaster resilience, there are three critical gaps in the current
+practice of the provision of housing finance by banks and other lending institutions:
+
+        (a) When an application is made to a bank seeking a housing loan to
+construct the building or structure, it is not necessary that it is designed in full. The
+architect and/or structural engineer provides a certificate that they will undertake
+the design (at a later stage);
+
+        (b) Before the commencement of construction of the building or structure,
+the design of the whole structure is not furnished either to the local authority due to
+the lack of any definitive provisions in the prevailing local building bye-laws or to
+the banks financing the proposed construction. Assumptions are made regarding
+items appearing on the upper levels, and designs are prepared for parts of the
+building on the lower levels. Here, there is a possibility of not necessarily adhering
+to the assumptions made regarding the items in the upper levels, when those items
+are eventually designed much later.
+
+        (c) The technical professionals (structural engineers and/or architects)
+advising the banks recommend that loan may be given to a project, without
+necessarily seeing the design of the complete structure, and sometimes simply
+based on his/her perception of the credentials of the architect and structural
+engineer of the proposed project.
+All these are lacunae of the construction practice that do not augur well for ensuring
+multi-hazard safety of the construction of buildings and structures in the country.
+2.3 In general, independent assessment of the disaster resilience of such housing
+proposals is often missed by the banks themselves as indicated by the structural
+damage and economic losses in the past on bank financed buildings after
+devastating disasters. As per the existing practice, the banks give installments of
+financial assistance linked to the issue of specific certificates, namely
+
+        (a) Initial loan amount based on the Stability Certificate by structural
+design consultants before the structural design of the asset is performed stating that
+they shall comply with the requirements of disaster-resistance during the process of
+design (to be undertaken at a later stage),
+
+        (b) Partial loan amount based on the Stage-wise Completion
+Certificates by architects after the construction is underway, stating that a said list
+of works have been completed as per the approved construction drawings, and
+
+        (c) Final loan amount based on the Final Completion Certificate by
+architects after the construction is complete, stating that all the works have been
+completed as per the approved construction drawings.
+
+                                                                       2
+2.4 In view of above, RBI has issued several proactive advisories to banks for
+verifying disaster safety while granting loans for any building construction, most
+important being the RBI's circular of 1st March 2006 advising banks to ensure prior
+permission from government /local governments/other statutory authorities for the
+project, wherever required while giving loans to real estate sector; the advisory to
+all banks issued on 12 June 2006 for adherence to the National Building Code 2005
+(NBC 2005) while approving loans for any building construction; and RBI's
+circular issued on 17th November 2006, taking cognizance of orders of the Delhi
+High Court in the Writ Petition by Kalyan Sanstha Welfare Organisation against
+Union of India and Others for housing loans extended in Delhi.
+
+2.5 While the above proactive steps of RBI for ensuring safe construction is
+recognized as a boost to promote disaster risk reduction in the built-up
+environment of the country, much remains to be done for creating a user-friendly,
+enabling environment for banks to facilitate compliance of the directives. The
+National Disaster Management Authority (NDMA) has prepared these Guidelines
+for integrating the techno-legal compliance into the housing loan application
+process. These Guidelines provide guidance by prescribing client specific simplified
+check-memos for ensuring compliance of the techno-legal regime by loan financed
+assets. RBI's advisories for ensuring prior approval of local ULBs before
+sanctioning building loans will hardly assist banks to determine disaster resilience
+in their loan financed assets, since the prevailing techno-legal system contain
+several loopholes in ensuring compliance with structural safety provisions. The
+current practice in ULBs is to seek only assurances from the architects and/or
+engineers that disaster-resilience will be incorporated in the loan-financed assets
+during the design process. The structural design of the proposed buildings and
+structures are NOT completed before submitting the application for a bank loan,
+and no processes are in place by the banks to ensure that disaster-resilience has
+indeed been incorporated in the assets during the design process at least before
+construction begins. This is a major lacuna in both the techno-legal and techno-
+financial processes. The NDMA Guidelines aims at addressing these critical gaps in
+the current processes of approving the housing loan applications without
+ascertaining compliance to the techno-legal regime, Building Codes and other
+Safety Standards and Regulations.
+
+3. The Way Forward
+
+3.1 An improved techno-financial regime for financing construction of houses
+and infrastructure by banks and other lending institutions in both urban and rural
+
+                                                                       3
+areas is seen as an opportunity for financial institutions to ensure disaster resilience
+in the construction sector. The financial institutions are also equally keen to ensure
+that the physical assets created through their lending schemes remain safe and
+disaster-resilient at least during the repayment period. Depending upon the nature
+of the assets and the vulnerability of the location to any or many of the disasters, the
+financial institutions could insist on ensuring that disaster resistant features are
+incorporated in the actual construction before the loan is sanctioned or disbursed.
+The improved techno-financial regime should be applicable to both new
+construction as well as additions, modifications, extensions or alterations to full or
+part of existing construction, including
+
+        (a) the entire range of housing construction, from those built for self-
+occupation to those provided by builders and developers to individual buyers, and
+
+        (b) other bank-financed construction, such as critical lifeline structures,
+infrastructure, and commercial complexes and buildings.
+
+3.2 These Guidelines propose the modalities that will aid the banks for putting in
+place an improved and robust techno-financial regime, that will help the banks to
+ensure disaster-resilience and safety of bank-financed assets by themselves
+(without relying on the techno-legal processes controlled by ULBs). Using these
+Guidelines, the verification wings of banks and their empanelled technical experts
+will be in a position to check that the safety-related codes and regulations, as
+specified in NBC-2005 and various Indian Standards, are complied with and the
+designs of the proposed buildings and structures are multi-disaster-resilient. In
+case of a natural disaster, the bank-financed assets will perform as per the codes
+and standards, and the natural disaster will not have an adverse impact on these
+assets. These provisions will assist the banks to take a considered decision on the
+loan applications for financing such construction. The banking system would
+contribute to creating a disaster-resistant built environment in the country.
+
+3.3 With above intention, a set of checklists are appended with these technical
+guidelines to aid the structural engineers and architects assisting the banks in
+assessing building constructions alone, because of large number of individuals
+interested in loans to construct buildings or purchase apartments. These checklists
+are meant for ensuring that necessary aspects of safety are addressed in the
+construction of the building as well as in the finishing and placement of its contents.
+For assessing safety of construction related to non-building structures, the technical
+professionals assisting the banks (e.g., engineers and architects) may use these
+formats to ensure that all aspects of safety are accounted for in the design of the
+
+                                                                       4
+proposed structure. The list of items and aspects included in these checklists are
+only indicative, and not exhaustive; the peer reviewers may improve the list based
+on their experience of carrying out peer review of housing and infrastructure
+projects.
+
+3.4 The implementation of these techno-financial provisions would require banks
+to equip themselves with the necessary technical expertise, by either developing
+suitable technical human resources internally within the banking system or by
+outsourcing the peer review of technical documents submitted to the bank to
+empanelled professional architects, civil engineers, geo-technical engineers and
+structural engineers. This approach would offer to the banks an independent
+verification of disaster-resilience of the project under consideration, in addition to
+ensuring multi-hazard resilience in all bank-financed construction and thereby
+securing the investments made in such construction and contributing to a multi-
+hazard resilient built environment in the country.
+
+4. Types of Structures Considered
+
+4.1 Broadly, the structures constructed in the country can be divided into two
+categories, namely buildings and non-buildings. Buildings constitute over 90% of
+the number of structures. Buildings can be sub-divided into different groups based
+on function of use, material of construction and total height above ground. Based
+on the function of use, three further sub-groups can be identified, namely
+Residential, Non-Residential and Critical Lifeline Buildings. Based on material of
+construction, four sub-groups can be identified, namely Reinforced Concrete (RC),
+Steel, Masonry and Other Materials. Based on total height of the building above
+ground level, three sub-groups are identified, namely less than 15m tall, between
+15m and 45m tall, and taller than 45m. Most masonry buildings in India are less
+than 15m tall. In the Guidelines, all buildings are considered, irrespective of
+whether they are being built by owners for self-occupation or by builders for sale.
+
+4.2 Non-buildings include all other structures including industrial structures,
+civic amenities, and infrastructure projects. Infrastructure projects are required to
+be developed using technical and professional inputs along with understanding of
+social, technical, financial and sustainability aspects of the projects. The financial
+outlay for any construction can be any one of three funding modes, namely
+government sources, public-private-partnership (PPP), or private sources. While
+provisions exist in the government-funded infrastructure projects to ensure the
+development of hazard-resistant construction, systems need to be put in place to
+
+                                                                       5
+ensure the same in PPP and privately funded infrastructure projects, where the
+banking sector provides lending support (including construction in Special
+Economic Zones (SEZs) and Large Entertainment Parks outside municipal limits).
+These Guidelines are aimed at projects funded only under PPP and Private
+schemes, and not to those funded by the various Ministries and Departments of the
+Government of India and state governments.
+
+4.3 Broadly, infrastructure projects fall into a number of sectors, including
+
+        i. Water, e.g., dams, irrigation structures, and water transport;
+
+        ii. Power, e.g., thermal power, hydro power, wind power, and solar power;
+
+        iii. Communications, e.g., wired and wireless communications;
+
+        iv. Transportation, e.g., railways (including trans-country railway systems,
+              and metro-rail systems), roadways (including bridges, flyovers,
+              pavements, passenger terminals, highway conveniences, and vehicle
+              emergency facilities), airways (including airport terminals, runways &
+              taxiways, ATC towers, and fuel tanks) and waterways (including port and
+              harbour structures, passenger & cargo terminals, and light houses); and
+
+        v. Urban Services (including infrastructure and amenities) e.g., water
+              supply, piped-cooking gas supply, and sewage treatment, waste water
+              treatment & drainage, storm water drainage, and solid waste treatment
+              and disposal.
+
+4.4 While there is extreme urgency to ensure the multi-hazard resilience of
+urban services, the other four sectors are also very important. Infrastructure
+projects can be sub-divided into discrete developments and linear developments,
+based on their geometric spread on ground. Discrete developments include
+individual stand-alone construction with relatively small footprint, e.g., a water
+tank for municipal water supply, and cooling tower inside a power plant area, while
+Linear Developments include long span or long length facilities spreading over
+large distances and crossing different terrains vulnerable to different natural
+hazards, e.g., trans-country pipelines for petroleum fuel crossing earthquake fault
+zones, large diameter water lines laid on different soil terrains, national highways,
+sub-surface tunnels, and long-span bridges, etc.)
+
+5. Natural Hazards Considered
+
+5.1 While the available national standards and guidelines consider the potential
+
+                                                                       6
+impact of each individual hazard, the safety of the built environment needs to be
+assured to withstand the adverse impact of multiple hazards like earthquakes,
+cyclones, landslides and floods, based on the risk and vulnerability profiles of the
+specific areas. Some design features favourable to resist effects of one hazard may
+conflict with the features required for another hazard; the implications of these
+need to be incorporated before arriving at the final designs. Experience of
+performance of the built environment with certain design features helps in
+resolving such conflicts.
+
+6. Safety Items Considered
+
+6.1 While the demands of all other natural hazards are of force-type loading,
+those of temperature and earthquake hazards are of displacement-type loading.
+Lateral action is a dominant feature of the hazard especially under wind, wave and
+earthquakes, in addition to the usual gravity loads. In the design of structures, the
+four virtues of configuration, stiffness, strength and ductility are required to be
+provided to ensure disaster resilience of structures. While the first three virtues are
+essential to resist force-type loading, ductility is necessary to resist displacement-
+type loading.
+
+7. Safety of both Structural System and Non-Structural Systems
+
+7.1 The construction of structures consists of two parts, namely the Structural
+System and Non-Structural Systems, loosely called as the structure and the
+contents and finishes. The Structural System is that part of the construction which
+is responsible to carry the loads acting on the structure (including those due to its
+own weight, occupants, contents and finishes) and ensure safety to the occupants
+and function of the construction. It consists of the soil system underneath the
+construction, the foundation, the vertical and horizontal members (namely
+columns, braces, beams, slabs and walls) that permit the various activities and
+functions to be undertaken within the structure, without any threat of collapse
+under the expected natural hazards and normal loads appearing on the structure.
+The members of the Structural System performing these functions are called
+structural elements (SEs).
+
+7.2 Apart from these, there are many items of buildings, such as contents of
+buildings, appendages to buildings, services and utilities, which are supported by
+SEs, and whose weight and other forces are carried down to foundations by SEs,
+called non-structural elements (NSEs). During strong earthquake shaking, if NSEs
+
+                                                                       7
+are not secured to structural elements of the building, they can (a) topple, slide or
+fall down from an elevation, or (b) move or swing by large amounts in translation
+and rotation. These actions can cause loss to the item as well as cause secondary
+disasters. For instance, spill of chemicals in an industrial unit or a laboratory can
+cause fires, and toppling of unreinforced masonry parapet wall or chimney of a
+house can cause injury to persons below. NSEs can be listed under three groups,
+namely
+
+        (a) Contents of buildings: Items required for functionally enabling the use of
+spaces, such as (i) furniture and minor items, e.g., storage shelves, (ii) facilities and
+equipment, e.g., refrigerators, washing machines, gas cylinders, TVs, multi-level
+material stacks, false ceilings, generators and motors, and (iii) door and window
+panels and frames, large-panel glass panes with frames (as windows or infill walling
+material), and other partitions within the buildings;
+
+      (b) Appendages to buildings: Items projecting out of the buildings, either
+horizontally or vertically, such as chimneys projecting out from buildings, glass or
+stone cladding used as façades, parapets, small water tanks rested on top of
+buildings, sunshades, advertisements hoardings affixed to the vertical face of the
+building or anchored on top of building, and small communication antennas
+mounted atop buildings; and
+
+      (c) Services and utilities of buildings including water supply mains, electricity
+cables, gas pipelines, sewage pipelines and telecommunication wires from outside
+to inside of the buildings and within the buildings, air-conditioning ducts, rainwater
+drain pipes, elevators, fire hydrant systems including water pipes through the
+buildings.
+
+7.3 The multi-hazard resilience and safety of both structural elements and non-
+structural elements are priority concerns of these Guidelines. It is estimated that in
+the total cost of construction of buildings, the structural elements may cost between
+25-50%, and the remaining 50-75% is of the non-structural elements. Thus, there is
+a need to recognize the critical role of non-structural elements in the financial
+exposure in buildings. In non-building systems, the share of non-structural
+elements may be less, but the cost of equipment and facilities housed is typically
+very large. Hence, the safety and multi-hazard resilience of non-structural elements
+including equipments and facilities from the adverse impact of natural hazards is as
+serious an issue as that of the structural elements.
+
+                                                                       8
+8. Retrofitting of Existing Construction
+
+8.1 It is easier to incorporate safety in new buildings than in existing buildings.
+During construction of a new building, the overall geometry (shape and size), choice
+of materials, proportioning of members, connection detailing, and honest
+construction of the building are decided in advance. But in existing buildings, many
+of these are fixed already, but their influence needs to be modified incrementally or
+significantly to ensure compliance with the prevalent safety-related standards. This
+activity is called seismic strengthening or retrofitting; it must assess the condition
+of the existing building, identify deficiencies (if any) and provide quantitative
+evidence in favour of the proposed retrofit scheme (if required). The quantitative
+evidence needs to show how the retrofit scheme chosen improves one or more of
+the four virtues of disaster-resistant construction, namely strength, stiffness,
+ductility and configuration to the desired degree. Retrofitting of buildings is a
+detailed technical and professional activity. It involves the safety assessment of both
+the building structure(s) and their non-structural components (e.g., appendages,
+equipment, etc. ) and utilities (e.g., power, water, sewage, gas, communications,
+etc.).
+
+8.2 Criteria for Retrofitting
+
+When buildings are to be evaluated to assess their multi-hazard safety, their
+expected performance needs to be determined. The ability of a building to perform
+adequately is a function of the performance of both the structural system as well as
+the non-structural components. The combined performance of buildings is typically
+specified in terms of Performance Levels, which are most commonly used for
+evaluation of safety against earthquake shaking, and are described below.
+
+8.2.1 Performance Levels
+
+8.2.1.1 Buildings are expected to remain elastic under force-type loading, but go
+into inelastic range under displacement-type loading such as an earthquake
+shaking. Performance-Based Assessment & Design needs to be undertaken to
+ensure that both the building and its non-structural components are safe during the
+expected strong earthquake shaking. Performance-based design typically recognizes
+four levels of performance, which may be qualitatively defined as follows:
+
+          i. Fully Operational (FO) Level: The building, its contents and utilities
+are shaken by an earthquake, but no damage occurs in either of the above; the
+function of the building is not disrupted due to the occurrence of the earthquake;
+
+                                                                       9
+          ii. Immediate Occupancy (IO) performance level: The building, it's
+contents and utilities are shaken predominantly in their linear range of behavior
+and only minor damage may occur in them; the use of prevailing functions of the
+building and facilities is not restricted after the earthquake so that its functioning
+can be resumed immediately after the earthquake.
+
+          iii. Life Safety (LS) performance level: The building, it's contents and
+utilities are shaken severely in their nonlinear range of behavior. Significant
+damage occurs in them, but the building remains within it's reserve capacity and
+does not reach the state of imminent collapse. The use of the facility is restricted
+after the earthquake until detailed structural safety assessment is performed to
+ascertain the suitability of the building for retrofitting. If found suitable for
+retrofitting, the building may be retrofitted.
+
+          iv. Collapse Prevention (CP) performance level: The building, it's
+contents and utilities are shaken severely in their nonlinear range of behavior.
+Major damage occurs in them. The building does not have any additional reserve
+capacity and is in the state of imminent collapse. The building cannot be used after
+the earthquake.
+
+8.2.1.2 In an earthquake, the critical lifeline buildings should be able to perform
+their functions and services immediately after the earthquake. Hence, it is desirable
+that the following performance levels are satisfied under the expected strong
+shaking in regions where the critical lifeline buildings are situated:
+
+          i. Critical Lifeline Buildings: The building structures should achieve IO
+performance level. This will help the immediate use of the building without
+perceiving any threat to the people and the contents in the event of aftershocks in
+the region.
+
+          ii. Contents and Utilities: The contents and utilities within the building
+structures should achieve FO performance level. This will help the continuity of the
+services of the critical lifeline buildings to persons affected during the earthquake
+and requiring such services.
+
+8.2.2 Performance Objectives
+
+8.2.2.1 It is not an easy task to quantitatively define the desired performance level
+of a building. Currently, there is no single acceptable, quantitative definition for the
+FO, IO, LS and CP performance levels, as there are many parameters (including the
+structural type) that govern the overall performance. The subject of Performance-
+Based Design of Buildings is being discussed at the research level only in a few
+
+                                                                       10
+institutes in India, and the philosophy has not been included yet in the Indian
+Seismic Codes for design and construction developed by the Bureau of Indian
+Standards; the Indian codes adopt equivalent force-based approach to design new
+buildings and not the displacement-based approach required by Performance-
+Based Design concepts. Hence, in general, the expertise is not available among the
+structural designers practicing in the country to undertake retrofitting of buildings
+applying concepts of performance-based design. Considering that most buildings in
+India have been constructed without much attention to disaster risk and
+vulnerability and with inadequate or weak compliance and enforcement of disaster-
+resistant building codes and standards, the efficiency of retrofitting scheme
+proposed must be able to withstand damage in the entire structure during the
+expected worst shaking.
+
+8.2.2.2 Compounded with the desirable levels of retrofit discussed above, other
+competing demands that the country is currently faced with are, namely:
+
+        (a) the number of trained professionals currently available in the country is
+inadequate to undertake such a mammoth exercise;
+
+        (b) there is no document that is officially approved in the country by bodies
+like the Bureau of Indian Standards that can be readily adopted for seismic
+retrofitting of existing buildings in India, even though CPWD and IIT Chennai has
+brought out a Handbook on Seismic Retrofitting;
+
+        (c) the limited number of professionals available in the country with
+background in seismic retrofitting have to yet arrive at a consensus to set an agreed
+path for seismic retrofitting of buildings; and
+
+        (d) the retrofitting of critical lifeline buildings in the moderate and severe
+seismic zones of the country needs to be carried out on priority after structural
+safety audits have been carried out.
+
+8.2.2.3 Therefore, a mixed approach may be advisable in the short run to
+minimize the damage and ensure that the buildings, especially the critical lifeline
+buildings (hospitals, overhead water tanks, electric substations, telecommunication
+towers) remains operational even after strong earthquake shaking. The
+recommended approach consists of force-based check to ensure no collapse of the
+building structure and no toppling or sliding damage of building contents under
+strong shaking, and displacement-based check to ensure that the inelastic damage
+level accrued in the building structure is within specified limits to prevent any
+damage to the building contents and building utilities. Thus, for the Building
+Structure, it will be ensured that it will possess at least a minimum required design
+
+                                                                       11
+strength and stiffness to resist the expected strong earthquake shaking, and will
+sustain inelastic lateral displacement in them under the said strong shaking without
+collapse, as per Table 1.
+
+                                         Table 1:
+Target Performance Levels of Building Structures for Seismic
+
+                                            Retrofitting
+
+Building                         Performance Level Expected
+
+Normal                           Collapse Prevention (CP)
+
+Critical and Lifeline Buildings  Life Safety (LS)
+
+8.2.2.4 Building Content and Building Utilities will be secured with retrofit
+measures against overturning or sliding under the expected strong earthquake
+shaking, and in a manner to ensure that no damage will occur under the inelastic
+displacement of the structure imposed on them under the said strong shaking, as
+per Table 2.
+
+                                  Table 2:
+Target Performance Levels of Building Contents and
+
+          Building Utilities for Seismic Retrofitting
+
+Building                         Performance Level Expected
+
+Normal                           Immediate Occupancy (IO)
+
+Critical & Lifeline Building Fully Operational (FO)
+
+8.2.2.5. Since both the structure and it's contents and utilities of the critical
+lifeline buildings are required to be functional for immediate use after the expected
+severe shaking, retrofitting of such buildings will be done to comply with force and
+deformations levels more stringent than those specified in the Indian Seismic Code
+IS:1893 intended for the design of new buildings. Thus, compliance with current
+Indian Standard Code provisions alone will not suffice.
+
+8.2.2.6 Given the large built environment that is ageing, the shortage of
+trained manpower to undertake strengthening and retrofitting of existing
+constructions before and after impending natural disasters is one of the major
+critical concerns today. In case professional agencies are already involved in
+assessing the disaster-resistance of the new and ongoing projects supported by the
+
+                                                                       12
+banks, it is in the interest of the banks to ensure that the said professionals have the
+required experience to undertake the said technical audit.
+
+8.2.2.7 Some owners of buildings in India modify or alter their buildings by adding
+extensions or additional floors either for own use or for commercial purposes,
+depending on the availability of funds with them and liberal housing loan offers by
+banks and lending institutions. As recommended in the Model Building
+Regulations/Byelaws for Structural Safety in Natural Hazard Zones of India
+prepared by the Committee of Experts constituted by the Ministry of Home Affairs,
+Government of India in September 2004, in the case of loan applications for
+modifications, extensions or alterations of buildings older than fifty years, the
+banks and lending institutions may get such buildings inspected by a Registered
+Structural Engineer and submit the Certificate from the Registered Structural
+Engineer to the banks along with the housing loan application.
+
+9 Proposed Reforms in Ensuring Disaster Resilience
+
+9.1 These Guidelines propose the following reforms in ensuring disaster resilience
+by the Techno-Financial Regime of Banks and other Lending Institutions by
+prescribing the following provisions:
+
+        (a) the individual/business enterprise seeking financial support from the
+bank to undertake any new construction or to make any addition, alteration,
+modification or retrofitting of existing construction will submit to the bank or
+lending institution the complete architectural and structural designs of the said
+construction demonstrating that the proposed structure/alteration is capable of
+withstanding all the natural hazards posing risk and vulnerability to the region
+where the construction of the building is proposed, and
+
+        (b) the bank or lending institution will undertake independent technical
+review of the complete architectural and structural designs of the proposed
+construction, with the assistance of its own internal peer reviewers, and take a
+decision on the loan application based on the outcome of such review and other
+relevant factors related to the proposed construction.
+
+9.2 Implementation of the Techno-Financial Regime
+
+9.2.1 The following are the roles and responsibilities of the different stake holders
+in the construction in focus:
+
+                                                                       13
+        (a) The individual or business entity wishing to seek financial support from
+the bank after preparing the complete architectural and structural design of the
+proposed construction will arrange to submit all technical design documents
+including the following:
+
+            i. Architect's Design Basis Report,
+            ii. Structural Engineer's Design Basis Reports,
+            iii. Complete set of construction drawings related to both the structural
+
+                and non-structural elements,
+            iv. Architect's Certificate, and
+            v. Structural Engineer's Certificate.
+The professional architects and structural engineers associated with the proposed
+construction will ensure that each of these design documents submitted provide all
+necessary details for facilitating the technical peer review of the design by the
+bank's professional architects and engineers. It is envisaged that the submission of
+all relevant design-related information upfront will reduce the time taken for the
+peer review.
+
+         (b) The bank or lending institution will undertake the technical peer review
+of these engineering designs and documents of the proposed construction, either
+internally with their own technical human resources or externally with the help of
+qualified professional architects and structural engineers of proven track record,
+experience and repute in the design of such structures. The architects and
+structural engineers undertaking the peer review on behalf of the banks will adopt
+an objective and transparent approach to ensure compliance with the national
+standards and guidelines. In the peer review of some structures, peer reviewers may
+not have any national standards or Guidelines to ensure compliance. In such cases,
+peer reviewers should seek the best technical knowledge (available nationally or
+internationally) to assess suitability of the proposed design to withstand the adverse
+impact of potential natural hazards. The banks and lending institutions may
+empanel competent architects and structural engineers for carrying out peer review
+of these design documents.
+
+        (c) The bank should consider the comments of its peer reviewers and other
+inputs on the proposed construction, and take an appropriate decision on the
+housing loan application at all times protecting the safety of the users and
+functions of the assets created through the loan finance.
+
+                                                                       14
+9.2.2 A set of forms are provided as appendices to these Guidelines to assist the
+peer reviewers undertaking the assessment of the designs of the proposed
+constructions. The list of these forms is presented in Tables 3 and 4.
+
+The forms to be used by the peer reviewers depend on the building height and the
+construction type (masonry, concrete or steel). Peer Reviewer Architects will have
+to submit two forms, namely A1 and N1. The Peer Reviewer Structural Engineers
+will submit forms M1 (for masonry buildings), C1 (for concrete buildings) or S1 (for
+steel buildings) when the height of the building is below 15 meters, and C2 (for
+concrete buildings) or S2 (for steel buildings) when the height is above 15 meters.
+
+                                  Table 3:
+
+                   Forms to assist Peer Reviewer Architects
+
+Type of Buildings  Structural               Non-structural Components
+   All buildings
+                   Configuration
+
+                   Form A1                             Form N1
+
+Note: Form M1, Form C1 or Form S1 of Table 4 also shall be filled by Architects as
+applicable for buildings on plots up to 500 m2 and of height up to 15 m.
+
+                                 Table 4:
+Forms to assist Peer Reviewer Structural Engineers
+
+Building Height         Masonry              Concrete      Steel
+                                            Form C1    Form S1
+    <15m              Form M1               Form C2    Form S2
+   15-45m          Not Permitted
+    >45m           Not Permitted
+
+9.2.3 Thus, the architect and structural engineer peer reviewing the designs on
+behalf of the bank shall provide their inputs in the form of
+
+(1) Peer Reviewer Architect's comments on the Architectural Design Basis
+    Report submitted by the architect of the project, including comments on
+
+                                  15
+            the deficiencies or presence of the architectural elements, if any, that may
+            affect the performance of the building during natural hazards;
+        (2) Peer Reviewer Structural Engineer's comments on the Structural Design
+            Basis Report submitted by the structural designer of the project, including
+            deficiencies, if any; and
+        (2) Peer Reviewer Structural Engineer's Certificate giving his comments on
+            the suitability of the design of the proposed construction.
+9.3 Additional Technical Requirements for Structural System Safety
+9.3.1 New Constructions: To ensure that the proposed loan financed
+construction will be able to withstand the adverse impact of potential natural
+hazards, the structural design of new constructions shall comply with all
+requirements of the prevalent national standards and Guidelines. Where such
+standards and guidelines are not available, those of any other country with
+advanced technical practices shall be adopted.
+
+9.3.2 Alterations to or Retrofitting of Existing Constructions: The
+structural design of the whole existing construction being altered/retrofitted to
+resist all natural hazards applicable for the site of the said construction, shall
+comply with all requirements of the prevalent national standards and guidelines as
+laid out for the design of new constructions of the same type. Where such standards
+and Guidelines are not available, the reviewing professionals may adopt those of
+any other country with advanced technical practices.
+
+                                                                       16
+                                                 FORM A1
+
+                          Structural Configuration of Buildings
+
+        Form to assist Architects undertaking Peer Review on behalf of the Bank
+
+A1.0 Basic Information
+
+S.No.   Item                                                     Details to be filled by the Peer Reviewer
+
+A1.0.1  Name of building
+A1.0.2  Location of Building
+        Plot number
+        Town Planning Scheme (If any)
+        Address
+
+A1.0.3            City/Town/Block/Panchayat/Village
+A1.0.4                                                 District
+                                                         State
+
+        Occupancy class of building
+        Name of Owner
+
+                                                     Address
+
+A1.0.5 Name of Builder
+
+                                       Address
+
+A1.0.6 Name of Architect
+
+                          Registration No.
+                                    Address
+
+A1.0.7  Name of Structural Engineer
+                                           Registration No.
+                                                     Address
+
+                                       Signature:
+                                       Date:
+
+                                       17
+A1.1 Technical Information - Overall issues
+
+S.No. Question                                     Response to the Question           Reference
+                                                   to be filled by the Peer Reviewer
+Hazard Zones Applicable                                                               IS:456 - 2000
+                                                   II / III / IV / V                   Clause 8.2.2
+  1. Environment                                   Design wind speed (m/s)
+                                                   55 / 50 / 47 / 44 / 39             IS:800 - 2007
+    (a) What is the environment exposure
+           condition:                                                                 IS: 1893 (Part 1) - 2002
+                                                                                       Figure 1
+            · Mild?
+            · Moderate?                                                               IS: 875 (Part 3) - 1987
+            · Severe?                                                                  Figure 1
+            · Very Severe?
+            · Extreme?
+
+    (b) Is any special attention required to
+           address the above environment
+           exposure condition? If yes, please
+           mention if that action was taken.
+
+  2. Seismic Zone
+
+    (a) Which Seismic Zone is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above seismic zone? If
+           yes, please mention if that action was
+           taken?
+
+  3. Cyclone Zone
+
+    (a) Which Cyclone Area is the building
+           located in
+
+    (b) Is any special attention required to
+           address the above cyclone zone? If
+           yes, please mention if that action was
+           taken?
+
+  4. Flood Zone
+
+    (a) Which Flood Area is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above flood zone? If yes,
+           please mention if that action was
+           taken?
+
+  5. Landslide Zone
+
+    (a) Which Landslide Zone is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above landslide zone? If
+           yes, please mention if that action was
+           taken?
+
+  6. Soil and Site Condition
+
+    (a) What is the soil type?
+
+                                                       Signature:
+
+                                                   18  Date:
+        Has it been considered in
+        architectural design?
+
+ (b) Is it a building on hill slopes?
+
+        If it is a building on hill slopes, are
+        there any concerns to be addressed?
+        If so, please list them.
+
+7. Blast Loading Condition
+
+ (a) Is blast-type loading expected in the
+        building?
+
+ (b) Has it been considered in architectural
+        design, through planning stand-off
+        distances, choice of façade finishes
+        and structural design of members?
+
+A1.2 Technical Information - Building Configuration
+
+S.No. Question                                           Response to the Question           Reference
+                                                         to be filled by the Peer Reviewer
+Geometry
+
+  8. Overall shape
+
+    (a) Does the building have a convex
+           shape in plan or concave shape?
+
+    (b) Does the building have a convex
+           shape in elevation or concave shape?
+
+    (c) What is the slenderness ratio of the
+           building, i.e., ratio of its height to
+           smallest base dimension?
+
+    (d) What is the plan aspect ratio of the
+           building, i.e., ratio of its length to width
+           in plan?
+
+    (e) Does the building have a central or off-
+           centered atrium? If yes, what is the
+           area of the atrium in plan to the overall
+           plan area of the building?
+
+     (f) Does the building have any expansion
+           joint in plan? If yes, what is the width of
+           the expansion joint?
+
+     (f) Does the building have any projected
+           parts (e.g., cantilever overhangs, roof
+           sheets) that are vulnerable to gusty
+           winds?
+
+S.No. Question                                           Response to the Question           Reference
+                                                         to be filled by the Peer Reviewer
+Structural Configuration
+  9. Vertical Load Resisting System
+    (a) What is the vertical load resisting
+           system:
+            · Regular moment resisting frame
+
+                                                         19  Signature:
+
+                                                             Date:
+10.       (MRF)?                                                             IS:1893 (Part 1) - 2002
+  (a)                                                                          Clause 7.1
+        · Regular MRF with structural walls?
+  (b)                                                                        IS:1893 (Part 1) - 2002
+        · Irregular moment frame?                                              Clause 7.1
+11.
+  (a)   · Irregular moment frame with                         Signature:
+          structural walls?                                   Date:
+
+        · Structural walls with beam-slab
+          system?
+
+        · Structural walls with flat-slab
+          system?
+
+       Lateral Load Resisting System
+
+       What is the lateral load resisting
+       system:
+
+        · Regular moment resisting frame
+          (MRF)?
+
+        · Regular MRF with structural walls?
+
+        · Irregular moment frame?
+
+        · Irregular moment frame with
+          structural walls?
+
+        · Structural walls with beam-slab
+          system?
+
+        · Structural walls with flat-slab
+          system?
+
+        Are there at least two planar lateral
+        load resisting systems in each plan
+        direction well-spaced in plan and of
+        similar lateral stiffness to resist the
+        inertia force generated in plan? If not,
+        what are the problems:
+
+       · Lack of frame grid?
+
+       · Too many openings in walls making
+          them of highly dissimilar stiffness
+          and strength?
+
+       · Others ____ (please state)?
+
+       Plan Irregularities
+
+       Does the building have Torsional
+       Irregularity?
+
+           Torsional irregularity shall be considered to
+           exist when the maximum story drift,
+           computed including accidental torsion, at one
+           end of the structure transverse to an axis is
+           more than 1.2 times the average of the story
+           drifts at the two ends of the structure.
+
+       If Torsional Irregularity is present in
+       the building, it is possible to eliminate
+       the same with suitable alterations
+       without jeopardizing the functions of
+       the building? If yes, please give details
+       how to achieve it? If not, are the
+       structural elements designed for the
+       consequent torsional effect?
+
+       Torsional irregularity may arise from eccentric
+
+                                                          20
+        location of mass (e.g., water tanks on roofs) or                            IS:1893 (Part 1) - 2002
+        eccentric location of structural elements resisting                           Clause 7.1
+        lateral loads (e.g., columns, walls, lift cores, and
+        staircases).                                                                IS:1893 (Part 1) - 2002
+                                                                                      Clause 7.1
+(b) Does the building have any Re-
+      entrant Corners?                                                              IS:1893 (Part 1) - 2002
+                                                                                      Clause 7.1
+             Plan configurations of a structure and its
+             lateral-force-resisting system contain re-                             IS:1893 (Part 1) - 2002
+             entrant corners where both projections of the                            Clause 7.1
+             structure beyond a re-entrant corner are
+             greater than 15 percent of the plan dimension                          IS:1893 (Part 1) - 2002
+             of the structure in the given direction.                                 Clause 7.1
+
+      If Re-entrant Corners are present in                                          IS:1893 (Part 1) - 2002
+      the building, it is possible to eliminate                                       Clause 7.1
+      the same with suitable alterations
+      without jeopardizing the functions of                          Signature:
+      the building? If yes, please give details                      Date:
+      how to achieve it? If not, does the
+      building have enough structural
+      elements in the re-entrant corner to
+      allow the flow of forces through this
+      corner?
+
+(c) Does the building have any
+      Diaphragm Discontinuity?
+
+             Diaphragms with abrupt discontinuities or
+             variations in stiffness including those having
+             cutout or open areas greater than 50 percent
+             of the gross enclosed diaphragm area or
+             changes in effective diaphragm stiffness of
+             more than 50 percent from one story to the
+             next.
+
+      If Diaphragm Discontinuity are
+      present in the building, it is possible to
+      eliminate the same with suitable
+      alterations without jeopardizing the
+      functions of the building? If yes, please
+      give details how to achieve it? If not,
+      does the building have enough in-
+      plane floor diaphragm action in plan to
+      allow the flow of forces to the vertical
+      elements without any in-plane
+      deformation of the floor slab?
+
+(d) Does the building have any Out-of-
+      Plane Offsets in Vertical Lateral-
+      Force Resisting Elements?
+
+             Discontinuities in a lateral force resistance
+             path are out-of-plane offsets of the vertical
+             elements resisting the lateral load.
+
+      If Out-of-Plane Offsets are present in
+      the building, it is possible to eliminate
+      the same with suitable alterations
+      without jeopardizing the functions of
+      the building? If yes, please give details
+      how to achieve it? If not, does the
+      building have floating columns, off-set
+      columns, floating walls, or offset walls
+      that do not significantly alter the load
+      path of the structure?
+
+                                                                 21
+  (e)  Does the building have any                                                 IS:1893 (Part 1) - 2002
+       Nonparallel Systems?                                                         Clause 7.1
+12.
+  (a)      The vertical lateral-force-resisting elements                          IS:1893 (Part 1) - 2002
+           are not parallel to or symmetric about the                               Clause 7.1
+           major orthogonal axes of the lateral-force-
+           resisting system.                                                      IS:1893 (Part 1) - 2002
+                                                                                    Clause 7.1
+       If Nonparallel Systems are present in
+       the building, it is possible to eliminate                                  IS:1893 (Part 1) - 2002
+       the same with suitable alterations                                           Clause 7.1
+       without jeopardizing the functions of
+       the building? If yes, please give details                                  IS:1893 (Part 1) - 2002
+       how to achieve it? If not, has design                                        Clause 7.1
+       been done to account for 25/73 load
+       combinations to account for all                                            IS:1893 (Part 1) - 2002
+       possible actions under 2D/3D ground                                          Clause 7.1
+       shaking?
+                                                                                  IS:1893 (Part 1) - 2002
+       Vertical Irregularities                                                      Clause 7.1
+
+       Does the building have Stiffness                                           IS:1893 (Part 1) - 2002
+       Irregularity - Soft Story?                                                   Clause 7.1
+
+           A soft story is one in which the lateral              Signature:
+           stiffness is less than 70 percent of that in the      Date:
+           story above or less than 80 percent of the
+           average stiffness of the three stories above.
+
+      If Stiffness Irregularity - Soft Story
+      is present in the building, it is possible
+      to eliminate the same with suitable
+      alterations without jeopardizing the
+      functions of the building? If yes,
+      please give details how to achieve it?
+      If not, the same may be stated and
+      the structure declared unsafe?
+
+(b) Does the building have Mass
+      Irregularity?
+
+             Mass irregularity shall be considered to exist
+             where the effective mass of any story is
+             more than 150 percent of the effective mass
+             of an adjacent story. A roof that is
+
+             lighter than the floor below need not be
+             considered.
+
+      If Mass Irregularity is present in the
+      building, it is possible to eliminate the
+      same with suitable alterations without
+      jeopardizing the functions of the
+      building? If yes, please give details
+      how to achieve it? If not, the same
+      may be stated?
+
+(c) Does the building have Vertical
+      Geometric Irregularity?
+
+             Vertical geometric irregularity shall be
+             considered to exist where the horizontal
+             dimension of the lateral-force- resisting
+             system in any story is more than 130
+
+             percent of that in an adjacent story.
+
+      If Vertical Geometric Irregularity is
+      present in the building, it is possible to
+
+                                                             22
+      eliminate the same with suitable                                                           IS:1893 (Part 1) - 2002
+      alterations without jeopardizing the                                                        Clause 7.1
+      functions of the building? If yes,
+      please give details how to achieve it?                                                     IS:1893 (Part 1) - 2002
+      If not, the same may be stated?                                                             Clause 7.1
+
+(d) Does the building have In-Plane                                                              IS:1893 (Part 1) - 2002
+      Discontinuity in Vertical Lateral-                                                          Clause 7.1
+      Force Resisting Elements?
+                                                                                                 IS:1893 (Part 1) - 2002
+             An in-plane offset of the lateral-force-                                             Clause 7.1
+             resisting elements greater than the length of
+             those elements or a reduction in stiffness of
+             the resisting element in the
+
+             story below.
+
+      If In-Plane Discontinuity is present
+      in the building, it is possible to
+      eliminate the same with suitable
+      alterations without jeopardizing the
+      functions of the building? If yes,
+      please give details how to achieve it?
+      If not, the same may be stated?
+
+(e) Does the building have Discontinuity
+      in Capacity - Weak Story?
+
+             A weak story is one in which the story lateral
+             strength is less than 80 percent of that in the
+             story above. The story strength is the total
+             strength of all seismic-resisting elements
+             sharing the story shear for the direction
+             under consideration.
+
+      If Discontinuity in Capacity - Weak
+      Story is present in the building, it is
+      possible to eliminate the same with
+      suitable alterations without
+      jeopardizing the functions of the
+      building? If yes, please give details
+      how to achieve it? If not, the same
+      may be stated and the structure
+      declared unsafe?
+
+S.No. Question                                                Response to the Question           Reference
+                                                              to be filled by the Peer Reviewer
+Pounding                                                                                         IS:1893 (Part 1) - 2002
+                                                                                                  Clause 7.11.3
+ 13. Adjacent Units of the same building
+
+    (a) Has the seismic analysis been done
+           to estimate the lateral displacement of
+           the two units? If yes, has it been
+           established that there is or there is no
+           problem of pounding?
+
+    (b) If the problem of pounding exists, is it
+           possible to eliminate the pounding by
+           choosing another lateral load resisting
+           system?
+
+    (c) If the problem of pounding does not
+           exist and the gap is large between the
+           two units, is any detailing provided for
+
+                                                              23  Signature:
+
+                                                                  Date:
+            the large gap between the two units?
+
+ Vibrations
+   14. Floor vibrations in the building
+     (a) Are the vibration levels at floors
+            (especially at the upper elevations) due
+            to wind such that they cause
+            discomfort to building occupants?
+     (b) If yes, what measures are taken to
+            reduce the same?
+
+ Emergency Evacuation
+   15. Staircases in the building
+     (a) Is there adequate number of
+            emergency exit staircases in the
+            building?
+     (b) If YES, are they located properly?
+
+ Fire Safety
+   16. Water Sprinklers in the building
+     (a) Does the building require water
+            sprinklers to douse accidental fires?
+     (b) If YES, are they
+             · Sufficient in number, AND
+
+           · Located properly?
+
+ High-rise Buildings
+   17. Accessible Roofs & Balconies in the building
+     (a) In buildings of height in the range 15-
+            45m, are all roofs and balconies
+            access controlled?
+     (b) In buildings of height more than 45m,
+            are all roofs and balconies are secured
+            against access by normal users of the
+            building?
+
+                                                                        Signature:
+                                                                        Date:
+
+                                                                         Name:...........................................................................
+                                                                         Address: .......................................................................
+                                                                          .....................................................................................
+                                                                          .....................................................................................
+                                                                          Tel. No.......... ................................................
+
+Reference IS Codes
+     1. IS:456 - 2000, Indian Standard Code of Practice Plain and Reinforced Concrete, Bureau of Indian
+          Standards, New Delhi
+     2. IS:800 - 2007, Indian Standard Code of Practice Structural Steel, Bureau of Indian Standards, New
+          Delhi
+
+                                                                       24
+3. IS:875 (Part 3) - 1987, Indian Standard Code of Practice Design Loads (Other than Earthquake) for
+     Buildings and Structures - Wind Load, Bureau of Indian Standards, New Delhi
+
+4. IS:1893 (Part 1) - 2002, Indian Standard Criteria for Earthquake Resistant Design of Structures,
+     Bureau of Indian Standards, New Delhi
+
+5. IS:1904 - 1986, Indian Standard Code of Practice Design and Construction of Foundations in Soils:
+     General Requirements, Bureau of Indian Standards, New Delhi
+
+6. IS:13920 - 2003, Indian Standard Code of Practice Ductile Detailing of Reinforced Concrete
+     Structures Subjected to Seismic Forces, Bureau of Indian Standards, New Delhi
+
+                                                                 25
+                                                 FORM N1
+
+                          Non-structural Aspects of Buildings
+
+        Form to assist Architects undertaking Peer Review on behalf of the Bank
+
+N1.0 Basic Information
+
+S.No.   Item                                                Details to be filled by the Peer Reviewer
+
+N1.0.1  Name of building
+N1.0.2  Location of Building
+        Plot number
+        Town Planning Scheme (If any)
+        Address
+
+N1.0.3      City/Town/Block/Panchayat/Village
+N1.0.4                                            District
+                                                    State
+
+        Occupancy class of building
+        Name of Owner
+
+                                                Address
+
+N1.0.5 Name of Builder
+
+                           Address
+
+N1.0.6  Name of Architect
+
+                           Registration No.
+                                     Address
+
+N1.0.7  Name of Structural Engineer
+                                     Registration No.
+                                                Address
+
+                                                            Signature:
+                                                            Date:
+
+                                                            26
+N1.1 Technical Information - Non-structural elements present in the Building
+
+S.No. Question                                                 Response to the Question    Reference
+                                                               to be filled by the Peer
+Non-structural elements present                                Reviewer
+  1. Contents of buildings
+    (a) Which of the following items are present               Provide below the detailed
+           in the building:                                    list of items under each
+                                                               category
+           (i) furniture and items of usage
+                                                               Provide below the detailed
+                e.g., storage shelves                          list
+
+           (ii) facilities and equipment                       Provide below the detailed
+                                                               list of items under each
+                e.g., refrigerators, washing machines,         category
+                gas cylinders, TVs, multi-level material
+                stacks, false ceilings, generators and
+                motors,AHUs & Cooling towers
+
+           (iii) appurtenances
+
+                e.g., door & window panels & frames,
+                large-panel glass panes with frames (as
+                windows or infill walling material), other
+                partition walls
+
+  2. Appendages to buildings
+    (a) Which of the following items are present
+
+           in the building:
+           Items projecting out of the buildings,
+           either horizontally or vertically,
+
+                e.g., chimney projecting out of building,
+                glass or stone cladding/façades,
+                parapets,
+                small water tanks atop building,
+                sunshades,
+                advertisements hoardings affixed to the
+                vertical face of the building or anchored
+                atop buildings, and
+                small communication antennas mounted
+                atop buildings
+
+  3. Services and utilities
+    (a) Which of the following items are present
+
+           in the building:
+
+           (i) from outside to inside the building to
+              within the building
+
+                e.g., water supply mains, electricity cables,
+                gas pipelines, sewage pipelines
+                and telecommunication wires
+
+           (ii) from one part of the building to another
+
+                e.g., air-conditioning ducts, rainwater drain
+                pipes, elevators, fire hydrant systems
+                including water pipes through the building
+
+                                                               27  Signature:
+
+                                                                   Date:
+4. Critical Contents of the building
+
+(a) Which of the following items are massive, Provide below the list of only
+
+tall/flexible or expensive items                the critical items under each
+
+in/affixed to the building, and whose loss category
+
+will cause life threat, impair function or
+
+major economic setback:
+
+(i) furniture and items of usage
+
+e.g., storage shelves
+
+(ii) facilities and equipment
+
+e.g., refrigerators, washing machines,
+
+gas cylinders, TVs, multi-level material
+stacks, false ceilings, generators and
+motors, AHUs & Cooling towers
+
+(iii) appurtenances
+
+e.g., door & window panels & frames,
+
+large-panel glass panes with frames (as
+windows or infill walling material), other
+partition walls
+
+5. Critical Appendages to the building
+
+(a) Which of the following items are massive, Provide below the list of only
+
+tall/flexible or expensive items                the critical items
+
+in/affixed to the building, and whose loss
+
+will cause life threat, impair function or
+
+major economic setback:
+
+Items projecting out of the buildings,
+either horizontally or vertically
+
+e.g., chimney projecting out of building,
+
+glass or stone cladding used as façades,
+
+parapets, small water tanks rested atop
+buildings, sunshades, advertisement
+hoardings affixed to the vertical face of the
+building or anchored atop buildings, and small
+communication antennas mounted atop
+buildings
+
+6. Services and utilities of the building
+
+(a) Which of the following items are massive, Provide below the list of only
+
+tall/flexible or expensive items                the critical items under each
+
+in/affixed to the building, and whose loss category
+
+will cause life threat, impair function or
+
+major economic setback:
+
+(i) from outside to inside the building to
+   within the building
+
+e.g., water supply mains, electricity cables,
+gas pipelines, sewage pipelines
+
+and telecommunication wires
+
+(ii) from one part of the building to another
+
+e.g., air-conditioning ducts, rainwater drain
+pipes, elevators, fire hydrant systems
+including water pipes through the building
+
+                                                                    Signature:
+                                                                    Date:
+
+                                                28
+N1.2 Technical Information - Non-structural elements design
+
+S.No. Question                                 Response to the Question            Reference
+
+                                               to be filled by the Peer Reviewer   State design
+                                                                                   provisions used,
+Design to protect against effects of earthquake shaking                            when answer to
+                                                                                   question on left
+7. Critical Contents of buildings                                                  hand side is YES
+
+(a) Are all the Critical Contents of the       Provide below the list of only the  State design
+      building secured against effects of      critical items under each           provisions used,
+      earthquake shaking by formal design      category, and state YES or NO in    when answer to
+      of their anchorages, supports and        response to the question on left    question on left
+      interfaces?                              hand side.                          hand side is YES
+
+(i) furniture and items of usage                                                   State design
+                                                                                   provisions used,
+(ii) facilities and equipment                                                      when answer to
+                                                                                   question on left
+(iii) appurtenances                                                                hand side is YES
+
+If not, which are the items not secured?
+
+8. Critical Appendages to buildings
+
+(a) Are all the Critical Appendages to the     Provide below the list of only the
+      building secured against effects of      critical items under each
+      earthquake shaking by formal design      category, and state YES or NO in
+      of their anchorages, supports and        response to the question on the
+      interfaces?                              left hand side.
+
+If not, which are the items not secured?
+
+9. Services and utilities
+
+(a) Are all the Services and utilities of the  Provide below list of only the
+      building secured against effects of      critical items under each
+      earthquake shaking by formal design      category, and state YES or NO in
+      of their anchorages, supports and        response to the question on left
+      interfaces?                              hand side.
+
+If not, which are the items not secured?
+
+                                               Signature:
+                                               Date:
+
+                                                                         Name:...........................................................................
+                                                                         Address: .......................................................................
+                                                                          .....................................................................................
+                                                                        Tel. No.......... ....................................................
+
+Reference IS Codes
+     1. IS:456 - 2000, Indian Standard Code of Practice Plain and Reinforced Concrete, Bureau of Indian
+          Standards, New Delhi
+     2. IS:800 - 2007, Indian Standard Code of Practice Structural Steel, Bureau of Indian Standards, New
+          Delhi
+     3. IS:875 (Part 3) - 1987, Indian Standard Code of Practice Design Loads (Other than Earthquake) for
+          Buildings and Structures - Wind Load, Bureau of Indian Standards, New Delhi
+     4. IS:1893 (Part 1) - 2002, Indian Standard Criteria for Earthquake Resistant Design of Structures,
+          Bureau of Indian Standards, New Delhi
+     5. IS:1904 - 1986, Indian Standard Code of Practice Design and Construction of Foundations in Soils:
+          General Requirements, Bureau of Indian Standards, New Delhi
+     6. IS:13920 - 2003, Indian Standard Code of Practice Ductile Detailing of Reinforced Concrete
+
+          Structures Subjected to Seismic Forces, Bureau of Indian Standards, New Delhi
+
+                                               29
+                                              FORM M1
+
+        Load Bearing Masonry Buildings of Height Less than 15m
+
+            Form to assist Structural Engineers undertaking Peer Review
+                                      on behalf of the Bank
+
+M1.0 Basic Information
+
+S.No.   Item                                                Details to be filled by the Peer Reviewer
+
+M1.0.1  Name of building
+M1.0.2  Location of Building
+        Plot number
+        Town Planning Scheme (If any)
+        Address
+
+M1.0.3      City/Town/Block/Panchayat/Village
+M1.0.4                                            District
+                                                    State
+
+        Occupancy class of building
+        Name of Owner
+
+                                                Address
+
+M1.0.5 Name of Builder
+
+                           Address
+
+M1.0.6  Name of Architect
+
+                           Registration No.
+                                     Address
+
+M1.0.7  Name of Structural Engineer
+                                     Registration No.
+                                                Address
+
+                                                             Signature:
+                                                             Date:
+
+                                                            30
+M1.1 Technical Information - Siting of the Building
+
+S.No. Question                                     Response to the Question           Reference
+                                                   to be filled by the Peer Reviewer
+Hazard Zones Applicable                                                               IS:456 - 2000
+  1. Environment                                   II / III / IV / V                   Clause 8.2.2
+    (a) What is the environment exposure           Design wind speed (m/s)
+           condition:                              55 / 50 / 47 / 44 / 39             IS:800 - 2007
+            · Mild?                                                                    Clause ______
+            · Moderate?
+            · Severe?                                                                 IS: 1893 (Part 1) - 2002
+            · Very Severe?                                                             Figure 1
+            · Extreme?
+    (b) Is any special attention required to                                          IS: 875 (Part 3) - 1987
+           address the above environment                                               Figure 1
+           exposure condition? If yes, please
+           mention if that action was taken.
+  2. Seismic Zone
+    (a) Which Seismic Zone is the building
+           located in?
+    (b) Is any special attention required to
+           address the above seismic zone? If
+           yes, please mention if that action was
+           taken?
+  3. Cyclone Zone
+    (a) Which Cyclone Area is the building
+           located in
+
+    (b) Is any special attention required to
+           address the above cyclone zone? If
+           yes, please mention if that action was
+           taken?
+
+  4. Flood Zone
+    (a) Which Flood Area is the building
+
+           located in?
+    (b) Is any special attention required to
+
+           address the above flood zone? If yes,
+           please mention if that action was
+           taken?
+  5. Landslide Zone
+    (a) Which Landslide Zone is the building
+           located in?
+    (b) Is any special attention required to
+           address the above landslide zone? If
+           yes, please mention if that action was
+           taken?
+
+  6. Soil Condition
+
+                                                       Signature:
+
+                                                   31  Date:
+(a) What is the Ground terrain like? Is the
+      natural ground slope more than 20%?
+
+(b) What is the type of soil strata:                                                   IS:1893 (Part 1) - 2002
+                                                                                        Clause 6.3.5.2
+· Hard?
+                                                                                       IS:1893 (Part 1) - 2002
+· Medium?                                                                               Table 4, Figure 7
+
+· Soft?                                                                                IS:1904 - ______
+                                                                                        Clause ______
+(c) Is soil liquefiable?                            Yes / No
+
+(d) If the soil is liquefiable, does the
+      proposed design consider the same
+      and eliminate the negative effects of
+      liquefaction on the proposed
+      structure? If yes, how? If not, why?
+
+(e) Is soil slope vulnerable to landslides?
+      If yes, was a detailed analysis done to
+      assess the safety of the slope?
+
+(f) What is the Design Safe Bearing
+      Capacity (kN/m2)?
+
+M1.2 Technical Information - Building Information
+
+S.No. Question                                      Response to the Question           Reference
+                                                    to be filled by the Peer Reviewer
+Geometry
+  7. Number of Storeys
+    (a) What is the number of storeys above
+           ground level in the building (including
+           those to be added later, also including
+           all stepped floors, if applicable)?
+    (b) Is this total height of the building more
+           than 15m? if YES, is the quality of
+           design engineering undertaken
+           sufficient to show that the building is
+           safe?
+
+S.No. Question                                      Response to the Question           Reference
+                                                    to be filled by the Peer Reviewer
+Design
+  8. Seismic Actions                                          1.0 / 1.5                IS: 1893 (Part 1) - 2002
+    (a) What is the Importance Factor used                                               Table 6
+           in estimating the design base shear?
+    (b) What is the Response reduction                                                 IS: 1893 (Part 1) - 2002
+           Factor used in estimating the design                                          Table 7
+           base shear?
+    (c) What is the Design Base Shear, as a                                            IS: 1893 (Part 1) - 2002
+           fraction of the weight of the building,                                       Clause 7.5.3
+            · Seismic Coefficient Method
+            · Response Spectrum Method
+
+                                                                         Signature:
+
+                                                    32                   Date:
+  (d)  What is the category of the building,                                      IS: 4326 - 1993
+9.     A, B, C, D or E?                                                              Clause 7, Table 2
+10.
+       Is the building provided with a                                            IS: 1905
+11.    basement? If yes, is it structurally                                       IS: 4326
+  (a)  weak or soft to resist lateral loads?                                      IS:4326-1993
+
+12.    What is the type of the masonry                                              Table 4, Figure 7
+13.    employed in the wall
+                                                                                  IS: 4326
+14.     · Burnt clay brick?                                                         Figure 10,
+                                                                                    Clause 8.4.4
+  (a)   · Cement concrete blocks?
+
+        · Stone?
+
+       What is the type of mortar used?
+
+       What is the mix employed? Is this
+       consistent with the mortar type to be
+       used?
+
+       Are the opening sizes and locations
+       consistent with the norms for the
+       category of the building and number
+       of storeys in it?
+
+       Are the ratios of
+
+        · Wall height to thickness  20, and
+
+        · Wall length between cross wall to
+          thickness 40?
+
+       Does the building have a pitched roof
+
+        · At eave level of sloping roof?
+
+        · At top of gable walls?
+
+        · At top of ridge walls?
+
+       Is a pitched roof acceptable? If not,
+       has adequate engineering been done
+       to show that the roof and building are
+       safe?
+
+S.No. Question                                 Response to the Question           Reference
+                                               to be filled by the Peer Reviewer
+Detailing
+ 15. Have the following bands been                                                IS: 4326
+           provided:                                                                Clauses 8.4.2, 8,4,3,
+            · Roof band?                                                            8,4,6 and 8.4.7
+            · Eves band?
+            · Gable band?                                                         IS: 4326
+            · Lintel band?                                                          Table 6
+            · Sill band?
+            · Plinth band?
+    (a) Are these bands sufficient as per the
+           norms?
+
+    (b) Are the band size, bar size and links
+           as per the norms?
+
+                                                   Signature:
+
+                                               33  Date:
+16.    Have vertical reinforcing bars been           IS: 4326
+       provided in the building                        Clauses 8.4.8, 8,4,9
+  (a)
+  (b)   · At corners and T junctions of walls,       IS: 4326
+17.       and                                          Table 7
+18.
+        · At jambs of doors ad window                IS: 4326
+          openings?                                    Clauses 9.1.4
+
+       Are these bands sufficient as per the         IS: 4326
+       norms?                                          Clause 5.4.12
+
+       Are the band size, bar size, and links
+       as per the norms?
+
+       Does the building adopt precast
+       roofing planks for the slab system? If
+       YES, are these planks integrated to
+       each other and with the walls?
+
+       If pitched roof is employed, are
+       horizontal bracings provided in
+
+        · The pitched roof truss, and
+
+        · The horizontal plane at the tie level
+          of the roof truss?
+
+                                                                        Signature:
+                                                                        Date:
+
+                                                                         Name:...........................................................................
+                                                                         Address: .......................................................................
+                                                                          .....................................................................................
+                                                                          .....................................................................................
+                                                                         Tel. No.......... ....................................................
+
+Reference IS Codes
+ 1. IS:456 - 2000, Indian Standard Code of Practice Plain and Reinforced Concrete, Bureau of Indian
+     Standards, New Delhi
+ 2. IS:800 - 2007, Indian Standard Code of Practice Structural Steel, Bureau of Indian Standards, New
+     Delhi
+ 3. IS:875 (Part 3) - 1987, Indian Standard Code of Practice Design Loads (Other than Earthquake) for
+     Buildings and Structures - Wind Load, Bureau of Indian Standards, New Delhi
+ 4. IS:1893 (Part 1) - 2002, Indian Standard Criteria for Earthquake Resistant Design of Structures, Bureau
+     of Indian Standards, New Delhi
+ 5. IS:1904 - 1986, Indian Standard Code of Practice Design and Construction of Foundations in Soils:
+     General Requirements, Bureau of Indian Standards, New Delhi
+ 6. IS: 4326-1993, Indian Standard Code of Practice Earthquake Resistant Design and Construction of
+     Buildings, Bureau of Indian Standards, New Delhi
+
+                                                 34
+                                                     FORM C1
+
+                    Concrete Buildings of Height Less than 15m
+
+                   Forms to assist Structural Engineers undertaking Peer Review
+                                              on behalf of the Bank
+
+C1.0 Basic Information
+
+S.No.   Item                                           Details to be filled by the Peer Reviewer
+
+C1.0.1  Name of building
+C1.0.2  Location of Building
+        Plot number
+        Town Planning Scheme (If any)
+        Address
+
+C1.0.3  City/Town/Block/Panchayat/Village
+C1.0.4                                       District
+                                               State
+
+        Occupancy class of building
+        Name of Owner
+
+                                           Address
+
+C1.0.5 Name of Builder
+
+                        Address
+
+C1.0.6  Name of Architect
+                                 Registration No.
+                                           Address
+
+C1.0.7  Name of Structural Engineer
+                                 Registration No.
+                                           Address
+
+                                                       Signature:
+                                                       Date:
+
+                                                       35
+C1.1 Technical Information - Siting of the Building
+
+S.No. Question                                     Response to the Question           Reference
+                                                   to be filled by the Peer Reviewer
+Hazard Zones Applicable
+                                                                                      IS:456 - 2000
+  1. Environment                                                                       Clause 8.2.2
+
+    (a) What is the environment exposure                                              IS:800 - 2007
+           condition:                                                                  Clause ______
+
+            · Mild?                                II / III / IV / V                  IS: 1893 (Part 1) - 2002
+            · Moderate?                                                                Figure 1
+            · Severe?
+            · Very Severe?                         Design wind speed (m/s)            IS: 875 (Part 3) - 1987
+            · Extreme?                             55 / 50 / 47 / 44 / 39              Figure 1
+
+    (b) Is any special attention required to
+           address the above environment
+           exposure condition? If yes, please
+           mention if that action was taken.
+
+  2. Seismic Zone
+
+    (a) Which Seismic Zone is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above seismic zone? If
+           yes, please mention if that action was
+           taken?
+
+  3. Cyclone Zone
+
+    (a) Which Cyclone Area is the building
+           located in
+
+    (b) Is any special attention required to
+           address the above cyclone zone? If
+           yes, please mention if that action was
+           taken?
+
+  4. Flood Zone
+
+    (a) Which Flood Area is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above flood zone? If yes,
+           please mention if that action was
+           taken?
+
+  5. Landslide Zone
+
+    (a) Which Landslide Zone is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above landslide zone? If
+           yes, please mention if that action was
+           taken?
+
+  6. Soil Condition
+
+    (a) What is the Ground terrain like? Is the
+
+                                                   36                 Signature:
+
+                                                                      Date:
+natural ground slope more than 20%?
+
+(b) What is the type of soil strata:                                                   IS:1893 (Part 1) - 2002
+                                                                                        Clause 6.3.5.2
+· Hard?
+                                                                                       IS:1893 (Part 1) - 2002
+· Medium?                                                                               Table 4, Figure 7
+
+· Soft?                                                                                IS:1904
+
+(c) Is soil liquefiable?                            Yes / No
+
+(d) If the soil is liquefiable, does the
+      proposed design consider the same
+      and eliminate the negative effects of
+      liquefaction on the proposed
+      structure? If yes, how? If not, why?
+
+(e) Is soil slope vulnerable to landslides?
+      If yes, was a detailed analysis done to
+      assess the safety of the slope?
+
+(f) What is the Design Safe Bearing
+      Capacity (kN/m2)?
+
+C1.2 Technical Information - Building Information
+
+S.No. Question                                      Response to the Question           Reference
+                                                    to be filled by the Peer Reviewer
+Geometry
+  7. Number of Storeys
+    (a) What is the number of storeys above
+           ground level in the building (including
+           those to be added later, also including
+           all stepped floors, if applicable)?
+    (b) What is the number of basements
+           below ground level?
+
+S.No. Question                                      Response to the Question           Reference
+                                                    to be filled by the Peer Reviewer
+Design
+  8. Structural System                                        1.0 / 1.5
+    (a) What is the Structural System
+           employed:
+            · Regular frame,
+            · Regular frame with shear wall,
+            · Irregular frame,
+            · Irregular frame with shear wall,
+            · Shear wall building,
+            · Soft storey building, or
+            · Any other (please identify)?
+    (b) What is the foundation system:
+            · Independent footing
+
+                                                    37                   Signature:
+
+                                                                         Date:
+  (c)   · Interconnected footing                                     IS: 456 - 2000
+  (d)                                                                  Clause 5.6
+        · Raft foundation
+  (e)                                                     1.0 / 1.5  IS: 1893 (Part 1) - 2002
+        · Pile foundation, or                                          Table 6
+9.
+        · Any other (please identify)?                               IS: 1893 (Part 1) - 2002
+10.                                                                    Table 7
+11.    What is the depth of the foundation? Is
+12.    this sufficient for the strata of soil at the                                     IS: 1893 (Part 1) - 2002
+13.    site?
+                                                                     Signature:
+  (a)  If individual foundations are used, what                      Date:
+  (b)  is the system for interconnecting the
+  (d)  foundation units:
+  (e)
+        · Plinth beams,
+
+        · Foundation beams,
+
+        · Pile caps connected by tie beams, or
+
+        · Not connected together?
+
+       What is the horizontal floor system:
+
+        · Beams and slabs
+
+        · Waffles,
+
+        · Ribbed floors,
+
+        · Flat slab with drops,
+
+        · Flat plate with drops,
+
+        · Flat slab or plate without drops,
+
+        · Any other (please identify)?
+
+       In buildings with basement, have the
+       following been considered:
+
+        · Uplift pressure considered, and
+
+        · Lateral pressure considered?
+        If NO, is the building safe?
+
+       What are the grades of concrete
+       employed in the building? List all
+       grades used.
+
+       What are the grades of steel
+       reinforcement used in the building? List
+       all grades used.
+
+       What are the load combinations
+       employed in the analysis of the
+       structure?
+
+       Seismic Actions
+
+       What is the Importance Factor used in
+       estimating the design base shear?
+
+       What is the Response reduction Factor
+       used in estimating the design base
+       shear?
+
+       What is the natural period of the
+       building for shaking in translation mode
+       along the two horizontal plan
+       directions?
+
+       What is the Design Base Shear, as a
+
+                                                      38
+      fraction of the weight of the building,                                             Clause 7.5.3
+                                                                                        IS:1893 (Part 1) - 2002
+        · Seismic Coefficient Method
+                                                                                           Clause 7.10
+        · Response Spectrum Method
+                                                                                        IS: 1893 (Part 1)
+(e) If soft/flexible storeys exist in the                                                 Clause 7.9
+      building, were the columns in that
+      storey specially designed for additional
+      effects?
+
+(f) Has the effect of unreinforced masonry
+      infills been accounted for in the
+      structural stiffness and strength design
+      of building?
+
+(g) Has analysis of the structure performed
+      to include effects of torsion?
+
+S.No. Question                                       Response to the Question           Reference
+                                                     to be filled by the Peer Reviewer
+Detailing
+                                                                                        IS:13920 - 2003
+ 14. Is ductile detailing provided in the                                                 Clause 1.1.1
+           building?
+                                                                                        IS:13920 - 2003
+ 15. What is the minimum dimension (in                                                    Clause 6.1
+           mm) of the beams used?
+                                                                                        IS:13920 - 2003
+ 16. What is the minimum percentage of                                                    Clause 6.2.1
+           tensile reinforcement used in beams at
+           any cross-section?                                                           IS:13920 - 2003
+                                                                                          Clause 6.2.2
+ 17. What is the maximum percentage of
+           tensile reinforcement used in beams at                                       IS:13920 - 2003
+           any cross-section?                                                             Clause 6.3.5
+
+ 18. What is the spacing (in mm) of                                                     IS:13920 - 2003
+           transverse reinforcement in 2d length of                                       Clause 7.1.2, 7.1.3
+           beams near ends?
+                                                                                        IS:456 - 2000
+ 19. What is the minimum ratio of capacity                                                Clause 26.5.3
+           of beam in shear to its capacity in
+           flexure at ends?                                                             IS:13920 - 2003
+                                                                                          Clause 7.4
+ 20. What is the minimum dimension (in
+           mm) of columns?
+
+ 21. What is the minimum percentage of
+           longitudinal reinforcement used in
+           columns?
+
+ 22. What are the
+
+            · Smallest diameter (in mm)
+
+            · Largest spacing (in mm)
+           of transverse reinforcement bars in
+           columns near ends?
+
+                                                     Signature:
+                                                     Date:
+
+                                                      Name:...........................................................................
+                                                      Address: .......................................................................
+                                                       .....................................................................................
+                                                       .....................................................................................
+                                                      Tel. No.......... ....................................................
+
+                                                     39
+Reference IS Codes
+     1. IS:456 - 2000, Indian Standard Code of Practice Plain and Reinforced Concrete, Bureau of Indian
+          Standards, New Delhi
+     2. IS:800 - 2007, Indian Standard Code of Practice Structural Steel, Bureau of Indian Standards, New
+          Delhi
+     3. IS:875 (Part 3) - 1987, Indian Standard Code of Practice Design Loads (Other than Earthquake) for
+          Buildings and Structures - Wind Load, Bureau of Indian Standards, New Delhi
+     4. IS:1893 (Part 1) - 2002, Indian Standard Criteria for Earthquake Resistant Design of Structures,
+          Bureau of Indian Standards, New Delhi
+     5. IS:1904 - 1986, Indian Standard Code of Practice Design and Construction of Foundations in Soils:
+          General Requirements, Bureau of Indian Standards, New Delhi.
+     6. IS:13920 - 2003, Indian Standard Code of Practice Ductile Detailing of Reinforced Concrete
+          Structures Subjected to Seismic Force
+
+                                                                       40
+                                          FORM C2
+
+           Concrete Buildings of Height More than 15m
+
+        Forms to assist Structural Engineers undertaking Peer Review
+                                   on behalf of the Bank
+
+C2.0 Basic Information
+
+S.No.   Item                                           Details to be filled by the Peer Reviewer
+
+C2.0.1  Name of building
+C2.0.2  Location of Building
+        Plot number
+        Town Planning Scheme (if any)
+        Address
+
+C2.0.3  City/Town/Block/Panchayat/Village
+C2.0.4                                       District
+                                               State
+
+        Occupancy class of building
+        Name of Owner
+
+                                           Address
+
+C2.0.5 Name of Builder
+
+                        Address
+
+C2.0.6  Name of Architect
+                                 Registration No.
+                                           Address
+
+C2.0.7  Name of Structural Engineer
+                                 Registration No.
+                                           Address
+
+                                                       Signature:
+                                                       Date:
+
+                                                       41
+C2.1 Technical Information - Siting of the Building
+
+S.No. Question                                     Response to the Question           Reference
+                                                   to be filled by the Peer Reviewer
+Hazard Zones Applicable                                                               IS:456 - 2000
+                                                   II / III / IV / V                   Clause 8.2.2
+  1. Environment                                   Design wind speed (m/s)
+                                                   55 / 50 / 47 / 44 / 39             IS:800 - 2007
+    (a) What is the environment exposure                                               Clause ______
+           condition:
+                                                                                      IS: 1893 (Part 1) - 2002
+            · Mild?                                                                    Figure 1
+
+            · Moderate?                                                               IS: 875 (Part 3) - 1987
+            · Severe?                                                                  Figure 1
+
+            · Very Severe?
+
+            · Extreme?
+
+    (b) Is any special attention required to
+           address the above environment
+           exposure condition? If yes, please
+           mention if that action was taken.
+
+  2. Seismic Zone
+
+    (a) Which Seismic Zone is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above seismic zone? If
+           yes, please mention if that action was
+           taken?
+
+  3. Cyclone Zone
+
+    (a) Which Cyclone Area is the building
+           located in
+
+    (b) Is any special attention required to
+           address the above cyclone zone? If
+           yes, please mention if that action was
+           taken?
+
+  4. Flood Zone
+
+    (a) Which Flood Area is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above flood zone? If yes,
+           please mention if that action was
+           taken?
+
+  5. Landslide Zone
+
+    (a) Which Landslide Zone is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above landslide zone? If
+           yes, please mention if that action was
+           taken?
+
+  6. Soil Condition
+
+    (a) What is the Ground terrain like? Is the
+           natural ground slope more than 20%?
+
+                                                   42  Signature:
+
+                                                       Date:
+(b) What is the type of soil strata:                Yes / No                           IS:1893 (Part 1) - 2002
+        · Hard?                                                                         Clause 6.3.5.2
+        · Medium?
+        · Soft?                                                                        IS:1893 (Part 1) - 2002
+                                                                                        Table 4, Figure 7
+(c) Is soil liquefiable?
+                                                                                       IS:1904
+(d) If the soil is liquefiable, does the
+      proposed design consider the same
+      and eliminate the negative effects of
+      liquefaction on the proposed
+      structure? If yes, how? If not, why?
+
+(e) Is soil slope vulnerable to landslides?
+      If yes, was a detailed analysis done to
+      assess the safety of the slope?
+
+(f) What is the Design Safe Bearing
+      Capacity (kN/m2)?
+
+C2.2 Technical Information - Building Information
+
+S.No. Question                                      Response to the Question           Reference
+                                                    to be filled by the Peer Reviewer
+Geometry
+  7. Number of Storeys
+    (a) What is the number of storeys above
+           ground level in the building (including
+           those to be added later, also including
+           all stepped floors, if applicable)?
+    (b) What is the number of basements
+           below ground level?
+
+S.No. Question                                      Response to the Question           Reference
+                                                    to be filled by the Peer Reviewer
+Design
+  8. Structural System                                        1.0 / 1.5
+    (a) What is the Structural System
+           employed:
+            · Regular frame,
+            · Regular frame with shear wall,
+            · Irregular frame,
+            · Irregular frame with shear wall,
+            · Shear wall building,
+            · Soft storey building, or
+            · Any other (please identify)?
+    (b) What is the foundation system:
+            · Independent footing
+            · Interconnected footing
+
+                                                    43                   Signature:
+
+                                                                         Date:
+  (c)   · Raft foundation                                                 IS: 456 - 2000
+  (d)                                                                        Clause 5.6
+        · Pile foundation, or
+  (e)                                                    Signature:
+        · Any other (please identify)?                   Date:
+9.
+10.    What is the depth of the foundation?
+11.    Is this sufficient for the strata of soil at
+12.    the site?
+13.
+14.    If individual foundations are used,
+15.    what is the system for interconnecting
+       the foundation units:
+
+        · Plinth beams,
+
+        · Foundation beams,
+
+        · Pile caps connected by tie beams,
+          or
+
+        · Not connected together?
+
+       What is the horizontal floor system:
+
+        · Beams and slabs
+
+        · Waffles,
+
+        · Ribbed floors,
+
+        · Flat slab with drops,
+
+        · Flat plate with drops,
+
+        · Flat slab or plate without drops,
+
+        · Any other (please identify)?
+
+       In buildings with basement, have the
+       following been considered:
+
+        · Uplift pressure considered, and
+
+        · Lateral pressure considered?
+
+        If NO, is the building safe?
+
+       What are the grades of concrete
+       employed in the building? List all
+       grades used.
+
+       What are the grades of steel
+       reinforcement used in the building?
+       List all grades used.
+
+       What are the load combinations
+       employed in the analysis of the
+       structure?
+
+       Is it ensured that all un-reinforced
+       masonry infills (made of burnt clay
+       brick, cement blocks or stone units in
+       any mortar) are eliminated in the
+       exterior bays of moment frames?
+
+       Is it ensured that torsional modes of
+       vibrations of the building are either
+       eliminated or their mode participation
+       factor is small?
+
+       Has construction stage-wise structural
+       analysis been performed with each
+       storey added?
+
+                                                     44
+  (a)   If YES, is a pre-camber required to be         1.0 / 1.5              IS: 1893 (Part 1) - 2002
+16.     provided in the floor levels at the          ____ hours                 Table 6
+        construction stage?
+17.                                                                           IS: 1893 (Part 1) - 2002
+  (a)   Have the effects of creep and                                           Table 7
+        shrinkage been estimated through
+18.     formal calculations, and shown to be                                  IS: 1893 (Part 1) - 2002
+  (a)   within acceptable limits?                                               Clause 7.5.3
+  (b)
+  (d)   Wind Actions                                                          IS:1893 (Part 1) - 2002
+                                                                                 Clause 7.10
+  (e)   In buildings taller than 45m, have
+        wind tunnel tests and/or CFD studies                                  IS: 1893 (Part 1)
+  (e)   been performed to show that there                                       Clause 7.9
+        are no detrimental drag effects of
+   (f)  wind on the building, either locally or                               IS: 456
+19.     globally?
+                                                                              IS: 456
+  (a)   Seismic Actions
+
+  (b)   What is the Importance Factor used in
+20.     estimating the design base shear?
+
+  (a)   What is the Response reduction
+  (b)   Factor used in estimating the design
+        base shear?
+
+        What is the natural period of the
+        building for shaking in translation
+        mode along the two horizontal plan
+        directions?
+
+        What is the Design Base Shear, as a
+        fraction of the weight of the building,
+
+         · Seismic Coefficient Method
+
+         · Response Spectrum Method
+
+        If soft/flexible storeys exist in the
+        building, were the columns in that
+        storey specially designed for
+        additional effects?
+
+        Has analysis of the structure
+        performed to include effects of
+        torsion?
+
+        Fire Safety
+
+        What is the fire-rating for which the
+        structural system is intended to be
+        designed? Have all flammable
+        material accounted for in ensuring
+        fire-safety?
+
+        Do the member sizes chosen meet
+        the expected fire-rating?
+
+        Blast Actions
+
+        Is there a need to consider the effect
+        of blast loading on the building?
+
+        If YES, does the design of the
+        structural system account for the
+        expected blast load?
+
+                                                                  Signature:
+
+                                                 45               Date:
+S.No. Question                                    Response to the Question           Reference
+                                                  to be filled by the Peer Reviewer
+Detailing                                                                            IS:13920 - 2003
+                                                                                       Clause 1.1.1
+ 21. Is ductile detailing provided in the
+           building?                                                                 IS:13920 - 2003
+                                                                                       Clause 6.1
+ 22. What is the minimum dimension (in
+           mm) of the beams used?                                                    IS:13920 - 2003
+                                                                                       Clause 6.2.1
+ 23. What is the minimum percentage of
+           tensile reinforcement used in beams                                       IS:13920 - 2003
+           at any cross-section?                                                       Clause 6.2.2
+
+ 24. What is the maximum percentage of                                               IS:13920 - 2003
+           tensile reinforcement used in beams                                         Clause 6.3.5
+           at any cross-section?
+                                                                                     IS:13920 - 2003
+ 25. What is the spacing (in mm) of                                                    Clause 7.1.2, 7.1.3
+           transverse reinforcement in 2d length
+           of beams near ends?                                                       IS:456 - 2000
+                                                                                       Clause 26.5.3
+ 26. What is the minimum ratio of capacity
+           of beam in shear to its capacity in                                       IS:13920 - 2003
+           flexure at ends?                                                            Clause 7.4
+
+ 27. What is the minimum dimension (in
+           mm) of columns?
+
+ 28. What is the minimum percentage of
+           longitudinal reinforcement used in
+           columns?
+
+ 29. What are the
+
+            · Smallest diameter (in mm)
+
+            · Largest spacing (in mm)
+           of transverse reinforcement bars in
+           columns near ends?
+
+                                                                         Signature:
+                                                                         Date:
+
+                                                                         Name:...........................................................................
+                                                                         Address: .......................................................................
+                                                                          .....................................................................................
+                                                                         Tel. No.......... ....................................................
+
+Reference IS Codes
+     1. IS:456 - 2000, Indian Standard Code of Practice Plain and Reinforced Concrete, Bureau of Indian
+          Standards, New Delhi
+     2. IS:800 - 2007, Indian Standard Code of Practice Structural Steel, Bureau of Indian Standards, New
+          Delhi
+     3. IS:875 (Part 3) - 1987, Indian Standard Code of Practice Design Loads (Other than Earthquake) for
+          Buildings and Structures - Wind Load, Bureau of Indian Standards, New Delhi
+     4. IS:1893 (Part 1) - 2002, Indian Standard Criteria for Earthquake Resistant Design of Structures,
+          Bureau of Indian Standards, New Delhi
+     5. IS:1904 - 1986, Indian Standard Code of Practice Design and Construction of Foundations in Soils:
+          General Requirements, Bureau of Indian Standards, New Delhi.
+     6. IS:13920 - 2003, Indian Standard Code of Practice Ductile Detailing of Reinforced Concrete
+
+          Structures Subjected to Seismic Force
+
+                                                  46
+                                           FORM S1
+
+              Steel Buildings of Height Less than 15m
+
+        Forms to assist Structural Engineers undertaking Peer Review
+                                   on behalf of the Bank
+
+S1.0 Basic Information
+
+S.No.   Item                                           Details to be filled by the Peer Reviewer
+
+S1.0.1  Name of building
+S1.0.2  Location of Building
+        Plot number
+        Town Planning Scheme (if any)
+        Address
+
+S1.0.3  City/Town/Block/Panchayat/Village
+S1.0.4                                       District
+                                               State
+
+        Occupancy class of building
+        Name of Owner
+
+                                           Address
+
+S1.0.5 Name of Builder
+
+                        Address
+
+S1.0.6  Name of Architect
+                                 Registration No.
+                                           Address
+
+S1.0.7  Name of Structural Engineer
+                                 Registration No.
+                                           Address
+
+                                                       Signature:
+                                                       Date:
+
+                                                       47
+S1.1 Technical Information - Siting of the Building
+
+S.No. Question                                     Response to the Question           Reference
+                                                   to be filled by the Peer Reviewer
+Hazard Zones Applicable                                                               IS:456 - 2000
+                                                   II / III / IV / V                   Clause 8.2.2
+  1. Environment                                   Design wind speed (m/s)
+                                                   55 / 50 / 47 / 44 / 39             IS:800 - 2007
+    (a) What is the environment exposure                                               Clause ______
+           condition:
+                                                                                      IS: 1893 (Part 1) - 2002
+            · Mild?                                                                    Figure 1
+            · Moderate?
+            · Severe?                                                                 IS: 875 (Part 3) - 1987
+            · Very Severe?                                                             Figure 1
+            · Extreme?
+
+    (b) Is any special attention required to
+           address the above environment
+           exposure condition? If yes, please
+           mention if that action was taken.
+
+  2. Seismic Zone
+
+    (a) Which Seismic Zone is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above seismic zone? If
+           yes, please mention if that action was
+           taken?
+
+  3. Cyclone Zone
+
+    (a) Which Cyclone Area is the building
+           located in
+
+    (b) Is any special attention required to
+           address the above cyclone zone? If
+           yes, please mention if that action was
+           taken?
+
+  4. Flood Zone
+
+    (a) Which Flood Area is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above flood zone? If yes,
+           please mention if that action was
+           taken?
+
+  5. Landslide Zone
+
+    (a) Which Landslide Zone is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above landslide zone? If
+           yes, please mention if that action was
+           taken?
+
+  6. Soil Condition
+
+                                                   48  Signature:
+
+                                                       Date:
+(a) What is the Ground terrain like? Is the
+      natural ground slope more than 20%?
+
+(b) What is the type of soil strata:                                                   IS:1893 (Part 1) - 2002
+                                                                                        Clause 6.3.5.2
+· Hard?
+                                                                                       IS:1893 (Part 1) - 2002
+· Medium?                                                                               Table 4, Figure 7
+
+· Soft?                                                                                IS:1904
+
+(c) Is soil liquefiable?                            Yes / No
+
+(d) If the soil is liquefiable, does the
+      proposed design consider the same
+      and eliminate the negative effects of
+      liquefaction on the proposed
+      structure? If yes, how? If not, why?
+
+(e) Is soil slope vulnerable to landslides?
+      If yes, was a detailed analysis done to
+      assess the safety of the slope?
+
+(f) What is the Design Safe Bearing
+      Capacity (kN/m2)?
+
+S1.2 Technical Information - Building Information
+
+S.No. Question                                      Response to the Question           Reference
+                                                    to be filled by the Peer Reviewer  Reference
+Geometry
+  7. Number of Storeys
+    (a) What is the number of storeys above
+           ground level in the building (including
+           those to be added later, also including
+           all stepped floors, if applicable)?
+    (b) What is the number of basements
+           below ground level?
+
+S.No. Question                                      Response to the Question
+                                                    to be filled by the Peer Reviewer
+Design
+  8. Structural System                                              1.0 / 1.5
+    (a) What is the Structural System
+           employed:
+            · Regular frame,
+            · Regular frame with shear wall,
+            · Irregular frame,
+            · Irregular frame with shear wall,
+            · Shear wall building,
+            · Soft storey building,
+            · Cold formed steel frame,
+            · Braced frame for vertical loads,
+
+                                                    49        Signature:
+
+                                                              Date:
+         · Braced frame for horizontal loads,                         Signature:
+            or                                                        Date:
+
+         · Any other (please identify)?
+ (b) What is the foundation system:
+
+         · Independent footing
+         · Interconnected footing
+         · Raft foundation
+         · Pile foundation, or
+         · Any other (please identify)?
+ (c) What is the depth of the foundation?
+        Is this sufficient for the strata of soil at
+        the site?
+ (d) If individual foundations are used,
+        what is the system for interconnecting
+        the foundation units:
+         · Plinth beams,
+         · Foundation beams,
+         · Pile caps connected by tie beams,
+
+            or
+         · Not connected together?
+ (e) What is the horizontal floor system:
+         · Beams and slabs
+         · Waffles,
+         · Ribbed floors,
+         · Flat slab with drops,
+         · Flat plate with drops,
+         · Flat slab or plate without drops,
+         · Composite slab,
+         · Boarded slab system, or
+         · Any other (please identify)?
+  (f) What is the horizontal floor system:
+         · Steel truss system,
+         · Composite roof system,
+         · Beams and slabs,
+         · Waffles,
+         · Ribbed floors,
+         · Flat slab with drops,
+         · Flat plate with drops,
+         · Flat slab or plate without drops,
+         · Composite slab,
+         · Boarded slab system, or
+         · Any other (please identify)?
+        What is the angle of pitch, in roofs
+        that are pitched?
+9. In buildings with basement, have the
+
+                                                                  50
+         following been considered:                                         IS: 456 - 2000
+                                                                              Clause 5.6
+          · Uplift pressure considered, and
+                                                                            IS: 800
+          · Lateral pressure considered?                                       Clause 3.1.2
+          If NO, is the building safe?
+                                                                            IS: 801
+10. What are the grades of concrete                                            Clause 5.2
+         employed in the building? List all
+         grades used.                                                       IS: 800
+                                                                               Clause 4.2
+11. What are the grades of steel used in
+         the building? List all grades used                                 IS: 801
+         (including the grade of steel, as well                                Clause 7.1
+         general weldable/high-strength/Cold
+         formed/Tubular)                                                    IS: 800
+                                                                               Clauses 4.4, 4.5, 4.6
+12. What are the load combinations
+         employed in the analysis of the                                    IS: 800
+         structure?                                                            Clause 3.8
+
+13. What is the method of design                                            IS: 800
+         employed:                                                             Clause 3.3
+
+          · Limit State Method, or                                          IS: 800
+                                                                               Clause 3.4
+          · Working Stress Method?
+                                                                            IS: 800
+14. What was assumed in the structural                                         Table 6
+         analysis:
+                                                                            IS: 1893 (Part 1) - 2002
+          · Rigid construction,                                               Table 6
+
+          · Semi-rigid construction, or                                     IS: 1893 (Part 1) - 2002
+                                                                              Table 7
+          · Simple construction?
+
+15. What is the method of analysis
+         employed:
+
+          · Elastic analysis
+              o First-order analysis,
+              o Second-order analysis,
+
+          · Plastic analysis, or
+
+          · Frame buckling analysis?
+
+16. Are slenderness limits satisfied by all
+         steel members?
+
+17. Are erection loads considered?
+
+18. Are temperature stresses
+         considered?
+
+19 Are deflection limits satisfied?
+
+20.    Seismic Actions                               1.0 / 1.5
+  (a)
+  (b)  What is the Importance Factor used in
+       estimating the design base shear?
+  (c)
+       What is the Response reduction
+       Factor used in estimating the design
+       base shear?
+
+       What is the natural period of the
+       building for shaking in translation
+       mode along the two horizontal plan
+
+                                                 51             Signature:
+                                                                Date:
+      directions?                                                                  IS: 1893 (Part 1) - 2002
+                                                                                     Clause 7.5.3
+(d) What is the Design Base Shear, as a
+      fraction of the weight of the building,                                      IS:1893 (Part 1) - 2002
+                                                                                      Clause 7.10
+        · Seismic Coefficient Method
+                                                                                   IS: 1893 (Part 1)
+        · Response Spectrum Method                                                   Clause 7.9
+
+(e) If soft/flexible storeys exist in the
+      building, were the columns in that
+      storey specially designed for
+      additional effects?
+
+(f) Has analysis of the structure
+      performed to include effects of
+      torsion?
+
+S.No. Question                                  Response to the Question           Reference
+                                                to be filled by the Peer Reviewer
+Detailing                                                                          IS:13920 - 2003
+ 21. Is ductile detailing provided in the                                            Clause 1.1.1
+           building?
+ 22. What is the minimum dimension (in                                             IS:13920 - 2003
+           mm) of columns?                                                           Clause 7.1.2, 7.1.3
+           What are the types of connections
+           used:                                                                   IS: 800
+            · Rivets,                                                                 Clause 15.2.3
+            · CT Bolts,
+            · SHFG Bolts,                       ____ Hours                         IS: 800
+            · Black Bolts,                                                            Clause 16
+            · Welding - Field Shop, or
+            · Composite?                                                           IS: 800
+ 23. What is the corrosion protection                                                 Clause 16
+           method employed:
+            · Controlling electrode potential,                                     IS: 1641
+            · Inhibitor,                                                           IS: 1642
+            · Inorganic/metal coating, or                                          IS: 1643
+            · Organic/paint coating?
+ 24. What is the minimum fire resistance        Signature:
+           level provided for in the design?    Date:
+ 25. What is the fire resistance method
+           employed:                             Name:...........................................................................
+            · In-tumescent painting,             Address: .......................................................................
+            · Spraying,                           .....................................................................................
+            · Quilting,                          Tel. No.......... ....................................................
+            · Fire-resistant boarding, or
+            · Concrete encasing?
+
+   Reference IS Codes
+
+                                                52
+1. IS:456 - 2000, Indian Standard Code of Practice Plain and Reinforced Concrete, Bureau of Indian
+     Standards, New Delhi
+
+2. IS:800 - 2007, Indian Standard Code of Practice Structural Steel, Bureau of Indian Standards, New
+     Delhi
+
+3. IS:875 (Part 3) - 1987, Indian Standard Code of Practice Design Loads (Other than Earthquake) for
+     Buildings and Structures - Wind Load, Bureau of Indian Standards, New Delhi
+
+4. IS:1893 (Part 1) - 2002, Indian Standard Criteria for Earthquake Resistant Design of Structures,
+     Bureau of Indian Standards, New Delhi
+
+5. IS:1904 - 1986, Indian Standard Code of Practice Design and Construction of Foundations in Soils:
+     General Requirements, Bureau of Indian Standards, New Delhi.
+
+6. IS:13920 - 2003, Indian Standard Code of Practice Ductile Detailing of Reinforced Concrete
+     Structures Subjected to Seismic Force, Bureau of Indian Standards, New Delhi
+
+7. IS: 801-1975/98, IS Code of Practice for use of Cold-Formed Light Gauge Steel Structural Members
+     in General Building Construction, , Bureau of Indian Standards, New Delhi
+
+8. IS: 813-1986, Scheme of symbols for welding, , Bureau of Indian Standards, New Delhi
+9. IS: 1149-1982, High tensile steel rivet bars for structural purposes, , Bureau of Indian Standards,
+
+     New Delhi
+10. IS: 1363 (Part 1-Part 3)-2002, Hexagon Head Bolts, Screws and Nuts of Product Grade `C' - Part 1 :
+
+     Hexagon Head Bolts (Size Range M 5 to M 64), Bureau of Indian Standards, New Delhi
+11. IS: 1367 (Part 1-Part 14)-2002, Technical Supply Conditions for Threaded Steel Fasteners, , Bureau
+
+     of Indian Standards, New Delhi
+12. IS: 1641-1988, Code of practice for fire safety of buildings (general): General principles of fire
+
+     grading and classification, Bureau of Indian Standards, New Delhi
+13. IS: 1642-1989, Code of practice for fire safety of buildings (general): Details of construction, , Bureau
+
+     of Indian Standards, New Delhi
+14. IS: 1643-1988, Code of practice for fire safety of buildings (general): Exposure hazard, , Bureau of
+
+     Indian Standards, New Delhi
+15. IS: 1893 (Part 1)-2002, Criteria for Earthquake Resistant Design of Structures, , Bureau of Indian
+
+     Standards, New Delhi
+16. IS: 1904-1986, Indian Standard Code of Practice for Design and Construction of Foundations in
+
+     Soils: General Requirements, Bureau of Indian Standards, New Delhi
+17. IS: 1929-1982, Specification for Hot Forged Steel Rivets for Hot Closing (12 to 36 mm Diameter),
+
+     Bureau of Indian Standards, New Delhi
+18. IS: 2155-1982, Specification for Cold Forged Solid Steel Rivets for Hot Closing (6 to 16 mm
+
+     Diameter) , Bureau of Indian Standards, New Delhi
+19. IS: 3613-1974, Acceptance tests for wire flux combination for submerged arc welding, Bureau of
+
+     Indian Standards, New Delhi
+20. IS: 3757-1985, Specification for High Strength Structural Bolts, Bureau of Indian Standards, New
+
+     Delhi
+21. IS: 4000-1992, Code of practice for high strength bolts in steel structures, Bureau of Indian
+
+     Standards, New Delhi
+22. IS: 4326-1993, Earthquake resistant design and construction - Code of practice, Bureau of Indian
+
+     Standards, New Delhi
+23. IS: 6419-1996, Welding rods and bare electrodes for gas shielded arc welding of structural steel,
+
+     Bureau of Indian Standards, New Delhi
+24. IS: 6560-1996, Molybdenum and chromium-molybdenum low alloy steel welding rods and bare
+
+     electrodes for gas shielded arc welding, Bureau of Indian Standards, New Delhi
+25. IS: 6639-1972, Specification for Hexagon Bolts for Steel Structures, Bureau of Indian Standards,
+
+     New Delhi
+26. IS: 7280-1974, Bare wire electrodes for submerged arc welding of structural steels, Bureau of Indian
+
+     Standards, New Delhi
+27. IS: 9595-1996, Metal arc welding of carbon and carbon manganese steels - Recommendations,
+
+     Bureau of Indian Standards, New Delhi
+28. SP6(6)-1972, Handbook for structural engineers - Application of plastic theory in design of steel
+
+     structures, Bureau of Indian Standards, New Delhi
+
+                                                      ...
+
+                                                                 53
+                                           FORM S2
+
+              Steel Buildings of Height More than 15m
+
+        Forms to assist Structural Engineers undertaking Peer Review
+                                   on behalf of the Bank
+
+S2.0 Basic Information
+
+S.No.   Item                                           Details to be filled by the Peer Reviewer
+
+S2.0.1  Name of building
+S2.0.2  Location of Building
+        Plot number
+        Town Planning Scheme (if any)
+        Address
+
+S2.0.3  City/Town/Block/Panchayat/Village
+S2.0.4                                       District
+                                               State
+
+        Occupancy class of building
+        Name of Owner
+
+                                           Address
+
+S2.0.5 Name of Builder
+
+                        Address
+
+S2.0.6  Name of Architect
+                                 Registration No.
+                                           Address
+
+S2.0.7  Name of Structural Engineer
+                                 Registration No.
+                                           Address
+
+                                                       Signature:
+                                                       Date:
+
+                                                       54
+S2.1 Technical Information - Siting of the Building
+
+S.No. Question                                     Response to the Question           Reference
+                                                   to be filled by the Peer Reviewer
+Hazard Zones Applicable                                                               IS:456 - 2000
+                                                   II / III / IV / V                   Clause 8.2.2
+  1. Environment                                   Design wind speed (m/s)
+                                                   55 / 50 / 47 / 44 / 39             IS:800 - 2007
+    (a) What is the environment exposure                                               Clause ______
+           condition:
+                                                                                      IS: 1893 (Part 1) - 2002
+            · Mild?                                                                    Figure 1
+
+            · Moderate?                                                               IS: 875 (Part 3) - 1987
+            · Severe?                                                                  Figure 1
+
+            · Very Severe?
+
+            · Extreme?
+
+    (b) Is any special attention required to
+           address the above environment
+           exposure condition? If yes, please
+           mention if that action was taken.
+
+  2. Seismic Zone
+
+    (a) Which Seismic Zone is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above seismic zone? If
+           yes, please mention if that action was
+           taken?
+
+  3. Cyclone Zone
+
+    (a) Which Cyclone Area is the building
+           located in
+
+    (b) Is any special attention required to
+           address the above cyclone zone? If
+           yes, please mention if that action was
+           taken?
+
+  4. Flood Zone
+
+    (a) Which Flood Area is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above flood zone? If yes,
+           please mention if that action was
+           taken?
+
+  5. Landslide Zone
+
+    (a) Which Landslide Zone is the building
+           located in?
+
+    (b) Is any special attention required to
+           address the above landslide zone? If
+           yes, please mention if that action was
+           taken?
+
+  6. Soil Condition
+
+    (a) What is the Ground terrain like? Is the
+           natural ground slope more than 20%?
+
+                                                   55  Signature:
+
+                                                       Date:
+(b) What is the type of soil strata:                Yes / No                           IS:1893 (Part 1) - 2002
+        · Hard?                                                                         Clause 6.3.5.2
+        · Medium?
+        · Soft?                                                                        IS:1893 (Part 1) - 2002
+                                                                                        Table 4, Figure 7
+(c) Is soil liquefiable?
+                                                                                       IS:1904
+(d) If the soil is liquefiable, does the
+      proposed design consider the same
+      and eliminate the negative effects of
+      liquefaction on the proposed
+      structure? If yes, how? If not, why?
+
+(e) Is soil slope vulnerable to landslides?
+      If yes, was a detailed analysis done to
+      assess the safety of the slope?
+
+(f) What is the Design Safe Bearing
+      Capacity (kN/m2)?
+
+S2.2 Technical Information - Building Information
+
+S.No. Question                                      Response to the Question           Reference
+                                                    to be filled by the Peer Reviewer  Reference
+Geometry
+  7. Number of Storeys
+    (a) What is the number of storeys above
+           ground level in the building (including
+           those to be added later, also including
+           all stepped floors, if applicable)?
+    (b) What is the number of basements
+           below ground level?
+
+S.No. Question                                      Response to the Question
+                                                    to be filled by the Peer Reviewer
+Design
+  8. Structural System                                              1.0 / 1.5
+    (a) What is the Structural System
+           employed:
+            · Regular frame,
+            · Regular frame with shear wall,
+            · Irregular frame,
+            · Irregular frame with shear wall,
+            · Shear wall building,
+            · Soft storey building,
+            · Cold formed steel frame,
+            · Braced frame for vertical loads,
+            · Braced frame for horizontal loads,
+               or
+
+                                                    56        Signature:
+
+                                                              Date:
+         · Any other (please identify)?                               Signature:
+ (b) What is the foundation system:                                   Date:
+
+         · Independent footing
+         · Interconnected footing
+         · Raft foundation
+         · Pile foundation, or
+         · Any other (please identify)?
+ (c) What is the depth of the foundation?
+        Is this sufficient for the strata of soil at
+        the site?
+ (d) If individual foundations are used,
+        what is the system for interconnecting
+        the foundation units:
+         · Plinth beams,
+         · Foundation beams,
+         · Pile caps connected by tie beams,
+
+            or
+         · Not connected together?
+ (e) What is the horizontal floor system:
+         · Beams and slabs
+         · Waffles,
+         · Ribbed floors,
+         · Flat slab with drops,
+         · Flat plate with drops,
+         · Flat slab or plate without drops,
+         · Composite slab,
+         · Boarded slab system, or
+         · Any other (please identify)?
+  (f) What is the horizontal floor system:
+         · Steel truss system,
+         · Composite roof system,
+         · Beams and slabs,
+         · Waffles,
+         · Ribbed floors,
+         · Flat slab with drops,
+         · Flat plate with drops,
+         · Flat slab or plate without drops,
+         · Composite slab,
+         · Boarded slab system, or
+         · Any other (please identify)?
+        What is the angle of pitch, in roofs
+        that are pitched?
+9. In buildings with basement, have the
+        following been considered:
+         · Uplift pressure considered, and
+
+                                                                  57
+          · Lateral pressure considered?                                                     IS: 456 - 2000
+          If NO, is the building safe?                                                         Clause 5.6
+10. What are the grades of concrete
+         employed in the building? List all                                                  IS: 800
+         grades used.                                                                           Clause 3.1.2
+11. What are the grades of steel used in
+         the building? List all grades used                                                  IS: 801
+         (including the grade of steel, as well                                                 Clause 5.2
+         general weldable/high-strength/Cold
+         formed/Tubular)                                                                     IS: 800
+12. What are the load combinations                                                              Clause 4.2
+         employed in the analysis of the
+         structure?                                                                          IS: 801
+13. What is the method of design                                                                Clause 7.1
+         employed:
+          · Limit State Method, or                                                           IS: 800
+          · Working Stress Method?                                                              Clauses 4.4, 4.5, 4.6
+14. What was assumed in the structural
+         analysis:                                                                           IS: 800
+          · Rigid construction,                                                                 Clause 3.8
+          · Semi-rigid construction, or
+          · Simple construction?                                                             IS: 800
+15. What is the method of analysis                                                              Clause 3.3
+         employed:
+          · Elastic analysis                                                                 IS: 800
+                                                                                                Clause 3.4
+              o First-order analysis,
+              o Second-order analysis,                                                       IS: 800
+          · Plastic analysis, or                                                                Table 6
+          · Frame buckling analysis?
+16. Are slenderness limits satisfied by all                            Signature:
+         steel members?                                                Date:
+17. Are erection loads considered?
+
+18. Are temperature stresses
+         considered?
+
+19. Are deflection limits satisfied?
+
+20. Is it ensured that all un-reinforced
+         masonry infills (made of burnt clay
+         brick, cement blocks or stone units in
+         any mortar) are eliminated in the
+         exterior bays of moment frames?
+
+21. Is it ensured that torsional modes of
+         vibrations of the building are either
+         eliminated or their mode participation
+         factor is small?
+
+22. Has construction stage-wise structural
+         analysis been performed with each
+         storey added?
+
+                                                                   58
+  (a)   If YES, is a pre-camber required to be         1.0 / 1.5              IS: 1893 (Part 1) - 2002
+23.     provided in the floor levels at the          ____ hours                 Table 6
+        construction stage?
+24.                                                                           IS: 1893 (Part 1) - 2002
+  (a)   Have the effects of creep and                                           Table 7
+        shrinkage been estimated through
+25.     formal calculations, and shown to be                                  IS: 1893 (Part 1) - 2002
+  (a)   within acceptable limits?                                               Clause 7.5.3
+  (b)
+  (d)   Wind Actions                                                          IS:1893 (Part 1) - 2002
+                                                                                 Clause 7.10
+  (e)   In buildings taller than 45m, have
+        wind tunnel tests and/or CFD studies                                  IS: 1893 (Part 1)
+  (e)   been performed to show that there                                       Clause 7.9
+        are no detrimental drag effects of
+   (f)  wind on the building, either locally or                               IS: 456
+26.     globally?
+                                                                              IS: 456
+  (a)   Seismic Actions
+
+  (b)   What is the Importance Factor used in
+27.     estimating the design base shear?
+
+  (a)   What is the Response reduction
+  (b)   Factor used in estimating the design
+        base shear?
+
+        What is the natural period of the
+        building for shaking in translation
+        mode along the two horizontal plan
+        directions?
+
+        What is the Design Base Shear, as a
+        fraction of the weight of the building,
+
+         · Seismic Coefficient Method
+
+         · Response Spectrum Method
+
+        If soft/flexible storeys exist in the
+        building, were the columns in that
+        storey specially designed for
+        additional effects?
+
+        Has analysis of the structure
+        performed to include effects of
+        torsion?
+
+        Fire Safety
+
+        What is the fire-rating for which the
+        structural system is intended to be
+        designed? Have all flammable
+        material accounted for in ensuring
+        fire-safety?
+
+        Do the member sizes chosen meet
+        the expected fire-rating?
+
+        Blast Actions
+
+        Is there a need to consider the effect
+        of blast loading on the building?
+
+        If YES, does the design of the
+        structural system account for the
+        expected blast load?
+
+                                                                  Signature:
+
+                                                 59               Date:
+S.No. Question                                  Response to the Question           Reference
+                                                to be filled by the Peer Reviewer
+Detailing                                                                          IS:13920 - 2003
+ 28. Is ductile detailing provided in the       ____ Hours                           Clause 1.1.1
+           building?
+ 29. What is the minimum dimension (in                                             IS:13920 - 2003
+           mm) of columns?                                                           Clause 7.1.2, 7.1.3
+           What are the types of connections
+           used:                                                                   IS: 800
+            · Rivets,                                                                 Clause 15.2.3
+            · CT Bolts,
+            · SHFG Bolts,                                                          IS: 800
+            · Black Bolts,                                                            Clause 16
+            · Welding - Field Shop, or
+            · Composite?                                                           IS: 800
+ 30. What is the corrosion protection                                                 Clause 16
+           method employed:
+            · Controlling electrode potential,                                     IS: 1641
+            · Inhibitor,                                                           IS: 1642
+            · Inorganic/metal coating, or                                          IS: 1643
+            · Organic/paint coating?
+ 31. What is the minimum fire resistance
+           level provided for in the design?
+ 32. What is the fire resistance method
+           employed:
+            · In-tumescent painting,
+            · Spraying,
+            · Quilting,
+            · Fire-resistant boarding, or
+            · Concrete encasing?
+
+                                                Signature:
+                                                Date:
+
+                                                 Name:...........................................................................
+                                                 Address: .......................................................................
+                                                 Tel. No.......... ....................................................
+
+Reference     IS Codes
+          1.  IS:456 - 2000, Indian Standard Code of Practice Plain and Reinforced Concrete, Bureau of
+          2.  Indian Standards, New Delhi
+          3.  IS:800 - 2007, Indian Standard Code of Practice Structural Steel, Bureau of Indian Standards,
+          4.  New Delhi
+          5.  IS:875 (Part 3) - 1987, Indian Standard Code of Practice Design Loads (Other than Earthquake)
+              for Buildings and Structures - Wind Load, Bureau of Indian Standards, New Delhi
+              IS:1893 (Part 1) - 2002, Indian Standard Criteria for Earthquake Resistant Design of Structures,
+              Bureau of Indian Standards, New Delhi
+              IS:1904 - 1986, Indian Standard Code of Practice Design and Construction of Foundations in
+              Soils: General Requirements, Bureau of Indian Standards, New Delhi.
+
+                                                60
+6. IS:13920 - 2003, Indian Standard Code of Practice Ductile Detailing of Reinforced Concrete
+     Structures Subjected to Seismic Force, Bureau of Indian Standards, New Delhi
+
+7. IS: 801-1975/98, IS Code of Practice for use of Cold-Formed Light Gauge Steel Structural
+     Members in General Building Construction, , Bureau of Indian Standards, New Delhi
+
+8. IS: 813-1986, Scheme of symbols for welding, , Bureau of Indian Standards, New Delhi
+9. IS: 1149-1982, High tensile steel rivet bars for structural purposes, , Bureau of Indian Standards,
+
+     New Delhi
+10. IS: 1363 (Part 1-Part 3)-2002, Hexagon Head Bolts, Screws and Nuts of Product Grade `C' -
+
+     Part 1 : Hexagon Head Bolts (Size Range M 5 to M 64), Bureau of Indian Standards, New Delhi
+11. IS: 1367 (Part 1-Part 14)-2002, Technical Supply Conditions for Threaded Steel Fasteners, ,
+
+     Bureau of Indian Standards, New Delhi
+12. IS: 1641-1988, Code of practice for fire safety of buildings (general): General principles of fire
+
+     grading and classification, Bureau of Indian Standards, New Delhi
+13. IS: 1642-1989, Code of practice for fire safety of buildings (general): Details of construction, ,
+
+     Bureau of Indian Standards, New Delhi
+14. IS: 1643-1988, Code of practice for fire safety of buildings (general): Exposure hazard, , Bureau
+
+     of Indian Standards, New Delhi
+15. IS: 1893 (Part 1)-2002, Criteria for Earthquake Resistant Design of Structures, , Bureau of Indian
+
+     Standards, New Delhi
+16. IS: 1904-1986, Indian Standard Code of Practice for Design and Construction of Foundations in
+
+     Soils: General Requirements, Bureau of Indian Standards, New Delhi
+17. IS: 1929-1982, Specification for Hot Forged Steel Rivets for Hot Closing (12 to 36 mm
+
+     Diameter), Bureau of Indian Standards, New Delhi
+18. IS: 2155-1982, Specification for Cold Forged Solid Steel Rivets for Hot Closing (6 to 16 mm
+
+     Diameter) , Bureau of Indian Standards, New Delhi
+19. IS: 3613-1974, Acceptance tests for wire flux combination for submerged arc welding, Bureau of
+
+     Indian Standards, New Delhi
+20. IS: 3757-1985, Specification for High Strength Structural Bolts, Bureau of Indian Standards, New
+
+     Delhi
+21. IS: 4000-1992, Code of practice for high strength bolts in steel structures, Bureau of Indian
+
+     Standards, New Delhi
+22. IS: 4326-1993, Earthquake resistant design and construction - Code of practice, Bureau of
+
+     Indian Standards, New Delhi
+23. IS: 6419-1996, Welding rods and bare electrodes for gas shielded arc welding of structural steel,
+
+     Bureau of Indian Standards, New Delhi
+24. IS: 6560-1996, Molybdenum and chromium-molybdenum low alloy steel welding rods and bare
+
+     electrodes for gas shielded arc welding, Bureau of Indian Standards, New Delhi
+25. IS: 6639-1972, Specification for Hexagon Bolts for Steel Structures, Bureau of Indian Standards,
+
+     New Delhi
+26. IS: 7280-1974, Bare wire electrodes for submerged arc welding of structural steels, Bureau of
+
+     Indian Standards, New Delhi
+27. IS: 9595-1996, Metal arc welding of carbon and carbon manganese steels - Recommendations,
+
+     Bureau of Indian Standards, New Delhi
+
+28. SP6(6)-1972, Handbook for structural engineers - Application of plastic theory in design of steel
+
+     structures, Bureau of Indian Standards, New Delhi
+
+                                                            61
+                                    Members of the Core Group for
+               Preparation of National Disaster Management Guidelines on
+Ensuring Disaster Resilient Construction of Buildings and Infrastructure financed
+
+                         through Banks and Other Lending Institutions
+
+       Chairperson of the Core Group: Prof. N. Vinod Chandra Menon,
+                                               Member, NDMA
+
+       Core Group Members:
+       i. Prof. A. S. Arya, Professor (Rtd.), IIT- Roorkee & Professor Emeritus
+       ii. Prof. Ravi Sinha, Professor. Structural Engineering Division,
+
+            Department of Civil Engineering IIT- Bombay, Powai, Mumbai
+       iii. Prof. CVR Murthy, Department of Civil Engineering, IIT- Madras, Chennai
+       iv. Architect Balbir Verma, New Delhi
+       v. Prof. Amit Bose, Professor (Rtd.), IIT- Roorkee
+       vi. Prof. D.K. Paul, IIT-Roorkee, Head, Centre of Excellence in Disaster Mitigation &
+
+           Management &. Professor, Department of Earthquake Engineering, IIT Roorkee,
+           Roorkee
+       vii. Prof. K. Ganesh Babu, Department of Ocean Engineering, IIT-Madras, Chennai
+
+       Special Invitees:
+       i. Mr. R.V. Verma, Executive Director, National Housing Bank, New Delhi
+       ii. Mr. K. Unnikrishnan, Deputy Chief Executive, Indian Bank Association, Mumbai
+       iii. Mr. Milind Kalkar, Deputy General Manager, State Bank of India, New Delhi
+       iv. Mr. J. S. Kathuria, OSD and In charge of Delhi Chapter, Indian Bank Association, New
+
+           Delhi
+       Content Editing & Coordination: Mr. Sampurnananda Mahapatra, Senior Specialist, NDMA
+
+                                                                    62
+

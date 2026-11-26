@@ -1,0 +1,683 @@
+                              Preface
+
+Pradhan Mantri Awas Yojana - Urban 2.0 (PMAY-U 2.0) has been
+launched with an objective to provide pucca houses to 1 crore
+people of urban India. The Scheme emphasizes empowerment of
+urban poor and middle-class families by giving them secured pucca
+houses to focus on the betterment of their lives. PMAY-U 2.0 will
+provide financial assistance to 1 crore families to construct,
+purchase or rent a house in urban areas over a period of 5 years.
+Government Assistance of 2.30 lakh crore will be provided under
+the Scheme.
+Families belonging to EWS/LIG/MIG segments, having no pucca
+house anywhere in the country, are eligible to purchase or construct
+a house under PMAY-U 2.0. The Scheme will be implemented
+through different verticals, giving eligible beneficiaries the option
+avail benefits under any one of the four verticals as per their choice
+and eligibility.
+A unified web portal has been developed to effectively execute the
+Scheme. It also ensures transparency, helps in monitoring and
+efficient management of the Scheme and more importantly, to
+enable beneficiaries to directly apply under PMAY-U 2.0. The portal
+simplifies the process for application, allows beneficiaries to know
+the status of application, modalities of data exchange among
+stakeholders, ensures faster due diligence, approval and release of
+subsidy. The web portal is accessible to all stakeholders and will
+help in monitoring and evaluating of PMAY-U 2.0 scheme.
+The user manual will help the beneficiaries and all stakeholders
+with the web portal and will guide them on how to use it effectively.
+It will take the users through the portal's features, sections, and
+tools to ensure smooth implementation.
+          Table of Contents
+
+S. No     Particular                                   Page
+     1                                                   No.
+     2    Background
+     3    Coverage                                         6
+     4    Eligibility Criteria                             7
+     5    PMAY-U 2.0 Verticals                             8
+          Flowchart                                        9
+       6                                                9-12
+              · Beneficiary Led Construction (BLC)         9
+     7        · Affordable Rental Housing (ARH)        10-11
+              · Interest Subsidy Scheme (ISS)            12
+     8                                                 13-34
+     9    User Manual- Beneficiary Survey Application    12
+          PMAY-U 2.0 MIS                                 14
+                                                         15
+             · Applying for PMAY-U 2.0                   16
+             · Documents Required                        17
+             · Eligibility Criteria                    18-27
+             · Aadhar Authentication                     18
+                                                         23
+          Filling the Beneficiary survey form            27
+                                                         35
+             · BLC Component                           36-37
+             · AHP Component
+             · ISS Component
+
+          Submitting the survey form
+          Applicant Login
+                          Things To Know
+
+1. A beneficiary meeting the eligibility criteria defined under the scheme
+    may submit the application through Unified Web Portal of PMAY-U 2.0,
+    Common Service Centre (CSC) or by visiting the concerned Urban Local
+    Bodies/Municipalities they are residing in.
+
+2. A 'Pucca' house is defined as an all-weather dwelling unit with roof and
+    walls made up of sturdy, modern, and durable materials like burnt
+    bricks, stones packed with cement or lime, cement concrete, timber,
+    Galvanized Iron (GI) sheets, asbestos sheets, machine-made tiles etc.
+
+3. A beneficiary family will comprise of husband, wife, unmarried sons
+    and/or unmarried daughters. User must fill the details of all family
+    members with Aadhar Details, Date of Birth, Relationship with
+    Beneficiary and Occupation.
+
+4. In case of a married male, details of wife should be included; and in
+    case of unmarried children, their details should be included.
+
+5. EWS households are defined as households with an annual income up
+    to 3 lakh. LIG households are households with an annual income from
+    3 lakh up to 6 lakh. MIG households are households with an annual
+    income from 6 lakh up to 9 lakh.
+
+6. The present address is the current location where the applicant is
+    residing at the time of registration.
+
+7. Permanent address is the official and long-term residence of the
+    applicant as per the legal or official documents.
+
+8. The construction site address is the location where the housing
+    construction or the proposed site of construction under PMAY-U 2.0.
+9. List of Other Government schemes under which applicants could have
+     availed benefits: National Health Mission (NHM), Ayushman Bharat,
+     Swachch Bharat Mission - Urban (SBM-U) 2.0, Deendayal Antyodaya
+     Yojana-National Urban Livelihoods Mission (DAY-NULM), PM Surya
+     Ghar: Muft Bijli Yojana, Pradhan Mantri Ujjwala Yojana (PMUY), Unnat
+     Jyoti by Affordable LEDs for All (Ujala), Atal Mission for Rejuvenation
+     and Urban Transformation (AMRUT).
+
+10. PMAY-U 2.0 also focusses on special groups such as Safai Karmi,
+     Street Vendors identified under Pradhan Mantri Street Vendor's
+     AtmaNirbhar Nidhi (PMSVANidhi) Scheme and different artisans under
+     Pradhan Mantri-Vishwakarma Scheme, Anganwadi Workers, Building
+     and other Construction Workers (BoCW), slum dwellers/chawls and
+     other groups identified during operation of the scheme.
+
+10. Preference under the scheme will also be given to widows, Persons with
+     Disabilities, transgenders, persons belonging to Scheduled
+     Castes/Scheduled Tribes, and Minorities.
+                                                         6
+
+ Background
+
+Pradhan Mantri Awas Yojana-Urban 2.0 - `Housing for All' Mission will be
+implemented for 5 years to provide financial assistance to 1 crore urban poor
+and middle-class families through States/Union Territories (UTs)/Primary
+Lending Institutions (PLIs) to construct, purchase or rent a house at an
+affordable cost in urban areas.
+
+PMAY-U, launched in June 2015, is one of the major flagship programmes of
+Government of India to provide all-weather pucca houses to all eligible
+beneficiaries in the urban areas. Based on the learnings gathered during the
+implementation of the PMAY-U Scheme and, also to meet the housing
+requirements arising out of the increase in the number of eligible families, the
+Union Cabinet on 10th June 2024 resolved to provide assistance to 3 crore
+additional rural and urban households for the construction of houses.
+Subsequently, on 9th August 2024, the Union Cabinet, chaired by the Hon'ble
+Prime Minister Shri Narendra Modi, approved Pradhan Mantri Awas Yojana -
+Urban and Rural for the next 5 years.
+
+In pursuance of the Hon'ble Prime Minister's vision, PMAY-U 2.0, will address
+the housing needs of 1 crore families, ensuring that every citizen leads a better
+quality of life. The Scheme will be implemented through following four
+verticals:
+
+ · Beneficiary Led Construction (BLC)
+ · Affordable Housing in Partnership (AHP)
+ · Affordable Rental Housing (ARH)
+ · Interest Subsidy Scheme (ISS)
+
+PMAY-U 2.0 will achieve the vision of `Housing for All' by fulfilling the housing
+dreams of EWS/LIG/MIG segments. The Scheme will also ensure equity across
+different segments of population by addressing the requirement of slum
+dwellers, SC/STs, minorities, widows, Persons with Disabilities and other
+underprivileged sections of the society.
+                                                         7
+
+  Coverage
+
+ All Statutory Towns as per Census 2011 and towns notified subsequently
+and areas falling within the boundary of Notified Planning Areas, Notified
+Planning/Development area under the jurisdiction of Industrial
+Development Authority/Special Area Development Authority/Urban
+Development Authority or any such Authority under State legislation which
+is entrusted with the functions of urban planning and regulations shall be
+included for the coverage under the Scheme for all verticals.
+
+The Cities/Towns and areas falling under Notified Planning Areas, Notified
+Planning/Development area under the jurisdiction of Industrial
+Development Authority/Special Area Development Authority/Urban
+Development Authority or any such Authority, where PMAY-U is being
+implemented will continue to be covered under PMAY-U 2.0. Cities/towns
+which were not part of PMAY-U may also be included in PMAY-U 2.0 with
+due approval of MoHUA.
+                                                         8
+
+  Eligibility Criteria
+
+Families belonging to EWS/LIG/MIG category, living in urban areas, having no
+pucca house anywhere in the country, are eligible to purchase or construct a
+house under PMAY-U 2.0. A beneficiary will be eligible for availing benefit
+under any one vertical of the scheme.
+
+The beneficiary who has been allotted house under any of the housing scheme
+of Central Government, State/UT Government and Local Self Government in
+last 20 years in urban or rural areas, shall not be eligible to seek benefit under
+PMAY-U 2.0. An undertaking may also be submitted by the beneficiary while
+validating the demand by ULB in this regard.
+
+EWS households are defined as households with an annual income of up to 3
+lakh; LIG as households with an annual income from 3 lakh up to 6 lakh;
+and MIG as households with an annual income from 6 lakh up to 9 lakh.
+States/UTs shall have the flexibility to redefine the annual income criteria of
+EWS as per prevailing conditions with concurrence of MoHUA.
+
+Preference under the Scheme will be given to Widows, single women, Persons
+with Disabilities, Senior Citizens, Transgenders, persons belonging to
+Scheduled Castes/ Scheduled Tribes, Minorities and other weaker and
+vulnerable sections of the society. Special focus will be given to Safai Karmi,
+Street Vendors identified under PMSVANidhi Scheme and different artisans
+under Pradhan Mantri- Vishwakarma Scheme, Anganwadi workers, building
+and other construction workers, residents of slums/chawls and other groups
+identified during operation of PMAY-U 2.0.
+
+It would also be ensured that if a pucca house has been provided to the
+parents of any eligible beneficiary under the previous housing schemes then,
+he/she will be considered only after other eligible families/beneficiaries whose
+parents have not availed any benefit under the previous housing schemes are
+included in the list of beneficiaries.
+                                                         9
+The houses sanctioned under PMAY-U which got curtailed by Central
+Sanctioning and Monitoring Committee (CSMC) after 31.12.2023 due to any
+reason on the recommendation of States/UTs, shall not be sanctioned in
+PMAY-U 2.0 to those beneficiaries.
+
+The beneficiaries may avail benefit in PMAY-Gramin or PMAY-U 2.0 as per
+their jurisdiction. The MIS linkage between Department of Rural Development
+for PMAY-G and MoHUA for PMAY-U 2.0 would be done to avoid duplication of
+beneficiaries. The final list of beneficiaries may be checked and verified by
+States/UTs/ULBs before sending to the CSMC for sanctioning.
+
+All eligible beneficiaries (including family members) should have an Aadhaar/
+Aadhaar Virtual ID integrated with the details of beneficiaries. In case, any
+eligible beneficiary does not have an Aadhaar card/Aadhaar Virtual ID,
+States/UTs should ensure that Aadhaar/Aadhaar Virtual ID enrolment of such
+beneficiary is done on priority.
+PMAY-U 2 . 0 Verticals
+
+                 · EWS beneficiary to construct house on own land
+
+                 · Provision of land patta/ rights to the landless by
+
+Beneficiary Led  States/UTs
+   Construction
+                 · Geo-tag the construction stages of the house by
+     Affordable
+     Housing in  beneficiaries.  (BLC)
+    Partnership
+                 · Release of instalment is linked to construction stage
+    Affordable
+         Rental  · Free of cost statutory approvals, if needed
+        Housing
+          (ARH)  · Upgradation of Tenable Slums with housing and
+
+       Interest  infrastructure
+       Subsidy
+   Scheme (ISS)  · EWS beneficiary to purchase/avail allotted houses in
+                   Apartment projects by public/ private sector
+                   agencies/ parastatal agencies
+
+                 · Redeemable Housing Vouchers for purchase of
+                   houses in whitelisted private sector projects
+
+                 · Various State Incentiv(eAsHtoP)public/private projects
+                 · In-Situ Slum Redevelopment of tenable Slums or Slum
+
+                   Resettlement
+
+                 · Affordable & dignified rental living spaces for
+                   urban dwellers
+
+                 · Model-1: Utilizing existing Government funded
+                   vacant houses by converting them into ARH under
+                   PPP mode or by public agencies.
+
+                 · Model-2: Construct, Operate and Maintain rental
+                   housing by Private/Public Entities for urban poor,
+                   working women, employees of Industries,
+                   Industrial Estates, Institutions and other eligible
+                   EWS/LIG families.
+
+                 · Benefits of subsidy on home loans for EWS/LIG and
+                   MIG families
+
+                 · Max. Loan value 25 lakh
+                 · Max. House Value 35 lakh
+                 · Loan subsidy of up to 1.80 lakh for EWS/LIG/MIG
+
+                   beneficiaries
+                 · 5-Yearly instalments
+
+                                                                           10
+Flowchart depicting steps in BLC component
+Flowchart depicting steps in AHP component (Public sector)
+                                                     13
+
+Flowchart depicting steps in AHP component (Private sector)
+                                             14
+
+Flowchart depicting steps in ISS component
+
+                                                                                                                           14
+                                                    15
+
+PMAY-U 2.0 MIS
+
+The PMAY-U 2.0 website is designed and developed for filing of
+
+applications, record keeping, tracking of applications, monitoring,
+
+documentation and knowledge sharing among the stakeholders at the
+
+National, State/UT/ULB level. The web portal can also be accessed by
+
+parastatals, implementing agencies, and other public/private entities. The
+
+PMAY-U  2.0  website                                    can  be  accessed  at
+
+https://pmaymis.gov.in/pmaymis2_2024/pmaydefault.aspx .
+
+Users can find a wide range of information on the website, including details
+about the PMAY-U 2.0 mission, operational guidelines, progress of the
+scheme, details regarding the four verticals, FAQs, latest updates and
+media coverage, as well as highlights from different events, including all
+photos and videos.
+
+The PMAY-U 2.0 website features a dedicated Management Information
+System (MIS) that facilitates user logins for stakeholders, including
+MoHUA, States/UTs/ULBs, and other implementing agencies.
+
+Additionally, the website provides facilities for public and private entities to
+register and submit applications for various components of the scheme.
+
+                                                                                  15
+                                                        16
+
+Applying for PMAY-U 2.0
+
+Step 1:
+1. Interested beneficiary who wants to own a house under PMAY-U 2.0 can
+
+     register herself/himself on the PMAY-U 2.0 website, wherein it is
+     required to click on `Apply for PMAY-U 2.0' tab.
+2. The system would then direct the user to PMAY-U 2.0 website. The
+     webpage shows a menu bar with Seven buttons that helps the user
+     navigate to take required action.
+3. To register, the user can click on the 3rd button `Apply for PMAY-U 2.0.'
+                                                       17
+
+Step 2:
+  i. The system would successfully take the user to the Instruction of
+         PMAY-U 2.0 page.
+ ii. This page provides information about the four verticals under PMAY-
+         U 2.0 along with annual income criteria for eligibility and permissible
+         carpet area for each vertical.
+
+iii. The User is required to read and understand the instructions
+         carefully, her/his eligibility criteria, the option to choose any one
+         vertical out of the four verticals of PMAY-U 2,0 before availing the
+         benefits.
+                                                       18
+Step 3:
+
+  i. Users are required keep the necessary documents ready before
+         proceeding further.
+
+ ii. To go to the next page, click on the Proceed button.
+                                                       19
+
+ Eligibility for PMAY-U 2.0
+
+Step 4:
+  i. After proceeding, the User needs to undergo the eligibility check for the
+         scheme.
+
+ii. User would not be Eligible for the schemes in cases:
+     Annual Household Income is above 9,00,000
+     If the user owns a pucca house anywhere in India
+     If they have availed benefit under any Housing scheme of
+         Central/State/UT government in past 20 years.
+                                                       20
+
+ Aadhar Authentication
+
+Step 5:
+  i. Once the Eligibility check is completed, the user shall give consent for
+         Aadhaar authentication.
+ ii. Users must enter their Aadhaar Number and Name exactly as provided in
+         the Aadhaar card.
+
+iii. An OTP will be generated on the mobile number registered with the
+         Aadhaar card.
+
+ iv. Upon receiving the OTP, user shall enter the OTP and submit the same to
+         complete the process.
+
+ Note: A single Aadhar number can be used to fill only one form.
+                                                           21
+
+    Filling the Beneficiary Survey Form
+
+   FOR BLC FORM
+
+   Step 6:
+   User will then be taken to the Beneficiary Survey Form for all verticals. The
+   survey form has different sections.
+
+ i. Personal Details: In this
+        section of the form,
+        User's Name, Aadhar and
+        Preferred component that
+        the User has already
+        selected will be auto
+        filled. The User needs to
+        fill their other personal
+        details manually.
+
+ii. In case of
+        Married Female,
+        Husband's Aadhar
+        details are
+        mandatory.
+
+iii. Widow: Please select Late
+        from the dropdown
+        menu.
+
+iv. Deceased
+        Father/Mother: Please
+        select Late from the
+        dropdown.
+                                                           22
+v. At the bottom of the `Personal Details' tab, Users who are beneficiaries of PM
+
+        SVANidhi, different artisans under Pradhan Mantri-Vishwakarma Scheme,
+        Anganwadi Workers, Building and other Construction Workers, slum
+        dwellers/chawls etc. need to specify by clicking on checkbox and giving ID
+        details where required. Priority will be given to them under Special Focus
+        Group.
+
+            PMAY-U 2.0 also aims to focus on special groups such as Safai Karmi,
+            PMSVANidhi beneficiaries and different artisans under Pradhan
+            Mantri-Vishwakarma Scheme, Anganwadi Workers, Building and
+            other Construction Workers, slum dwellers/chawls etc.
+            Preference will also be given to minority classes. Applicant can
+            choose their category from dropdown. In case of Minority-
+            SC/ST/OBC, the applicant needs to upload their caste certificate.
+
+vi. Details of Family Member
+        The system will auto-fill family member details, based on the
+        information provided in Personal details. User can review these details,
+        make edits, or add other family members information as required. In
+        case of Married Male, please specify details of the wife in this section.
+                                                             23
+vii. Household Details
+
+         The system will automatically fill the Household Category, pucca house
+         ownership and Average Annual Household Income. Users are required
+         to upload Income certificate (pdf file less than 200 kb), select years of
+         stay in the town/city, and fill in the house ownership details, such as
+         own/rent/no house. Then mention the type of house kutcha/semi-
+         pucca/pucca; then select the type of roof from dropdown.
+
+viii. Address:
+         Users also need to give their Present Address/Permanent Address/and
+         Construction site address.
+         Note: For BLC projects, it is mandatory to upload the Land document for the
+         construction site (pdf file less than 5 MB).
+                                                           24
+
+ix. Bank Details
+        Users must enter their active bank account number and IFSC code
+        to generate Bank details.
+                                                           25
+x. State/UT sponsored scheme details
+
+   Pradhan Mantri Awas Yojana-Urban 2.0 (PMAY-U 2.0) will align with various initiatives
+   like the Smart Cities Mission, Swachh Bharat Mission (SBM-U 2.0), National Urban
+   Livelihoods Mission (DAY-NULM), PM Vishwakarma, PM SVANidhi, and others, along
+   with relevant state schemes. This convergence will enhance resource utilization. The
+   program's name remains PMAY-U 2.0. To improve affordability, in addition to central
+   and state funds, contributions from sources like the Building and Other Construction
+   Workers Welfare Fund and District Mineral Fund may be used for houses granted to
+   specific beneficiary groups.
+
+xi. Users who have availed any Central or State/UT sponsored scheme such as
+        AMRUT 2.0, SBM-U etc., as listed in the form, need to select the scheme
+        while filling the form.
+
+   Submitting the Survey Form
+   After the User clicks on the Final Save, she/he will not be able make any
+   modifications. The system will generate an Application ID Number. Once
+   the User clicks on the OK button, the system will generate an
+   acknowledgment form mentioning that the User's application has been
+   successfully forwarded to the concerned Urban Local Body for verification
+   and processing as per the guidelines of the scheme.
+                                                           26
+
+   If User is applying under AHP Component
+
+   Step 6:
+   User will then be taken to the Beneficiary Survey Form for all verticals. The
+   survey form has different sections.
+
+  i.Personal Details: In this
+   section of the form, User's
+   Name, Aadhar number and
+   preferred component of the
+   scheme that the User has
+   already selected will be auto
+   filled. The User needs to fill
+   their other personal details
+   manually.
+ii.In case of
+   Married Female:
+   Husband's Aadhar details
+   are mandatory.
+iii. Widow:
+   Please select Late from
+   dropdown menu.
+iv. Deceased Father/
+
+     Mother:
+   Please select Late from the
+   dropdown.
+
+v. Any parent's Aadhar not
+   available: Select NA from
+   the dropdown.
+
+vi. At the bottom of the `Personal Details' tab, Users who are beneficiaries of PM
+        SVANidhi, different artisans under Pradhan Mantri-Vishwakarma Scheme,
+        Anganwadi Workers, Building and other Construction Workers, slum
+        dwellers/chawls etc., need to specify by clicking on checkbox and giving ID
+                                                             27
+         details where required. Priority will be given to them under Special Focus
+         Group.
+vii. Details of Family Member
+         The system will auto-fill family member details, based on the
+         information provided in Personal details. User can review these details,
+         make edits, or add other family members information as required. In
+         case of Married Male, please specify details of wife in this section.
+
+viii. Household Details
+         The system will automatically fill the Household Category, Pucca house
+         ownership and Average Annual Household Income. Users are required
+         to upload Income certificate (pdf file less than 200 kb), select years of
+         stay in the town/city, and fill in the house ownership details, such as
+         own/rent/no house. Then mention the type of house-Kutcha/semi-
+         pucca/pucca; then select the type of roof from dropdown
+                                                           28
+
+ix. Address
+        Users also need to
+        enter their Present
+        Address/Permanent
+        Address and AHP
+        Project Location details
+        by entering the State,
+        District and city details.
+        They must mention if
+        they have identified any
+        AHP Project.
+                                                           29
+
+x. Bank Details
+        Users must enter their active bank account number, and IFSC code to
+        generate Bank details.
+
+xi. Submitting the Survey Form
+        After the User clicks on the Final Save, she/he will not be able make any
+        modifications. The system will generate an Application ID Number. Once
+        the User clicks on the OK button, the system will generate an
+        acknowledgment form mentioning that the User's application has been
+        successfully forwarded to the Urban Local Body concerned for verification
+        and processing as per the guidelines of the scheme.
+                                                       30
+If the User is applying under ISS Component
+
+Step 6: User will then be taken to the Beneficiary Survey Form for all
+verticals. The survey form has different sections.
+
+· Personal Details: In this
+
+section of the form, User's
+
+Name,      Aadhar  and
+
+Preferred       component
+
+scheme will be auto filled.
+
+The User needs to fill their
+
+other personal     details
+
+manually.
+
+In case of-
+
+Married Female:
+
+Husband's Aadhar
+
+details are mandatory.
+
+Widow:
+
+Please select Late from
+
+dropdown menu.
+
+Deceased
+
+Father/Mother:
+
+Please select Late from
+
+the dropdown.
+
+Any parent's Aadhar not available:
+
+Select NA from the dropdown.
+
+· Details of Family Member
+                                                       31
+    The system will auto-fill family member details, based on the
+    information provided in Personal details. User can review these
+    details, make edits, or add other family members information
+    as required. In case of Married Male, please specify details of the
+    wife in this section.
+
+· Household Details
+
+    The system will automatically fill the Household Category, pucca
+    house ownership and Average Annual Household Income.
+    Users are required to upload Income certificate (pdf file less
+    than 200 kb), select
+                                                       32
+    years of stay in the town/city, and fill the house ownership
+    details, such as own/rent/no house. Then mention the type
+    of house-Kutcha/semi-pucca/pucca; then select the type of
+    roof from dropdown.
+
+· Address
+
+    Users also need to give their Present Address/ Permanent
+    Address/ and Construction site address. Users need to enter
+    the Project Location details.
+                                                       33
+
+· Home Loan Details
+
+    In the ISS Component, Users must provide Home Loan Details.
+    If the User has already availed a Home Loan, select Yes and
+    enter the required details.
+
+In case the User has not yet availed for Home Loan, select No, select
+the State, and select five preferred PLIs. Click on save & continue.
+                                                       34
+
+· Bank Details
+
+    Users must enter their bank account number, and IFSC code
+    to generate Bank details.
+                                                       35
+Submitting the Survey Form
+On the final page, check the acknowledgment box to confirm the
+accuracy of the information provided and click on the Final Save
+button to submit the form.
+
+After the User clicks on the Final Save, she/he will not be able make
+any modifications. The system will generate an Application ID
+Number. Once the User clicks on the OK button, the system will
+generate an acknowledgment form mentioning that the application
+has been successfully forwarded to the concerned Primary Lending
+Institution i.e. Bank, Housing Finance Company etc., for verification
+and processing as per the guidelines of the scheme. Users can click
+on Print button to either save the PDF of their application or print
+it.
+                                                       36
+
+Applicant Login
+
+This section provides a step-by-step guide for applicants to log in
+to the Applicant Portal using their Aadhaar number.
+(i) Click on Login
+
+   (ii) Click on Applicant Login
+
+   (iii) System will display page for the Applicant to login to the portal.
+   - Enter the Aadhaar Number
+   - Name as per Aadhar Number
+   - Click on Generate OTP
+                                                   37
+
+- Enter OTP and Click on Submit.
+- The system will display the application that is submitted by the User.
+- Click on red Withdraw button under the Action
+- Your application will be withdrawn.
+

@@ -1,0 +1,980 @@
+   NHB(ND)/DRS/Policy Circular No.76/2016-17
+   November 1, 2016
+
+   All Registered Housing Finance Companies
+
+   Dear Sir/Madam,
+                         Central Know Your Customer Registry (Corrected)
+
+   Please refer to our Circular NHB(ND)/DRS/Pol. Circular No.59/2013-14 dated January
+   24, 2014, on the captioned subject, advising Housing Finance Companies (HFCs) to
+   take necessary steps and measures required to be in a state of preparedness for on-
+   line uploading of the KYC particulars and documents on the Central Know Your
+   Customer Record Registry (CKYCR).
+
+   2. The Government of India has authorised the Central Registry of Securitisation
+   Asset Reconstruction and Security Interest of India (CERSAI), to act as, and to
+   perform the functions of the Central KYC Record Registry vide the Gazette Notification
+   No. S.O. 3183(E) dated November 26, 2015. The `live run' of the Central KYC Record
+   Registry has started with effect from July 15, 2016 in phased manner beginning with
+   new `individual accounts'.
+
+   3. HFCs are hereby advised to upload the Know Your Customer (KYC) data with
+   CERSAI in respect of new individual accounts opened on or after the date of this
+   Circular. HFCs shall capture the KYC information for sharing with the Central KYC
+   Record Registry in the manner mentioned in the "Prevention of Money-Laundering
+   (Maintenance of Records) Rules, 2005" (and amendments thereto), as required by the
+   revised KYC templates prepared for individuals (Annex-I) and non-individuals/legal
+   entities, as the case may be.
+
+   4. HFCs which are not yet ready to join Central KYC Record Registry process
+
+   immediately, shall take steps to prepare their systems for uploading the KYC data in
+
+   respect of new individual accounts so that the same is completed as soon as possible
+
+   in a time bound manner.
+
+-5 , 4 ,            ,  ,                -110003  Wholly owned by Reserve Bank of India
+                                                 Core 5-A, 4th Floor, India Habitat Centre. Lodhi Road, New Delhi-110003.
+:  011-24649031-35  011-2464 6988, 2464 9041     Phone : PBX 011-2464 9031 Fax : 011-2464 6988, 24649041
+                                                 Website: www.nhb.org.in E- mail: ho@nhb.org.in Gram: NIWAS Bank
+   : www.nhb.org.in -: ho@nhb.org.in :
+
+                    "                                "
+5. HFCs shall prepare a plan for uploading the data in respect of existing individual
+accounts and also include the same in their KYC Policy. Operational Guidelines
+(version 1.1) for uploading the KYC data has been released by CERSAI enclosed
+herewith as Annex-II. Further, `Test Environment' has also been made available by
+CERSAI for use by the HFCs.
+
+Yours faithfully,
+
+(A. P. Saxena)
+General Manager
+                                                                                                                                                            Annex-I
+
+CENTRAL KYC REGISTRY | Know Your Customer (KYC) Application Form | Individual
+
+Important Instructions:                                         E) List of State / U.T code as per Indian Motor Vehicle Act, 1988 is available at the end.
+                                                                F) List of two character ISO 3166 country codes is available at the end.
+A) Fields marked with `*' are mandatory fields.                 G) KYC number of applicant is mandatory for update application.
+                                                                H) For particular section update, please tick ( ) in the box available before the
+B) Please fill the form in English and in BLOCK letters.
+C) Please fill the date in DD-MM-YYYY format.                      section number and strike off the sections not required to be updated.
+D) Please read section wise detailed guidelines / instructions
+
+    at the end.
+
+For office use only                      Application Type*      New          Update
+(To be filled by financial institution)  KYC Number             Normal
+                                         Account Type*                                                       (Mandatory for KYC update request)
+
+                                                                             Simplified (for low risk customers)     Small
+
+1. PERSONAL DETAILS (Please refer instruction A at the end)
+
+                          Prefix                                First Name                 Middle Name                                Last Name
+
+Name* (Same as ID proof)
+
+Maiden Name (If any*)
+
+Father / Spouse Name*
+
+Mother Name*
+
+Date of Birth*            DD             MM  YYYY                                                                                                                PHOTO
+
+Gender*                   M- Male                                           F- Female      T-Transgender                                                    Signature / Thumb
+                                                                                                                                                                 Impression
+Marital Status*           Married                                           Unmarried      Others
+
+Citizenship*              IN- Indian                                        Others (ISO 3166 Country Code         )
+
+Residential Status*       Resident Individual                               Non Resident Indian
+                          Foreign National                                  Person of Indian Origin
+
+Occupation Type*          S-Service ( Private Sector                        Public Sector  Government Sector )
+                          O-Others ( Professional                           Self Employed  Retired Housewife
+                          B-Business                                                                                 Student)
+                          X- Not Categorised
+
+2. TICK IF APPLICABLE RESIDENCE FOR TAX PURPOSES IN JURISDICTION(S) OUTSIDE INDIA (Please refer instruction B at the end)
+
+ADDITIONAL DETAILS REQUIRED* (Mandatory only if section 2 is ticked)
+
+ISO 3166 Country Code of Jurisdiction of Residence*
+
+Tax Identification Number or equivalent (If issued by jurisdiction)*
+
+Place / City of Birth*                                                      ISO 3166 Country Code of Birth*
+
+     3. PROOF OF IDENTITY (PoI)* (Please refer instruction C at the end)                   Passport Expiry Date      DD      MM                             YYYY
+(Certified copy of any one of the following Proof of Identity[PoI] needs to be submitted)
+                                                                                           Driving Licence Expiry Date D D M M Y Y Y Y
+     A- Passport Number
+     B- Voter ID Card                                                                               Identification Number
+     C- PAN Card                                                                                    Identification Number
+     D- Driving Licence
+     E- UID (Aadhaar)
+     F- NREGA Job Card
+     Z- Others (any document notified by the central government)
+     S- Simplified Measures Account - Document Type code
+
+      4. PROOF OF ADDRESS (PoA)*
+       4.1 CURRENT / PERMANENT / OVERSEAS ADDRESS DETAILS (Please see instruction D at the end)
+(Certified copy of any one of the following Proof of Address [PoA] needs to be submitted)
+
+Address Type*           Residential / Business                  Residential                Business               Registered Office                         Unspecified
+Proof of Address*                                                                                                     please specify
+                        Passport                                Driving Licence            UID (Aadhaar)
+Address                                                                                    Others
+  Line 1*               Voter Identity Card                     NREGA Job Card
+  Line 2
+  Line 3                Simplified Measures Account - Document Type code
+
+District*                                                                                            City / Town / Village*
+
+                                                Pin / Post Code*                           State / U.T Code*         ISO 3166 Country Code*
+4.2 CORRESPONDENCE / LOCAL ADDRESS DETAILS * (Please see instruction E at the end)
+Same as Current / Permanent / Overseas Address details (In case of multiple correspondence / local addresses, please fill `Annexure A1')
+
+Line 1*                                                                                                                              City / Town / Village*
+Line 2
+Line 3                                            Pin / Post Code*                  State / U.T Code*                                                             ISO 3166 Country Code*
+District*
+
+4.3 ADDRESS IN THE JURISDICTION DETAILS WHERE APPLICANT IS RESIDENT OUTSIDE INDIA FOR TAX PURPOSES* (Applicable if section 2 is ticked)
+
+Same as Current / Permanent / Overseas Address details                       Same as Correspondence / Local Address details
+
+Line 1*                                                                      ZIP / Post Code*                                        City / Town / Village*
+Line 2                                                                                                                                                        ISO 3166 Country Code*
+Line 3
+State*
+
+5. CONTACT DETAILS (All communications will be sent on provided Mobile no. / Email-ID) (Please refer instruction F at the end)
+
+Tel. (Off)                                                 Tel. (Res)                                                                Mobile
+FAX                                                        Email ID
+
+6. DETAILS OF RELATED PERSON (In case of additional related persons, please fill `Annexure B1' ) (please refer instruction G at the end)
+
+Addition of Related Person  Deletion of Related Person                 KYC Number of Related Person (if available*)
+
+Related Person Type*         Guardian of Minor                     Assignee          Authorized Representative                                                        Last Name
+Name*                       Prefix                First Name                        Middle Name
+
+                            (If KYC number and name are provided, below details of section 6 are optional)
+
+PROOF OF IDENTITY [PoI] OF RELATED PERSON* (Please see instruction (H) at the end)  Passport Expiry Date                                                          DD  MM  YYYY
+A- Passport Number
+B- Voter ID Card                                                                    Driving Licence Expiry Date D D M M Y Y Y Y
+C- PAN Card
+D- Driving Licence                                                                           Identification Number
+E- UID (Aadhaar)                                                                             Identification Number
+F- NREGA Job Card
+Z- Others (any document notified by the central government)
+S- Simplified Measures Account - Document Type code
+
+7. REMARKS (If any)
+
+8. APPLICANT DECLARATION                                                                                                                                                 [Signature / Thumb Impression]
+                                                                                                                                                                  Signature / Thumb Impression of Applicant
+I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief and I undertake to inform you of any changes
+therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I am aware that I may be held liable
+for it.
+
+I hereby consent to receiving information from Central KYC Registry through SMS/Email on the above registered number/email address.
+
+Date : D D M M Y Y Y Y                            Place :
+
+9. ATTESTATION / FOR OFFICE USE ONLY
+
+Documents Received          Certified Copies
+
+                  KYC VERIFICATION CARRIED OUT BY                                                                                    INSTITUTION DETAILS
+                                                                                                                                              [Institution Stamp]
+Date                  DD    MM  YYYY                                         Name
+Emp. Name                                                                    Code
+Emp. Code
+Emp. Designation
+Emp. Branch
+
+                            [Employee Signature]
+CENTRAL KYC REGISTRY | Instructions / Check list / Guidelines for filling Individual KYC Application Form
+
+General Instructions:
+  1 Fields marked with `*' are mandatory fields.
+  2 Tick `' wherever applicable.
+  3 Self-Certification of documents is mandatory.
+  4 Please fill the form in English and in BLOCK Letters.
+  5 Please fill all dates in DD-MM-YYYY format.
+  6 Wherever state code and country code is to be furnished, the same should be the two-digit code as per Indian Motor Vehicle, 1988 and ISO 3166 country code
+          respectively list of which is available at the end.
+  7 KYC number of applicant is mandatory for updation of KYC details.
+  8 For particular section update, please tick () in the box available before the section number and strike off the sections not required to be updated.
+  9 In case of `Small Account type' only personal details at section number 1 and 2, photograph, signature and self-certification required.
+
+A Clarification / Guidelines on filling `Personal Details' section
+        1 Name: Please state the name with Prefix (Mr/Mrs/Ms/Dr/etc.). The name should match the name as mentioned in the Proof of Identity submitted failing which the
+               application is liable to be rejected.
+        2 Either father's name or spouse's name is to be mandatorily furnished. In case PAN is not available father's name is mandatory.
+
+B Clarification / Guidelines on filling details if applicant residence for tax purposes in jurisdiction(s) outside India
+        1 Tax identification Number (TIN): TIN need not be reported if it has not been issued by the jurisdiction. However, if the said jurisdiction has issued a high integrity
+                 number with an equivalent level of identification (a "Functional equivalent"), the same may be reported. Examples of that type of number for individual include, a social
+                 security/insurance number, citizen/personal identification/services code/number, and resident registration number)
+
+C Clarification / Guidelines on filling `Proof of Identity [PoI]' section
+
+1 If driving license number or passport is provided as proof of identity then expiry date is to be mandatorily furnished.
+
+2 Mention identification / reference number if `Z- Others (any document notified by the central government)' is ticked.
+
+3 In case of Simplified Measures Accounts for verifying the identity of the applicant, any one of the following documents can also be submitted and undernoted relevant
+
+code may be mentioned in point 3 (S).
+
+Document Code  Description
+
+01             Identity card with applicant's photograph issued by Central/ State Government Departments, Statutory/ Regulatory Authorities, Public Sector
+
+               Undertakings, Scheduled Commercial Banks, and Public Financial Institutions.
+
+02             Letter issued by a gazetted officer, with a duly attested photograph of the person.
+
+D Clarification / Guidelines on filling `Proof of Address [PoA] - Current / Permanent / Overseas Address details' section
+
+1 PoA to be submitted only if the submitted PoI does not have an address or address as per PoI is invalid or not in force.
+
+2 State / U.T Code and Pin / Post Code will not be mandatory for Overseas addresses.
+
+3 In case of Simplified Measures Accounts for verifying the address of the applicant, any one of the following documents can also be submitted and undernoted relevant
+
+code may be mentioned in point 4.1.
+
+Document Code  Description
+
+01             Utility bill which is not more than two months old of any service provider (electricity, telephone, post-paid mobile phone, piped gas, water
+
+               bill).
+
+02             Property or Municipal Tax receipt.
+
+03             Bank account or Post Office savings bank account statement.
+
+04             Pension or family pension payment orders (PPOs) issued to retired employees by Government Departments or Public Sector Undertakings, if
+
+               they contain the address.
+
+05             Letter of allotment of accommodation from employer issued by State or Central Government departments, statutory or regulatory bodies,
+
+               public sector undertakings, scheduled commercial banks, financial institutions and listed companies. Similarly, leave and license agreements
+
+               with such employers allotting official accommodation.
+
+06             Documents issued by Government departments of foreign jurisdictions and letter issued by Foreign Embassy or Mission in India.
+
+E Clarification / Guidelines on filling `Proof of Address [PoA] - Correspondence / Local Address details' section
+        1 To be filled only in case the PoA is not the local address or address where the customer is currently residing. No separate PoA is required to be submitted.
+        2 In case of multiple correspondence / local addresses, Please fill `Annexure A1'
+
+F Clarification / Guidelines on filling `Contact details' section
+        1 Please mention two- digit country code and 10 digit mobile number (e.g. for Indian mobile number mention 91-9999999999).
+        2 Do not add `0' in the beginning of Mobile number.
+
+G Clarification / Guidelines on filling `Related Person details' section
+        1 Provide KYC number of related person if available.
+
+H Clarification / Guidelines on filling `Related Person details - Proof of Identity [PoI] of Related Person' section
+        1 Mention identification / reference number if `Z- Others (any document notified by the central government)' is ticked.
+                                   List of two - digit state / U.T codes as per Indian Motor Vehicle Act, 1988
+
+            State / U.T                     Code              State / U.T                                           Code                           State / U.T                         Code
+Andaman & Nicobar                            AN   Himachal Pradesh                                                   HP                 Pondicherry                                     PY
+Andhra Pradesh                               AP   Jammu & Kashmir                                                    JK                 Punjab                                          PB
+Arunachal Pradesh                            AR   Jharkhand                                                          JH                 Rajasthan                                       RJ
+Assam                                        AS   Karnataka                                                          KA                 Sikkim                                          SK
+Bihar                                        BR   Kerala                                                             KL                 Tamil Nadu                                      TN
+Chandigarh                                   CH   Lakshadweep                                                        LD                 Telangana                                       TS
+Chattisgarh                                  CG   Madhya Pradesh                                                     MP                 Tripura                                         TR
+Dadra and Nagar Haveli                       DN   Maharashtra                                                       MH                  Uttar Pradesh                                   UP
+Daman & Diu                                  DD   Manipur                                                           MN                  Uttarakhand                                     UA
+Delhi                                        DL   Meghalaya                                                          ML                 West Bengal                                    WB
+Goa                                          GA   Mizoram                                                            MZ                 Other                                           XX
+Gujarat                                      GJ   Nagaland                                                           NL
+Haryana                                      HR   Orissa                                                             OR
+
+                                                  List of ISO 3166 two- digit Country Code
+
+             Country               Country                    Country            Country                    Country                     Country                      Country           Country
+                                    Code                                          Code                                                   Code                                           Code
+Afghanistan                           AF    Dominican Republic                      DO    Libya             former  Yugoslav  Republic     LY    Saint Pierre and Miquelon               PM
+Aland Islands                         AX    Ecuador                                 EC    Liechtenstein                                     LI   Saint Vincent and the Grenadines         VC
+Albania                               AL    Egypt                                   EG    Lithuania                                        LT    Samoa                                    WS
+Algeria                               DZ    El Salvador                             SV    Luxembourg                                       LU    San Marino                               SM
+American Samoa                        AS    Equatorial Guinea                       GQ    Macao                                           MO     Sao Tome and Principe                    ST
+Andorra                               AD    Eritrea                                 ER    Macedonia, the                                  MK     Saudi Arabia                             SA
+                                                                                          of
+Angola       Barbuda                  AO    Estonia                                 EE    Madagascar                                      MG     Senegal                                  SN
+Anguilla                              AI    Ethiopia                                ET    Malawi                                          MW     Serbia                                   RS
+Antarctica                            AQ    Falkland Islands (Malvinas)             FK    Malaysia                                         MY    Seychelles                               SC
+Antigua and                           AG    Faroe Islands                           FO    Maldives                                        MV     Sierra Leone                             SL
+Argentina                             AR    Fiji                                    FJ    Mali                                             ML    Singapore                                SG
+Armenia                              AM     Finland                                 FI    Malta                                            MT    Sint Maarten (Dutch part)                SX
+Aruba                                AW     France                                  FR    Marshall Islands                                MH     Slovakia                                 SK
+Australia                             AU    French Guiana                           GF    Martinique                                      MQ     Slovenia                                 SI
+Austria                               AT    French Polynesia                        PF    Mauritania                                      MR     Solomon Islands                          SB
+Azerbaijan                            AZ    French Southern Territories             TF    Mauritius                                       MU     Somalia                                  SO
+Bahamas                               BS    Gabon                                   GA    Mayotte                                          YT    South Africa                             ZA
+Bahrain                               BH    Gambia                                 GM     Mexico                                          MX     South Georgia and the South Sandwich     GS
+                                                                                                                                                 Islands
+Bangladesh                            BD    Georgia                              GE       Micronesia, Federated States of                  FM    South Sudan                              SS
+Barbados                              BB    Germany                                                                                       MD     Spain                                    ES
+Belarus                               BY    Ghana                                DE       Moldova, Republic of                            MC     Sri Lanka                                LK
+Belgium                               BE    Gibraltar                                                                                     MN     Sudan                                    SD
+Belize                                BZ    Greece                               GH       Monaco                                           ME    Suriname                                 SR
+Benin                                 BJ    Greenland                                                                                      MS    Svalbard and Jan Mayen                   SJ
+Bermuda                              BM     Grenada                              GI       Mongolia                                        MA     Swaziland                                SZ
+Bhutan                                BT    Guadeloupe                                                                                     MZ    Sweden                                   SE
+Bolivia, Plurinational State of       BO    Guam                                 GR       Montenegro                                      MM     Switzerland                              CH
+Bonaire, Sint Eustatius and Saba      BQ    Guatemala                                                                                      NA    Syrian Arab Republic                     SY
+Bosnia and Herzegovina                BA    Guernsey                             GL       Montserrat                                       NR    Taiwan, Province of China               TW
+Botswana                             BW     Guinea                                                                                         NP    Tajikistan                               TJ
+Bouvet Island                         BV    Guinea-Bissau                        GD       Morocco                                          NL    Tanzania, United Republic of             TZ
+Brazil                                BR    Guyana                                                                                         NC    Thailand                                 TH
+British Indian Ocean Territory        IO    Haiti                                GP       Mozambique                                       NZ    Timor-Leste                              TL
+Brunei Darussalam                     BN    Heard Island and McDonald Islands                                                              NI    Togo                                     TG
+Bulgaria                              BG    Holy See (Vatican City State)        GU       Myanmar                                          NE    Tokelau                                  TK
+Burkina Faso                          BF    Honduras                                                                                       NG    Tonga                                    TO
+Burundi                               BI    Hong Kong                            GT       Namibia                                          NU    Trinidad and Tobago                      TT
+Cabo Verde                            CV    Hungary                                                                                        NF    Tunisia                                  TN
+Cambodia                              KH    Iceland                              GG       Nauru                                           MP     Turkey                                   TR
+Cameroon                             CM     India                                                                                          NO    Turkmenistan                             TM
+Canada                                CA    Indonesia                            GN       Nepal                                           OM     Turks and Caicos Islands                 TC
+Cayman Islands                        KY    Iran, Islamic Republic of                                                                      PK    Tuvalu                                   TV
+Central African Republic              CF    Iraq                                 GW       Netherlands                                     PW     Uganda                                   UG
+Chad                                  TD    Ireland                                                                                        PS    Ukraine                                  UA
+Chile                                 CL    Isle of Man                          GY       New Caledonia                                    PA    United Arab Emirates                     AE
+China                                 CN    Israel                                                                                         PG    United Kingdom                           GB
+Christmas Island                      CX    Italy                                HT       New Zealand                                      PY    United States                            US
+Cocos (Keeling) Islands               CC    Jamaica                                                                                        PE    United States Minor Outlying Islands    UM
+Colombia                              CO    Japan                                HM       Nicaragua                                        PH    Uruguay                                  UY
+Comoros                              KM     Jersey                                                                                         PN    Uzbekistan                               UZ
+Congo                                 CG    Jordan                               VA       Niger                                            PL    Vanuatu                                  VU
+Congo, the Democratic Republic of     CD    Kazakhstan                                                                                     PT    Venezuela, Bolivarian Republic of        VE
+the                                                                              HN       Nigeria
+Cook Islands                          CK                                                                                                   PR    Viet Nam                                 VN
+Costa Rica                            CR                                         HK       Niue                                             QA    Virgin Islands, British                  VG
+Cote d'Ivoire !Côte d'Ivoire          CI                                                                                                   RE    Virgin Islands, U.S.                     VI
+                                                                                 HU       Norfolk Island
+                                      HR                                                                                                   RO    Wallis and Futuna                        WF
+                                      CU                                         IS       Northern Mariana Islands                         RU    Western Sahara                           EH
+                                     CW                                                                                                   RW     Yemen                                    YE
+                                      CY                                         IN       Norway                                           BL    Zambia                                   ZM
+                                      CZ                                                                                                   SH    Zimbabwe                                 ZW
+                                                                                 ID       Oman
+                                      DK                                                                                                   KN
+                                      DJ                                         IR       Pakistan                                         LC
+                                     DM                                                                                                    MF
+                                                                                 IQ       Palau
+
+                                                                                 IE       Palestine, State of
+
+                                                                                 IM       Panama
+
+                                                                                 IL       Papua New Guinea
+
+                                                                                 IT       Paraguay
+
+                                                                                 JM       Peru
+
+                                                                                 JP       Philippines
+
+                                                                                 JE       Pitcairn
+
+                                                                                 JO       Poland
+
+                                                                                 KZ       Portugal
+
+                                            Kenya                                KE       Puerto Rico
+                                            Kiribati
+                                            Korea, Democratic People's Republic  KI       Qatar
+                                            of
+                                            Korea, Republic of                   KP       Reunion !Réunion
+                                            Kuwait
+Croatia                                     Kyrgyzstan                           KR       Romania
+Cuba                                        Lao People's Democratic Republic
+Curacao !Curaçao                            Latvia                               KW       Russian Federation
+Cyprus
+Czech Republic                              Lebanon                              KG       Rwanda
+                                            Lesotho
+                                            Liberia                              LA       Saint Barthelemy !Saint Barthélemy
+
+                                                                                 LV       Saint Helena, Ascension and Tristan da
+
+                                                                                          Cunha
+
+Denmark                                                                          LB       Saint Kitts and Nevis
+Djibouti
+Dominica                                                                         LS       Saint Lucia
+
+                                                                                 LR       Saint Martin (French part)
+Annexure A1
+
+CENTRAL KYC REGISTRY | Know Your Customer (KYC) Application Form | Individual | Correspondence / Local Address
+
+Important Instructions:                                         E) List of State / U.T code as per Indian Motor Vehicle Act, 1988 is available at the end.
+
+A) Fields marked with `*' are mandatory fields.
+
+B) Please fill the form in English and in BLOCK letters.        F) List of two character ISO 3166 country codes is available at the end.
+C) Please fill the date in DD-MM-YYYY format.                   G) KYC number of applicant is mandatory for update application.
+D) Please read section wise detailed guidelines / instructions  H) For particular section update, please tick ( ) in the box available before the
+
+    at the end.                                                    section number and strike off the sections not required to be updated.
+
+For office use only  Application Type*                          New         Update
+
+(To be filled by financial institution) KYC Number                                  (Mandatory for KYC update request)
+
+1. CORRESPONDENCE / LOCAL ADDRESS DETAILS (Please see instruction E at the end)
+
+       Same as Current / Permanent / Overseas Address details
+Line 1*
+
+Line 2
+
+Line 3                                                                              City / Town / Village*
+
+District*                                           Pin / Post Code*                State / U.T Code*                                                               ISO 3166 Country Code*
+
+2. CONTACT DETAILS (All communications will be sent on provided Mobile no./ Email-ID) (Please refer instruction F at the end)
+
+Tel. (Off)                                                      Tel. (Res)                                                                                  Mobile
+FAX                                                             Email ID
+
+3. APPLICANT DECLARATION
+
+I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief and I undertake to inform you of any changes
+therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I am aware that I may be held
+liable for it.
+
+Date : D D M M Y Y Y Y                              Place :                                                                                                                [Signature / Thumb Impression]
+                                                                                                                                                                    Signature / Thumb Impression of Applicant
+Annexure B1
+
+CENTRAL KYC REGISTRY | Know Your Customer (KYC) Application Form | Individual | Related Person
+
+Important Instructions:                                         E) List of State / U.T code as per Indian Motor Vehicle Act, 1988 is available at the end.
+
+A) Fields marked with `*' are mandatory fields.
+
+B) Please fill the form in English and in BLOCK letters.        F) List of two character ISO 3166 country codes is available at the end.
+C) Please fill the date in DD-MM-YYYY format.                   G) KYC number of applicant is mandatory for update application.
+D) Please read section wise detailed guidelines / instructions  H) For particular section update, please tick ( ) in the box available before the
+
+    .at the end.                                                   section number and strike of the sections not required to be updated.
+
+For office use only              Application Type*              New         Update
+
+(To be filled by financial institution) KYC Number                                                               (Mandatory for KYC update request)
+
+1. DETAILS OF RELATED PERSON (Please refer instruction G at the end)
+
+     Addition of Related Person  Deletion of Related Person                 KYC Number of Related Person (if available*)
+Related Person Type*
+                                  Guardian of Minor                         Assignee        Authorized Representative
+Name*                            Prefix
+                                                                First Name                  Middle Name                                                         Last Name
+
+                                 (If KYC number and name are provided, below details of section 1 are optional)
+
+PROOF OF IDENTITY (PoI) OF RELATED PERSON* (Please see instruction (H) at the end)          Passport Expiry Date                                            DD  MM  YYYY
+
+A- Passport Number                                                                          Driving Licence Expiry Date D D                                     MM  YYYY
+B- Voter ID Card
+C- PAN Card                                                                                          Identification Number
+D- Driving Licence                                                                                   Identification Number
+E- UID (Aadhaar)
+F- NREGA Job Card
+Z- Others (any document notified by the central government)
+S- Simplified Measures Account - Document Type code
+
+2. APPLICANT DECLARATION                                                                                                                                    [Signature / Thumb Impression]
+
+I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief and I undertake to inform you of any changes
+therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I am aware that I may be held
+liable for it.
+
+Date : D D M M Y Y Y Y                                 Place :                                                                         Signature / Thumb Impression of Applicant
+                                                                                                                 INSTITUTION DETAILS
+3. ATTESTATION / FOR OFFICE USE ONLY
+                                                                                                                          [Institution Stamp]
+Documents Received               Certified Copies
+
+                  KYC VERIFICATION CARRIED OUT BY
+
+Date                 DD          MM              YYYY                                 Name
+Emp. Name                                                                             Code
+Emp. Code
+Emp. Designation
+Emp. Branch
+
+                                 [Employee Signature]
+                                                                                                                                      Annex-II
+
+     CENTRAL REGISTRY OF SECURITISATION ASSET
+RECONSTRUCTION AND SECURITY INTEREST OF INDIA
+
+                                    (CERSAI)
+
+           CENTRAL KYC REGISTRY OPERATING GUIDELINES 2016
+                                              Version 1.1
+
+                                                         1
+ CENTRAL KYC REGISTRY OPERATING GUIDELINES 2016
+
+ The Government of India vide their Notification dated November 26, 2015
+ authorised the Central Registry of Securitisation Asset Reconstruction and Security
+ Interest of India (CERSAI), set up under sub-section (1) of Section 20 of the
+ Securitisation and Reconstruction of Financial Assets and Enforcement of Security
+ Interest Act, 2002 (54 of 2002), to act as and to perform the functions of the Central
+ KYC Records Registry under the said rules, including receiving, storing,
+ safeguarding and retrieving the KYC records in digital form of a "client", as defined
+ in clause (ha) of sub-section (1) of Section 2 of the Prevention of Money-Laundering
+ Act, 2002. The Central Government have also amended the Prevention of Money-
+ laundering (Maintenance of Records) Rules, 2005 vide Notification dated 7th July,
+ 2015 for the purpose of establishment of Central KYC Registry. As per Prevention of
+ Money-laundering (Maintenance of Records) Amendment Rules, 2015, Rule 9 (1A),
+ every reporting entity shall within three days after the commencement of an
+ account-based relationship with a client, file the electronic copy of the clients KYC
+ records with the Central KYC Registry.
+ The Operating Guidelines in the regard are as under:
+
+I. Definitions
+
+ In these guidelines, unless the context otherwise requires, the terms defined herein
+ shall bear the meanings assigned to them below -
+
+               a) "Act" means the Prevention of Money Laundering Act, 2002.
+               b) "Rules" means Prevention of Money Laundering (Maintenance of
+
+                    Records) Rules, 2005.
+               c) "Central KYC Records Registry" (CKYCR) means an entity defined
+
+                    under 2(1) (aa) of the Rules.
+                                                               2
+                d) "Reporting Entity" means an entity defined under sub-section (wa) of
+                     section 2 of the Act.
+
+                e) "Customer" means a client as defined under sub-section (ha) of sub-
+                     section 2 of the Act.
+
+                f) "KYC" means the due diligence procedure prescribed by the regulator
+                     for identifying and verifying the proof of address, proof of identity and
+                     compliance with rules, regulations, guidelines and circulars issued by
+                     the regulator or any other statutory authority under the Act from time
+                     to time.
+
+                g) "KYC identifier" means a unique identifier for the customer generated
+                     by the Central KYC Registry and notified to the reporting entities.
+
+                h) "Operating Guidelines" means operating instructions made by the
+                     Central KYC Registry in co-ordination with the regulator/s.
+
+            All other words and expressions used but not defined in these guidelines
+            shall have the same meaning as have been assigned to them under the Act or
+            the Prevention of Money laundering (Maintenance of Records) Rules, 2005 or
+            any statutory modification or re-enactment thereto, as the case may be.
+
+II. Functions and Obligations of Central KYC Registry
+
+   The Central KYC Registry shall have the following functions and obligations:
+
+                a) Shall have a secure electronic connectivity with the registered
+                     reporting entities. The web address of Central KYC Registry portal is
+                     https://www.ckycindia.in
+
+                b) Shall have a secure data transmission link with the ID issuing
+                     authorities wherever feasible and use such electronic data, as
+                     permitted, and preserve it with the Central KYC Registry.
+
+                c) Shall be responsible for electronically (i) storing (ii) safeguarding and
+                     (iii) retrieving the Know Your Customer (KYC) records and making
+                     such records available online to reporting entities or Director.
+
+                                                                3
+                 d) Information updated about a customer shall be disseminated on
+                      request by Central KYC Registry to any reporting entity that avail the
+                      services of the Central KYC Registry in respect of the customer.
+
+                 e) The services of the Central KYC Registry will be available on payment
+                      of prescribed fee, in advance.
+
+                 f) Shall process the KYC records received from a reporting entity for de-
+                      duplication and issue a unique KYC Identifier for each client to the
+                      reporting entity.
+
+                 g) Ensure that the integrity of the electronic systems for records is
+                      maintained and accessible at all material times.
+
+                 h) Take all precautions necessary to ensure that the electronic Know Your
+                      Customer (KYC) records are not lost, destroyed or tampered with and
+                      that sufficient back up of electronic records is available at all times at a
+                      different place.
+
+                 i) Take all reasonable measures to prevent unauthorized access to its
+                      KYC database.
+
+III. Functions and obligations of the reporting entity
+
+       The reporting entity shall have the following functions and obligations:
+
+                  a) Reporting entities shall be required to register with the Central KYC
+                         Registry in accordance with the processes and instructions issued.
+
+                  b) While commencing an account based relationship, reporting entity
+                         shall verify the identity of the customer and perform the initial due
+                         diligence of the customer.
+
+                  c) Where a customer submits a KYC Identifier to a reporting entity,
+                         then such reporting entity shall download the KYC records from the
+                         Central KYC Registry by using the KYC Identifier and shall not
+                         require a customer to submit the documents again unless
+
+                                                                 4
+                         i) There is a change in the information of the customer as existing in
+                         the records of Central KYC Registry.
+                         ii) The current address of the client is required to be verified.
+                         iii) The reporting entity considers it necessary in order to verify the
+                         identity or address of the client, or to perform enhanced due
+                         diligence or to build an appropriate risk profile of the client.
+                  d) The reporting entity shall not use the KYC data of a customer
+                         obtained from the Central KYC Registry for purposes other than
+                         verifying the identify or address of the client and shall not transfer
+                         KYC records or any information contained therein to any third party
+                         unless authorised to do so by the client or by the Regulator or by the
+                         Director.
+                  e) The reporting entity which performed the last KYC verification or
+                         sent updated information in respect of a client shall be responsible
+                         for verifying the authenticity of the identity or address of the client.
+
+                  The prescribed fee is payable by the reporting entity for each type of
+                  transaction and Central KYC Registry will collect such fees from the
+                  reporting entities, in advance.
+
+IV. Operating Guidelines to the Reporting Entities
+             a) Central KYC Registry application can be accessed by
+                 registered/authorised institutions or other notified institutions under the
+                 Prevention of Money Laundering Act or rules framed by the Government
+                 of India or any Regulator (RBI, SEBI, IRDA and PFRDA) thereunder.
+             b) Every reporting entity has to register itself on the Central KYC Registry
+                 portal (https://www.ckycindia.in)with 2 Primary Users who in turn can
+                 create more users (makers and checkers).
+
+                      A. Registration
+                          Registration process entails the following:
+
+                                                                 5
+       i. Entry of the requisite details on the registration screen by the Nodal
+             Officer/Authorised Signatory of the reporting entity and online
+             submission of the same.
+
+      ii. Upon submission, reference ID will be generated and an email shall
+             be sent to Nodal Officer/Authorised Signatorys registered email
+             ID. Reporting entity can check the current registration status on the
+             CKYC Portal by the reference number generated.
+
+     iii. Duly signed form along with following supporting documents shall
+             be sent to Central KYC Registry:
+
+         · Duly Signed institution registration form
+         · Regulator License/Certificate/Notification
+         · PAN Card of the entity
+         · Corporate Identification Number (in case regulator issues multiple
+         licenses to an entity)
+         · Registration Certificate (In case of Co-operative Banks/societies)
+         · Authorization letter by Competent Authority for Admin users
+         · Certified copy of photo identity card of the Admin users issued by
+         the institution
+         · Certified copy of the proof of the identity of the Admin users
+
+After verification of the documents, Central KYC Registrys administrator will
+authorize the request for registration of entity.
+
+         i. In case of discrepancies, Registrys administrator shall put the
+         request on hold till the discrepancies are rectified.
+          ii. Upon successful registration, user credentials will be emailed to
+         the Admin and Co-Admin users.
+
+User ID and a link for generation of password will be provided to the users on
+their registered email. For password generation, the reporting entity admin
+user will be required to click on the link provided in e-mail. The link will
+redirect the user to the screen for password generation / reset where the user
+has to enter the registered mobile number. Upon authentication of the mobile
+
+                                                   6
+        number, an OTP will be sent to the user via SMS which needs to be entered on
+        the screen and then the user may reset the password.
+The process flow for Financial institution registration has been illustrated below:
+
+                                                             7
+Access hierarchy:
+
+The Admin / Co-admin users of the institutions may create Maker/Checker users as
+per their institutions requirement. There are three levels of users:
+
+              Institution
+                      o Admin
+                      o User
+
+              Region
+                      o Admin
+                      o User
+
+              Branch
+                      o Admin
+                      o User
+
+All activities e.g. creation/deactivation of users, creation/updation of KYC records,
+fee payments etc. require Maker-Checker process.
+
+Digital Signature:
+
+              a) Every reporting entity can have access to the CKYCR portal through
+                     digital signature.
+
+              b) Digital signature is validated each time.
+              c) Type of Digital Signature required is Class II or Class III
+
+SFTP Access:
+
+SFTP access is provided to Reporting entities to upload/download files over a
+secure connection.
+
+              B. Upload of KYC Record
+             a) The data captured as per the common KYC template is to be uploaded
+
+                  on the Central KYC portal along with the scanned copy of the
+                  supporting documents (PoI/PoA). For an individual record, the
+                  signature and photograph is to be cropped separately and uploaded.
+
+                                                             8
+b) The specifications for scanning the supporting documents and
+       photograph are stated below:
+                  i. Document should be scanned in grey-scale with a
+                      scanning resolution of 150-200 DPI.
+                           a. Photograph must be a recent passport size,
+                               preferably in colour. However, scanning has to be
+                               in colour mode.
+                           b. Dimensions 200 x 230 pixels
+                           c. Size of photograph should be between 20kb-50kb
+                 ii. Acceptable file format : '.tif', '.tiff', '.pdf', '.jpeg', '.jpg'
+                 iii. File Size (Maximum Limit): 350 kb for individual KYC
+                      record.
+
+c) The reporting entity can bulk upload the KYC details and scanned
+    images. Images for each record will be required to be zipped
+    separately. The master zip file will be digitally signed by the reporting
+    entity.
+
+d) Bulk files can be uploaded either at the branch, region or institution
+    level.
+
+e) The entity should ensure adequate internet bandwidth for bulk upload.
+    Bulk upload is provided via SFTP. For bulk upload of size less than 20
+    MB the Central KYC front-end application may also be used. Based on
+    validations, a response file will be generated. This file will contain the
+    success records, error records and download records. The response file
+    is available for download from the Central KYC application.
+
+ C. Search and Download of KYC record
+a) Reporting entity can search for the record by entering CKYC identifier
+
+    or by entering a valid ID type and number.
+b) Reporting entity can download single / bulk records by entering
+
+    CKYC identifier and an authentication factor (viz. date of birth / date
+    of incorporation).
+
+                                              9
+D. Update of KYC record
+In case of change of existing information of a customer (including minor turning
+major) in the records of Central KYC Registry, a reporting entity will initiate an
+update request.
+
+         a) The updated data along with the scanned copy of the supporting
+             document, where required, will be uploaded on the Central KYC Registry
+             portal.
+
+         b) In order to initiate an updation request, the reporting entity will need to
+             have the latest KYC record of the customer.
+
+         c) On updation of a KYC record at the Central KYC Registry, all linked
+             entities (institutions that have either uploaded or downloaded the KYC
+             record for that particular KYC record), will receive an electronic update
+             notification of KYC record. The entities can download the last updated
+             record of the customer.
+
+E. Multiple correspondence addresses:
+Central KYC Registry will enable linkage of multiple correspondence addresses.
+An individual can fill Annexure-A1 for multiple addresses and submit the details to
+the reporting entity which in turn will initiate the update request on the Central KYC
+application.
+
+F. Processing of Records at Central KYC Registry
+De-duplication: The KYC data uploaded on the Central KYC Registry will go
+through de-duplication process on the basis of the demographics (i.e. customer
+name, maiden name, gender, date of birth, mothers name, father/spouse name,
+addresses, mobile number, email id etc.) and identity details submitted. The de-dupe
+process uses normaliser algorithm and custom Indian language phonetics.
+
+                                                            10
+               i. Where an exact match exists for the KYC data uploaded,
+                      the reporting entity will be provided with the KYC
+                      identifier for downloading the KYC record.
+
+              ii. Where a probable match exists for the KYC data
+                      uploaded, the record will be flagged for reconciliation by
+                      the reporting entity.
+
+Reconciliation of Probable match:
+
+a) Central KYC Registry will provide the probable match cases to the
+       reporting entities for reconciliation and resolution.
+
+b) Where the reporting entity confirms the KYC record as an exact
+       match, it will need to download the existing KYC record of the
+       customer.
+
+c) Where the reporting entity confirms the KYC record as a ,,no match,
+       it shall be forwarded for processing and a unique KYC identifier will
+       be generated for the record.
+
+d) The reporting entity will have to resolve the probable matches
+       within 5 working days, beyond which the record will be withdrawn
+       by the Central KYC Registry. However, the same can be uploaded as
+       a new record, if ,,no match is found.
+
+         ID Match:
+
+         The identity detail will be matched by the Central KYC Registry
+         with the ID issuing authority wherever feasible and mechanism is
+         established. Where the ID is not confirmed by the ID issuing
+         authority or the name does not match with the records therein, the
+         record will not be accepted by the Registry and sent back to the
+         reporting entity for verification and uploading again with the
+         updated details.
+
+                                            11
+         We may further advise that the ID match wherever feasible with
+         source authority or the de-duplication process by CKYCR Registry
+         does not substitute the statutory/ regulatory obligations to be
+         fulfilled by reporting entities under the respective statutory
+         provisions/regulatory guidelines.
+
+G. KYC Identifier
+
+a) A 14 digit unique KYC identifier will be generated for new customer records
+ and notified to the reporting entity.
+b) For "Small Accounts" the KYC identifier will additionally have a prefix "S".
+c) For "Simplified Measures Accounts" the KYC identifier will additionally have
+
+   a prefix "L".
+
+H. Fees
+
+         a) Reporting entities can avail services of Central KYC registry on
+             payment of prescribed fee, in advance.
+
+         b) For every service availed, the requisite amount will be deducted from
+             the advance payment made. If the available balance is insufficient, the
+             reporting entity will not be able to avail the services until the balance is
+             replenished.
+
+         c) To make the advance payment, the reporting entity will be required to
+             generate the proforma invoice through the Central KYC application.
+             The reporting entity is required to make an advance payment through
+             NEFT/RTGS in CERSAIs bank account and mention the system
+             generated proforma invoice reference number as the remark.
+
+         d) Upon confirmation of the payment receipt from the bank, balance will
+             be updated. In case of the tax deducted at source (TDS), the reporting
+             entity is required to submit a copy of the TDS certificate to the Central
+             KYC Registry.
+
+                   12
+                e) Reporting entity will be intimated when the balance goes below the
+                     prescribed limit set by them. The reporting entity user can download /
+                     print the usage details till the previous day.
+
+V. Reports
+
+                a) Central KYC application shall provide reports including dashboards,
+                     access trail and audit trail.
+
+      Administration          Operational              Accounts
+                                             · Ledger
+· Log Report          · Dashboard
+· Access Trail        · Daily MIS
+· User Master         · Bulk Upload
+· Institution Master  · Unsolicited Updates
+
+1. Log Report
+   Log report provides the details of the users of the reporting entity who have
+   logged into the Central KYC application, for a specified period of time.
+
+2. Access Trail
+   Access trail report provides an admin user, the pages accessed by the users
+   created under his hierarchy on the Central KYC application.
+
+3. User Master
+   User Master provides the details of the users under the reporting entity for
+   the purposes of accessing Central KYC application.
+
+4. Bulk Upload
+   Using this report, admin user can view the current status along with the count
+   of records for each uploaded batch.
+
+5. Dashboard
+
+                      13
+              Institution Admin User can view the summary of all uploaded KYC records
+              for a specified time period.
+          6. Daily MIS
+              Daily MIS provides the Admin User the details of the uploads for a specified
+              time period.
+
+          7. Update Notification
+              This report provides the notifications for the updates done on a KYC record
+              that is linked to the reporting entity, for a specified time period.
+
+          8. Ledger
+              This provides the summary of the payments made and utilised for the
+              transactions on the Central KYC Registry.
+
+ VI. Retention of Records
+
+                   a) Central KYC Registry shall ensure retention of the Know Your
+                       Customer (KYC) records in an electronic format for a period specified
+                       by the rules and shall ensure that the retrieval of the information is
+                       facilitated within stipulated time period.
+
+VII. Grievance Mechanism
+
+                       Central KYC Registry shall provide for the grievances of reporting
+                       entities to be redressed in a timely and appropriate manner and ensure
+                       records are maintained for such resolution.
+
+                                                                  14
+Contact details of the Central KYC Registry Helpdesk:
+Phone: 022-61102592 (10 lines)
+Email: helpdesk@ckycindia.in
+
+                          *********************************************
+
+                                                            15
+
