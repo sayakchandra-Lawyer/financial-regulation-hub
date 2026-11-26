@@ -22,7 +22,7 @@
 .meaning{padding:14px 16px;border-bottom:1px solid var(--line);font-size:14px}
 .sec-h{display:flex;align-items:baseline;gap:12px;margin:48px 0 16px}.sec-h h2{font-size:26px}
 .upd{padding:18px;display:block;position:relative;transition:border-color .18s}.upd .ua{display:block;font-weight:600;margin:10px 0 4px;line-height:1.4;color:inherit;text-decoration:none}.upd .ua::after{content:"";position:absolute;inset:0;border-radius:inherit}.upd .ua:focus-visible{outline:none}.upd:has(.ua:focus-visible){outline:2px solid var(--accent);outline-offset:2px}.upd .usrc{position:relative;z-index:1;display:inline-flex;align-items:center;gap:4px;margin-top:10px;font-size:13px}.upd:hover{border-color:color-mix(in srgb,var(--accent) 55%,var(--line))}.upd:active{background:var(--surface-2)}
-.upd .m{display:flex;gap:8px;align-items:center;font-size:12.5px;color:var(--muted)}
+.upd .m{display:flex;gap:8px;align-items:flex-start;font-size:12.5px;color:var(--muted);line-height:1.4}.upd .m .dot{flex:none;margin-top:5px}.upd .m .uk{min-width:0;overflow-wrap:anywhere}.upd .m .ud{margin-left:auto;white-space:nowrap;flex:none}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--c);display:inline-block;flex:none}
 .stat{font:500 26px var(--f-d)}
 .ctx{display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:10px;font-size:13.5px;color:var(--ink-2)}
@@ -224,7 +224,7 @@
     const cards = shown.map(u => {
       const it = m.byId.get(u.instrument);
       return `<div class="card upd" style="--c:var(--${k})">
-        <div class="m"><span class="dot"></span><span style="white-space:nowrap">${esc(trunc(u.kind, 60))}</span><span style="margin-left:auto;white-space:nowrap">${fmtDate(u.date, !recent)}</span></div>
+        <div class="m"><span class="dot"></span><span class="uk">${esc(trunc(u.kind, 60))}</span><span class="ud">${fmtDate(u.date, !recent)}</span></div>
         <a class="ua" href="${h}#changes/${encodeURIComponent(u.id)}">${esc(trunc(u.title, 120))}</a>
         ${it ? `<div class="tag">${esc(it.label)}</div>` : ""}<div class="utags">${updTags(m, k, u)}</div>${u.url ? `<a class="lnk usrc" href="${esc(u.url)}" target="_blank" rel="noopener">Source ${I.ext || ""}</a>` : ""}</div>`;
     }).join("");
