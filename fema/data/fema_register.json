@@ -61,7 +61,7 @@
    ],
    "core_obligations": [
     "s. 3: no person may deal in or transfer foreign exchange or foreign security, or make any payment to or receive any payment from a person resident outside India, except as the Act, rules or regulations allow or with general or special permission of RBI",
-    "s. 6(3): RBI may by regulations prohibit, restrict or regulate borrowing or lending in foreign exchange and in rupees between residents and non-residents, and the giving of guarantees",
+    "s. 6(2): RBI, in consultation with the Central Government, specifies the permissible capital account transactions involving debt instruments (which covers borrowing, lending and guarantees), the limits and the conditions; s. 6(2A) gives the Central Government the same power for non-debt instruments (the former s. 6(3) was omitted from 15-10-2019)",
     "s. 10(5): an authorised person must, before carrying out a transaction, require the customer to make such declaration and give such information as reasonably satisfies it that the transaction will not contravene the Act",
     "s. 10(4) and 11: authorised persons must comply with RBI's directions and furnish the information RBI calls for"
    ],
@@ -75,8 +75,10 @@
    "consequences_stated": [
     "s. 11(3): an authorised person that breaches RBI directions or fails to file a return may be fined up to Rs 10,000, and up to Rs 2,000 a day for a continuing breach",
     "s. 13(1): up to three times the sum involved, or up to Rs 2 lakh where the amount cannot be quantified, plus up to Rs 5,000 a day while the contravention continues",
-    "s. 13(1A) to (1C): for foreign exchange, foreign security or immovable property held abroad above the notified threshold (s. 37A), up to three times the sum, confiscation of an equivalent value in India, and imprisonment of up to five years",
-    "s. 42: every person in charge of and responsible to the company for its business, and any director, manager, secretary or officer whose consent, connivance or neglect is shown, is deemed guilty"
+    "s. 13(1A): a person found to have acquired foreign exchange, foreign security or immovable property outside India in contravention of the Act, of aggregate value above the threshold notified under s. 37A, faces a penalty of up to three times the sum involved and confiscation of an equivalent value in India",
+    "s. 13(1B) to (1D): on the adjudicating authority's recommendation, the Directorate of Enforcement may file a criminal complaint; on conviction the person may be imprisoned for up to five years and fined",
+    "s. 42(1): every person in charge of and responsible to the company for the conduct of its business is deemed guilty with the company, unless that person proves the contravention took place without their knowledge or that they exercised due diligence to prevent it",
+    "s. 42(2): separately, a director, manager, secretary or other officer is deemed guilty where the contravention is proved to have taken place with their consent or connivance or to be attributable to their neglect"
    ],
    "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",
    "cross_references": [
@@ -235,7 +237,7 @@
    "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11441&Mode=0",
    "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/BORO17122018141D6FF9D78A4F3BBB96BC74A6C11945.PDF",
    "statutory_powers": [
-    "FEMA s. 6(3)(d), 6(3)(e) and 47"
+    "FEMA s. 6(3)(a), (d) and (e) and 47(2) as made in 2018; amended in 2026 under s. 6(2) and 47(2)"
    ],
    "applies_to": [
     "Persons resident in India borrowing or lending in foreign exchange, or borrowing in rupees from, or lending in rupees to, persons resident outside India",
@@ -257,7 +259,7 @@
     "regulation 3: no resident may borrow or lend in foreign exchange, or borrow rupees from or lend rupees to a non-resident, except as the regulations allow or with RBI permission",
     "regulation 3A: borrowed funds may not be used for chit funds, Nidhi companies, real estate business or farmhouses, agriculture and plantations (with listed exceptions), trading in transferable development rights, transacting in securities (except strategic corporate actions under company law, the SEBI takeover code, SARFAESI or the IBC), repaying a domestic rupee loan taken for a restricted end-use or classified as NPA, or on-lending for any of these",
     "regulation 3A: borrowing for a construction-development project allows plots to be sold only after trunk infrastructure is developed; an industrial park needs at least 10 units, no unit above 50% and at least 66% of the allocable area for industry",
-    "regulation 4B(v) and (vi): a resident individual may borrow up to USD 250,000 from relatives abroad, and a student abroad may borrow up to USD 250,000 for fees and maintenance",
+    "regulation 4B(v) and (vi): a resident individual may borrow up to USD 250,000 (or another amount RBI decides) from relatives abroad, and a resident individual studying abroad may borrow up to USD 250,000 outside India for education fees and maintenance; both are subject to the terms RBI sets in consultation with the Government",
     "regulation 6B(vi): a resident individual may borrow rupees from an NRI or OCI relative on a non-repatriation basis, received by inward remittance or from the lender's NRE, NRO, FCNR(B) or SNRR account; repayment goes only to the lender's NRO account",
     "regulation 7B(i): a registered NBFC or housing finance institution may give a housing loan or vehicle loan to an NRI or OCI cardholder on RBI's terms, and the borrower must not use the money for a restricted end-use",
     "regulation 7B(ii): a resident entity may lend rupees to its NRI or OCI employees under its staff welfare scheme",
@@ -317,13 +319,13 @@
     "Schedule I para 2: an ECB may be raised from any person resident outside India, a foreign branch of an RBI-regulated lender, or a financial institution in IFSC",
     "Schedule I para 3: the ECB may be in foreign currency or rupees, and the currency may be changed in any direction at an exchange rate that does not raise the liability",
     "Schedule I para 4: any commercial borrowing with interest and principal repayment counts, including FCCBs and FCEBs; preference shares or debentures that are not fully and mandatorily convertible, issued on or after 30-04-2007, are ECB; trade credit up to 3 years, export advances, Debt Instruments Regulations investments, convertible notes and FVCI debt are not",
-    "Schedule I para 5: ECB up to the higher of USD 1 billion outstanding or total borrowing of 300% of net worth on the last audited standalone balance sheet; the limit does not apply to entities regulated by a financial sector regulator",
+    "Schedule I para 5: a borrower may raise ECB up to the higher of (a) outstanding ECB of USD 1 billion, or (b) total outstanding borrowing, external and domestic, of 300% of net worth on the last audited standalone balance sheet; outstanding borrowing excludes non-fund based credit and mandatorily convertible securities, and the proposed ECB (other than a refinancing ECB) is counted when testing the limit; the limit does not apply to entities regulated by a financial sector regulator",
     "Schedule I para 6: minimum average maturity of 3 years; manufacturers may borrow at 1-3 years up to USD 150 million outstanding; no call or put option before the minimum maturity, with exceptions for conversion, repayment from fresh equity, refinance, waiver and corporate actions",
     "Schedule I para 7 to 9: cost in line with market conditions (below 3 years, within the trade credit ceiling); prepayment and penal charges at market terms; related-party ECB at arm's length",
     "Schedule I para 10: drawdown only after the Loan Registration Number; rupee proceeds credited to the designated AD bank by the end of the following month and, pending use, kept in an unencumbered fixed deposit of up to one year",
     "Schedule I para 11: security by charge on assets or by guarantee under the Guarantees Regulations 2026, with a security clause in the loan agreement and a no-objection certificate from existing lenders; entities regulated by RBI shall not issue any guarantee",
     "Schedule I para 13: conversion of ECB, including matured unpaid ECB, into equity under the NDI Rules with no extra cost, with lender consent and subject to RBI's restructuring norms where the borrower has RBI-regulated lenders",
-    "ECBs with a Loan Registration Number obtained before the amendment continue on their earlier terms, except for reporting"
+    "regulation 1(3): ECBs with a Loan Registration Number obtained before 16-02-2026 continue to comply with the regulations that applied then (see the earlier ECB framework entry), except that reporting follows the amended regulations; a later refinancing must keep the minimum average maturity of the original borrowing (Schedule I para 12)"
    ],
    "timelines": [
     "Revised Form ECB 1 within 7 calendar days of the end of the month in which a change takes effect",
@@ -520,7 +522,7 @@
    "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13269&Mode=0",
    "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/GUARANTEEREGULATIONS120120264A3C04579A554DC083C1FBEA87D0C30E.PDF",
    "statutory_powers": [
-    "FEMA s. 6(3)(j) and 47"
+    "FEMA s. 6(2) and 47(2)"
    ],
    "applies_to": [
     "Any person resident in India who is a surety, principal debtor or creditor in a guarantee where any other party is resident outside India",
@@ -669,7 +671,9 @@
     "Restriction on structures with more than two layers of subsidiaries"
    ],
    "core_obligations": [
-    "Schedule I para 3: total financial commitment by an Indian entity, including debt and guarantees, may not exceed 400% of its net worth on its last audited balance sheet",
+    "Schedule I para 3: total financial commitment by an Indian entity, including debt and guarantees, may not exceed 400% of its net worth on its last audited balance sheet; the ceiling is not a permission in itself and the other conditions below still apply",
+    "Schedule I para 2: an Indian entity in financial services in India may make ODI in a foreign financial services entity only with the regulatory approvals needed in India and abroad; an entity not in financial services may invest in a foreign financial services entity (other than banking or insurance) only if it has posted net profits in the preceding three financial years",
+    "rule 19(1) and (3): no ODI in real estate activity, gambling, or rupee-linked financial products without RBI approval; no financial commitment in a foreign entity that invests into India in a way that results in more than two layers of subsidiaries (banks, systemically important NBFCs, insurers and Government companies are exempt)",
     "rule 10: an Indian entity that is a non-performing asset, a wilful defaulter or under investigation by a bank, regulator or agency needs a no objection certificate from its lender or the regulator before any financial commitment (deemed given if not refused within 60 days)",
     "Schedule I para 2(4): overseas investment by banks and non-banking financial institutions regulated by RBI is also subject to RBI's conditions"
    ],
@@ -722,7 +726,8 @@
     "regulation 6: the Indian entity may pledge its shares in the foreign entity, or create a charge on its assets, to secure funding for itself or the foreign entity"
    ],
    "timelines": [
-    "regulation 10: Form FC when the financial commitment is made; disinvestment reported within 30 days; Annual Performance Report by 31 December each year"
+    "regulation 10(2): a financial commitment is reported at the time of the outward remittance or of making the commitment, whichever is earlier; a disinvestment within 30 days of receiving the proceeds; a restructuring within 30 days of the restructuring",
+    "regulation 10(4): Annual Performance Report for each foreign entity by 31 December each year (by 31 December of the next year where the entity's accounting year ends on 31 December)"
    ],
    "consequences_stated": [
     "regulation 11: late reporting may be regularised by a late submission fee",
@@ -796,7 +801,7 @@
    "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12099&Mode=0",
    "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/DEBTINSTRUMENTS12BC56E5F7184DF78AC98A09F3E04236.PDF",
    "statutory_powers": [
-    "FEMA s. 6(2), 6(3) and 47"
+    "FEMA s. 6(2)(a) and 47"
    ],
    "applies_to": [
     "Indian companies and NBFCs issuing non-convertible debentures, commercial paper and other debt to non-residents",
@@ -924,13 +929,13 @@
    ],
    "excluded": [],
    "key_concepts": [
-    "Equity instruments are fully and mandatorily convertible",
+    "Equity instruments: equity shares, fully and mandatorily convertible debentures and preference shares, share warrants",
     "Pledge of shares (rule 9(8))",
     "Convertible notes for start-ups (rule 18)",
     "Other financial services: 100% under the automatic route (Schedule I, F.10)"
    ],
    "core_obligations": [
-    "rule 2: only instruments that are fully and mandatorily convertible are equity instruments; others fall under the debt framework",
+    "rule 2(k): equity instruments are equity shares (including partly paid shares), fully and mandatorily convertible debentures and preference shares that are fully paid, and share warrants; debentures and preference shares that are not fully and mandatorily convertible are not equity instruments and are ECB under Schedule I para 4 of the Borrowing and Lending Regulations",
     "rule 9(8): a promoter of an Indian company that has raised ECB may pledge its shares in the company, or in its group companies, to secure the ECB, on terms that are co-terminus with the ECB and subject to an end-use certificate and the AD bank's no objection",
     "rule 9(8): a non-resident may pledge shares of an Indian company to a bank in India, an overseas bank, or an RBI-registered NBFC, for credit facilities to the Indian company or its group",
     "rule 18: a start-up may issue convertible notes of at least Rs 25 lakh in one tranche to a non-resident"
@@ -1048,7 +1053,7 @@
    "official_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10325&Mode=0",
    "official_pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTINO5(R)DE2833D3DFA8415BA5B586CFA3D4A946.PDF",
    "statutory_powers": [
-    "FEMA s. 6(3)(f) and 47"
+    "FEMA s. 6(3)(f) and 47(2), as made in 2016"
    ],
    "applies_to": [
     "Banks and companies (including NBFCs) accepting deposits from non-residents",
@@ -1061,7 +1066,7 @@
     "Accounts through which loans to non-residents are repaid or credited"
    ],
    "core_obligations": [
-    "Schedule 7: an Indian company, including an NBFC registered with RBI, may accept deposits from NRIs and OCIs only on a non-repatriation basis, subject to the rules that apply to it on deposit acceptance",
+    "regulation 6(2) and Schedule 7: a company, body corporate, proprietary concern or firm in India may accept deposits from NRIs and PIOs only on a non-repatriation basis and on the Schedule 7 terms; this does not itself permit deposit taking, so the entity must also be allowed to accept deposits under the Companies Act or, for an NBFC or HFC, under RBI's deposit rules",
     "Sixth Amendment 2026: any person resident outside India may open a Special Non-Resident Rupee (SNRR) account with an AD bank in India or its branch outside India, including in an IFSC"
    ],
    "timelines": [],
@@ -1100,7 +1105,7 @@
    ],
    "core_obligations": [
     "para 9: a company in India, including an NBFC registered with RBI, cannot accept deposits on a repatriation basis, though it may renew deposits accepted earlier under Schedule 6 of the Deposit Regulations",
-    "para 10.1: a proprietorship, firm or company (including an RBI-registered NBFC) may accept deposits from NRIs and PIOs on a non-repatriation basis on the terms of Schedule 7 of the Deposit Regulations"
+    "para 10.1: a proprietorship, firm or company (including an RBI-registered NBFC) may accept deposits from NRIs and PIOs on a non-repatriation basis on the terms of Schedule 7 of the Deposit Regulations, where it is otherwise permitted to accept deposits"
    ],
    "timelines": [],
    "consequences_stated": [],
@@ -1174,7 +1179,8 @@
    ],
    "core_obligations": [
     "Forms ECB 1, Revised ECB 1 and ECB 2 are in the format prescribed in February 2026",
-    "Late submission fee is computed under Part XIII: a fixed amount for returns that do not capture flows, and a fixed amount plus an amount linked to the sum and the delay for returns that capture flows"
+    "Late submission fee is computed under Part XIII: a fixed amount for returns that do not capture flows, and a fixed amount plus an amount linked to the sum and the delay for returns that capture flows",
+    "The late submission fee regularises only delayed reporting; a breach of the substantive conditions (for example the limit, end-use or maturity of an ECB) is dealt with by compounding or adjudication"
    ],
    "timelines": [],
    "consequences_stated": [],
@@ -1382,7 +1388,8 @@
     "AD banks report the reserve daily on CIMS"
    ],
    "timelines": [
-    "Reserve maintained daily until the contract ends"
+    "Applies to contracts undertaken after 10-10-2026",
+    "Reserve deposited in cash with RBI daily and kept until the contract ends"
    ],
    "consequences_stated": [],
    "consequences_general": "Foreign Exchange Management Act, 1999: a person who contravenes the Act, or any rule, regulation, notification, direction or order under it, is liable to a penalty of up to three times the sum involved where it can be quantified, or up to Rs 2 lakh where it cannot, and a further penalty of up to Rs 5,000 a day while the contravention continues (s. 13(1)). The adjudicating authority may also order confiscation of the currency, security or property involved (s. 13(2)). A penalty not paid within 90 days of the notice to pay can lead to civil imprisonment (s. 14). A contravention may be compounded by RBI or the Directorate of Enforcement within 180 days of the application (s. 15), subject to the exclusions in the Compounding Rules. Every officer in charge of a company's business when it contravened is also liable unless they show lack of knowledge or due diligence (s. 42). Appeals lie to the Special Director (Appeals) or the Appellate Tribunal within 45 days (ss. 17 and 19), and to the High Court on a question of law within 60 days (s. 35).",

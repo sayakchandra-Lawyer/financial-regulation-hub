@@ -198,7 +198,7 @@
   {
    "term": "Late submission fee",
    "full": "LSF",
-   "def": "A fee that regularises late FEMA reporting without compounding. Typically Rs 7,500 for returns that do not capture flows, and Rs 7,500 plus 0.025% of the amount for each year of delay for returns that do.",
+   "def": "A fee that regularises late FEMA reporting without compounding. It does not cure a breach of the substantive conditions. Typically Rs 7,500 for returns that do not capture flows, and Rs 7,500 plus 0.025% of the amount for each year of delay for returns that do.",
    "see": [
     "MD-REP",
     "REG-GUAR",
@@ -410,7 +410,7 @@
   {
    "term": "Equity instruments",
    "full": "",
-   "def": "Equity shares, fully and mandatorily convertible debentures and preference shares, and share warrants. Instruments that are not fully and mandatorily convertible are debt and fall under the ECB rules.",
+   "def": "Equity shares (including partly paid shares), fully paid and fully and mandatorily convertible debentures and preference shares, and share warrants. Debentures and preference shares that are not fully and mandatorily convertible are not equity instruments and are treated as ECB.",
    "see": [
     "RULES-NDI",
     "MD-FDI"
@@ -436,7 +436,7 @@
   {
    "term": "FERR",
    "full": "Foreign Exchange Risk Reserve",
-   "def": "A cash reserve of 20% of the rupee notional amount that AD banks keep with RBI on certain rupee derivatives where foreign currency is bought, from October 2026.",
+   "def": "A cash reserve of 20% of the rupee notional amount that AD banks keep with RBI, daily until the contract ends, on rupee derivatives above USD 2 million taken after 10 October 2026 to hedge current account payments where the user buys foreign currency.",
    "see": [
     "APDIR-26-26",
     "APDIR-26-27"
