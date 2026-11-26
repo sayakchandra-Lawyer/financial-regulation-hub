@@ -2,8 +2,8 @@
  "meta": {
   "title": "Stock exchange rules for listed NBFCs, debt issuers and lenders",
   "as_of": "2026-11-26",
-  "count": 50,
-  "in_force": 47,
+  "count": 51,
+  "in_force": 48,
   "lenses": [
    {
     "id": "ENT-EQ",
@@ -297,7 +297,7 @@
    "core_obligations": [
     "Obtain NSE's in-principle approval before giving the placement memorandum and term sheet (GID and KID) to the EBP, or before the issue opens where EBP does not apply",
     "Annexure I certificate: confirm eligibility under the NCS Regulations; that the issuer, promoters, promoter group and directors are not debarred by SEBI; whether any of them is a wilful defaulter (with GID disclosure); that no promoter or director is a fugitive economic offender; whether any SEBI or exchange fine is pending; RBI or other approvals; any past delay in listing and the penal interest paid; REF deposit; and that the issuer will activate the ISIN in both depositories",
-    "Confirm that the Articles allow the debenture trustee to appoint a nominee director, or amend them within six months of listing",
+    "Confirm that the Articles allow the debenture trustee to appoint a nominee director; a first-time issuer may instead undertake, at in-principle approval, to amend them within six months of listing and report compliance (Chapter XXIII of the SEBI NCS Master Circular)",
     "File applications complete in all respects on NEAPS: in-principle by 3 p.m. and final listing by 1.30 p.m. for same-day approval",
     "Pay fees into the issuer's PAN-based virtual account at IDBI Bank"
    ],
@@ -536,7 +536,7 @@
     "Replaces paras 1.1 to 1.3 of Chapter VIII of the SEBI NCS Master Circular with effect from 07-10-2026",
     "Up to 17 ISINs may mature in a financial year, plus six more for s. 54EC capital gains bonds by authorised issuers",
     "Within 17: up to 12 for plain vanilla debt (secured and unsecured together); once the amount outstanding across those 12 maturing in a year reaches Rs 15,000 crore, one more ISIN for each further Rs 3,000 crore",
-    "Up to 5 for structured debt, market-linked debentures, floating rate bonds, zero coupon bonds and Tier II bonds; existing ISINs of these kinds are grandfathered, but no new ISIN in the category for a year that already has five maturing",
+    "Up to 5 for structured debt, market-linked debentures, floating rate bonds, zero coupon bonds and Tier II bonds; outstanding floating rate, zero coupon and Tier II ISINs issued before the circular are grandfathered, but if such legacy ISINs maturing in a year already number five or more, no new ISIN in this category may be issued for that year until the count falls",
     "An issuer that issues only these instruments may have 12 maturing in a year",
     "Excluded from the count: Government-serviced (EBR) bonds and ESG debt securities"
    ],
@@ -574,7 +574,7 @@
     "Para 1.3 of Chapter V of the SEBI NCS Master Circular: a Rs 10,000 face value private placement normally needs at least one merchant banker with public-issue responsibilities"
    ],
    "core_obligations": [
-    "No merchant banker is needed if all of these are met: (i) the issuer is regulated by SEBI, RBI, IRDAI or PFRDA (so an RBI-regulated NBFC or HFC qualifies on this test); (ii) it has been listed on an exchange for at least a year with no pending SEBI or exchange fine for LODR non-compliance, which the exchange confirms at in-principle approval; (iii) no default on debt securities, NCRPS, SDIs, CP, deposits or loans in the last three financial years and the current year, certified by the statutory auditor to the exchange; (iv) the security is senior and secured by a first or pari passu charge on identifiable assets (CPSEs, PSUs and statutory bodies may issue unsecured); (v) rated at least AA- (lowest rating counts)"
+    "No merchant banker is needed if all of these are met: (i) the issuer is regulated by SEBI, RBI, IRDAI or PFRDA (so an RBI-regulated NBFC or HFC qualifies on this test); (ii) it has been listed on an exchange for at least a year with no pending SEBI or exchange fine for LODR non-compliance, which the exchange confirms at in-principle approval; (iii) no default on debt securities, NCRPS, SDIs, CP, deposits or loans in the last three financial years and the current year, certified by the statutory auditor to the exchange; (iv) the security is senior and secured by a first or pari passu charge on identifiable assets of the issuer (CPSEs, PSUs and statutory bodies may issue unsecured); (v) rated at least AA- on the date of private placement (lowest rating counts)"
    ],
    "timelines": [],
    "consequences_stated": [],
@@ -939,7 +939,7 @@
     "Some Schedule III events are now reported quarterly in the Governance filing: acquisitions in unlisted companies of 5% (or further 2%), fines below the Para A(20) thresholds, and updates on tax litigation"
    ],
    "core_obligations": [
-    "File both parts in the prescribed format for every quarter from the quarter ended 31-12-2024, through the exchange portals; mask PAN",
+    "File through the integrated form every quarter from the quarter ended 31-12-2024, through the exchange portals; mask PAN. Each component keeps its own frequency: RPT disclosure under reg 23(9) stays half-yearly, filed with the relevant quarter",
     "Keep filing the existing XBRL returns for each component until the exchanges say otherwise"
    ],
    "timelines": [
@@ -1083,6 +1083,7 @@
    "excluded": [],
    "key_concepts": [],
    "core_obligations": [
+    "Fix the record date 15 days before the due date of interest, dividend, principal or other corporate action (NCS reg 23(7), from July 2024)",
     "Give advance notice of the record date for interest payments, call or put exercise and early, voluntary or partial redemption under the subject 'Record Date Updates' on NEAPS; filings under other subjects may not be taken on record",
     "Keep PDF and XBRL disclosures consistent",
     "Equity: keep at least three clear working days between the board or shareholder approval and the record date; book closure is no longer announced (reg 42(5) omitted)"
@@ -1254,7 +1255,7 @@
    "excluded": [],
    "key_concepts": [],
    "core_obligations": [
-    "Reg 62A(1) as substituted: such an entity must list all non-convertible debt securities it issues after that listing; reg 62A(2) and (3) are omitted"
+    "Reg 62A(1) as substituted: a listed entity whose non-convertible debt securities are listed on or after the date the Third Amendment was published in the Gazette (14-10-2026) must list all non-convertible debt securities it issues after that listing; reg 62A(2) and (3) are omitted"
    ],
    "timelines": [],
    "consequences_stated": [],
@@ -1287,13 +1288,48 @@
     "New reg 2(1)(gga): a 'retail individual investor' applies or bids for debt securities of not more than Rs 2 lakh"
    ],
    "core_obligations": [
-    "Reg 31 proviso: an issuer may offer additional interest or a discount to the issue price to senior citizens, women, serving and retired defence personnel and their widows or widowers, retail individual investors or other categories SEBI specifies; the incentive is only for the initial allottee and is lost on transfer"
+    "Reg 31 proviso: an issuer may offer additional interest or a discount to the issue price to senior citizens, women, serving and retired defence personnel, widows and widowers of defence personnel, retail individual investors or other categories SEBI specifies; the incentive is only for the initial allottee and is not available once the securities are transferred or transmitted"
    ],
    "timelines": [],
    "consequences_stated": [],
    "consequences_general": "Securities Contracts (Regulation) Act, 1956: a listed entity must comply with the conditions of its listing agreement (s. 21); a recognised stock exchange may delist securities on the prescribed grounds after recording reasons (s. 21A); failure to comply with listing or delisting conditions attracts a penalty of Rs 5 lakh to Rs 25 crore (s. 23E), and breach of the Act, rules, the exchange's bye-laws or regulations or SEBI directions with no separate penalty attracts a penalty under s. 23H. SEBI Act, 1992: failure to furnish documents, returns or reports, or furnishing false or incomplete ones, attracts Rs 1 lakh to Rs 1 lakh a day up to Rs 1 crore (s. 15A(a)). Exchanges also act under SEBI's standard operating procedures: fines per day or per instance, freezing of promoter holdings, moving the scrip to the Z category, suspension of trading and compulsory delisting; and, for debt and CP issuers, a bar on new issues through any EBP and on further listing until fines are paid.",
    "cross_references": [
     "NSE-CHK-PUB"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "LODR-AMD1-2026",
+   "type": "Amendment regulation",
+   "short_name": "LODR Amendment 2026: high value debt listed entities from Rs 5,000 crore",
+   "title": "SEBI (Listing Obligations and Disclosure Requirements) (Amendment) Regulations, 2026 (high value debt listed entities)",
+   "issuing_department": "Securities and Exchange Board of India (circulated by BSE)",
+   "theme": "Filings and disclosures by listed entities",
+   "reference_no": "SEBI/NRO-GN/2026/295 of 20-01-2026 (BSE notice 20260203-12)",
+   "issue_date": "2026-01-20",
+   "updated_as_on": "",
+   "effective_date": "2026-01-20",
+   "status": "In force",
+   "official_url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260203-12",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Entities with listed non-convertible debt securities only (no listed equity), including NBFCs and HFCs"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "A 'high value debt listed entity' must follow the corporate governance provisions of the LODR Regulations (board, committees, related party transactions and related disclosures)",
+    "Reg 15(1A) threshold raised from Rs 1,000 crore to Rs 5,000 crore of listed non-convertible debt securities"
+   ],
+   "core_obligations": [
+    "Check whether listed NCDs reach Rs 5,000 crore; entities below the new threshold should review which governance provisions still apply to them under the amended regulations"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "Securities Contracts (Regulation) Act, 1956: a listed entity must comply with the conditions of its listing agreement (s. 21); a recognised stock exchange may delist securities on the prescribed grounds after recording reasons (s. 21A); failure to comply with listing or delisting conditions attracts a penalty of Rs 5 lakh to Rs 25 crore (s. 23E), and breach of the Act, rules, the exchange's bye-laws or regulations or SEBI directions with no separate penalty attracts a penalty under s. 23H. SEBI Act, 1992: failure to furnish documents, returns or reports, or furnishing false or incomplete ones, attracts Rs 1 lakh to Rs 1 lakh a day up to Rs 1 crore (s. 15A(a)). Exchanges also act under SEBI's standard operating procedures: fines per day or per instance, freezing of promoter holdings, moving the scrip to the Z category, suspension of trading and compulsory delisting; and, for debt and CP issuers, a bar on new issues through any EBP and on further listing until fines are paid.",
+   "cross_references": [
+    "LODR-AMD3-2026",
+    "NSE-IF-20250102"
    ],
    "repeals": ""
   },
@@ -1317,7 +1353,9 @@
    "applies_to": [
     "Entities with listed specified securities (equity and convertibles) that default on loans, including cash credit and other revolving facilities, from banks and financial institutions, or on unlisted NCDs and NCRPS"
    ],
-   "excluded": [],
+   "excluded": [
+    "Defaults on the entity's own listed debt securities: disclosed under LODR reg 51 and Schedule III Part B (see the SEBI section)"
+   ],
    "key_concepts": [
     "'Default': non-payment of interest or principal in full on the pre-agreed date; for revolving facilities, the balance staying above the sanctioned limit or drawing power, whichever is lower, for more than 30 days",
     "Each disclosure names the lender, date and amount of default (principal and interest), the facility terms, total bank and FI borrowings and total financial indebtedness"
@@ -1520,7 +1558,7 @@
    "excluded": [],
    "key_concepts": [
     "Fines (Annex IX-A Part A): no compliance officer, no RTA, investor complaints Rs 1,000 a day each; reg 50 intimations Rs 5,000 per instance per item; financial results under reg 52 Rs 5,000 a day; reg 52(4)/(6) line items Rs 1,000 a day; use of proceeds Rs 1,000 a day; annual report Rs 2,000 a day; security cover disclosure (reg 54) Rs 1,000 a day",
-    "Payment obligations: reg 57(1) status Rs 2,000 a day per ISIN; reg 57(4) and (5) quarterly details and certificates Rs 1,000 per ISIN; no prior exchange approval for a structural change in the securities (reg 59) Rs 50,000 per instance; late record date notice (reg 60(2)) Rs 10,000 per ISIN",
+    "Payment obligations: reg 57(1) status Rs 2,000 a day per ISIN; reg 57(4) and (5) quarterly details and certificates Rs 1,000 per ISIN (rows as the SOP table still lists them; reg 57 itself now centres on the payment certificate); no prior exchange approval for a structural change in the securities (reg 59) Rs 50,000 per instance; late record date notice (reg 60(2)) Rs 10,000 per ISIN",
     "Listed CP (Part B): financial results Rs 5,000 a day; line items Rs 1,000 a day; payment certificate Rs 1,000 a day per ISIN",
     "No double fine where the same common obligation has been fined under the equity SOP"
    ],
@@ -1601,7 +1639,7 @@
    "excluded": [],
    "key_concepts": [],
    "core_obligations": [
-    "Exchanges and depositories take no penal action under the Master Circular for MPS non-compliance in that window, and withdraw actions already taken from 01-04-2026"
+    "Only for entities whose MPS due date falls in that window: exchanges and depositories take no penal action under the Master Circular for non-compliance during the window, and withdraw actions already taken against them from 01-04-2026"
    ],
    "timelines": [],
    "consequences_stated": [],
@@ -1747,6 +1785,7 @@
    ],
    "excluded": [],
    "key_concepts": [
+    "The facility is optional, chosen per ISIN at issue, and only for new issues (Chapter XXV of the SEBI NCS Master Circular); it starts only one year after issue; no re-issues in that ISIN, which is outside the ISIN cap; the aggregate limit is at least 10% of the final issue size; each window stays open three working days, monthly or quarterly; payout may not be below the valuation by more than 100 basis points, plus accrued interest",
     "Investors exercise the put through the exchange during the window; securities are blocked in their demat accounts by early pay-in",
     "Eligible investors are fixed on T-2 (T is the first day of the window); allocation is in full or proportionate, all categories at par; a retail-only window is capped at Rs 2 lakh per investor"
    ],

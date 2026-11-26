@@ -2,8 +2,8 @@
  "meta": {
   "title": "Stock exchange rules for listed NBFCs, debt issuers and lenders",
   "as_of": "2026-11-26",
-  "count": 50,
-  "in_force": 47,
+  "count": 51,
+  "in_force": 48,
   "lenses": [
    {
     "id": "ENT-EQ",
@@ -388,6 +388,17 @@
    "type": "Amendment regulation",
    "status": "In force",
    "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260203-13",
+   "issue_date": "2026-01-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "LODR-AMD1-2026",
+   "label": "LODR Amendment 2026: high value debt listed entities from Rs 5,000 crore",
+   "title": "SEBI (Listing Obligations and Disclosure Requirements) (Amendment) Regulations, 2026 (high value debt listed entities)",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Amendment regulation",
+   "status": "In force",
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260203-12",
    "issue_date": "2026-01-20",
    "updated_as_on": "not stated"
   },
@@ -1424,6 +1435,30 @@
   {
    "source": "NCS-AMD-2026",
    "target": "NSE-CHK-PUB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "LODR-AMD1-2026",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Entities with listed non-convertible debt securities only (no listed equity), including NBFCs and HFCs"
+  },
+  {
+   "source": "LODR-AMD1-2026",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Entities with listed non-convertible debt securities only (no listed equity), including NBFCs and HFCs"
+  },
+  {
+   "source": "LODR-AMD1-2026",
+   "target": "LODR-AMD3-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "LODR-AMD1-2026",
+   "target": "NSE-IF-20250102",
    "relation": "cross_references",
    "basis": "Named in the instrument"
   },
