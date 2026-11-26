@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Financial Regulation Hub</title>
-<meta name="description" content="Financial regulatory information for finance professionals: RBI, SEBI and IRDAI rules, key court rulings and other regulators, organised by task, with obligations, deadlines and consequences linked to the official text.">
+<meta name="description" content="Financial regulatory information for finance professionals: RBI, SEBI and IRDAI rules, key court rulings and other regulators, organised by regulator, with obligations, deadlines and consequences linked to the official text.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
 <link rel="stylesheet" href="assets/hub.css?v=20261126f">
@@ -94,14 +94,11 @@
   <div class="wrap">
     <section class="card nb" id="nb" aria-label="Latest updates" hidden></section>
 
-    <div class="sec-h"><h2>Start with a task</h2></div>
-    <div class="grid g3" id="tasks"></div>
+    <div class="sec-h"><h2 id="updh">What changed this week</h2></div>
+    <div class="ucol" id="upds"></div>
 
     <div class="sec-h"><h2>Browse by regulator</h2></div>
     <div class="grid g3" id="regs"></div>
-
-    <div class="sec-h"><h2 id="updh">What changed this week</h2></div>
-    <div class="ucol" id="upds"></div>
 
   </div>
 </main>
@@ -126,7 +123,7 @@
   const unit = () => K() === "rbi" ? "layer" : "role";
   function lensNote(){
     const m = M(), c = $("#ctx"); if (!m) return;
-    if (L() < 0) { c.innerHTML = `<span>Pick who you are to narrow the task counts, search and weekly changes.</span>`; return; }
+    if (L() < 0) { c.innerHTML = `<span>Pick who you are to narrow the weekly changes and search.</span>`; return; }
     const n = m.items.filter(it => appliesAt(m, it, L())).length, who = lay.options[lay.selectedIndex].text;
     c.innerHTML = `<span>Showing: <b>${esc(who)}</b></span><span class="sep"></span><span>${n} ${NAME[K()]} instruments apply</span><span class="sep"></span><button class="lnk" type="button" id="lreset">Reset</button><span style="width:100%;font-size:13px;color:var(--muted)">Tasks, search and weekly changes follow this choice. A guide, not an applicability opinion.</span>`;
     $("#lreset").addEventListener("click", () => resetTo(K()));
@@ -188,35 +185,8 @@
   lay.addEventListener("change", () => {
     store.set("layer", lay.value);
     if (K() !== "rbi") store.set(K() + ".lens", String(L()));
-    lensNote(); renderTasks(); renderUpdates(); judge(); if ($("#q").value.trim()) runSearch();
+    lensNote(); renderUpdates(); judge(); if ($("#q").value.trim()) runSearch();
   });
-
-  /* tasks */
-  const TI = {
-    new:'<path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><circle cx="12" cy="12" r="3"/>', cal:'<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
-    def:'<path d="M5 4h10a4 4 0 0 1 4 4v12H9a4 4 0 0 1-4-4z"/><path d="M9 9h6M9 13h4"/>', pen:'<path d="M12 3 2.5 20h19z"/><path d="M12 10v4M12 17v.5"/>',
-    who:'<circle cx="12" cy="8" r="3.5"/><path d="M5 20c1-4 4-6 7-6s6 2 7 6"/>', jud:'<path d="M12 4v16M7 20h10M5 7h14"/><path d="m5 7-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/>'
-  };
-  function jud(){ const j = hub.sections.find(s => s.id === "jud"); if (!j || j.status !== "live") return ""; const lk = K() === "irdai" && L() >= 0 && M() && M().lenses[L()] ? M().lenses[L()][2] : ""; return j.href + (K() === "irdai" ? (lk === "life" || lk === "health" ? "#s/" + lk : "") : "#s/lending"); }
-  function renderTasks(){
-    const m = M(), k = K(), h = secs[k].href;
-    const live = m ? m.items.filter(it => appliesAt(m, it, L())) : [];
-    const nT = live.reduce((a, it) => a + it.time.length, 0), nC = live.filter(it => it.cons.length).length;
-    const wk = Object.keys(MS).map(r => [r, MS[r].updates.filter(u => String(u.date) >= WEEK_FROM).length]).filter(x => x[1] > 0);
-    const nU = wk.reduce((t, x) => t + x[1], 0);
-    const tasks = [
-      ["What changed this week", nU ? `${nU} new item${nU>1?"s":""}: ${wk.map(([r, n]) => `${n} ${NAME[r]}`).join(", ")}, with what each one means` : `Latest changes from ${Object.keys(MS).map(r => NAME[r]).join(", ")}, explained`, "new", "#updh"],
-      ["Compliance calendar", `${nT} timelines across ${live.filter(it=>it.time.length).length} ${NAME[k]} instruments${L()>=0?` for your ${unit()}`:""}`, "cal", `${h}#calendar`],
-      ["Look up a defined term", m ? `${m.defs.length.toLocaleString("en-IN")} ${NAME[k]} definitions, each with the provision that governs` : "Defined terms with their paragraph", "def", `${h}#definitions`],
-      ["Penalties and consequences", `What a breach can cost: ${nC} ${NAME[k]} instruments state their own consequences`, "pen", `${h}#penalties`],
-      [`Filter by ${K() === "rbi" ? "NBFC layer" : "role"}`, `Narrow every list to your ${unit()}. A guide, not an applicability opinion`, "who", `${h}#who`],
-      ["Court rulings on a point", "Supreme Court and High Court rulings since 2010, with what each means in practice", "jud", jud()]
-    ];
-    $("#tasks").innerHTML = tasks.map(([t, s, ic, href], i) => `<a class="card tk rise" style="animation-delay:${.05*i}s" ${href?`href="${href}"`:`aria-disabled="true"`}>
-      <span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">${TI[ic]}</svg></span>
-      <span><span style="display:block;font-weight:600">${esc(t)}${href?"":' <span class="pill p-soon" style="margin-left:4px">Coming soon</span>'}</span><span class="tag" style="display:block;margin-top:2px">${esc(s)}</span></span>
-      ${href?`<span class="ar">${I.arrow}</span>`:""}</a>`).join("");
-  }
 
   /* updates: one group per live regulator; last 7 days, or the latest 3 if nothing that recent */
   const isProp = u => /draft|consult|propos|exposure|discussion paper/i.test(u.kind);
@@ -381,7 +351,7 @@
   }
   const I_PAUSE = `<svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><rect x="3" y="2" width="3" height="10" rx="1"/><rect x="8" y="2" width="3" height="10" rx="1"/></svg>`;
   const I_PLAY = `<svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path d="M4 2.5v9l7-4.5z"/></svg>`;
-  renderTasks(); renderUpdates(); renderRegs(); lensNote(); judge(); renderBand();
+  renderUpdates(); renderRegs(); lensNote(); judge(); renderBand();
   $("#asof").textContent = Object.keys(MS).map((k, i) => `${NAME[k]}${i ? "" : " register"} as on ${fmtDate(MS[k].meta.as_of)}`).join(" · ");
 })();
 </script>
