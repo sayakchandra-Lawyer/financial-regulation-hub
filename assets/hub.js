@@ -24,6 +24,8 @@ const I = {
   fema: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.4 2.4 3.5 5.3 3.5 8.5s-1.1 6.1-3.5 8.5M12 3.5C9.6 5.9 8.5 8.8 8.5 12s1.1 6.1 3.5 8.5"/></svg>',
   dpdp: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.4 3.1 8.3 7.5 9.5 4.4-1.2 7.5-5.1 7.5-9.5V6z"/><rect x="9" y="11" width="6" height="5" rx="1"/><path d="M10.2 11V9.6a1.8 1.8 0 0 1 3.6 0V11"/></svg>',
   ibc: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.8 4.5v3.6h-3.6"/><path d="M8.5 12.5h7M8.5 15h4.5"/><path d="M10 9.5h4"/></svg>',
+  ifsc: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20.5h16"/><path d="M6 20.5V10l4-2v12.5"/><path d="M10 20.5V5l6 2.5v13"/><path d="M16 20.5v-8l3 1.5v6.5"/><path d="M12.5 10h1M12.5 13h1M12.5 16h1"/></svg>',
+  exchanges: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5h17"/><path d="M4 16l4.5-5 3.5 3 4-5.5 4 3.5"/><path d="M16 8.5h4v4"/><path d="M6 20.5v-2M10 20.5v-3.5M14 20.5v-2.5M18 20.5v-4"/></svg>',
   misc: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg>',
   search: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
   moon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg>',
@@ -261,7 +263,7 @@ function hl(txt, P) {
 
 /* ---------- whole-site search: prebuilt index over every full text and judgment (search/, built by tools/build_search.py) ---------- */
 const SX = { root: "", meta: null, mp: null, vocab: null, common: null, bigCommon: null, shards: new Map(), texts: new Map(), cache: new Map() };
-const SX_NAME = { rbi: "RBI", sebi: "SEBI", irdai: "IRDAI", fema: "FEMA", dpdp: "DPDP", ibc: "IBC", judgments: "Judgments" };
+const SX_NAME = { rbi: "RBI", sebi: "SEBI", irdai: "IRDAI", fema: "FEMA", dpdp: "DPDP", ibc: "IBC", ifsc: "IFSC", exchanges: "Stock exchanges", judgments: "Judgments" };
 const sxTok = s => (String(s).toLowerCase().match(/[a-z0-9₹%]+/g) || []);
 const CRC = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
 function crc32(str) { const b = new TextEncoder().encode(str); let c = 0xFFFFFFFF; for (const x of b) c = CRC[(c ^ x) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; }

@@ -660,6 +660,215 @@
    "line": "Insolvency: CIRP, liquidation, NBFC insolvency"
   },
   {
+   "id": "ifsc",
+   "short": "IFSC",
+   "name": "IFSC",
+   "full": "International Financial Services Centres Authority (GIFT City)",
+   "status": "live",
+   "desc": "The IFSCA Act, 2019, the FEMA (IFSC) Regulations and the IFSCA regulations, frameworks and circulars for banking units, finance companies, fund managers, capital market intermediaries and insurance offices in GIFT IFSC.",
+   "href": "ifsc/",
+   "data": {
+    "register": "ifsc/data/ifsc_register.json",
+    "graph": "ifsc/data/ifsc_graph.json",
+    "definitions": "ifsc/data/definitions.json",
+    "glossary": "ifsc/data/glossary.json",
+    "updates": "ifsc/data/updates.json",
+    "fulltext": "ifsc/data/fulltext.json"
+   },
+   "official": "https://ifsca.gov.in",
+   "map": "ifsc/map/",
+   "subjects": [
+    {
+     "theme": "Statute and foreign exchange status",
+     "nice": "The Act and FEMA status",
+     "slug": "statute"
+    },
+    {
+     "theme": "Banking units (IBU and IBC)",
+     "nice": "Banking units",
+     "slug": "banking"
+    },
+    {
+     "theme": "Finance companies, leasing and treasury centres",
+     "nice": "Finance companies and leasing",
+     "slug": "finance"
+    },
+    {
+     "theme": "Fund management",
+     "nice": "Fund management",
+     "slug": "funds"
+    },
+    {
+     "theme": "Capital market intermediaries and listing",
+     "nice": "Capital markets and listing",
+     "slug": "markets"
+    },
+    {
+     "theme": "Insurance offices and intermediaries",
+     "nice": "Insurance",
+     "slug": "insurance"
+    },
+    {
+     "theme": "AML, KYC and customer protection",
+     "nice": "AML, KYC and complaints",
+     "slug": "aml"
+    },
+    {
+     "theme": "Fees, SEZ approval and cyber security",
+     "nice": "Fees, SEZ approval and cyber",
+     "slug": "operations"
+    },
+    {
+     "theme": "Market infrastructure, payments, bullion and service providers",
+     "nice": "Infrastructure, payments and services",
+     "slug": "other"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-IBU",
+     "name": "IFSC Banking Unit",
+     "key": "ibu",
+     "desc": "Bank branch or subsidiary"
+    },
+    {
+     "id": "ENT-FC",
+     "name": "Finance company / unit",
+     "key": "fc",
+     "desc": "Lender, lessor or treasury centre"
+    },
+    {
+     "id": "ENT-FME",
+     "name": "Fund management entity",
+     "key": "fme",
+     "desc": "Manager of funds or portfolios"
+    },
+    {
+     "id": "ENT-CMI",
+     "name": "Capital market intermediary",
+     "key": "cmi",
+     "desc": "Broker, adviser or listed issuer"
+    },
+    {
+     "id": "ENT-INS",
+     "name": "Insurance office / intermediary",
+     "key": "ins",
+     "desc": "Insurer, broker or MGA"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally",
+   "line": "GIFT City: banks, finance cos, funds, insurers"
+  },
+  {
+   "id": "exchanges",
+   "short": "Exchanges",
+   "name": "Stock exchanges",
+   "full": "National Stock Exchange and BSE",
+   "status": "live",
+   "desc": "NSE and BSE rules, listing checklists, circulars and operating guidelines for listed NBFCs, debt issuers and lenders: listing NCDs and commercial paper, EBP bidding, filings, default and pledge disclosures, fines and bond trading.",
+   "href": "exchanges/",
+   "data": {
+    "register": "exchanges/data/exch_register.json",
+    "graph": "exchanges/data/exch_graph.json",
+    "definitions": "exchanges/data/definitions.json",
+    "glossary": "exchanges/data/glossary.json",
+    "updates": "exchanges/data/updates.json",
+    "fulltext": "exchanges/data/fulltext.json"
+   },
+   "official": "https://www.nseindia.com",
+   "map": "exchanges/map/",
+   "subjects": [
+    {
+     "theme": "Exchanges, their rules and the listing agreement",
+     "nice": "Exchanges and the listing agreement",
+     "slug": "framework"
+    },
+    {
+     "theme": "Listing NCDs: approval, timelines, ISINs and fees",
+     "nice": "Listing NCDs",
+     "slug": "ncd"
+    },
+    {
+     "theme": "Listing commercial paper",
+     "nice": "Listing commercial paper",
+     "slug": "cp"
+    },
+    {
+     "theme": "Electronic book bidding (EBP)",
+     "nice": "Electronic book bidding (EBP)",
+     "slug": "ebp"
+    },
+    {
+     "theme": "Filings and disclosures by listed entities",
+     "nice": "Filings and disclosures",
+     "slug": "filings"
+    },
+    {
+     "theme": "Defaults, pledges and lender-facing disclosures",
+     "nice": "Defaults and pledges",
+     "slug": "lenders"
+    },
+    {
+     "theme": "Fines, freezing and suspension",
+     "nice": "Fines and suspension",
+     "slug": "penalties"
+    },
+    {
+     "theme": "Bond trading, settlement and liquidity",
+     "nice": "Bond trading and settlement",
+     "slug": "trading"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-EQ",
+     "name": "Equity-listed company",
+     "key": "eq",
+     "desc": "Shares listed on NSE or BSE"
+    },
+    {
+     "id": "ENT-DEBT",
+     "name": "Debt-listed issuer (NCDs / CP)",
+     "key": "debt",
+     "desc": "Has listed NCDs or CP"
+    },
+    {
+     "id": "ENT-ARR",
+     "name": "Arranger / merchant banker",
+     "key": "arr",
+     "desc": "Runs issues, bids on EBP"
+    },
+    {
+     "id": "ENT-INV",
+     "name": "Bond investor / treasury",
+     "key": "inv",
+     "desc": "Buys, trades or repos bonds"
+    },
+    {
+     "id": "ENT-LEND",
+     "name": "Lender",
+     "key": "lend",
+     "desc": "Lends to listed firms or takes pledges"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally",
+   "line": "NSE, BSE: debt listing, EBP, filings, fines"
+  },
+  {
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",
@@ -678,10 +887,10 @@
    "id": "misc",
    "short": "Other regulators",
    "name": "Other regulators",
-   "full": "PMLA · NHB · Exchanges",
+   "full": "PMLA · NHB",
    "status": "soon",
-   "desc": "Anti-money laundering, housing finance supervision and stock exchange rules.",
-   "line": "PMLA, NHB, exchanges"
+   "desc": "Anti-money laundering and housing finance supervision.",
+   "line": "PMLA, NHB"
   }
  ]
 }

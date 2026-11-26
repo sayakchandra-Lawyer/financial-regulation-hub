@@ -1,0 +1,898 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Terms as each instrument defines them, shortened where long. The instrument's own text governs."
+ },
+ "instruments": {
+  "SEBI-SECC": [
+   {
+    "term": "Act",
+    "para": "definitions clause",
+    "def": "means the Securities Contracts (Regulation) Act, 1956 (42 of 1956);",
+    "scope": ""
+   },
+   {
+    "term": "Board",
+    "para": "definitions clause",
+    "def": "means the Securities and Exchange Board of India established under the provisions of section 3 of the Securities and Exchange Board of India Act, 1992",
+    "scope": ""
+   },
+   {
+    "term": "clearing member",
+    "para": "definitions clause",
+    "def": "means a person having clearing rights in any recognized clearing corporation and includes a clearing member as defined in clause (ae) of sub-regulation",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions clause",
+    "def": "shall mean a company as defined in section 3 of the Companies Act, 2013;",
+    "scope": ""
+   },
+   {
+    "term": "governing board",
+    "para": "definitions clause",
+    "def": "means the board of directors of a recognised stock exchange or a recognised clearing corporation;",
+    "scope": ""
+   },
+   {
+    "term": "netting",
+    "para": "definitions clause",
+    "def": "means the determination by clearing corporation of net payment or delivery obligations of the clearing members of a recognised clearing corporation by setting off or adjustment of the inter- se obligations or claims arising out of buying and selling of securities, including the claims and obligations arising out of the determination by the clearing corporation or stock exchange, on the insolvency, winding-up,…",
+    "scope": ""
+   },
+   {
+    "term": "novation",
+    "para": "definitions clause",
+    "def": "means the act of one or more recognised clearing corporations interposing between the parties of every trade, so as to be a legal counterparty;",
+    "scope": ""
+   },
+   {
+    "term": "public",
+    "para": "definitions clause",
+    "def": "includes any member or section of the public but does not include any trading member or clearing member or their associates and agents;",
+    "scope": ""
+   },
+   {
+    "term": "public interest director",
+    "para": "definitions clause",
+    "def": "means an independent directorrepresenting the interests of investors in securities market and who is not having any association, directly or indirectly, which in the opinion of the Board, is in conflict with his role;",
+    "scope": ""
+   },
+   {
+    "term": "recognised clearing corporation",
+    "para": "definitions clause",
+    "def": "means a clearing corporation which is recognised by the Board under section 4 read with section 8A of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "recognised stock exchange",
+    "para": "definitions clause",
+    "def": "means a stock exchange which is recognized by the Board under section 4 of the Act.",
+    "scope": ""
+   },
+   {
+    "term": "regulatory department",
+    "para": "definitions clause",
+    "def": "means a department of a recognised stock exchange or a recognised clearing corporation which is entrusted with regulatory powers and duties and includes such department as may be specified by the Board;",
+    "scope": ""
+   },
+   {
+    "term": "rules",
+    "para": "definitions clause",
+    "def": "means the Securities Contracts (Regulations) Rules, 1957;",
+    "scope": ""
+   },
+   {
+    "term": "trading member",
+    "para": "definitions clause",
+    "def": "means a person having trading rights in any recognized stock exchange and includes a stock broker.",
+    "scope": ""
+   },
+   {
+    "term": "shareholder director",
+    "para": "definitions clause",
+    "def": "means a director who represents the interest of shareholders, and elected or nominated by such shareholders who are not trading members or clearing members, as the case may be, or their associates and agents; Fee for application",
+    "scope": ""
+   }
+  ],
+  "SEBI-MC-SECC": [
+   {
+    "term": "CM Collateral",
+    "para": "definitions",
+    "def": "shall mean the total of the allocated collateral value plus the value of demat securities collateral provided through margin pledge/re-pledge by any individual client, TM, CP and CM respectively to the level of CC. The TM/CM collateral shall mean the proprietary collateral of the TM/CM only and shall not include the collateral of any of their clients. c. On receipt of a trade from a client account by the CC, the…",
+    "scope": ""
+   },
+   {
+    "term": "Act",
+    "para": "definitions",
+    "def": "means the Securities and Exchange Board of India Act, 1992;",
+    "scope": ""
+   },
+   {
+    "term": "Certifying Authority",
+    "para": "definitions",
+    "def": "means a certifying authority who has been granted a license under section 24 of the Information Technology Act, 2000;",
+    "scope": ""
+   },
+   {
+    "term": "SEBI",
+    "para": "definitions",
+    "def": "means the Securities and Exchange Board of India established under Section 3 of the Act;",
+    "scope": ""
+   },
+   {
+    "term": "STP",
+    "para": "definitions",
+    "def": "means straight through processing;",
+    "scope": ""
+   },
+   {
+    "term": "STP centralised hub",
+    "para": "definitions",
+    "def": "means an infrastructure set-up by a person or entity for the purpose of rendering STP service by providing a platform for communication between different STP service providers;",
+    "scope": ""
+   },
+   {
+    "term": "STP message",
+    "para": "definitions",
+    "def": "means and includes all the messages for electronic trade processing with a common messaging standard as may be defined by SEBI from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "STP service",
+    "para": "definitions",
+    "def": "means the setting up and maintaining of infrastructure to create an electronic communication network to facilitate information exchange with respect to securities market transactions between various market participants from the stage of trade initiation to final settlement through a STP system flow as may be determined by SEBI from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "STP service provider",
+    "para": "definitions",
+    "def": "means a person or entity providing STP service to STP users to the extent of conveying messages between a STP user and the STP centralised hub and/or between two STP users;",
+    "scope": ""
+   },
+   {
+    "term": "STP user",
+    "para": "definitions",
+    "def": "means all the users of the STP service and includes such users as are stipulated by SEBI; and,",
+    "scope": ""
+   },
+   {
+    "term": "TRAI",
+    "para": "definitions",
+    "def": "means the Telecom Regulatory Authority of India established under the Telecom Regulatory Authority of India Act, 1997.",
+    "scope": ""
+   },
+   {
+    "term": "TELECOM AUTHORITY",
+    "para": "definitions",
+    "def": "shall mean The Director General, DoT, Government of India and includes any officer empowered by him to perform all or any of the functions of the Telegraph Authority under the Indian Telegraph Act, 1885 or such other authority as may be established by law. 6. \"TRAI\" - shall mean the Telecom Regulatory Authority of India established under the TRAI Act, 1997. B. FEES PAYABLE BY STP SERVICE PROVIDER - The STP…",
+    "scope": ""
+   },
+   {
+    "term": "For the purposes of this regulation, `net worth of a clearing corporation",
+    "para": "definitions",
+    "def": "means the aggregate value of its liquid assets calculated in the manner as specified by the Board from time to time\". 2.5.2.2. The eligible instruments for investment such as fixed deposits, Central Government Securities (T-bills and G-Secs) and liquid and overnight mutual fund schemes to the extent permissible, other instruments as may be specified by SEBI from time to time, and cash and bank balance, shall be…",
+    "scope": ""
+   }
+  ],
+  "NSE-BYELAWS": [
+   {
+    "term": "Board",
+    "para": "definitions",
+    "def": "means Board of Directors of NSEIL.",
+    "scope": ""
+   },
+   {
+    "term": "Exchange Securities",
+    "para": "definitions",
+    "def": "means securities which have been admitted to the Official List(s) of NSE Securities.",
+    "scope": ""
+   },
+   {
+    "term": "Exchange",
+    "para": "definitions",
+    "def": "means the Stock Exchange(s) operated by NSEIL.",
+    "scope": ""
+   },
+   {
+    "term": "Issuer",
+    "para": "definitions",
+    "def": "includes a Government, a body corporate or other entity, whether incorporated or not, which issues any security or other instrument, or draws or accepts a negotiable instrument which is admitted to dealings on the NSE.",
+    "scope": ""
+   },
+   {
+    "term": "Market-Maker",
+    "para": "definitions",
+    "def": "means a trading member registered under Chapter VIII.",
+    "scope": ""
+   },
+   {
+    "term": "NSEIL",
+    "para": "definitions",
+    "def": "means the National Stock Exchange of India Limited.",
+    "scope": ""
+   },
+   {
+    "term": "Official List of NSE securities",
+    "para": "definitions",
+    "def": "means the list of securities which are listed or permitted to trade on the Exchange.",
+    "scope": ""
+   },
+   {
+    "term": "Participant",
+    "para": "definitions",
+    "def": "means a constituent who is registered by the relevant authority from time to time under Chapter VI of the Byelaws.",
+    "scope": ""
+   },
+   {
+    "term": "Relevant Authority",
+    "para": "definitions",
+    "def": "means the Board, Securities and Exchange Board of India or such other authority as specified by the Board from time to time as relevant for a specified purpose.",
+    "scope": ""
+   },
+   {
+    "term": "SEBI",
+    "para": "definitions",
+    "def": "means the Securities and Exchange Board of India.",
+    "scope": ""
+   },
+   {
+    "term": "Security admitted to dealings",
+    "para": "definitions",
+    "def": "includes a security which is listed or permitted to trade on Exchange.",
+    "scope": ""
+   },
+   {
+    "term": "Trading Member",
+    "para": "definitions",
+    "def": "means a Stock broker and the member of the NSE registered in accordance with Chapter V of the Bye-Laws and will include such an entity which is permitted by NSE to enter into Tri-party Repo transactions on the TRM segment an entity which is registered with NSE under the EOP segment, an entity which is registered with NSE under the ERTP segment, etc.",
+    "scope": ""
+   },
+   {
+    "term": "Trading system of the NSE",
+    "para": "definitions",
+    "def": "means a system which makes available to trading members and the investing public, by whatever method, quotations in NSE securities and disseminates information regarding trades effected, volumes, etc. and such other notifications as may be placed thereon by the EC.",
+    "scope": ""
+   },
+   {
+    "term": "Authorised Person",
+    "para": "definitions",
+    "def": "means any person - individual, partnership firm, LLP or body corporate - who is appointed as such by a stock broker (including trading member) and who provides access to trading platform of a stock exchange as an agent of the stock broker.",
+    "scope": ""
+   },
+   {
+    "term": "Arbitrator",
+    "para": "definitions",
+    "def": "shall mean a sole arbitrator or a panel of arbitrators.",
+    "scope": ""
+   },
+   {
+    "term": "Act",
+    "para": "definitions",
+    "def": "shall mean the Arbitration and Conciliation Act, 1996 and includes any statutory modification, replacement or re-enactment thereof, for the time being in force.",
+    "scope": ""
+   },
+   {
+    "term": "Admissible claim value",
+    "para": "definitions",
+    "def": "shall mean the claim value admissible to the Constituent as ascertained by the Grievance Redressal Committee or Panel and recorded in the directions or order.",
+    "scope": ""
+   },
+   {
+    "term": "Arbitral Award",
+    "para": "definitions",
+    "def": "shall mean an award passed by the Arbitrator.",
+    "scope": ""
+   },
+   {
+    "term": "Appellate Arbitrator",
+    "para": "definitions",
+    "def": "shall mean a panel of arbitrators who hears the appeal filed against the Arbitral Award.",
+    "scope": ""
+   },
+   {
+    "term": "Appellate Arbitral Award",
+    "para": "definitions",
+    "def": "shall mean an award passed by the Appellate Arbitrator. Reference to Arbitration",
+    "scope": ""
+   },
+   {
+    "term": "ODR Institution",
+    "para": "definitions",
+    "def": "shall mean an alternative dispute resolution organization empaneled by the Exchange, for facilitating, administering and undertaking time bound resolution of disputes between parties in accordance with processes and procedures specified by the Relevant Authority from time to time. Reference to dispute resolution",
+    "scope": ""
+   },
+   {
+    "term": "Clearing delivery",
+    "para": "definitions",
+    "def": "means clearing and settlement through the Clearing House in the manner prescribed in the relevant regulations of the Exchange. 1.3.7 CONSTITUENT A constituent means a person, on whose instructions and, on whose account, the Trading Member enters into any contract for the purchase or sale of any securit y or does any act in relation thereto.",
+    "scope": ""
+   },
+   {
+    "term": "Hand delivery",
+    "para": "definitions",
+    "def": "means delivery and payment within the time or on the date stipulated when entering into the contract which time or date shall not be more than fourteen days following the date of the contract. 1.3.9 MARKET TYPE Market type refers to the different markets in which trading is permitted on the Trading system and includes Regular Markets, Auction Markets, Negotiated Markets. 1.3.10 MEMBER-CONSTITUENT AGREEMENT…",
+    "scope": ""
+   },
+   {
+    "term": "Special delivery contract",
+    "para": "definitions",
+    "def": "means delivery and payment within any time exceeding fourteen days but not exceeding two months following the date of the contract unless extended by the relevant authority as provided in the relevant Regulations of the Exchange. 1.3.15 SPOT DELIVERY CONTRACT",
+    "scope": ""
+   },
+   {
+    "term": "Spot delivery contract",
+    "para": "definitions",
+    "def": "means delivery and payment on the same day as the date of the contract or on the next day. 1.3.15 A SUB-BROKER Sub-broker means any person affiliated to a Trading Member, being an individual, registered partnership firm or a body corporate or company as defined under the Companies Act, who is recognised as such by the Exchange subject to such terms and conditions as it may deem fit. 1.3.16 TRADING MEMBER Trading…",
+    "scope": ""
+   },
+   {
+    "term": "Applicant",
+    "para": "definitions",
+    "def": "means the person who makes the application for initiating arbitral proceedings.",
+    "scope": ""
+   },
+   {
+    "term": "Respondent",
+    "para": "definitions",
+    "def": "means the person against whom the Applicant lodges an arbitration application, whether or not there is a claim against such person. 5.2 SEAT OF ARBITRATION",
+    "scope": ""
+   },
+   {
+    "term": "Arbitrator' I 'arbitrator",
+    "para": "definitions",
+    "def": "shall mean a sole arbitrator or a panel of arbitrators.",
+    "scope": ""
+   },
+   {
+    "term": "Repo",
+    "para": "definitions",
+    "def": "means an instrument for borrowing funds by selling securities with an agreement to repurchase the securities on a mutually agreed future date at an agreed price which includes interest for the funds borrowed and will also include all such types of repos which may be prescribed by the relevant authority from time to time. 8.1.2 TRI-PARTY REPOS Tri-party Repo is a type of repo contract where a third entity (apart…",
+    "scope": ""
+   }
+  ],
+  "NSE-REG-WDM": [
+   {
+    "term": "Hand delivery contract",
+    "para": "definitions",
+    "def": "means a contract which provides for actual delivery of securities and the payment of a price therefor within the time or on the date stipulated when entering into the contract which time or date shall not be more than fourteen days following the date of the contract. 1.3.9 MARKET TYPE Market type refers to the different markets in which trading is permitted on the NEAT system and includes Continuous Market,…",
+    "scope": ""
+   },
+   {
+    "term": "Special delivery contract",
+    "para": "definitions",
+    "def": "means a contract which provides for the actual delivery of securities and the payment of a price therefor within any time exceeding fourteen days but not exceeding such days as may be prescribed by the Exchange on this behalf following the date of the contract. 1.3.16 SPOT DELIVERY CONTRACT",
+    "scope": ""
+   },
+   {
+    "term": "Spot delivery contract",
+    "para": "definitions",
+    "def": "means a contract which provides for the actual delivery of securities and the payment of a price therefor either on the same day as the date of the contract or on the next day, the actual period taken for the despatch of the securities or the remittance of money therefor through the post being excluded from the computation of the period aforesaid if the parties to the contract do not reside in the same town or…",
+    "scope": ""
+   },
+   {
+    "term": "arbitrator",
+    "para": "definitions",
+    "def": "means a sole arbitrator or a panel of arbitrators.",
+    "scope": ""
+   },
+   {
+    "term": "Applicant",
+    "para": "definitions",
+    "def": "means the person who makes the application for initiating arbitral proceedings.",
+    "scope": ""
+   },
+   {
+    "term": "Respondent",
+    "para": "definitions",
+    "def": "means the person against whom the Applicant lodges an arbitration application, whether or not there is a claim against such person. 7.2 SEAT OF ARBITRATION",
+    "scope": ""
+   }
+  ],
+  "BSE-RULES": [
+   {
+    "term": "Board",
+    "para": "definitions",
+    "def": "means the Board of Directors of BSE Limited;",
+    "scope": ""
+   },
+   {
+    "term": "Clearing Member",
+    "para": "definitions",
+    "def": "shall mean a person/entity who/which has been admitted as a member by a clearing corporation to clear or settle trades executed on the platform of the Exchange;",
+    "scope": ""
+   },
+   {
+    "term": "Issuer",
+    "para": "definitions",
+    "def": "includes a Government, statutory body, a body corporate or other entity, whether incorporated or not, which issues any security or other instrument, or draws or accepts a negotiable instrument which is admitted to dealings on the BSE;",
+    "scope": ""
+   },
+   {
+    "term": "Market-Maker",
+    "para": "definitions",
+    "def": "means an entity permitted by the Exchange for market making in securities;",
+    "scope": ""
+   },
+   {
+    "term": "Official List of BSE securities",
+    "para": "definitions",
+    "def": "means the list of securities which are listed and/or permitted to be traded on the platform of BSE;",
+    "scope": ""
+   },
+   {
+    "term": "Relevant Authority/relevant authority",
+    "para": "definitions",
+    "def": "shall mean the Board, Securities and Exchange Board of India, Managing Director of BSE Limited, Indian Clearing Corporation Limited or any other entity acting as a clearing corporation, such other person or committee, as the context may admit or require, or any person/committee as may be specified by the Board from time to time;",
+    "scope": ""
+   },
+   {
+    "term": "SEBI",
+    "para": "definitions",
+    "def": "means the Securities and Exchange Board of India;",
+    "scope": ""
+   },
+   {
+    "term": "Security admitted to dealings",
+    "para": "definitions",
+    "def": "means a security which is listed or which is permitted to trade;",
+    "scope": ""
+   },
+   {
+    "term": "Trading system/platform of the BSE",
+    "para": "definitions",
+    "def": "means a system which makes available to the trading members by whatever method, quotations of securities and disseminates information regarding trades effected, volumes, etc. and such other notifications as may be placed thereon;",
+    "scope": ""
+   },
+   {
+    "term": "Arbitrator",
+    "para": "definitions",
+    "def": "shall mean a sole arbitrator or a panel of arbitrators.",
+    "scope": ""
+   },
+   {
+    "term": "Act",
+    "para": "definitions",
+    "def": "shall mean the Arbitration and Conciliation Act, 1996 and includes any statutory modification, replacement or re-enactment thereof, for the time being in force. Reference to dispute resolution mechanism",
+    "scope": ""
+   },
+   {
+    "term": "Constituent",
+    "para": "definitions",
+    "def": "shall mean the investor who has bought or sold on the Exchange, the securities of the Issuer in respect of which the claim, differences or dispute has arisen.",
+    "scope": ""
+   },
+   {
+    "term": "Approved office",
+    "para": "definitions",
+    "def": "means a registered office of a member, including such premises or offices from which the member is allowed by the Exchange to trade on the Trading System and carry out back office activity. 1.2. APPROVED WORKSTATION",
+    "scope": ""
+   },
+   {
+    "term": "Approved workstation",
+    "para": "definitions",
+    "def": "refers to such trading workstation of a member comprising of computer terminal(s) and all associated equipment installed and connected to the Trading System and used by the member for the purpose of market inquiry, execution of orders/trades and settlement of its trades on the Trading System, and all other actions associated with the trading and settlement on the Trading System. 1.3. APPROVED USER",
+    "scope": ""
+   },
+   {
+    "term": "Approved User",
+    "para": "definitions",
+    "def": "means an individual appointed by a member in accordance with these Regulations. 1.4. AUTHORISED PERSON",
+    "scope": ""
+   },
+   {
+    "term": "Authorised Person",
+    "para": "definitions",
+    "def": "means an individual, a partnership firm, a limited liability partnership, a company or a body corporate as defined under the Companies Act, 1956/Companies Act, 2013 or any other category of person(s) allowed by SEBI, who is appointed as an agent by a member, after obtaining specific prior approval of the Exchange, for accessing the Trading System of the Exchange on its/his behalf. 1.5. BOOKS OF ACCOUNTS, RECORDS…",
+    "scope": ""
+   },
+   {
+    "term": "Clearing delivery",
+    "para": "definitions",
+    "def": "means clearing and settlement through the Clearing Corporation in the manner prescribed in the Regulations. 1.9. CONSTITUENT A \"Constituent\" means a person on whose instructions and, on whose account, a member enters into any contract for the purchase or sale of any security or does any act in relation thereto. 1.10. ELECTRONIC GOLD RECEIPTS (EGR) Electronic Gold Receipts shall have such meaning as assigned by…",
+    "scope": ""
+   },
+   {
+    "term": "Hand delivery",
+    "para": "definitions",
+    "def": "means the delivery and payment of securities within such time or on such date as may be stipulated at the time of entering into the contract, or as specified by the Relevant Authority from time to time. 1.12. MARKET TYPE \"Market type\" shall be referred to as and shall mean different markets in which trading is permitted on the Trading System and includes Regular Markets, Auction Markets, Negotiated Markets or…",
+    "scope": ""
+   },
+   {
+    "term": "BSE or the Exchange",
+    "para": "definitions",
+    "def": "means the BSE Limited. The terms `BSE' and `the Exchange' are used interchangeably. 1.15. NOTIFICATION, NOTICE OR COMMUNICATION",
+    "scope": ""
+   },
+   {
+    "term": "Risk Disclosure Document",
+    "para": "definitions",
+    "def": "refers to the document, to be issued by all members to all potential investors before registering them as Constituents, detailing the basic risks involved in trading on the Exchange and providing such other particulars as may be specified by the Exchange and/or SEBI from time to time. 1.17. SPECIAL DELIVERY CONTRACT",
+    "scope": ""
+   },
+   {
+    "term": "Special delivery contract",
+    "para": "definitions",
+    "def": "means a contract providing for delivery and payment of securities at such time as may be prescribed by the Relevant Authority from time to time. 1.18. SPOT DELIVERY CONTRACT BSE Limited Capital Market Segment - Regulations",
+    "scope": ""
+   },
+   {
+    "term": "Spot delivery contract",
+    "para": "definitions",
+    "def": "means a contract as defined in Section 2 (i) of the Securities Contracts (Regulation) Act, 1956. 1.19. TRADING SYSTEM",
+    "scope": ""
+   },
+   {
+    "term": "Trading System",
+    "para": "definitions",
+    "def": "refers to an Electronic Trading System of the Exchange. TRADE TYPE",
+    "scope": ""
+   },
+   {
+    "term": "Trade type",
+    "para": "definitions",
+    "def": "means a type of trade in any security admitted to the official list/of the Exchange and includes a Normal Market trade, Negotiated trade, Odd Lot trade, Block Deal trade and any other type of trade that may be permitted by the Exchange or SEBI from time to time. 1.21. TRANSACTION TYPE",
+    "scope": ""
+   },
+   {
+    "term": "Transaction type",
+    "para": "definitions",
+    "def": "means different types of transactions which are permitted on the Trading System and include spot delivery, hand delivery, special delivery and clearing delivery transactions. 1.22. INTERPRETATION Unless in the context it is explicitly stated otherwise, all words and expressions used herein but not defined, and defined in the following, shall have the meanings respectively assigned to them therein:",
+    "scope": ""
+   },
+   {
+    "term": "Applicant",
+    "para": "definitions",
+    "def": "means the person who makes the application for initiating arbitral proceedings.",
+    "scope": ""
+   },
+   {
+    "term": "Respondent",
+    "para": "definitions",
+    "def": "means the person against whom the Applicant lodges arbitration application, whether or not there is a claim against such person. 5.2 VENUE AND SEAT OF ARBITRATION The Venue and Seat of Arbitration shall be prescribed by SEBI / the Exchange from time to time. 5.3 PECUNIARY JURISDICTION OF ARBITRAL TRIBUNALS An arbitration reference shall be referred to a sole arbitrator or a panel of arbitrators based on the…",
+    "scope": ""
+   },
+   {
+    "term": "Assignment",
+    "para": "definitions",
+    "def": "means an allocation of an option contract which is exercised, to a short position in the same option contract, at the same strike price, for fulfilment of the obligation, in accordance with the procedure as may be specified by the Relevant Authority, from time to time. 1.8 Authorised Person",
+    "scope": ""
+   },
+   {
+    "term": "Certified Warehouse",
+    "para": "definitions",
+    "def": "means a warehouse, and which includes any place of storage, godown, tank, cold storage, silo, store house, vault or any type of storage facility whether temporary or permanent certified/approved/accredited by the Exchange/Clearing Corporation or any agency authorized by Exchange/Clearing Corporation and designated as such for storage or for making delivery to and taking delivery of commodities for fulfilling the…",
+    "scope": ""
+   },
+   {
+    "term": "Certified warehouse receipt/storage receipt/vault receipt (certified receipts)",
+    "para": "definitions",
+    "def": "means a receipt issued by empaneled agency evidencing proof of ownership of a stated quantity of commodities of a stated grade and quality in favour of a beneficial owner or the holder of a certified warehouse receipt. Such receipt may either be in physical form or in a dematerialized/ electronic form as may be permitted by law. 1.14 Clearing Corporation",
+    "scope": ""
+   },
+   {
+    "term": "Clearing Corporation",
+    "para": "definitions",
+    "def": "means Indian Clearing Corporation Limited (any change in its name and/or re-constitution thereof included). 1.15 Clearing Member",
+    "scope": ""
+   },
+   {
+    "term": "Common Pool Facility",
+    "para": "definitions",
+    "def": "means the trading facility created by the Exchange at various places, including at the Exchange to make available for use by the Trading Members in the event of failure of trading facilities in their office or otherwise. 1.17 Commodity Derivative",
+    "scope": ""
+   },
+   {
+    "term": "Commodity Derivative",
+    "para": "definitions",
+    "def": "means a contract as defined in the Securities Contracts (Regulation) 1.18 Constituent A `Constituent' means a person, on whose instructions and, on whose account, a Trading Member enters into any contract for the purchase or sale of any security or does any act in relation thereto. 1.19 Contract Specifications",
+    "scope": ""
+   },
+   {
+    "term": "Contract Specifications",
+    "para": "definitions",
+    "def": "means and includes specifications and terms and conditions prescribed generally or specifically by the Exchange or the Clearing Corporation from time to time for trading, clearing and settlement of securities which may be altered or modified at the discretion of the Exchange or the Clearing Corporation. 1.20 Days of tender",
+    "scope": ""
+   },
+   {
+    "term": "Days of tender",
+    "para": "definitions",
+    "def": "means the days on which relevant delivery documents and certified receipts are permitted to be presented to the Clearing Corporation. INTERNAL BSE Limited Commodity Derivatives Segment - Regulations 1.21 Deal, Transaction, Dealing and Contract For the purpose of these Regulations, the terms \"deal\", \"transaction\", \"dealing\" and \"Contract\", shall have one and the same meaning, unless the context indicates…",
+    "scope": ""
+   },
+   {
+    "term": "Delivery",
+    "para": "definitions",
+    "def": "means the tender and receipt of securities or certified warehouse receipts or any other documents evidencing the title to the underlying or securities as mentioned by the Clearing Corporation from time to time. 1.23 Delivery centers `Delivery centers' are the centers where the commodities permitted for trading on the Exchange can be delivered by the seller against his outstanding position during the delivery…",
+    "scope": ""
+   },
+   {
+    "term": "Delivery order rate",
+    "para": "definitions",
+    "def": "means the rate at which the delivery order / delivery shall be allocated on the designated tender day or the date on which the contract expires.",
+    "scope": ""
+   },
+   {
+    "term": "Delivery Period Margin",
+    "para": "definitions",
+    "def": "means the margin levied on the long and short positions marked for delivery till the pay-in is completed by the member. 1.26 Delivery Period",
+    "scope": ""
+   },
+   {
+    "term": "Delivery Period",
+    "para": "definitions",
+    "def": "means the period during which the underlying or the securities, as the case may be, are tendered in terms of the contracts specifications for fulfillment of the transactions executed under the Rules, Byelaws and Regulations of the Exchange and includes tender days as prescribed by the Exchange or the Clearing Corporation for different contracts. 1.27 Exercise",
+    "scope": ""
+   },
+   {
+    "term": "Exercise",
+    "para": "definitions",
+    "def": "means invocation of the right of option, in accordance with and subject to the Rules, Byelaws and Regulations of the Exchange, by the holder of such right, which may include delivery of the underlying. 1.28 Exercise Style `Exercise Style' of an option refers to the price at which and/or time as to when the option is exercisable by the holder. INTERNAL BSE Limited Commodity Derivatives Segment - Regulations 1.29…",
+    "scope": ""
+   },
+   {
+    "term": "Long Position",
+    "para": "definitions",
+    "def": "means the net outstanding purchase obligations of a person, whether a member or not, in respect of his transactions in a contract month for a commodity or security or its price index at any given point of time, whose settlement is yet to be effected. Liquid Assets",
+    "scope": ""
+   },
+   {
+    "term": "Liquid Assets",
+    "para": "definitions",
+    "def": "means assets as specified by the Exchange and/ or SEBI from time to time to cover various margins and deposit requirements 1.33 Members' Open Position",
+    "scope": ""
+   },
+   {
+    "term": "Members' Open Position",
+    "para": "definitions",
+    "def": "means the sum of long and short positions of a Member and his Constituents in any or all of the Commodity Derivatives outstanding with the Clearing Corporation. Notification, Notice or Communication `Notification, Notice or Communication' will mean an intimation that can be served at the ordinary business address and/or at the ordinary place of residence and/or last known address of the party in any one or more…",
+    "scope": ""
+   },
+   {
+    "term": "BSE",
+    "para": "definitions",
+    "def": "means BSE Limited. The terms \"BSE\", and \"the Exchange\" are used interchangeably in these Regulations. 1.36 Open Interest",
+    "scope": ""
+   },
+   {
+    "term": "Open Interest",
+    "para": "definitions",
+    "def": "means the total number of Commodity Derivatives of an underlying that have not yet been offset and closed by an opposite Commodity Derivatives transaction; nor fulfilled by delivery of the cash or underlying security or Exercise of the option. 1.37 Outstanding Obligation",
+    "scope": ""
+   },
+   {
+    "term": "Outstanding Obligation",
+    "para": "definitions",
+    "def": "means the obligation which has neither been closed out nor been settled. 1.38 Premium `Premium' is the price which the buyer of the option pays to the seller of the option for the rights conveyed by the Option Contract. 1.39 Special margin",
+    "scope": ""
+   },
+   {
+    "term": "Special margin",
+    "para": "definitions",
+    "def": "means the margin deposit that is required from the contracting parties to hold a position in a commodity derivatives as specified by the Exchange or Clearing Corporation and/or as directed by the SEBI. 1.40 Settlement price for a contract",
+    "scope": ""
+   },
+   {
+    "term": "Settlement price for a contract",
+    "para": "definitions",
+    "def": "means the price at which the contract shall be settled in the manner specified by the Exchange or Clearing Corporation from time to time which may include daily settlement price and FSP. 1.41 Tender Period Margin/Pre-expiry Margin",
+    "scope": ""
+   },
+   {
+    "term": "Tender Period Margin/Pre-expiry Margin",
+    "para": "definitions",
+    "def": "means the margin which may be increased gradually every day beginning from the pre-determined number of days before the expiry of the commodity derivatives contract as applicable. 1.42 Tenderable or Deliverable varieties or grades INTERNAL BSE Limited Commodity Derivatives Segment - Regulations `Tenderable or Deliverable varieties or grades' are varieties or grades other than `basis' variety or grade which are…",
+    "scope": ""
+   },
+   {
+    "term": "Warehouse Service Provider",
+    "para": "definitions",
+    "def": "means an agency approved and accredited by the Exchange and/or clearing corporation for storage and preservation of commodities. INTERNAL BSE Limited Commodity Derivatives Segment - Regulations",
+    "scope": ""
+   },
+   {
+    "term": "American Style option contract",
+    "para": "definitions",
+    "def": "means an option contract which may be exercised on any day on or before the Expiration Day. 1.2 Approved Office",
+    "scope": ""
+   },
+   {
+    "term": "Closing buy transaction",
+    "para": "definitions",
+    "def": "means a buy transaction which will have the effect of partly or fully offsetting a short position. 1.12 Closing sell transaction",
+    "scope": ""
+   },
+   {
+    "term": "Closing sell transaction",
+    "para": "definitions",
+    "def": "means a sell transaction which will have the effect of partly or fully offsetting a long position. 1.13 Common Pool facility",
+    "scope": ""
+   },
+   {
+    "term": "Contract",
+    "para": "definitions",
+    "def": "shall mean either a Futures Contract or an Option Contract. 1.15 Contract Value `Contract Value' is the value arrived at by multiplying the strike price of the Option Contract with the regular or market lot size. 1.16 Contract Month BSE Limited Futures and Options Segment - Regulations",
+    "scope": ""
+   },
+   {
+    "term": "Contract month",
+    "para": "definitions",
+    "def": "means the month in which a Contract ought to be settled. 1.17 Corporate Actions `Corporate Actions' mean and include dividend, bonus, right shares, issue of shares as a result of a stock split, stock consolidation, schemes of mergers/demergers, spinoffs, amalgamations, capital restructuring and such other privileges or events of a similar nature which may be specified by the Relevant Authority from time to time.…",
+    "scope": ""
+   },
+   {
+    "term": "Derivative Contract",
+    "para": "definitions",
+    "def": "means a contract on any derivatives as defined in Securities Contracts (Regulation) Act, 1956 or as prescribed by SEBI from time to time. 1.20 Exercise",
+    "scope": ""
+   },
+   {
+    "term": "Expiration Day",
+    "para": "definitions",
+    "def": "means the day on which the final settlement obligations are determined in a Derivatives Contract. 1.24 Expiration time `Expiration time' is the close of business hours on the Expiration Day of the Option Contract or such other time as may be specified by the Relevant Authority from time to time. 1.25 European Style option contract",
+    "scope": ""
+   },
+   {
+    "term": "European Style option contract",
+    "para": "definitions",
+    "def": "means an Option Contract which may be exercised on the Expiration Day. 1.26 Future Contract BSE Limited Futures and Options Segment - Regulations",
+    "scope": ""
+   },
+   {
+    "term": "Future Contract",
+    "para": "definitions",
+    "def": "means a contract to buy or sell a specified quantity of the underlying security at a specified time in the future. 1.27 In the Money Strike Price `In the Money Strike Price', in case of a `Put Option', is the strike price of the Option Contract which is above `At the money or Near the money' strike price. In the money strike price, in case of a `Call Option', is the strike price of the Option Contract which is…",
+    "scope": ""
+   },
+   {
+    "term": "Last Trading Day",
+    "para": "definitions",
+    "def": "means the day up to which a Derivatives Contract is available for trading. 1.29 Long Position `Long Position' in a Derivatives Contract means outstanding purchase obligations in respect of a permitted Derivatives Contract at any point of time. 1.30 Market Type",
+    "scope": ""
+   },
+   {
+    "term": "Market Type",
+    "para": "definitions",
+    "def": "refers to the different markets in which trading is permitted on the Trading system. 1.31 Members' Open Position",
+    "scope": ""
+   },
+   {
+    "term": "Notification, Notice or Communication",
+    "para": "definitions",
+    "def": "refers to any communication that can be served at an ordinary business address and/or at an ordinary place of residence and/or at the last known address of a Trading Member/ Constituent in any one or more or all of the following ways:-",
+    "scope": ""
+   },
+   {
+    "term": "Opening Buy Transaction",
+    "para": "definitions",
+    "def": "means a buy transaction which will have the effect of creating or increasing a long position. 1.35 Opening Sell Transaction",
+    "scope": ""
+   },
+   {
+    "term": "Opening Sell Transaction",
+    "para": "definitions",
+    "def": "means a sell transaction which will have the effect of creating or increasing a short position. 1.36 Open Interest",
+    "scope": ""
+   },
+   {
+    "term": "Option Writer",
+    "para": "definitions",
+    "def": "means a Trading Member who is permitted by the Exchange to write Option Contracts. 1.42 Out of the Money Strike Price BSE Limited Futures and Options Segment - Regulations `Out of the Money Strike Price', in case of a `Put Option', is the strike price of the Option Contract which is below `At the money or Near the money' strike price. Out of the money strike price, in case of a `Call Option', is the strike price…",
+    "scope": ""
+   },
+   {
+    "term": "Regular Lot/Market Lot Size",
+    "para": "definitions",
+    "def": "means the number of units that can be bought or sold in a specified Derivatives contract as may be specified by the Relevant Authority of the Exchange from time to time. 1.47 Risk Disclosure Document",
+    "scope": ""
+   },
+   {
+    "term": "Series of Options",
+    "para": "definitions",
+    "def": "means all options of the same class having the same exercise price and Expiration Day. 1.49 Settlement Date",
+    "scope": ""
+   },
+   {
+    "term": "Settlement Date",
+    "para": "definitions",
+    "def": "means the date on which the settlement of outstanding obligations in a permitted Derivatives contract are required to be settled as provided in these Regulations or as specified by the Exchange from time to time. 1.50 Settlement price `Settlement Price' in respect of settlement of a permitted Derivatives Contract, is the closing price of the underlying on the day of Exercise or such other price as may be decided…",
+    "scope": ""
+   },
+   {
+    "term": "Trading cycle",
+    "para": "definitions",
+    "def": "means the period, as notified by the Exchange from time to time, during which a Derivatives Contract will be available for trading; 1.54 Trading Member Trading Member refers to an entity as defined under chapter VI of the Bye-laws of 1.55 Trade Type `Trade Type' is the type of trade as may be permitted by the Exchange from time to time for each Market Type. 1.56 Trading System",
+    "scope": ""
+   },
+   {
+    "term": "Type of option",
+    "para": "definitions",
+    "def": "means the classification of an option as either a put or a call. 1.58 Underlying Securities",
+    "scope": ""
+   },
+   {
+    "term": "Underlying Securities",
+    "para": "definitions",
+    "def": "means a security with reference to which a Derivatives Contract is permitted to be traded on the Exchange from time to time, which may include securities or an index of prices of securities. 1.59 Interpretation Unless in the context it is explicitly stated otherwise, all words and expressions used in these Regulations but not defined, and defined in the following, shall have the meanings respectively assigned to…",
+    "scope": ""
+   }
+  ],
+  "NSE-DENOM-20251219": [
+   {
+    "term": "debt securities",
+    "para": "definitions",
+    "def": "means non-convertible debt securities with a fixed maturity period which create or acknowledge indebtedness and includes debentures, bonds or any other security whether constituting a charge on the assets/properties or not, but excludes security receipts, securitized debt instruments, money market instruments regulated by the Reserve Bank of India, and bonds issued by the Government or such other bodies as may be…",
+    "scope": ""
+   },
+   {
+    "term": "non-convertible redeemable preference share",
+    "para": "definitions",
+    "def": "means a preference share which is redeemable in accordance with the relevant provisions of the Companies Act, 2013 (18 of 2013) and does not include a preference share which is convertible into or exchangeable with equity shares of the issuer at a later date, at the option of the holder or not.",
+    "scope": ""
+   }
+  ],
+  "NSE-EBP-OG": [
+   {
+    "term": "Participant",
+    "para": "definitions",
+    "def": "shall mean an Issuer, Arranger, Qualified Institutional Buyers (QIBs), non- Qualified Institutional Buyers (non-QIBs) and Custodians as identified by SEBI from time to time and who have enrolled and / or are eligible and / or have entered into an agreement with / provided an undertaking to the EBP in this regard. The participants can register on NSE-EBP from the below link: https://www.nse-ebp.com/ebp/rest/login…",
+    "scope": ""
+   }
+  ],
+  "NSE-IF-20250102": [
+   {
+    "term": "Cost",
+    "para": "definitions",
+    "def": "refers to the cost of borrowed funds for the listed entity.",
+    "scope": ""
+   }
+  ],
+  "LODR-DEFAULT": [
+   {
+    "term": "other than permanent worker",
+    "para": "definitions",
+    "def": "refers to employees or workers who are employed for a fixed term that ends when a specific time period expires, or on completion of a specific task or an event such as the end of a project or return of a replaced employee. \"Other than permanent\" employees or workers could be employed directly by the entity or through third party contractors.",
+    "scope": ""
+   },
+   {
+    "term": "company",
+    "para": "definitions",
+    "def": "includes any body corporate. 25 Grievance 3. As defined under Sec 2(87) of the Companies Act 2013, subsidiary redressal company or subsidiary, in relation to any other company (that is to say the holding company), means a company in which the holding company--",
+    "scope": ""
+   },
+   {
+    "term": "Rehabilitation",
+    "para": "definitions",
+    "def": "refers to a process aimed at enabling persons with disabilities to attain and maintain optimal, physical, sensory, intellectual, psychological environmental or social function levels. PRINCIPLE 4: Businesses should respect the interests of and be responsive to all its stakeholders Essential Indicators Q. No. Field Name Instruction/Guidance Process for identification of Under this field, the entity shall disclose…",
+    "scope": ""
+   },
+   {
+    "term": "Discrimination",
+    "para": "definitions",
+    "def": "refers to unjust or prejudicial treatment of people, especially on the grounds of, but not limited to, caste, creed, sex, race, ethnicity, age, colour, religion, disability, socio- economic status or sexual orientation.",
+    "scope": ""
+   },
+   {
+    "term": "Forced Labour' or `Involuntary Labour",
+    "para": "definitions",
+    "def": "refers to all work or service that is extracted under the menace of penalty. It also includes terms such as, bonded labour and modern slavery. It also includes any labour for which the worker receives less than the government-stipulated minimum wage. PRINCIPLE 6 Businesses should respect and make efforts to protect and restore the environment Q. No. Field Name Essential Indicators",
+    "scope": ""
+   },
+   {
+    "term": "Cost",
+    "para": "definitions",
+    "def": "refers to the cost of borrowed funds for the listed entity.",
+    "scope": ""
+   }
+  ],
+  "NSE-NCL-DEBT-MC-2026": [
+   {
+    "term": "Said Securities",
+    "para": "definitions",
+    "def": "shall mean all the securities lying in the Depository Account No. ___________ (hereinafter referred to as \"Account\") with the custodian/depository participant and shall include all securities given in addition, substitution or replacement of the securities in the said Account. All securities lying in the said Account shall be deemed to have been pledged at all times with NCL by virtue of this Deed.",
+    "scope": ""
+   }
+  ]
+ }
+}

@@ -1,0 +1,372 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Plain-language explanations for readers who are new to the terms. They are summaries, not the legal definitions: the instrument named under 'See' governs."
+ },
+ "terms": [
+  {
+   "term": "NSE",
+   "full": "National Stock Exchange of India",
+   "def": "A recognised stock exchange. It lists equity, NCDs and commercial paper, runs an EBP for private placements and an RFQ platform for bond trades; NSE Clearing settles them.",
+   "see": [
+    "NSE-BYELAWS"
+   ],
+   "aka": [
+    "National Stock Exchange",
+    "NSE Clearing",
+    "NCL"
+   ]
+  },
+  {
+   "term": "BSE",
+   "full": "BSE Limited",
+   "def": "A recognised stock exchange. It lists equity, NCDs and commercial paper and runs the BSEBOND EBP platform and an RFQ platform; Indian Clearing Corporation settles its trades.",
+   "see": [
+    "BSE-RULES"
+   ],
+   "aka": [
+    "Bombay Stock Exchange",
+    "ICCL",
+    "Indian Clearing Corporation"
+   ]
+  },
+  {
+   "term": "Recognised stock exchange",
+   "full": "",
+   "def": "An exchange recognised by the Central Government (now SEBI) under s. 4 of the Securities Contracts (Regulation) Act, 1956. Its ownership and governance follow the SECC Regulations.",
+   "see": [
+    "SEBI-SECC"
+   ],
+   "aka": [
+    "stock exchange",
+    "exchange"
+   ]
+  },
+  {
+   "term": "Listing agreement",
+   "full": "",
+   "def": "The agreement a listed entity signs with each exchange when it lists. It binds the entity to the LODR Regulations and the exchange's rules; breach can lead to fines, suspension or delisting under the SCRA.",
+   "see": [
+    "LA-UNIFORM"
+   ],
+   "aka": [
+    "uniform listing agreement",
+    "s. 21"
+   ]
+  },
+  {
+   "term": "NCD",
+   "full": "Non-convertible debenture",
+   "def": "A debenture that cannot be converted into shares. Privately placed NCDs of Rs 20 crore or more are issued through an EBP and listed within T+3 days of the issue closing.",
+   "see": [
+    "NSE-CHK-PP",
+    "NSE-EBP-OG"
+   ],
+   "aka": [
+    "NCDs",
+    "non-convertible debentures",
+    "debentures",
+    "bonds"
+   ]
+  },
+  {
+   "term": "Non-convertible securities",
+   "full": "NCS",
+   "def": "NCDs, non-convertible redeemable preference shares and similar debt-like instruments issued and listed under the SEBI NCS Regulations, 2021.",
+   "see": [
+    "NCS-AMD-2026"
+   ],
+   "aka": [
+    "NCS Regulations",
+    "non-convertible securities"
+   ]
+  },
+  {
+   "term": "Commercial paper",
+   "full": "CP",
+   "def": "A short-term unsecured money market instrument issued under RBI's directions. Listed CP follows SEBI's framework: listing on T+1 from receipt of funds, minimum lot of Rs 5 lakh, and no in-principle approval.",
+   "see": [
+    "NSE-CP-FRAMEWORK",
+    "CP-CHK-FAQ"
+   ],
+   "aka": [
+    "CP",
+    "commercial papers"
+   ]
+  },
+  {
+   "term": "In-principle approval",
+   "full": "",
+   "def": "The exchange's approval of the draft offer or placement document before an issue opens. Needed for NCDs (not for CP) before the issue is put on an EBP.",
+   "see": [
+    "NSE-CHK-PP",
+    "NSE-EBP-OG"
+   ],
+   "aka": [
+    "in-principle",
+    "IPA"
+   ]
+  },
+  {
+   "term": "EBP",
+   "full": "Electronic book provider platform",
+   "def": "The exchange platform on which private placements of debt of Rs 20 crore or more are bid and allotted. NSE's EBP and BSEBOND are the two exchange platforms.",
+   "see": [
+    "NSE-EBP-OG",
+    "BSE-EBP-OG"
+   ],
+   "aka": [
+    "electronic book",
+    "BSEBOND",
+    "electronic book mechanism",
+    "EBM"
+   ]
+  },
+  {
+   "term": "Anchor investor",
+   "full": "",
+   "def": "An investor who commits in advance to part of a private placement on an EBP. The anchor portion is capped at 30%, 40% or 50% of the base issue depending on the rating.",
+   "see": [
+    "NSE-EBP-OG"
+   ],
+   "aka": [
+    "anchor",
+    "anchor portion"
+   ]
+  },
+  {
+   "term": "Arranger",
+   "full": "",
+   "def": "A SEBI-registered intermediary (such as a merchant banker or broker) who bids on an EBP for its clients. Repeated client pay-in defaults bar it from bidding.",
+   "see": [
+    "NSE-EBP-OG",
+    "NSE-MBEXEMPT-20261008"
+   ],
+   "aka": [
+    "arrangers",
+    "merchant banker"
+   ]
+  },
+  {
+   "term": "Green shoe",
+   "full": "",
+   "def": "The option to keep subscriptions above the base issue size. On an EBP it may not exceed five times the base issue.",
+   "see": [
+    "NSE-EBP-OG"
+   ],
+   "aka": [
+    "green shoe option",
+    "greenshoe"
+   ]
+  },
+  {
+   "term": "ISIN",
+   "full": "International Securities Identification Number",
+   "def": "The code that identifies a security in the depositories. SEBI caps how many debt ISINs maturing in a financial year an issuer may have, to push re-issues into existing ISINs.",
+   "see": [
+    "NSE-ISIN-DEBT-20261008"
+   ],
+   "aka": [
+    "ISINs",
+    "re-issue"
+   ]
+  },
+  {
+   "term": "REF",
+   "full": "Recovery Expense Fund",
+   "def": "A fund each debt issuer deposits with the designated exchange, at 0.01% of the issue up to Rs 25 lakh. Debenture trustees draw on it to enforce security after a default.",
+   "see": [
+    "NSE-REF-GUIDE",
+    "NSE-DT-CH4-20251202"
+   ],
+   "aka": [
+    "recovery expense fund"
+   ]
+  },
+  {
+   "term": "Debenture trustee",
+   "full": "DT",
+   "def": "The SEBI-registered trustee that holds security and acts for debenture holders. The issuer must send it periodic security cover and other reports on set timelines.",
+   "see": [
+    "NSE-DT-TIMELINE-20251127",
+    "NSE-DT-CH4-20251202"
+   ],
+   "aka": [
+    "debenture trustees",
+    "trustee"
+   ]
+  },
+  {
+   "term": "Security cover",
+   "full": "",
+   "def": "The value of the assets charged for secured NCDs compared with the amount outstanding. Certified quarterly to the trustee and the exchange.",
+   "see": [
+    "NSE-DT-TIMELINE-20251127"
+   ],
+   "aka": [
+    "asset cover",
+    "security cover certificate"
+   ]
+  },
+  {
+   "term": "Credit Risk-o-Meter",
+   "full": "",
+   "def": "A coloured meter showing the credit risk of a debt security, based on its rating. Required in offer documents, advertisements and online bond platforms from 21-11-2026.",
+   "see": [
+    "NSE-RISKOMETER-20261008"
+   ],
+   "aka": [
+    "risk-o-meter",
+    "riskometer"
+   ]
+  },
+  {
+   "term": "Integrated filing",
+   "full": "",
+   "def": "The single quarterly filing (governance and financial parts) that replaced several separate LODR filings. Governance within 30 days of the quarter end; financials with the results.",
+   "see": [
+    "NSE-IF-20250102",
+    "NSE-IF-FAQ-20260612"
+   ],
+   "aka": [
+    "integrated filing governance",
+    "integrated filing financial"
+   ]
+  },
+  {
+   "term": "XBRL",
+   "full": "",
+   "def": "The machine-readable format used for exchange filings. Regulation 50 prior intimations for listed debt are accepted only in XBRL since 01-12-2025.",
+   "see": [
+    "NSE-XBRL-REG50",
+    "NSE-API-20260619"
+   ],
+   "aka": [
+    "XBRL filing"
+   ]
+  },
+  {
+   "term": "Record date",
+   "full": "",
+   "def": "The date that fixes who receives interest or redemption on listed debt. It is notified to the exchange in advance through the prescribed filing.",
+   "see": [
+    "NSE-RECORDDATE-20250429"
+   ],
+   "aka": [
+    "record dates"
+   ]
+  },
+  {
+   "term": "Default disclosure",
+   "full": "",
+   "def": "Disclosure to the exchanges of a default on a loan from a bank or financial institution that continues beyond 30 days, made within 24 hours of the 30th day.",
+   "see": [
+    "LODR-DEFAULT"
+   ],
+   "aka": [
+    "default on loans",
+    "default intimation"
+   ]
+  },
+  {
+   "term": "Encumbrance",
+   "full": "",
+   "def": "A pledge, lien, non-disposal undertaking or similar arrangement over shares. Promoters disclose encumbrances, and reasons when they cross 50% of their holding or 20% of the company's share capital.",
+   "see": [
+    "NSE-ENCUMB-20190808"
+   ],
+   "aka": [
+    "pledge",
+    "pledged shares",
+    "promoter pledge"
+   ]
+  },
+  {
+   "term": "SOP fines",
+   "full": "",
+   "def": "Fines the exchanges levy under SEBI's standard operating procedure for late or missed filings, per day or per instance, with escalation to freezing of promoter holdings and suspension.",
+   "see": [
+    "SOP-EQ",
+    "SOP-DEBT"
+   ],
+   "aka": [
+    "standard operating procedure",
+    "SOP",
+    "fines"
+   ]
+  },
+  {
+   "term": "Suspension",
+   "full": "",
+   "def": "Stopping trading in a company's securities for continuing non-compliance. Revocation needs payment of fines and compliance.",
+   "see": [
+    "SOP-EQ",
+    "SOP-DEBT"
+   ],
+   "aka": [
+    "suspended",
+    "trading suspension"
+   ]
+  },
+  {
+   "term": "RFQ",
+   "full": "Request for quote platform",
+   "def": "The exchange platform for negotiated secondary trades in corporate bonds and CP. Since October 2026 it settles on T+0 for trades up to 5 p.m.",
+   "see": [
+    "NSE-RFQ-20261016"
+   ],
+   "aka": [
+    "request for quote",
+    "NDS-RST"
+   ]
+  },
+  {
+   "term": "Liquidity Window Facility",
+   "full": "LWF",
+   "def": "A put option an issuer may offer retail investors in its debt, exercised through an exchange window at a price set from a rating agency's valuation.",
+   "see": [
+    "NSE-LWF-20260211"
+   ],
+   "aka": [
+    "liquidity window",
+    "put option"
+   ]
+  },
+  {
+   "term": "OBPP",
+   "full": "Online bond platform provider",
+   "def": "A SEBI-registered broker that offers listed debt to investors online. Must display the Credit Risk-o-Meter from 21-11-2026.",
+   "see": [
+    "NSE-OBPP-20260817"
+   ],
+   "aka": [
+    "online bond platform",
+    "online bond platforms"
+   ]
+  },
+  {
+   "term": "Tri-party repo",
+   "full": "",
+   "def": "A repo in corporate bonds in which the exchange's clearing corporation acts as the third party, managing collateral and settlement.",
+   "see": [
+    "NSE-TREPO-20260917"
+   ],
+   "aka": [
+    "triparty repo",
+    "repo"
+   ]
+  },
+  {
+   "term": "Merchant banker",
+   "full": "",
+   "def": "A SEBI-registered intermediary who manages an issue. Since October 2026 certain regulated, listed issuers need not appoint one for privately placed debt.",
+   "see": [
+    "NSE-MBEXEMPT-20261008"
+   ],
+   "aka": [
+    "merchant bankers",
+    "lead manager"
+   ]
+  }
+ ]
+}

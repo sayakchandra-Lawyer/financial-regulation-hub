@@ -1,0 +1,2126 @@
+{
+ "meta": {
+  "title": "Stock exchange rules for listed NBFCs, debt issuers and lenders",
+  "as_of": "2026-11-26",
+  "count": 51,
+  "in_force": 48,
+  "lenses": [
+   {
+    "id": "ENT-EQ",
+    "name": "Equity-listed company"
+   },
+   {
+    "id": "ENT-DEBT",
+    "name": "Debt-listed issuer (NCDs / CP)"
+   },
+   {
+    "id": "ENT-ARR",
+    "name": "Arranger / merchant banker / EBP bidder"
+   },
+   {
+    "id": "ENT-INV",
+    "name": "Bond investor / treasury"
+   },
+   {
+    "id": "ENT-LEND",
+    "name": "Lender (defaults, pledges)"
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "id": "SEBI-SECC",
+   "label": "SECC Regulations, 2018",
+   "title": "Securities Contracts (Regulation) (Stock Exchanges and Clearing Corporations) Regulations, 2018 (as amended up to 22-11-2025)",
+   "group": "Exchanges, their rules and the listing agreement",
+   "type": "Regulation",
+   "status": "In force · amended",
+   "url": "https://www.sebi.gov.in/legal/regulations/nov-2025/securities-contracts-regulation-stock-exchanges-and-clearing-corporations-regulations-2018-last-amended-on-november-22-2025-_98205.html",
+   "issue_date": "2018-10-03",
+   "updated_as_on": "2025-11-22"
+  },
+  {
+   "id": "SEBI-MC-SECC",
+   "label": "SEBI Master Circular for exchanges and clearing corporations",
+   "title": "SEBI Master Circular for Stock Exchanges and Clearing Corporations (30-12-2024)",
+   "group": "Exchanges, their rules and the listing agreement",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://www.sebi.gov.in/legal/master-circulars/dec-2024/master-circular-for-stock-exchanges-and-clearing-corporations_90353.html",
+   "issue_date": "2024-12-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-BYELAWS",
+   "label": "NSE Rules and Bye-laws",
+   "title": "Rules and Bye-laws of National Stock Exchange of India Ltd (Rules posted 29-06-2026; Bye-laws posted 19-06-2026)",
+   "group": "Exchanges, their rules and the listing agreement",
+   "type": "Exchange rules",
+   "status": "In force · amended",
+   "url": "https://www.nseindia.in/regulations/exchange-market-regulations-rules-byelaws-nseil",
+   "issue_date": "2026-06-19",
+   "updated_as_on": "2026-06-29"
+  },
+  {
+   "id": "NSE-REG-WDM",
+   "label": "NSE debt segment (WDM) trading regulations",
+   "title": "NSE Wholesale Debt Market (Trading) Regulations",
+   "group": "Exchanges, their rules and the listing agreement",
+   "type": "Exchange rules",
+   "status": "In force",
+   "url": "https://www.nseindia.in/regulations/exchange-market-regulations-rules-byelaws-nseil",
+   "issue_date": "",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "BSE-RULES",
+   "label": "BSE Rules, Bye-laws and Regulations",
+   "title": "Rules, Bye-laws and Regulations of BSE Ltd (compiled)",
+   "group": "Exchanges, their rules and the listing agreement",
+   "type": "Exchange rules",
+   "status": "In force",
+   "url": "https://www.bseindia.com/members/downloads.aspx",
+   "issue_date": "",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "LA-UNIFORM",
+   "label": "Uniform Listing Agreement",
+   "title": "Uniform Listing Agreement (NSE) and Listing Agreement for Debt Securities (BSE)",
+   "group": "Exchanges, their rules and the listing agreement",
+   "type": "Listing agreement",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/raising-capital-debt-private-placement-agreement",
+   "issue_date": "",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-CHK-PP",
+   "label": "NSE checklists for privately placed NCDs",
+   "title": "NSE checklists for in-principle approval and final listing of non-convertible securities issued on private placement (in-principle checklist of 07-08-2026; procedure set of 04-09-2026)",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Exchange checklist",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/raising-capital-debt-private-placement-process",
+   "issue_date": "2026-08-07",
+   "updated_as_on": "2026-09-04"
+  },
+  {
+   "id": "BSE-MASTER-CHK",
+   "label": "BSE Master Checklist 2026",
+   "title": "BSE Master Checklist for Listing Requirements (2026)",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Exchange checklist",
+   "status": "In force",
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260430-51",
+   "issue_date": "2026-04-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-CHK-PUB",
+   "label": "NSE checklists for public issues of NCDs",
+   "title": "NSE in-principle and final listing checklists and application forms for public issues of debt securities (final checklist of 25-06-2026)",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Exchange checklist",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/raising-capital-public-issues-checklist-for-debt",
+   "issue_date": "2026-06-25",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-LISTFEE-DEBT",
+   "label": "NSE listing fees for privately placed debt",
+   "title": "NSE listing fees for debt securities on private placement (applicable from 01-11-2023)",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Fee schedule",
+   "status": "In force",
+   "url": "https://www.nseindia.in/static/companies-listing/raising-capital-debt-private-placement-fees",
+   "issue_date": "2023-10-31",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-REF-GUIDE",
+   "label": "Recovery Expense Fund (REF)",
+   "title": "Guidance on Recovery Expense Fund (NSE), read with SEBI circular of 22-10-2020",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Exchange guidance",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/raising-capital-debt-private-placement-process",
+   "issue_date": "2020-10-22",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-DT-CH4-20251202",
+   "label": "REF: when trustees can use it",
+   "title": "Modifications to Chapter IV (Recovery Expense Fund) of the SEBI Master Circular for Debenture Trustees",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2025-12-02",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-ISIN-DEBT-20261008",
+   "label": "ISIN limits for private placement debt (2026)",
+   "title": "Review of provisions related to ISIN for debt securities issued on private placement basis",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2026-10-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-MBEXEMPT-20261008",
+   "label": "Rs 10,000 NCDs without a merchant banker",
+   "title": "Exemption from mandatory merchant banker appointment for debt issued through private placement by certain listed issuers",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2026-10-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-DENOM-20251219",
+   "label": "Rs 10,000 face value: zero coupon allowed",
+   "title": "Modification in the conditions specified for reduction in denomination of debt securities",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2025-12-19",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-RISKOMETER-20261008",
+   "label": "Credit Risk-o-Meter",
+   "title": "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2026-10-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-DT-TIMELINE-20251127",
+   "label": "What issuers send to debenture trustees, and when",
+   "title": "Timeline for submission of information by the issuer to the debenture trustee(s)",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2025-11-27",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-CP-FRAMEWORK",
+   "label": "Framework for listing commercial paper",
+   "title": "Guidelines on framework for listing of commercial papers",
+   "group": "Listing commercial paper",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2019-12-26",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "CP-CHK-FAQ",
+   "label": "CP listing checklist and FAQs",
+   "title": "Checklists and FAQs for listing of commercial paper (NSE and BSE)",
+   "group": "Listing commercial paper",
+   "type": "Exchange checklist",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/raising-capital-debt-private-placement-process",
+   "issue_date": "2021-12-21",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-CP-PAYSTATUS-20240910",
+   "label": "CP payment status within one working day",
+   "title": "Modification in the timeline for submission of status regarding payment obligations by entities that have listed commercial paper",
+   "group": "Listing commercial paper",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2024-09-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-EBP-OG",
+   "label": "NSE EBP operating guidelines",
+   "title": "Revised operating guidelines for the NSE Electronic Bidding Platform (NSE-EBP)",
+   "group": "Electronic book bidding (EBP)",
+   "type": "Operating guidelines",
+   "status": "In force",
+   "url": "https://www.nseindia.in/resources/exchange-communication-circulars",
+   "issue_date": "2025-11-14",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "BSE-EBP-OG",
+   "label": "BSEBOND (BSE EBP) operating guidelines",
+   "title": "Operational guidelines for participation on BSEBOND, the EBP platform of BSE (effective 17-11-2025)",
+   "group": "Electronic book bidding (EBP)",
+   "type": "Operating guidelines",
+   "status": "In force",
+   "url": "https://www.bseindia.com/static/publicissues/about-ebpbond-new",
+   "issue_date": "2025-11-14",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-IF-20250102",
+   "label": "Integrated Filing (Governance and Financial)",
+   "title": "Implementation of the Expert Committee recommendations: Integrated Filing (NSE and BSE), with SEBI circular of 31-12-2024",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-equity-market",
+   "issue_date": "2025-01-02",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-IF-FAQ-20260612",
+   "label": "FAQs on Integrated Filing (Governance)",
+   "title": "FAQs on submission of the quarterly Integrated Filing - Governance (NSE and BSE)",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-equity-market",
+   "issue_date": "2026-06-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-API-20260619",
+   "label": "Single filing across NSE and BSE",
+   "title": "Update of single filing system through API-based integration between stock exchanges",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-equity-market",
+   "issue_date": "2026-06-19",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-XBRL-REG50",
+   "label": "Reg 50 board meeting intimations in XBRL",
+   "title": "XBRL-based filing of Regulation 50 disclosures by entities with listed non-convertible securities",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2025-11-21",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-RECORDDATE-20250429",
+   "label": "Record dates for debt: where and how to file",
+   "title": "Path of filing of record date disclosures for corporate actions (debt) and clarification on record dates under regulation 42",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2025-04-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-CRDISC-20250801",
+   "label": "Credit ratings disclosed straight from the agencies",
+   "title": "System-driven disclosure of credit ratings (Regulation 30) and ESG ratings",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2025-08-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-SOP-FURTHER-20261021",
+   "label": "Joint approval of further issues by NSE and BSE",
+   "title": "Common standard operating procedure for grant of approvals for further issues by stock exchanges",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-equity-market",
+   "issue_date": "2026-10-21",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-MC-LISTED-2026",
+   "label": "NSE Master Circular for listed companies 2026",
+   "title": "NSE Master Circular for Listed Companies (2026)",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2026-04-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "BSE-MC-LISTING-2026",
+   "label": "BSE Master Circular for listing compliance 2026",
+   "title": "BSE Master Circular - Listing Compliance (2026)",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260430-29",
+   "issue_date": "2026-04-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "LODR-AMD3-2026",
+   "label": "LODR Third Amendment 2026: list all later NCDs",
+   "title": "SEBI (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026 (regulation 62A)",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Amendment regulation",
+   "status": "In force",
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20261023-12",
+   "issue_date": "2026-10-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NCS-AMD-2026",
+   "label": "NCS Amendment 2026: incentives for retail and others",
+   "title": "SEBI (Issue and Listing of Non-Convertible Securities) (Amendment) Regulations, 2026",
+   "group": "Listing NCDs: approval, timelines, ISINs and fees",
+   "type": "Amendment regulation",
+   "status": "In force",
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260203-13",
+   "issue_date": "2026-01-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "LODR-AMD1-2026",
+   "label": "LODR Amendment 2026: high value debt listed entities from Rs 5,000 crore",
+   "title": "SEBI (Listing Obligations and Disclosure Requirements) (Amendment) Regulations, 2026 (high value debt listed entities)",
+   "group": "Filings and disclosures by listed entities",
+   "type": "Amendment regulation",
+   "status": "In force",
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260203-12",
+   "issue_date": "2026-01-20",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "LODR-DEFAULT",
+   "label": "Disclosure of defaults on bank loans",
+   "title": "Disclosures by listed entities of defaults on payment of interest or principal on loans from banks and financial institutions and on unlisted debt securities (Section V-B of the SEBI LODR Master Circular)",
+   "group": "Defaults, pledges and lender-facing disclosures",
+   "type": "Circular",
+   "status": "In force · amended",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-debt-market",
+   "issue_date": "2019-11-21",
+   "updated_as_on": "2026-01-30"
+  },
+  {
+   "id": "NSE-ENCUMB-20190808",
+   "label": "Reasons for promoter pledges",
+   "title": "Disclosure of reasons for encumbrance by promoters of listed companies",
+   "group": "Defaults, pledges and lender-facing disclosures",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-equity-market",
+   "issue_date": "2019-08-08",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "BSE-PLEDGE-SURV",
+   "label": "Surveillance of companies with high promoter pledge",
+   "title": "Surveillance measure in respect of companies with high promoter pledge (monthly list)",
+   "group": "Defaults, pledges and lender-facing disclosures",
+   "type": "Notice",
+   "status": "In force",
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260902-39",
+   "issue_date": "2026-09-02",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-PLEDGE-LOCKIN-20260410",
+   "label": "Lock-in of pledged shares",
+   "title": "Ease of doing business: mechanism for lock-in of pledged shares under the ICDR Regulations",
+   "group": "Defaults, pledges and lender-facing disclosures",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-equity-market",
+   "issue_date": "2026-04-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "SOP-EQ",
+   "label": "SOP fines for equity-listed entities",
+   "title": "Penal actions for non-compliance: fines, freezing of promoter holdings and suspension (Chapter VII-A of the SEBI LODR Master Circular, implemented by NSE and BSE)",
+   "group": "Fines, freezing and suspension",
+   "type": "Master Circular",
+   "status": "In force · amended",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-equity-market",
+   "issue_date": "2020-01-22",
+   "updated_as_on": "2026-01-30"
+  },
+  {
+   "id": "SOP-DEBT",
+   "label": "SOP fines for debt and CP issuers",
+   "title": "Non-compliance with continuous disclosures by issuers of listed non-convertible securities and commercial paper (SEBI master circular for listing obligations of debt issuers, Annex IX-A and IX-B, with BSE guidance note)",
+   "group": "Fines, freezing and suspension",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://www.bseindia.com/static/corporates/non_compliance_new",
+   "issue_date": "2025-07-11",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-FINE-WAIVER",
+   "label": "Waiver of SOP fines",
+   "title": "Processing of waiver applications for SOP fines by the exchanges for commonly listed entities, with the Policy for Exemption of Fines",
+   "group": "Fines, freezing and suspension",
+   "type": "Exchange policy",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-equity-market",
+   "issue_date": "2025-08-26",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-MPS-RELAX-20260407",
+   "label": "One-time relief on minimum public shareholding fines",
+   "title": "Relaxation from penal provisions of the LODR Master Circular on non-compliance with minimum public shareholding",
+   "group": "Fines, freezing and suspension",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/companies-listing/circular-for-listed-companies-equity-market",
+   "issue_date": "2026-04-07",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-NCL-DEBT-MC-2026",
+   "label": "NSE Clearing: debt segment, RFQ and reported deals",
+   "title": "Consolidated circular - debt market segment of NSE Clearing Ltd (to 31-03-2026)",
+   "group": "Bond trading, settlement and liquidity",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/resources/exchange-communication-circulars",
+   "issue_date": "2026-04-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "BSE-CLEARING-DEBT-2026",
+   "label": "BSE Clearing (ICCL): debt segment",
+   "title": "Indian Clearing Corporation Ltd master circular for the debt segment (updated to 31-03-2026)",
+   "group": "Bond trading, settlement and liquidity",
+   "type": "Master Circular",
+   "status": "In force",
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260429-36",
+   "issue_date": "2026-04-29",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-RFQ-20261016",
+   "label": "RFQ platform for corporate bonds",
+   "title": "RFQ platform for corporate bonds: T+0 timings extended to 5 p.m. (NSE and BSE), with operational enhancements",
+   "group": "Bond trading, settlement and liquidity",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/resources/exchange-communication-circulars",
+   "issue_date": "2026-10-16",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-LWF-20260211",
+   "label": "Liquidity Window Facility for bond investors",
+   "title": "Revised operating guidelines for the Liquidity Window Facility for investors in debt securities, with issuer compliance requirements",
+   "group": "Bond trading, settlement and liquidity",
+   "type": "Operating guidelines",
+   "status": "In force",
+   "url": "https://www.nseindia.in/resources/exchange-communication-circulars",
+   "issue_date": "2026-02-11",
+   "updated_as_on": "2026-05-04"
+  },
+  {
+   "id": "NSE-OBPP-20260817",
+   "label": "Online bond platforms: 2026 changes",
+   "title": "Modification in the regulatory framework for online bond platform providers (OBPPs), including ease of doing business measures",
+   "group": "Bond trading, settlement and liquidity",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/resources/exchange-communication-circulars",
+   "issue_date": "2026-08-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-TREPO-20260917",
+   "label": "Tri-party repo in corporate bonds",
+   "title": "Revision in auction market timings for the ARCL tri-party repo platform",
+   "group": "Bond trading, settlement and liquidity",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.nseindia.in/resources/exchange-communication-circulars",
+   "issue_date": "2026-09-17",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "NSE-DS-69679",
+   "label": "NSE EBP guidelines of August 2025",
+   "title": "Review of provisions pertaining to EBP platform: revised guidelines (August 2025)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded by NSE/DS/71301 of 14-11-2025",
+   "url": "https://www.nseindia.in/resources/exchange-communication-circulars",
+   "issue_date": "2025-08-14",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "BSE-20250814-19",
+   "label": "BSEBOND guidelines of August 2025",
+   "title": "Revised BSEBOND operational guidelines effective 18-08-2025",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded by BSE notice 20251114-47",
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20250814-19",
+   "issue_date": "2025-08-14",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "BSE-PPDI-CHK",
+   "label": "BSE checklist for privately placed debt (2021)",
+   "title": "Checklist for listing of privately placed debt issuances (2021)",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded by the BSE Master Checklist 2026",
+   "url": "https://www.bseindia.com/static/about/downloads",
+   "issue_date": "2021-01-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ENT-EQ",
+   "label": "Equity-listed company",
+   "title": "Equity-listed company",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-DEBT",
+   "label": "Debt-listed issuer (NCDs / CP)",
+   "title": "Debt-listed issuer (NCDs / CP)",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-ARR",
+   "label": "Arranger / merchant banker / EBP bidder",
+   "title": "Arranger / merchant banker / EBP bidder",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-INV",
+   "label": "Bond investor / treasury",
+   "title": "Bond investor / treasury",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-LEND",
+   "label": "Lender (defaults, pledges)",
+   "title": "Lender (defaults, pledges)",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  }
+ ],
+ "edges": [
+  {
+   "source": "SEBI-SECC",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Recognised stock exchanges and recognised clearing corporations; Anyone acquiring or holding shares in an exchange or clearing corporation, including banks, insurers and other financial institutions"
+  },
+  {
+   "source": "SEBI-SECC",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Recognised stock exchanges and recognised clearing corporations; Anyone acquiring or holding shares in an exchange or clearing corporation, including banks, insurers and other financial institutions"
+  },
+  {
+   "source": "SEBI-SECC",
+   "target": "SEBI-MC-SECC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SEBI-SECC",
+   "target": "NSE-BYELAWS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SEBI-SECC",
+   "target": "BSE-RULES",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SEBI-MC-SECC",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Recognised stock exchanges and clearing corporations, and through them their members and listed entities"
+  },
+  {
+   "source": "SEBI-MC-SECC",
+   "target": "SEBI-SECC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SEBI-MC-SECC",
+   "target": "NSE-NCL-DEBT-MC-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-BYELAWS",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Trading members, participants and constituents dealing on NSE; Issuers whose securities are admitted to dealings on NSE"
+  },
+  {
+   "source": "NSE-BYELAWS",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Trading members, participants and constituents dealing on NSE; Issuers whose securities are admitted to dealings on NSE"
+  },
+  {
+   "source": "NSE-BYELAWS",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Trading members, participants and constituents dealing on NSE; Issuers whose securities are admitted to dealings on NSE"
+  },
+  {
+   "source": "NSE-BYELAWS",
+   "target": "NSE-REG-WDM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-BYELAWS",
+   "target": "LA-UNIFORM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-BYELAWS",
+   "target": "SEBI-SECC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-REG-WDM",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Trading members and participants dealing in debt securities on NSE's debt segment; Issuers of debt securities admitted to the segment"
+  },
+  {
+   "source": "NSE-REG-WDM",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Trading members and participants dealing in debt securities on NSE's debt segment; Issuers of debt securities admitted to the segment"
+  },
+  {
+   "source": "NSE-REG-WDM",
+   "target": "NSE-BYELAWS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-REG-WDM",
+   "target": "NSE-NCL-DEBT-MC-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-RULES",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Trading members, clearing members and issuers dealing on or listed with BSE"
+  },
+  {
+   "source": "BSE-RULES",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Trading members, clearing members and issuers dealing on or listed with BSE"
+  },
+  {
+   "source": "BSE-RULES",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Trading members, clearing members and issuers dealing on or listed with BSE"
+  },
+  {
+   "source": "BSE-RULES",
+   "target": "NSE-BYELAWS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-RULES",
+   "target": "SEBI-SECC",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "LA-UNIFORM",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Every issuer listing securities on the exchange for the first time, including first-time NCD and CP issuers"
+  },
+  {
+   "source": "LA-UNIFORM",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Every issuer listing securities on the exchange for the first time, including first-time NCD and CP issuers"
+  },
+  {
+   "source": "LA-UNIFORM",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "LA-UNIFORM",
+   "target": "CP-CHK-FAQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "LA-UNIFORM",
+   "target": "SOP-EQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CHK-PP",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers listing NCDs, NCRPS, perpetual debt instruments and similar securities issued on private placement, including NBFCs and HFCs"
+  },
+  {
+   "source": "NSE-CHK-PP",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Issuers listing NCDs, NCRPS, perpetual debt instruments and similar securities issued on private placement, including NBFCs and HFCs"
+  },
+  {
+   "source": "NSE-CHK-PP",
+   "target": "BSE-MASTER-CHK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CHK-PP",
+   "target": "NSE-REF-GUIDE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CHK-PP",
+   "target": "NSE-LISTFEE-DEBT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CHK-PP",
+   "target": "NSE-EBP-OG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CHK-PP",
+   "target": "NSE-ISIN-DEBT-20261008",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CHK-PP",
+   "target": "LA-UNIFORM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CHK-PP",
+   "target": "NSE-MBEXEMPT-20261008",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-MASTER-CHK",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers applying to BSE for in-principle approval or listing of equity and debt securities, including privately placed NCDs"
+  },
+  {
+   "source": "BSE-MASTER-CHK",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Issuers applying to BSE for in-principle approval or listing of equity and debt securities, including privately placed NCDs"
+  },
+  {
+   "source": "BSE-MASTER-CHK",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Issuers applying to BSE for in-principle approval or listing of equity and debt securities, including privately placed NCDs"
+  },
+  {
+   "source": "BSE-MASTER-CHK",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-MASTER-CHK",
+   "target": "BSE-PPDI-CHK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CHK-PUB",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers and lead managers of public issues of NCDs and NCRPS"
+  },
+  {
+   "source": "NSE-CHK-PUB",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Issuers and lead managers of public issues of NCDs and NCRPS"
+  },
+  {
+   "source": "NSE-CHK-PUB",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-LISTFEE-DEBT",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers of privately placed debt securities listed on NSE"
+  },
+  {
+   "source": "NSE-LISTFEE-DEBT",
+   "target": "LA-UNIFORM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-LISTFEE-DEBT",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-REF-GUIDE",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Every issuer listing debt securities, secured or unsecured, by public issue or private placement"
+  },
+  {
+   "source": "NSE-REF-GUIDE",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Every issuer listing debt securities, secured or unsecured, by public issue or private placement"
+  },
+  {
+   "source": "NSE-REF-GUIDE",
+   "target": "NSE-DT-CH4-20251202",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-REF-GUIDE",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-DT-CH4-20251202",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers of listed debt securities; Debenture trustees; Designated stock exchanges"
+  },
+  {
+   "source": "NSE-DT-CH4-20251202",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Issuers of listed debt securities; Debenture trustees; Designated stock exchanges"
+  },
+  {
+   "source": "NSE-DT-CH4-20251202",
+   "target": "NSE-REF-GUIDE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-ISIN-DEBT-20261008",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers of debt securities on private placement, including NBFCs and HFCs"
+  },
+  {
+   "source": "NSE-ISIN-DEBT-20261008",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Issuers of debt securities on private placement, including NBFCs and HFCs"
+  },
+  {
+   "source": "NSE-ISIN-DEBT-20261008",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-MBEXEMPT-20261008",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers of privately placed debt securities or NCRPS of face value Rs 10,000"
+  },
+  {
+   "source": "NSE-MBEXEMPT-20261008",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Issuers of privately placed debt securities or NCRPS of face value Rs 10,000"
+  },
+  {
+   "source": "NSE-MBEXEMPT-20261008",
+   "target": "NSE-DENOM-20251219",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-MBEXEMPT-20261008",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-DENOM-20251219",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers of debt securities or NCRPS on private placement at a face value of Rs 10,000"
+  },
+  {
+   "source": "NSE-DENOM-20251219",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Issuers of debt securities or NCRPS on private placement at a face value of Rs 10,000"
+  },
+  {
+   "source": "NSE-DENOM-20251219",
+   "target": "NSE-MBEXEMPT-20261008",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-RISKOMETER-20261008",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "All listed and proposed issues of NCS, CP, SDIs, security receipts and market-linked debentures, public or private; Online bond platform providers (OBPPs)"
+  },
+  {
+   "source": "NSE-RISKOMETER-20261008",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "All listed and proposed issues of NCS, CP, SDIs, security receipts and market-linked debentures, public or private; Online bond platform providers (OBPPs)"
+  },
+  {
+   "source": "NSE-RISKOMETER-20261008",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "All listed and proposed issues of NCS, CP, SDIs, security receipts and market-linked debentures, public or private; Online bond platform providers (OBPPs)"
+  },
+  {
+   "source": "NSE-RISKOMETER-20261008",
+   "target": "NSE-OBPP-20260817",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-RISKOMETER-20261008",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-DT-TIMELINE-20251127",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers of listed debt securities and their debenture trustees"
+  },
+  {
+   "source": "NSE-DT-TIMELINE-20251127",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Issuers of listed debt securities and their debenture trustees"
+  },
+  {
+   "source": "NSE-DT-TIMELINE-20251127",
+   "target": "NSE-REF-GUIDE",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CP-FRAMEWORK",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers of commercial paper intending to list it, such as NBFCs and HFCs seeking mutual fund investment"
+  },
+  {
+   "source": "NSE-CP-FRAMEWORK",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Issuers of commercial paper intending to list it, such as NBFCs and HFCs seeking mutual fund investment"
+  },
+  {
+   "source": "NSE-CP-FRAMEWORK",
+   "target": "CP-CHK-FAQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CP-FRAMEWORK",
+   "target": "NSE-CP-PAYSTATUS-20240910",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CP-CHK-FAQ",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers listing commercial paper"
+  },
+  {
+   "source": "CP-CHK-FAQ",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Issuers listing commercial paper"
+  },
+  {
+   "source": "CP-CHK-FAQ",
+   "target": "NSE-CP-FRAMEWORK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "CP-CHK-FAQ",
+   "target": "LA-UNIFORM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CP-PAYSTATUS-20240910",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers of listed commercial paper"
+  },
+  {
+   "source": "NSE-CP-PAYSTATUS-20240910",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Issuers of listed commercial paper"
+  },
+  {
+   "source": "NSE-CP-PAYSTATUS-20240910",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Issuers of listed commercial paper"
+  },
+  {
+   "source": "NSE-CP-PAYSTATUS-20240910",
+   "target": "SOP-DEBT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CP-PAYSTATUS-20240910",
+   "target": "NSE-CP-FRAMEWORK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-EBP-OG",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers, arrangers, QIB and non-QIB investors, custodians and RTAs using NSE-EBP"
+  },
+  {
+   "source": "NSE-EBP-OG",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Issuers, arrangers, QIB and non-QIB investors, custodians and RTAs using NSE-EBP"
+  },
+  {
+   "source": "NSE-EBP-OG",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Issuers, arrangers, QIB and non-QIB investors, custodians and RTAs using NSE-EBP"
+  },
+  {
+   "source": "NSE-EBP-OG",
+   "target": "BSE-EBP-OG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-EBP-OG",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-EBP-OG",
+   "target": "SOP-DEBT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-EBP-OG",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers, arrangers, investors and custodians using BSEBOND"
+  },
+  {
+   "source": "BSE-EBP-OG",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Issuers, arrangers, investors and custodians using BSEBOND"
+  },
+  {
+   "source": "BSE-EBP-OG",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Issuers, arrangers, investors and custodians using BSEBOND"
+  },
+  {
+   "source": "BSE-EBP-OG",
+   "target": "NSE-EBP-OG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-IF-20250102",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Entities with listed specified securities (equity), including listed NBFCs and HFCs"
+  },
+  {
+   "source": "NSE-IF-20250102",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Entities with listed specified securities (equity), including listed NBFCs and HFCs"
+  },
+  {
+   "source": "NSE-IF-20250102",
+   "target": "NSE-IF-FAQ-20260612",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-IF-20250102",
+   "target": "LODR-DEFAULT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-IF-20250102",
+   "target": "SOP-EQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-IF-FAQ-20260612",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Entities with listed specified securities"
+  },
+  {
+   "source": "NSE-IF-FAQ-20260612",
+   "target": "NSE-IF-20250102",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-API-20260619",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Entities listed on both exchanges"
+  },
+  {
+   "source": "NSE-API-20260619",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Entities listed on both exchanges"
+  },
+  {
+   "source": "NSE-API-20260619",
+   "target": "NSE-IF-20250102",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-XBRL-REG50",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Entities with listed NCDs, NCRPS and other non-convertible securities"
+  },
+  {
+   "source": "NSE-XBRL-REG50",
+   "target": "SOP-DEBT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-RECORDDATE-20250429",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Entities with listed non-convertible securities, SDIs, security receipts, municipal debt or CP; Entities with listed equity (reg 42)"
+  },
+  {
+   "source": "NSE-RECORDDATE-20250429",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Entities with listed non-convertible securities, SDIs, security receipts, municipal debt or CP; Entities with listed equity (reg 42)"
+  },
+  {
+   "source": "NSE-RECORDDATE-20250429",
+   "target": "SOP-DEBT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-CRDISC-20250801",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Listed entities; Credit rating agencies and ESG rating providers"
+  },
+  {
+   "source": "NSE-CRDISC-20250801",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Listed entities; Credit rating agencies and ESG rating providers"
+  },
+  {
+   "source": "NSE-CRDISC-20250801",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Listed entities; Credit rating agencies and ESG rating providers"
+  },
+  {
+   "source": "NSE-CRDISC-20250801",
+   "target": "NSE-IF-20250102",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-SOP-FURTHER-20261021",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Entities listed on more than one exchange applying for approval of preferential issues, rights issues, QIPs, FCCBs, ADRs, GDRs, ESOPs, ESPS, sweat equity, bonus issues or schemes of arrangement"
+  },
+  {
+   "source": "NSE-SOP-FURTHER-20261021",
+   "target": "NSE-MC-LISTED-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-MC-LISTED-2026",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Companies listed or seeking listing on NSE"
+  },
+  {
+   "source": "NSE-MC-LISTED-2026",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Companies listed or seeking listing on NSE"
+  },
+  {
+   "source": "NSE-MC-LISTED-2026",
+   "target": "BSE-MC-LISTING-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-MC-LISTED-2026",
+   "target": "NSE-SOP-FURTHER-20261021",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-MC-LISTING-2026",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Companies listed on BSE"
+  },
+  {
+   "source": "BSE-MC-LISTING-2026",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Companies listed on BSE"
+  },
+  {
+   "source": "BSE-MC-LISTING-2026",
+   "target": "NSE-MC-LISTED-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "LODR-AMD3-2026",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Listed entities whose non-convertible debt securities are listed on or after 14-10-2026"
+  },
+  {
+   "source": "LODR-AMD3-2026",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Listed entities whose non-convertible debt securities are listed on or after 14-10-2026"
+  },
+  {
+   "source": "LODR-AMD3-2026",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Listed entities whose non-convertible debt securities are listed on or after 14-10-2026"
+  },
+  {
+   "source": "LODR-AMD3-2026",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NCS-AMD-2026",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers of debt securities"
+  },
+  {
+   "source": "NCS-AMD-2026",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Issuers of debt securities"
+  },
+  {
+   "source": "NCS-AMD-2026",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Issuers of debt securities"
+  },
+  {
+   "source": "NCS-AMD-2026",
+   "target": "NSE-CHK-PUB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "LODR-AMD1-2026",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Entities with listed non-convertible debt securities only (no listed equity), including NBFCs and HFCs"
+  },
+  {
+   "source": "LODR-AMD1-2026",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Entities with listed non-convertible debt securities only (no listed equity), including NBFCs and HFCs"
+  },
+  {
+   "source": "LODR-AMD1-2026",
+   "target": "LODR-AMD3-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "LODR-AMD1-2026",
+   "target": "NSE-IF-20250102",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "LODR-DEFAULT",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Entities with listed specified securities (equity and convertibles) that default on loans, including cash credit and other revolving facilities, from banks and financial institutions, or on unlisted NCDs and NCRPS"
+  },
+  {
+   "source": "LODR-DEFAULT",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Entities with listed specified securities (equity and convertibles) that default on loans, including cash credit and other revolving facilities, from banks and financial institutions, or on unlisted NCDs and NCRPS"
+  },
+  {
+   "source": "LODR-DEFAULT",
+   "target": "NSE-IF-20250102",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "LODR-DEFAULT",
+   "target": "SOP-EQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-ENCUMB-20190808",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Promoters (with persons acting in concert) of listed companies who pledge or otherwise encumber shares; Lenders taking pledges of promoter shares"
+  },
+  {
+   "source": "NSE-ENCUMB-20190808",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Promoters (with persons acting in concert) of listed companies who pledge or otherwise encumber shares; Lenders taking pledges of promoter shares"
+  },
+  {
+   "source": "NSE-ENCUMB-20190808",
+   "target": "BSE-PLEDGE-SURV",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-ENCUMB-20190808",
+   "target": "NSE-PLEDGE-LOCKIN-20260410",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-PLEDGE-SURV",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Trading members and investors dealing in shares of companies on the exchange's high promoter pledge list; Lenders holding pledges of such shares"
+  },
+  {
+   "source": "BSE-PLEDGE-SURV",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Trading members and investors dealing in shares of companies on the exchange's high promoter pledge list; Lenders holding pledges of such shares"
+  },
+  {
+   "source": "BSE-PLEDGE-SURV",
+   "target": "NSE-ENCUMB-20190808",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-PLEDGE-LOCKIN-20260410",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Issuers making public issues whose locked-in specified securities are pledged; Lenders and pledgees of such shares"
+  },
+  {
+   "source": "NSE-PLEDGE-LOCKIN-20260410",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Issuers making public issues whose locked-in specified securities are pledged; Lenders and pledgees of such shares"
+  },
+  {
+   "source": "NSE-PLEDGE-LOCKIN-20260410",
+   "target": "NSE-ENCUMB-20190808",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SOP-EQ",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Entities with listed specified securities and their promoters"
+  },
+  {
+   "source": "SOP-EQ",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Entities with listed specified securities and their promoters"
+  },
+  {
+   "source": "SOP-EQ",
+   "target": "SOP-DEBT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SOP-EQ",
+   "target": "NSE-FINE-WAIVER",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SOP-EQ",
+   "target": "NSE-MPS-RELAX-20260407",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SOP-EQ",
+   "target": "LA-UNIFORM",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SOP-DEBT",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Entities with listed NCDs, NCRPS and other non-convertible securities, and issuers of listed commercial paper"
+  },
+  {
+   "source": "SOP-DEBT",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Entities with listed NCDs, NCRPS and other non-convertible securities, and issuers of listed commercial paper"
+  },
+  {
+   "source": "SOP-DEBT",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Entities with listed NCDs, NCRPS and other non-convertible securities, and issuers of listed commercial paper"
+  },
+  {
+   "source": "SOP-DEBT",
+   "target": "SOP-EQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SOP-DEBT",
+   "target": "NSE-EBP-OG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SOP-DEBT",
+   "target": "NSE-CHK-PP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "SOP-DEBT",
+   "target": "NSE-MBEXEMPT-20261008",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-FINE-WAIVER",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Listed entities seeking waiver or reduction of SOP fines"
+  },
+  {
+   "source": "NSE-FINE-WAIVER",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Listed entities seeking waiver or reduction of SOP fines"
+  },
+  {
+   "source": "NSE-FINE-WAIVER",
+   "target": "SOP-EQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-FINE-WAIVER",
+   "target": "SOP-DEBT",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-MPS-RELAX-20260407",
+   "target": "ENT-EQ",
+   "relation": "applies_to",
+   "basis": "Listed entities whose due date for meeting minimum public shareholding fell between 01-04-2026 and 30-09-2026"
+  },
+  {
+   "source": "NSE-MPS-RELAX-20260407",
+   "target": "SOP-EQ",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-NCL-DEBT-MC-2026",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Participants, custodians and members settling corporate bond, CP and CD trades through NSE Clearing, including RBI-regulated entities"
+  },
+  {
+   "source": "NSE-NCL-DEBT-MC-2026",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Participants, custodians and members settling corporate bond, CP and CD trades through NSE Clearing, including RBI-regulated entities"
+  },
+  {
+   "source": "NSE-NCL-DEBT-MC-2026",
+   "target": "NSE-RFQ-20261016",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-NCL-DEBT-MC-2026",
+   "target": "BSE-CLEARING-DEBT-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-NCL-DEBT-MC-2026",
+   "target": "NSE-LWF-20260211",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-CLEARING-DEBT-2026",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Members and participants settling debt deals on BSE's debt segment and RFQ (NDS-RST) platform"
+  },
+  {
+   "source": "BSE-CLEARING-DEBT-2026",
+   "target": "NSE-NCL-DEBT-MC-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-CLEARING-DEBT-2026",
+   "target": "NSE-RFQ-20261016",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-RFQ-20261016",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Participants trading corporate bonds, SDIs, security receipts, municipal debt and CP on the RFQ platforms"
+  },
+  {
+   "source": "NSE-RFQ-20261016",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Participants trading corporate bonds, SDIs, security receipts, municipal debt and CP on the RFQ platforms"
+  },
+  {
+   "source": "NSE-RFQ-20261016",
+   "target": "NSE-NCL-DEBT-MC-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-RFQ-20261016",
+   "target": "BSE-CLEARING-DEBT-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-LWF-20260211",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Issuers that offer investors a put option through the exchange's liquidity window; Investors in those debt securities, through brokers or OBPPs"
+  },
+  {
+   "source": "NSE-LWF-20260211",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Issuers that offer investors a put option through the exchange's liquidity window; Investors in those debt securities, through brokers or OBPPs"
+  },
+  {
+   "source": "NSE-LWF-20260211",
+   "target": "NSE-NCL-DEBT-MC-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-OBPP-20260817",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Online bond platform providers and the stock brokers that run them"
+  },
+  {
+   "source": "NSE-OBPP-20260817",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Online bond platform providers and the stock brokers that run them"
+  },
+  {
+   "source": "NSE-OBPP-20260817",
+   "target": "NSE-RISKOMETER-20261008",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-OBPP-20260817",
+   "target": "NSE-RFQ-20261016",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-TREPO-20260917",
+   "target": "ENT-INV",
+   "relation": "applies_to",
+   "basis": "Members and participants using the tri-party repo market platform cleared by AMC Repo Clearing Ltd (ARCL)"
+  },
+  {
+   "source": "NSE-TREPO-20260917",
+   "target": "NSE-NCL-DEBT-MC-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-DS-69679",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Earlier NSE-EBP participants"
+  },
+  {
+   "source": "NSE-DS-69679",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Earlier NSE-EBP participants"
+  },
+  {
+   "source": "NSE-DS-69679",
+   "target": "NSE-EBP-OG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-20250814-19",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Earlier BSEBOND participants"
+  },
+  {
+   "source": "BSE-20250814-19",
+   "target": "ENT-ARR",
+   "relation": "applies_to",
+   "basis": "Earlier BSEBOND participants"
+  },
+  {
+   "source": "BSE-20250814-19",
+   "target": "BSE-EBP-OG",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "BSE-PPDI-CHK",
+   "target": "ENT-DEBT",
+   "relation": "applies_to",
+   "basis": "Earlier BSE debt issuers"
+  },
+  {
+   "source": "BSE-PPDI-CHK",
+   "target": "BSE-MASTER-CHK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "NSE-EBP-OG",
+   "target": "NSE-DS-69679",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "BSE-EBP-OG",
+   "target": "BSE-20250814-19",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "BSE-MASTER-CHK",
+   "target": "BSE-PPDI-CHK",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "SEBI-MC-SECC",
+   "target": "SEBI-SECC",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-BYELAWS",
+   "target": "SEBI-SECC",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-REG-WDM",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "BSE-RULES",
+   "target": "SEBI-SECC",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-CHK-PP",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "BSE-MASTER-CHK",
+   "target": "BSE-RULES",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-CHK-PUB",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-LISTFEE-DEBT",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-REF-GUIDE",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-DT-CH4-20251202",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-ISIN-DEBT-20261008",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-MBEXEMPT-20261008",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-DENOM-20251219",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-RISKOMETER-20261008",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-DT-TIMELINE-20251127",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-CP-FRAMEWORK",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "CP-CHK-FAQ",
+   "target": "NSE-CP-FRAMEWORK",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-CP-PAYSTATUS-20240910",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-EBP-OG",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "BSE-EBP-OG",
+   "target": "BSE-RULES",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-IF-20250102",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-IF-FAQ-20260612",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-API-20260619",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-XBRL-REG50",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-RECORDDATE-20250429",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-CRDISC-20250801",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-SOP-FURTHER-20261021",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-MC-LISTED-2026",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "BSE-MC-LISTING-2026",
+   "target": "BSE-RULES",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "LODR-AMD3-2026",
+   "target": "LA-UNIFORM",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NCS-AMD-2026",
+   "target": "LA-UNIFORM",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "LODR-DEFAULT",
+   "target": "LA-UNIFORM",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-ENCUMB-20190808",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "BSE-PLEDGE-SURV",
+   "target": "BSE-RULES",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-PLEDGE-LOCKIN-20260410",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "SOP-EQ",
+   "target": "LA-UNIFORM",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "SOP-DEBT",
+   "target": "LA-UNIFORM",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-FINE-WAIVER",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-MPS-RELAX-20260407",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-NCL-DEBT-MC-2026",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "BSE-CLEARING-DEBT-2026",
+   "target": "BSE-RULES",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-RFQ-20261016",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-LWF-20260211",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-OBPP-20260817",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  },
+  {
+   "source": "NSE-TREPO-20260917",
+   "target": "NSE-BYELAWS",
+   "relation": "framework",
+   "basis": "Issued under or read with the exchange's rules"
+  }
+ ]
+}

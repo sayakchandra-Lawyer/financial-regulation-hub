@@ -1,0 +1,580 @@
+STOCK EXCHANGES REGISTER: NSE and BSE rules, listing agreement, checklists, circulars and operating guidelines (and the SEBI instruments they forward) for listed NBFCs, debt issuers and lenders (equity-listed companies, debt-listed issuers of NCDs and CP, arrangers, bond investors, lenders). LODR, NCS and SCRR themselves are in the SEBI section (as of 2026-11-26). One block per instrument. Fields: applies, excluded, concepts, duties, deadlines, breach (stated consequences), penalties (code of the shared statutory penalty text below), refs, repeals, defs (terms the instrument defines: term [para; scope]: meaning).
+
+SHARED STATUTORY PENALTY TEXTS:
+P1: SCRA: a listed entity must comply with the conditions of its listing agreement (s. 21); a recognised stock exchange may delist securities on the prescribed grounds after recording reasons (s. 21A); failure to comply with listing or delisting conditions attracts a penalty of Rs 5 lakh to Rs 25 crore (s. 23E), and breach of the Act, rules, the exchange's bye-laws or regulations or SEBI directions with no separate penalty attracts a penalty under s. 23H. SEBI Act, 1992: failure to furnish documents, returns or reports, or furnishing false or incomplete ones, attracts Rs 1 lakh to Rs 1 lakh a day up to Rs 1 crore (s. 15A(a)). Exchanges also act under SEBI's standard operating procedures: fines per day or per instance, freezing of promoter holdings, moving the scrip to the Z category, suspension of trading and compulsory delisting; and, for debt and CP issuers, a bar on new issues through any EBP and on further listing until fines are paid.
+
+[SEBI-SECC] SECC Regulations, 2018 | Securities Contracts (Regulation) (Stock Exchanges and Clearing Corporations) Regulations, 2018 (as amended up to 22-11-2025) | SEBI notification of 03-10-2018, last amended by the Fourth Amendment Regulations, 2025 | Regulation | In force · amended | issued 2018-10-03 | subject: Exchanges, their rules and the listing agreement
+powers: SCRA and SEBI Act, 1992
+applies: Recognised stock exchanges and recognised clearing corporations; Anyone acquiring or holding shares in an exchange or clearing corporation, including banks, insurers and other financial institutions
+concepts: Recognition, ownership and governance of stock exchanges and clearing corporations
+concepts: Ownership limits: at least 51% public holding in a recognised stock exchange (reg 17(1))
+concepts: Fit and proper test for every shareholder of an exchange or clearing corporation (reg 19)
+concepts: An exchange may not list securities of its own associates (reg 45(2))
+duties: reg 17(2): no person resident in India may hold more than 5% of a recognised stock exchange's paid-up equity, alone or with persons acting in concert; a stock exchange, depository, banking company, insurance company or public financial institution may hold up to 15%
+duties: reg 17(3) and (4): a person resident outside India may hold up to 5% (up to 15% for a foreign exchange, depository, bank, insurer, commodity derivatives exchange or approved multilateral institution), and combined foreign holding is capped at 49%
+duties: reg 18: at least 51% of a recognised clearing corporation must be held by recognised stock exchanges; other Indian residents may hold up to 5% (15% for a depository, bank, insurer or public financial institution)
+duties: reg 19(1): no person may acquire or hold equity shares or voting rights in an exchange or clearing corporation unless fit and proper; the exchange or clearing corporation must ensure this
+duties: reg 17(5): a clearing corporation may not hold any stake in a recognised stock exchange
+refs: SEBI-MC-SECC; NSE-BYELAWS; BSE-RULES
+penalties: P1
+defined terms (wording is in the full text): Act (definitions clause); Board (definitions clause); clearing member (definitions clause); company (definitions clause); governing board (definitions clause); netting (definitions clause); novation (definitions clause); public (definitions clause); public interest director (definitions clause); recognised clearing corporation (definitions clause); recognised stock exchange (definitions clause); regulatory department (definitions clause); rules (definitions clause); trading member (definitions clause); shareholder director (definitions clause)
+
+[SEBI-MC-SECC] SEBI Master Circular for exchanges and clearing corporations | SEBI Master Circular for Stock Exchanges and Clearing Corporations (30-12-2024) | SEBI Master Circular of 30-12-2024 | Master Circular | In force | issued 2024-12-30 | subject: Exchanges, their rules and the listing agreement
+powers: SEBI Act, 1992 and SCRA
+applies: Recognised stock exchanges and clearing corporations, and through them their members and listed entities
+concepts: Consolidates SEBI's circulars on how exchanges and clearing corporations run trading, clearing, settlement, risk management and technology
+concepts: Replaced the master circular of 16-10-2023
+concepts: On 22-06-2026 SEBI announced a comprehensive review (press release 35/2026): a single master circular for all exchanges, a separate one for clearing corporations and about 50% fewer pages; no replacement had been issued as at 26-11-2026
+duties: Exchanges and clearing corporations must give effect to the master circular through their bye-laws, rules, regulations and circulars
+refs: SEBI-SECC; NSE-NCL-DEBT-MC-2026
+penalties: P1
+defined terms (wording is in the full text): CM Collateral (definitions); Act (definitions); Certifying Authority (definitions); SEBI (definitions); STP (definitions); STP centralised hub (definitions); STP message (definitions); STP service (definitions); STP service provider (definitions); STP user (definitions); TRAI (definitions); TELECOM AUTHORITY (definitions); For the purposes of this regulation, `net worth of a clearing corporation (definitions)
+
+[NSE-BYELAWS] NSE Rules and Bye-laws | Rules and Bye-laws of National Stock Exchange of India Ltd (Rules posted 29-06-2026; Bye-laws posted 19-06-2026) | NSE Rules and Bye-laws | Exchange rules | In force · amended | issued 2026-06-19 | subject: Exchanges, their rules and the listing agreement
+powers: SCRA (ss. 7A, 8 and 9) and the SECC Regulations, 2018
+applies: Trading members, participants and constituents dealing on NSE; Issuers whose securities are admitted to dealings on NSE
+concepts: The Bye-laws cover trading segments, dealings in securities, trading members, participants, transactions and settlements, rights and liabilities of members and constituents, arbitration, dispute resolution, default and the investor protection fund
+concepts: 'Exchange securities' are those admitted to the official list of NSE securities; an 'issuer' includes any body whose security is admitted to dealings on NSE
+concepts: Rules and regulations are subject to the SCRA, its rules and the SEBI Act
+duties: Members and issuers must comply with the Rules, Bye-laws, Regulations and the circulars issued under them
+refs: NSE-REG-WDM; LA-UNIFORM; SEBI-SECC
+penalties: P1
+defined terms (wording is in the full text): Board (definitions); Exchange Securities (definitions); Exchange (definitions); Issuer (definitions); Market-Maker (definitions); NSEIL (definitions); Official List of NSE securities (definitions); Participant (definitions); Relevant Authority (definitions); SEBI (definitions); Security admitted to dealings (definitions); Trading Member (definitions); Trading system of the NSE (definitions); Authorised Person (definitions); Arbitrator (definitions); Act (definitions); Admissible claim value (definitions); Arbitral Award (definitions); Appellate Arbitrator (definitions); Appellate Arbitral Award (definitions); ODR Institution (definitions); Clearing delivery (definitions); Hand delivery (definitions); Special delivery contract (definitions); Spot delivery contract (definitions); Applicant (definitions); Respondent (definitions); Arbitrator' I 'arbitrator (definitions); Repo (definitions)
+
+[NSE-REG-WDM] NSE debt segment (WDM) trading regulations | NSE Wholesale Debt Market (Trading) Regulations | NSE WDM Trading Regulations | Exchange rules | In force | issued  | subject: Exchanges, their rules and the listing agreement
+powers: NSE Bye-laws
+applies: Trading members and participants dealing in debt securities on NSE's debt segment; Issuers of debt securities admitted to the segment
+concepts: Chapters on dealings on the exchange, dealings in securities, conduct of business by trading members, uniform practice code on instruments, listing regulations, arbitration, accounts and records, and inspection
+duties: Trading members must conduct debt-segment business in line with the regulations and keep the specified accounts and records
+refs: NSE-BYELAWS; NSE-NCL-DEBT-MC-2026
+penalties: P1
+defined terms (wording is in the full text): Hand delivery contract (definitions); Special delivery contract (definitions); Spot delivery contract (definitions); arbitrator (definitions); Applicant (definitions); Respondent (definitions)
+
+[BSE-RULES] BSE Rules, Bye-laws and Regulations | Rules, Bye-laws and Regulations of BSE Ltd (compiled) | BSE Rules, Bye-laws and Regulations | Exchange rules | In force | issued  | subject: Exchanges, their rules and the listing agreement
+powers: SCRA and the SECC Regulations, 2018
+applies: Trading members, clearing members and issuers dealing on or listed with BSE
+concepts: BSE's equivalent of the NSE Rules and Bye-laws, covering membership, dealings, clearing and settlement, defaults and arbitration
+duties: Members and issuers must comply with BSE's Rules, Bye-laws, Regulations and notices
+refs: NSE-BYELAWS; SEBI-SECC
+penalties: P1
+defined terms (wording is in the full text): Board (definitions); Clearing Member (definitions); Issuer (definitions); Market-Maker (definitions); Official List of BSE securities (definitions); Relevant Authority/relevant authority (definitions); SEBI (definitions); Security admitted to dealings (definitions); Trading system/platform of the BSE (definitions); Arbitrator (definitions); Act (definitions); Constituent (definitions); Approved office (definitions); Approved workstation (definitions); Approved User (definitions); Authorised Person (definitions); Clearing delivery (definitions); Hand delivery (definitions); BSE or the Exchange (definitions); Risk Disclosure Document (definitions); Special delivery contract (definitions); Spot delivery contract (definitions); Trading System (definitions); Trade type (definitions); Transaction type (definitions); Applicant (definitions); Respondent (definitions); Assignment (definitions); Certified Warehouse (definitions); Certified warehouse receipt/storage receipt/vault receipt (certified receipts) (definitions); Clearing Corporation (definitions); Common Pool Facility (definitions); Commodity Derivative (definitions); Contract Specifications (definitions); Days of tender (definitions); Delivery (definitions); Delivery order rate (definitions); Delivery Period Margin (definitions); Delivery Period (definitions); Exercise (definitions); Long Position (definitions); Liquid Assets (definitions); Members' Open Position (definitions); BSE (definitions); Open Interest (definitions); Outstanding Obligation (definitions); Special margin (definitions); Settlement price for a contract (definitions); Tender Period Margin/Pre-expiry Margin (definitions); Warehouse Service Provider (definitions); American Style option contract (definitions); Closing buy transaction (definitions); Closing sell transaction (definitions); Contract (definitions); Contract month (definitions); Derivative Contract (definitions); Expiration Day (definitions); European Style option contract (definitions); Future Contract (definitions); Last Trading Day (definitions); Market Type (definitions); Notification, Notice or Communication (definitions); Opening Buy Transaction (definitions); Opening Sell Transaction (definitions); Option Writer (definitions); Regular Lot/Market Lot Size (definitions); Series of Options (definitions); Settlement Date (definitions); Trading cycle (definitions); Type of option (definitions); Underlying Securities (definitions)
+
+[LA-UNIFORM] Uniform Listing Agreement | Uniform Listing Agreement (NSE) and Listing Agreement for Debt Securities (BSE) | Exchange format | Listing agreement | In force | issued  | subject: Exchanges, their rules and the listing agreement
+powers: SCRA, s. 21; LODR Regulations, 2015
+applies: Every issuer listing securities on the exchange for the first time, including first-time NCD and CP issuers
+concepts: A short agreement that binds the issuer to LODR, SEBI circulars and the exchange's bye-laws, regulations and circulars
+concepts: An issuer already listed on the exchange that lists a new kind of security (NCDs, CPs, perpetual debt) does not sign afresh; it ticks the new security in 'Information about the Company and Securities' and files it with a covering letter
+duties: cl. 1 and 2: comply with all statutes on issue, listing and continued listing, LODR and other SEBI regulations and circulars, and the exchange's bye-laws, regulations, circulars and directions
+duties: cl. 3: pay listing and other fees and fines levied by the exchange within the prescribed period
+duties: cl. 4: keep the exchange informed of any change in the issuer's information
+duties: cl. 5: admission and continued admission to dealings is at the exchange's discretion and subject to its power to prohibit, suspend or withdraw listing
+duties: cl. 6: a board (or authorised committee) resolution for initial listing must be in place
+refs: NSE-CHK-PP; CP-CHK-FAQ; SOP-EQ
+penalties: P1
+
+[NSE-CHK-PP] NSE checklists for privately placed NCDs | NSE checklists for in-principle approval and final listing of non-convertible securities issued on private placement (in-principle checklist of 07-08-2026; procedure set of 04-09-2026) | NSE debt private placement checklists | Exchange checklist | In force | issued 2026-08-07 | subject: Listing NCDs: approval, timelines, ISINs and fees
+powers: SEBI NCS Regulations, 2021 (regs 6 and 44); Chapter VII of the SEBI NCS Master Circular
+applies: Issuers listing NCDs, NCRPS, perpetual debt instruments and similar securities issued on private placement, including NBFCs and HFCs
+concepts: Two-stage process on NSE's NEAPS portal: in-principle approval before the issue, then a final listing application after allotment
+concepts: In-principle documents: draft General Information Document (GID); latest rating press release (not older than one year) with rating letters; debenture trustee consent and due diligence certificate (needed even for unsecured issues); issuer certificate (Annexure I); PAN, Aadhaar, driving licence, bank account and passport numbers of promoters and PAN of directors; SCORES ID
+concepts: First-time issuers also file incorporation papers, MoA and AoA, three years' annual reports and, for an NBFC, RBI's certificate showing whether it is deposit-taking or not
+concepts: The GID must carry audited or limited-review financials not older than six months, audited by a peer-reviewed auditor
+concepts: Final listing documents: depository credit confirmation; board or committee resolutions authorising the borrowing and the allotment with the list of allottees; debenture trust deed; GID and KID; rating; DT due diligence certificate; LPCC confirmation of the settlement guarantee fund contribution; material contracts; REF (where NSE is the designated exchange); listing fees; SEBI fee of Rs 5,000 per KID
+duties: Obtain NSE's in-principle approval before giving the placement memorandum and term sheet (GID and KID) to the EBP, or before the issue opens where EBP does not apply
+duties: Annexure I certificate: confirm eligibility under the NCS Regulations; that the issuer, promoters, promoter group and directors are not debarred by SEBI; whether any of them is a wilful defaulter (with GID disclosure); that no promoter or director is a fugitive economic offender; whether any SEBI or exchange fine is pending; RBI or other approvals; any past delay in listing and the penal interest paid; REF deposit; and that the issuer will activate the ISIN in both depositories
+duties: Confirm that the Articles allow the debenture trustee to appoint a nominee director; a first-time issuer may instead undertake, at in-principle approval, to amend them within six months of listing and report compliance (Chapter XXIII of the SEBI NCS Master Circular)
+duties: File applications complete in all respects on NEAPS: in-principle by 3 p.m. and final listing by 1.30 p.m. for same-day approval
+duties: Pay fees into the issuer's PAN-based virtual account at IDBI Bank
+deadlines: In-principle approval: before the GID/KID goes to the EBP (EBP issues) or before issue opening (non-EBP issues)
+deadlines: Listing application and listing: by T+3 working days, T being the issue closing date (Chapter VII of the SEBI NCS Master Circular)
+breach: Delay in listing beyond T+3: penal interest of 1% a year over the coupon to investors from allotment to listing (Chapter VII, para 6 of the SEBI NCS Master Circular); past delays must be disclosed in later in-principle applications
+breach: Incomplete applications are not processed the same day
+refs: BSE-MASTER-CHK; NSE-REF-GUIDE; NSE-LISTFEE-DEBT; NSE-EBP-OG; NSE-ISIN-DEBT-20261008; LA-UNIFORM; NSE-MBEXEMPT-20261008
+penalties: P1
+
+[BSE-MASTER-CHK] BSE Master Checklist 2026 | BSE Master Checklist for Listing Requirements (2026) | BSE notice 20260430-51 | Exchange checklist | In force | issued 2026-04-30 | subject: Listing NCDs: approval, timelines, ISINs and fees
+applies: Issuers applying to BSE for in-principle approval or listing of equity and debt securities, including privately placed NCDs
+concepts: BSE's single index of its listing checklists for every kind of issue; it replaced the 2025 master checklist and the 2021 checklist for privately placed debt
+concepts: The individual checklists are attached to the notice as embedded documents; the BSE notice is the official copy
+duties: Use the checklist in force on the date of application and file through the BSE Listing Centre
+refs: NSE-CHK-PP; BSE-PPDI-CHK
+penalties: P1
+
+[NSE-CHK-PUB] NSE checklists for public issues of NCDs | NSE in-principle and final listing checklists and application forms for public issues of debt securities (final checklist of 25-06-2026) | NSE debt public issue checklists | Exchange checklist | In force | issued 2026-06-25 | subject: Listing NCDs: approval, timelines, ISINs and fees
+powers: SEBI NCS Regulations, 2021; SEBI NCS Master Circular (public issue timelines)
+applies: Issuers and lead managers of public issues of NCDs and NCRPS
+concepts: Public issues of debt securities and NCRPS list on T+3 working days: optional for issues opening on or after 01-11-2024 and mandatory after one year (SEBI NCS Master Circular)
+duties: Obtain in-principle approval on the draft offer document and apply for final listing with the documents in the checklist
+deadlines: Listing on T+3 working days from issue closure
+refs: NSE-CHK-PP
+penalties: P1
+
+[NSE-LISTFEE-DEBT] NSE listing fees for privately placed debt | NSE listing fees for debt securities on private placement (applicable from 01-11-2023) | NSE fee page (updated 31-10-2023) | Fee schedule | In force | issued 2023-10-31 | subject: Listing NCDs: approval, timelines, ISINs and fees
+applies: Issuers of privately placed debt securities listed on NSE
+concepts: Initial listing fee Rs 7,500
+concepts: Annual listing fee per ISIN by issue size: up to Rs 100 crore Rs 55,000; Rs 100-200 crore Rs 70,000; Rs 200-300 crore Rs 1 lakh; Rs 300-400 crore Rs 1.5 lakh; Rs 400-500 crore Rs 2.5 lakh
+concepts: Above Rs 500 crore: Rs 2.5 lakh plus Rs 1,000 for every Rs 1 crore or part above that
+concepts: Annual listing fee payable by an issuer is capped at Rs 10 lakh a year; all amounts exclude taxes
+duties: Pay initial and annual listing fees (cl. 3 of the listing agreement)
+refs: LA-UNIFORM; NSE-CHK-PP
+penalties: P1
+
+[NSE-REF-GUIDE] Recovery Expense Fund (REF) | Guidance on Recovery Expense Fund (NSE), read with SEBI circular of 22-10-2020 | NSE REF guidance; SEBI/HO/MIRSD/CRADT/CIR/P/2020/207 | Exchange guidance | In force | issued 2020-10-22 | subject: Listing NCDs: approval, timelines, ISINs and fees
+powers: SEBI NCS Regulations, 2021; Chapter IV of the SEBI Master Circular for Debenture Trustees
+applies: Every issuer listing debt securities, secured or unsecured, by public issue or private placement
+concepts: A fund held by the designated stock exchange that the debenture trustee can draw on to enforce rights after a default
+concepts: Amount: 0.01% of the issue size (number of bonds x face value), capped at Rs 25 lakh per issuer across all issues
+concepts: Paid in cash (into the issuer's PAN-based virtual account) or by bank guarantee in NSE's format
+duties: Deposit REF with the designated stock exchange named in the offer document before final listing
+duties: A transferee company under a scheme of arrangement must deposit REF before or at final listing
+duties: Bank guarantee: at least 12 months with a 3-month claim period (or 15 months if no claim period), kept valid until 6 months after the maturity of the listed security; NSE does not accept a guarantee issued by the issuer itself
+deadlines: REF and interest are released only after the last listed security has been repaid and the debenture trustee gives a no-objection certificate
+refs: NSE-DT-CH4-20251202; NSE-CHK-PP
+penalties: P1
+
+[NSE-DT-CH4-20251202] REF: when trustees can use it | Modifications to Chapter IV (Recovery Expense Fund) of the SEBI Master Circular for Debenture Trustees | NSE/CML/2025/12 (BSE 20251127-66), forwarding SEBI circular HO/17/11/12(3)2025-DDHS-POD1/I/145/2025 of 25-11-2025 | Circular | In force | issued 2025-12-02 | subject: Listing NCDs: approval, timelines, ISINs and fees
+applies: Issuers of listed debt securities; Debenture trustees; Designated stock exchanges
+concepts: REF is for prompt enforcement or legal proceedings by the debenture trustee after a default
+concepts: Lead debenture trustee: one chosen by the other trustees, or one representing more than 50% of the outstanding value
+duties: para 2.1: after a default the trustee may be reimbursed from REF for consents from debenture holders, voting, meetings, court applications, legal fees, asset-recovery services and legal consultants
+duties: para 2.2: no prior approval of holders is needed for those purposes; the trustee informs holders by email and on its website; for any other purpose it needs holders' prior consent and informs the designated exchange
+duties: para 2.3: the trustee submits an independent auditor's certificate of expenses, which the exchange verifies before release
+duties: para 2.6 and 2.7: the trustee keeps accounts of REF spending and updates holders annually
+deadlines: para 2.4: the designated exchange releases REF to the trustee within five working days of the intimation
+refs: NSE-REF-GUIDE
+penalties: P1
+
+[NSE-ISIN-DEBT-20261008] ISIN limits for private placement debt (2026) | Review of provisions related to ISIN for debt securities issued on private placement basis | NSE/CML/D/2026/05 (BSE 20261008-21), forwarding SEBI circular HO/17/11/24(8)2026-DDHS-POD1/I/23125/2026 of 07-10-2026 | Circular | In force | issued 2026-10-08 | subject: Listing NCDs: approval, timelines, ISINs and fees
+applies: Issuers of debt securities on private placement, including NBFCs and HFCs
+concepts: Replaces paras 1.1 to 1.3 of Chapter VIII of the SEBI NCS Master Circular with effect from 07-10-2026
+concepts: Up to 17 ISINs may mature in a financial year, plus six more for s. 54EC capital gains bonds by authorised issuers
+concepts: Within 17: up to 12 for plain vanilla debt (secured and unsecured together); once the amount outstanding across those 12 maturing in a year reaches Rs 15,000 crore, one more ISIN for each further Rs 3,000 crore
+concepts: Up to 5 for structured debt, market-linked debentures, floating rate bonds, zero coupon bonds and Tier II bonds; outstanding floating rate, zero coupon and Tier II ISINs issued before the circular are grandfathered, but if such legacy ISINs maturing in a year already number five or more, no new ISIN in this category may be issued for that year until the count falls
+concepts: An issuer that issues only these instruments may have 12 maturing in a year
+concepts: Excluded from the count: Government-serviced (EBR) bonds and ESG debt securities
+duties: Plan new issues and re-issues within the ISIN maturity caps for each financial year
+refs: NSE-CHK-PP
+penalties: P1
+
+[NSE-MBEXEMPT-20261008] Rs 10,000 NCDs without a merchant banker | Exemption from mandatory merchant banker appointment for debt issued through private placement by certain listed issuers | NSE/CML/D/2026/06 (BSE 20261008-22), forwarding SEBI circular HO/17/11/24(7)2026-DDHS-POD1/I/23122/2026 of 07-10-2026 | Circular | In force | issued 2026-10-08 | subject: Listing NCDs: approval, timelines, ISINs and fees
+applies: Issuers of privately placed debt securities or NCRPS of face value Rs 10,000
+concepts: Para 1.3 of Chapter V of the SEBI NCS Master Circular: a Rs 10,000 face value private placement normally needs at least one merchant banker with public-issue responsibilities
+duties: No merchant banker is needed if all of these are met: (i) the issuer is regulated by SEBI, RBI, IRDAI or PFRDA (so an RBI-regulated NBFC or HFC qualifies on this test); (ii) it has been listed on an exchange for at least a year with no pending SEBI or exchange fine for LODR non-compliance, which the exchange confirms at in-principle approval; (iii) no default on debt securities, NCRPS, SDIs, CP, deposits or loans in the last three financial years and the current year, certified by the statutory auditor to the exchange; (iv) the security is senior and secured by a first or pari passu charge on identifiable assets of the issuer (CPSEs, PSUs and statutory bodies may issue unsecured); (v) rated at least AA- on the date of private placement (lowest rating counts)
+refs: NSE-DENOM-20251219; NSE-CHK-PP
+penalties: P1
+
+[NSE-DENOM-20251219] Rs 10,000 face value: zero coupon allowed | Modification in the conditions specified for reduction in denomination of debt securities | NSE/CML/2025/14 (BSE 20251222-26), forwarding SEBI circular HO/17/11/24(1)2025-DDHS-POD1/I/491/2025 of 18-12-2025 | Circular | In force | issued 2025-12-19 | subject: Listing NCDs: approval, timelines, ISINs and fees
+applies: Issuers of debt securities or NCRPS on private placement at a face value of Rs 10,000
+concepts: A Rs 10,000 face value security may now be either interest-bearing with regular coupons or a zero coupon security, in each case with a fixed maturity and no structured obligations
+duties: Applies to private placements proposed to be listed from 18-12-2025
+refs: NSE-MBEXEMPT-20261008
+penalties: P1
+defined terms (wording is in the full text): debt securities (definitions); non-convertible redeemable preference share (definitions)
+
+[NSE-RISKOMETER-20261008] Credit Risk-o-Meter | Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities | NSE circular of 08-10-2026 (BSE 20261008-23), forwarding SEBI circular HO/17/11/22(1)2026-DDHS-POD1/I/23092/2026 of 07-10-2026 | Circular | In force | issued 2026-10-08 | subject: Listing NCDs: approval, timelines, ISINs and fees
+applies: All listed and proposed issues of NCS, CP, SDIs, security receipts and market-linked debentures, public or private; Online bond platform providers (OBPPs)
+concepts: A colour-coded meter mapping the credit rating (AAA to D; A1+ to D) to six risk levels, from 'lowest credit risk' (AAA, A1+) to 'high to very high risk of default'
+concepts: Shows only credit risk; where there are several ratings, the meter uses the lowest
+duties: Show the meter in the offer document, abridged prospectus, private placement memorandum, all advertisements of the issuer or OBPP, and OBPP web and mobile platforms
+duties: Below the meter, state the rating agency, the actual rating and, for unsecured instruments, the word 'unsecured' in bold red
+deadlines: In force 45 days after 07-10-2026
+refs: NSE-OBPP-20260817; NSE-CHK-PP
+penalties: P1
+
+[NSE-DT-TIMELINE-20251127] What issuers send to debenture trustees, and when | Timeline for submission of information by the issuer to the debenture trustee(s) | NSE circular of 27-11-2025 (BSE 20251127-64), forwarding SEBI circular HO/17/11/12(3)2025-DDHS-POD1/I/144/2025 of 25-11-2025 | Circular | In force | issued 2025-11-27 | subject: Listing NCDs: approval, timelines, ISINs and fees
+applies: Issuers of listed debt securities and their debenture trustees
+duties: Quarterly: security cover certificate (Annex-VA format) and statements of the value of pledged securities, the debt service reserve account or other security
+duties: Half-yearly: net worth certificate of a personal guarantor
+duties: Annually: financials of a corporate guarantor
+duties: Every three years: valuation report and title search report for the secured assets
+deadlines: Quarterly items within 60 days of quarter end (75 days for the last quarter); half-yearly within 60 days; annual within 60 days of year end; three-yearly within 60 days of the financial year end
+deadlines: Applies from the quarter ended 31-12-2025
+refs: NSE-REF-GUIDE
+penalties: P1
+
+[NSE-CP-FRAMEWORK] Framework for listing commercial paper | Guidelines on framework for listing of commercial papers | NSE/CML/2019/33 (BSE 20191226-32) | Circular | In force | issued 2019-12-26 | subject: Listing commercial paper
+powers: SEBI circulars of 22-10-2019 and 24-12-2019 (now Chapter XVII of the SEBI NCS Master Circular)
+applies: Issuers of commercial paper intending to list it, such as NBFCs and HFCs seeking mutual fund investment
+duties: Upload the disclosure document on the exchange's EBP platform for qualified institutional buyers, stating it is an 'Issue of Commercial Papers intended to be listed'
+duties: Submit listing documents by 3 p.m. on the value or settlement date
+deadlines: T-1: disclosure document filed online; T: deal confirmation; T+1 or T+2: funds received
+deadlines: List within one day of receiving funds from investors
+refs: CP-CHK-FAQ; NSE-CP-PAYSTATUS-20240910
+penalties: P1
+
+[CP-CHK-FAQ] CP listing checklist and FAQs | Checklists and FAQs for listing of commercial paper (NSE and BSE) | NSE and BSE CP checklists and FAQs (BSE checklist updated 21-12-2021) | Exchange checklist | In force | issued 2021-12-21 | subject: Listing commercial paper
+applies: Issuers listing commercial paper
+concepts: Listing CP is mandatory only for issuers seeking investment from mutual funds (FAQ 1)
+concepts: No in-principle approval is needed for CP (FAQ 3)
+concepts: Market lot and allotment value Rs 5 lakh and multiples (FAQ 4)
+concepts: LODR does not apply to an entity whose only listed security is CP; it follows Chapter XVII of the SEBI NCS Master Circular instead (FAQ 17)
+duties: Activate the CP ISIN in both NSDL and CDSL (FAQ 5)
+duties: Confirm that securities have been credited to investors' demat accounts and upload the list of allottees on NEAPS (FAQ 6 and 7)
+duties: Disclose three years' audited financials not older than six months from the listing application, with stub-period financials (FAQ 8), and declare that the rating is valid on the issue and listing date (FAQ 9)
+duties: First-time issuers sign the uniform listing agreement (FAQ 10); pay the SEBI fee of Rs 5,000 plus GST to the designated exchange at listing (FAQ 11 and 12)
+deadlines: Record date: one working day before maturity, intimated to the exchange 3 working days before the record date (FAQ 16)
+refs: NSE-CP-FRAMEWORK; LA-UNIFORM
+penalties: P1
+
+[NSE-CP-PAYSTATUS-20240910] CP payment status within one working day | Modification in the timeline for submission of status regarding payment obligations by entities that have listed commercial paper | NSE/CML/2024/38, forwarding SEBI circular SEBI/HO/DDHS/DDHS-PoD-1/P/CIR/2024/117 of 06-09-2024 | Circular | In force | issued 2024-09-10 | subject: Listing commercial paper
+applies: Issuers of listed commercial paper
+duties: Para 8.4 of Chapter XVII of the SEBI NCS Master Circular: file a certificate confirming fulfilment of payment obligations within one working day of payment becoming due (previously two days), aligned with reg 57 of LODR for NCDs
+breach: Non-submission of the payment certificate for listed CP: Rs 1,000 a day per ISIN (SEBI master circular on listing obligations for debt, Annex IX-A Part B)
+refs: SOP-DEBT; NSE-CP-FRAMEWORK
+penalties: P1
+
+[NSE-EBP-OG] NSE EBP operating guidelines | Revised operating guidelines for the NSE Electronic Bidding Platform (NSE-EBP) | NSE/DS/71301 | Operating guidelines | In force | issued 2025-11-14 | subject: Electronic book bidding (EBP)
+powers: Chapters VI, VII and XV of the SEBI NCS Master Circular; SEBI circular of 16-05-2025 on the EBP platform
+applies: Issuers, arrangers, QIB and non-QIB investors, custodians and RTAs using NSE-EBP
+excluded: Market-linked debentures
+concepts: EBP is mandatory for private placements of debt securities and NCRPS of Rs 20 crore or more (single issue including green shoe, shelf tranches in a year, or cumulative issues in a year), and for any issue by an issuer in existence for less than three years
+concepts: PDIs, PNCPS and other non-equity regulatory capital instruments of banks and NBFCs must use EBP whatever the size
+concepts: Optional for smaller issues, SDIs, security receipts, CPs, CDs and units of REITs, SM REITs and InvITs; bilateral deals must be routed through EBP
+concepts: Arrangers: SEBI-registered merchant bankers, brokers or RBI-registered primary dealers, enabled by the issuer
+concepts: Anchor portion capped by rating: up to 30% of base issue for AAA to AA-, 40% for A+ to A-, 50% for others
+concepts: Minimum bid lot equals face value; for NBFC and HFC issuers the minimum bid lot is Rs 1 crore; Rs 1 crore for Chapter V (regulatory capital) securities
+concepts: Allotment on price priority (coupon fixed by issuer) or yield priority (coupon discovered); pro-rata at the cut-off
+duties: Get in-principle approval from the listing exchange before uploading the GID and KID on EBP
+duties: Issuer: give the issue notification (GID, KID, term sheet, bidding mode, allotment manner, coupon type, settlement route and cycle, anchor details) at least two working days before issue opening (three for a first-time EBP issuer); bidding announcement at least one working day before bidding, in market hours, or the issue is deemed cancelled
+duties: Green shoe may not exceed five times the base issue; anchors confirm on EBP by 5 p.m. on T-1
+duties: QIBs and non-QIBs bidding through arrangers: not more than Rs 100 crore or 5% of base issue, whichever is lower, per investor
+duties: For an NBFC or HFC issuer, eligible participants may bid subject to any RBI requirements that apply to them
+duties: Participants must declare they do not use algorithms, bots or automation that give unfair access
+duties: Issuer accepts or withdraws within one hour of bidding close; estimated cut-off yield, if disclosed, must be given at least one hour before bidding; the issue may be withdrawn up to one hour before opening
+duties: Pay-in only from bank accounts registered on EBP; third-party money is refunded and no allotment is made
+deadlines: Bidding 9 a.m. to 5 p.m. on working days, for at least 60 minutes; the window can be extended once, before its last 10 minutes; no pre-closure
+deadlines: In the last 10 minutes no cancellation; revisions only to improve rate or size
+deadlines: Settlement on T+1 or T+2: funds pay-in to the clearing corporation by 10.30 a.m.; issuer confirms by 12 noon; RTA instructs the depositories by 12 noon
+breach: An issuer that neither accepts nor withdraws in time: issue withdrawn and issuer debarred as SEBI specifies
+breach: Investor or arranger that fails to pay in, wholly or partly: barred from all EBPs for 30 days
+breach: Arranger whose clients default three times across EBPs: barred from bidding on any EBP for 7 days
+breach: Debarments take effect from the next working day across all EBPs; a debarred issuer cannot run bidding and pending issues in the period are cancelled
+refs: BSE-EBP-OG; NSE-CHK-PP; SOP-DEBT
+penalties: P1
+defined terms (wording is in the full text): Participant (definitions)
+
+[BSE-EBP-OG] BSEBOND (BSE EBP) operating guidelines | Operational guidelines for participation on BSEBOND, the EBP platform of BSE (effective 17-11-2025) | BSE notice 20251114-47 | Operating guidelines | In force | issued 2025-11-14 | subject: Electronic book bidding (EBP)
+powers: Chapter VI of the SEBI NCS Master Circular
+applies: Issuers, arrangers, investors and custodians using BSEBOND
+concepts: Same SEBI framework and Rs 20 crore threshold as NSE-EBP
+concepts: An issuer may withdraw after bidding without debarment only if bids fall short of the base issue size, a bidder defaults so the base size cannot be met, or the cut-off yield exceeds the estimated cut-off yield disclosed beforehand (with the base issue fully subscribed); BSEBOND then discloses the estimated cut-off
+duties: Map eligible participants to the issue not later than one hour before bidding starts
+duties: Anchors confirm participation by 5 p.m. on T-1
+deadlines: Bidding between 9 a.m. and 5 p.m. on the platform's working days
+deadlines: Funds pay-in by 10.30 a.m. on the settlement day
+breach: Withdrawal for any other reason: issuer barred from all EBPs for seven days from the withdrawal
+breach: Bidder pay-in default: 30-day bar across all EBPs; arranger with three client defaults: 7-day bar
+refs: NSE-EBP-OG
+penalties: P1
+
+[NSE-IF-20250102] Integrated Filing (Governance and Financial) | Implementation of the Expert Committee recommendations: Integrated Filing (NSE and BSE), with SEBI circular of 31-12-2024 | NSE/CML/2025/02 (BSE 20250102-4), forwarding SEBI circular SEBI/HO/CFD/CFD-PoD-2/CIR/P/2024/185 | Circular | In force | issued 2025-01-02 | subject: Filings and disclosures by listed entities
+powers: LODR Regulations, 2015, reg 10(1A)
+applies: Entities with listed specified securities (equity), including listed NBFCs and HFCs
+concepts: Integrated Filing (Governance) combines the investor grievance statement (reg 13(3)) and the corporate governance report (reg 27(2)(a))
+concepts: Integrated Filing (Financial) combines related party transactions (reg 23(9)), the quarterly disclosure of outstanding defaults on loans and debt securities (Section V-B of the LODR Master Circular), the statement of deviation (reg 32(1)) and financial results (reg 33(3))
+concepts: Some Schedule III events are now reported quarterly in the Governance filing: acquisitions in unlisted companies of 5% (or further 2%), fines below the Para A(20) thresholds, and updates on tax litigation
+duties: File through the integrated form every quarter from the quarter ended 31-12-2024, through the exchange portals; mask PAN. Each component keeps its own frequency: RPT disclosure under reg 23(9) stays half-yearly, filed with the relevant quarter
+duties: Keep filing the existing XBRL returns for each component until the exchanges say otherwise
+deadlines: Governance: within 30 days of quarter end
+deadlines: Financial: within 45 days of quarter end, and 60 days for the last quarter and the year
+breach: Late corporate governance report: Rs 2,000 a day; late RPT disclosure: Rs 5,000 a day; late financial results: Rs 5,000 a day (SOP fines)
+refs: NSE-IF-FAQ-20260612; LODR-DEFAULT; SOP-EQ
+penalties: P1
+defined terms (wording is in the full text): Cost (definitions)
+
+[NSE-IF-FAQ-20260612] FAQs on Integrated Filing (Governance) | FAQs on submission of the quarterly Integrated Filing - Governance (NSE and BSE) | NSE/CML/2026/16 (BSE 20260612-13) | Circular | In force | issued 2026-06-12 | subject: Filings and disclosures by listed entities
+applies: Entities with listed specified securities
+concepts: Guidance on filling the XBRL Governance report (board and committee composition, meetings, Schedule III quarterly items); guidance only, not law
+duties: Submit within 30 days of each quarter end (reg 27(2))
+duties: A newly listed entity files from the first quarter ending after listing
+refs: NSE-IF-20250102
+penalties: P1
+
+[NSE-API-20260619] Single filing across NSE and BSE | Update of single filing system through API-based integration between stock exchanges | NSE/CML/2026/17 (BSE 20260619-11) | Circular | In force | issued 2026-06-19 | subject: Filings and disclosures by listed entities
+applies: Entities listed on both exchanges
+concepts: A filing made on one exchange is shared with the other through an API, so commonly listed entities file once; extended on 20-06-2026 to more Regulation 30 events
+duties: For the covered Regulation 30 events, the PDF filing counts as compliance, but the XBRL filing must follow within 24 hours
+refs: NSE-IF-20250102
+penalties: P1
+
+[NSE-XBRL-REG50] Reg 50 board meeting intimations in XBRL | XBRL-based filing of Regulation 50 disclosures by entities with listed non-convertible securities | NSE/CML/2025/09 (BSE 20251121-72) | Circular | In force | issued 2025-11-21 | subject: Filings and disclosures by listed entities
+powers: LODR Regulations, 2015, reg 50 (as amended on 13-12-2024)
+applies: Entities with listed NCDs, NCRPS and other NCS
+duties: From 01-12-2025, file reg 50 prior intimations (board meetings and meetings of holders) only in XBRL through the common utility; a PDF or other mode is treated as non-submission
+breach: Delay in intimation of a board meeting or holders' meeting under reg 50: Rs 5,000 per instance per item (SOP fines for debt)
+refs: SOP-DEBT
+penalties: P1
+
+[NSE-RECORDDATE-20250429] Record dates for debt: where and how to file | Path of filing of record date disclosures for corporate actions (debt) and clarification on record dates under regulation 42 | NSE/CML/2025/02 (debt, 29-04-2025) and NSE/CML/2025/04 (07-02-2025) | Circular | In force | issued 2025-04-29 | subject: Filings and disclosures by listed entities
+powers: LODR Regulations, 2015, regs 10, 42, 60(2), 87(2) and 87E(2); Chapter XVII of the SEBI NCS Master Circular (CP)
+applies: Entities with listed NCS, SDIs, security receipts, municipal debt or CP; Entities with listed equity (reg 42)
+duties: Fix the record date 15 days before the due date of interest, dividend, principal or other corporate action (NCS reg 23(7), from July 2024)
+duties: Give advance notice of the record date for interest payments, call or put exercise and early, voluntary or partial redemption under the subject 'Record Date Updates' on NEAPS; filings under other subjects may not be taken on record
+duties: Keep PDF and XBRL disclosures consistent
+duties: Equity: keep at least three clear working days between the board or shareholder approval and the record date; book closure is no longer announced (reg 42(5) omitted)
+breach: Delay in notice of record date for debt: Rs 10,000 per ISIN (SOP fines for debt)
+refs: SOP-DEBT
+penalties: P1
+
+[NSE-CRDISC-20250801] Credit ratings disclosed straight from the agencies | System-driven disclosure of credit ratings (Regulation 30) and ESG ratings | NSE/CML/2025/08 | Circular | In force | issued 2025-08-01 | subject: Filings and disclosures by listed entities
+powers: LODR reg 30(6) read with Para A(3) of Part A of Schedule III; SEBI circulars of 31-12-2024 and 29-04-2025
+applies: Listed entities; Credit rating agencies and ESG rating providers
+concepts: From 02-08-2025 rating agencies upload new ratings and revisions daily, and the exchange publishes them automatically on the company's page
+duties: Rating agencies and ESG rating providers report ratings to the exchange through the prescribed upload
+refs: NSE-IF-20250102
+penalties: P1
+
+[NSE-SOP-FURTHER-20261021] Joint approval of further issues by NSE and BSE | Common standard operating procedure for grant of approvals for further issues by stock exchanges | NSE/CML/2026/22 | Circular | In force | issued 2026-10-21 | subject: Filings and disclosures by listed entities
+applies: Entities listed on more than one exchange applying for approval of preferential issues, rights issues, QIPs, FCCBs, ADRs, GDRs, ESOPs, ESPS, sweat equity, bonus issues or schemes of arrangement
+duties: File the application with all exchanges as before; the exchanges assign a lead exchange in turn; the other exchange sends its queries through the lead exchange, and the company answers only the lead exchange
+deadlines: Applies to further issue applications filed on or after 01-11-2026
+refs: NSE-MC-LISTED-2026
+penalties: P1
+
+[NSE-MC-LISTED-2026] NSE Master Circular for listed companies 2026 | NSE Master Circular for Listed Companies (2026) | NSE Master Circular of 30-04-2026 | Master Circular | In force | issued 2026-04-30 | subject: Filings and disclosures by listed entities
+applies: Companies listed or seeking listing on NSE
+concepts: An index of NSE's operative circulars by subject, with links: IPO and direct listing, schemes of arrangement and resolution plans (including the joint SOP under regs 37 and 59A of 31-07-2025), further issues, continuous disclosures, and compliance
+duties: Follow the circulars listed as current; superseded circulars are dropped from the index
+refs: BSE-MC-LISTING-2026; NSE-SOP-FURTHER-20261021
+penalties: P1
+
+[BSE-MC-LISTING-2026] BSE Master Circular for listing compliance 2026 | BSE Master Circular - Listing Compliance (2026) | BSE notice 20260430-29 | Master Circular | In force | issued 2026-04-30 | subject: Filings and disclosures by listed entities
+applies: Companies listed on BSE
+concepts: BSE's consolidation of its listing-compliance notices on filings through the BSE Listing Centre, XBRL, disclosures and SOP actions
+duties: Follow the consolidated BSE notices on listing compliance
+refs: NSE-MC-LISTED-2026
+penalties: P1
+
+[LODR-AMD3-2026] LODR Third Amendment 2026: list all later NCDs | SEBI (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026 (regulation 62A) | SEBI/LAD-DOP/2026/329 (BSE notice 20261023-12) | Amendment regulation | In force | issued 2026-10-12 | subject: Filings and disclosures by listed entities
+applies: Listed entities whose non-convertible debt securities are listed on or after 14-10-2026
+duties: Reg 62A(1) as substituted: a listed entity whose non-convertible debt securities are listed on or after the date the Third Amendment was published in the Gazette (14-10-2026) must list all non-convertible debt securities it issues after that listing; reg 62A(2) and (3) are omitted
+refs: NSE-CHK-PP
+penalties: P1
+
+[NCS-AMD-2026] NCS Amendment 2026: incentives for retail and others | SEBI (Issue and Listing of Non-Convertible Securities) (Amendment) Regulations, 2026 | SEBI/LAD-NRO/GN/2026/296 (BSE notice 20260203-13) | Amendment regulation | In force | issued 2026-01-20 | subject: Listing NCDs: approval, timelines, ISINs and fees
+applies: Issuers of debt securities
+concepts: New reg 2(1)(gga): a 'retail individual investor' applies or bids for debt securities of not more than Rs 2 lakh
+duties: Reg 31 proviso: an issuer may offer additional interest or a discount to the issue price to senior citizens, women, serving and retired defence personnel, widows and widowers of defence personnel, retail individual investors or other categories SEBI specifies; the incentive is only for the initial allottee and is not available once the securities are transferred or transmitted
+refs: NSE-CHK-PUB
+penalties: P1
+
+[LODR-AMD1-2026] LODR Amendment 2026: high value debt listed entities from Rs 5,000 crore | SEBI (Listing Obligations and Disclosure Requirements) (Amendment) Regulations, 2026 (high value debt listed entities) | SEBI/NRO-GN/2026/295 of 20-01-2026 (BSE notice 20260203-12) | Amendment regulation | In force | issued 2026-01-20 | subject: Filings and disclosures by listed entities
+applies: Entities with listed non-convertible debt securities only (no listed equity), including NBFCs and HFCs
+concepts: A 'high value debt listed entity' must follow the corporate governance provisions of the LODR Regulations (board, committees, related party transactions and related disclosures)
+concepts: Reg 15(1A) threshold raised from Rs 1,000 crore to Rs 5,000 crore of listed non-convertible debt securities
+duties: Check whether listed NCDs reach Rs 5,000 crore; entities below the new threshold should review which governance provisions still apply to them under the amended regulations
+refs: LODR-AMD3-2026; NSE-IF-20250102
+penalties: P1
+
+[LODR-DEFAULT] Disclosure of defaults on bank loans | Disclosures by listed entities of defaults on payment of interest or principal on loans from banks and financial institutions and on unlisted debt securities (Section V-B of the SEBI LODR Master Circular) | SEBI/HO/CFD/CMD1/CIR/P/2019/140 (NSE/CML/2019/07), now Section V-B of the LODR Master Circular updated 30-01-2026 (BSE 20260203-14) | Circular | In force · amended | issued 2019-11-21 | subject: Defaults, pledges and lender-facing disclosures
+powers: LODR Regulations, 2015, reg 30
+applies: Entities with listed specified securities (equity and convertibles) that default on loans, including cash credit and other revolving facilities, from banks and financial institutions, or on unlisted NCDs and NCRPS
+excluded: Defaults on the entity's own listed debt securities: disclosed under LODR reg 51 and Schedule III Part B (see the SEBI section)
+concepts: 'Default': non-payment of interest or principal in full on the pre-agreed date; for revolving facilities, the balance staying above the sanctioned limit or drawing power, whichever is lower, for more than 30 days
+concepts: Each disclosure names the lender, date and amount of default (principal and interest), the facility terms, total bank and FI borrowings and total financial indebtedness
+duties: Disclose a loan default that continues beyond 30 days promptly, and not later than 24 hours from the 30th day
+duties: Disclose a default on unlisted NCDs or NCRPS within 24 hours of the default
+duties: Report outstanding defaults on loans and debt securities every quarter as part of Integrated Filing (Financial)
+deadlines: 24 hours after day 30 of a loan default; 24 hours for unlisted debt securities; quarterly with Integrated Filing (Financial)
+refs: NSE-IF-20250102; SOP-EQ
+penalties: P1
+defined terms (wording is in the full text): other than permanent worker (definitions); company (definitions); Rehabilitation (definitions); Discrimination (definitions); Forced Labour' or `Involuntary Labour (definitions); Cost (definitions)
+
+[NSE-ENCUMB-20190808] Reasons for promoter pledges | Disclosure of reasons for encumbrance by promoters of listed companies | NSE/CML/2019/19, forwarding SEBI circular SEBI/HO/CFD/DCR1/CIR/P/2019/90 of 07-08-2019 | Circular | In force | issued 2019-08-08 | subject: Defaults, pledges and lender-facing disclosures
+powers: SEBI Takeover Regulations, 2011, reg 31(1) read with reg 28(3)
+applies: Promoters (with persons acting in concert) of listed companies who pledge or otherwise encumber shares; Lenders taking pledges of promoter shares
+concepts: Encumbrance includes a pledge, lien or other interest given to a lender over promoter shares
+duties: Where combined encumbrance by the promoter and PACs reaches 50% of their holding or 20% of the company's share capital, disclose detailed reasons in Annexure II to every exchange and the company, and again whenever encumbrance rises further
+duties: This is in addition to the reg 31(1) encumbrance disclosure
+duties: The company puts the disclosure on its website within two working days; the exchanges publish a separate list of such companies
+deadlines: Within two working days of creating the encumbrance
+refs: BSE-PLEDGE-SURV; NSE-PLEDGE-LOCKIN-20260410
+penalties: P1
+
+[BSE-PLEDGE-SURV] Surveillance of companies with high promoter pledge | Surveillance measure in respect of companies with high promoter pledge (monthly list) | BSE notice 20260902-39 (continuing notices 20191024-30 and 20200417-31) | Notice | In force | issued 2026-09-02 | subject: Defaults, pledges and lender-facing disclosures
+applies: Trading members and investors dealing in shares of companies on the exchange's high promoter pledge list; Lenders holding pledges of such shares
+concepts: The exchanges review the list periodically; inclusion is a market surveillance step, not an adverse finding against the company
+duties: Securities on the list attract a minimum 35% margin in the equity and equity derivatives segments on all open and new positions
+duties: A company may make a representation against inclusion by the deadline in the notice
+refs: NSE-ENCUMB-20190808
+penalties: P1
+
+[NSE-PLEDGE-LOCKIN-20260410] Lock-in of pledged shares | Ease of doing business: mechanism for lock-in of pledged shares under the ICDR Regulations | NSE/CML/2026/07, forwarding SEBI circular HO/49/(17)2026-CFD-POD2/I/8965/2026 of 08-04-2026 | Circular | In force | issued 2026-04-10 | subject: Defaults, pledges and lender-facing disclosures
+powers: SEBI ICDR Regulations, 2018 as amended on 21-03-2026; Depositories Act, 1996, s. 26(3)
+applies: Issuers making public issues whose locked-in specified securities are pledged; Lenders and pledgees of such shares
+concepts: Where lock-in cannot be created on pledged shares, the depositories record them as 'non-transferable' for the lock-in period
+duties: Issuers follow the depositories' framework: suitable provisions in the Articles, intimation to the lenders or pledgees, and disclosure in the offer document
+refs: NSE-ENCUMB-20190808
+penalties: P1
+
+[SOP-EQ] SOP fines for equity-listed entities | Penal actions for non-compliance: fines, freezing of promoter holdings and suspension (Chapter VII-A of the SEBI LODR Master Circular, implemented by NSE and BSE) | SEBI/HO/CFD/CMD/CIR/P/2020/12 of 22-01-2020 (NSE circular of 22-01-2020), now Chapter VII-A of the LODR Master Circular | Master Circular | In force · amended | issued 2020-01-22 | subject: Fines, freezing and suspension
+powers: SEBI Act, s. 11A(2); SCRA, ss. 9 and 21; LODR reg 98
+applies: Entities with listed specified securities and their promoters
+concepts: Fines are the first resort; they accrue until the default is cured or trading is suspended and go to the exchange's investor protection fund
+concepts: Examples: no qualified company secretary as compliance officer Rs 1,000 a day; board composition Rs 5,000 a day; audit committee Rs 2,000 a day; RPT disclosure Rs 5,000 a day; corporate governance report Rs 2,000 a day; no in-principle approval before issuing securities Rs 50,000 per instance; late board meeting intimation Rs 10,000 per instance per item; shareholding pattern Rs 2,000 a day; financial results Rs 5,000 a day; annual report Rs 2,000 a day; record date lapses Rs 10,000 per instance per item; AGM not held within five months Rs 25,000 per instance
+concepts: Where the entity is listed on more than one exchange, the exchanges act uniformly in consultation
+duties: The exchange issues a notice within 30 days of the due date; the entity must comply and pay within 15 days; failing that, notice to the promoters to comply and pay within 10 days
+duties: Then the depositories freeze the entire shareholding of the promoters in the entity and all other securities in their demat accounts until compliance and payment
+duties: The entity must place the non-compliance and the exchange's actions before its board at the next meeting and send the board's comments to the exchange
+deadlines: Suspension if the same default runs for two consecutive quarters (board composition, audit committee, governance report, shareholding pattern, financial results, share capital audit) or two consecutive years (annual report): move to the Z category (trade-for-trade) and then suspend trading
+deadlines: Compulsory delisting is started if the entity does not comply and pay within 6 months of suspension
+breach: Fines, promoter demat freeze, Z category, suspension and compulsory delisting under the SCRA, SCRR and Delisting Regulations
+refs: SOP-DEBT; NSE-FINE-WAIVER; NSE-MPS-RELAX-20260407; LA-UNIFORM
+penalties: P1
+
+[SOP-DEBT] SOP fines for debt and CP issuers | Non-compliance with continuous disclosures by issuers of listed non-convertible securities and commercial paper (SEBI master circular for listing obligations of debt issuers, Annex IX-A and IX-B, with BSE guidance note) | SEBI master circular SEBI/HO/DDHS/DDHS-PoD-1/P/CIR/2025/0000000103 of 11-07-2025; BSE guidance note on SEBI circular of 13-11-2020 | Master Circular | In force | issued 2025-07-11 | subject: Fines, freezing and suspension
+powers: SEBI Act, s. 11; LODR Chapter V
+applies: Entities with listed NCDs, NCRPS and other NCS, and issuers of listed commercial paper
+concepts: Fines (Annex IX-A Part A): no compliance officer, no RTA, investor complaints Rs 1,000 a day each; reg 50 intimations Rs 5,000 per instance per item; financial results under reg 52 Rs 5,000 a day; reg 52(4)/(6) line items Rs 1,000 a day; use of proceeds Rs 1,000 a day; annual report Rs 2,000 a day; security cover disclosure (reg 54) Rs 1,000 a day
+concepts: Payment obligations: reg 57(1) status Rs 2,000 a day per ISIN; reg 57(4) and (5) quarterly details and certificates Rs 1,000 per ISIN (rows as the SOP table still lists them; reg 57 itself now centres on the payment certificate); no prior exchange approval for a structural change in the securities (reg 59) Rs 50,000 per instance; late record date notice (reg 60(2)) Rs 10,000 per ISIN
+concepts: Listed CP (Part B): financial results Rs 5,000 a day; line items Rs 1,000 a day; payment certificate Rs 1,000 a day per ISIN
+concepts: No double fine where the same common obligation has been fined under the equity SOP
+duties: Fines start from the working day after the due date; the exchange reviews within 30 days and the issuer must comply and pay within 15 days of the notice, then within 10 days of a reminder
+duties: Place the non-compliance before the board at its next meeting and send the board's comments to the exchange
+breach: If the issuer still does not comply and pay, the exchange tells the other exchanges and all EBPs, which then refuse any new issue by it on the EBP platform and any further listing of its NCS or CP until it complies and pays
+breach: An issuer with unpaid SOP fines must disclose them when applying for in-principle approval, and loses the merchant-banker exemption for Rs 10,000 NCDs
+refs: SOP-EQ; NSE-EBP-OG; NSE-CHK-PP; NSE-MBEXEMPT-20261008
+penalties: P1
+
+[NSE-FINE-WAIVER] Waiver of SOP fines | Processing of waiver applications for SOP fines by the exchanges for commonly listed entities, with the Policy for Exemption of Fines | NSE/CML/2025/35; BSE policies for exemption of SOP fines (equity and debt) | Exchange policy | In force | issued 2025-08-26 | subject: Fines, freezing and suspension
+applies: Listed entities seeking waiver or reduction of SOP fines
+concepts: For an entity listed on both exchanges only one exchange decides the waiver and its decision binds the other: NSE for names starting A to K or digits 0 to 4, BSE for L to Z or digits 5 to 9; a non-refundable processing fee applies
+concepts: Grounds considered: natural calamity; seizure of books or computers by authorities; impossibility (pending government or regulator approval of a director or KMP, a nominee appointed by an authority, casual vacancy); court or tribunal orders (such as NCLT orders or appointment of a liquidator); and events beyond the company's control such as strikes and lockouts
+duties: Disclose the event promptly with supporting documents and an impact assessment certified by the company secretary or compliance officer (by the statutory auditor where filing of financials is affected)
+duties: Waiver is considered only if the company has otherwise complied with all its compliances
+deadlines: Applies to waiver applications filed on or after 01-09-2025
+refs: SOP-EQ; SOP-DEBT
+penalties: P1
+
+[NSE-MPS-RELAX-20260407] One-time relief on minimum public shareholding fines | Relaxation from penal provisions of the LODR Master Circular on non-compliance with minimum public shareholding | NSE/CML/2026/06 (BSE 20260409-3), forwarding SEBI circular HO/49/14/14(13)2026-CFD-POD2/I/8772/2026 of 07-04-2026 | Circular | In force | issued 2026-04-07 | subject: Fines, freezing and suspension
+applies: Listed entities whose due date for meeting minimum public shareholding fell between 01-04-2026 and 30-09-2026
+duties: Only for entities whose MPS due date falls in that window: exchanges and depositories take no penal action under the Master Circular for non-compliance during the window, and withdraw actions already taken against them from 01-04-2026
+refs: SOP-EQ
+penalties: P1
+
+[NSE-NCL-DEBT-MC-2026] NSE Clearing: debt segment, RFQ and reported deals | Consolidated circular - debt market segment of NSE Clearing Ltd (to 31-03-2026) | NCL/DS/74002 | Master Circular | In force | issued 2026-04-30 | subject: Bond trading, settlement and liquidity
+applies: Participants, custodians and members settling corporate bond, CP and CD trades through NSE Clearing, including RBI-regulated entities
+concepts: Normal market deals on the debt segment settle on DVP III (netted) on T+1 with settlement guarantee
+concepts: Trades reported on NSE's CBRICS platform, NSE RFQ and the CCIL platform settle participant-wise on DVP I (gross), with no settlement guarantee
+concepts: Entities required by SEBI to clear corporate bond trades through a clearing corporation (mutual funds, FPIs, venture funds, portfolio managers and RBI-regulated entities as RBI specifies) register with NSE Clearing
+concepts: Stamp duty of 0.0001% on the buyer for transfers of corporate bonds, securitised debt and CP; 0.00001% on CDs; for repo, on the borrower's interest on the reverse leg
+concepts: Also covers settlement of Corporate Debt Market Development Fund transactions and the liquidity window
+duties: Sign the Corporate Bond Settlement Agreement and register bank and demat accounts before settling
+duties: Pay in securities and funds (including stamp duty) by the cut-off; RFQ trades may be paid by net banking, UPI or NEFT
+deadlines: Settlement cycles T+0, T+1 and T+2, Monday to Friday; pay-in cut-off 5.45 p.m.
+breach: If either side fails to pay in fully by the cut-off, the trade is cancelled and what was paid is returned; unpaid stamp duty is treated as a funds shortfall
+refs: NSE-RFQ-20261016; BSE-CLEARING-DEBT-2026; NSE-LWF-20260211
+penalties: P1
+defined terms (wording is in the full text): Said Securities (definitions)
+
+[BSE-CLEARING-DEBT-2026] BSE Clearing (ICCL): debt segment | Indian Clearing Corporation Ltd master circular for the debt segment (updated to 31-03-2026) | BSE notice 20260429-36 | Master Circular | In force | issued 2026-04-29 | subject: Bond trading, settlement and liquidity
+applies: Members and participants settling debt deals on BSE's debt segment and RFQ (NDS-RST) platform
+concepts: Covers deals, collateral, margins, clearing and settlement, the core settlement guarantee fund, charges and penalties, tri-party (basket) repo and negotiated trades reported on the BSE-ICDM portal
+concepts: Earlier notices on the subject stand rescinded; where a notice conflicts with the master circular, the notice prevails
+duties: Follow the master circular for clearing and settlement of debt trades through ICCL
+refs: NSE-NCL-DEBT-MC-2026; NSE-RFQ-20261016
+penalties: P1
+
+[NSE-RFQ-20261016] RFQ platform for corporate bonds | RFQ platform for corporate bonds: T+0 timings extended to 5 p.m. (NSE and BSE), with operational enhancements | NSE/DS/76973 (BSE notice 20261019-21); NSE/DS/70879 of 16-10-2025 and NSE/DS/73049 of 28-02-2026 | Circular | In force | issued 2026-10-16 | subject: Bond trading, settlement and liquidity
+applies: Participants trading corporate bonds, SDIs, security receipts, municipal debt and CP on the RFQ platforms
+concepts: Market hours: 9 a.m. to 5 p.m. for T+0 settlement (all instruments other than G-secs, SDLs and T-bills) and for T+1 (all eligible securities); effective 19-10-2026 on NSE and 21-10-2026 on BSE
+concepts: From 28-10-2025: brokered one-to-many deals must be executed by the broker for the participant; yield-price calculator; optional upload of client holdings for brokers; FIX API
+concepts: From 02-03-2026: bond information (shut period, put/call dates, cash flows, rating, sector) in the market watch, customised watch lists, and a broad clubbed quoting facility
+duties: RFQ participants confirm their entity type to NSE every half-year (October window for the half-year ending 30 September) to keep access
+refs: NSE-NCL-DEBT-MC-2026; BSE-CLEARING-DEBT-2026
+penalties: P1
+
+[NSE-LWF-20260211] Liquidity Window Facility for bond investors | Revised operating guidelines for the Liquidity Window Facility for investors in debt securities, with issuer compliance requirements | NSE/DS/72742 (11-02-2026) and NSE/CML/2026/1 (04-05-2026), under SEBI circular SEBI/HO/DDHS/DDHS-PoD-1/P/CIR/2024/141 of 16-10-2024 | Operating guidelines | In force | issued 2026-02-11 | subject: Bond trading, settlement and liquidity
+applies: Issuers that offer investors a put option through the exchange's liquidity window; Investors in those debt securities, through brokers or OBPPs
+concepts: The facility is optional, chosen per ISIN at issue, and only for new issues (Chapter XXV of the SEBI NCS Master Circular); it starts only one year after issue; no re-issues in that ISIN, which is outside the ISIN cap; the aggregate limit is at least 10% of the final issue size; each window stays open three working days, monthly or quarterly; payout may not be below the valuation by more than 100 basis points, plus accrued interest
+concepts: Investors exercise the put through the exchange during the window; securities are blocked in their demat accounts by early pay-in
+concepts: Eligible investors are fixed on T-2 (T is the first day of the window); allocation is in full or proportionate, all categories at par; a retail-only window is capped at Rs 2 lakh per investor
+duties: Disclose the exchanges, eligible investor categories and method in the offer document
+duties: Give notice of each window on NEAPS at least 3 working days before it opens, and apply with the list of eligible investors, a confirmation and a board resolution at least 2 working days before
+duties: Upload the put price from a SEBI-registered rating agency's valuation by 6 p.m. on T-1
+duties: Appoint an RTA for allocation and a clearing member for settlement; name a designated exchange if more than one is used
+deadlines: Window open 9 a.m. to 5 p.m.; bids to the RTA on T+2; allocation file to the clearing corporations by 12.30 p.m. on T+3; settlement on T+4 on a gross basis without settlement guarantee
+deadlines: Post-window disclosures within three working days
+breach: If the issuer's clearing member does not fund in full, investors are not paid and their securities are returned
+refs: NSE-NCL-DEBT-MC-2026
+penalties: P1
+
+[NSE-OBPP-20260817] Online bond platforms: 2026 changes | Modification in the regulatory framework for online bond platform providers (OBPPs), including ease of doing business measures | NSE/COMP/75793 (BSE 20260817-28), forwarding SEBI circular HO/17/11/(2)2026-DDHS-POD1/I/18769/2026 of 14-08-2026 | Circular | In force | issued 2026-08-17 | subject: Bond trading, settlement and liquidity
+powers: SEBI NCS Regulations, reg 51A; Chapter XXI of the SEBI NCS Master Circular
+applies: Online bond platform providers and the stock brokers that run them
+concepts: Modifies the OBPP framework in the SEBI NCS Master Circular; among other things OBPPs may offer products, securities or services regulated by the IFSCA
+duties: OBPPs and brokers comply with the modified framework; from 21-11-2026 OBPPs also show the Credit Risk-o-Meter for each security
+refs: NSE-RISKOMETER-20261008; NSE-RFQ-20261016
+penalties: P1
+
+[NSE-TREPO-20260917] Tri-party repo in corporate bonds | Revision in auction market timings for the ARCL tri-party repo platform | NSE/DS/76400 | Circular | In force | issued 2026-09-17 | subject: Bond trading, settlement and liquidity
+applies: Members and participants using the tri-party repo market platform cleared by AMC Repo Clearing Ltd (ARCL)
+concepts: The repo auction market moved to 3.30 p.m. to 4 p.m. from 18-09-2026 (earlier 3 p.m. to 3.30 p.m.)
+duties: Place repo auction orders within the revised window
+refs: NSE-NCL-DEBT-MC-2026
+penalties: P1
+
+[NSE-DS-69679] NSE EBP guidelines of August 2025 | Review of provisions pertaining to EBP platform: revised guidelines (August 2025) | NSE/DS/69679 | Superseded instrument | Superseded by NSE/DS/71301 of 14-11-2025 | issued 2025-08-14 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: NSE-EBP-OG
+
+[BSE-20250814-19] BSEBOND guidelines of August 2025 | Revised BSEBOND operational guidelines effective 18-08-2025 | BSE notice 20250814-19 | Superseded instrument | Superseded by BSE notice 20251114-47 | issued 2025-08-14 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: BSE-EBP-OG
+
+[BSE-PPDI-CHK] BSE checklist for privately placed debt (2021) | Checklist for listing of privately placed debt issuances (2021) | BSE PPDI checklist 2021 | Superseded instrument | Superseded by the BSE Master Checklist 2026 | issued 2021-01-01 | subject: Superseded (history)
+SUPERSEDED: details omitted; use the instrument that replaced it.
+refs: BSE-MASTER-CHK
+
+GLOSSARY (plain-language meanings, not statutory text):
+NSE (National Stock Exchange of India): A recognised stock exchange. It lists equity, NCDs and commercial paper, runs an EBP for private placements and an RFQ platform for bond trades; NSE Clearing settles them.
+BSE (BSE Limited): A recognised stock exchange. It lists equity, NCDs and commercial paper and runs the BSEBOND EBP platform and an RFQ platform; Indian Clearing Corporation settles its trades.
+Recognised stock exchange: An exchange recognised by the Central Government (now SEBI) under s. 4 of the SCRA. Its ownership and governance follow the SECC Regulations.
+Listing agreement: The agreement a listed entity signs with each exchange when it lists. It binds the entity to the LODR Regulations and the exchange's rules; breach can lead to fines, suspension or delisting under the SCRA.
+NCD (Non-convertible debenture): A debenture that cannot be converted into shares. Privately placed NCDs of Rs 20 crore or more are issued through an EBP and listed within T+3 days of the issue closing.
+Non-convertible securities (NCS): NCDs, non-convertible redeemable preference shares and similar debt-like instruments issued and listed under the SEBI NCS Regulations, 2021.
+Commercial paper (CP): A short-term unsecured money market instrument issued under RBI's directions. Listed CP follows SEBI's framework: listing on T+1 from receipt of funds, minimum lot of Rs 5 lakh, and no in-principle approval.
+In-principle approval: The exchange's approval of the draft offer or placement document before an issue opens. Needed for NCDs (not for CP) before the issue is put on an EBP.
+EBP (Electronic book provider platform): The exchange platform on which private placements of debt of Rs 20 crore or more are bid and allotted. NSE's EBP and BSEBOND are the two exchange platforms.
+Anchor investor: An investor who commits in advance to part of a private placement on an EBP. The anchor portion is capped at 30%, 40% or 50% of the base issue depending on the rating.
+Arranger: A SEBI-registered intermediary (such as a merchant banker or broker) who bids on an EBP for its clients. Repeated client pay-in defaults bar it from bidding.
+Green shoe: The option to keep subscriptions above the base issue size. On an EBP it may not exceed five times the base issue.
+ISIN (International Securities Identification Number): The code that identifies a security in the depositories. SEBI caps how many debt ISINs maturing in a financial year an issuer may have, to push re-issues into existing ISINs.
+REF (Recovery Expense Fund): A fund each debt issuer deposits with the designated exchange, at 0.01% of the issue up to Rs 25 lakh. Debenture trustees draw on it to enforce security after a default.
+Debenture trustee (DT): The SEBI-registered trustee that holds security and acts for debenture holders. The issuer must send it periodic security cover and other reports on set timelines.
+Security cover: The value of the assets charged for secured NCDs compared with the amount outstanding. Certified quarterly to the trustee and the exchange.
+Credit Risk-o-Meter: A coloured meter showing the credit risk of a debt security, based on its rating. Required in offer documents, advertisements and online bond platforms from 21-11-2026.
+Integrated filing: The single quarterly filing (governance and financial parts) that replaced several separate LODR filings. Governance within 30 days of the quarter end; financials with the results.
+XBRL: The machine-readable format used for exchange filings. Regulation 50 prior intimations for listed debt are accepted only in XBRL since 01-12-2025.
+Record date: The date that fixes who receives interest or redemption on listed debt. It is notified to the exchange in advance through the prescribed filing.
+Default disclosure: Disclosure to the exchanges of a default on a loan from a bank or financial institution that continues beyond 30 days, made within 24 hours of the 30th day.
+Encumbrance: A pledge, lien, non-disposal undertaking or similar arrangement over shares. Promoters disclose encumbrances, and reasons when they cross 50% of their holding or 20% of the company's share capital.
+SOP fines: Fines the exchanges levy under SEBI's standard operating procedure for late or missed filings, per day or per instance, with escalation to freezing of promoter holdings and suspension.
+Suspension: Stopping trading in a company's securities for continuing non-compliance. Revocation needs payment of fines and compliance.
+RFQ (Request for quote platform): The exchange platform for negotiated secondary trades in corporate bonds and CP. Since October 2026 it settles on T+0 for trades up to 5 p.m.
+Liquidity Window Facility (LWF): A put option an issuer may offer retail investors in its debt, exercised through an exchange window at a price set from a rating agency's valuation.
+OBPP (Online bond platform provider): A SEBI-registered broker that offers listed debt to investors online. Must display the Credit Risk-o-Meter from 21-11-2026.
+Tri-party repo: A repo in corporate bonds in which the exchange's clearing corporation acts as the third party, managing collateral and settlement.
+Merchant banker: A SEBI-registered intermediary who manages an issue. Since October 2026 certain regulated, listed issuers need not appoint one for privately placed debt.
+
+STOCK EXCHANGE CHANGES (2025-11-21 to 2026-11-26):
+- 2026-10-21 Exchange circular: Further issues: one lead exchange handles queries for both NSE and BSE (NSE/CML/2026/22). Applies: Listed companies applying for in-principle approval of a further issue of shares.. Changes: Applications are still filed with every exchange, but the exchanges assign a lead exchange in turn. The other exchange routes its queries through the lead exchange; the company answers only the lead exchange. Applies to applications filed on or after 01-11-2026. Actions: Route further issue correspondence to the lead exchange named for the application.
+- 2026-10-16 Exchange circular: RFQ trades in corporate bonds settle on T+0 until 5 p.m. (NSE/DS/76973; BSE notice 20261019-21). Applies: Participants on the NSE and BSE RFQ platforms.. Changes: RFQ trading hours for T+0 settlement extended to 5 p.m. (NSE from 19-10-2026; BSE from 21-10-2026). Participants must confirm their entity type every half-year to keep platform access. Actions: Update treasury settlement cut-offs and complete the half-yearly entity confirmation.
+- 2026-10-12 SEBI regulation: Newly debt-listed entities must list all later NCDs (SEBI/LAD-DOP/2026/329 (LODR Third Amendment)). Applies: Entities whose non-convertible debt securities are listed on or after 14-10-2026.. Changes: Reg 62A(1) substituted: an entity whose NCDs are listed on or after the amendment's Gazette publication (14-10-2026) must list all non-convertible debt securities it issues after that listing. Reg 62A(2) and (3) omitted. Actions: Build listing into every future NCD issue plan and timeline.
+- 2026-10-08 Exchange circular: New caps on ISINs for privately placed debt (NSE/CML/D/2026/05; BSE notice 20261008-21). Applies: Issuers of privately placed debt securities and their arrangers.. Changes: Up to 17 ISINs may mature in a financial year: 12 for plain vanilla debt and 5 for structured, market-linked, floating rate, zero coupon and Tier II bonds, plus 6 for s. 54EC bonds. Outstanding floating rate, zero coupon and Tier II ISINs issued before the circular are grandfathered. One more plain vanilla ISIN for each Rs 3,000 crore once the amount maturing in the year reaches Rs 15,000 crore. Government-serviced (EBR) bonds and ESG debt securities are outside the count. Actions: Map existing ISINs by maturity year against the new caps.
+- 2026-10-08 Exchange circular: Rs 10,000 NCDs: some regulated, listed issuers need no merchant banker (NSE/CML/D/2026/06; BSE notice 20261008-22). Applies: Issuers regulated by SEBI, RBI, IRDAI or PFRDA, including NBFCs and HFCs.. Changes: For private placements at Rs 10,000 face value, no merchant banker is needed if the issuer is regulated by SEBI, RBI, IRDAI or PFRDA; has been listed for a year with no pending LODR fines; has had no default in the last three financial years and the current year (auditor's certificate); issues senior debt secured on its own identifiable assets; and is rated AA- or above on the placement date. Actions: Check each condition before dropping the merchant banker.
+- 2026-10-08 Exchange circular: Credit Risk-o-Meter on debt offer documents and bond platforms (NSE circular of 08-10-2026; BSE notice 20261008-23). Applies: Debt issuers, arrangers and online bond platform providers.. Changes: Offer documents, placement memoranda, advertisements and online bond platforms must show a Credit Risk-o-Meter. The rating agency, the rating and, for unsecured debt, the word 'unsecured' in bold red appear below it. In force 45 days after 07-10-2026. Actions: Add the meter to placement memorandum and term sheet templates.
+- 2026-09-17 Exchange circular: Revised window for tri-party repo auctions in corporate bonds (NSE/DS/76400). Applies: Participants in tri-party repo in corporate bonds.. Changes: Repo auctions run between 3.30 p.m. and 4 p.m. from 18-09-2026. Actions: Update desk procedures.
+- 2026-09-02 Exchange notice: BSE's list of companies with high promoter pledge (BSE notice 20260902-39). Applies: Listed companies on the list, their promoters, and lenders holding pledges.. Changes: Listed securities attract a minimum 35% margin on all open and new positions in the equity and derivatives segments. Actions: Check whether pledged collateral is on the list and review margins.
+- 2026-08-17 Exchange circular: Changes to the framework for online bond platforms (NSE/COMP/75793; BSE notice 20260817-28). Applies: Online bond platform providers and stock brokers.. Changes: SEBI modified the OBPP framework for ease of doing business; OBPPs also show the Credit Risk-o-Meter from 21-11-2026. Actions: Review OBPP arrangements against the modified framework.
+- 2026-06-19 Exchange circular: One filing reaches both NSE and BSE (NSE/CML/2026/17; BSE notice 20260619-11). Applies: Listed entities filing Regulation 30 disclosures.. Changes: A filing through the common system counts for both exchanges. For covered events the PDF counts as compliance, with the XBRL filing to follow within 24 hours. Actions: Align disclosure workflows so XBRL follows within 24 hours.
+- 2026-06-12 Exchange circular: FAQs on the quarterly Integrated Filing (Governance) (NSE/CML/2026/16; BSE notice 20260612-13). Applies: Equity-listed entities.. Changes: Clarifies scope and timing: file within 30 days of each quarter end; newly listed entities start with the first quarter ending after listing. Actions: Check filing calendars against the FAQs.
+- 2026-04-10 Exchange circular: Lock-in of pledged shares (NSE/CML/2026/07). Applies: Issuers with locked-in pledged shares, and lenders or pledgees.. Changes: Issuers follow the depositories' framework for locked-in pledged shares: suitable provisions in the articles, intimation to lenders and disclosure in the offer document. Actions: Lenders: check lock-in status of pledged shares.
+- 2026-04-07 Exchange circular: MPS fines paused for due dates from April to September 2026 (NSE/CML/2026/06; BSE notice 20260409-3). Applies: Listed companies whose minimum public shareholding due date falls in the window.. Changes: For entities whose MPS due date falls between 01-04-2026 and 30-09-2026: no penal action for non-compliance during that window, and actions already taken against them from 01-04-2026 are withdrawn. Entities whose due date fell earlier get no relief. Actions: Use the window to restore MPS.
+- 2026-02-11 Exchange circular: NSE guidelines for the Liquidity Window Facility (NSE/DS/72742). Applies: Debt issuers offering a liquidity window to retail investors, and those investors.. Changes: Optional, per ISIN at issue: exercisable only after one year, at least 10% of the issue, three-working-day windows, payout no more than 100 basis points below valuation plus accrued interest. Notice of each window at least 3 working days before; application at least 2 working days before. Put price from a rating agency's valuation uploaded by 6 p.m. on T-1. Settlement on T+4 without settlement guarantee; disclosures within three working days after the window. Actions: Build the timetable into the issue documents.
+- 2026-01-20 SEBI regulation: High value debt listed entity threshold raised to Rs 5,000 crore (SEBI/NRO-GN/2026/295). Applies: Debt-only listed entities, including NBFCs and HFCs.. Changes: The reg 15(1A) threshold for the corporate governance provisions that apply to high value debt listed entities rose from Rs 1,000 crore to Rs 5,000 crore of listed non-convertible debt securities. Actions: Recheck status against the new threshold and the amended regulations.
+- 2026-01-20 SEBI regulation: NCS amendment: incentives for retail, senior citizens and others (SEBI/LAD-NRO/GN/2026/296). Applies: Issuers of non-convertible securities.. Changes: Issuers may offer extra interest or a discount to senior citizens, women, serving and retired defence personnel, widows and widowers of defence personnel, retail investors and other specified categories. Only the initial allottee gets it; it does not pass on transfer or transmission. Actions: Disclose any incentive and its terms in the offer document.
+- 2025-12-19 Exchange circular: Rs 10,000 debt securities can now be zero coupon (NSE/CML/2025/14; BSE notice 20251222-26). Applies: Issuers privately placing debt with a face value of Rs 10,000.. Changes: Zero coupon instruments allowed at the Rs 10,000 face value, for placements listed from 18-12-2025. Actions: Consider for retail-focused placements.
+- 2025-12-02 Exchange circular: Trustees can use the Recovery Expense Fund without holders' prior consent (NSE/CML/2025/12; BSE notice 20251127-66). Applies: Debt issuers, debenture trustees and debenture holders.. Changes: After a default, trustees may draw REF for listed enforcement purposes without holders' prior approval. The exchange releases REF within five working days of the trustee's intimation. Actions: Note the new release timeline in default playbooks.
+- 2025-11-27 Exchange circular: Fixed timelines for information issuers send to debenture trustees (BSE notice 20251127-64). Applies: Issuers of secured listed debt and their trustees.. Changes: Quarterly security cover and related statements within 60 days of quarter end (75 days for the last quarter). Half-yearly guarantor net worth and annual guarantor financials within 60 days; three-yearly valuation and title search reports. Applies from the quarter ended 31-12-2025. Actions: Add the timelines to the compliance calendar.
+- 2025-11-21 Exchange circular: Regulation 50 intimations only in XBRL (NSE/CML/2025/09; BSE notice 20251121-72). Applies: Entities with listed non-convertible securities.. Changes: From 01-12-2025, prior intimations under reg 50 go only in XBRL; any other mode counts as non-submission. Actions: Switch reg 50 filings to the XBRL utility.

@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "default": "exchanges",
+  "maps": [
+    {
+      "id": "exchanges",
+      "title": "Stock Exchanges Regulation Map",
+      "hubLabel": "Stock exchanges",
+      "hubSub": "NSE · BSE",
+      "section": "exchanges",
+      "register": "../data/exch_register.json",
+      "graph": "../data/exch_graph.json",
+      "categoryGroup": "Who it applies to",
+      "layers": [
+        "ENT-EQ",
+        "ENT-DEBT",
+        "ENT-ARR",
+        "ENT-INV",
+        "ENT-LEND"
+      ],
+      "cumulativeLayers": false,
+      "historyTheme": "Superseded (history)",
+      "categoryCaveat": "Each instrument is tagged to the roles it names or most directly affects. The exchanges' rules and the listing agreement bind every listed entity. Check the provision before relying on a tag.",
+      "caveatShort": "Tags follow each instrument's scope. See the provision.",
+      "milestones": [
+        {
+          "date": "2018-10-03",
+          "label": "SECC Regulations"
+        },
+        {
+          "date": "2019-12-26",
+          "label": "Listing of commercial paper"
+        },
+        {
+          "date": "2025-11-14",
+          "label": "EBP guidelines revised"
+        },
+        {
+          "date": "2026-10-12",
+          "label": "All later NCDs to be listed"
+        }
+      ],
+      "updates": "../data/updates.json",
+      "glossary": "../data/glossary.json",
+      "definitions": "../data/definitions.json",
+      "fulltext": "../data/fulltext.json",
+      "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev"
+    }
+  ]
+}

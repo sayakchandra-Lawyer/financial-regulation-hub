@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "default": "ifsc",
+  "maps": [
+    {
+      "id": "ifsc",
+      "title": "IFSC Regulation Map",
+      "hubLabel": "IFSC",
+      "hubSub": "GIFT City",
+      "section": "ifsc",
+      "register": "../data/ifsc_register.json",
+      "graph": "../data/ifsc_graph.json",
+      "categoryGroup": "Who it applies to",
+      "layers": [
+        "ENT-IBU",
+        "ENT-FC",
+        "ENT-FME",
+        "ENT-CMI",
+        "ENT-INS"
+      ],
+      "cumulativeLayers": false,
+      "historyTheme": "Superseded (history)",
+      "categoryCaveat": "Each instrument is tagged to the entities it names or most directly affects. The IFSCA Act, the FEMA IFSC Regulations and the cross-cutting AML, complaints, cyber, fee and SEZ approval rules apply to everyone. Check the provision before relying on a tag.",
+      "caveatShort": "Tags follow each instrument's scope. See the provision.",
+      "milestones": [
+        {
+          "date": "2015-03-02",
+          "label": "FEMA IFSC Regulations"
+        },
+        {
+          "date": "2019-12-19",
+          "label": "IFSCA Act enacted"
+        },
+        {
+          "date": "2025-02-10",
+          "label": "Fund Management Regulations, 2025"
+        },
+        {
+          "date": "2025-04-11",
+          "label": "CMI Regulations, 2025"
+        }
+      ],
+      "updates": "../data/updates.json",
+      "glossary": "../data/glossary.json",
+      "definitions": "../data/definitions.json",
+      "fulltext": "../data/fulltext.json",
+      "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev"
+    }
+  ]
+}
