@@ -1,0 +1,497 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "window_from": "2026-01-01",
+  "window_to": "2026-11-26",
+  "entities": [
+   {
+    "key": "borrower",
+    "name": "Indian borrowers (ECB and trade credit)",
+    "profile": "Companies, LLPs and other non-individual residents raising ECB or trade credit, or borrowing from non-residents."
+   },
+   {
+    "key": "nbfc",
+    "name": "NBFCs and HFCs",
+    "profile": "RBI-regulated NBFCs and housing finance companies borrowing abroad or lending to non-residents."
+   },
+   {
+    "key": "lender",
+    "name": "Lenders to non-residents or abroad",
+    "profile": "Residents lending to non-residents in India or to their foreign entities, and non-resident lenders to Indian borrowers."
+   },
+   {
+    "key": "guarantee",
+    "name": "Parties to cross-border guarantees",
+    "profile": "Resident sureties, principal debtors and creditors in guarantees with a non-resident party."
+   },
+   {
+    "key": "adbank",
+    "name": "AD Category-I banks",
+    "profile": "Banks that act as designated AD for ECB, trade credit, guarantees and hedging."
+   }
+  ]
+ },
+ "updates": [
+  {
+   "id": "U-2026-10-23-COMP",
+   "date": "2026-10-23",
+   "kind": "Circular",
+   "title": "Compounding of certain FEMA contraventions delegated to RBI Regional Offices",
+   "ref": "A.P. (DIR Series) Circular No. 28/2026-27",
+   "instrument": "APDIR-26-28",
+   "effective": "2026-10-23",
+   "applies": "Applicants compounding contraventions of the Borrowing and Lending Regulations, the Guarantees Regulations or the overseas investment framework.",
+   "changes": [
+    "Borrowing and lending, and guarantee, contraventions are compounded by the Regional Office with jurisdiction over the applicant's registered office.",
+    "Overseas investment cases go to one of seven Regional Offices by the prefix of the unique identification number; mixed cases stay with the Central Office."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "Medium",
+     "text": "File compounding applications with the right Regional Office."
+    },
+    "nbfc": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "lender": {
+     "level": "Medium",
+     "text": "Same for overseas lending cases."
+    },
+    "guarantee": {
+     "level": "Medium",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Check which RBI office should receive any pending or planned compounding application."
+   ]
+  },
+  {
+   "id": "U-2026-10-12-NDDC",
+   "date": "2026-10-12",
+   "kind": "Circular",
+   "title": "Non-deliverable rupee derivatives for non-residents only for hedging; reserve on AD banks' own hedges",
+   "ref": "A.P. (DIR Series) Circular No. 27/2026-27",
+   "instrument": "APDIR-26-27",
+   "effective": "2026-10-12",
+   "applies": "AD banks with IFSC banking units, standalone primary dealers, and non-resident users.",
+   "changes": [
+    "AD banks may offer non-deliverable rupee derivatives to non-residents only for hedging.",
+    "A 20% Foreign Exchange Risk Reserve applies to AD banks' own rupee hedges where they buy foreign currency."
+   ],
+   "impact": {
+    "adbank": {
+     "level": "High",
+     "text": "Change product approval for non-resident NDDCs and fund the reserve on own hedges."
+    },
+    "lender": {
+     "level": "Low",
+     "text": "Non-resident lenders hedging rupee ECBs through NDDCs must show a hedging purpose."
+    }
+   },
+   "actions": [
+    "Update hedging documentation for non-resident users."
+   ]
+  },
+  {
+   "id": "U-2026-10-10-FERR",
+   "date": "2026-10-10",
+   "kind": "Circular",
+   "title": "Foreign Exchange Risk Reserve of 20% on rupee derivatives hedging current account payments",
+   "ref": "A.P. (DIR Series) Circular No. 26/2026-27",
+   "instrument": "APDIR-26-26",
+   "effective": "2026-10-10",
+   "applies": "AD banks and users buying foreign currency forward against rupees for current account transactions.",
+   "changes": [
+    "AD banks keep 20% of the rupee notional of each such contract above USD 2 million as cash with RBI until the contract ends.",
+    "Splitting deals to stay below the threshold is a violation."
+   ],
+   "impact": {
+    "adbank": {
+     "level": "High",
+     "text": "Daily reserve with RBI and CIMS reporting."
+    },
+    "borrower": {
+     "level": "Medium",
+     "text": "Hedging costs for import payments, including trade credit, may rise."
+    }
+   },
+   "actions": [
+    "Expect revised pricing on forward cover above USD 2 million."
+   ]
+  },
+  {
+   "id": "U-2026-10-10-RMID",
+   "date": "2026-10-10",
+   "kind": "Circular",
+   "title": "No rebooking of cancelled rupee derivatives; threshold without proof of exposure cut to USD 5 million",
+   "ref": "A.P. (DIR Series) Circular No. 25/2026-27",
+   "instrument": "APDIR-26-25",
+   "effective": "2026-10-10",
+   "applies": "Users hedging with AD banks, including ECB and trade credit borrowers, and AD banks.",
+   "changes": [
+    "Cancelled rupee derivatives may not be rebooked; rollovers on maturity are still allowed.",
+    "Positions without establishing the underlying exposure fall from USD 100 million to USD 5 million.",
+    "Users give an undertaking that the same exposure is not hedged with another AD bank."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "High",
+     "text": "Hedge decisions on ECB and trade credit can no longer be undone and redone freely."
+    },
+    "nbfc": {
+     "level": "Medium",
+     "text": "Same for foreign currency borrowing."
+    },
+    "adbank": {
+     "level": "High",
+     "text": "Collect undertakings and keep documents for two years."
+    }
+   },
+   "actions": [
+    "Review hedging policy for ECB and trade credit exposures.",
+    "Keep evidence of the underlying exposure ready."
+   ]
+  },
+  {
+   "id": "U-2026-09-08-WD",
+   "date": "2026-09-08",
+   "kind": "Circular",
+   "title": "Seven old FEMA circulars withdrawn, including ECB circulars on rupee bonds and rupee ECB",
+   "ref": "A.P. (DIR Series) Circular No. 21/2026-27",
+   "instrument": "MD-ECB",
+   "effective": "2026-09-08",
+   "applies": "AD banks and borrowers relying on older ECB circulars.",
+   "changes": [
+    "Withdrawn: ECB circulars on rupee denominated bonds overseas (2015), ECB in Indian rupees (2014), the infrastructure definition (2014), tax-free bonds bought by non-residents (2013), import of services (2013) and ECB by SIDBI (2012), plus one MTSS circular."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "Low",
+     "text": "Rely on the 2026 ECB framework, not the withdrawn circulars."
+    },
+    "adbank": {
+     "level": "Low",
+     "text": "Update internal references."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-06-29-DEP6",
+   "date": "2026-06-29",
+   "kind": "Amendment Regulations",
+   "title": "Deposit (Sixth Amendment) Regulations, 2026: SNRR accounts for any non-resident, including in IFSC",
+   "ref": "FEMA 5(R)(6)/2026-RB",
+   "instrument": "REG-DEP",
+   "effective": "2026-06-29",
+   "applies": "Non-residents doing rupee business in India, and AD banks.",
+   "changes": [
+    "Any person resident outside India may open an SNRR account with an AD bank in India or its branch outside India, including in an IFSC.",
+    "Transfers between NRO and NRE or SNRR accounts within the Remittance of Assets limit are allowed."
+   ],
+   "impact": {
+    "lender": {
+     "level": "Medium",
+     "text": "Non-resident lenders have a wider rupee account option."
+    },
+    "adbank": {
+     "level": "Medium",
+     "text": "Update account opening rules."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-06-19-SWAP",
+   "date": "2026-06-19",
+   "kind": "Circular",
+   "title": "Daily reporting of ECBs raised under RBI's swap facility",
+   "ref": "A.P. (DIR Series) Circular No. 15/2026-27",
+   "instrument": "MD-REP",
+   "effective": "2026-06-19",
+   "applies": "AD banks handling ECBs, FCNR(B) deposits and overseas foreign currency borrowings mobilised under RBI's June 2026 swap facility.",
+   "changes": [
+    "Daily data by 6 p.m., with a nil statement on days with no transactions."
+   ],
+   "impact": {
+    "adbank": {
+     "level": "Medium",
+     "text": "New daily return."
+    },
+    "borrower": {
+     "level": "Low",
+     "text": "Borrowers using the swap facility should expect information requests from their AD bank."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-04-20-RP",
+   "date": "2026-04-20",
+   "kind": "Circular",
+   "title": "AD banks barred from rupee derivatives with related parties, with exceptions",
+   "ref": "A.P. (DIR Series) Circular No. 7/2026-27",
+   "instrument": "MD-RISK",
+   "effective": "2026-04-20",
+   "applies": "AD banks and their related parties.",
+   "changes": [
+    "Replaces the 1 April 2026 instructions.",
+    "No rupee derivatives with related parties, except cancellation and rollover of existing contracts and back-to-back deals with unrelated non-resident users."
+   ],
+   "impact": {
+    "adbank": {
+     "level": "High",
+     "text": "Stop new related-party rupee derivatives."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-04-06-FPI",
+   "date": "2026-04-06",
+   "kind": "Circular",
+   "title": "FPI debt limits for 2026-27; corporate bond limit stays at 15%",
+   "ref": "A.P. (DIR Series) Circular No. 5/2026-27",
+   "instrument": "MD-NRDI",
+   "effective": "2026-04-01",
+   "applies": "Issuers of bonds and NCDs bought by FPIs, FPIs and custodians.",
+   "changes": [
+    "Corporate bond limit: Rs 9,36,113 crore for April-September 2026 and Rs 9,91,392 crore for October 2026-March 2027.",
+    "Voluntary Retention Route investments come under the General Route limits from 01-04-2026."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "Low",
+     "text": "More headroom for FPI subscription to corporate bonds."
+    },
+    "nbfc": {
+     "level": "Low",
+     "text": "Same for NBFC NCD issues."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-04-01-ODI",
+   "date": "2026-04-01",
+   "kind": "Circular",
+   "title": "Overseas investment references to RBI moved to seven Regional Offices",
+   "ref": "A.P. (DIR Series) Circular No. 2/2026-27",
+   "instrument": "MD-ODI",
+   "effective": "2026-04-01",
+   "applies": "Indian entities lending to or guaranteeing for foreign entities, and AD banks.",
+   "changes": [
+    "References go through PRAVAAH to the Regional Office set by the UIN prefix (Ahmedabad, Bengaluru, Mumbai, Kolkata, New Delhi, Hyderabad or Chennai)."
+   ],
+   "impact": {
+    "lender": {
+     "level": "Low",
+     "text": "References for overseas lending go to the mapped Regional Office."
+    },
+    "guarantee": {
+     "level": "Low",
+     "text": "Same for overseas guarantees."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-04-01-GRN",
+   "date": "2026-04-01",
+   "kind": "Circular",
+   "title": "Guarantee reporting forms GRN Issue, Modification and Invocation",
+   "ref": "A.P. (DIR Series) Circular No. 1/2026-27",
+   "instrument": "APDIR-26-01",
+   "effective": "2026-04-01",
+   "applies": "Residents who must report cross-border guarantees, and AD banks.",
+   "changes": [
+    "New GRN forms for issue, modification and invocation.",
+    "AD banks report on CIMS within 30 days of quarter-end and allot a Guarantee Transaction Number.",
+    "For the late fee, the amount is nil for issue and modification, and the surety's liability for invocation."
+   ],
+   "impact": {
+    "guarantee": {
+     "level": "High",
+     "text": "Report guarantees in the new forms within 15 days of quarter-end."
+    },
+    "borrower": {
+     "level": "Medium",
+     "text": "Applies to guarantees securing ECB or trade credit."
+    },
+    "nbfc": {
+     "level": "Medium",
+     "text": "Applies where the NBFC is a principal debtor or creditor."
+    },
+    "adbank": {
+     "level": "High",
+     "text": "CIMS reporting and transaction numbers."
+    }
+   },
+   "actions": [
+    "Set up a quarterly guarantee reporting calendar."
+   ]
+  },
+  {
+   "id": "U-2026-03-30-LSF",
+   "date": "2026-03-30",
+   "kind": "Circular",
+   "title": "Late submission fee for ECB returns: per return, paid to the Regional Office",
+   "ref": "A.P. (DIR Series) Circular No. 25/2025-26",
+   "instrument": "APDIR-25-25",
+   "effective": "2026-04-01",
+   "applies": "ECB borrowers and designated AD banks.",
+   "changes": [
+    "Form ECB 1 and Revised Form ECB 1 are returns that do not capture flows for the fee.",
+    "Each late Form ECB 2 is a separate instance.",
+    "AD banks forward returns within 7 calendar days and monitor payment; the fee is paid to the RBI Regional Office after RBI's email."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "Medium",
+     "text": "Late monthly returns now cost a fee each."
+    },
+    "nbfc": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "adbank": {
+     "level": "Medium",
+     "text": "Forward returns within 7 days and track fee payment."
+    }
+   },
+   "actions": [
+    "Diarise Form ECB 2 for the 7th calendar day of each month."
+   ]
+  },
+  {
+   "id": "U-2026-02-18-FORMS",
+   "date": "2026-02-18",
+   "kind": "Circular",
+   "title": "New Form ECB 1 and Form ECB 2",
+   "ref": "A.P. (DIR Series) Circular No. 23/2025-26",
+   "instrument": "APDIR-25-23",
+   "effective": "2026-02-18",
+   "applies": "ECB borrowers and designated AD banks.",
+   "changes": [
+    "Form ECB 1 and Revised Form ECB 1 replace Form ECB; a new Form ECB 2 replaces the old return."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "Medium",
+     "text": "Use the new forms for every ECB."
+    },
+    "nbfc": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "adbank": {
+     "level": "Medium",
+     "text": "Update processes."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-02-16-ECB",
+   "date": "2026-02-16",
+   "kind": "Amendment Regulations",
+   "title": "New ECB framework: Borrowing and Lending (First Amendment) Regulations, 2026",
+   "ref": "FEMA 3(R)(5)/2026-RB; A.P. (DIR Series) Circular No. 22/2025-26",
+   "instrument": "REG-BL-AMD-2026",
+   "effective": "2026-02-16",
+   "applies": "All resident non-individual borrowers, non-resident lenders and AD banks.",
+   "changes": [
+    "Any non-individual resident incorporated or registered under a Central or State Act may borrow; any non-resident is a recognised lender.",
+    "Limit: higher of USD 1 billion outstanding or 300% of net worth, not applicable to entities regulated by a financial sector regulator.",
+    "Minimum average maturity of 3 years (1-3 years for manufacturers up to USD 150 million); cost at market terms.",
+    "A single end-use list in regulation 3A; RBI-regulated entities may not issue guarantees for ECBs.",
+    "ECBs registered earlier continue on their old terms except for reporting."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "High",
+     "text": "Wider access, new limit and maturity tests, new end-use list."
+    },
+    "nbfc": {
+     "level": "High",
+     "text": "No borrowing limit for regulated NBFCs, but end-use and on-lending restrictions apply; no NBFC guarantees for ECB."
+    },
+    "lender": {
+     "level": "Medium",
+     "text": "Any non-resident may lend."
+    },
+    "adbank": {
+     "level": "High",
+     "text": "New framework, forms and monitoring."
+    }
+   },
+   "actions": [
+    "Recheck planned ECBs against the new limit, maturity and end-use rules.",
+    "Update loan documents for the security clause and NOC requirements."
+   ]
+  },
+  {
+   "id": "U-2026-02-06-VRR",
+   "date": "2026-02-06",
+   "kind": "Circular",
+   "title": "Voluntary Retention Route merged into the General Route from 01-04-2026",
+   "ref": "A.P. (DIR Series) Circular No. 21/2025-26",
+   "instrument": "APDIR-25-21",
+   "effective": "2026-04-01",
+   "applies": "FPIs, issuers and custodians.",
+   "changes": [
+    "FPI debt investment under the Voluntary Retention Route is governed by the General Route conditions from 01-04-2026."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "Low",
+     "text": "Issuers should note the single route for FPI debt."
+    },
+    "nbfc": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": []
+  },
+  {
+   "id": "U-2026-01-10-GUAR",
+   "date": "2026-01-10",
+   "kind": "Regulations",
+   "title": "Foreign Exchange Management (Guarantees) Regulations, 2026 in force",
+   "ref": "FEMA 8(R)/2026-RB; A.P. (DIR Series) Circular No. 19/2025-26",
+   "instrument": "REG-GUAR",
+   "effective": "2026-01-10",
+   "applies": "Residents who are sureties, principal debtors or creditors in guarantees with a non-resident party, and AD banks.",
+   "changes": [
+    "Replace the Guarantees Regulations, 2000.",
+    "A resident may be surety or principal debtor if the underlying transaction is permitted and both are eligible to lend and borrow under the B&L Regulations.",
+    "Quarterly reporting within 15 days of quarter-end, and a late submission fee.",
+    "19 older guarantee circulars withdrawn."
+   ],
+   "impact": {
+    "guarantee": {
+     "level": "High",
+     "text": "New eligibility test and reporting for every cross-border guarantee."
+    },
+    "borrower": {
+     "level": "High",
+     "text": "Guarantees securing ECB must meet the 2026 rules."
+    },
+    "nbfc": {
+     "level": "Medium",
+     "text": "RBI-regulated entities still may not guarantee ECBs."
+    },
+    "adbank": {
+     "level": "High",
+     "text": "New regime and reporting."
+    }
+   },
+   "actions": [
+    "Map all existing cross-border guarantees and report them on the new basis."
+   ]
+  }
+ ]
+}

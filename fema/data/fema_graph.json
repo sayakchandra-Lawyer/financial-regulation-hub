@@ -1,0 +1,2123 @@
+{
+ "meta": {
+  "title": "FEMA rules for lending and borrowing transactions",
+  "as_of": "2026-11-26",
+  "count": 36,
+  "in_force": 33,
+  "lenses": [
+   {
+    "id": "ENT-BOR",
+    "name": "Indian borrower (ECB and trade credit)"
+   },
+   {
+    "id": "ENT-NBFC",
+    "name": "NBFC / HFC"
+   },
+   {
+    "id": "ENT-LEND",
+    "name": "Lender to non-residents or abroad"
+   },
+   {
+    "id": "ENT-GUAR",
+    "name": "Party to a cross-border guarantee"
+   },
+   {
+    "id": "ENT-AD",
+    "name": "AD Category-I bank"
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "id": "ACT-FEMA",
+   "label": "FEMA, 1999",
+   "title": "The Foreign Exchange Management Act, 1999 (as amended up to the IFSCA Act, 2019)",
+   "group": "Statute, penalties and compounding",
+   "type": "Act",
+   "status": "In force",
+   "url": "https://indiacode.gov.in/items/a972a617-5989-4b2c-a84f-617792137a57",
+   "issue_date": "1999-12-29",
+   "updated_as_on": "2026-06-01"
+  },
+  {
+   "id": "RULES-COMP",
+   "label": "Compounding Rules 2024",
+   "title": "Foreign Exchange (Compounding Proceedings) Rules, 2024",
+   "group": "Statute, penalties and compounding",
+   "type": "Rules",
+   "status": "In force",
+   "url": "https://rbi.org.in/scripts/bs_viewcontent.aspx?Id=5082",
+   "issue_date": "2024-09-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MD-COMP",
+   "label": "Compounding Master Direction",
+   "title": "Master Direction – Compounding of Contraventions under FEMA, 1999 (dated 22-04-2025, updated 23-10-2026)",
+   "group": "Statute, penalties and compounding",
+   "type": "Master Direction",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12839",
+   "issue_date": "2025-04-22",
+   "updated_as_on": "2026-10-23"
+  },
+  {
+   "id": "APDIR-26-28",
+   "label": "Compounding by Regional Offices",
+   "title": "Delegation of Compounding of certain Contraventions under FEMA, 1999 to Regional Offices of the Reserve Bank",
+   "group": "Statute, penalties and compounding",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13745&Mode=0",
+   "issue_date": "2026-10-23",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-BL",
+   "label": "Borrowing and Lending Regulations",
+   "title": "Foreign Exchange Management (Borrowing and Lending) Regulations, 2018 (amended up to 16-02-2026)",
+   "group": "External commercial borrowing (ECB)",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11441&Mode=0",
+   "issue_date": "2018-12-17",
+   "updated_as_on": "2026-02-16"
+  },
+  {
+   "id": "REG-BL-AMD-2026",
+   "label": "ECB framework 2026 (B&L First Amendment)",
+   "title": "Foreign Exchange Management (Borrowing and Lending) (First Amendment) Regulations, 2026",
+   "group": "External commercial borrowing (ECB)",
+   "type": "Amendment regulation",
+   "status": "In force (published in the Gazette on 16-02-2026)",
+   "url": "",
+   "issue_date": "2026-02-09",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-BL-AMD-2025",
+   "label": "B&L Amendment 2025 (rupee lending to neighbours)",
+   "title": "Foreign Exchange Management (Borrowing and Lending) (Amendment) Regulations, 2025",
+   "group": "Rupee borrowing and lending with non-residents",
+   "type": "Amendment regulation",
+   "status": "In force (published in the Gazette on 09-10-2025)",
+   "url": "",
+   "issue_date": "2025-10-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MD-ECB",
+   "label": "ECB and Trade Credit Master Direction",
+   "title": "Master Direction – External Commercial Borrowings, Trade Credits and Structured Obligations (updated 08-09-2026)",
+   "group": "Trade credit",
+   "type": "Master Direction",
+   "status": "In force (ECB part now in the Regulations; trade credit part continues)",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11510",
+   "issue_date": "2019-03-26",
+   "updated_as_on": "2026-09-08"
+  },
+  {
+   "id": "APDIR-25-22",
+   "label": "ECB framework circular (Feb 2026)",
+   "title": "Foreign Exchange Management (Borrowing and Lending) (First Amendment) Regulations, 2026",
+   "group": "External commercial borrowing (ECB)",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13305&Mode=0",
+   "issue_date": "2026-02-16",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MD-INRBL",
+   "label": "Rupee borrowing and lending with NRIs",
+   "title": "Master Direction – Borrowing and Lending transactions in Indian Rupee between Persons Resident in India and Non-Resident Indians / Persons of Indian Origin (updated 08-09-2026)",
+   "group": "Rupee borrowing and lending with non-residents",
+   "type": "Master Direction",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10191",
+   "issue_date": "2016-01-01",
+   "updated_as_on": "2026-09-08"
+  },
+  {
+   "id": "REG-GUAR",
+   "label": "Guarantees Regulations 2026",
+   "title": "Foreign Exchange Management (Guarantees) Regulations, 2026",
+   "group": "Guarantees",
+   "type": "Regulation",
+   "status": "In force (from 10-01-2026)",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13269&Mode=0",
+   "issue_date": "2026-01-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "APDIR-25-19",
+   "label": "Guarantees Regulations circular (Jan 2026)",
+   "title": "Foreign Exchange Management (Guarantees) Regulations, 2026",
+   "group": "Guarantees",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13268&Mode=0",
+   "issue_date": "2026-01-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "APDIR-26-01",
+   "label": "Guarantee reporting forms",
+   "title": "Reporting under FEMA, 1999 – Returns pertaining to Foreign Exchange Management (Guarantees) Regulations, 2026",
+   "group": "Reporting and late submission fees",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13358&Mode=0",
+   "issue_date": "2026-04-01",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-OI",
+   "label": "Overseas Investment Rules",
+   "title": "Foreign Exchange Management (Overseas Investment) Rules, 2022",
+   "group": "Lending abroad and overseas investment debt",
+   "type": "Rules",
+   "status": "In force",
+   "url": "https://rbi.org.in/scripts/bs_viewcontent.aspx?Id=5087",
+   "issue_date": "2022-08-22",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-OI",
+   "label": "Overseas Investment Regulations",
+   "title": "Foreign Exchange Management (Overseas Investment) Regulations, 2022",
+   "group": "Lending abroad and overseas investment debt",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12380&Mode=0",
+   "issue_date": "2022-08-22",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MD-ODI",
+   "label": "Overseas Investment Master Direction",
+   "title": "Master Direction – Overseas Investment (updated 01-04-2026)",
+   "group": "Lending abroad and overseas investment debt",
+   "type": "Master Direction",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12710",
+   "issue_date": "2024-07-24",
+   "updated_as_on": "2026-04-01"
+  },
+  {
+   "id": "REG-DI",
+   "label": "Debt Instruments Regulations",
+   "title": "Foreign Exchange Management (Debt Instruments) Regulations, 2019 (amended up to 01-10-2025)",
+   "group": "Debt investment by non-residents",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12099&Mode=0",
+   "issue_date": "2019-10-17",
+   "updated_as_on": "2025-10-01"
+  },
+  {
+   "id": "MD-NRDI",
+   "label": "Non-resident Investment in Debt Instruments Directions",
+   "title": "Master Direction – Reserve Bank of India (Non-resident Investment in Debt Instruments) Directions, 2025 (updated 05-06-2026)",
+   "group": "Debt investment by non-residents",
+   "type": "Master Direction",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12765",
+   "issue_date": "2025-01-07",
+   "updated_as_on": "2026-06-05"
+  },
+  {
+   "id": "APDIR-25-21",
+   "label": "VRR merged into General Route",
+   "title": "Voluntary Retention Route – Imparting predictability and increasing ease of doing business",
+   "group": "Debt investment by non-residents",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13289&Mode=0",
+   "issue_date": "2026-02-06",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "RULES-NDI",
+   "label": "Non-debt Instruments Rules",
+   "title": "Foreign Exchange Management (Non-debt Instruments) Rules, 2019 (updated up to 02-09-2026)",
+   "group": "Conversion, pledge and foreign investment",
+   "type": "Rules",
+   "status": "In force",
+   "url": "https://rbi.org.in/scripts/bs_viewcontent.aspx?Id=5083",
+   "issue_date": "2019-10-17",
+   "updated_as_on": "2026-09-02"
+  },
+  {
+   "id": "MD-FDI",
+   "label": "Foreign Investment Master Direction",
+   "title": "Master Direction – Foreign Investment in India (updated up to 15-06-2026)",
+   "group": "Conversion, pledge and foreign investment",
+   "type": "Master Direction",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11200",
+   "issue_date": "2018-01-04",
+   "updated_as_on": "2026-06-15"
+  },
+  {
+   "id": "REG-MOP",
+   "label": "Mode of Payment and Reporting (NDI) Regulations",
+   "title": "Foreign Exchange Management (Mode of Payment and Reporting of Non-Debt Instruments) Regulations, 2019 (amended up to 13-06-2026)",
+   "group": "Conversion, pledge and foreign investment",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11723&Mode=0",
+   "issue_date": "2019-10-17",
+   "updated_as_on": "2026-06-13"
+  },
+  {
+   "id": "REG-DEP",
+   "label": "Deposit Regulations",
+   "title": "Foreign Exchange Management (Deposit) Regulations, 2016 (amended up to 29-06-2026)",
+   "group": "Deposits and accounts",
+   "type": "Regulation",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10325&Mode=0",
+   "issue_date": "2016-04-01",
+   "updated_as_on": "2026-06-29"
+  },
+  {
+   "id": "MD-DEP",
+   "label": "Deposits and Accounts Master Direction",
+   "title": "Master Direction – Deposits and Accounts (updated 02-09-2026)",
+   "group": "Deposits and accounts",
+   "type": "Master Direction",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10198",
+   "issue_date": "2016-01-01",
+   "updated_as_on": "2026-09-02"
+  },
+  {
+   "id": "MD-LRS",
+   "label": "Liberalised Remittance Scheme",
+   "title": "Master Direction – Liberalised Remittance Scheme (LRS) (updated 06-09-2024)",
+   "group": "Rupee borrowing and lending with non-residents",
+   "type": "Master Direction",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10192",
+   "issue_date": "2016-01-01",
+   "updated_as_on": "2024-09-06"
+  },
+  {
+   "id": "MD-REP",
+   "label": "Reporting Master Direction",
+   "title": "Master Direction – Reporting under Foreign Exchange Management Act, 1999 (updated 01-10-2026)",
+   "group": "Reporting and late submission fees",
+   "type": "Master Direction",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10202",
+   "issue_date": "2016-01-01",
+   "updated_as_on": "2026-10-01"
+  },
+  {
+   "id": "APDIR-25-23",
+   "label": "New ECB forms",
+   "title": "Reporting under FEMA, 1999 – Returns pertaining to External Commercial Borrowing (ECB)",
+   "group": "Reporting and late submission fees",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13308&Mode=0",
+   "issue_date": "2026-02-18",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "APDIR-25-25",
+   "label": "ECB late submission fee changes",
+   "title": "Reporting under FEMA, 1999 – Returns pertaining to External Commercial Borrowing (ECB)",
+   "group": "Reporting and late submission fees",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13345&Mode=0",
+   "issue_date": "2026-03-30",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MD-RISK",
+   "label": "Risk Management and Inter-Bank Dealings",
+   "title": "Master Direction – Risk Management and Inter-Bank Dealings (updated 01-10-2026)",
+   "group": "Hedging and derivatives",
+   "type": "Master Direction",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10485",
+   "issue_date": "2016-07-05",
+   "updated_as_on": "2026-10-01"
+  },
+  {
+   "id": "APDIR-26-25",
+   "label": "Rebooking and threshold changes (Oct 2026)",
+   "title": "Risk Management and Inter-Bank Dealings",
+   "group": "Hedging and derivatives",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13737&Mode=0",
+   "issue_date": "2026-10-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "APDIR-26-26",
+   "label": "Foreign Exchange Risk Reserve",
+   "title": "Risk Management and Inter-Bank Dealings – Foreign Exchange Risk Reserve",
+   "group": "Hedging and derivatives",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13738&Mode=0",
+   "issue_date": "2026-10-10",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "APDIR-26-27",
+   "label": "NDDCs for hedging only; reserve on own hedges",
+   "title": "Risk Management and Inter-Bank Dealings",
+   "group": "Hedging and derivatives",
+   "type": "Circular",
+   "status": "In force",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13739&Mode=0",
+   "issue_date": "2026-10-12",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-FXD",
+   "label": "Foreign Exchange Derivative Contracts Regulations",
+   "title": "Foreign Exchange Management (Foreign Exchange Derivative Contracts) Regulations, 2000",
+   "group": "Hedging and derivatives",
+   "type": "Regulation",
+   "status": "In force (as amended)",
+   "url": "https://www.rbi.org.in/Scripts/BS_FemaNotifications.aspx?Id=179",
+   "issue_date": "2000-05-03",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "REG-GUAR-OLD",
+   "label": "Guarantees Regulations 2000",
+   "title": "Foreign Exchange Management (Guarantees) Regulations, 2000",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded on 10-01-2026",
+   "url": "",
+   "issue_date": "2000-05-03",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "MD-ECB-OLD",
+   "label": "Earlier ECB framework (before 16-02-2026)",
+   "title": "ECB framework in the Master Direction and old Schedule I (FCY and INR tracks), replaced on 16-02-2026",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Replaced on 16-02-2026 (continues for ECBs registered earlier, except reporting)",
+   "url": "",
+   "issue_date": "2019-01-16",
+   "updated_as_on": "2026-02-16"
+  },
+  {
+   "id": "RULES-COMP-OLD",
+   "label": "Compounding Rules 2000",
+   "title": "Foreign Exchange (Compounding Proceedings) Rules, 2000",
+   "group": "Superseded (history)",
+   "type": "Superseded instrument",
+   "status": "Superseded on 12-09-2024",
+   "url": "",
+   "issue_date": "2000-05-03",
+   "updated_as_on": "not stated"
+  },
+  {
+   "id": "ENT-BOR",
+   "label": "Indian borrower (ECB and trade credit)",
+   "title": "Indian borrower (ECB and trade credit)",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-NBFC",
+   "label": "NBFC / HFC",
+   "title": "NBFC / HFC",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-LEND",
+   "label": "Lender to non-residents or abroad",
+   "title": "Lender to non-residents or abroad",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-GUAR",
+   "label": "Party to a cross-border guarantee",
+   "title": "Party to a cross-border guarantee",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  },
+  {
+   "id": "ENT-AD",
+   "label": "AD Category-I bank",
+   "title": "AD Category-I bank",
+   "group": "Who it applies to",
+   "type": "Entity",
+   "status": "",
+   "url": "",
+   "issue_date": "",
+   "updated_as_on": ""
+  }
+ ],
+ "edges": [
+  {
+   "source": "ACT-FEMA",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Every person resident in India, and every person resident outside India dealing in foreign exchange, foreign securities or Indian assets covered by the Act; Authorised persons, including authorised dealer banks"
+  },
+  {
+   "source": "ACT-FEMA",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Every person resident in India, and every person resident outside India dealing in foreign exchange, foreign securities or Indian assets covered by the Act; Authorised persons, including authorised dealer banks"
+  },
+  {
+   "source": "ACT-FEMA",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Every person resident in India, and every person resident outside India dealing in foreign exchange, foreign securities or Indian assets covered by the Act; Authorised persons, including authorised dealer banks"
+  },
+  {
+   "source": "ACT-FEMA",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Every person resident in India, and every person resident outside India dealing in foreign exchange, foreign securities or Indian assets covered by the Act; Authorised persons, including authorised dealer banks"
+  },
+  {
+   "source": "ACT-FEMA",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Every person resident in India, and every person resident outside India dealing in foreign exchange, foreign securities or Indian assets covered by the Act; Authorised persons, including authorised dealer banks"
+  },
+  {
+   "source": "ACT-FEMA",
+   "target": "RULES-COMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-FEMA",
+   "target": "MD-COMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-FEMA",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "ACT-FEMA",
+   "target": "REG-GUAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Any person who has contravened FEMA (other than s. 3(a)) and applies to compound the contravention"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Any person who has contravened FEMA (other than s. 3(a)) and applies to compound the contravention"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Any person who has contravened FEMA (other than s. 3(a)) and applies to compound the contravention"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Any person who has contravened FEMA (other than s. 3(a)) and applies to compound the contravention"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Any person who has contravened FEMA (other than s. 3(a)) and applies to compound the contravention"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "ACT-FEMA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "MD-COMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "APDIR-26-28",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "RULES-COMP-OLD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-COMP",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Persons applying to RBI to compound FEMA contraventions, and the RBI offices that handle them"
+  },
+  {
+   "source": "MD-COMP",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Persons applying to RBI to compound FEMA contraventions, and the RBI offices that handle them"
+  },
+  {
+   "source": "MD-COMP",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Persons applying to RBI to compound FEMA contraventions, and the RBI offices that handle them"
+  },
+  {
+   "source": "MD-COMP",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Persons applying to RBI to compound FEMA contraventions, and the RBI offices that handle them"
+  },
+  {
+   "source": "MD-COMP",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Persons applying to RBI to compound FEMA contraventions, and the RBI offices that handle them"
+  },
+  {
+   "source": "MD-COMP",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "MD-COMP",
+   "target": "RULES-COMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-COMP",
+   "target": "APDIR-26-28",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-COMP",
+   "target": "ACT-FEMA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Applicants compounding contraventions of the Borrowing and Lending Regulations, the Guarantees Regulations or the overseas investment framework"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Applicants compounding contraventions of the Borrowing and Lending Regulations, the Guarantees Regulations or the overseas investment framework"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Applicants compounding contraventions of the Borrowing and Lending Regulations, the Guarantees Regulations or the overseas investment framework"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Applicants compounding contraventions of the Borrowing and Lending Regulations, the Guarantees Regulations or the overseas investment framework"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Applicants compounding contraventions of the Borrowing and Lending Regulations, the Guarantees Regulations or the overseas investment framework"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "MD-COMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "RULES-COMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "REG-GUAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "MD-ODI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Persons resident in India borrowing or lending in foreign exchange, or borrowing in rupees from, or lending in rupees to, persons resident outside India; Authorised dealer banks, NBFCs and housing finance institutions lending to non-residents"
+  },
+  {
+   "source": "REG-BL",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Persons resident in India borrowing or lending in foreign exchange, or borrowing in rupees from, or lending in rupees to, persons resident outside India; Authorised dealer banks, NBFCs and housing finance institutions lending to non-residents"
+  },
+  {
+   "source": "REG-BL",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Persons resident in India borrowing or lending in foreign exchange, or borrowing in rupees from, or lending in rupees to, persons resident outside India; Authorised dealer banks, NBFCs and housing finance institutions lending to non-residents"
+  },
+  {
+   "source": "REG-BL",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Persons resident in India borrowing or lending in foreign exchange, or borrowing in rupees from, or lending in rupees to, persons resident outside India; Authorised dealer banks, NBFCs and housing finance institutions lending to non-residents"
+  },
+  {
+   "source": "REG-BL",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Persons resident in India borrowing or lending in foreign exchange, or borrowing in rupees from, or lending in rupees to, persons resident outside India; Authorised dealer banks, NBFCs and housing finance institutions lending to non-residents"
+  },
+  {
+   "source": "REG-BL",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "REG-BL",
+   "target": "ACT-FEMA",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL",
+   "target": "MD-ECB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL",
+   "target": "MD-INRBL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL",
+   "target": "REG-GUAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL",
+   "target": "APDIR-25-22",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL",
+   "target": "REG-BL-AMD-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL",
+   "target": "REG-BL-AMD-2025",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL",
+   "target": "MD-REP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Any non-individual resident incorporated or registered under a Central or State Act that may borrow under that Act; Non-resident lenders, foreign branches of RBI-regulated lenders and financial institutions in IFSC; Designated AD Category-I banks"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Any non-individual resident incorporated or registered under a Central or State Act that may borrow under that Act; Non-resident lenders, foreign branches of RBI-regulated lenders and financial institutions in IFSC; Designated AD Category-I banks"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Any non-individual resident incorporated or registered under a Central or State Act that may borrow under that Act; Non-resident lenders, foreign branches of RBI-regulated lenders and financial institutions in IFSC; Designated AD Category-I banks"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Any non-individual resident incorporated or registered under a Central or State Act that may borrow under that Act; Non-resident lenders, foreign branches of RBI-regulated lenders and financial institutions in IFSC; Designated AD Category-I banks"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "MD-ECB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "APDIR-25-22",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "APDIR-25-23",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "MD-ECB-OLD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-BL-AMD-2025",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "AD Category-I banks and their overseas branches lending rupees to persons resident in Bhutan, Nepal and Sri Lanka"
+  },
+  {
+   "source": "REG-BL-AMD-2025",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "REG-BL-AMD-2025",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-ECB",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Resident importers raising trade credit; AD Category-I banks handling ECB and trade credit"
+  },
+  {
+   "source": "MD-ECB",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Resident importers raising trade credit; AD Category-I banks handling ECB and trade credit"
+  },
+  {
+   "source": "MD-ECB",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Resident importers raising trade credit; AD Category-I banks handling ECB and trade credit"
+  },
+  {
+   "source": "MD-ECB",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "MD-ECB",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-ECB",
+   "target": "REG-GUAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-ECB",
+   "target": "MD-REP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-ECB",
+   "target": "APDIR-25-22",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-ECB",
+   "target": "APDIR-25-19",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-22",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "AD Category-I banks and ECB borrowers"
+  },
+  {
+   "source": "APDIR-25-22",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "AD Category-I banks and ECB borrowers"
+  },
+  {
+   "source": "APDIR-25-22",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "AD Category-I banks and ECB borrowers"
+  },
+  {
+   "source": "APDIR-25-22",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "APDIR-25-22",
+   "target": "REG-BL-AMD-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-22",
+   "target": "MD-ECB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-22",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-INRBL",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "AD banks, registered NBFCs and housing finance institutions lending rupees to NRIs or persons of Indian origin; Resident individuals and bodies corporate lending to NRI relatives or employees"
+  },
+  {
+   "source": "MD-INRBL",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "AD banks, registered NBFCs and housing finance institutions lending rupees to NRIs or persons of Indian origin; Resident individuals and bodies corporate lending to NRI relatives or employees"
+  },
+  {
+   "source": "MD-INRBL",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "AD banks, registered NBFCs and housing finance institutions lending rupees to NRIs or persons of Indian origin; Resident individuals and bodies corporate lending to NRI relatives or employees"
+  },
+  {
+   "source": "MD-INRBL",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "MD-INRBL",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-INRBL",
+   "target": "MD-LRS",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-INRBL",
+   "target": "MD-DEP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Any person resident in India who is a surety, principal debtor or creditor in a guarantee where any other party is resident outside India; AD banks issuing guarantees backed by non-resident counter-guarantees or collateral"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Any person resident in India who is a surety, principal debtor or creditor in a guarantee where any other party is resident outside India; AD banks issuing guarantees backed by non-resident counter-guarantees or collateral"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Any person resident in India who is a surety, principal debtor or creditor in a guarantee where any other party is resident outside India; AD banks issuing guarantees backed by non-resident counter-guarantees or collateral"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Any person resident in India who is a surety, principal debtor or creditor in a guarantee where any other party is resident outside India; AD banks issuing guarantees backed by non-resident counter-guarantees or collateral"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Any person resident in India who is a surety, principal debtor or creditor in a guarantee where any other party is resident outside India; AD banks issuing guarantees backed by non-resident counter-guarantees or collateral"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "APDIR-25-19",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "APDIR-26-01",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "REG-OI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "MD-COMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "REG-GUAR-OLD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-19",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "AD Category-I banks and their customers who are parties to cross-border guarantees"
+  },
+  {
+   "source": "APDIR-25-19",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "AD Category-I banks and their customers who are parties to cross-border guarantees"
+  },
+  {
+   "source": "APDIR-25-19",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "AD Category-I banks and their customers who are parties to cross-border guarantees"
+  },
+  {
+   "source": "APDIR-25-19",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "AD Category-I banks and their customers who are parties to cross-border guarantees"
+  },
+  {
+   "source": "APDIR-25-19",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "APDIR-25-19",
+   "target": "REG-GUAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-19",
+   "target": "MD-ECB",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-19",
+   "target": "APDIR-26-01",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-01",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Residents who must report guarantees under the 2026 Regulations, and AD Category-I banks"
+  },
+  {
+   "source": "APDIR-26-01",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Residents who must report guarantees under the 2026 Regulations, and AD Category-I banks"
+  },
+  {
+   "source": "APDIR-26-01",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Residents who must report guarantees under the 2026 Regulations, and AD Category-I banks"
+  },
+  {
+   "source": "APDIR-26-01",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Residents who must report guarantees under the 2026 Regulations, and AD Category-I banks"
+  },
+  {
+   "source": "APDIR-26-01",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "APDIR-26-01",
+   "target": "REG-GUAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-01",
+   "target": "MD-REP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-OI",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Indian entities and resident individuals making overseas investment, including financial commitment by debt or guarantee"
+  },
+  {
+   "source": "RULES-OI",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Indian entities and resident individuals making overseas investment, including financial commitment by debt or guarantee"
+  },
+  {
+   "source": "RULES-OI",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Indian entities and resident individuals making overseas investment, including financial commitment by debt or guarantee"
+  },
+  {
+   "source": "RULES-OI",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Indian entities and resident individuals making overseas investment, including financial commitment by debt or guarantee"
+  },
+  {
+   "source": "RULES-OI",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "RULES-OI",
+   "target": "REG-OI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-OI",
+   "target": "MD-ODI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-OI",
+   "target": "REG-GUAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-OI",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Indian entities lending to, or guaranteeing the obligations of, their foreign entities; AD banks that report and monitor these transactions"
+  },
+  {
+   "source": "REG-OI",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Indian entities lending to, or guaranteeing the obligations of, their foreign entities; AD banks that report and monitor these transactions"
+  },
+  {
+   "source": "REG-OI",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Indian entities lending to, or guaranteeing the obligations of, their foreign entities; AD banks that report and monitor these transactions"
+  },
+  {
+   "source": "REG-OI",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Indian entities lending to, or guaranteeing the obligations of, their foreign entities; AD banks that report and monitor these transactions"
+  },
+  {
+   "source": "REG-OI",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Indian entities lending to, or guaranteeing the obligations of, their foreign entities; AD banks that report and monitor these transactions"
+  },
+  {
+   "source": "REG-OI",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "REG-OI",
+   "target": "RULES-OI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-OI",
+   "target": "MD-ODI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-OI",
+   "target": "REG-GUAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-OI",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-ODI",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Indian entities and resident individuals making overseas investment and lending or guaranteeing abroad; AD Category-I banks"
+  },
+  {
+   "source": "MD-ODI",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Indian entities and resident individuals making overseas investment and lending or guaranteeing abroad; AD Category-I banks"
+  },
+  {
+   "source": "MD-ODI",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Indian entities and resident individuals making overseas investment and lending or guaranteeing abroad; AD Category-I banks"
+  },
+  {
+   "source": "MD-ODI",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Indian entities and resident individuals making overseas investment and lending or guaranteeing abroad; AD Category-I banks"
+  },
+  {
+   "source": "MD-ODI",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Indian entities and resident individuals making overseas investment and lending or guaranteeing abroad; AD Category-I banks"
+  },
+  {
+   "source": "MD-ODI",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "MD-ODI",
+   "target": "RULES-OI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-ODI",
+   "target": "REG-OI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-ODI",
+   "target": "APDIR-26-28",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-DI",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Indian companies and NBFCs issuing non-convertible debentures, commercial paper and other debt to non-residents; FPIs, NRIs, OCIs and other non-resident investors in Indian debt"
+  },
+  {
+   "source": "REG-DI",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Indian companies and NBFCs issuing non-convertible debentures, commercial paper and other debt to non-residents; FPIs, NRIs, OCIs and other non-resident investors in Indian debt"
+  },
+  {
+   "source": "REG-DI",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Indian companies and NBFCs issuing non-convertible debentures, commercial paper and other debt to non-residents; FPIs, NRIs, OCIs and other non-resident investors in Indian debt"
+  },
+  {
+   "source": "REG-DI",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "REG-DI",
+   "target": "MD-NRDI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-DI",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-DI",
+   "target": "REG-DEP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-NRDI",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Issuers of corporate bonds, NCDs and commercial paper bought by FPIs; FPIs, custodians and AD banks"
+  },
+  {
+   "source": "MD-NRDI",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Issuers of corporate bonds, NCDs and commercial paper bought by FPIs; FPIs, custodians and AD banks"
+  },
+  {
+   "source": "MD-NRDI",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Issuers of corporate bonds, NCDs and commercial paper bought by FPIs; FPIs, custodians and AD banks"
+  },
+  {
+   "source": "MD-NRDI",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "MD-NRDI",
+   "target": "REG-DI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-NRDI",
+   "target": "APDIR-25-21",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-21",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "FPIs investing in debt under the Voluntary Retention Route, issuers and custodians"
+  },
+  {
+   "source": "APDIR-25-21",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "FPIs investing in debt under the Voluntary Retention Route, issuers and custodians"
+  },
+  {
+   "source": "APDIR-25-21",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "FPIs investing in debt under the Voluntary Retention Route, issuers and custodians"
+  },
+  {
+   "source": "APDIR-25-21",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "APDIR-25-21",
+   "target": "MD-NRDI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-NDI",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Indian companies receiving foreign investment, including by conversion of ECB; Promoters pledging shares to secure borrowing; NBFCs taking pledges of shares held by non-residents"
+  },
+  {
+   "source": "RULES-NDI",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Indian companies receiving foreign investment, including by conversion of ECB; Promoters pledging shares to secure borrowing; NBFCs taking pledges of shares held by non-residents"
+  },
+  {
+   "source": "RULES-NDI",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Indian companies receiving foreign investment, including by conversion of ECB; Promoters pledging shares to secure borrowing; NBFCs taking pledges of shares held by non-residents"
+  },
+  {
+   "source": "RULES-NDI",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "RULES-NDI",
+   "target": "MD-FDI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-NDI",
+   "target": "REG-MOP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-NDI",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-FDI",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Indian companies receiving foreign investment, AD banks, and NBFCs that take pledges of shares"
+  },
+  {
+   "source": "MD-FDI",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Indian companies receiving foreign investment, AD banks, and NBFCs that take pledges of shares"
+  },
+  {
+   "source": "MD-FDI",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "MD-FDI",
+   "target": "RULES-NDI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-FDI",
+   "target": "REG-MOP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-FDI",
+   "target": "MD-REP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-MOP",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Indian companies issuing equity instruments to non-residents, including on conversion of ECB; Residents transferring equity instruments to or from non-residents"
+  },
+  {
+   "source": "REG-MOP",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "REG-MOP",
+   "target": "RULES-NDI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-MOP",
+   "target": "MD-FDI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-DEP",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Banks and companies (including NBFCs) accepting deposits from non-residents; Non-residents holding NRE, NRO, FCNR(B) and SNRR accounts"
+  },
+  {
+   "source": "REG-DEP",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Banks and companies (including NBFCs) accepting deposits from non-residents; Non-residents holding NRE, NRO, FCNR(B) and SNRR accounts"
+  },
+  {
+   "source": "REG-DEP",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "REG-DEP",
+   "target": "MD-DEP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-DEP",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-DEP",
+   "target": "REG-DI",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-DEP",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "AD banks, and companies and NBFCs accepting deposits from non-residents"
+  },
+  {
+   "source": "MD-DEP",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "AD banks, and companies and NBFCs accepting deposits from non-residents"
+  },
+  {
+   "source": "MD-DEP",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "MD-DEP",
+   "target": "REG-DEP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-DEP",
+   "target": "MD-INRBL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-LRS",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Resident individuals remitting or lending within the LRS limit, and AD banks"
+  },
+  {
+   "source": "MD-LRS",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "MD-LRS",
+   "target": "MD-INRBL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-LRS",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-REP",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Every person who must file a FEMA return, and the AD banks that forward returns to RBI"
+  },
+  {
+   "source": "MD-REP",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Every person who must file a FEMA return, and the AD banks that forward returns to RBI"
+  },
+  {
+   "source": "MD-REP",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "Every person who must file a FEMA return, and the AD banks that forward returns to RBI"
+  },
+  {
+   "source": "MD-REP",
+   "target": "ENT-GUAR",
+   "relation": "applies_to",
+   "basis": "Every person who must file a FEMA return, and the AD banks that forward returns to RBI"
+  },
+  {
+   "source": "MD-REP",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Every person who must file a FEMA return, and the AD banks that forward returns to RBI"
+  },
+  {
+   "source": "MD-REP",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "MD-REP",
+   "target": "APDIR-25-23",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-REP",
+   "target": "APDIR-25-25",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-REP",
+   "target": "APDIR-26-01",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-REP",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-REP",
+   "target": "REG-GUAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-23",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "ECB borrowers and designated AD Category-I banks"
+  },
+  {
+   "source": "APDIR-25-23",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "ECB borrowers and designated AD Category-I banks"
+  },
+  {
+   "source": "APDIR-25-23",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "ECB borrowers and designated AD Category-I banks"
+  },
+  {
+   "source": "APDIR-25-23",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "APDIR-25-23",
+   "target": "MD-REP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-23",
+   "target": "REG-BL-AMD-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-23",
+   "target": "APDIR-25-25",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-25",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "ECB borrowers and designated AD Category-I banks"
+  },
+  {
+   "source": "APDIR-25-25",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "ECB borrowers and designated AD Category-I banks"
+  },
+  {
+   "source": "APDIR-25-25",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "ECB borrowers and designated AD Category-I banks"
+  },
+  {
+   "source": "APDIR-25-25",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "APDIR-25-25",
+   "target": "MD-REP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-25",
+   "target": "APDIR-25-23",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-25-25",
+   "target": "REG-BL",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-RISK",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Users hedging foreign currency borrowing and other exposures with AD banks; AD banks offering foreign exchange derivatives"
+  },
+  {
+   "source": "MD-RISK",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Users hedging foreign currency borrowing and other exposures with AD banks; AD banks offering foreign exchange derivatives"
+  },
+  {
+   "source": "MD-RISK",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Users hedging foreign currency borrowing and other exposures with AD banks; AD banks offering foreign exchange derivatives"
+  },
+  {
+   "source": "MD-RISK",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "MD-RISK",
+   "target": "APDIR-26-25",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-RISK",
+   "target": "APDIR-26-26",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-RISK",
+   "target": "APDIR-26-27",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-RISK",
+   "target": "REG-FXD",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-25",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Users hedging with AD banks, and AD banks"
+  },
+  {
+   "source": "APDIR-26-25",
+   "target": "ENT-NBFC",
+   "relation": "applies_to",
+   "basis": "Users hedging with AD banks, and AD banks"
+  },
+  {
+   "source": "APDIR-26-25",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Users hedging with AD banks, and AD banks"
+  },
+  {
+   "source": "APDIR-26-25",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "APDIR-26-25",
+   "target": "MD-RISK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-26",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "AD banks offering rupee derivatives to users hedging current account transactions"
+  },
+  {
+   "source": "APDIR-26-26",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "AD banks offering rupee derivatives to users hedging current account transactions"
+  },
+  {
+   "source": "APDIR-26-26",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "APDIR-26-26",
+   "target": "MD-RISK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-26",
+   "target": "APDIR-26-27",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-27",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "AD banks with IFSC banking units, standalone primary dealers, and non-resident users of non-deliverable rupee derivatives"
+  },
+  {
+   "source": "APDIR-26-27",
+   "target": "ENT-LEND",
+   "relation": "applies_to",
+   "basis": "AD banks with IFSC banking units, standalone primary dealers, and non-resident users of non-deliverable rupee derivatives"
+  },
+  {
+   "source": "APDIR-26-27",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "APDIR-26-27",
+   "target": "MD-RISK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "APDIR-26-27",
+   "target": "APDIR-26-26",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-FXD",
+   "target": "ENT-BOR",
+   "relation": "applies_to",
+   "basis": "Residents and non-residents entering into foreign exchange derivatives to hedge exposures, and AD banks"
+  },
+  {
+   "source": "REG-FXD",
+   "target": "ENT-AD",
+   "relation": "applies_to",
+   "basis": "Residents and non-residents entering into foreign exchange derivatives to hedge exposures, and AD banks"
+  },
+  {
+   "source": "REG-FXD",
+   "target": "ACT-FEMA",
+   "relation": "issued_under",
+   "basis": "FEMA, 1999 (s. 46 for rules; s. 47 for regulations; ss. 10(4) and 11 for directions and circulars)"
+  },
+  {
+   "source": "REG-FXD",
+   "target": "MD-RISK",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GUAR-OLD",
+   "target": "REG-GUAR",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "MD-ECB-OLD",
+   "target": "REG-BL-AMD-2026",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "RULES-COMP-OLD",
+   "target": "RULES-COMP",
+   "relation": "cross_references",
+   "basis": "Named in the instrument"
+  },
+  {
+   "source": "REG-GUAR",
+   "target": "REG-GUAR-OLD",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "MD-ECB-OLD",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "RULES-COMP",
+   "target": "RULES-COMP-OLD",
+   "relation": "supersedes",
+   "basis": "Repeal clause of the newer instrument"
+  },
+  {
+   "source": "MD-ECB",
+   "target": "REG-BL",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MD-INRBL",
+   "target": "REG-BL",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-BL-AMD-2026",
+   "target": "REG-BL",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-BL-AMD-2025",
+   "target": "REG-BL",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "APDIR-25-22",
+   "target": "REG-BL",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "APDIR-25-19",
+   "target": "REG-GUAR",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "APDIR-26-01",
+   "target": "REG-GUAR",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-OI",
+   "target": "RULES-OI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MD-ODI",
+   "target": "REG-OI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MD-NRDI",
+   "target": "REG-DI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "APDIR-25-21",
+   "target": "MD-NRDI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MD-FDI",
+   "target": "RULES-NDI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "REG-MOP",
+   "target": "RULES-NDI",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MD-DEP",
+   "target": "REG-DEP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MD-COMP",
+   "target": "RULES-COMP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "APDIR-26-28",
+   "target": "MD-COMP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "APDIR-25-23",
+   "target": "MD-REP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "APDIR-25-25",
+   "target": "MD-REP",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "APDIR-26-25",
+   "target": "MD-RISK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "APDIR-26-26",
+   "target": "MD-RISK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "APDIR-26-27",
+   "target": "MD-RISK",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  },
+  {
+   "source": "MD-RISK",
+   "target": "REG-FXD",
+   "relation": "framework",
+   "basis": "Issued under or read with"
+  }
+ ]
+}

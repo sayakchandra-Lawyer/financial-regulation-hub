@@ -54,6 +54,7 @@
       <select class="chip" id="layer" aria-label="Who you are">
         <optgroup label="RBI"><option value="-1">NBFC, any layer</option><option value="0">NBFC in the Base Layer</option><option value="1">NBFC in the Middle Layer</option><option value="2">NBFC in the Upper Layer</option><option value="3">NBFC in the Top Layer</option></optgroup>
         <optgroup label="Securities"><option value="s-1">Listed entity or intermediary, any role</option><option value="s0">Listed company (equity)</option><option value="s1">Issuer of listed debt</option><option value="s2">Mutual fund / AMC</option><option value="s3">Stock broker</option><option value="s4">AIF and its manager</option></optgroup>
+        <optgroup label="FEMA (cross-border lending)"><option value="f-1">Cross-border lending, any role</option><option value="f0">Indian borrower (ECB and trade credit)</option><option value="f1">NBFC / HFC</option><option value="f2">Lender to non-residents or abroad</option><option value="f3">Party to a cross-border guarantee</option><option value="f4">AD Category-I bank</option></optgroup>
         <optgroup label="Insurance"><option value="i-1">Insurer or distributor, any role</option><option value="i0">Life insurer</option><option value="i1">Health insurer</option><option value="i2">Corporate agent</option><option value="i3">Individual agent</option></optgroup>
       </select>
     </div>
@@ -86,9 +87,9 @@
   const NAME = Object.fromEntries(hub.sections.map(s => [s.id, s.short || s.name]));
   const lay = $("#layer");
   const saved = store.get("layer", "-1"); lay.value = [...lay.options].some(o => o.value === saved) ? saved : "-1";
-  const PFX = { rbi: "", sebi: "s", irdai: "i" };
-  const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : lay.value.startsWith("s") && MS.sebi ? "sebi" : "rbi";      // which regulator the lens points to
-  const L = () => +lay.value.replace(/^[is]/, "");
+  const PFX = { rbi: "", sebi: "s", irdai: "i", fema: "f" };
+  const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : lay.value.startsWith("s") && MS.sebi ? "sebi" : lay.value.startsWith("f") && MS.fema ? "fema" : "rbi";      // which regulator the lens points to
+  const L = () => +lay.value.replace(/^[isf]/, "");
   const resetTo = k => { lay.value = PFX[k] + "-1"; lay.dispatchEvent(new Event("change")); };
   const M = () => MS[K()];
   const unit = () => K() === "rbi" ? "layer" : "role";
@@ -103,7 +104,8 @@
   const HINT = {
     sebi: /\b(sebi|stock ?brokers?|brokers?|broking|sub-?brokers?|mutual funds?|amcs?|asset management|aifs?|alternative investment|listed|listing|lodr|insider|takeovers?|sast|ipos?|depositor(?:y|ies)|demat|stock exchanges?|securities|debentures? trustees?|buy-?backs?|delisting)\b/i,
     irdai: /\b(irdai|insurers?|insurance|insured|polic(?:y|ies)holders?|life polic(?:y|ies)|health polic(?:y|ies)|mediclaim|claims? settlement|premiums?|corporate agents?|insurance agents?|free look|surrender value|bancassurance)\b/i,
-    rbi: /\b(rbi|reserve bank|nbfcs?|hfcs?|housing finance|core investment|cics?|kyc|ecb|gold loans?|microfinance|co-?lending|scale based|sbr|fair practices?|wilful defaulters?|npa|sma|securitisation|digital lending)\b/i };
+    fema: /\b(fema|foreign exchange|ecbs?|external commercial|trade credits?|buyers?'? credit|suppliers?'? credit|lrn|form ecb|fccbs?|fcebs?|cross-border guarantees?|guarantees? regulations|overseas investment|odi|nris?|ocis?|non-residents?|nro|nre|fcnr|snrr|fpi|authorised dealers?|ad banks?|compounding|late submission fee|lsf|all-in-cost|hedg(?:e|ing))\b/i,
+    rbi: /\b(rbi|reserve bank|nbfcs?|hfcs?|housing finance|core investment|cics?|kyc|gold loans?|microfinance|co-?lending|scale based|sbr|fair practices?|wilful defaulters?|npa|sma|securitisation|digital lending)\b/i };
   function cfg(k){
     if (k === "jud") return { M: null, section: "jud", fulltext: "", docs: "the judgments", link: id => id, scope: "Answers from the key judgments on this site" };
     const s = secs[k];
@@ -112,6 +114,11 @@
           intro: "Put your question on insurance law for insurers, agents and corporate agents, and I shall answer from the Acts, Regulations and Master Circulars on this site, citing the provision. Check what I say.",
           tries: [["What is the free look period for a life policy?", "Free look period"], ["How quickly must a cashless claim be authorised?", "Cashless claim timelines"], ["With how many insurers can a corporate agent tie up?", "Corporate agent tie-ups"]],
           placeholder: "Ask a question, e.g. How long is the moratorium on health claims?" }
+      : k === "fema"
+      ? { section: "fema", docs: "the FEMA texts", scope: "Answers from the FEMA texts on this site",
+          intro: "Put your question on FEMA rules for cross-border lending and borrowing, such as ECB, trade credit, rupee loans to NRIs, guarantees and compounding, and I shall answer from the Act, rules, regulations and Master Directions on this site, citing the provision. Check what I say.",
+          tries: [["How much ECB can a company raise under the 2026 framework?", "ECB limit"], ["Can an NBFC give a guarantee for an ECB?", "NBFC guarantees"], ["When is Form ECB 2 due?", "Form ECB 2 deadline"]],
+          placeholder: "Ask a question, e.g. Can ECB be used to repay a rupee loan?" }
       : k === "sebi"
       ? { section: "sebi", docs: "the securities texts", scope: "Answers from the securities texts on this site",
           intro: "Put your question on securities law for listed companies, debt issuers, mutual funds, stock brokers and AIFs, and I shall answer from the Acts, Regulations and Master Circulars on this site, citing the provision. Check what I say.",
@@ -138,8 +145,8 @@
     const k = K();
     initJudge(Object.assign(cfg(k), { endpoint: hub.ai_endpoint, wide: true, pick: pickSec,
       judUrl: JS ? JS.data.judgments : "", judLink: id => "judgments/#j/" + id,
-      scope: "Answers from the RBI, SEBI, IRDAI texts and key judgments on this site",
-      intro: "Put your question on RBI, SEBI or insurance regulation, or on what the courts have held, and I shall pick the right texts on this site and answer from them, citing the provision. Check what I say." }, k === "sebi" || k === "irdai" ? { tries: cfg(k).tries, placeholder: cfg(k).placeholder } : {}));
+      scope: "Answers from the RBI, SEBI, IRDAI, FEMA texts and key judgments on this site",
+      intro: "Put your question on RBI, SEBI, insurance or FEMA regulation, or on what the courts have held, and I shall pick the right texts on this site and answer from them, citing the provision. Check what I say." }, k === "sebi" || k === "irdai" || k === "fema" ? { tries: cfg(k).tries, placeholder: cfg(k).placeholder } : {}));
   }
   lay.addEventListener("change", () => {
     store.set("layer", lay.value);
@@ -227,8 +234,8 @@
   function renderRegs(){
     $("#regs").innerHTML = hub.sections.map((s, i) => {
       const live = s.status === "live", m = MS[s.id];
-      const cnt = !m ? 0 : s.id === "rbi" ? m.items.filter(x=>x.type==="Master Direction"&&x.sc!=="old").length : m.items.filter(x=>/^Regulation/.test(x.type)&&x.sc!=="old").length;
-      const stat = live && m ? `<span class="pill p-live"><span data-count="${cnt}">0</span> ${s.id === "rbi" ? "Directions" : "Regulations"}</span>` : live && s.count ? `<span class="pill p-live"><span data-count="${s.count}">0</span> ${esc(s.countLabel || "")}</span>` : `<span class="pill p-soon">In preparation</span>`;
+      const cnt = !m ? 0 : s.id === "rbi" ? m.items.filter(x=>x.type==="Master Direction"&&x.sc!=="old").length : s.id === "fema" ? m.items.filter(x=>x.sc!=="old").length : m.items.filter(x=>/^Regulation/.test(x.type)&&x.sc!=="old").length;
+      const stat = live && m ? `<span class="pill p-live"><span data-count="${cnt}">0</span> ${s.id === "rbi" ? "Directions" : s.id === "fema" ? "Instruments" : "Regulations"}</span>` : live && s.count ? `<span class="pill p-live"><span data-count="${s.count}">0</span> ${esc(s.countLabel || "")}</span>` : `<span class="pill p-soon">In preparation</span>`;
       return `<${live?"a":"div"} class="card rc rise ${live?"":"soon"}" id="${s.id}" style="--c:var(--${s.id});animation-delay:${.06*i}s" ${live?`href="${s.href}"`:""}>
         <div style="display:flex;align-items:center;gap:10px"><span class="ic">${I[s.id] || I.misc}</span><h3 style="font-size:19px">${esc(s.name)}</h3></div>
         <p style="font-size:13.5px;color:var(--ink-2);margin:8px 0 0" title="${esc(s.full)}">${esc(s.line || s.full)}</p>
@@ -254,7 +261,8 @@
   const COMMON = {
     rbi: ["co-lending", "penal charges", "KYC periodic updation", "securitisation", "fair practices code", "gold loan"],
     sebi: ["related party transaction", "trading window", "material event disclosure", "net worth", "AIF corpus", "SCORES complaint"],
-    irdai: ["free look period", "cashless claim", "corporate agent", "commission", "grievance", "functional ID"]
+    irdai: ["free look period", "cashless claim", "corporate agent", "commission", "grievance", "functional ID"],
+    fema: ["end-use restrictions", "all-in-cost", "Form ECB 2", "guarantee reporting", "rupee loan to NRI", "compounding"]
   };
   function suggest(){
     const box = $("#results"), k = K();

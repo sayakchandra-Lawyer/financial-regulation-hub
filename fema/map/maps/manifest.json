@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "default": "fema",
+  "maps": [
+    {
+      "id": "fema",
+      "title": "FEMA Lending Regulation Map",
+      "hubLabel": "FEMA",
+      "hubSub": "Cross-border lending",
+      "section": "fema",
+      "register": "../data/fema_register.json",
+      "graph": "../data/fema_graph.json",
+      "categoryGroup": "Who it applies to",
+      "layers": [
+        "ENT-BOR",
+        "ENT-NBFC",
+        "ENT-LEND",
+        "ENT-GUAR",
+        "ENT-AD"
+      ],
+      "cumulativeLayers": false,
+      "historyTheme": "Superseded (history)",
+      "categoryCaveat": "Each instrument is tagged to the parties it names or most directly affects. The Act, the compounding rules and the reporting directions apply to everyone. Check the provision before relying on a tag.",
+      "caveatShort": "Tags follow each instrument's scope. See the provision.",
+      "milestones": [
+        {
+          "date": "2026-01-10",
+          "label": "Guarantees Regulations 2026 in force"
+        },
+        {
+          "date": "2026-02-16",
+          "label": "New ECB framework in force"
+        }
+      ],
+      "updates": "../data/updates.json",
+      "glossary": "../data/glossary.json",
+      "definitions": "../data/definitions.json",
+      "fulltext": "../data/fulltext.json",
+      "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev"
+    }
+  ]
+}

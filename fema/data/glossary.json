@@ -1,0 +1,506 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "note": "Plain-language explanations for readers who are new to the terms. They are summaries, not the legal definitions: the instrument named under 'See' governs."
+ },
+ "terms": [
+  {
+   "term": "FEMA",
+   "full": "Foreign Exchange Management Act, 1999",
+   "def": "The law that governs dealings in foreign exchange and transactions between residents and non-residents. RBI makes regulations and directions under it; the Central Government makes rules.",
+   "see": [
+    "ACT-FEMA"
+   ],
+   "aka": [
+    "foreign exchange management act"
+   ]
+  },
+  {
+   "term": "Person resident in India",
+   "full": "",
+   "def": "Broadly, an individual who stayed in India for more than 182 days in the previous financial year (with exceptions for those who left or came for specified purposes), and any company or body registered in India. Everyone else is a person resident outside India.",
+   "see": [
+    "ACT-FEMA"
+   ],
+   "aka": [
+    "resident",
+    "person resident outside India",
+    "non-resident"
+   ]
+  },
+  {
+   "term": "Capital account transaction",
+   "full": "",
+   "def": "A transaction that changes the assets or liabilities, including contingent liabilities, outside India of a resident, or in India of a non-resident. Borrowing, lending and guarantees across the border are capital account transactions.",
+   "see": [
+    "ACT-FEMA"
+   ],
+   "aka": [
+    "capital account"
+   ]
+  },
+  {
+   "term": "Authorised dealer",
+   "full": "AD bank",
+   "def": "A bank authorised by RBI under s. 10 of FEMA to deal in foreign exchange. Category-I AD banks handle ECB, trade credit and guarantee reporting for their customers.",
+   "see": [
+    "ACT-FEMA",
+    "MD-ECB"
+   ],
+   "aka": [
+    "AD",
+    "AD bank",
+    "AD Category-I",
+    "authorised dealer bank",
+    "designated AD bank"
+   ]
+  },
+  {
+   "term": "ECB",
+   "full": "External commercial borrowing",
+   "def": "A commercial loan raised by an Indian entity from outside India, in foreign currency or rupees, including bonds, FCCBs and FCEBs, on the terms of Schedule I to the Borrowing and Lending Regulations.",
+   "see": [
+    "REG-BL",
+    "REG-BL-AMD-2026"
+   ],
+   "aka": [
+    "external commercial borrowing",
+    "external commercial borrowings",
+    "ECBs"
+   ]
+  },
+  {
+   "term": "LRN",
+   "full": "Loan Registration Number",
+   "def": "The number RBI allots to an ECB on a Form ECB 1 filed through the designated AD bank. The money can be drawn only after the LRN is issued.",
+   "see": [
+    "REG-BL-AMD-2026",
+    "MD-REP"
+   ],
+   "aka": [
+    "loan registration number"
+   ]
+  },
+  {
+   "term": "MAMP",
+   "full": "Minimum average maturity period",
+   "def": "The shortest average life an ECB may have: three years, or one to three years for a manufacturing borrower up to USD 150 million outstanding.",
+   "see": [
+    "REG-BL-AMD-2026"
+   ],
+   "aka": [
+    "minimum average maturity",
+    "average maturity"
+   ]
+  },
+  {
+   "term": "All-in-cost",
+   "full": "",
+   "def": "The total cost of a borrowing: interest, fees, expenses, guarantee fees and similar charges, but not commitment fees or withholding tax paid in rupees. It is capped for trade credit and for ECBs shorter than three years.",
+   "see": [
+    "MD-ECB",
+    "REG-BL-AMD-2026"
+   ],
+   "aka": [
+    "all in cost",
+    "cost ceiling"
+   ]
+  },
+  {
+   "term": "End-use restrictions",
+   "full": "",
+   "def": "Purposes for which money borrowed under the Borrowing and Lending Regulations may not be used in India, such as real estate business, chit funds, transacting in securities (other than strategic corporate actions) and repaying NPA rupee loans.",
+   "see": [
+    "REG-BL"
+   ],
+   "aka": [
+    "restricted end use",
+    "restricted end-uses",
+    "negative list",
+    "end use"
+   ]
+  },
+  {
+   "term": "Trade credit",
+   "full": "TC",
+   "def": "Credit for imports into India given by the overseas supplier (suppliers' credit) or by a bank or financial institution abroad (buyers' credit). Trade credit up to three years is not ECB.",
+   "see": [
+    "MD-ECB",
+    "REG-BL"
+   ],
+   "aka": [
+    "TC",
+    "suppliers' credit",
+    "buyers' credit",
+    "trade credits"
+   ]
+  },
+  {
+   "term": "Form TC",
+   "full": "",
+   "def": "The monthly statement in which AD banks report trade credits approved by their branches, due by the 10th of the following month.",
+   "see": [
+    "MD-ECB"
+   ],
+   "aka": []
+  },
+  {
+   "term": "FCCB",
+   "full": "Foreign currency convertible bond",
+   "def": "A foreign currency bond issued by an Indian company that can be converted into its shares. It is a form of ECB.",
+   "see": [
+    "REG-BL-AMD-2026"
+   ],
+   "aka": [
+    "foreign currency convertible bonds",
+    "FCCBs"
+   ]
+  },
+  {
+   "term": "FCEB",
+   "full": "Foreign currency exchangeable bond",
+   "def": "A foreign currency bond that can be exchanged into the shares of another company (the offered company). It is a form of ECB.",
+   "see": [
+    "REG-BL-AMD-2026"
+   ],
+   "aka": [
+    "exchangeable bond",
+    "FCEBs"
+   ]
+  },
+  {
+   "term": "Form ECB 1",
+   "full": "",
+   "def": "The application, filed through the designated AD bank, that gives the ECB's terms and obtains the LRN. Changes go in a Revised Form ECB 1 within seven calendar days of the end of the month.",
+   "see": [
+    "REG-BL-AMD-2026",
+    "APDIR-25-23"
+   ],
+   "aka": [
+    "ECB 1",
+    "revised form ECB 1",
+    "Form ECB"
+   ]
+  },
+  {
+   "term": "Form ECB 2",
+   "full": "",
+   "def": "The monthly return of ECB drawdowns and debt servicing, due within seven calendar days of the end of the month.",
+   "see": [
+    "REG-BL-AMD-2026",
+    "APDIR-25-23"
+   ],
+   "aka": [
+    "ECB 2",
+    "ECB-2 return"
+   ]
+  },
+  {
+   "term": "Late submission fee",
+   "full": "LSF",
+   "def": "A fee that regularises late FEMA reporting without compounding. It does not cure a breach of the substantive conditions. Typically Rs 7,500 for returns that do not capture flows, and Rs 7,500 plus 0.025% of the amount for each year of delay for returns that do.",
+   "see": [
+    "MD-REP",
+    "REG-GUAR",
+    "MD-ODI"
+   ],
+   "aka": [
+    "LSF",
+    "late fee"
+   ]
+  },
+  {
+   "term": "Compounding",
+   "full": "",
+   "def": "Settling an admitted FEMA contravention by paying an amount fixed by RBI (or the Enforcement Directorate for s. 3(a)), instead of adjudication. Governed by the Compounding Rules 2024 and RBI's Master Direction.",
+   "see": [
+    "RULES-COMP",
+    "MD-COMP"
+   ],
+   "aka": [
+    "compounding of contraventions",
+    "compounding order"
+   ]
+  },
+  {
+   "term": "Adjudication",
+   "full": "",
+   "def": "Proceedings under s. 16 of FEMA in which an adjudicating authority decides a contravention and may impose a penalty under s. 13.",
+   "see": [
+    "ACT-FEMA"
+   ],
+   "aka": [
+    "adjudicating authority",
+    "show cause notice"
+   ]
+  },
+  {
+   "term": "Guarantee",
+   "full": "",
+   "def": "A contract to perform the promise, or discharge the liability, of another person if that person defaults. Under FEMA a resident may be a party to a cross-border guarantee only as the Guarantees Regulations 2026 allow.",
+   "see": [
+    "REG-GUAR"
+   ],
+   "aka": [
+    "guarantees",
+    "surety",
+    "principal debtor",
+    "counter-guarantee"
+   ]
+  },
+  {
+   "term": "GRN forms",
+   "full": "",
+   "def": "The guarantee reporting forms (GRN Issue, GRN Modification and GRN Invocation) filed with the AD bank, which reports to RBI on CIMS and allots a Guarantee Transaction Number.",
+   "see": [
+    "APDIR-26-01"
+   ],
+   "aka": [
+    "GRN Issue",
+    "GRN Modification",
+    "GRN Invocation",
+    "guarantee transaction number"
+   ]
+  },
+  {
+   "term": "Financial commitment",
+   "full": "",
+   "def": "The total of an Indian entity's overseas direct investment, debt to and guarantees for its foreign entities. It may not exceed 400% of net worth, and above USD 1 billion a year needs RBI approval.",
+   "see": [
+    "RULES-OI",
+    "MD-ODI"
+   ],
+   "aka": [
+    "financial commitments",
+    "ODI",
+    "overseas direct investment"
+   ]
+  },
+  {
+   "term": "Form FC",
+   "full": "",
+   "def": "The form in which an Indian entity reports a financial commitment, including a loan or guarantee to a foreign entity, through its AD bank.",
+   "see": [
+    "REG-OI"
+   ],
+   "aka": []
+  },
+  {
+   "term": "APR",
+   "full": "Annual Performance Report",
+   "def": "The yearly report on each foreign entity in which an Indian entity has made overseas direct investment, due by 31 December.",
+   "see": [
+    "REG-OI"
+   ],
+   "aka": [
+    "annual performance report"
+   ]
+  },
+  {
+   "term": "NRI",
+   "full": "Non-resident Indian",
+   "def": "A person resident outside India who is a citizen of India.",
+   "see": [
+    "MD-INRBL",
+    "REG-BL"
+   ],
+   "aka": [
+    "non-resident Indian",
+    "NRIs"
+   ]
+  },
+  {
+   "term": "OCI cardholder",
+   "full": "Overseas Citizen of India",
+   "def": "A person registered as an Overseas Citizen of India cardholder under the Citizenship Act, 1955. The B&L Regulations treat OCIs like NRIs for rupee loans.",
+   "see": [
+    "REG-BL"
+   ],
+   "aka": [
+    "OCI",
+    "PIO",
+    "person of Indian origin"
+   ]
+  },
+  {
+   "term": "NRO account",
+   "full": "Non-Resident Ordinary account",
+   "def": "A rupee account for a non-resident's income and money in India. Loans by residents to NRI relatives and staff loans are credited here.",
+   "see": [
+    "REG-DEP",
+    "MD-DEP"
+   ],
+   "aka": [
+    "NRO"
+   ]
+  },
+  {
+   "term": "NRE account",
+   "full": "Non-Resident External account",
+   "def": "A repatriable rupee account of an NRI or OCI, funded from abroad.",
+   "see": [
+    "REG-DEP",
+    "MD-DEP"
+   ],
+   "aka": [
+    "NRE"
+   ]
+  },
+  {
+   "term": "FCNR(B)",
+   "full": "Foreign Currency Non-Resident (Bank) account",
+   "def": "A term deposit in foreign currency held by an NRI or OCI with an AD bank in India.",
+   "see": [
+    "REG-DEP",
+    "MD-DEP"
+   ],
+   "aka": [
+    "FCNR"
+   ]
+  },
+  {
+   "term": "SNRR account",
+   "full": "Special Non-Resident Rupee account",
+   "def": "A rupee account that any non-resident may open with an AD bank for business in India, including at an IFSC branch since June 2026.",
+   "see": [
+    "REG-DEP"
+   ],
+   "aka": [
+    "SNRR",
+    "special non-resident rupee"
+   ]
+  },
+  {
+   "term": "LRS",
+   "full": "Liberalised Remittance Scheme",
+   "def": "The scheme that lets a resident individual remit up to USD 2,50,000 a financial year for permitted purposes. Rupee loans to NRI relatives count within it.",
+   "see": [
+    "MD-LRS"
+   ],
+   "aka": [
+    "liberalised remittance scheme"
+   ]
+  },
+  {
+   "term": "FPI",
+   "full": "Foreign portfolio investor",
+   "def": "A non-resident investor registered with SEBI that may buy listed and some unlisted Indian debt within RBI's limits, such as 15% of outstanding corporate bonds.",
+   "see": [
+    "REG-DI",
+    "MD-NRDI"
+   ],
+   "aka": [
+    "foreign portfolio investor",
+    "FPIs"
+   ]
+  },
+  {
+   "term": "General Route",
+   "full": "",
+   "def": "The standard route for FPI debt investment, with the conditions in para 4 of the Non-resident Investment in Debt Instruments Directions. The Voluntary Retention Route was merged into it on 01-04-2026.",
+   "see": [
+    "MD-NRDI",
+    "APDIR-25-21"
+   ],
+   "aka": [
+    "VRR",
+    "voluntary retention route"
+   ]
+  },
+  {
+   "term": "Equity instruments",
+   "full": "",
+   "def": "Equity shares (including partly paid shares), fully paid and fully and mandatorily convertible debentures and preference shares, and share warrants. Debentures and preference shares that are not fully and mandatorily convertible are not equity instruments and are treated as ECB.",
+   "see": [
+    "RULES-NDI",
+    "MD-FDI"
+   ],
+   "aka": [
+    "fully and mandatorily convertible",
+    "CCDs",
+    "CCPS"
+   ]
+  },
+  {
+   "term": "Convertible note",
+   "full": "",
+   "def": "An instrument issued by a start-up as debt that is repayable or convertible into shares within ten years. A non-resident may buy it for Rs 25 lakh or more in one tranche, and it is not ECB.",
+   "see": [
+    "RULES-NDI",
+    "REG-MOP"
+   ],
+   "aka": [
+    "convertible notes"
+   ]
+  },
+  {
+   "term": "FERR",
+   "full": "Foreign Exchange Risk Reserve",
+   "def": "A cash reserve of 20% of the rupee notional amount that AD banks keep with RBI, daily until the contract ends, on rupee derivatives above USD 2 million taken after 10 October 2026 to hedge current account payments where the user buys foreign currency.",
+   "see": [
+    "APDIR-26-26",
+    "APDIR-26-27"
+   ],
+   "aka": [
+    "foreign exchange risk reserve"
+   ]
+  },
+  {
+   "term": "Contracted exposure",
+   "full": "",
+   "def": "An existing foreign currency exposure, such as an ECB or an import payable, that a user may hedge with an AD bank under the Risk Management Direction.",
+   "see": [
+    "MD-RISK"
+   ],
+   "aka": [
+    "underlying exposure",
+    "hedging"
+   ]
+  },
+  {
+   "term": "NDDC",
+   "full": "Non-deliverable derivative contract",
+   "def": "A rupee derivative settled in foreign currency without delivery of rupees. From October 2026 AD banks may offer it to non-residents only for hedging.",
+   "see": [
+    "APDIR-26-27"
+   ],
+   "aka": [
+    "non-deliverable",
+    "NDF"
+   ]
+  },
+  {
+   "term": "IFSC",
+   "full": "International Financial Services Centre",
+   "def": "A centre set up under the IFSCA Act, 2019, such as GIFT City. Financial institutions in an IFSC are recognised ECB lenders.",
+   "see": [
+    "REG-BL-AMD-2026"
+   ],
+   "aka": [
+    "GIFT City",
+    "IFSC banking unit"
+   ]
+  },
+  {
+   "term": "PRAVAAH",
+   "full": "",
+   "def": "RBI's online portal for applications and references, including compounding applications and overseas investment references.",
+   "see": [
+    "MD-COMP",
+    "MD-ODI"
+   ],
+   "aka": []
+  },
+  {
+   "term": "CIMS",
+   "full": "Centralised Information Management System",
+   "def": "RBI's online return filing system (Sankalan portal), used by AD banks for guarantee reporting and other FEMA returns.",
+   "see": [
+    "APDIR-26-01"
+   ],
+   "aka": [
+    "Sankalan"
+   ]
+  }
+ ]
+}
