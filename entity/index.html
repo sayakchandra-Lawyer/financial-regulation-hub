@@ -35,7 +35,7 @@
 .grp .chip.on::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block}
 .grp .chip.role{border-style:dashed}
 .grp .chip[aria-disabled=true]{opacity:.45;cursor:not-allowed}
-.help{font-size:12px;color:var(--muted);margin:8px 0 0;line-height:1.45}
+.help{font-size:12px;color:var(--muted);margin:8px 0 0;line-height:1.45}.help.tip{color:var(--ink-2);min-height:2.9em}
 .bfoot{display:flex;gap:10px;align-items:center;padding:4px 0 12px;flex-wrap:wrap}
 .res{overflow:hidden;min-width:0}
 .rhead{display:flex;gap:20px;align-items:center;padding:16px 20px;border-bottom:1px solid var(--line);flex-wrap:wrap}
@@ -193,6 +193,11 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
 
   /* ---------- builder ---------- */
   $("#presets").innerHTML = `<span class="tag">Start from an example:</span>` + D.presets.map((p, i) => `<button type="button" class="chip" data-preset="${i}">${esc(p.label)}</button>`).join("");
+  const TIPDEF = { type: "Not sure? Most lending NBFCs, including large diversified lenders, are NBFC (Investment and Credit). Point at a type to see what it covers.",
+    layer: "Point at a layer to see who falls in it." };
+  function tipFor(g, hover){ const a = hover ? A.get(hover) : D.attrs.find(x => x.group === g && sel.has(x.id)); return (a && a.tip) || TIPDEF[g]; }
+  function showTip(b){ const a = b && A.get(b.dataset.a); if (!a || !TIPDEF[a.group]) return; const p = $(`#bld .tip[data-g="${a.group}"]`); if (p) p.textContent = tipFor(a.group, a.id); }
+  function resetTip(b){ const a = b && A.get(b.dataset.a); if (!a || !TIPDEF[a.group]) return; const p = $(`#bld .tip[data-g="${a.group}"]`); if (p) p.textContent = tipFor(a.group); }
   function renderBuilder(){
     const t = typeOf();
     $("#bld").innerHTML = D.groups.map(g => {
@@ -200,10 +205,14 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
       if (g.id === "layer" && !(t && t.layers.length)) return `<div class="grp"><h3>${esc(g.label)}<i>${esc(g.hint)}</i></h3><p class="help" style="margin:0">${t ? "Not used for this type." : "Pick an NBFC or HFC type first."}</p></div>`;
       return `<div class="grp" role="group" aria-label="${esc(g.label)}"><h3>${esc(g.label)}${g.hint ? `<i>${esc(g.hint)}</i>` : ""}</h3><div class="chips">${opts.map(a => {
         const dis = g.id === "layer" && !t.layers.includes(a.id);
-        return `<button type="button" class="chip ${g.id === "role" ? "role" : ""} ${sel.has(a.id) ? "on" : ""}" data-a="${a.id}" aria-pressed="${sel.has(a.id)}" ${dis ? 'aria-disabled="true"' : ""}>${esc(a.label)}</button>`; }).join("")}</div>${g.help ? `<p class="help">${esc(g.help)}</p>` : ""}</div>`;
+        return `<button type="button" class="chip ${g.id === "role" ? "role" : ""} ${sel.has(a.id) ? "on" : ""}" data-a="${a.id}" aria-pressed="${sel.has(a.id)}" ${dis ? 'aria-disabled="true"' : ""}${a.tip ? ` title="${esc(a.tip)}"` : ""}>${esc(a.label)}</button>`; }).join("")}</div>${TIPDEF[g.id] ? `<p class="help tip" data-g="${g.id}" aria-live="polite">${esc(tipFor(g.id))}</p>` : ""}${g.help ? `<p class="help">${esc(g.help)}</p>` : ""}</div>`;
     }).join("") + `<div class="bfoot"><button type="button" class="btn g" id="copy" style="font-size:13px">Copy link to this entity</button><button type="button" class="lnk" id="clear" style="font-size:13px">Clear</button><span class="tag" id="copied" aria-live="polite"></span></div>`;
     $$("#presets .chip").forEach(b => b.classList.toggle("on", D.presets[+b.dataset.preset].sel.join() === [...sel].join()));
   }
+  $("#bld").addEventListener("mouseover", e => showTip(e.target.closest(".chip[data-a]")));
+  $("#bld").addEventListener("mouseout", e => resetTip(e.target.closest(".chip[data-a]")));
+  $("#bld").addEventListener("focusin", e => showTip(e.target.closest(".chip[data-a]")));
+  $("#bld").addEventListener("focusout", e => resetTip(e.target.closest(".chip[data-a]")));
   $("#bld").addEventListener("click", e => {
     const b = e.target.closest("[data-a]");
     if (b) {

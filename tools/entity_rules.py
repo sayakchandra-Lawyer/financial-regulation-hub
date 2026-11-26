@@ -38,10 +38,21 @@ GROUPS = [
 ]
 
 def nbfc_type(i, label, cat, layers, extra=(), sectors=("lending",)):
-    return {"id": i, "group": "type", "label": label, "rbi_cat": cat, "layers": list(layers), "rbi": True,
+    return {"id": i, "tip": TIPS[i], "group": "type", "label": label, "rbi_cat": cat, "layers": list(layers), "rbi": True,
             "adds": RBI_GENERAL + list(extra), "feeds": LENDER_FEEDS, "sectors": list(sectors)}
 
 ALL4 = ["bl", "ml", "ul", "tl"]
+TIPS = {
+    "icc": "Most lending and leasing NBFCs: personal, vehicle, business, gold and property loans. Large diversified lenders are here too.",
+    "hfc": "Lends mainly for housing and is registered with RBI as a housing finance company.",
+    "cic": "Holding company whose assets are mainly investments in, and loans to, its group companies.",
+    "mfi": "Gives collateral-free loans to low-income households.",
+    "factor": "Mainly buys or finances trade receivables (factoring).",
+    "ifc": "Mainly lends to infrastructure projects.",
+    "idf": "Infrastructure debt fund set up as an NBFC.",
+    "p2p": "Runs a peer-to-peer lending platform.",
+    "aa": "Account aggregator: moves a customer's financial data with consent.",
+}
 ATTRS = [
     nbfc_type("icc", "NBFC (Investment and Credit)", "CAT-ICC", ALL4),
     dict(nbfc_type("hfc", "Housing Finance Company", "CAT-HFC", ["ml", "ul", "tl"], [{"sec": "rbi", "id": "ACT-NHB"}], ("lending", "hfc")), feeds=LENDER_FEEDS + NHB_FEED),
@@ -53,11 +64,11 @@ ATTRS = [
     nbfc_type("idf", "IDF-NBFC", "CAT-IDF", ALL4),
     nbfc_type("p2p", "NBFC-P2P", "CAT-P2P", ["bl"]),
     nbfc_type("aa", "NBFC-AA", "CAT-AA", ["bl"]),
-    {"id": "unreg", "group": "type", "label": "Company not registered with RBI", "layers": [], "adds": [],
+    {"id": "unreg", "group": "type", "label": "Company not registered with RBI", "tip": "Not an NBFC. For example a corporate agent, a fintech acting as lending service provider, or a DSA.", "layers": [], "adds": [],
      "feeds": [], "sectors": []},
 
-    {"id": "bl", "group": "layer", "label": "Base", "short": "Base Layer"}, {"id": "ml", "group": "layer", "label": "Middle", "short": "Middle Layer"},
-    {"id": "ul", "group": "layer", "label": "Upper", "short": "Upper Layer"}, {"id": "tl", "group": "layer", "label": "Top", "short": "Top Layer"},
+    {"id": "bl", "group": "layer", "label": "Base", "tip": "Non-deposit-taking NBFCs with assets below Rs 1,000 crore, plus P2P and AA platforms.", "short": "Base Layer"}, {"id": "ml", "group": "layer", "label": "Middle", "tip": "Non-deposit-taking NBFCs with assets of Rs 1,000 crore or more, all deposit-taking NBFCs, and all HFCs, CICs, IFCs and IDFs.", "short": "Middle Layer"},
+    {"id": "ul", "group": "layer", "label": "Upper", "tip": "NBFCs that RBI names each year as Upper Layer. Most large diversified lenders are here.", "short": "Upper Layer"}, {"id": "tl", "group": "layer", "label": "Top", "tip": "Kept for NBFCs RBI may move up from the Upper Layer. Currently empty.", "short": "Top Layer"},
 
     {"id": "eq", "group": "listed", "label": "Equity shares", "short": "Listed equity",
      "feeds": [{"sec": "sebi", "lens": "ENT-LE"}, {"sec": "exchanges", "lens": "ENT-EQ"}]},
@@ -166,6 +177,7 @@ SAME_AS = [
 ]
 
 PRESETS = [
+    {"label": "Large diversified NBFC · Upper Layer · listed debt · corporate agent", "sel": ["icc", "ul", "debt", "ca"]},
     {"label": "NBFC · Middle Layer · listed debt · corporate agent", "sel": ["icc", "ml", "debt", "ca"]},
     {"label": "HFC · Middle Layer · corporate agent", "sel": ["hfc", "ml", "ca"]},
     {"label": "Corporate agent · LSP · DSA", "sel": ["unreg", "ca", "lsp", "dsa"]},
