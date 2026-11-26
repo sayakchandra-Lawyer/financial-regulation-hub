@@ -1,0 +1,1689 @@
+{
+ "meta": {
+  "title": "SEBI rules for listed entities and market intermediaries",
+  "as_of": "2026-11-25",
+  "count": 40,
+  "in_force": 37,
+  "lenses": [
+   {
+    "id": "ENT-LE",
+    "name": "Listed company (equity)"
+   },
+   {
+    "id": "ENT-LD",
+    "name": "Issuer of listed debt"
+   },
+   {
+    "id": "ENT-AMC",
+    "name": "Mutual fund / AMC"
+   },
+   {
+    "id": "ENT-BRK",
+    "name": "Stock broker"
+   },
+   {
+    "id": "ENT-AIF",
+    "name": "AIF and its manager"
+   }
+  ]
+ },
+ "instruments": [
+  {
+   "id": "ACT-SEBI",
+   "type": "Act",
+   "short_name": "SEBI Act, 1992",
+   "title": "The Securities and Exchange Board of India Act, 1992 (as amended by the Finance Act, 2021)",
+   "issuing_department": "Parliament of India",
+   "theme": "Statutes, enforcement, penalties and settlement",
+   "reference_no": "Act 15 of 1992",
+   "issue_date": "1992-04-04",
+   "updated_as_on": "2021-04-01",
+   "effective_date": "1992-01-30",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/acts/jan-1992/securities-and-exchange-board-of-india-act-1992-as-amended-by-the-finance-act-2021-13-of-2021-w-e-f-april-1-2021-_3.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/apr-2021/1618910643277.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Every intermediary associated with the securities market, listed companies, issuers and any person dealing in securities"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Functions and powers of SEBI (s. 11)",
+    "Interim and final directions, including disgorgement (s. 11B)",
+    "Cease and desist orders (s. 11D)",
+    "Registration of intermediaries (s. 12)",
+    "Prohibition of manipulative and deceptive devices, insider trading and substantial acquisition (s. 12A)",
+    "Adjudication of penalties (ss. 15A to 15-I)",
+    "Settlement of administrative and civil proceedings (s. 15JB)",
+    "Appeal to the Securities Appellate Tribunal (s. 15T)"
+   ],
+   "core_obligations": [
+    "s. 12(1): no stock broker, merchant banker, portfolio manager, investment adviser or other intermediary may buy, sell or deal in securities except under a certificate of registration from SEBI",
+    "s. 12A: no person may use manipulative or deceptive devices, deal on unpublished price sensitive information, or acquire control of a company except in line with SEBI regulations",
+    "s. 11(2A) and 11C: SEBI may call for information, inspect books and records, and investigate"
+   ],
+   "timelines": [
+    "s. 15T(3): appeal to the Securities Appellate Tribunal within 45 days of receiving the order"
+   ],
+   "consequences_stated": [
+    "s. 15A: failure to furnish information, returns or books, or furnishing false information: at least Rs 1 lakh, up to Rs 1 lakh a day while it continues, capped at Rs 1 crore",
+    "s. 15C: listed company or intermediary failing to redress investor grievances when called upon by SEBI: penalty under s. 15C",
+    "s. 15E: AMC breaching restrictions on its activities: at least Rs 1 lakh, up to Rs 1 lakh a day while it continues, capped at Rs 1 crore",
+    "s. 15EA: breach of the AIF, InvIT or REIT regulations or of SEBI directions: at least Rs 1 lakh, up to Rs 1 lakh a day while it continues, capped at Rs 1 crore or three times the gains made, whichever is higher",
+    "s. 15F: stock broker failing to issue contract notes or charging excess brokerage: penalty under s. 15F",
+    "s. 15G: insider trading: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher",
+    "s. 15H: failure to make takeover disclosures, a required public announcement or open offer, or to pay the offer consideration: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher",
+    "s. 15HA: fraudulent and unfair trade practices: Rs 5 lakh up to Rs 25 crore or three times the profit, whichever is higher",
+    "s. 15HB: breach with no separate penalty: Rs 1 lakh up to Rs 1 crore",
+    "s. 24(1): offence punishable with imprisonment up to 10 years, fine up to Rs 25 crore, or both"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "ACT-SCRA",
+    "ACT-DEP",
+    "REG-SETTLE",
+    "REG-PENALTY"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ACT-SCRA",
+   "type": "Act",
+   "short_name": "SCRA, 1956",
+   "title": "The Securities Contracts (Regulation) Act, 1956 (as amended by the Finance Act, 2021)",
+   "issuing_department": "Parliament of India",
+   "theme": "Statutes, enforcement, penalties and settlement",
+   "reference_no": "Act 42 of 1956",
+   "issue_date": "1956-09-28",
+   "updated_as_on": "2021-04-01",
+   "effective_date": "1957-02-20",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/acts/apr-2021/securities-contracts-regulation-act-1956-as-amended-by-the-finance-act-2021-13-of-2021-w-e-f-april-1-2021-_49750.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/apr-2024/1712903397070.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Recognised stock exchanges and clearing corporations",
+    "Listed companies and issuers seeking listing",
+    "Stock brokers dealing on exchanges"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Recognition of stock exchanges (s. 4)",
+    "Listing of securities and conditions for listing (s. 21, 21A delisting)",
+    "Contracts in notified areas only through or with members of a recognised exchange (s. 13, 16)",
+    "Penalties under ss. 23A to 23H",
+    "Settlement of proceedings (s. 23JA)"
+   ],
+   "core_obligations": [
+    "s. 21: a company whose securities are listed must comply with the conditions of the listing agreement with the stock exchange (now the LODR Regulations)",
+    "s. 21A: securities may be delisted only on the grounds and in the manner the regulations specify"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 23E: failure to comply with listing conditions or delisting conditions: penalty as set out in s. 23E",
+    "s. 23H: breach with no separate penalty: penalty as set out in s. 23H"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "RULES-SCRR",
+    "ACT-SEBI",
+    "REG-LODR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-SCRR",
+   "type": "Rules",
+   "short_name": "SCRR, 1957",
+   "title": "Securities Contracts (Regulation) Rules, 1957 (last amended on 13-03-2026)",
+   "issuing_department": "Central Government",
+   "theme": "Issue and listing (equity and debt)",
+   "reference_no": "",
+   "issue_date": "",
+   "updated_as_on": "2026-03-13",
+   "effective_date": "",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/rules/mar-2026/securities-contracts-regulation-rules-1957-last-amended-on-march-13-2026-_100665.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/mar-2026/1774870117708.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Companies seeking listing of securities and listed companies"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Application and conditions for listing (rule 19)",
+    "Minimum public shareholding (rule 19A)"
+   ],
+   "core_obligations": [
+    "rule 19A(1): every listed company must maintain public shareholding of at least 25%"
+   ],
+   "timelines": [
+    "rule 19A(2): if public shareholding falls below 25% at any time, the company restores it to 25% within 12 months of the fall (two years for a listed public sector company)"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "ACT-SCRA",
+    "REG-LODR",
+    "REG-ICDR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ACT-DEP",
+   "type": "Act",
+   "short_name": "Depositories Act, 1996",
+   "title": "The Depositories Act, 1996 (as amended by the IFSCA Act, 2019)",
+   "issuing_department": "Parliament of India",
+   "theme": "Statutes, enforcement, penalties and settlement",
+   "reference_no": "Act 22 of 1996",
+   "issue_date": "1996-08-10",
+   "updated_as_on": "2020-10-01",
+   "effective_date": "1995-09-20",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/acts/sep-1995/depositories-act-1996-as-amended-by-the-international-financial-services-centres-authority-act-2019-w-e-f-october-01-2020-_1.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/feb-2024/1708418233857.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Depositories, depository participants, issuers and beneficial owners of securities held in demat form"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Securities in a depository are fungible and held in dematerialised form",
+    "Depository as registered owner, investor as beneficial owner (s. 10)",
+    "Penalties under ss. 19A to 19H",
+    "Settlement of proceedings (s. 19-IA)"
+   ],
+   "core_obligations": [
+    "s. 10: the depository is the registered owner for transfer purposes; the beneficial owner keeps all rights and liabilities attached to the securities"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "ss. 19A to 19H: penalties for failure to furnish information, redress grievances, reconcile records and other defaults, imposed by an adjudicating officer under s. 19H"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-DP",
+    "MC-DP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-PENALTY",
+   "type": "Rules",
+   "short_name": "Penalty inquiry rules",
+   "title": "SEBI (Procedure for Holding Inquiry and Imposing Penalties) Rules, 1995 (last amended on 31-12-2021)",
+   "issuing_department": "Central Government",
+   "theme": "Statutes, enforcement, penalties and settlement",
+   "reference_no": "GSR 541(E)",
+   "issue_date": "1995-07-10",
+   "updated_as_on": "2021-12-31",
+   "effective_date": "",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/rules/jan-2022/securities-and-exchange-board-of-india-procedure-for-holding-inquiry-and-imposing-penalties-rules-1995-last-amended-on-december-31-2021-_55412.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2022/1642652416221.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Adjudication proceedings under ss. 15A to 15HB of the SEBI Act"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Show cause notice by the adjudicating officer",
+    "Reply, hearing and order",
+    "Factors under s. 15J of the SEBI Act"
+   ],
+   "core_obligations": [
+    "rule 4: the adjudicating officer issues a notice requiring the noticee to show cause, within the period the notice specifies, why an inquiry should not be held",
+    "rule 4: the noticee may appear in person or through a lawyer or other authorised representative"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "ACT-SEBI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-SETTLE",
+   "type": "Regulation",
+   "short_name": "Settlement Regulations 2026",
+   "title": "SEBI (Settlement of Administrative and Civil Proceedings) Regulations, 2026",
+   "issuing_department": "SEBI",
+   "theme": "Statutes, enforcement, penalties and settlement",
+   "reference_no": "SEBI/LAD-DOP/2026/318",
+   "issue_date": "2026-10-07",
+   "updated_as_on": "",
+   "effective_date": "2026-11-07",
+   "status": "In force (from 07-11-2026)",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-settlement-of-administrative-and-civil-proceedings-regulations-2026_105126.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793359253398.pdf",
+   "statutory_powers": [
+    "SEBI Act s. 15JB",
+    "SCRA s. 23JA",
+    "Depositories Act s. 19-IA"
+   ],
+   "applies_to": [
+    "Any person against whom proceedings under the SEBI Act, SCRA or Depositories Act have been or may be started"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Settlement notice before a show cause notice",
+    "Settlement amount by formula: base amount, stage, gravity, aggravating and mitigating factors",
+    "Fast track settlement: violation based and monetary threshold based",
+    "Confidentiality and settlement with immunity for substantial assistance",
+    "Internal Committee, High Powered Advisory Committee and Panel of Whole Time Members"
+   ],
+   "core_obligations": [
+    "regulation 3(3): non-refundable application fee of Rs 25,000 for a natural person and Rs 35,000 for others",
+    "regulation 3(5): one application covering all proceedings on the same cause of action",
+    "regulation 6(1): not available where an application on the same default was rejected before, where an investigation is pending (except with confidentiality), or for wilful defaulters, fraudulent borrowers and fugitive economic offenders",
+    "regulation 6(2): defaults with market-wide impact, losses to many investors or harm to market integrity may not be settled",
+    "regulation 27: for delayed or wrong-format disclosures and delayed compliance, SEBI may issue a fast track settlement notice before starting proceedings"
+   ],
+   "timelines": [
+    "regulation 4(1): application within 90 days of the show cause notice (or supplementary notice), unless the matter is before the Tribunal or the Supreme Court",
+    "regulation 5(1): application within 60 days of receiving a settlement notice",
+    "regulation 3(7): a returned application may be refiled within 15 days",
+    "regulation 4(3) and (4): proceedings pending on 07-11-2026 that were not settled under the 2018 Regulations may be filed within 90 days, at a settlement amount 20% higher"
+   ],
+   "consequences_stated": [
+    "regulation 39: a settlement order may be revoked for breach of its terms or for lack of full and true disclosure; the proceedings are then restored and no amount is refunded"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "ACT-SEBI",
+    "REG-SETTLE-OLD"
+   ],
+   "repeals": "SEBI (Settlement Proceedings) Regulations, 2018 (regulation 45)"
+  },
+  {
+   "id": "REG-PFUTP",
+   "type": "Regulation",
+   "short_name": "PFUTP Regulations",
+   "title": "SEBI (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 2003 (last amended on 05-12-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Insider trading and market abuse",
+   "reference_no": "",
+   "issue_date": "2003-07-17",
+   "updated_as_on": "2025-12-05",
+   "effective_date": "2003-07-17",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/dec-2025/securities-and-exchange-board-of-india-prohibition-of-fraudulent-and-unfair-trade-practices-relating-to-securities-market-regulations-2003-last-amended-on-december-05-2025-_98694.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795081607947.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Any person dealing in securities, including listed companies, intermediaries, fund managers and their employees"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Prohibition of fraudulent dealings (regulation 3)",
+    "Manipulative, fraudulent and unfair trade practices (regulation 4)",
+    "Mis-selling of securities and mutual fund units",
+    "Dissemination of false or misleading information"
+   ],
+   "core_obligations": [
+    "regulation 3: no person may buy, sell or deal in securities in a fraudulent manner or use any manipulative or deceptive device",
+    "regulation 4(1): no person may indulge in a manipulative, fraudulent or unfair trade practice in securities",
+    "regulation 4(2): includes knowingly creating a false or misleading appearance of trading, manipulating prices, mis-selling of securities, services or mutual fund units, and publishing false or misleading information"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "SEBI Act s. 15HA: Rs 5 lakh up to Rs 25 crore or three times the profit, whichever is higher",
+    "regulation 11 and 12: directions and suspension or cancellation of registration"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "ACT-SEBI",
+    "REG-PIT"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-PIT",
+   "type": "Regulation",
+   "short_name": "Insider Trading Regulations",
+   "title": "SEBI (Prohibition of Insider Trading) Regulations, 2015 (last amended on 12-03-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Insider trading and market abuse",
+   "reference_no": "",
+   "issue_date": "2015-01-15",
+   "updated_as_on": "2025-03-12",
+   "effective_date": "2015-05-15",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/mar-2025/securities-and-exchange-board-of-india-prohibition-of-insider-trading-regulations-2015-last-amended-on-march-12-2025-_92672.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1786963663321.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Listed companies and companies proposing to list",
+    "Insiders, designated persons and their immediate relatives",
+    "Intermediaries and fiduciaries handling unpublished price sensitive information (UPSI)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Unpublished price sensitive information (UPSI)",
+    "Communication of UPSI only for legitimate purposes (regulation 3)",
+    "Trading while in possession of UPSI (regulation 4)",
+    "Trading plans (regulation 5)",
+    "Disclosures by promoters, KMP, directors and designated persons (regulation 7)",
+    "Codes of conduct and fair disclosure (regulations 8, 9)",
+    "Structured digital database",
+    "Trading window"
+   ],
+   "core_obligations": [
+    "regulation 3: UPSI may be shared only for legitimate purposes, performance of duties or discharge of legal obligations",
+    "regulation 3(5): the board must ensure a structured digital database of persons with whom UPSI is shared",
+    "regulation 4(1): no insider may trade while in possession of UPSI, subject to the defences listed",
+    "regulation 5: a trading plan must be approved by the compliance officer and disclosed to the exchanges; the trade price may be capped at up to 20% above or below the closing price",
+    "regulation 9: listed companies and intermediaries must adopt a code of conduct for designated persons, including trading window and pre-clearance rules",
+    "Schedule B: the trading window closes from the end of every quarter until 48 hours after results are published"
+   ],
+   "timelines": [
+    "regulation 7(1)(b): a person appointed as KMP or director, or becoming a promoter or member of the promoter group, discloses holdings to the company within 7 days",
+    "regulation 7(2)(a): promoters, promoter group members, designated persons and directors disclose trades worth over Rs 10 lakh in a calendar quarter to the company within two trading days",
+    "regulation 7(2)(b): the company informs the stock exchanges within two trading days of receiving that disclosure",
+    "regulation 5(5): the compliance officer approves or rejects a trading plan within two trading days of receipt, and notifies an approved plan to the exchanges on the day of approval",
+    "regulation 5(2)(i): trading under the plan may start no earlier than 120 calendar days after its public disclosure"
+   ],
+   "consequences_stated": [
+    "SEBI Act s. 15G: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher",
+    "Schedule B: breach of the code of conduct is reported to SEBI and may lead to wage freeze, suspension or recovery"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "ACT-SEBI",
+    "REG-LODR",
+    "REG-PFUTP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-LODR",
+   "type": "Regulation",
+   "short_name": "LODR Regulations",
+   "title": "SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (last amended on 15-10-2026)",
+   "issuing_department": "SEBI",
+   "theme": "Continuous disclosure and corporate governance",
+   "reference_no": "",
+   "issue_date": "2015-09-02",
+   "updated_as_on": "2026-10-15",
+   "effective_date": "2015-12-01",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-last-amended-on-october-15-2026-_105365.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792664915776.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Every listed entity with specified securities (equity) listed on the main board, SME exchange or Innovators Growth Platform",
+    "Entities with listed non-convertible securities (Chapter V)",
+    "A high value debt listed entity (listed non-convertible debt of Rs 5,000 crore or more outstanding): regulations 15 to 27 apply under regulation 15(1A), and an entity with only listed debt follows Chapter VA (regulations 62B onwards)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Board composition and independent directors (regulation 17)",
+    "Audit, nomination and remuneration, stakeholders relationship and risk management committees (regulations 18 to 21)",
+    "Related party transactions and materiality thresholds in Schedule XII (regulation 23)",
+    "Secretarial audit (regulation 24A)",
+    "Disclosure of material events (regulation 30 and Schedule III)",
+    "Shareholding pattern (regulation 31)",
+    "Financial results (regulation 33)",
+    "Obligations for listed non-convertible securities (Chapter V)"
+   ],
+   "core_obligations": [
+    "regulation 13(1): redress investor grievances within 21 calendar days of receipt, and stay registered on SCORES",
+    "regulation 17(2): the board meets at least four times a year, with no more than 120 days between meetings",
+    "regulation 21: the Risk Management Committee has at least three members and meets at least twice a year",
+    "regulation 23(1): a related party transaction is material if it crosses the Schedule XII thresholds; material transactions need prior shareholder approval",
+    "regulation 24A: the listed entity and its material unlisted Indian subsidiaries undergo secretarial audit by a peer reviewed company secretary",
+    "regulation 27(2): quarterly compliance report on corporate governance, signed by the compliance officer or CEO, including cyber security incidents",
+    "regulation 30: disclose material events; Para A of Schedule III events are deemed material, Para B events are tested against the materiality criteria",
+    "regulation 46: maintain a functional website with the required disclosures"
+   ],
+   "timelines": [
+    "regulation 30(6): board meeting outcomes within 30 minutes of the meeting closing (three hours if the meeting closes after market hours and more than three hours before the next session); events within the entity within 12 hours; other events within 24 hours, unless Schedule III sets another time",
+    "regulation 29: prior intimation of board meetings on specified matters at least two working days in advance",
+    "regulation 31(1)(b): shareholding pattern within 21 days of the end of each quarter (half-yearly for SME exchange)",
+    "regulation 33(3): quarterly results within 45 days of quarter end; annual audited results within 60 days of year end",
+    "regulation 52(1): debt listed entities file quarterly results within 45 days of quarter end (other than the last quarter)",
+    "regulation 57(1): certificate on payment of interest or principal on non-convertible securities within one working day of it falling due",
+    "regulation 15(1A) and 62C: an entity that crosses the Rs 5,000 crore high value debt threshold during the year complies within six months of the trigger"
+   ],
+   "consequences_stated": [
+    "Fines and freezing of promoter holdings by stock exchanges under the standard operating procedure in the LODR Master Circular",
+    "SEBI Act s. 15A(b), 15C and 15HB; SCRA s. 23E"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "MC-LODR",
+    "MC-NCS-LODR",
+    "REG-NCS",
+    "REG-ICDR",
+    "REG-PIT",
+    "ACT-SCRA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-ICDR",
+   "type": "Regulation",
+   "short_name": "ICDR Regulations",
+   "title": "SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018 (last amended on 21-03-2026)",
+   "issuing_department": "SEBI",
+   "theme": "Issue and listing (equity and debt)",
+   "reference_no": "",
+   "issue_date": "2018-09-11",
+   "updated_as_on": "2026-03-21",
+   "effective_date": "2018-11-10",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/mar-2026/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018-last-amended-on-march-21-2026-_100581.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/mar-2026/1774592300989.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Issuers making initial public offers, further public offers, rights issues, preferential issues and qualified institutions placements of specified securities",
+    "Merchant bankers and other intermediaries to an issue"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Eligibility for an IPO (regulation 6)",
+    "Minimum promoters' contribution (regulation 14)",
+    "Lock-in (regulation 16)",
+    "Offer document disclosures",
+    "Preferential issues (Chapter V) and QIPs (Chapter VI)",
+    "SME IPOs (Chapter IX)"
+   ],
+   "core_obligations": [
+    "regulation 6(1): an IPO issuer needs net tangible assets, operating profit, net worth and track record as listed, or must use the book building route with allotment mainly to qualified institutional buyers",
+    "regulation 14(1): promoters hold at least 20% of the post-issue capital, with permitted contributors able to meet a shortfall",
+    "regulation 16(1)(a): the minimum promoters' contribution is locked in for 18 months from allotment (three years where most proceeds fund capital expenditure)"
+   ],
+   "timelines": [
+    "regulation 16: lock-in of 18 months (or three years) for the minimum promoters' contribution"
+   ],
+   "consequences_stated": [
+    "SEBI Act s. 11, 11B and 15HB; directions may include refund of money with interest and debarment"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-LODR",
+    "RULES-SCRR",
+    "REG-SBEB"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-NCS",
+   "type": "Regulation",
+   "short_name": "NCS Regulations",
+   "title": "SEBI (Issue and Listing of Non-Convertible Securities) Regulations, 2021 (last amended on 21-01-2026)",
+   "issuing_department": "SEBI",
+   "theme": "Issue and listing (equity and debt)",
+   "reference_no": "",
+   "issue_date": "2021-08-09",
+   "updated_as_on": "2026-01-21",
+   "effective_date": "2021-08-09",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/jan-2026/securities-and-exchange-board-of-india-issue-and-listing-of-non-convertible-securities-regulations-2021-last-amended-as-on-january-21-2026-_99288.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1788346796221.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Issuers making public issues or private placements of non-convertible debt securities and non-convertible redeemable preference shares that are listed or proposed to be listed",
+    "Commercial paper listing (through the NCS Master Circular)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Debenture trustee and trust deed",
+    "Credit rating of issues",
+    "Recovery Expense Fund (regulation 11)",
+    "Electronic book provider platform for private placement",
+    "Disclosures in the offer document and general information document"
+   ],
+   "core_obligations": [
+    "regulation 11: the issuer creates a Recovery Expense Fund with the designated stock exchange",
+    "The issuer appoints a SEBI-registered debenture trustee and executes a trust deed",
+    "Issues are rated by a SEBI-registered credit rating agency and the rating is disclosed",
+    "Private placements above the specified size go through the electronic book provider platform"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "SEBI Act s. 11, 11B and 15HB"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "MC-NCS",
+    "MC-NCS-LODR",
+    "REG-LODR",
+    "REG-DT",
+    "REG-CRA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-SAST",
+   "type": "Regulation",
+   "short_name": "Takeover Regulations",
+   "title": "SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 (last amended on 05-12-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Takeovers, buy-back and delisting",
+   "reference_no": "",
+   "issue_date": "2011-09-23",
+   "updated_as_on": "2025-12-05",
+   "effective_date": "2011-10-22",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/dec-2025/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011-last-amended-on-december-5-2025-_98643.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1785911192198.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Acquirers of shares, voting rights or control in a listed company, and persons acting in concert",
+    "Target companies and their promoters"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Open offer on reaching 25% (regulation 3(1))",
+    "Creeping acquisition of up to 5% a year (regulation 3(2))",
+    "Acquisition of control (regulation 4)",
+    "Offer size of at least 26% (regulation 7)",
+    "Disclosure of acquisitions and disposals (regulation 29)",
+    "Encumbrance disclosure by promoters (regulation 31)"
+   ],
+   "core_obligations": [
+    "regulation 3(1): no acquirer may acquire shares or voting rights which, with those of persons acting in concert, entitle them to 25% or more of the voting rights without a public announcement of an open offer",
+    "regulation 3(2): a holder of 25% or more but below the maximum non-public shareholding may not acquire more than 5% in a financial year without an open offer",
+    "regulation 4: acquiring control requires an open offer, whatever the shareholding",
+    "regulation 7(1): the open offer is for at least 26% of total shares",
+    "regulation 29(1) and (2): disclose holdings (with persons acting in concert) on reaching 5%, and every later acquisition or disposal that changes the holding by more than 2%"
+   ],
+   "timelines": [
+    "regulation 29(3): disclosures within two working days of the acquisition or disposal"
+   ],
+   "consequences_stated": [
+    "SEBI Act s. 15H: Rs 10 lakh up to Rs 25 crore or three times the profit, whichever is higher",
+    "regulation 32: directions, including divestment and making an open offer with interest"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-LODR",
+    "REG-DELIST",
+    "REG-BUYBACK"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-BUYBACK",
+   "type": "Regulation",
+   "short_name": "Buy-back Regulations",
+   "title": "SEBI (Buy-Back of Securities) Regulations, 2018 (last amended on 06-07-2026)",
+   "issuing_department": "SEBI",
+   "theme": "Takeovers, buy-back and delisting",
+   "reference_no": "",
+   "issue_date": "2018-09-11",
+   "updated_as_on": "2026-07-06",
+   "effective_date": "2018-09-11",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/jul-2026/securities-and-exchange-board-of-india-buy-back-of-securities-regulations-2018-last-amended-on-july-6-2026-_103042.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2026/1784895062551.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Listed companies buying back their own shares or other specified securities"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Maximum buy-back size (regulation 4)",
+    "Board-approved buy-back up to 10% of paid-up capital and free reserves",
+    "Tender offer and open market routes"
+   ],
+   "core_obligations": [
+    "regulation 4(i): a buy-back may not exceed 25% of the aggregate paid-up capital and free reserves, on the standalone or consolidated financial statements, whichever is lower; equity shares bought back in a financial year may not exceed 25% of paid-up equity capital",
+    "regulation 5(i)(b): a buy-back needs a special resolution, except one of 10% or less of paid-up equity capital and free reserves, which the board may approve"
+   ],
+   "timelines": [
+    "regulation 5(ii): every buy-back is completed within one year of the special resolution or board resolution"
+   ],
+   "consequences_stated": [
+    "SEBI Act s. 15HB; regulation 28 directions"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-SAST",
+    "REG-LODR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-DELIST",
+   "type": "Regulation",
+   "short_name": "Delisting Regulations",
+   "title": "SEBI (Delisting of Equity Shares) Regulations, 2021 (last amended on 03-09-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Takeovers, buy-back and delisting",
+   "reference_no": "",
+   "issue_date": "2021-06-10",
+   "updated_as_on": "2025-09-03",
+   "effective_date": "2021-06-10",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/sep-2025/securities-and-exchange-board-of-india-delisting-of-equity-shares-regulations-2021-last-amended-on-september-3-2025-_96548.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1786948319926.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Listed companies and acquirers (promoters) seeking voluntary delisting of equity shares",
+    "Compulsory delisting by a stock exchange"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Reverse book building and the discovered price",
+    "Fixed delisting price route",
+    "Success threshold of 90% of issued shares"
+   ],
+   "core_obligations": [
+    "regulation 21: the delisting succeeds only if the acquirer's post-offer holding reaches 90% of the total issued shares of that class, excluding shares held by custodians against depository receipts, employee benefit trusts and certified inactive shareholders",
+    "The price is discovered through reverse book building; under regulation 20A a fixed delisting price, at least 15% above the floor price, is allowed only for frequently traded shares"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "SEBI Act s. 15HB; SCRA s. 21A and 23E"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-SAST",
+    "ACT-SCRA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-SBEB",
+   "type": "Regulation",
+   "short_name": "Share Based Employee Benefits",
+   "title": "SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021 (last amended on 04-12-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Continuous disclosure and corporate governance",
+   "reference_no": "",
+   "issue_date": "2021-08-13",
+   "updated_as_on": "2025-12-04",
+   "effective_date": "2021-08-13",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/dec-2025/securities-and-exchange-board-of-india-share-based-employee-benefits-and-sweat-equity-regulations-2021-last-amended-on-december-4-2025-_98638.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1785911420093.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Listed companies running employee stock option, purchase, SAR, general employee benefit or retirement benefit schemes, or issuing sweat equity"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Shareholder approval of schemes",
+    "Compensation committee",
+    "Trust route for secondary acquisition",
+    "Grants to identified employees of 1% or more of issued capital in a year need separate approval"
+   ],
+   "core_obligations": [
+    "Separate shareholder resolution to grant options to an identified employee equal to or above 1% of issued capital in any one year"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "SEBI Act s. 15HB"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-LODR",
+    "REG-ICDR",
+    "REG-PIT"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-LODR",
+   "type": "Master Circular",
+   "short_name": "LODR Master Circular",
+   "title": "Master Circular for compliance with the LODR Regulations by listed entities",
+   "issuing_department": "SEBI",
+   "theme": "Continuous disclosure and corporate governance",
+   "reference_no": "",
+   "issue_date": "2026-01-30",
+   "updated_as_on": "2026-01-30",
+   "effective_date": "2026-01-30",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/master-circulars/jan-2026/master-circular-for-compliance-with-the-provisions-of-the-securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-by-listed-entities_99432.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2026/1769776024792.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Listed entities with specified securities, and stock exchanges and depositories enforcing the LODR Regulations"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Formats for disclosures, shareholding pattern and corporate governance reports",
+    "Standard operating procedure for fines and freezing of promoter holdings",
+    "Disclosure of material events and timelines"
+   ],
+   "core_obligations": [
+    "File disclosures, shareholding patterns and governance reports in the formats in the circular",
+    "On notice from a stock exchange for non-payment of fines, depositories freeze or unfreeze promoter holdings as directed"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "Exchange fines and freezing of promoter and promoter group holdings under the standard operating procedure"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-LODR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-NCS",
+   "type": "Master Circular",
+   "short_name": "NCS Master Circular",
+   "title": "Master Circular for issue and listing of non-convertible securities, securitised debt instruments, security receipts, municipal debt securities and commercial paper",
+   "issuing_department": "SEBI",
+   "theme": "Issue and listing (equity and debt)",
+   "reference_no": "",
+   "issue_date": "2025-10-15",
+   "updated_as_on": "2025-10-15",
+   "effective_date": "2025-10-15",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/master-circulars/oct-2025/master-circular-for-issue-and-listing-of-non-convertible-securities-securitised-debt-instruments-security-receipts-municipal-debt-securities-and-commercial-paper_97343.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2025/1760532257519.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Issuers of listed non-convertible securities, commercial paper, securitised debt instruments, security receipts and municipal debt securities"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Electronic book provider mechanism",
+    "Listing of commercial paper",
+    "Recovery Expense Fund",
+    "Investor protection in debt issues"
+   ],
+   "core_obligations": [
+    "Follow the process, disclosures and timelines in the circular for public issues and private placements of debt"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-NCS",
+    "MC-NCS-LODR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-NCS-LODR",
+   "type": "Master Circular",
+   "short_name": "Debt listing obligations Master Circular",
+   "title": "Master Circular for listing obligations and disclosure requirements for non-convertible securities, securitised debt instruments and/or commercial paper",
+   "issuing_department": "SEBI",
+   "theme": "Continuous disclosure and corporate governance",
+   "reference_no": "",
+   "issue_date": "2025-07-11",
+   "updated_as_on": "2025-07-11",
+   "effective_date": "2025-07-11",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/master-circulars/jul-2025/master-circular-for-listing-obligations-and-disclosure-requirements-for-non-convertible-securities-securitized-debt-instruments-and-or-commercial-paper_95230.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1752233667904.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Entities with listed non-convertible securities, securitised debt instruments or commercial paper"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Formats for financial results, asset cover and payment certificates",
+    "Disclosures to debenture trustees and stock exchanges"
+   ],
+   "core_obligations": [
+    "Submit Chapter V filings, including payment status and asset cover, in the formats specified"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-LODR",
+    "REG-NCS",
+    "MC-DT"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-MF",
+   "type": "Regulation",
+   "short_name": "Mutual Funds Regulations 2026",
+   "title": "SEBI (Mutual Funds) Regulations, 2026 (last amended on 10-10-2026)",
+   "issuing_department": "SEBI",
+   "theme": "Fund management (MF and AIF)",
+   "reference_no": "SEBI/LAD-NRO/GN/2026/296",
+   "issue_date": "2026-01-15",
+   "updated_as_on": "2026-10-10",
+   "effective_date": "2026-04-01",
+   "status": "In force (from 01-04-2026)",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-mutual-funds-regulations-2026-last-amended-on-october-10-2026-_105356.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792659909505.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Mutual funds, their sponsors, trustee companies and asset management companies",
+    "Specialized Investment Funds (Chapter IX) and Mutual Fund Lite (Chapter X)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Sponsor eligibility and AMC net worth (regulation 5)",
+    "Trustee company and its duties (regulations 11, 12)",
+    "AMC eligibility and obligations (regulations 16, 17, 22)",
+    "Permitted business of an AMC (regulation 21)",
+    "Scheme launch, winding up and investment restrictions",
+    "Total expense ratio (regulations 66, 67)",
+    "Specialized Investment Fund and MF Lite"
+   ],
+   "core_obligations": [
+    "regulation 5(1)(e): the sponsor keeps the AMC's net worth at the required level at all times: Rs 50 crore under the profitability route; Rs 150 crore at registration under the alternative route, then at least Rs 100 crore",
+    "regulation 16(2)(c): at least half of the AMC board are not associates of the sponsor, its subsidiaries or the trustees",
+    "regulation 17(a): no person may be a director of more than one AMC, except an independent director with board approval; AMC directors need prior trustee approval",
+    "regulation 21: an AMC may not act as trustee and may run only management and advisory services to pooled assets, with segregation and no material conflict of interest",
+    "regulation 42(1): a scheme may borrow only for temporary liquidity needs, up to 20% of net assets and for up to six months",
+    "regulation 43: NAV of each scheme is computed every day",
+    "regulation 44(4): exit load on an open-ended scheme may not exceed 3% of NAV",
+    "regulation 67(2): no charges other than the base expense ratio, brokerage, transaction cost, statutory levies and exit load may be charged to investors"
+   ],
+   "timelines": [
+    "regulation 22(2)(ii): bio-data of key personnel to the trustees within 15 calendar days of appointment",
+    "regulation 36(3): trustees give notice of winding up of a scheme within one day",
+    "regulation 70(1)(a): annual report or abridged summary to unitholders within four months of year end",
+    "regulation 70(2)(a): half-yearly unaudited results on the website within one month of 31 March and 30 September",
+    "regulation 12: trustees review AMC reports and net worth quarterly and report to SEBI half-yearly"
+   ],
+   "consequences_stated": [
+    "regulation 46(2): delay in paying redemption, IDCW or refunds carries interest at 15% a year for the period of delay",
+    "regulation 81: AMC, mutual fund, trustee or sponsor in default is liable to action under the SEBI Act and the Intermediaries Regulations",
+    "SEBI Act s. 15D and 15E"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "MC-MF",
+    "REG-INTERMED",
+    "REG-AIF",
+    "REG-MF-OLD"
+   ],
+   "repeals": "SEBI (Mutual Funds) Regulations, 1996 (regulation 85)"
+  },
+  {
+   "id": "MC-MF",
+   "type": "Master Circular",
+   "short_name": "Mutual Funds Master Circular",
+   "title": "Master Circular for Mutual Funds",
+   "issuing_department": "SEBI",
+   "theme": "Fund management (MF and AIF)",
+   "reference_no": "",
+   "issue_date": "2026-03-20",
+   "updated_as_on": "2026-03-20",
+   "effective_date": "2026-03-20",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/master-circulars/mar-2026/master-circular-for-mutual-funds_100491.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/mar-2026/1774024028162.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Mutual funds, AMCs, trustees and distributors"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Scheme categorisation",
+    "Valuation",
+    "Risk-o-meter and disclosures",
+    "Investor services, transfer of redemption proceeds",
+    "Distributor conduct"
+   ],
+   "core_obligations": [
+    "Follow the operational, disclosure and investor service norms in the circular, read with the MF Regulations 2026"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-MF"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-AIF",
+   "type": "Regulation",
+   "short_name": "AIF Regulations",
+   "title": "SEBI (Alternative Investment Funds) Regulations, 2012 (last amended on 15-10-2026)",
+   "issuing_department": "SEBI",
+   "theme": "Fund management (MF and AIF)",
+   "reference_no": "",
+   "issue_date": "2012-05-21",
+   "updated_as_on": "2026-10-15",
+   "effective_date": "2012-05-21",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-alternative-investment-funds-regulations-2012-last-amended-on-october-15-2026-_105374.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792668513871.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Alternative Investment Funds of Category I, II and III, their sponsors and managers",
+    "Angel funds, social impact funds and large value funds for accredited investors"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Categories of AIF",
+    "Minimum corpus and investment (regulation 10)",
+    "Sponsor or manager continuing interest",
+    "Tenure (regulation 13)",
+    "Investment conditions and concentration limits (regulation 15)",
+    "Accredited investors"
+   ],
+   "core_obligations": [
+    "regulation 10(b): each scheme has a corpus of at least Rs 20 crore (Rs 5 crore for a social impact fund)",
+    "regulation 10(c): minimum investment of Rs 1 crore per investor (Rs 25 lakh for employees or directors; not applicable to accredited investors)",
+    "regulation 10(d): manager or sponsor keeps a continuing interest of the lower of 2.5% of corpus or Rs 5 crore (Category III: lower of 5% or Rs 10 crore), not by waiving fees",
+    "regulation 10(f): no scheme may have more than 1,000 investors, excluding accredited investors",
+    "regulation 10(aa): units are issued in dematerialised form",
+    "regulation 15(1)(c): Category I and II invest no more than 25% of investable funds in one investee company (50% for large value funds)",
+    "regulation 15(1)(d): Category III invests no more than 10% of investable funds in one investee company (20% for large value funds); for listed equity the limit may be applied to investable funds or to the scheme's net asset value"
+   ],
+   "timelines": [
+    "regulation 13(2): Category I and II funds and schemes have a minimum tenure of three years"
+   ],
+   "consequences_stated": [
+    "SEBI Act s. 15EA",
+    "Intermediaries Regulations: suspension or cancellation of registration"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "MC-AIF",
+    "REG-INTERMED",
+    "REG-SAST"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-AIF",
+   "type": "Master Circular",
+   "short_name": "AIF Master Circular",
+   "title": "Master Circular for Alternative Investment Funds (AIFs)",
+   "issuing_department": "SEBI",
+   "theme": "Fund management (MF and AIF)",
+   "reference_no": "",
+   "issue_date": "2026-06-03",
+   "updated_as_on": "2026-06-03",
+   "effective_date": "2026-06-03",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/master-circulars/jun-2026/master-circular-for-alternative-investment-funds-aifs-_101817.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1793875212889.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "AIFs, their managers, trustees and custodians"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Private placement memorandum template",
+    "Annual audit of compliance with the PPM",
+    "Dematerialisation of units and investments",
+    "Standardised valuation",
+    "Performance benchmarking"
+   ],
+   "core_obligations": [
+    "para 8.10: annual audit of compliance with the terms of the PPM",
+    "Chapter 11: units and investments held in dematerialised form, as specified",
+    "Chapter 18: value the portfolio using the standardised approach",
+    "Chapter 22: performance benchmarking on a half-yearly basis"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-AIF"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-SB",
+   "type": "Regulation",
+   "short_name": "Stock Brokers Regulations 2026",
+   "title": "SEBI (Stock Brokers) Regulations, 2026",
+   "issuing_department": "SEBI",
+   "theme": "Intermediary conduct and net worth",
+   "reference_no": "SEBI/LAD-NRO/GN/2026/291",
+   "issue_date": "2026-01-07",
+   "updated_as_on": "",
+   "effective_date": "2026-01-07",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/jan-2026/securities-and-exchange-board-of-india-stock-brokers-regulations-2026_98974.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2026/1767852346757.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Stock brokers, clearing members, self-clearing members and professional clearing members"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Registration through a recognised stock exchange (Chapter II)",
+    "Qualified stock brokers (regulation 19)",
+    "Institutional mechanism to prevent and detect fraud and market abuse (Chapter IV)",
+    "Code of conduct (Chapter VIII)",
+    "Fees (Chapter IX)",
+    "Net worth and deposit (Chapter X)"
+   ],
+   "core_obligations": [
+    "regulation 15: keep books of account and records, physically or electronically",
+    "regulation 17: appoint a compliance officer, who reports non-compliance immediately and independently to the stock exchange",
+    "regulation 21: systems for surveillance and internal controls to detect, prevent and report fraud or market abuse by clients, staff and authorised persons",
+    "regulation 25: a documented whistle blower policy",
+    "regulation 36: maintain high standards of integrity, promptitude and fairness, and act with due skill, care and diligence",
+    "regulation 47: minimum net worth: trading member Rs 1 crore; self-clearing member Rs 5 crore; clearing member Rs 15 crore; professional clearing member Rs 50 crore (or variable net worth if higher)"
+   ],
+   "timelines": [
+    "regulation 16: books and records kept for at least eight years"
+   ],
+   "consequences_stated": [
+    "regulation 33: action under securities laws, including the Intermediaries Regulations",
+    "SEBI Act s. 15F and 15HB"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "MC-SB",
+    "REG-INTERMED",
+    "REG-SB-OLD"
+   ],
+   "repeals": "SEBI (Stock Brokers) Regulations, 1992 (regulation 51)"
+  },
+  {
+   "id": "MC-SB",
+   "type": "Master Circular",
+   "short_name": "Stock Brokers Master Circular",
+   "title": "Master Circular for Stock Brokers",
+   "issuing_department": "SEBI",
+   "theme": "Intermediary conduct and net worth",
+   "reference_no": "",
+   "issue_date": "2025-06-17",
+   "updated_as_on": "2025-06-17",
+   "effective_date": "2025-06-17",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-stock-brokers_94623.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/jun-2025/1750158789381.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Stock brokers and clearing members"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Settlement of running account of client funds",
+    "Upstreaming of client funds to clearing corporations",
+    "Most Important Terms and Conditions (MITC)",
+    "Nomination for trading accounts"
+   ],
+   "core_obligations": [
+    "Settle running accounts of client funds as specified",
+    "Upstream clients' funds to the clearing corporation as specified",
+    "Give clients the Most Important Terms and Conditions and obtain acknowledgement"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-SB"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-INTERMED",
+   "type": "Regulation",
+   "short_name": "Intermediaries Regulations",
+   "title": "SEBI (Intermediaries) Regulations, 2008 (last amended on 10-10-2026)",
+   "issuing_department": "SEBI",
+   "theme": "Entry and registration",
+   "reference_no": "",
+   "issue_date": "2008-05-26",
+   "updated_as_on": "2026-10-10",
+   "effective_date": "2008-05-26",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-intermediaries-regulations-2008-last-amended-on-october-10-2026-_105373.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792753250139.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Every intermediary registered with SEBI, including stock brokers, AMCs, AIFs, depository participants, debenture trustees and credit rating agencies"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Common registration procedure",
+    "Fit and proper person criteria (Schedule II)",
+    "Prior approval for change in control",
+    "General obligations and code of conduct"
+   ],
+   "core_obligations": [
+    "Schedule II: the intermediary, its principal officer, directors, promoters and key managerial personnel must be fit and proper at all times",
+    "regulation 9(1)(a): an intermediary that proposes a change in status or constitution, including a change in control, obtains SEBI's prior approval before the change in order to continue as an intermediary"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "Suspension or cancellation of registration and other directions under the SEBI Act"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "ACT-SEBI",
+    "REG-SB",
+    "REG-MF",
+    "REG-AIF"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-DP",
+   "type": "Regulation",
+   "short_name": "Depositories and Participants",
+   "title": "SEBI (Depositories and Participants) Regulations, 2018 (last amended on 22-11-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Entry and registration",
+   "reference_no": "",
+   "issue_date": "2018-10-03",
+   "updated_as_on": "2025-11-22",
+   "effective_date": "2018-10-03",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/nov-2025/securities-and-exchange-board-of-india-depositories-and-participants-regulations-2018-last-amended-on-november-22-2025-_98196.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1786957172778.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Depositories and depository participants, including stock brokers registered as participants"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Registration of depositories and participants",
+    "Net worth of a depository of at least Rs 100 crore",
+    "Eligibility of stock brokers and NBFCs as participants"
+   ],
+   "core_obligations": [
+    "A stock broker may become a participant if it meets the net worth and other conditions in the regulation"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "Depositories Act ss. 19A to 19H"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "ACT-DEP",
+    "MC-DP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-DP",
+   "type": "Master Circular",
+   "short_name": "Depositories Master Circular",
+   "title": "Master Circular for Depositories",
+   "issuing_department": "SEBI",
+   "theme": "Intermediary conduct and net worth",
+   "reference_no": "",
+   "issue_date": "2024-12-03",
+   "updated_as_on": "2024-12-03",
+   "effective_date": "2024-12-03",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/master-circulars/dec-2024/master-circular-for-depositories_89245.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2024/1733233982158.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Depositories and depository participants"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Account opening and nomination",
+    "Pledge and margin pledge",
+    "Reconciliation and transfer of securities"
+   ],
+   "core_obligations": [
+    "Follow the account, pledge and reporting processes in the circular"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-DP",
+    "ACT-DEP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-KRA",
+   "type": "Regulation",
+   "short_name": "KYC Registration Agency",
+   "title": "SEBI {KYC (Know Your Client) Registration Agency} Regulations, 2011 (last amended on 10-02-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Investor protection, grievances and ODR",
+   "reference_no": "",
+   "issue_date": "2011-12-02",
+   "updated_as_on": "2025-02-10",
+   "effective_date": "2011-12-02",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/feb-2025/securities-and-exchange-board-of-india-kyc-know-your-client-registration-agency-regulations-2011-last-amended-on-february-10-2025-_92423.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1786079439303.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "KYC registration agencies and every intermediary that does KYC of clients"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Single KYC across intermediaries",
+    "Upload of KYC records to a KRA"
+   ],
+   "core_obligations": [
+    "Intermediaries upload client KYC records to a KRA and rely on KRA records as specified"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-INTERMED"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-IA",
+   "type": "Regulation",
+   "short_name": "Investment Advisers",
+   "title": "SEBI (Investment Advisers) Regulations, 2013 (last amended on 25-11-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Entry and registration",
+   "reference_no": "",
+   "issue_date": "2013-01-21",
+   "updated_as_on": "2025-11-25",
+   "effective_date": "2013-04-21",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/nov-2025/securities-and-exchange-board-of-india-investment-advisers-regulations-2013-and-securities-last-amended-on-november-25-2025-_98246.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1785912187595.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Persons giving investment advice for consideration"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Registration and deposit",
+    "Qualification and experience",
+    "Client level segregation of advisory and distribution"
+   ],
+   "core_obligations": [
+    "Advisory and distribution are segregated at client level",
+    "Advice is given only after registration and with the deposit kept as specified"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "SEBI Act s. 15EB"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-RA",
+    "REG-SB"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-RA",
+   "type": "Regulation",
+   "short_name": "Research Analysts",
+   "title": "SEBI (Research Analysts) Regulations, 2014 (last amended on 10-10-2026)",
+   "issuing_department": "SEBI",
+   "theme": "Entry and registration",
+   "reference_no": "",
+   "issue_date": "2014-09-01",
+   "updated_as_on": "2026-10-10",
+   "effective_date": "2014-12-01",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-research-analysts-regulations-2014-last-amended-on-october-10-2026-_105294.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792127227860.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Research analysts and research entities, including stock brokers publishing research"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Registration and deposit",
+    "Disclosures in research reports",
+    "Conflict of interest management"
+   ],
+   "core_obligations": [
+    "Research is published only after registration, with the disclosures and conflict controls specified"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "SEBI Act s. 15EB"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-IA",
+    "REG-SB"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-DT",
+   "type": "Regulation",
+   "short_name": "Debenture Trustees",
+   "title": "SEBI (Debenture Trustees) Regulations, 1993 (last amended on 27-10-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Issue and listing (equity and debt)",
+   "reference_no": "",
+   "issue_date": "1993-10-29",
+   "updated_as_on": "2025-10-27",
+   "effective_date": "1993-10-29",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/oct-2025/securities-and-exchange-board-of-india-debenture-trustees-regulations-1993-last-amended-on-october-27-2025-_97887.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1788347356542.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Debenture trustees, and issuers of listed debt that must appoint one"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Net worth of at least Rs 10 crore",
+    "Monitoring of security and asset cover",
+    "Duties on default"
+   ],
+   "core_obligations": [
+    "A debenture trustee keeps a net worth of at least Rs 10 crore",
+    "The trustee monitors the security created and the asset cover, and acts on default as the regulations and trust deed require"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-NCS",
+    "MC-DT"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-DT",
+   "type": "Master Circular",
+   "short_name": "Debenture Trustees Master Circular",
+   "title": "Master Circular for Debenture Trustees",
+   "issuing_department": "SEBI",
+   "theme": "Issue and listing (equity and debt)",
+   "reference_no": "",
+   "issue_date": "2026-09-28",
+   "updated_as_on": "2026-09-28",
+   "effective_date": "2026-09-28",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/master-circulars/sep-2026/master-circular-for-debenture-trustees_104743.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1790593347737.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Debenture trustees and issuers of listed debt"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Due diligence before issue",
+    "Asset cover monitoring",
+    "Action on default and inter-creditor processes"
+   ],
+   "core_obligations": [
+    "Issuers give debenture trustees the information and certificates the circular lists, within its timelines"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-DT",
+    "REG-NCS",
+    "MC-NCS-LODR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-CRA",
+   "type": "Regulation",
+   "short_name": "Credit Rating Agencies",
+   "title": "SEBI (Credit Rating Agencies) Regulations, 1999 (last amended on 15-01-2026)",
+   "issuing_department": "SEBI",
+   "theme": "Issue and listing (equity and debt)",
+   "reference_no": "",
+   "issue_date": "1999-07-07",
+   "updated_as_on": "2026-01-15",
+   "effective_date": "1999-07-07",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/jan-2026/securities-and-exchange-board-of-india-credit-rating-agencies-regulations-1999-last-amended-on-january-15-2026-_99126.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1788347189060.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Credit rating agencies, and issuers of rated listed debt"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Rating process and monitoring",
+    "Disclosure of ratings"
+   ],
+   "core_obligations": [
+    "Issuers of listed debt cooperate with the rating agency and give the information needed for monitoring"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-NCS",
+    "MC-CRA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-CRA",
+   "type": "Master Circular",
+   "short_name": "Credit Rating Agencies Master Circular",
+   "title": "Master Circular for Credit Rating Agencies (CRAs)",
+   "issuing_department": "SEBI",
+   "theme": "Issue and listing (equity and debt)",
+   "reference_no": "",
+   "issue_date": "2025-07-11",
+   "updated_as_on": "2025-07-11",
+   "effective_date": "2025-07-11",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/master-circulars/jul-2025/master-circular-for-credit-rating-agencies-cras-_95221.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1752231798161.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Credit rating agencies"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Rating scales, default recognition and disclosures"
+   ],
+   "core_obligations": [
+    "Follow the rating process and disclosure norms in the circular"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-CRA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-SCORES",
+   "type": "Circular",
+   "short_name": "SCORES grievance redress",
+   "title": "Redressal of investor grievances through the SEBI Complaint Redressal (SCORES) Platform and linking it to the Online Dispute Resolution platform",
+   "issuing_department": "SEBI",
+   "theme": "Investor protection, grievances and ODR",
+   "reference_no": "",
+   "issue_date": "2023-09-20",
+   "updated_as_on": "2023-09-20",
+   "effective_date": "2023-12-04",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/circulars/sep-2023/redressal-of-investor-grievances-through-the-sebi-complaint-redressal-scores-platform-and-linking-it-to-online-dispute-resolution-platform_77159.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2023/1695456916964.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Listed companies and all SEBI-registered intermediaries that receive complaints through SCORES"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Action taken report",
+    "First review by the designated body",
+    "Second review by SEBI",
+    "Link to online dispute resolution"
+   ],
+   "core_obligations": [
+    "Resolve a complaint received through SCORES and upload the action taken report within 21 calendar days of receipt",
+    "The investor may seek a second review within 15 calendar days if unhappy with the outcome of the first review"
+   ],
+   "timelines": [
+    "21 calendar days to resolve and file the action taken report"
+   ],
+   "consequences_stated": [
+    "SEBI Act s. 15C: failure to redress grievances when called upon by SEBI"
+   ],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "MC-ODR",
+    "REG-LODR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-ODR",
+   "type": "Master Circular",
+   "short_name": "Online dispute resolution",
+   "title": "Master Circular for Online Resolution of Disputes in the Indian Securities Market",
+   "issuing_department": "SEBI",
+   "theme": "Investor protection, grievances and ODR",
+   "reference_no": "",
+   "issue_date": "2023-12-28",
+   "updated_as_on": "2023-12-28",
+   "effective_date": "2023-12-28",
+   "status": "In force",
+   "official_url": "https://www.sebi.gov.in/legal/master-circulars/dec-2023/master-circular-for-online-resolution-of-disputes-in-the-indian-securities-market_80236.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2023/1703763993735.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "Investors and clients, listed companies and SEBI-registered intermediaries, through the Smart ODR portal"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Online conciliation, then online arbitration",
+    "Smart ODR portal run with the stock exchanges and depositories"
+   ],
+   "core_obligations": [
+    "Enrol on the ODR portal and take part in conciliation and arbitration of disputes with investors",
+    "Conciliation is concluded within 21 calendar days (extendable by 10 days with consent)"
+   ],
+   "timelines": [
+    "21 calendar days for conciliation"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "MC-SCORES"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MC-CSCRF",
+   "type": "Circular",
+   "short_name": "Cybersecurity framework (CSCRF)",
+   "title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities, with clarifications of 2024-25",
+   "issuing_department": "SEBI",
+   "theme": "Cyber security and IT",
+   "reference_no": "",
+   "issue_date": "2024-08-20",
+   "updated_as_on": "2025-08-28",
+   "effective_date": "2025-01-01",
+   "status": "In force (with extended timelines in later circulars)",
+   "official_url": "https://www.sebi.gov.in/legal/circulars/aug-2024/cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_85964.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+   "statutory_powers": [],
+   "applies_to": [
+    "SEBI regulated entities, graded by size: market infrastructure institutions, qualified, mid-size, small-size and self-certification entities, including AMCs, stock brokers, depository participants and AIFs"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Governance, identify, protect, detect, respond and recover",
+    "Cyber Capability Index for MIIs and qualified entities",
+    "Security Operation Centre",
+    "Vulnerability assessment and penetration testing (VAPT)"
+   ],
+   "core_obligations": [
+    "Adopt a board-approved cyber security and cyber resilience policy in line with the framework",
+    "Carry out VAPT at the frequency set for the entity's category",
+    "Report cyber incidents to SEBI and CERT-In within 6 hours of noticing them"
+   ],
+   "timelines": [
+    "Cyber incidents reported within 6 hours",
+    "Adoption timelines were extended by the circulars of 28-03-2025 and 30-06-2025"
+   ],
+   "consequences_stated": [],
+   "consequences_general": "SEBI Act, 1992: SEBI may issue directions, including disgorgement and debarment (s. 11, 11B), pass cease and desist orders (s. 11D) and suspend or cancel registration (s. 12(3)). Adjudicating officers impose penalties under ss. 15A to 15HB: for example, failure to file returns or furnish information carries at least Rs 1 lakh, and up to Rs 1 lakh a day while it continues, capped at Rs 1 crore (s. 15A); insider trading and fraudulent or unfair trade practices carry Rs 10 lakh (s. 15G) or Rs 5 lakh (s. 15HA) up to Rs 25 crore or three times the profit, whichever is higher; any breach with no specific penalty carries Rs 1 lakh up to Rs 1 crore (s. 15HB). Contraventions are also offences punishable with imprisonment up to 10 years, a fine up to Rs 25 crore, or both (s. 24). Proceedings may be settled under s. 15JB. Appeals lie to the Securities Appellate Tribunal within 45 days (s. 15T).",
+   "cross_references": [
+    "REG-LODR"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-MF-OLD",
+   "type": "Superseded instrument",
+   "short_name": "Mutual Funds Regulations 1996",
+   "title": "SEBI (Mutual Funds) Regulations, 1996 (last amended on 01-11-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Superseded (history)",
+   "reference_no": "",
+   "issue_date": "",
+   "updated_as_on": "2025-11-01",
+   "effective_date": "",
+   "status": "Repealed",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/nov-2025/securities-and-exchange-board-of-india-mutual-funds-regulations-1996-last-amended-on-november-01-2025-_99120.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2026/1768571780322.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "REG-MF"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-SB-OLD",
+   "type": "Superseded instrument",
+   "short_name": "Stock Brokers Regulations 1992",
+   "title": "SEBI (Stock Brokers) Regulations, 1992 (last amended on 10-02-2025)",
+   "issuing_department": "SEBI",
+   "theme": "Superseded (history)",
+   "reference_no": "",
+   "issue_date": "",
+   "updated_as_on": "2025-02-10",
+   "effective_date": "",
+   "status": "Repealed",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/feb-2025/securities-and-exchange-board-of-india-stock-brokers-regulations-1992-last-amended-on-february-10-2025-_92446.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/mar-2025/1741147425621.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "REG-SB"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "REG-SETTLE-OLD",
+   "type": "Superseded instrument",
+   "short_name": "Settlement Regulations 2018",
+   "title": "SEBI (Settlement Proceedings) Regulations, 2018 (last amended on 28-11-2024)",
+   "issuing_department": "SEBI",
+   "theme": "Superseded (history)",
+   "reference_no": "",
+   "issue_date": "",
+   "updated_as_on": "2024-11-28",
+   "effective_date": "",
+   "status": "Repealed",
+   "official_url": "https://www.sebi.gov.in/legal/regulations/nov-2024/securities-and-exchange-board-of-india-settlement-proceedings-regulations-2018-last-amended-on-november-28-2024-_89270.html",
+   "official_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1786079544836.pdf",
+   "statutory_powers": [],
+   "applies_to": [],
+   "excluded": [],
+   "key_concepts": [],
+   "core_obligations": [],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "REG-SETTLE"
+   ],
+   "repeals": ""
+  }
+ ]
+}
