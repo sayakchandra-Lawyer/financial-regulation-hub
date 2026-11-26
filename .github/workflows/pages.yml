@@ -9,6 +9,10 @@ on:
       - "*/index.html"
       - "index.html"
       - "tools/build_pages.py"
+      - "*/data/*_graph.json"
+      - "rbi/data/fulltext.json"
+      - "tools/build_entity.py"
+      - "tools/entity_rules.py"
   workflow_dispatch:
 permissions:
   contents: write
@@ -26,9 +30,11 @@ jobs:
           python-version: "3.12"
       - name: Build pages
         run: python3 -I tools/build_pages.py
+      - name: Build entity applicability data
+        run: python3 -I tools/build_entity.py
       - name: Commit if changed
         run: |
-          git add -A -- '*/i' '*/j' sitemap.xml robots.txt index.html '*/index.html'
+          git add -A -- '*/i' '*/j' sitemap.xml robots.txt index.html '*/index.html' entity/data/entity.json
           git diff --cached --quiet && { echo "No change"; exit 0; }
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"

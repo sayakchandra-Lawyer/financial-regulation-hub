@@ -232,6 +232,8 @@ def main():
                 write(os.path.join(out, j["id"], "index.html"), page(j.get("title"), desc, url, base, 3, sec["id"],
                       '<a href="../../../">Home</a> / <a href="../../">Key judgments</a>', judgment_body(j), "Key judgments"))
                 urls.append((url, j.get("date"))); n += 1
+    for t in hub.get("tools", []):
+        urls.append((base + t["href"], None))
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u, lm in urls:
         lm = lm if re.match(r"\d{4}-\d{2}-\d{2}$", str(lm or "")) else None

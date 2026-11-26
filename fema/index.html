@@ -20,7 +20,7 @@
 <!-- og:end -->
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/hub.css?v=20261126n">
+<link rel="stylesheet" href="../assets/hub.css?v=20261126x">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
 <style>
 .shead{display:flex;align-items:flex-end;gap:24px;padding-top:36px;flex-wrap:wrap}
@@ -73,7 +73,7 @@ details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-
   <div id="view"><p class="tag" style="padding:60px 0">Loading the FEMA register…</p></div>
 </main>
 <footer id="foot"></footer>
-<script src="../assets/hub.js?v=20261126n"></script>
+<script src="../assets/hub.js?v=20261126x"></script>
 <script>
 (async function(){
   const hub = await getJSON("../hub.json");
@@ -186,7 +186,7 @@ details.cg summary{cursor:pointer;color:var(--accent-text);font-weight:600;font-
   }
   function vWho(){
     const its = live();
-    return `<div class="pg" style="margin-top:28px"><div class="cols" style="margin-top:0"><div><h2>Does it apply to me?</h2><p class="tag" style="max-width:700px">${L < 0 ? "Say who you are to see only the rules that bind you." : `${its.length} instruments apply to a ${layerName()}: those written for it, plus Acts and rules that apply across the sector.`} Some provisions apply only to one line of business or one kind of intermediary; each page says who it covers.</p>
+    return `<div class="pg" style="margin-top:28px"><div class="cols" style="margin-top:0"><div><h2>Does it apply to me?</h2><p class="tag" style="margin:2px 0 6px"><a class="lnk" href="../entity/">Hold several licences or roles? See what applies across all regulators →</a></p><p class="tag" style="max-width:700px">${L < 0 ? "Say who you are to see only the rules that bind you." : `${its.length} instruments apply to a ${layerName()}: those written for it, plus Acts and rules that apply across the sector.`} Some provisions apply only to one line of business or one kind of intermediary; each page says who it covers.</p>
       ${M.themes.filter(t => !t.history).map(t => { const x = t.items.filter(it => appliesAt(M, it, L)); return x.length ? `<section style="margin-top:20px"><h3 style="font-size:19px;border-left:4px solid var(--t${t.idx});padding-left:10px">${esc(t.nice)} <span class="tag">${x.length}</span></h3>${x.map(it => instRow(it)).join("")}</section>` : ""; }).join("")}</div><aside>${layerCard()}</aside></div></div>`;
   }
   function vSearch(raw){
