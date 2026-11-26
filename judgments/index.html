@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Key judgments · Financial Regulation Hub</title>
+<meta name="description" content="Supreme Court and High Court judgments since 2010 with significant impact on lending, housing finance, mutual funds, stock broking, health insurance and life insurance: what each held, what it means in practice, and the rules it touches.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="../assets/hub.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cpath d='M16 6v20M6 16h20M9 9l14 14M23 9 9 23' stroke='white' stroke-width='2.4'/%3E%3C/svg%3E">
+<style>
+.shead{display:flex;align-items:flex-end;gap:24px;padding-top:36px;flex-wrap:wrap}
+.shead h1{font-size:clamp(30px,4.4vw,42px);margin-top:8px}
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin-top:22px;overflow-x:auto;scrollbar-width:none}
+.tabs a{padding:12px 14px;font-size:14px;color:var(--ink-2);border-bottom:2px solid transparent;white-space:nowrap}
+.tabs a:hover{color:var(--ink)}.tabs a.on{color:var(--ink);font-weight:600;border-color:var(--accent)}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:28px;margin-top:28px;align-items:start}
+@media (max-width:1000px){.cols{grid-template-columns:1fr}}
+.sc{padding:20px;display:flex;flex-direction:column;gap:10px;min-height:190px;border-top:3px solid var(--c);transition:transform .18s,box-shadow .18s;cursor:pointer}
+.sc:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.sc h3{font-size:19px}.sc ul{padding-left:16px;margin:0}.sc li{font-size:13.5px;color:var(--ink-2);margin:3px 0}
+.sc .more{margin-top:auto;font-size:12.5px;color:var(--accent-text);font-weight:600}
+.panel{padding:20px}
+.row{display:flex;gap:14px;align-items:flex-start;padding:14px 4px;border-top:1px solid var(--line);cursor:pointer}
+.row:hover{background:var(--surface-2)}.row .t{font-weight:600}.row .m{font-size:12.5px;color:var(--muted)}.row .s{font-size:13.5px;color:var(--ink-2);margin-top:4px}
+.pg h2{font-size:26px;margin-bottom:6px}
+.filter{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.dpage{display:grid;grid-template-columns:190px minmax(0,1fr) 300px;gap:36px;margin-top:30px}
+.dossier{min-width:0;overflow-wrap:anywhere}.dossier .pill{white-space:normal}
+@media (max-width:1100px){.dpage{grid-template-columns:minmax(0,1fr) 280px}.toc{display:none}}
+@media (max-width:800px){.dpage{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:600px){.kv{grid-template-columns:1fr}.kv dd{margin-bottom:8px}}
+.toc{position:sticky;top:84px;align-self:start}
+.toc a{display:block;padding:6px 0 6px 12px;font-size:14px;border-left:2px solid var(--line);color:var(--ink-2)}.toc a:hover,.toc a.on{color:var(--ink);border-color:var(--accent)}
+.dossier h2{font-size:22px;margin:34px 0 10px;scroll-margin-top:84px}
+.dossier ol,.dossier ul{padding-left:20px}.dossier li{margin:8px 0}
+.side{display:flex;flex-direction:column;gap:16px;position:sticky;top:84px;align-self:start}
+@media (max-width:800px){.side{position:static}}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:13.5px}.kv dt{color:var(--muted)}.kv dd{margin:0}
+.callout{border:1px solid color-mix(in srgb,var(--accent) 35%,var(--line));background:var(--accent-soft);padding:14px 16px;border-radius:12px;margin-top:18px;font-size:15px}
+.empty{color:var(--muted);font-size:14px;padding:10px 0}
+.sdot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--c);margin-right:6px;vertical-align:1px}
+</style>
+</head>
+<body>
+<header id="top"></header>
+<main class="wrap">
+  <div id="head"></div>
+  <div id="view"><p class="tag" style="padding:60px 0">Loading the judgments…</p></div>
+</main>
+<footer id="foot"></footer>
+<script src="../assets/hub.js"></script>
+<script>
+(async function(){
+  const hub = await getJSON("../hub.json");
+  const sec = hub.sections.find(s => s.id === "jud");
+  renderChrome(hub, { root: "../", active: "jud", sub: "Key judgments · courts on financial services", crumb: `<a href="../">Home</a> / <b>Key judgments</b>` });
+  const D = await getJSON("../" + sec.data.judgments);
+  $("#asof").textContent = `Judgments listed as on ${fmtDate(D.meta.as_of)}`;
+  const SECT = D.meta.sectors, ALL = D.judgments, byId = new Map(ALL.map(j => [j.id, j]));
+  const SI = Object.fromEntries(SECT.map((s, i) => [s.key, Object.assign({ c: `var(--t${i + 1})` }, s)]));
+  const nSC = ALL.filter(j => /Supreme/.test(j.court)).length, nHC = ALL.length - nSC;
+  const TABS = [["", "Overview"], ["all", "All judgments"], ...SECT.map(s => ["s/" + s.key, s.name.replace(/ \(.*\)/, "")])];
+  $("#head").innerHTML = `<div class="shead"><div style="flex:1;min-width:280px"><div class="eyebrow">${esc(sec.full)}</div><h1>Key judgments for financial services</h1>
+    <p style="color:var(--ink-2);margin:10px 0 0;max-width:740px">${ALL.length} rulings (${nSC} of the Supreme Court${nHC ? `, ${nHC} of a High Court` : ""}) that changed how lenders, housing finance companies, mutual funds, brokers and insurers work. Each one sets out the question, what the court held, what it means in practice and the rules it touches.</p></div></div>
+    <form class="search" id="qform" role="search" style="margin-top:22px">${I.search}<label class="sr" for="q">Search judgments</label><input id="q" type="search" autocomplete="off" placeholder="Search judgments, e.g. “wilful defaulter”, “SARFAESI auction”, “pre-existing disease”"><span class="kbd">/</span></form>
+    <nav class="tabs" id="tabs" aria-label="Judgment sections">${TABS.map(([h, t]) => `<a href="#${h}" data-tab="${h}">${esc(t)}</a>`).join("")}</nav>`;
+  let tmr = 0;
+  $("#q").addEventListener("input", () => { clearTimeout(tmr); tmr = setTimeout(() => { const v = $("#q").value.trim(); if (v.length >= 2) history.replaceState(null, "", "#search/" + encodeURIComponent(v)), route(); else if (!v && location.hash.startsWith("#search/")) history.replaceState(null, "", "#"), route(); }, 220); });
+  $("#qform").addEventListener("submit", e => { e.preventDefault(); const v = $("#q").value.trim(); if (v) location.hash = "#search/" + encodeURIComponent(v); });
+
+  const V = $("#view");
+  const cite = j => [j.neutral_citation, j.report_citation].filter(Boolean).join(" · ");
+  const statusPill = j => j.status === "Current" ? `<span class="pill p-live">Current</span>` : `<span class="pill p-grey">${esc(j.status)}</span>`;
+  const secPills = j => j.sectors.map(k => `<span class="pill p-grey"><span class="sdot" style="--c:${SI[k].c}"></span>${esc(SI[k].name)}</span>`).join(" ");
+  const row = (j, extra = "") => `<a class="row" href="#j/${j.id}"><div style="flex:1;min-width:0"><div class="t">${esc(j.title)}</div>
+    <div class="m">${esc(j.court)}<span class="sep"></span>${fmtDate(j.date)}${cite(j) ? `<span class="sep"></span>${esc(cite(j))}` : ""}</div>
+    <div class="s"><b style="color:var(--ink)">${esc(j.topic)}.</b> ${esc(trunc(j.holding[0], 190))}</div>${extra}</div>${statusPill(j)}</a>`;
+  const chips = cur => `<div class="filter"><span class="tag" style="align-self:center">Sector:</span>${[["all", "All sectors"], ...SECT.map(s => ["s/" + s.key, s.name])].map(([h, t]) => `<a class="chip ${cur === h ? "on" : ""}" href="#${h}">${esc(t)}</a>`).join("")}</div>`;
+
+  /* ---- views ---- */
+  function vOverview(){
+    return `<div class="cols"><div><div style="display:flex;align-items:baseline;gap:12px;margin-bottom:14px;flex-wrap:wrap"><h2 style="font-size:24px">Browse by sector</h2><span class="tag">${SECT.length} sectors · a ruling can appear in more than one</span></div>
+      <div class="grid g3">${SECT.map((s, i) => { const js = ALL.filter(j => j.sectors.includes(s.key)); return `<a class="card sc rise" style="--c:${SI[s.key].c};animation-delay:${.03*i}s" href="#s/${s.key}">
+        <div style="display:flex;align-items:baseline;gap:8px"><h3>${esc(s.name)}</h3><span class="tag" style="margin-left:auto">${js.length}</span></div>
+        <p class="tag" style="margin:0">${esc(s.desc)}</p>
+        <ul>${js.slice(0, 3).map(j => `<li>${esc(j.topic)}</li>`).join("")}</ul>${js.length > 3 ? `<span class="more">+ ${js.length - 3} more</span>` : ""}</a>`; }).join("")}</div></div>
+      <aside style="display:flex;flex-direction:column;gap:18px">
+        <div class="card panel"><div style="display:flex;align-items:baseline"><h2 style="font-size:19px">Most recent rulings</h2><a class="lnk tag" style="margin-left:auto" href="#all">See all</a></div>
+          ${ALL.slice(0, 5).map(j => `<a href="#j/${j.id}" style="display:block;padding:12px 0;border-top:1px solid var(--line)"><div class="tag">${fmtDate(j.date)} · ${esc(j.court)}</div><div style="font-weight:600;font-size:14px;margin-top:4px;line-height:1.4">${esc(j.title)}</div><div class="tag">${esc(j.topic)}</div></a>`).join("")}</div>
+        <div class="card panel"><h3 style="font-size:19px">From ruling to rule</h3><p class="tag" style="margin:6px 0 12px">Each judgment links to the RBI, SEBI or IRDAI rules it affects, so you can read the rule as it stands today.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn g" href="../rbi/">RBI rules ${I.arrow}</a><a class="btn g" href="../sebi/">SEBI rules ${I.arrow}</a><a class="btn g" href="../irdai/">IRDAI rules ${I.arrow}</a></div></div>
+      </aside></div>`;
+  }
+  function vList(key){
+    const js = key ? ALL.filter(j => j.sectors.includes(key)) : ALL;
+    const s = key && SI[key];
+    if (key && !s) return `<p class="empty">Sector not found. <a class="lnk" href="#all">See all judgments</a></p>`;
+    return `<div class="pg" style="margin-top:28px"><h2>${s ? esc(s.name) : "All judgments"}</h2><p class="tag" style="margin:0">${js.length} judgment${js.length === 1 ? "" : "s"}${s ? ` · ${esc(s.desc)}` : ", newest first"}</p>
+      ${chips(key ? "s/" + key : "all")}<div class="card" style="padding:4px 18px">${js.map(j => row(j)).join("") || '<p class="empty">No judgments yet.</p>'}</div></div>`;
+  }
+  function vSearch(raw){
+    const words = raw.toLowerCase().split(/\s+/).filter(w => w.length > 1);
+    const hay = j => [j.title, j.topic, j.issue, ...j.holding, ...j.impact, ...j.statutes, j.case_no, j.neutral_citation, j.report_citation, j.court, ...j.sectors.map(k => SI[k].name), ...j.links.map(l => l.label)].join(" ").toLowerCase();
+    const score = j => { const h = hay(j), t = (j.title + " " + j.topic).toLowerCase(); return words.reduce((a, w) => a + (h.includes(w) ? 1 + (t.includes(w) ? 2 : 0) : -100), 0); };
+    const hits = ALL.map(j => [j, score(j)]).filter(x => x[1] > 0).sort((a, b) => b[1] - a[1]).map(x => x[0]);
+    return `<div class="pg" style="margin-top:28px"><h2>Results for “${esc(raw)}”</h2><p class="tag" style="margin:0">${hits.length} judgment${hits.length === 1 ? "" : "s"}</p>
+      <div class="card" style="padding:4px 18px;margin-top:14px">${hits.map(j => row(j)).join("") || `<p class="empty">No judgment matches every word. Try fewer words, or <a class="lnk" href="#all">browse all judgments</a>.</p>`}</div></div>`;
+  }
+  function vJudgment(id){
+    const j = byId.get(id); if (!j) return `<p class="empty" style="margin-top:28px">Judgment not found. <a class="lnk" href="#all">See all judgments</a></p>`;
+    const same = ALL.filter(x => x.id !== j.id && x.sectors.some(k => j.sectors.includes(k))).slice(0, 4);
+    return `<div class="dpage"><nav class="toc" aria-label="On this page"><a href="#j/${j.id}" data-sec="issue">The question</a><a href="#j/${j.id}" data-sec="held">What the court held</a><a href="#j/${j.id}" data-sec="impact">What it means</a>${j.links.length || j.statutes.length ? `<a href="#j/${j.id}" data-sec="law">Law involved</a>` : ""}</nav>
+      <article class="dossier"><a class="lnk tag" href="#s/${j.sectors[0]}">← ${esc(SI[j.sectors[0]].name)}</a>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">${statusPill(j)}${secPills(j)}</div>
+        <h1 style="font-size:clamp(26px,3.6vw,36px);margin-top:12px">${esc(j.title)}</h1>
+        <p class="tag" style="margin:6px 0 0">${esc(j.court)} · decided ${fmtDate(j.date)}${cite(j) ? ` · ${esc(cite(j))}` : ""}</p>
+        <h2 id="issue">The question</h2><div class="callout">${esc(j.issue)}</div>
+        <h2 id="held">What the court held</h2><ol>${j.holding.map(h => `<li>${esc(h)}</li>`).join("")}</ol>
+        <h2 id="impact">What it means in practice</h2><ul>${j.impact.map(h => `<li>${esc(h)}</li>`).join("")}</ul>
+        ${j.links.length || j.statutes.length ? `<h2 id="law">Law involved</h2>
+          ${j.links.length ? `<p class="tag" style="margin:0 0 8px">Rules on this site</p><div style="display:flex;gap:8px;flex-wrap:wrap">${j.links.map(l => `<a class="chip" href="${esc(l.href)}">${esc(l.section.toUpperCase())} · ${esc(l.label)}</a>`).join("")}</div>` : ""}
+          ${j.statutes.length ? `<p class="tag" style="margin:14px 0 4px">Statutes and instruments considered</p><ul style="font-size:14px">${j.statutes.map(s => `<li style="margin:3px 0">${esc(s)}</li>`).join("")}</ul>` : ""}` : ""}
+      </article>
+      <aside class="side"><div class="card panel"><h3 style="font-size:17px;margin:0 0 10px">Case details</h3><dl class="kv">
+          <dt>Court</dt><dd>${esc(j.court)}</dd>${j.bench ? `<dt>Bench</dt><dd>${esc(j.bench)}</dd>` : ""}<dt>Decided</dt><dd>${fmtDate(j.date)}</dd>
+          ${j.case_no ? `<dt>Case</dt><dd>${esc(j.case_no)}</dd>` : ""}${j.neutral_citation ? `<dt>Neutral citation</dt><dd>${esc(j.neutral_citation)}</dd>` : ""}${j.report_citation && j.report_citation !== j.case_no ? `<dt>Reported</dt><dd>${esc(j.report_citation)}</dd>` : ""}
+          <dt>Status</dt><dd>${esc(j.status)}${j.status_note ? `<div class="tag" style="margin-top:2px">${esc(j.status_note)}</div>` : ""}</dd></dl>
+          <a class="btn p" style="margin-top:14px;width:100%;justify-content:center" href="${esc(j.url)}" target="_blank" rel="noopener">Read the judgment ${I.ext}</a></div>
+        ${same.length ? `<div class="card panel"><h3 style="font-size:17px;margin:0 0 4px">Related rulings</h3>${same.map(x => `<a href="#j/${x.id}" style="display:block;padding:10px 0;border-top:1px solid var(--line)"><div style="font-weight:600;font-size:14px;line-height:1.4">${esc(x.title)}</div><div class="tag">${esc(x.topic)} · ${fmtDate(x.date)}</div></a>`).join("")}</div>` : ""}
+      </aside></div>`;
+  }
+
+  function route(){
+    const h = decodeURIComponent(location.hash.slice(1));
+    const [a, ...r] = h.split("/"), rest = r.join("/");
+    let tab = "";
+    if (a === "j") { V.innerHTML = vJudgment(rest); }
+    else if (a === "s") { V.innerHTML = vList(rest); tab = "s/" + rest; }
+    else if (a === "all") { V.innerHTML = vList(""); tab = "all"; }
+    else if (a === "search") { V.innerHTML = vSearch(rest); if ($("#q").value.trim() !== rest) $("#q").value = rest; tab = "-"; }
+    else { V.innerHTML = vOverview(); }
+    $$("#tabs a").forEach(x => x.classList.toggle("on", x.dataset.tab === tab && a !== "j"));
+    if (a === "j") {
+      $$(".toc a").forEach(x => x.addEventListener("click", e => { e.preventDefault(); const t = document.getElementById(x.dataset.sec); if (t) t.scrollIntoView({ behavior: "smooth" }); }));
+      document.title = `${byId.has(rest) ? byId.get(rest).title + " · " : ""}Key judgments · Financial Regulation Hub`;
+    } else document.title = "Key judgments · Financial Regulation Hub";
+    if (a !== "search") scrollTo(0, 0);
+  }
+  addEventListener("hashchange", route); route();
+})();
+</script>
+</body>
+</html>
