@@ -21,7 +21,7 @@
 .rhead b{color:var(--ink)}
 .meaning{padding:14px 16px;border-bottom:1px solid var(--line);font-size:14px}
 .sec-h{display:flex;align-items:baseline;gap:12px;margin:48px 0 16px}.sec-h h2{font-size:26px}
-.upd{padding:18px;display:block;transition:border-color .18s}.upd:hover{border-color:color-mix(in srgb,var(--accent) 55%,var(--line))}.upd:active{background:var(--surface-2)}
+.upd{padding:18px;display:block;position:relative;transition:border-color .18s}.upd .ua{display:block;font-weight:600;margin:10px 0 4px;line-height:1.4;color:inherit;text-decoration:none}.upd .ua::after{content:"";position:absolute;inset:0;border-radius:inherit}.upd .ua:focus-visible{outline:none}.upd:has(.ua:focus-visible){outline:2px solid var(--accent);outline-offset:2px}.upd .usrc{position:relative;z-index:1;display:inline-flex;align-items:center;gap:4px;margin-top:10px;font-size:13px}.upd:hover{border-color:color-mix(in srgb,var(--accent) 55%,var(--line))}.upd:active{background:var(--surface-2)}
 .upd .m{display:flex;gap:8px;align-items:center;font-size:12.5px;color:var(--muted)}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--c);display:inline-block;flex:none}
 .stat{font:500 26px var(--f-d)}
@@ -223,10 +223,10 @@
     const sub = recent ? `${fmtDate(WEEK_FROM, false)} – ${fmtDate(iso(TODAY), false)}` : "Nothing in the last 7 days. Latest 3:";
     const cards = shown.map(u => {
       const it = m.byId.get(u.instrument);
-      return `<a class="card upd" style="--c:var(--${k})" href="${h}#changes/${encodeURIComponent(u.id)}">
+      return `<div class="card upd" style="--c:var(--${k})">
         <div class="m"><span class="dot"></span><span style="white-space:nowrap">${esc(trunc(u.kind, 60))}</span><span style="margin-left:auto;white-space:nowrap">${fmtDate(u.date, !recent)}</span></div>
-        <div style="font-weight:600;margin:10px 0 4px;line-height:1.4">${esc(trunc(u.title, 120))}</div>
-        ${it ? `<div class="tag">${esc(it.label)}</div>` : ""}<div class="utags">${updTags(m, k, u)}</div></a>`;
+        <a class="ua" href="${h}#changes/${encodeURIComponent(u.id)}">${esc(trunc(u.title, 120))}</a>
+        ${it ? `<div class="tag">${esc(it.label)}</div>` : ""}<div class="utags">${updTags(m, k, u)}</div>${u.url ? `<a class="lnk usrc" href="${esc(u.url)}" target="_blank" rel="noopener">Source ${I.ext || ""}</a>` : ""}</div>`;
     }).join("");
     const n = week.length, sec = hub.sections.find(x => x.id === k) || {};
     const cnt = recent ? `<span class="pill p-live">${n} update${n>1?"s":""}</span>` : `<span class="pill p-soon">No changes this week</span>`;

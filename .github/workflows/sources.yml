@@ -1,0 +1,15 @@
+name: Check source links
+on:
+  push:
+    paths: ["*/data/updates.json", "judgments/data/judgments.json", "news.json", "tools/check_sources.py"]
+  pull_request:
+    paths: ["*/data/updates.json", "judgments/data/judgments.json", "news.json", "tools/check_sources.py"]
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Every update links to its official source
+        run: python3 -I tools/check_sources.py

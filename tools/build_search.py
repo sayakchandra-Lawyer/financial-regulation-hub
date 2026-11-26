@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build the site-wide search index (search/) from each section's fulltext.json and judgments.json.
 Run from the repo root after any data change:  python3 -I tools/build_search.py
+It first runs tools/check_sources.py and stops if any update lacks a source link.
 """
 import json, re, os, sys, zlib, shutil
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -89,4 +90,7 @@ def main():
     print(f"search index: {N} passages, {len(docs)} documents, {len(vocab)} words, {len(common)} common words skipped")
 
 if __name__ == "__main__":
+    import subprocess
+    # every update must link to its official source; stop the build if one does not
+    if subprocess.call([sys.executable, "-I", os.path.join(ROOT, "tools", "check_sources.py")]): sys.exit(1)
     main()
