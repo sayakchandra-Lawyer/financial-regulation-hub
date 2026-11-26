@@ -1,0 +1,586 @@
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "window_from": "2025-11-21",
+  "window_to": "2026-11-26",
+  "entities": [
+   {
+    "key": "eq",
+    "name": "Equity-listed companies",
+    "profile": "Companies whose shares are listed, including listed NBFCs and HFCs."
+   },
+   {
+    "key": "debt",
+    "name": "Debt-listed issuers (NCDs and CP)",
+    "profile": "NBFCs, HFCs and companies with listed NCDs, other non-convertible securities or commercial paper."
+   },
+   {
+    "key": "arr",
+    "name": "Arrangers and merchant bankers",
+    "profile": "Intermediaries who manage issues and bid on EBPs for clients."
+   },
+   {
+    "key": "inv",
+    "name": "Bond investors and treasuries",
+    "profile": "Institutions and others who buy, trade, repo or put listed bonds."
+   },
+   {
+    "key": "lend",
+    "name": "Lenders",
+    "profile": "Banks and NBFCs that lend to listed companies or take pledges of listed shares."
+   }
+  ]
+ },
+ "updates": [
+  {
+   "id": "U-2026-11-01-FURTHER",
+   "date": "2026-10-21",
+   "kind": "Exchange circular",
+   "title": "Further issues: one lead exchange handles queries for both NSE and BSE",
+   "ref": "NSE/CML/2026/22",
+   "instrument": "NSE-SOP-FURTHER-20261021",
+   "effective": "2026-11-01",
+   "applies": "Listed companies applying for in-principle approval of a further issue of shares.",
+   "changes": [
+    "Applications are still filed with every exchange, but the exchanges assign a lead exchange in turn.",
+    "The other exchange routes its queries through the lead exchange; the company answers only the lead exchange.",
+    "Applies to applications filed on or after 01-11-2026."
+   ],
+   "impact": {
+    "eq": {
+     "level": "Medium",
+     "text": "One set of queries instead of two."
+    }
+   },
+   "actions": [
+    "Route further issue correspondence to the lead exchange named for the application."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2026-10/Common_Standard_Operating_Procedures_SOPs_for_grant_of_all_types_of_Further_issue_approvals_20261021170416.pdf"
+  },
+  {
+   "id": "U-2026-10-16-RFQ",
+   "date": "2026-10-16",
+   "kind": "Exchange circular",
+   "title": "RFQ trades in corporate bonds settle on T+0 until 5 p.m.",
+   "ref": "NSE/DS/76973; BSE notice 20261019-21",
+   "instrument": "NSE-RFQ-20261016",
+   "effective": "2026-10-19",
+   "applies": "Participants on the NSE and BSE RFQ platforms.",
+   "changes": [
+    "RFQ trading hours for T+0 settlement extended to 5 p.m. (NSE from 19-10-2026; BSE from 21-10-2026).",
+    "Participants must confirm their entity type every half-year to keep platform access."
+   ],
+   "impact": {
+    "inv": {
+     "level": "Medium",
+     "text": "Same-day settlement for more of the day."
+    },
+    "arr": {
+     "level": "Low",
+     "text": "Adjust desk cut-offs."
+    }
+   },
+   "actions": [
+    "Update treasury settlement cut-offs and complete the half-yearly entity confirmation."
+   ],
+   "url": "https://nsearchives.nseindia.in/content/circulars/DS76973.pdf"
+  },
+  {
+   "id": "U-2026-10-12-LODR62A",
+   "date": "2026-10-12",
+   "kind": "SEBI regulation",
+   "title": "Newly debt-listed entities must list all later NCDs",
+   "ref": "SEBI/LAD-DOP/2026/329 (LODR Third Amendment)",
+   "instrument": "LODR-AMD3-2026",
+   "effective": "2026-10-14",
+   "applies": "Entities whose non-convertible debt securities are listed on or after 14-10-2026.",
+   "changes": [
+    "Reg 62A(1) substituted: an entity whose NCDs are listed on or after the amendment's Gazette publication (14-10-2026) must list all non-convertible debt securities it issues after that listing.",
+    "Reg 62A(2) and (3) omitted."
+   ],
+   "impact": {
+    "debt": {
+     "level": "High",
+     "text": "Unlisted follow-on NCDs are no longer an option."
+    },
+    "inv": {
+     "level": "Medium",
+     "text": "More of an issuer's debt is listed and disclosed."
+    },
+    "lend": {
+     "level": "Low",
+     "text": "Check loan documents that assumed unlisted debentures."
+    }
+   },
+   "actions": [
+    "Build listing into every future NCD issue plan and timeline."
+   ],
+   "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261023-12/20261023-12.pdf"
+  },
+  {
+   "id": "U-2026-10-07-ISIN",
+   "date": "2026-10-08",
+   "kind": "Exchange circular",
+   "title": "New caps on ISINs for privately placed debt",
+   "ref": "NSE/CML/D/2026/05; BSE notice 20261008-21",
+   "instrument": "NSE-ISIN-DEBT-20261008",
+   "effective": "2026-10-07",
+   "applies": "Issuers of privately placed debt securities and their arrangers.",
+   "changes": [
+    "Up to 17 ISINs may mature in a financial year: 12 for plain vanilla debt and 5 for structured, market-linked, floating rate, zero coupon and Tier II bonds, plus 6 for s. 54EC bonds.",
+    "Outstanding floating rate, zero coupon and Tier II ISINs issued before the circular are grandfathered.",
+    "One more plain vanilla ISIN for each Rs 3,000 crore once the amount maturing in the year reaches Rs 15,000 crore.",
+    "Government-serviced (EBR) bonds and ESG debt securities are outside the count."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Medium",
+     "text": "Plan maturities and re-issues within the cap."
+    },
+    "arr": {
+     "level": "Low",
+     "text": "Structure new issues as re-issues where needed."
+    }
+   },
+   "actions": [
+    "Map existing ISINs by maturity year against the new caps."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2026-10/NSE_Circular_07102026_05_20261008165054.pdf"
+  },
+  {
+   "id": "U-2026-10-07-MB",
+   "date": "2026-10-08",
+   "kind": "Exchange circular",
+   "title": "Rs 10,000 NCDs: some regulated, listed issuers need no merchant banker",
+   "ref": "NSE/CML/D/2026/06; BSE notice 20261008-22",
+   "instrument": "NSE-MBEXEMPT-20261008",
+   "effective": "2026-10-07",
+   "applies": "Issuers regulated by SEBI, RBI, IRDAI or PFRDA, including NBFCs and HFCs.",
+   "changes": [
+    "For private placements at Rs 10,000 face value, no merchant banker is needed if the issuer is regulated by SEBI, RBI, IRDAI or PFRDA; has been listed for a year with no pending LODR fines; has had no default in the last three financial years and the current year (auditor's certificate); issues senior debt secured on its own identifiable assets; and is rated AA- or above on the placement date."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Medium",
+     "text": "Lower issue cost for eligible issuers."
+    },
+    "arr": {
+     "level": "Medium",
+     "text": "Fewer mandated roles."
+    }
+   },
+   "actions": [
+    "Check each condition before dropping the merchant banker."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2026-10/NSE_Circular_08102026_06_20261008170421.pdf"
+  },
+  {
+   "id": "U-2026-10-07-METER",
+   "date": "2026-10-08",
+   "kind": "Exchange circular",
+   "title": "Credit Risk-o-Meter on debt offer documents and bond platforms",
+   "ref": "NSE circular of 08-10-2026; BSE notice 20261008-23",
+   "instrument": "NSE-RISKOMETER-20261008",
+   "effective": "2026-11-21",
+   "applies": "Debt issuers, arrangers and online bond platform providers.",
+   "changes": [
+    "Offer documents, placement memoranda, advertisements and online bond platforms must show a Credit Risk-o-Meter.",
+    "The rating agency, the rating and, for unsecured debt, the word 'unsecured' in bold red appear below it.",
+    "In force 45 days after 07-10-2026."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Medium",
+     "text": "Update document templates."
+    },
+    "inv": {
+     "level": "Low",
+     "text": "Clearer risk signal."
+    },
+    "arr": {
+     "level": "Medium",
+     "text": "Update marketing material."
+    }
+   },
+   "actions": [
+    "Add the meter to placement memorandum and term sheet templates."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2026-10/NSE_Circular_08102026_07_20261008170858.pdf"
+  },
+  {
+   "id": "U-2026-09-17-TREPO",
+   "date": "2026-09-17",
+   "kind": "Exchange circular",
+   "title": "Revised window for tri-party repo auctions in corporate bonds",
+   "ref": "NSE/DS/76400",
+   "instrument": "NSE-TREPO-20260917",
+   "effective": "2026-09-18",
+   "applies": "Participants in tri-party repo in corporate bonds.",
+   "changes": [
+    "Repo auctions run between 3.30 p.m. and 4 p.m. from 18-09-2026."
+   ],
+   "impact": {
+    "inv": {
+     "level": "Low",
+     "text": "Adjust order timing."
+    }
+   },
+   "actions": [
+    "Update desk procedures."
+   ],
+   "url": "https://nsearchives.nseindia.in/content/circulars/DS76400.pdf"
+  },
+  {
+   "id": "U-2026-09-02-PLEDGE",
+   "date": "2026-09-02",
+   "kind": "Exchange notice",
+   "title": "BSE's list of companies with high promoter pledge",
+   "ref": "BSE notice 20260902-39",
+   "instrument": "BSE-PLEDGE-SURV",
+   "effective": "2026-09-07",
+   "applies": "Listed companies on the list, their promoters, and lenders holding pledges.",
+   "changes": [
+    "Listed securities attract a minimum 35% margin on all open and new positions in the equity and derivatives segments."
+   ],
+   "impact": {
+    "lend": {
+     "level": "Medium",
+     "text": "Pledged collateral on the list is more costly to trade and may lose value."
+    },
+    "eq": {
+     "level": "Medium",
+     "text": "Can make a representation against inclusion."
+    }
+   },
+   "actions": [
+    "Check whether pledged collateral is on the list and review margins."
+   ],
+   "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260902-39/20260902-39.pdf"
+  },
+  {
+   "id": "U-2026-08-14-OBPP",
+   "date": "2026-08-17",
+   "kind": "Exchange circular",
+   "title": "Changes to the framework for online bond platforms",
+   "ref": "NSE/COMP/75793; BSE notice 20260817-28",
+   "instrument": "NSE-OBPP-20260817",
+   "effective": "2026-08-14",
+   "applies": "Online bond platform providers and stock brokers.",
+   "changes": [
+    "SEBI modified the OBPP framework for ease of doing business; OBPPs also show the Credit Risk-o-Meter from 21-11-2026."
+   ],
+   "impact": {
+    "inv": {
+     "level": "Low",
+     "text": "Platform disclosures change."
+    },
+    "arr": {
+     "level": "Medium",
+     "text": "OBPP operators update processes."
+    }
+   },
+   "actions": [
+    "Review OBPP arrangements against the modified framework."
+   ],
+   "url": "https://nsearchives.nseindia.in/content/circulars/COMP75793.pdf"
+  },
+  {
+   "id": "U-2026-06-19-API",
+   "date": "2026-06-19",
+   "kind": "Exchange circular",
+   "title": "One filing reaches both NSE and BSE",
+   "ref": "NSE/CML/2026/17; BSE notice 20260619-11",
+   "instrument": "NSE-API-20260619",
+   "effective": "2026-06-20",
+   "applies": "Listed entities filing Regulation 30 disclosures.",
+   "changes": [
+    "A filing through the common system counts for both exchanges.",
+    "For covered events the PDF counts as compliance, with the XBRL filing to follow within 24 hours."
+   ],
+   "impact": {
+    "eq": {
+     "level": "Medium",
+     "text": "Fewer duplicate filings."
+    },
+    "debt": {
+     "level": "Low",
+     "text": "Same route for debt-related events."
+    }
+   },
+   "actions": [
+    "Align disclosure workflows so XBRL follows within 24 hours."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2026-06/API_Circular_June_2026_20260619181659.pdf"
+  },
+  {
+   "id": "U-2026-06-12-IF",
+   "date": "2026-06-12",
+   "kind": "Exchange circular",
+   "title": "FAQs on the quarterly Integrated Filing (Governance)",
+   "ref": "NSE/CML/2026/16; BSE notice 20260612-13",
+   "instrument": "NSE-IF-FAQ-20260612",
+   "effective": "2026-06-12",
+   "applies": "Equity-listed entities.",
+   "changes": [
+    "Clarifies scope and timing: file within 30 days of each quarter end; newly listed entities start with the first quarter ending after listing."
+   ],
+   "impact": {
+    "eq": {
+     "level": "Low",
+     "text": "Clarification."
+    }
+   },
+   "actions": [
+    "Check filing calendars against the FAQs."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2026-07/FAQs_on_the_submission_of_the_Quarterly_Integrated_Filing_Governance_20260707164249.pdf"
+  },
+  {
+   "id": "U-2026-04-08-LOCKIN",
+   "date": "2026-04-10",
+   "kind": "Exchange circular",
+   "title": "Lock-in of pledged shares",
+   "ref": "NSE/CML/2026/07",
+   "instrument": "NSE-PLEDGE-LOCKIN-20260410",
+   "effective": "2026-04-08",
+   "applies": "Issuers with locked-in pledged shares, and lenders or pledgees.",
+   "changes": [
+    "Issuers follow the depositories' framework for locked-in pledged shares: suitable provisions in the articles, intimation to lenders and disclosure in the offer document."
+   ],
+   "impact": {
+    "lend": {
+     "level": "Medium",
+     "text": "Notice of lock-in on pledged collateral."
+    },
+    "eq": {
+     "level": "Medium",
+     "text": "Articles and offer document changes."
+    }
+   },
+   "actions": [
+    "Lenders: check lock-in status of pledged shares."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2026-04/Ease_of_doing_business_mechanism_for_lock-in_of_pledged_shares_under_SEBI_Issue_of_Capital_and_Disclosure_Requirements_Regulations_2018_20260410123152.pdf"
+  },
+  {
+   "id": "U-2026-04-07-MPS",
+   "date": "2026-04-07",
+   "kind": "Exchange circular",
+   "title": "MPS fines paused for due dates from April to September 2026",
+   "ref": "NSE/CML/2026/06; BSE notice 20260409-3",
+   "instrument": "NSE-MPS-RELAX-20260407",
+   "effective": "2026-04-07",
+   "applies": "Listed companies whose minimum public shareholding due date falls in the window.",
+   "changes": [
+    "For entities whose MPS due date falls between 01-04-2026 and 30-09-2026: no penal action for non-compliance during that window, and actions already taken against them from 01-04-2026 are withdrawn.",
+    "Entities whose due date fell earlier get no relief."
+   ],
+   "impact": {
+    "eq": {
+     "level": "Medium",
+     "text": "Temporary relief only."
+    }
+   },
+   "actions": [
+    "Use the window to restore MPS."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2026-04/MPS_Relaxation_Circular_20260407182420.pdf"
+  },
+  {
+   "id": "U-2026-02-11-LWF",
+   "date": "2026-02-11",
+   "kind": "Exchange circular",
+   "title": "NSE guidelines for the Liquidity Window Facility",
+   "ref": "NSE/DS/72742",
+   "instrument": "NSE-LWF-20260211",
+   "effective": "2026-02-11",
+   "applies": "Debt issuers offering a liquidity window to retail investors, and those investors.",
+   "changes": [
+    "Optional, per ISIN at issue: exercisable only after one year, at least 10% of the issue, three-working-day windows, payout no more than 100 basis points below valuation plus accrued interest.",
+    "Notice of each window at least 3 working days before; application at least 2 working days before.",
+    "Put price from a rating agency's valuation uploaded by 6 p.m. on T-1.",
+    "Settlement on T+4 without settlement guarantee; disclosures within three working days after the window."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Medium",
+     "text": "Operational steps for each window."
+    },
+    "inv": {
+     "level": "Low",
+     "text": "Exit route for retail holders."
+    }
+   },
+   "actions": [
+    "Build the timetable into the issue documents."
+   ],
+   "url": "https://nsearchives.nseindia.in/content/circulars/DS72742.zip"
+  },
+  {
+   "id": "U-2026-01-20-HVDLE",
+   "date": "2026-01-20",
+   "kind": "SEBI regulation",
+   "title": "High value debt listed entity threshold raised to Rs 5,000 crore",
+   "ref": "SEBI/NRO-GN/2026/295",
+   "instrument": "LODR-AMD1-2026",
+   "effective": "2026-01-20",
+   "applies": "Debt-only listed entities, including NBFCs and HFCs.",
+   "changes": [
+    "The reg 15(1A) threshold for the corporate governance provisions that apply to high value debt listed entities rose from Rs 1,000 crore to Rs 5,000 crore of listed non-convertible debt securities."
+   ],
+   "impact": {
+    "debt": {
+     "level": "High",
+     "text": "Entities between Rs 1,000 and Rs 5,000 crore fall outside the high value regime."
+    },
+    "inv": {
+     "level": "Low",
+     "text": "Governance protections depend on issuer size."
+    }
+   },
+   "actions": [
+    "Recheck status against the new threshold and the amended regulations."
+   ],
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260203-12"
+  },
+  {
+   "id": "U-2026-01-20-NCS",
+   "date": "2026-01-20",
+   "kind": "SEBI regulation",
+   "title": "NCS amendment: incentives for retail, senior citizens and others",
+   "ref": "SEBI/LAD-NRO/GN/2026/296",
+   "instrument": "NCS-AMD-2026",
+   "effective": "2026-01-20",
+   "applies": "Issuers of non-convertible securities.",
+   "changes": [
+    "Issuers may offer extra interest or a discount to senior citizens, women, serving and retired defence personnel, widows and widowers of defence personnel, retail investors and other specified categories.",
+    "Only the initial allottee gets it; it does not pass on transfer or transmission."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Medium",
+     "text": "New pricing tool for public issues."
+    },
+    "inv": {
+     "level": "Low",
+     "text": "Possible incentives."
+    }
+   },
+   "actions": [
+    "Disclose any incentive and its terms in the offer document."
+   ],
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20260203-13"
+  },
+  {
+   "id": "U-2025-12-18-DENOM",
+   "date": "2025-12-19",
+   "kind": "Exchange circular",
+   "title": "Rs 10,000 debt securities can now be zero coupon",
+   "ref": "NSE/CML/2025/14; BSE notice 20251222-26",
+   "instrument": "NSE-DENOM-20251219",
+   "effective": "2025-12-18",
+   "applies": "Issuers privately placing debt with a face value of Rs 10,000.",
+   "changes": [
+    "Zero coupon instruments allowed at the Rs 10,000 face value, for placements listed from 18-12-2025."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Low",
+     "text": "More structuring choice."
+    },
+    "inv": {
+     "level": "Low",
+     "text": "Wider retail product range."
+    }
+   },
+   "actions": [
+    "Consider for retail-focused placements."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2025-12/NSE_Circular_19122025_14_20251219181101.pdf"
+  },
+  {
+   "id": "U-2025-12-02-REF",
+   "date": "2025-12-02",
+   "kind": "Exchange circular",
+   "title": "Trustees can use the Recovery Expense Fund without holders' prior consent",
+   "ref": "NSE/CML/2025/12; BSE notice 20251127-66",
+   "instrument": "NSE-DT-CH4-20251202",
+   "effective": "2025-11-25",
+   "applies": "Debt issuers, debenture trustees and debenture holders.",
+   "changes": [
+    "After a default, trustees may draw REF for listed enforcement purposes without holders' prior approval.",
+    "The exchange releases REF within five working days of the trustee's intimation."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Low",
+     "text": "No change to the deposit."
+    },
+    "inv": {
+     "level": "Medium",
+     "text": "Faster enforcement after default."
+    },
+    "lend": {
+     "level": "Low",
+     "text": "Faster trustee action on shared security."
+    }
+   },
+   "actions": [
+    "Note the new release timeline in default playbooks."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2025-12/NSE_Circular_02122025_12_20251203190657.pdf"
+  },
+  {
+   "id": "U-2025-12-31-DT",
+   "date": "2025-11-27",
+   "kind": "Exchange circular",
+   "title": "Fixed timelines for information issuers send to debenture trustees",
+   "ref": "BSE notice 20251127-64",
+   "instrument": "NSE-DT-TIMELINE-20251127",
+   "effective": "2025-12-31",
+   "applies": "Issuers of secured listed debt and their trustees.",
+   "changes": [
+    "Quarterly security cover and related statements within 60 days of quarter end (75 days for the last quarter).",
+    "Half-yearly guarantor net worth and annual guarantor financials within 60 days; three-yearly valuation and title search reports.",
+    "Applies from the quarter ended 31-12-2025."
+   ],
+   "impact": {
+    "debt": {
+     "level": "High",
+     "text": "Calendar for trustee deliverables."
+    },
+    "lend": {
+     "level": "Medium",
+     "text": "Comparable reporting on shared security."
+    }
+   },
+   "actions": [
+    "Add the timelines to the compliance calendar."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2025-11/NSE_Circular_27112025_10_20251127183438.pdf"
+  },
+  {
+   "id": "U-2025-12-01-XBRL",
+   "date": "2025-11-21",
+   "kind": "Exchange circular",
+   "title": "Regulation 50 intimations only in XBRL",
+   "ref": "NSE/CML/2025/09; BSE notice 20251121-72",
+   "instrument": "NSE-XBRL-REG50",
+   "effective": "2025-12-01",
+   "applies": "Entities with listed non-convertible securities.",
+   "changes": [
+    "From 01-12-2025, prior intimations under reg 50 go only in XBRL; any other mode counts as non-submission."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Medium",
+     "text": "A PDF-only filing now attracts SOP fines."
+    }
+   },
+   "actions": [
+    "Switch reg 50 filings to the XBRL utility."
+   ],
+   "url": "https://nsearchives.nseindia.in/web/circular/2025-11/Circular_Introduction_to_XBRL_for_Regulation_50_1_20251124155835.pdf"
+  }
+ ]
+}

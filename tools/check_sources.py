@@ -9,7 +9,8 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 OFFICIAL = ("rbi.org.in", "sebi.gov.in", "irdai.gov.in", "meity.gov.in", "ibbi.gov.in", "ifsca.gov.in",
             "nhb.org.in", "fiuindia.gov.in", "mca.gov.in", "egazette.gov.in", "egazette.nic.in", "indiacode.nic.in",
             "indiacode.gov.in", "pib.gov.in", "cert-in.org.in", "finmin.gov.in", "dea.gov.in", "incometaxindia.gov.in",
-            "main.sci.gov.in", "sci.gov.in", "nclat.nic.in", "nclt.gov.in")
+            "main.sci.gov.in", "sci.gov.in", "nclat.nic.in", "nclt.gov.in",
+            "nseindia.com", "nseindia.in", "bseindia.com")
 def official(u):
     h = urlparse(u).netloc.lower()
     return any(h == d or h.endswith("." + d) for d in OFFICIAL)

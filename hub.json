@@ -762,6 +762,108 @@
    "line": "GIFT City: banks, finance cos, funds, insurers"
   },
   {
+   "id": "exchanges",
+   "short": "Exchanges",
+   "name": "Stock exchanges",
+   "full": "National Stock Exchange and BSE",
+   "status": "live",
+   "desc": "NSE and BSE rules, listing checklists, circulars and operating guidelines for listed NBFCs, debt issuers and lenders: listing NCDs and commercial paper, EBP bidding, filings, default and pledge disclosures, fines and bond trading.",
+   "href": "exchanges/",
+   "data": {
+    "register": "exchanges/data/exch_register.json",
+    "graph": "exchanges/data/exch_graph.json",
+    "definitions": "exchanges/data/definitions.json",
+    "glossary": "exchanges/data/glossary.json",
+    "updates": "exchanges/data/updates.json",
+    "fulltext": "exchanges/data/fulltext.json"
+   },
+   "official": "https://www.nseindia.com",
+   "map": "exchanges/map/",
+   "subjects": [
+    {
+     "theme": "Exchanges, their rules and the listing agreement",
+     "nice": "Exchanges and the listing agreement",
+     "slug": "framework"
+    },
+    {
+     "theme": "Listing NCDs: approval, timelines, ISINs and fees",
+     "nice": "Listing NCDs",
+     "slug": "ncd"
+    },
+    {
+     "theme": "Listing commercial paper",
+     "nice": "Listing commercial paper",
+     "slug": "cp"
+    },
+    {
+     "theme": "Electronic book bidding (EBP)",
+     "nice": "Electronic book bidding (EBP)",
+     "slug": "ebp"
+    },
+    {
+     "theme": "Filings and disclosures by listed entities",
+     "nice": "Filings and disclosures",
+     "slug": "filings"
+    },
+    {
+     "theme": "Defaults, pledges and lender-facing disclosures",
+     "nice": "Defaults and pledges",
+     "slug": "lenders"
+    },
+    {
+     "theme": "Fines, freezing and suspension",
+     "nice": "Fines and suspension",
+     "slug": "penalties"
+    },
+    {
+     "theme": "Bond trading, settlement and liquidity",
+     "nice": "Bond trading and settlement",
+     "slug": "trading"
+    },
+    {
+     "theme": "Superseded (history)",
+     "nice": "Superseded (history)",
+     "slug": "history",
+     "history": true
+    }
+   ],
+   "lenses": [
+    {
+     "id": "ENT-EQ",
+     "name": "Equity-listed company",
+     "key": "eq",
+     "desc": "Shares listed on NSE or BSE"
+    },
+    {
+     "id": "ENT-DEBT",
+     "name": "Debt-listed issuer (NCDs / CP)",
+     "key": "debt",
+     "desc": "Has listed NCDs or CP"
+    },
+    {
+     "id": "ENT-ARR",
+     "name": "Arranger / merchant banker",
+     "key": "arr",
+     "desc": "Runs issues, bids on EBP"
+    },
+    {
+     "id": "ENT-INV",
+     "name": "Bond investor / treasury",
+     "key": "inv",
+     "desc": "Buys, trades or repos bonds"
+    },
+    {
+     "id": "ENT-LEND",
+     "name": "Lender",
+     "key": "lend",
+     "desc": "Lends to listed firms or takes pledges"
+    }
+   ],
+   "cumulative": false,
+   "lensAll": "Applies generally",
+   "line": "NSE, BSE: debt listing, EBP, filings, fines"
+  },
+  {
    "id": "jud",
    "short": "Judgments",
    "name": "Key Judgments",
@@ -780,10 +882,10 @@
    "id": "misc",
    "short": "Other regulators",
    "name": "Other regulators",
-   "full": "PMLA · NHB · Exchanges",
+   "full": "PMLA · NHB",
    "status": "soon",
-   "desc": "Anti-money laundering, housing finance supervision and stock exchange rules.",
-   "line": "PMLA, NHB, exchanges"
+   "desc": "Anti-money laundering and housing finance supervision.",
+   "line": "PMLA, NHB"
   }
  ]
 }
