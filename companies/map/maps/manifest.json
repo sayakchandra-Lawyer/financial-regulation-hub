@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "default": "companies",
+  "maps": [
+    {
+      "id": "companies",
+      "title": "Companies Act Lending Map",
+      "hubLabel": "Companies Act",
+      "hubSub": "Borrowing and charges",
+      "section": "companies",
+      "register": "../data/ca_register.json",
+      "graph": "../data/ca_graph.json",
+      "categoryGroup": "Who it applies to",
+      "layers": [
+        "ENT-BORR",
+        "ENT-LNDR",
+        "ENT-GRP",
+        "ENT-NBFC",
+        "ENT-PVT"
+      ],
+      "cumulativeLayers": false,
+      "historyTheme": "Superseded (history)",
+      "categoryCaveat": "Each provision is tagged to the parties it names or most directly affects. The Act's general and penalty provisions apply to every company. Check the provision before relying on a tag.",
+      "caveatShort": "Tags follow each provision's scope. See the provision.",
+      "milestones": [
+        {
+          "date": "2014-04-01",
+          "label": "Board powers and charges provisions in force"
+        },
+        {
+          "date": "2018-05-07",
+          "label": "New s. 185 and s. 186 changes"
+        },
+        {
+          "date": "2018-11-02",
+          "label": "Charge filing window cut to 60 + 60 days"
+        },
+        {
+          "date": "2026-03-23",
+          "label": "Corporate Laws (Amendment) Bill introduced"
+        }
+      ],
+      "updates": "../data/updates.json",
+      "glossary": "../data/glossary.json",
+      "definitions": "../data/definitions.json",
+      "fulltext": "../data/fulltext.json",
+      "ai_endpoint": "https://rbi-map-chat.sayakchandra.workers.dev"
+    }
+  ]
+}
