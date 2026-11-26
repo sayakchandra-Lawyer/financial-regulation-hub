@@ -86,6 +86,7 @@ function renderChrome(hub, opts) {
   document.addEventListener("click", e => { if (!e.target.closest("#navl")) setMenu(false); });
   document.addEventListener("keydown", e => { if (e.key === "Escape") setMenu(false); });
   nl.addEventListener("click", e => { if (e.target.closest("a")) setMenu(false); });
+  fitNav(); if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitNav);
   applyTheme(store.get("theme", ""));
   $("#themebtn").addEventListener("click", () => { const t = isDark() ? "light" : "dark"; store.set("theme", t); applyTheme(t); });
   const f = $("#foot");
@@ -628,6 +629,36 @@ function countUp(el, to, ms = 900) {
 }
 
 /* section pages: compact header on inner tabs; fade + scroll for tab strips that do not fit */
+/* header: when every link no longer fits beside the site name, use the menu button at any width */
+function fitNav() {
+  const h = document.documentElement, top = $("#top"), nl = $("#navl");
+  if (!top || !nl) return;
+  h.classList.remove("navfold", "nocrumb");
+  if (innerWidth <= 1240) return;
+  const b = top.querySelector(".brand b"), s = top.querySelector(".brand small"), c = top.querySelector(".crumb");
+  const over = el => el && el.scrollWidth > el.clientWidth + 1;
+  const first = nl.querySelector("a");
+  const crowd = () => over(s) || over(top) || (b && b.offsetHeight > 30) || (c && c.offsetWidth && first && c.getBoundingClientRect().right > first.getBoundingClientRect().left - 8);
+  /* first drop the breadcrumb (the menu already marks the current section), then fold the links into the menu */
+  if (crowd() && c) h.classList.add("nocrumb");
+  if (crowd()) h.classList.add("navfold");
+}
+addEventListener("resize", fitNav);
+
+/* chips whose text runs to more than one line become rounded boxes, so the text stays inside the border */
+function chipShape() {
+  document.querySelectorAll(".chip").forEach(c => {
+    c.classList.remove("ml");
+    const r = document.createRange(); r.selectNodeContents(c);
+    const tops = new Set([...r.getClientRects()].filter(x => x.width > 2).map(x => Math.round(x.top / 4)));
+    if (tops.size > 1) c.classList.add("ml");
+  });
+}
+let chipT = 0;
+const chipLater = () => { clearTimeout(chipT); chipT = setTimeout(chipShape, 80); };
+new MutationObserver(m => { if (m.some(r => r.addedNodes.length && !(r.target.classList && r.target.classList.contains("chip")))) chipLater(); }).observe(document.documentElement, { childList: true, subtree: true });
+addEventListener("resize", chipLater);
+
 function hubTabState() {
   const seg = decodeURIComponent((location.hash || "").replace(/^#/, "").split("/")[0]);
   document.body.classList.toggle("inner", !!seg);
