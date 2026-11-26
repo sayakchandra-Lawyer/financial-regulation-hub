@@ -7,7 +7,7 @@
 <meta name="description" content="Financial regulatory information for finance professionals: RBI, SEBI and IRDAI rules, key court rulings and other regulators, organised by task, with obligations, deadlines and consequences linked to the official text.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="assets/hub.css?v=20261126">
+<link rel="stylesheet" href="assets/hub.css?v=20261126b">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cpath d='M16 6v20M6 16h20M9 9l14 14M23 9 9 23' stroke='white' stroke-width='2.4'/%3E%3C/svg%3E">
 <style>
 .hero{background:linear-gradient(180deg,var(--surface-2),var(--bg));border-bottom:1px solid var(--line)}
@@ -74,7 +74,7 @@
   </div>
 </main>
 <footer id="foot"></footer>
-<script src="assets/hub.js?v=20261126"></script>
+<script src="assets/hub.js?v=20261126b"></script>
 <script>
 (async function(){
   const hub = await getJSON("hub.json");
@@ -99,10 +99,15 @@
     c.innerHTML = `<span>Showing: <b>${esc(who)}</b></span><span class="sep"></span><span>${n} ${NAME[K()]} instruments apply</span><span class="sep"></span><button class="lnk" type="button" id="lreset">Reset</button><span style="width:100%;font-size:13px;color:var(--muted)">Tasks, search and weekly changes follow this choice. A guide, not an applicability opinion.</span>`;
     $("#lreset").addEventListener("click", () => resetTo(K()));
   }
-  function judge(){
-    if (!hub.ai_endpoint || !M()) return;
-    const k = K(), s = secs[k];
-    initJudge(Object.assign({ M: M(), endpoint: hub.ai_endpoint, fulltext: s.data.fulltext, link: id => `${s.href}#d/` + id, wide: true }, k === "irdai"
+  const JS = hub.sections.find(x => x.id === "jud" && x.status === "live" && x.data && x.data.judgments);
+  const HINT = {
+    sebi: /\b(sebi|stock ?brokers?|brokers?|broking|sub-?brokers?|mutual funds?|amcs?|asset management|aifs?|alternative investment|listed|listing|lodr|insider|takeovers?|sast|ipos?|depositor(?:y|ies)|demat|stock exchanges?|securities|debentures? trustees?|buy-?backs?|delisting)\b/i,
+    irdai: /\b(irdai|insurers?|insurance|insured|polic(?:y|ies)holders?|life polic(?:y|ies)|health polic(?:y|ies)|mediclaim|claims? settlement|premiums?|corporate agents?|insurance agents?|free look|surrender value|bancassurance)\b/i,
+    rbi: /\b(rbi|reserve bank|nbfcs?|hfcs?|housing finance|core investment|cics?|kyc|ecb|gold loans?|microfinance|co-?lending|scale based|sbr|fair practices?|wilful defaulters?|npa|sma|securitisation|digital lending)\b/i };
+  function cfg(k){
+    if (k === "jud") return { M: null, section: "jud", fulltext: "", docs: "the judgments", link: id => id, scope: "Answers from the key judgments on this site" };
+    const s = secs[k];
+    return Object.assign({ M: MS[k], fulltext: s.data.fulltext, link: id => `${s.href}#d/` + id }, k === "irdai"
       ? { section: "irdai", docs: "the insurance texts", scope: "Answers from the insurance texts on this site",
           intro: "Put your question on insurance law for insurers, agents and corporate agents, and I shall answer from the Acts, Regulations and Master Circulars on this site, citing the provision. Check what I say.",
           tries: [["What is the free look period for a life policy?", "Free look period"], ["How quickly must a cashless claim be authorised?", "Cashless claim timelines"], ["With how many insurers can a corporate agent tie up?", "Corporate agent tie-ups"]],
@@ -112,7 +117,29 @@
           intro: "Put your question on securities law for listed companies, debt issuers, mutual funds, stock brokers and AIFs, and I shall answer from the Acts, Regulations and Master Circulars on this site, citing the provision. Check what I say.",
           tries: [["Within how long must a listed company disclose a material event?", "Disclosure timelines"], ["What is the minimum net worth of a stock broker?", "Broker net worth"], ["What is the minimum corpus of an AIF scheme?", "AIF corpus"]],
           placeholder: "Ask a question, e.g. When is a related party transaction material?" }
-      : { section: "rbi", scope: "Answers from the RBI texts on this site" }));
+      : { section: "rbi", docs: "the Directions", scope: "Answers from the RBI texts on this site" });
+  }
+  function pickSec(raw){
+    const live = Object.keys(MS);
+    const hinted = live.filter(k => HINT[k] && HINT[k].test(raw));
+    let k = hinted.length === 1 ? hinted[0] : "";
+    if (!k) {
+      const pool = hinted.length ? hinted : live;
+      const sc = pool.map(r => { const d = rankDocs(MS[r], parseQuery(MS[r], raw)); return [r, d.length ? d[0].sc * (r === K() ? 1.15 : 1) : 0]; }).sort((a, b) => b[1] - a[1]);
+      k = sc[0] && sc[0][1] > 0 ? sc[0][0] : "";
+      if (!k && JS && /\b(judg[e]?ments?|court|ruling|held|case law)\b/i.test(raw)) k = "jud";
+      if (!k) k = MS[K()] ? K() : live[0];
+    }
+    const c = cfg(k), el = document.getElementById("jscope"); if (el) el.textContent = c.scope;
+    return c;
+  }
+  function judge(){
+    if (!hub.ai_endpoint || !M()) return;
+    const k = K();
+    initJudge(Object.assign(cfg(k), { endpoint: hub.ai_endpoint, wide: true, pick: pickSec,
+      judUrl: JS ? JS.data.judgments : "", judLink: id => "judgments/#j/" + id,
+      scope: "Answers from the RBI, SEBI, IRDAI texts and key judgments on this site",
+      intro: "Put your question on RBI, SEBI or insurance regulation, or on what the courts have held, and I shall pick the right texts on this site and answer from them, citing the provision. Check what I say." }, k === "sebi" || k === "irdai" ? { tries: cfg(k).tries, placeholder: cfg(k).placeholder } : {}));
   }
   lay.addEventListener("change", () => {
     store.set("layer", lay.value);
