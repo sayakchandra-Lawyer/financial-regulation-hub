@@ -29,7 +29,9 @@ const I = {
   arrow: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
   ext: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>',
   map: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="2.5"/><circle cx="4.5" cy="5" r="1.8"/><circle cx="19.5" cy="5" r="1.8"/><circle cx="4.5" cy="19" r="1.8"/><circle cx="19.5" cy="19" r="1.8"/><path d="m6 6.3 4.2 4M18 6.3l-4.2 4M6 17.7l4.2-4M18 17.7l-4.2-4"/></svg>',
-  logo: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg>',
+  logo: '<svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="16" r="14" stroke-width="1.6" opacity=".9"/><circle cx="16" cy="16" r="11.6" stroke-width=".9" stroke-dasharray="1.2 2" opacity=".7"/><path transform="translate(5.8 5.4) scale(.85)" stroke-width="2.4" d="M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7"/></svg>',
+  grow: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg>',
+  shrink: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 10h-6V4M4 14h6v6M14 10l7-7M10 14l-7 7"/></svg>',
   gavel: '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><g fill="currentColor"><rect x="9" y="2.5" width="11" height="6" rx="1.5" transform="rotate(45 14.5 5.5)"/><rect x="2" y="13.2" width="11" height="2.8" rx="1.2" transform="rotate(-45 7.5 14.6)"/><rect x="11" y="19" width="11" height="2.6" rx="1.2"/></g></svg>',
 };
 const JUDGE_SVG = `<svg viewBox="0 0 64 64" aria-hidden="true" class="jsvg">
@@ -521,7 +523,7 @@ async function askJudge() {
   if (raw.length < 3 || btn.disabled) return;
   if (Judge.pick) Object.assign(Judge, Judge.pick(raw));
   const M = Judge.M;
-  t.value = ""; judgeMsg("me", esc(raw));
+  t.value = ""; const asked = judgeMsg("me", esc(raw));
   const wait = judgeMsg("bot thinking", `<span class="dots"><i></i><i></i><i></i></span> ${FT.state === "ready" ? `Reading ${Judge.docs}…` : `Opening the full text of ${Judge.docs} (first question only)…`}`);
   btn.disabled = true;
   try {
@@ -544,8 +546,10 @@ async function askJudge() {
     wait.classList.remove("thinking");
     wait.innerHTML = `<p>Not So Intelligent AI could not be reached. Please check your connection, or use the search box.</p>`;
   }
-  btn.disabled = false; $("#jlog").scrollTop = $("#jlog").scrollHeight;
+  btn.disabled = false; judgeShowStart(asked);
 }
+/* bring the question to the top of the panel so a long answer is read from its start */
+function judgeShowStart(el) { const log = $("#jlog"); if (!log || !el) return; log.scrollTop += el.getBoundingClientRect().top - log.getBoundingClientRect().top - 8; }
 function initJudge(opts) {
   Object.assign(Judge, opts);
   if (!Judge.endpoint || $("#jfab")) return;
@@ -556,13 +560,16 @@ function initJudge(opts) {
   if (opts.wide) fab.classList.add("wide");
   const w = document.createElement("section");
   w.id = "judge"; w.hidden = true; w.setAttribute("role", "dialog"); w.setAttribute("aria-label", "Not So Intelligent AI");
-  w.innerHTML = `<header>${JUDGE_SVG}<div><b>Not So Intelligent AI</b><span id="jscope">${esc(Judge.scope || "Answers from the RBI texts on this site")}</span></div><button class="iconbtn" id="jclose" type="button" aria-label="Close">✕</button></header>
+  w.innerHTML = `<header>${JUDGE_SVG}<div><b>Not So Intelligent AI</b><span id="jscope">${esc(Judge.scope || "Answers from the RBI texts on this site")}</span></div><button class="iconbtn" id="jmax" type="button" aria-label="Enlarge chat window" title="Enlarge">${I.grow}</button><button class="iconbtn" id="jclose" type="button" aria-label="Close">✕</button></header>
   <div id="jlog" aria-live="polite"><div class="jmsg bot"><p><b>Order, order!</b> I am Not So Intelligent AI. ${esc(Judge.intro)}</p><p class="jtry">Try: ${Judge.tries.map(([q, t]) => `<button class="lnk" data-try="${esc(q)}">${esc(t)}</button>`).join(" · ")}</p></div></div>
   <form id="jform"><label class="sr" for="jq">Your question</label><textarea id="jq" rows="2" maxlength="500" placeholder="${esc(Judge.placeholder)}"></textarea><button id="jsend" type="submit" aria-label="Ask">${I.gavel}</button></form>
   <p class="jdisc">AI-generated answers can be wrong. Not legal advice: read the official text. Each question is answered on its own.</p>`;
   document.body.appendChild(w); document.body.appendChild(fab);
   fab.addEventListener("click", () => w.hidden ? openJudge() : closeJudge());
   $("#jclose").addEventListener("click", closeJudge);
+  const setMax = on => { w.classList.toggle("max", on); const b = $("#jmax"); b.innerHTML = on ? I.shrink : I.grow; b.title = on ? "Shrink" : "Enlarge"; b.setAttribute("aria-label", on ? "Shrink chat window" : "Enlarge chat window"); try { localStorage.setItem("hub.jmax", on ? "1" : ""); } catch (e) {} };
+  try { if (localStorage.getItem("hub.jmax")) setMax(true); } catch (e) {}
+  $("#jmax").addEventListener("click", () => setMax(!w.classList.contains("max")));
   $("#jform").addEventListener("submit", e => { e.preventDefault(); askJudge(); });
   $("#jq").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); askJudge(); } });
   w.addEventListener("keydown", e => { if (e.key === "Escape") closeJudge(); });
