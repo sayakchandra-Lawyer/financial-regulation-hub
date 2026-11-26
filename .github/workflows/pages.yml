@@ -28,7 +28,7 @@ jobs:
         run: python3 -I tools/build_pages.py
       - name: Commit if changed
         run: |
-          git add -A -- '*/i' '*/j' sitemap.xml robots.txt index.html '*/index.html'
+          git add -A -- sitemap.xml robots.txt ':(glob)**/index.html'
           git diff --cached --quiet && { echo "No change"; exit 0; }
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
