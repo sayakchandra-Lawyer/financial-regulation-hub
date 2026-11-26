@@ -36,6 +36,34 @@
 .hid{font-size:13px;color:var(--ink-2);margin-top:8px}
 #regs .rc{min-height:0;padding:16px 18px}#regs .rc .ic{width:36px;height:36px;border-radius:10px}#regs .rc .ic svg{width:20px;height:20px}#regs .rc .go{width:30px;height:30px}
 .ucol{display:grid;gap:12px}.ureg{overflow:hidden;transition:border-color .18s}.ureg[open],.ureg:hover{border-color:color-mix(in srgb,var(--c) 45%,var(--line))}.ureg summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:14px;padding:14px 18px}.ureg summary::-webkit-details-marker{display:none}.ureg summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px;border-radius:16px}.ureg .ic{width:36px;height:36px;border-radius:10px;flex:none;display:grid;place-items:center;color:var(--c);background:color-mix(in srgb,var(--c) 14%,transparent)}.ureg .ic svg{width:20px;height:20px}.ureg .un{display:flex;flex-direction:column;min-width:0;margin-right:auto}.ureg .un b{font:500 19px var(--f-d)}.ureg .un .tag{font-size:13px}.ureg .pill{font-size:12px;padding:4px 10px}.chev{width:9px;height:9px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);margin:0 4px 4px 6px;transition:transform .2s;flex:none}.ureg[open] .chev{transform:rotate(-135deg);margin-bottom:-4px}.ubody{padding:4px 18px 18px;border-top:1px solid var(--line)}.ubar{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;margin:12px 0}.ubar a{margin-left:auto;font-size:13px}.ureg .ulist{grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr))}@media(max-width:560px){.ureg .un .tag{display:none}}
+.nb{display:flex;align-items:stretch;margin:28px 0 -8px;overflow:hidden}
+.nb .nbl{display:flex;align-items:center;gap:8px;padding:12px 16px;border-right:1px solid var(--line);flex:none;font-size:13px;font-weight:600}
+.nb .nbl .tag{font-weight:400}
+.nb .live{width:8px;height:8px;border-radius:50%;background:var(--accent);animation:nbp 2s infinite}
+@keyframes nbp{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 50%,transparent)}70%,100%{box-shadow:0 0 0 7px transparent}}
+.nb .vp{flex:1;min-width:0;overflow:hidden}
+.nb.mv .vp{-webkit-mask:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent);mask:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent)}
+.nb .trk{display:flex;width:max-content}
+.nb.mv .trk{animation:nbs var(--dur,40s) linear infinite}
+.nb.mv:hover .trk,.nb.mv:focus-within .trk,.nb.paused .trk{animation-play-state:paused}
+@keyframes nbs{to{transform:translateX(-50%)}}
+.nb .run{display:flex}
+.nb .it{display:inline-flex;align-items:center;gap:8px;padding:12px 22px 12px 18px;font-size:14px;white-space:nowrap;border-right:1px solid var(--line)}
+.nb .it:hover b{color:var(--accent-text);text-decoration:underline}
+.nb .it .d{width:7px;height:7px;border-radius:50%;background:var(--c);flex:none}
+.nb .it .r{font-size:12px;font-weight:600;color:var(--ink-2)}
+.nb .it b{font-weight:500;max-width:56ch;overflow:hidden;text-overflow:ellipsis}
+.nb .it .w{font-size:12.5px;color:var(--muted)}
+.nb .it .x{width:12px;height:12px;color:var(--muted);flex:none}
+.nb .ctl{display:flex;align-items:center;gap:6px;padding:0 10px;border-left:1px solid var(--line);flex:none}
+.nb .ctl .iconbtn{width:32px;height:32px}
+.nb .ctl a{font-size:13px;padding:0 6px;white-space:nowrap}
+.nb .empty{padding:12px 18px;font-size:14px;color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nb .dup{display:none}.nb.mv .dup{display:flex}.nb .pp{display:none}.nb.mv .pp{display:grid}
+@media (prefers-reduced-motion:reduce){.nb.mv .trk{animation:none}.nb .live{animation:none}}
+@media (prefers-reduced-motion:reduce),(max-width:700px){.nb .vp{overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}.nb .vp::-webkit-scrollbar{display:none}.nb .it{scroll-snap-align:start}}
+@media(max-width:700px){.nb{flex-wrap:wrap}.nb .nbl{width:100%;border-right:0;border-bottom:1px solid var(--line);padding:10px 14px}.nb .vp{flex-basis:100%}.nb .it{width:calc(100vw - 34px);white-space:normal;flex-wrap:wrap;align-items:baseline;gap:4px 8px;padding:12px 14px}.nb .it b{flex-basis:100%;max-width:none;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.nb .ctl{display:none}.nb .nbl .more{margin-left:auto;font-weight:400}.nb .empty{white-space:normal}}
+.nb .nbl .more{display:none}@media(max-width:700px){.nb .nbl .more{display:inline}}
 </style>
 </head>
 <body>
@@ -63,6 +91,8 @@
   </div></section>
 
   <div class="wrap">
+    <section class="card nb" id="nb" aria-label="Latest updates" hidden></section>
+
     <div class="sec-h"><h2>Start with a task</h2></div>
     <div class="grid g3" id="tasks"></div>
 
@@ -299,7 +329,51 @@
   $("#q").addEventListener("keydown", e => { if (e.key === "Escape") { $("#q").value = ""; $("#results").hidden = true; $("#q").blur(); } });
   $("#qform").addEventListener("submit", e => { e.preventDefault(); const raw = $("#q").value.trim(); if (raw) location.href = `${secs[K()].href}#search/` + encodeURIComponent(raw); });
 
-  renderTasks(); renderUpdates(); renderRegs(); lensNote(); judge();
+
+  /* latest band: site updates plus official headlines, last 2 working days */
+  async function renderBand(){
+    const el = $("#nb"); if (!el) return;
+    let feed = [];
+    try { feed = (await getJSON("news.json")).items || []; } catch (e) { feed = []; }
+    const ist = new Date(Date.now() + 330 * 6e4), today = ist.toISOString().slice(0, 10);
+    let d = new Date(today + "T00:00:00Z"), n = 0;
+    while (n < 2) { d = new Date(d.getTime() - 864e5); const w = d.getUTCDay(); if (w && w !== 6) n++; }
+    const from = d.toISOString().slice(0, 10);
+    const norm = t => String(t || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+    const own = [];
+    Object.keys(MS).forEach(k => (MS[k] ? MS[k].updates : []).forEach(u => own.push({ k, u })));
+    const seenUrl = new Set(own.map(o => o.u.url).filter(Boolean)), seenT = new Set(own.map(o => norm(o.u.title)));
+    const all = [
+      ...own.map(({ k, u }) => ({ k, kind: u.kind, title: u.title, date: String(u.date), href: `${secs[k].href}#changes/${encodeURIComponent(u.id)}`, ext: false })),
+      ...feed.filter(f => secs[f.reg] && !seenUrl.has(f.url) && !seenT.has(norm(f.title))).map(f => ({ k: f.reg, kind: f.kind, title: f.title, date: f.date, time: f.time, href: f.url, ext: true }))
+    ].filter(x => x.date <= today).sort((a, b) => (b.date + (b.time || "")).localeCompare(a.date + (a.time || "")));
+    const win = all.filter(x => x.date >= from);
+    const yday = new Date(Date.parse(today) - 864e5).toISOString().slice(0, 10);
+    const rel = s => s === today ? "Today" : s === yday ? "Yesterday" : fmtDate(s, false);
+    const ext = `<svg class="x" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 2H2v8h8V7M7 2h3v3M10 2 5.5 6.5"/></svg>`;
+    const item = (x, dup) => `<a class="it" style="--c:var(--${x.k})" href="${esc(x.href)}"${x.ext ? ` target="_blank" rel="noopener" title="Opens on the ${esc(NAME[x.k])} website"` : ""}${dup ? ` tabindex="-1" aria-hidden="true"` : ""}><span class="d"></span><span class="r">${esc(NAME[x.k])}</span><span class="w">${esc(trunc(x.kind, 40))}</span><b>${esc(x.title)}</b><span class="w">${rel(x.date)}</span>${x.ext ? ext : ""}</a>`;
+    const lbl = c => `<div class="nbl"><span class="live" aria-hidden="true"></span>Latest <span class="tag">· last 2 working days</span>${c > 1 ? `<span class="tag more">${c} items, swipe</span>` : ""}</div>`;
+    el.classList.remove("mv", "paused");
+    if (!win.length) {
+      const L = all[0]; if (!L) { el.hidden = true; return; }
+      el.innerHTML = lbl(0) + `<div class="empty">Nothing new in the last 2 working days. Most recent: <a class="lnk" href="${esc(L.href)}"${L.ext ? ` target="_blank" rel="noopener"` : ""}>${esc(NAME[L.k])} · ${esc(trunc(L.title, 90))}</a> (${fmtDate(L.date, false)})</div>`;
+      el.hidden = false; return;
+    }
+    const once = win.map(x => item(x)).join("");
+    el.innerHTML = lbl(win.length) + `<div class="vp"><div class="trk" style="--dur:${Math.max(30, win.length * 11)}s"><div class="run">${once}</div><div class="run dup">${win.map(x => item(x, 1)).join("")}</div></div></div>
+      <div class="ctl"><button class="iconbtn pp" type="button" aria-label="Pause scrolling" aria-pressed="false">${I_PAUSE}</button><a class="lnk" href="#updh">All changes</a></div>`;
+    el.hidden = false;
+    const vp = $(".vp", el), run = $(".run", el);
+    const fits = () => run.scrollWidth <= vp.clientWidth;
+    const still = matchMedia("(prefers-reduced-motion: reduce), (max-width: 700px)");
+    const set = () => el.classList.toggle("mv", !still.matches && !fits());
+    set(); still.addEventListener("change", set); addEventListener("resize", set);
+    const b = $(".pp", el);
+    b.addEventListener("click", () => { const p = el.classList.toggle("paused"); b.setAttribute("aria-pressed", p); b.setAttribute("aria-label", p ? "Resume scrolling" : "Pause scrolling"); b.innerHTML = p ? I_PLAY : I_PAUSE; });
+  }
+  const I_PAUSE = `<svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><rect x="3" y="2" width="3" height="10" rx="1"/><rect x="8" y="2" width="3" height="10" rx="1"/></svg>`;
+  const I_PLAY = `<svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path d="M4 2.5v9l7-4.5z"/></svg>`;
+  renderTasks(); renderUpdates(); renderRegs(); lensNote(); judge(); renderBand();
   $("#asof").textContent = Object.keys(MS).map((k, i) => `${NAME[k]}${i ? "" : " register"} as on ${fmtDate(MS[k].meta.as_of)}`).join(" · ");
 })();
 </script>
