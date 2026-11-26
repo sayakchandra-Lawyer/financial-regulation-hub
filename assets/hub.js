@@ -352,7 +352,7 @@ async function askJudge() {
   if (raw.length < 3 || btn.disabled) return;
   if (Judge.pick) Object.assign(Judge, Judge.pick(raw));
   const M = Judge.M;
-  t.value = ""; judgeMsg("me", esc(raw));
+  t.value = ""; const asked = judgeMsg("me", esc(raw));
   const wait = judgeMsg("bot thinking", `<span class="dots"><i></i><i></i><i></i></span> ${FT.state === "ready" ? `Reading ${Judge.docs}…` : `Opening the full text of ${Judge.docs} (first question only)…`}`);
   btn.disabled = true;
   try {
@@ -375,8 +375,10 @@ async function askJudge() {
     wait.classList.remove("thinking");
     wait.innerHTML = `<p>Not So Intelligent AI could not be reached. Please check your connection, or use the search box.</p>`;
   }
-  btn.disabled = false; $("#jlog").scrollTop = $("#jlog").scrollHeight;
+  btn.disabled = false; judgeShowStart(asked);
 }
+/* bring the question to the top of the panel so a long answer is read from its start */
+function judgeShowStart(el) { const log = $("#jlog"); if (!log || !el) return; log.scrollTop += el.getBoundingClientRect().top - log.getBoundingClientRect().top - 8; }
 function initJudge(opts) {
   Object.assign(Judge, opts);
   if (!Judge.endpoint || $("#jfab")) return;
