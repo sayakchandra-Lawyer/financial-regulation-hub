@@ -81,8 +81,8 @@
    }
   ],
   "as_of": "2026-11-26",
-  "count": 39,
-  "in_force": 34,
+  "count": 55,
+  "in_force": 50,
   "lenses": [
    {
     "id": "ENT-LNDR",
@@ -554,7 +554,8 @@
    "consequences_stated": [],
    "consequences_general": "",
    "cross_references": [
-    "ACT-ICA"
+    "ACT-ICA",
+    "ACT-ARB"
    ],
    "repeals": ""
   },
@@ -787,7 +788,8 @@
    "consequences_stated": [],
    "consequences_general": "",
    "cross_references": [
-    "ACT-BBE-2026"
+    "ACT-BBE-2026",
+    "ACT-IT"
    ],
    "repeals": "Indian Evidence Act, 1872"
   },
@@ -1236,7 +1238,9 @@
    "consequences_stated": [],
    "consequences_general": "",
    "cross_references": [
-    "ACT-SARFAESI"
+    "ACT-FRA",
+    "ACT-SARFAESI",
+    "RULES-CERSAI"
    ],
    "repeals": ""
   },
@@ -1446,8 +1450,8 @@
    "updated_as_on": "",
    "effective_date": "2005-07-01",
    "status": "In force (as amended)",
-   "official_url": "https://www.enforcementdirectorate.gov.in/acts-and-rules/pmla/",
-   "official_pdf": "https://enforcementdirectorate.gov.in/media/pmla/d7162b8f-d022-4583-b942-d5bb85dbe796_THE%20PREVENTION%20OF%20MONEY%20LAUNDERING%20ACT,%202002.pdf",
+   "official_url": "https://indiacode.gov.in/handle/123456789/496293",
+   "official_pdf": "",
    "statutory_powers": [],
    "applies_to": [
     "Reporting entities: banking companies, financial institutions (which include NBFCs, housing finance institutions, chit fund companies and payment system operators), intermediaries and persons carrying on designated businesses (ss. 2(1)(l), 2(1)(wa))",
@@ -1488,8 +1492,8 @@
    "updated_as_on": "",
    "effective_date": "1984-04-02",
    "status": "In force (as amended)",
-   "official_url": "https://chitfund.delhi.gov.in/",
-   "official_pdf": "https://chitfund.delhi.gov.in/sites/default/files/2022-12/chitfundsact1982.pdf",
+   "official_url": "https://indiacode.gov.in/handle/123456789/496271",
+   "official_pdf": "",
    "statutory_powers": [],
    "applies_to": [
     "Foremen and companies conducting chits",
@@ -1618,6 +1622,666 @@
    "consequences_general": "",
    "cross_references": [
     "ML-KA-AMD2025"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ACT-ARB",
+   "type": "Act",
+   "short_name": "Arbitration and Conciliation Act: loan arbitration",
+   "title": "Arbitration and Conciliation Act, 1996: arbitration agreements, interim relief, appointment and independence of arbitrators, time limits, setting aside and enforcement of awards",
+   "issuing_department": "Parliament of India",
+   "theme": "Enforcement and recovery",
+   "reference_no": "Act 26 of 1996",
+   "issue_date": "1996-08-16",
+   "updated_as_on": "2026-06-01",
+   "effective_date": "1996-08-22",
+   "status": "In force (as amended in 2015, 2019 and 2021)",
+   "official_url": "https://indiacode.gov.in/handle/123456789/496493",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Lenders whose loan or security documents contain an arbitration clause",
+    "Borrowers and guarantors bound by such clauses"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "An arbitration agreement must be in writing; it may be a clause in a contract or a separate agreement, and an exchange of communications by electronic means that records the agreement counts (s. 7)",
+    "Interim measures from the court before or during the arbitration, or after the award but before enforcement, including securing the amount in dispute and the preservation, custody or sale of goods (s. 9(1)); interim measures from the arbitral tribunal, enforceable as if they were court orders (s. 17)",
+    "Independence of arbitrators: a prospective arbitrator must disclose circumstances giving rise to justifiable doubts about independence or impartiality (s. 12(1)); a person whose relationship with the parties, counsel or the dispute falls in the Seventh Schedule is ineligible, notwithstanding any prior agreement, unless the parties waive this by an express written agreement after the dispute has arisen (s. 12(5))",
+    "Once the arbitral tribunal is constituted, the court will not entertain a s. 9 application unless the remedy under s. 17 may not be efficacious (s. 9(3))",
+    "The Limitation Act, 1963 applies to arbitrations as it applies to court proceedings (s. 43)"
+   ],
+   "core_obligations": [
+    "s. 9(2): where the court grants an interim measure before the arbitration starts, commence the arbitral proceedings within 90 days of the order, or within any further time the court allows",
+    "s. 29A(1): in domestic arbitrations the award must be made within twelve months from completion of pleadings; the parties may extend by consent for up to six months (s. 29A(3)), after which only the court can extend the mandate (s. 29A(4))",
+    "s. 34(3): an application to set aside an award must be made within three months of receiving it, with a further 30 days only on sufficient cause",
+    "s. 36: once the time to challenge has expired the award is enforced like a court decree under the CPC; filing a s. 34 challenge does not by itself stay the award, and a stay of a money award is considered with regard to the CPC rules on stay of money decrees; where the court is satisfied that there is a prima facie case that the arbitration agreement, the underlying contract or the making of the award was induced by fraud or corruption, it stays the award unconditionally pending the s. 34 challenge (s. 36(3), second proviso)"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 29A(4): if the award is not made in time and the court does not extend the period, the arbitrator's mandate terminates; the court may cut the arbitrator's fees by up to 5% for each month of delay attributable to the tribunal",
+    "s. 12(5): an arbitrator who is ineligible under the Seventh Schedule cannot act unless the parties have expressly waived it in writing after the dispute arose"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "ACT-LIM",
+    "ACT-RDB",
+    "ACT-STAMP",
+    "ACT-ICA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ACT-FRA",
+   "type": "Act",
+   "short_name": "Factoring Regulation Act: assignment of receivables",
+   "title": "Factoring Regulation Act, 2011: registration of factors with RBI, assignment of receivables, notice to debtors and filing with the Central Registry",
+   "issuing_department": "Parliament of India",
+   "theme": "Mortgages, property and goods as security",
+   "reference_no": "Act 12 of 2012",
+   "issue_date": "2012-01-22",
+   "updated_as_on": "2026-07-01",
+   "effective_date": "",
+   "status": "In force (as amended in 2021 and 2023)",
+   "official_url": "https://indiacode.gov.in/handle/123456789/496317",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Factors: RBI-registered NBFCs, banks, statutory corporations and companies engaged in the factoring business (s. 2(i))",
+    "Assignors (sellers of goods and services) and debtors whose receivables are assigned"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Factoring business: acquiring receivables by assignment for consideration, for collection or for financing against the assignment; credit facilities provided by a bank or an NBFC in its ordinary course of business against security of receivables are excluded (s. 2(j)(i))",
+    "No factor may commence or carry on factoring business without a certificate of registration from RBI; the NBFC registration requirements of the RBI Act apply (s. 3). Banks, corporations set up under a Central or State Act and Government companies do not need this registration (s. 5)",
+    "An assignment of receivables must be by agreement in writing, and the assignor must disclose the debtor's defences and rights of set-off to the assignee (s. 7)",
+    "The assignee cannot demand payment from the debtor until notice of the assignment is given to the debtor (s. 8); once notice is given the debtor must pay the assignee, and payment to the assignee in discharge of the receivables specified in the notice fully discharges the debtor to that extent (s. 9)",
+    "Recovery of an assigned receivable through a court or tribunal must be within the period of limitation under the Limitation Act (s. 28)"
+   ],
+   "core_obligations": [
+    "s. 19(1): register the particulars of every assignment of receivables in the factor's favour with the Central Registry set up under SARFAESI, within the time and in the manner prescribed; where receivables are financed through a Trade Receivables Discounting System, the TReDS files on the factor's behalf (s. 19(1A))"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 21: default in filing under s. 19 makes the company and every officer in default liable to a penalty of up to Rs 5 lakh, and up to Rs 10,000 a day while it continues, imposed by RBI",
+    "s. 22: failure to comply with an RBI direction, penalty of up to Rs 5 lakh, and up to Rs 10,000 a day while it continues",
+    "s. 23: contraventions with no specific penalty, imprisonment up to one year, fine, or both; courts take cognizance only on a complaint by an authorised RBI officer (s. 24)"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "RULES-FACT",
+    "ACT-SARFAESI",
+    "RULES-CERSAI",
+    "ACT-LIM"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ACT-IT",
+   "type": "Act",
+   "short_name": "Information Technology Act: e-contracts, e-signatures, data security",
+   "title": "Information Technology Act, 2000: legal recognition of electronic records and signatures, electronic contracts, and data-security liabilities",
+   "issuing_department": "Parliament of India",
+   "theme": "Electronic contracts and evidence",
+   "reference_no": "Act 21 of 2000",
+   "issue_date": "2000-06-09",
+   "updated_as_on": "2025-06-27",
+   "effective_date": "2000-10-17",
+   "status": "In force (as amended)",
+   "official_url": "https://indiacode.gov.in/handle/123456789/496511",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Lenders and digital lenders executing loan documents electronically or using e-signatures and Aadhaar e-KYC based e-sign",
+    "Bodies corporate handling sensitive personal data"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Where a law requires a signature, an electronic signature in the prescribed manner satisfies it (s. 5); electronic signature techniques include Aadhaar or other e-KYC based e-authentication (s. 3A and Second Schedule)",
+    "A contract is not unenforceable merely because the proposal, acceptance or revocation was expressed in electronic form (s. 10A)",
+    "The Act does not apply to the documents in the First Schedule (s. 1(4)). Since 26-09-2022 the exclusion for negotiable instruments does not cover a cheque, demand promissory note or bill of exchange issued in favour of or endorsed by an entity regulated by RBI, NHB, SEBI, IRDAI or PFRDA, and the exclusion for powers of attorney does not cover one that empowers such a regulated entity to act for the executant; trusts and wills remain excluded. The same 2022 notification (S.O. 4720(E)) omitted the entry for contracts for the sale or conveyance of immovable property; stamp duty and registration law still apply to such contracts"
+   ],
+   "core_obligations": [
+    "s. 43A: a body corporate handling sensitive personal data must implement and maintain reasonable security practices; s. 43A is omitted from 13-05-2027 by the Digital Personal Data Protection Act, 2023 (see the DPDP section)",
+    "s. 72A: do not disclose personal information obtained under a lawful contract without the person's consent, with intent to cause or knowing it likely to cause wrongful loss or gain"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 43A: negligence in maintaining reasonable security practices that causes wrongful loss or gain makes the body corporate liable to pay damages by way of compensation",
+    "s. 66C: fraudulent or dishonest use of another person's electronic signature, password or other unique identification feature, imprisonment up to three years and fine up to Rs 1 lakh"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "ACT-BSA",
+    "ACT-ICA",
+    "ACT-NI",
+    "ACT-STAMP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ACT-BUDS",
+   "type": "Act",
+   "short_name": "BUDS Act: ban on unregulated deposit schemes",
+   "title": "Banning of Unregulated Deposit Schemes Act, 2019: ban on unregulated deposit schemes, fraudulent default in regulated schemes, and information to the central database",
+   "issuing_department": "Parliament of India",
+   "theme": "Deposits and chit funds",
+   "reference_no": "Act 21 of 2019",
+   "issue_date": "2019-07-31",
+   "updated_as_on": "2026-07-01",
+   "effective_date": "2019-02-21",
+   "status": "In force",
+   "official_url": "https://indiacode.gov.in/handle/123456789/496446",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Deposit takers: individuals, firms, LLPs, companies, associations, trusts, co-operative societies and any other arrangement receiving or soliciting deposits (s. 2(6))",
+    "Promoters and persons inducing investment in unregulated schemes"
+   ],
+   "excluded": [
+    "Statutory corporations, banking companies, SBI, regional rural banks and co-operative banks are not deposit takers (s. 2(6))",
+    "Loans received from banks, public financial institutions, RBI-registered NBFCs, regional financial institutions and insurers, Government and statutory authorities, and partners' capital, are not deposits (s. 2(4))"
+   ],
+   "key_concepts": [
+    "Deposit: money received as an advance, loan or in any other form with a promise to return it, with or without interest or other benefit, subject to the exclusions in s. 2(4)",
+    "Regulated Deposit Schemes are those listed in the First Schedule, including deposits accepted by RBI-registered NBFCs, and schemes regulated under the RBI Act or by SEBI, IRDAI and the State Governments; every other deposit scheme is an Unregulated Deposit Scheme and is banned (s. 3)",
+    "Prize chits and money circulation schemes banned under the 1978 Act are deemed Unregulated Deposit Schemes (s. 6)"
+   ],
+   "core_obligations": [
+    "s. 3: do not promote, operate, advertise or accept deposits under an Unregulated Deposit Scheme",
+    "s. 4: a deposit taker under a Regulated Deposit Scheme must not commit fraudulent default in repayment or in rendering a promised service",
+    "s. 10(1): a deposit taker must intimate the authority maintaining the central database about its business, in the prescribed form and time; this applies to companies accepting deposits under Chapter V of the Companies Act, 2013"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 21: soliciting deposits under a banned scheme, imprisonment of one to five years and fine of Rs 2 lakh to Rs 10 lakh; accepting them, two to seven years and Rs 3 lakh to Rs 10 lakh; accepting and fraudulently defaulting, three to ten years and fine of Rs 5 lakh up to twice the funds collected",
+    "s. 22: fraudulent default in a Regulated Deposit Scheme, imprisonment up to seven years, or fine of Rs 5 lakh up to Rs 25 crore or three times the profits made, whichever is higher, or both",
+    "s. 23: false or misleading inducement to invest in a banned scheme, imprisonment of one to five years and fine up to Rs 10 lakh"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "RULES-BUDS",
+    "PID-MH",
+    "ACT-CHIT"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-BUDS",
+   "type": "Rules",
+   "short_name": "BUDS Rules 2020",
+   "title": "Banning of Unregulated Deposit Schemes Rules, 2020",
+   "issuing_department": "Ministry of Finance, Department of Financial Services",
+   "theme": "Deposits and chit funds",
+   "reference_no": "S.O. 663(E)",
+   "issue_date": "2020-02-13",
+   "updated_as_on": "",
+   "effective_date": "2020-02-13",
+   "status": "In force",
+   "official_url": "https://indiacode.gov.in/handle/123456789/509727",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Deposit takers required to intimate their business under s. 10 of the BUDS Act"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Rules under the BUDS Act on the form, manner and time for deposit takers to give information about their business to the central database authority"
+   ],
+   "core_obligations": [
+    "File the intimation of deposit-taking business in the form and within the time the rules prescribe"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "ACT-BUDS"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-SIE",
+   "type": "Rules",
+   "short_name": "Security Interest (Enforcement) Rules 2002",
+   "title": "Security Interest (Enforcement) Rules, 2002 under the SARFAESI Act: demand notice, possession, valuation and sale of secured assets",
+   "issuing_department": "Ministry of Finance, Department of Financial Services",
+   "theme": "Enforcement and recovery",
+   "reference_no": "S.O. 1020(E) dated 20-09-2002",
+   "issue_date": "2002-09-20",
+   "updated_as_on": "",
+   "effective_date": "2002-09-20",
+   "status": "In force (as amended)",
+   "official_url": "https://indiacode.gov.in/handle/123456789/509770",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Secured creditors and their authorised officers enforcing security under SARFAESI s. 13",
+    "Borrowers and guarantors whose assets are sold"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "The authorised officer is an officer of the secured creditor designated by its Board to exercise the secured creditor's rights (rule 2)",
+    "Movable assets: possession, valuation and fixing of a reserve price, and sale by quotations, public tender, public auction or private treaty (rules 4 to 6)",
+    "Immovable assets: possession notice, valuation by an approved valuer and fixing of a reserve price before sale (rule 8)"
+   ],
+   "core_obligations": [
+    "Rules 6(2) and 8(6): serve the borrower a notice of thirty days for sale of the secured asset; for sale by public tender or auction, publish a public notice in two leading newspapers, one in the vernacular, setting out the terms of sale including the reserve price",
+    "Rule 9(1): no sale of immovable property before thirty days from the public notice of sale or service of the sale notice on the borrower; the rule was amended in 2016 to provide a shorter notice for a re-sale after a failed first sale",
+    "Rule 9(3)-(4): the purchaser pays a 25% deposit on the sale and the balance within the period the rule allows, which may be extended only within the limits the rule sets (these sub-rules were amended in 2016); a sale certificate issues on confirmation and payment (rule 9(6))"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "Rule 9(5): if the purchaser defaults on the balance, the deposit is forfeited and the property is resold"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "ACT-SARFAESI",
+    "RULES-CERSAI"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-CERSAI",
+   "type": "Rules",
+   "short_name": "CERSAI (Central Registry) Rules 2011",
+   "title": "SARFAESI (Central Registry) Rules, 2011, as amended in 2013 and 2016: filing security interests and assignments with CERSAI",
+   "issuing_department": "Ministry of Finance, Department of Financial Services",
+   "theme": "Mortgages, property and goods as security",
+   "reference_no": "G.S.R. 276(E)",
+   "issue_date": "2011-03-31",
+   "updated_as_on": "",
+   "effective_date": "2011-03-31",
+   "status": "In force (as amended)",
+   "official_url": "https://indiacode.gov.in/handle/123456789/509721",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Secured creditors registering the creation, modification and satisfaction of security interests",
+    "Factors and assignees filing assignments of receivables"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Since the 2016 amendment, filings cover mortgages other than by deposit of title-deeds, hypothecation of plant and machinery, stocks, book debts and receivables, intangible assets such as know-how, patents, trade marks and licences, and under-construction buildings secured otherwise than by mortgage (rule 4(2A)-(2D))",
+    "Filings are made in the prescribed forms and authenticated with a valid digital signature (rule 4)"
+   ],
+   "core_obligations": [
+    "Rule 5(1): file the particulars of each transaction with the Central Registrar within thirty days of the transaction",
+    "Pay the filing fee in the Table under rule 7; delays up to a further thirty days may be condoned on application, with a higher fee"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "SARFAESI s. 26D: a secured creditor cannot exercise its enforcement rights under Chapter III of SARFAESI unless the security interest is registered with the Central Registry",
+    "SARFAESI s. 26E: debts due to a secured creditor with a registered security interest get priority over other debts and government dues, subject to the Insolvency and Bankruptcy Code, 2016 where proceedings under that Code are pending"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "ACT-SARFAESI",
+    "ACT-FRA",
+    "RULES-FACT"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "RULES-DRT",
+   "type": "Rules",
+   "short_name": "DRT (Procedure) Rules 1993",
+   "title": "Debts Recovery Tribunal (Procedure) Rules, 1993: filing, fees, documents and hearing of recovery applications",
+   "issuing_department": "Ministry of Finance, Department of Financial Services",
+   "theme": "Enforcement and recovery",
+   "reference_no": "Rules under s. 36 of the RDB Act",
+   "issue_date": "1993",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "In force (as amended)",
+   "official_url": "https://indiacode.gov.in/handle/123456789/509813",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Banks and financial institutions filing recovery applications before a Debts Recovery Tribunal",
+    "Defendants (borrowers and guarantors)"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Procedure for filing and scrutiny of applications (rules 4 and 5), place of filing (rule 6), application fees (rule 7), documents to accompany the application (rule 9) and the respondent's reply (rule 12)",
+    "The application form sets out the particulars of the applicant and defendant, jurisdiction, limitation, facts and the relief sought"
+   ],
+   "core_obligations": [
+    "Rule 11: endorse a copy of the application and documents to the respondent",
+    "Rule 7: pay the application fee in the scale the rule sets"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "ACT-RDB",
+    "AMD-RDB-20260813"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MF-KA",
+   "type": "State Act",
+   "short_name": "Karnataka micro loan coercive-recovery law (2025)",
+   "title": "Karnataka Micro Loan and Small Loan (Prevention of Coercive Actions) Act, 2025 (replacing the Ordinance of 12-02-2025)",
+   "issuing_department": "Government of Karnataka",
+   "theme": "Consumer protection and State lending laws",
+   "reference_no": "Karnataka Act 15 of 2025",
+   "issue_date": "2025-03-24",
+   "updated_as_on": "",
+   "effective_date": "2025-02-12",
+   "status": "In force",
+   "official_url": "https://indiacode.gov.in/handle/123456789/563833",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Micro finance institutions, money lending agencies, organisations and lenders operating in Karnataka, including firms, persons, groups and digital lending platforms whose principal or incidental activity is lending at interest (s. 2(1)(e))"
+   ],
+   "excluded": [
+    "Banks (including small finance banks, local area banks, regional rural banks and their business correspondents) regulated by RBI, co-operative banks and societies, souharda societies, and NBFCs and housing finance companies registered with RBI (s. 1(3))"
+   ],
+   "key_concepts": [
+    "Lenders within the Act must register with the district Registering Authority (the Deputy Commissioner) before granting or recovering loans (s. 3(2)); registration is for one year and renewal is sought sixty days before expiry (s. 3(3)-(4))",
+    "Coercive action includes pressure, violence, insults or intimidation of the borrower or family, persistent following, frequenting the home or workplace, using outside agencies or persons with a criminal background, and forcibly taking documents for Government benefits (s. 8, Explanation)",
+    "If an unregistered lender resorts to coercive action against a borrower from a vulnerable section of society, loans made before the commencement are deemed discharged and civil suits for recovery are barred (s. 15)"
+   ],
+   "core_obligations": [
+    "s. 6: take no security by pawn, pledge or any collateral; security taken before the Act stands released",
+    "s. 7: price loans only through interest, processing charge, insurance premium and delayed penal payment; give a loan card in Kannada with the effective rate of interest; display the rate in offices, literature and website; give receipts and copies of documents",
+    "s. 7(11): file quarterly and annual statements with the Registering Authority before the 10th day of the following quarter or year",
+    "s. 8: no coercive action, directly or through agents, to recover a loan"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 13: coercive recovery, imprisonment up to ten years and fine up to Rs 5 lakh; offences are cognizable and non-bailable",
+    "s. 7(12): failure to file the quarterly or annual statement, imprisonment for six months, fine up to Rs 10,000, or both",
+    "s. 4: registration may be suspended or cancelled; a conviction under the Act is sufficient cause"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "ML-KA-PCEI2025",
+    "ML-KA-AMD2025",
+    "ML-KA",
+    "MF-TN",
+    "MF-AS",
+    "MF-AP"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ML-KA-PCEI2025",
+   "type": "State Act",
+   "short_name": "Karnataka exorbitant-interest law (amended 2025)",
+   "title": "Karnataka Prohibition of Charging Exorbitant Interest Act, 2004, as amended by Karnataka Act 17 of 2025",
+   "issuing_department": "Government of Karnataka",
+   "theme": "Consumer protection and State lending laws",
+   "reference_no": "Karnataka Act 14 of 2004, amended by Karnataka Act 17 of 2025",
+   "issue_date": "2004-03-04",
+   "updated_as_on": "",
+   "effective_date": "2003-09-05",
+   "status": "In force (as amended w.e.f. 25-03-2025)",
+   "official_url": "https://indiacode.gov.in/handle/123456789/563710",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Any person lending money in Karnataka, and money lenders under the Karnataka Money Lenders Act, 1961"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Exorbitant interest is interest charged on an hourly, daily, instalment, monthly or other basis at a rate above the rate the State fixes under s. 28 of the Karnataka Money Lenders Act, 1961 (s. 2(1)(b))",
+    "The 2025 amendment added a ban on coercive recovery by money lenders, with the same list of coercive actions as the 2025 micro loan law (s. 3(2)), and powers to suspend or cancel registration (s. 4A)"
+   ],
+   "core_obligations": [
+    "s. 3(1): charge no exorbitant interest on any loan",
+    "s. 3(2): no coercive action, by the lender, its agents or family members, to recover money"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 4: contravention of s. 3 or molestation of a debtor, imprisonment up to ten years and fine up to Rs 5 lakh",
+    "s. 5: a debtor may deposit the amount due with interest at the State rate in court and seek an order recording satisfaction of the loan; the court may order restoration of property forcibly taken (s. 6)"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "MF-KA",
+    "ML-KA",
+    "ML-KA-AMD2025"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "MF-AP",
+   "type": "State Act",
+   "short_name": "Andhra Pradesh microfinance law (2011)",
+   "title": "Andhra Pradesh Micro Finance Institutions (Regulation of Money Lending) Act, 2011",
+   "issuing_department": "Government of Andhra Pradesh",
+   "theme": "Consumer protection and State lending laws",
+   "reference_no": "AP Act 1 of 2011",
+   "issue_date": "2011-01-01",
+   "updated_as_on": "",
+   "effective_date": "2010-10-15",
+   "status": "In force",
+   "official_url": "https://indiacode.gov.in/handle/123456789/492894",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Micro finance institutions lending to women self-help groups and their members in Andhra Pradesh, which by definition include companies and NBFCs whose principal or incidental activity is lending to the below poverty line population (s. 2(d))"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "MFIs must register with the district Registering Authority, stating the area of operation, interest rates, due-diligence and recovery systems (s. 3)",
+    "Interest recovered may not exceed the principal; a loan stands discharged once twice the principal has been realised (s. 9)",
+    "No further loan to an SHG with an outstanding bank loan without the Registering Authority's prior written approval, and no loan to an SHG member during two subsisting loans from any source (s. 10)",
+    "Challenges by microfinance NBFCs to the State's power to regulate them were disposed of by the High Court in 2013 without deciding legislative competence. The Supreme Court later held (for the Kerala and Gujarat money lenders Acts) that state money-lending laws do not apply to RBI-regulated NBFCs (Nedumpilli Finance Co. v. State of Kerala, 2022 INSC 545)"
+   ],
+   "core_obligations": [
+    "s. 8: display interest rates; charge nothing beyond the prescribed application charge",
+    "s. 11: give the borrower a loan statement within seven days with the effective rate of interest, signed receipts and copies of documents; repayments are made at the Gram Panchayat office or a designated public place; no recovery agents and no coercive recovery",
+    "s. 12: file a monthly statement of borrowers, loans and interest with the Registering Authority before the 10th of each month"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 16: persons responsible for an MFI who use coercive measures against SHGs, members or their families, imprisonment up to three years, fine up to Rs 1 lakh, or both",
+    "s. 17: carrying on business without registration, or lending in breach of s. 10, is separately punishable"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "MF-KA",
+    "MF-TN",
+    "MF-AS"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ML-KL",
+   "type": "State Act",
+   "short_name": "Kerala Money Lenders Act 1958",
+   "title": "Kerala Money Lenders Act, 1958",
+   "issuing_department": "Government of Kerala",
+   "theme": "Consumer protection and State lending laws",
+   "reference_no": "Kerala Act 35 of 1958",
+   "issue_date": "1958",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "In force (as amended)",
+   "official_url": "https://indiacode.gov.in/handle/123456789/620515",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Money lenders in Kerala: persons whose main or subsidiary occupation is advancing and realising loans, including branch and liaison offices and pawn brokers (s. 2(7))"
+   ],
+   "excluded": [
+    "Banks and co-operative societies, LIC and certain other named statutory institutions (s. 2(7))",
+    "NBFCs registered with and regulated by RBI: the Supreme Court held that the Act does not apply to them (Nedumpilli Finance Co. v. State of Kerala, 2022 INSC 545)"
+   ],
+   "key_concepts": [
+    "No person, firm, joint family or unincorporated association may carry on business as a money lender without a licence (s. 3)",
+    "Molestation includes obstructing, using violence to or intimidating the debtor, interfering with their property, or annoying or intimidating family members (s. 2(6))"
+   ],
+   "core_obligations": [
+    "s. 7(1): charge no interest above 18% a year plus a 2% processing charge, or any rate the Government notifies",
+    "s. 6: display the name and the words 'money lender' or 'pawn-broker' over the place of business"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 13: molesting a debtor to recover a loan, imprisonment up to six months, fine up to Rs 10,000, or both",
+    "s. 17: lending without a licence or in breach of its conditions, imprisonment of three months to three years and fine up to Rs 5 lakh"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "ML-KL-PCEI",
+    "ML-TN",
+    "ML-KA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ML-KL-PCEI",
+   "type": "State Act",
+   "short_name": "Kerala exorbitant-interest law (2012)",
+   "title": "Kerala Prohibition of Charging Exorbitant Interest Act, 2012",
+   "issuing_department": "Government of Kerala",
+   "theme": "Consumer protection and State lending laws",
+   "reference_no": "Kerala Act 2 of 2013",
+   "issue_date": "2013-01-04",
+   "updated_as_on": "",
+   "effective_date": "2012-08-27",
+   "status": "In force",
+   "official_url": "https://indiacode.gov.in/handle/123456789/565155",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Any person lending money in Kerala"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Exorbitant interest is interest above the rate under s. 7(1) of the Kerala Money Lenders Act, 1958, and includes daily, hourly, kandu and meter vatti and thandal (s. 2(1)(c))",
+    "Offences under the Act are cognizable and non-bailable (s. 4)"
+   ],
+   "core_obligations": [
+    "s. 3: charge no exorbitant interest on any loan"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 9(1): charging exorbitant interest, imprisonment up to three years and fine up to Rs 50,000; harassing a debtor mentally or physically to recover a loan, imprisonment up to one year and fine up to Rs 10,000",
+    "s. 5: a debtor may deposit the amount due in court and seek an order recording satisfaction of the loan"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "ML-KL"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ML-TN-PCEI",
+   "type": "State Act",
+   "short_name": "Tamil Nadu exorbitant-interest law (2003)",
+   "title": "Tamil Nadu Prohibition of Charging Exorbitant Interest Act, 2003",
+   "issuing_department": "Government of Tamil Nadu",
+   "theme": "Consumer protection and State lending laws",
+   "reference_no": "Tamil Nadu Act 38 of 2003",
+   "issue_date": "2003-11-14",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "In force",
+   "official_url": "https://indiacode.gov.in/handle/123456789/596979",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Any person lending money in Tamil Nadu"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "Exorbitant interest includes daily, hourly, kandhu and meter vatti and thandal, each defined by reference to a rate above that fixed under s. 7 of the Tamil Nadu Money-lenders Act (s. 2)"
+   ],
+   "core_obligations": [
+    "s. 3: charge no exorbitant interest on any loan"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 4: charging exorbitant interest or molesting a debtor to recover a loan, imprisonment up to three years and fine up to Rs 30,000",
+    "s. 5: a debtor may deposit the amount due with interest at the Government rate in court and seek an order recording satisfaction; the court may order restoration of property forcibly taken (s. 6)"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "ML-TN",
+    "MF-TN"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "ML-GJ",
+   "type": "State Act",
+   "short_name": "Gujarat Money-Lenders Act 2011",
+   "title": "Gujarat Money-Lenders Act, 2011 (amended in 2015 and 2018)",
+   "issuing_department": "Government of Gujarat",
+   "theme": "Consumer protection and State lending laws",
+   "reference_no": "Gujarat Act 14 of 2011",
+   "issue_date": "2011-04-06",
+   "updated_as_on": "",
+   "effective_date": "",
+   "status": "In force (as amended)",
+   "official_url": "https://indiacode.gov.in/handle/123456789/554010",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Money-lenders carrying on business in Gujarat, registered with the district Registrar"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "No money-lender may carry on business except in the area and on the terms of its registration (s. 5(1))",
+    "NBFCs registered with RBI are deemed registered under the Act, but must intimate their RBI registration to the concerned Registrar in the prescribed proforma (s. 5(2))",
+    "The Supreme Court has held that the Gujarat Act, like the Kerala Money Lenders Act, does not apply to NBFCs registered with and regulated by RBI, because Chapter III-B of the RBI Act is a complete code for them (Nedumpilli Finance Co. v. State of Kerala, 2022 INSC 545)",
+    "The State Government may fix maximum rates of interest for any local area or class of money-lending business, for secured and unsecured loans; an agreement for interest above those rates is invalid (s. 33)"
+   ],
+   "core_obligations": [
+    "s. 5(2): on its face, an RBI-registered NBFC lending in Gujarat must intimate its RBI registration to the Registrar (see the Supreme Court ruling above on whether the Act reaches RBI-regulated NBFCs)",
+    "s. 33: charge no interest above the maximum rates fixed by the State Government"
+   ],
+   "timelines": [],
+   "consequences_stated": [
+    "s. 40: molesting a debtor to recover a loan is punishable with imprisonment and fine, with minimum terms for first and repeat offences"
+   ],
+   "consequences_general": "",
+   "cross_references": [
+    "ML-MH",
+    "ML-KA"
+   ],
+   "repeals": ""
+  },
+  {
+   "id": "STAMP-RJ",
+   "type": "State Act",
+   "short_name": "Rajasthan Stamp Act 1998",
+   "title": "Rajasthan Stamp Act, 1998 (replaces the Indian Stamp Act in Rajasthan, except for Union-list instruments)",
+   "issuing_department": "Government of Rajasthan",
+   "theme": "Stamp duty and registration",
+   "reference_no": "Rajasthan Act 14 of 1999",
+   "issue_date": "1999-03-24",
+   "updated_as_on": "2026-05-18",
+   "effective_date": "",
+   "status": "In force (as amended)",
+   "official_url": "https://indiacode.gov.in/handle/123456789/588082",
+   "official_pdf": "",
+   "statutory_powers": [],
+   "applies_to": [
+    "Lenders executing or holding loan and security documents in Rajasthan"
+   ],
+   "excluded": [],
+   "key_concepts": [
+    "The Indian Stamp Act, 1899 as adapted in Rajasthan is repealed, except for documents in entry 91 of the Union List (such as bills of exchange, cheques and promissory notes), which stay under the central Act (s. 91)",
+    "Mortgage deeds (Article 37): where possession is given, the duty on a conveyance for the amount secured; where it is not, the duty on a bond (Article 14) for the amount secured; collateral or substituted security where the principal security is duly stamped is charged separately",
+    "Agreements relating to deposit of title-deeds, pawn or pledge fall under Article 6, and further charges under Article 30"
+   ],
+   "core_obligations": [
+    "Stamp loan and security documents executed in Rajasthan under the Rajasthan schedule, not the central Schedule I"
+   ],
+   "timelines": [],
+   "consequences_stated": [],
+   "consequences_general": "",
+   "cross_references": [
+    "ACT-STAMP",
+    "STAMP-MH",
+    "STAMP-STATES"
    ],
    "repeals": ""
   }

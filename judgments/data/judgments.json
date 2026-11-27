@@ -1030,6 +1030,12 @@
     },
     {
      "section": "laws",
+     "id": "ACT-ARB",
+     "label": "Arbitration and Conciliation Act: loan arbitration",
+     "href": "../other-laws/#d/ACT-ARB"
+    },
+    {
+     "section": "laws",
      "id": "ACT-ICA",
      "label": "Indian Contract Act: guarantee, indemnity, pledge, lien",
      "href": "../other-laws/#d/ACT-ICA"
@@ -1528,6 +1534,12 @@
      "id": "ACT-SARFAESI",
      "label": "SARFAESI Act: enforcing security without court",
      "href": "../other-laws/#d/ACT-SARFAESI"
+    },
+    {
+     "section": "laws",
+     "id": "RULES-CERSAI",
+     "label": "CERSAI (Central Registry) Rules 2011",
+     "href": "../other-laws/#d/RULES-CERSAI"
     }
    ],
    "status": "Current",
@@ -3250,6 +3262,12 @@
    "links": [
     {
      "section": "laws",
+     "id": "ACT-ARB",
+     "label": "Arbitration and Conciliation Act: loan arbitration",
+     "href": "../other-laws/#d/ACT-ARB"
+    },
+    {
+     "section": "laws",
      "id": "ACT-RDB",
      "label": "RDB Act: Debts Recovery Tribunals",
      "href": "../other-laws/#d/ACT-RDB"
@@ -3430,6 +3448,12 @@
      "id": "ACT-BSA",
      "label": "Bharatiya Sakshya Adhiniyam: electronic records as evidence",
      "href": "../other-laws/#d/ACT-BSA"
+    },
+    {
+     "section": "laws",
+     "id": "ACT-IT",
+     "label": "Information Technology Act: e-contracts, e-signatures, data security",
+     "href": "../other-laws/#d/ACT-IT"
     }
    ],
    "status": "Current",
