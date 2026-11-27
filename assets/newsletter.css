@@ -84,7 +84,7 @@
 .nl-jud h3{font-size:19px;line-height:1.3}.nl-jud p{margin:0;color:var(--ink-2);font-size:14.5px}
 .nl-case{font-family:var(--f-d);font-style:italic;color:var(--muted)!important}
 /* disclaimer */
-.nl-disc{background:var(--warn-bg);border-radius:16px;padding:22px 26px}.nl-disc h2{font-size:20px;margin-bottom:6px}.nl-disc p{margin:0;color:var(--ink-2);font-size:14.5px}
+.nl-disc{background:var(--warn-bg);border-radius:16px;padding:22px 26px}.nl-disc h2{font-size:20px;margin-bottom:6px}.nl-disc p{max-width:none;margin:0;color:var(--ink-2);font-size:14.5px}
 /* archive */
 .nl-feat{display:flex;flex-direction:column;gap:10px;padding:26px 28px;margin:6px 0 10px;border-top:4px solid var(--accent)}
 .nl-feat h2{font-size:36px}.nl-feat .nl-head{margin:0}.nl-feat:hover{box-shadow:var(--shadow)}
