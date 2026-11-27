@@ -29,10 +29,17 @@ jf = os.path.join(ROOT, "judgments", "data", "judgments.json")
 if os.path.exists(jf):
     for j in json.load(open(jf, encoding="utf-8")).get("judgments", []):
         if not j.get("url") or bad_url(j["url"]): problems.append(f"judgments: {j.get('id')} has no source link")
+for f in sorted(glob.glob(os.path.join(ROOT, "newsletter", "data", "*.json"))):
+    d = json.load(open(f, encoding="utf-8")); name = "newsletter " + d.get("id", os.path.basename(f))
+    for u in d.get("items", []) + d.get("judgments", []):
+        url, label = u.get("url"), u.get("id") or u.get("title")
+        if not url: problems.append(f"{name}: {label} has no source link")
+        elif bad_url(url): problems.append(f"{name}: {label} source link is not a plain https URL: {url}")
+        elif not official(url): problems.append(f"{name}: {label} source link is not an official site: {url}")
 nf = os.path.join(ROOT, "news.json")
 if os.path.exists(nf):
     for n in json.load(open(nf, encoding="utf-8")).get("items", []):
         if not n.get("url") or bad_url(n["url"]): problems.append(f"news.json: '{n.get('title','')[:60]}' has no source link")
 if problems:
     print("Missing or unofficial source links:\n  " + "\n  ".join(problems)); sys.exit(1)
-print("Source links: every update, judgment and news item links to its source.")
+print("Source links: every update, judgment, newsletter and news item links to its source.")

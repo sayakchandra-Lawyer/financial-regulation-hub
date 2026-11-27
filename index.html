@@ -21,6 +21,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
 <link rel="stylesheet" href="assets/hub.css?v=20261128c">
+<link rel="stylesheet" href="assets/newsletter.css?v=20261128a">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
 <style>
 .hero{background:linear-gradient(180deg,var(--surface-2),var(--bg));border-bottom:1px solid var(--line)}
@@ -135,6 +136,8 @@
   <div class="wrap">
     <section class="card nb" id="nb" aria-label="Latest updates" hidden></section>
 
+    <section class="nl-home" id="headl" aria-labelledby="headlh" hidden></section>
+
     <div class="sec-h"><h2 id="updh">What changed this month</h2></div>
     <div class="ucol" id="upds"></div>
 
@@ -148,6 +151,20 @@
 <script>
 (async function(){
   const hub = await getJSON("hub.json");
+  /* headline changes of the month: the latest newsletter's top six */
+  getJSON("newsletter/latest.json").then(L => {
+    const imp = { High: 3, Medium: 2, Low: 1 };
+    $("#headl").innerHTML = `<div class="sec-h"><h2 id="headlh">Headline changes of the month <span class="tag">${esc(L.issue)}</span></h2><a class="lnk" href="${esc(L.href)}">Read the ${esc(L.issue)} newsletter&nbsp;→</a></div>
+      <div class="nl-tops">${L.top.map((t, i) => `<article class="card nl-topc">
+        <div class="nl-n">${String(i + 1).padStart(2, "0")}</div>
+        <div class="nl-meta"><span class="pill nl-reg" style="--c:var(--${esc(t.regc)})">${esc(t.reg)}</span><span class="pill nl-imp i${imp[t.impact] || 1}">${esc(t.impact)} impact</span></div>
+        <h3><a href="${esc(t.more)}">${esc(t.title)}</a></h3>
+        <p>${esc(t.so_what)}</p>
+        <div class="nl-secs">${t.sectors.map(([n, c]) => `<span class="nl-sec" style="--c:var(--${esc(c)})">${esc(n)}</span>`).join("")}</div>
+        <div class="nl-foot"><span class="nl-date">${t.date ? `Key date: <b>${esc(t.date)}</b>` : ""}</span><a class="lnk nl-src" href="${esc(t.url)}" target="_blank" rel="noopener">Source ${I.ext}</a></div>
+      </article>`).join("")}</div>`;
+    $("#headl").hidden = false;
+  }).catch(() => {});
   renderChrome(hub, { root: "" });
   $("#qicon").outerHTML = I.search;
   const secs = Object.fromEntries(hub.sections.filter(s => s.status === "live" && s.data && s.data.register).map(s => [s.id, s]));   // every live regulator with data

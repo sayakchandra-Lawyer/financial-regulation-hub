@@ -1,0 +1,1084 @@
+{
+ "id": "2026-11",
+ "issue": "November 2026",
+ "number": 1,
+ "period": "1 to 27 November 2026",
+ "published": "2026-11-28",
+ "headline": "Securitisation goes demat-only from April, SEBI moves KYC data to the KRAs by 24 December, and IRDAI is targeting health claim rejections",
+ "tracked": 68,
+ "regulators": [
+  [
+   "SEBI",
+   20
+  ],
+  [
+   "RBI",
+   13
+  ],
+  [
+   "IFSCA",
+   10
+  ],
+  [
+   "IRDAI",
+   9
+  ],
+  [
+   "NSE / BSE",
+   4
+  ],
+  [
+   "NHB",
+   2
+  ],
+  [
+   "MCA",
+   2
+  ],
+  [
+   "IBBI",
+   2
+  ],
+  [
+   "FEMA",
+   1
+  ],
+  [
+   "DPDP",
+   1
+  ],
+  [
+   "Others",
+   4
+  ]
+ ],
+ "sectors": [
+  {
+   "id": "nbfc",
+   "name": "NBFCs",
+   "c": "rbi"
+  },
+  {
+   "id": "hfc",
+   "name": "Housing finance",
+   "c": "nhb"
+  },
+  {
+   "id": "ins",
+   "name": "Insurers",
+   "c": "irdai"
+  },
+  {
+   "id": "amc",
+   "name": "Mutual funds & AMCs",
+   "c": "sebi"
+  },
+  {
+   "id": "brk",
+   "name": "Brokers & intermediaries",
+   "c": "exchanges"
+  },
+  {
+   "id": "dig",
+   "name": "Digital lending & payments",
+   "c": "dpdp"
+  },
+  {
+   "id": "all",
+   "name": "All regulated entities",
+   "c": "companies"
+  }
+ ],
+ "themes": [
+  "Capital & liquidity",
+  "Customer conduct",
+  "Product & pricing",
+  "Tech & data",
+  "Governance",
+  "Reporting"
+ ],
+ "items": [
+  {
+   "id": "rbi-sec-demat",
+   "reg": "RBI",
+   "sectors": [
+    "nbfc",
+    "hfc"
+   ],
+   "theme": "Capital & liquidity",
+   "impact": "High",
+   "issued": "23 Nov",
+   "title": "Securitisation notes: demat only, ₹1 crore floor at every transfer",
+   "what": "Securitisation notes must now be issued, held and transferred in demat form, with a ₹1 crore minimum ticket at issue and on every later transfer. Public offers follow SEBI's securitised debt rules.",
+   "why": "From 1 April 2027 every transfer, including of notes issued earlier, must be in demat and at least ₹1 crore (amortising notes excepted). Smaller, non-amortising holdings may become hard to sell, which affects both originators and investors.",
+   "applies": "NBFCs covered by the NBFC Securitisation Transactions Directions, 2025 (including deposit-taking NBFCs, investment and credit companies, factors, MFIs, IFCs, IDF-NBFCs) and HFCs, across all layers.",
+   "points": [
+    "Issue, holding and later transfer of securitisation notes must be in dematerialised form only.",
+    "The ₹1 crore minimum ticket applies at issue and at every later transfer.",
+    "Public offers must comply with Regulation 21 of the SEBI (Issue and Listing of Securitised Debt Instruments and Security Receipts) Regulations, 2008.",
+    "Notes issued before 1 April 2027 are also covered. There is no grandfathering."
+   ],
+   "step": "List outstanding securitisation notes where the entity is originator or investor, by form (physical or demat) and ticket size.",
+   "date": "1 Apr 2027",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13755&Mode=0"
+  },
+  {
+   "id": "nhb-arbitration",
+   "reg": "RBI / NHB",
+   "sectors": [
+    "nbfc",
+    "hfc"
+   ],
+   "theme": "Customer conduct",
+   "impact": "Medium",
+   "issued": "12 Nov",
+   "title": "Arbitrators must be independent: no unilateral panels",
+   "what": "After a Delhi High Court order, RBI cautioned lenders against appointing the same arbitrators unilaterally across many disputes. NHB passed the caution on to HFCs and asked for an action-taken report.",
+   "why": "Awards from a lender-picked panel are open to challenge and may be set aside, which slows retail recovery. Arbitration clauses and panels in standard loan agreements are likely to need review.",
+   "applies": "Banks and NBFCs, including HFCs. HFCs report the action taken to NHB.",
+   "points": [
+    "Arbitrators are to be appointed only in line with the Arbitration and Conciliation Act, 1996 and court rulings on independence and neutrality.",
+    "The caution follows a Delhi High Court order of 30 September 2026.",
+    "HFCs must report the action taken to NHB."
+   ],
+   "step": "Review arbitration clauses in loan agreements and how the arbitrator panel is chosen.",
+   "date": "Now",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/11/Advisory-Letter-dated-12-11-2026-English.pdf"
+  },
+  {
+   "id": "rbi-gov-meet",
+   "reg": "RBI",
+   "sectors": [
+    "nbfc",
+    "hfc"
+   ],
+   "theme": "Governance",
+   "impact": "Medium",
+   "issued": "23 Nov",
+   "title": "Governor meets NBFC and HFC chiefs: the supervisory themes",
+   "what": "No new rules. The Governor stressed responsible credit growth, fair recovery practices, use of CKYCR at onboarding and a risk-based approach to cyber and IT risk.",
+   "why": "The themes the Governor raised give a reasonable indication of supervisory priorities, and a useful checklist for internal reviews.",
+   "applies": "Select NBFCs (including Government NBFCs), HFCs and MFIs, with industry bodies. No new directions were issued.",
+   "points": [
+    "Responsible and sustainable credit growth.",
+    "Fair recovery practices.",
+    "Use of CKYCR for onboarding.",
+    "A comprehensive, risk-based approach to cyber and IT risk."
+   ],
+   "step": "Check CKYCR upload and download practice at onboarding, and controls over recovery agents.",
+   "date": "Next inspection",
+   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64032"
+  },
+  {
+   "id": "rbi-cor-cancel",
+   "reg": "RBI",
+   "sectors": [
+    "nbfc"
+   ],
+   "theme": "Governance",
+   "impact": "Medium",
+   "issued": "16 Nov",
+   "title": "Registrations of 49 NBFCs cancelled",
+   "what": "RBI cancelled the registration of 49 NBFCs under section 45-IA(6) of the RBI Act, with one more cancellation announced on 9 November. A cancelled entity cannot carry on NBFI business.",
+   "why": "Co-lending, sourcing and collection tie-ups with an entity on the list carry conduct and continuity risk for its partners.",
+   "applies": "The NBFCs named in RBI's press release, and lenders and partners dealing with them.",
+   "points": [
+    "Cancellations were made by orders passed in October 2026.",
+    "An entity whose registration is cancelled cannot carry on the business of a non-banking financial institution."
+   ],
+   "step": "Screen lending partners and counterparties against the list.",
+   "date": "Now",
+   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63979"
+  },
+  {
+   "id": "nse-encumbrance",
+   "reg": "NSE / BSE",
+   "sectors": [
+    "nbfc",
+    "brk"
+   ],
+   "theme": "Capital & liquidity",
+   "impact": "Medium",
+   "issued": "Nov",
+   "title": "75% margin on highly encumbered shares: list revised",
+   "what": "Shares that meet the encumbrance criteria attract a minimum 75% margin in the equity and equity derivatives segments from 30 November. The list of shares changed.",
+   "why": "Higher trading margins may reduce liquidity in these shares. Lenders against shares may want to revisit concentration and haircuts, and brokers must collect the higher margin.",
+   "applies": "Trading members and investors in the listed shares, and lenders against those shares.",
+   "points": [
+    "The circular lists shares added to, and moved out of, the framework. BSE issued a matching notice.",
+    "Inclusion is a surveillance measure, not an adverse finding against the company."
+   ],
+   "step": "Screen pledged collateral and client positions against the revised list.",
+   "date": "30 Nov 2026",
+   "url": "https://nsearchives.nseindia.in/content/circulars/SURV77601.zip"
+  },
+  {
+   "id": "rbi-pen-nbfc",
+   "reg": "RBI",
+   "sectors": [
+    "nbfc"
+   ],
+   "theme": "Customer conduct",
+   "impact": "Low",
+   "issued": "17 Nov",
+   "title": "Penalty on a lender: PAN/Form 60 and Internal Ombudsman lapses",
+   "what": "₹7.50 lakh penalty for not obtaining PAN or Form 60 when opening accounts, and for late escalation of rejected complaints to the Internal Ombudsman.",
+   "why": "A routine order with no new rule, but both lapses are areas inspectors commonly sample.",
+   "applies": "The lender named in the order. The rules applied are unchanged.",
+   "points": [
+    "Penalty under s.58G(1)(b) read with s.58B(5)(aa) of the RBI Act, after a statutory inspection with reference to 31 March 2026."
+   ],
+   "step": "Sample-test new account openings for PAN or Form 60, and the timing of Internal Ombudsman escalations.",
+   "date": "Next audit",
+   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64015"
+  },
+  {
+   "id": "ibbi-ip-susp",
+   "reg": "IBBI",
+   "sectors": [
+    "nbfc",
+    "hfc"
+   ],
+   "theme": "Governance",
+   "impact": "Low",
+   "issued": "3 to 13 Nov",
+   "title": "Three insolvency professionals suspended for two years",
+   "what": "IBBI suspended three insolvency professionals for two years each. A suspended professional cannot continue existing assignments.",
+   "why": "Where a lender sits on a committee of creditors, the resolution professional or liquidator may need replacing.",
+   "applies": "Insolvency professionals, and committees of creditors that appoint them.",
+   "points": [
+    "Orders of 3, 12 and 13 November 2026.",
+    "A separate order of 9 November concerned the conduct of a liquidation, including valuation and a scheme placed without secured creditors' consent."
+   ],
+   "step": "Creditors: check current resolution professionals and liquidators against IBBI's orders page.",
+   "date": "Now",
+   "url": "https://ibbi.gov.in/uploads/order/4ca21b383f6b6e403cd6cdc056c8d1ec.pdf"
+  },
+  {
+   "id": "sc-jangra",
+   "reg": "Supreme Court",
+   "sectors": [
+    "hfc"
+   ],
+   "theme": "Customer conduct",
+   "impact": "Medium",
+   "issued": "19 Nov",
+   "title": "Homebuyer EMIs under a tripartite agreement: no coercion until disbursement is tested",
+   "what": "In a stalled project, buyers cannot be made to pay instalments, or face coercive action, until the court decides whether the lender paid the builder strictly as the tripartite agreement required (interim order).",
+   "why": "Construction-linked and subvention loans in stalled projects become harder to recover through interim orders unless the lender can show each disbursement matched construction progress.",
+   "applies": "Banks and HFCs with builder-tied home loans under tripartite agreements.",
+   "points": [
+    "Interim protection only: the court will first examine the lender-builder link and whether disbursement followed the agreed stages."
+   ],
+   "step": "Check stage-wise disbursement evidence on builder-tied home loans.",
+   "date": "Now",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=659122026&type=o&order_date=2026-11-19&from=latest_judgements_order"
+  },
+  {
+   "id": "nhb-plr",
+   "reg": "NHB",
+   "sectors": [
+    "hfc"
+   ],
+   "theme": "Product & pricing",
+   "impact": "Low",
+   "issued": "1 Nov",
+   "title": "NHB Prime Lending Rate set at 7.90%",
+   "what": "NHB's Prime Lending Rate is 7.90% from 1 November 2026.",
+   "why": "Sets the cost of NHB refinance that is linked to its PLR.",
+   "applies": "Primary lending institutions that borrow from NHB at rates linked to its PLR.",
+   "points": [],
+   "step": "",
+   "date": "1 Nov 2026",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/11/PLR-w.e.f-01-11-2026.pdf"
+  },
+  {
+   "id": "irdai-claims-pen",
+   "reg": "IRDAI",
+   "sectors": [
+    "ins"
+   ],
+   "theme": "Customer conduct",
+   "impact": "High",
+   "issued": "20 Nov",
+   "title": "₹2 crore penalty on a health insurer for claim rejections and deductions",
+   "what": "Penalty for repudiating claims on untenable grounds and making deductions not supported by policy terms.",
+   "why": "The order shows that unsupported rejections and deductions can lead to monetary penalties, not only grievance redress. The same regulations bind all health insurers.",
+   "applies": "The health insurer named in the order. The rules applied are unchanged and bind all health insurers.",
+   "points": [
+    "Penalty under s.102 of the Insurance Act.",
+    "Breaches of regulations 27(v) and 33(d) of the Health Insurance Regulations, 2016 and regulation 21(3) of the TPA Regulations; warnings and directions also issued."
+   ],
+   "step": "Sample recent repudiations and deductions for a clear policy-term basis.",
+   "date": "Now",
+   "url": "https://irdai.gov.in/document-detail?documentId=10053459"
+  },
+  {
+   "id": "irdai-claim-groups",
+   "reg": "IRDAI",
+   "sectors": [
+    "ins"
+   ],
+   "theme": "Customer conduct",
+   "impact": "High",
+   "issued": "24 Nov",
+   "title": "Study groups on health claim transparency",
+   "what": "Two study groups: one on standard reason codes for rejections and deductions, the other on real-time tracking of the claim journey. Both report by 26 December 2026.",
+   "why": "If IRDAI acts on the groups' work, standard rejection codes and customer-visible claim tracking could follow, which would need system changes for insurers and TPAs.",
+   "applies": "Health insurers and general insurers writing health business.",
+   "points": [
+    "Formed under the IAC Sub-Committee on Health Insurance.",
+    "No rule has changed yet."
+   ],
+   "step": "Prepare a gap view of claim codes and tracking against what the groups are studying.",
+   "date": "26 Dec 2026",
+   "url": "https://irdai.gov.in/document-detail?documentId=10064773"
+  },
+  {
+   "id": "irdai-distribution",
+   "reg": "IRDAI",
+   "sectors": [
+    "ins"
+   ],
+   "theme": "Product & pricing",
+   "impact": "High",
+   "issued": "23 Nov",
+   "title": "Expert committee on the economics of insurance distribution",
+   "what": "IRDAI set up an expert committee to review about 2.18 lakh responses to its September 2026 paper on distribution economics and recommend refinements. No rule yet.",
+   "why": "Commission and payout structures across agency, bancassurance and other channels may be reset once IRDAI acts on the committee's advice.",
+   "applies": "Insurers and all distribution channels.",
+   "points": [
+    "Responses came from over 13,000 respondents to the consultation paper of 23 September 2026."
+   ],
+   "step": "Track the committee and engage through industry bodies.",
+   "date": "Watch",
+   "url": "https://irdai.gov.in/document-detail?documentId=10060223"
+  },
+  {
+   "id": "irdai-rbc-indas",
+   "reg": "IRDAI",
+   "sectors": [
+    "ins"
+   ],
+   "theme": "Capital & liquidity",
+   "impact": "High",
+   "issued": "10 Nov",
+   "title": "Risk Based Capital to start from Ind AS accounts",
+   "what": "Life and non-life working groups will make Ind AS financial statements the starting point for Risk Based Capital, with defined prudential adjustments. No rule yet.",
+   "why": "How insurer capital is measured may change. Solvency and capital plans may shift once proposals are published.",
+   "applies": "All insurers.",
+   "points": [],
+   "step": "Model scenarios once the working groups publish proposals.",
+   "date": "Watch",
+   "url": "https://irdai.gov.in/document-detail?documentId=10014258"
+  },
+  {
+   "id": "irdai-reg-mc",
+   "reg": "IRDAI",
+   "sectors": [
+    "ins"
+   ],
+   "theme": "Governance",
+   "impact": "Medium",
+   "issued": "2 Nov",
+   "title": "Master Circular on registration, capital and share transfers",
+   "what": "Consolidates procedure, forms and documents under the Registration Regulations as amended on 31 July 2026, and replaces the 2024 Master Circular.",
+   "why": "Applications and filings covered by the circular, such as share transfer approvals, now use the consolidated forms.",
+   "applies": "Applicants for registration and registered insurers.",
+   "points": [],
+   "step": "Update share-transfer approval checklists to the new forms.",
+   "date": "Now",
+   "url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%2C+%E0%A4%AA%E0%A5%82%E0%A4%81%E0%A4%9C%E0%A5%80+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8%2C+%E0%A4%B6%E0%A5%87%E0%A4%AF%E0%A4%B0%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A4%A3+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AE%E0%A5%87%E0%A4%B2%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B0+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%2C+2026+_+Master+Circular+on+Registration%2C+Capital+Structure%2C+Transfer+of+Shares+and+Amalgamation+of+Insurers%2C+2026.pdf/90f65b79-1afa-80cc-be02-0a5dae81913a?version=2.0&t=1794221773959&download=true"
+  },
+  {
+   "id": "irdai-114b-draft",
+   "reg": "IRDAI",
+   "sectors": [
+    "ins"
+   ],
+   "theme": "Governance",
+   "impact": "Low",
+   "issued": "Nov",
+   "title": "Draft regulations on how IRDAI issues instructions and consults",
+   "what": "Exposure draft under the new sections 114B and 114C of the Insurance Act on subsidiary instructions, consultation and Consultative Committees. Comments closed on 23 November.",
+   "why": "Will shape how future IRDAI circulars are consulted on.",
+   "applies": "All IRDAI-regulated entities.",
+   "points": [],
+   "step": "",
+   "date": "",
+   "url": "https://irdai.gov.in/document-detail?documentId=9986094"
+  },
+  {
+   "id": "sebi-kra",
+   "reg": "SEBI",
+   "sectors": [
+    "amc",
+    "brk"
+   ],
+   "theme": "Tech & data",
+   "impact": "High",
+   "issued": "Nov",
+   "title": "Client onboarding simplified: KYC data centralised at the KRA",
+   "what": "Supplementary KYC data (income range, FATCA/CRS, PEP status, occupation, CKYC ID, DIGIPIN, document expiry) moves to the KYC Registration Agency. Intermediaries upload within three working days of KYC.",
+   "why": "Onboarding forms, RTA and KRA interfaces and upload timelines must change before 24 December. Once live, onboarding should be faster for mutual fund and broking clients.",
+   "applies": "All SEBI-registered intermediaries that onboard clients, and KYC Registration Agencies.",
+   "points": [
+    "In force from 24 December 2026.",
+    "KRAs issue an operating procedure within 30 days."
+   ],
+   "step": "Update account opening forms and KRA upload processes before 24 December 2026.",
+   "date": "24 Dec 2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/simplification-of-client-on-boarding-and-rationalisation-of-risk-management-framework-at-kyc-registration-agencies_105839.html"
+  },
+  {
+   "id": "sebi-mf-net",
+   "reg": "SEBI",
+   "sectors": [
+    "amc"
+   ],
+   "theme": "Capital & liquidity",
+   "impact": "Medium",
+   "issued": "Nov",
+   "title": "Net settlement of funds for mutual fund cash-market trades",
+   "what": "Funds for outright cash-segment trades may settle net at the level of each scheme. Securities still settle gross, and there is no netting across schemes.",
+   "why": "Lower intraday funding needs for schemes, with operational changes for AMCs and custodians.",
+   "applies": "Mutual funds, custodians, stock brokers and clearing corporations.",
+   "points": [
+    "In force from 1 April 2027."
+   ],
+   "step": "Plan the operational changes with the custodian.",
+   "date": "1 Apr 2027",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-net-settlement-of-funds-for-transactions-undertaken-by-mutual-fund-schemes-in-cash-market_105616.html"
+  },
+  {
+   "id": "sebi-ai",
+   "reg": "SEBI",
+   "sectors": [
+    "amc"
+   ],
+   "theme": "Product & pricing",
+   "impact": "Medium",
+   "issued": "Nov",
+   "title": "Accredited investors: managers can accredit in-house",
+   "what": "AIF, SIF and PMS managers may determine an investor's accredited status themselves, valid for three years and recognised within the same group.",
+   "why": "Easier onboarding of large investors into AIF, SIF and PMS products.",
+   "applies": "AIF managers, SIF AMCs, portfolio managers and their investors.",
+   "points": [
+    "Securities market exposure now qualifies: at least ₹5 crore for individuals, HUFs, family trusts and sole proprietorships, and ₹20 crore for bodies corporate and other trusts."
+   ],
+   "step": "Set up a documented accreditation process if using the manager route.",
+   "date": "Now",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-the-framework-for-accredited-investors_105618.html"
+  },
+  {
+   "id": "sebi-nri-kyc",
+   "reg": "SEBI",
+   "sectors": [
+    "amc",
+    "brk"
+   ],
+   "theme": "Customer conduct",
+   "impact": "Medium",
+   "issued": "Nov",
+   "title": "Digital KYC for NRI clients in FATF-compliant countries",
+   "what": "Individual NRI, OCI and foreign national clients in FATF-compliant countries can complete KYC digitally from abroad. Intermediaries may rely on KYC done by other regulated entities through KRA or CKYCRR records.",
+   "why": "Opens a faster onboarding route for overseas individual clients.",
+   "applies": "Intermediaries onboarding NRI, OCI and foreign national individual clients.",
+   "points": [],
+   "step": "Consider whether onboarding journeys should offer the digital route.",
+   "date": "3 Dec 2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html"
+  },
+  {
+   "id": "sebi-fatca",
+   "reg": "SEBI",
+   "sectors": [
+    "amc",
+    "brk"
+   ],
+   "theme": "Reporting",
+   "impact": "Low",
+   "issued": "Nov",
+   "title": "FATCA/CRS reporting moved to the Income-tax Act, 2025",
+   "what": "Reporting and due diligence now follow section 508 of the Income-tax Act, 2025 and rules 238 to 240 (Form 166) of the Income-tax Rules, 2026. Certifications are uploaded to the KRA.",
+   "why": "New mandatory fields in onboarding and reporting systems.",
+   "applies": "Registered intermediaries that are Reporting Financial Institutions.",
+   "points": [],
+   "step": "Review onboarding and reporting systems for the new mandatory fields.",
+   "date": "Now",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/reporting-requirement-under-foreign-account-tax-compliance-act-fatca-and-common-reporting-standard-crs-revised-through-income-tax-act-2025-read-with-income-tax-rules-2026_105705.html"
+  },
+  {
+   "id": "sebi-commodity-margin",
+   "reg": "SEBI",
+   "sectors": [
+    "brk"
+   ],
+   "theme": "Capital & liquidity",
+   "impact": "Medium",
+   "issued": "Nov",
+   "title": "New margin framework for commodity derivatives",
+   "what": "Minimum initial margin of 6%, 8% or 10% by volatility category. Margin period of risk is two days, or three for the most volatile category. Valid for one year.",
+   "why": "Client margin calls on volatile commodity contracts may rise.",
+   "applies": "Commodity exchanges, clearing corporations and their members.",
+   "points": [
+    "In force from 1 December 2026."
+   ],
+   "step": "Update margin files and tell clients before 1 December 2026.",
+   "date": "1 Dec 2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-margin-framework-for-commodity-derivatives-segment_105799.html"
+  },
+  {
+   "id": "nse-algo-ip",
+   "reg": "NSE / BSE",
+   "sectors": [
+    "brk"
+   ],
+   "theme": "Tech & data",
+   "impact": "Medium",
+   "issued": "Nov",
+   "title": "Retail algo trading: static IP misuse warning",
+   "what": "Exchanges report misuse of static IPs by some empanelled algo providers and remind members to comply with the retail algo framework.",
+   "why": "Algo-provider tie-ups and client static IP mappings are likely to draw exchange attention.",
+   "applies": "Trading members, algo providers and clients using algorithmic trading.",
+   "points": [
+    "Under the framework in force from 1 April 2026, strategies run on the broker's servers; only a tech-savvy client may host its own algorithm, on a static IP.",
+    "BSE issued a matching notice."
+   ],
+   "step": "Review static IP mappings and algo-provider arrangements.",
+   "date": "Now",
+   "url": "https://nsearchives.nseindia.in/content/circulars/INSP77559.pdf"
+  },
+  {
+   "id": "sebi-gmp",
+   "reg": "SEBI",
+   "sectors": [
+    "brk"
+   ],
+   "theme": "Customer conduct",
+   "impact": "Medium",
+   "issued": "Nov",
+   "title": "Do not publish grey market premium for IPOs",
+   "what": "SEBI says the grey market premium is unregulated and unreliable, and advises registered intermediaries not to publish or circulate it.",
+   "why": "Registered intermediaries' research, marketing and social media content on IPOs should not publish or circulate grey market premium figures.",
+   "applies": "Registered intermediaries, issuers and investors.",
+   "points": [],
+   "step": "Review websites, apps and social media handles for grey market premium content.",
+   "date": "Now",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/advisory-regarding-unregulated-pre-listing-premium-often-called-as-grey-market-premium-gmp-for-upcoming-initial-public-offers-ipos-_105942.html"
+  },
+  {
+   "id": "sebi-usd5m",
+   "reg": "SEBI",
+   "sectors": [
+    "brk"
+   ],
+   "theme": "Product & pricing",
+   "impact": "Medium",
+   "issued": "Nov",
+   "title": "Single USD 5 million currency-derivatives limit without underlying",
+   "what": "A user may hold positions up to USD 5 million across all rupee pairs and all exchanges together without showing an underlying exposure.",
+   "why": "Limit monitoring must test the combined position across exchanges.",
+   "applies": "Exchanges, clearing corporations, members and clients in exchange-traded currency derivatives.",
+   "points": [
+    "Follows RBI's A.P. (DIR Series) Circular No. 25 of 10 October 2026."
+   ],
+   "step": "Change limit monitoring to the combined USD 5 million test.",
+   "date": "Now",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/revision-of-limits-relating-to-requirement-of-underlying-exposure-for-currency-derivatives-contracts_105614.html"
+  },
+  {
+   "id": "sebi-fpi-commodity",
+   "reg": "SEBI",
+   "sectors": [
+    "brk"
+   ],
+   "theme": "Product & pricing",
+   "impact": "Medium",
+   "issued": "Nov",
+   "title": "FPIs allowed in physically settled commodity derivatives",
+   "what": "FPIs may trade physically settled non-agricultural commodity derivatives. A designated member takes over open positions before the tender period.",
+   "why": "A new institutional client segment for commodity brokers.",
+   "applies": "FPIs, commodity exchanges, clearing corporations and their members.",
+   "points": [
+    "No fresh FPI positions in the three trading days before the tender period.",
+    "In force from 1 June 2027."
+   ],
+   "step": "Commodity brokers taking FPI clients will need designated-member arrangements before June 2027.",
+   "date": "1 Jun 2027",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/fpi-participation-in-exchange-traded-commodity-derivatives-etcds-_105989.html"
+  },
+  {
+   "id": "dpdp-cm",
+   "reg": "DPDP",
+   "sectors": [
+    "dig",
+    "all"
+   ],
+   "theme": "Tech & data",
+   "impact": "High",
+   "issued": "13 Nov",
+   "title": "DPDP: Consent Manager registration opens",
+   "what": "An Indian company with at least ₹2 crore net worth and an independently certified platform can now apply to register as a Consent Manager. Data Fiduciary duties start on 13 May 2027.",
+   "why": "Where processing relies on consent, financial groups that share customer data across entities, or cross-sell through apps, will need consent each entity can rely on. Collecting consent through a registered Consent Manager is one option; collecting and recording it directly is another.",
+   "applies": "Companies that want to register as Consent Managers, and Data Fiduciaries that plan to accept consent through them.",
+   "points": [
+    "Rule 4 and the First Schedule apply from 13 November 2026.",
+    "Data Fiduciary duties on notice, consent, security and breaches start on 13 May 2027."
+   ],
+   "step": "Map where processing relies on consent and how that consent will be collected and recorded before May 2027.",
+   "date": "13 May 2027",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336151"
+  },
+  {
+   "id": "rbi-pay-dirs",
+   "reg": "RBI",
+   "sectors": [
+    "dig"
+   ],
+   "theme": "Product & pricing",
+   "impact": "Medium",
+   "issued": "27 Nov",
+   "title": "Three new payment Directions: card transactions, ATM/PoS cash, white-label ATMs",
+   "what": "RBI issued the Digital Payments (Card-based Transaction) Directions, the Cash Withdrawal Transactions through ATMs and PoS Directions, and the White Label ATM Operators Directions, all 2026.",
+   "why": "Card issuers, including card-issuing NBFCs, and acquirers should read the card-based transaction Directions against current processes.",
+   "applies": "As stated in each Direction: card issuers and acquirers, ATM and PoS operators, white-label ATM operators.",
+   "points": [],
+   "step": "Read each Direction against current card and cash-withdrawal processes.",
+   "date": "Dec 2026",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13760&Mode=0"
+  },
+  {
+   "id": "rbi-pso-cyber",
+   "reg": "RBI",
+   "sectors": [
+    "dig"
+   ],
+   "theme": "Tech & data",
+   "impact": "Medium",
+   "issued": "5 Nov",
+   "title": "Cyber resilience Master Directions for non-bank payment operators",
+   "what": "Consolidated Directions: quarterly Board review of cyber risk, six-hour incident reporting to RBI, five-year log retention and an annual system audit.",
+   "why": "Binding on non-bank payment system operators, and a useful benchmark for any digital lending or payments platform.",
+   "applies": "Non-bank payment system operators: in force on issue for large and medium operators, and from 1 April 2028 for small ones.",
+   "points": [
+    "Consolidates the 2024 Master Directions with earlier circulars on ATM switch providers and system-audit scope.",
+    "Information-security policy reviewed every year."
+   ],
+   "step": "Map controls against the Directions, including the six-hour incident reporting line.",
+   "date": "Now",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13751&Mode=0"
+  },
+  {
+   "id": "rbi-ebt-drafts",
+   "reg": "RBI",
+   "sectors": [
+    "dig"
+   ],
+   "theme": "Tech & data",
+   "impact": "Low",
+   "issued": "23 Nov",
+   "title": "Draft safeguards for electronic banking transactions (banks)",
+   "what": "Seven draft amendments to banks' Responsible Business Conduct Directions, aimed at giving customers more control over how their digital channels can be used. Comments by 14 December.",
+   "why": "Bank-partnered digital journeys, including collections and co-lending flows, may need to add customer controls.",
+   "applies": "Commercial banks, small finance banks, payments banks, local area banks, RRBs and co-operative banks. There is no NBFC or HFC draft.",
+   "points": [],
+   "step": "If bank-partnered flows would be affected, comment through an industry body by 14 December.",
+   "date": "14 Dec 2026",
+   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64026"
+  },
+  {
+   "id": "certin-ai",
+   "reg": "CERT-In",
+   "sectors": [
+    "dig"
+   ],
+   "theme": "Tech & data",
+   "impact": "Low",
+   "issued": "4 Nov",
+   "title": "AI security auditing guidelines",
+   "what": "CERT-In published Artificial Intelligence Security Auditing Guidelines. These are guidance, not binding directions.",
+   "why": "AI features such as chat assistants and recommendation engines can be brought into information-systems audit scope.",
+   "applies": "Organisations that build or deploy AI systems, and CERT-In empanelled auditors.",
+   "points": [],
+   "step": "Add the guidelines to the next IS audit scope where AI is used.",
+   "date": "Next IS audit",
+   "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=GUIDLNVIEW02&refcode=CISG-2026-04"
+  },
+  {
+   "id": "rbi-pen-ppi",
+   "reg": "RBI",
+   "sectors": [
+    "dig"
+   ],
+   "theme": "Customer conduct",
+   "impact": "Low",
+   "issued": "13 Nov",
+   "title": "Penalty on a wallet issuer: transfer limits and fraud reporting",
+   "what": "₹9 lakh penalty for transfers to non-registered beneficiaries above the permitted limit, and late fraud reporting.",
+   "why": "A practical lesson for any wallet or prepaid instrument feature.",
+   "applies": "A non-bank prepaid payment instrument issuer.",
+   "points": [
+    "Penalty under section 30 of the Payment and Settlement Systems Act."
+   ],
+   "step": "Test beneficiary limits and fraud-reporting timelines.",
+   "date": "Now",
+   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63973"
+  },
+  {
+   "id": "sebi-impersonation",
+   "reg": "SEBI",
+   "sectors": [
+    "dig",
+    "brk"
+   ],
+   "theme": "Customer conduct",
+   "impact": "Low",
+   "issued": "23 Nov",
+   "title": "Caution on impersonation of intermediaries on social media groups",
+   "what": "SEBI warned investors about fake 'registered intermediary' groups on social media platforms.",
+   "why": "Brand-impersonation risk for any investing product offered through apps and social channels.",
+   "applies": "Investors, and registered intermediaries whose names may be misused.",
+   "points": [],
+   "step": "Monitor social platforms for misuse of the brand.",
+   "date": "Now",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/caution-to-investors-regarding-impersonation-of-sebi-registered-intermediaries-on-closed-user-groups-of-social-media-platforms_105944.html"
+  },
+  {
+   "id": "sebi-settlement",
+   "reg": "SEBI",
+   "sectors": [
+    "all"
+   ],
+   "theme": "Governance",
+   "impact": "Medium",
+   "issued": "Oct / Nov",
+   "title": "New SEBI Settlement Regulations, 2026 in force",
+   "what": "Settlement notices before a show cause notice, formula-based amounts and a fast track for disclosure lapses. Apply within 90 days of a show cause notice; older pending cases have 90 days at a 20% higher amount.",
+   "why": "Creates new settlement routes, including before a show cause notice. Settlement remains at SEBI's discretion.",
+   "applies": "Anyone facing, or likely to face, SEBI proceedings.",
+   "points": [
+    "Replaces the Settlement Proceedings Regulations, 2018."
+   ],
+   "step": "Note the 90-day window that runs from a show cause notice, and the separate window for older pending cases.",
+   "date": "Within 90 days",
+   "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-settlement-of-administrative-and-civil-proceedings-regulations-2026_105126.html"
+  },
+  {
+   "id": "mca-ifsc-listing",
+   "reg": "MCA",
+   "sectors": [
+    "all"
+   ],
+   "theme": "Capital & liquidity",
+   "impact": "Medium",
+   "issued": "Nov",
+   "title": "Overseas and IFSC listing widened to 'equity instruments'",
+   "what": "Listing rules under section 23(3) of the Companies Act now cover equity shares, convertible debentures and preference shares. Unlisted public companies in the IFSC are covered and eligibility is relaxed.",
+   "why": "More routes to raise capital abroad or in GIFT City.",
+   "applies": "Public companies listing on permitted foreign exchanges, including exchanges in the IFSC.",
+   "points": [
+    "A company with negative net worth is eligible if at least 75% of the net offer goes to qualified institutional buyers."
+   ],
+   "step": "",
+   "date": "Now",
+   "url": "https://www.mca.gov.in/bin/ebook/dms/getdocument?doc=NzA2NjMyNDE3&docCategory=Notifications&type=open"
+  },
+  {
+   "id": "ifsca-certin",
+   "reg": "IFSCA",
+   "sectors": [
+    "all"
+   ],
+   "theme": "Tech & data",
+   "impact": "Medium",
+   "issued": "25 Nov",
+   "title": "All IFSC entities must act on CERT-In advisories",
+   "what": "IFSC entities must track and act on CERT-In advisories and vulnerability notes, including for systems run by the parent or vendors. A tracking mechanism is due within 30 days.",
+   "why": "IFSC units of Indian financial groups, including fund managers and brokers, must cover parent- and vendor-run systems too.",
+   "applies": "All IFSCA-regulated entities, including systems run for them by the parent or third parties.",
+   "points": [
+    "Assessment and patching duties apply to advisories issued from 25 November 2026.",
+    "CERT-In's own directions (six-hour incident reporting, 180-day logs) apply independently."
+   ],
+   "step": "Assign an owner to track CERT-In advisories and record the action taken on each.",
+   "date": "25 Dec 2026",
+   "url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=fc2cfb582037f82d92801abc770f5f9e&fileName=Adherence_to_advisories_and_vulnerability_notes_issued_by_the_Indian_Computer_Emergency_Response_Team__CERT_In__20261125_0641.pdf"
+  },
+  {
+   "id": "uapa-lists",
+   "reg": "RBI (UAPA)",
+   "sectors": [
+    "all"
+   ],
+   "theme": "Reporting",
+   "impact": "Low",
+   "issued": "26 Nov",
+   "title": "UN sanctions lists updated (s.51A UAPA)",
+   "what": "81 entries amended on the UN ISIL (Da'esh) and Al-Qaida sanctions list, plus one more by a second notification.",
+   "why": "Every regulated entity must update screening lists and re-screen customers.",
+   "applies": "Banks, NBFCs, asset reconstruction companies and All India Financial Institutions; other regulators issue matching instructions.",
+   "points": [
+    "Act under Chapter IX of the KYC Directions, 2025."
+   ],
+   "step": "Refresh sanctions screening lists and run a match against existing customers.",
+   "date": "Now",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13757&Mode=0"
+  },
+  {
+   "id": "fema-services",
+   "reg": "RBI (FEMA)",
+   "sectors": [
+    "all"
+   ],
+   "theme": "Reporting",
+   "impact": "Low",
+   "issued": "Nov",
+   "title": "Simpler export and import reporting for services",
+   "what": "Service exporters are treated as having filed the Export Declaration Form on giving receipt details to the bank (individuals, and others up to ₹10 lakh). IDPMS entries are needed only for non-individual service imports above ₹10 lakh.",
+   "why": "Less paperwork on cross-border service payments, such as technology vendors and offshore services.",
+   "applies": "Exporters and importers of services, and authorised dealer banks.",
+   "points": [
+    "In force from 1 October 2026."
+   ],
+   "step": "Update EDF and IDPMS processes with the authorised dealer bank.",
+   "date": "Now",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13750&Mode=0"
+  },
+  {
+   "id": "mca-csr-draft",
+   "reg": "MCA",
+   "sectors": [
+    "all"
+   ],
+   "theme": "Governance",
+   "impact": "Low",
+   "issued": "11 Nov",
+   "title": "Draft changes to CSR Schedule VII and CSR Rules",
+   "what": "Draft amendments to Schedule VII of the Companies Act and the CSR Policy Rules, published for comment.",
+   "why": "May change which activities count as CSR in next year's plans.",
+   "applies": "Companies covered by section 135.",
+   "points": [],
+   "step": "Review the draft against the current CSR plan.",
+   "date": "Comment window",
+   "url": "https://www.mca.gov.in/bin/dms/getdocument?mds=OT8imG9cDfw9Nf3BFLDacw%3D%3D&type=open"
+  }
+ ],
+ "top": [
+  {
+   "id": "rbi-sec-demat",
+   "so_what": "From 1 April 2027 transfers of securitisation notes, including older notes, must be in demat and at least ₹1 crore (amortising notes excepted). Smaller holdings may become hard to sell."
+  },
+  {
+   "id": "irdai-claims-pen",
+   "so_what": "A ₹2 crore penalty on one insurer for untenable claim rejections, and study groups on standard rejection codes and live claim tracking due to report by 26 December."
+  },
+  {
+   "id": "sebi-kra",
+   "so_what": "Onboarding forms and KRA interfaces must change by 24 December. Done well, it shortens onboarding for mutual fund and broking clients."
+  },
+  {
+   "id": "dpdp-cm",
+   "so_what": "Data Fiduciary duties start 13 May 2027. Where processing relies on consent, groups sharing customer data across entities will need a consent record each entity can rely on."
+  },
+  {
+   "id": "nhb-arbitration",
+   "so_what": "Lender-picked arbitrators across many disputes put awards at risk of being set aside. HFCs must report action taken to NHB."
+  },
+  {
+   "id": "irdai-rbc-indas",
+   "so_what": "Working groups are to make Ind AS accounts the base for insurer capital. No rule yet, but solvency and capital plans may shift once proposals land."
+  }
+ ],
+ "timeline": [
+  {
+   "iso": "2026-11-30",
+   "date": "30 Nov",
+   "sector": "brk",
+   "text": "75% margin on highly encumbered shares",
+   "item": "nse-encumbrance"
+  },
+  {
+   "iso": "2026-12-01",
+   "date": "1 Dec",
+   "sector": "brk",
+   "text": "Commodity derivatives margin framework",
+   "item": "sebi-commodity-margin"
+  },
+  {
+   "iso": "2026-12-03",
+   "date": "3 Dec",
+   "sector": "amc",
+   "text": "Digital KYC for NRI clients",
+   "item": "sebi-nri-kyc"
+  },
+  {
+   "iso": "2026-12-14",
+   "date": "14 Dec",
+   "sector": "dig",
+   "text": "Comments due on RBI e-banking drafts",
+   "item": "rbi-ebt-drafts"
+  },
+  {
+   "iso": "2026-12-24",
+   "date": "24 Dec",
+   "sector": "amc",
+   "text": "KRA onboarding changes live",
+   "item": "sebi-kra"
+  },
+  {
+   "iso": "2026-12-25",
+   "date": "25 Dec",
+   "sector": "all",
+   "text": "IFSC: CERT-In advisory tracking in place",
+   "item": "ifsca-certin"
+  },
+  {
+   "iso": "2026-12-26",
+   "date": "26 Dec",
+   "sector": "ins",
+   "text": "IRDAI claim study groups report",
+   "item": "irdai-claim-groups"
+  },
+  {
+   "iso": "2027-04-01",
+   "date": "1 Apr 2027",
+   "sector": "nbfc",
+   "text": "Securitisation: demat and ₹1 crore floor",
+   "item": "rbi-sec-demat"
+  },
+  {
+   "iso": "2027-04-01",
+   "date": "1 Apr 2027",
+   "sector": "amc",
+   "text": "MF net settlement of funds",
+   "item": "sebi-mf-net"
+  },
+  {
+   "iso": "2027-05-13",
+   "date": "13 May 2027",
+   "sector": "dig",
+   "text": "DPDP Data Fiduciary duties start",
+   "item": "dpdp-cm"
+  },
+  {
+   "iso": "2027-06-01",
+   "date": "1 Jun 2027",
+   "sector": "brk",
+   "text": "FPIs in commodity derivatives",
+   "item": "sebi-fpi-commodity"
+  }
+ ],
+ "judgments": [
+  {
+   "court": "Supreme Court",
+   "date": "19 Nov",
+   "kind": "Order",
+   "title": "Ravi Kumar Jangra v. Union of India",
+   "headline": "Stalled flat? The court will check whether the money followed the bricks",
+   "takeaway": "Interim order: the petitioning homebuyers in a stalled project are protected from coercive recovery of EMIs while the court examines whether the lender disbursed as the tripartite agreement required.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=659122026&type=o&order_date=2026-11-19&from=latest_judgements_order",
+   "hub": ""
+  },
+  {
+   "court": "Supreme Court",
+   "date": "Released 18 Nov",
+   "kind": "Judgment",
+   "title": "Edelweiss ARC v. State of NCT of Delhi",
+   "headline": "The builder defaulted. On these facts, that didn't make the lender a criminal",
+   "takeaway": "Homebuyers' criminal case against a project lender and ARC quashed on the facts: there was no entrustment of buyers' money to the lender and no deception by it. The RERA breaches were the promoter's.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=455152025&type=j&order_date=2026-09-29&from=latest_judgements_order",
+   "hub": ""
+  },
+  {
+   "court": "Supreme Court",
+   "date": "27 Nov",
+   "kind": "Judgment",
+   "title": "SBI v. S. Loganathan",
+   "headline": "One DRT, long reach: recovery certificates can travel",
+   "takeaway": "A DRT can execute its recovery certificate against property outside its territorial area. There is no need to start again before a second tribunal.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=669582025&type=j&order_date=2026-11-27&from=latest_judgements_order",
+   "hub": "SBI-LOGANATHAN"
+  },
+  {
+   "court": "Supreme Court",
+   "date": "4 Nov",
+   "kind": "Order",
+   "title": "Kishore Avarsekar v. Assets Care and Reconstruction Enterprises",
+   "headline": "Selling the loan? Hand over the cheque too",
+   "takeaway": "A pending cheque-bounce case survives assignment of the loan to an ARC, but only if the cheque was transferred and endorsed to it.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=666882026&type=o&order_date=2026-11-04&from=latest_judgements_order",
+   "hub": ""
+  },
+  {
+   "court": "Supreme Court",
+   "date": "26 Nov",
+   "kind": "Judgment",
+   "title": "SBI v. State of Maharashtra",
+   "headline": "Secured lender or depositors first? A larger Bench will decide",
+   "takeaway": "Whether secured lenders rank ahead of attachments under State depositor-protection laws has been referred to a larger Bench. Until it decides, the question stays open.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=166842026&type=j&order_date=2026-11-26&from=latest_judgements_order",
+   "hub": "SBI-MPID-REF"
+  },
+  {
+   "court": "NCLAT",
+   "date": "6 Nov",
+   "kind": "Judgment",
+   "title": "Sangeeta Aggarwal v. Equentia",
+   "headline": "Personal guarantors: no automatic interim moratorium",
+   "takeaway": "No automatic interim moratorium for personal guarantors, even in cases filed before the 2026 amendment. Recovery against them can continue.",
+   "url": "https://nclat.nic.in/display-board/view_order_pdf?fid=9910110104252026&&l=delhi&&d=2026-11-06&&order_type=J",
+   "hub": "AGGARWAL-EQUENTIA"
+  },
+  {
+   "court": "Supreme Court",
+   "date": "25 Nov",
+   "kind": "Judgment",
+   "title": "UV ARC v. Gautam Sinha",
+   "headline": "Your borrower's balance sheet can rescue an old claim",
+   "takeaway": "Balance-sheet acknowledgements made while the debt was alive kept a section 7 IBC claim within limitation. Borrowers' signed accounts for each year can matter.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=113212020&type=j&order_date=2026-11-25&from=latest_judgements_order",
+   "hub": "UVARC-SINHA"
+  },
+  {
+   "court": "Supreme Court",
+   "date": "26 Nov",
+   "kind": "Judgment",
+   "title": "Union of India v. J. Sekar",
+   "headline": "No Judicial Member, no confirmed PMLA attachment",
+   "takeaway": "PMLA attachments must be confirmed by an Adjudicating Authority Bench that includes a Judicial Member. Relevant where a lender's security has been attached.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=138502018&type=j&order_date=2026-11-26&from=latest_judgements_order",
+   "hub": "UOI-SEKAR-PMLA"
+  },
+  {
+   "court": "Supreme Court",
+   "date": "16 Nov",
+   "kind": "Judgment",
+   "title": "Twinstar Technologies v. Bank of Maharashtra",
+   "headline": "An approved plan can still be sent back on appeal",
+   "takeaway": "NCLAT may, in an appeal, send an approved resolution plan back to the committee of creditors for fresh consideration.",
+   "url": "https://ibbi.gov.in/uploads/order/2026-11-17-115545-7k4re-7fa2ff2a01f4c3fa9a1edd7990984744.pdf",
+   "hub": "TWINSTAR-BOM"
+  },
+  {
+   "court": "NCLAT",
+   "date": "6 Nov",
+   "kind": "Judgment",
+   "title": "Manoj Kumar Agarwal v. IL&FS Financial",
+   "headline": "When the borrower admits, the guarantor is bound",
+   "takeaway": "A borrower's acknowledgement of debt binds the guarantor where the guarantee says so. The wording of the guarantee decides it.",
+   "url": "https://nclat.nic.in/display-board/view_order_pdf?fid=9910122110732026&&l=delhi&&d=2026-11-06&&order_type=J",
+   "hub": "AGARWAL-ILFS"
+  },
+  {
+   "court": "Supreme Court",
+   "date": "27 Nov",
+   "kind": "Judgment",
+   "title": "Sucheta Dalal v. Union of India",
+   "headline": "Unclaimed money stays on the Supreme Court's radar",
+   "takeaway": "Unclaimed deposits, shares and insurance money remain under the court's watch. Search, nominee and claim processes remain in focus.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=69542022&type=j&order_date=2026-11-27&from=latest_judgements_order",
+   "hub": "DALAL-UNCLAIMED"
+  }
+ ]
+}
