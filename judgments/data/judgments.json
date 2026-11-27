@@ -2,7 +2,7 @@
  "meta": {
   "title": "Key judgments for financial services",
   "as_of": "2026-11-27",
-  "count": 139,
+  "count": 143,
   "sectors": [
    {
     "key": "lending",
@@ -280,6 +280,78 @@
    "area": "recovery"
   },
   {
+   "id": "JANGRA-SBI",
+   "title": "Ravi Kumar Jangra v. Union of India",
+   "court": "Supreme Court",
+   "date": "2026-11-19",
+   "neutral_citation": "",
+   "report_citation": "",
+   "case_no": "Writ Petition (Civil) No. 1415 of 2026 (order)",
+   "bench": "Surya Kant CJI, Joymalya Bagchi and V. Mohana JJ.",
+   "topic": "Homebuyer EMIs under a tripartite agreement: check the builder-bank nexus first",
+   "sectors": [
+    "hfc",
+    "lending"
+   ],
+   "issue": "Can a court direct homebuyers to pay instalments on housing loans disbursed under a tripartite agreement while the project is stalled and the builder is in insolvency?",
+   "holding": [
+    "Before ordering a homebuyer to pay instalments, the court must first examine the nexus between the builder and the bank, and whether the bank released the loan strictly as the tripartite agreement required.",
+    "No interim direction to pay instalments can issue unless the court finds clearly that the homebuyer is in default.",
+    "The Civil Court was told not to take coercive action against the petitioners or similarly placed homebuyers until it decides that issue. This is ad-interim protection only; the Court expressed no view on the merits."
+   ],
+   "impact": [
+    "Lenders with construction-linked or subvention home loans should be ready to show that each disbursement matched construction progress as the tripartite agreement required.",
+    "Recovery suits against homebuyers in stalled projects may not get interim payment orders until this is decided."
+   ],
+   "statutes": [
+    "Constitution of India, Article 32"
+   ],
+   "links": [],
+   "status": "Interim order",
+   "status_note": "Order of 19-11-2026 disposing of the writ petition with ad-interim protection; no view on the merits.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=659122026&type=o&order_date=2026-11-19&from=latest_judgements_order",
+   "facts": "Homebuyers in a stalled housing project in Gurugram took loans under a tripartite agreement with the bank and the builder, with disbursement linked to construction. The bank allegedly paid the builder without matching progress. The builder entered insolvency in August 2025, and the bank sued the homebuyers for recovery and obtained interim orders to pay instalments.",
+   "forum": "sc",
+   "area": "consumer"
+  },
+  {
+   "id": "EDELWEISS-NCTD",
+   "title": "Edelweiss Asset Reconstruction Company Ltd. v. State of NCT of Delhi",
+   "court": "Supreme Court",
+   "date": "2026-11-18",
+   "neutral_citation": "2026 INSC 1236",
+   "report_citation": "",
+   "case_no": "Criminal Appeal No. 4622 of 2026 (with Criminal Appeal No. 4623 of 2026)",
+   "bench": "Vikram Nath and Sandeep Mehta JJ.",
+   "topic": "A lender is not a trustee of the mortgaged property",
+   "sectors": [
+    "lending",
+    "hfc"
+   ],
+   "issue": "Can homebuyers prosecute the project lender and the asset reconstruction company that took over the loan for criminal breach of trust and cheating because the mortgaged project land was used as security?",
+   "holding": [
+    "No. Taking the complaint at face value, there was no entrustment of the complainants' property to the lenders, no deception and nothing showing a conspiracy, so the offences of criminal breach of trust, cheating and conspiracy were not made out. The FIR was quashed against the lender, the ARC and their officers.",
+    "Breaches of RERA are the promoter's obligations, prosecutable only on a complaint by the Authority; they cannot be the foundation for prosecuting a lender, which is not the regulated entity.",
+    "The Magistrate who ordered the FIR had to give reasons for disagreeing with the police report that no offence was made out. The complainants remain free to pursue civil, arbitral and statutory remedies."
+   ],
+   "impact": [
+    "Real estate lenders and ARCs have a strong answer to criminal complaints built only on their holding project land as security.",
+    "Disputes over the security interest stay in civil, RERA and insolvency forums."
+   ],
+   "statutes": [
+    "Indian Penal Code, 1860, ss. 405, 406, 409, 420, 120B",
+    "Code of Criminal Procedure, 1973, s. 156(3)",
+    "Real Estate (Regulation and Development) Act, 2016, s. 80"
+   ],
+   "links": [],
+   "status": "Current",
+   "status_note": "The judgment PDF bears the date 29-09-2026; it was signed and released on 18-11-2026.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=455152025&type=j&order_date=2026-09-29&from=latest_judgements_order",
+   "facts": "Homebuyers complained that the developer's project land was mortgaged to a lender, whose loan later passed to an asset reconstruction company, as cross-collateral. On the Magistrate's direction the police registered an FIR against the lenders for breach of trust, cheating and conspiracy.",
+   "forum": "sc",
+   "area": "security"
+  },
+  {
    "id": "TWINSTAR-BOM",
    "title": "Twinstar Technologies Ltd. v. Bank of Maharashtra",
    "court": "Supreme Court",
@@ -312,6 +384,38 @@
    "facts": "A single resolution plan was approved for thirteen companies of one group. Three dissenting lenders appealed, and the NCLAT set the approval aside.",
    "forum": "sc",
    "area": "ibc-creditors"
+  },
+  {
+   "id": "AGRAWAL-S2TECH",
+   "title": "Birendra Kumar Agrawal v. S2 Tech.com India Pvt. Ltd.",
+   "court": "Supreme Court",
+   "date": "2026-11-16",
+   "neutral_citation": "2026 INSC 1225",
+   "report_citation": "",
+   "case_no": "Civil Appeal No. 4171 of 2026 (with Civil Appeal No. 4585 of 2026)",
+   "bench": "Sanjay Kumar and Sanjeev Sachdeva JJ.",
+   "topic": "Successful bidder must be heard before an adverse NCLAT order",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "Could the NCLAT pass an order hurting the successful resolution applicant without hearing it?",
+   "holding": [
+    "No. The NCLAT ruled against the successful resolution applicant without giving it a hearing, a flagrant breach of natural justice, so its judgment was set aside.",
+    "All issues were left open in the pending appeals against the approval of the resolution plan."
+   ],
+   "impact": [
+    "Creditors and bidders should make sure every affected party is before the NCLAT; an order passed without hearing them is vulnerable."
+   ],
+   "statutes": [
+    "Insolvency and Bankruptcy Code, 2016, s. 61"
+   ],
+   "links": [],
+   "status": "Current",
+   "status_note": "Non-reportable judgment.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=192872026&type=j&order_date=2026-11-16&from=latest_judgements_order",
+   "facts": "In the insolvency of a construction company, the NCLAT passed a judgment affecting the bidder whose resolution plan had been approved, without hearing that bidder.",
+   "forum": "sc",
+   "area": "ibc-process"
   },
   {
    "id": "AGGARWAL-EQUENTIA",
@@ -379,6 +483,40 @@
    "facts": "A personal guarantor said the claim against him was time-barred because he had not himself acknowledged the debt.",
    "forum": "nclat",
    "area": "guarantees"
+  },
+  {
+   "id": "AVARSEKAR-ACRE",
+   "title": "Kishore Avarsekar v. Assets Care and Reconstruction Enterprises Ltd.",
+   "court": "Supreme Court",
+   "date": "2026-11-04",
+   "neutral_citation": "2026 INSC 1217",
+   "report_citation": "",
+   "case_no": "SLP (Crl.) No. 20619 of 2026",
+   "bench": "Dipankar Datta and Sheel Nagu JJ.",
+   "topic": "Cheque-bounce cases survive assignment to an ARC",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "When a bank assigns a loan to an asset reconstruction company, can the ARC continue the bank's pending cheque-bounce complaint?",
+   "holding": [
+    "Yes. A pending section 138 complaint relating to the assigned financial asset is an \"other proceeding of whatever nature\" under section 5(4) of the SARFAESI Act, so it does not abate and the ARC may be substituted.",
+    "But assignment alone does not make the ARC the payee or holder in due course. The ARC must prove that the dishonoured cheque itself was transferred and delivered with the asset, that there was an endorsement or assignment making it a holder in due course, that the ingredients of section 138 are met, and that it is not improving on the original complainant's case."
+   ],
+   "impact": [
+    "When assigning stressed loans, transfer and endorse the dishonoured cheques along with the debt, and record this in the assignment documents.",
+    "ARCs taking over cheque cases must be ready to prove holder-in-due-course status strictly."
+   ],
+   "statutes": [
+    "SARFAESI Act, 2002, s. 5(1), 5(4)",
+    "Negotiable Instruments Act, 1881, ss. 8, 9, 138"
+   ],
+   "links": [],
+   "status": "Current",
+   "status_note": "Reportable order dismissing the special leave petition.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=666882026&type=o&order_date=2026-11-04&from=latest_judgements_order",
+   "facts": "A bank had filed cheque-bounce complaints against the borrowers and then assigned the debt to an asset reconstruction company, which asked to be substituted as complainant. The borrowers objected.",
+   "forum": "sc",
+   "area": "recovery"
   },
   {
    "id": "YES-AT1",
