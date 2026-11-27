@@ -1,0 +1,119 @@
+{
+ "id": "2026-11",
+ "issue": "November 2026",
+ "href": "newsletter/2026-11/",
+ "top": [
+  {
+   "title": "Securitisation notes: demat only, ₹1 crore floor at every transfer",
+   "so_what": "From 1 April 2027 transfers of securitisation notes, including older notes, must be in demat and at least ₹1 crore (amortising notes excepted). Smaller holdings may become hard to sell.",
+   "reg": "RBI",
+   "regc": "rbi",
+   "impact": "High",
+   "date": "1 Apr 2027",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13755&Mode=0",
+   "more": "newsletter/2026-11/#rbi-sec-demat",
+   "sectors": [
+    [
+     "NBFCs",
+     "rbi"
+    ],
+    [
+     "Housing finance",
+     "nhb"
+    ]
+   ]
+  },
+  {
+   "title": "₹2 crore penalty on a health insurer for claim rejections and deductions",
+   "so_what": "A ₹2 crore penalty on one insurer for untenable claim rejections, and study groups on standard rejection codes and live claim tracking due to report by 26 December.",
+   "reg": "IRDAI",
+   "regc": "irdai",
+   "impact": "High",
+   "date": "Now",
+   "url": "https://irdai.gov.in/document-detail?documentId=10053459",
+   "more": "newsletter/2026-11/#irdai-claims-pen",
+   "sectors": [
+    [
+     "Insurers",
+     "irdai"
+    ]
+   ]
+  },
+  {
+   "title": "Client onboarding simplified: KYC data centralised at the KRA",
+   "so_what": "Onboarding forms and KRA interfaces must change by 24 December. Done well, it shortens onboarding for mutual fund and broking clients.",
+   "reg": "SEBI",
+   "regc": "sebi",
+   "impact": "High",
+   "date": "24 Dec 2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/simplification-of-client-on-boarding-and-rationalisation-of-risk-management-framework-at-kyc-registration-agencies_105839.html",
+   "more": "newsletter/2026-11/#sebi-kra",
+   "sectors": [
+    [
+     "Mutual funds & AMCs",
+     "sebi"
+    ],
+    [
+     "Brokers & intermediaries",
+     "exchanges"
+    ]
+   ]
+  },
+  {
+   "title": "DPDP: Consent Manager registration opens",
+   "so_what": "Data Fiduciary duties start 13 May 2027. Where processing relies on consent, groups sharing customer data across entities will need a consent record each entity can rely on.",
+   "reg": "DPDP",
+   "regc": "dpdp",
+   "impact": "High",
+   "date": "13 May 2027",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336151",
+   "more": "newsletter/2026-11/#dpdp-cm",
+   "sectors": [
+    [
+     "Digital lending & payments",
+     "dpdp"
+    ],
+    [
+     "All regulated entities",
+     "companies"
+    ]
+   ]
+  },
+  {
+   "title": "Arbitrators must be independent: no unilateral panels",
+   "so_what": "Lender-picked arbitrators across many disputes put awards at risk of being set aside. HFCs must report action taken to NHB.",
+   "reg": "RBI / NHB",
+   "regc": "nhb",
+   "impact": "Medium",
+   "date": "Now",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/11/Advisory-Letter-dated-12-11-2026-English.pdf",
+   "more": "newsletter/2026-11/#nhb-arbitration",
+   "sectors": [
+    [
+     "NBFCs",
+     "rbi"
+    ],
+    [
+     "Housing finance",
+     "nhb"
+    ]
+   ]
+  },
+  {
+   "title": "Risk Based Capital to start from Ind AS accounts",
+   "so_what": "Working groups are to make Ind AS accounts the base for insurer capital. No rule yet, but solvency and capital plans may shift once proposals land.",
+   "reg": "IRDAI",
+   "regc": "irdai",
+   "impact": "High",
+   "date": "Watch",
+   "url": "https://irdai.gov.in/document-detail?documentId=10014258",
+   "more": "newsletter/2026-11/#irdai-rbc-indas",
+   "sectors": [
+    [
+     "Insurers",
+     "irdai"
+    ]
+   ]
+  }
+ ]
+}

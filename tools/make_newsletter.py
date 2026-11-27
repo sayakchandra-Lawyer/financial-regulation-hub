@@ -256,4 +256,11 @@ issues = sorted((json.loads(p.read_text(encoding="utf-8")) for p in (NL / "data"
 for d in issues:
     issue_page(d, issues)
 archive(issues)
+# home page "headline changes": the latest issue's top six, resolved to plain fields
+L = issues[0]; byid = {i["id"]: i for i in L["items"]}; sn = {x["id"]: x for x in L["sectors"]}
+latest = {"id": L["id"], "issue": L["issue"], "href": f"newsletter/{L['id']}/", "top": [
+    {"title": byid[t["id"]]["title"], "so_what": t["so_what"], "reg": byid[t["id"]]["reg"], "regc": REGC.get(byid[t["id"]]["reg"], "misc"),
+     "impact": byid[t["id"]]["impact"], "date": byid[t["id"]]["date"], "url": byid[t["id"]]["url"],
+     "more": f"newsletter/{L['id']}/#{t['id']}", "sectors": [[sn[x]["name"], sn[x]["c"]] for x in byid[t["id"]]["sectors"]]} for t in L["top"]]}
+(NL / "latest.json").write_text(json.dumps(latest, ensure_ascii=False, indent=1), encoding="utf-8")
 print("newsletter:", ", ".join(x["id"] for x in issues))

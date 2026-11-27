@@ -107,3 +107,7 @@
   a.nl-src:after{content:" (" attr(href) ")";font-size:9px;color:#555;word-break:break-all;white-space:normal}
 }
 .nl-feat h2{margin:0!important}.nl-feat .nl-head{margin:0 0 4px}
+
+/* home page headline changes */
+.nl-home{margin-bottom:8px}.nl-home .sec-h h2 .tag{font:500 14px var(--f-b);margin-left:8px}
+.nl-home .nl-topc h3 a:hover{color:var(--accent-text)}
