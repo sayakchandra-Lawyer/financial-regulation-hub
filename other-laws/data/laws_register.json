@@ -1649,13 +1649,14 @@
     "An arbitration agreement must be in writing; it may be a clause in a contract or a separate agreement, and an exchange of communications by electronic means that records the agreement counts (s. 7)",
     "Interim measures from the court before or during the arbitration, or after the award but before enforcement, including securing the amount in dispute and the preservation, custody or sale of goods (s. 9(1)); interim measures from the arbitral tribunal, enforceable as if they were court orders (s. 17)",
     "Independence of arbitrators: a prospective arbitrator must disclose circumstances giving rise to justifiable doubts about independence or impartiality (s. 12(1)); a person whose relationship with the parties, counsel or the dispute falls in the Seventh Schedule is ineligible, notwithstanding any prior agreement, unless the parties waive this by an express written agreement after the dispute has arisen (s. 12(5))",
+    "Once the arbitral tribunal is constituted, the court will not entertain a s. 9 application unless the remedy under s. 17 may not be efficacious (s. 9(3))",
     "The Limitation Act, 1963 applies to arbitrations as it applies to court proceedings (s. 43)"
    ],
    "core_obligations": [
     "s. 9(2): where the court grants an interim measure before the arbitration starts, commence the arbitral proceedings within 90 days of the order, or within any further time the court allows",
     "s. 29A(1): in domestic arbitrations the award must be made within twelve months from completion of pleadings; the parties may extend by consent for up to six months (s. 29A(3)), after which only the court can extend the mandate (s. 29A(4))",
     "s. 34(3): an application to set aside an award must be made within three months of receiving it, with a further 30 days only on sufficient cause",
-    "s. 36: once the time to challenge has expired the award is enforced like a court decree under the CPC; filing a s. 34 challenge does not by itself stay the award, and a stay of a money award is considered with regard to the CPC rules on stay of money decrees"
+    "s. 36: once the time to challenge has expired the award is enforced like a court decree under the CPC; filing a s. 34 challenge does not by itself stay the award, and a stay of a money award is considered with regard to the CPC rules on stay of money decrees; where the court is satisfied that there is a prima facie case that the arbitration agreement, the underlying contract or the making of the award was induced by fraud or corruption, it stays the award unconditionally pending the s. 34 challenge (s. 36(3), second proviso)"
    ],
    "timelines": [],
    "consequences_stated": [
@@ -1692,10 +1693,10 @@
    ],
    "excluded": [],
    "key_concepts": [
-    "Factoring business: acquiring receivables by assignment for consideration, for collection or for financing against the assignment; ordinary-course credit facilities of a bank or an NBFC against hypothecation of receivables are excluded (s. 2(j))",
-    "No factor may commence or carry on factoring business without a certificate of registration from RBI; the NBFC registration requirements of the RBI Act apply (s. 3)",
+    "Factoring business: acquiring receivables by assignment for consideration, for collection or for financing against the assignment; credit facilities provided by a bank or an NBFC in its ordinary course of business against security of receivables are excluded (s. 2(j)(i))",
+    "No factor may commence or carry on factoring business without a certificate of registration from RBI; the NBFC registration requirements of the RBI Act apply (s. 3). Banks, corporations set up under a Central or State Act and Government companies do not need this registration (s. 5)",
     "An assignment of receivables must be by agreement in writing, and the assignor must disclose the debtor's defences and rights of set-off to the assignee (s. 7)",
-    "The assignee cannot demand payment from the debtor until notice of the assignment is given to the debtor (s. 8); payment to the assignee after notice discharges the debtor (s. 9)",
+    "The assignee cannot demand payment from the debtor until notice of the assignment is given to the debtor (s. 8); once notice is given the debtor must pay the assignee, and payment to the assignee in discharge of the receivables specified in the notice fully discharges the debtor to that extent (s. 9)",
     "Recovery of an assigned receivable through a court or tribunal must be within the period of limitation under the Limitation Act (s. 28)"
    ],
    "core_obligations": [
@@ -1739,7 +1740,7 @@
    "key_concepts": [
     "Where a law requires a signature, an electronic signature in the prescribed manner satisfies it (s. 5); electronic signature techniques include Aadhaar or other e-KYC based e-authentication (s. 3A and Second Schedule)",
     "A contract is not unenforceable merely because the proposal, acceptance or revocation was expressed in electronic form (s. 10A)",
-    "The Act does not apply to the documents in the First Schedule (s. 1(4)). Since 26-09-2022 the exclusion for negotiable instruments does not cover a cheque, demand promissory note or bill of exchange issued in favour of or endorsed by an entity regulated by RBI, NHB, SEBI, IRDAI or PFRDA, and the exclusion for powers of attorney does not cover one that empowers such a regulated entity to act for the executant; trusts and wills remain excluded"
+    "The Act does not apply to the documents in the First Schedule (s. 1(4)). Since 26-09-2022 the exclusion for negotiable instruments does not cover a cheque, demand promissory note or bill of exchange issued in favour of or endorsed by an entity regulated by RBI, NHB, SEBI, IRDAI or PFRDA, and the exclusion for powers of attorney does not cover one that empowers such a regulated entity to act for the executant; trusts and wills remain excluded. The same 2022 notification (S.O. 4720(E)) omitted the entry for contracts for the sale or conveyance of immovable property; stamp duty and registration law still apply to such contracts"
    ],
    "core_obligations": [
     "s. 43A: a body corporate handling sensitive personal data must implement and maintain reasonable security practices; s. 43A is omitted from 13-05-2027 by the Digital Personal Data Protection Act, 2023 (see the DPDP section)",
@@ -1866,8 +1867,8 @@
    ],
    "core_obligations": [
     "Rules 6(2) and 8(6): serve the borrower a notice of thirty days for sale of the secured asset; for sale by public tender or auction, publish a public notice in two leading newspapers, one in the vernacular, setting out the terms of sale including the reserve price",
-    "Rule 9(1): no sale of immovable property before thirty days from the public notice of sale or service of the sale notice on the borrower",
-    "Rule 9(3)-(4): the purchaser pays 25% of the sale price immediately and the balance on or before the fifteenth day of confirmation of sale, unless extended as the rule allows; a sale certificate issues on confirmation and payment (rule 9(6))"
+    "Rule 9(1): no sale of immovable property before thirty days from the public notice of sale or service of the sale notice on the borrower; the rule was amended in 2016 to provide a shorter notice for a re-sale after a failed first sale",
+    "Rule 9(3)-(4): the purchaser pays a 25% deposit on the sale and the balance within the period the rule allows, which may be extended only within the limits the rule sets (these sub-rules were amended in 2016); a sale certificate issues on confirmation and payment (rule 9(6))"
    ],
    "timelines": [],
    "consequences_stated": [
@@ -1910,7 +1911,8 @@
    ],
    "timelines": [],
    "consequences_stated": [
-    "An unregistered security interest does not get the priority that SARFAESI s. 26E gives registered secured creditors"
+    "SARFAESI s. 26D: a secured creditor cannot exercise its enforcement rights under Chapter III of SARFAESI unless the security interest is registered with the Central Registry",
+    "SARFAESI s. 26E: debts due to a secured creditor with a registered security interest get priority over other debts and government dues, subject to the Insolvency and Bankruptcy Code, 2016 where proceedings under that Code are pending"
    ],
    "consequences_general": "",
    "cross_references": [
@@ -2068,7 +2070,8 @@
    "key_concepts": [
     "MFIs must register with the district Registering Authority, stating the area of operation, interest rates, due-diligence and recovery systems (s. 3)",
     "Interest recovered may not exceed the principal; a loan stands discharged once twice the principal has been realised (s. 9)",
-    "No further loan to an SHG with an outstanding bank loan without the Registering Authority's prior written approval, and no loan to an SHG member during two subsisting loans from any source (s. 10)"
+    "No further loan to an SHG with an outstanding bank loan without the Registering Authority's prior written approval, and no loan to an SHG member during two subsisting loans from any source (s. 10)",
+    "Challenges by microfinance NBFCs to the State's power to regulate them were disposed of by the High Court in 2013 without deciding legislative competence. The Supreme Court later held (for the Kerala and Gujarat money lenders Acts) that state money-lending laws do not apply to RBI-regulated NBFCs (Nedumpilli Finance Co. v. State of Kerala, 2022 INSC 545)"
    ],
    "core_obligations": [
     "s. 8: display interest rates; charge nothing beyond the prescribed application charge",
@@ -2107,7 +2110,8 @@
     "Money lenders in Kerala: persons whose main or subsidiary occupation is advancing and realising loans, including branch and liaison offices and pawn brokers (s. 2(7))"
    ],
    "excluded": [
-    "Banks and co-operative societies, LIC and certain other named statutory institutions (s. 2(7))"
+    "Banks and co-operative societies, LIC and certain other named statutory institutions (s. 2(7))",
+    "NBFCs registered with and regulated by RBI: the Supreme Court held that the Act does not apply to them (Nedumpilli Finance Co. v. State of Kerala, 2022 INSC 545)"
    ],
    "key_concepts": [
     "No person, firm, joint family or unincorporated association may carry on business as a money lender without a licence (s. 3)",
@@ -2226,10 +2230,11 @@
    "key_concepts": [
     "No money-lender may carry on business except in the area and on the terms of its registration (s. 5(1))",
     "NBFCs registered with RBI are deemed registered under the Act, but must intimate their RBI registration to the concerned Registrar in the prescribed proforma (s. 5(2))",
+    "The Supreme Court has held that the Gujarat Act, like the Kerala Money Lenders Act, does not apply to NBFCs registered with and regulated by RBI, because Chapter III-B of the RBI Act is a complete code for them (Nedumpilli Finance Co. v. State of Kerala, 2022 INSC 545)",
     "The State Government may fix maximum rates of interest for any local area or class of money-lending business, for secured and unsecured loans; an agreement for interest above those rates is invalid (s. 33)"
    ],
    "core_obligations": [
-    "s. 5(2): an RBI-registered NBFC lending in Gujarat must intimate its RBI registration to the Registrar",
+    "s. 5(2): on its face, an RBI-registered NBFC lending in Gujarat must intimate its RBI registration to the Registrar (see the Supreme Court ruling above on whether the Act reaches RBI-regulated NBFCs)",
     "s. 33: charge no interest above the maximum rates fixed by the State Government"
    ],
    "timelines": [],

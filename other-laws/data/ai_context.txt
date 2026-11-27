@@ -415,11 +415,12 @@ applies: Lenders whose loan or security documents contain an arbitration clause;
 concepts: An arbitration agreement must be in writing; it may be a clause in a contract or a separate agreement, and an exchange of communications by electronic means that records the agreement counts (s. 7)
 concepts: Interim measures from the court before or during the arbitration, or after the award but before enforcement, including securing the amount in dispute and the preservation, custody or sale of goods (s. 9(1)); interim measures from the arbitral tribunal, enforceable as if they were court orders (s. 17)
 concepts: Independence of arbitrators: a prospective arbitrator must disclose circumstances giving rise to justifiable doubts about independence or impartiality (s. 12(1)); a person whose relationship with the parties, counsel or the dispute falls in the Seventh Schedule is ineligible, notwithstanding any prior agreement, unless the parties waive this by an express written agreement after the dispute has arisen (s. 12(5))
+concepts: Once the arbitral tribunal is constituted, the court will not entertain a s. 9 application unless the remedy under s. 17 may not be efficacious (s. 9(3))
 concepts: The Limitation Act, 1963 applies to arbitrations as it applies to court proceedings (s. 43)
 duties: s. 9(2): where the court grants an interim measure before the arbitration starts, commence the arbitral proceedings within 90 days of the order, or within any further time the court allows
 duties: s. 29A(1): in domestic arbitrations the award must be made within twelve months from completion of pleadings; the parties may extend by consent for up to six months (s. 29A(3)), after which only the court can extend the mandate (s. 29A(4))
 duties: s. 34(3): an application to set aside an award must be made within three months of receiving it, with a further 30 days only on sufficient cause
-duties: s. 36: once the time to challenge has expired the award is enforced like a court decree under the CPC; filing a s. 34 challenge does not by itself stay the award, and a stay of a money award is considered with regard to the CPC rules on stay of money decrees
+duties: s. 36: once the time to challenge has expired the award is enforced like a court decree under the CPC; filing a s. 34 challenge does not by itself stay the award, and a stay of a money award is considered with regard to the CPC rules on stay of money decrees; where the court is satisfied that there is a prima facie case that the arbitration agreement, the underlying contract or the making of the award was induced by fraud or corruption, it stays the award unconditionally pending the s. 34 challenge (s. 36(3), second proviso)
 breach: s. 29A(4): if the award is not made in time and the court does not extend the period, the arbitrator's mandate terminates; the court may cut the arbitrator's fees by up to 5% for each month of delay attributable to the tribunal
 breach: s. 12(5): an arbitrator who is ineligible under the Seventh Schedule cannot act unless the parties have expressly waived it in writing after the dispute arose
 refs: ACT-LIM; ACT-RDB; ACT-STAMP; ACT-ICA
@@ -427,10 +428,10 @@ defined terms (wording is in the full text): arbitration (s. 2); arbitration agr
 
 [ACT-FRA] Factoring Regulation Act: assignment of receivables | Factoring Regulation Act, 2011: registration of factors with RBI, assignment of receivables, notice to debtors and filing with the Central Registry | Act 12 of 2012 | Act | In force (as amended in 2021 and 2023) | issued 2012-01-22 | subject: Mortgages, property and goods as security
 applies: Factors: RBI-registered NBFCs, banks, statutory corporations and companies engaged in the factoring business (s. 2(i)); Assignors (sellers of goods and services) and debtors whose receivables are assigned
-concepts: Factoring business: acquiring receivables by assignment for consideration, for collection or for financing against the assignment; ordinary-course credit facilities of a bank or an NBFC against hypothecation of receivables are excluded (s. 2(j))
-concepts: No factor may commence or carry on factoring business without a certificate of registration from RBI; the NBFC registration requirements of the RBI Act apply (s. 3)
+concepts: Factoring business: acquiring receivables by assignment for consideration, for collection or for financing against the assignment; credit facilities provided by a bank or an NBFC in its ordinary course of business against security of receivables are excluded (s. 2(j)(i))
+concepts: No factor may commence or carry on factoring business without a certificate of registration from RBI; the NBFC registration requirements of the RBI Act apply (s. 3). Banks, corporations set up under a Central or State Act and Government companies do not need this registration (s. 5)
 concepts: An assignment of receivables must be by agreement in writing, and the assignor must disclose the debtor's defences and rights of set-off to the assignee (s. 7)
-concepts: The assignee cannot demand payment from the debtor until notice of the assignment is given to the debtor (s. 8); payment to the assignee after notice discharges the debtor (s. 9)
+concepts: The assignee cannot demand payment from the debtor until notice of the assignment is given to the debtor (s. 8); once notice is given the debtor must pay the assignee, and payment to the assignee in discharge of the receivables specified in the notice fully discharges the debtor to that extent (s. 9)
 concepts: Recovery of an assigned receivable through a court or tribunal must be within the period of limitation under the Limitation Act (s. 28)
 duties: s. 19(1): register the particulars of every assignment of receivables in the factor's favour with the Central Registry set up under SARFAESI, within the time and in the manner prescribed; where receivables are financed through a Trade Receivables Discounting System, the TReDS files on the factor's behalf (s. 19(1A))
 breach: s. 21: default in filing under s. 19 makes the company and every officer in default liable to a penalty of up to Rs 5 lakh, and up to Rs 10,000 a day while it continues, imposed by RBI
@@ -443,7 +444,7 @@ defined terms (wording is in the full text): assignee (s. 2); assignor (s. 2); b
 applies: Lenders and digital lenders executing loan documents electronically or using e-signatures and Aadhaar e-KYC based e-sign; Bodies corporate handling sensitive personal data
 concepts: Where a law requires a signature, an electronic signature in the prescribed manner satisfies it (s. 5); electronic signature techniques include Aadhaar or other e-KYC based e-authentication (s. 3A and Second Schedule)
 concepts: A contract is not unenforceable merely because the proposal, acceptance or revocation was expressed in electronic form (s. 10A)
-concepts: The Act does not apply to the documents in the First Schedule (s. 1(4)). Since 26-09-2022 the exclusion for negotiable instruments does not cover a cheque, demand promissory note or bill of exchange issued in favour of or endorsed by an entity regulated by RBI, NHB, SEBI, IRDAI or PFRDA, and the exclusion for powers of attorney does not cover one that empowers such a regulated entity to act for the executant; trusts and wills remain excluded
+concepts: The Act does not apply to the documents in the First Schedule (s. 1(4)). Since 26-09-2022 the exclusion for negotiable instruments does not cover a cheque, demand promissory note or bill of exchange issued in favour of or endorsed by an entity regulated by RBI, NHB, SEBI, IRDAI or PFRDA, and the exclusion for powers of attorney does not cover one that empowers such a regulated entity to act for the executant; trusts and wills remain excluded. The same 2022 notification (S.O. 4720(E)) omitted the entry for contracts for the sale or conveyance of immovable property; stamp duty and registration law still apply to such contracts
 duties: s. 43A: a body corporate handling sensitive personal data must implement and maintain reasonable security practices; s. 43A is omitted from 13-05-2027 by the Digital Personal Data Protection Act, 2023 (see the DPDP section)
 duties: s. 72A: do not disclose personal information obtained under a lawful contract without the person's consent, with intent to cause or knowing it likely to cause wrongful loss or gain
 breach: s. 43A: negligence in maintaining reasonable security practices that causes wrongful loss or gain makes the body corporate liable to pay damages by way of compensation
@@ -478,8 +479,8 @@ concepts: The authorised officer is an officer of the secured creditor designate
 concepts: Movable assets: possession, valuation and fixing of a reserve price, and sale by quotations, public tender, public auction or private treaty (rules 4 to 6)
 concepts: Immovable assets: possession notice, valuation by an approved valuer and fixing of a reserve price before sale (rule 8)
 duties: Rules 6(2) and 8(6): serve the borrower a notice of thirty days for sale of the secured asset; for sale by public tender or auction, publish a public notice in two leading newspapers, one in the vernacular, setting out the terms of sale including the reserve price
-duties: Rule 9(1): no sale of immovable property before thirty days from the public notice of sale or service of the sale notice on the borrower
-duties: Rule 9(3)-(4): the purchaser pays 25% of the sale price immediately and the balance on or before the fifteenth day of confirmation of sale, unless extended as the rule allows; a sale certificate issues on confirmation and payment (rule 9(6))
+duties: Rule 9(1): no sale of immovable property before thirty days from the public notice of sale or service of the sale notice on the borrower; the rule was amended in 2016 to provide a shorter notice for a re-sale after a failed first sale
+duties: Rule 9(3)-(4): the purchaser pays a 25% deposit on the sale and the balance within the period the rule allows, which may be extended only within the limits the rule sets (these sub-rules were amended in 2016); a sale certificate issues on confirmation and payment (rule 9(6))
 breach: Rule 9(5): if the purchaser defaults on the balance, the deposit is forfeited and the property is resold
 refs: ACT-SARFAESI; RULES-CERSAI
 defined terms (wording is in the full text): authorised officer (rule 2); Ordinance (rule 2); 'Act (rule 2)
@@ -490,7 +491,8 @@ concepts: Since the 2016 amendment, filings cover mortgages other than by deposi
 concepts: Filings are made in the prescribed forms and authenticated with a valid digital signature (rule 4)
 duties: Rule 5(1): file the particulars of each transaction with the Central Registrar within thirty days of the transaction
 duties: Pay the filing fee in the Table under rule 7; delays up to a further thirty days may be condoned on application, with a higher fee
-breach: An unregistered security interest does not get the priority that SARFAESI s. 26E gives registered secured creditors
+breach: SARFAESI s. 26D: a secured creditor cannot exercise its enforcement rights under Chapter III of SARFAESI unless the security interest is registered with the Central Registry
+breach: SARFAESI s. 26E: debts due to a secured creditor with a registered security interest get priority over other debts and government dues, subject to the Insolvency and Bankruptcy Code, 2016 where proceedings under that Code are pending
 refs: ACT-SARFAESI; ACT-FRA; RULES-FACT
 defined terms (wording is in the full text): Act (rule 2); Central Register (rule 2); CgRtral Registrar1 (rule 2); Central Registry (rule 2); Transaction (rule 2)
 
@@ -535,6 +537,7 @@ applies: Micro finance institutions lending to women self-help groups and their 
 concepts: MFIs must register with the district Registering Authority, stating the area of operation, interest rates, due-diligence and recovery systems (s. 3)
 concepts: Interest recovered may not exceed the principal; a loan stands discharged once twice the principal has been realised (s. 9)
 concepts: No further loan to an SHG with an outstanding bank loan without the Registering Authority's prior written approval, and no loan to an SHG member during two subsisting loans from any source (s. 10)
+concepts: Challenges by microfinance NBFCs to the State's power to regulate them were disposed of by the High Court in 2013 without deciding legislative competence. The Supreme Court later held (for the Kerala and Gujarat money lenders Acts) that state money-lending laws do not apply to RBI-regulated NBFCs (Nedumpilli Finance Co. v. State of Kerala, 2022 INSC 545)
 duties: s. 8: display interest rates; charge nothing beyond the prescribed application charge
 duties: s. 11: give the borrower a loan statement within seven days with the effective rate of interest, signed receipts and copies of documents; repayments are made at the Gram Panchayat office or a designated public place; no recovery agents and no coercive recovery
 duties: s. 12: file a monthly statement of borrowers, loans and interest with the Registering Authority before the 10th of each month
@@ -545,7 +548,7 @@ defined terms (wording is in the full text): Government (definitions); Loan (def
 
 [ML-KL] Kerala Money Lenders Act 1958 | Kerala Money Lenders Act, 1958 | Kerala Act 35 of 1958 | State Act | In force (as amended) | issued 1958 | subject: Consumer protection and State lending laws
 applies: Money lenders in Kerala: persons whose main or subsidiary occupation is advancing and realising loans, including branch and liaison offices and pawn brokers (s. 2(7))
-excluded: Banks and co-operative societies, LIC and certain other named statutory institutions (s. 2(7))
+excluded: Banks and co-operative societies, LIC and certain other named statutory institutions (s. 2(7)); NBFCs registered with and regulated by RBI: the Supreme Court held that the Act does not apply to them (Nedumpilli Finance Co. v. State of Kerala, 2022 INSC 545)
 concepts: No person, firm, joint family or unincorporated association may carry on business as a money lender without a licence (s. 3)
 concepts: Molestation includes obstructing, using violence to or intimidating the debtor, interfering with their property, or annoying or intimidating family members (s. 2(6))
 duties: s. 7(1): charge no interest above 18% a year plus a 2% processing charge, or any rate the Government notifies
@@ -578,8 +581,9 @@ defined terms (wording is in the full text): daily vatti (definitions); debtor (
 applies: Money-lenders carrying on business in Gujarat, registered with the district Registrar
 concepts: No money-lender may carry on business except in the area and on the terms of its registration (s. 5(1))
 concepts: NBFCs registered with RBI are deemed registered under the Act, but must intimate their RBI registration to the concerned Registrar in the prescribed proforma (s. 5(2))
+concepts: The Supreme Court has held that the Gujarat Act, like the Kerala Money Lenders Act, does not apply to NBFCs registered with and regulated by RBI, because Chapter III-B of the RBI Act is a complete code for them (Nedumpilli Finance Co. v. State of Kerala, 2022 INSC 545)
 concepts: The State Government may fix maximum rates of interest for any local area or class of money-lending business, for secured and unsecured loans; an agreement for interest above those rates is invalid (s. 33)
-duties: s. 5(2): an RBI-registered NBFC lending in Gujarat must intimate its RBI registration to the Registrar
+duties: s. 5(2): on its face, an RBI-registered NBFC lending in Gujarat must intimate its RBI registration to the Registrar (see the Supreme Court ruling above on whether the Act reaches RBI-regulated NBFCs)
 duties: s. 33: charge no interest above the maximum rates fixed by the State Government
 breach: s. 40: molesting a debtor to recover a loan is punishable with imprisonment and fine, with minimum terms for first and repeat offences
 refs: ML-MH; ML-KA
