@@ -86,7 +86,7 @@ def issue_page(d, all_issues):
     high = sum(1 for i in d["items"] if i["impact"] == "High")
     dl = len(d["timeline"])
     kpis = [(d["tracked"], "Regulatory changes tracked"), (len(d["items"]), "Covered in this issue"),
-            (high, "High-impact changes"), (len(d["judgments"]), "Court rulings in brief")]
+            (high, "High-impact changes"), (len(d["judgments"]), "Court rulings that matter")]
     # issue switcher
     opts = "".join(f'<option value="{root}newsletter/{x["id"]}/"{" selected" if x["id"] == d["id"] else ""}>{e(x["issue"])}</option>' for x in all_issues)
     mast = f'''<section class="nl-mast rise">
@@ -105,7 +105,7 @@ def issue_page(d, all_issues):
   </section>'''
     toc = '<nav class="nl-toc" aria-label="In this issue">' + "".join(
         f'<a class="chip" href="#{a}">{t}</a>' for a, t in
-        [("six", "Top six"), ("impact", "Where the impact falls"), ("dates", "Dates ahead"), ("sectors", "By sector"), ("rulings", "Court rulings")]) + "</nav>"
+        [("six", "Top six"), ("impact", "Where the impact falls"), ("dates", "Dates ahead"), ("sectors", "By sector"), ("rulings", "Court rulings that matter")]) + "</nav>"
     k = '<div class="nl-kpis">' + "".join(f'<div class="card"><b>{n}</b><span>{e(l)}</span></div>' for n, l in kpis) + "</div>"
     # top six
     tops = []
@@ -187,7 +187,7 @@ def issue_page(d, all_issues):
       <p class="nl-case">{e(j["title"])}</p>
       <div class="nl-foot">{f'<a class="lnk" href="{root}judgments/j/{e(j["hub"])}/">Case note</a>' if j["hub"] else "<span></span>"}{src(j["url"], "Official text")}</div>
     </article>''' for j in d["judgments"])
-    rulings = f'<section id="rulings" class="nl-block"><h2>Court rulings in brief</h2><p class="nl-sub">Supreme Court and NCLAT rulings this month that matter to lenders, insurers and intermediaries.</p><div class="nl-juds">{jc}</div></section>'
+    rulings = f'<section id="rulings" class="nl-block"><h2>Court rulings that matter</h2><p class="nl-sub">Supreme Court and NCLAT rulings this month that matter to lenders, insurers and intermediaries.</p><div class="nl-juds">{jc}</div></section>'
     disc = f'''<section class="nl-block"><div class="nl-disc"><h2>Please read</h2>
       <p>This newsletter is an independent, unofficial summary of public documents for general information. It is not legal advice, it is not endorsed by any regulator or court, and it may be incomplete or out of date. Practical steps are general pointers, not recommendations for any particular entity. Always read the official text linked from each item and take professional advice before acting. See the <a class="lnk" href="{root}disclaimer/">disclaimer</a>.</p></div></section>'''
     script = '''  const pick = document.getElementById("nlpick"); pick.addEventListener("change", () => { location.href = pick.value; });
