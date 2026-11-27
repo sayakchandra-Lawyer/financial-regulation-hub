@@ -208,7 +208,7 @@
    "instrument": "",
    "applies": "Stock exchanges, clearing corporations and depositories.",
    "changes": [
-    "Public interest directors: maximum age to fall from 75 to 70, and terms from three to two; a cap of four committees each.",
+    "Proposals for public interest directors: maximum age to fall from 75 to 70; at most two terms of three years across all such institutions, down from three; membership of at most four statutory committees.",
     "Changes are also proposed to the tenure of managing directors and executive directors.",
     "Comments are due by 11-12-2026. SEBI issued a clarification on media reports about the paper on 27-11-2026."
    ],
@@ -436,14 +436,14 @@
    "id": "U-2026-11-05-CURDER",
    "date": "2026-11-05",
    "kind": "Circular",
-   "title": "Currency derivatives: single USD 5 million limit without underlying exposure",
+   "title": "Currency derivatives: single USD 5 million limit without establishing underlying exposure",
    "ref": "",
    "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/revision-of-limits-relating-to-requirement-of-underlying-exposure-for-currency-derivatives-contracts_105614.html",
    "effective": "2026-11-05",
    "instrument": "",
    "applies": "Stock exchanges, clearing corporations, members and clients trading exchange-traded currency derivatives.",
    "changes": [
-    "A user may hold positions up to USD 5 million, across all rupee currency pairs and all exchanges together, without showing an underlying exposure.",
+    "Domestic clients and foreign portfolio investors may take positions up to USD 5 million (notional, outstanding at any time), across all rupee currency pairs and all exchanges together, without having to establish that an underlying exposure exists.",
     "Follows RBI's A.P. (DIR Series) Circular No. 25 of 10-10-2026."
    ],
    "impact": {
