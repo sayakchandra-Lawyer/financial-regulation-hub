@@ -1,9 +1,9 @@
 name: Check source links
 on:
   push:
-    paths: ["*/data/updates.json", "judgments/data/judgments.json", "news.json", "tools/check_sources.py"]
+    paths: ["*/data/updates.json", "judgments/data/judgments.json", "news.json", "newsletter/data/*.json", "tools/check_sources.py"]
   pull_request:
-    paths: ["*/data/updates.json", "judgments/data/judgments.json", "news.json", "tools/check_sources.py"]
+    paths: ["*/data/updates.json", "judgments/data/judgments.json", "news.json", "newsletter/data/*.json", "tools/check_sources.py"]
   workflow_dispatch:
 jobs:
   check:

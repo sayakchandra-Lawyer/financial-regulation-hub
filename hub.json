@@ -1196,6 +1196,12 @@
  ],
  "tools": [
   {
+   "id": "newsletter",
+   "short": "Newsletter",
+   "name": "Monthly newsletter",
+   "href": "newsletter/"
+  },
+  {
    "id": "entity",
    "short": "My entity",
    "name": "What applies to my entity",
