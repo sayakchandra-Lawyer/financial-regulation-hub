@@ -87,6 +87,14 @@ def main():
             "pdoc": [p[0] for p in passages], "plen": lens,
             "vocab": " ".join(vocab), "df": [uni_df[t] for t in vocab], "common": sorted(common), "bigCommon": sorted(big_common)}
     json.dump(meta, open(os.path.join(OUT, "meta.json"), "w"), ensure_ascii=False, separators=(",", ":"))
+    # passage runs per document, so a page can show one instrument's full text without the search index
+    runs = {}
+    for i, p in enumerate(passages):
+        k = docs[p[0]][0] + "/" + docs[p[0]][1]
+        r = runs.setdefault(k, [])
+        if r and r[-1][1] == i: r[-1][1] = i + 1
+        else: r.append([i, i + 1])
+    json.dump({"textPer": TEXT_PER, "docs": runs}, open(os.path.join(OUT, "docs.json"), "w"), separators=(",", ":"))
     print(f"search index: {N} passages, {len(docs)} documents, {len(vocab)} words, {len(common)} common words skipped")
 
 if __name__ == "__main__":

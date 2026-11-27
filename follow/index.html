@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Follow updates · Financial Regulation Hub</title>
+<meta name="description" content="RSS feeds of every new and amended rule on the Financial Regulation Hub, for the whole site and for each section.">
+<link rel="canonical" href="https://sayakchandra-lawyer.github.io/financial-regulation-hub/follow/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="../assets/hub.css?v=20261128a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="alternate" type="application/rss+xml" title="All updates · Financial Regulation Hub" href="../feed.xml">
+</head>
+<body>
+<header id="top"></header>
+<main class="wrap">
+  <div class="pg" style="max-width:920px;margin:0 auto;padding:34px 0 60px">
+    <div class="eyebrow">Follow updates</div>
+    <h1 style="font-size:clamp(28px,4vw,40px);margin-top:8px">New rules, in your own feed</h1>
+    <p style="color:var(--ink-2);max-width:720px">Every new or amended rule added to this site is published as an RSS feed, one for the whole site and one for each section. Add a feed to your reader, Outlook or Slack and new items arrive by themselves, each with a link to the official source.</p>
+    <div class="card panel" style="margin-top:22px;padding:6px 20px 10px" id="feeds"><p class="tag" style="padding:14px 0">Loading the feeds…</p></div>
+    <h2 style="font-size:22px;margin-top:34px">How to add a feed</h2>
+    <div class="grid g3" style="margin-top:12px">
+      <div class="card panel"><h3 style="font-size:17px">Outlook (Windows)</h3><p class="tag" style="margin:6px 0 0">In the folder list, right-click <b>RSS Subscriptions</b> (or <b>RSS Feeds</b>), choose <b>Add a New RSS Feed</b> and paste the feed address.</p></div>
+      <div class="card panel"><h3 style="font-size:17px">Slack</h3><p class="tag" style="margin:6px 0 0">Add Slack's <b>RSS</b> app to your workspace, then in a channel type <code>/feed subscribe</code> followed by the feed address.</p></div>
+      <div class="card panel"><h3 style="font-size:17px">A feed reader</h3><p class="tag" style="margin:6px 0 0">In Feedly, Inoreader, NetNewsWire or any reader, choose <b>Add</b> or <b>Follow</b> and paste the feed address.</p></div>
+    </div>
+    <p class="tag" style="margin-top:22px">Want to keep an eye on particular rules instead? Use the <b>Watch</b> button on any instrument or judgment and see what changed on <a class="lnk" href="../watchlist/">your watchlist</a>.</p>
+  </div>
+</main>
+<footer id="foot"></footer>
+<script src="../assets/hub.js?v=20261128a"></script>
+<script>
+(async function(){
+  const hub = await getJSON("../hub.json");
+  renderChrome(hub, { root: "../", active: "follow", sub: "Follow updates", crumb: `<a href="../">Home</a> / <b>Follow updates</b>` });
+  const base = new URL("../", location.href).href;
+  const rows = [["", "Everything on the site", "All sections, newest 60 items"], ...hub.sections.filter(s => s.status === "live" && s.data && s.data.updates).map(s => [s.href, s.name === s.short ? (s.full || s.name) : s.name, s.full && s.full !== s.name ? s.full : ""])];
+  $("#feeds").innerHTML = `<div class="flist">${rows.map(([h, t, m], i) => { const u = base + h + "feed.xml"; return `<div class="frow" style="${i ? "" : "border-top:0"}"><div style="flex:1;min-width:220px"><div class="t">${I.rss} ${esc(t)}</div>${m ? `<div class="m">${esc(m)}</div>` : ""}<code>${esc(u)}</code></div><button type="button" class="btn g sm" data-copy="${esc(u)}">${I.link} Copy address</button><a class="btn g sm" href="${esc(u)}" target="_blank" rel="noopener">Open</a></div>`; }).join("")}</div>`;
+  $("#feeds").addEventListener("click", e => { const b = e.target.closest("[data-copy]"); if (b) hubCopy(b.dataset.copy, "Feed address copied"); });
+})();
+</script>
+</body>
+</html>

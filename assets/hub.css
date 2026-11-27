@@ -175,3 +175,76 @@ body.inner .shead p,body.inner .shead>.btn,body.inner .shead>a.btn{display:none}
 .tabs.fl.fr{-webkit-mask-image:linear-gradient(90deg,transparent,#000 48px,#000 calc(100% - 48px),transparent);mask-image:linear-gradient(90deg,transparent,#000 48px,#000 calc(100% - 48px),transparent)}
 /* keep the floating assistant button clear of the last lines of the page */
 .foot{padding-bottom:96px}
+
+/* ---------- page tools: watch, copy link, citation, print ---------- */
+.dtools{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.btn.sm{padding:7px 12px;font-size:13px;gap:6px;border-radius:9px}
+.btn.g.on{border-color:var(--accent);color:var(--accent-text);background:var(--accent-soft)}
+.btn.g.on svg{color:var(--accent)}
+#hubtoast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:14px;font-weight:500;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:60;box-shadow:var(--shadow)}
+#hubtoast.on{opacity:1;transform:translate(-50%,0)}
+.printonly{display:none}
+/* header watchlist star */
+#watchbtn{position:relative;color:var(--ink-2)}#watchbtn.has{color:var(--accent)}
+#watchbtn .wdot{position:absolute;top:-4px;right:-5px;min-width:17px;height:17px;padding:0 4px;border-radius:99px;background:var(--accent);color:var(--accent-ink);font:700 10px/17px var(--f-b);font-style:normal;text-align:center;border:2px solid var(--bg)}
+/* full text */
+.ftbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:4px 0 10px}
+.ft{border-top:1px solid var(--line)}
+.ftch{font-size:17px;margin:26px 0 6px;color:var(--ink)}
+.ftp{padding:12px 10px 12px 12px;border-bottom:1px solid var(--line);scroll-margin-top:90px;border-left:3px solid transparent;transition:background .3s}
+.ftp.hit,.ftp:target{border-left-color:var(--accent);background:var(--accent-soft)}
+.ftl{display:flex;align-items:center;gap:8px;min-height:24px;font-size:13px;color:var(--ink-2)}
+.ftl b{font-weight:600;color:var(--ink)}
+.fta{margin-left:auto;display:flex;gap:2px;opacity:.35;transition:opacity .15s}
+.ftp:hover .fta,.ftp:focus-within .fta,.ftp.hit .fta{opacity:1}
+@media (hover:none){.fta{opacity:.8}}
+.ftb{width:30px;height:30px;display:grid;place-items:center;border:1px solid transparent;border-radius:8px;background:none;color:var(--ink-2);cursor:pointer}
+.ftb:hover,.ftb:focus-visible{border-color:var(--line);background:var(--surface);color:var(--accent-text)}
+.ftalt{display:block;position:relative;top:-90px}
+.ftx{white-space:pre-line;font-size:14.5px;line-height:1.65;margin-top:4px;overflow-wrap:anywhere}
+/* version history and redline */
+.vbox{margin:6px 0 14px}
+.vbox .ob .lnk{display:inline-flex;align-items:center;gap:6px}
+#hubdiff{margin-top:14px}
+.rlhead{display:flex;flex-direction:column;gap:6px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);margin-bottom:10px}
+.rlall{display:flex;align-items:center;gap:6px;cursor:pointer}
+.rl{padding:10px 12px;border-bottom:1px solid var(--line);border-left:3px solid var(--line)}
+.rl.chg{border-left-color:var(--warn,#C08A2E)}.rl.add{border-left-color:var(--ok)}.rl.del{border-left-color:var(--danger)}
+.rl.same{display:none;opacity:.6}.vbox.showsame .rl.same{display:block}
+.rl .tag{margin-left:auto}
+ins{background:color-mix(in srgb,var(--ok) 22%,transparent);text-decoration:underline;text-decoration-color:var(--ok);text-underline-offset:2px}
+del{background:color-mix(in srgb,var(--danger) 18%,transparent);color:color-mix(in srgb,var(--danger) 70%,var(--ink));text-decoration:line-through}
+/* follow, watchlist, common questions pages */
+.flist{display:flex;flex-direction:column}
+.frow{display:flex;gap:14px;align-items:center;padding:14px 4px;border-top:1px solid var(--line);flex-wrap:wrap}
+.frow .t{font-weight:600}.frow .m{font-size:12.5px;color:var(--muted)}
+.frow code{font-size:12.5px;background:var(--surface-2);padding:3px 8px;border-radius:6px;overflow-wrap:anywhere}
+.p-chg{background:var(--accent);color:var(--accent-ink)}
+.faq details{border-top:1px solid var(--line);padding:4px 0}
+.faq summary{cursor:pointer;padding:12px 4px;font-weight:600;font-size:15.5px;list-style:none;display:flex;gap:10px;align-items:baseline}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"+";color:var(--accent);font-weight:700;width:14px;flex:none}
+.faq details[open] summary::before{content:"–"}
+.faq .ans{padding:0 4px 14px 28px;font-size:14.5px}
+.faq .ans p{margin:0 0 10px}
+.jmsg .jfaq{font-size:12.5px;color:var(--muted);margin-bottom:6px}
+
+/* ---------- print and save as PDF ---------- */
+@media print{
+  @page{margin:16mm 14mm}
+  html,body{background:#fff!important;color:#000!important}
+  .top,.foot,#jfab,#judge,.toc,.tocm,.side,.tabs,#head form,#head .btn,.dtools,.fta,.ftbar,.offl .btn,#hubtoast,.shead>a.btn,.filter .chip,details.cg summary{display:none!important}
+  #head .shead p{display:none}
+  .printonly{display:block;font-size:10pt;color:#444;border-bottom:1px solid #999;padding-bottom:6px;margin:10px 0 0}
+  .dpage{display:block!important;margin-top:8px}
+  .dossier h2{break-after:avoid;margin-top:20px}
+  .ob,.ftp,.rl{break-inside:avoid}
+  .callout,.note,.glance div,.card{background:none!important;border-color:#999!important;box-shadow:none!important}
+  a{color:#000!important;text-decoration:none}
+  .rise,.anim *{animation:none!important;opacity:1!important;transform:none!important}
+  details.defs{display:block}details.defs>*{display:block!important}
+  /* "Print the full text": the heading and the text only */
+  body.print-text .dossier>*:not(.pkeep):not(#s-text):not(#hubtext){display:none!important}
+  body.print-text #s-text{margin-top:14px}
+  .ftp.hit{background:none!important}
+}

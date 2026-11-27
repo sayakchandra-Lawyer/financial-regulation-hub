@@ -1,0 +1,1846 @@
+{
+ "companies/AMD-CHG-20220427": {
+  "date": "2022-04-27",
+  "h": "8a0ef18bf9e6d47a"
+ },
+ "companies/AMD-CHG-20220829": {
+  "date": "2022-08-29",
+  "h": "c7d5ae009ef9d805"
+ },
+ "companies/AMD-DEFN-20251201": {
+  "date": "2025-12-01",
+  "h": "fe9d4be72aa49f21"
+ },
+ "companies/AMD-MBP-20251103": {
+  "date": "2025-11-03",
+  "h": "5c56bd31a421d4fc"
+ },
+ "companies/BILL-CLAB-2026": {
+  "date": "2026-03-23",
+  "h": "591d22c33c5c90ed"
+ },
+ "companies/CA-117": {
+  "date": "2013-08-29",
+  "h": "70323a5484c58064"
+ },
+ "companies/CA-185": {
+  "date": "2013-08-29",
+  "h": "670d2d17de46af89"
+ },
+ "companies/CA-186": {
+  "date": "2013-08-29",
+  "h": "5ef1a1feb8af9ce7"
+ },
+ "companies/CA-ACT": {
+  "date": "2013-08-29",
+  "h": "06027fbeb8958d65"
+ },
+ "companies/CA-BOARD": {
+  "date": "2013-08-29",
+  "h": "3b1bb46e4bb794a3"
+ },
+ "companies/CA-CHG": {
+  "date": "2013-08-29",
+  "h": "288efe9ae9b67ae1"
+ },
+ "companies/CA-DEB": {
+  "date": "2013-08-29",
+  "h": "db5b34d34d40014c"
+ },
+ "companies/CA-PEN": {
+  "date": "2013-08-29",
+  "h": "6ea6e5b86baeb440"
+ },
+ "companies/CA-RPT": {
+  "date": "2013-08-29",
+  "h": "a188a662fb95458e"
+ },
+ "companies/CA-SAT": {
+  "date": "2013-08-29",
+  "h": "48c867e24b2e0f4d"
+ },
+ "companies/CIR-2014-03": {
+  "date": "2014-02-14",
+  "h": "0a866e4786531046"
+ },
+ "companies/CIR-2014-04": {
+  "date": "2014-03-25",
+  "h": "9108112ada71b342"
+ },
+ "companies/CIR-2014-28": {
+  "date": "2014-07-09",
+  "h": "dcc7b6afd3cd46ae"
+ },
+ "companies/CIR-2015-04": {
+  "date": "2015-03-10",
+  "h": "68309abcd69cfdfe"
+ },
+ "companies/CIR-2015-06": {
+  "date": "2015-04-09",
+  "h": "bf013e945960352e"
+ },
+ "companies/CIR-2020-04": {
+  "date": "2020-02-17",
+  "h": "522b6a464630ee88"
+ },
+ "companies/CIR-2020-23": {
+  "date": "2020-06-17",
+  "h": "891114d3dc725996"
+ },
+ "companies/COMM-CAA2017-20180507": {
+  "date": "2018-05-07",
+  "h": "023c8b47439496f5"
+ },
+ "companies/EXEMPT-GOVT": {
+  "date": "2015-06-05",
+  "h": "7256c9cb9abe656e"
+ },
+ "companies/EXEMPT-IFSC": {
+  "date": "2017-01-04",
+  "h": "e972fc952b7e9b1f"
+ },
+ "companies/EXEMPT-PVT": {
+  "date": "2017-06-13",
+  "h": "270fe351ec518d6b"
+ },
+ "companies/EXEMPT-PVT-2017": {
+  "date": "2017-06-13",
+  "h": "3bfcc3dceff5413e"
+ },
+ "companies/NOTIF-S454-20260211": {
+  "date": "2026-02-10",
+  "h": "81108de6bcc47bfc"
+ },
+ "companies/RULES-ADJ": {
+  "date": "2024-10-09",
+  "h": "f588af6642daa521"
+ },
+ "companies/RULES-CHG": {
+  "date": "2022-08-29",
+  "h": "12c262c4b8e4cb8b"
+ },
+ "companies/RULES-DEP": {
+  "date": "2014-03-31",
+  "h": "bbaf2f7544efec81"
+ },
+ "companies/RULES-FEES": {
+  "date": "2026-04-21",
+  "h": "748964bf0706fcac"
+ },
+ "companies/RULES-LAYERS": {
+  "date": "2025-06-27",
+  "h": "fd1097a7dcac3363"
+ },
+ "companies/RULES-MBP": {
+  "date": "2025-11-03",
+  "h": "13cf14318050609f"
+ },
+ "companies/RULES-MGT": {
+  "date": "2025-05-30",
+  "h": "02bd1d47a98361e6"
+ },
+ "companies/RULES-PAS": {
+  "date": "2025-02-12",
+  "h": "962eef4d7db203f0"
+ },
+ "companies/RULES-SCD": {
+  "date": "2014-03-31",
+  "h": "0ed8e3b7807f08fa"
+ },
+ "dpdp/ACT-DPDP": {
+  "date": "2026-10-06",
+  "h": "f7cd8c47657c99ff"
+ },
+ "dpdp/RULES-DPDP": {
+  "date": "2025-12-11",
+  "h": "2194fa3779df933e"
+ },
+ "exchanges/BSE-CLEARING-DEBT-2026": {
+  "date": "2026-04-29",
+  "h": "d1bfb346a5d79f9f"
+ },
+ "exchanges/BSE-EBP-OG": {
+  "date": "2025-11-14",
+  "h": "f2df7dc9f2e8ccab"
+ },
+ "exchanges/BSE-MASTER-CHK": {
+  "date": "2026-04-30",
+  "h": "cee3c450e50fe3b7"
+ },
+ "exchanges/BSE-MC-LISTING-2026": {
+  "date": "2026-04-30",
+  "h": "630d7b693e37d669"
+ },
+ "exchanges/BSE-PLEDGE-SURV": {
+  "date": "2026-09-02",
+  "h": "0f33e193832a7514"
+ },
+ "exchanges/BSE-RULES": {
+  "date": "2026-11-26",
+  "h": "e34e93dd9726c2ee"
+ },
+ "exchanges/CP-CHK-FAQ": {
+  "date": "2021-12-21",
+  "h": "aff91ac5fe584ec4"
+ },
+ "exchanges/LA-UNIFORM": {
+  "date": "2026-11-26",
+  "h": "6b15a891ac99d765"
+ },
+ "exchanges/LODR-AMD1-2026": {
+  "date": "2026-01-20",
+  "h": "acd18db5a98f8602"
+ },
+ "exchanges/LODR-AMD3-2026": {
+  "date": "2026-10-12",
+  "h": "b9ba3c5ee04d40a5"
+ },
+ "exchanges/LODR-DEFAULT": {
+  "date": "2026-01-30",
+  "h": "417dcf70be3863bf"
+ },
+ "exchanges/NCS-AMD-2026": {
+  "date": "2026-01-20",
+  "h": "2f64aaf197c11193"
+ },
+ "exchanges/NSE-API-20260619": {
+  "date": "2026-06-19",
+  "h": "a3c32ba815aa0f29"
+ },
+ "exchanges/NSE-BYELAWS": {
+  "date": "2026-06-29",
+  "h": "7ba4639d595e373d"
+ },
+ "exchanges/NSE-CHK-PP": {
+  "date": "2026-09-04",
+  "h": "8e2d5aa050fe1b84"
+ },
+ "exchanges/NSE-CHK-PUB": {
+  "date": "2026-06-25",
+  "h": "b51432a3d86f0972"
+ },
+ "exchanges/NSE-CP-FRAMEWORK": {
+  "date": "2019-12-26",
+  "h": "02f69883874a75c1"
+ },
+ "exchanges/NSE-CP-PAYSTATUS-20240910": {
+  "date": "2024-09-10",
+  "h": "dd009bc0f21f148a"
+ },
+ "exchanges/NSE-CRDISC-20250801": {
+  "date": "2025-08-01",
+  "h": "4b172ab8708a685f"
+ },
+ "exchanges/NSE-DENOM-20251219": {
+  "date": "2025-12-19",
+  "h": "d3947301c5e78845"
+ },
+ "exchanges/NSE-DT-CH4-20251202": {
+  "date": "2025-12-02",
+  "h": "ce2cc630cd9a6461"
+ },
+ "exchanges/NSE-DT-TIMELINE-20251127": {
+  "date": "2025-11-27",
+  "h": "fcdaffdc98fea8d3"
+ },
+ "exchanges/NSE-EBP-OG": {
+  "date": "2025-11-14",
+  "h": "d3e9eeb7b08eb0c8"
+ },
+ "exchanges/NSE-ENCUMB-20190808": {
+  "date": "2019-08-08",
+  "h": "9c76ef45a924fc9f"
+ },
+ "exchanges/NSE-FINE-WAIVER": {
+  "date": "2025-08-26",
+  "h": "99c3588841b4383d"
+ },
+ "exchanges/NSE-IF-20250102": {
+  "date": "2025-01-02",
+  "h": "a80db0630606663c"
+ },
+ "exchanges/NSE-IF-FAQ-20260612": {
+  "date": "2026-06-12",
+  "h": "e96c46524e7d1b97"
+ },
+ "exchanges/NSE-ISIN-DEBT-20261008": {
+  "date": "2026-10-08",
+  "h": "beb34cad94338c85"
+ },
+ "exchanges/NSE-LISTFEE-DEBT": {
+  "date": "2023-10-31",
+  "h": "97554f5824f61248"
+ },
+ "exchanges/NSE-LWF-20260211": {
+  "date": "2026-05-04",
+  "h": "4414f899edf48a3a"
+ },
+ "exchanges/NSE-MBEXEMPT-20261008": {
+  "date": "2026-10-08",
+  "h": "6c98425738a9a6be"
+ },
+ "exchanges/NSE-MC-LISTED-2026": {
+  "date": "2026-04-30",
+  "h": "4a5c93d8fd020ef8"
+ },
+ "exchanges/NSE-MPS-RELAX-20260407": {
+  "date": "2026-04-07",
+  "h": "2fda26c66d95595b"
+ },
+ "exchanges/NSE-NCL-DEBT-MC-2026": {
+  "date": "2026-04-30",
+  "h": "3715b92ffdfeef1a"
+ },
+ "exchanges/NSE-OBPP-20260817": {
+  "date": "2026-08-17",
+  "h": "6727742b8b01f65a"
+ },
+ "exchanges/NSE-PLEDGE-LOCKIN-20260410": {
+  "date": "2026-04-10",
+  "h": "29a52b60ccb2f2d2"
+ },
+ "exchanges/NSE-RECORDDATE-20250429": {
+  "date": "2025-04-29",
+  "h": "1e4db6c0a218bb00"
+ },
+ "exchanges/NSE-REF-GUIDE": {
+  "date": "2020-10-22",
+  "h": "bf275ccb4e0f82c4"
+ },
+ "exchanges/NSE-REG-WDM": {
+  "date": "2026-11-26",
+  "h": "9e95708dbfc1cbe6"
+ },
+ "exchanges/NSE-RFQ-20261016": {
+  "date": "2026-10-16",
+  "h": "5ed8324287c7fa93"
+ },
+ "exchanges/NSE-RISKOMETER-20261008": {
+  "date": "2026-10-08",
+  "h": "ef6e0c5570ce4138"
+ },
+ "exchanges/NSE-SOP-FURTHER-20261021": {
+  "date": "2026-10-21",
+  "h": "523ae7dfa859f29b"
+ },
+ "exchanges/NSE-TREPO-20260917": {
+  "date": "2026-09-17",
+  "h": "8d7e25c259ae16dd"
+ },
+ "exchanges/NSE-XBRL-REG50": {
+  "date": "2025-11-21",
+  "h": "1bd42a11a89deb42"
+ },
+ "exchanges/SEBI-MC-SECC": {
+  "date": "2024-12-30",
+  "h": "c6ccf0b92eb27fd5"
+ },
+ "exchanges/SEBI-SECC": {
+  "date": "2025-11-22",
+  "h": "71732d6f26a80afd"
+ },
+ "exchanges/SOP-DEBT": {
+  "date": "2025-07-11",
+  "h": "84cc6594d019aac0"
+ },
+ "exchanges/SOP-EQ": {
+  "date": "2026-01-30",
+  "h": "4b2de44dba323dd8"
+ },
+ "fema/ACT-FEMA": {
+  "date": "2026-06-01",
+  "h": "800ec3a11ae0b299"
+ },
+ "fema/APDIR-25-19": {
+  "date": "2026-01-12",
+  "h": "53bed7039bef939c"
+ },
+ "fema/APDIR-25-21": {
+  "date": "2026-02-06",
+  "h": "ee11228ead7381d1"
+ },
+ "fema/APDIR-25-22": {
+  "date": "2026-02-16",
+  "h": "cd5f107fc062c072"
+ },
+ "fema/APDIR-25-23": {
+  "date": "2026-02-18",
+  "h": "ac593c4874b406bf"
+ },
+ "fema/APDIR-25-25": {
+  "date": "2026-03-30",
+  "h": "c7072893173cedaa"
+ },
+ "fema/APDIR-26-01": {
+  "date": "2026-04-01",
+  "h": "12ab1df491d93ce6"
+ },
+ "fema/APDIR-26-25": {
+  "date": "2026-10-10",
+  "h": "824ae70ada6d4c4c"
+ },
+ "fema/APDIR-26-26": {
+  "date": "2026-10-10",
+  "h": "ee41975dddf1e2b5"
+ },
+ "fema/APDIR-26-27": {
+  "date": "2026-10-12",
+  "h": "5ee16d4368ca27dc"
+ },
+ "fema/APDIR-26-28": {
+  "date": "2026-10-23",
+  "h": "4c5aeb70ff13da4f"
+ },
+ "fema/MD-COMP": {
+  "date": "2026-10-23",
+  "h": "1d45378e4db00215"
+ },
+ "fema/MD-DEP": {
+  "date": "2026-09-02",
+  "h": "c887d17f4b4814fb"
+ },
+ "fema/MD-ECB": {
+  "date": "2026-09-08",
+  "h": "75674f0f3808f191"
+ },
+ "fema/MD-FDI": {
+  "date": "2026-06-15",
+  "h": "900fd01f480698ba"
+ },
+ "fema/MD-INRBL": {
+  "date": "2026-09-08",
+  "h": "d49dac49e7fc32c2"
+ },
+ "fema/MD-LRS": {
+  "date": "2024-09-06",
+  "h": "d2292b2c6496b5ec"
+ },
+ "fema/MD-NRDI": {
+  "date": "2026-06-05",
+  "h": "a4d929c8713511d1"
+ },
+ "fema/MD-ODI": {
+  "date": "2026-04-01",
+  "h": "53281010c8c3f51e"
+ },
+ "fema/MD-REP": {
+  "date": "2026-10-01",
+  "h": "44756be4aa792355"
+ },
+ "fema/MD-RISK": {
+  "date": "2026-10-01",
+  "h": "fcc7bb55651f07e0"
+ },
+ "fema/REG-BL": {
+  "date": "2026-02-16",
+  "h": "0c1e53e7f212abbb"
+ },
+ "fema/REG-BL-AMD-2025": {
+  "date": "2025-10-06",
+  "h": "d0f40227cb633172"
+ },
+ "fema/REG-BL-AMD-2026": {
+  "date": "2026-02-16",
+  "h": "611c2c06fe5e561a"
+ },
+ "fema/REG-DEP": {
+  "date": "2026-06-29",
+  "h": "a17a9cd5961dc81d"
+ },
+ "fema/REG-DI": {
+  "date": "2025-10-01",
+  "h": "033d0609e407548d"
+ },
+ "fema/REG-FXD": {
+  "date": "2000-05-03",
+  "h": "e6a85cddb962516e"
+ },
+ "fema/REG-GUAR": {
+  "date": "2026-01-10",
+  "h": "fcc4744c084fd246"
+ },
+ "fema/REG-MOP": {
+  "date": "2026-06-13",
+  "h": "7a49c2b387a53dce"
+ },
+ "fema/REG-OI": {
+  "date": "2022-08-22",
+  "h": "cc7011e6280e7bab"
+ },
+ "fema/RULES-COMP": {
+  "date": "2024-09-12",
+  "h": "6e4020fbda8182c6"
+ },
+ "fema/RULES-NDI": {
+  "date": "2026-09-02",
+  "h": "99dd97875789d4ff"
+ },
+ "fema/RULES-OI": {
+  "date": "2022-08-22",
+  "h": "1bcfc0ced7354358"
+ },
+ "ibc/AMDACT-2026": {
+  "date": "2026-05-26",
+  "h": "9962f201f24c5d43"
+ },
+ "ibc/CIR-2025-03-17-1": {
+  "date": "2025-03-17",
+  "h": "9da19c045cac9e2e"
+ },
+ "ibc/CIR-2025-03-28-1": {
+  "date": "2025-03-28",
+  "h": "3db41ec090fef1b4"
+ },
+ "ibc/CIR-2025-11-04-1": {
+  "date": "2025-11-04",
+  "h": "17551c1db8f6f897"
+ },
+ "ibc/CIR-2025-11-18-1": {
+  "date": "2025-11-18",
+  "h": "4518dedb1368b0ce"
+ },
+ "ibc/CIR-2025-12-18-1": {
+  "date": "2025-12-18",
+  "h": "7942642b2d9cbcd3"
+ },
+ "ibc/CIR-2025-12-29-1": {
+  "date": "2025-12-29",
+  "h": "0462809a3796b09e"
+ },
+ "ibc/CIR-2026-01-05-1": {
+  "date": "2026-01-05",
+  "h": "39a1159ad1de27d9"
+ },
+ "ibc/CIR-2026-03-06-1": {
+  "date": "2026-03-06",
+  "h": "ec2c7140de123423"
+ },
+ "ibc/CIR-2026-04-01-1": {
+  "date": "2026-04-01",
+  "h": "9f0b48e6efef8827"
+ },
+ "ibc/CIR-2026-06-15-1": {
+  "date": "2026-06-15",
+  "h": "26c67432ac663c84"
+ },
+ "ibc/CIR-2026-09-09-1": {
+  "date": "2026-09-09",
+  "h": "8e4f2febff207eb7"
+ },
+ "ibc/CIR-2026-09-21-1": {
+  "date": "2026-09-21",
+  "h": "70e5250a29c23f4f"
+ },
+ "ibc/CIR-2026-09-24-1": {
+  "date": "2026-09-24",
+  "h": "b396896476b615ee"
+ },
+ "ibc/CIR-2026-10-30-1": {
+  "date": "2026-10-30",
+  "h": "520f173df644b843"
+ },
+ "ibc/CIR-2026-10-30-2": {
+  "date": "2026-10-30",
+  "h": "7a594abfa95e89c0"
+ },
+ "ibc/CODE": {
+  "date": "2026-07-02",
+  "h": "c0826f5fc4e354c7"
+ },
+ "ibc/NOTIF-AMDACT2026-COMMENCE": {
+  "date": "2026-05-22",
+  "h": "3ae2505c35b82683"
+ },
+ "ibc/NOTIF-FSP-S227": {
+  "date": "2019-11-18",
+  "h": "8a87d1b7527174a6"
+ },
+ "ibc/NOTIF-FSP-S227-R10": {
+  "date": "2020-01-30",
+  "h": "b71b5bdf2b6b900a"
+ },
+ "ibc/NOTIF-PG-COMMENCE": {
+  "date": "2019-11-15",
+  "h": "faa8ceaea6e6a11b"
+ },
+ "ibc/NOTIF-S4-PPIRP": {
+  "date": "2021-04-09",
+  "h": "71fd28be7ccee3c4"
+ },
+ "ibc/NOTIF-S4-THRESHOLD": {
+  "date": "2020-03-24",
+  "h": "1cb3c6cd65aa14bb"
+ },
+ "ibc/REG-CIRP": {
+  "date": "2026-10-30",
+  "h": "8618a50ace1ba4d9"
+ },
+ "ibc/REG-GRIEV": {
+  "date": "2026-06-03",
+  "h": "206f08e7a34a8f31"
+ },
+ "ibc/REG-INSP": {
+  "date": "2026-06-02",
+  "h": "e26993bea492de49"
+ },
+ "ibc/REG-IP": {
+  "date": "2025-11-20",
+  "h": "b8994fd9f8ea3224"
+ },
+ "ibc/REG-IPA": {
+  "date": "2022-07-04",
+  "h": "3f39f8ca77a3aaa1"
+ },
+ "ibc/REG-IPA-MBL": {
+  "date": "2026-05-13",
+  "h": "f172a592ff359900"
+ },
+ "ibc/REG-IU": {
+  "date": "2026-06-02",
+  "h": "41a64b959555818f"
+ },
+ "ibc/REG-LIQ": {
+  "date": "2026-09-22",
+  "h": "54c0d6cd8c90ec8d"
+ },
+ "ibc/REG-PGBKY": {
+  "date": "2026-06-02",
+  "h": "7f787667c17321cd"
+ },
+ "ibc/REG-PGIRP": {
+  "date": "2026-09-12",
+  "h": "6549a5344825d1be"
+ },
+ "ibc/REG-PPIRP": {
+  "date": "2026-06-02",
+  "h": "356a5e6c5dc3f6f4"
+ },
+ "ibc/REG-VL": {
+  "date": "2026-06-02",
+  "h": "3d0f657d49fc9cf4"
+ },
+ "ibc/RULES-AA": {
+  "date": "2020-09-24",
+  "h": "e94235dc0a540880"
+ },
+ "ibc/RULES-FSP": {
+  "date": "2019-11-15",
+  "h": "dff49f025f3152c3"
+ },
+ "ibc/RULES-PG": {
+  "date": "2019-11-15",
+  "h": "d210340937c13a23"
+ },
+ "ibc/RULES-PGBKY": {
+  "date": "2019-11-15",
+  "h": "c8e848fe4fe04013"
+ },
+ "ibc/RULES-PPIRP": {
+  "date": "2021-04-09",
+  "h": "2f54a528e42eeca4"
+ },
+ "ibc/RULES-RV": {
+  "date": "2026-06-01",
+  "h": "1448481b98770f6c"
+ },
+ "ifsc/ACT-IFSCA": {
+  "date": "2019-12-19",
+  "h": "af50fdb6c07f005a"
+ },
+ "ifsc/CIR-AIRCRAFT": {
+  "date": "2025-02-26",
+  "h": "1fb8cc0e18e92993"
+ },
+ "ifsc/CIR-AML-CERT": {
+  "date": "2025-11-17",
+  "h": "71cf01da91d30205"
+ },
+ "ifsc/CIR-BLA2025": {
+  "date": "2025-12-12",
+  "h": "49f12d217512936d"
+ },
+ "ifsc/CIR-CERTIN": {
+  "date": "2026-11-25",
+  "h": "db57c3d403d5876f"
+ },
+ "ifsc/CIR-CHARTER": {
+  "date": "2026-05-08",
+  "h": "1c9102b0ea8c0538"
+ },
+ "ifsc/CIR-CMI-AUDIT": {
+  "date": "2026-06-05",
+  "h": "936d53c248feae2c"
+ },
+ "ifsc/CIR-CMI-REP": {
+  "date": "2026-04-08",
+  "h": "1cf6ad8fce8b9938"
+ },
+ "ifsc/CIR-COB16": {
+  "date": "2025-12-08",
+  "h": "caca3238022abc3f"
+ },
+ "ifsc/CIR-CYBER": {
+  "date": "2026-03-10",
+  "h": "1afb885f31ef622e"
+ },
+ "ifsc/CIR-FACT-CAP": {
+  "date": "2026-07-21",
+  "h": "364b36894aeac66f"
+ },
+ "ifsc/CIR-FC-GOV": {
+  "date": "2025-04-04",
+  "h": "1abd69534c8aa4af"
+ },
+ "ifsc/CIR-FC-WEB": {
+  "date": "2026-02-03",
+  "h": "69ff822f5ced87b5"
+ },
+ "ifsc/CIR-FCSS": {
+  "date": "2025-10-07",
+  "h": "adb9ce18e914cd81"
+ },
+ "ifsc/CIR-FEES": {
+  "date": "2026-03-13",
+  "h": "2ad5c62b985c57d4"
+ },
+ "ifsc/CIR-FME-CERT": {
+  "date": "2026-09-29",
+  "h": "43e9a1baa57ce389"
+ },
+ "ifsc/CIR-FME-FIDUC": {
+  "date": "2026-04-10",
+  "h": "fca5f1536932ca81"
+ },
+ "ifsc/CIR-FME-KMP": {
+  "date": "2026-04-01",
+  "h": "2f3d5317f8649024"
+ },
+ "ifsc/CIR-FME-WEB": {
+  "date": "2026-08-26",
+  "h": "2815f5f6b6a46f1b"
+ },
+ "ifsc/CIR-GRCTC": {
+  "date": "2025-06-09",
+  "h": "ea333fed4421f312"
+ },
+ "ifsc/CIR-GRIEV": {
+  "date": "2025-01-13",
+  "h": "0574b41529a3559c"
+ },
+ "ifsc/CIR-IBU-GOV": {
+  "date": "2025-04-08",
+  "h": "bb943b1316b57d9d"
+ },
+ "ifsc/CIR-IBU-RESACC": {
+  "date": "2025-09-02",
+  "h": "c332abcdf845c2d4"
+ },
+ "ifsc/CIR-MASTERKEY": {
+  "date": "2026-02-13",
+  "h": "42256014a009de4c"
+ },
+ "ifsc/CIR-NETBANK": {
+  "date": "2026-07-31",
+  "h": "a0b728c75f049d0e"
+ },
+ "ifsc/CIR-SEZ-LOA": {
+  "date": "2026-08-10",
+  "h": "97cfde48b066bdc1"
+ },
+ "ifsc/CIR-SHIP": {
+  "date": "2026-05-20",
+  "h": "e56c3c136eae15f3"
+ },
+ "ifsc/CIR-SNRR": {
+  "date": "2026-06-19",
+  "h": "af83dcb01b72b5e1"
+ },
+ "ifsc/CIR-SWIFT": {
+  "date": "2026-02-26",
+  "h": "0cbda057581d8c3f"
+ },
+ "ifsc/CIR-VOSTRO": {
+  "date": "2025-11-11",
+  "h": "95f3f03974e9ac17"
+ },
+ "ifsc/GDL-AML": {
+  "date": "2026-08-03",
+  "h": "dc0cec08443514a2"
+ },
+ "ifsc/HB-BANK": {
+  "date": "2025-12-08",
+  "h": "62733543f2989df1"
+ },
+ "ifsc/REG-BANK": {
+  "date": "2024-07-04",
+  "h": "a7a9a05e29d10bc9"
+ },
+ "ifsc/REG-BULLION": {
+  "date": "2025-02-04",
+  "h": "0d56e09e20ff634d"
+ },
+ "ifsc/REG-CMI": {
+  "date": "2026-09-05",
+  "h": "4bf126d6be16c3d5"
+ },
+ "ifsc/REG-FACTORS": {
+  "date": "2025-03-13",
+  "h": "547036788ce9f5b7"
+ },
+ "ifsc/REG-FC": {
+  "date": "2026-05-07",
+  "h": "fdb1c459df613b47"
+ },
+ "ifsc/REG-FEMA-IFSC": {
+  "date": "2020-01-16",
+  "h": "7eaddde48366d4db"
+ },
+ "ifsc/REG-FM": {
+  "date": "2026-09-10",
+  "h": "8ef93775106ffa09"
+ },
+ "ifsc/REG-GIC": {
+  "date": "2025-12-24",
+  "h": "c763f9647a1078cd"
+ },
+ "ifsc/REG-INS-INT": {
+  "date": "2022-01-28",
+  "h": "c1f1846a753e7286"
+ },
+ "ifsc/REG-INS-INV": {
+  "date": "2024-11-05",
+  "h": "80ab993c02652cce"
+ },
+ "ifsc/REG-INS-MC": {
+  "date": "2023-04-26",
+  "h": "ac83912ead9ac7de"
+ },
+ "ifsc/REG-INS-REG": {
+  "date": "2026-07-10",
+  "h": "f0ed3c4abac52712"
+ },
+ "ifsc/REG-INS-SOLV": {
+  "date": "2023-04-19",
+  "h": "ba85a37c390e01fd"
+ },
+ "ifsc/REG-LISTING": {
+  "date": "2025-10-14",
+  "h": "1ebeb670668d93d3"
+ },
+ "ifsc/REG-MAR": {
+  "date": "2026-08-25",
+  "h": "ff8808decd2a8c8e"
+ },
+ "ifsc/REG-MGA": {
+  "date": "2026-06-08",
+  "h": "2bf74e5529b18a7a"
+ },
+ "ifsc/REG-MII": {
+  "date": "2024-11-01",
+  "h": "a909b849257aef1b"
+ },
+ "ifsc/REG-PSR": {
+  "date": "2024-04-02",
+  "h": "360c6844ea797701"
+ },
+ "ifsc/REG-REINS": {
+  "date": "2023-04-11",
+  "h": "81ff1f29d6855e26"
+ },
+ "ifsc/REG-TECHFIN": {
+  "date": "2026-05-12",
+  "h": "b28fdaa039c0f0f4"
+ },
+ "irdai/ACT-INS": {
+  "date": "2026-04-15",
+  "h": "2fb8f21ca923e799"
+ },
+ "irdai/ACT-IRDA": {
+  "date": "2026-03-01",
+  "h": "83b327a4d328e205"
+ },
+ "irdai/ACT-SBSR": {
+  "date": "2026-02-05",
+  "h": "c4622f1043d6d091"
+ },
+ "irdai/CIR-20250130-31": {
+  "date": "2025-01-30",
+  "h": "804eb1ffd2210d9a"
+ },
+ "irdai/CIR-20250218-30": {
+  "date": "2025-02-18",
+  "h": "4b5e4dbefac9228b"
+ },
+ "irdai/CIR-20250326-27": {
+  "date": "2025-03-26",
+  "h": "000d4621fc6f44dd"
+ },
+ "irdai/CIR-20250509-26": {
+  "date": "2025-05-09",
+  "h": "105ac1a404fefd69"
+ },
+ "irdai/CIR-20260107-19": {
+  "date": "2026-01-06",
+  "h": "31449ab904067bea"
+ },
+ "irdai/CIR-20260525-13": {
+  "date": "2026-05-25",
+  "h": "524951d73aea6949"
+ },
+ "irdai/CIR-20260723-09": {
+  "date": "2026-07-23",
+  "h": "3d0199eab407adb8"
+ },
+ "irdai/CIR-20260731-32": {
+  "date": "2026-07-31",
+  "h": "c1c58aae089faf46"
+ },
+ "irdai/FAQ-INTERMED-2026": {
+  "date": "2026-08-01",
+  "h": "86480d431fb69e9a"
+ },
+ "irdai/MC-AFI": {
+  "date": "2024-05-17",
+  "h": "646c7d50d6d895c8"
+ },
+ "irdai/MC-AML": {
+  "date": "2023-10-10",
+  "h": "1e215a9165e6318f"
+ },
+ "irdai/MC-CG": {
+  "date": "2024-05-22",
+  "h": "0775b75b42fb148f"
+ },
+ "irdai/MC-CYBER": {
+  "date": "2026-04-06",
+  "h": "a1b7b3f873281d48"
+ },
+ "irdai/MC-EOM": {
+  "date": "2024-05-15",
+  "h": "f697d161ab731aa1"
+ },
+ "irdai/MC-FRAUD": {
+  "date": "2025-10-09",
+  "h": "e54f18b30d53a4c7"
+ },
+ "irdai/MC-HEALTH": {
+  "date": "2024-05-29",
+  "h": "1efbeb77161adc26"
+ },
+ "irdai/MC-LIFE": {
+  "date": "2024-06-12",
+  "h": "868f237b2cd8ebad"
+ },
+ "irdai/MC-OPS": {
+  "date": "2024-06-19",
+  "h": "b862a1d4c0702dbc"
+ },
+ "irdai/MC-PPHI": {
+  "date": "2024-09-05",
+  "h": "1ffd4b42d801e7d0"
+ },
+ "irdai/MC-REGN": {
+  "date": "2026-11-02",
+  "h": "4c3af56246b35819"
+ },
+ "irdai/MC-RET": {
+  "date": "2024-06-14",
+  "h": "8cf2e56cde016dc1"
+ },
+ "irdai/MC-RRS": {
+  "date": "2025-07-25",
+  "h": "2708b2e51bcee2b8"
+ },
+ "irdai/REG-ADV": {
+  "date": "2021-04-12",
+  "h": "5fb6fe1e8c30fc42"
+ },
+ "irdai/REG-AFI": {
+  "date": "2026-07-31",
+  "h": "88514d27e7d7b57b"
+ },
+ "irdai/REG-AGENT": {
+  "date": "2016-03-15",
+  "h": "2df5a979b88ee6a6"
+ },
+ "irdai/REG-CA": {
+  "date": "2026-07-31",
+  "h": "129b551f5ebba53f"
+ },
+ "irdai/REG-CG": {
+  "date": "2024-03-20",
+  "h": "d4101cab26b2af5a"
+ },
+ "irdai/REG-EOM": {
+  "date": "2024-01-24",
+  "h": "fae36d6e825e6a76"
+ },
+ "irdai/REG-INFO": {
+  "date": "2025-01-10",
+  "h": "3b39ec6b0b84a3c1"
+ },
+ "irdai/REG-INTERMED-AMD2026": {
+  "date": "2026-07-31",
+  "h": "f6296245588cdaa2"
+ },
+ "irdai/REG-OUTS": {
+  "date": "2017-05-06",
+  "h": "348159375b8fb325"
+ },
+ "irdai/REG-PENALTY-2026": {
+  "date": "2026-07-31",
+  "h": "e4ec22247781ad32"
+ },
+ "irdai/REG-PEPF-2026": {
+  "date": "2026-11-25",
+  "h": "4f59660b1edbfd28"
+ },
+ "irdai/REG-PPHI": {
+  "date": "2024-03-20",
+  "h": "b35ab1f34b9b1682"
+ },
+ "irdai/REG-PROD": {
+  "date": "2024-03-20",
+  "h": "2617e6dd7b884171"
+ },
+ "irdai/REG-REGN": {
+  "date": "2026-07-31",
+  "h": "ec6cd41de7fc8866"
+ },
+ "irdai/REG-RRS": {
+  "date": "2024-02-20",
+  "h": "2a83d0e94f8b475c"
+ },
+ "irdai/REG-SANDBOX": {
+  "date": "2025-01-10",
+  "h": "e3ad911977cec67b"
+ },
+ "irdai/REG-SUGAM": {
+  "date": "2024-03-20",
+  "h": "3941881c938986e8"
+ },
+ "irdai/RULES-OMB": {
+  "date": "2026-11-23",
+  "h": "06f94f52c3f83bf6"
+ },
+ "laws/ACT-AIRCRAFT-2025": {
+  "date": "2025-04-16",
+  "h": "13514a1bc938be17"
+ },
+ "laws/ACT-BBE-2026": {
+  "date": "2026-10-01",
+  "h": "b35a1c9c1d9c9dfd"
+ },
+ "laws/ACT-BSA": {
+  "date": "2023-12-25",
+  "h": "7acf2f6176b6e829"
+ },
+ "laws/ACT-CHIT": {
+  "date": "1982-08-19",
+  "h": "48b6053972a168fd"
+ },
+ "laws/ACT-CICRA": {
+  "date": "2005-06-23",
+  "h": "582bbb7ba3e69892"
+ },
+ "laws/ACT-CPA": {
+  "date": "2019-08-09",
+  "h": "19164e1a5a628e7c"
+ },
+ "laws/ACT-ICA": {
+  "date": "1872-04-25",
+  "h": "9b7ec053d900f110"
+ },
+ "laws/ACT-LIM": {
+  "date": "1963-10-05",
+  "h": "a7b0773f7876bc06"
+ },
+ "laws/ACT-NI": {
+  "date": "1881-12-09",
+  "h": "b598826e14de0af5"
+ },
+ "laws/ACT-PMLA": {
+  "date": "2003-01-17",
+  "h": "d2714f9a6a802e02"
+ },
+ "laws/ACT-PSS": {
+  "date": "2007-12-20",
+  "h": "d3ffc68d3e123045"
+ },
+ "laws/ACT-RDB": {
+  "date": "1993-08-27",
+  "h": "c8b9705a33b4ebd7"
+ },
+ "laws/ACT-REG": {
+  "date": "1908-12-18",
+  "h": "7f8bed3a66759114"
+ },
+ "laws/ACT-REPAMD-2025": {
+  "date": "2025-12-20",
+  "h": "f254a546bdd14c4c"
+ },
+ "laws/ACT-SARFAESI": {
+  "date": "2002-12-17",
+  "h": "9781656b03a32046"
+ },
+ "laws/ACT-SOGA": {
+  "date": "1930-03-15",
+  "h": "60a82c58981f3630"
+ },
+ "laws/ACT-SRA": {
+  "date": "1963-12-13",
+  "h": "2cf405069522f428"
+ },
+ "laws/ACT-STAMP": {
+  "date": "1899-01-27",
+  "h": "a04d4e90bd391fd7"
+ },
+ "laws/ACT-TPA": {
+  "date": "1882-02-17",
+  "h": "4a8f43145b5f6567"
+ },
+ "laws/ACT-TRUSTS": {
+  "date": "1882-01-13",
+  "h": "511c15403a900f02"
+ },
+ "laws/AMD-PSS-20260817": {
+  "date": "2026-08-17",
+  "h": "505c5d71099785d1"
+ },
+ "laws/AMD-RDB-20260813": {
+  "date": "2026-08-13",
+  "h": "adc347fe825b9e81"
+ },
+ "laws/DRAFT-REG-BILL-2025": {
+  "date": "2025-05-27",
+  "h": "a63fb45ebb28c42c"
+ },
+ "laws/MF-AS": {
+  "date": "2021-01-27",
+  "h": "dbae8b125b691fce"
+ },
+ "laws/MF-TN": {
+  "date": "2025-06-09",
+  "h": "c2c845aadc3c883d"
+ },
+ "laws/ML-KA": {
+  "date": "1962-03-29",
+  "h": "ec4d6a3b0227e580"
+ },
+ "laws/ML-KA-AMD2025": {
+  "date": "2025-03-24",
+  "h": "ec0d866d0ec68198"
+ },
+ "laws/ML-MH": {
+  "date": "2014-01-26",
+  "h": "096b6565f00ff968"
+ },
+ "laws/ML-TN": {
+  "date": "1957-12-20",
+  "h": "9ce09c21605a7d6d"
+ },
+ "laws/PID-MH": {
+  "date": "2000-01-21",
+  "h": "ee2384103518254a"
+ },
+ "laws/PMB-LS28-2025-IT": {
+  "date": "2025-12-05",
+  "h": "ecc8662d3d0d4e04"
+ },
+ "laws/PMB-LS39-2025-CPA": {
+  "date": "2025-12-05",
+  "h": "3b3358eebc6d0c78"
+ },
+ "laws/PMB-LS75-2025-PMLA": {
+  "date": "2025-12-05",
+  "h": "6fe8edee6917a802"
+ },
+ "laws/REGS-CIC": {
+  "date": "2006-12-14",
+  "h": "f763e16dd9b00404"
+ },
+ "laws/RULES-CIC": {
+  "date": "2006-12-14",
+  "h": "77a3b5f38b8cae03"
+ },
+ "laws/RULES-FACT": {
+  "date": "2012-04-02",
+  "h": "e574cf55a68e2eaf"
+ },
+ "laws/STAMP-MH": {
+  "date": "2026-04-07",
+  "h": "5a8d1f07e3d77153"
+ },
+ "laws/STAMP-STATES": {
+  "date": "2023-04-17",
+  "h": "3221f26c24a792db"
+ },
+ "nhb/ACT-NHB": {
+  "date": "2024-01-22",
+  "h": "85c09f9e688f3753"
+ },
+ "nhb/ADV-AA-2023": {
+  "date": "2023-11-28",
+  "h": "35041c379cadb540"
+ },
+ "nhb/ADV-AADHAAR-2024": {
+  "date": "2024-12-16",
+  "h": "7219cda7a519f46a"
+ },
+ "nhb/ADV-ACCESS-2025": {
+  "date": "2025-12-12",
+  "h": "4085cfc9be471fbc"
+ },
+ "nhb/ADV-ACCESS-2026": {
+  "date": "2026-01-30",
+  "h": "55b78114bea5107a"
+ },
+ "nhb/ADV-ARB-2026": {
+  "date": "2026-11-12",
+  "h": "b20c2bddaa6b7062"
+ },
+ "nhb/ADV-CALLS-2025": {
+  "date": "2025-12-11",
+  "h": "33955e487ffe501e"
+ },
+ "nhb/ADV-CALLS-2026": {
+  "date": "2026-07-07",
+  "h": "25b7a7aaa846407a"
+ },
+ "nhb/ADV-CCO-2024": {
+  "date": "2024-12-13",
+  "h": "d7d61408b714d46a"
+ },
+ "nhb/ADV-CCO-2024-SUGG": {
+  "date": "2024-09-20",
+  "h": "ff70822ccd03eafa"
+ },
+ "nhb/ADV-CERSAI-2026": {
+  "date": "2026-07-17",
+  "h": "9da02dfad88a71b5"
+ },
+ "nhb/ADV-DPD-2024": {
+  "date": "2024-12-11",
+  "h": "7575ca9ca90ea161"
+ },
+ "nhb/ADV-EMI-2025": {
+  "date": "2025-02-20",
+  "h": "ec7b628263cb1324"
+ },
+ "nhb/ADV-FLOW-2026": {
+  "date": "2026-06-29",
+  "h": "bc8bcceb4b5775ac"
+ },
+ "nhb/ADV-FPC-2026": {
+  "date": "2026-07-24",
+  "h": "8efbe9a64f0b8119"
+ },
+ "nhb/ADV-GRIEV-2023": {
+  "date": "2023-08-16",
+  "h": "b02d34b45ff93463"
+ },
+ "nhb/ADV-GRM-2026": {
+  "date": "2026-04-07",
+  "h": "a601e8775d489fed"
+ },
+ "nhb/ADV-INS-2024": {
+  "date": "2024-12-10",
+  "h": "66e21a86f3288cc0"
+ },
+ "nhb/ADV-INS-2025": {
+  "date": "2025-03-12",
+  "h": "6de3159189abb293"
+ },
+ "nhb/ADV-INS-2026": {
+  "date": "2026-09-24",
+  "h": "bd046966aa95e8b9"
+ },
+ "nhb/ADV-KYC-2026": {
+  "date": "2026-03-05",
+  "h": "dd27fc1e5a1b0519"
+ },
+ "nhb/ADV-PBC-2024": {
+  "date": "2024-10-29",
+  "h": "d5347dd904cb8460"
+ },
+ "nhb/ADV-PENAL-2026": {
+  "date": "2026-04-23",
+  "h": "7633f38156d06619"
+ },
+ "nhb/ADV-PLR-2026": {
+  "date": "2026-03-24",
+  "h": "610aa9e58f7c0303"
+ },
+ "nhb/ADV-PMAY-2025": {
+  "date": "2025-09-23",
+  "h": "b0a987d5be3a4e29"
+ },
+ "nhb/ADV-PURPOSE-2023": {
+  "date": "2023-07-27",
+  "h": "76179c2f068081b6"
+ },
+ "nhb/ADV-STAGE-2025": {
+  "date": "2025-11-20",
+  "h": "7bf41c9899acb8ec"
+ },
+ "nhb/ADV-STAMP-2024": {
+  "date": "2024-09-13",
+  "h": "dae6d145fed31391"
+ },
+ "nhb/ADV-VALUERS-2025": {
+  "date": "2025-01-24",
+  "h": "702af1502f4ac1ec"
+ },
+ "nhb/AMDACT-2019": {
+  "date": "2019-08-01",
+  "h": "1d0ee392b2b90170"
+ },
+ "nhb/CRGFTLIH": {
+  "date": "2023-11-21",
+  "h": "58d171aae3632c35"
+ },
+ "nhb/FMR-2026": {
+  "date": "2026-09-07",
+  "h": "5210c93d888f13a2"
+ },
+ "nhb/GRP-NHB": {
+  "date": "2025-12-01",
+  "h": "1eb7cac4add1e85f"
+ },
+ "nhb/MC-RETURNS": {
+  "date": "2023-07-21",
+  "h": "0e8af97420a19af2"
+ },
+ "nhb/PMAY-ISS": {
+  "date": "2024-09-01",
+  "h": "418451f24dda2164"
+ },
+ "nhb/PR-RBI-2019": {
+  "date": "2019-08-13",
+  "h": "e6d290f909fdc2c7"
+ },
+ "nhb/RBI-HFC-DIR-2025": {
+  "date": "2026-10-01",
+  "h": "129b0c6114b54eb3"
+ },
+ "nhb/REF-ADVBAL-2023": {
+  "date": "2024-03-13",
+  "h": "3443694b24b7b0b5"
+ },
+ "nhb/REF-BOOKDEBT-2024": {
+  "date": "2024-10-08",
+  "h": "dd397615904ed8b9"
+ },
+ "nhb/REF-BOOKLET": {
+  "date": "2025-12-15",
+  "h": "c8eda7879e26deb2"
+ },
+ "nhb/REF-CONCESSION-2025": {
+  "date": "2025-01-07",
+  "h": "37dce2c8cfcca8c0"
+ },
+ "nhb/REF-EARMARK-2024": {
+  "date": "2024-12-23",
+  "h": "b16ee07591e1a5a6"
+ },
+ "nhb/REF-LRS-FIXED": {
+  "date": "2025-01-02",
+  "h": "2475e19ea477a83e"
+ },
+ "nhb/REF-MDCEO-2025": {
+  "date": "2025-05-02",
+  "h": "da6519d122ffc841"
+ },
+ "nhb/REF-NOMINEE-2025": {
+  "date": "2025-01-07",
+  "h": "a52fbe5570e3ada8"
+ },
+ "nhb/REF-PBC-2025": {
+  "date": "2025-01-09",
+  "h": "c15a936dd1b8639d"
+ },
+ "nhb/REF-PENAL-POOL": {
+  "date": "2025-01-31",
+  "h": "83981fe77ec9aca9"
+ },
+ "nhb/REF-PLOT-2025": {
+  "date": "2025-04-02",
+  "h": "4f36d264700d5187"
+ },
+ "nhb/REF-PSL-POOL": {
+  "date": "2024-10-16",
+  "h": "606f65d4f4434497"
+ },
+ "nhb/REF-RATING": {
+  "date": "2024-09-05",
+  "h": "31c63b4e149249c6"
+ },
+ "nhb/REF-RELEASE-2024": {
+  "date": "2024-12-06",
+  "h": "75dbd3bab0cbc98f"
+ },
+ "nhb/REF-REPLENISH-2025": {
+  "date": "2025-01-08",
+  "h": "2b4a5fee580b452e"
+ },
+ "nhb/REF-SANCTION-2025": {
+  "date": "2025-05-06",
+  "h": "b43ca68871fecebb"
+ },
+ "nhb/REF-VALUATION-2024": {
+  "date": "2024-09-05",
+  "h": "ebc61bf13ab3df7e"
+ },
+ "nhb/SUP-CRAMIS-2022": {
+  "date": "2022-12-29",
+  "h": "841dbe276c90e137"
+ },
+ "nhb/SUP-EWS-2023": {
+  "date": "2023-04-26",
+  "h": "f4104f4306a56a54"
+ },
+ "rbi/ACT-AADHAAR": {
+  "date": "2026-11-26",
+  "h": "c2bd49762b5be105"
+ },
+ "rbi/ACT-BUDS": {
+  "date": "2026-11-26",
+  "h": "7a4091281be2237d"
+ },
+ "rbi/ACT-CICRA": {
+  "date": "2026-11-26",
+  "h": "806b179b656cb190"
+ },
+ "rbi/ACT-COS": {
+  "date": "2026-11-26",
+  "h": "c4c2788fbd13697b"
+ },
+ "rbi/ACT-DPDP": {
+  "date": "2026-11-26",
+  "h": "185ec7dd5b208e9c"
+ },
+ "rbi/ACT-FEMA": {
+  "date": "2026-11-26",
+  "h": "90c3ab6af47260e5"
+ },
+ "rbi/ACT-FRA": {
+  "date": "2026-11-26",
+  "h": "2a2645815918c50d"
+ },
+ "rbi/ACT-IBC": {
+  "date": "2026-11-26",
+  "h": "f5fb86ad939830f4"
+ },
+ "rbi/ACT-IT": {
+  "date": "2026-11-26",
+  "h": "bb903f9c60562eed"
+ },
+ "rbi/ACT-NHB": {
+  "date": "2026-11-26",
+  "h": "b824e0933a3f773a"
+ },
+ "rbi/ACT-PMLA": {
+  "date": "2026-11-26",
+  "h": "75afe63fb2e77e2f"
+ },
+ "rbi/ACT-PSS": {
+  "date": "2026-11-26",
+  "h": "544c1200e32182d4"
+ },
+ "rbi/ACT-RBI": {
+  "date": "2026-11-26",
+  "h": "69772cf2faf067ed"
+ },
+ "rbi/ACT-SARFAESI": {
+  "date": "2026-11-26",
+  "h": "3770850764d8314b"
+ },
+ "rbi/MD-AA": {
+  "date": "2026-11-26",
+  "h": "21ca4dfc1fb09cab"
+ },
+ "rbi/MD-ACQ": {
+  "date": "2026-11-26",
+  "h": "996f769797f8d377"
+ },
+ "rbi/MD-ALM": {
+  "date": "2026-07-01",
+  "h": "861649223f8cab71"
+ },
+ "rbi/MD-AMLG": {
+  "date": "2026-11-26",
+  "h": "1a34fa454cfec030"
+ },
+ "rbi/MD-AUDREP": {
+  "date": "2026-11-26",
+  "h": "d4abe7572037ce84"
+ },
+ "rbi/MD-AUTH": {
+  "date": "2025-09-25",
+  "h": "1942fe61c87443f8"
+ },
+ "rbi/MD-BRANCH": {
+  "date": "2026-04-15",
+  "h": "f8c51a7be7b3eff1"
+ },
+ "rbi/MD-CAP": {
+  "date": "2026-07-01",
+  "h": "361cba5dfadf9173"
+ },
+ "rbi/MD-CARDS": {
+  "date": "2026-11-26",
+  "h": "3c049af83cb5f806"
+ },
+ "rbi/MD-CDS": {
+  "date": "2026-11-26",
+  "h": "7464c4e0f2a88d38"
+ },
+ "rbi/MD-CIC": {
+  "date": "2026-03-10",
+  "h": "2dab1c156e33b793"
+ },
+ "rbi/MD-CIR": {
+  "date": "2026-07-01",
+  "h": "6df906c258910b73"
+ },
+ "rbi/MD-CLIMATE": {
+  "date": "2026-11-26",
+  "h": "c0008c354185e5da"
+ },
+ "rbi/MD-COMPL": {
+  "date": "2026-11-26",
+  "h": "ffa42ea33fb61f06"
+ },
+ "rbi/MD-CONC": {
+  "date": "2026-08-25",
+  "h": "f89bed6ee4d623b7"
+ },
+ "rbi/MD-CPNCD": {
+  "date": "2024-01-03",
+  "h": "bfb80e62edf176de"
+ },
+ "rbi/MD-CREDIT": {
+  "date": "2026-07-15",
+  "h": "cb670756ecf0e48a"
+ },
+ "rbi/MD-CRM": {
+  "date": "2026-07-01",
+  "h": "0b8c189a6b32d840"
+ },
+ "rbi/MD-CYBER": {
+  "date": "2026-11-26",
+  "h": "b444ca9c0d0084a6"
+ },
+ "rbi/MD-DEP": {
+  "date": "2026-04-15",
+  "h": "eefb0f5aaf944cc3"
+ },
+ "rbi/MD-DIV": {
+  "date": "2026-07-01",
+  "h": "38ddc2fec9651e52"
+ },
+ "rbi/MD-DPSC": {
+  "date": "2026-11-26",
+  "h": "021f9273d57193da"
+ },
+ "rbi/MD-EMANDATE": {
+  "date": "2026-04-21",
+  "h": "9fb22af12eeb9219"
+ },
+ "rbi/MD-FEMA-ECB": {
+  "date": "2026-11-26",
+  "h": "76a5d1a4e92fd800"
+ },
+ "rbi/MD-FEMA-FDI": {
+  "date": "2026-11-26",
+  "h": "a453e1a9ba09ea72"
+ },
+ "rbi/MD-FEMA-ODI": {
+  "date": "2026-11-26",
+  "h": "b2ba4c8d023766c9"
+ },
+ "rbi/MD-FINSVC": {
+  "date": "2026-10-05",
+  "h": "9f9e7524712b1656"
+ },
+ "rbi/MD-FRAUD": {
+  "date": "2026-11-26",
+  "h": "f7aa3dd1a7d6258f"
+ },
+ "rbi/MD-FS": {
+  "date": "2026-07-01",
+  "h": "28e75aa11dc35c9d"
+ },
+ "rbi/MD-GOV": {
+  "date": "2026-06-24",
+  "h": "3e8eaea9e60d8252"
+ },
+ "rbi/MD-HFC": {
+  "date": "2026-10-01",
+  "h": "4cb7d21d38e7cd19"
+ },
+ "rbi/MD-IA": {
+  "date": "2026-11-26",
+  "h": "40a9e6a4c221d2b3"
+ },
+ "rbi/MD-INV": {
+  "date": "2026-07-01",
+  "h": "d86fdaf272ae9484"
+ },
+ "rbi/MD-IO": {
+  "date": "2026-11-26",
+  "h": "a6589ded17706958"
+ },
+ "rbi/MD-IRACP": {
+  "date": "2026-10-01",
+  "h": "6b7c6e69522cdfc6"
+ },
+ "rbi/MD-IRD": {
+  "date": "2026-11-26",
+  "h": "f6375b37ba9c45a7"
+ },
+ "rbi/MD-KYC": {
+  "date": "2026-11-20",
+  "h": "c03f5c55f7d30e2a"
+ },
+ "rbi/MD-MFI": {
+  "date": "2026-11-26",
+  "h": "435fd07fb951e116"
+ },
+ "rbi/MD-MGC": {
+  "date": "2026-03-10",
+  "h": "a8b73d4eea30cf97"
+ },
+ "rbi/MD-MISC": {
+  "date": "2026-02-26",
+  "h": "3f29834a2e1bcae3"
+ },
+ "rbi/MD-NOFHC": {
+  "date": "2025-12-05",
+  "h": "f7eb710f48816cac"
+ },
+ "rbi/MD-OUTS": {
+  "date": "2026-11-26",
+  "h": "073bd793c072a9c3"
+ },
+ "rbi/MD-P2P": {
+  "date": "2026-11-26",
+  "h": "0d1b32f17fe205f2"
+ },
+ "rbi/MD-PA": {
+  "date": "2026-11-26",
+  "h": "2f375488f345bca9"
+ },
+ "rbi/MD-PPI": {
+  "date": "2026-11-26",
+  "h": "80934e47886553dd"
+ },
+ "rbi/MD-PSL": {
+  "date": "2026-11-26",
+  "h": "014d12973dc1b9b6"
+ },
+ "rbi/MD-RBC": {
+  "date": "2026-07-01",
+  "h": "9e28ee9e7b8e78c8"
+ },
+ "rbi/MD-RETURNS": {
+  "date": "2026-11-26",
+  "h": "fb8e06daa6ed1cc2"
+ },
+ "rbi/MD-SA": {
+  "date": "2026-11-26",
+  "h": "fd1e6fda305a99b9"
+ },
+ "rbi/MD-SBR": {
+  "date": "2026-07-01",
+  "h": "d7622c40c2fd7a7c"
+ },
+ "rbi/MD-SEC": {
+  "date": "2026-11-23",
+  "h": "0e3eff994e7d0f2e"
+ },
+ "rbi/MD-SPD": {
+  "date": "2026-03-10",
+  "h": "14ed6c15cdaf1c10"
+ },
+ "rbi/MD-STRESS": {
+  "date": "2026-10-01",
+  "h": "e9384d5f8d6631be"
+ },
+ "rbi/MD-SUPMISC": {
+  "date": "2026-11-26",
+  "h": "5cd7cd74a4b618cf"
+ },
+ "rbi/MD-TDCR": {
+  "date": "2026-07-01",
+  "h": "da518b76d1317619"
+ },
+ "rbi/MD-WD": {
+  "date": "2026-07-01",
+  "h": "6a3a7d45cf869a68"
+ },
+ "rbi/NOT-CONSOL": {
+  "date": "2025-11-28",
+  "h": "b14990b114b08921"
+ },
+ "rbi/REG-ASSIGN": {
+  "date": "2022-01-14",
+  "h": "bf97132649fca478"
+ },
+ "rbi/REG-FACTORS": {
+  "date": "2022-01-14",
+  "h": "d6560716f35dfec6"
+ },
+ "rbi/REG-FEMA-BL": {
+  "date": "2026-02-09",
+  "h": "0bbd1a050a504faa"
+ },
+ "sebi/ACT-DEP": {
+  "date": "2020-10-01",
+  "h": "62088b839ec12cd9"
+ },
+ "sebi/ACT-SCRA": {
+  "date": "2021-04-01",
+  "h": "b23e0c3179e12665"
+ },
+ "sebi/ACT-SEBI": {
+  "date": "2021-04-01",
+  "h": "9eee40ba74b44beb"
+ },
+ "sebi/MC-AIF": {
+  "date": "2026-09-07",
+  "h": "45e9e311fda8eaa2"
+ },
+ "sebi/MC-CRA": {
+  "date": "2025-07-11",
+  "h": "50c308de029248cf"
+ },
+ "sebi/MC-CSCRF": {
+  "date": "2025-08-28",
+  "h": "867d80b13db00e70"
+ },
+ "sebi/MC-DP": {
+  "date": "2024-12-03",
+  "h": "8b86f3f6ed819e9d"
+ },
+ "sebi/MC-DT": {
+  "date": "2026-09-28",
+  "h": "bbe86a8da072efb7"
+ },
+ "sebi/MC-LODR": {
+  "date": "2026-01-30",
+  "h": "b3ef2bb9745d870d"
+ },
+ "sebi/MC-MF": {
+  "date": "2026-03-20",
+  "h": "ef84edb54efabe2c"
+ },
+ "sebi/MC-NCS": {
+  "date": "2026-10-07",
+  "h": "6897d26bdbfa8823"
+ },
+ "sebi/MC-NCS-LODR": {
+  "date": "2025-07-11",
+  "h": "8a1a289a9fe7e871"
+ },
+ "sebi/MC-ODR": {
+  "date": "2023-12-28",
+  "h": "a5e891ddfe9b6ca8"
+ },
+ "sebi/MC-SB": {
+  "date": "2025-06-17",
+  "h": "54a45e6b85c520b1"
+ },
+ "sebi/MC-SCORES": {
+  "date": "2023-09-20",
+  "h": "54b18c3b9622ec35"
+ },
+ "sebi/REG-AIF": {
+  "date": "2026-11-05",
+  "h": "ca37829c968b529d"
+ },
+ "sebi/REG-BUYBACK": {
+  "date": "2026-07-06",
+  "h": "c08fef708fae9aff"
+ },
+ "sebi/REG-CRA": {
+  "date": "2026-01-15",
+  "h": "8ccc84dc8142e5f8"
+ },
+ "sebi/REG-DELIST": {
+  "date": "2025-09-03",
+  "h": "e1818e13df4d31e0"
+ },
+ "sebi/REG-DP": {
+  "date": "2025-11-22",
+  "h": "7f1d9aa0c7b6db3a"
+ },
+ "sebi/REG-DT": {
+  "date": "2026-10-27",
+  "h": "d62d6942703252c6"
+ },
+ "sebi/REG-IA": {
+  "date": "2025-11-25",
+  "h": "ca01cb5153ea2fd6"
+ },
+ "sebi/REG-ICDR": {
+  "date": "2026-10-14",
+  "h": "60b7f0a1fa27b5dc"
+ },
+ "sebi/REG-INTERMED": {
+  "date": "2026-10-10",
+  "h": "dc897a60afead3df"
+ },
+ "sebi/REG-KRA": {
+  "date": "2026-11-25",
+  "h": "0718b1a40c2c0849"
+ },
+ "sebi/REG-LODR": {
+  "date": "2026-10-15",
+  "h": "6a0f15ebed441817"
+ },
+ "sebi/REG-MF": {
+  "date": "2026-11-05",
+  "h": "4f7657e54d60ad58"
+ },
+ "sebi/REG-NCS": {
+  "date": "2026-01-21",
+  "h": "a914150ffcb0676c"
+ },
+ "sebi/REG-PENALTY": {
+  "date": "2021-12-31",
+  "h": "65d6e5417e5e469e"
+ },
+ "sebi/REG-PFUTP": {
+  "date": "2025-12-05",
+  "h": "9daa56af606c0bef"
+ },
+ "sebi/REG-PIT": {
+  "date": "2025-03-12",
+  "h": "68ab6b04b9aeb247"
+ },
+ "sebi/REG-RA": {
+  "date": "2026-10-10",
+  "h": "2c77ef89c40385d0"
+ },
+ "sebi/REG-SAST": {
+  "date": "2025-12-05",
+  "h": "bef2d1e992959166"
+ },
+ "sebi/REG-SB": {
+  "date": "2026-10-01",
+  "h": "3152eb7828492fea"
+ },
+ "sebi/REG-SBEB": {
+  "date": "2025-12-04",
+  "h": "6e02f3ffd79c654f"
+ },
+ "sebi/REG-SETTLE": {
+  "date": "2026-11-07",
+  "h": "85c68fe48179d930"
+ },
+ "sebi/RULES-SCRR": {
+  "date": "2026-03-13",
+  "h": "a1d1e9b20ec30513"
+ }
+}

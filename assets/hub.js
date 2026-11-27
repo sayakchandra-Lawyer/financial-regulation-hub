@@ -93,7 +93,7 @@ function renderChrome(hub, opts) {
   const f = $("#foot");
   if (f) {
     f.className = "foot";
-    const fl = [["about/", "About"], ["feedback/", "Feedback"], ["contact/", "Contact"], ["disclaimer/", "Disclaimer & privacy"]];
+    const fl = [["about/", "About"], ["faq/", "Common questions"], ["follow/", "Follow updates"], ["watchlist/", "Watchlist"], ["feedback/", "Feedback"], ["contact/", "Contact"], ["disclaimer/", "Disclaimer & privacy"]];
     f.innerHTML = `<nav class="flinks" aria-label="Site">${fl.map(([h, t]) => `<a href="${root}${h}"${opts.active === h.slice(0, -1) ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav><span><b>Not legal advice.</b> An independent, unofficial summary for general information. It may be incomplete or out of date and is not endorsed by any regulator. Verify every point against the official text before relying on it.</span><span id="asof"></span>`;
     /* the Feedback link carries the page the reader was on, so the form can prefill it */
     const fb = f.querySelector(`a[href="${root}feedback/"]`);
@@ -381,7 +381,7 @@ function sxWhere(doc, chap, para) {
   const p = String(para || "").replace(/\s*\(contd\.\)/, "");
   return [chap, p === "footnotes" ? "Footnotes" : p ? `${unit} ${p}` : ""].filter(Boolean).join(" · ");
 }
-function sxHref(root, doc) { return doc[0] === "judgments" ? `${root}judgments/#j/${encodeURIComponent(doc[1])}` : `${root}${doc[0]}/#d/${encodeURIComponent(doc[1])}`; }
+function sxHref(root, doc, para) { const a = para && doc[0] !== "judgments" ? paraSlug(para) : ""; return doc[0] === "judgments" ? `${root}judgments/#j/${encodeURIComponent(doc[1])}` : `${root}${secPath(doc[0])}/#d/${encodeURIComponent(doc[1])}${a ? "/para-" + a : ""}`; }
 /* For a phrase of 2+ words that no instrument summary holds, the full-text passages are the better answer: show them first */
 function sxFirst(raw, docs) {
   const el = $("#sxres"); if (!el || tok(raw).length < 2 || (docs || []).some(d => d.exact)) return false;
@@ -411,7 +411,7 @@ async function sxMount(el, raw, opts = {}) {
   const item = async (g) => {
     const [, chap, para, txt] = await sxPassage(g.ps[0].i) || [0, "", "", ""];
     const more = g.ps.length - 1, d = g.doc;
-    return `<div class="res sx" data-d="${g.d}"><a class="t" href="${sxHref(SX.root, d)}">${esc(d[2])}</a> ${d[3] ? '<span class="pill p-old">Superseded</span>' : ""}
+    return `<div class="res sx" data-d="${g.d}"><a class="t" href="${sxHref(SX.root, d, para)}">${esc(d[2])}</a> ${d[3] ? '<span class="pill p-old">Superseded</span>' : ""}
       <div class="m">${SX_NAME[d[0]] || d[0]}<span class="sep"></span>${esc(sxWhere(d, chap, para))}${g.ps[0].exact ? '<span class="sep"></span>Exact phrase' : ""}</div>
       <div class="s">${sxHl(sxSnippet(txt, Q), Q)}</div>
       <div class="sxa"><button class="lnk" type="button" data-read="${g.ps[0].i}">Read passage</button>${more ? `<button class="lnk" type="button" data-more="${g.d}">${more} more passage${more > 1 ? "s" : ""} in this document</button>` : ""}</div></div>`;
@@ -427,7 +427,7 @@ async function sxMount(el, raw, opts = {}) {
       if (opts.skipHere) h = head("Also in the regulations", `${rest.reduce((a, g) => a + g.ps.length, 0)} passages in ${rest.length} documents`);
       else h += m1.length ? `<div class="card sxc">${(await Promise.all(m1.map(item))).join("")}</div>` : `<p class="empty" style="padding:6px 0">Nothing in ${SX_NAME[here] || "this section"}'s full texts.</p>`;
       if (r1.length) {
-        const others = Object.keys(secCount).filter(k => k !== here).map(k => `<a class="chip" href="${k === "judgments" ? SX.root + "judgments/" : SX.root + k + "/"}#search/${encodeURIComponent(raw)}">${SX_NAME[k] || k} · ${secCount[k]}</a>`).join("");
+        const others = Object.keys(secCount).filter(k => k !== here).map(k => `<a class="chip" href="${k === "judgments" ? SX.root + "judgments/" : SX.root + secPath(k) + "/"}#search/${encodeURIComponent(raw)}">${SX_NAME[k] || k} · ${secCount[k]}</a>`).join("");
         h += `${opts.skipHere ? "" : '<h3 style="font-size:17px;margin-top:20px">In other sections</h3>'}<div class="filter" style="margin:8px 0">${others}</div><div class="card sxc">${(await Promise.all(r1.map(item))).join("")}</div>`;
       }
     } else h += `<div class="card sxc">${(await Promise.all(show.map(item))).join("")}</div>`;
@@ -442,7 +442,7 @@ async function sxMount(el, raw, opts = {}) {
       if (open) { open.remove(); rb.textContent = "Read passage"; return; }
       const i = +rb.dataset.read, p = await sxPassage(i); if (!p) return; const d = SX.meta.docs[p[0]];
       const div = document.createElement("div"); div.className = "sxp";
-      div.innerHTML = `<div class="m" style="margin-bottom:6px">${esc(sxWhere(d, p[1], p[2]))}</div><div class="sxt">${sxHl(sxClean(p[3]), Q)}</div><div class="sxa"><a class="lnk" href="${sxHref(SX.root, d)}">Open ${d[0] === "judgments" ? "the judgment summary" : "the instrument page"} →</a>${d[4] ? `<a class="lnk" href="${esc(d[4])}" target="_blank" rel="noopener">Official source ↗</a>` : ""}</div>`;
+      div.innerHTML = `<div class="m" style="margin-bottom:6px">${esc(sxWhere(d, p[1], p[2]))}</div><div class="sxt">${sxHl(sxClean(p[3]), Q)}</div><div class="sxa"><a class="lnk" href="${sxHref(SX.root, d, p[2])}">Open ${d[0] === "judgments" ? "the judgment summary" : "this " + unitFor(d[1]) + " on the instrument page"} →</a>${d[4] ? `<a class="lnk" href="${esc(d[4])}" target="_blank" rel="noopener">Official source ↗</a>` : ""}</div>`;
       rb.closest(".sxa").after(div); rb.textContent = "Close passage";
     } else if (mb) {
       e.preventDefault(); e.stopPropagation();
@@ -563,6 +563,15 @@ What it means: ${(j.impact || []).join(" ")}`.slice(0, 3200));
 async function askJudge() {
   const t = $("#jq"), raw = t.value.trim(), btn = $("#jsend");
   if (raw.length < 3 || btn.disabled) return;
+  if (!askJudge.force) {
+    const fq = await faqMatch(raw);
+    if (fq) {
+      t.value = ""; const asked = judgeMsg("me", esc(raw));
+      judgeMsg("bot faq", `<p class="jfaq">Common question: <b>${esc(fq.q)}</b></p>${faqAnswerHTML(fq)}<p><button class="lnk" type="button" data-askanyway="${esc(raw)}">Not quite your question? Ask Counsel’s Clerk</button></p>`);
+      judgeShowStart(asked); return;
+    }
+  }
+  askJudge.force = false;
   if (Judge.pick) Object.assign(Judge, Judge.pick(raw));
   const M = Judge.M;
   t.value = ""; const asked = judgeMsg("me", esc(raw));
@@ -617,6 +626,7 @@ function initJudge(opts) {
   w.addEventListener("keydown", e => { if (e.key === "Escape") closeJudge(); });
   w.addEventListener("click", e => {
     const tr = e.target.closest("[data-try]"); if (tr) { $("#jq").value = tr.dataset.try; askJudge(); return; }
+    const aa = e.target.closest("[data-askanyway]"); if (aa) { $("#jq").value = aa.dataset.askanyway; askJudge.force = true; aa.closest("p").remove(); askJudge(); return; }
     if (e.target.closest("a.lnk") && innerWidth < 700) closeJudge();
   });
 }
@@ -678,3 +688,259 @@ addEventListener("hashchange", () => setTimeout(hubTabState, 60));
 addEventListener("resize", () => hubTabState());
 addEventListener("load", () => setTimeout(hubTabState, 300));
 new MutationObserver((m, o) => { if (document.querySelector(".tabs")) { o.disconnect(); setTimeout(hubTabState, 60); } }).observe(document.documentElement, { childList: true, subtree: true });
+
+/* ---------- hub extras: full text with paragraph links, citations, print, watchlist, versions, common questions ---------- */
+const HUB_ROOT = (() => { try { const s = [...document.scripts].map(x => x.src).find(x => /assets\/hub\.js/.test(x)); return s ? s.replace(/assets\/hub\.js.*$/, "") : ""; } catch (e) { return ""; } })();
+const SEC_PATH = { laws: "other-laws", jud: "judgments", judgments: "judgments" };
+const secPath = id => SEC_PATH[id] || id;
+Object.assign(I, {
+  star: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg>',
+  starOn: '<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg>',
+  link: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg>',
+  quote: '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 18c-1-1-1.5-2.2-1.5-3.8 0-3 1.8-5.7 4.8-7.2l.8 1.2C7.2 9.3 6.4 10.6 6.3 12c.3-.1.6-.1.9-.1 1.6 0 2.8 1.2 2.8 2.9S8.7 18 7 18zm9 0c-1-1-1.5-2.2-1.5-3.8 0-3 1.8-5.7 4.8-7.2l.8 1.2c-1.9 1.1-2.7 2.4-2.8 3.8.3-.1.6-.1.9-.1 1.6 0 2.8 1.2 2.8 2.9S17.7 18 16 18z"/></svg>',
+  print: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M7 8V3.5h10V8"/><rect x="3.5" y="8" width="17" height="8" rx="2"/><path d="M7 13.5h10v7H7z"/></svg>',
+  rss: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 11a8 8 0 0 1 8 8M5 5a14 14 0 0 1 14 14"/><circle cx="6" cy="18" r="1.4" fill="currentColor"/></svg>',
+  diff: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 3v12M12 9H6M18 21V9M18 15h-6"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/></svg>',
+});
+
+/* copy to clipboard with a small confirmation */
+function hubToast(msg) {
+  let t = $("#hubtoast"); if (!t) { t = document.createElement("div"); t.id = "hubtoast"; t.setAttribute("role", "status"); document.body.appendChild(t); }
+  t.textContent = msg; t.classList.add("on"); clearTimeout(hubToast.t); hubToast.t = setTimeout(() => t.classList.remove("on"), 2200);
+}
+async function hubCopy(text, msg) {
+  try { await navigator.clipboard.writeText(text); }
+  catch (e) { const ta = document.createElement("textarea"); ta.value = text; ta.style.cssText = "position:fixed;opacity:0"; document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); } catch (e2) {} ta.remove(); }
+  hubToast(msg || "Copied");
+}
+
+/* paragraph labels → stable anchors: "12 (contd.)" → para-12, "4, 5" → para-4 */
+function paraSlug(p) { p = String(p || "").replace(/\s*\(contd\.\)\s*/i, "").split(",")[0].trim(); return p ? p.replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase() : ""; }
+function unitFor(id, type) { return /^ACT-/.test(id) || type === "Act" ? "section" : /^RULES-/.test(id) || /\bRules\b/.test(type || "") ? "rule" : /^REG-/.test(id) || /Regulations?\b/.test(type || "") ? "regulation" : "para"; }
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+function unitLabel(unit, label) {
+  if (!label) return ""; if (label === "footnotes") return "Footnotes";
+  return (/[,–-]/.test(label) && !/^\d+[A-Z]?$/.test(label) ? unit + "s " : unit + " ") + label;
+}
+
+/* one instrument's full text, from the search index's passage files */
+const HX = { docs: null, t: new Map(), changes: null, versions: null, faq: null };
+async function hubDocChunks(key) {
+  if (!HX.docs) HX.docs = getJSON(HUB_ROOT + "search/docs.json").catch(() => null);
+  const d = await HX.docs; if (!d) return null;
+  const runs = d.docs[key]; if (!runs) return [];
+  const per = d.textPer, files = new Set(); runs.forEach(([a, b]) => { for (let i = a; i < b; i++) files.add(Math.floor(i / per)); });
+  const got = {};
+  await Promise.all([...files].map(async f => { if (!HX.t.has(f)) HX.t.set(f, getJSON(HUB_ROOT + "search/t/" + f + ".json").catch(() => null)); got[f] = await HX.t.get(f); }));
+  const out = []; runs.forEach(([a, b]) => { for (let i = a; i < b; i++) { const p = (got[Math.floor(i / per)] || [])[i % per]; if (p) out.push([p[1], p[2], p[3]]); } });
+  return out;
+}
+/* merge "(contd.)" pieces into one paragraph and give every paragraph a unique anchor */
+function hubParas(chunks) {
+  const out = [], seen = {}; let cur = null;
+  (chunks || []).forEach(([chap, para, txt]) => {
+    const contd = /\(contd\.\)/i.test(para || ""), label = String(para || "").replace(/\s*\(contd\.\)\s*/i, "").trim();
+    if (contd && cur && cur.label === label) { cur.text += "\n" + txt; return; }
+    const base = paraSlug(label) || "intro", n = (seen[base] = (seen[base] || 0) + 1);
+    cur = { chap: chap || "", label, slug: n > 1 ? base + "-" + n : base, text: txt || "", alts: [] }; out.push(cur);
+    /* "50, 51": para-51 must reach this block too */
+    label.split(",").slice(1).map(x => paraSlug(x)).filter(x => x && !seen[x]).forEach(x => { seen[x] = 1; cur.alts.push(x); });
+  });
+  return out;
+}
+
+/* ---- watchlist (kept only in this browser) ---- */
+const Watch = {
+  all() { try { return JSON.parse(store.get("watch", "{}")) || {}; } catch (e) { return {}; } },
+  save(w) { store.set("watch", JSON.stringify(w)); hubWatchBadge(); },
+  has(k) { return !!this.all()[k]; },
+  toggle(k, info) { const w = this.all(); if (w[k]) delete w[k]; else w[k] = Object.assign({ added: new Date().toISOString().slice(0, 10) }, info); this.save(w); return !!w[k]; },
+  seen(k, date) { const w = this.all(); if (w[k] && date && (w[k].seen || "") < date) { w[k].seen = date; this.save(w); } },
+};
+function hubChanges() { if (!HX.changes) HX.changes = getJSON(HUB_ROOT + "changes.json").then(j => j.items || {}).catch(() => ({})); return HX.changes; }
+async function hubWatchBadge() {
+  const b = $("#watchbtn"); if (!b) return;
+  const w = Watch.all(), keys = Object.keys(w), dot = b.querySelector(".wdot");
+  b.classList.toggle("has", keys.length > 0);
+  if (!keys.length) { dot.hidden = true; return; }
+  const ch = await hubChanges(), n = keys.filter(k => ch[k] && ch[k] > (w[k].seen || w[k].added || "")).length;
+  dot.hidden = !n; dot.textContent = n > 9 ? "9+" : n;
+  b.title = n ? `Your watchlist: ${n} changed since you last looked` : "Your watchlist";
+  b.setAttribute("aria-label", b.title);
+}
+
+/* ---- toolbar on an instrument or judgment page ---- */
+function hubPrint(mode) {
+  const body = document.body; body.classList.toggle("print-text", mode === "text");
+  const done = () => { body.classList.remove("print-text"); removeEventListener("afterprint", done); };
+  addEventListener("afterprint", done); setTimeout(() => window.print(), 30);
+}
+function hubToolbar(el, o) {
+  if (!el) return;
+  const draw = () => {
+    const on = Watch.has(o.key);
+    el.innerHTML = `<div class="dtools" role="toolbar" aria-label="Page tools">
+      <button type="button" class="btn g sm${on ? " on" : ""}" data-t="watch" aria-pressed="${on}">${on ? I.starOn : I.star} ${on ? "Watching" : "Watch"}</button>
+      <button type="button" class="btn g sm" data-t="link">${I.link} Copy link</button>
+      <button type="button" class="btn g sm" data-t="cite">${I.quote} Copy citation</button>
+      <button type="button" class="btn g sm" data-t="print">${I.print} Print or save PDF</button></div>
+      <div class="printonly">${esc(o.printLine || "")}</div>`;
+  };
+  draw();
+  el.onclick = e => {
+    const b = e.target.closest("[data-t]"); if (!b) return;
+    const t = b.dataset.t;
+    if (t === "watch") { const on = Watch.toggle(o.key, o.watchInfo); if (on && o.changeDate) Watch.seen(o.key, o.changeDate); draw(); hubToast(on ? "Added to your watchlist" : "Removed from your watchlist"); }
+    else if (t === "link") hubCopy(o.url, "Link copied");
+    else if (t === "cite") hubCopy(o.cite, "Citation copied");
+    else if (t === "print") hubPrint();
+  };
+}
+const pageUrl = hash => location.origin + location.pathname + hash;
+const todayLong = () => fmtDate(new Date().toISOString().slice(0, 10));
+
+/* Called by each section page after it draws an instrument page. o: { sec, it, id, anchor } */
+async function hubDocMount(o) {
+  const { sec, it, id } = o; if (!it) return;
+  const key = sec.id + "/" + id, unit = unitFor(id, it.type);
+  const title = it.title || it.label, upd = it.updated ? `, as updated on ${fmtDate(it.updated)}` : "";
+  const official = it.url || it.pdf || "";
+  const ch = await hubChanges(), changeDate = ch[key] || it.updated || "";
+  const citeFor = label => `${title}${label ? ", " + unitLabel(unit, label) : ""}${it.ref && !label ? ` (${it.ref})` : ""}${upd}.${official ? " " + official : ""}`;
+  hubToolbar($("#hubtools"), {
+    key, url: pageUrl(`#d/${id}`), cite: citeFor(""), changeDate,
+    watchInfo: { t: it.label, s: sec.short, h: secPath(sec.id) + "/#d/" + id },
+    printLine: `Financial Regulation Hub · ${pageUrl(`#d/${id}`)} · printed ${todayLong()}. Not legal advice; the official text governs.`,
+  });
+  if (Watch.has(key)) Watch.seen(key, changeDate);
+  { const dos = $(".dossier"); if (dos) for (const c of dos.children) { c.classList.add("pkeep"); if (c.id === "hubtools") break; } }
+  /* full text */
+  const box = $("#hubtext");
+  if (box) {
+    const want = /^para-/.test(o.anchor || "") ? o.anchor : "";
+    box.innerHTML = `<div class="ftbar"><button type="button" class="btn g sm" data-ft="open">Show the full text</button><span class="tag">Every ${unit} has its own link and citation.</span></div>`;
+    let paras = null;
+    const draw = async (scrollTo) => {
+      box.innerHTML = `<p class="tag">Opening the full text…</p>`;
+      if (!paras) paras = hubParas(await hubDocChunks(key));
+      if (!paras || !paras.length) { box.innerHTML = `<p class="empty">The full text of this instrument is not on the site yet.${official ? ` <a class="lnk" href="${esc(official)}" target="_blank" rel="noopener">Read the official text ${I.ext}</a>` : ""}</p>`; return; }
+      let chap = null, html = `<div class="ftbar"><button type="button" class="btn g sm" data-ft="print">${I.print} Print the full text</button><button type="button" class="btn g sm" data-ft="close">Hide the full text</button><span class="tag">${paras.length} ${paras.length === 1 ? "part" : "parts"}. The official text governs.</span></div><div class="ft">`;
+      paras.forEach(p => {
+        if (p.chap && p.chap !== chap) { chap = p.chap; html += `<h3 class="ftch">${esc(chap)}</h3>`; }
+        const lab = unitLabel(unit, p.label);
+        html += `<div class="ftp" id="para-${esc(p.slug)}">${p.alts.map(x => `<span class="ftalt" id="para-${esc(x)}"></span>`).join("")}<div class="ftl">${lab ? `<b>${esc(cap(lab))}</b>` : ""}<span class="fta"><button type="button" class="ftb" data-plink="${esc(p.slug)}" title="Copy link to this ${unit}" aria-label="Copy link to ${esc(lab || "this part")}">${I.link}</button><button type="button" class="ftb" data-pcite="${esc(p.slug)}" title="Copy citation" aria-label="Copy citation for ${esc(lab || "this part")}">${I.quote}</button></span></div><div class="ftx">${esc(sxClean(p.text))}</div></div>`;
+      });
+      box.innerHTML = html + "</div>";
+      if (scrollTo) {
+        let a = scrollTo, el = document.getElementById(a);
+        while (!el && /-[^-]+$/.test(a.slice(5))) { a = a.replace(/-[^-]+$/, ""); el = document.getElementById(a); }   /* para-12-1 → para-12 */
+        const blk = el && el.closest(".ftp"); if (blk) { blk.classList.add("hit"); blk.scrollIntoView({ block: "start" }); }
+      }
+    };
+    box.onclick = e => {
+      const b = e.target.closest("[data-ft],[data-plink],[data-pcite]"); if (!b) return;
+      if (b.dataset.ft === "open") draw();
+      else if (b.dataset.ft === "close") { box.innerHTML = `<div class="ftbar"><button type="button" class="btn g sm" data-ft="open">Show the full text</button></div>`; $("#s-text").scrollIntoView(); }
+      else if (b.dataset.ft === "print") hubPrint("text");
+      else if (b.dataset.plink) { history.replaceState(null, "", `#d/${id}/para-${b.dataset.plink}`); hubCopy(pageUrl(`#d/${id}/para-${b.dataset.plink}`), "Link to this " + unit + " copied"); }
+      else if (b.dataset.pcite) { const p = paras.find(x => x.slug === b.dataset.pcite); hubCopy(citeFor(p ? p.label : ""), "Citation copied"); }
+    };
+    if (want) draw(want);
+  }
+  /* earlier versions and redline */
+  const vb = $("#hubver");
+  if (vb) {
+    if (!HX.versions) HX.versions = getJSON(HUB_ROOT + "versions/index.json").catch(() => ({}));
+    const list = (await HX.versions)[key] || [];
+    vb.innerHTML = list.length
+      ? `<div class="vbox"><div class="hk">Earlier versions of the text</div>${list.map(v => `<div class="ob"><span class="pill p-grey">As on ${fmtDate(v.date)}</span><span><button type="button" class="lnk" data-cmp="${esc(v.file)}" data-date="${esc(v.date)}">${I.diff} Compare with the current text</button></span></div>`).join("")}<div id="hubdiff"></div></div>`
+      : `<p class="tag" style="margin:6px 0 10px">${I.diff} When this text is amended, the earlier version is kept here with a redline of every change.</p>`;
+    vb.onclick = async e => {
+      const b = e.target.closest("[data-cmp]"); if (!b) return;
+      const out = $("#hubdiff"); out.innerHTML = `<p class="tag">Comparing…</p>`;
+      const [old, cur] = await Promise.all([getJSON(HUB_ROOT + b.dataset.cmp).catch(() => null), hubDocChunks(key)]);
+      if (!old || !cur) { out.innerHTML = `<p class="empty">The comparison could not be loaded.</p>`; return; }
+      out.innerHTML = hubRedline(hubParas(old.chunks), hubParas(cur), unit, b.dataset.date, changeDate || it.updated);
+      out.scrollIntoView({ block: "start", behavior: "smooth" });
+    };
+  }
+}
+
+/* ---- redline: paragraphs matched by label, words compared inside each ---- */
+function hubWordDiff(a, b) {
+  const A = a.match(/\S+\s*/g) || [], B = b.match(/\S+\s*/g) || [];
+  if (A.length * B.length > 4e6) return `<del>${esc(a)}</del><ins>${esc(b)}</ins>`;
+  const n = A.length, m = B.length, W = m + 1, L = new Uint32Array((n + 1) * W);
+  const eq = (x, y) => x.trim() === y.trim();
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--) L[i * W + j] = eq(A[i], B[j]) ? L[(i + 1) * W + j + 1] + 1 : Math.max(L[(i + 1) * W + j], L[i * W + j + 1]);
+  let i = 0, j = 0, out = "", d = "", s = "";
+  const flush = () => { if (d) out += `<del>${esc(d)}</del>`; if (s) out += `<ins>${esc(s)}</ins>`; d = s = ""; };
+  while (i < n && j < m) {
+    if (eq(A[i], B[j])) { flush(); out += esc(B[j]); i++; j++; }
+    else if (L[(i + 1) * W + j] >= L[i * W + j + 1]) d += A[i++]; else s += B[j++];
+  }
+  while (i < n) d += A[i++]; while (j < m) s += B[j++]; flush();
+  return out;
+}
+function hubRedline(oldP, curP, unit, oldDate, curDate) {
+  const key = p => p.slug, norm = t => String(t).replace(/\s+/g, " ").trim();
+  const om = new Map(oldP.map(p => [key(p), p])), cm = new Map(curP.map(p => [key(p), p]));
+  const rows = []; let oi = 0;
+  curP.forEach(p => {
+    const o = om.get(key(p));
+    if (o) { const at = oldP.indexOf(o); for (; oi < at; oi++) if (!cm.has(key(oldP[oi]))) rows.push({ k: "del", o: oldP[oi] }); oi = Math.max(oi, at + 1); }
+    rows.push(o ? (norm(o.text) === norm(p.text) ? { k: "same", p } : { k: "chg", o, p }) : { k: "add", p });
+  });
+  for (; oi < oldP.length; oi++) if (!cm.has(key(oldP[oi]))) rows.push({ k: "del", o: oldP[oi] });
+  const nC = rows.filter(r => r.k === "chg").length, nA = rows.filter(r => r.k === "add").length, nD = rows.filter(r => r.k === "del").length;
+  const lab = p => esc(cap(unitLabel(unit, p.label) || "Opening text"));
+  const body = rows.map(r => r.k === "same" ? `<div class="rl same"><div class="ftl"><b>${lab(r.p)}</b><span class="tag">No change</span></div></div>`
+    : r.k === "chg" ? `<div class="rl chg"><div class="ftl"><b>${lab(r.p)}</b><span class="tag">Changed</span></div><div class="ftx">${hubWordDiff(sxClean(r.o.text), sxClean(r.p.text))}</div></div>`
+    : r.k === "add" ? `<div class="rl add"><div class="ftl"><b>${lab(r.p)}</b><span class="tag">New</span></div><div class="ftx"><ins>${esc(sxClean(r.p.text))}</ins></div></div>`
+    : `<div class="rl del"><div class="ftl"><b>${lab(r.o)}</b><span class="tag">Removed</span></div><div class="ftx"><del>${esc(sxClean(r.o.text))}</del></div></div>`).join("");
+  return `<div class="rlhead"><b>Text as on ${fmtDate(oldDate)} compared with the current text${curDate ? ` (as on ${fmtDate(curDate)})` : ""}</b>
+    <span class="tag">${nC} changed, ${nA} new, ${nD} removed. <ins>Added words</ins> <del>Removed words</del></span>
+    <label class="tag rlall"><input type="checkbox" onchange="this.closest('.vbox').classList.toggle('showsame',this.checked)"> Show unchanged ${unit}s too</label></div>${nC + nA + nD ? body : `<p class="empty">The wording is the same; only layout differs.</p>`}`;
+}
+
+/* Called by the judgments page after it draws a judgment */
+async function hubJudMount(o) {
+  const j = o.j; if (!j) return;
+  const key = "jud/" + j.id, ch = await hubChanges();
+  const cite = `${j.title}, ${j.court}, decided ${fmtDate(j.date)}${j.neutral_citation ? `, ${j.neutral_citation}` : ""}${j.report_citation && j.report_citation !== j.neutral_citation ? `, ${j.report_citation}` : ""}.${j.url ? " " + j.url : ""}`;
+  hubToolbar($("#hubtools"), { key, url: pageUrl(`#j/${j.id}`), cite, changeDate: ch[key] || "",
+    watchInfo: { t: j.title, s: "Judgments", h: "judgments/#j/" + j.id },
+    printLine: `Financial Regulation Hub · ${pageUrl(`#j/${j.id}`)} · printed ${todayLong()}. A summary, not the judgment; read the judgment before relying on it.` });
+  if (Watch.has(key)) Watch.seen(key, ch[key]);
+}
+
+/* ---- common questions: answered from faq/faq.json before the question goes to the AI ---- */
+function hubFaq() { if (!HX.faq) HX.faq = getJSON(HUB_ROOT + "faq/faq.json").then(d => (d.items || []).filter(x => x.status === "approved")).catch(() => []); return HX.faq; }
+const faqWords = s => [...new Set(tok(s).filter(w => w.length > 2 && !STOP.has(w)).map(jstem))];
+async function faqMatch(raw) {
+  const items = await hubFaq(), q = new Set(faqWords(raw)); if (q.size < 2) return null;
+  let best = null;
+  items.forEach(x => {
+    const k = faqWords(x.q + " " + (x.keywords || []).join(" ")), core = faqWords(x.q);
+    const hit = core.filter(w => q.has(w)).length, cov = hit / Math.max(1, core.length), qc = k.filter(w => q.has(w)).length / q.size;
+    const sc = cov * 0.6 + qc * 0.4;
+    if (hit >= 2 && cov >= 0.6 && qc >= 0.5 && (!best || sc > best.sc)) best = { x, sc };
+  });
+  return best && best.x;
+}
+function faqRefHref(r) { return HUB_ROOT + (r.sec === "jud" ? `judgments/#j/${r.id}` : `${secPath(r.sec)}/#d/${r.id}${r.para ? "/para-" + paraSlug(r.para) : ""}`); }
+function faqAnswerHTML(x) {
+  const paras = String(x.a || "").split(/\n{2,}/).map(p => `<p>${esc(p).replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/\n/g, "<br>")}</p>`).join("");
+  const refs = (x.refs || []).map(r => `<a class="lnk" href="${esc(faqRefHref(r))}">${esc(r.label || r.id)}</a>`).join(" · ");
+  return paras + (refs ? `<p class="jsrc">Where it says so: ${refs}</p>` : "");
+}
+
+/* header star: the watchlist button, drawn next to the theme toggle on every page */
+(function () {
+  const add = () => {
+    const tb = $("#themebtn"); if (!tb || $("#watchbtn")) return !!tb;
+    const a = document.createElement("a"); a.id = "watchbtn"; a.className = "iconbtn"; a.href = HUB_ROOT + "watchlist/"; a.title = "Your watchlist"; a.setAttribute("aria-label", "Your watchlist");
+    a.innerHTML = `${I.star}<i class="wdot" hidden></i>`; tb.before(a); hubWatchBadge(); return true;
+  };
+  if (!add()) new MutationObserver((m, o) => { if (add()) o.disconnect(); }).observe(document.documentElement, { childList: true, subtree: true });
+})();

@@ -10,7 +10,9 @@ on:
       - "index.html"
       - "tools/build_pages.py"
       - "*/data/*_graph.json"
-      - "rbi/data/fulltext.json"
+      - "*/data/fulltext.json"
+      - "*/data/updates.json"
+      - "tools/build_extras.py"
       - "tools/build_entity.py"
       - "tools/entity_rules.py"
   workflow_dispatch:
@@ -25,6 +27,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # build_extras.py reads the previous full text from history to keep earlier versions
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -32,11 +36,13 @@ jobs:
         run: python3 -I tools/build_pages.py
       - name: Build entity applicability data
         run: python3 -I tools/build_entity.py
+      - name: Build feeds, watchlist dates and earlier versions
+        run: python3 -I tools/build_extras.py
       - name: Commit if changed
         run: |
-          git add -A -- sitemap.xml robots.txt ':(glob)**/index.html' entity/data/entity.json
+          git add -A -- sitemap.xml robots.txt ':(glob)**/index.html' entity/data/entity.json feed.xml ':(glob)*/feed.xml' changes.json versions
           git diff --cached --quiet && { echo "No change"; exit 0; }
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Rebuild static pages and sitemap"
+          git commit -m "Rebuild static pages, feeds and version history"
           git push
