@@ -144,13 +144,15 @@ Commencement is by notification, Act by Act; none was found.
   - RULES-PML: now partly cured by RULES-PML-AMD2022 and RULES-PML-AMD2023.
   - STAMP-RJ: now the 2026 update.
 
+Later on 27-11 the principal Bihar PID Act 2002 (Hindi) was also found there (PID-BR).
+
 ## Missing / not fetched (after 27-11 retry)
 These are the rows with a blank `file` column in `_catalogue.tsv`. The notes on each row give the reason.
 
 | Reason | IDs |
 |---|---|
-| Not on the new India Code either (searched by title) | STAMP-GJ, STAMP-WB-2021, PID-TN, PID-BR (principal 2002 Act; only the 2013 and 2017 amendments are there) |
-| Gazette-only rules; eGazette refused connections | RULES-STAMPCOLL, RULES-CPA-JUR |
+| Not on the new India Code either (searched by title) | STAMP-GJ, STAMP-WB-2021, PID-TN |
+| Gazette-only rules; not on the new India Code; eGazette refused connections | RULES-STAMPCOLL, RULES-CPA-JUR |
 | Site blocked | DRAFT-ARB-2024 (Dept of Legal Affairs, 403) |
 | rbidocs CAPTCHA (not bypassed) | AMD-PSS-20250520 |
 
@@ -221,7 +223,7 @@ These are the rows with a blank `file` column in `_catalogue.tsv`. The notes on 
 | MF-AS | fetched | State: Assam. Image-only PDF; txt is machine OCR. |
 | PID-MH | fetched | India Code returned 504; Maharashtra Home Dept copy used. Image-only, txt is machine OCR. State: Maharashtra. |
 | PID-TN | **missing** | State: Tamil Nadu. NOT FETCHED: no official full-text PDF found in time (only TN Gazette orders under s.3). |
-| PID-BR | **missing** | NOT FETCHED (download failed). State: Bihar. |
+| PID-BR | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Bihar. Bihar Gazette (Hindi) text of the 2002 Act; India Code item is titled 'NBFC Act 2002 & Rules 2004'. State: Bihar. |
 | AMD-RDB-20260813 | fetched | Bill No. 153-F of 2026 as passed by both Houses (assent 13-08-2026). In force 25-08-2026 per notification CG-DL-E-25082026-275749 (eGazette ID; PDF not fetched because eGazette refused connections; date confirmed only by secondary reports). Also serves as AMD-CPA-20260813. |
 | AMD-PSS-20260817 | fetched | s.10A: 'electronic modes of payment prescribed under s.269SU of the Income-tax Act, 1961' replaced by 'one or more electronic modes of payment as the Central Government may, by notification, specify', w.e.f. publication of the Act in the Gazette. Text is the Bill as passed (assent 17-08-2026). |
 | ACT-BBE-2026 | fetched | Gazette of India Part II s.1 copy posted by DFS. In force 01-10-2026 by notification dated 10-09-2026 (PIB PRID 2309122). |
@@ -244,4 +246,4 @@ These are the rows with a blank `file` column in `_catalogue.tsv`. The notes on 
 | PID-BR-AMD2013 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Bihar. Hindi Gazette text. |
 | PID-BR-AMD2017 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Bihar. Hindi Gazette text. |
 
-Fetched: 77 of 85 rows.
+Fetched: 78 of 85 rows.
