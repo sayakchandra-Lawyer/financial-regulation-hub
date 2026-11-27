@@ -2,7 +2,7 @@
  "meta": {
   "title": "Key judgments for financial services",
   "as_of": "2026-11-27",
-  "count": 139,
+  "count": 140,
   "sectors": [
    {
     "key": "lending",
@@ -278,6 +278,41 @@
    "facts": "A bank lent to a cold-storage company in 2013 and assigned the debt to an asset reconstruction company. The NCLAT dismissed the insolvency application as time-barred.",
    "forum": "sc",
    "area": "recovery"
+  },
+  {
+   "id": "JANGRA-SBI",
+   "title": "Ravi Kumar Jangra v. Union of India",
+   "court": "Supreme Court",
+   "date": "2026-11-19",
+   "neutral_citation": "",
+   "report_citation": "",
+   "case_no": "Writ Petition (Civil) No. 1415 of 2026 (order)",
+   "bench": "Surya Kant CJI, Joymalya Bagchi and V. Mohana JJ.",
+   "topic": "Homebuyer EMIs under a tripartite agreement: check the builder-bank nexus first",
+   "sectors": [
+    "hfc",
+    "lending"
+   ],
+   "issue": "Can a court direct homebuyers to pay instalments on housing loans disbursed under a tripartite agreement while the project is stalled and the builder is in insolvency?",
+   "holding": [
+    "Before ordering a homebuyer to pay instalments, the court must first examine the nexus between the builder and the bank, and whether the bank released the loan strictly as the tripartite agreement required.",
+    "No interim direction to pay instalments can issue unless the court finds clearly that the homebuyer is in default.",
+    "The Civil Court was told not to take coercive action against the petitioners or similarly placed homebuyers until it decides that issue. This is ad-interim protection only; the Court expressed no view on the merits."
+   ],
+   "impact": [
+    "Lenders with construction-linked or subvention home loans should be ready to show that each disbursement matched construction progress as the tripartite agreement required.",
+    "Recovery suits against homebuyers in stalled projects may not get interim payment orders until this is decided."
+   ],
+   "statutes": [
+    "Constitution of India, Article 32"
+   ],
+   "links": [],
+   "status": "Interim order",
+   "status_note": "Order of 19-11-2026 disposing of the writ petition with ad-interim protection; no view on the merits.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=659122026&type=o&order_date=2026-11-19&from=latest_judgements_order",
+   "facts": "Homebuyers in a stalled housing project in Gurugram took loans under a tripartite agreement with the bank and the builder, with disbursement linked to construction. The bank allegedly paid the builder without matching progress. The builder entered insolvency in August 2025, and the bank sued the homebuyers for recovery and obtained interim orders to pay instalments.",
+   "forum": "sc",
+   "area": "consumer"
   },
   {
    "id": "TWINSTAR-BOM",
