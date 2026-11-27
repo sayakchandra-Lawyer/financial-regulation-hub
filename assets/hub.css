@@ -249,3 +249,4 @@ del{background:color-mix(in srgb,var(--danger) 18%,transparent);color:color-mix(
   body.print-text #s-text{margin-top:14px}
   .ftp.hit{background:none!important}
 }
+.panel{padding:20px}
