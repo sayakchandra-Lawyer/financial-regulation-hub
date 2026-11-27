@@ -76,13 +76,115 @@
     "para": "s. 2(14)",
     "def": "means goods identified and agreed upon at the time a contract of sale is made; and",
     "scope": ""
+   },
+   {
+    "term": "sale",
+    "para": "s. 4(3)",
+    "def": "Where under a contract of sale the property in the goods is transferred from the seller to the buyer, the contract is called a sale",
+    "scope": ""
+   },
+   {
+    "term": "agreement to sell",
+    "para": "s. 4(3)",
+    "def": "where the transfer of the property in the goods is to take place at a future time or subject to some condition thereafter to be fulfilled, the contract is called an agreement to sell",
+    "scope": ""
    }
   ],
   "ACT-TPA": [
    {
     "term": "registered",
     "para": "definitions",
-    "def": "means registered in any part of the territories to which this Act extends under the law8 for the time being in force regulating the registration of documents:",
+    "def": "means registered in any part of the territories to which this Act extends under the law for the time being in force regulating the registration of documents:",
+    "scope": ""
+   },
+   {
+    "term": "attached to the earth",
+    "para": "definitions",
+    "def": "means-- (a) rooted in the earth, as in the case of trees and shrubs; (b) imbedded in the earth, as in the case of walls or buildings; or (c) attached to what is so imbedded for the permanent beneficial enjoyment of that to which it is attached:",
+    "scope": ""
+   },
+   {
+    "term": "actionable claim",
+    "para": "definitions",
+    "def": "means a claim to any debt, other than a debt secured by mortgage",
+    "scope": ""
+   },
+   {
+    "term": "sale",
+    "para": "s. 54",
+    "def": "\"Sale\" is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised",
+    "scope": ""
+   },
+   {
+    "term": "mortgage",
+    "para": "s. 58(a)",
+    "def": "A mortgage is the transfer of an interest in specific immoveable property for the purpose of securing the payment of money advanced or to be advanced by way of loan, an existing or future debt, or the performance of an engagement which may give rise to a pecuniary liability",
+    "scope": ""
+   },
+   {
+    "term": "mortgagor",
+    "para": "s. 58(a)",
+    "def": "The transferor is called a mortgagor, the transferee a mortgagee; the principal money and interest of which payment is secured for the time being are called the mortgage-money, and the instrument (if any) by which the transfer is effected is called a mortgage-deed",
+    "scope": ""
+   },
+   {
+    "term": "mortgagee",
+    "para": "s. 58(a)",
+    "def": "The transferee of an interest in specific immoveable property under a mortgage is called a mortgagee",
+    "scope": ""
+   },
+   {
+    "term": "mortgage-money",
+    "para": "s. 58(a)",
+    "def": "the principal money and interest of which payment is secured for the time being are called the mortgage-money",
+    "scope": ""
+   },
+   {
+    "term": "mortgage-deed",
+    "para": "s. 58(a)",
+    "def": "the instrument (if any) by which the transfer is effected is called a mortgage-deed",
+    "scope": ""
+   },
+   {
+    "term": "simple mortgage",
+    "para": "s. 58(b)",
+    "def": "Where, without delivering possession of the mortgaged property, the mortgagor binds himself personally to pay the mortgage-money, and agrees, expressly or impliedly, that, in the event of his failing to pay according to his contract, the mortgagee shall have a right to cause the mortgaged property to be sold and the proceeds of sale to be applied, so far as may be necessary, in payment of the mortgage-money, the transaction is called a simple mortgage",
+    "scope": ""
+   },
+   {
+    "term": "mortgage by conditional sale",
+    "para": "s. 58(c)",
+    "def": "Where the mortgagor ostensibly sells the mortgaged property on condition that on default of payment on a certain date the sale shall become absolute, or that on payment the sale shall become void or the buyer shall transfer the property to the seller, the transaction is called a mortgage by conditional sale; it is not a mortgage unless the condition is embodied in the document which effects or purports to effect the sale",
+    "scope": ""
+   },
+   {
+    "term": "usufructuary mortgage",
+    "para": "s. 58(d)",
+    "def": "Where the mortgagor delivers possession, or expressly or by implication binds himself to deliver possession, of the mortgaged property to the mortgagee, and authorises him to retain such possession until payment of the mortgage-money, and to receive the rents and profits (or any part of them) in lieu of interest, or in payment of the mortgage-money, or partly in lieu of interest or partly in payment of the mortgage-money, the transaction is called an usufructuary mortgage",
+    "scope": ""
+   },
+   {
+    "term": "English mortgage",
+    "para": "s. 58(e)",
+    "def": "Where the mortgagor binds himself to re-pay the mortgage-money on a certain date, and transfers the mortgaged property absolutely to the mortgagee, but subject to a proviso that he will re-transfer it to the mortgagor upon payment of the mortgage-money as agreed, the transaction is called an English mortgage",
+    "scope": ""
+   },
+   {
+    "term": "mortgage by deposit of title-deeds",
+    "para": "s. 58(f)",
+    "def": "Where a person in the towns of Calcutta, Madras and Bombay, or any other town notified by the State Government, delivers to a creditor or his agent documents of title to immoveable property, with intent to create a security thereon, the transaction is called a mortgage by deposit of title-deeds",
+    "scope": ""
+   },
+   {
+    "term": "anomalous mortgage",
+    "para": "s. 58(g)",
+    "def": "A mortgage which is not a simple mortgage, a mortgage by conditional sale, an usufructuary mortgage, an English mortgage or a mortgage by deposit of title-deeds within the meaning of this section is called an anomalous mortgage",
+    "scope": ""
+   },
+   {
+    "term": "charge",
+    "para": "s. 100",
+    "def": "Where immoveable property of one person is by act of parties or operation of law made security for the payment of money to another, and the transaction does not amount to a mortgage, the latter person is said to have a charge on the property; the provisions that apply to a simple mortgage apply, so far as may be, to such charge",
     "scope": ""
    }
   ],
@@ -90,7 +192,37 @@
    {
     "term": "registered",
     "para": "definitions",
-    "def": "means registered under the law for the registration of documents for the time being in force: \"notice\":--a person is said to have \"notice\" of a fact either when he actually knows that fact, or when, but for wilful abstention from inquiry or gross negligence, he would have known it, or when information of the fact is given to or obtained by his agent, under the circumstances mentioned in the Indian Contract Act,…",
+    "def": "means registered under the law for the registration of documents for the time being in force:",
+    "scope": ""
+   },
+   {
+    "term": "trust",
+    "para": "s. 3",
+    "def": "A \"trust\" is an obligation annexed to the ownership of property, and arising out of a confidence reposed in and accepted by the owner, or declared and accepted by him, for the benefit of another, or of another and the owner",
+    "scope": ""
+   },
+   {
+    "term": "trustee",
+    "para": "s. 3",
+    "def": "the person who reposes or declares the confidence is called the \"author of the trust\"; the person who accepts the confidence is called the \"trustee\"; the person for whose benefit the confidence is accepted is called the \"beneficiary\"",
+    "scope": ""
+   },
+   {
+    "term": "beneficiary",
+    "para": "s. 3",
+    "def": "the person for whose benefit the confidence is accepted is called the \"beneficiary\"; the \"beneficial interest\" of the beneficiary is his right against the trustee as owner of the trust-property",
+    "scope": ""
+   },
+   {
+    "term": "trust-property",
+    "para": "s. 3",
+    "def": "the subject-matter of the trust is called \"trust-property\" or \"trust-money\"",
+    "scope": ""
+   },
+   {
+    "term": "breach of trust",
+    "para": "s. 3",
+    "def": "a breach of any duty imposed on a trustee, as such, by any law for the time being in force, is called a \"breach of trust\"",
     "scope": ""
    }
   ],
@@ -105,6 +237,18 @@
     "term": "asset reconstruction",
     "para": "s. 2",
     "def": "means acquisition by any asset reconstruction company of any right or interest of any bank or financial institution in any financial assistance for the purpose of realisation of such financial assistance;",
+    "scope": ""
+   },
+   {
+    "term": "asset reconstruction company",
+    "para": "s. 2",
+    "def": "means a company registered with Reserve Bank under section 3 for the purposes of carrying on the business of asset reconstruction or securitisation, or both;",
+    "scope": ""
+   },
+   {
+    "term": "bank",
+    "para": "s. 2",
+    "def": "means-- (i) a banking company; or (ii) a corresponding new bank; or (iii) the State Bank of India; or (iv) a subsidiary bank; or (iva) a multi-State co-operative bank; or (v) such other bank which the Central Government may, by notification, specify for the purposes of this Act;",
     "scope": ""
    },
    {
@@ -126,9 +270,27 @@
     "scope": ""
    },
    {
+    "term": "company",
+    "para": "s. 2",
+    "def": "means a company as defined in clause (20) of section 2 of the Companies",
+    "scope": ""
+   },
+   {
     "term": "Debts Recovery Tribunal",
     "para": "s. 2",
     "def": "means the Tribunal established under sub-section (1) of section 3 of the Recovery of Debts due to Banks and Financial Institutions Act, 1993 (51 of 1993);",
+    "scope": ""
+   },
+   {
+    "term": "debt securities",
+    "para": "s. 2",
+    "def": "means debt securities listed in accordance with the regulations made by the Board under the Securities and Exchange Board of India Act,1992 (15 of 1992);",
+    "scope": ""
+   },
+   {
+    "term": "default",
+    "para": "s. 2",
+    "def": "means-- (i) non-payment of any debt or any other amount payable by the borrower to any secured creditor consequent upon which the account of such borrower is classified as non-performing asset in the books of account of the secured creditor; or (ii) non-payment of any debt or any other amount payable by the borrower with respect to debt securities after notice of ninety days demanding payment of dues served upon…",
     "scope": ""
    },
    {
@@ -140,13 +302,31 @@
    {
     "term": "financial asset",
     "para": "s. 2",
-    "def": "means debt or receivables and includes--",
+    "def": "means debt or receivables and includes-- (i) a claim to any debt or receivables or part thereof, whether secured or unsecured; or (ii) any debt or receivables secured by, mortgage of, or charge on, immovable property; or (iii) a mortgage, charge, hypothecation or pledge of movable property; or (iv) any right or interest in the security, whether full or part underlying such debt or receivables; or (v) any…",
+    "scope": ""
+   },
+   {
+    "term": "financial institution",
+    "para": "s. 2",
+    "def": "means-- (i) a public financial institution within the meaning of section 4A of the Companies Act, 1956 (ii) any institution specified by the Central Government under sub-clause (ii) of clause (h) of section 2 of the Recovery of Debts Due to Banks and Financial Institutions Act, 1993 (iii) the International Finance Corporation established under the International Finance Corporation (Status, Immunities and…",
+    "scope": ""
+   },
+   {
+    "term": "financial lease",
+    "para": "s. 2",
+    "def": "means a lease under any lease agreement of tangible asset, other than negotiable instrument or negotiable document, for transfer of lessor's right therein to the lessee for a certain time in consideration of payment of agreed amount periodically and where the lessee becomes the owner of the such assets at the expiry of the term of lease or on payment of the agreed residual amount, as the case may be;",
     "scope": ""
    },
    {
     "term": "hypothecation",
     "para": "s. 2",
     "def": "means a charge in or upon any movable property, existing or future, created by a borrower in favour of a secured creditor without delivery of possession of the movable property to such creditor, as a security for financial assistance and includes floating charge and crystallisation of such charge into fixed charge on movable property;",
+    "scope": ""
+   },
+   {
+    "term": "negotiable document",
+    "para": "s. 2",
+    "def": "means a document, which embodies a right to delivery of tangible assets and satisfies the requirements for negotiability under any law for the time being in force including warehouse receipt and bill of lading;",
     "scope": ""
    },
    {
@@ -180,7 +360,13 @@
     "scope": ""
    },
    {
-    "term": "4[qualified buyer]",
+    "term": "property",
+    "para": "s. 2",
+    "def": "means-- (i) immovable property; (ii) movable property; (iii) any debt or any right to receive payment of money, whether secured or unsecured; (iv) receivables, whether existing or future; (v) intangible assets, being know-how, patent, copyright, trade mark, licence, franchise or any other business or commercial right of similar nature1[as may be prescribed by the Central Government in consultation with Reserve Bank;",
+    "scope": ""
+   },
+   {
+    "term": "qualified buyer",
     "para": "s. 2",
     "def": "means a financial institution, insurance company, bank, state financial corporation, state industrial development corporation, trustee or asset reconstruction company which has been granted a certificate of registration under sub-section (4) of section 3 or any asset management company making investment on behalf of mutual fund or a foreign institutional investor registered under the Securities and Exchange Board…",
     "scope": ""
@@ -222,9 +408,21 @@
     "scope": ""
    },
    {
+    "term": "secured creditor",
+    "para": "s. 2",
+    "def": "means-- (i) any bank or financial institution or any consortium or group of banks or financial institutions holding any right, title or interest upon any tangible asset or intangible asset as specified in clause (l); (ii) debenture trustee appointed by any bank or financial institution; or (iii) an asset reconstruction company whether acting as such or managing a trust set up by such asset reconstruction company…",
+    "scope": ""
+   },
+   {
     "term": "secured debt",
     "para": "s. 2",
     "def": "means a debt which is secured by any security interest;",
+    "scope": ""
+   },
+   {
+    "term": "security interest",
+    "para": "s. 2",
+    "def": "means right, title or interest of any kind, other than those specified in section 31, upon property created in favour of any secured creditor and includes--",
     "scope": ""
    },
    {
@@ -268,12 +466,6 @@
     "para": "s. 2",
     "def": "means the asset reconstruction company or any person which has committed any failure, contravention or default under this Act and any person incharge of such company or such other person, as the case may be, shall be liable to be proceeded against and punished under section 33 for such failure or contravention or default committed by such company or person. 30B. Appeal against penalties.--A person in default,…",
     "scope": ""
-   },
-   {
-    "term": "company'",
-    "para": "s. 2",
-    "def": "means any body corporate and includes a firm or other association of individuals;",
-    "scope": ""
    }
   ],
   "ACT-RDB": [
@@ -290,6 +482,42 @@
     "scope": ""
    },
    {
+    "term": "bank",
+    "para": "s. 2",
+    "def": "means-- (i) banking company; (ii) a corresponding new bank; (iii) State Bank of India; (iv) a subsidiary bank; or (v) a Regional Rural Bank; (vi) a multi-State co-operative bank;",
+    "scope": ""
+   },
+   {
+    "term": "Chairperson",
+    "para": "s. 2",
+    "def": "means a Chairperson of an Appellate Tribunal appointed under section 9;",
+    "scope": ""
+   },
+   {
+    "term": "debt",
+    "para": "s. 2",
+    "def": "means any liability (inclusive of interest) which is claimed as due from any person or a pooled investment vehicle as defined in clause (da) of section 2 of the Securities Contracts (Regulation) Act, 1956 (42 of 1956) by a bank or a financial institution or by a consortium of banks or financial institutions during the course of any business activity undertaken by the bank or the financial institution or the…",
+    "scope": ""
+   },
+   {
+    "term": "debt securities",
+    "para": "s. 2",
+    "def": "means debt securities listed in accordance with regulations made by the Securities Exchange Board of India under the Securities and Exchange Board of India Act, 1992",
+    "scope": ""
+   },
+   {
+    "term": "financial institution",
+    "para": "s. 2",
+    "def": "means-- (i) a public financial institution within the meaning of section 4A of the Companies Act, 1956 (ia) the securitisation company or reconstruction company which has obtained a certificate of registration under sub-section (4) of section 3 of the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of 2002); (ib) a debenture trustee registered with the…",
+    "scope": ""
+   },
+   {
+    "term": "financial lease",
+    "para": "s. 2",
+    "def": "means a lease under a lease agreement of tangible asset, other than negotiable instrument or negotiable document, for transfer of lessor's right therein to the lessee for a certain time in consideration of payment of agreed amount periodically and where lessee becomes the owner of the such assets at the expiry of the term of lease or on payment of the agreed residual amount, as the case may be;",
+    "scope": ""
+   },
+   {
     "term": "notification",
     "para": "s. 2",
     "def": "means a notification published in the Official Gazette;",
@@ -299,6 +527,18 @@
     "term": "prescribed",
     "para": "s. 2",
     "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Presiding Officer",
+    "para": "s. 2",
+    "def": "means the Presiding Officer of the Debts Recovery Tribunal appointed under sub-section (1) of section 4;",
+    "scope": ""
+   },
+   {
+    "term": "property",
+    "para": "s. 2",
+    "def": "means-- (a) immovable property; (b) movable property; (c) any debt or any right to receive payment of money, whether secured or unsecured; (d) receivables, whether existing or future; (e) intangible assets, being know-how, patent, copyright, trade mark, licence, franchise or any other business or commercial right of similar nature, as may be prescribed by the Central Government in consultation with Reserve Bank;",
     "scope": ""
    },
    {
@@ -408,6 +648,12 @@
   ],
   "ACT-LIM": [
    {
+    "term": "applicant",
+    "para": "s. 2",
+    "def": "includes-- (i) a petitioner; (ii) any person from or through whom an applicant derives his right to apply; (iii) any person whose estate is represented by the applicant as executor, administrator or other representative;",
+    "scope": ""
+   },
+   {
     "term": "application",
     "para": "s. 2",
     "def": "includes a petition;",
@@ -426,6 +672,12 @@
     "scope": ""
    },
    {
+    "term": "defendant",
+    "para": "s. 2",
+    "def": "includes-- (i) any person from or through whom a defendant derives his liability to be sued; (ii) any person whose estate is represented by the defendant as executor, administrator or other representative;",
+    "scope": ""
+   },
+   {
     "term": "easement",
     "para": "s. 2",
     "def": "includes a right not arising from contract, by which one person is entitled to remove and appropriate for his own profit any part of the soil belonging to another or anything growing in, or attached to, or subsisting upon, the land of another;",
@@ -435,6 +687,12 @@
     "term": "foreign country",
     "para": "s. 2",
     "def": "means any country other than India;",
+    "scope": ""
+   },
+   {
+    "term": "plaintiff",
+    "para": "s. 2",
+    "def": "includes-- (i) any person from or through whom a plaintiff derives his right to sue; (ii) any person whose estate is represented by the plaintiff as executor, administrator or other representative;",
     "scope": ""
    },
    {
@@ -478,6 +736,12 @@
   ],
   "ACT-NI": [
    {
+    "term": "a cheque in the electronic form",
+    "para": "definitions",
+    "def": "means a cheque drawn in electronic form by using any computer resource and signed in a secure system with digital signature (with or without biometrics signature) and asymmetric crypto system or with electronic signature, as the case may be;",
+    "scope": ""
+   },
+   {
     "term": "a truncated cheque",
     "para": "definitions",
     "def": "means a cheque which is truncated during the course of a clearing cycle, either by the clearing house or by the bank whether paying or receiving payment, immediately on generation of an electronic image for transmission, substituting the further physical movement of the cheque in writing.",
@@ -498,9 +762,27 @@
     "scope": ""
    },
    {
+    "term": "clearance list",
+    "para": "s. 2(7A)",
+    "def": "means a list of transactions of sale and purchase relating to contracts traded on the stock exchanges submitted to a clearing corporation in accordance with the law for the time being in force in this behalf;",
+    "scope": ""
+   },
+   {
     "term": "clearing corporation",
     "para": "s. 2(7B)",
     "def": "means an entity established to undertake the activity of clearing and settlement of transactions in securities or other instruments and includes a clearing house of a recognised stock exchange;",
+    "scope": ""
+   },
+   {
+    "term": "depository",
+    "para": "s. 2(10B)",
+    "def": "includes-- (a) a depository as defined in clause (e) of sub-section (1) of section 2 of the Depositories (b) any other entity declared by the Central Government, by notification in the Official Gazette, to be a depository for the purposes of this Act; (11) Duly stamped. --\"duly stamped\", as applied to an instrument, means that the instrument bears an adhesive or impressed stamp of not less than the proper amount…",
+    "scope": ""
+   },
+   {
+    "term": "instrument",
+    "para": "s. 2(14)",
+    "def": "includes-- (a) every document, by which any right or liability is, or purports to be, created, transferred, limited, extended, extinguished or recorded; (b) a document, electronic or otherwise, created for a transaction in a stock exchange or depository by which any right or liability is, or purports to be, created, transferred, limited, extended, extinguished or recorded; and (c) any other document mentioned in…",
     "scope": ""
    },
    {
@@ -536,15 +818,33 @@
   ],
   "STAMP-MH": [
    {
+    "term": "Additional Controller of Stamps, Mumbai",
+    "para": "definitions",
+    "def": "means the officer or officers so designated by the State Government and includes any other officer whom the State Government may, by notification in the Official Gazette, appoint in this behalf;",
+    "scope": ""
+   },
+   {
     "term": "association",
     "para": "definitions",
     "def": "means any association, exchange, organisation or body of individuals, whether incorporated or not, established for the purpose of regulating and controlling business of the sale or purchase of, or other transaction relating to, any goods or marketable securities; 5((b) \"banker\" means an association, a company or a person who accepts, for the purpose of lending or investment, deposits of money from the public,…",
     "scope": ""
    },
    {
+    "term": "bond",
+    "para": "definitions",
+    "def": "includes-- (i) any instrument whereby a person obliges himself to pay money to another on condition that obligation shall be void if a specified act is performed, or is not performed, as the case may be; (ii) any instrument attested by a witness and not payable to order or bearer, whereby, a person obliges himself to pay money to another; and (iii) any instrument so attested whereby a person, obliges himself to…",
+    "scope": ""
+   },
+   {
     "term": "chargeable",
     "para": "definitions",
     "def": "means, as applied to an instrument, executed or first executed after the commencement of this Act, chargeable under this Act, and as applied to any other instruments, chargeable under the law in force in the State when such instrument was executed or, where several persons executed the instrument at different times, first executed;",
+    "scope": ""
+   },
+   {
+    "term": "Chief Controlling Revenue Authority",
+    "para": "definitions",
+    "def": "means such officer as the State Government may, by notification in the Official Gazette, appoint in this behalf for the whole or any part of the State of Maharashtra);",
     "scope": ""
    },
    {
@@ -557,6 +857,24 @@
     "term": "Collector",
     "para": "definitions",
     "def": "means 41* * * the Chief Officer in charge of the revenue administration of a district and includes any officer whom the State Government may, by notification in the Official Gazette, appoint in this behalf; and on whom any or all the powers of the Collector under this Act are conferred by the same notification or any other like notification",
+    "scope": ""
+   },
+   {
+    "term": "Deputy Inspector General of Registration and Deputy Controller of Stamps",
+    "para": "definitions",
+    "def": "means the officer or officers so designated by the State Government and includes any other officer whom the State Government may, by notification in the Official Gazette, appoint in this behalf;",
+    "scope": ""
+   },
+   {
+    "term": "immovable property",
+    "para": "definitions",
+    "def": "includes land, benefits to arise out of land, and things attached to the earth, or permanently fastened to anything attached to the earth;",
+    "scope": ""
+   },
+   {
+    "term": "impressed stamp",
+    "para": "definitions",
+    "def": "includes,-- (i) labels affixed and impressed by the proper officer, (ii) stamps embossed or engraved on stamped paper; 5(iii) impression by franking machine; (iv) impression by any such machine as the State Government may, by notification in the Official Gazette, specify;  (v) receipt of e-payment;",
     "scope": ""
    },
    {
@@ -574,13 +892,19 @@
    {
     "term": "lease",
     "para": "definitions",
-    "def": "means a lease of immovable or movable (or both) property, and includes also,--",
+    "def": "means a lease of immovable or movable (or both) property, and includes also,-- (i) a Patta; (ii) a Kabulayat, or other undertaking in writing not being a counterpart of a lease to cultivate, occupy or pay or deliver rent for immovable property; (iii) any instrument by which tolls of any description are let; (iv) any writing on an application for a lease intended to signify that the application is granted; 4 (v) a…",
     "scope": ""
    },
    {
     "term": "marketable security",
     "para": "definitions",
     "def": "means a security of such description as to be capable of being sold in any stock market in India. * * }:",
+    "scope": ""
+   },
+   {
+    "term": "movable property",
+    "para": "definitions",
+    "def": "includes standing timber, growing crops and grass, fruit upon and juice in trees and property of every other description, except immovable property, by which any right or liability is or is purported to be created, transferred, limited, extended, extinguished or recorded;",
     "scope": ""
    },
    {
@@ -593,6 +917,12 @@
     "term": "power of attorney",
     "para": "definitions",
     "def": "includes any instrument (not chargeable with a fee under the law relating to court-fees for the time being in force) empowering a specified person to act for and in the name of the person executing it 2and includes an instrument by which a person, not being a person who is a legal practitioner, is authorised to appear on behalf of any party in any proceeding before any court, tribunal or authority;",
+    "scope": ""
+   },
+   {
+    "term": "public officer",
+    "para": "definitions",
+    "def": "means a public officer as defined in clause (17) of section 2 of the Code of Civil Procedure, 1908;",
     "scope": ""
    },
    {
@@ -657,6 +987,12 @@
     "term": "Immovable Property",
     "para": "s. 2(6)",
     "def": "includes land, buildings, hereditary allowances, rights to ways, lights, ferries, fisheries or any other benefit to arise out of land, and things attached to the earth, or permanently fastened to anything which is attached to the earth, but not standing timber, growing crops nor grass;",
+    "scope": ""
+   },
+   {
+    "term": "India",
+    "para": "s. 2(6A)",
+    "def": "means the territory of India excluding the State of Jammu and Kashmir;",
     "scope": ""
    },
    {
@@ -730,13 +1066,13 @@
    {
     "term": "evidence",
     "para": "s. 2",
-    "def": "means and includes-- 1. 1st day of July, 2024, vide notification No. S.O. 849(E), dated, 23rd February, 2024, see Gazette of India, Extraordinary, Part II, sec. 3(ii).",
+    "def": "means and includes--",
     "scope": ""
    },
    {
     "term": "fact",
     "para": "s. 2",
-    "def": "means and includes--",
+    "def": "means and includes-- (i) any thing, state of things, or relation of things, capable of being perceived by the senses; (ii) any mental condition of which any person is conscious. Illustrations. (i) That there are certain objects arranged in a certain order in a certain place, is a fact. (ii) That a person heard or saw something, is a fact. (iii) That a person said certain words, is a fact. (iv) That a person holds…",
     "scope": ""
    },
    {
@@ -757,6 +1093,12 @@
     "term": "corporation",
     "para": "definitions",
     "def": "means any body corporate established by or under any law for the time being in force in India and includes the Reserve Bank of India, the State Bank of India or any corresponding new bank constituted under the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 and the Banking Companies (Acquisition and Transfer of Undertakings)",
+    "scope": ""
+   },
+   {
+    "term": "legal proceeding",
+    "para": "definitions",
+    "def": "means-- (i) any proceeding or inquiry in which evidence is or may be taken; (ii) an arbitration; and (iii) any investigation or inquiry under the Bharatiya Nagarik Suraksha Sanhita, 2023, or under any other law for the time being in force for the collection of evidence, conducted by a police officer, or by any other person (not being a Magistrate) authorised in this behalf by a Magistrate or by any law for the…",
     "scope": ""
    },
    {
@@ -782,13 +1124,25 @@
    {
     "term": "appropriate laboratory",
     "para": "s. 2(2)",
-    "def": "means a laboratory or an organisation--",
+    "def": "means a laboratory or an organisation-- (i) recognised by the Central Government; or (ii) recognised by a State Government, subject to such guidelines as may be issued by the Central Government in this behalf; or (iii) established by or under any law for the time being in force, which is maintained, financed or aided by the Central Government or a State Government for carrying out analysis or test of any goods…",
+    "scope": ""
+   },
+   {
+    "term": "branch office",
+    "para": "s. 2(3)",
+    "def": "means-- (i) any office or place of work described as a branch by the establishment; or (ii) any establishment carrying on either the same or substantially the same activity carried on by the head office of the establishment; *. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and Kashmir and the Union territory of Ladakh",
     "scope": ""
    },
    {
     "term": "Central Authority",
     "para": "s. 2(4)",
     "def": "means the Central Consumer Protection Authority established under section 10;",
+    "scope": ""
+   },
+   {
+    "term": "complainant",
+    "para": "s. 2(5)",
+    "def": "means-- (i) a consumer; or (ii) any voluntary consumer association registered under any law for the time being in force; or (iii) the Central Government or any State Government; or (iv) the Central Authority; or (v) one or more consumers, where there are numerous consumers having the same interest; or (vi) in case of death of a consumer, his legal heir or legal representative; or (vii) in case of a consumer being…",
     "scope": ""
    },
    {
@@ -800,13 +1154,19 @@
    {
     "term": "consumer",
     "para": "s. 2(7)",
-    "def": "means any person who--",
+    "def": "means any person who-- (i) buys any goods for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment and includes any user of such goods other than the person who buys such goods for consideration paid or promised or partly paid or partly promised, or under any system of deferred payment, when such use is made with the approval of such person,…",
     "scope": ""
    },
    {
     "term": "consumer dispute",
     "para": "s. 2(8)",
     "def": "means a dispute where the person against whom a complaint has been made, denies or disputes the allegations contained in the complaint;",
+    "scope": ""
+   },
+   {
+    "term": "consumer rights",
+    "para": "s. 2(9)",
+    "def": "includes,-- (i) the right to be protected against the marketing of goods, products or services which are hazardous to life and property; (ii) the right to be informed about the quality, quantity, potency, purity, standard and price of goods, products or services, as the case may be, so as to protect the consumer against unfair trade practices; (iii) the right to be assured, wherever possible, access to a variety…",
     "scope": ""
    },
    {
@@ -878,7 +1238,7 @@
    {
     "term": "manufacturer",
     "para": "s. 2(24)",
-    "def": "means a person who--",
+    "def": "means a person who-- (i) makes any goods or parts thereof; or (ii) assembles any goods or parts thereof made by others; or (iii) puts or causes to be put his own mark on any goods made by any other person;",
     "scope": ""
    },
    {
@@ -912,6 +1272,12 @@
     "scope": ""
    },
    {
+    "term": "person",
+    "para": "s. 2(31)",
+    "def": "includes-- (i) an individual; (ii) a firm whether registered or not; (iii) a Hindu undivided family; (iv) a co-operative society; (v) an association of persons whether registered under the Societies Registration Act, 1860 (vi) any corporation, company or a body of individuals whether incorporated or not; (vii) any artificial juridical person, not falling within any of the preceding sub-clauses;",
+    "scope": ""
+   },
+   {
     "term": "prescribed",
     "para": "s. 2(32)",
     "def": "means prescribed by rules made by the Central Government, or, as the case may be, the State Government;",
@@ -938,7 +1304,7 @@
    {
     "term": "product manufacturer",
     "para": "s. 2(36)",
-    "def": "means a person who--",
+    "def": "means a person who-- (i) makes any product or parts thereof; or (ii) assembles parts thereof made by others; or (iii) puts or causes to be put his own mark on any products made by any other person; or (iv) makes a product and sells, distributes, leases, installs, prepares, packages, labels, markets, repairs, maintains such product or is otherwise involved in placing such product for commercial purpose; or (v)…",
     "scope": ""
    },
    {
@@ -1104,7 +1470,7 @@
    {
     "term": "Lender",
     "para": "definitions",
-    "def": "means any Micro Finance Institution or Money Lending Agency or Organization covered under this Act; THE ASSAM GAZETTE, EXTRAORDINARY, JANUARY 30, 2021",
+    "def": "means any Micro Finance Institution or Money Lending Agency or Organization covered under this Act;",
     "scope": ""
    },
    {
@@ -1128,7 +1494,7 @@
    {
     "term": "prescribed",
     "para": "definitions",
-    "def": "means prescribed by rules made by the Government under this Act; Central Act No. Central Act No. Assam Act No. Central Act No. Central Act No. 18 of THE ASSAM GAZEITE, EXTRAORDINARY, JANUARY 30, 2021",
+    "def": "means prescribed by rules made by the Government under this Act;",
     "scope": ""
    },
    {
@@ -1164,11 +1530,17 @@
    {
     "term": "vulnerable section of the society",
     "para": "definitions",
-    "def": "means and includes those group of people who are disadvantaged as compared to others mainly on account of reduced access to their basic services and the underlying determinants of health, housing sanitation etc. and the people who are economically backward, low on THE ASSAM GAZETTE, EXTRAORDINARY, JANUARY 30, 2021 livelihood patterns with no regular source of income, thereby not in a position or lacking of…",
+    "def": "means and includes those group of people who are disadvantaged as compared to others mainly on account of reduced access to their basic services and the underlying determinants of health, housing sanitation etc. and the people who are economically backward, low on",
     "scope": ""
    }
   ],
   "ML-TN": [
+   {
+    "term": "bank",
+    "para": "definitions",
+    "def": "means-- (a) a banking company to which the Banking Regulation Act, 1949 (Central Act X of 1949) applies; (b) the State Bank of India constituted under the State Bank of India Act, 1955 (Central Act 23 of 1955); (c) a subsidiary bank as defined in clause (k) of section 2 of the State Bank of India (Subsidiary Banks) Act, 1959 (Central Act (d) a corresponding new bank constituted under section 3 of the Banking…",
+    "scope": ""
+   },
    {
     "term": "Government",
     "para": "definitions",
@@ -1208,6 +1580,12 @@
   ],
   "ACT-PSS": [
    {
+    "term": "bank",
+    "para": "s. 2",
+    "def": "means,-- (i) a bank included in the Second Schedule to the Reserve Bank of India Act, 1934(2 of (ii) a post office savings bank; (iii) a banking company as defined in clause (c) of section 5 of the Banking Regulation Act, (iv) a co-operative bank as defined in clause (cci) of section 5, as inserted by section 56 of the Banking Regulation Act, 1949 (10 of 1949); and (v) such other bank as the Reserve Bank may, by…",
+    "scope": ""
+   },
+   {
     "term": "derivative",
     "para": "s. 2",
     "def": "means an instrument, to be settled at a future date, whose value is derived from change in interest rate, foreign exchange rate, credit rating or credit index, price of securities (also called \"underlying\"), or any other underlying or a combination of more than one of them and includes interest rate swaps, forward rate agreements, foreign currency swaps, foreign currency rupee swaps, foreign currency options,…",
@@ -1223,6 +1601,12 @@
     "term": "gross settlement system",
     "para": "s. 2",
     "def": "means a payment system in which each settlement of funds or securities occurs on the basis of separate or individual instructions;",
+    "scope": ""
+   },
+   {
+    "term": "issuer",
+    "para": "s. 2",
+    "def": "means a person who issues a legal entity identifier or such other unique identification (by whatever name called), as may be specified by the Reserve Bank from time to time;",
     "scope": ""
    },
    {
@@ -1294,7 +1678,7 @@
    {
     "term": "systemic risk",
     "para": "s. 2",
-    "def": "means the risk arising from--",
+    "def": "means the risk arising from-- (i) the inability of a system participant to meet his payment obligations under the payment system as and when they become due; or (ii) any disruption in the system, which may cause other participants to fail to meet their obligations when due and is likely to have an impact on the stability of the system: Provided that if any doubt or difference arises as to whether a particular…",
     "scope": ""
    },
    {
@@ -1336,6 +1720,12 @@
     "scope": ""
    },
    {
+    "term": "specified regulations",
+    "para": "definitions",
+    "def": "means-- (i) the Securities and Exchange Board of India (Investment Advisers) Regulations, 2013; or (ii) the Securities and Exchange Board of India (Portfolio Managers) Regulations, 2020; or (iii) such other regulations made under the Securities and Exchange Board of India Act, 1992 (15 of 1992), as may be notified in this behalf.'.",
+    "scope": ""
+   },
+   {
     "term": "Bank for International Settlements",
     "para": "definitions",
     "def": "means the Bank for International Settlements established at the Hague Conference in 1930 and headquartered at Basel, Switzerland;",
@@ -1368,9 +1758,15 @@
     "scope": ""
    },
    {
+    "term": "client",
+    "para": "s. 2",
+    "def": "includes-- (i) a guarantor or a person who proposes to give guarantee or security for a borrower of a credit institution; or (ii) a person-- (A) who has obtained or seeks to obtain financial assistance from a credit institution, by way of loans, advances, hire purchase, leasing facility, letter of credit, guarantee facility, venture capital assistance or by way of credit cards or in any other form or manner; (B)…",
+    "scope": ""
+   },
+   {
     "term": "credit information",
     "para": "s. 2",
-    "def": "means any information relating to--",
+    "def": "means any information relating to-- (i) the amounts and the nature of loans or advances, amounts outstanding under credit cards and other credit facilities granted or to be granted, by a credit institution to any borrower; (ii) the nature of security taken or proposed to be taken by a credit institution from any borrower for credit facilities granted or proposed to be granted to him; (iii) the guarantee furnished…",
     "scope": ""
    },
    {
@@ -1382,7 +1778,7 @@
    {
     "term": "credit institution",
     "para": "s. 2",
-    "def": "means a banking company and includes--",
+    "def": "means a banking company and includes-- (i) a corresponding new bank, the State Bank of India, a subsidiary bank, a co-operative bank, the National Bank and regional rural bank; (ii) a non-banking financial company as defined under clause (f) of section 45-I of the Reserve Bank of India Act, 1934 (2 of 1934); (iii) a public financial institution referred to in section 4A of the Companies Act, (iv) the financial…",
     "scope": ""
    },
    {
@@ -1592,6 +1988,12 @@
     "scope": ""
    },
    {
+    "term": "authorised person",
+    "para": "s. 2",
+    "def": "means an authorised person as defined in clause (c) of section 2 of the Foreign Exchange Management Act, 1999 (42 of 1999);",
+    "scope": ""
+   },
+   {
     "term": "banking company",
     "para": "s. 2",
     "def": "means a banking company or a co-operative bank to which the Banking Regulation Act, 1949 (10 of 1949) applies and includes any bank or banking institution referred to in section 51 of that Act;",
@@ -1604,6 +2006,12 @@
     "scope": ""
    },
    {
+    "term": "beneficial owner",
+    "para": "s. 2",
+    "def": "means an individual who ultimately owns or controls a client of a reporting entity or the person on whose behalf a transaction is being conducted and includes a person who exercises ultimate effective control over a juridical person;",
+    "scope": ""
+   },
+   {
     "term": "Chairperson",
     "para": "s. 2",
     "def": "means the Chairperson of the Appellate Tribunal;",
@@ -1612,13 +2020,37 @@
    {
     "term": "chit fund company",
     "para": "s. 2",
-    "def": "means a company managing, conducting or supervising, as foreman, agent or in any other capacity, chits as defined in section 2 of the Chit Funds Act, 1982 (40 of 1982); 1. 1st July, 2005, vide Notifn. No. G.S.R. 436(E), dated 1st July, 2005, see Gazette of India, Extraordinary, Pt. II, sec. 3(i).",
+    "def": "means a company managing, conducting or supervising, as foreman, agent or in any other capacity, chits as defined in section 2 of the Chit Funds Act, 1982 (40 of 1982);",
+    "scope": ""
+   },
+   {
+    "term": "client",
+    "para": "s. 2",
+    "def": "means a person who is engaged in a financial transaction or activity with a reporting entity and includes a person on whose behalf the person who engaged in the transaction or activity, is acting;",
+    "scope": ""
+   },
+   {
+    "term": "corresponding law",
+    "para": "s. 2",
+    "def": "means any law of any foreign country corresponding to any of the provisions of this Act or dealing with offences in that country corresponding to any of the scheduled offences;",
     "scope": ""
    },
    {
     "term": "Deputy Director",
     "para": "s. 2",
     "def": "means a Deputy Director appointed under sub-section (1) of section 49;",
+    "scope": ""
+   },
+   {
+    "term": "financial institution",
+    "para": "s. 2",
+    "def": "means a financial institution as defined in clause (c) of section 45-1 of the Reserve Bank of India Act, 1934 (2 of 1934) and includes a chit fund company, a housing finance institution, an authorised person, a payment system operator, a non-banking financial company and d the Department of Posts in the Government of India; o",
+    "scope": ""
+   },
+   {
+    "term": "investigation",
+    "para": "s. 2",
+    "def": "includes all the proceedings under this Act conducted by the Director or by an authority authorised by the Central Government under this Act for the collection of evidence;",
     "scope": ""
    },
    {
@@ -1646,6 +2078,18 @@
     "scope": ""
    },
    {
+    "term": "person",
+    "para": "s. 2",
+    "def": "includes-- (i) an individual, (ii) a Hindu undivided family, (iii) a company, (iv) a firm, (v) an association of persons or a body of individuals, whether incorporated or not, (vi) every artificial juridical person not falling within any of the preceding sub-clauses, and (vii) any agency, office or branch owned or controlled by any of the above persons mentioned in the preceding sub-clauses;",
+    "scope": ""
+   },
+   {
+    "term": "person carrying on designated business or profession",
+    "para": "s. 2",
+    "def": "means,-- (i) a person carrying on activities for playing games of chance for cash or kind, and includes such activities associated with casino; (ii) Inspector-General of Registration appointed under section 3 of the Registration Act, 1908 (16 of 1908) as may be notified by the Central Government; (iii) real estate agent, as may be notified by the Central Government; (iv) dealer in precious metals, precious stones…",
+    "scope": ""
+   },
+   {
     "term": "precious metal",
     "para": "s. 2",
     "def": "means gold, silver, platinum, palladium or rhodium or such other metal as may be notified by the Central Government;",
@@ -1654,7 +2098,7 @@
    {
     "term": "prescribed",
     "para": "s. 2",
-    "def": "means prescribed by rules made under this Act; de",
+    "def": "means prescribed by rules made under this Act;",
     "scope": ""
    },
    {
@@ -1670,9 +2114,21 @@
     "scope": ""
    },
    {
+    "term": "reporting entity",
+    "para": "s. 2",
+    "def": "means a banking company, financial institution, intermediary or a person carrying on a designated business or profession;",
+    "scope": ""
+   },
+   {
     "term": "Schedule",
     "para": "s. 2",
     "def": "means the Schedule to this Act;",
+    "scope": ""
+   },
+   {
+    "term": "scheduled offence",
+    "para": "s. 2",
+    "def": "means-- (i) the offences specified under Part A of the Schedule; or (ii) the offences specified under Part B of the Schedule if the total value involved in such offences is one crore rupees or more; or",
     "scope": ""
    },
    {
@@ -1722,7 +2178,7 @@
    {
     "term": "approved bank",
     "para": "s. 2",
-    "def": "means the State Bank of India constituted under section 3 of the State Bank of India Act, 1955 (23 of 1955), or a subsidiary bank constituted under section 3 of the State Bank of India (Subsidiary Banks) Act, 1959 (38 of 1959), or a corresponding new bank constituted under e section 3 of the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 d (5 of 1970), or a Regional Rural Bank established…",
+    "def": "means the State Bank of India constituted under section 3 of the State Bank of India Act, 1955 (23 of 1955), or a subsidiary bank constituted under section 3 of the State Bank of India (Subsidiary Banks) Act, 1959 (38 of 1959), or a corresponding new bank constituted under section 3 of the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 d (5 of 1970), or a Regional Rural Bank established…",
     "scope": ""
    },
    {
@@ -1747,6 +2203,12 @@
     "term": "foreman",
     "para": "s. 2",
     "def": "means the person who under the chit agreement is responsible for the conduct of the chit and includes any person discharging the functions of the foreman under section 39;",
+    "scope": ""
+   },
+   {
+    "term": "gross chit amount",
+    "para": "s. 2",
+    "def": "means the sum-total of the subscriptions payable by all the subscribers for any installment of a chit without any deduction of discount or otherwise;",
     "scope": ""
    },
    {
@@ -1777,6 +2239,12 @@
     "term": "Reserve Bank",
     "para": "s. 2",
     "def": "means the Reserve Bank of India constituted under the Reserve Bank of India",
+    "scope": ""
+   },
+   {
+    "term": "share of discount",
+    "para": "s. 2",
+    "def": "means the share of the subscriber in the amount of discount available under the chit agreement for rateable distribution among the subscribers at each instalment of the chit.",
     "scope": ""
    },
    {
@@ -1896,7 +2364,7 @@
    {
     "term": "co-operative society",
     "para": "definitions",
-    "def": "means a society registered or deemed to have been registered under the Karnataka1 Co-operative Societies Act, 1959 (Karnataka1 Act 11",
+    "def": "means a society registered or deemed to have been registered under the Karnataka Co-operative Societies Act, 1959 (Karnataka Act 11",
     "scope": ""
    },
    {
@@ -1982,6 +2450,12 @@
     "para": "definitions",
     "def": "means a person who in the regular course of business buys and sells goods or other property, whether movable or immovable, and includes,- a wholesale or retail merchant, a commission agent, a broker, a manufacturer, a contractor, a factory owner, -but does not include an artisan or a person who sells his agricultural produce or cattle or buys agricultural produce or cattle for his use.",
     "scope": ""
+   },
+   {
+    "term": "Year",
+    "para": "definitions",
+    "def": "means the year commencing on the first day of April;1",
+    "scope": ""
    }
   ],
   "ACT-ARB": [
@@ -2010,9 +2484,15 @@
     "scope": ""
    },
    {
+    "term": "Court",
+    "para": "s. 2",
+    "def": "means-- (i) in the case of an arbitration other than international commercial arbitration, the principal Civil Court of original jurisdiction in a district, and includes the High Court in exercise of its ordinary original civil jurisdiction, having jurisdiction to decide the questions forming the subject-matter of the arbitration if the same had been the subject-matter of a suit, but does not include any Civil…",
+    "scope": ""
+   },
+   {
     "term": "international commercial arbitration",
     "para": "s. 2",
-    "def": "means an arbitration relating to disputes arising out of legal relationships, whether contractual or not, considered as commercial under the law in force in India and where at least one of the parties is-- e (i) an individual who is a national of, or habitually resident in, any country other than India; o (ii) a body corporate which is incorporated in any country other than India; or iaC (iii) an association or a…",
+    "def": "means an arbitration relating to disputes arising out of legal relationships, whether contractual or not, considered as commercial under the law in force in India and where at least one of the parties is-- (i) an individual who is a national of, or habitually resident in, any country other than India; o (ii) a body corporate which is incorporated in any country other than India; or (iii) an association or a body…",
     "scope": ""
    },
    {
@@ -2060,9 +2540,15 @@
     "scope": ""
    },
    {
+    "term": "bank",
+    "para": "s. 2",
+    "def": "means, -- (i) a banking company; (ii) a corresponding new bank; (iii) the State Bank of India; (iv) a subsidiary bank; (v) such other bank which the Central Government may by notification specify for the purposes of this Act on the recommendations of the Reserve Bank; or (vi) a Multi-State Co-operative Society registered under the Multi-State Co-operative Societies Act, 2002 (39 of 2002) and licensed to undertake…",
+    "scope": ""
+   },
+   {
     "term": "business enterprise",
     "para": "s. 2",
-    "def": "means any enterprise or medium enterprise, micro enterprise or small enterprise as defined in clauses (e), (g), (h) and (m) of section 2 of the Micro, Small and Medium Enterprises Development Act, 2006 (27 of 2006), respectively engaged in any business activity; 1. 2nd April, 2012 (Ss. 19, 20, 21, 32), vide Notifn. No. S.O. 711(E), dated 2nd April, 2012, see Gazette of India, Extraordinary, Part II, sec. 3(ii).…",
+    "def": "means any enterprise or medium enterprise, micro enterprise or small enterprise as defined in clauses (e), (g), (h) and (m) of section 2 of the Micro, Small and Medium Enterprises Development Act, 2006 (27 of 2006), respectively engaged in any business activity;",
     "scope": ""
    },
    {
@@ -2108,6 +2594,18 @@
     "scope": ""
    },
    {
+    "term": "property",
+    "para": "s. 2",
+    "def": "means,-- (i) the immovable property; (ii) the movable property; (iii) any debt or any right to receive payment of money, whether secured or unsecured; (iv) the receivables;",
+    "scope": ""
+   },
+   {
+    "term": "receivables",
+    "para": "s. 2",
+    "def": "means the money owed by a debtor and not yet paid to the assignor for goods or services and includes payment of any sum, by whatever name called, required to be paid for the toll or for the use of any infrastructure facility or services;",
+    "scope": ""
+   },
+   {
     "term": "regulations",
     "para": "s. 2",
     "def": "means regulations made by the Reserve Bank under this Act;",
@@ -2130,7 +2628,13 @@
    {
     "term": "adjudicating officer",
     "para": "s. 2",
-    "def": "means an adjudicating officer appointed under sub-section (1) of section 46; 1. 17th October, 2000, vide notification No. G.S.R. 788 (E), dated 17th October, 2000, see Gazette of India, Extraordinary, Part II, sec. 3(ii).",
+    "def": "means an adjudicating officer appointed under sub-section (1) of section 46;",
+    "scope": ""
+   },
+   {
+    "term": "Appellate Tribunal",
+    "para": "s. 2",
+    "def": "means the Appellate Tribunal referred to in sub-section (1) of section 48;",
     "scope": ""
    },
    {
@@ -2154,7 +2658,13 @@
    {
     "term": "certification practice statement",
     "para": "s. 2",
-    "def": "means a statement issued by a Certifying Authority to e specify the practices that the Certifying Authority employs in issuing electronic signature d Certificates; Co",
+    "def": "means a statement issued by a Certifying Authority to specify the practices that the Certifying Authority employs in issuing electronic signature d Certificates; Co",
+    "scope": ""
+   },
+   {
+    "term": "computer network",
+    "para": "s. 2",
+    "def": "means the inter-connection of one or more computers or computer systems or communication device through-",
     "scope": ""
    },
    {
@@ -2173,6 +2683,12 @@
     "term": "Controller",
     "para": "s. 2",
     "def": "means the Controller of Certifying Authorities appointed under sub-section (1) of section 17;",
+    "scope": ""
+   },
+   {
+    "term": "cyber cafe",
+    "para": "s. 2",
+    "def": "means any facility from where access to the internet is offered by any person in the ordinary course of business to the members of the public;",
     "scope": ""
    },
    {
@@ -2202,7 +2718,7 @@
    {
     "term": "electronic record",
     "para": "s. 2",
-    "def": "means data, record or data generated, image or sound stored, received or e sent in an electronic form or micro film or computer generated micro fiche; d",
+    "def": "means data, record or data generated, image or sound stored, received or sent in an electronic form or micro film or computer generated micro fiche; d",
     "scope": ""
    },
    {
@@ -2284,6 +2800,12 @@
     "scope": ""
    },
    {
+    "term": "computer source code",
+    "para": "s. 2",
+    "def": "means the listing of programme, computer commands, design and layout and programme analysis of computer resource in any form. 43A. Compensation for failure to protect data.-Where a body corporate, possessing, dealing or handling any sensitive personal data or information in a computer resource which it owns, controls or operates, is negligent in implementing and maintaining reasonable security practices and…",
+    "scope": ""
+   },
+   {
     "term": "body corporate",
     "para": "s. 2",
     "def": "means any company and includes a firm, sole proprietorship or other association of individuals engaged in commercial or professional activities;",
@@ -2342,7 +2864,7 @@
    {
     "term": "appropriate Government",
     "para": "s. 2(1)",
-    "def": "means in respect of matters relating to,--",
+    "def": "means in respect of matters relating to,-- (i) the Union territory without legislature, the Central Government; (ii) the Union territory of Puducherry, the Government of that Union territory; de (iii) the Union territory of Delhi, the Government of that Union territory; and; o (iv) the State, the State Government; C",
     "scope": ""
    },
    {
@@ -2358,6 +2880,12 @@
     "scope": ""
    },
    {
+    "term": "deposit taker",
+    "para": "s. 2(6)",
+    "def": "means-- (i) any individual or group of individuals; (ii) a proprietorship concern; (iii) a partnership firm (whether registered or not); (iv) a limited liability partnership registered under the Limited Liability Partnership Act, 2008 (v) a company; (vi) an association of persons; (vii) a trust (being a private trust governed under the provisions of the Indian Trusts Act, 1882 (2 of 1882) or a public trust,…",
+    "scope": ""
+   },
+   {
     "term": "Designated Court",
     "para": "s. 2(7)",
     "def": "means a Designated Court constituted by the appropriate Government under section 8;",
@@ -2367,6 +2895,12 @@
     "term": "notification",
     "para": "s. 2(9)",
     "def": "means a notification published in the Official Gazette and the expression \"notify\" shall be construed accordingly;",
+    "scope": ""
+   },
+   {
+    "term": "person",
+    "para": "s. 2(10)",
+    "def": "includes-- (i) an individual; (ii) a Hindu Undivided Family; (iii) a company; (iv) a trust; (v) a partnership firm; (vi) a limited liability partnership; (vii) an association of persons; (viii) a co-operative society registered under any law for the time being in force relating to co-operative societies; or (ix) every artificial juridical person, not falling within any of the preceding sub-clauses;",
     "scope": ""
    },
    {
@@ -2402,7 +2936,7 @@
    {
     "term": "Unregulated Deposit Scheme",
     "para": "s. 2(17)",
-    "def": "means a Scheme or an arrangement under which deposits are accepted or solicited by any deposit taker by way of business and which is not a Regulated Deposit Scheme, as specified under column (3) of the First Schedule. STATE AMENDMENT de Union Territory of Jammu and Kashmir o Section 2.--In clause (1), in sub-clause (iii), omit \"and\" and after sub-clause (iii) as so omitted, iaC insert-- d \"(iiia) the Union…",
+    "def": "means a Scheme or an arrangement under which deposits are accepted or solicited by any deposit taker by way of business and which is not a Regulated Deposit Scheme, as specified under column (3) of the First Schedule. STATE AMENDMENT de Union Territory of Jammu and Kashmir o Section 2.--In clause (1), in sub-clause (iii), omit \"and\" and after sub-clause (iii) as so omitted, insert-- d \"(iiia) the Union territory…",
     "scope": ""
    },
    {
@@ -2422,11 +2956,11 @@
    {
     "term": "Ordinance",
     "para": "rule 2",
-    "def": "means the Securitisation and Reconstruction of Financial Assets and Enforcement of Security e Interest (Second) Ordinance, 2002 (Ord. 3 of 2002); d (d) ''approved valuer\" means a valuer as approved by the Board of Directors or Board of Trustees of the o secured creditor, as the case may be; C (e) Words and expressions used and not defined in these Rules but defined in the Ordinance shall have the ia meanings…",
+    "def": "means the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest (Second) Ordinance, 2002 (Ord. 3 of 2002); d (d) ''approved valuer\" means a valuer as approved by the Board of Directors or Board of Trustees of the o secured creditor, as the case may be; C (e) Words and expressions used and not defined in these Rules but defined in the Ordinance shall have the ia meanings…",
     "scope": ""
    },
    {
-    "term": "'Act",
+    "term": "Act",
     "para": "rule 2",
     "def": "means the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act,",
     "scope": ""
@@ -2468,7 +3002,7 @@
    {
     "term": "agent",
     "para": "rule 2",
-    "def": "means a person duly authorised by a party to present application or to give e reply on its behalf before the Tribunal; d",
+    "def": "means a person duly authorised by a party to present application or to give reply on its behalf before the Tribunal; d",
     "scope": ""
    },
    {
@@ -2548,7 +3082,7 @@
    {
     "term": "Vulnerable section of the society",
     "para": "definitions",
-    "def": "means and includes farmers, women, self help group of women, agricultural labours, workmen, footpath vendors, other vendors who move from one place to other, e worker working in milk dairy, construction workers, migrant d workers, those group of people who are disadvantaged as o compared to others mainly on account of reduced access to their C basic services and the underlying determinants of health, housing ia…",
+    "def": "means and includes farmers, women, self help group of women, agricultural labours, workmen, footpath vendors, other vendors who move from one place to other, worker working in milk dairy, construction workers, migrant d workers, those group of people who are disadvantaged as o compared to others mainly on account of reduced access to their C basic services and the underlying determinants of health, housing ia…",
     "scope": ""
    }
   ],
@@ -2624,15 +3158,33 @@
    {
     "term": "Self Help Group (SHG)",
     "para": "definitions",
-    "def": "means a group of women formed on principles of self help and registered as such with the Society for Elimination of Rural Poverty (SERP) in the rural areas or Mission for Elimination of Urban de Poverty in Municipal areas (MEPMA) in urban areas; o (j) 'SHG bank linkage' means provision of credit for the SHGs by the iaC commercial banks based on a micro credit plan prepared by the SHGs for d carrying out economic…",
+    "def": "means a group of women formed on principles of self help and registered as such with the Society for Elimination of Rural Poverty (SERP) in the rural areas or Mission for Elimination of Urban de Poverty in Municipal areas (MEPMA) in urban areas; o (j) 'SHG bank linkage' means provision of credit for the SHGs by the commercial banks based on a micro credit plan prepared by the SHGs for d carrying out economic…",
     "scope": ""
    }
   ],
   "ML-KL": [
    {
+    "term": "appellate authority",
+    "para": "definitions",
+    "def": "means any officer or authority appointed by the Government to exercise the powers of an appellate authority under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "Commissioner",
+    "para": "definitions",
+    "def": "means the Commissioner of Commercial Taxes appointed under the provisions of the Kerala General Sales Tax Act, 1963 (15 of 1963).",
+    "scope": ""
+   },
+   {
     "term": "licence",
     "para": "definitions",
     "def": "means a money-lender's licence granted under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "licensing authority",
+    "para": "definitions",
+    "def": "means an officer or authority appointed by the Government to perform the functions of a licensing authority under this Act;",
     "scope": ""
    },
    {
@@ -2657,6 +3209,12 @@
     "term": "prescribed",
     "para": "definitions",
     "def": "means prescribed by rules made under this Act;",
+    "scope": ""
+   },
+   {
+    "term": "trader",
+    "para": "definitions",
+    "def": "means a person who in the regular course of business buys and sells goods or other property, whether movable or immovable, and includes--",
     "scope": ""
    },
    {
@@ -2698,9 +3256,9 @@
     "scope": ""
    },
    {
-    "term": "meter vatti'",
+    "term": "meter vatti",
     "para": "definitions",
-    "def": "means an interest which will work out to an interest rate more than that specified under sub-section (1) of section 7 of e the Kerala Money-Lenders Act, 1958 (35 of 1958) for every day on the loan . od amount not paid within the stipulated time; iaC",
+    "def": "means an interest which will work out to an interest rate more than that specified under sub-section (1) of section 7 of the Kerala Money-Lenders Act, 1958 (35 of 1958) for every day on the loan . amount not paid within the stipulated time; iaC",
     "scope": ""
    }
   ],
@@ -2740,7 +3298,7 @@
    {
     "term": "bank",
     "para": "definitions",
-    "def": "means- l0 of IN9. (i)a banking company or a co-operative bdnk to which the Banki4 Regulations Act, 1949 applies; (ii)the State Bank of lndia constitr.rted under the State Bank of 38 ofl9s9. (iii)a Subsidiary Bairk as defined in the State Bank of lndia (Subsidiary Banls) Act 1959; 5 of 190. (iv)a conesponding new bank constituted under the Banking 't0 of 19t0. Companies (Acquisition and Transfer of Undertakings)…",
+    "def": "means- l of IN9. (i)a banking company or a co-operative bdnk to which the Banki Regulations Act, 1949 applies; (ii)the State Bank of lndia constitr.rted under the State Bank of 38 ofl9s9. (iii)a Subsidiary Bairk as defined in the State Bank of lndia (Subsidiary Banls) Act 1959; 5 of 190. (iv)a conesponding new bank constituted under the Banking 't of 19t0. Companies (Acquisition and Transfer of Undertakings)…",
     "scope": ""
    },
    {
@@ -2758,7 +3316,7 @@
    {
     "term": "debtor",
     "para": "definitions",
-    "def": "means a person to whom a loan is advanced and includes a successor-in-interest or surety; de",
+    "def": "means a person to whom a loan is advanced and includes a successor-in-interest or surety;",
     "scope": ""
    },
    {
@@ -2812,6 +3370,12 @@
     "scope": ""
    },
    {
+    "term": "Banker",
+    "para": "definitions",
+    "def": "means an association, a company or a person who accepts, for the purpose of lending or investment, deposits of money from the public, repayable on demand or otherwise, and withdrawal by cheque, draft, order, or otherwise within the territories of India and includes- (a) a banking company as defined in clause (c) of d section 5 of the Banking Regulation Act, 1949 In (Central Act No. 10 of 1949);",
+    "scope": ""
+   },
+   {
     "term": "bill of exchange",
     "para": "definitions",
     "def": "means a bill of exchange as defined by the Negotiable Instruments Act, 1881 (Act No. 26 of 1881) and includes also a hundi, and any other document entitling or purporting to entitle any person, whether named therein or not to payment by any other person of, or to draw upon any other person or, any sum of money;",
@@ -2826,7 +3390,7 @@
    {
     "term": "Cheque",
     "para": "definitions",
-    "def": "means a bill of exchange, drawn on a [1(viii-a) specified banker, and not expressed to be payable e otherwise than on demand; Cod \"Chief Controlling Revenue Authority\" means an ia officer or authority specified as such by the State Ind Government by notification in the Official Gazette;",
+    "def": "means a bill of exchange, drawn on a [1(viii-a) specified banker, and not expressed to be payable otherwise than on demand; Cod \"Chief Controlling Revenue Authority\" means an ia officer or authority specified as such by the State Ind Government by notification in the Official Gazette;",
     "scope": ""
    },
    {
@@ -2854,9 +3418,15 @@
     "scope": ""
    },
    {
+    "term": "India",
+    "para": "definitions",
+    "def": "means the territory of India;",
+    "scope": ""
+   },
+   {
     "term": "Inspector General of Stamps",
     "para": "definitions",
-    "def": "means the Inspector e General, Registration & Stamps appointed by the State d Government; iaCo \"instrument\" includes- Ind (a) every document by which any right or liability is, or purports to be, created, transferred, limited, extended, extinguished, or recorded; and",
+    "def": "means the Inspector General, Registration & Stamps appointed by the State d Government; iaCo \"instrument\" includes- Ind (a) every document by which any right or liability is, or purports to be, created, transferred, limited, extended, extinguished, or recorded; and",
     "scope": ""
    },
    {
@@ -2868,7 +3438,7 @@
    {
     "term": "lease",
     "para": "definitions",
-    "def": "means a lease as defined in section 105 of the Transfer of Property Act, 1882 (Act No. 4 of 1882), a e lease of immovable property or movable property, or d of both, and includes also,- o (a) a patta, C (b) a kabuliyat, or other undertaking in writing, ia not being a counterpart of a ''lease'', to d cultivate, occupy, or pay or deliver rent for, In immovable property,",
+    "def": "means a lease as defined in section 105 of the Transfer of Property Act, 1882 (Act No. 4 of 1882), a lease of immovable property or movable property, or d of both, and includes also,- o (a) a patta, C (b) a kabuliyat, or other undertaking in writing, ia not being a counterpart of a ''lease'', to d cultivate, occupy, or pay or deliver rent for, In immovable property,",
     "scope": ""
    },
    {
@@ -2878,7 +3448,7 @@
     "scope": ""
    },
    {
-    "term": "'mortgage deed'",
+    "term": "mortgage deed",
     "para": "definitions",
     "def": "includes every instrument, whereby, C for the purpose of securing money advanced, or to be ia advanced, by way of loan, or an existing or future debt, Ind or the performance of any engagement, one person transfers, or creates, to, or in favour of, another, a right over or in respect of specified property;",
     "scope": ""
@@ -2890,7 +3460,7 @@
     "scope": ""
    },
    {
-    "term": "'paper'",
+    "term": "paper",
     "para": "definitions",
     "def": "includes vellum parchment or any other material on which an instrument may be written;",
     "scope": ""
@@ -2922,7 +3492,159 @@
    {
     "term": "soldier",
     "para": "definitions",
-    "def": "includes any person below the rank of non-commissioned officer who is enrolled under the Army Act, 1950 (Act No. 46 of 1950); and (xxxvi) \"Stamp\" means any mark, seal or endorsement made electronically or otherwise by any agency or person duly authorised by the State Government, and includes an adhesive or impressed stamp, for the purpose of duty chargeable under this Act; (xxxvii) 'stock exchange' includes-",
+    "def": "includes any person below the rank of non-commissioned officer who is enrolled under the Army Act, 1950 (Act No. 46 of 1950); and",
+    "scope": ""
+   },
+   {
+    "term": "Stamp",
+    "para": "definitions",
+    "def": "means any mark, seal or endorsement made electronically or otherwise by any agency or person duly authorised by the State Government, and includes an adhesive or impressed stamp, for the purpose of duty chargeable under this Act; (xxxvii) 'stock exchange' includes-",
+    "scope": ""
+   }
+  ],
+  "ACT-ICA": [
+   {
+    "term": "proposal",
+    "para": "s. 2(a)",
+    "def": "When one person signifies to another his willingness to do or to abstain from doing anything, with a view to obtaining the assent of that other to such act or abstinence, he is said to make a proposal",
+    "scope": ""
+   },
+   {
+    "term": "acceptance",
+    "para": "s. 2(b)",
+    "def": "When the person to whom the proposal is made signifies his assent thereto, the proposal is said to be accepted. A proposal, when accepted, becomes a promise",
+    "scope": ""
+   },
+   {
+    "term": "promisor",
+    "para": "s. 2(c)",
+    "def": "The person making the proposal is called the \"promisor\", and the person accepting the proposal is called the \"promisee\"",
+    "scope": ""
+   },
+   {
+    "term": "promisee",
+    "para": "s. 2(c)",
+    "def": "The person making the proposal is called the \"promisor\", and the person accepting the proposal is called the \"promisee\"",
+    "scope": ""
+   },
+   {
+    "term": "consideration",
+    "para": "s. 2(d)",
+    "def": "When, at the desire of the promisor, the promisee or any other person has done or abstained from doing, or does or abstains from doing, or promises to do or to abstain from doing, something, such act or abstinence or promise is called a consideration for the promise",
+    "scope": ""
+   },
+   {
+    "term": "agreement",
+    "para": "s. 2(e)",
+    "def": "Every promise and every set of promises, forming the consideration for each other, is an agreement",
+    "scope": ""
+   },
+   {
+    "term": "reciprocal promises",
+    "para": "s. 2(f)",
+    "def": "Promises which form the consideration or part of the consideration for each other are called reciprocal promises",
+    "scope": ""
+   },
+   {
+    "term": "void agreement",
+    "para": "s. 2(g)",
+    "def": "An agreement not enforceable by law is said to be void",
+    "scope": ""
+   },
+   {
+    "term": "contract",
+    "para": "s. 2(h)",
+    "def": "An agreement enforceable by law is a contract",
+    "scope": ""
+   },
+   {
+    "term": "voidable contract",
+    "para": "s. 2(i)",
+    "def": "An agreement which is enforceable by law at the option of one or more of the parties thereto, but not at the option of the other or others, is a voidable contract",
+    "scope": ""
+   },
+   {
+    "term": "free consent",
+    "para": "s. 14",
+    "def": "Consent is said to be free when it is not caused by coercion, undue influence, fraud, misrepresentation or mistake",
+    "scope": ""
+   },
+   {
+    "term": "coercion",
+    "para": "s. 15",
+    "def": "the committing, or threatening to commit, any act forbidden by the Indian Penal Code or the unlawful detaining, or threatening to detain, any property, to the prejudice of any person whatever, with the intention of causing any person to enter into an agreement",
+    "scope": ""
+   },
+   {
+    "term": "undue influence",
+    "para": "s. 16(1)",
+    "def": "A contract is said to be induced by \"undue influence\" where the relations subsisting between the parties are such that one of the parties is in a position to dominate the will of the other and uses that position to obtain an unfair advantage over the other",
+    "scope": ""
+   },
+   {
+    "term": "contract of indemnity",
+    "para": "s. 124",
+    "def": "A contract by which one party promises to save the other from loss caused to him by the conduct of the promisor himself, or by the conduct of any other person, is called a \"contract of indemnity\"",
+    "scope": ""
+   },
+   {
+    "term": "contract of guarantee",
+    "para": "s. 126",
+    "def": "A \"contract of guarantee\" is a contract to perform the promise, or discharge the liability, of a third person in case of his default. A guarantee may be either oral or written",
+    "scope": ""
+   },
+   {
+    "term": "surety",
+    "para": "s. 126",
+    "def": "The person who gives the guarantee is called the \"surety\"",
+    "scope": ""
+   },
+   {
+    "term": "principal debtor",
+    "para": "s. 126",
+    "def": "the person in respect of whose default the guarantee is given is called the \"principal debtor\"",
+    "scope": ""
+   },
+   {
+    "term": "creditor",
+    "para": "s. 126",
+    "def": "the person to whom the guarantee is given is called the \"creditor\"",
+    "scope": ""
+   },
+   {
+    "term": "continuing guarantee",
+    "para": "s. 129",
+    "def": "A guarantee which extends to a series of transactions, is called a \"continuing guarantee\"",
+    "scope": ""
+   },
+   {
+    "term": "bailment",
+    "para": "s. 148",
+    "def": "A \"bailment\" is the delivery of goods by one person to another for some purpose, upon a contract that they shall, when the purpose is accomplished, be returned or otherwise disposed of according to the directions of the person delivering them. The person delivering the goods is called the \"bailor\". The person to whom they are delivered is called the \"bailee\"",
+    "scope": ""
+   },
+   {
+    "term": "pledge",
+    "para": "s. 172",
+    "def": "The bailment of goods as security for payment of a debt or performance of a promise is called \"pledge\". The bailor is in this case called the \"pawnor\". The bailee is called the \"pawnee\"",
+    "scope": ""
+   },
+   {
+    "term": "pawnor",
+    "para": "s. 172",
+    "def": "The bailor in a pledge (the bailment of goods as security for payment of a debt or performance of a promise) is called the \"pawnor\"",
+    "scope": ""
+   },
+   {
+    "term": "pawnee",
+    "para": "s. 172",
+    "def": "The bailee in a pledge (the bailment of goods as security for payment of a debt or performance of a promise) is called the \"pawnee\"",
+    "scope": ""
+   },
+   {
+    "term": "agent",
+    "para": "s. 182",
+    "def": "An \"agent\" is a person employed to do any act for another, or to represent another in dealings with third persons. The person for whom such act is done, or who is so represented, is called the \"principal\"",
     "scope": ""
    }
   ]
