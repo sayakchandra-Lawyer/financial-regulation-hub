@@ -1027,6 +1027,10 @@
   "date": "2025-04-16",
   "h": "13514a1bc938be17"
  },
+ "laws/ACT-ARB": {
+  "date": "2026-06-01",
+  "h": "ceff5bcf31324029"
+ },
  "laws/ACT-BBE-2026": {
   "date": "2026-10-01",
   "h": "b35a1c9c1d9c9dfd"
@@ -1035,9 +1039,13 @@
   "date": "2023-12-25",
   "h": "7acf2f6176b6e829"
  },
+ "laws/ACT-BUDS": {
+  "date": "2026-07-01",
+  "h": "1c49f6d9b844a9b1"
+ },
  "laws/ACT-CHIT": {
   "date": "1982-08-19",
-  "h": "48b6053972a168fd"
+  "h": "182c5ffe25545b34"
  },
  "laws/ACT-CICRA": {
   "date": "2005-06-23",
@@ -1047,9 +1055,17 @@
   "date": "2019-08-09",
   "h": "19164e1a5a628e7c"
  },
+ "laws/ACT-FRA": {
+  "date": "2026-07-01",
+  "h": "7aaa09993f582855"
+ },
  "laws/ACT-ICA": {
   "date": "1872-04-25",
   "h": "9b7ec053d900f110"
+ },
+ "laws/ACT-IT": {
+  "date": "2025-06-27",
+  "h": "0cbe82c5f37e42a9"
  },
  "laws/ACT-LIM": {
   "date": "1963-10-05",
@@ -1061,7 +1077,7 @@
  },
  "laws/ACT-PMLA": {
   "date": "2003-01-17",
-  "h": "d2714f9a6a802e02"
+  "h": "ff3ee2731ab0f044"
  },
  "laws/ACT-PSS": {
   "date": "2007-12-20",
@@ -1115,13 +1131,25 @@
   "date": "2025-05-27",
   "h": "a63fb45ebb28c42c"
  },
+ "laws/MF-AP": {
+  "date": "2011-01-01",
+  "h": "448ad10a7685eef0"
+ },
  "laws/MF-AS": {
   "date": "2021-01-27",
   "h": "dbae8b125b691fce"
  },
+ "laws/MF-KA": {
+  "date": "2025-03-24",
+  "h": "cef126a5d9b3fbc8"
+ },
  "laws/MF-TN": {
   "date": "2025-06-09",
   "h": "c2c845aadc3c883d"
+ },
+ "laws/ML-GJ": {
+  "date": "2011-04-06",
+  "h": "0cc1f4a8f8bb1019"
  },
  "laws/ML-KA": {
   "date": "1962-03-29",
@@ -1131,6 +1159,18 @@
   "date": "2025-03-24",
   "h": "ec0d866d0ec68198"
  },
+ "laws/ML-KA-PCEI2025": {
+  "date": "2004-03-04",
+  "h": "e90277d1d139a1b7"
+ },
+ "laws/ML-KL": {
+  "date": "2026-11-27",
+  "h": "19922b27908fb2dc"
+ },
+ "laws/ML-KL-PCEI": {
+  "date": "2013-01-04",
+  "h": "020b0f3d51e6e4f6"
+ },
  "laws/ML-MH": {
   "date": "2014-01-26",
   "h": "096b6565f00ff968"
@@ -1138,6 +1178,10 @@
  "laws/ML-TN": {
   "date": "1957-12-20",
   "h": "9ce09c21605a7d6d"
+ },
+ "laws/ML-TN-PCEI": {
+  "date": "2003-11-14",
+  "h": "30918ee91cb49e54"
  },
  "laws/PID-MH": {
   "date": "2000-01-21",
@@ -1159,17 +1203,37 @@
   "date": "2006-12-14",
   "h": "f763e16dd9b00404"
  },
+ "laws/RULES-BUDS": {
+  "date": "2020-02-13",
+  "h": "09fb86483c80b06b"
+ },
+ "laws/RULES-CERSAI": {
+  "date": "2011-03-31",
+  "h": "6e4d329d1a3d4e86"
+ },
  "laws/RULES-CIC": {
   "date": "2006-12-14",
   "h": "77a3b5f38b8cae03"
+ },
+ "laws/RULES-DRT": {
+  "date": "2026-11-27",
+  "h": "89e36af6fecff5f1"
  },
  "laws/RULES-FACT": {
   "date": "2012-04-02",
   "h": "e574cf55a68e2eaf"
  },
+ "laws/RULES-SIE": {
+  "date": "2002-09-20",
+  "h": "ee554375069956cf"
+ },
  "laws/STAMP-MH": {
   "date": "2026-04-07",
   "h": "5a8d1f07e3d77153"
+ },
+ "laws/STAMP-RJ": {
+  "date": "2026-05-18",
+  "h": "8ea6bbb92cc247e9"
  },
  "laws/STAMP-STATES": {
   "date": "2023-04-17",

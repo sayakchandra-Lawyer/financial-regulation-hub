@@ -1072,7 +1072,7 @@
    "name": "Other relevant laws",
    "full": "Contract, property, security, recovery and conduct laws",
    "status": "live",
-   "desc": "Contract Act, Transfer of Property Act, stamp and registration, SARFAESI and CERSAI, DRT, cheque bounce, limitation, electronic evidence, consumer protection, State money-lending and recovery laws, deposits, chit funds, payments, credit information and PMLA.",
+   "desc": "Contract Act, Transfer of Property Act, stamp and registration, SARFAESI and CERSAI, DRT, arbitration, cheque bounce, limitation, electronic evidence, consumer protection, State money-lending and recovery laws, deposits, chit funds, payments, credit information and PMLA.",
    "href": "other-laws/",
    "data": {
     "register": "other-laws/data/laws_register.json",
