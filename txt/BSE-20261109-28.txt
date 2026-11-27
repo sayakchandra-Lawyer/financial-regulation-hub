@@ -1,0 +1,77 @@
+section: exchanges
+date: 2026-11-09
+kind: BSE notice (Compliance; segment General)
+title: Guidelines in pursuance of amendment to SEBI KYC (Know Your Client) Registration Agency (KRA) Regulations, 2011
+ref: BSE Notice No. 20261109-28
+url: https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20261109-28
+pdf_url: https://www.bseindia.com/downloads/UploadDocs/Notices/20261109-28/20261109-28.pdf
+file: BSE-20261109-28.txt
+note: Date is the BSE Notice_Date field. Separate attachments, if any, not fetched.
+======================================================================
+Notice No.            NOTICE
+Notice Date
+Category     20261109-28
+Segment
+Department   09 Nov 2026
+Subject
+Attachments  Compliance
+
+             General
+
+             DOSS
+             Guidelines in pursuance of amendment to SEBI KYC (Know Your
+             Client) Registration Agency (KRA) Regulations, 2011
+             No Attachment
+To
+All Trading Members of the Exchanges
+Sub: Guidelines in pursuance of amendment to SEBI KYC (Know Your Client) Registration Agency (KRA)
+Regulations, 2011
+
+This is with reference to SEBI Circular No. SEBI/HO/MIRSD/FATF/P/CIR/2023/0144 dated August 11, 2023, and
+pursuant to Exchange Circular issued on monthly basis in respect to Guidelines in pursuance of amendment to
+SEBI KYC (Know Your Client) Registration Agency (KRA) Regulations, 2011 with the latest notice no. 20261014-
+35 dated October 14, 2026 on “Simplification of KYC process and rationalisation of Risk Management
+Framework at KYC (Know Your Client) Registration Agencies (KRAs)” and “Guidelines in pursuance of
+amendment to SEBI KYC (Know Your client) Registration Agency (KRA) Regulations, 2011”.
+
+Members may note that, pursuant to SEBI Circular No. SEBI/HO/OIAE/OIAE_IAD-1/P/CIR/2023/163 dated
+October 03, 2023, on the Centralized Mechanism for Reporting the Demise of an Investor through KRAs, all SEBI-
+registered Regulated Entities are required to block debit transactions in such accounts, suspend all transactions
+in the respective trading accounts, and inactivate/close the UCC across all Stock Exchanges. Trading Members
+are informed that demise-related data is being shared by the KRAs on a daily basis.
+
+The Exchange provides details of PANs marked as “On Hold” and "Not Available" by KRAs, based on data
+uploaded by Members.
+
+Path: UCC → Download UCCs Having Invalid PAN (by KRA) → Download UCCs PAN Which Are Not Available (at
+KRA)
+
+Members are hereby informed to download records and take the necessary actions in accordance with SEBI
+Circular No. SEBI/HO/MIRSD/SECFATF/P/CIR/2023/169 dated October 12, 2023.
+Further to the above referred circulars, Trading Members are hereby advised to ensure that the KYCs of all the
+clients are uploaded to the KRAs and only those clients shall be permitted to trade whose KRA status is either
+“KYC Registered” or “KYC Validated”.
+
+It is hereby informed that the clients whose KYC are not found to be validated by KRAs, i.e. where the KYCs are
+“On Hold” for any reasons (both AADHAAR and Non-AADHAAR based OVD) uploaded to the KRA from October
+01, 2026 to October 31, 2026, shall neither be Permitted to Trade on the Exchange, nor will they be allowed to
+square off their open positions, if any, w.e.f. November 21, 2026, until they comply with the validation
+requirements. Eventually, such open positions will naturally expire on the expiry date of the respective contract.
+
+The Exchange shall flag the above non-compliant PANs, provided by the KRAs, as Not Permitted to Trade w.e.f.
+November 21, 2026. All PANs that become KRA compliant subsequently, will be permitted to trade on T+1, based
+on the information received from KRA by the Exchange on T Day.
+
+The list of such non-compliant clients as mentioned above have been provided at the below mentioned location:
+
+Path                                Name of File
+EQ\TRANSACTION\Nov-2026\09-11-2026  Non_Validated_Clients_by_KRAs_Clgno_xxxx.TXT
+In case of any clarifications, members may contact us on details given as under:
+
+Contact Nos.           Email ID
+022- 2272 8435/5785    ucc@bseindia.com
+
+Abhijit Pai            Shubham Benere
+Deputy Vice President  Deputy Manager
+Investigation          Investigation
+

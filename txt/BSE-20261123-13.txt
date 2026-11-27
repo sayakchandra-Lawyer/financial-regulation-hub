@@ -1,0 +1,94 @@
+section: exchanges
+date: 2026-11-23
+kind: BSE notice (Compliance; segment General)
+title: Compliance with the guidelines on ‘Safer participation of Retail investors in Algorithmic trading issued by Exchange’ – Tech-savvy Retail Investors
+ref: BSE Notice No. 20261123-13
+url: https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20261123-13
+pdf_url: https://www.bseindia.com/downloads/UploadDocs/Notices/20261123-13/20261123-13.pdf
+effective: April 01, 2026
+file: BSE-20261123-13.txt
+note: Date is the BSE Notice_Date field. Separate attachments, if any, not fetched.
+======================================================================
+Notice No.            NOTICE
+Notice Date
+Category     20261123-13
+Segment
+Department   23 Nov 2026
+Subject
+Attachments  Compliance
+
+             General
+
+             DOSS
+             Compliance with the guidelines on 'Safer participation of Retail
+             Investors in Algorithmic trading' issued by SEBI and Exchanges -
+             Tech-savvy Retail Investors
+             No Attachment
+All Market participants,
+
+Subject: Compliance with the guidelines on ‘Safer participation of Retail investors in Algorithmic
+trading issued by Exchange’ – Tech-savvy Retail Investors
+
+This has reference to SEBI Circular No. SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/0000013 dated
+February 04, 2025, BSE Notice No. 20250723-41 dated July 23, 2025, and SEBI circular No.
+SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/132 dated September 30, 2025, related to ‘Safer
+participation of Retail investors in Algorithmic trading issued by the Exchange’. The Retail Algo
+framework was implemented with effect from April 01, 2026.
+
+As per Exchange Notice No. 20250723-41 dated July 23, 2025 (Annexure A, Para 14), it is
+mandated that "all the strategies shall be run on the brokers servers. The order messages shall
+be originated from brokers server." This requirement is central to ensuring the broker's control
+over risk management and data confidentiality. However, Tech Savvy client is required to host the
+Algo using a static IP at their end where Algo logic resides instead of hosting the Algo on Trading
+Member’s cloud server.”
+
+Post April 01, 2026, i.e. the commencement of Retail Algo framework, Exchanges have been
+receiving complaints from market participants regarding the misuse of Static IP facilities by
+certain Exchange empaneled Algo Providers. The Exchange has also noted that some Algo
+Providers are providing Static IPs to retail clients, under the guise of them being ‘Tech-savvy’ retail
+clients, which is in violation with SEBI/Exchange guidelines issued for Safer participation of Retail
+investors in Algorithmic trading.
+
+Accordingly, the Exchange hereby informs all market participants that:
+    1. The Static IP is intended only for ‘Tech-savvy Retail Investors’ who develop their own algos
+         using programming knowledge (As per SEBI Circular No. SEBI/HO/MIRSD/MIRSD-
+         PoD/P/CIR/2025/0000013 dated February 04, 2025)
+    2. Trading Members and Algo Providers must not, under any circumstances, provide Static
+         IP access to retail clients who do not fall under the category of ‘Tech-savvy Retail
+         Investors’ for Algorithmic Trading. Any such case of misclassification or misuse of ‘Static
+         IPs’ will be treated as a violation of SEBI and Exchange guidelines.
+    3. Trading Members who are registering such “Tech Savvy Client” shall take an undertaking
+         from such clients that “such clients meet the requirements of the SEBI definition of ‘Tech-
+         savvy’ Retail clients i.e. they are Retail clients who develop their own algos using
+         programming knowledge.”
+    4. The undertaking shall further state that “As a “Tech Savvy Client” since we are developing
+         our own algos using programming knowledge, we shall have no recourse to the Investor
+         Grievance mechanism of the Exchange in the event of losses incurred on account of the
+         logic of ALGO used.”
+The Exchanges will closely monitor compliance of Trading Members and Algo Providers with the
+above guidelines and in the event of any violations shall take following actions:
+
+• Non-Adherence on part of Trading Members - Initiate following penal action on the Trading
+    Member (s) concerned.
+
+Details of Contravention         Action in case of first  Action in case of repeat
+                                 instance                 instance
+Undertaking not obtained by      Rs. 5,000/- per client,  2nd time - 50% escalation
+Trading Member for ‘Tech-        subject to maximum       3rd Time & Onwards-
+savvy Retail Client’ in case of  penalty of Rs. 1 lakh    100% Escalation
+Retail Algo
+
+• Non-Adherence on the part of Algo Providers - The empanelment status of the Algo
+    Provider shall be subject to review and may be suspended or revoked.
+
+All concerned Algo Providers and Trading Members are advised to ensure strict adherence to the
+above guidelines and take necessary corrective actions immediately, wherever applicable.
+
+This circular shall be applicable with immediate effect.
+
+For and on behalf of BSE Ltd.
+
+Vandana Vania                                             Sandhya Sapaliga
+Assistant Vice President                                  Manager
+Enforcement                                               Enforcement
+

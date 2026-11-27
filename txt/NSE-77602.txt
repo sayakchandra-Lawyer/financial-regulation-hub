@@ -1,0 +1,390 @@
+section: exchanges
+date: 2026-11-25
+kind: NSE circular (Inspection & Compliance)
+title: Submission of Action Taken Report (ATR) for observations reported during inspection of Authorised Persons
+ref: NSE/COMP/77602
+url: https://www.nseindia.com/resources/exchange-communication-circulars
+pdf_url: https://nsearchives.nseindia.in/content/circulars/COMP77602.pdf
+file: NSE-77602.txt
+======================================================================
+National Stock Exchange of India Limited                        Date: November 25, 2026
+
+Circular
+
+ Department: Member Compliance
+ Download Ref No: NSE/COMP/77602
+ Circular Ref. No: 103/2026
+
+To All Members,
+
+Sub: Submission of Action taken report (ATR) for observations reported during
+inspection of Authorised Persons
+
+This has a reference to Exchange circular ref. no. NSE/INSP/70751 dated October 10, 2025,
+and Exchange circular ref. no. NSE/COMP/75878 dated August 21, 2026, regarding the
+indicative disciplinary actions to be applied by trading members against their Authorised
+Persons (APs) in case of non-compliance identified during AP inspections and requirement of
+submission of ATR along with status of closure of observation to Exchange.
+
+Members are hereby informed that the functionality is provided on ENIT (Electronic NSE
+Interface for Trading Members) portal for reporting of ATR for observations reported during
+inspection of Authorised Persons.
+
+Members are advised to submit ATR for observations reported during inspection of Authorised
+Persons to Exchange. Timelines for submission of ATR are mentioned below:
+
+Inspections undertaken during the FY   Due date for submission  Due date for
+                                       of AP inspection report  submission of ATR
+Inspections done during the Quarter-1
+(April-June)                                     July 31st         September 30th
+Inspections done during the Quarter-2
+(July-September)                               October 31st        December 31st
+Inspections done during the Quarter-3
+(October-December)                             January 31st           March 31st
+Inspections done during the Quarter-4
+(January-March)                                 April 30th             June 30th
+
+Accordingly, ATR along with status of closure of observation reported during AP inspections
+for quarter ended September 30, 2026, shall be submitted by December 31, 2026, and onwards
+as per above timelines.
+
+Details for accessing the ENIT portal and reporting of ATR are enclosed as under:
+
+Annexure A: The user manual for submission of AP inspection report and ATR
+Annexure B: List of validations applicable for uploading ATR file on ENIT
+
+Inspections of APs undertaken during each quarter shall be reported within one month from
+end of the said quarter. In case no inspection is undertaken during a particular quarter, the
+Members may submit a "NIL" declaration for that quarter through the ENIT portal. All reports
+shall be submitted through the online system in ENIT.
+All Members are advised to take note of the same and ensure compliance.
+
+For any support, please reach out to the helpdesk on 1800 266 0050 (Select IVR option 3) or
+email at memcompliance_support@nse.co.in.
+
+For and on behalf of
+National Stock Exchange of India Limited
+
+Swati Sopare
+Chief Manager
+Annexure A: The user manual for submission of AP inspection report and ATR
+
+                         User manual
+                              For
+
+        Submission of AP Inspection Report and
+                    Action Taken Report
+
+Disclaimer:
+
+“This document/user manual summarizes the queries relating to the above topic in a concise manner for the
+Member’s ease of understanding. The information and/ or content (collectively ‘Information’) provided herein
+is general information only and NSE has issued detailed circulars to that effect from time to time, as referred
+herein. While reasonable care has been exercised to ensure that the Information is adequate and reliable, no
+representation is made by NSE as to its accuracy or completeness and NSE, its affiliates and subsidiaries accept
+no liability of whatsoever nature for any direct or consequential loss, including without limitation any loss of
+profits, arising from reliance on this Information. The readers are expected to undertake their own diligence and
+are advised not to solely rely on this document. Any such reliance shall be at the reader’s own risk. Nothing
+stated herein shall bind NSE, in any manner whatsoever
+Summary
+Part 1: Steps for submission of Authorized Person Inspection Report
+Part 2: General Guidelines for submission of AP Inspection Action Taken Report (ATR)
+Part 3: Steps for submission of ATR
+Part 1- Steps for Authorized Person Inspection Report Submission
+Step 1: Log In to the ENIT Member Portal
+Log in to the ENIT Member Portal using valid member credentials.
+Step 2: Navigate to the AP Inspection Page
+From the main menu, follow this navigation path:
+ENIT → Compliance → Authorized Person → Applications → Inspection of Authorized
+Person New
+Step 3: Download and Fill File Template
+
+    1. Download the file template provided ENIT portal as shown in below screenshot.
+    2. Save file with the name “AUTH_PERSON_INSP_ (Member Code)” to local drive.
+
+         Do not change file format or add or delete any column.
+    3. Fill data in all relevant fields in the downloaded template.
+Step 4: Upload of file on ENIT portal
+     1. On ENIT at path ENIT → Compliance → Authorized Person → Applications →
+
+         Inspection of Authorized Person New select the relevant quarter for the AP
+         Inspection from the drop-down menu.
+
+     2. Upload the file in the format prescribed.
+     3. File will be validated at the time of uploading on ENIT portal.
+     4. In case of any Error, message will be displayed as “Error file generated – Check
+
+        comments and rectify”. Error file can be downloaded at path ENIT → Compliance →
+        Authorized Person → Applications → Inspection of Authorized Person New
+
+                                                                                                                          .
+Sample Error file:
+
+     5. Refer General guidelines and Validation sheet to resolve errors mentioned in Error file.
+     6. All Errors shall be resolved before uploading file again on ENIT portal.
+     7. On Successful validation, message will be displayed as “File uploaded successfully –
+
+        the file has been accepted”
+
+Part 2: General Guidelines for submission of AP Inspection Action Taken Report (ATR)
+1. Submission of ATR is mandatory for the members if any “Not Complied” reported in any
+
+   of the criterion during quarterly AP Inspection reporting.
+   (Please note that template will be available only if there is any non-compliance reported in
+   respective quarter for any of the Authorised Person inspection reporting)
+2. Member shall review non compliances reported/observed during AP inspection and shall
+   take necessary action against AP within reasonable time. Also, member shall ensure that non
+   compliances are rectified/ complied before submission of ATR to Exchange i.e. within 60
+   days of the due date for submission of AP inspection report with the status of compliance.
+3. The ATR template will be made available for download at ENIT portal in the following
+   path: ENIT → Compliance → Authorized Person → Applications → Action on Non-
+   Compliance in AP Inspection Report
+4. Below details shall be provided in the downloaded template.
+   • Type of Action Taken as prescribed under Exchange circular Ref No: NSE/INSP/70751
+
+       dated October 10, 2025
+   • If type of action selected as Others, then please specify
+   • If action taken by member is not in line with action prescribed in Exchange circular Ref
+
+       No: NSE/INSP/ 70751, then specify reason
+• Date of Action Taken (DD-MM-YYYY)
+• Compliance status of the non-compliance observed
+
+5. Under the column “Type of Action Taken” in ATR Template, select indicative actions as
+   prescribed in circular NSE/INSP/70751 dated October 10, 2025, from the dropdowns
+   available for each criterion where non-compliance was marked against the AP in AP
+   Inspection Reporting for the quarter.
+
+These actions may include, but are not limited to:
+
+Violation           Indicative Action
+Category
+           Termination on Disciplinary grounds, informing all clients of the AP, withhold
+    A      money due to the AP, and public notification. (for violations mentioned in point
+           no. 2, 4, 5, 6, 8 and 9 of Annexure A of the circular NSE/INSP/70751 dated
+    B      October 10, 2025, it is mandatory to file police complaint for termination of
+    C      AP on disciplinary grounds).
+           Issuance of a warning Letter, with instruction to avoid repeat violations, with
+           termination on disciplinary grounds in case of repeated offenses.
+           Issuance of an Advisory Letter, with instruction to avoid repeat violations. In
+           case of repeat violation, warning letter to be issued.
+
+ 6. If “Others” is selected in the “Type of Action” column, it is mandatory to provide the required
+     details in the column “If type of action selected as Others, then please specify”.
+
+ 7. If the action is not in line with the prescribed Indicative action in the above table, it is
+     mandatory to provide the reason under the column, “If action taken by member is not in line
+     with action prescribed in Exchange circular Ref No: NSE/INSP/ 70751, then specify reason”
+
+ 8. Date of Action Taken should be captured in the DD-MM-YYYY format.
+ 9. All observations shall be acted upon and complied before submission of ATR to Exchange.
+
+     In the exceptional cases where compliance status is not closed/completed, member shall
+     report ATR with Type of action “In Progress” and compliance status as “open” within due
+     date for submission of ATR.
+10. ATR submission window will be available till due date for submission of ATR. In case of
+     any discrepancy in ATR submitted to Exchange, same can be rectify by resubmission of
+     entire file again. The ATR submitted for respective quarter will be overwritten with the latest
+     submission. The option of resubmission of ATR will be available only till the due date of
+     filing of ATR.
+Part 3-Steps for Submission of ATR
+
+Step 1: Navigate to the ATR submission page
+
+Log in to the ENIT Member Portal and follow this navigation path:
+
+ENIT → Compliance → Authorized Person → Applications → Action on Non-Compliance
+in AP Inspection Report
+
+STEP 2 Download ATR Template
+    1. Select the relevant quarter for the AP Inspection from the drop-down menu.
+    2. Download the file template from the page.
+         (Please note that template will be available only if there is any non-compliance
+         reported in respective quarter for any of the Authorised Person inspection reporting)
+
+Step: 3 Fill in the details of action taken and status of closure of non-Compliance in the
+template and upload on ENIT
+The required information should be provided in file downloaded from ENIT and should be
+uploaded back on the ENIT at Path: Compliance -> Authorized Person -> Applications ->
+Action on Non-Compliance in AP Inspection Report
+Step 4: Verify Upload Status
+After uploading, one of the following messages will appear:
+• For Successful submission: “File Uploaded Successfully – The file has been accepted”.
+
+   Or
+• On identification of Error: “Error File Generated – Check Comments and Rectify”. The
+
+   file contains errors that must be corrected.
+Message on successful submission
+
+Message on identification of Error:
+
+Error Excel file:
+
+STEP 5: Rectify and Re-upload (If Errors Occur)
+If an error message is displayed, follow these steps to resolve the issue:
+
+    1. Click the OK button and download the error file that is generated.
+    2. Open the error file and review the comments to identify the issues.
+    3. Refer general guidelines and validation sheet available on the page to assist in
+
+         correcting the data.
+    4. After rectifying all errors, re-upload the corrected file.
+Step 6: Downloading of report for submission on Action on Non-Compliance in AP
+Inspection
+
+Once the ATR submitted to Exchange, report will be available on ENIT. Find below the steps
+to download.
+
+    1. From the main menu, follow this navigation path:
+         ENIT → Compliance → Authorized Person → Applications → Action on Non-
+         Compliance in AP Inspection MIS
+
+    2. Select the relevant quarter for the AP Inspection from the drop-down menu.
+    3. Download the file from the page.
+Annexure B: List of validations applicable for uploading ATR file on ENIT
+
+Sr Field        Validations                 Error Message                  Error
+no. Reference                                                              Code
+
+1 File          File Size cannot be 0 kb    File is Empty, please          APVAL001
+     Size/Name                              upload valid file
+
+2 Date of       This field is mandatory     Column "Date of Action         IDATE006
+     Action     except for “No Action       taken" is blank.               APVAL002
+     Taken      Taken" or "In Progress" is                                 IDATE005
+                selected in the "Type of    Invalid date format in the
+                Action Taken" column.       file. Please enter the date
+                The date mentioned in the   in DD-MM-YYYY
+                file must be in DD-MM-      format.
+                YYYY format.                Date of Action Taken is
+                                            invalid.
+                Date of Action Taken
+                must fall within the
+                specified financial period
+                and before the ATR
+                Reporting Date.
+
+                If "No Action Taken" or Leave the Date of Action IDATE007
+
+                "In Progress" is selected in Taken column blank when
+
+                the "Type of Action         "No Action Taken" / "In
+
+                Taken" column, the "Date Progress is selected".
+
+                of Action Taken field"
+
+                must be blank.
+
+3 Type of       This field is mandatory Column "Type of Action APVAL007
+
+Action                                      taken" is not selected.
+
+Taken
+
+4 If type of If 'Others' is selected in Column "Details of Other APVAL008
+
+action          the 'Type of Action Taken' Actions, if any" is left
+
+selected as column, details must be blank.
+
+Others, then provided in minimum 10
+
+please          words.
+
+specify
+
+5 Compliance This field is mandatory. Column "Compliance                   APVAL010
+
+status of the Select option from the        status of the non-
+
+non-            dropdown list in the        compliance observed" not
+
+compliance "Compliance Status of the selected.
+
+observed        Non-Compliance
+
+                Observed" column.
+
+6 If action     If 'No Action Taken / In Column "If action taken APVAL009
+
+taken by        Progress' is selected in the by member is not in line
+
+member is 'Type of Action Taken'            with action prescribed in
+
+not in line column, details must be Exchange circular Ref No:
+
+with action provided in minimum 10 NSE/INSP/ 70751" is left
+
+prescribed in words.                        blank
+Sr Field            Validations                 Error Message              Error
+no. Reference                                                              Code
+                    In case of Category A       Column "If action taken
+      Exchange      Violation, If the Type of   by member is not in line   APVAL011
+      circular Ref  Action taken is other than  with action prescribed in
+      No:           "Termination with Police    Exchange circular Ref No:
+      NSE/INSP/     Complaint" or               NSE/INSP/ 70751" is left
+      70751, then   "Termination without        blank
+      specify       Police Complaint", a
+      reason        minimum of 10 words is
+                    required to be filled in
+                    under the Column "If
+                    action taken by member is
+                    not in line with action
+                    prescribed in Exchange
+                    circular Ref No:
+                    NSE/INSP/ 70751".
+
+                    In case of Category B       Column "If action taken    APVAL012
+                    Violation, If the Type of   by member is not in line
+                    Action taken is other than  with action prescribed in
+                    "Warning", a minimum of     Exchange circular Ref No:
+                    10 words is required to be  NSE/INSP/ 70751" is left
+                    filled in under the Column  blank
+                    "If action taken by
+                    member is not in line with
+                    action prescribed in
+                    Exchange circular Ref No:
+                    NSE/INSP/ 70751".
+
+                    In case of Category C       Column "If action taken    APVAL013
+                    Violation, If the Type of   by member is not in line
+                    Action taken is other than  with action prescribed in
+                    "Advisory", a minimum of    Exchange circular Ref No:
+                    10 words is required to be  NSE/INSP/ 70751" is left
+                    filled in under the Column  blank
+                    "If action taken by
+                    member is not in line with
+                    action prescribed in
+                    Exchange circular Ref No:
+                    NSE/INSP/ 70751".
+
+                    In case of Category A/B     Column "If action taken    APVAL014
+                    Violation, If the Type of   by member is not in line
+                    Action taken is other than  with action prescribed in
+                    "Termination with Police    Exchange circular Ref No:
+                    Complaint", "Termination    NSE/INSP/ 70751" is left
+                    without Police Complaint"   blank
+                    or "Warning", a minimum
+Sr Field       Validations                 Error Message              Error
+no. Reference                                                         Code
+               of 10 words is required to  Column "If action taken
+               be filled in under the      by member is not in line   APVAL015
+               Column "If action taken     with action prescribed in
+               by member is not in line    Exchange circular Ref No:
+               with action prescribed in   NSE/INSP/ 70751" is left
+               Exchange circular Ref No:   blank
+               NSE/INSP/ 70751".
+               In case of Category B/C
+               Violation, If the Type of
+               Action taken is other than
+               "Warning" or "Advisory",
+               a minimum of 10 words is
+               required to be filled in
+               under the Column "If
+               action taken by member is
+               not in line with action
+               prescribed in Exchange
+               circular Ref No:
+               NSE/INSP/ 70751".

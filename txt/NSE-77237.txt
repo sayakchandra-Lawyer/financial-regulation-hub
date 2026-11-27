@@ -1,0 +1,119 @@
+section: exchanges
+date: 2026-11-02
+kind: NSE circular (Surveillance & Investigation)
+title: Revision in formats for registration of Non - Neat Frontend (NNF) software documents and other important updates
+ref: NSE/INVG/77237
+url: https://www.nseindia.com/resources/exchange-communication-circulars
+pdf_url: https://nsearchives.nseindia.in/content/circulars/INVG77237.zip
+effective: immediately
+file: NSE-77237.txt
+======================================================================
+===== [zip member] Annexures.zip ===== [not a PDF; not converted]
+
+
+===== [zip member] INVG77237.pdf =====
+National Stock Exchange of India Limited
+Circular
+
+Department: INVESTIGATION DEPARTMENT      Date: November 02, 2026
+Download Ref No: NSE/INVG/ 77237
+Circular Ref. No: 111/2026
+
+All Market Participants,
+
+Sub: Revision in formats for registration of Non-Neat Frontend (NNF) software documents and other important
+updates.
+
+This is with reference to Exchange consolidated circular number NSE/INVG/73992 dated April 30, 2026, wherein
+operational guidelines were specified for Trading members/Empanelled Vendors/ Application Service Providers
+(ASPs) and Algo Providers seeking registration of their Non-Neat Front End (NNF) software. The Exchange, vide
+circular no. NSE/INVG/74233 dated May 15, 2026, had revised the documents/formats required for registration of
+NNF registration.
+
+The Current circular modifies/adds to specified sections of the earlier circulars as mentioned above, specifically to
+sections 2, 12, 13 & 15 of Exchange circular number 73992 and 74233 dated April 30, 2026, and May 15, 2026, to
+the extent of documents and formats required for NNF software registration.
+
+Accordingly, market participants are requested to note the following:
+
+     1. Minimum participation period for Mock/Simulation Trading:
+
+          As per clause 5.1.2.2.2, Chapter 2 of SEBI Master circular for Stock Exchanges and Clearing corporations
+          dated December 30, 2024, Trading members are required to participate in mock / simulated trading
+          environment provided by the Exchange. Such participation shall now be for a minimum period of one hour
+          and the auditor shall verify whether the Trading Members have participated for such minimum period of 1
+          hour and specify the time duration of participation in the auditor certificate submitted for registration of NNF
+          new / modified software.
+
+     2. Registration for Electronic Gold Receipts (EGR):
+
+          As per Exchange Circular No. NSE/INVG/74233 dated May 15, 2026, members can apply for registration of
+          NNF products in the EGR segment. This provision has now been extended to include ‘Algorithmic Trading’
+          (AT) and ‘Client Direct API’ products.
+
+     3. Minimum Net Worth Criteria:
+
+          A minimum net worth threshold of INR 1 crore shall now apply to CTCL vendors and Application service
+          provider (ASPs). In view of this requirement, all such vendors shall furnish a ‘Net worth certificate’ in the
+          specified format. While the prospective vendors shall submit the ‘Net worth certificate’ with their
+National Stock Exchange of India Limited
+
+           empanelment application, the existing empanelled vendors shall furnish it by November 15, 2026. The
+           format of the ‘Net worth certificate’ has been provided in Annexure 14.
+
+      4. Vendor confirmation letter - CSCRF:
+
+           In accordance with SEBI circular SEBI/HO/ ITD-1/ITD_CSC_EXT/P/CIR/2024/113 dated 20 August 2024,
+           on the Cybersecurity and Cyber Resilience Framework (CSCRF), and Exchange circular no. NSE/INVG/76131
+           dated September 02, 2026, all Trading Members shall submit a ‘Vendor confirmation letter - CSCRF’ at the
+           time of NNF product registration with the Exchange. This letter shall confirm that the minimum software /
+           hardware requirements including the baseline requirements and security patch levels have been met as per
+           the specifications provided by the empanelled vendor. The format of the ‘Vendor confirmation letter - CSCRF’
+           has been provided in Annexure 15.
+
+      5. Update to Algo Provider Empanelment Undertaking:
+
+           Further to the Exchange circular no. NSE/INVG/70309 dated September 19, 2025, ‘Annexure 1 - the
+           Empanelment Algo Undertaking for Algo provider’ has been updated with additional clauses pertaining to
+           affiliation with other entities like brokers/Sub-brokers and others. The format of the revised undertaking has
+           been placed in Annexure 6.
+
+           In view of the above revisions and additions, Market participants are advised to refer the following table for
+           the respective changes made to the documents and formats:
+
+Sr. Market Participant  Section  Auditor       Auditor      Additional Submission
+No.                              Certificate   Report
+                                 (Revised)     (Revised)    Vendor Confirmation Letter -
+1 Trading Member                                            CSCRF as per CSCRF guidelines
+                        2        Annexure III  Annexure II  for all NNF products
+2 Empanelled Vendor                                         (CTCL/IBT/STWT/AT/API)
+3 Application Service   12       Annexure B2   -            -
+                                               Annexure 1
+        Provider (ASP)  13       Annexure 2,3  -            -
+4 Algo Provider
+                        15       Annexure 10                -
+
+Accordingly, for the ease of Market participants, comprehensive list of documents (along with the revised formats) is
+enclosed as an Annexure to this circular. Market participants are required to refer to the formats of the attached
+documents for registration of NNF software.
+
+The revised formats (as specified in the enclosed annexures along with additional requirements) shall come into
+effect immediately. However, for convenience of market participants, applications submitted with formats as per
+circular NSE/INVG/74233 dated May 15, 2026, shall be acceptable for NNF product registration requests submitted
+till November 15, 2026. Thereafter, only such applications which are submitted as per revised formats shall be
+considered valid for processing.
+
+                                                            Page 2 of 3
+National Stock Exchange of India Limited
+
+For and on behalf of
+National Stock Exchange of India Limited
+
+Manish Deo
+Associate Vice President
+
+Toll Free No              Email id
+1800-266-0050 (Option 3)
+                          nnfreg_support@nse.co.in
+
+                                                    Page 3 of 3

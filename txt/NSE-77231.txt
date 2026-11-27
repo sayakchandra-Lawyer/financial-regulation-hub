@@ -1,0 +1,103 @@
+section: exchanges
+date: 2026-11-02
+kind: NSE circular (Capital Market (Equities) Trade)
+title: Migration of Non-Settlement Related Payments from Custodians to Trading Members in the Cash Market Segment from T+2 to T+1 Settlement Cycle
+ref: NCL/CMPT/77231
+url: https://www.nseindia.com/resources/exchange-communication-circulars
+pdf_url: https://nsearchives.nseindia.in/content/circulars/CMPT77231.pdf
+effective: 16th November 2026
+file: NSE-77231.txt
+======================================================================
+NSE Clearing Limited
+
+                             Department: Capital Market Segment
+
+Download Ref No: NCL/CMPT/77231     Date: 02 November, 2026
+
+Circular Ref. No: 0379/2026
+
+All Members/Custodians/PCMs,
+
+Sub: - Migration of Non-Settlement Related Payments from Custodians to Trading Members in the Cash Market Segment
+from T+2 to T+1 Settlement Cycle
+
+Ref: Circular Ref. No. NCL/CMPT/40991 dated May 14, 2019
+
+This is in reference to the above-mentioned circular regarding the facility for non-settlement related payments from Custodians to Trading
+Members in the Cash Market segment.
+
+In line with the migration of the settlement cycle from T+2 to T+1, the process for non-settlement related payments is revised as detailed
+below:
+
+1. Custodians shall upload a file with the details as provided in Annexure I by 4:00 PM on the settlement day.
+2. NCL shall initiate the respective debit of amount from the Custodian clearing bank account and credit the amount into the Clearing
+
+     Member’s (linked to the Trading Member) clearing bank account on the same day.
+3. NCL shall generate and download a report to the Trading Members containing the details of the non-settlement related payments
+
+     from the Custodians. The report format is provided in Annexure II.
+
+The payments made under the aforementioned payment facility shall not be commingled with the settlement obligations of the
+Custodians/Members and will not be guaranteed by NCL. The payments to Trading Members shall be made subject to realization from
+Custodians. NCL shall not have any responsibility whatsoever in respect of these payments or any disputes related thereto.
+
+The revised process shall be operational with effect from 16th November 2026(i.e. T+1 settlement cycle for trade date 13th November
+2026).
+
+Sr.no  Trade date                   File uploaded by Custodian   Credit into the Clearing
+1      Thursday, 12 November, 2026  Friday, 13 November, 2026    Member’s bank account
+2      Friday, 13 November, 2026    Monday, 16 November, 2026    Monday, 16 November, 2026
+
+                                                                 Monday, 16 November, 2026
+NSE Clearing Limited                 Email id
+                                     nsccl_funds@nsccl.co.in
+For and on behalf of
+NSE Clearing Limited
+
+Satish Jathan
+Vice President
+
+           Telephone No
+           1800 266 0050 (Option 2)
+NSE Clearing Limited
+
+                                                                             Annexure I
+
+         Naming Convention:
+         <Custodian Code>_NSP_DDMMYYYY.csv
+         The file for a Custodian shall contain the following header
+         Settlement Type
+         Settlement Number
+         TM Code
+         CP Code
+         Amount
+         Exchange code
+         The custodian shall provide the information pertaining to the headers mentioned above with respect to trading
+         members (TM) and custodial participants (CPs) for which non settlement transactions need to be created.
+NSE Clearing Limited
+
+                                                                             Annexure II
+
+         File Path: Member Code – NSP
+         Naming Convention:
+         <CM Code>_NSP_DDMMYYYY.csv
+         DDMMYYYY specifies the current date.
+         The file for a Clearing Member shall contain the following header
+         Settlement Number
+         CM Code
+         TM Code
+         Custodian
+         CP Code
+         Amount
+
+         File Path: Member Code – NSP
+         Naming Convention:
+         <TM Code>_T_NSP_DDMMYYYY.csv
+         Settlement Number
+         TM Code
+         Custodian
+         CP Code
+         Amount
+
+         The trading members and clearing members shall receive the information pertaining to the headers mentioned above
+         with respect to custodians and custodial participants (CPs) for which non settlement transactions are created.

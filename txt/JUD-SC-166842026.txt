@@ -1,0 +1,2607 @@
+section: judgments
+date: 2026-11-26
+kind: Supreme Court judgment
+title: STATE BANK OF INDIA VS. STATE OF MAHARASHTRA
+ref: SLP(Crl) No. 6710/2026 ; 2026 INSC 1279 ; Diary Number 16684 / 2026
+applies_to: Supreme Court of India; Bench (parsed from signature block): J.B. PARDIWALA, UJJAL BHUYAN
+url: https://www.sci.gov.in/view-pdf/?diary_no=166842026&type=j&order_date=2026-11-26&from=latest_judgements_order
+pdf_url: https://www.sci.gov.in/sci-get-pdf/?diary_no=166842026&type=j&order_date=2026-11-26&from=latest_judgements_order
+file: JUD-SC-166842026.txt
+note: REPORTABLE. From the latest-judgments list on sci.gov.in home page.
+======================================================================
+2026 INSC 1279                                                                   REPORTABLE
+
+                          IN THE SUPREME COURT OF INDIA
+                        CRIMINAL APPELLATE JURISDICTION
+
+            CRIMINAL APPEAL NO. __________ OF 2026
+
+(ARISING OUT OF SPECIAL LEAVE PETITION (CRL.) NO. 6710 OF 2026)
+
+STATE BANK OF INDIA                        ...APPELLANT
+                                         ...RESPONDENT
+                        Versus
+
+STATE OF MAHARASHTRA & ORS.
+
+                        J U D G M E N T
+
+Signature Not Verified
+
+Digitally signed by
+CHANDRESH
+Date: 2026.11.26
+17:51:38 IST
+Reason:
+J.B. PARDIWALA, J.
+
+For the convenience of exposition, this judgment is divided into the following
+
+parts:
+
+                                     INDEX
+
+A. FACTUAL MATRIX.............................................................................2
+
+B. SUBMISSIONS BY THE PARTIES .................................................... 6
+
+C. ISSUES FOR DETERMINATION .................................................... 21
+
+D. ANALYSIS............................................................................................21
+      I. Scope and purpose of the MPID Act. ............................................... 21
+      II. Competing interests of the secured creditors under SARFAESI Act
+          and depositors under the MPID Act.................................................29
+           (i) Analysis of the judgment in NSEL (supra). ....................................... 29
+           (ii) Conflict between the SARFAESI Act and MPID Act....................... 42
+      III. Harmonious construction of competing provisions of SARFAESI
+          Act and MPID Act..............................................................................46
+           (i) Statutory scheme of the SARFAESI Act and MPID Act. ................ 46
+           (ii) Principles for determination of precedence of a statute over another
+                in case of conflict. ................................................................................. 51
+           (iii) Nature of the security interest created by secured creditors and its
+                effect on attachment under the MPID Act. ....................................... 56
+           (iv) Priority of interest for secured creditors under the SARFAESI
+                Act.......................................................................................................... 60
+                   Meaning of ‘debt’ appearing in the expression ‘all other debts’ in
+                   Section 26E of the SARFAESI Act. .................................................. 61
+                   ‘Priority of interest’ of secured creditors vis-à-vis the right of first
+                   charge for other statutory dues. ......................................................... 65
+      IV. SARFAESI Act – the dominant legislation as regards ‘recovery of
+          dues’..................................................................................................... 73
+
+E. SUMMARY OF OBSERVATIONS ................................................... 79
+
+F. CONCLUSION.....................................................................................81
+
+SLP (Crl.) No. 6710 of 2026  Page 1 of 84
+1. Leave granted.
+
+2. This appeal arises from the judgment and order dated 09.12.2025 passed by
+      the High Court of Judicature at Bombay, by which the Criminal Appeal (ST)
+      No. 23135 of 2025 filed by the appellant herein against the order dated
+      29.09.2025 passed by the Designated Court under the Maharashtra
+      Protection of Interest of Depositors (in Financial Establishments) Act, 1999
+      (the “MPID Act”) declining permission to the appellant to appropriate Rs.
+      3.5 crore obtained upon sale of the property mortgaged and securitized under
+      the Securitisation and Reconstruction of Financial Assets and Enforcement
+      of Security Interest Act, 2002 (the “SARFAESI Act”) came to be dismissed.
+
+A. FACTUAL MATRIX
+3. The State Bank of India, i.e., the appellant herein, extended credit facilities
+
+      to the respondent no. 2 company, for which the promoters thereof, i.e., the
+      respondent nos. 3 and 4 respectively mortgaged two of their properties on
+      16.09.2009.
+
+4. The appellant bank classified the loan account of the respondent no. 2 as a
+      ‘Non-Performing Asset’ (“NPA”) on 31.12.2012. The amount due to the
+      appellant bank by the respondent no. 2 as on the said date was estimated at
+      Rs. 67.82 crore. In such circumstances, the appellant bank exercised its
+
+SLP (Crl.) No. 6710 of 2026  Page 2 of 84
+      security rights under the mortgage agreement and sought to auction the
+      mortgaged properties by invoking the provisions of the SARFAESI Act.
+
+5. It came to the knowledge of the appellant bank on 16.08.2014 that the
+      respondent no. 2 was involved in transactions that amounted to duping
+      depositors inter alia under Sections 3 and 4 of the MPID Act, respectively.
+      Pursuant to the charges being filed under the State enactment, the respondent
+      no. 1, i.e., the State of Maharashtra, seized the two properties mortgaged
+      with the appellant bank on 29.06.2014.
+
+6. The respondent no. 1 further advised the appellant bank to obtain permission
+      from the Designated Court under the MPID Act for the purpose of putting
+      the mortgaged properties up for sale. Accordingly, the appellant bank
+      preferred an application dated 28.11.2014 before the Designated Court
+      seeking permission to proceed with the auction sale and to appropriate the
+      sale proceeds. The Designated Court vide its order dated 24.03.2015
+      permitted the appellant bank to proceed with the auction sale and to deposit
+      the proceeds from such sale in a Fixed Deposit Receipt (FDR). However,
+      the Designated Court stipulated that the appellant bank was not at liberty to
+      deal with the amount in the FDR till further orders.
+
+7. The mortgaged properties were accordingly auctioned and sold for the
+      amount of Rs. 18.22 crore on 27.03.2015. The amount received for the two
+
+SLP (Crl.) No. 6710 of 2026  Page 3 of 84
+      properties cumulatively amounted to Rs. 19.43 crore (principal amount
+      along with interest for delayed payment).
+
+8. Thereafter, the appellant bank, which sought to appropriate the auction
+      proceeds under the SARFAESI Act, preferred an application dated
+      19.12.2015 before the Designated Court wherein it was averred that Section
+      34 of the SARFAESI Act bars all courts from granting injunction in respect
+      of any action taken by the bank under the said Act. Further, Section 35 of
+      the SARFAESI Act stipulates that its provisions shall override other laws.
+      Therefore, the appellant bank prayed that it may be allowed to adjust its
+      entire claim from the proceeds of the auction sale and to deposit any excess
+      amount with the Designated Authority.
+
+9. The Designated Authority permitted the appellant bank to credit the sum of
+      Rs. 15.93 crore in the loan account of the respondent no. 2 and to leave Rs.
+      3.5 crore in the FDR. The said amount of Rs. 3.5 crore matured into a sum
+      of Rs. 5.51 crore.
+
+10. In the meantime, the respondent no. 1, by way of Notification dated
+      16.05.2016, attached the two properties in question, as provided under the
+      MPID Act.
+
+SLP (Crl.) No. 6710 of 2026  Page 4 of 84
+11. The respondent no. 1 received claims from 92 depositors for an aggregate
+      amount of Rs. 4 crore, which was sought to be discharged from the corpus
+      of Rs. 5.51 crore. The respondent no. 1 had already distributed Rs. 1.13
+      crore, leaving a balance of Rs. 2.87 crore, which is yet to be paid.
+
+12. Aggrieved by the disbursal of claims from the aforesaid corpus of Rs. 5.51
+      crore, the appellant bank filed a miscellaneous application dated 21.12.2023
+      before the City Civil and Sessions Court, Greater Bombay, praying that the
+      appellant be permitted to appropriate Rs. 3.5 crore lying in the form of fixed
+      deposit, towards the outstanding amount of the loan due and payable by the
+      respondent no. 2, as the said amount was received after auctioning of the
+      secured property under the SARFAESI Act.
+
+13. The Sessions Court, vide its decision dated 29.09.2025, dismissed the
+      application of the appellant by placing reliance on this Court’s judgment in
+      National Spot Exchange Ltd. v. Union of India, reported in (2025) 8 SCC
+      393 (hereinafter referred to as “NSEL”). It was held by the Sessions Court
+      that the judgment in NSEL (supra) observed that the provisions of the MPID
+      Act would override the provisions of the SARFAESI Act. Since the
+      appellant bank approached the court for permission to auction the properties
+      in question, only after registration of the crime under the MPID Act, the
+      appellant could not be said to be entitled to the claim of Rs. 3.5 crore. Such
+
+SLP (Crl.) No. 6710 of 2026  Page 5 of 84
+      amount along with the interest accrued thereupon would necessarily have to
+      be used for the purpose of satisfying the claims of the depositors under the
+      MPID Act.
+
+14. The appellant bank, aggrieved by the aforesaid order, preferred an appeal
+      before the High Court, praying that the same may be set aside. The High
+      Court, vide the judgment dated 09.12.2025 (the “impugned judgment”),
+      upheld the decision of the Sessions Court, observing that the judgment of
+      this Court in NSEL (supra) clarified that the provisions of the MPID Act
+      have to be given effect to irrespective of the provisions of the SARFAESI
+      Act. Therefore, the claims under the MPID Act were not subservient to those
+      of the appellant bank under the SARFAESI Act. The High Court further
+      directed that the amount of Rs. 3.5 crore along with the interest obtained
+      thereupon would be transferred to the bank account of the Competent
+      Authority under the MPID Act.
+
+15. In such circumstances referred to above, the Bank is before us with the
+      present appeal.
+
+B. SUBMISSIONS BY THE PARTIES
+      a. Submissions on behalf of the appellant
+
+16. Mr. Rajiv Shakhder, the learned senior counsel appearing on behalf of the
+      appellant bank, addressed himself on the conflict between the Central
+
+SLP (Crl.) No. 6710 of 2026  Page 6 of 84
+      legislation, i.e., SARFAESI Act and the State legislation, i.e., MPID Act.
+      He submitted that the only issue that arose in the present appeal was whether
+      the Central legislation would override the State legislation in cases of
+      conflict between the two.
+
+17. It was submitted that Chapter III of the SARFAESI Act opens with Section
+      13, which confers upon a secured creditor the right to enforce its security
+      interest without the intervention of the courts, notwithstanding anything
+      contained in Section 69 or Section 69A of the Transfer of Property Act, 1882
+      (the “TPA”), respectively. Therefore, the limitations placed upon a
+      mortgagor under the TPA are removed by virtue of Section 13 of the
+      SARFAESI.
+
+18. The learned senior counsel submitted that the Competent Authority under
+      the MPID Act had erroneously attached the properties in question which
+      were mortgaged with the appellant. Further, the Authority sought to hold
+      sway over the sale proceeds arising from the appellant's auction of the
+      mortgaged property, with permission from the Designated Court under the
+      MPID Act.
+
+19. It was the submission of the learned senior counsel that once powers under
+      Chapter III of the SARFAESI Act got triggered, no civil court, including the
+
+SLP (Crl.) No. 6710 of 2026  Page 7 of 84
+      Designated Court under the MPID Act, could exercise jurisdiction over the
+      secured assets, i.e., the properties in question.
+
+20. It was explained that Chapter III of the SARFAESI Act provides a step-by-
+      step statutory mechanism wherein, once the borrower’s account is declared
+      a non-performing asset (“NPA”), the possession of its assets is taken over
+      symbolically as well as physically. The process culminates in the recovery
+      of dues through the public auction of the said assets, after allowing the
+      borrowers or third parties to object and exercise remedies under Sections 17
+      and 18, respectively, of the SARFAESI Act. It was submitted that the
+      scheme of Chapter III indicates the legislative intent that the enforcement of
+      security interests by secured creditors ought not to be interdicted until the
+      steps under Section 13(4) are completed, which include the takeover of
+      possession of the secured assets.
+
+21. Mr. Shakhder highlighted the conflict concerning the same subject matter,
+      posed by the operation of the MPID Act by taking us through the objects
+      and reasons thereof. It was submitted that the MPID Act was enacted to
+      protect the interest of depositors/investors who deposited their money or
+      valuable commodities (inclusive of the interest promised thereupon) to a
+      financial establishment, which the financial establishment has failed to or is
+      unlikely to return.
+
+SLP (Crl.) No. 6710 of 2026  Page 8 of 84
+22. It was sought to be argued that the respondent no. 1, i.e., the State of
+      Maharashtra, is empowered to pass an order of attachment under Section
+      4(1) of the MPID Act upon such default. Upon the publication of such order,
+      the attached property vests in the Competent Authority appointed by the
+      State Government under the MPID Act pending further orders of the
+      Designated Court. The power to appoint the Competent Authority under the
+      MPID Act is conferred upon the State Government under Section 5 of the
+      Act. Similarly, Section 6 of the MPID Act empowers the State Government
+      to constitute Designated Courts with the concurrence of the Chief Justice of
+      the High Court of Judicature at Bombay.
+
+23. The learned senior counsel further highlighted that the powers of the
+      Designated Court under the MPID Act are delineated under Section 7 of the
+      thereof. The provision in sub-section (3) provides for issuance of notice inter
+      alia to the person whose property is attached and also provides opportunity
+      to any person who claims to have interest in the attached property, to object
+      to the attachment notwithstanding the fact that such person may not have
+      been served with the notice of attachment. Section 7(5) provides that in the
+      event objections are placed on record, the attachment cannot be made
+      absolute till such time an investigation is carried out by the Designated
+      Court. Section 7(4) stipulates that the order of attachment be made absolute
+      in case objections thereto are not lodged.
+
+SLP (Crl.) No. 6710 of 2026  Page 9 of 84
+24. It was submitted that the rules enacted under Section 16 of the MPID Act
+      provide the mechanism of sale of the attached property, if deemed necessary.
+      The aspect of attachment and sale of the attached property is an overlap
+      between the SARFAESI Act and MPID Act respectively. Mr. Shakhder
+      vehemently argued that such overlap presented a direct conflict between the
+      Central and State legislation in respect of the same subject matter, i.e.,
+      secured assets.
+
+25. The learned senior counsel would argue that the decision in NSEL (supra),
+      which forms the basis of the impugned judgment, does not deal with the
+      sway that the central legislation, i.e., the SARFAESI Act, would have over
+      secured assets. As a result, it does not, per se, address the conflict that would
+      arise if the MPID Act is allowed to operate qua the same subject matter, i.e.,
+      secured assets. In this regard, the judgment in NSEL (supra) does not flesh
+      out the scope, import and impact of clause (1) of Article 246 of the
+      Constitution of India.
+
+26. Mr. Shakhder also brought to our notice, the decision of this Court in UCO
+      Bank & Anr. v. Dipak Debbarma & Ors., reported in (2017) 2 SCC 585,
+      which dealt with a similar issue about conflict between the SARFAESI Act,
+      i.e., a Central legislation and the Tripura Land Revenue Act, i.e., a State
+      legislation.
+
+SLP (Crl.) No. 6710 of 2026  Page 10 of 84
+27. It was submitted that when a conflict between the Central and State
+      enactments arises, it can only be resolved by taking recourse to Article
+      246(1) of the Constitution, as held by this Court in Innoventive Industries
+      Ltd. v. ICICI Bank, reported in (2018) 1 SCC 407.
+
+28. Therefore, although the Parliament and State legislature were competent to
+      enact the two legislations, i.e., the SARFAESI Act and the MPID Act
+      respectively, the latter could not have encroached upon the subject matter of
+      secured assets, considering that the Central legislation governs the same.
+      The learned senior counsel also submitted that the decision in NSEL (supra)
+      failed to take into account that the SARFAESI Act was not only enacted
+      later than the MPID Act but was also the dominant legislation governing the
+      treatment of secured assets. As such, the MPID Act necessarily has to give
+      way to the security rights created on such assets.
+
+29. With the aforesaid averments as the backdrop of the dispute between the
+      parties before us, the learned senior counsel presented the following issues
+      that require answer by a larger bench:
+      (a) Whether the State legislation, i.e., the MPID Act, which is otherwise
+            constitutionally valid, can trench upon the subject matter of secured
+            assets that fall within the purview of the Central legislation, i.e., the
+            SARFAESI Act?
+
+SLP (Crl.) No. 6710 of 2026  Page 11 of 84
+(b) Whether the exercise of powers under the MPID Act over secured
+      assets would cause conflict with the SARFAESI Act, which would then
+      trigger the provisions under Article 246(1) of the Constitution?
+
+(c) Whether the subsequent decision of this Court in the case of NSEL
+      (supra) is rendered per incuriam as it failed to notice and consider the
+      binding precedent of another coordinate bench in UCO Bank (supra)?
+
+(d) By force of the non-obstante clause in clause (1) of Article 246, would
+      Parliamentary legislation, i.e., the SARFAESI Act, prevail
+      notwithstanding the exclusive power of the State legislature to make a
+      law with respect to a matter enumerated in the State List?
+
+(e) Whether the provisions of the MPID Act would override any claim for
+      priority of interest by the secured creditors in respect of the properties
+      which have been attached under the MPID Act, to protect the interest
+      of the investors?
+
+(f) Whether the MPID Act, a State legislation, is required to yield to the
+      SARFAESI Act, a central legislation traceable to Entry 45 of the List
+      I, to the extent that it is inconsistent with the SARFAESI Act? Whether
+      such inconsistent provisions be deemed to be invalid, since the
+      SARFAESI Act is the dominant legislation?
+
+SLP (Crl.) No. 6710 of 2026  Page 12 of 84
+30. As regards the observations of this Court in NSEL (supra), Mr. Shakhder
+      submitted as follows:
+      a) The principles laid down in NSEL (supra) required reconsideration, as
+            the same were inconsistent with the constitutional and statutory
+            provisions. It was submitted that the judgment ignored the principle of
+            federal supremacy of the Parliament over the State legislations, duly
+            recognized under Article 246 of the Constitution.
+      b) The judgment in NSEL (supra) marked a significant departure from
+            the principle of law laid down in Innoventive (supra), wherein the
+            interplay between the Maharashtra Relief Undertakings Act, 1958 and
+            the Insolvency and Bankruptcy Code, 2016 (“IBC”) was under
+            consideration. It was held therein that the IBC, being a complete and
+            exhaustive code on insolvency matters, prevailed over the provisions
+            of the State legislation which pertained to the same subject matter.
+      c) Further, the decision in NSEL (supra) overlooked the fact that the
+            MPID Act was enacted under Entries 1 and 30 of List II which pertain
+            to Public Order and Money Lending respectively. Though the Act may
+            regulate depositors and fraudulent schemes by financial
+            establishments, yet, when the State Government under the MPID Act
+            seeks to take control of assets secured with banks, it encroaches upon
+
+SLP (Crl.) No. 6710 of 2026  Page 13 of 84
+      the subject matter of secured assets, which the SARFAESI Act, a
+      Central legislation, governs.
+d) It was also submitted that the SARFAESI Act, having been enacted
+      later, would prevail over the MPID Act.
+e) Similarly, if the dominant purpose test is applied, then the provisions
+      of the SARFAESI Act would also prevail, considering that the said
+      enactment seeks to recover debts from defaulting debtors, as opposed
+      to the purpose of the MPID Act, which is to secure siphoned deposits
+      made by the depositors.
+f) As such, the judgment in NSEL (supra) ignores the fact that the
+      enforcement of security interest is one of the primary objectives
+      underlying the SARFAESI Act. While the said objective does not
+      overlap with that of the MPID Act, yet the permissibility of attaching
+      already secured properties under the MPID Act disrupts the functioning
+      and operation of the Central legislations, i.e., SARFAESI Act and IBC
+      respectively. This results in apparent repugnancy, and it is settled law
+      that whenever such repugnancy arises, the Parliamentary enactments
+      would prevail.
+g) Therefore, the decision in NSEL (supra) did not correctly apply Article
+      246. It allowed State enactment to override or dilute Central legislation
+
+SLP (Crl.) No. 6710 of 2026  Page 14 of 84
+            enacted under Entry 45 of List I. This is in contravention of the doctrine
+            of federal supremacy, which has been held to mean that State
+            legislation cannot encroach on matters exclusively assigned to the
+            Parliament under Schedule VII to the Constitution. Therefore, the
+            attachment provisions of the MPID Act are in direct, irreconcilable
+            conflict with the provisions governing the enforcement of security
+            interests under the SARFAESI Act, rendering compliance with both
+            impossible.
+
+31. Mr. Shakhder submitted that the judgment in NSEL (supra) is liable to be
+      declared per incuriam as the judgment of this Court in UCO Bank (supra),
+      which has a direct bearing on the issue involved, was not considered. The
+      learned senior counsel placed reliance on paragraphs 11 and 18 of UCO
+      Bank (supra) respectively to submit that if the courts cannot establish the
+      mutual existence of two legislations which are in conflict, then by virtue of
+      Article 246(1) of the Constitution, the Parliamentary legislation would
+      prevail over the State enactment even though the latter was legislated
+      competently within the field demarcated under List II of the Schedule VII.
+
+32. It was also submitted that the judgment in NSEL (supra) did not take into
+      account the observations of this Court in Hoechst Pharmaceuticals Ltd. v.
+      State of Bihar, reported in (1983) 4 SCC 45, in relation to the scope and
+
+SLP (Crl.) No. 6710 of 2026  Page 15 of 84
+      effect of Article 246(1) of the Constitution. It was submitted that paragraph
+      69 of the said judgment observed that in case of overlap between List II and
+      List I or III, the State enactment under the former would be considered to be
+      ultra vires in light of the non obstante clause in Article 246(1) read with the
+      opening words of Article 246(3). For this reason, the judgment in NSEL
+      (supra) is liable to be declared per incuriam.
+
+33. The learned senior counsel submitted that the appellant bank acts as a
+      custodian of public funds and operates primarily on the interest generated
+      from loans and deposits. In order to safeguard the financial interests of the
+      banks, it is vital to maintain an underlying security interest.
+
+34. Lastly, it was submitted that the SARFAESI Act is a critical parliamentary
+      statute designed to protect both the banks and their customers by expediting
+      the debt recovery process, without the need for court intervention. Despite
+      such legal frameworks, banks, including the appellant bank, continue to
+      carry substantial non-performing assets (“NPA”). The learned senior
+      counsel submitted that if the judgment in NSEL (supra) is not revisited, it
+      could adversely impact the broader financial interests and stability of the
+      banking sector and exacerbate the impact of NPAs on the banks.
+
+SLP (Crl.) No. 6710 of 2026  Page 16 of 84
+      b. Submissions on behalf of the respondent State
+35. Mr. Shayam Mehta, the learned senior counsel appearing on behalf of the
+
+      respondent State addressed himself on the scope and operation of Article
+      246 of the Constitution. It was submitted that before a Central legislation
+      relating to List I can be said to override a State legislation relating to List II,
+      it must be shown that the State legislation has transgressed upon the
+      legislative field(s) mentioned in List I of the Schedule VII to the
+      Constitution. For this purpose, it would be necessary to determine the pith
+      and substance of the State legislation, and so long as the same is found to be
+      referable to the fields in List II, the State enactment would be held to be
+      legislated competently, even if some provisions may incidentally transgress
+      any entry provided in List I of the Schedule VII.
+
+36. It is well settled that in pith and substance, the MPID Act is referable to
+      Entries 1, 30 and 32 of the List II. This aspect was considered by this Court
+      in K.K. Baskaran v. State, reported in (2011) 3 SCC 793, wherein the
+      legislative competence of the Tamil Nadu Protection of Interest of
+      Depositors (in Financial Establishments) Act, 1997 (“TNPID Act”) was in
+      question. The argument that the TNPID Act encroached upon the field
+      specified in Entry 45 of List I was rejected. It was observed therein that the
+      TNPID Act does not pertain to banking transactions or acceptance of
+      deposits, rather, it is designed to protect the public from fraudulent financial
+
+SLP (Crl.) No. 6710 of 2026  Page 17 of 84
+      establishments. The Statement of Objects and Reasons (“SOR”) of the
+      TNPID Act indicate that the Act does not concern itself with the
+      incorporation, regulation or winding up of banking corporations. Instead, the
+      SOR of the Act states that its avowed objective is to punish fraudulent
+      financial institutions and return the money of gullible depositors who were
+      defrauded. The attachment of the properties of fraudulent financial
+      establishments under the TNPID Act is intended to provide an effective and
+      speedy remedy for aggrieved depositors to realise their dues.
+
+37. It was submitted that this Court in K.K. Baskaran (supra) authoritatively
+      opined that similar to the TNPID Act, the pith and substance of the MPID
+      Act was also relatable to Entries 1, 30 and 32 of the List II respectively. It
+      was further observed therein that the definition of ‘financial establishments’
+      under the MPID Act contained in Section 2(d) thereof excluded banking
+      companies as defined in the Banking Regulation Act, 1949. Therefore, the
+      MPID Act was in no way relatable to Entry 45 of List I of the Schedule VII
+      to the Constitution.
+
+38. Based on the judgment in K.K. Baskaran (supra), Mr. Mehta submitted that
+      the MPID Act did not even incidentally transgress Entry 45 of List I, and no
+      conflict between the MPID Act and the SARFAESI Act exists. Therefore,
+      Article 246(1) of the Constitution has no relevance in the present matter.
+
+SLP (Crl.) No. 6710 of 2026  Page 18 of 84
+39. As regards the issue whether the MPID Act was repugnant to the SARFAESI
+      Act and hence, was void in terms of Article 254(1) of the Constitution, the
+      learned senior counsel submitted that any question in this regard would be
+      wholly misconceived. He submitted that Article 254(1) had no application
+      to the facts of the present matter since the legislations in consideration before
+      us were not enacted in relation to List III of the Schedule VII to the
+      Constitution.
+
+40. Mr. Mehta further submitted that Section 4 of the MPID Act, which pertains
+      to the attachment of the property of financial establishments, opens with a
+      non obstante clause, making it effective notwithstanding any other law. On
+      the other hand, Section 13(1) of the SARFAESI Act opens with a non
+      obstante provision that applies only to Sections 69 and 69A of the TPA.
+      Therefore, a perusal of the two provisions in consonance would indicate that
+      Section 13(1) of the SARFAESI Act would not override Section 4 of the
+      MPID Act, even if there is a conflict between the two enactments.
+
+41. It was submitted that the prevalence of the MPID Act is further established
+      by Section 37 of the SARFAESI Act, which inter alia provides that the
+      SARFAESI Act and the Rules thereunder shall be in addition to and not in
+      derogation of any other law for the time being in force. This indicates that
+      the SARFAESI Act does not bar the application of the MPID Act.
+
+SLP (Crl.) No. 6710 of 2026  Page 19 of 84
+42. Insofar as the overriding provisions of both the enactments are concerned,
+      the learned senior counsel submitted that no application of the same as
+      contained in Section 35 of the SARFAESI Act is envisaged. It was submitted
+      that a similar provision was present in Section 14 of the MPID Act. Upon
+      due consideration of the object and purpose of the MPID Act and the
+      SARFAESI Act, it would be Section 14 of the MPID Act that would prevail
+      over Section 35 of the SARFAESI Act, in the event of any inconsistency
+      between the said legislations.
+
+43. Lastly, Mr. Mehta took us through Section 26E of the SARFAESI Act,
+      which provides priority of charge to the secured creditors. He submitted that
+      the provision is inapplicable to the determination of the question before us,
+      as it provides for priority of debts due to a secured creditor over ‘other
+      debts’. The term ‘debt’ is defined in Section 2(1)(ha) of the SARFAESI Act.
+      Mr. Mehta submitted that the said definition clarifies that the word “deposit”
+      as defined under Section 2(c) of the MPID Act could not fall within the
+      meaning of ‘debt’ under the SARFAESI Act. In such circumstances, Section
+      26E of the SARFAESI Act finds no application to the present matter.
+
+SLP (Crl.) No. 6710 of 2026  Page 20 of 84
+C. ISSUES FOR DETERMINATION
+44. Having heard the learned counsel appearing for the parties and having gone
+
+      through the materials on record, the following questions fall for our
+      consideration:
+      i. Whether there is a conflict between the provisions of the SARFAESI
+
+            Act and the MPID Act, as regards the attachment of property secured
+            under the former?
+
+      ii. Whether the decision in NSEL (supra) requires reconsideration to the
+            extent that it holds that attachment of secured property under the MPID
+            Act would prevail over the rights of the secured creditors under the
+            SARFAESI Act?
+
+D. ANALYSIS
+45. Before adverting to the conspectus of facts before us, it is necessary to look
+
+      into a few relevant provisions of the MPID Act and understand its avowed
+      purpose.
+
+ I. Scope and purpose of the MPID Act.
+46. The respondent State enacted the MPID Act to address the menace of
+
+      fraudulent transactions by certain financial establishments that took deposits
+      of the common people without any intention to refund the same along with
+      the promised interest thereon, or to render the services guaranteed in
+
+SLP (Crl.) No. 6710 of 2026  Page 21 of 84
+      exchange for such sum. This presented a law and order problem for which
+
+      suitable action was required. The respondent State enacted the MPID Act to
+
+      curb unscrupulous activities by such financial establishments with the
+
+      objective of ensuring effective remedy for the depositors who may have lost
+
+      their money to such entities. The Statement of Objects and Reasons of the
+
+      MPID Act reads thus:
+
+               “There is a mushroom growth of Financial Establishments
+               in the State of Maharashtra in the recent past. The sole
+               object of these establishments is of grabbing money
+               received as deposits from public, mostly middle class and
+               poor on the promises of unprecedented high attractive
+               interest rates of interest or rewards and without any
+               obligation to refund the deposit to the investors on
+               maturity or without any provision for ensuring rendering
+               of the services in kind in return, as assured. Many of these
+               Financial Establishments have defaulted to return the
+               deposits to public. As such deposits run into crores of
+               rupees, it has resulted in great public resentment and
+               uproar, creating law and order problem in the State of
+               Maharashtra, especially in the city like Mumbai which is
+               treated as the financial capital of India. It is, therefore,
+               expedient to a make a suitable legislation in the public
+               interest to curb the unscrupulous activities of such
+               Financial Establishments in the State of Maharashtra.”
+
+47. The terms “deposit” and “financial establishment” respectively are defined
+
+      in Sections 2(c) and 2(d) respectively, and read thus:
+
+               “2. Definitions.––
+               (…)
+
+SLP (Crl.) No. 6710 of 2026  Page 22 of 84
+(c) “deposit” includes and shall be deemed always to have
+included any receipt of money or acceptance of any
+valuable commodity or any Virtual Digital Asset] by any
+Financial Establishment to be returned after a specified
+period or otherwise, either in cash or in kind or in the form
+of a specified service with or without any benefit in the
+form of interest, bonus, profit or in any other form, but
+does not include—
+(i) amount raised by way of share capital or by way of
+
+      debenture, bond or any other instrument covered
+      under the guidlines (sic guidelines) given, and
+      regulations made, by the SEBI, established under the
+      Securities and Exchange Board of India Act, 1992 (15
+      of 1992);
+(ii) amounts contributed as capital by partners of a firm;
+(iii) amounts received from a scheduled bank or a
+      cooperative bank or any other banking company as
+      defined in Clause (c) of Section 5 of the Banking
+      Regulation Act, 1949 (10 of 1949);
+(iv) any amount received from,—
+    (a) the Industrial Development Bank of India,
+    (b) a State Financial Corporation,
+    (c) any financial institution specified in or under
+    Section 6-A of the Industrial Development Bank of
+    India Act, 1964 (18 of 1964), or
+    (d) any other institution that may be specified by the
+    Government in this behalf;
+(v) amounts received in the ordinary course of business by
+      way of,—
+    (a) security deposit,
+    (b) dealership deposit,
+    (c) earnest money,
+    (d) advance against order for goods or services;
+(vi) any amount received from an individual or a firm or
+      an association of individuals not being a body
+      corporate, registered under any enactment relating to
+
+SLP (Crl.) No. 6710 of 2026  Page 23 of 84
+                     money lending which is for the time being in force in
+                     the State; and
+               (vii) any amount received by way of subscriptions in
+                     respect of a Chit.
+               Explanation I.—“Chit” has the meaning as assigned to it
+               in Clause (b) of Section 2 of the Chit Funds Act, 1982 (40
+               of 1982);
+               Explanation II.—Any credit given by a seller to a buyer on
+               the sale of any property (whether movable or immovable)
+               shall not be deemed to be deposit for the purposes of this
+               clause;
+
+               (d) “Financial Establishment” means any person
+               accepting deposit under any scheme or arrangement or in
+               any other manner but does not include a corporation or a
+               co-operative society owned or controlled by any State
+               Government or the Central Government or a banking
+               company as defined under Clause (c) of Section 5 of the
+               Banking Regulation Act, 1949 (10 of 1949);”
+
+48. Section 3 of the MPID Act provides penal consequences for fraudulent
+
+      default by a financial establishment. The provision reads thus:
+
+               “3. Fraudulent default by Financial Establishment.—
+
+               Any Financial Establishment, which fraudulently defaults
+               any repayment of deposit on maturity along with any
+               benefit in the form of interest, bonus, profit or in any other
+               form as promised or fraudulently fails to render service as
+               assured against the deposit, every person including the
+               promoter, partner, director, manager or any other person
+               or an employee responsible for the management of or
+               conducting of the business or affairs of such Financial
+               Establishment shall, on conviction, be punished with
+               imprisonment for a term which may extend to six years and
+
+SLP (Crl.) No. 6710 of 2026  Page 24 of 84
+               with fine which may extend to one lakh of rupees and such
+               Financial Establishment also shall be liable for a fine
+               which may extend to one lakh of rupees.
+
+               Explanation—For the purpose of this section, a Financial
+               Establishment, which commits default in repayment of
+               such deposit with such benefits in the form of interest,
+               bonus, profit or in any other form as promised or fails to
+               render any specified service promised against such
+               deposit, or fails to render any specific service agreed
+               against the deposit with an intention of causing wrongful
+               gain to one person or wrongful loss to another person or
+               commits such default due to its inability arising out of
+               impracticable or commercially not viable promises made
+               while accepting such deposit or arising out of deployment
+               of money or assets acquired out of the deposits in such a
+               manner as it involves inherent risk in recovering the same
+               when needed shall, be deemed to have committed a default
+               or failed to render the specific service, fraudulently.”
+
+                                                             (Emphasis supplied)
+
+49. The aforesaid provision clarifies that fraudulent default occurs when the
+
+      promise to return the deposits with interest or render service in return is
+
+      made either with wrongful intention or is impracticable from the beginning.
+
+      Section 3 punishes such fraudulent default by providing for imprisonment
+
+      and fine for the persons involved in the management of the financial
+
+      establishment, as well as fine for the financial establishment itself.
+
+50. Section 4 of the MPID Act provides for attachment of properties on default
+
+      of return of deposits. The provision reads thus:
+
+SLP (Crl.) No. 6710 of 2026  Page 25 of 84
+“4. Attachment of properties on default of return of
+deposits.—
+
+(1) Notwithstanding anything contained in any other law
+for the time being in force,—
+
+(i) where upon complaints received from the depositors or
+otherwise, the Government is satisfied that any Fianancial
+(sic Financial) Establishment has failed,—
+
+(a) to return the deposit after maturity or on demand by the
+depositor; or
+
+(b) to pay interest or other assured benefit; or
+
+(c) to provide the service promised against such deposit;
+or
+
+(ii) where the Government has reason to believe that any
+Financial Establishment is acting in a calculated manner
+detrimental to the interest of the depositors with an
+intention to defraud them;
+
+and if the Government is satisfied that such Financial
+Establishment is not likely to return the deposits or make
+payment of interest or other benefits assured or to provide
+the service against which the deposit is received, the
+Government may, in order to protect the interest of the
+depositors of such Financial Establishment, after
+recording reasons in writing, issue an order by publishing
+it in the Official Gazette, attaching the money or other
+property believed to have been acquired by such Financial
+Establishment either in its own name or in the name of any
+other person from out; of the deposits, collected by the
+Financial Establishment, or if it transpires that such
+money or other property is not available for attachment or
+not sufficient for repayment of the deposits, such other
+property of the said Financial Establishment or the
+promoter, director, partner or manager or member of the
+said Financial Establishment as the Government may think
+fit.
+
+SLP (Crl.) No. 6710 of 2026  Page 26 of 84
+               (2) On the publication of the order under sub-section (1),
+               all the properties and assets of the Financial
+               Establishment and the persons mentioned therein shall
+               forthwith vest in the Competent Authority appointed by the
+               Government, pending further order from the Designated
+               Court.
+               (3) The Collector of a District shall be competent to
+               receive the complaints from his District under sub-section
+               (1) and he shall forward the same together with his report
+               to the Government at the earliest and shall send a copy of
+               the complaint also to the concerned District Police
+               Superintendent or Commissioner of Police, as the case
+               may be, for investigaiton (sic investigation).”
+
+                                                             (Emphasis supplied)
+
+51. A bare textual reading of the provision referred to above indicates that where
+
+      complaints have been received from depositors, or the government has
+
+      reason to believe that the financial establishment is likely to default, it may
+
+      attach the money or property of the financial establishment or its promoter,
+
+      director, partner, or manager to protect the interests of the depositors.
+
+52. What is discernible from the aforesaid provision is that the avowed objective
+
+      of the MPID Act is not limited to criminal repercussions for the financial
+
+      establishment and its management. The Act also seeks to restore the
+
+      depositors to their original position by attaching the properties of the
+
+      financial establishments and distributing the proceeds therefrom to the
+
+      depositors.
+
+SLP (Crl.) No. 6710 of 2026  Page 27 of 84
+53. Section 14 of the MPID Act provides that the Act shall override other laws.
+      The section reads thus:
+
+               “14. Act to override other laws.—Save as otherwise
+               provided in this Act, the provisions of this Act shall have
+               effect notwithstanding anything inconsistent therewith
+               contained in any other law for the time being in force or
+               any custom or usage or any instrument having effect by
+               virtue of any such law.”
+
+                                                             (Emphasis supplied)
+
+54. The scheme of the MPID Act and the relevant provisions indicate that the
+      purpose of the Act is to safeguard the interests of the depositors by
+      compensating them out of the properties of the financial establishments that
+      defrauded them. For this purpose, the Act permits the attachment of
+      properties of the financial establishment in Section 4 thereof and requires
+      the Designated Court under Section 7 to make the order of attachment
+      absolute so as to enable the State government to auction the property.
+
+55. However, there is no gainsaying that the MPID Act does not provide any
+      guidance for attachment of properties where the financial establishment may
+      have secured the same to secured creditors under the SARFAESI Act. In
+      such circumstances, we find it apposite to examine the position of law as
+      regards the competing interests of the secured creditors and the depositors
+      under the MPID Act and whether a reconciliation between the two is
+      possible.
+
+SLP (Crl.) No. 6710 of 2026  Page 28 of 84
+II. Competing interests of the secured creditors under SARFAESI Act and
+      depositors under the MPID Act.
+      (i) Analysis of the judgment in NSEL (supra).
+
+56. The petitioner in NSEL (supra) was an exchange trading platform that
+      defaulted in payment to its trading clients who had deposited their money
+      therewith to be invested. Therefore, an FIR was filed by such persons under
+      inter alia, the MPID Act. Accordingly, the State of Maharashtra attached
+      movable and immovable properties of the petitioner company therein to
+      ensure recovery of monies allegedly lost by genuine trading clients who
+      deposited the same on the petitioner’s platform.
+
+57. Thereafter, insolvency proceedings against the petitioner came to be
+      instituted, and the moratorium under Section 14 of the IBC started operating
+      in respect of suits, disputes and transactions as regards the properties of the
+      petitioner. After the initiation of the insolvency proceedings, the secured
+      creditors of the petitioner submitted before this Court that they would have
+      priority of interest over the properties attached by the State of Maharashtra
+      under the MPID Act. It must be noted that it was not disputed by either side
+      that the attachment under the MPID Act predated the initiation of the
+      insolvency proceedings.
+
+SLP (Crl.) No. 6710 of 2026  Page 29 of 84
+58. In this backdrop, this Court enquired into the question whether the secured
+      creditors would have priority of interest of charge over assets already
+      attached under the MPID Act.
+
+59. The Bench observed that this Court, in Sonal Hemant Joshi & Ors. v. State
+
+of Maharashtra & Ors., reported in (2012) 10 SCC 601, has upheld the
+
+constitutional validity of the MPID Act, while relying on K.K. Baskaran
+
+(supra), which had upheld the constitutionality of the TNPID Act. It was
+
+held that the MPID Act contains similar provisions as in the TNPID Act,
+
+and as a consequence, the former was referable to Entries 1, 30 and 32 of
+
+List II of the Schedule VII in pith and substance. Hence, it was held that the
+
+MPID Act does not encroach on the legislative field occupied by Entry 45
+
+of List I of the Schedule VII. The relevant portion of the judgment in NSEL
+
+(supra) reads thus:
+
+“52. This Court in Sonal Hemant Joshi [Sonal Hemant
+
+Joshi v. State of Maharashtra, (2012) 10 SCC 601 : (2013)
+
+1 SCC (Civ) 543 : (2013) 1 SCC (Cri) 1084] had upheld
+
+the constitutional validity of the MPID Act in view of the
+
+decision                     in K.K.  Baskaran v. State [K.K.
+
+Baskaran v. State, (2011) 3 SCC 793 : (2011) 2 SCC (Civ)
+
+90], in which the Court was dealing with the identical
+
+legislation enacted by the State of Tamil Nadu, namely, the
+
+T.N. Protection of Interest of Depositors (in Financial
+
+Establishments) Act, 1997, enacted with the object to
+
+ameliorate the situation of the depositors from the clutches
+
+of fraudulent financial establishments, who had duped the
+
+investor/public by offering high rates of interest on
+
+SLP (Crl.) No. 6710 of 2026           Page 30 of 84
+deposits, and committed deliberate fraud in repayment of
+the principals and interests after maturity of such deposits.
+
+53. In the said decision in K.K. Baskaran v. State [K.K.
+Baskaran v. State, (2011) 3 SCC 793 : (2011) 2 SCC (Civ)
+90], the Court had opined that the impugned Tamil Nadu
+Act was in pith and substance relatable to Entries 1, 30
+and 32 of the State List (List II) of the Seventh Schedule. It
+further held that the financial institutions/establishments
+as contemplated in the Tamil Nadu Act did not come either
+under the Reserve Bank of India Act or the Banking
+Regulation Act. It further held that the Tamil Nadu Act was
+not focussed on the transaction of banking or acceptance
+of deposit, but was focussed on remedying the situation of
+the depositors who were deceived by the fraudulent
+financial establishments. The said Act was intended to deal
+with neither the banks which did the business of banking
+and were governed by the Reserve Bank of India Act and
+the Banking Regulation Act, nor the non-banking financial
+companies enacted under the Companies Act. In the case
+of the Tamil Nadu Act, the attachment of properties was
+intended to provide for an effective and speedy remedy to
+the aggrieved depositors for the realisation of their dues.
+Hence, the Reserve Bank of India Act, the Banking
+Regulation Act or the Companies Act did not occupy the
+field which the impugned Tamil Nadu Act occupied,
+though the latter might incidentally have trenched upon the
+former. The Court in the said judgment specifically
+disagreed with the Full Bench judgment [Vijay C.
+Puljal v. State of Maharashtra, (2005) 128 Comp Cas 196
+: 2005 SCC OnLine Bom 1069] of the Bombay High Court,
+whereby the MPID Act was held unconstitutional.
+Subsequently, the Court in Sonal Hemant Joshi [Sonal
+Hemant Joshi v. State of Maharashtra, (2012) 10 SCC 601
+: (2013) 1 SCC (Civ) 543 : (2013) 1 SCC (Cri) 1084],
+specifically relied upon the said judgment in K.K.
+Baskaran [K.K. Baskaran v. State, (2011) 3 SCC 793 :
+
+SLP (Crl.) No. 6710 of 2026  Page 31 of 84
+               (2011) 2 SCC (Civ) 90] and upheld the constitutional
+               validity of the MPID Act. The said judgment was also
+               relied upon by the three-Judge Bench in State of
+               Maharashtra v. 63 Moons Technologies Ltd. [State of
+               Maharashtra v. 63 Moons Technologies Ltd., (2022) 9
+               SCC 457 : (2023) 1 SCC (Civ) 429 : (2023) 2 SCC (Cri)
+               414]
+
+               54. In view of the above, there remains no shadow of doubt
+               that the State of Maharashtra was within its legislative
+               competence to enact the MPID Act, the subject-matter of
+               which in pith and substance was relatable to Entries 1, 30
+               and 32 of the State List (List II) of the Seventh Schedule to
+               the Constitution of India.”
+
+                                                             (Emphasis supplied)
+
+60. Having observed that the MPID Act was in pith and substance referable to
+
+      the State List and not Entry 45 of the Union List, this Court made the
+
+      following observations as regards the question whether the secured creditors
+
+      would have priority of interest in the properties attached under the MPID
+
+      Act:
+
+      a) First, reliance was placed on this Court’s decision in Union of
+
+          India v. Delhi High Court Bar Assn., reported in (2002) 4 SCC 275
+
+          wherein it was observed that the recovery of dues is an essential function
+
+          of any banking institution. For this purpose, the Parliament is empowered
+
+          to provide the mechanism by which the monies due to the banks would
+
+          be recovered. In exercise of such power, the SARFAESI Act and the
+
+          Recovery of Debts and Bankruptcy Act, 1993 (“RDB Act”) respectively
+
+SLP (Crl.) No. 6710 of 2026  Page 32 of 84
+were enacted, both of which provided mechanisms for banks to recover
+
+their dues. However, merely because the SARFAESI Act had been
+
+enacted by the Parliament in respect of Entry 45 of List I, it could not be
+
+said that it can override the provisions of the MPID Act which is another
+
+competently enacted legislation referable to Entries 1, 30 and 32 of List
+
+II. Such an interpretation would violate the federal structure of the
+
+Constitution, as it would amount to depriving the State legislatures of the
+
+power to enact and enforce legislation within their exclusive domain. The
+
+relevant portion of the judgment in NSEL (supra) is reproduced below:
+
+        “57. As held by the Constitution Bench in Union of
+        India v. Delhi High Court Bar Assn. [Union of
+        India v. Delhi High Court Bar Assn., (2002) 4 SCC 275
+        : (2002) 110 Comp Cas 141] , under Entry 45 of List I,
+        it is Parliament alone which can enact a law with regard
+        to the conduct of business by the banks. Recovery of
+        dues is an essential function of any banking institution.
+        In exercise of its legislative power relating to banking,
+        Parliament can provide the mechanism by which monies
+        due to the banks and financial institutions can be
+        recovered.
+
+        58. However, merely because the Sarfaesi Act and the
+        RDB Act which are enacted in respect of the subject-
+        matter falling in List I and having been enacted by
+        Parliament, they could not be permitted to override the
+        MPID Act, which is validly enacted for the subject-
+        matter falling in List II — State List. If such an
+        interpretation is permitted to be made, it would amount
+        to denuding the State of its legislative power to enact
+        and enforce legislation, which is within the exclusive
+
+SLP (Crl.) No. 6710 of 2026  Page 33 of 84
+            domain of the State, and it would offend the very
+            principle of federal structure set out in Article 246 of the
+            Constitution of India, held to be a part of the basic
+            structure of the Constitution of India.”
+
+                                                       (Emphasis supplied)
+
+b) Secondly, it was observed that the federal nature of the Constitution
+
+   cannot be bypassed on the basis of the principle of parliamentary
+
+   supremacy. In the situation where there is an incidental overlap between
+
+   a central legislation and state legislation such that it causes conflict
+
+   between the two, it would be apposite to determine which of the two
+
+   enactments is the dominant legislation [See: Paragraph 94 of ITC
+
+   Limited v. Agricultural Produce Market Committee and Ors., reported
+
+   in (2002) 9 SCC 232]. The relevant portion of the judgment in NSEL
+
+   (supra) reads thus:
+
+            “61. In the said judgment Ruma Pal, J., in her
+            concurring opinion observed in para 94 as under:
+            (Agricultural Produce Market Committee case [ITC
+            Ltd. v. Agricultural Produce Market Committee, (2002)
+            9 SCC 232] , SCC p. 282)
+
+                “94. Although Parliament cannot legislate on any of
+                the entries in the State List, it may do so incidentally
+                while essentially legislating within the entries under
+                the Union List. Conversely, the State Legislatures
+                may encroach on the Union List, when such an
+                encroachment is merely ancillary to an exercise of
+                power intrinsically under the State List. The fact of
+                encroachment does not affect the vires of the law
+                even as regards the area of encroachment. [A.S.
+                Krishna v. State of Madras, (1956) 2 SCC 692 : AIR
+
+SLP (Crl.) No. 6710 of 2026  Page 34 of 84
+                1957 SC 297 : 1957 SCR 399; Chaturbhai M.
+                Patel v. Union of India, 1959 SCC OnLine SC 35 :
+                (1960) 2 SCR 362, 373 : AIR 1960 SC 424; State of
+                Rajasthan v. G. Chawla, 1958 SCC OnLine SC 33 :
+                AIR 1959 SC 544; Ishwari Khetan Sugar Mills (P)
+                Ltd. v. State of U.P., (1980) 4 SCC 136, 146-
+                47] This principle commonly known as the doctrine
+                of pith and substance, does not amount to an
+                extension of the legislative fields. Therefore, such
+                incidental encroachment in either event does not
+                deprive the State Legislature in the first case or
+                Parliament in the second, of their exclusive powers
+                under the entry so encroached upon. In the event the
+                incidental encroachment conflicts with legislation
+                actually enacted by the dominant power, the
+                dominant legislation will prevail.””
+
+                                                       (Emphasis supplied)
+
+c) Thirdly, it was observed that the predominance of the Union list as
+
+   provided in Article 246 of the Constitution would not prevent the State
+
+   legislature from legislating on any matter falling within the purview of
+
+   the State list, even though such exercise of legislative power may
+
+   incidentally encroach on the items enumerated in the List I of the
+
+   Schedule VII. As such, the MPID Act, i.e., the State legislation, would
+
+   prevail in the State of Maharashtra in respect of the specific subject
+
+   matter for which it was enacted. The relevant portion of the judgment in
+
+   NSEL (supra) reads thus:
+
+            “63. It is true that sometimes the overlapping of
+            legislations enacted with regard to the matters relatable
+            to different entries in List I and List II in Seventh
+
+SLP (Crl.) No. 6710 of 2026  Page 35 of 84
+            Schedule may occur, however in that case also as held
+            by the Constitution Bench in State of W.B. v. Kesoram
+            Industries Ltd. [State of W.B. v. Kesoram Industries
+            Ltd., (2004) 10 SCC 201 : (2004) 266 ITR 721] , though,
+            List I has priority over List III and List II, and List III
+            has priority over List II, the predominance of the Union
+            List would not prevent the State Legislature from
+            dealing with any matter within List II, even if it may
+            incidentally affect any item in List I. In the case at hand,
+            the Sarfaesi Act and the RDB Act having been enacted
+            by Parliament for the subject-matter falling in List I and
+            the MPID Act having been enacted by the State
+            Legislature for the subject-matter falling in List II in the
+            Seventh Schedule, the latter would prevail in the State
+            of Maharashtra in respect of the specific subject-matter
+            for which the said Act was enacted, in view of clause (3)
+            of Article 246.”
+
+                                                       (Emphasis supplied)
+
+d) Fourthly, this Court considered Section 26E of the SARFAESI Act
+
+   which provides thus:
+
+            “26. Priority to secured creditors.––
+            Notwithstanding anything contained in any other law
+            for the time being in force, after the registration of
+            security interest, the debts due to any secured creditor
+            shall be paid in priority over all other debts and all
+            revenues, taxes, cesses and other rates payable to the
+            Central Government or State Government or local
+            authority.”
+
+    As regards the argument that in light of Section 26E of the SARFAESI
+
+    Act, the dues of the secured creditors shall be given priority in respect of
+
+    the properties attached under the MPID Act, it was held that the same
+
+SLP (Crl.) No. 6710 of 2026  Page 36 of 84
+was liable to be rejected. This Court observed that for the rights of
+
+secured creditors to be given priority under Section 26E, two conditions
+
+must be met. First, the creditor's security interest must be registered
+
+under Section 26D of the SARFAESI Act. Secondly, the “debt” which
+
+could be overridden by the interest of the secured creditor must be
+
+payable to the government or local authority. It was observed that the
+
+attachment of property under the MPID Act did not meet the second
+
+condition because even though such property, comes to be vested in the
+
+Competent Authority appointed by the State government, yet the
+
+attachment thereof is for the purpose of recovery of deposits to be paid
+
+to the depositors/investors whom the financial establishment allegedly
+
+defrauded. Therefore, it was held that the rights of the secured creditors
+
+could not be given priority over the rights of the depositors under the
+
+MPID Act. The relevant portion of the judgment in NSEL (supra) reads
+
+thus:
+
+       “64. It was next sought to be submitted by the learned
+       counsel appearing for the secured creditors that in view
+       of Section 26-E of the Sarfaesi Act, the debts due to the
+       secured creditor have to be paid in priority over all
+       other debts and all revenues, taxes, cesses and other
+       rates payable to the Central Government or State
+       Government or local authority, and therefore, the
+       security interest of the secured creditors in respect of the
+       properties attached under the MPID Act should be given
+       priority. We do not find any merit in the said submission.
+
+SLP (Crl.) No. 6710 of 2026  Page 37 of 84
+                  Apart from the fact that Section 26-E has come into
+                  force with effect from 1-9-2016, it gives right to the
+                  secured creditor, after the registration of security
+                  interest, to be paid in priority over all other debts and
+                  revenues, taxes, etc. payable to the Central Government
+                  or State Government or local authority.
+
+                  65. In the instant case, the attachment of the properties
+                  over which the secured creditors is said to have security
+                  interest, have been attached under Section 4 of the
+                  MPID Act. Such properties are believed to have been
+                  acquired by the financial establishment i.e. NSEL either
+                  in its own name or in the name of other persons from out
+                  of deposits collected by the financial establishment. All
+                  such properties and assets of the financial establishment
+                  and the persons mentioned in the said provision, vest in
+                  the competent authority appointed by the Government,
+                  pending further orders from the Designated Court. Such
+                  monies or the deposits of the depositors/investors, who
+                  have been allegedly defrauded by the financial
+                  establishment, and for the recovery of which the MPID
+                  Act has been enacted, could not be said to be a “debt”
+                  contemplated in Section 26-E of the Sarfaesi Act, and
+                  hence also the provisions of Section 26-E could not be
+                  said to have been attracted to the facts of the case.”
+
+                                                             (Emphasis supplied)
+
+61. Additionally, the judgment in NSEL (supra) observed that once the
+
+      properties in question had been attached under the MPID Act, the same
+
+      could not be included in the pool of assets for the purposes of insolvency
+
+      proceedings and moratorium under Section 14 of the IBC would be
+
+      inapplicable thereupon. This was said because the said properties had
+
+      already vested in the Competent Authority under the MPID Act and were
+
+SLP (Crl.) No. 6710 of 2026  Page 38 of 84
+not available to the corporate debtor for the discharge of its dues. The
+
+relevant paragraphs of the judgment in NSEL (supra) are reproduced
+
+hereinbelow:
+
+         “70. In the instant case, there is also no overlap or
+         inconsistency between the provisions contained in IBC and
+         the MPID Act. As such, Section 14 IBC has the connotation
+         which is very much different from Section 4 of the MPID
+         Act. The proceedings under IBC arise out of the debtor-
+         creditor relationships of the parties. As per Section 14
+         IBC, which pertains to the moratorium, a declaration has
+         to be made by an order by the adjudicating authority
+         prohibiting the acts mentioned therein. Therefore, Section
+         14 IBC is consequent upon the order passed by the
+         adjudicating authority declaring moratorium.
+
+         71. However, so far as the attachment of properties under
+         Section 4 of the MPID Act is concerned, it is beyond the
+         realm of the debtor-creditor relationship as contemplated
+         in IBC. On the publication of the order of attachment of
+         properties by the Government to protect the interest of the
+         depositors of the financial establishment, such properties
+         and assets of the financial establishment and the persons
+         mentioned in sub-section (1) of Section 4, would forthwith
+         vest in the competent authority appointed by the
+         Government, pending further orders from the Designated
+         Court. The procedure and powers required to be followed
+         by the Designated Court after the receipt of the application
+         from the competent authority under Section 5, have been
+         prescribed in Section 7 of the MPID Act. As per the said
+         procedure contained in Section 7, the Designated Court is
+         required to issue a notice calling upon the financial
+         establishments or to any other person whose property is
+         attached and vested in the competent authority, to show
+         cause as to why the order of attachment should not be
+
+SLP (Crl.) No. 6710 of 2026  Page 39 of 84
+               made absolute. If no cause is shown or no objections have
+               been raised before the Designated Court, the Designated
+               Court can pass the order making the order of attachment
+               absolute and issue such direction as may be necessary for
+               realisation of the assets attached and for the equitable
+               distribution among the depositors of the money realised
+               from out of the properties attached.
+
+               72. Thus, a conjoint reading of Sections 4, 5 and 7 of the
+               MPID Act, makes it clear that though Section 4(2) states
+               about the attached properties being vested in the
+               competent authority appointed by the Government, such
+               vesting would be subject to the orders passed by the
+               Designated Court. We therefore see no inconsistency
+               between the provisions contained in the MPID Act and
+               IBC.
+
+               73. In absence of any inconsistency having been brought
+               on record, between the provisions contained in the MPID
+               Act and in IBC, Section 238 IBC, which gives overriding
+               effect to IBC over the other Acts for the time being in force,
+               cannot be said to have been attracted.”
+
+                                                             (Emphasis supplied)
+
+62. The dictum in NSEL (supra), therefore, clarifies in no uncertain terms that
+
+      the attachment of property under the MPID Act would supersede the rights
+
+      of the secured creditors.
+
+63. However, in our considered view, the aforesaid exposition pertains to a
+
+      peculiar conspectus of facts. It requires examination of further situations in
+
+      which the interplay between the MPID Act and SARFAESI Act respectively
+
+      may unfold in a different manner. We say so for the following reasons:
+
+SLP (Crl.) No. 6710 of 2026  Page 40 of 84
+a) The judgment in NSEL (supra) held that the fact of incidental
+   encroachment by the MPID Act on the legislative field governing the
+   SARFAESI Act, i.e., Entry 45 of List I, should not be understood to mean
+   that the latter could override it merely because it was the parliamentary
+   legislation. While we do not disagree with this observation, yet it is worth
+   noting that incidental encroachment of one legislation on another may
+   cause conflict such that it may render the provision of the second statute
+   unworkable.
+
+b) In our considered view, the attachment provisions under Sections 4 and
+   7 of the MPID Act respectively, present a tangible conflict in relation to
+   the recovery mechanisms stipulated under the SARFAESI Act and the
+   RDB Act and vice versa. In other words, though the overlap is ancillary,
+   yet it has the effect of derailing the recovery mechanisms of both the
+   enactments unless a harmonious resolution is reached.
+
+c) With all humility at our command, we are constrained to observe that the
+   judgment in NSEL (supra) does not adequately resolve this conflict. We
+   say so because the observations therein do not address the following
+   issues:
+       • Whether the incidental encroachment by one legislation hampers
+           the other legislation fundamentally?
+
+SLP (Crl.) No. 6710 of 2026  Page 41 of 84
+              • If yes, then whether harmonious construction is possible to resolve
+                 the conflict and make both legislations workable?
+
+              • If not, then whether the doctrine of dominant legislation as
+                 expounded in ITC Limited (supra) would provide guidance as
+                 regards which enactment is the dominant legislation?
+
+              • Whether the principle of parliamentary supremacy is attracted or
+                 not?
+
+      d) Further, the peculiar factual circumstances in NSEL (supra) did not
+          require examining the scope of the attachment provisions of the MPID
+          Act vis-à-vis the interest of an individual secured creditor who may have
+          security rights against the specific property attached under the MPID Act.
+          As such, we find it apposite to deal with the aforesaid issues.
+
+      (ii) Conflict between the SARFAESI Act and MPID Act
+64. The position of law is well settled as regards the question whether the MPID
+
+      Act encroaches into the Parliament’s field of legislation under Entry 45 of
+      List I such that the doctrine of pith and substance would hit it. The decisions
+      of this Court in Sonal Hemant Joshi (supra) as well as K.K. Baskaran
+      (supra) respectively, leave no manner of doubt that the MPID Act is
+      referable to Entries 1, 30 and 32 of List II and does not present such a degree
+      of invasion into the Parliament’s legislative field provided under Entry 45
+
+SLP (Crl.) No. 6710 of 2026  Page 42 of 84
+      of List I that would require it to be declared unconstitutional. Therefore, the
+      encroachment is merely incidental and ancillary.
+
+65. However, there is no gainsaying that the incidental encroachment into the
+      specific area of ‘recovery of dues’ by way of attaching properties under the
+      MPID Act causes an impediment to the process of ‘recovery of dues’
+      provided in the SARFAESI Act and RDB Act, which provide for the banks
+      to enforce their security interests. Though the encroachment may be
+      ancillary for the purposes of determining legislative competence, it
+      constitutes a significant hindrance insofar as the operation and
+      implementation of the statutes are concerned.
+
+66. In Dipak Debbarma (supra), the issue before this Court pertained to the
+      inconsistency between the SARFAESI Act and the Tripura Land Revenue
+      and Land Reforms Act, 1960, both of which had been legislated competently
+      under List I and List II of the Schedule VII respectively. This Court was
+      faced with the question as to which legislation would have primacy. In this
+      context, it was observed that when the legislations in question are found to
+      be competently enacted, yet there is intrusion by one into the other, it is the
+      duty of the courts to attempt to resolve the conflict arising from the intrusion.
+      It is only when such resolution by way of harmonious reading of the statutes
+      becomes impossible that the courts would be duty-bound to identify which
+
+SLP (Crl.) No. 6710 of 2026  Page 43 of 84
+enactment is the dominant legislation. If the courts find that the central
+
+legislation is the dominant legislation, it shall prevail. The relevant portions
+
+of the judgment in Dipak Debbarma (supra) are reproduced hereinbelow:
+
+         “9. The second situation of repugnancy or inconsistency as
+         in the present case is between a subsequent Central law
+         (2002 Act) covered by Entry 45 of List I and an earlier
+         State law (Tripura Act of 1960) relatable to Entries 18 and
+         45 of List II. How such a situation is to be resolved and
+         answered and which legislation would have primacy is the
+         moot question that arises for consideration in the present
+         appeals. (…)
+
+         11. In interpreting Article 246 regard must be had to the
+         constitutional scheme which visualises a federal structure
+         giving full autonomy to the Union Parliament as well as to
+         the State Legislatures in their respective/demarcated fields
+         of legislation. The problem may, however, become a little
+         more complex than what may seemingly appear as the two
+         legislations may very well be within the respective domains
+         of the legislatures concerned and, yet, there may be
+         intrusion into areas that fall beyond the assigned fields of
+         legislation. In such a situation it will be plain duty of the
+         constitutional court to see if the conflict can be resolved by
+         acknowledging the mutual existence of the two
+         legislations. If that is not possible, then by virtue of the
+         provisions of Article 246(1), the parliamentary legislation
+         would prevail and the State legislation will have to give
+         way notwithstanding the fact that the State legislation is
+         within the demarcated field (List II). This is the principle
+         of federal supremacy which Article 246 of the Constitution
+         embodies. The said principle will, however, prevail
+         provided the pre-condition exists, namely, the
+         parliamentary legislation is the dominant legislation and
+         the State legislation, though within its own field, has the
+
+SLP (Crl.) No. 6710 of 2026  Page 44 of 84
+               effect of encroaching on a vital sphere of the subject or
+               entry to which the dominant legislation is referable. This
+               is the principle that is discernible from the Constitution
+               Bench judgment of this Court in State of W.B.v. Committee
+               for Protection of Democratic Rights [State of W.B. v.
+               Committee for Protection of Democratic Rights, (2010) 3
+               SCC 571 : (2010) 2 SCC (Cri) 401]. (…)”
+
+                                                             (Emphasis supplied)
+
+67. The aforesaid exposition clarifies that in situations where an incidental
+      encroachment or intrusion might cause hindrance to the implementation of
+      the Central and State legislation in issue, the first course of action is to
+      determine whether harmonious reading of the conflicting provisions is
+      possible.
+
+68. In the present matter, we cannot say that there is no inconsistency between
+      the SARFAESI Act and the MPID Act. As such, we cannot permit that the
+      provisions of either the SARFAESI Act or the MPID Act become dead letter
+      law in the absence of any resolution of the conflict as regards the
+      implementation of such provisions for the objective of “recovery of dues”.
+
+69. Therefore, it is apposite for us to see whether harmonious construction of
+      the provisions of both the statutes is possible so as to offer a feasible
+      resolution.
+
+SLP (Crl.) No. 6710 of 2026  Page 45 of 84
+III. Harmonious construction of competing provisions of SARFAESI Act
+       and MPID Act
+
+       (i) Statutory scheme of the SARFAESI Act and MPID Act.
+
+ 70. Section 13 of the SARFAESI Act empowers a secured creditor to enforce
+
+       the security rights created in its favour without the intervention of the courts
+
+       if the liability of the debtor is declared a non-performing asset and continues
+
+       to remain unpaid despite notice by the secured creditor. For the purposes of
+
+       this judgment, we may take a closer look at sub-section (4) of Section 13,
+
+       which provides thus:
+
+                “13. Enforcement of security interest.—
+                (…)
+                (4) In case the borrower fails to discharge his liability in
+                full within the period specified in sub-section (2), the
+                secured creditor may take recourse to one or more of the
+                following measures to recover his secured debt, namely:—
+                (a) take possession of the secured assets of the borrower
+                including the right to transfer by way of lease, assignment
+                or sale for realising the secured asset;
+                (b) take over the management of the business of the
+                borrower including the right to transfer by way of lease,
+                assignment or sale for realising the secured asset:
+                Provided that the right to transfer by way of lease,
+                assignment or sale shall be exercised only where the
+                substantial part of the business of the borrower is held as
+                security for the debt:
+                Provided further that where the management of whole of
+                the business or part of the business is severable, the
+                secured creditor shall take over the management of such
+
+SLP (Crl.) No. 6710 of 2026  Page 46 of 84
+               business of the borrower which is relatable to the security
+               for the debt;
+               (c) appoint any person (hereafter referred to as the
+               manager), to manage the secured assets the possession of
+               which has been taken over by the secured creditor;
+               (d) require at any time by notice in writing, any person who
+               has acquired any of the secured assets from the borrower
+               and from whom any money is due or may become due to
+               the borrower, to pay the secured creditor, so much of the
+               money as is sufficient to pay the secured debt. (…)”
+
+71. It is worth noting that Section 13(4) aims to realise the secured asset by
+      providing the secured creditor with the right to take possession of the
+      secured asset for transfer by way of lease, assignment or sale, or managing
+      the said asset. What can be discerned from the aforesaid provision is that the
+      enforcement of security revolves around the secured asset, without which
+      the existence of security rights in favour of a creditor stands ineffective and
+      futile.
+
+72. On the other hand, a bare textual reading of Section 4 of the MPID Act
+      would indicate the following:
+
+      • First, once there is a default committed in terms of Section 3 of the
+          MPID Act, the initial course of action for the State Government would
+          be to attach the money or property believed to be acquired in the name
+          of the financial establishment or any other person, out of the deposits
+          collected (hereinafter referred to as “Category I properties”).
+
+SLP (Crl.) No. 6710 of 2026  Page 47 of 84
+      • Secondly, if the money or property acquired out of the deposits is
+          unavailable or insufficient to repay the depositors, then the State
+          Government may attach the other properties of the financial
+          establishment, or its promoters, directors or partners (hereinafter
+          referred to as “Category II properties”).
+
+      • Lastly, the properties so attached would come to be vested in the
+          Competent Authority appointed by the State Government pending the
+          orders of the designated court under the MPID Act.
+
+73. It is abundantly clear from the perusal of Section 4 of the MPID Act that
+      apart from the Category I properties, any other property which would fall in
+      Category II is not specifically identified for the discharge of dues under the
+      MPID Act. It can be any property which, in the opinion of the State
+      government, would be sufficient to repay the interest of the depositors.
+
+74. Section 13 of the SARFAESI Act provides the secured creditors with the
+      right to enforce their interest on the property in question whereas Section 4
+      of the MPID Act empowers the State government to attach the very same
+      property for achieving the objects of the Act. Both proceedings intersect at
+      the rights sought to be enforced simultaneously in respect of the defaulter's
+      singular property.
+
+SLP (Crl.) No. 6710 of 2026  Page 48 of 84
+75. In such a scenario, the issue that arises is whether the interest of the secured
+      creditor would gain priority over the interests of the depositors which the
+      MPID Act seeks to protect.
+
+76. To answer this issue, we find it apposite to understand the statutory scheme
+      of both the enactments to determine whether the legislature itself has
+      provided any remedy to such conflict. In this regard, we may refer to Section
+      35 of the SARFAESI Act which reads thus:
+               “35. The provisions of this Act to override other laws.—
+               The provisions of this Act shall have effect,
+               notwithstanding anything inconsistent therewith contained
+               in any other law for the time being in force or any
+               instrument having effect by virtue of any such law.”
+
+77. A bare textual reading of Section 35 of the SARFAESI Act indicates that
+      the provisions thereunder would prevail in a situation where there is a
+      conflict or an inconsistency posed by any other law. It is a well-settled
+      position of law that the non-obstante clause under Section 35 cannot be
+      invoked to stultify the provisions of every statute. The expression “any other
+      law for the time being in force” would cover only the legislations that operate
+      in the same field as the SARFAESI Act [See: Vishal N. Kalsaria v. Bank of
+      India, reported in (2016) 3 SCC 762].
+
+SLP (Crl.) No. 6710 of 2026  Page 49 of 84
+78. Therefore, another issue which crops up is whether the non-obstante clause
+      under Section 35 of the SARFAESI Act effectively prioritizes the rights of
+      the secured creditors in relation to the rights of depositors under the MPID
+      Act. However, we need not delve into this question in light of Section 14 of
+      the MPID Act, which provides that the MPID Act would have an overriding
+      effect in case of inconsistency with any other law. Section 14 of the MPID
+      Act reads thus:
+               “14. Act to override other laws.—Save as otherwise
+               provided in this Act, the provisions of this Act shall have
+               effect notwithstanding anything inconsistent therewith
+               contained in any other law for the time being in force or
+               any custom or usage or any instrument having effect by
+               virtue of any such law.”
+
+79. Since the non-obstante clauses under both Section 35 of the SARFAESI Act
+      and Section 14 of the MPID Act are couched in strict language, a clear
+      conclusion as regards which overriding provision would prevail cannot be
+      discerned from the plain language of the said provisions. Therefore, the
+      tension between the recovery mechanisms of both the statutes in respect of
+      their implementation continues to remain. In such circumstance, we may
+      refer to the principles which are germane to the determination of precedence
+      of a statute over another in case of conflict between the two.
+
+SLP (Crl.) No. 6710 of 2026  Page 50 of 84
+      (ii) Principles for determination of precedence of a statute over another in
+            case of conflict.
+
+80. At this juncture, we find it apposite to clarify the principles enunciated by
+      this Court to determine which statute will have precedence in case of a
+      conflict. In Kumaon Motor Owners' Union Ltd. v. State of U.P., reported
+      in 1965 SCC OnLine SC 117, this Court highlighted three elements to
+      resolve conflict between two statutes, which are as follow:
+
+       • If there is a conflict between the provisions of two statutes and nothing
+            is repugnant, the provisions in the later statute would prevail.
+
+       • While resolving such conflict, the court must look into the object
+            behind the two statutes. In other words, what is to be looked at is what
+            necessitated the legislature to enact a particular provision later in time,
+            which may be in conflict with the provisions of an earlier statute.
+
+       • The court must look into the language of the provisions. If the language
+            of a particular provision is found to be more emphatic, the same would
+            be indicative of the intention of the legislature that the same shall
+            prevail over other statutes.
+
+       The relevant paragraphs of the judgment in Kumaon Motor (supra) are
+       reproduced hereinbelow:
+
+               “12. This argument is met on behalf of the State by
+               reference to Section 43 of the Act which lays down that
+               “the provisions of this Act or any rule made thereunder or
+               any order made under any such rule shall have effect
+
+SLP (Crl.) No. 6710 of 2026  Page 51 of 84
+notwithstanding anything inconsistent therewith contained
+in any enactment other than this Act or in any instrument
+having effect by virtue of any enactment other than this
+Act”. It does appear that there is some apparent conflict
+between Section 43 on the one hand and Section 68-B of
+the Motor Vehicles Act read with Section 6(4) of the Act on
+the other, and that conflict has to be resolved. The only
+way to do it is to decide whether in such a situation, Section
+43 of the Act will prevail or Section 68-B of the Motor
+Vehicles Act will prevail. We are of opinion that Section
+43 of the Act must prevail. In the first place. Section 43
+appears in an Act which is later than the Motor Vehicle
+Act and therefore in such a situation unless there is
+anything repugnant the provisions in the later Act must
+prevail. Secondly, if we look at the object behind the two
+statutes, namely, the Act and the Motor Vehicles Act, there
+can be no doubt that the Act, which was passed to meet an
+emergency arising out of the Chinese invasion of India in
+1962, must prevail over the provisions contained in
+Chapter IV-A of the Motor Vehicles Act which were meant
+to meet a situation arising out of the taking over of motor
+transport by the State. Thirdly, if we compare the language
+of Section 43 of the Act with Section 68-B of the Motor
+Vehicles Act we find that the language of Section 43 is
+more emphatic than the language of Section 68-B. Section
+43 provides that the provisions of the Act or any rule made
+thereunder shall have effect notwithstanding anything
+inconsistent therewith contained in any enactment other
+than the Act. This would show that the intention of the
+legislature was that the Act shall prevail over other
+statutes. But we do not find the same emphatic langauge in
+Section 68-B which lays down that the provisions of
+Chapter IV-A would prevail notwithstanding anything
+inconsistent therewith contained in Chapter IV of the
+Motor Vehicles Act or in any other law for the time being
+in force. The intention seems to be clear in view of the
+
+SLP (Crl.) No. 6710 of 2026  Page 52 of 84
+               collocation of the words “in Chapter IV of this Act” with
+               the words “in any other law for the time being in force”
+               that Chapter IV-A was to prevail over Chapter IV of the
+               Motor Vehicles Act or over any other law of the same kind
+               dealing with motor vehicles or for compensation. On the
+               other hand Section 43 of the Act emphatically says that the
+               Act will prevail over any enactment other than the Act, and
+               this suggests that the legislature intended that the
+               emergency legislation in the Act will be paramount if there
+               is any inconsistency between it and any other provision of
+               any other law whatsoever. Such a provision is
+               understandable in view of the emergency which led to the
+               passing of the Act.”
+
+                                                             (Emphasis supplied)
+
+81. Similarly, in Solidaire India Ltd. v. Fairgrowth Financial Services Ltd.,
+
+      reported in (2001) 3 SCC 71, this Court observed that in case of conflict
+
+      between two special legislations, the later must prevail. It was held so
+
+      because, at the time of the later statute's enactment, the legislature could be
+
+      said to have been aware of the previous statute and its non-obstante clause.
+
+      In such a case, if the legislature still conferred the later statute with a non-
+
+      obstante clause, the inference ought to be that it was the intention of the
+
+      legislature that the later enactment prevailed [See: Paragraph 11 of Solidaire
+
+      (supra)].
+
+82. What is discernible from the aforesaid expositions is that the bright-line test
+
+      for determining precedence of one statute over another in the event of a
+
+SLP (Crl.) No. 6710 of 2026  Page 53 of 84
+conflict which does not amount to repugnancy involves testing on the
+following touchstones:
+1) Provision enacted later in time: The resolution of implementational
+
+      conflict between the SARFAESI Act and the MPID Act using the
+      principle of ‘primacy of subsequent legislation’ is not difficult, since
+      the SARFAESI Act was enacted later than the MPID Act. However,
+      before we arrive at a conclusion in respect of the issue of primacy of
+      the SARFAESI Act over the MPID Act, we must satisfy ourselves as
+      regards the other two principles discernible from the dictum of this
+      Court in Kumaon Motor (supra).
+
+2) Objective underlying the conflicting statutes: The decision of this
+      Court in NSEL (supra) clarifies the objectives underlying the MPID
+      Act as well as the SARFAESI Act.
+      (a) The Statement of Objects and Reasons of the MPID Act and the
+            language of the provisions thereunder indicate two objectives:
+            firstly, punishment for fraudulent default by the Financial
+            Establishments, and secondly, recovery of the deposits by
+            attachment of assets of the Financial Establishment and other
+            associated persons and its return to the common public.
+
+SLP (Crl.) No. 6710 of 2026  Page 54 of 84
+(b) On the other hand, the objective underlying the SARFAESI Act is
+      the speedy recovery of debts which have been declared as non-
+      performing assets by banks through enforcement of security rights
+      that such banks hold in securitized properties of the defaulting
+      borrower. The purpose of speedy recovery, without the need to go
+      through lengthy civil litigation, lies at the core of the SARFAESI
+      Act.
+
+(c) We are conscious of the fact that the avowed objectives of both
+      the statutes are in the interest of welfare of the public. However,
+      in our considered opinion, the provisions of the SARFAESI Act
+      must prevail over the provisions of the MPID Act. We say so
+      because even though both the statutes have been enacted for
+      recovery of monies, yet ‘recovery of dues’ by banks stands at a
+      higher pedestal since banks are the custodians of public money
+      [See: Om Sakthi Sekar v. V. Sukumar, reported in 2026 SCC
+      OnLine SC 368 and SBI v. Sayed Arman Rabbani, reported in
+      2024 SCC OnLine NCDRC 733].
+
+(d) In such view of the matter, we find it vital to the interests of the
+      public at large that the objective of ‘recovery of dues’ of secured
+      creditors is allowed to take precedence over the recoveries sought
+      to be made under the MPID Act.
+
+SLP (Crl.) No. 6710 of 2026  Page 55 of 84
+      3) Emphatic language of conflicting provisions: As discussed in the
+            aforesaid part of this judgment (more particularly paragraphs 78 and 79
+            hereof), the non-obstante clauses under both Section 35 of the
+            SARFAESI Act and Section 14 of the MPID Act, are couched in strict
+            language. Hence, a decision in respect of which overriding provision
+            would gain precedence is not discernible from the limited perusal of
+            the said sections. As such, we find it necessary to conduct a further
+            examination of the statutory scheme of the two enactments.
+
+83. We may clarify at this stage that though our observations as regards the first
+      and second principles, expounded hereinabove, may render such
+      examination academic yet, we find it indispensable for addressing
+      comprehensively the issues raised in the present litigation and the
+      observations of this Court in NSEL (supra).
+
+84. Before we delve into the study of the statutory schemes of the SARFAESI
+      Act and MPID Act, it is apposite that we explain briefly the nature of
+      security interests that the SARFAESI Act governs.
+
+      (iii) Nature of the security interest created by secured creditors and its effect
+            on attachment under the MPID Act.
+
+85. The term “security interest” has been defined in Section 2(zf) of the
+      SARFAESI Act and reads thus:
+
+SLP (Crl.) No. 6710 of 2026  Page 56 of 84
+               “2. Definitions.––
+               (…)
+               (zf) “security interest” means right, title or interest of any
+               kind, other than those specified in section 31, upon
+               property created in favour of any secured creditor and
+               includes—
+               (i) any mortgage, charge, hypothecation, assignment or
+               any right, title or interest of any kind, on tangible asset,
+               retained by the secured creditor as an owner of the
+               property, given on hire or financial lease or conditional
+               sale or under any other contract which secures the
+               obligation to pay any unpaid portion of the purchase price
+               of the asset or an obligation incurred or credit provided to
+               enable the borrower to acquire the tangible asset; or
+               (ii) such right, title or interest in any intangible asset or
+               assignment or licence of such intangible asset which
+               secures the obligation to pay any unpaid portion of the
+               purchase price of the intangible asset or the obligation
+               incurred or any credit provided to enable the borrower
+               to acquire the intangible asset or licence of intangible
+               asset;”
+
+86. The plain text of the aforesaid provision makes it clear that interest of any
+
+      kind constitutes a security interest and specifically includes inter alia
+
+      mortgage, charge, hypothecation, assignment of a right or any other kind of
+
+      right, title or interest. Such interest in the property that is created in favour
+
+      of the secured creditor is therefore, in the nature of an encumbrance on the
+
+      property.
+
+SLP (Crl.) No. 6710 of 2026  Page 57 of 84
+87. It is a settled position of law that encumbrance, being a charge on the
+      property, must run with it and become the liability of the person or the
+      authority in the hands of which rights to the property lie [See: AI
+      Champdany Industries Ltd. v. Official Liquidator, reported in (2009) 4
+      SCC 486 and State of Karnataka v. Shreyas Papers (P) Ltd., reported in
+      (2006) 1 SCC 615].
+
+88. Having regard to the aforesaid position of law, we may say without any
+      manner of doubt that though there may be a security interest in favour of the
+      secured creditor that puts a charge on the property, yet such charge places
+      no bar on the attachment of the said property under the MPID Act.
+
+89. However, such attachment is subject to the caveat that the security interest
+      in favour of the secured creditor, being a charge on the property, shall run
+      with it, i.e., the property cannot be attached encumbrance-free. We say so
+      because the MPID Act, more particularly, Sections 4 and 7 thereof, which
+      deal with attachment of property, do not stipulate that the attachment of the
+      property shall be free of encumbrances. In other words, the interest of the
+      secured creditor is not defeated by the factum of attachment of property
+      under the MPID Act.
+
+90. At this juncture, it is apposite to understand that the expression “attachment”
+      has no definite connotation and it does not by itself create a charge on the
+
+SLP (Crl.) No. 6710 of 2026  Page 58 of 84
+      property attached. The limited purpose of attachment is to take the property
+      into custody of the law to seize or hold the property for the payment of the
+      debts of the owner of such property or to prohibit the transfer, conversion,
+      disposition or movement of the property [See: Kerala State Financial
+      Enterprises Ltd. v. Official Liquidator, reported in (2006) 10 SCC 709].
+
+91. In our considered view, the purpose of attachment in the MPID Act is not
+      dissimilar. Section 4(2) of the MPID Act stipulates that on publication of the
+      notice of attachment, the properties of the Financial Establishment or any
+      other persons, as mentioned in such notice, shall forthwith vest in the
+      Competent Authority under the MPID Act pending further orders from the
+      designated court. The MPID Act vests the attached property in the
+      Competent Authority to restrain alienation thereof by the Financial
+      Establishment. Such vesting is cum onere and does not remove any prior
+      charges or interests in the property. We say so because the MPID Act does
+      not provide for attachment and vesting free from all encumbrances, as is the
+      case, say, in the National Highways Act, 1956, or the Right to Fair
+      Compensation and Transparency in Land Acquisition, Rehabilitation and
+      Resettlement Act, 2013.
+
+SLP (Crl.) No. 6710 of 2026  Page 59 of 84
+92. Therefore, the factum of ‘vesting’ of the property in the Competent
+      Authority under the MPID Act does not defeat or hamper the security
+      interests and rights of the secured creditor in the property.
+
+93. The discussion in the aforesaid paragraphs clarifies two things: (a) the
+      tension as regards the conflict in simultaneous implementation of the
+      SARFAESI Act and the MPID Act remains unresolved despite the provision
+      of non-obstante clauses in both the statutes; (b) the attachment of secured
+      property under the MPID Act is not prohibited, and the security rights and
+      interest in such property would run with it despite attachment.
+
+94. The question that naturally follows the above discussion is that even though
+      the attachment and vesting of secured property under the MPID Act is
+      insufficient to defeat the interest of the secured creditor, would it still have
+      any detrimental effect on the right of the secured creditor to receive its dues
+      from the secured property? In other words, would the secured creditors
+      continue to have priority of interest in the property despite its attachment
+      under the MPID Act?
+
+      (iv) Priority of interest for secured creditors under the SARFAESI Act.
+95. Since the attachment of the secured property under the MPID Act is
+
+      permissible so long as the security interests run with the property attached,
+      the issue that lies at the root of the conflict is whether it is the secured
+
+SLP (Crl.) No. 6710 of 2026  Page 60 of 84
+      creditor who will have priority of interest over the proceeds from the
+      property or the depositors under the MPID Act.
+
+96. We may refer to Section 26E of the SARFAESI Act in this regard. Section
+      26E provides that the “debts due to any secured creditors shall be paid in
+      priority over all other debts and all revenues, taxes, cesses and other rates
+      payable to the Central Government or State Government or local
+      authority”.
+
+97. We may clarify at the outset to obviate any confusion that we are not
+      concerned with the expression “all revenues, taxes, cesses and other rates
+      payable to the Central Government or State Government or local authority”
+      appearing in Section 26E of the SARFAESI Act. The sole focus of the
+      present examination is the expression “all other debts” appearing in Section
+      26E of the SARFAESI Act.
+
+      • Meaning of ‘debt’ appearing in the expression ‘all other debts’ in
+          Section 26E of the SARFAESI Act.
+
+98. The term “debt” is used twice in Section 26E – first, to describe the debts
+      which are due to the secured creditors and have been defined in Section 2(ha)
+      of the SARFAESI Act read with Section 2(g) of the RDB Act; and secondly,
+      to describe such debts which may be due to anyone else other than the
+      secured creditors.
+
+SLP (Crl.) No. 6710 of 2026  Page 61 of 84
+99. We may take a look at Section 2(g) of the RDB Act which reads thus:
+
+               “2. Definitions.––
+
+               (…)
+
+               (g) “debt” means any liability (inclusive of interest) which
+               is claimed as due from any person or a pooled investment
+               vehicle as defined in clause (da) of section 2 of the
+               Securities Contracts (Regulation) Act, 1956, by a bank or
+               a financial institution or by a consortium of banks or
+               financial institutions during the course of any business
+               activity undertaken by the bank or the financial institution
+               or the consortium under any law for the time being in
+               force, in cash or otherwise, whether secured or unsecured,
+               or assigned, or whether payable under a decree or order
+               of any civil court or any arbitration award or otherwise or
+               under a mortgage and subsisting on, and legally
+               recoverable on, the date of the application and includes
+               any liability towards debt securities which remains unpaid
+               in full or part after notice of ninety days served upon the
+               borrower by the debenture trustee or any other authority
+               in whose favour security interest is created for the benefit
+               of holders of debt securities or; ”
+
+                                                             (Emphasis supplied)
+
+100. A bare textual reading of the aforesaid provision indicates that the term
+
+      ‘debt’ as defined under Section 2(g) of the RDB Act includes only such dues
+
+      that are claimed by banks or financial institutions during the course of
+
+      banking activity. Therefore, there is no manner of doubt in our minds that
+
+      the expression “debts due to any secured creditor” includes those debts that
+
+      fall within the definition under Section 2(g) of the RDB Act. However, could
+
+SLP (Crl.) No. 6710 of 2026  Page 62 of 84
+      it be said that the term ‘debt’ appearing in the expression “all other debts”
+      includes only those dues which can be claimed by banks and financial
+      institutions involved in banking? In our considered view, the answer to the
+      aforesaid question must be an emphatic ‘No’.
+
+101. We say so because Section 26E seeks to give priority to the debts due to
+      secured creditors over “all other debts”. If we restrain “all other debts” to
+      those that fall within the definition provided under Section 2(g) of the RDB
+      Act read with Section 2(ha) of the SARFAESI Act, then we may be
+      narrowing down the scope of the priority clause under Section 26E of the
+      SARFAESI Act without any legislative indication to that effect. We do not
+      see any reason for the legislature to restrict the priority provision to only
+      those “other debts” which may be due to banks or financial institutions,
+      especially when Section 26E also prioritizes the interests of the secured
+      creditor over “all revenues, taxes, cesses and other rates payable to the
+      Central Government or State Government or local authority”. We say so
+      because the amounts due to the government or crown debts are also not such
+      debts that arise during the course of banking activities. If secured debts are
+      prioritized over crown debts (non-banking debts), then to say that they will
+      not be prioritized over such “other debts” that are also non-banking debts,
+      would be erroneous in our considered opinion, especially when there is no
+      indication by the legislature to that effect.
+
+SLP (Crl.) No. 6710 of 2026  Page 63 of 84
+102. Therefore, with all humility at our command, we disagree with the
+      observation in NSEL (supra) that Section 26E of the SARFAESI Act is
+      inapplicable insofar as the ‘recovery of the deposits’ under the MPID Act is
+      concerned, as the same cannot be said to be ‘debts’ which are covered under
+      Section 26E. While we are in complete agreement with the first prong of the
+      decision in NSEL (supra), that the priority clause under Section 26E would
+      come into effect only when the security interest has been registered in terms
+      of Section 26D of the SARFAESI Act, we do not find ourselves in
+      agreement with the second prong of its analysis of this aspect, that the debts
+      of the secured creditor would not be discharged in priority over the
+      repayment of deposits under the MPID Act.
+
+103. However, we may also clarify with a view to obviate any confusion that the
+      factual conspectus in which the aforesaid observation was made in NSEL
+      (supra) was different from the one before us. The facts therein required this
+      Court to decide the question of priority of interest of secured creditors who
+      asserted priority of repayment during insolvency proceedings against the
+      debtor and prayed that the properties attached under the MPID Act therein
+      be included in the insolvency pool. We do not know, for certain, whether the
+      properties therein were securitized. Therefore, our disagreement as regards
+      the finding in NSEL (supra) that the ‘repayment of deposits’ under the
+      MPID Act cannot be included within ‘all other debts’ appearing in Section
+
+SLP (Crl.) No. 6710 of 2026  Page 64 of 84
+      26E of the SARFAESI Act is a general observation. In our considered view,
+      this aspect requires further deliberation and clarification by a larger bench.
+
+      • ‘Priority of interest’ of secured creditors vis-à-vis the right of first
+          charge for other statutory dues.
+
+104. Having raised our doubts regarding the aforesaid aspect, we find it apposite
+      to deal with the question of ‘priority of interest’. The non-obstante clause in
+      Section 26E is worded broadly and provides overriding effect in relation to
+      any other law for the time being in force. On the other hand, a perusal of the
+      MPID Act indicates no such provision that would expressly provide the
+      depositors with the ‘right of first charge’ over the attached property of the
+      Financial Establishment or any other person. In other words, a juxtaposition
+      of the SARFAESI Act and the MPID Act as regards the question of ‘priority
+      of interest’ shows that the claim of the secured creditors would be prioritized
+      over the claims of the depositors under the MPID Act.
+
+105. We say so in light of the settled position of law that the dues of any person
+      or authority that become payable as a result of statutory right may be
+      prioritized over the debts due to the secured creditor when such statute
+      creates the right of first charge in respect of such claims. In other words,
+      when repayment is sought from the attachment of property and enforcement
+      of rights therein as provided by way of a statutory enactment, the same is
+      subservient to the enforcement of security rights and repayment under the
+
+SLP (Crl.) No. 6710 of 2026  Page 65 of 84
+      SARFAESI Act unless and until the statute so enacted provides clear priority
+
+      over the repayment to secured creditors under the SARFAESI Act and RDB
+
+      Act.
+
+106. The observations of this Court in Jalgaon District Central Coop. Bank Ltd.
+
+      v. State of Maharashtra, reported in 2025 SCC OnLine SC 2513, provide
+
+      sufficient clarity on the question whether the statutory first charge provision
+
+      prevails over the security rights sought to be enforced under the SARFAESI
+
+      Act. The relevant portion of the judgment in Jalgaon District Central Coop.
+
+      Bank (supra) reads thus:
+
+               “25. Hence, when there are two enactments conferring
+               priority in satisfaction of a debt coming under the
+               respective enactments, by virtue of a non-obstante clause
+               overriding the provisions of any law in force at that time,
+               the time in which the statute was enacted or the provision
+               was incorporated, assumes significance and the provision
+               latter in time would prevail. However, if there is a first
+               charge statutorily created, validly, dehors the non obstante
+               clause conferring priority over other debts, the statutory
+               charge would prevail. With these principles in mind, when
+               we look at the provisions under the SARFAESI Act and the
+               EPF&MP Act, the former with the incorporation of
+               Section 26-E, we are of the opinion that there has to be
+               found a first charge to the EPF&MP Act dues, under
+               Section 11(2) of that Act.
+
+               26. We extract Section 11(2) of the EPF Act and Section
+               26-E of the SARFAESI Act hereunder.
+
+                  “Sec. 11(2): Without prejudice to the provisions of sub-
+                  section (1), if any amount is due from an employer,
+
+SLP (Crl.) No. 6710 of 2026  Page 66 of 84
+   whether in respect of the employee's contribution
+   (deducted from the wages of the employee) or the
+   employer's contribution, the amount so due shall be
+   deemed to be the first charge on the assets of the
+   establishment, and shall, notwithstanding anything
+   contained in any other law for the time being in force,
+   be paid in priority to all other debts.
+
+   Sec. 26-E: Priority to secured creditors—
+   Notwithstanding anything contained in any other law
+   for the time being in force, after the registration of
+   security interest, the debts due to any secured creditor
+   shall be paid in priority over all other debts and all
+   revenues, taxes, cesses and other rates payable to the
+   Central Government or State Government or local
+   authority.”
+
+27. Undisputedly, SARFAESI Act is the latter act and if the
+question was solely of the non-obstante clause giving it
+overriding effect from any law for the time being in force,
+the SARFAESI Act would prevail. However, in the
+EPF&MP Act, Section 11(2) creates a statutory first
+charge on the assets of the establishment for any amount
+due from an employer, be it the employers' or employees'
+contribution, which would include any interest or damages
+also as has been held in Maharashtra State Co-operative
+Bank Limited. In that circumstance, the effect of the non
+obstante clause giving precedence over any other law for
+the time being in force pales into insignificance, as held in
+Central Bank of India. There being a clear first charge
+created under the EPF&MP Act, it overrides the priority
+under Section 35 and Section 13 as also that conferred
+under Section 26-E since a priority cannot be equated with
+a first charge and cannot be given prevalence over the first
+charge statutorily created.
+
+                                             (Emphasis supplied)
+
+SLP (Crl.) No. 6710 of 2026  Page 67 of 84
+107. A careful perusal of the aforesaid exposition reveals two principles to be
+      adhered to when looking at the question of ‘priority of interest’:
+       i. Where there are two enactments containing non obstante clauses
+             which conflict with each other, the later enactment ordinarily prevails.
+       ii. However, where the competing enactments deal with priority in the
+             satisfaction of debts, the above principle does not automatically apply.
+             The Court must first ascertain whether a statutory first charge has been
+             validly created dehors the non obstante clause. If such a statutory first
+             charge, dehors the non obstante clause, exists, it will prevail. In other
+             words, a non obstante clause conferring priority in recovery must
+             yield to a statutory provision independently creating a first charge.
+             [See: Omkara Assets Reconstruction (P) Ltd. v. Official Liquidator
+             of BPL Engineering Ltd., reported in 2026 SCC OnLine Kar
+             12342].
+
+108. In Jalgaon District Central Coop. Bank (supra), it was held that the dues
+      of workmen would be paid in priority over the debts due to the secured
+      creditors under the SARFAESI Act, by virtue of the statutory first charge
+      provided under Section 11(2) of the Employees' Provident Funds and
+      Miscellaneous Provisions Act, 1952 (“EPF&MP Act”). A perusal of the
+      language of Section 11(2) of the EPF&MP Act stipulates with clarity that
+      the dues of the workmen shall be treated as first charge on the assets of the
+
+SLP (Crl.) No. 6710 of 2026  Page 68 of 84
+      employer establishment notwithstanding anything contained in any other
+
+      law for the time being in force.
+
+109. On the other hand, in Punjab National Bank v. Union of India, reported in
+
+      (2022) 7 SCC 260, this Court was faced with the issue whether the amounts
+
+      due to the Central Excise Authority would be paid in priority over the debts
+
+      due to the secured creditors. Upon juxtaposing Section 11E of the Central
+
+      Excise Act, 1944 with Section 35 of the SARFAESI Act, it was observed
+
+      that even though Section 11E of the Central Excise Act, 1944 created a
+
+      statutory right of first charge that would ordinarily provide precedence to
+
+      the payment of dues to the Central Excise Authority, yet, the same was made
+
+      subject to the repayment of debts due to the secured creditors. Thus, the non-
+
+      obstante clause under Section 35 of the SARFAESI Act would prevail. The
+
+      relevant portion of the judgment in Punjab National Bank (supra) is
+
+      reproduced hereinbelow:
+
+               “50. In view of the above, we are of the firm opinion that
+               the arguments of the learned counsel for the appellant, on
+               Issue 2, hold merit. Evidently, prior to insertion of Section
+               11-E in the Central Excise Act, 1944 w.e.f. 8-4-2011, there
+               was no provision in the 1944 Act inter alia, providing for
+               first charge on the property of the assessee or any person
+               under the 1944 Act. Therefore, in the event like in the
+               present case, where the land, building, plant, machinery,
+               etc. have been mortgaged/hypothecated to a secured
+               creditor, having regard to the provisions contained in
+               Sections 2(1)(zc) to (zf) of the Sarfaesi Act, 2002, read with
+
+SLP (Crl.) No. 6710 of 2026  Page 69 of 84
+               provisions contained in Section 13 of the Sarfaesi Act,
+               2002, the Secured Creditor will have a first charge on the
+               secured assets. Moreover, Section 35 of the Sarfaesi Act,
+               2002 inter alia, provides that the provisions of the Sarfaesi
+               Act, shall have overriding effect on all other laws. It is
+               further pertinent to note that even the provisions contained
+               in Section 11-E of the Central Excise Act, 1944 are subject
+               to the provisions contained in the Sarfaesi Act, 2002.
+
+               51. Thus, as has been authoritatively established by the
+               aforementioned cases in general, and Union of India v.
+               Sicom Ltd. [Union of India v. Sicom Ltd., (2009) 2 SCC
+               121] in particular, the provisions contained in the Sarfaesi
+               Act, 2002, even after insertion of Section 11-E in the
+               Central Excise Act, 1944 w.e.f. 8-4-2011, will have an
+               overriding effect on the provisions of the 1944 Act.”
+
+                                                             (Emphasis supplied)
+
+110. We may also refer to the dictum of this Court in Union of India v. SICOM
+
+      Ltd., reported in (2009) 2 SCC 121. The relevant observations therein read
+
+      thus:
+
+               “9. Generally, the rights of the crown to recover the debt
+               would prevail over the right of a subject. Crown debt
+               means the ‘debts due to the State or the King; debts which
+               a prerogative entitles the Crown to claim priority for
+               before all other creditors’. [See Advanced Law Lexicon by
+               P. Ramanatha Aiyar (3rd Edn.) p. 1147]. Such creditors,
+               however, must be held to mean unsecured creditors.
+               Principle of Crown debt as such pertains to the common
+               law principle. A common law which is a law within the
+               meaning of Article 13 of the Constitution is saved in terms
+               of Article 372 thereof. Those principles of common law,
+               thus, which were existing at the time of coming into force
+
+SLP (Crl.) No. 6710 of 2026  Page 70 of 84
+               of the Constitution of India are saved by reason of the
+               aforementioned provision. A debt which is secured or
+               which by reason of the provisions of a statute becomes the
+               first charge over the property having regard to the plain
+               meaning of Article 372 of the Constitution of India must be
+               held to prevail over the Crown debt which is an unsecured
+               one.”
+
+                                                             (Emphasis supplied)
+
+111. At the outset, we may clarify with a view to obviate any confusion that the
+      aforesaid exposition predated the insertion of Section 26E of the SARFAESI
+      Act. One may then question why reference has been made to the
+      observations in SICOM (supra). Our answer is simple – this Court, in the
+      said decision, observed in clear terms that the debts which are secured would
+      always constitute a first charge over the assets in question and relegated even
+      crown debt to the status of an unsecured debt over which the repayment of
+      secured debt shall be given priority. This position preceded the insertion of
+      Section 26E which, in light of the dictum in SICOM (supra), can be said to
+      be the codification of an already existing principle.
+
+112. The concurrent reading of this Court’s decisions in Jalgaon District Central
+      Coop. Bank (supra), Punjab National Bank (supra) and SICOM (supra)
+      would indicate that to ensure primacy of the repayment of any other dues
+      over and above the recovery of secured debts, the enactment of a statutory
+      provision to that effect is a requisite. What has been conveyed by this Court
+
+SLP (Crl.) No. 6710 of 2026  Page 71 of 84
+      in so many words is that such provision must create an independent right of
+      first charge, couched in language so emphatic as to expressly highlight the
+      legislature's intention to prioritize the amounts due under the statute over the
+      repayment of secured debts under the SARFAESI Act.
+
+113. On a plain reading of the MPID Act, it is limpid that no such independent
+      right of first charge has been created that would provide priority to the
+      recovery of deposits thereunder by way of attachment of the property. On
+      the other hand, the Parliament has codified the position of law expounded in
+      SICOM (supra) by including Section 26E in the SARFAESI Act, which
+      mandates that priority be given to the recovery of debts due to secured
+      creditors. Even otherwise, had the Parliament not inserted Section 26E, the
+      repayment of secured debts ought to have been prioritized in light of the
+      decision in SICOM (supra).
+
+114. In such view of the matter, we can say without any manner of doubt in our
+      minds that the repayment of the secured debt of the appellant herein must
+      necessarily be prioritized over the ‘recovery of deposits’ under the MPID
+      Act, which in our considered opinion fall in the category of unsecured debts.
+
+115. We may, at this juncture, revisit the questions that we sought to address
+      ourselves on in paragraph 63(c) of this judgment. We observed that if the
+      conflict between the implementation of the recovery mechanisms under the
+
+SLP (Crl.) No. 6710 of 2026  Page 72 of 84
+      SARFAESI Act and MPID Act is not possible by harmonious construction,
+      then we shall delve into the question of which enactment is the dominant
+      legislation.
+
+116. In our considered view, Part III of this exposition sufficiently clarifies that
+      a harmonious construction of the statutory schemes of both the SARFAESI
+      Act and the MPID Act is possible. Through such exposition, we have
+      observed that priority must be given to the recovery of debts due to secured
+      creditors under the SARFAESI Act.
+
+117. However, we are also conscious that our observations in the aforesaid parts
+      of this judgment may not be congruent with the dictum of the two-Judge
+      bench of this Court in NSEL (supra). Therefore, for a comprehensive
+      analysis which may aid a larger bench in seisin of the issues addressed
+      herein, we may look at the question of primacy of SARFAESI Act over the
+      MPID Act from one another angle. In other words, we find it apposite to
+      also discuss the issue before us on the touchstone of the doctrine of dominant
+      legislation.
+
+IV. SARFAESI Act – the dominant legislation as regards ‘recovery of dues’.
+118. This Court in ITC Limited (supra), observed that where an incidental
+
+      encroachment by one legislation causes conflict with the other legislation,
+      the courts must determine which enactment has been legislated by the
+
+SLP (Crl.) No. 6710 of 2026  Page 73 of 84
+      dominant power. If the Parliamentary enactment is the dominant legislation
+
+      and the State enactment has the effect of incidentally encroaching thereon,
+
+      the principle of federal supremacy would require that the Central legislation
+
+      prevail.
+
+119. However, the principle of dominant legislation should not be taken to mean
+
+      that Central legislation would, in all situations, be accorded primacy over
+
+      State legislation in cases of incidental encroachment. The dictum in Dipak
+
+      Debbarma (supra) clarifies that the federal structure of the Constitution can
+
+      also nullify any incidental inroads that a Parliamentary enactment may make
+
+      into a State legislation. Therefore, where it is determined by the courts that
+
+      the dominant power is the State, the provisions of statute enacted by the State
+
+      legislature would be given primacy. The relevant paragraphs of the
+
+      judgment in Dipak Debbarma (supra) read thus:
+
+               “13. The federal structure under the constitutional scheme
+               can also work to nullify an incidental encroachment made
+               by the parliamentary legislation on a subject of a State
+               legislation where the dominant legislation is the State
+               legislation. An attempt to keep the aforesaid constitutional
+               balance intact and give a limited operation to the doctrine
+               of federal supremacy can be discerned in the concurring
+               judgment of Ruma Pal, J. in ITC Ltd. v. Agricultural
+               Produce Market Committee [ITC Ltd. v. Agricultural
+               Produce Market Committee, (2002) 9 SCC 232] , wherein
+               after quoting the observations of this Court in S.R. Bommai
+               v. Union of India [S.R. Bommai v. Union of India, (1994)
+               3 SCC 1] , the learned Judge has gone to observe as
+
+SLP (Crl.) No. 6710 of 2026  Page 74 of 84
+follows : (ITC Ltd. case [ITC Ltd. v. Agricultural Produce
+Market Committee, (2002) 9 SCC 232] , SCC p. 282, paras
+93-94)
+
+   “93. … ‘276. The fact that under the scheme of our
+   Constitution, greater power is conferred upon the
+   Centre vis-à-vis the States does not mean that States are
+   mere appendages of the Centre. Within the sphere
+   allotted to them, States are supreme. The Centre cannot
+   tamper with their powers. More particularly, the courts
+   should not adopt an approach, an interpretation, which
+   has the effect of or tends to have the effect of whittling
+   down the powers reserved to the States.’ (S.R. Bommai
+   case [S.R. Bommai v. Union of India, (1994) 3 SCC 1] ,
+   SCC pp. 216-17, para 276)
+   94. Although Parliament cannot legislate on any of the
+   entries in the State List, it may do so incidentally while
+   essentially legislating within the entries under the Union
+   List. Conversely, the State Legislatures may encroach
+   on the Union List, when such an encroachment is merely
+   ancillary to an exercise of power intrinsically under the
+   State List. The fact of encroachment does not affect the
+   vires of the law even as regards the area of
+   encroachment. [A.S. Krishna v. State of Madras [A.S.
+   Krishna v. State of Madras, AIR 1957 SC 297 : 1957 Cri
+   LJ 409] ; Chaturbhai M. Patel v. Union of India
+   [Chaturbhai M. Patel v. Union of India, (1960) 2 SCR
+   362 : AIR 1960 SC 424] ; State of Rajasthan v. G.
+   Chawla [State of Rajasthan v. G. Chawla, AIR 1959 SC
+   544 : 1959 Cri LJ 660] and Ishwari Khetan Sugar Mills
+   (P) Ltd. v. State of U.P. [Ishwari Khetan Sugar Mills (P)
+   Ltd. v. State of U.P., (1980) 4 SCC 136] This principle
+   commonly known as the doctrine of pith and substance,
+   does not amount to an extension of the legislative fields.
+   Therefore, such incidental encroachment in either event
+   does not deprive the State Legislature in the first case or
+   Parliament in the second, of their exclusive powers
+
+SLP (Crl.) No. 6710 of 2026  Page 75 of 84
+                  under the entry so encroached upon. In the event the
+                  incidental encroachment conflicts with legislation
+                  actually enacted by the dominant power, the dominant
+                  legislation will prevail.”
+
+               14. The aforesaid view in the concurring judgment of
+               Ruma Pal, J. in ITC Ltd. v. Agricultural Produce Market
+               Committee [ITC Ltd. v. Agricultural Produce Market
+               Committee, (2002) 9 SCC 232], seems to have been echoed
+               in a recent pronouncement of this Court in Vishal N.
+               Kalsaria v. Bank of India [Vishal N. Kalsaria v. Bank of
+               India, (2016) 3 SCC 762 : (2016) 2 SCC (Civ) 452] ,
+               wherein this Court had held that the provisions of the 2002
+               Act will not have an overriding effect on the provisions of
+               the State Rent Control Acts.”
+
+                                                             (Emphasis supplied)
+
+120. In light of the aforesaid expositions in ITC Limited (supra) and Dipak
+
+      Debbarma (supra), we find it apposite to examine whether it is the
+
+      SARFAESI Act or the MPID Act that is the dominant legislation. It is
+
+      apposite to clarify that the overlap between the two enactments pertains to
+
+      the ‘recovery of dues’, for the secured creditors under the SARFAESI Act
+
+      on the one hand and, for the depositors under the MPID Act on the other
+
+      hand. The crux of the conflict, however, remains the same – priority of
+
+      recovery for which group of debtors.
+
+121. Having identified the root cause of the conflict, we may refer with profit to
+
+      the dictum of this Court in Delhi High Court Bar Assn. (supra) wherein it
+
+      was observed that the recovery of dues is an essential function of any
+
+SLP (Crl.) No. 6710 of 2026  Page 76 of 84
+      banking institution. This has been reaffirmed in SBI v. Santosh Gupta,
+
+      reported in (2017) 2 SCC 538 and Pandurang Ganpati Chaugule v.
+
+      Vishwasrao Patil Murgud Sahakari Bank Ltd., reported in (2020) 9 SCC
+
+      215. The observation in Delhi High Court Bar Assn. (supra) reads thus:
+
+               “14. (…) Entry 45 of List I relates to “banking”. Banking
+               operations would, inter alia, include accepting of loans
+               and deposits, granting of loans and recovery of the debts
+               due to the bank. There can be little doubt that under Entry
+               45 of List I, it is Parliament alone which can enact a law
+               with regard to the conduct of business by the banks.
+               Recovery of dues is an essential function of any banking
+               institution. In exercise of its legislative power relating to
+               banking, Parliament can provide the mechanism by which
+               monies due to the banks and financial institutions can be
+               recovered.”
+
+                                                             (Emphasis supplied)
+
+122. Therefore, it is as clear as a noon day that the process of ‘recovery of dues’
+
+      is essential to the activity of banking which falls directly within the
+
+      legislative purview of the Parliament by virtue of Entry 45 of List I to the
+
+      Schedule VII.
+
+123. In our considered view, the aspect of ‘recovery of dues’ cannot be said to be
+
+      as essential to Entries 1, 30 and 32 of List II to the Schedule VII, as it
+
+      evidently is to Entry 45 of List I. In such view of the matter, could it be said
+
+      that it is the State legislature which is the dominant power insofar as the
+
+SLP (Crl.) No. 6710 of 2026  Page 77 of 84
+      aspect of ‘recovery of dues’ is concerned? In our considered opinion, the
+      answer to the aforesaid question must be an emphatic ‘No’.
+
+124. Therefore, the MPID Act, which has been enacted in exercise of the
+      legislative powers of the State under Entries 1, 30 and 32 of List II, cannot
+      be held to be the dominant legislation when compared with the SARFAESI
+      Act or RDB Act, respectively, which have been enacted under Entry 45 of
+      List I.
+
+125. However, the aforesaid discussion in respect of the doctrine of dominant
+      legislation is largely academic since, we have, in no uncertain terms,
+      observed that the SARFAESI Act would overrise the provisions of the
+      MPID Act, by harmonious construction of the statutory schemes of the two
+      enactments.
+
+126. As such, there remains no doubt in our minds that the priority over the
+      amounts received from the attachment and enforcement of rights in the
+      properties herein must go towards discharging the secured debt due to the
+      appellant herein. It is only if surplus monies remain after satisfying the debt
+      of the appellant that the deposits under the MPID Act can be recovered.
+
+SLP (Crl.) No. 6710 of 2026  Page 78 of 84
+E. SUMMARY OF OBSERVATIONS
+127. We may summarize our observations in the aforesaid parts of this judgment
+
+      as follows:
+      a) While both the SARFAESI Act and MPID Act have been legislated
+
+            competently by the Parliament and the State legislature respectively,
+            yet the incidental overlap as regards ‘recovery’ mechanisms presents a
+            conflict when the two statutes are sought to be implemented
+            simultaneously.
+
+      b) The harmonious construction of the statutory provisions of the
+            SARFAESI Act and the MPID Act respectively, indicates that the
+            recovery of secured debts under the former must be prioritized over the
+            recovery of deposits under the latter for the following reasons:
+
+             • First, the non-obstante clause under the SARFAESI Act, having
+                  been enacted at a later point in time, must provide overriding
+                  effect insofar as the recovery provisions under the MPID Act are
+                  concerned.
+
+             • Secondly, the objective of speedy recovery of secured debts under
+                  the SARFAESI Act must be given precedence over the objective
+                  of recovery of deposits under the MPID Act, as the banks are
+                  custodians of public monies. If speedy recovery of secured debts
+
+SLP (Crl.) No. 6710 of 2026  Page 79 of 84
+            is made subservient to the recovery provisions under the MPID
+            Act, it would have a detrimental impact on the interests of the
+            public at large.
+       • Lastly, though the non-obstante provision under Section 35 of the
+            SARFAESI Act is equally matched by the non-obstante clause
+            under Section 14 of the MPID Act, yet the insertion of Section
+            26E in the SARFAESI Act strengthens the claim of priority in
+            respect of recovery of secured debts. Section 26E codifies the
+            position of law expounded in SICOM (supra) that the security
+            interests of the secured creditors would always prevail over the
+            interests of the unsecured creditors.
+
+c) The SARFAESI Act is the dominant legislation insofar as the aspect of
+      ‘recovery of dues’ is concerned. We have said so because ‘recovery of
+      dues’ is essential to the activity of banking, which falls in the legislative
+      field of the Parliament under Entry 45 of List I to the Schedule VII of
+      the Constitution. Therefore, it is the Parliament that is the dominant
+      power in this regard, and State legislation, i.e., the MPID Act, must
+      bow to it.
+
+d) As regards the applicability of Section 26E to situations in which
+      recovery under the MPID Act is involved, we have, with all humility
+
+SLP (Crl.) No. 6710 of 2026  Page 80 of 84
+            at our command, disagreed with the dictum of this Court in NSEL
+            (supra) wherein it was held that the ‘deposits’ under the MPID Act
+            cannot be treated as ‘debt’ for the purposes of Section 26E. However,
+            in our considered view, the ‘deposits’ under the MPID Act would
+            squarely fall within the category of “all other debts” over which
+            Section 26E provides priority to secured debts. As such, this aspect
+            requires clarification by a larger bench of this Court.
+
+      e) As regards the observation of this Court in NSEL (supra) that ‘recovery
+            of deposits’ under the MPID Act would gain precedence over the
+            recoveries under the SARFAESI Act and RDB Act, we find it apposite
+            to observe that in our considered opinion, the resolution of conflict
+            between the two legislations was not adequately approached. In all
+            humility, we have sought to answer the questions that remained
+            unresolved in NSEL (supra), i.e, the questions in respect of harmonious
+            construction of the two statutes and dominance of legislation. We find
+            it necessary to refer these aspects to the larger bench for clarification.
+
+F. CONCLUSION
+128. In view of what has been pointed out hereinabove, we are of the opinion
+
+      that, for a comprehensive consideration and an authoritative pronouncement
+      after taking into account all aspects, including those dealt with hereinabove,
+
+SLP (Crl.) No. 6710 of 2026  Page 81 of 84
+      the matter needs to be placed before Hon’ble the Chief Justice of India to
+      constitute an appropriate three-Judge Bench.
+
+129. The three-Judge Bench constituted may address itself to the following
+      questions:
+      (i) Whether the ‘deposits’ sought to be recovered under the MPID Act
+               would fall within the ambit of the expression “all other debts”
+               appearing in Section 26E of the SARFAESI Act?
+
+      (ii) Whether the harmonious construction of the statutory schemes of the
+               SARFAESI Act and the MPID Act indicates that the ‘recovery of
+               dues’ under the former should be given priority over the latter?
+
+      (iii) Whether it is the Parliament which is the dominant power insofar as
+               the aspect of ‘recovery of dues’ is concerned because the same is
+               essential to the activity of banking which falls within the legislative
+               field of the Union under Entry 45 of List I to the Schedule VII? In
+               other words, whether the SARFAESI Act is the dominant legislation
+               and, as such, would prevail over the MPID Act?
+
+130. Before we part with the matter, we find it apposite to grant the interim reliefs
+      prayed for by the appellant till this matter is finally resolved. We direct the
+      respondent State not to transfer, utilise, appropriate or disburse the amount
+      of Rs. 5,51,59,816/-.
+
+SLP (Crl.) No. 6710 of 2026  Page 82 of 84
+131. The Registry is directed to place these matters before Hon'ble the
+      Chief Justice of India for appropriate orders.
+
+132. Before we close this matter, we would like to say something as regards the
+      litigation which has unfolded before us. The SARFAESI Act was legislated
+      and brought into effect in 2002, approximately three years after the MPID
+      Act was enacted by the State of Maharashtra. As has been discussed in the
+      aforesaid parts of this judgment, this fact by itself plays a vital role in
+      determining which enactment overrides the other. However, we may,
+      nevertheless point out, that despite the SARFAESI Act being enacted later
+      in point of time, it does not provide any clarity as regards the competing
+      priorities between the secured creditors under the SARFAESI Act vis-à-vis
+      the beneficiaries under the MPID Act. The vacuum in this regard has given
+      rise to several litigations including the matter before us.
+
+133. Although our final conclusion has been to refer the issue to a larger bench
+      yet we consider it apposite to suggest to the Parliament to bring about an
+      appropriate amendment to Section 26E of the SARFAESI Act whereby an
+      explanation of the expression “all other debts” may be provided
+      authoritatively. In our considered view, this would provide much clarity &
+      respite to the banking and financial sector from the plethora of litigations
+      that seek to judicially eradicate the ambiguity in this regard. We find it
+
+SLP (Crl.) No. 6710 of 2026  Page 83 of 84
+      pertinent to place this suggestion before the Parliament as any uncertainty
+      that surrounds ‘recovery of debts’ due to secured creditors is detrimental to
+      the interest of the public at large and an anathema to the financial machinery
+      of the nation. We urge the Department of Financial Services, Ministry of
+      Finance to seriously consider our suggestion and bring about necessary
+      amendments.
+
+134. The Registry shall forward one copy each of this judgment to the Principal
+      Secretary, Ministry of Finance, Government of India and to the learned
+      Attorney General for India.
+
+                             ………………………………….J.
+                                            (J.B. PARDIWALA)
+
+                             ………………………………….J.
+                                              (UJJAL BHUYAN)
+
+New Delhi.
+26th November, 2026.
+
+SLP (Crl.) No. 6710 of 2026  Page 84 of 84
+

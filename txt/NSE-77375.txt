@@ -1,0 +1,81 @@
+section: exchanges
+date: 2026-11-09
+kind: NSE circular (Legal, ISC & Arbitration)
+title: Guidelines in pursuance of amendment to SEBI KYC (Know Your Client) Registration Agency (KRA) Regulations, 2011
+ref: NSE/ISC/77375
+url: https://www.nseindia.com/resources/exchange-communication-circulars
+pdf_url: https://nsearchives.nseindia.in/content/circulars/ISC77375.pdf
+file: NSE-77375.txt
+======================================================================
+Department: INVESTOR SERVICES CELL  Date: November 09, 2026
+Download Ref No: NSE/ISC/77375
+Circular Ref. No: 50/2026
+
+To All Members,
+
+Sub: Guidelines in pursuance of amendment to SEBI KYC (Know Your Client) Registration
+Agency (KRA) Regulations, 2011
+
+This is with reference to SEBI Circular No. SEBI/HO/MIRSD/FATF/P/CIR/2023/0144 dated August 11,
+2023, and pursuant to Exchange Circular issued on monthly basis in respect to Guidelines in pursuance of
+amendment to SEBI KYC (Know Your Client) Registration Agency (KRA) Regulations, 2011 with the
+latest issued on dated October 14, 2026, NSE/ISC/76893 on “Simplification of KYC process and
+rationalisation of Risk Management Framework at KYC (Know Your Client) Registration Agencies
+(KRAs)” and “Guidelines in pursuance of amendment to SEBI KYC (Know Your client) Registration
+Agency (KRA) Regulations, 2011”.
+
+It may be noted that as per SEBI Circular SEBI/HO/OIAE/OIAE_IAD-1/P/CIR/2023/0000000163 dated
+October 03, 2023, on Centralized mechanism for reporting the demise of an investor through KRAs, all
+SEBI-registered Trading Members are required to exercise due diligence as per above circular and block
+all debit transactions in the accounts of deceased investors. Trading Members must subsequently mark the
+relevant Unique Client Codes (UCCs) as "Closed" in the Exchange’s UCC database. Trading Members
+are hereby informed that demise-related data is being shared by the KRAs on a daily basis.
+
+Further, Trading Members are hereby advised to ensure that the KYCs of all the clients have been
+uploaded to the KRAs and only those clients are permitted to trade whose KRA status is either “KYC
+Registered” or “KYC Validated”.
+
+Trading Members are hereby informed to take note of the below:
+
+    1. All PANs uploaded to the KRAs till October 31, 2026, and whose Primary KYC status has been
+         reported by the KRAs as “On-Hold” shall not be Permitted to Trade or square-off open positions
+         if any, effective November 21, 2026.
+NSE                                                      Continuation Sheet
+
+2. Exchange provides a file of such PANs which have not been uploaded by the Members to the
+    KRAs and hence the KYC status of such PANs is “Not Available” with the KRAs. The File Name:
+    <TMcode>_KRA_NOT_AVAILABLE. Members are hereby informed to take necessary action.
+
+3. Further, Exchange also provides a list of PANs, which have been marked as Demise by the KRAs.
+    File name: <TMcode>_Demise_Clients_by_KRA. For those PANs which have been reported by
+    the KRAs till October 31, 2026, as Demised, members are hereby required to mark the relevant
+    Unique Client Codes (UCCs) as "Closed" in the Exchange’s UCC database before November 21,
+    2026, post requisite due diligence.
+
+The list of such KYC non-compliant PANs as mentioned above have been provided at the below
+mentioned location:
+
+       Link: https://enit.nseindia.com/MemberPortal/
+       Path: ENIT > Log > Downloads
+
+KRA Status     File Name
+On Hold        <TM Code>_Non-Validated_Clients_by_KRA
+Not Available  <TMcode>_ KRA_NOT_AVAILABLE
+Demise         <TMcode>_ Demise_Clients_by_KRA.
+
+The Exchange shall flag the above KYC non-compliant PANs (including Not Available and Demise Status),
+provided by the KRAs on November 04, 2026, as Not Permitted to Trade w.e.f. November 21, 2026. Hence,
+these PANs shall not be able to trade or square off open positions if any from the above referred date. All
+PANs that become KRA compliant subsequently, will be permitted to trade on T+1, based on the
+information received from KRA by the Exchange on T Day.
+
+In case of any query kindly contact uci@nse.co.in
+
+For and on behalf of                      Email id
+National Stock Exchange of India Limited  uci@nse.co.in
+
+Shanti Idnani
+Vice President
+
+ Toll Free No
+ 1800 266 0050 (select option 5)

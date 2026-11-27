@@ -1,0 +1,57 @@
+section: exchanges
+date: 2026-11-25
+kind: NSE circular (Surveillance & Investigation)
+title: Reversal Trade Cancellation Mechanism (RTCM)
+ref: NSE/SURV/77600
+url: https://www.nseindia.com/resources/exchange-communication-circulars
+pdf_url: https://nsearchives.nseindia.in/content/circulars/SURV77600.zip
+file: NSE-77600.txt
+======================================================================
+===== [zip member] CM_RTCM_dec2026.csv ===== [not a PDF; not converted]
+
+
+===== [zip member] SURV77600.pdf =====
+National Stock Exchange of India Limited
+
+Circular
+
+Department: SURVEILLANCE                           Date: November 25, 2026
+Download Ref No: NSE/SURV/ 77600
+Circular Ref. No: 903/2026
+
+To All NSE Members
+
+Sub: Reversal Trade Cancellation Mechanism (RTCM)
+
+This is with reference to NSE circular no. NSE/SURV/62493 dated June 18, 2024 regarding Reversal Trade
+Cancellation Mechanism (RTCM).
+
+Trading members are requested to make a note of methodology of shortlisting the symbols for which the
+RTCM shall be made applicable.
+
+RTCM will be applicable for the series (i.e. EQ, BE, BZ, SM, ST & SZ) pertaining to the symbols in the file
+provided “CM_RTCM_dec2026.csv”. The symbols list on which RTCM shall be applicable will be excluding
+of the following securities
+
+    1. Approved securities list published by NSE Clearing Ltd
+    2. Constituents of Nifty 500 index
+    3. ETF’s
+
+Members may note that the file “CM_RTCM_dec2026.csv” containing the list of symbols (based on the
+aforesaid methodology) on which RTCM shall be applicable for the month of December 2026, has been
+made available on the extranet path: /common/Surveillance/RTCM.
+
+Please note that RTCM is a facility provided by Exchange (NSE/SURV/62493 dated June 18, 2024) to help
+prevent incidence of reversal trades between two PANs if certain thresholds are breached. However, the
+facility of RTCM does not absolve the Trading Members of their obligation to adhere to the provisions of
+circular NSE/INVG/46662 dated December 16, 2020.
+
+In case of any further queries, members might write to us on surveillance@nse.co.in.
+National Stock Exchange of India Limited
+
+ For National Stock Exchange of India Limited
+ Mayank Rathod
+ Chief Manager
+ Surveillance
+
+                                                                                                                                                                Page 2 of 2

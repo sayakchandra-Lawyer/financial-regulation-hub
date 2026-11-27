@@ -1,0 +1,1760 @@
+section: ifsc
+date: 2026-11-16
+kind: Committee Report
+title: Report of working Group on developing a framework for issuance of Insurance-Linked Securities (ILS)
+url: https://ifsca.gov.in/ReportPublication/Index?MId=WO8SmhqwM3k=
+pdf_url: https://ifsca.gov.in/CommonDirect/DownloadFile?id=850da50e42b9c192894a42a7d2e4ad83&fileName=ILS_WG_Report___Final_20261116_1236.pdf
+file: IFSCA-1116-07.txt
+======================================================================
+INTERNATIONAL FINANCIAL SERVICES
+             CENTRES AUTHORITY
+
+   REPORT OF WORKING GROUP
+
+    Developing a Framework for Issuance of Insurance-Linked
+    Securities (ILS) from GIFT-IFSC
+                      CHAPTER I SUBMISSION OF REPORT
+
+Working Group on developing a framework for issuance of Insurance-Linked Securities
+                                           (ILS) from GIFT-IFSC
+
+                                                              19th October, 2026
+
+Shri K. Rajaraman, Chairperson
+International Financial Services Centre Authority (IFSCA)
+GIFT City, Gandhinagar
+
+Dear Sir,
+
+We, the members of Working Group (WG), constituted by the IFSCA in October 2025, are
+pleased to submit this Report in accordance with the mandate entrusted to us.
+
+The increasing frequency and severity of catastrophic events, driven by climate change, rapid
+urbanisation and growing concentrations of economic assets, have significantly heightened
+the demand for innovative catastrophe risk financing solutions. In response, the global market
+for ILS, particularly Catastrophe Bonds (CAT Bonds), has witnessed substantial growth over
+the past two decades. The broader ILS market reached roughly $120 billion at year-end 2025,
+up from $107 billion in 2024, per a joint AM Best and Guy Carpenter estimate. That growth
+has continued into 2026: the outstanding cat bond market hit a record $65.6 billion by the end
+of Q2 2026, up 7% from year-end 2025, even after $9.6 billion of maturities that quarter.1
+
+India presents a compelling case for the development of an ILS market. As one of the world's
+most disaster-prone countries, India faces recurrent exposure to cyclones, floods,
+earthquakes, droughts and other natural catastrophes. At the same time, the country's
+insurance sector is expanding rapidly, accompanied by increasing policy emphasis on climate
+resilience, disaster risk financing and financial innovation. These developments present a
+timely opportunity to explore the role of capital markets in complementing traditional insurance
+and reinsurance capacity.
+
+1 Source: AM Best, and artemis.bm and other market estimates
+
+                                                              Page 1 of 41
+Contents
+Executive Summary
+
+LIST OF ABBREVIATIONS .................................................................................................................... 4
+
+ACKNOWLEDGMENTS.......................................................................................................................... 6
+
+EXECUTIVE SUMMARY......................................................................................................................... 7
+
+1. Introduction..................................................................................................................................... 11
+1.1 Emergence of ILS ........................................................................................................................ 11
+1.2 India's Catastrophe Risk Landscape and Insurance Protection Gap .................................... 12
+1.3 Benefits of ILS to Capital Markets ............................................................................................. 14
+1.3.1 A Rare, Near-Uncorrelated Asset Class .................................................................................... 14
+1.3.2 Potential for Better Risk-Adjusted Portfolio Outcomes .............................................................. 15
+1.3.3 A Widening and Deepening Investor Base ................................................................................ 15
+1.3.4 Expanding and Completing the Market...................................................................................... 16
+1.4 IFSCA's Initiative on ILS – Formation of Working Group........................................................ 17
+1.5 WG for Developing Framework on issuance of ILS ................................................................. 18
+
+2. Study of Legal and Regulatory Framework in International Markets........................................ 20
+2.1 Evolution of ILS in International Markets ................................................................................. 20
+
+3. International Supervisory Standards – IAIS Insurance Core Principles and Supervisory
+    Expectations for ILS ....................................................................................................................... 23
+
+4. Notification of Special Purpose Insurer (SPI) under the Insurance Act, 1938 ......................... 24
+4.1 Introduction.................................................................................................................................. 24
+4.2 Existing Capital Framework ....................................................................................................... 25
+4.3 Limitation of the Conventional Capital Model .......................................................................... 26
+4.4 Full Collateralisation as an Alternative Prudential Model ....................................................... 26
+4.5 International Regulatory Practice .............................................................................................. 27
+4.6 Need for a Statutory Carve-Out.................................................................................................. 28
+4.7 Policy Rationale for a Carve-Out ............................................................................................... 28
+4.8 Proposed Regulatory Framework for SPIs in IFSC.................................................................. 29
+4.8.1 ILS Ecosystem Players .............................................................................................................. 31
+4.8.2 Financial Support Services Ecosystem...................................................................................... 33
+4.8.3 IFSCA’s capital market ecosystem ............................................................................................ 34
+4.9 Conclusion ................................................................................................................................... 36
+
+5. Recommendation for Legal Framework ....................................................................................... 36
+
+6.Suggested Draft Amendment under Section 2CA of the Insurance Act, 1938, for IFSCA ........ 37
+
+7. Suggested Alternative Route ........................................................................................................ 38
+
+8. Recommended Steps ..................................................................................................................... 39
+
+9. Development of ILS Market Infrastructure and Data Ecosystem .............................................. 40
+
+10.Conclusion ...................................................................................................................................... 41
+
+                                                                                                                                   Page 3 of 41
+This page is intentionally left blank.
+
+                                                                                     Page 4 of 41
+LIST OF ABBREVIATIONS
+
+AMRE       Aggregate Maximum Risk Exposure
+ART        Alternate Risk Transfer
+BATF       IFSCA (Book-keeping, Accounting, Taxation and Financial
+           Crime Compliance Services) Regulations, 2024 (BATF
+BMA        Regulations)
+BMTPC      Bermuda Monetary Authority
+CAT        Building Materials and Technology Promotion Council
+CCRIF      Catastrophe
+DTC        Caribbean Catastrophe Risk Insurance Facility
+FCA        Depository Trust Company
+FSMA       Financial Conduct Authority
+GIFT City  Financial Services and Markets Act 2000
+IAIS       Gujarat International Finance-Tec City
+ICP        International Association of Insurance Supervisors
+IFSC       Insurance Core Principles
+IFSCA      International Financial Services Centre
+ILS        International Financial Services Centres Authority
+IRDAI      Insurance-Linked Securities
+ISPV       Insurance Regulatory and Development Authority
+MAS        Insurance Special Purpose Vehicle
+NAIC       Monetary Authority of Singapore
+NDMA       National Association of Insurance Commissioners
+NRSC       National Disaster Management Authority
+PRA        National Remote Sensing Centre
+PSPI       Prudential Regulation Authority
+SEZ        Parametric Special Purpose Insurer
+SPB        Special Economic Zone
+SPE        Special Purpose Business
+SPI        Special Purpose Entity
+SPR        Special Purpose Insurer
+SPRV       Special Purpose Reinsurer
+SPV        Special Purpose Reinsurance Vehicle
+TAS        Special Purpose Vehicle
+UK         IFSCA (Tech Fin and Ancillary Services) Regulations, 2025
+US         United Kingdom
+USD        United States of America
+WG         US Dollar
+           Working Gorup
+
+                       Page 5 of 41
+                                             ACKNOWLEDGMENTS
+
+ILS2 have emerged as important instruments for strengthening the resilience of insurance
+markets by enabling the transfer of catastrophe risks to global capital markets. Recognising
+the potential of these instruments and the need to establish an internationally aligned
+regulatory framework within GIFT IFSC, the IFSCA constituted a WG in October 2025 to
+examine the legal and regulatory aspects of introducing an enabling framework for ILS in
+IFSC.
+
+The WG places on record its sincere gratitude to Shri K. Rajaraman, Chairperson, IFSCA, for
+reposing confidence in the Group and entrusting it with this important assignment. IFSCAs
+vision for developing GIFT IFSC as a globally competitive international financial centre,
+coupled with constant encouragement, invaluable guidance and unwavering support, served
+as a source of inspiration throughout the deliberations of the WG.
+
+The WG also gratefully acknowledges the continuous support extended by the Authority and
+its officers during the course of this exercise. Their valuable inputs, constructive discussions
+and administrative assistance greatly facilitated the timely completion of the Group's work.
+
+The WG benefited immensely from the collective expertise and rich experience of its
+members who brought together diverse perspectives from insurance regulation, reinsurance,
+capital markets, catastrophe risk financing and structured finance.
+
+Finally, the WG expresses its appreciation to all those who, directly or indirectly, contributed
+to the preparation of this Report. It is our sincere hope that the recommendations contained
+herein will assist the IFSCA in establishing a robust and internationally competitive framework
+for ILS, thereby contributing to the continued growth of GIFT IFSC as a global centre for
+innovative risk financing and strengthening India's catastrophe risk financing ecosystem.
+
+                                                                                                         (T L Alamelu)
+                                                                                                          Chairperson
+
+2 For this report, ‘ILS’ includes catastrophe bonds and other forms of Alternative Risk Transfer (ART).
+
+                                                                                                         Page 6 of 41
+                                            EXECUTIVE SUMMARY
+
+Need for ILS
+
+The increasing frequency and severity of natural catastrophes, driven by climate change,
+urbanisation and the growing concentration of economic assets, have intensified the need for
+innovative mechanisms to finance catastrophe risks. While conventional insurance and
+reinsurance continue to play a central role in absorbing catastrophe losses, the scale of
+potential losses has led to the emergence of ILS as an important source of alternative risk-
+bearing capacity. Among these instruments, CAT Bonds have become the most widely
+adopted mechanism for transferring catastrophe risks from insurers and reinsurers to
+institutional investors.
+
+Growth of ILS
+
+Over the past three decades, the global ILS market has evolved into a mature segment of
+international capital markets, providing insurers with diversified sources of catastrophe
+protection while offering investors access to returns that are largely uncorrelated with
+traditional financial market risks. Although the market has grown steadily, CAT Bond issuance
+remains concentrated in a few jurisdictions, particularly Bermuda, with increasing participation
+from Singapore, Hong Kong and the United Kingdom. The underlying catastrophe risks
+similarly remain concentrated in North America and Europe, notwithstanding growing disaster
+exposures across Asia and other emerging markets.
+
+India as the HUB
+
+India presents a compelling case for the development of an ILS market. As one of the world's
+most disaster-prone countries, India faces recurring exposure to cyclones, floods,
+earthquakes, droughts, landslides and other climate-related events. At the same time,
+insurance penetration remains relatively modest, resulting in a significant protection gap
+between economic losses and insured losses. Total insurance penetration in India is about
+3.7% (with life insurance at 2.7% and non-life at 1%) and Insurance density (premium per
+capita) sits at around $97 USD while the commensurate global averages stand at 7.3% for
+insurance penetration and $943 USD for insurance density 3. Thus, compared to global
+averages, these figures remain significantly low, especially in the light of towering goal of
+‘Insurance for All by 2047’. Traditional reinsurance alone may not be sufficient to meet the
+country's growing catastrophe risk financing requirements. Access to global institutional
+capital through ILS, therefore, presents an opportunity to supplement conventional insurance
+capacity, diversify sources of risk capital and strengthen financial resilience against major
+natural disasters.
+
+3 IRDAI Annual Report 2024-25 and Swiss Re Sigma World Insurance Report (No. 2/2025)
+
+                                                                                      Page 7 of 41
+Terms of Reference of Working Group
+
+Recognising these developments, the IFSCA constituted WG to examine the legal, regulatory
+and operational framework necessary for enabling ILS within GIFT IFSC. The WG was tasked
+with studying international regulatory practices, identifying legal and prudential considerations
+relevant to the Indian context and recommending an appropriate framework for
+operationalising an ILS market in IFSC.
+
+This Report undertakes a comprehensive examination of the global ILS ecosystem. It traces
+the evolution of ILS from their origins following major catastrophe events, analyses the
+development of ART mechanisms and explains the role of Special Purpose Insurers (SPIs4)
+in facilitating the transfer of insurance risks to capital markets. The Report also examines
+India's catastrophe risk landscape and highlights the potential role of ILS in addressing the
+country's catastrophe protection gap.
+
+Evaluation of Regulatory Frameworks in other Jurisdictions
+
+A detailed review has been undertaken of the regulatory frameworks adopted by leading
+international jurisdictions, including Bermuda, Singapore, Hong Kong, the United Kingdom
+and the United States. While each jurisdiction has adopted a distinct institutional model,
+several common regulatory principles emerge. These include the establishment of dedicated
+SPIs or equivalent vehicles, full collateralisation of contractual obligations, bankruptcy-remote
+legal structures, transaction-specific authorisations, proportionate prudential regulation and
+strong governance, disclosure and supervisory oversight. Collectively, these jurisdictions
+demonstrate that ILS require a regulatory framework that is distinct from the prudential regime
+applicable to conventional insurers.
+
+Legal Framework at IFSC
+
+Against this international backdrop, the Report examines the existing legal framework under
+the Insurance Act, 1938 read with its latest amendment via the Sabka Bima Sabki Raksha
+(Amendment of Insurance Laws) Act, 2025. The current statutory requirement for minimum
+paid-up equity capital was conceived for insurers operating as going concerns with diversified
+and continuously evolving underwriting portfolios. By contrast, an ILS SPI is established solely
+for a specified transaction, assumes only defined risks, operates for a limited duration and
+funds its maximum contractual obligations through investor-funded collateral held in ring-
+fenced accounts. Consequently, the prudential objectives achieved through conventional
+paid-up capital are instead achieved through full collateralisation and legally protected assets.
+
+4 For this report, ‘SPI’ includes special purpose vehicles (SPVs), special purpose reinsurance vehicles (SPRVs), or special purpose insurers (SPIs)
+or special purpose entities (SPEs).
+
+                                                                                                                                   Page 8 of 41
+Recommendations
+
+Formation of SPIs/SPVs
+
+Unlike conventional insurers, the SPI would not undertake underwriting activities involving
+multiple policyholders, maintain diversified insurance portfolios or retain underwriting risk on
+its own balance sheet. Instead, its liabilities to the sponsoring insurer would be fully secured
+through collateral provided by investors, thereby substantially reducing counterparty credit
+risk. In recognition of this unique business model, the WG recommends that SPIs should be
+subject to a separate prudential regime and be exempt from the conventional paid-up capital
+and solvency requirements applicable to insurers and reinsurers, while remaining subject to
+appropriate governance, operational, disclosure and reporting obligations.
+
+The Report, therefore, concludes that fully collateralised SPIs should not be subject to the
+conventional minimum paid-up capital requirements applicable to traditional insurers. Instead,
+it recommends the creation of a dedicated statutory carve-out under the Insurance Act, 1938,
+or an equivalent legislative mechanism, permitting the establishment of SPIs subject to a
+mandatory requirement of one hundred per cent collateralisation, restricted business
+activities, bankruptcy remoteness, robust governance, comprehensive disclosure and
+appropriate regulatory oversight. Such an approach would be consistent with internationally
+accepted supervisory principles and with the regulatory frameworks adopted by leading ILS
+jurisdictions.
+
+Creation of a Conducive Ecosystem
+
+The Report also recognises that the development of a competitive ecosystem will require the
+parallel establishment of catastrophe modelling capabilities, actuarial expertise, SPV
+administration services, trustee and collateral management functions, legal and accounting
+advisory services and active participation by insurers, reinsurers, institutional investors and
+other market participants.
+
+Implementation Strategy
+
+In light of these findings, the WG recommends a phased implementation strategy comprising
+legislative enablement, notification of a dedicated regulatory framework, ecosystem
+development. The first step would involve obtaining targeted statutory carve-out under the
+Insurance Act, 1938 or such other legislative mechanism as may be considered appropriate.
+This would be followed by the formulation of comprehensive regulations governing SPIs and
+ILS within GIFT IFSC.
+
+The WG believes that GIFT IFSC is uniquely positioned to emerge as a regional hub for
+catastrophe risk financing. As a unified financial regulator overseeing insurance, banking,
+capital markets and fund management within an international financial centre, IFSCA
+possesses institutional advantages that enable the seamless regulation of ILS across their
+
+                                                                                                                                   Page 9 of 41
+entire lifecycle. By combining internationally aligned regulation with a supportive market
+ecosystem, GIFT IFSC can attract global catastrophe risk capital, enhance India's financial
+resilience against natural disasters.
+The recommendations contained in this Report are intended to provide a robust, proportionate
+and internationally credible foundation for operationalising ILS in GIFT IFSC. Their
+implementation would not only integrate India into the global catastrophe risk financing market
+but also establish an enabling framework capable of supporting financial innovation while
+maintaining high standards of prudential supervision, investor confidence and policyholder
+protection.
+
+                                                                                                                                 Page 10 of 41
+1. Introduction
+
+1.1 Emergence of ILS
+
+The global insurance industry has historically relied upon a well-established risk transfer
+hierarchy; wherein primary insurers underwrite risks and transfer a portion of those risks to
+reinsurers to maintain financial stability and underwriting capacity. For several decades, this
+model adequately supported the insurance needs arising from natural catastrophes and other
+large-scale loss events.
+
+However, during the late twentieth century, the frequency and severity of catastrophic events
+increased significantly, exposing the limitations of the traditional reinsurance market. A series
+of major natural disasters including Hurricane Andrew (1992), the Northridge Earthquake
+(1994), Hurricane Katrina (2005), the Tōhoku Earthquake and Tsunami (2011), and more
+recent hurricanes, floods and wildfires, resulted in unprecedented insured losses amounting
+to several hundreds of billions of dollars. These events not only caused extensive economic
+disruption but also substantially depleted the capital base of global reinsurers.
+
+The experience of these events demonstrated that catastrophe risk possesses characteristics
+fundamentally different from conventional insurance risks. Catastrophic events are capable
+of generating highly concentrated losses affecting numerous policyholders simultaneously
+across wide geographical regions. Unlike ordinary insurance losses, catastrophe losses are
+infrequent but potentially enormous, making them difficult to diversify within the traditional
+insurance and reinsurance markets.
+
+At the same time, economic development, urbanisation, increasing concentration of insured
+assets and the growing effects of climate change have continued to expand global
+catastrophe exposure. Insured losses arising from tropical cyclones, earthquakes, floods,
+wildfires, severe convective storms and other natural perils have shown an increasing trend
+over the past three decades. In parallel, the industry has also witnessed the emergence of
+new forms of systemic risks, including cyber events, pandemics and infrastructure failures,
+which further strain conventional reinsurance capacity.
+
+These developments created sustained pressure on the global reinsurance industry. While
+reinsurers continue to play a central role in catastrophe risk management, their balance
+sheets are finite and subject to capital adequacy requirements. Following major catastrophe
+events, reinsurers often need to replenish capital, resulting in higher reinsurance prices,
+tighter underwriting conditions and reduced market capacity. The cyclical nature of the
+reinsurance market can, therefore, leave insurers exposed precisely when additional capacity
+is most needed.
+
+The search for new and sustainable sources of catastrophe risk-bearing capacity led to the
+development of ART mechanisms. Rather than relying solely on the balance sheets of
+insurers and reinsurers, ART sought to access the significantly larger pool of capital available
+in global financial markets. This marked the beginning of a fundamental shift in catastrophe
+
+                                                                                                                                 Page 11 of 41
+risk financing—from transferring risk exclusively within the insurance sector to sharing
+catastrophe risk with capital market investors.
+
+ILS emerged from this evolution as an innovative mechanism for transferring specified
+insurance risks directly to investors. Among the various forms of ILS, CAT Bonds have
+become the most widely used and internationally recognised instrument, enabling insurers
+and reinsurers to obtain multi-year risk protection while providing investors with access to
+returns that are generally uncorrelated with traditional financial market movements.
+
+Over the past three decades, the ILS market has evolved from a niche response to a
+reinsurance capacity crisis into a mature segment of the global financial system. Today, ILS
+are issued by insurers, reinsurers, governments, multilateral development banks and other
+risk-bearing entities across numerous jurisdictions, playing an increasingly important role in
+strengthening financial resilience against natural catastrophes.
+
+Despite this expansion, risk exposure embedded in outstanding ILS remains heavily
+concentrated in the United States and Europe, with only limited exceptions such as
+transactions covering Japanese earthquake and typhoon risk, New Zealand earthquake risk,
+and a small number of World Bank-backed sovereign CAT Bonds (including facilities for the
+Philippines and Pacific Alliance countries). Emerging-market and Asian perils, including
+Indian catastrophe risk, remain largely absent from the capital-markets risk-transfer universe.
+
+ILS help catastrophe-prone geographies by shifting extreme natural disaster risks away from
+local budgets and traditional insurers onto global capital markets. They provide fast, rules-
+based payouts that fund emergency response and recovery without draining public funds.
+
+Mexico and the Philippines serve as global models for how vulnerable countries can utilize
+catastrophe bonds and ILS to build fiscal resilience against natural disasters. Both countries
+rely on the World Bank to issue these bonds.
+
+In 2014, the World Bank arranged a US$30 million cat bond linked to hurricane and
+earthquake risks across 16 Caribbean countries through the Caribbean Catastrophe Risk
+Insurance Facility (CCRIF). The transaction enabled catastrophe risk to be transferred into
+the capital markets and broadened the capacity available to the region.
+
+In 2019, Aon’s Bermuda-domiciled White Rock Insurance (SAC) Ltd. issued approximately
+US$70 million of privately placed Asagao principal-at-risk notes covering Japanese
+earthquake risk. The transaction was structured using a parametric trigger and placed with
+qualified institutional investors, understood to include ILS funds.
+
+1.2 India's Catastrophe Risk Landscape and Insurance Protection Gap
+
+India is among the world's most disaster-prone countries owing to its diverse geography,
+climatic conditions and high concentration of population and economic assets. The country is
+exposed to a wide spectrum of natural hazards, including earthquakes, tropical cyclones,
+
+                                                                                                                                 Page 12 of 41
+floods, droughts, landslides, cloudbursts, avalanches, heatwaves and, increasingly, climate-
+induced extreme weather events. Rapid urbanisation, expanding infrastructure, industrial
+development and rising asset values have significantly increased the economic
+consequences of these hazards.
+
+India's geographical profile illustrates the magnitude of this exposure. Approximately 58% of
+the landmass lies in moderate to severe earthquake zones, around 12% is susceptible to
+flooding, nearly 5,700 kilometres of coastline is exposed to cyclones and storm surges, while
+large parts of the Himalayan region remain vulnerable to landslides and glacial lake outburst
+floods. Climate change is further amplifying the frequency and severity of extreme weather
+events, increasing both the probability and the financial impact of catastrophic losses.
+
+Over the past two decades, India has experienced several large-scale catastrophe events,
+including the 2001 Gujarat Earthquake, 2004 Indian Ocean Tsunami, 2008 Kosi Floods, 2013
+Uttarakhand Floods, 2018 Kerala Floods, Cyclones Fani, Amphan, Tauktae and Biparjoy, and
+recurring episodes of urban flooding in cities such as Mumbai, Chennai, Bengaluru and
+Hyderabad. These events have caused substantial human suffering, widespread destruction
+of property and infrastructure, and significant disruption to economic activity.
+
+Despite this high level of catastrophe exposure, insurance penetration against natural
+catastrophe risks in India remains relatively low. A substantial proportion of residential
+property, agricultural assets, small businesses and public infrastructure remains uninsured or
+underinsured. Consequently, the overwhelming majority of catastrophe losses are borne
+directly by individuals, businesses and governments rather than being transferred to the
+insurance sector.
+
+This disparity between total economic losses and insured losses is commonly referred to as
+the insurance protection gap. In many catastrophe events affecting India, insured losses
+represent only a small fraction of total economic losses, leaving governments to finance
+post-disaster reconstruction through budgetary allocations, relief funds, external
+borrowing or other fiscal measures. Such dependence on public finances can delay
+recovery efforts and increase fiscal pressures following major disasters.
+
+The protection gap also limits the ability of insurers to provide comprehensive catastrophe
+coverage. Given the potential accumulation of losses arising from a single catastrophic event,
+insurers rely heavily on reinsurance to manage their catastrophe exposures. However, the
+availability and cost of catastrophe reinsurance are influenced by global loss experience and
+market cycles. Following major international catastrophe events, reinsurance capacity often
+contracts and prices increase, affecting insurers worldwide irrespective of whether the losses
+originated in their domestic markets.
+
+As India's economy continues to expand and insured values increase, demand for
+catastrophe insurance is expected to grow significantly. This, in turn, will require greater
+access to stable and diversified sources of catastrophe risk capacity beyond conventional
+
+                                                                                                                                 Page 13 of 41
+reinsurance markets. While traditional reinsurance will continue to remain indispensable,
+complementary mechanisms capable of mobilising long-term capital from global investors can
+enhance the resilience of India's catastrophe risk financing framework.
+
+ILS offer one such mechanism. By transferring defined catastrophe risks directly to capital
+market investors, ILS can supplement conventional reinsurance capacity, diversify sources
+of risk capital and improve the financial resilience of insurers against extreme loss events.
+For India, the establishment of an enabling framework for ILS through the IFSC presents an
+opportunity not only to strengthen domestic catastrophe risk financing but also to position
+IFSC as a regional hub for insurance-linked capital market solutions.
+
+India's increasing catastrophe exposure, coupled with a significant insurance protection gap
+and dependence on conventional reinsurance, underscores the need for innovative
+catastrophe risk financing mechanisms. While global jurisdictions have successfully
+leveraged ILS to access diversified capital, India currently lacks an enabling framework for
+issuing ILS. The IFSC, with its internationally oriented regulatory architecture and integrated
+financial ecosystem, provides an ideal platform for developing such a market.
+
+Further, India's insurance market is expanding rapidly, with increasing regulatory focus on
+climate resilience and financial innovation. In such a ripe environment, IFSCA can play a
+crucial role in making India a hub for ILS, especially as climate risk intensifies and the global
+ILS market seeks geographic diversification. Realising this potential, however, requires
+strategic regulatory reforms, investment in catastrophe risk modelling capability, and strong
+collaboration between government, the private sector, and international ILS market
+participants.
+
+1.3 Benefits of ILS to Capital Markets
+
+ILS have created an important bridge between the insurance industry and the global capital
+markets. By allowing investors to assume clearly defined insurance risks in exchange for
+attractive returns, ILS have introduced a source of risk and return that is fundamentally
+different from traditional financial assets. Their significance therefore extends beyond
+providing additional capacity to insurers and reinsurers as they have contributed to the
+development of a distinct and increasingly institutionalised asset class within the capital
+markets.
+
+1.3.1 A Rare, Near-Uncorrelated Asset Class
+
+One of the most distinctive characteristics of catastrophe bonds is their low correlation with
+traditional financial markets. The return on a cat bond is principally driven by whether a
+specified catastrophe event such as a hurricane, earthquake or other natural peril, occurs and
+meets the predefined trigger conditions. It is therefore influenced by physical catastrophe risk
+
+                                                                                                                                 Page 14 of 41
+rather than by factors such as interest rates, equity valuations, corporate earnings or credit
+cycles.
+
+This makes ILS structurally different from most conventional asset classes. An investor
+holding equities, corporate bonds and government securities may find that these investments
+are simultaneously affected by changes in economic growth, monetary policy, inflation or
+financial-market sentiment. Cat bonds, by contrast, are linked primarily to the occurrence and
+severity of specified insurance events.
+
+The resulting low correlation makes ILS particularly valuable from a portfolio-construction
+perspective. For large institutional investors, even a relatively small allocation to an asset
+class with genuinely different risk drivers can improve the overall diversification of the
+portfolio.
+
+1.3.2 Potential for Better Risk-Adjusted Portfolio Outcomes
+
+The diversification benefits of ILS can translate into improved risk-adjusted portfolio
+outcomes. Cat bonds have historically been regarded as offering attractive returns relative to
+their volatility, while maintaining low correlation with traditional financial assets.
+
+This combination is particularly relevant for institutional investors such as pension funds,
+sovereign wealth funds, endowments and asset managers, which manage large and
+diversified portfolios and are constantly seeking sources of return that do not simply replicate
+the risks already present in their portfolios.
+
+The appeal of ILS is therefore not merely that they may generate attractive absolute returns.
+Their greater significance lies in the possibility of adding return without proportionately adding
+exposure to conventional market risks. In portfolio terms, ILS can occupy a role similar to that
+of other alternative investments, while providing exposure to an underlying risk i.e. natural
+catastrophe risk, that is largely independent of the economic and financial cycle.
+
+1.3.3 A Widening and Deepening Investor Base
+
+ILS have also expanded the range of investors able to participate in insurance risk.
+Traditionally, the capacity to assume catastrophe risk was concentrated largely within the
+balance sheets of insurers and reinsurers. Capital markets have opened this risk to a much
+broader pool of institutional capital.
+
+Specialist ILS funds, asset managers and other institutional investors can invest in
+catastrophe bonds and related structures, thereby bringing capital into the insurance
+ecosystem from sources that previously had limited or no direct access to insurance risk.
+
+This widening investor base is important for two reasons. First, it increases the amount of
+capital available to absorb catastrophe losses. Second, it creates greater competition among
+
+                                                                                                                                 Page 15 of 41
+different sources of risk-bearing capital. Insurance risk is consequently no longer dependent
+exclusively on the capacity and risk appetite of traditional reinsurance markets.
+
+Over time, this has helped ILS evolve from a niche financial innovation into an increasingly
+established component of the institutional investment landscape.
+
+1.3.4 Expanding and Completing the Market
+
+Perhaps the most important structural contribution of ILS is that they connect two markets
+that historically operated largely separately: the insurance market and the capital markets.
+
+Under the traditional reinsurance model, catastrophe risk is principally transferred among
+insurers and reinsurers and ultimately remains concentrated on the balance sheets of
+specialised risk-bearing institutions. ILS provide an alternative channel through which specific
+insurance risks can be transferred directly to capital-market investors.
+
+A catastrophe bond, for example, may transfer the risk of a defined hurricane or earthquake
+event from a sponsor such as an insurer or reinsurer to investors. In return for assuming that
+risk, investors receive a premium or coupon, subject to the terms of the transaction. If the
+specified catastrophe does not occur, investors receive the contracted return; if the predefined
+trigger is breached, some or all of the invested principal may be used to meet the sponsor's
+catastrophe-related losses.
+
+This mechanism effectively transforms insurance risk into an investable financial instrument.
+Because catastrophe bonds can be held, traded and managed by capital-market participants,
+they also create an ongoing channel for the transfer of risk between the insurance sector and
+the wider financial system.
+
+ILS therefore represent more than an alternative method of financing insurance risk. They
+have changed the architecture of risk transfer by allowing insurance and reinsurance risks to
+interact directly with global capital markets.
+
+For capital markets, their value lies in the combination of diversification, additional risk-
+bearing capacity and the creation of a new investable asset class. For the insurance industry,
+they provide access to a significantly larger pool of capital than could be mobilised through
+traditional reinsurance alone.
+
+In this sense, ILS can be viewed as a mechanism for recycling global capital into catastrophe-
+risk-bearing capacity—bringing insurance risk into the portfolios of investors while bringing
+capital-market capacity into the insurance ecosystem.
+
+This report examines these dimensions to set out how IFSCA can enable an ILS ecosystem
+from GIFT-IFSC.
+
+                                                                                                                                 Page 16 of 41
+1.4 IFSCA's Initiative on ILS – Formation of Working Group
+
+Recognising the growing importance of alternative sources of catastrophe risk capital and the
+strategic opportunity for the IFSC to emerge as a global insurance hub, the IFSCA initiated a
+detailed examination of the feasibility of introducing an ILS framework in IFSC.
+
+With this objective, IFSCA constituted a WG on ART in February 2024 under the
+chairmanship of Shri G. Srinivasan, former Chairman-cum-Managing Director of New India
+Assurance Company Limited. It was entrusted with undertaking a comprehensive study of the
+global ART landscape, including the evolution of ILS. Its mandate included an examination of
+regulatory frameworks adopted in leading international financial centres such as Bermuda,
+Singapore, Hong Kong, the United Kingdom and the European Union, and a preliminary
+assessment of the idea of operationalising similar arrangements from GIFT IFSC. The WG
+submitted its report to the Chairperson of IFSCA in June 2025.
+
+The WG observed that ILS represent a distinct category of financial products that cannot
+be adequately accommodated within the traditional regulatory frameworks governing either
+insurance or securities markets. Unlike conventional insurance or reinsurance arrangements,
+where insurance risks remain within the insurance sector, ILS transactions transfer defined
+insurance risks directly to capital market investors through specialised financial instruments.
+Consequently, an ILS transaction combines characteristics of both insurance contracts and
+capital market issuances, requiring a regulatory approach that appropriately addresses both
+dimensions.
+
+The report highlighted that from an insurance perspective, the originating transaction involves
+the assumption of insurance or reinsurance risk from a sponsoring insurer or
+reinsurer. However, from a capital markets perspective, the principal purpose of the structure
+is to transform that insurance risk into an investment product that can be subscribed by
+institutional investors. This dual character distinguishes ILS from conventional insurance
+products, reinsurance arrangements and ordinary debt securities, necessitating a bespoke
+regulatory framework rather than attempting to fit ILS within existing regulatory categories.
+
+The WG further recognised that the establishment of an ILS framework would complement
+IFSCA’s broader objective of developing a comprehensive international insurance
+ecosystem within IFSC. By enabling insurers and reinsurers to access global institutional
+capital, an ILS framework would diversify sources of catastrophe risk capacity, enhance
+market resilience, deepen the interaction between insurance and capital markets, and
+strengthen IFSC's competitiveness as an international financial centre.
+
+Accordingly, the WG recommended the formulation of a dedicated regulatory framework
+for ILS that would facilitate efficient issuance of CAT Bonds and other ART instruments while
+maintaining appropriate standards of investor protection, prudential oversight and market
+integrity. The report envisaged a regulatory framework characterised by streamlined
+authorisation procedures, proportionate regulatory requirements, clear disclosure standards
+and robust governance arrangements, while ensuring that participation on the investor side
+
+                                                                                                                                 Page 17 of 41
+remained restricted to sophisticated and Qualified Investors capable of understanding the
+specialised risks associated with ILS instruments.
+
+A significant recommendation of the WG was the introduction of a new class of
+insurance entity, namely the SPI, within the regulatory framework administered by IFSCA.
+The proposed SPI would function exclusively as a bankruptcy-remote risk transformation
+vehicle, assuming specified insurance or reinsurance risks from a sponsoring insurer or
+reinsurer under a legally enforceable risk transfer agreement and fully collateralising those
+risks through the issuance of ILS to investors.
+
+1.5 WG for Developing Framework on issuance of ILS
+
+The recommendations of the first WG established the policy rationale for introducing an ILS
+framework in GIFT IFSC and identified the broad contours of the regulatory architecture
+required to support ILS. However, the implementation of such a framework necessitated a far
+more detailed examination of the legal, regulatory and operational mechanisms governing the
+issuance, supervision and lifecycle of ILS transactions.
+
+Unlike conventional insurance or reinsurance business, ILS involve specialised structures
+that combine insurance risk transfer with capital market financing. In addition, a successful
+ILS ecosystem depends not only upon an enabling regulatory framework but also upon the
+availability of specialised market infrastructure, including catastrophe risk modelling firms,
+collateral managers, trustees, legal advisers, calculation agents and other professional
+service providers.
+
+Recognising that these matters required focused technical analysis and stakeholder
+consultation, IFSCA constituted another WG in October 2025 to develop a comprehensive
+framework for the issuance of ILS from GIFT IFSC.
+
+Unlike the first WG, whose primary focus was on examining the feasibility of introducing ART
+mechanisms, the mandate of latter WG was implementation-oriented. The WG was tasked
+with developing a practical regulatory framework capable of supporting the issuance,
+operation and supervision of ILS within the existing institutional architecture of IFSC.
+
+Specifically, the terms of reference of WG included:
+
+    a) identifying the legal and regulatory requirements necessary to facilitate ART
+         arrangements from GIFT IFSC;
+
+    b) developing an enabling framework for the establishment, authorisation and supervision
+         of SPIs for the issuance of ILS;
+
+                                                                                                                                 Page 18 of 41
+    c) proposing measures for developing the supporting ILS ecosystem within IFSC,
+         including catastrophe modelling agencies, SPV managers, trustees, collateral
+         managers, legal specialists, calculation agents and other specialised market
+         participants;
+
+    d) formulating guiding principles governing the structuring, underwriting, issuance and
+         ongoing supervision of ILS;
+
+    e) examining the feasibility of undertaking a pilot reinsurance sidecar transaction through
+         GIFT IFSC as an initial proof of concept for ART arrangements; and
+
+    f) considering any other legal, regulatory or operational matter incidental or
+         consequential to the development of an internationally competitive ILS framework.
+
+In carrying out its mandate, the WG adopted a comparative and principles-based approach.
+The WG reviewed regulatory frameworks in established ILS jurisdictions, examined
+prevailing international market practices and assessed the compatibility of these practices
+with the legal and regulatory architecture governing IFSC. Particular emphasis was placed on
+identifying regulatory gaps that could impede the efficient issuance and operation of ILS
+while ensuring that any proposed framework remained proportionate, internationally
+competitive and consistent with IFSCA’s statutory objectives.
+
+Over the course of multiple meetings, the WG deliberated on a broad range of legal,
+prudential, operational and market-development issues relating to the establishment of an
+ILS regime. These deliberations culminated in a set of recommendations addressing the
+regulatory design of SPIs, governance requirements, collateral arrangements, investor
+eligibility, disclosure standards, risk transfer mechanisms and the institutional infrastructure
+necessary to support a sustainable ILS market in IFSC.
+
+This report sets out the findings and recommendations of the WG. It begins with a
+comparative analysis of leading international ILS jurisdictions, examining how different
+regulatory models have evolved to facilitate ILS while safeguarding financial stability and
+investor confidence. Drawing upon these international experiences, the report subsequently
+develops a proposed regulatory framework for the operationalisation of ILS from GIFT IFSC.
+
+The subsequent chapters examine the international evolution of ILS, analyse the regulatory
+approaches adopted by leading ILS jurisdictions, identify the essential building blocks of a
+successful ILS ecosystem and develop a comprehensive regulatory framework for the
+issuance of ILS from GIFT IFSC. The recommendations are intended to facilitate the
+development of a robust, internationally competitive and prudentially sound ILS market
+capable of serving both domestic and international risk transfer needs.
+
+                                                                                                                                 Page 19 of 41
+2. Study of Legal and Regulatory Framework in International Markets
+
+2.1 Evolution of ILS in International Markets
+
+The first CAT Bonds issued during the mid-1990s were largely structured through bespoke
+legal arrangements because no jurisdiction had enacted legislation specifically addressing
+ILS. As market confidence grew and transaction volumes increased, several international
+financial centres recognised the strategic opportunity to position themselves as preferred
+domiciles for ILS issuances. Rather than requiring these transactions to operate within
+regulatory frameworks designed for conventional insurers, these jurisdictions introduced
+dedicated legal and regulatory regimes tailored to the unique characteristics of fully
+collateralised risk-transfer vehicles.
+
+The evolution of ILS regulation has generally followed a common pattern across jurisdictions.
+Initially, catastrophe bond transactions were facilitated using existing corporate and trust law
+structures with case-by-case regulatory approvals. As the market matured, regulators
+introduced specialised legal entities—commonly referred to as SPIs SPI, Special Purpose
+Reinsurers (SPRs) or Insurance Special Purpose Vehicles (ISPVs)—supported by dedicated
+licensing, governance and supervisory requirements. These frameworks recognised that ILS
+issuers do not engage in conventional underwriting or assume diversified insurance portfolios;
+instead, they operate as fully funded, bankruptcy-remote vehicles established solely to
+transform insurance risks into investment securities.
+
+Over time, regulatory frameworks evolved beyond merely authorising special purpose
+vehicles. Leading jurisdictions introduced measures to streamline approval processes,
+reduce unnecessary regulatory burdens, clarify collateral requirements, establish governance
+standards, define investor eligibility and facilitate efficient issuance of ILS. Several
+jurisdictions also introduced fiscal incentives, expedited authorisation procedures and
+specialised service-provider ecosystems to enhance their competitiveness as international
+ILS centres.
+
+As a result, the global ILS market has become concentrated in a relatively small number of
+jurisdictions possessing mature legal systems, internationally recognised financial centres
+and regulatory frameworks specifically designed for insurance risk securitisation.
+
+Among these, Bermuda has emerged as the world's leading domicile for ILS, owing to its
+long-standing expertise in reinsurance and risk transformation. Singapore and Hong Kong
+have developed dedicated ILS frameworks to establish themselves as regional centres for
+catastrophe risk financing in Asia, supported by government grant schemes and streamlined
+regulatory approval processes.
+
+The United Kingdom introduced a comprehensive framework for Insurance SPVs to reinforce
+London's position as a global insurance and capital markets centre. In the United States,
+although ILS are generally issued through offshore domiciles such as Bermuda or the
+
+                                                                                                                                 Page 20 of 41
+Cayman Islands, the regulatory guidance developed by the National Association of Insurance
+Commissioners (NAIC) has played a significant role in establishing principles governing
+insurer participation in SPRVs and other structured risk transfer arrangements.
+
+Despite differences in legal systems and regulatory architecture, these jurisdictions exhibit
+several common features. Each has recognised the need for a dedicated regulatory
+framework separate from conventional insurance regulation; each permits the establishment
+of specialised risk transformation vehicles operating on a fully collateralised basis; each limits
+participation to sophisticated market participants; and each seeks to balance innovation with
+robust prudential safeguards, transparency and investor protection.
+
+The experiences of these jurisdictions provide valuable guidance for developing an enabling
+framework for ILS in the IFSC. While no single model can be transplanted in its entirety, the
+common regulatory principles that have emerged across these markets offer useful insights
+into the design of a proportionate, internationally competitive and prudentially sound ILS
+framework for IFSC.
+
+Further, it is found that in all major jurisdictions, ILS are issued through SPIs or vehicles that
+are not subject to the traditional minimum capital requirements applicable to conventional
+commercial insurers — a distinction that reflects the nature of the risk assumed, the limited
+recourse available to counterparties, and the bankruptcy-remote structuring of the vehicle.
+However, the SPI/SPV in every case must follow a fully funded or fully collateralised model,
+under which capital is pre-funded in the form of collateral rather than held as an ongoing
+regulatory buffer.
+
+The comparison of minimum capital / funding requirements followed by five leading
+jurisdictions for SPIs, SPRVs and ISPVs are set out below –
+
+S. Jurisdiction  / Capital             Special / Distinguishing
+
+No. Regulator / Framework Requirement  Requirements
+
+1 Bermuda        Monetary No      traditional Fully funded model; assets must
+
+Authority (BMA)          minimum paid-up exceed liabilities by at least US$1
+
+                         capital       (full collateralisation of each
+
+Guidance Note – Special                transaction).
+
+Purpose Insurers (July
+
+2020)                                  BMA introduced a dedicated
+
+                                       "Parametric Special Purpose
+
+                                       Insurer (PSPI)" class (Feb 2026) to
+
+                                       facilitate parametric ILS business
+
+                                       calibrated to index/parametric
+
+                                       triggers rather than actual loss
+
+                                       adjustment.
+
+                                                      Page 21 of 41
+2 Hong Kong                  No       minimum 100% collateralisation (fully
+
+Insurance Authority          capital or solvency funded) requirement.
+
+                             requirement
+
+Insurance         (Special                A dedicated Special Purpose
+
+Purpose          Business)                Business (SPB) authorisation track
+
+Rules, 2021                               under Section 8A of the Insurance
+
+                                          Ordinance, separate from
+
+                                          conventional long-term insurer
+
+                                          licensing.
+
+3 Singapore                  No fixed minimum Fully funded / fully collateralised
+
+Monetary Authority of capital             structure; SPRV licensing (not a full
+
+Singapore (MAS)              requirement  insurer licence).
+
+Special           Purpose                 Distinguished further by the MAS
+
+Reinsurance Vehicle                       ILS Grant Scheme, which has been
+
+(SPRV)           framework,               repeatedly extended (including
+
+Insurance Act                             through 2025/2026) to defray
+
+                                          upfront ILS issuance costs in
+
+                                          Singapore.
+
+4 United Kingdom             No fixed minimum Fully funded requirement; SPV
+
+PRA / FCA                    capital      assets must at all times equal or
+
+Risk Transformation                       exceed the Aggregate Maximum
+
+Regulations, 2017; PRA                    Risk Exposure (AMRE).
+
+Rulebook;         s.284A,
+
+FSMA 2000                                 Investor repayment rights are
+
+                                          contractually subordinated to the
+
+                                          cedant's covered obligations, and
+
+                                          the cedant has first right to
+
+                                          collateral on a trigger event.
+
+5 United States              Nominal minimum Limited-purpose vehicle created
+
+NAIC Model Laws              initial capital of solely to transact insurance
+
+Special           Purpose US$5,000        securitisation with investors; no
+
+Reinsurance Vehicle                       other provisions of state insurance
+
+(SPRV) Model Act                          law apply to a duly organised
+
+                                          SPRV.
+
+                                          Intended to broaden U.S. insurers'
+                                          access to capital-market risk-
+                                          bearing capacity on reasonable
+                                          terms.
+
+Sources: BMA Guidance Note – Special Purpose Insurers (July 2020) and Parametric SPI
+class (Feb 2026); Hong Kong Insurance (Special Purpose Business) Rules, 2021 and
+Insurance (Amendment) Ordinance, 2020; MAS Insurance Act (SPRV framework) and ILS
+
+                                                                                                                                 Page 22 of 41
+Grant Scheme; UK Risk Transformation Regulations, 2017, PRA Rulebook and FSMA 2000
+(s.284A, Art.13A RAO 2001); NAIC Special Purpose Reinsurance Vehicle Model Act.
+
+Thus, no jurisdiction among the major ILS markets reviewed — the UK, Bermuda, Hong Kong,
+Singapore or the United States — prescribes a fixed, meaningful minimum capital
+requirement for SPIs or reinsurance vehicles. Instead, each substitutes hundred-percent
+collateralisation, or a fully funded requirement, for the traditional capital regime.
+
+The regulatory philosophy in each case has shifted from "capital buffers" (appropriate for a
+traditional, going-concern insurer) to "matched funding" (appropriate for a bankruptcy-remote
+SPI transacting a single, defined risk).
+
+Beyond capital treatment, several jurisdictions layer additional market-development
+measures onto their SPI frameworks. Singapore's MAS, for instance, differentiates its regime
+not only through the absence of a fixed capital requirement, but through the ILS Grant
+Scheme. Bermuda's addition of a dedicated "Parametric SPI " class in February 2026 similarly
+illustrates how mature ILS hubs continue to refine their vehicle taxonomy to keep pace with
+product innovation, such as the growing use of parametric triggers for climate and catastrophe
+risks.
+
+3. International Supervisory Standards – IAIS Insurance Core Principles and
+       Supervisory Expectations for ILS
+
+While individual jurisdictions have adopted different legislative and institutional approaches
+for regulating ILS, their supervisory frameworks are underpinned by internationally accepted
+principles developed by the International Association of Insurance Supervisors (IAIS).
+
+The IAIS serves as the global standard-setting body for insurance supervision and develops
+internationally recognised standards intended to promote effective and globally consistent
+regulation of insurance markets. Although the IAIS has not issued a standalone Insurance
+Core Principle dedicated exclusively to ILS, the regulatory treatment of SPIs and ILS is
+addressed through several Insurance Core Principles (ICPs), most notably ICP 13
+(Reinsurance and Other Forms of Risk Transfer), read together with the broader prudential,
+governance and solvency principles contained elsewhere in the IAIS framework.
+
+The IAIS recognises that the transfer of insurance risks through capital market instruments
+constitutes a legitimate form of risk transfer alongside conventional reinsurance.
+Consequently, supervisory expectations applicable to reinsurance arrangements extend
+equally to ILS where insurance risks are transferred to investors through SPVs, SPRVs, SPIs
+(collectively referred to as special purpose entities (SPEs) in the ICP).
+
+The IAIS framework does not prescribe a single legal model for regulating SPEs. Rather, it
+adopts a principles-based and outcomes-focused approach, recognising that jurisdictions
+may implement different legal structures provided they achieve the fundamental supervisory
+
+                                                                                                                                 Page 23 of 41
+objectives of effective risk transfer, policyholder protection, financial stability and market
+integrity.
+
+ICP 13 expressly recognises that insurers may transfer risks not only through traditional
+reinsurance contracts but also through other forms of risk transfer, including arrangements
+that transfer insurance risks to the capital markets. Accordingly, the supervisory principles
+applicable to reinsurance are intended to extend to ILS.
+
+Under ICP 13, supervisors are expected to ensure that insurers maintain appropriate policies
+governing their use of reinsurance and other forms of risk transfer and that such
+arrangements effectively support prudent risk management rather than merely improving
+regulatory capital positions.
+
+Importantly, ICP 13 recognises that SPEs conduct insurance business, since they assume
+insurance or reinsurance risks under legally enforceable contracts. Consequently,
+supervisors should consider licensing and supervising SPEs as insurance entities. At the
+same time, the IAIS acknowledges that SPEs differ fundamentally from conventional insurers
+because they operate as transaction-specific, fully collateralised entities that do not engage
+in ongoing underwriting activities.
+
+The IAIS therefore supports a proportionate supervisory approach, under which regulatory
+requirements applicable to SPEs are calibrated according to the limited nature, scale and
+complexity of their activities rather than automatically applying the full prudential regime
+designed for traditional insurers.
+
+CAT Bonds are typically issued only to institutional or qualified investors capable of
+understanding the specialised risks associated with structured catastrophe risk transfer.
+
+4. Notification of Special Purpose Insurer (SPI) under the Insurance Act, 1938
+
+4.1 Introduction
+
+The successful introduction of an ILS framework in India requires not only an appropriate
+regulatory architecture but also a legal framework that accommodates the unique
+characteristics of SPIs. While the regulatory models adopted by Bermuda, Singapore, Hong
+Kong and the United Kingdom differ in institutional design, they all recognise a common
+principle: fully collateralised SPIs are fundamentally different from conventional insurance
+companies and therefore warrant a distinct prudential regime.
+
+The Insurance Act, 1938, however, was enacted to regulate insurers operating as going
+concerns that continuously underwrite insurance risks over an indefinite period. The
+prudential framework embodied in the Act—including minimum paid-up capital, solvency
+margins and ongoing capital maintenance—is designed for insurers maintaining diversified
+portfolios of insurance business and assuming long-term underwriting and operational risks.
+
+                                                                                                                                 Page 24 of 41
+An ILS SPI operates on an entirely different business model. It is established solely for the
+purpose of assuming one or more clearly identified insurance or reinsurance risks under a
+specified transaction. Its obligations are fully funded in advance through investor
+contributions, secured by ring-fenced collateral and extinguished upon completion of the
+transaction. It neither solicits insurance business from the public nor maintains an ongoing
+underwriting portfolio.
+
+These structural differences raise an important legal question: Should a fully collateralised
+SPI be subject to the same statutory capital requirements applicable to conventional insurers?
+
+This Report examines this question and presents the rationale for introducing a targeted
+statutory carve-out under the Insurance Act, 1938 in the IFSC Jurisdiction The amendment
+to the Insurance Act - the SBSR Act also assists in moving towards the enablement of
+establishing a new line of “Insurance Business”. This is discussed in greater detail in the
+report.
+
+4.2 Existing Capital Framework
+
+The Insurance Act, 1938 requires every insurer carrying on insurance business in India to
+maintain minimum paid-up equity capital. At present, the Act prescribes:
+
+             a) ₹100 crore for life insurers;
+             b) ₹100 crore for general insurers;
+             c) ₹100 crore for health insurers; and
+             d) ₹200 crore for reinsurers.
+
+The legislative purpose of these requirements is to ensure that insurers possess a permanent
+capital base capable of absorbing unexpected losses arising from underwriting activities,
+operational failures, investment volatility and other business risks throughout the life of the
+institution.
+
+Paid-up equity capital serves several prudential objectives:
+
+    a) providing an initial financial cushion before policyholder liabilities arise;
+    b) absorbing unexpected losses not anticipated in pricing;
+    c) supporting business growth;
+    d) demonstrating long-term financial commitment by shareholders;
+    e) protecting policyholders against insurer insolvency; and
+    f) promoting confidence in the insurance sector.
+
+                                                                                                                                 Page 25 of 41
+The capital requirement therefore reflects the assumption that insurers will continue writing
+new business, renewing policies and managing evolving risk portfolios over an indefinite
+period.
+
+4.3 Limitation of the Conventional Capital Model
+
+The prudential assumptions underpinning the Insurance Act differ fundamentally from the
+operating model of an ILS SPI. Unlike conventional insurers, an SPI:
+
+    a) undertakes only a predefined risk transfer transaction;
+    b) does not continuously write insurance business;
+    c) generally, has a limited operational lifespan;
+    d) assumes only specified risks under a single or limited number of contracts;
+    e) does not accumulate underwriting exposures over time;
+    f) does not depend upon future premium income to meet liabilities; and
+    g) funds all contractual obligations before assuming risk.
+
+Most importantly, the SPI’s liabilities are fully collateralised from inception. Investor proceeds
+are deposited into protected collateral accounts before the reinsurance agreement becomes
+effective. Those assets remain legally ring-fenced and may only be used to satisfy obligations
+arising under the specific risk-transfer transaction. Consequently, the financial resources
+available to meet claims are not dependent upon shareholder capital, future earnings or
+continued business operations. The insurer receives security through pre-funded collateral,
+not through reliance upon the continuing solvency of the SPI.
+
+4.4 Full Collateralisation as an Alternative Prudential Model
+
+The defining characteristic of an ILS transaction is full collateralisation. Rather than
+maintaining shareholder equity capable of absorbing uncertain future losses, the SPI
+maintains collateral equal to its maximum contractual exposure. The prudential philosophy
+therefore differs fundamentally.
+
+Traditional insurance regulation asks: Does the insurer possess sufficient capital to meet
+uncertain future obligations arising from an evolving insurance portfolio?
+
+The ILS framework instead asks: Have all contractual obligations already been fully funded
+through protected collateral before risk is assumed?
+
+Under the traditional insurance model:
+
+a) liabilities emerge gradually;
+b) future claims remain uncertain;
+c) premiums are received over time;
+
+                                        Page 26 of 41
+             d) shareholder capital absorbs adverse deviations.
+Under an SPI:
+
+    a) liabilities are contractually limited;
+    b) maximum exposure is known at inception;
+    c) collateral is fully funded before risk attachment;
+    d) investors bear the catastrophe risk.
+Accordingly, collateral functions as the primary prudential safeguard rather than shareholder
+equity. In many respects, a fully collateralised SPI offers greater certainty of claims payment
+than an insurer relying upon future solvency.
+4.5 International Regulatory Practice
+International regulatory practice consistently recognises this distinction. The jurisdictions
+examined in the preceding chapter have each concluded that conventional minimum capital
+requirements are not appropriate for fully collateralised SPIs.
+Although their legislative mechanisms differ, they share common principles:
+   a) recognition of SPIs as distinct regulated entities;
+   b) substitution of full collateralisation for traditional solvency capital;
+   c) bankruptcy-remote legal structures;
+   d) ring-fenced collateral;
+   e) transaction-specific authorisation;
+   f) limited business scope; and
+   g) proportionate prudential supervision.
+
+                                                                                                                                 Page 27 of 41
+For example:
+
+    a) Bermuda authorises SPIs under a dedicated regulatory class and relies upon full
+         collateralisation rather than conventional insurer capital.
+
+    b) Singapore regulates Insurance Special Purpose Vehicles through a separate
+         framework that recognises fully funded obligations as the primary prudential
+         safeguard.
+
+    c) Hong Kong similarly authorises SPIs subject to complete collateralisation and
+         restricted business activities.
+
+    d) The United Kingdom, through the Risk Transformation Regulations, expressly
+         distinguishes Insurance Special Purpose Vehicles from conventional insurers and
+         subjects them to a dedicated prudential regime.
+
+The consistency of these approaches demonstrates an emerging international supervisory
+consensus that fully collateralised SPIs require a regulatory framework distinct from that
+applicable to traditional insurers.
+
+4.6 Need for a Statutory Carve-Out
+
+Although IFSCA possesses broad regulatory powers within the IFSCs, those powers operate
+within the statutory framework established by the Insurance Act, 1938. The requirement for
+minimum paid-up equity capital is prescribed directly by statute. Consequently, regulatory
+rules alone cannot substitute full collateralisation for statutory paid-up capital unless the
+enabling legislation expressly permits such substitution.
+
+From a legal perspective, therefore, introducing an ILS framework requires statutory
+recognition that fully collateralised SPIs constitute a distinct category of regulated insurance
+entity. Such recognition would provide:
+
+             a) legal certainty for sponsors and investors;
+             b) consistency with international practice;
+             c) reduced regulatory ambiguity;
+             d) greater investor confidence; and
+             e) enhanced enforceability of supervisory requirements.
+
+Absent such statutory recognition, the validity of an SPI authorised without the prescribed
+paid-up capital could be open to legal challenge.
+
+4.7 Policy Rationale for a Carve-Out
+
+A statutory carve-out is supported by several important policy considerations.
+
+                                                                                                                                 Page 28 of 41
+    1. The insurer’s exposure is fully pre-funded through collateral before risk attachment.
+         Unlike conventional insurers, there is no reliance upon future shareholder support or
+         retained earnings.
+
+    2. The business scope of an SPI is extremely limited. It does not undertake retail
+         insurance, solicit new policyholders or accumulate diversified underwriting exposures.
+
+    3. Investor-funded collateral is legally segregated from the sponsor and remains available
+         exclusively for payment of claims.
+
+    4. Investors—not policyholders—ultimately bear the catastrophe risk associated with the
+         transaction. Investors knowingly assume that risk in return for a contractual investment
+         return.
+
+    5. SPIs generally exist only for the duration of the underlying transaction, after which they
+         are wound up. The long-term prudential concerns applicable to going-concern insurers
+         therefore arise to a much lesser extent.
+
+Collectively, these characteristics justify replacing traditional minimum capital requirements
+with a prudential framework centred upon:
+
+     a) 100% collateralisation;
+     b) bankruptcy remoteness;
+     c) ring-fencing of assets;
+     d) restricted business activities;
+     e) robust governance;
+     f) regulatory oversight; and
+     g) comprehensive disclosure.
+
+This substitution does not weaken prudential supervision. Rather, it reflects a different—and
+in many respects stronger—mechanism for securing policyholder protection.
+
+4.8 Proposed Regulatory Framework for SPIs in IFSC
+
+The review of international regulatory frameworks demonstrates a broad convergence in the
+manner in which leading jurisdictions regulate ILS. While the legislative mechanisms adopted
+by Bermuda, Singapore, Hong Kong and the United Kingdom differ in their institutional design,
+they are underpinned by a common regulatory philosophy: SPIs are fundamentally different
+from conventional insurance companies and therefore require a dedicated, proportionate and
+transaction-specific regulatory framework.
+
+                                                                                                                                 Page 29 of 41
+Accordingly, the regulatory framework to be developed by IFSCA should be guided by
+internationally accepted supervisory principles while remaining sufficiently flexible to
+accommodate future developments in the ILS market.
+
+At the outset, the framework should recognise ILS as a distinct form of insurance risk transfer
+and establish a separate regulatory regime for entities undertaking such activities. Rather
+than treating SPIs as conventional insurers, the framework should acknowledge their unique
+characteristics, including their limited business scope, transaction-specific nature, full
+collateralisation and bankruptcy-remote structure. The regulatory framework should,
+therefore, be based on the economic substance of these entities rather than their legal form.
+
+The regulatory framework should adopt the principle of proportionate regulation, under which
+supervisory requirements are calibrated according to the nature, scale and complexity of the
+risks undertaken by the SPI.
+
+The framework should clearly define the permissible scope of activities of an SPI and their
+purpose should remain limited to assuming defined insurance or reinsurance risks, issuing
+ILS or entering into other approved funding arrangements, holding collateral, and
+administering the approved transaction throughout its lifecycle.
+
+A central pillar of the regulatory framework should be the requirement that all obligations
+assumed by an SPI remain fully funded throughout the duration of the transaction. The
+framework should prescribe appropriate standards governing the eligibility, valuation,
+investment, custody and ongoing maintenance of collateral, ensuring that collateral assets
+remain sufficient to meet the maximum contractual obligations of the SPI. Such assets should
+remain legally segregated from the sponsor, investors and other counterparties and should
+be protected against insolvency through appropriate trust or equivalent legal arrangements.
+
+The regulatory framework should further ensure that every ILS transaction achieves genuine
+transfer of insurance risk. Supervisory assessment should therefore extend beyond legal
+documentation to the underlying economic substance of the transaction. Appropriate
+contractual safeguards including limited recourse provisions, bankruptcy-remoteness,
+enforceable collateral arrangements and clearly defined trigger mechanisms should form
+essential components of the regulatory architecture.
+
+Governance requirements should reflect the limited nature of SPI operations while ensuring
+adequate oversight and accountability. Every SPI should maintain fit and proper
+management, appropriate internal controls, sound operational arrangements and effective
+risk management systems proportionate to its activities. The framework may also recognise
+the role of specialised service providers, including administrators, trustees, collateral
+managers, calculation agents and other transaction participants.
+
+Recognising that ILS are sophisticated financial instruments intended primarily for institutional
+market participants, the framework should establish appropriate safeguards governing
+
+                                                                                                                                 Page 30 of 41
+investor eligibility and disclosure. Participation should ordinarily be restricted to qualified or
+professional investors possessing the necessary financial capacity and expertise to evaluate
+catastrophe risk. Comprehensive disclosure regarding transaction structure, trigger
+methodology, collateral arrangements, investment risks and payment priorities should
+accompany every issuance to ensure transparency and informed investment decisions.
+
+4.8.1 ILS Ecosystem Players
+
+The framework should also recognise that ILS operate within a broader financial ecosystem.
+Accordingly, the development of specialist capabilities in catastrophe risk modelling, actuarial
+analysis, SPV administration, trustee services, collateral management, legal advisory
+services, accounting, and independent verification should complement the regulatory
+framework.
+
+Ecosystem         Role & Contribution
+Player
+Sponsor / Cedant  Transfers defined insurance/catastrophe risks to the ILS market. Gains
+                  additional risk-bearing capacity beyond traditional reinsurance.
+ILS Fund /        Provides capital by investing in ILS instruments and assumes defined
+                  insurance risks. Earns returns linked primarily to the underlying
+Institutional     insurance risk.
+                  Legally isolates and holds the transaction assets and collateral. Issues
+Investor          securities/notes to investors and provides protection to the sponsor.
+                  Designs and structures the ILS transaction and coordinates its
+Special Purpose   execution. Helps translate insurance risk into an investable capital-
+                  markets instrument.
+Vehicle (SPV)     Identifies, evaluates and manages ILS investments on behalf of
+                  investors. Diversifies exposures and manages portfolio-level
+Structuring Bank  catastrophe risk.
+                  Connects sponsors with reinsurers and ILS investors and facilitates
+/     Investment  transaction negotiations. Provides market intelligence, pricing and
+                  structuring support.
+Bank              An insurance manager is an independent licensed professional firm
+                  that handles day-to-day administration, underwriting, accounting, and
+ILS Manager /     regulatory compliance for the SPI vehicle. They also typically act as
+                  the local principal representative or general representative to the
+Investment        regulatory authority for SPI/SPV
+                  Develops the legal documentation and ensures the transaction
+Manager           complies with relevant laws and regulations. Establishes the
+                  contractual rights and obligations of all parties.
+Reinsurance /     Models the probability and financial impact of catastrophe events.
+                  Provides loss estimates that underpin pricing, attachment points and
+ILS Broker        risk assessment.
+
+Insurance
+Manager
+
+Legal Counsel
+
+Catastrophe
+Modelling
+Agency
+
+                  Page 31 of 41
+Independent          Determines whether the contractual trigger has been met and
+                     calculates amounts payable. Provides an independent mechanism for
+Calculation          determining investor or sponsor payouts.
+                     Performs additional risk analysis, scenario testing and portfolio
+Agent                analytics. Helps investors and sponsors understand and manage
+                     catastrophe exposures.
+Risk Modelling /     Holds security and protects the interests of investors or beneficiaries.
+                     Ensures that transaction assets are administered according to the
+Analytics            contractual framework.
+                     Invests and manages the collateral backing the ILS transaction.
+Provider             Ensures that the collateral remains secure, liquid and appropriately
+                     invested.
+Trustee           /  Safekeeps transaction assets and manages designated accounts.
+                     Provides operational infrastructure for movement and custody of
+Security Trustee     collateral and proceeds.
+                     Facilitates payment of interest, principal and other amounts to
+Collateral           investors or beneficiaries. Ensures payments occur accurately and in
+Manager              accordance with transaction terms.
+                     Assesses the creditworthiness and risk characteristics of the ILS
+Account Bank /       instrument. Provides an independent risk assessment for investors.
+Custodian            Independently reviews the financial statements and relevant
+                     transaction accounts. Enhances financial transparency and investor
+Paying Agent         confidence.
+                     Provides actuarial analysis of insurance liabilities, expected losses and
+Rating Agency        pricing assumptions. Supports the technical assessment and
+(where applicable)   structuring of the transaction.
+Auditor              Authorises and supervises relevant insurance, reinsurance and risk-
+                     transfer activities. Provides the regulatory framework within which ILS
+Actuary              transactions operate.
+                     Provides a regulated venue for listing and disclosure of ILS securities.
+Insurance         /  Enhances visibility, transparency and potentially secondary-market
+                     accessibility.
+Reinsurance          Provides catastrophe, market or benchmark data used for analysis and
+                     performance measurement. Supports transparency, valuation and
+Regulator            development of the wider ILS market.
+
+Listing
+
+Exchange (where
+
+applicable)
+
+Data / Index
+
+Provider (where
+
+applicable)
+
+Facilitating such ecosystem development will be essential to establishing GIFT IFSC as a
+competitive international centre for catastrophe risk financing.
+
+Finally, the regulatory framework should remain principles-based and enabling, allowing
+sufficient flexibility to accommodate evolving market practices and new forms of ILS.
+
+A practical approach would be to introduce a statutory carve-out permitting SPIs established
+exclusively for ILS transactions to operate without the conventional minimum paid-up equity
+
+                                                                                                                                 Page 32 of 41
+capital prescribed under the Insurance Act, 1938, provided specified prudential safeguards
+are satisfied.
+
+For GIFT IFSC, one possible legislative route would be for the Central Government to
+exercise its powers under Section 2CA of the Insurance Act, 1938, to provide a targeted
+carve-out for SPIs operating within the IFSC framework, subject to compliance with conditions
+prescribed by IFSCA.
+
+If, at a later stage, the policy objective is to facilitate ILS throughout India, a corresponding
+amendment to the Insurance Act, 1938, or regulations framed by IRDAI under an amended
+statutory framework, could extend a similar carve-out to SPIs operating in the Domestic Tariff
+Area.
+
+4.8.2 Financial Support Services Ecosystem
+
+A comprehensive Financial Support Services ecosystem has already been enabled to support
+the development and growth of the financial services market in GIFT-IFSC under three
+specific regulations, namely, (i) IFSCA (TechFin and Ancillary Services) Regulations, 2025
+(TAS Regulations) (ii) IFSCA (Book-keeping, Accounting, Taxation and Financial Crime
+Compliance Services) Regulations, 2024 (BATF Regulations) and (iii) IFSCA (Global In-
+house Centre) Regulations, 2025.
+
+(i) The IFSCA (TechFin and Ancillary Services) Regulations, 2025 provides an important
+enabling layer for the development of an Insurance-Linked Securities (ILS) ecosystem in GIFT
+IFSC. These regulations establish a regulated ecosystem of ancillary and technology service
+providers capable of supporting the implementation and operation of ILS activities. The
+Regulations also recognise a broad range of services, including actuarial, advisory, risk
+management, legal, audit, valuation, fund administration, compliance management,
+trusteeship and research and capability-building services.
+
+The recently enabled ‘Trust and Company Services Provider (TCSP) services to support
+leasing activities through an SPV in IFSC will also play a significant role in ILS activities.
+
+These services are particularly relevant to the ILS value chain. Actuarial, advisory and risk-
+management capabilities can support catastrophe-risk modelling, risk assessment, pricing
+and structuring of ILS transactions, while legal, valuation, audit, fund administration and
+compliance services can provide the supporting infrastructure necessary for issuance,
+administration, reporting and investor protection. The framework also permits technology-
+enabled services, including big-data and analytics, climate and sustainable technology,
+cyber-risk management, regulatory technology, supervisory technology, AI/ML, IoT, DLT and
+tokenisation support, which can facilitate the development of sophisticated catastrophe-risk
+analytics and technology infrastructure for the ILS market.
+
+The Regulations further provide for centres of excellence and financial capability centres to
+undertake research and development, skill development, training and certification. This can
+contribute to building specialised capabilities in catastrophe modelling, insurance risk
+
+                                                                                                                                 Page 33 of 41
+analytics, ILS structuring, legal and regulatory expertise and capital-markets operations within
+GIFT IFSC.
+
+Accordingly, the existing TAS regulatory framework can be leveraged to develop a
+comprehensive support-services ecosystem around the proposed ILS regime.
+
+In this manner, the professional and technology services ecosystem can complement the
+proposed ILS regulatory framework by improving market infrastructure, strengthening risk
+assessment and disclosure capabilities, facilitating regulatory compliance and encouraging
+innovation.
+
+(ii) The IFSCA (Book-keeping, Accounting, Taxation and Financial Crime Compliance
+Services) Regulations, 2024 can support ILS/SPV structures with maintenance of books
+and financial records, preparation and analysis of financial statements and accounting
+support, and tax advice and filings.
+
+For ILS transactions such as CAT Bonds, these services can help ensure transparent
+financial reporting, proper accounting of premiums, collateral and investor payments, and
+compliance with applicable tax requirements. Having regulated BATF service providers within
+GIFT IFSC can therefore reduce operational complexity, improve investor and regulator
+confidence, and support the development of a reliable ecosystem for ILS and catastrophe-
+risk financing.
+
+(iii) The IFSCA (Global In-House Centre) Regulations, 2025 can support ILS activities in
+GIFT IFSC by enabling insurers, reinsurers and other global financial institutions to establish
+dedicated GIC unit for ILS structuring, risk analysis, catastrophe modelling, accounting, data
+management, legal and compliance support. This can help institutions manage the technical
+and operational requirements of CAT Bonds and other ILS transactions from within GIFT
+IFSC, reducing dependence on external service providers.
+
+For the ILS ecosystem, GIC Units can therefore act as a specialised support infrastructure,
+bringing global insurance and reinsurance expertise into GIFT IFSC. This can strengthen local
+capabilities in catastrophe risk assessment, transaction management and regulatory
+compliance, facilitate knowledge and technology transfer, and help attract global insurance
+groups to GIFT IFSC. Over time, this would support the development of a deeper ILS
+ecosystem and contribute to positioning GIFT IFSC as a regional hub for catastrophe risk
+financing.
+
+4.8.3 IFSCA’s capital market ecosystem
+
+The IFSCA (Listing) Regulations, 2024 (“Listing Regulations”) provide the regulatory
+framework for listing of securities and other permitted financial products on the recognised
+stock exchanges in the IFSC. The new Listing Regulations were notified in 2024 pursuant to
+benchmarking the standards with best practices in other international jurisdictions. The Listing
+
+                                                                                                                                 Page 34 of 41
+Regulations permit issue and listing of debt securities by issuers in India, IFSC and Foreign
+Jurisdictions.
+There are two stock exchanges in the IFSC namely NSE International Exchange and India
+International Exchange with world class infrastructure and systems for listing and trading of
+securities. GIFT IFSC has emerged as a preferred destination for listing of debt securities by
+Indian issuers with total listing of more than USD 75 billion till date.
+The practices in other global jurisdictions w.r.t listing of Cat bonds, are as follows:
+(a) Bermuda
+
+In Bermuda, the “Debt Listing Regulations” specified by Bermuda Stock Exchange are
+applicable for listing of insurance-linked securities (i.e. Cat bonds) on the exchange. The debt
+listing regulations provide for following additional requirements/modifications in relation to
+ILS:
+
+    (i) The issuer must normally be a special purpose vehicle incorporated or established
+            for the purpose of issuing insurance-linked securities.
+
+    (ii) If the issuer of insurance-linked securities is a licenced entity and is not required to
+            produce audited financial statements by its regulatory authority, the issuer should
+            provide information on its capitalisation including share capital and debt securities
+            in issue and proposed to be issued rather than audited financial statements for last
+            two years. Furthermore, if audited financial statements will not be produced on an
+            ongoing basis this should be clearly stated in the listing document.
+
+(b) Singapore
+
+Cat bonds are listed on the Singapore Exchange (SGX) under the regulatory framework for
+Debt Securities.
+
+                                                                                                                                 Page 35 of 41
+Listing of Cat bonds on the stock exchanges in the IFSC
+
+Since Cat bonds fall under the definition of “debt securities”, Cat bonds are already permitted
+to be listed on the recognised stock exchanges in the IFSC in accordance with the regulatory
+requirements specified in the Listing Regulations.
+
+Further, the definition of “issuer” in the Listing Regulations does not provide any restriction in
+terms of any category or type of entity. Accordingly, an SPV formed for issuance of ILS can
+be an issuer and list its Cat bonds on the recognised stock exchanges in the IFSC.
+
+4.9 Conclusion
+
+The introduction of a carve-out for SPIs is recognition that prudential regulation should be
+calibrated to the nature of the risks undertaken as an ILS SPI is a transaction-specific,
+bankruptcy-remote vehicle whose obligations are fully secured by investor-funded collateral
+from inception.
+
+Replacing the statutory equity capital requirement with a mandatory regime of 100%
+collateralisation, ring-fenced assets, restricted business scope and robust supervisory
+oversight would, therefore, would align India's legal framework with internationally accepted
+regulatory practice.
+
+5. Recommendation for Legal Framework
+
+It is, therefore, recommended that a carve-out or exemption, may be considered, from the
+Insurance Act, 1938, on the following provisions.
+
+S. Section,     Subject         Rationale for Carve-Out / Exemption
+
+No. Insurance
+
+     Act, 1938
+
+1 Section 2     Insertion of new Definitions may be considered for ‘special
+
+(a)             definitions     purpose business’ and ‘special purpose
+
+                                insurer’
+
+1 Section 2 Notification        from The amended SBSR Act provides for
+
+(b) (6D)        Government on “any notification of any other form of insurance
+
+                other form of contract by the Central Government in
+
+                insurance contract ” consultation with the Authority .
+
+2 Section 6     Minimum paid-up Full exemption from minimum paid-up capital,
+
+                equity capital  substituted by a 100% collateralisation
+
+                                requirement prescribed by the Authority; not
+
+                                relevant, as the SPI carries no balance-sheet
+
+                                (going-concern) risk.
+
+                                                                        Page 36 of 41
+3 Section 64VA Solvency  margin Not applicable — solvency is inherently
+
+         requirements    satisfied through pre-funded collateral rather
+
+                         than an ongoing regulatory capital buffer.
+
+4 Sections 10, Accounts, actuarial SPIs typically follow a "pass-through"
+
+         11 and 13 valuation and audit accounting model that does not fit conventional
+
+         requirements    insurer accounting/actuarial schedules
+
+                         designed for going-concern risk-bearing.
+
+The WG has given two alternatives to introduce this new line of Business as specified in 1(a)
+
+or (b).
+
+The provisions of the proposed notification would have overriding effect over inconsistent
+provisions of the Insurance Act, 1938, for SPIs operating within the IFSC.
+
+6. Suggested Draft Amendment under Section 2 of the Insurance Act, 1938, for
+       IFSCA
+
+The working group has been examining the feasibility of introducing a regulatory framework
+for Insurance Linked Securities (ILS) within India, with a view to developing a competitive
+global hub for innovative risk transfer solutions and alternative capital for the insurance sector.
+
+ILS have emerged globally as an important mechanism for transferring insurance and
+catastrophe risks from insurers and reinsurers to capital market investors. In certain global
+jurisdictions, these structures have contributed towards enhancing insurance capacity,
+diversifying sources of risk capital, strengthening resilience against catastrophic events and
+deepening integration between insurance and capital markets.
+
+Considering India’s increasing exposure to climate-related risks, natural catastrophes and
+large-scale infrastructure and economic assets requiring risk protection, development of an
+ILS ecosystem can provide significant long-term benefits. Such a framework would facilitate
+access to diversified global capital, support domestic insurers and reinsurers in managing
+peak risks, and contribute towards strengthening financial resilience and disaster risk
+financing capabilities.
+
+The working group recommends that “Special Purpose Insurer (SPI)” is required to be notified
+by the Central Government under the Insurance Act, 1938 to provide the necessary legal
+recognition and regulatory foundation for operationalization of the proposed framework for
+ILS.
+
+In view of the above, the WG has prepared draft statutory language for consideration, to be
+inserted into the principal Act as follows:
+
+1. After sub-section (16C) of Section 2 of the principal Act, the following shall be inserted,
+namely:
+
+                         Page 37 of 41
+     "(16CA) 'special purpose insurance business' means effecting insurance contracts that
+     may be funded through insurance securitisation or any other financing mechanism, in
+     accordance with regulations as may be specified by the Authority."
+
+                                                              OR
+     "'special purpose insurance business' means the business of assuming insurance risk
+     under a contract of insurance, where such assumed risk is funded, collateralised or
+     otherwise backed through the issuance of Insurance Linked Security or such other
+     mechanism, in accordance with regulations as may be specified by the Authority."
+
+After sub-section (16CA) of Section 2 of the principal Act, the following shall further be
+inserted, namely:
+
+     "16(CAA) 'Special Purpose Insurer' means an insurer registered by the Authority to carry
+     on special purpose insurance business."
+
+(The provisions contained in Sections 6, 10, 11, 13, 27, 64V and 64VA of the principal Act
+shall be made applicable to such Special Purpose Insurer, with such exceptions,
+modifications and adaptations as may be specified in regulations issued by the Authority.)
+will require to be addressed through notification, after amendment of the Act.
+
+7. Suggested Alternative Route
+
+The recent amendments to the Insurance Act, 1938, via the Sabka Bima Sabki Raksha
+(Amendment of Insurance Laws) Act, 2025, have, inter alia, widened the definition of
+‘insurance business’ by inserting Sec. 2(6D) in the Insurance Act.
+
+As per the inserted definition under Sec. 2(6D), insurance business means the business of
+effecting insurance contracts and includes any other form of contract as may be notified by
+the Central Government in consultation with the Authority from time to time. Further, it is
+explained that the expression “insurance contract” means the contract whereby the insurer,
+on payment of premium, undertakes to assume risk and to pay to the insured person an
+agreed compensation for loss, damage or liability arising from a contingent event on such
+terms and conditions and subject to such limitations as may be agreed.
+
+Since the underlying intent of an ILS transaction is to transfer risk from a risk carrier (cedant
+/ sponsor) to a bankruptcy-remote special vehicle (called Special Purpose Insurer) by entering
+into a contract (i.e. reinsurance contract), the new definition of insurance business provides
+a comfortable space for the regulator (IFSCA or IRDAI) to work with the Central Government
+and enable the issuance of ILS instruments without proposing any amendments in the
+Insurance Act as it stands today.
+
+As amending the Insurance Act is an elaborate exercise and may take considerable time, the
+WG believes that notification route may be explored under Section 2(6D) of the Insurance Act
+to recognize ILS contracts funded through insurance securitization or any such funding
+mechanism, as may be specified by the Authority (IFSCA / IRDAI).
+
+                                                                                                                                 Page 38 of 41
+Thereafter the other desired relaxations such as capital requirement, solvency etc., may be
+explored under Section 2CA of the Insurance Act, 1938. This can be immediately followed up
+by notification of relevant regulations to detail the granular modalities for the
+operationalisation of the ILS ecosystem.
+
+Thus, as a cleaner alternative approach, the WG suggests the following draft of notification
+in terms of Sec. 2(6D) of the Insurance Act for the IFSC jurisdiction –
+
+                                           MINISTRY OF FINANCE
+                                      (Department of Financial Services)
+
+                                                  NOTIFICATION
+                                    New Delhi, the …day of …month, 2026
+
+ S.O. XX.— In exercise of the powers conferred by section 2(6D) and section 2CA of the Insurance
+ Act, 1938 (4 of 1938) (hereinafter referred to as the Insurance Act), the Central Government hereby
+ notifies the inclusion of following in insurance business –
+
+ “business of effecting insurance contracts that may be supported by insurance securitisation or
+ any other mechanism, in accordance with regulations as may be specified by the Authority”
+
+ Further,(i) The provisions contained in Sections 6, 10, 11, 13, 27, 64V and 64VA of the Insurance
+ Act shall be made applicable to entities permitted to undertake such insurance business, with such
+ exceptions, modifications and adaptations as may be specified in regulations issued by the
+ Authority.
+
+ (ii)The expression “Authority” shall have the same meaning as assigned to it under sub-section
+ (1A) of section 2 of the Insurance Act.
+
+                                                                                                         [F. No. XX]
+                                                                                             Name & Designation
+
+This shall be followed with regulatory framework detailing operational modalities of how such
+business shall be carried out. Such regulatory framework can then introduce the term ‘Special
+Purpose Insurer (SPI)’ to refer to entities who shall be granted registration in terms of the
+regulatory framework to undertake such notified insurance business.
+
+8. Recommended Steps
+
+To translate these recommendations into an operational framework, the following phased
+approach is proposed:
+
+    a) Obtain a targeted statutory carve-out/amendment under the Insurance Act, 1938.
+    b) Develop the legal architecture necessary to recognise SPIs as a distinct category of
+
+         regulated insurance entity.
+    c) Notify dedicated regulations governing SPIs and ILS.
+
+                                                                                                                                 Page 39 of 41
+    d) Encourage the establishment of catastrophe modelling and risk analytics capabilities
+         and development of specialist SPV administration, trustee, collateral management
+         and actuarial services within GIFT IFSC.
+
+    e) IFSCA may consider benchmarking issuance cost of ILS or other securities with
+         International Jurisdictions and consider a comparable support mechanism, if required.
+
+9. Development of ILS Market Infrastructure and Data Ecosystem
+
+Market participants should proactively engage with established commercial catastrophe-
+modelling vendors to develop and maintain India-specific catastrophe-risk models covering
+key perils such as cyclones, floods and earthquakes. Such engagement should focus not only
+on the availability and suitability of models for Indian geography, but also on obtaining
+appropriate licensing and access arrangements for their use in underwriting, pricing,
+structuring and ongoing risk assessment of ILS transactions.
+
+Given the importance of reliable underlying hazard and exposure data to the credibility of
+catastrophe models, market participants should also establish appropriate mechanisms for
+accessing relevant publicly available hazard, meteorological, geological, exposure and loss
+data maintained by institutions such as the National Disaster Management Authority (NDMA),
+Indian Meteorological Department/meteorological agencies, National Remote Sensing
+Centre (NRSC), Building Materials and Technology Promotion Council (BMTPC), and other
+relevant public authorities.
+
+Where required, IFSCA may facilitate institutional coordination and liaison with such agencies
+to enable efficient access to reliable and standardised datasets, while ensuring appropriate
+data-sharing, confidentiality and usage protocols.
+
+The development of the ILS ecosystem in GIFT-IFSC may follow a phased approach, with
+catastrophe bonds serving as the initial and principal product around which the market
+infrastructure, expertise and regulatory capacity are developed. Once the foundational
+ecosystem has matured, the scope may progressively be expanded to other forms of
+insurance-linked and alternative risk-transfer structures, including reinsurance sidecars,
+collateralised reinsurance and other sophisticated ART vehicles. This approach would allow
+market participants and regulators to build experience progressively while establishing the
+specialised service providers, modelling capabilities, legal expertise, transaction-
+management infrastructure and investor base required for a deeper ILS market.
+
+In parallel, GIFT-IFSC should ensure that ILS issued from the jurisdiction have efficient
+access to internationally accepted clearing, settlement and custody infrastructure used by
+global ILS investors. Connectivity with established international securities infrastructure and
+custodians, including systems such as Euroclear, Clearstream and Depository Trust
+Company (DTC), would facilitate participation by international institutional investors, reduce
+operational friction in cross-border transactions and enhance the attractiveness and credibility
+of GIFT-IFSC as an ILS issuance and investment centre. The regulatory and market
+
+                                                                                                                                 Page 40 of 41
+infrastructure framework should therefore seek to ensure that ILS securities can be issued,
+held, settled and transferred through internationally familiar mechanisms, subject to
+applicable regulatory and investor-eligibility requirements.
+10. Conclusion
+The recommendations contained in this report provide a roadmap for establishing an
+internationally credible ILS framework in GIFT IFSC. The proposed approach is firmly
+grounded in comparative international practice, consistent with the supervisory principles of
+the IAIS and supported by a clear legal and prudential rationale for distinguishing fully
+collateralised SPIs from conventional insurance companies. Such a framework would not only
+integrate India into the global ILS market but also contribute to strengthening the country's
+long-term financial resilience against increasingly frequent and severe natural catastrophes.
+
+                                                ***End of Report***
+
+                                                                                                                                 Page 41 of 41
+

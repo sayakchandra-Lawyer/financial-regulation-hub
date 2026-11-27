@@ -1,0 +1,22 @@
+section: companies
+date: 2026-11-27
+kind: Bill status (as on fetch date; no event in window)
+title: The Corporate Laws (Amendment) Bill, 2026 - Bill No. 85 of 2026 - status: Pending
+ref: Bill No. 85 of 2026
+url: https://sansad.in/ls/legislation/bills
+pdf_url: https://sansad.in/getFile/BillsTexts/LSBillTexts/Asintroduced/as%20intro3232026122530PM.pdf?source=legislation
+file: SANSAD-BILL85-2026.txt
+note: Status row only: introduced 2026-03-23; referred to committee None; report presented None. No bill in the API carries any date in November 2026 (latest introduction 2026-08-10), i.e. no sitting-day bill activity in the window. Date column is the fetch date, not an event date.
+======================================================================
+Record returned by the sansad.in bills API on 27-11-2026:
+billNumber: 85
+billName: THE CORPORATE LAWS (AMENDMENT) BILL, 2026
+billType: Government
+billCategory: Financial Bill
+ministryName: CORPORATE AFFAIRS
+billYear: 2026
+billIntroducedInHouse: Lok Sabha
+billIntroducedDate: 2026-03-23 00:00:00.0
+billIntroducedFile: https://sansad.in/getFile/BillsTexts/LSBillTexts/Asintroduced/as intro3232026122530PM.pdf?source=legislation
+errataFile: https://sansad.in/getFile/BillsTexts/LSBillTexts/Hindi/Errata/hindi corri3232026122700PM.pdf?source=legislation
+status: Pending

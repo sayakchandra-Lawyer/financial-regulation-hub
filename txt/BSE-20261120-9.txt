@@ -1,0 +1,59 @@
+section: exchanges
+date: 2026-11-20
+kind: BSE notice (Compliance; segment General)
+title: Update in State/Union Territory Names in UCC Database
+ref: BSE Notice No. 20261120-9
+url: https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20261120-9
+pdf_url: https://www.bseindia.com/downloads/UploadDocs/Notices/20261120-9/20261120-9.pdf
+file: BSE-20261120-9.txt
+note: Date is the BSE Notice_Date field. Separate attachments, if any, not fetched.
+======================================================================
+Notice No.            NOTICE
+Notice Date
+Category     20261120-9
+Segment      20 Nov 2026
+Department   Compliance
+Subject      General
+Attachments  DOSS
+             Update in State/Union Territory Names in UCC Database
+             No Attachment
+To
+
+All Trading Members of the Exchanges
+
+Subject: Update in State/Union Territory Names in UCC Database
+
+Trading Members are hereby advised that, pursuant to the changes in the nomenclature of certain States/Union
+Territories and the merger of specified Union Territories, the following modifications are being implemented in
+the Exchange's UCC (Unique Client Code) system:
+
+Current State Name    Future State Name
+Dadra & Nagar Haveli
+                      Dadra & Nagar Haveli and Daman & Diu
+Daman & Diu           To be discontinued (no new client onboarding)
+Pondicherry           Merged with Dadra & Nagar Haveli
+Kerala                Puducherry
+                      Keralam
+
+Trading Members are requested to:
+
+    • Make necessary changes in their back-office, client onboarding, and UCC management systems.
+    • Ensure that all fresh client registrations and modifications use the revised State/UT names.
+    • Update existing client records, wherever applicable.
+    • Ensure successful upload and validation of UCC data using the revised nomenclature.
+    • The above- mentioned changes will be made available on UCC module w.e.f. Saturday, November 21,
+
+        2026, from 2.00 pm
+
+Trading Members are requested to take note of the above and ensure compliance.
+
+For further clarifications, if any, please contact on:
+
+Contact Nos.                                            Email ID
+022- 2272 8347/8281                                     ucc@bseindia.com
+
+Abhijit Pai                                             Prasad Bhide
+Deputy Vice President                                   Assistant Vice President
+Investigation                                           Investigation
+Date: November 20, 2026
+

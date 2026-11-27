@@ -1,0 +1,94 @@
+section: exchanges
+date: 2026-11-20
+kind: NSE circular (Inspection & Compliance)
+title: Compliance with the guidelines on ‘Safer participation of Retail investors in Algorithmic trading’ issued by SEBI and Exchanges – Tech-savvy Retail Investors
+ref: NSE/INSP/77559
+url: https://www.nseindia.com/resources/exchange-communication-circulars
+pdf_url: https://nsearchives.nseindia.in/content/circulars/INSP77559.pdf
+effective: April 1, 2026
+file: NSE-77559.txt
+======================================================================
+DEPARTMENT: INSPECTION
+
+Download Ref No: NSE/INSP/77559  Date: November 20, 2026
+
+Circular Ref. No: 58/2026
+
+To All Market Participants,
+
+Sub: Compliance with the guidelines on ‘Safer participation of Retail investors in Algorithmic
+       trading’ issued by SEBI and Exchanges – Tech-savvy Retail Investors
+
+This has reference to SEBI Circular Ref. No. SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/0000013
+dated February 4, 2025, NSE Circular Ref. No. NSE/INVG/69255 dated July 22, 2025 and SEBI Circular
+Ref. No. SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/132 dated September 30, 2025 related to ‘Safer
+participation of Retail investors in Algorithmic trading’. The Retail Algo framework was implemented
+with effect from April 1, 2026.
+
+As per Exchange Circular Ref. No. NSE/INVG/69255 dated July 22, 2025 (Annexure I, Para 14), it is
+mandated that "all the strategies shall be run on the brokers servers. The order messages shall be
+originated from brokers server." This requirement is central to ensuring the broker's control over risk
+management and data confidentiality. However, Tech Savvy client is required to host the Algo using a
+static IP at their end where Algo logic resides instead of hosting the Algo on Trading Member’s cloud
+server.”
+
+Post April 1, 2026 i.e. the commencement of Retail Algo framework, Exchanges have been receiving
+complaints from market participants regarding the misuse of Static IP facilities by certain Exchange
+empaneled Algo Providers. The exchange has also noted that some Algo Providers are providing Static
+IPs to retail clients, under the guise of them being ‘Tech-savvy’ retail clients, which is in violation with
+SEBI/Exchange guidelines issued for Safer participation of Retail investors in Algorithmic trading.
+
+Accordingly, the Exchange hereby informs all market participants that:
+
+      1. The Static IP is intended only for ‘Tech-savvy Retail Investors’ who develop their own algos
+           using programming knowledge (As per SEBI circular SEBI/HO/MIRSD/MIRSD-
+           PoD/P/CIR/2025/0000013 dated February 04, 2025)
+2. Trading Members and Algo Providers must not, under any circumstances, provide Static IP
+    access to retail clients who do not fall under the category of ‘Tech-savvy Retail Investors’ for
+    Algorithmic Trading. Any such case of misclassification or misuse of ‘Static IPs’ will be treated
+    as a violation of SEBI and Exchange guidelines.
+
+3. Trading Members who are registering such “Tech-Savvy Retail Client” shall take an undertaking
+    from such clients that “such clients meet the requirements of the SEBI definition of ‘Tech-savvy’
+    Retail clients i.e. they are Retail clients who develop their own algos using programming
+    knowledge.”
+
+4. The undertaking shall further state that “As a “Tech Savvy Client” since we are developing our
+    own algos using programming knowledge, we shall have no recourse to the Investor Grievance
+    mechanism of the Exchange in the event of losses incurred on account of the logic of Algo used.”
+
+The Exchanges will closely monitor compliance of Trading Members and Algo Providers with the
+above guidelines and in the event of any violations:
+
+     • Non-Adherence on part of Trading Members - Initiate following penal action on the Trading
+         Member (s) concerned.
+
+Details of Contravention         Action in case of first  Action in case of repeat
+                                 instance                 instance
+Undertaking not obtained by
+Trading Member for ‘Tech-        Rs. 5,000/- per client,  2nd time - 50% escalation
+savvy Retail Client’ in case of  subject to maximum       3rd Time & Onwards-
+Retail Algo                      penalty of Rs. 1 lakh    100% Escalation
+
+    • Non-Adherence on the part of Algo Providers - The empanelment status of the Algo Provider
+         shall be subject to review and may be suspended or revoked.
+
+All concerned Algo Providers and Trading Members are advised to ensure strict adherence to the
+above guidelines and take necessary corrective actions immediately, wherever applicable.
+
+This circular shall be applicable with immediate effect.
+
+For and on behalf of
+National Stock Exchange of India Limited
+
+Kapil Marwah
+Associate Vice President
+In case of any clarifications, Members may contact our below offices:
+
+Regional Office    CONTACT NO.                      E MAIL ID
+Ahmedabad (ARO)    079-65278024/55                  inspectionahm@nse.co.in
+Chennai (CRO)      044- 66309915/17                 inspection_cro@nse.co.in
+Delhi (DRO)        011-23459146/127/144/147         delhi_inspection@nse.co.in
+Kolkata (KRO)      033- 40400404/06                 inspection_kolkata@nse.co.in
+Mumbai (WRO)       022-61928200                     compliance_wro@nse.co.in
+Central Help Desk  compliance_assistance@nse.co.in
