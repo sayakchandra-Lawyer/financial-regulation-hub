@@ -1,8 +1,8 @@
 {
  "meta": {
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "window_from": "2026-01-01",
-  "window_to": "2026-11-26",
+  "window_to": "2026-11-27",
   "entities": [
    {
     "key": "ibu",
@@ -32,6 +32,28 @@
   ]
  },
  "updates": [
+  {
+   "id": "U-2026-11-27-PID",
+   "date": "2026-11-27",
+   "kind": "Circular",
+   "title": "Critical issues to be discussed at meetings of public interest directors",
+   "ref": "IFSCA/CMD/MIIT/PID/2026/001",
+   "url": "https://ifsca.gov.in/Legal/Index?MId=5Wq%20cbnMLQo=",
+   "effective": "2026-11-27",
+   "instrument": "",
+   "applies": "Stock exchanges, clearing corporations and depositories in the IFSC.",
+   "changes": [
+    "Sets out the issues that public interest directors of market infrastructure institutions must discuss at their separate six-monthly meetings."
+   ],
+   "impact": {
+    "cmi": {
+     "level": "Low",
+     "text": "No obligation on brokers or other intermediaries."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
   {
    "id": "U-2026-11-25-CERTIN",
    "date": "2026-11-25",
@@ -71,7 +93,212 @@
    "actions": [
     "Assign an owner to track CERT-In advisories and record the action taken on each."
    ],
-   "url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=fc2cfb582037f82d92801abc770f5f9e&fileName=Adherence_to_advisories_and_vulnerability_notes_issued_by_the_Indian_Computer_Emergency_Response_Team__CERT_In__20261125_0641.pdf"
+   "url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=fc2cfb582037f82d92801abc770f5f9e&fileName=Adherence_to_advisories_and_vulnerability_notes_issued_by_the_Indian_Computer_Emergency_Response_Team__CERT_In__20261125_0641.pdf",
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-25-MMDELIV",
+   "date": "2026-11-25",
+   "kind": "Circular",
+   "title": "Market makers get up to two more working days to deliver in specified products",
+   "ref": "",
+   "url": "https://ifsca.gov.in/Legal/Index?MId=7mer%201NZ3CQ=",
+   "effective": "2026-11-25",
+   "instrument": "",
+   "applies": "IFSC stock exchanges, clearing corporations and market makers.",
+   "changes": [
+    "The Master Circular for exchanges and clearing corporations is amended: market makers in specified products may deliver within up to two additional working days."
+   ],
+   "impact": {
+    "cmi": {
+     "level": "Low",
+     "text": "Relevant to broker-dealers acting as market makers."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-13-COMTRADE",
+   "date": "2026-11-13",
+   "kind": "Notification",
+   "title": "Commodity trading notified as a financial service, and commodity trading contracts as a financial product",
+   "ref": "S.O. 6195(E) and S.O. 6196(E)",
+   "url": "https://egazette.gov.in/WriteReadData/2026/277890.pdf",
+   "effective": "2026-11-13",
+   "instrument": "",
+   "applies": "Entities wishing to set up commodity trading operations in the IFSC.",
+   "changes": [
+    "The Central Government notified \"commodity trading\" as a financial service and \"commodity trading contract\" as a financial product under section 3 of the IFSCA Act, 2019.",
+    "This lets IFSCA frame rules for commodity trading entities in the IFSC."
+   ],
+   "impact": {
+    "fc": {
+     "level": "Low",
+     "text": "Commodity traders may become a new class of IFSC borrowers."
+    },
+    "ibu": {
+     "level": "Medium",
+     "text": "A new client segment for trade finance."
+    },
+    "cmi": {
+     "level": "Low",
+     "text": "Watch for the IFSCA framework."
+    }
+   },
+   "actions": [],
+   "weight": 3
+  },
+  {
+   "id": "U-2026-11-12-IIIO",
+   "date": "2026-11-12",
+   "kind": "Circular",
+   "title": "Registration of IFSC insurance offices stays valid on payment of the annual fee",
+   "ref": "",
+   "url": "https://ifsca.gov.in/Legal/Index?MId=8yx2gAHxUzw=",
+   "effective": "2026-11-12",
+   "instrument": "",
+   "applies": "IFSC Insurance Offices.",
+   "changes": [
+    "The certificate of registration of an IFSC Insurance Office continues to be valid as long as the annual fee is paid; no periodic renewal is needed.",
+    "This aligns with the Insurance Act as amended in 2025."
+   ],
+   "impact": {
+    "ins": {
+     "level": "Low",
+     "text": "Renewal applications fall away; keep paying the annual fee on time."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-12-BULLION",
+   "date": "2026-11-12",
+   "kind": "Circular",
+   "title": "Bullion exchange and clearing corporation: quarterly non-compliance report",
+   "ref": "",
+   "url": "https://ifsca.gov.in/Legal/Index?MId=UUj%20hbI-L28=",
+   "effective": "2026-11-12",
+   "instrument": "",
+   "applies": "The bullion exchange and bullion clearing corporation in the IFSC.",
+   "changes": [
+    "Prescribes the format for reporting non-compliance under regulation 31 of the Bullion Market Regulations, 2025.",
+    "The report is due within 45 days of each quarter end; a nil report must be filed."
+   ],
+   "impact": {
+    "cmi": {
+     "level": "Low",
+     "text": "No obligation on members."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-09-FSPCP",
+   "date": "2026-11-09",
+   "kind": "Consultation paper",
+   "title": "Two consultations: Financial Solicitation Professionals and model portfolios by research entities",
+   "ref": "",
+   "url": "https://ifsca.gov.in/ReportPublication/Index?MId=2W3lMrHg9rU=",
+   "effective": "",
+   "instrument": "",
+   "applies": "Capital market intermediaries, fund managers, distributors and research entities in the IFSC.",
+   "changes": [
+    "IFSCA proposes disclosure-based guidelines for engaging Financial Solicitation Professionals, and drops the idea of separate Financial Advisers regulations.",
+    "A second paper proposes to let research entities offer model portfolios.",
+    "Comments on both are due by 30-11-2026."
+   ],
+   "impact": {
+    "fme": {
+     "level": "Medium",
+     "text": "May change how offshore distributors and referrers are engaged."
+    },
+    "cmi": {
+     "level": "Medium",
+     "text": "Same; research entities may gain a new product."
+    }
+   },
+   "actions": [
+    "Send comments by 30-11-2026."
+   ],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-04-GPULEASE",
+   "date": "2026-11-04",
+   "kind": "Notification",
+   "title": "Leasing of GPUs and connected data-centre equipment notified as a financial product",
+   "ref": "IFSCA/GN/2026/017",
+   "url": "https://ifsca.gov.in/Legal/Index?MId=I27dQrNcok4=",
+   "effective": "2026-10-29",
+   "instrument": "",
+   "applies": "Finance companies and lessors in the IFSC.",
+   "changes": [
+    "Operating leases, and hybrids of operating and financial leases, of graphics processing units and connected data-centre equipment are a financial product in the IFSC.",
+    "The notification is dated 22-10-2026 and was published in the Gazette on 29-10-2026; IFSCA listed it on 04-11-2026."
+   ],
+   "impact": {
+    "fc": {
+     "level": "Medium",
+     "text": "A new equipment-leasing line for IFSC finance companies."
+    },
+    "ibu": {
+     "level": "Low",
+     "text": "Lending to lessors."
+    }
+   },
+   "actions": [],
+   "weight": 3
+  },
+  {
+   "id": "U-2026-11-04-TECHFINREP",
+   "date": "2026-11-04",
+   "kind": "Circular",
+   "title": "Reporting norms for TechFin and ancillary service providers, global in-house centres and book-keeping firms",
+   "ref": "",
+   "url": "https://ifsca.gov.in/Legal/Index?MId=B1huExJJ0Ck=",
+   "effective": "2026-11-04",
+   "instrument": "",
+   "applies": "TechFin and ancillary service providers, Global In-House Centres, and book-keeping, accounting, taxation and financial crime compliance service providers.",
+   "changes": [
+    "Monthly and quarterly reports are due by the 10th of the following month.",
+    "Anti-money laundering reports are half-yearly; the annual report is due by 31 May and audited financial statements by 30 September.",
+    "Material changes are reported within 30 days."
+   ],
+   "impact": {
+    "fc": {
+     "level": "Low",
+     "text": "Applies to group service entities in GIFT City."
+    }
+   },
+   "actions": [
+    "Service entities in the IFSC: add the new return dates to the compliance calendar."
+   ],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-04-TDSLEASE",
+   "date": "2026-11-04",
+   "kind": "Notification",
+   "title": "No tax deducted at source on dividends between IFSC aircraft-leasing units",
+   "ref": "S.O. 6016(E)",
+   "url": "https://egazette.gov.in/WriteReadData/2026/277668.pdf",
+   "effective": "",
+   "instrument": "",
+   "applies": "Aircraft-leasing units in the IFSC.",
+   "changes": [
+    "The Central Board of Direct Taxes notified that no tax is deducted at source on dividends paid by one IFSC aircraft-leasing unit to another, on a declaration in the prescribed form."
+   ],
+   "impact": {
+    "fc": {
+     "level": "Low",
+     "text": "Simplifies cash movement inside leasing structures."
+    }
+   },
+   "actions": [],
+   "weight": 1
   },
   {
    "id": "U-2026-09-29-FMECERT",

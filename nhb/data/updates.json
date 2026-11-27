@@ -1,8 +1,8 @@
 {
  "meta": {
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "window_from": "2025-12-01",
-  "window_to": "2026-11-26",
+  "window_to": "2026-11-27",
   "entities": [
    {
     "key": "hfc",
@@ -55,7 +55,34 @@
     "Review loan agreement arbitration clauses and the arbitrator panel.",
     "Send the action taken report to NHB."
    ],
-   "url": "https://www.nhb.org.in/wp-content/uploads/2026/11/Advisory-Letter-dated-12-11-2026-English.pdf"
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/11/Advisory-Letter-dated-12-11-2026-English.pdf",
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-01-PLR",
+   "date": "2026-11-01",
+   "kind": "Policy",
+   "title": "NHB Prime Lending Rate set at 7.90% from 01-11-2026",
+   "ref": "",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2026/11/PLR-w.e.f-01-11-2026.pdf",
+   "effective": "2026-11-01",
+   "instrument": "",
+   "applies": "Primary lending institutions borrowing from NHB at rates linked to its Prime Lending Rate.",
+   "changes": [
+    "NHB notified its Prime Lending Rate as 7.90% with effect from 01-11-2026."
+   ],
+   "impact": {
+    "hfc": {
+     "level": "Low",
+     "text": "Check the reset on refinance linked to the NHB PLR."
+    },
+    "pli": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": [],
+   "weight": 1
   },
   {
    "id": "U-2026-09-24-INS",

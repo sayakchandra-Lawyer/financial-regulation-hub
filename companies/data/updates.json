@@ -1,8 +1,8 @@
 {
  "meta": {
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "window_from": "2025-11-01",
-  "window_to": "2026-11-26",
+  "window_to": "2026-11-27",
   "entities": [
    {
     "key": "borrower",
@@ -32,6 +32,67 @@
   ]
  },
  "updates": [
+  {
+   "id": "U-2026-11-11-CSRDRAFT",
+   "date": "2026-11-11",
+   "kind": "Draft rules (for comment)",
+   "title": "Draft changes to Schedule VII and the CSR Policy Rules",
+   "ref": "",
+   "url": "https://www.mca.gov.in/bin/dms/getdocument?mds=OT8imG9cDfw9Nf3BFLDacw%3D%3D&type=open",
+   "effective": "",
+   "instrument": "",
+   "applies": "Companies covered by section 135 (corporate social responsibility).",
+   "changes": [
+    "The Ministry published draft amendments to Schedule VII of the Companies Act and to the CSR Policy Rules for comment.",
+    "See the draft for the proposed changes and the last date for comments."
+   ],
+   "impact": {
+    "group": {
+     "level": "Low",
+     "text": "CSR teams should read the draft."
+    },
+    "nbfc": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-03-LEAP",
+   "date": "2026-11-03",
+   "kind": "Rules",
+   "title": "Overseas and IFSC listing rules widened from equity shares to \"equity instruments\"",
+   "ref": "G.S.R. 968(E)",
+   "url": "https://www.mca.gov.in/bin/ebook/dms/getdocument?doc=NzA2NjMyNDE3&docCategory=Notifications&type=open",
+   "effective": "2026-11-03",
+   "instrument": "",
+   "applies": "Public companies listing on permitted foreign exchanges, including exchanges in the IFSC.",
+   "changes": [
+    "The rules under section 23(3) now cover \"equity instruments\": equity shares, convertible debentures and preference shares.",
+    "Unlisted public companies in the IFSC are covered.",
+    "A company with negative net worth is eligible if at least 75% of the net offer goes to qualified institutional buyers.",
+    "Two of the bars on eligibility in rule 5 are narrowed: in clause (e) the period \"two years\" becomes \"more than six months\", and the default bar in clause (g) applies only where the default has not been made good.",
+    "A new Form LEAP-1 is prescribed."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "Medium",
+     "text": "A wider route to raise equity-linked capital abroad or in GIFT City."
+    },
+    "group": {
+     "level": "Low",
+     "text": "Check group listing plans."
+    },
+    "lender": {
+     "level": "Low",
+     "text": "Convertible instruments held by lenders may be listed overseas."
+    }
+   },
+   "actions": [],
+   "weight": 3
+  },
   {
    "id": "U-2026-08-03-JPC",
    "date": "2026-08-03",

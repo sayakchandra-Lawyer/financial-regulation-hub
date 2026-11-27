@@ -1,8 +1,8 @@
 {
  "meta": {
   "title": "Key judgments for financial services",
-  "as_of": "2026-11-26",
-  "count": 131,
+  "as_of": "2026-11-27",
+  "count": 139,
   "sectors": [
    {
     "key": "lending",
@@ -101,6 +101,285 @@
   }
  },
  "judgments": [
+  {
+   "id": "SBI-LOGANATHAN",
+   "title": "Assistant General Manager, State Bank of India v. S. Loganathan",
+   "court": "Supreme Court",
+   "date": "2026-11-27",
+   "neutral_citation": "2026 INSC 1287",
+   "report_citation": "",
+   "case_no": "Civil Appeal arising from SLP (C) No. 38284 of 2025",
+   "bench": "Pamidighantam Sri Narasimha and Alok Aradhe JJ.",
+   "topic": "DRT recovery certificate: property outside the tribunal's area",
+   "sectors": [
+    "lending",
+    "hfc"
+   ],
+   "issue": "Can the Debts Recovery Tribunal that issued a recovery certificate execute it against property outside its territorial limits?",
+   "holding": [
+    "Yes. The tribunal that issued the certificate can execute it, through its Recovery Officer, against property outside its local limits.",
+    "Territorial jurisdiction to decide the case (section 19(1)) is different from the reach of the Recovery Officer in execution.",
+    "\"May\" in section 19(23) gives the tribunal a judicial discretion to send the certificate to another tribunal; it is not an option for the bank or the Recovery Officer.",
+    "The Code of Civil Procedure does not restrict the tribunal's execution powers. Contrary High Court views (Delhi, Punjab and Haryana, Calcutta) are overruled."
+   ],
+   "impact": [
+    "Lenders need not start again before a second tribunal merely because the mortgaged property lies elsewhere.",
+    "Where transmission is sought, tribunals apply the test and safeguards in paragraphs 50 and 51 of the judgment."
+   ],
+   "statutes": [
+    "Recovery of Debts and Bankruptcy Act, 1993, s. 19(1), s. 19(23), Chapter V"
+   ],
+   "links": [],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=669582025&type=j&order_date=2026-11-27&from=latest_judgements_order",
+   "facts": "A bank's case was transferred to and decided by the tribunal at Chennai, which issued a recovery certificate. The mortgaged properties were in Tiruchirappalli. The High Court held that only the tribunal at Madurai could execute the certificate.",
+   "forum": "sc",
+   "area": "recovery"
+  },
+  {
+   "id": "DALAL-UNCLAIMED",
+   "title": "Sucheta Dalal v. Union of India",
+   "court": "Supreme Court",
+   "date": "2026-11-27",
+   "neutral_citation": "2026 INSC 1282",
+   "report_citation": "",
+   "case_no": "Writ Petition (Civil) No. 185 of 2022",
+   "bench": "Vikram Nath and R. Mahadevan JJ.",
+   "topic": "Unclaimed deposits, shares and insurance money",
+   "sectors": [
+    "lending",
+    "mf",
+    "life"
+   ],
+   "issue": "Should the Court direct a central mechanism for citizens to trace and recover unclaimed deposits, investments and insurance money?",
+   "holding": [
+    "The Court closed the petition after noting the steps taken by the regulators and the Government during the case to help claimants find and recover unclaimed assets.",
+    "It recorded the authorities' assurances and expects them to keep improving access, speed and transparency.",
+    "A person with a specific grievance may approach the competent authority."
+   ],
+   "impact": [
+    "No new court-made obligation, but regulators' measures on unclaimed assets remain under watch.",
+    "Keep unclaimed-asset search tools, nominee processes and claim settlement in good order."
+   ],
+   "statutes": [
+    "Banking Regulation Act, 1949, s. 26A (Depositor Education and Awareness Fund)",
+    "Companies Act, 2013, s. 125 (Investor Education and Protection Fund)"
+   ],
+   "links": [],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=69542022&type=j&order_date=2026-11-27&from=latest_judgements_order",
+   "facts": "A public interest petition raised the large sums lying unclaimed with banks and other financial institutions and transferred to statutory funds, and the difficulty heirs face in tracing them.",
+   "forum": "sc",
+   "area": "consumer"
+  },
+  {
+   "id": "SBI-MPID-REF",
+   "title": "State Bank of India v. State of Maharashtra",
+   "court": "Supreme Court",
+   "date": "2026-11-26",
+   "neutral_citation": "2026 INSC 1279",
+   "report_citation": "",
+   "case_no": "Criminal Appeal arising from SLP (Crl.) No. 6710 of 2026",
+   "bench": "J.B. Pardiwala and Ujjal Bhuyan JJ.",
+   "topic": "Secured creditor versus attachment under a State depositor-protection law",
+   "sectors": [
+    "lending",
+    "hfc"
+   ],
+   "issue": "Does attachment of secured property under the Maharashtra Protection of Interest of Depositors Act prevail over a secured creditor's priority under section 26E of the SARFAESI Act?",
+   "holding": [
+    "The Bench doubted the Court's earlier ruling in the NSEL case, which held that attachment under the State Act prevails over secured creditors, and referred the question to a larger Bench. The earlier ruling is not overruled; it stays in place until the larger Bench decides.",
+    "As interim relief in this case only, the State must not transfer, use or disburse the sale proceeds in dispute (about ₹5.52 crore).",
+    "The Court suggested that Parliament amend section 26E to explain the words \"all other debts\"."
+   ],
+   "impact": [
+    "Priority over property attached under State depositor-protection laws is unsettled until the larger Bench rules.",
+    "Lenders facing such attachments should seek interim protection of sale proceeds and cite this reference."
+   ],
+   "statutes": [
+    "SARFAESI Act, 2002, s. 26E",
+    "Maharashtra Protection of Interest of Depositors (in Financial Establishments) Act, 1999"
+   ],
+   "links": [],
+   "status": "Under reconsideration",
+   "status_note": "Referred to a larger Bench on 26-11-2026; not yet decided.",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=166842026&type=j&order_date=2026-11-26&from=latest_judgements_order",
+   "facts": "A bank held security over property that the State attached under its depositor-protection law for the benefit of defrauded depositors. The bank claimed priority as a secured creditor.",
+   "forum": "sc",
+   "area": "security"
+  },
+  {
+   "id": "UOI-SEKAR-PMLA",
+   "title": "Union of India v. J. Sekar",
+   "court": "Supreme Court",
+   "date": "2026-11-26",
+   "neutral_citation": "2026 INSC 1277",
+   "report_citation": "",
+   "case_no": "Civil Appeal No. 1548 of 2024 and connected matters",
+   "bench": "Surya Kant CJI, Joymalya Bagchi and V. Mohana JJ.",
+   "topic": "PMLA attachment: who can confirm it",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "Can a Bench of the PMLA Adjudicating Authority without a Judicial Member confirm a provisional attachment?",
+   "holding": [
+    "Sections 6(5)(b) and 6(7) are valid: a Bench may have one or two members, and the Chairperson need not be the Judicial Member.",
+    "But adjudication under sections 8(2) and 8(3), which confirms an attachment, must be done by a Bench that consists of or includes the Judicial Member.",
+    "Connected decisions on retention of seized property and records (sections 9, 20(4), 21(4)) go to the same kind of Bench.",
+    "The Court recommended that the Union consider returning to multiple Adjudicating Authorities."
+   ],
+   "impact": [
+    "A lender contesting attachment of its security can insist on a Bench that includes the Judicial Member.",
+    "Expect delay in confirmation hearings while Benches are reconstituted."
+   ],
+   "statutes": [
+    "Prevention of Money Laundering Act, 2002, ss. 6, 8, 9, 20, 21"
+   ],
+   "links": [],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=138502018&type=j&order_date=2026-11-26&from=latest_judgements_order",
+   "facts": "Several High Courts had differed on whether a single non-judicial member of the Adjudicating Authority could confirm attachments made by the Enforcement Directorate.",
+   "forum": "sc",
+   "area": "other"
+  },
+  {
+   "id": "UVARC-SINHA",
+   "title": "UV Asset Reconstruction Company Ltd. v. Gautam Sinha",
+   "court": "Supreme Court",
+   "date": "2026-11-25",
+   "neutral_citation": "2026 INSC 1263",
+   "report_citation": "",
+   "case_no": "Civil Appeal No. 3006 of 2020",
+   "bench": "K.V. Viswanathan and Arun Palli JJ.",
+   "topic": "Balance sheet entries and limitation",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "Do entries in the borrower's balance sheets extend limitation for a financial creditor's insolvency application?",
+   "holding": [
+    "Yes. The Court held that the balance sheets for 2015-16 to 2017-18 acknowledged the liability while the debtor-creditor relationship continued, so the section 7 application filed in October 2018 was in time, though the account became an NPA in March 2014.",
+    "The NCLAT misread the balance sheets and their notes. Its order was set aside and the case sent back only on whether there was a default."
+   ],
+   "impact": [
+    "Keep the borrower's signed financial statements for each year: they can save a claim that otherwise looks time-barred.",
+    "Read the notes to accounts; a caveat does not by itself cancel the acknowledgement."
+   ],
+   "statutes": [
+    "Limitation Act, 1963, s. 18",
+    "Insolvency and Bankruptcy Code, 2016, s. 7"
+   ],
+   "links": [],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=113212020&type=j&order_date=2026-11-25&from=latest_judgements_order",
+   "facts": "A bank lent to a cold-storage company in 2013 and assigned the debt to an asset reconstruction company. The NCLAT dismissed the insolvency application as time-barred.",
+   "forum": "sc",
+   "area": "recovery"
+  },
+  {
+   "id": "TWINSTAR-BOM",
+   "title": "Twinstar Technologies Ltd. v. Bank of Maharashtra",
+   "court": "Supreme Court",
+   "date": "2026-11-16",
+   "neutral_citation": "2026 INSC 1214",
+   "report_citation": "",
+   "case_no": "Civil Appeal No. 894 of 2022 and connected appeals",
+   "bench": "Pamidighantam Sri Narasimha and Alok Aradhe JJ.",
+   "topic": "Sending a resolution plan back to the creditors' committee",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "Could the NCLAT set aside the approval of a group resolution plan at the instance of dissenting financial creditors and send it back to the committee of creditors?",
+   "holding": [
+    "Yes. The Supreme Court dismissed the successful bidder's appeals and upheld the NCLAT's order remitting the plan to the committee of creditors.",
+    "The Court set out when the NCLAT may remand a plan, and said a remand must come with strict timelines so that it does not cause the delay the Code seeks to avoid.",
+    "The NCLAT's decision to keep the group's foreign oil and gas assets out of the parent's insolvency process was also upheld."
+   ],
+   "impact": [
+    "Dissenting financial creditors can challenge a plan that does not treat them as the Code requires.",
+    "An approved plan is not safe until appeals end; factor that into recovery timelines."
+   ],
+   "statutes": [
+    "Insolvency and Bankruptcy Code, 2016, ss. 30, 31, 61"
+   ],
+   "links": [],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://ibbi.gov.in/uploads/order/2026-11-17-115545-7k4re-7fa2ff2a01f4c3fa9a1edd7990984744.pdf",
+   "facts": "A single resolution plan was approved for thirteen companies of one group. Three dissenting lenders appealed, and the NCLAT set the approval aside.",
+   "forum": "sc",
+   "area": "ibc-creditors"
+  },
+  {
+   "id": "AGGARWAL-EQUENTIA",
+   "title": "Sangeeta Aggarwal v. Equentia Financial Services Pvt. Ltd.",
+   "court": "National Company Law Appellate Tribunal, New Delhi",
+   "date": "2026-11-06",
+   "neutral_citation": "",
+   "report_citation": "",
+   "case_no": "Company Appeal (AT) (Insolvency) No. 1804 of 2026 and connected appeal",
+   "bench": "Justice Mohammad Faiz Alam Khan (Judicial Member) and Naresh Salecha (Technical Member)",
+   "topic": "Personal guarantors: interim moratorium after the 2026 amendment",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "Does the 2026 amendment to section 96, which removed the automatic interim moratorium, apply to personal insolvency cases filed before it?",
+   "holding": [
+    "Yes. The amended section 96, in force from 26-05-2026, applies to pending proceedings as well.",
+    "So there was no interim moratorium when the orders under challenge were passed on 31-08-2026."
+   ],
+   "impact": [
+    "A guarantor can no longer stall recovery merely by having a pending personal insolvency application filed before the amendment.",
+    "Lenders may continue SARFAESI, DRT and other action against such guarantors unless a moratorium is ordered."
+   ],
+   "statutes": [
+    "Insolvency and Bankruptcy Code, 2016, ss. 95, 96 (as amended in 2026)"
+   ],
+   "links": [],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://nclat.nic.in/display-board/view_order_pdf?fid=9910110104252026&&l=delhi&&d=2026-11-06&&order_type=J",
+   "facts": "Personal guarantors argued that the interim moratorium from their earlier filing still protected them.",
+   "forum": "nclat",
+   "area": "guarantees"
+  },
+  {
+   "id": "AGARWAL-ILFS",
+   "title": "Manoj Kumar Agarwal v. IL&FS Financial Services Ltd.",
+   "court": "National Company Law Appellate Tribunal, New Delhi",
+   "date": "2026-11-06",
+   "neutral_citation": "",
+   "report_citation": "",
+   "case_no": "Company Appeal (AT) (Insolvency) No. 1844 of 2026",
+   "bench": "Justice Mohammad Faiz Alam Khan (Judicial Member) and Naresh Salecha (Technical Member)",
+   "topic": "Borrower's acknowledgement binds the guarantor on limitation",
+   "sectors": [
+    "lending"
+   ],
+   "issue": "Is a lender's insolvency application against a personal guarantor in time where only the borrower acknowledged the debt?",
+   "holding": [
+    "Yes, where the guarantee says that an acknowledgement by the borrower binds the guarantor. The guarantor's liability is co-extensive with the borrower's.",
+    "The admission of the lender's section 95 application was upheld."
+   ],
+   "impact": [
+    "Keep a clause in the guarantee that the borrower's acknowledgements and admissions bind the guarantor."
+   ],
+   "statutes": [
+    "Insolvency and Bankruptcy Code, 2016, s. 95",
+    "Limitation Act, 1963, s. 18",
+    "Indian Contract Act, 1872, s. 128"
+   ],
+   "links": [],
+   "status": "Current",
+   "status_note": "",
+   "url": "https://nclat.nic.in/display-board/view_order_pdf?fid=9910122110732026&&l=delhi&&d=2026-11-06&&order_type=J",
+   "facts": "A personal guarantor said the claim against him was time-barred because he had not himself acknowledged the debt.",
+   "forum": "nclat",
+   "area": "guarantees"
+  },
   {
    "id": "YES-AT1",
    "title": "Yes Bank Ltd v. Axis Trustee Services Ltd",

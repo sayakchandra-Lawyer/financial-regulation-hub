@@ -1,8 +1,8 @@
 {
  "meta": {
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "window_from": "2025-11-21",
-  "window_to": "2026-11-26",
+  "window_to": "2026-11-27",
   "entities": [
    {
     "key": "eq",
@@ -32,6 +32,117 @@
   ]
  },
  "updates": [
+  {
+   "id": "U-2026-11-25-ENCUMB",
+   "date": "2026-11-25",
+   "kind": "Exchange circular",
+   "title": "Higher margin on shares with high promoter and non-promoter encumbrance: list revised",
+   "ref": "NSE/SURV/77601",
+   "url": "https://nsearchives.nseindia.in/content/circulars/SURV77601.zip",
+   "effective": "2026-11-30",
+   "instrument": "",
+   "applies": "Trading members and investors in the listed shares; lenders against those shares.",
+   "changes": [
+    "Shares that meet the encumbrance criteria attract a minimum 75% margin in the equity and equity derivatives segments from 30-11-2026.",
+    "The circular lists shares added to, and moved out of, the framework. BSE issued a matching notice.",
+    "Inclusion is a surveillance measure and not an adverse finding against the company."
+   ],
+   "impact": {
+    "lend": {
+     "level": "Medium",
+     "text": "Check pledged shares against the list; higher margins can reduce liquidity and trigger top-ups."
+    },
+    "eq": {
+     "level": "Low",
+     "text": "Heavily pledged promoters may see their company listed."
+    },
+    "inv": {
+     "level": "Low",
+     "text": "Higher margin on the listed shares."
+    }
+   },
+   "actions": [
+    "Loan-against-shares desks: screen collateral against the revised list."
+   ],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-20-ALGO",
+   "date": "2026-11-20",
+   "kind": "Exchange circular",
+   "title": "Retail algorithmic trading: compliance reminder on static IP use",
+   "ref": "NSE/INSP/77559",
+   "url": "https://nsearchives.nseindia.in/content/circulars/INSP77559.pdf",
+   "effective": "",
+   "instrument": "",
+   "applies": "Trading members, algorithm providers and clients using algorithmic trading.",
+   "changes": [
+    "Under the retail algo framework in force from 01-04-2026, strategies run on the broker's servers; only a \"tech-savvy\" client may host its own algorithm, on a static IP.",
+    "The exchange has received complaints that some empanelled algorithm providers misuse the static IP facility, and reminds members to comply. BSE issued a matching notice."
+   ],
+   "impact": {
+    "arr": {
+     "level": "Medium",
+     "text": "Brokers must check how algo providers and clients use static IPs."
+    },
+    "inv": {
+     "level": "Low",
+     "text": "Retail algo users should use only broker-hosted or properly registered set-ups."
+    }
+   },
+   "actions": [
+    "Brokers: review static IP mappings and algo-provider arrangements."
+   ],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-09-IADIGI",
+   "date": "2026-11-09",
+   "kind": "Exchange notice",
+   "title": "Investment advisers must confirm their websites, apps and social media handles on the exchange portal",
+   "ref": "BSE Notice No. 20261109-1",
+   "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20261109-1",
+   "effective": "",
+   "instrument": "",
+   "applies": "Registered investment advisers (a matching notice covers research analysts).",
+   "changes": [
+    "BSE opened a \"Digital Platform\" facility on its portal for advisers to submit or correct details of the websites, mobile apps and social media handles they use.",
+    "Details already filed are pre-filled; advisers verify and submit."
+   ],
+   "impact": {
+    "arr": {
+     "level": "Medium",
+     "text": "Advisers and research analysts in the group must file or confirm the details."
+    }
+   },
+   "actions": [
+    "File or confirm digital platform details on the exchange portal."
+   ],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-02-CUSTPAY",
+   "date": "2026-11-02",
+   "kind": "Exchange circular",
+   "title": "Non-settlement payments from custodians to trading members move to the T+1 cycle",
+   "ref": "NCL/CMPT/77231",
+   "url": "https://nsearchives.nseindia.in/content/circulars/CMPT77231.pdf",
+   "effective": "",
+   "instrument": "",
+   "applies": "Custodians, clearing members and trading members in the cash market.",
+   "changes": [
+    "Custodians upload the payment file by 4:00 PM on settlement day; the clearing corporation debits the custodian and credits the clearing member the same day.",
+    "These payments are kept apart from settlement obligations and are not guaranteed by the clearing corporation. BSE issued a matching notice."
+   ],
+   "impact": {
+    "arr": {
+     "level": "Low",
+     "text": "Operational change for brokers with institutional clients."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
   {
    "id": "U-2026-11-01-FURTHER",
    "date": "2026-10-21",

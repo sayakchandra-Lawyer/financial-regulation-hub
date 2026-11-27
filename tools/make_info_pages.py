@@ -72,7 +72,7 @@ ABOUT = '''      <div class="eyebrow">About</div>
       <h2>How to use it</h2>
       <ul>
         <li><b>Search</b> from the home page across every section, or inside one section.</li>
-        <li><b>What changed this week</b> on the home page lists new and amended rules, each linked to the regulator's own notice.</li>
+        <li><b>What changed this month</b> on the home page lists new and amended rules, each linked to the regulator's own notice.</li>
         <li><b>Ask Not So Intelligent AI</b> (bottom right on the home and section pages) answers questions from the texts on this site and cites the provision. Treat its answers as a pointer, not an opinion.</li>
       </ul>
       <h2>Independent and unofficial</h2>

@@ -1,8 +1,8 @@
 {
  "meta": {
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-27",
   "window_from": "2025-01-01",
-  "window_to": "2026-11-25",
+  "window_to": "2026-11-27",
   "entities": [
    {
     "key": "life",
@@ -41,7 +41,8 @@
     "Sets up the committee that manages the Fund under regulation 7(2).",
     "Members serve two years, extendable by two more."
    ],
-   "actions": []
+   "actions": [],
+   "weight": 2
   },
   {
    "id": "U-2026-11-24-HCLM",
@@ -63,7 +64,8 @@
      "text": "Expect proposals on claim metrics, standard rejection and deduction reason codes, and claim tracking."
     }
    },
-   "actions": []
+   "actions": [],
+   "weight": 3
   },
   {
    "id": "U-2026-11-23-DIST",
@@ -97,7 +99,8 @@
      "text": "Same."
     }
    },
-   "actions": []
+   "actions": [],
+   "weight": 3
   },
   {
    "id": "U-2026-11-23-OMBAC",
@@ -113,7 +116,8 @@
     "Re-constitutes the committee under rule 19(1) of the Insurance Ombudsman Rules, 2017 for two years.",
     "It meets at least twice a year and reports every year."
    ],
-   "actions": []
+   "actions": [],
+   "weight": 2
   },
   {
    "id": "U-2026-11-20-ENF",
@@ -137,7 +141,8 @@
    },
    "actions": [
     "Sample recent repudiations and deductions for a policy-term basis."
-   ]
+   ],
+   "weight": 1
   },
   {
    "id": "U-2026-11-10-RBC",
@@ -163,7 +168,8 @@
      "text": "Same."
     }
    },
-   "actions": []
+   "actions": [],
+   "weight": 3
   },
   {
    "id": "U-2026-11-03-SICC",
@@ -193,7 +199,8 @@
      "text": "Same."
     }
    },
-   "actions": []
+   "actions": [],
+   "weight": 1
   },
   {
    "id": "U-2026-11-02-MOTOR",
@@ -219,7 +226,8 @@
      "text": "Same."
     }
    },
-   "actions": []
+   "actions": [],
+   "weight": 2
   },
   {
    "id": "U-2026-11-02-REGN",
@@ -247,7 +255,8 @@
    },
    "actions": [
     "Update internal checklists for share transfer approvals to the new forms."
-   ]
+   ],
+   "weight": 2
   },
   {
    "id": "U-2026-09-23-DISTCP",

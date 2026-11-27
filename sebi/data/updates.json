@@ -1,8 +1,8 @@
 {
  "meta": {
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-27",
   "window_from": "2026-09-01",
-  "window_to": "2026-11-25",
+  "window_to": "2026-11-27",
   "entities": [
    {
     "key": "equity",
@@ -32,6 +32,32 @@
   ]
  },
  "updates": [
+  {
+   "id": "U-2026-11-27-FPIETCD",
+   "date": "2026-11-27",
+   "kind": "Circular",
+   "title": "Foreign portfolio investors allowed in physically settled non-agricultural commodity derivatives",
+   "ref": "HO/47/16/13(17)2026-MRD-POD1/I/26650/2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/fpi-participation-in-exchange-traded-commodity-derivatives-etcds-_105989.html",
+   "effective": "2027-06-01",
+   "instrument": "",
+   "applies": "Foreign portfolio investors, commodity exchanges, clearing corporations and their members.",
+   "changes": [
+    "FPIs may trade physically settled non-agricultural commodity derivatives, with safeguards.",
+    "An FPI cannot take fresh positions in the three trading days before the tender period; positions left open pass to its designated trading or clearing member.",
+    "In force from 01-06-2027; exchanges and clearing corporations amend their rules before then."
+   ],
+   "impact": {
+    "broker": {
+     "level": "Medium",
+     "text": "Members serving FPIs take on residual positions at expiry; build the process."
+    }
+   },
+   "actions": [
+    "Commodity brokers: agree the designated-member arrangement with FPI clients before June 2027."
+   ],
+   "weight": 2
+  },
   {
    "id": "U-2026-11-25-KRA",
    "date": "2026-11-25",
@@ -63,7 +89,186 @@
    },
    "actions": [
     "Update account opening forms and KRA upload processes before 24-12-2026."
-   ]
+   ],
+   "weight": 3
+  },
+  {
+   "id": "U-2026-11-25-SIGIDX",
+   "date": "2026-11-25",
+   "kind": "Circular",
+   "title": "Half-yearly review of \"Significant Indices\": list unchanged",
+   "ref": "",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/half-yearly-review-of-significant-indices-under-sebi-index-providers-regulations-2024_105853.html",
+   "effective": "2026-11-25",
+   "instrument": "",
+   "applies": "Index providers and asset management companies using the listed indices.",
+   "changes": [
+    "SEBI reviewed the list of significant indices under the Index Providers Regulations, 2024. The list is unchanged."
+   ],
+   "impact": {
+    "amc": {
+     "level": "Low",
+     "text": "No change to index-provider arrangements."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-25-EPOCP",
+   "date": "2026-11-25",
+   "kind": "Consultation paper",
+   "title": "Proposal: early pay-out of funds for Farmer Producer Organisations in commodity derivatives",
+   "ref": "",
+   "url": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2026/consultation-paper-on-early-pay-out-epo-of-funds-for-farmer-producer-organisations-fpos-_105850.html",
+   "effective": "",
+   "instrument": "",
+   "applies": "Commodity exchanges, clearing corporations and members serving Farmer Producer Organisations.",
+   "changes": [
+    "SEBI proposes an early pay-out of funds to Farmer Producer Organisations that deliver on commodity derivative contracts.",
+    "Comments are due by 16-12-2026."
+   ],
+   "impact": {
+    "broker": {
+     "level": "Low",
+     "text": "Relevant to commodity brokers with FPO clients."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-23-GMP",
+   "date": "2026-11-23",
+   "kind": "Press release",
+   "title": "Advisory against publishing grey market premium for upcoming IPOs",
+   "ref": "",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/advisory-regarding-unregulated-pre-listing-premium-often-called-as-grey-market-premium-gmp-for-upcoming-initial-public-offers-ipos-_105942.html",
+   "effective": "",
+   "instrument": "",
+   "applies": "Registered intermediaries, issuers and investors.",
+   "changes": [
+    "SEBI states that the pre-listing or \"grey market\" premium is unregulated and unreliable.",
+    "Registered intermediaries are told not to publish or circulate grey market premium for upcoming public issues."
+   ],
+   "impact": {
+    "broker": {
+     "level": "Medium",
+     "text": "Remove grey market premium from apps, research notes and social media."
+    },
+    "equity": {
+     "level": "Low",
+     "text": "Issuers and their bankers should not refer to it."
+    },
+    "amc": {
+     "level": "Low",
+     "text": "Same caution for distributor communication."
+    }
+   },
+   "actions": [
+    "Review websites, apps and social media handles for grey market premium content."
+   ],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-20-FPIADD",
+   "date": "2026-11-20",
+   "kind": "Consultation paper",
+   "title": "Proposal to review the additional disclosure framework for foreign portfolio investors",
+   "ref": "",
+   "url": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2026/consultation-paper-on-proposal-to-review-the-additional-disclosure-framework-for-foreign-portfolio-investors-_105926.html",
+   "effective": "",
+   "instrument": "",
+   "applies": "Foreign portfolio investors, designated depository participants and custodians.",
+   "changes": [
+    "SEBI proposes changes to the rules that require granular ownership disclosures from FPIs with concentrated or large Indian equity holdings.",
+    "Comments are due by 11-12-2026."
+   ],
+   "impact": {
+    "equity": {
+     "level": "Low",
+     "text": "May change which FPI shareholders face disclosure-driven sell-downs."
+    },
+    "broker": {
+     "level": "Low",
+     "text": "Custody and DDP processes may change."
+    }
+   },
+   "actions": [],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-20-MIIGOV",
+   "date": "2026-11-20",
+   "kind": "Consultation paper",
+   "title": "Proposal to strengthen governance of market infrastructure institutions",
+   "ref": "",
+   "url": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2026/consultation-paper-on-strengthening-the-governance-of-market-infrastructure-institutions-miis-_105928.html",
+   "effective": "",
+   "instrument": "",
+   "applies": "Stock exchanges, clearing corporations and depositories.",
+   "changes": [
+    "Proposals for public interest directors: maximum age to fall from 75 to 70; at most two terms of three years across all such institutions, down from three; membership of at most four statutory committees.",
+    "Changes are also proposed to the tenure of managing directors and executive directors.",
+    "Comments are due by 11-12-2026. SEBI issued a clarification on media reports about the paper on 27-11-2026."
+   ],
+   "impact": {
+    "broker": {
+     "level": "Low",
+     "text": "No direct obligation on members."
+    }
+   },
+   "actions": [],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-17-COMMARG",
+   "date": "2026-11-17",
+   "kind": "Circular",
+   "title": "Review of margin framework for commodity derivatives",
+   "ref": "",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-margin-framework-for-commodity-derivatives-segment_105799.html",
+   "effective": "2026-12-01",
+   "instrument": "",
+   "applies": "Commodity exchanges, clearing corporations and their members.",
+   "changes": [
+    "Minimum initial margin is set at 6%, 8% or 10% according to the commodity's volatility category, for agricultural and non-agricultural commodities.",
+    "The margin period of risk is two days for the first two categories and three days for the most volatile.",
+    "In force from 01-12-2026 and valid for one year."
+   ],
+   "impact": {
+    "broker": {
+     "level": "Medium",
+     "text": "Margin calls and client funding change from 01-12-2026."
+    }
+   },
+   "actions": [
+    "Commodity brokers: update margin files and tell clients before 01-12-2026."
+   ],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-16-ICDRGRP",
+   "date": "2026-11-16",
+   "kind": "Press release",
+   "title": "Sub-group formed to review parts of the ICDR Regulations",
+   "ref": "",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-constitutes-a-sub-group-of-pmac-to-review-specified-provisions-of-the-sebi-icdr-regulations-2018_105790.html",
+   "effective": "",
+   "instrument": "",
+   "applies": "Issuers, merchant bankers and investors in public and rights issues.",
+   "changes": [
+    "A sub-group of the Primary Market Advisory Committee will review Chapters II, IIA, IV, V and VI of the ICDR Regulations, 2018.",
+    "No rule changes yet; proposals would follow as a consultation paper."
+   ],
+   "impact": {
+    "equity": {
+     "level": "Low",
+     "text": "Watch for proposals on IPOs, rights issues and preferential issues."
+    }
+   },
+   "actions": [],
+   "weight": 1
   },
   {
    "id": "U-2026-11-11-FATCA",
@@ -95,7 +300,8 @@
    },
    "actions": [
     "Review on-boarding and reporting systems for the new mandatory fields."
-   ]
+   ],
+   "weight": 1
   },
   {
    "id": "U-2026-11-07-SETTLE",
@@ -136,7 +342,8 @@
    },
    "actions": [
     "Check any pending show cause notices against the 90-day window."
-   ]
+   ],
+   "weight": 3
   },
   {
    "id": "U-2026-11-06-AMLCP",
@@ -166,7 +373,8 @@
      "text": "Same."
     }
    },
-   "actions": []
+   "actions": [],
+   "weight": 1
   },
   {
    "id": "U-2026-11-05-AI",
@@ -194,7 +402,8 @@
    },
    "actions": [
     "Set up a documented accreditation process if using the manager route."
-   ]
+   ],
+   "weight": 2
   },
   {
    "id": "U-2026-11-05-MFNET",
@@ -220,7 +429,70 @@
      "text": "Settlement processes with mutual fund clients change."
     }
    },
-   "actions": []
+   "actions": [],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-05-CURDER",
+   "date": "2026-11-05",
+   "kind": "Circular",
+   "title": "Currency derivatives: single USD 5 million limit without establishing underlying exposure",
+   "ref": "",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/revision-of-limits-relating-to-requirement-of-underlying-exposure-for-currency-derivatives-contracts_105614.html",
+   "effective": "2026-11-05",
+   "instrument": "",
+   "applies": "Stock exchanges, clearing corporations, members and clients trading exchange-traded currency derivatives.",
+   "changes": [
+    "Domestic clients and foreign portfolio investors may take positions up to USD 5 million (notional, outstanding at any time), across all rupee currency pairs and all exchanges together, without having to establish that an underlying exposure exists.",
+    "Follows RBI's A.P. (DIR Series) Circular No. 25 of 10-10-2026."
+   ],
+   "impact": {
+    "broker": {
+     "level": "Medium",
+     "text": "Update position monitoring and client declarations."
+    }
+   },
+   "actions": [
+    "Brokers: change limit monitoring to the combined USD 5 million test."
+   ],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-05-PITFAQ",
+   "date": "2026-11-05",
+   "kind": "FAQs",
+   "title": "Comprehensive FAQs on the Insider Trading Regulations",
+   "ref": "",
+   "url": "https://www.sebi.gov.in/enforcement/clarifications-on-insider-trading/nov-2026/comprehensive-faqs-on-sebi-pit-regulations-2015_105787.html",
+   "effective": "",
+   "instrument": "",
+   "applies": "Listed companies, their designated persons, intermediaries and fiduciaries.",
+   "changes": [
+    "SEBI published a consolidated set of FAQs on the Prohibition of Insider Trading Regulations, 2015.",
+    "FAQs give SEBI's view and do not amend the regulations."
+   ],
+   "impact": {
+    "equity": {
+     "level": "Medium",
+     "text": "Check the code of conduct, trading window and pre-clearance practice against the FAQs."
+    },
+    "debt": {
+     "level": "Medium",
+     "text": "Same for debt-listed issuers."
+    },
+    "amc": {
+     "level": "Low",
+     "text": "Check employee dealing rules."
+    },
+    "broker": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Compliance officers: compare the insider trading code with the FAQs."
+   ],
+   "weight": 2
   },
   {
    "id": "U-2026-11-04-PROI",
@@ -246,7 +518,90 @@
      "text": "Same."
     }
    },
-   "actions": []
+   "actions": [],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-04-IGPWG",
+   "date": "2026-11-04",
+   "kind": "Press release",
+   "title": "Working group to review the Innovators Growth Platform",
+   "ref": "",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-constitutes-working-group-to-review-the-innovators-growth-platform-framework_105610.html",
+   "effective": "",
+   "instrument": "",
+   "applies": "Start-ups, their investors and merchant bankers.",
+   "changes": [
+    "SEBI set up a working group to review the framework for listing on the Innovators Growth Platform.",
+    "No rule changes yet."
+   ],
+   "impact": {
+    "equity": {
+     "level": "Low",
+     "text": "For information."
+    },
+    "aif": {
+     "level": "Low",
+     "text": "May widen exit routes for portfolio companies."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-02-INVITOFS",
+   "date": "2026-11-02",
+   "kind": "Circular",
+   "title": "Cooling-off period for offer for sale by privately listed InvITs",
+   "ref": "HO/17/11/17(7)2026-DDHS-POD2/I/24929/2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/cooling-off-period-for-offer-for-sale-by-private-listed-invits_105539.html",
+   "effective": "2026-11-02",
+   "instrument": "",
+   "applies": "Privately listed InvITs, their sponsors and unitholders, and stock exchanges.",
+   "changes": [
+    "Where units are illiquid, the cooling-off period before and after an offer for sale is eight weeks.",
+    "The offer stays open for one day."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Low",
+     "text": "Relevant to InvIT sponsors and investors planning exits."
+    },
+    "aif": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-02-DRUNITS",
+   "date": "2026-11-02",
+   "kind": "Circular",
+   "title": "Frameworks for depository receipts on units of InvITs and REITs",
+   "ref": "HO/17/11/17(7)2026-DDHS-POD2/I/24930/2026 and I/24932/2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-invits-_105557.html",
+   "effective": "2026-11-02",
+   "instrument": "",
+   "applies": "Listed InvITs and REITs, their managers, custodians and depositories.",
+   "changes": [
+    "Listed InvITs and REITs may have depository receipts issued on their units and listed on an international exchange in a permissible jurisdiction.",
+    "The underlying units are held by a domestic custodian, and the trust must meet eligibility conditions.",
+    "A parallel circular of the same date covers REITs."
+   ],
+   "impact": {
+    "debt": {
+     "level": "Medium",
+     "text": "A new overseas fund-raising route for InvITs and REITs."
+    },
+    "aif": {
+     "level": "Low",
+     "text": "For information."
+    }
+   },
+   "actions": [],
+   "weight": 2
   },
   {
    "id": "U-2026-10-30-ACC",
