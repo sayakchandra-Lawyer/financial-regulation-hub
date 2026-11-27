@@ -135,7 +135,7 @@
   <div class="wrap">
     <section class="card nb" id="nb" aria-label="Latest updates" hidden></section>
 
-    <div class="sec-h"><h2 id="updh">What changed this week</h2></div>
+    <div class="sec-h"><h2 id="updh">What changed this month</h2></div>
     <div class="ucol" id="upds"></div>
 
     <div class="sec-h"><h2>Browse by regulator/<wbr>subject</h2><a class="lnk elink" href="entity/">What applies to my entity?<span class="wk"> Build it across regulators</span>&nbsp;→</a></div>
@@ -164,7 +164,7 @@
   const unit = () => K() === "rbi" ? "layer" : "role";
   function lensNote(){
     const m = M(), c = $("#ctx"); if (!m) return;
-    if (L() < 0) { c.innerHTML = `<span>Pick who you are to narrow the weekly changes and search.</span>`; return; }
+    if (L() < 0) { c.innerHTML = `<span>Pick who you are to narrow this month's changes and search.</span>`; return; }
     const n = m.items.filter(it => appliesAt(m, it, L())).length, who = lay.options[lay.selectedIndex].text;
     c.innerHTML = `<span>Showing: <b>${esc(who)}</b></span><span class="sep"></span><span>${n} ${NAME[K()]} instruments apply</span><span class="sep"></span><button class="lnk" type="button" id="lreset">Reset</button><span style="width:100%;font-size:13px;color:var(--muted)">Tasks, search and weekly changes follow this choice. A guide, not an applicability opinion.</span>`;
     $("#lreset").addEventListener("click", () => resetTo(K()));
@@ -265,7 +265,7 @@
     lensNote(); renderUpdates(); judge(); if ($("#q").value.trim()) runSearch();
   });
 
-  /* updates: one group per live regulator; last 7 days, or the latest 3 if nothing that recent */
+  /* updates: one group per live regulator; this calendar month, or the last two updates if nothing yet this month */
   const isProp = u => /draft|consult|propos|exposure|discussion paper/i.test(u.kind);
   function updTags(m, k, u){
     const it = m.byId.get(u.instrument), t = [];
@@ -275,7 +275,7 @@
     const lensKeys = u.impact && m.sec.lenses ? Object.keys(u.impact).map(key => m.lenses.find(x => x[2] === key)).filter(Boolean) : [];
     if (lensKeys.length) lensKeys.forEach(l => t.push(`<span class="pill p-grey">${esc(l[1])}</span>`));
     else if (it) t.push(`<span class="pill p-grey">${esc(layerNote(m, it))}</span>`);
-    else if (!isProp(u) && !/enforce|penalt/i.test(u.kind)) t.push(`<span class="pill p-grey">No rule change</span>`);
+    else if (!isProp(u) && !/enforce|penalt|direction|regulation|rules|circular|notification|amend/i.test(u.kind)) t.push(`<span class="pill p-grey">No rule change</span>`);
     return t.join("");
   }
   function updFits(m, k, u){
@@ -284,13 +284,13 @@
     const it = m.byId.get(u.instrument); return !it || appliesAt(m, it, L());
   }
   const iso = d => d.toISOString().slice(0, 10);
-  const TODAY = new Date(), WEEK_FROM = iso(new Date(TODAY.getTime() - 7 * 864e5));
+  const TODAY = new Date(), WEEK_FROM = iso(TODAY).slice(0, 8) + "01";
   function updGroup(k){
     const m = MS[k], h = secs[k].href; if (!m || !m.updates.length) return "";
     const all = [...m.updates].sort((x, y) => String(y.date).localeCompare(String(x.date)));
-    const week = all.filter(u => String(u.date) >= WEEK_FROM), recent = week.length > 0;
-    const base = recent ? week : all.slice(0, 3), shown = base.filter(u => updFits(m, k, u)).slice(0, 5), hidden = base.length - base.filter(u => updFits(m, k, u)).length;
-    const sub = recent ? `${fmtDate(WEEK_FROM, false)} – ${fmtDate(iso(TODAY), false)}` : "Nothing in the last 7 days. Latest 3:";
+    const week = all.filter(u => String(u.date) >= WEEK_FROM).sort((x, y) => (y.weight || 1) - (x.weight || 1)), recent = week.length > 0;
+    const base = recent ? week : all.slice(0, 2), shown = base.filter(u => updFits(m, k, u)).slice(0, 7), hidden = base.length - base.filter(u => updFits(m, k, u)).length;
+    const sub = recent ? `${fmtDate(WEEK_FROM, false)} – ${fmtDate(iso(TODAY), false)}` : "Nothing yet this month. Last two updates:";
     const cards = shown.map(u => {
       const it = m.byId.get(u.instrument);
       return `<div class="card upd" style="--c:var(--${k})">
@@ -299,16 +299,34 @@
         ${it ? `<div class="tag">${esc(it.label)}</div>` : ""}<div class="utags">${updTags(m, k, u)}</div>${u.url ? `<a class="lnk usrc" href="${esc(u.url)}" target="_blank" rel="noopener">Source ${I.ext || ""}</a>` : ""}</div>`;
     }).join("");
     const n = week.length, sec = hub.sections.find(x => x.id === k) || {};
-    const cnt = recent ? `<span class="pill p-live">${n} update${n>1?"s":""}</span>` : `<span class="pill p-soon">No changes<span class="wk"> this week</span></span>`;
+    const cnt = recent ? `<span class="pill p-live">${n} update${n>1?"s":""}</span>` : `<span class="pill p-soon">No changes<span class="wk"> this month</span></span>`;
     return `<details class="card ureg" style="--c:var(--${k})" data-k="${k}"${OPEN.has(k)?" open":""}>
       <summary><span class="ic">${I[k] || I.misc}</span><span class="un"><b>${esc(NAME[k])}</b><span class="tag">${esc(sec.line || "")}</span></span>${cnt}<span class="chev" aria-hidden="true"></span></summary>
       <div class="ubody"><div class="ubar"><span class="tag">${esc(sub)}</span><a class="lnk" href="${h}#changes">See all ${esc(NAME[k])} changes</a></div>
       <div class="ulist">${cards || `<p class="tag">Nothing here for your ${unit()}.</p>`}</div>
+      ${base.length - hidden > shown.length ? `<p class="hid"><a class="lnk" href="${h}#changes">+ ${base.length - hidden - shown.length} more this month</a></p>` : ""}
       ${hidden > 0 ? `<p class="hid">${hidden} more not shown for your ${unit()}. <button class="lnk" type="button" data-reset="${k}">Show everything</button></p>` : ""}</div></details>`;
+  }
+  let JUDS = null;
+  function judGroup(){
+    if (!JS || !JUDS || !JUDS.length) return "";
+    const all = [...JUDS].sort((x, y) => String(y.date).localeCompare(String(x.date)));
+    const mo = all.filter(j => String(j.date) >= WEEK_FROM), recent = mo.length > 0, base = recent ? mo : all.slice(0, 2), shown = base.slice(0, 7), n = mo.length;
+    const sub = recent ? `${fmtDate(WEEK_FROM, false)} – ${fmtDate(iso(TODAY), false)}` : "Nothing yet this month. Last two rulings:";
+    const cards = shown.map(j => `<div class="card upd" style="--c:var(--jud)">
+        <div class="m"><span class="dot"></span><span class="uk">${esc(trunc(j.court, 60))}</span><span class="ud">${fmtDate(j.date, !recent)}</span></div>
+        <a class="ua" href="${JS.href}#j/${encodeURIComponent(j.id)}">${esc(trunc(j.title, 120))}</a>
+        <div class="tag">${esc(j.topic || "")}</div>${j.url ? `<a class="lnk usrc" href="${esc(j.url)}" target="_blank" rel="noopener">Source ${I.ext || ""}</a>` : ""}</div>`).join("");
+    const cnt = recent ? `<span class="pill p-live">${n} ruling${n>1?"s":""}</span>` : `<span class="pill p-soon">No changes<span class="wk"> this month</span></span>`;
+    return `<details class="card ureg" style="--c:var(--jud)" data-k="jud"${OPEN.has("jud")?" open":""}>
+      <summary><span class="ic">${I.jud || I.misc}</span><span class="un"><b>${esc(NAME.jud || "Judgments")}</b><span class="tag">${esc(JS.line || "")}</span></span>${cnt}<span class="chev" aria-hidden="true"></span></summary>
+      <div class="ubody"><div class="ubar"><span class="tag">${esc(sub)}</span><a class="lnk" href="${JS.href}">See all judgments</a></div>
+      <div class="ulist">${cards}</div>
+      ${base.length > shown.length ? `<p class="hid"><a class="lnk" href="${JS.href}">+ ${base.length - shown.length} more this month</a></p>` : ""}</div></details>`;
   }
   function renderUpdates(){
     const order = [K(), ...Object.keys(secs).filter(k => k !== K())];
-    $("#upds").innerHTML = order.map(updGroup).join("") || `<p class="tag">No updates recorded yet.</p>`;
+    $("#upds").innerHTML = (order.map(updGroup).join("") + judGroup()) || `<p class="tag">No updates recorded yet.</p>`;
     $$("[data-reset]").forEach(b => b.addEventListener("click", () => resetTo(b.dataset.reset)));
     $$("#upds details").forEach(d => d.addEventListener("toggle", () => d.open ? OPEN.add(d.dataset.k) : OPEN.delete(d.dataset.k)));
   }
@@ -474,6 +492,7 @@
   const I_PAUSE = `<svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><rect x="3" y="2" width="3" height="10" rx="1"/><rect x="8" y="2" width="3" height="10" rx="1"/></svg>`;
   const I_PLAY = `<svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path d="M4 2.5v9l7-4.5z"/></svg>`;
   renderUpdates(); renderRegs(); lensNote(); judge(); renderBand();
+  if (JS) fetch(JS.data.judgments).then(r => r.json()).then(d => { JUDS = d.judgments || []; renderUpdates(); }).catch(() => {});
   $("#asof").textContent = Object.keys(MS).map((k, i) => `${NAME[k]}${i ? "" : " register"} as on ${fmtDate(MS[k].meta.as_of)}`).join(" · ");
 })();
 </script>

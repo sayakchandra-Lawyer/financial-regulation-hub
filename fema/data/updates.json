@@ -1,8 +1,8 @@
 {
  "meta": {
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "window_from": "2026-01-01",
-  "window_to": "2026-11-26",
+  "window_to": "2026-11-27",
   "entities": [
    {
     "key": "borrower",
@@ -32,6 +32,41 @@
   ]
  },
  "updates": [
+  {
+   "id": "U-2026-11-02-EXIM2",
+   "date": "2026-11-02",
+   "kind": "Amendment Regulations",
+   "title": "Export and Import of Goods and Services (Second Amendment) Regulations, 2026",
+   "ref": "Notification No. FEMA 23(R)/(2)/2026-RB",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13750&Mode=0",
+   "effective": "2026-10-01",
+   "instrument": "",
+   "applies": "Exporters and importers of services, and authorised dealer banks.",
+   "changes": [
+    "In force from 01-10-2026. A new definition of \"resident individual\" is added.",
+    "A service exporter is treated as having filed the Export Declaration Form on giving the receipt details to the bank: this applies to resident individuals, and to others where the inward remittance is up to ₹10 lakh.",
+    "For service imports, the bank enters details in the import monitoring system (IDPMS) only for non-individual importers with an invoice or contract above ₹10 lakh, within five working days.",
+    "RBI issued a press release and FAQs on the new trade regulations on 20-11-2026."
+   ],
+   "impact": {
+    "borrower": {
+     "level": "Low",
+     "text": "Less paperwork for small service exports and imports."
+    },
+    "adbank": {
+     "level": "Medium",
+     "text": "Update export and import monitoring workflows."
+    },
+    "nbfc": {
+     "level": "Low",
+     "text": "No change to borrowing or lending rules."
+    }
+   },
+   "actions": [
+    "Authorised dealer banks: update EDF and IDPMS processes for services."
+   ],
+   "weight": 2
+  },
   {
    "id": "U-2026-10-23-COMP",
    "date": "2026-10-23",

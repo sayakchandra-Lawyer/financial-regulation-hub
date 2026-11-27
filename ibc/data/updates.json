@@ -1,8 +1,8 @@
 {
  "meta": {
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "window_from": "2025-12-01",
-  "window_to": "2026-11-26",
+  "window_to": "2026-11-27",
   "entities": [
    {
     "key": "creditor",
@@ -32,6 +32,59 @@
   ]
  },
  "updates": [
+  {
+   "id": "U-2026-11-26-CHAIR",
+   "date": "2026-11-26",
+   "kind": "Press release",
+   "title": "New Chairperson takes charge at IBBI",
+   "ref": "",
+   "url": "https://ibbi.gov.in/uploads/press/d3f7cef19fdf7a535e288aa41a0ba39a.pdf",
+   "effective": "",
+   "instrument": "",
+   "applies": "All stakeholders under the Code.",
+   "changes": [
+    "A new Chairperson took charge of the Insolvency and Bankruptcy Board of India on 26-11-2026.",
+    "A new ex-officio member was notified on 04-11-2026."
+   ],
+   "impact": {
+    "creditor": {
+     "level": "Low",
+     "text": "For information."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-13-IPORDERS",
+   "date": "2026-11-13",
+   "kind": "Enforcement order",
+   "title": "Disciplinary orders: three insolvency professionals suspended for two years each",
+   "ref": "",
+   "url": "https://ibbi.gov.in/uploads/order/4ca21b383f6b6e403cd6cdc056c8d1ec.pdf",
+   "effective": "",
+   "instrument": "",
+   "applies": "Insolvency professionals; creditors' committees that appoint them.",
+   "changes": [
+    "The IBBI Disciplinary Committee suspended the registration of three insolvency professionals for two years each, by orders of 03-11-2026, 12-11-2026 and 13-11-2026.",
+    "A suspended professional cannot continue existing assignments (section 206), so the creditors must replace them.",
+    "A fourth order of 09-11-2026 concerned the conduct of a liquidation, including valuation and a scheme placed without secured creditors' consent."
+   ],
+   "impact": {
+    "creditor": {
+     "level": "Medium",
+     "text": "Check whether a suspended professional is acting in any of your cases and move for a replacement."
+    },
+    "ip": {
+     "level": "Medium",
+     "text": "The orders show the conduct IBBI penalises."
+    }
+   },
+   "actions": [
+    "Creditors: check current resolution professionals and liquidators against IBBI's orders page."
+   ],
+   "weight": 2
+  },
   {
    "id": "U-2026-10-30-RERA",
    "date": "2026-10-30",

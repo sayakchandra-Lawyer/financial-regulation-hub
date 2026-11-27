@@ -1,8 +1,8 @@
 {
  "meta": {
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "window_from": "2025-11-13",
-  "window_to": "2026-11-26",
+  "window_to": "2026-11-27",
   "entities": [
    {
     "key": "lender",
@@ -40,7 +40,7 @@
    "ref": "s. 6(9) and s. 27(1)(d) of the Act; rule 4 of the DPDP Rules, 2025",
    "instrument": "T-CONSENT",
    "effective": "2026-11-13",
-   "url": "https://www.meity.gov.in/data-protection-framework",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336151",
    "applies": "Companies that want to register as Consent Managers, and Data Fiduciaries that plan to accept consent through them.",
    "changes": [
     "Rule 4 and the First Schedule apply from 13-11-2026: an Indian company with net worth of at least Rs 2 crore and an independently certified platform may apply to the Board.",
@@ -63,7 +63,8 @@
    },
    "actions": [
     "Track which Consent Managers the Board registers and publishes on its website."
-   ]
+   ],
+   "weight": 3
   },
   {
    "id": "U-2026-10-06-ROD",

@@ -1,8 +1,8 @@
 {
  "meta": {
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "window_from": "2025-11-01",
-  "window_to": "2026-11-26",
+  "window_to": "2026-11-27",
   "entities": [
    {
     "key": "lender",
@@ -32,6 +32,118 @@
   ]
  },
  "updates": [
+  {
+   "id": "U-2026-11-18-HLCBANK",
+   "date": "2026-11-18",
+   "kind": "Press release",
+   "title": "High-Level Committee on Banking for Viksit Bharat begins stakeholder consultations",
+   "ref": "",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2337941",
+   "effective": "",
+   "instrument": "",
+   "applies": "Banks and other financial institutions.",
+   "changes": [
+    "The committee set up to recommend reforms to the banking sector has started consulting stakeholders.",
+    "No change in law yet."
+   ],
+   "impact": {
+    "lender": {
+     "level": "Low",
+     "text": "An opportunity to make submissions."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-12-FIUVDA",
+   "date": "2026-11-12",
+   "kind": "Order",
+   "title": "FIU-IND order against a virtual digital asset platform under PMLA section 13",
+   "ref": "Order No. 11/DIR/FIU-IND/2026",
+   "url": "https://fiuindia.gov.in/pdfs/judgements/Kraken_Order_11_2026.pdf",
+   "effective": "",
+   "instrument": "",
+   "applies": "Reporting entities under the PMLA, especially virtual digital asset service providers.",
+   "changes": [
+    "The Director, FIU-IND passed an order under section 13 of the PMLA against a virtual digital asset service provider.",
+    "See the order for the findings and the penalty."
+   ],
+   "impact": {
+    "digital": {
+     "level": "Low",
+     "text": "A reminder that FIU-IND enforces registration and reporting duties."
+    },
+    "lender": {
+     "level": "Low",
+     "text": "Same duties apply to lenders as reporting entities."
+    }
+   },
+   "actions": [],
+   "weight": 1
+  },
+  {
+   "id": "U-2026-11-11-CGFMU",
+   "date": "2026-11-11",
+   "kind": "Cabinet decision",
+   "title": "Credit Guarantee Fund for Micro Units and Stand-Up India continued to 31-03-2031",
+   "ref": "",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334977",
+   "effective": "",
+   "instrument": "",
+   "applies": "Banks, NBFCs and micro-finance institutions lending under the Mudra scheme and Stand-Up India.",
+   "changes": [
+    "The Cabinet approved the Credit Guarantee Fund for Micro Units for five more years, to 31-03-2031, with a corpus of ₹5,000 crore to guarantee Mudra loans.",
+    "Stand-Up India is also continued to 31-03-2031, with a credit guarantee corpus of ₹4,111 crore, aiming at 2.5 lakh more women and SC/ST entrepreneurs."
+   ],
+   "impact": {
+    "lender": {
+     "level": "Medium",
+     "text": "Guarantee cover for eligible micro loans continues."
+    },
+    "mfi": {
+     "level": "Medium",
+     "text": "Same."
+    },
+    "borrower": {
+     "level": "Low",
+     "text": "Continued access to collateral-free loans."
+    }
+   },
+   "actions": [
+    "Member lending institutions: watch for the revised scheme guidelines."
+   ],
+   "weight": 2
+  },
+  {
+   "id": "U-2026-11-04-CERTAI",
+   "date": "2026-11-04",
+   "kind": "Guidelines",
+   "title": "CERT-In guidelines on auditing the security of AI systems",
+   "ref": "CISG-2026-04",
+   "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=GUIDLNVIEW02&refcode=CISG-2026-04",
+   "effective": "",
+   "instrument": "",
+   "applies": "Organisations that build or deploy AI systems, and CERT-In empanelled auditors.",
+   "changes": [
+    "CERT-In published Artificial Intelligence (AI) Security Auditing Guidelines on 04-11-2026.",
+    "No new Directions under section 70B of the IT Act were issued in November."
+   ],
+   "impact": {
+    "digital": {
+     "level": "Medium",
+     "text": "Use as the benchmark when auditing AI used in lending, underwriting or customer service."
+    },
+    "lender": {
+     "level": "Low",
+     "text": "Same."
+    }
+   },
+   "actions": [
+    "Add the guidelines to the scope of the next information-systems audit where AI is used."
+   ],
+   "weight": 2
+  },
   {
    "id": "U-2026-10-01-BBE",
    "date": "2026-10-01",
