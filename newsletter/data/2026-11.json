@@ -157,7 +157,7 @@
    "issued": "23 Nov",
    "title": "Governor meets NBFC and HFC chiefs: the supervisory themes",
    "what": "No new rules. The Governor stressed responsible credit growth, fair recovery practices, use of CKYCR at onboarding and a risk-based approach to cyber and IT risk.",
-   "why": "These are the themes supervisors are signalling for the coming inspection cycle, so they are a useful checklist for internal reviews.",
+   "why": "The themes the Governor raised give a reasonable indication of supervisory priorities, and a useful checklist for internal reviews.",
    "applies": "Select NBFCs (including Government NBFCs), HFCs and MFIs, with industry bodies. No new directions were issued.",
    "points": [
     "Responsible and sustainable credit growth.",
@@ -303,7 +303,7 @@
    "issued": "20 Nov",
    "title": "₹2 crore penalty on a health insurer for claim rejections and deductions",
    "what": "Penalty for repudiating claims on untenable grounds and making deductions not supported by policy terms.",
-   "why": "A clear enforcement signal: rejection and deduction practice is now a penalty risk, not only a grievance issue, for every health insurer and its TPAs.",
+   "why": "The order shows that unsupported rejections and deductions can lead to monetary penalties, not only grievance redress. The same regulations bind all health insurers.",
    "applies": "The health insurer named in the order. The rules applied are unchanged and bind all health insurers.",
    "points": [
     "Penalty under s.102 of the Insurance Act.",
@@ -324,7 +324,7 @@
    "issued": "24 Nov",
    "title": "Study groups on health claim transparency",
    "what": "Two study groups: one on standard reason codes for rejections and deductions, the other on real-time tracking of the claim journey. Both report by 26 December 2026.",
-   "why": "Standard rejection codes and customer-visible claim tracking are likely next steps, which would mean system changes for insurers and TPAs.",
+   "why": "If IRDAI acts on the groups' work, standard rejection codes and customer-visible claim tracking could follow, which would need system changes for insurers and TPAs.",
    "applies": "Health insurers and general insurers writing health business.",
    "points": [
     "Formed under the IAC Sub-Committee on Health Insurance.",
@@ -383,7 +383,7 @@
    "issued": "2 Nov",
    "title": "Master Circular on registration, capital and share transfers",
    "what": "Consolidates procedure, forms and documents under the Registration Regulations as amended on 31 July 2026, and replaces the 2024 Master Circular.",
-   "why": "Any change in an insurer's shareholding or capital now follows the new forms.",
+   "why": "Applications and filings covered by the circular, such as share transfer approvals, now use the consolidated forms.",
    "applies": "Applicants for registration and registered insurers.",
    "points": [],
    "step": "Update share-transfer approval checklists to the new forms.",
@@ -485,7 +485,7 @@
    "why": "Opens a faster onboarding route for overseas individual clients.",
    "applies": "Intermediaries onboarding NRI, OCI and foreign national individual clients.",
    "points": [],
-   "step": "Enable the digital route in onboarding journeys.",
+   "step": "Consider whether onboarding journeys should offer the digital route.",
    "date": "3 Dec 2026",
    "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html"
   },
@@ -539,7 +539,7 @@
    "issued": "Nov",
    "title": "Retail algo trading: static IP misuse warning",
    "what": "Exchanges report misuse of static IPs by some empanelled algo providers and remind members to comply with the retail algo framework.",
-   "why": "Expect inspection focus on algo-provider tie-ups and client static IP mappings.",
+   "why": "Algo-provider tie-ups and client static IP mappings are likely to draw exchange attention.",
    "applies": "Trading members, algo providers and clients using algorithmic trading.",
    "points": [
     "Under the framework in force from 1 April 2026, strategies run on the broker's servers; only a tech-savvy client may host its own algorithm, on a static IP.",
@@ -559,8 +559,8 @@
    "impact": "Medium",
    "issued": "Nov",
    "title": "Do not publish grey market premium for IPOs",
-   "what": "SEBI says the grey market premium is unregulated and unreliable, and tells registered intermediaries not to publish or circulate it.",
-   "why": "Research, marketing and social media content on IPOs must drop grey market premium references.",
+   "what": "SEBI says the grey market premium is unregulated and unreliable, and advises registered intermediaries not to publish or circulate it.",
+   "why": "Registered intermediaries' research, marketing and social media content on IPOs should not publish or circulate grey market premium figures.",
    "applies": "Registered intermediaries, issuers and investors.",
    "points": [],
    "step": "Review websites, apps and social media handles for grey market premium content.",
@@ -604,7 +604,7 @@
     "No fresh FPI positions in the three trading days before the tender period.",
     "In force from 1 June 2027."
    ],
-   "step": "Agree designated-member arrangements with FPI clients before June 2027.",
+   "step": "Commodity brokers taking FPI clients will need designated-member arrangements before June 2027.",
    "date": "1 Jun 2027",
    "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/fpi-participation-in-exchange-traded-commodity-derivatives-etcds-_105989.html"
   },
@@ -620,13 +620,13 @@
    "issued": "13 Nov",
    "title": "DPDP: Consent Manager registration opens",
    "what": "An Indian company with at least ₹2 crore net worth and an independently certified platform can now apply to register as a Consent Manager. Data Fiduciary duties start on 13 May 2027.",
-   "why": "Financial groups that share customer data across entities, or cross-sell through apps, need consent each entity can rely on. A registered Consent Manager is one route; building in-house or relying on direct consent are others.",
+   "why": "Where processing relies on consent, financial groups that share customer data across entities, or cross-sell through apps, will need consent each entity can rely on. Collecting consent through a registered Consent Manager is one option; collecting and recording it directly is another.",
    "applies": "Companies that want to register as Consent Managers, and Data Fiduciaries that plan to accept consent through them.",
    "points": [
     "Rule 4 and the First Schedule apply from 13 November 2026.",
     "Data Fiduciary duties on notice, consent, security and breaches start on 13 May 2027."
    ],
-   "step": "Decide whether to build, partner with a Consent Manager or rely on direct consent, well before May 2027.",
+   "step": "Map where processing relies on consent and how that consent will be collected and recorded before May 2027.",
    "date": "13 May 2027",
    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336151"
   },
@@ -755,12 +755,12 @@
    "issued": "Oct / Nov",
    "title": "New SEBI Settlement Regulations, 2026 in force",
    "what": "Settlement notices before a show cause notice, formula-based amounts and a fast track for disclosure lapses. Apply within 90 days of a show cause notice; older pending cases have 90 days at a 20% higher amount.",
-   "why": "A cheaper, faster route to close pending SEBI proceedings for listed companies and intermediaries.",
+   "why": "Creates new settlement routes, including before a show cause notice. Settlement remains at SEBI's discretion.",
    "applies": "Anyone facing, or likely to face, SEBI proceedings.",
    "points": [
     "Replaces the Settlement Proceedings Regulations, 2018."
    ],
-   "step": "Check pending show cause notices against the 90-day window.",
+   "step": "Note the 90-day window that runs from a show cause notice, and the separate window for older pending cases.",
    "date": "Within 90 days",
    "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-settlement-of-administrative-and-civil-proceedings-regulations-2026_105126.html"
   },
@@ -867,11 +867,11 @@
  "top": [
   {
    "id": "rbi-sec-demat",
-   "so_what": "From 1 April 2027 every securitisation note transfer, including older notes, must be in demat and at least ₹1 crore. Smaller holdings may become hard to sell."
+   "so_what": "From 1 April 2027 transfers of securitisation notes, including older notes, must be in demat and at least ₹1 crore (amortising notes excepted). Smaller holdings may become hard to sell."
   },
   {
    "id": "irdai-claims-pen",
-   "so_what": "A ₹2 crore penalty for untenable claim rejections, and study groups on standard rejection codes and live claim tracking report by 26 December."
+   "so_what": "A ₹2 crore penalty on one insurer for untenable claim rejections, and study groups on standard rejection codes and live claim tracking due to report by 26 December."
   },
   {
    "id": "sebi-kra",
@@ -879,7 +879,7 @@
   },
   {
    "id": "dpdp-cm",
-   "so_what": "Data Fiduciary duties start 13 May 2027. Groups sharing customer data across entities need a consent route each entity can rely on."
+   "so_what": "Data Fiduciary duties start 13 May 2027. Where processing relies on consent, groups sharing customer data across entities will need a consent record each entity can rely on."
   },
   {
    "id": "nhb-arbitration",
@@ -887,7 +887,7 @@
   },
   {
    "id": "irdai-rbc-indas",
-   "so_what": "Ind AS accounts will become the base for insurer capital. No rule yet, but solvency and capital plans may shift once proposals land."
+   "so_what": "Working groups are to make Ind AS accounts the base for insurer capital. No rule yet, but solvency and capital plans may shift once proposals land."
   }
  ],
  "timeline": [
@@ -975,8 +975,8 @@
    "date": "19 Nov",
    "kind": "Order",
    "title": "Ravi Kumar Jangra v. Union of India",
-   "headline": "Stalled flat? Lenders must show the money followed the bricks",
-   "takeaway": "No coercive recovery of EMIs from homebuyers in a stalled project until the court finds the lender disbursed strictly as the tripartite agreement required.",
+   "headline": "Stalled flat? The court will check whether the money followed the bricks",
+   "takeaway": "Interim order: the petitioning homebuyers in a stalled project are protected from coercive recovery of EMIs while the court examines whether the lender disbursed as the tripartite agreement required.",
    "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=659122026&type=o&order_date=2026-11-19&from=latest_judgements_order",
    "hub": ""
   },
@@ -985,8 +985,8 @@
    "date": "Released 18 Nov",
    "kind": "Judgment",
    "title": "Edelweiss ARC v. State of NCT of Delhi",
-   "headline": "The builder defaulted. That doesn't make the lender a criminal",
-   "takeaway": "Homebuyers' criminal case against a project lender and ARC quashed. RERA defaults are the builder's and cannot found a prosecution of the lender.",
+   "headline": "The builder defaulted. On these facts, that didn't make the lender a criminal",
+   "takeaway": "Homebuyers' criminal case against a project lender and ARC quashed on the facts: there was no entrustment of buyers' money to the lender and no deception by it. The RERA breaches were the promoter's.",
    "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=455152025&type=j&order_date=2026-09-29&from=latest_judgements_order",
    "hub": ""
   },
@@ -1016,7 +1016,7 @@
    "kind": "Judgment",
    "title": "SBI v. State of Maharashtra",
    "headline": "Secured lender or depositors first? A larger Bench will decide",
-   "takeaway": "Whether secured lenders rank ahead of attachments under State depositor-protection laws has been referred to a larger Bench. Interim protection of sale proceeds is worth seeking meanwhile.",
+   "takeaway": "Whether secured lenders rank ahead of attachments under State depositor-protection laws has been referred to a larger Bench. Until it decides, the question stays open.",
    "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=166842026&type=j&order_date=2026-11-26&from=latest_judgements_order",
    "hub": "SBI-MPID-REF"
   },
@@ -1025,7 +1025,7 @@
    "date": "6 Nov",
    "kind": "Judgment",
    "title": "Sangeeta Aggarwal v. Equentia",
-   "headline": "Guarantors lose their automatic insolvency shield",
+   "headline": "Personal guarantors: no automatic interim moratorium",
    "takeaway": "No automatic interim moratorium for personal guarantors, even in cases filed before the 2026 amendment. Recovery against them can continue.",
    "url": "https://nclat.nic.in/display-board/view_order_pdf?fid=9910110104252026&&l=delhi&&d=2026-11-06&&order_type=J",
    "hub": "AGGARWAL-EQUENTIA"
@@ -1036,7 +1036,7 @@
    "kind": "Judgment",
    "title": "UV ARC v. Gautam Sinha",
    "headline": "Your borrower's balance sheet can rescue an old claim",
-   "takeaway": "Balance-sheet acknowledgements made while the debt was alive kept a section 7 IBC claim within limitation. Keeping borrowers' signed accounts for every year pays off.",
+   "takeaway": "Balance-sheet acknowledgements made while the debt was alive kept a section 7 IBC claim within limitation. Borrowers' signed accounts for each year can matter.",
    "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=113212020&type=j&order_date=2026-11-25&from=latest_judgements_order",
    "hub": "UVARC-SINHA"
   },
@@ -1045,7 +1045,7 @@
    "date": "26 Nov",
    "kind": "Judgment",
    "title": "Union of India v. J. Sekar",
-   "headline": "No Judicial Member, no PMLA attachment",
+   "headline": "No Judicial Member, no confirmed PMLA attachment",
    "takeaway": "PMLA attachments must be confirmed by an Adjudicating Authority Bench that includes a Judicial Member. Relevant where a lender's security has been attached.",
    "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=138502018&type=j&order_date=2026-11-26&from=latest_judgements_order",
    "hub": "UOI-SEKAR-PMLA"
@@ -1055,8 +1055,8 @@
    "date": "16 Nov",
    "kind": "Judgment",
    "title": "Twinstar Technologies v. Bank of Maharashtra",
-   "headline": "An approved plan is not final until the appeals are",
-   "takeaway": "NCLAT may send a resolution plan back to the committee of creditors. An approved plan is not final until appeals end.",
+   "headline": "An approved plan can still be sent back on appeal",
+   "takeaway": "NCLAT may, in an appeal, send an approved resolution plan back to the committee of creditors for fresh consideration.",
    "url": "https://ibbi.gov.in/uploads/order/2026-11-17-115545-7k4re-7fa2ff2a01f4c3fa9a1edd7990984744.pdf",
    "hub": "TWINSTAR-BOM"
   },
@@ -1066,7 +1066,7 @@
    "kind": "Judgment",
    "title": "Manoj Kumar Agarwal v. IL&FS Financial",
    "headline": "When the borrower admits, the guarantor is bound",
-   "takeaway": "A borrower's acknowledgement of debt binds the guarantor where the guarantee says so. Lenders should keep that clause in their guarantees.",
+   "takeaway": "A borrower's acknowledgement of debt binds the guarantor where the guarantee says so. The wording of the guarantee decides it.",
    "url": "https://nclat.nic.in/display-board/view_order_pdf?fid=9910122110732026&&l=delhi&&d=2026-11-06&&order_type=J",
    "hub": "AGARWAL-ILFS"
   },
@@ -1076,7 +1076,7 @@
    "kind": "Judgment",
    "title": "Sucheta Dalal v. Union of India",
    "headline": "Unclaimed money stays on the Supreme Court's radar",
-   "takeaway": "Unclaimed deposits, shares and insurance money remain under the court's watch. Search, nominee and claim processes should be in order.",
+   "takeaway": "Unclaimed deposits, shares and insurance money remain under the court's watch. Search, nominee and claim processes remain in focus.",
    "url": "https://www.sci.gov.in/sci-get-pdf/?diary_no=69542022&type=j&order_date=2026-11-27&from=latest_judgements_order",
    "hub": "DALAL-UNCLAIMED"
   }
