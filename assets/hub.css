@@ -48,6 +48,7 @@ select.chip{appearance:none;padding-right:28px;background:var(--surface) url("da
 .p-grey{background:var(--surface-2);color:var(--ink-2)}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border-radius:10px;font-weight:600;font-size:14px;cursor:pointer;border:1px solid transparent;white-space:nowrap}
+.side .btn,.ipage aside .btn,.panel .btn[style*="width:100%"]{white-space:normal;text-align:center;line-height:1.3;max-width:100%}
 .btn.p{background:var(--accent);color:var(--accent-ink)}.btn.p:hover{filter:brightness(1.07)}.btn:active{transform:translateY(1px)}
 .btn.g{border-color:var(--line);background:var(--surface)}.btn.g:hover{border-color:var(--ink-2)}
 .lnk{border:0;background:none;color:var(--accent-text);font-weight:600;padding:0;cursor:pointer;font-size:inherit}.lnk:hover{text-decoration:underline}.lnk:active{opacity:.75}

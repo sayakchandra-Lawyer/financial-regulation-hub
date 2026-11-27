@@ -161,7 +161,7 @@ def judgment_body(j):
             ("Report citation", j.get("report_citation")), ("Case no.", j.get("case_no")), ("Bench", j.get("bench")),
             ("Statutes", "; ".join(j.get("statutes") or [])), ("Status", j.get("status_note") or "")]
     dl = "".join(f"<dt>{E(k)}</dt><dd>{E(v)}</dd>" for k, v in rows if str(v or "").strip())
-    src = f'<a class="btn g" href="{E(j["url"])}" target="_blank" rel="noopener">{"Source: published award summaries" if j.get("forum") == "ombudsman" else "Judgment text"} ↗</a>' if j.get("url") else ""
+    src = f'<a class="btn g" href="{E(j["url"])}" target="_blank" rel="noopener">{"Published award summaries" if j.get("forum") == "ombudsman" else "Judgment text"} ↗</a>' if j.get("url") else ""
     parts = ['<div class="crumbs"><a href="../../../">Home</a> / <a href="../../">Key judgments</a></div>',
              f"<h1>{E(j.get('title'))}</h1>", f'<p class="full">{E(j.get("topic"))}</p>',
              f'<div class="acts"><a class="btn p" href="../../#j/{E(j["id"])}">Open in Key judgments</a>{src}</div>',
