@@ -124,17 +124,35 @@ Commencement is by notification, Act by Act; none was found.
   - legislative.gov.in: serves only an HTML shell for the Arbitration Act PDF.
   - No India Code search result exists for the Kerala Money-Lenders Act, 1958.
 
-## Missing / not fetched
+## Morning retry (27-11-2026): new India Code site
+- **Old site:** indiacode.nic.in still returned 504 for every missing file (3 tries, 25 s apart).
+- **New site:** the new India Code (**indiacode.gov.in**, a DSpace 7 site) answered. Items were found through its public search API (`/server/api/discover/search/objects`). The PDF link for each was taken from the item's bundle listing (`/server/api/core/items/{id}/bundles`), never guessed.
+- **What came down:** 27 files.
+  - **Central Acts:** ARB, FRA, IT, BUDS. CHIT and PMLA were also replaced with the central India Code texts ("as on 01-07-2026" style covers), instead of the Delhi and Enforcement Directorate copies used on 26-11.
+  - **Rules:** SIE (+2007 amendment), CERSAI (+2013 and 2016 amendments), DRT Procedure, BUDS, PML amendments of 2022 and 2023.
+  - **State laws:**
+    - Karnataka: MF-KA (+ the 2025 Ordinance) and ML-KA-PCEI2025.
+    - Andhra Pradesh: MF-AP.
+    - Kerala: the **Kerala Money Lenders Act 1958** (newly added to India Code on 13-10-2026) and ML-KL-PCEI.
+    - Tamil Nadu: ML-TN-PCEI.
+    - Gujarat: ML-GJ.
+    - Rajasthan: STAMP-RJ (updated to 18-05-2026).
+    - West Bengal: STAMP-WB-FA2024.
+    - Bihar: two PID amendment Acts (Hindi).
+- **Scans:** the SIE and CERSAI rules files are scanned Gazette copies with a poor text layer, so read the PDFs.
+- **This fixes two staleness items above:**
+  - RULES-PML: now partly cured by RULES-PML-AMD2022 and RULES-PML-AMD2023.
+  - STAMP-RJ: now the 2026 update.
+
+## Missing / not fetched (after 27-11 retry)
 These are the rows with a blank `file` column in `_catalogue.tsv`. The notes on each row give the reason.
 
 | Reason | IDs |
 |---|---|
-| India Code bitstream returned 504 on every try; no other official copy found | ACT-ARB, ACT-FRA, ACT-IT, ACT-BUDS, STAMP-RJ, STAMP-WB-FA2024, STAMP-WB-2021, ML-KA-PCEI2025, ML-TN-PCEI, ML-KL-PCEI, ML-GJ, MF-KA, MF-AP, PID-BR |
-| Only copies are on upload.indiacode.nic.in, which timed out (RULES-DRT also: drt.gov.in returned 503) | RULES-SIE, RULES-CERSAI, RULES-DRT, RULES-BUDS |
-| eGazette refused connections | RULES-STAMPCOLL, RULES-CPA-JUR |
-| Site unreachable or blocked | STAMP-GJ (Gujarat revenue site), DRAFT-ARB-2024 (DLA, 403) |
+| Not on the new India Code either (searched by title) | STAMP-GJ, STAMP-WB-2021, PID-TN, PID-BR (principal 2002 Act; only the 2013 and 2017 amendments are there) |
+| Gazette-only rules; eGazette refused connections | RULES-STAMPCOLL, RULES-CPA-JUR |
+| Site blocked | DRAFT-ARB-2024 (Dept of Legal Affairs, 403) |
 | rbidocs CAPTCHA (not bypassed) | AMD-PSS-20250520 |
-| No official full text found | ML-KL, PID-TN |
 
 ## Row status (generated from _catalogue.tsv)
 
@@ -146,60 +164,60 @@ These are the rows with a blank `file` column in `_catalogue.tsv`. The notes on 
 | ACT-SOGA | fetched | India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. |
 | ACT-SARFAESI | fetched | India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. File Last-Modified 24-04-2024. |
 | ACT-RDB | fetched | India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. Cover says [As on the 15th May, 2026]; does NOT yet reflect Tribunals Reforms Act 2026 (ss.6A/15A substituted w.e.f. 25-08-2026, see AMD-RDB-2026 |
-| ACT-ARB | **missing** | NOT FETCHED (download failed). Second India Code bitstream of handle 1978 (the /1/ file returned 504). |
+| ACT-ARB | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Central item a1996-26.pdf. |
 | ACT-STAMP | fetched | India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. File Last-Modified 25-06-2025. |
 | ACT-REG | fetched | India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. File Last-Modified 20-06-2024. |
 | ACT-NI | fetched | India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. File Last-Modified 25-08-2023. |
-| ACT-FRA | **missing** | NOT FETCHED (download failed). India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. |
+| ACT-FRA | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Cover says [As on 1st July 2026]. |
 | ACT-LIM | fetched | India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. |
 | ACT-SRA | fetched | India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. File Last-Modified 14-05-2024. |
 | ACT-BSA | fetched | India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. |
 | ACT-CPA | fetched | India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. Does not reflect s.55(1A) substitution by Tribunals Reforms Act 2026 (AMD-CPA-20260813). |
-| ACT-CHIT | fetched | India Code bitstream returned 504 on every retry; Delhi Govt (Registrar of Chit Funds) copy used instead. Image-only, txt is machine OCR; may predate the Chit Funds (Amendment) Act, 2019. Central handle 1797 has only the Hindi PDF in search results; this English text is India Code handle 21348 (same |
+| ACT-CHIT | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Central item; cover says [As on 1st July 2026]. Replaces the Delhi Govt scanned copy used on 26-11. Central handle 1797 has only the Hindi PDF in search results; this |
 | ACT-PSS | fetched | DFS 'Acts and Policies' copy. Check for the 2023 PRB amendment (in force 09-05-2025) and s.10A amendment by Act 21 of 2026 (AMD-PSS-20260817). India Code copy: https://www.indiacode.nic.in/indiacode/bitstream/123456789/2082/4/a2007-51.pdf |
-| ACT-PMLA | fetched | India Code bitstream returned 504 on every retry; Enforcement Directorate consolidated copy used instead (footnotes run to Act 23 of 2019; check later amendments). |
-| ACT-IT | **missing** | NOT FETCHED (download failed). India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. |
+| ACT-PMLA | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Replaces the Enforcement Directorate copy used on 26-11. |
+| ACT-IT | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). |
 | ACT-CICRA | fetched | DFS 'Acts and Policies' copy (uploaded 2026-06). |
-| ACT-BUDS | **missing** | NOT FETCHED (download failed). India Code handle page returned HTTP 504 on every try (dynamic pages down 26-11-2026); PDF fetched from the bitstream servlet under /indiacode/bitstream/. |
+| ACT-BUDS | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). |
 | RULES-CIC | fetched | Original notification text, not consolidated. RBI's consolidated 'CIC Rules and Regulations 2006 (21-03-2024)' at rbidocs.rbi.org.in could not be fetched: rbidocs serves a CAPTCHA to scripts. reference_no to be read from the PDF. |
 | REGS-CIC | fetched | Original text; amendments of 2017 and 2021 are on rbidocs (CAPTCHA, not fetched). |
 | REGS-PSS | fetched | BPSS Regulations 2008 were superseded by the Payments Regulatory Board Regulations, 2025 (in force 20-05-2025, RBI Notification CO.DPSS.BD.No.S168/02-01-012/2025-2026); both PDFs are on rbidocs (CAPTCHA, not fetched). |
 | RULES-FACT | fetched | DFS notification text dated 02-04-2012. |
 | RULES-PML | fetched | Enforcement Directorate (Dept of Revenue) consolidated copy, file Last-Modified 22-11-2025, but its footnotes stop at 2017 (G.S.R. 1318(E) of 23-10-2017): later amendments (e.g. G.S.R. 745(E) of 17-10-2023) are NOT in it. 13.8 MB so PDF not pushed (txt only). |
-| RULES-SIE | **missing** | NOT FETCHED: the only official copies found are on India Code (upload.indiacode.nic.in and ViewFileUploaded), which timed out / returned 504 all day. |
-| RULES-CERSAI | **missing** | NOT FETCHED: upload.indiacode.nic.in timed out; eGazette refused connections. |
-| RULES-DRT | **missing** | NOT FETCHED: upload.indiacode.nic.in timed out. Text also on drt.gov.in/DebtRecoveryRule.aspx (not tried). |
-| RULES-BUDS | **missing** | NOT FETCHED: DFS beta URL now 404; India Code timed out. |
+| RULES-SIE | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Scanned Gazette copy; text layer is poor - read the PDF. Earlier NOT FETCHED: the only official copies found are on India Code (upload.indiacode.nic.in and ViewFileUp |
+| RULES-CERSAI | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Original G.S.R. 276(E) of 31-03-2011 (scanned). Amendments 2013 and 2016 in RULES-CERSAI-AMD2013 / -AMD2016; later amendments (e.g. 2020) not on India Code. Earlier N |
+| RULES-DRT | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Amendments of 1994 and 1997 are separate India Code items (not fetched). Earlier NOT FETCHED: upload.indiacode.nic.in timed out. Text also on drt.gov.in/DebtRecoveryR |
+| RULES-BUDS | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle).  Earlier NOT FETCHED: DFS beta URL now 404; India Code timed out. |
 | RULES-STAMPCOLL | **missing** | NOT FETCHED: eGazette (Dept of Revenue) refused connections all day. |
 | RULES-CPA-JUR | **missing** | NOT FETCHED: eGazette refused connections; consumeraffairs.nic.in not reached in time. |
 | STAMP-MH | fetched | State: Maharashtra. IGR Maharashtra consolidated text incl. Schedule I; cover says modified up to 07-04-2026. |
 | STAMP-KA | fetched | India Code returned 504; Karnataka DPAL copy as amended to Act 4 of 2024 used (does not show Act 30 of 2025). State: Karnataka. India Code state copy; file name says amended to Karnataka Act 30 of 2025. |
 | STAMP-GJ | **missing** | State: Gujarat. NOT FETCHED: revenuedepartment.gujarat.gov.in refused connections from this IP (4 tries). |
-| STAMP-RJ | **missing** | NOT FETCHED (download failed). State: Rajasthan. India Code copy uploaded 2019, so it may omit later amendments; igrs.rajasthan.gov.in act page would not load. |
+| STAMP-RJ | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Rajasthan. File name says updated up to 18-05-2026. State: Rajasthan. India Code copy uploaded 2019, so it may omit later amendments; igrs.rajasthan.gov.in act |
 | STAMP-DL-SCH1A | fetched | State: Delhi. Delhi Revenue Dept copy (ss.62 onwards + Schedule I-A). Currency date not stated. |
 | STAMP-DL-AMD2007 | fetched | State: Delhi. Image-only PDF; txt is machine OCR. |
 | STAMP-UP-ACT | fetched | State: Uttar Pradesh. File Last-Modified 28-11-2025. |
 | STAMP-UP-SCH1B | fetched | State: Uttar Pradesh. UP uses Schedule I-B. File Last-Modified 28-11-2025. |
 | STAMP-TN-2023 | fetched | State: Tamil Nadu. TN amends Schedule I of the Indian Stamp Act directly; no consolidated official TN schedule was found. |
-| STAMP-WB-FA2024 | **missing** | NOT FETCHED (download failed). State: West Bengal. No consolidated WB Schedule IA found; latest amending Act located. |
+| STAMP-WB-FA2024 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: West Bengal. State: West Bengal. No consolidated WB Schedule IA found; latest amending Act located. |
 | STAMP-WB-2021 | **missing** | NOT FETCHED (download failed). State: West Bengal. |
 | ML-MH | fetched | India Code returned 504; Maharashtra Law and Judiciary Dept reprint 'as modified up to 31-08-2018' used. State: Maharashtra. A 'text as on 22-11-2023' reprint is listed on lj.maharashtra.gov.in (not fetched). |
 | ML-KA | fetched | India Code returned 504; Karnataka DPAL copy (file dated 2020) used; it predates the 2025 amendment (ML-KA-AMD2025). State: Karnataka. India Code copy uploaded 2025. |
 | ML-KA-AMD2025 | fetched | State: Karnataka. 2025 amendment. |
-| ML-KA-PCEI2025 | **missing** | NOT FETCHED (download failed). State: Karnataka. |
+| ML-KA-PCEI2025 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Karnataka. File 17_of_2025_(e): the Karnataka Prohibition of Charging Exorbitant Interest Act 2004 with the 2025 amendment. State: Karnataka. |
 | ML-TN | fetched | State: Tamil Nadu. Co-operation Dept copy (2021 upload). |
-| ML-TN-PCEI | **missing** | NOT FETCHED (download failed). State: Tamil Nadu. |
-| ML-KL | **missing** | State: Kerala. NOT FETCHED: no official full text found (lawsect.kerala.gov.in only lists it). See ML-KL-PCEI. |
-| ML-KL-PCEI | **missing** | NOT FETCHED (download failed). State: Kerala. |
-| ML-GJ | **missing** | NOT FETCHED (download failed). State: Gujarat. |
-| MF-KA | **missing** | NOT FETCHED (download failed). State: Karnataka. Replaced the 2025 Ordinance of the same name. |
+| ML-TN-PCEI | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Tamil Nadu. English Gazette text (the other file on the item is Tamil). State: Tamil Nadu. |
+| ML-KL | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Kerala. Item added to India Code 13-10-2026. State: Kerala. Earlier NOT FETCHED: no official full text found (lawsect.kerala.gov.in only lists it). See ML-KL-P |
+| ML-KL-PCEI | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Kerala. English translation published in the Kerala Gazette. State: Kerala. |
+| ML-GJ | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Gujarat. English text as amended by Guj. 11 of 2015 and 2 of 2018. State: Gujarat. |
+| MF-KA | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Karnataka. State: Karnataka. Replaced the 2025 Ordinance of the same name. |
 | MF-TN | fetched | State: Tamil Nadu. TN Gazette Ext. No. 265 (09-06-2025). In force 19-11-2025 by G.O.(Ms) No.580 (MF-TN-GO580). |
 | MF-TN-RULES | fetched | State: Tamil Nadu. |
 | MF-TN-GO580 | fetched | State: Tamil Nadu. Image-only PDF; txt is machine OCR. |
 | MF-TN-2026-S4 | fetched | State: Tamil Nadu. |
 | MF-TN-2026-S31 | fetched | State: Tamil Nadu. |
 | MF-TN-BILL2025 | fetched | State: Tamil Nadu. |
-| MF-AP | **missing** | NOT FETCHED (download failed). State: Andhra Pradesh. |
+| MF-AP | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Andhra Pradesh. State: Andhra Pradesh. |
 | MF-AS | fetched | State: Assam. Image-only PDF; txt is machine OCR. |
 | PID-MH | fetched | India Code returned 504; Maharashtra Home Dept copy used. Image-only, txt is machine OCR. State: Maharashtra. |
 | PID-TN | **missing** | State: Tamil Nadu. NOT FETCHED: no official full-text PDF found in time (only TN Gazette orders under s.3). |
@@ -217,5 +235,13 @@ These are the rows with a blank `file` column in `_catalogue.tsv`. The notes on 
 | PMB-LS28-2025-IT | fetched | Private Member's Bill; status Pending. |
 | PMB-LS39-2025-CPA | fetched | Private Member's Bill; status Pending. |
 | PMB-LS75-2025-PMLA | fetched | Private Member's Bill; status Pending. |
+| MF-KA-ORD2025 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Karnataka. Karnataka Gazette Ext. No. 89 (12-02-2025); replaced by Act 15 of 2025 (MF-KA). |
+| RULES-SIE-AMD2007 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Scanned Gazette copy. |
+| RULES-CERSAI-AMD2013 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Scanned Gazette copy. |
+| RULES-CERSAI-AMD2016 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Notification dated 22-01-2016 (scanned). |
+| RULES-PML-AMD2022 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Gazette notification; fills part of the post-2017 gap in RULES-PML. |
+| RULES-PML-AMD2023 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). Gazette notification of 07-03-2023. |
+| PID-BR-AMD2013 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Bihar. Hindi Gazette text. |
+| PID-BR-AMD2017 | fetched | Fetched 27-11-2026 from the new India Code (indiacode.gov.in REST API; item found by search, file link taken from the item's bundle). State: Bihar. Hindi Gazette text. |
 
-Fetched: 52 of 77 rows.
+Fetched: 77 of 85 rows.
