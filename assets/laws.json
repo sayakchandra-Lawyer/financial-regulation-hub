@@ -1,0 +1,450 @@
+{
+ "laws": {
+  "RBIA": {
+   "name": "Reserve Bank of India Act, 1934",
+   "url": "https://www.rbi.org.in/Scripts/OccasionalPublications.aspx?head=Reserve%20Bank%20of%20India%20Act"
+  },
+  "BRA": {
+   "name": "Banking Regulation Act, 1949",
+   "url": "https://www.rbi.org.in/Scripts/OccasionalPublications.aspx?head=Banking%20Regulation%20Act"
+  },
+  "FEMA": {
+   "name": "Foreign Exchange Management Act, 1999",
+   "url": "https://indiacode.gov.in/items/a972a617-5989-4b2c-a84f-617792137a57"
+  },
+  "NDI": {
+   "name": "Foreign Exchange Management (Non-debt Instruments) Rules, 2019",
+   "url": "https://rbi.org.in/scripts/bs_viewcontent.aspx?Id=5083"
+  },
+  "OIR": {
+   "name": "Foreign Exchange Management (Overseas Investment) Rules, 2022",
+   "url": "https://rbi.org.in/scripts/bs_viewcontent.aspx?Id=5087"
+  },
+  "OIREG": {
+   "name": "Foreign Exchange Management (Overseas Investment) Regulations, 2022",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12380&Mode=0"
+  },
+  "SEBIA": {
+   "name": "Securities and Exchange Board of India Act, 1992",
+   "url": "https://www.sebi.gov.in/legal/acts/jan-1992/securities-and-exchange-board-of-india-act-1992-as-amended-by-the-finance-act-2021-13-of-2021-w-e-f-april-1-2021-_3.html"
+  },
+  "SCRA": {
+   "name": "Securities Contracts (Regulation) Act, 1956",
+   "url": "https://www.sebi.gov.in/legal/acts/apr-2021/securities-contracts-regulation-act-1956-as-amended-by-the-finance-act-2021-13-of-2021-w-e-f-april-1-2021-_49750.html"
+  },
+  "SCRR": {
+   "name": "Securities Contracts (Regulation) Rules, 1957",
+   "url": "https://www.sebi.gov.in/legal/rules/mar-2026/securities-contracts-regulation-rules-1957-last-amended-on-march-13-2026-_100665.html"
+  },
+  "DEPA": {
+   "name": "Depositories Act, 1996",
+   "url": "https://www.sebi.gov.in/legal/acts/sep-1995/depositories-act-1996-as-amended-by-the-international-financial-services-centres-authority-act-2019-w-e-f-october-01-2020-_1.html"
+  },
+  "LODR": {
+   "name": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-last-amended-on-october-15-2026-_105365.html"
+  },
+  "ICDR": {
+   "name": "Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018",
+   "url": "https://www.sebi.gov.in/legal/regulations/mar-2026/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018-last-amended-on-march-21-2026-_100581.html"
+  },
+  "NCS": {
+   "name": "Securities and Exchange Board of India (Issue and Listing of Non-Convertible Securities) Regulations, 2021",
+   "url": "https://www.sebi.gov.in/legal/regulations/jan-2026/securities-and-exchange-board-of-india-issue-and-listing-of-non-convertible-securities-regulations-2021-last-amended-as-on-january-21-2026-_99288.html"
+  },
+  "SAST": {
+   "name": "Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011",
+   "url": "https://www.sebi.gov.in/legal/regulations/dec-2025/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011-last-amended-on-december-5-2025-_98643.html"
+  },
+  "SECC": {
+   "name": "Securities Contracts (Regulation) (Stock Exchanges and Clearing Corporations) Regulations, 2018",
+   "url": "https://www.sebi.gov.in/legal/regulations/nov-2025/securities-contracts-regulation-stock-exchanges-and-clearing-corporations-regulations-2018-last-amended-on-november-22-2025-_98205.html"
+  },
+  "PMLA": {
+   "name": "Prevention of Money-laundering Act, 2002",
+   "url": "https://indiacode.gov.in/handle/123456789/496293"
+  },
+  "PMLR": {
+   "name": "Prevention of Money-laundering (Maintenance of Records) Rules, 2005",
+   "url": "https://fiuindia.gov.in/files/AML_Legislation/notification.html"
+  },
+  "IBC": {
+   "name": "Insolvency and Bankruptcy Code, 2016",
+   "url": "https://indiacode.gov.in/items/37c94edf-7892-4c4f-a284-0c24613a4bf5"
+  },
+  "SARFAESI": {
+   "name": "Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2006"
+  },
+  "CICRA": {
+   "name": "Credit Information Companies (Regulation) Act, 2005",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2057"
+  },
+  "PSSA": {
+   "name": "Payment and Settlement Systems Act, 2007",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2082"
+  },
+  "NHBA": {
+   "name": "National Housing Bank Act, 1987",
+   "url": "https://www.indiacode.nic.in/handle/123456789/1881"
+  },
+  "FIN2-2019": {
+   "name": "Finance (No. 2) Act, 2019",
+   "url": "https://www.nhb.org.in/wp-content/uploads/2024/02/NHB-Act-amended-upto-2023.pdf"
+  },
+  "INSA": {
+   "name": "Insurance Act, 1938",
+   "url": "https://irdai.gov.in/documents/37343/366193/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+1938+%28%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%A8%29+_+Insurance+Act+1938+%28updated+with+SBSR+Act+2025%29.pdf/68dfbb81-eb23-0e2b-4451-95d35c64607a?version=1.1&t=1782730546504&download=true"
+  },
+  "IRDAA": {
+   "name": "Insurance Regulatory and Development Authority Act, 1999",
+   "url": "https://irdai.gov.in/documents/37343/366193/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE+1999+%28%E0%A4%8F%E0%A4%B8%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2025+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%85%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%A8%29+_+IRDA+Act+1999+%28updated+with+SBSR+Act+2025%29.pdf/d2c36257-bdfe-8e90-4841-27385287b048?version=1.1&t=1782730526219&download=true"
+  },
+  "IFSCAA": {
+   "name": "International Financial Services Centres Authority Act, 2019",
+   "url": "https://ifsca.gov.in/Legal/Index/sKCVtbX6J9o="
+  },
+  "IFSCA-BANK": {
+   "name": "International Financial Services Centres Authority (Banking) Regulations, 2020",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE="
+  },
+  "IFSCA-FC": {
+   "name": "International Financial Services Centres Authority (Finance Company) Regulations, 2021",
+   "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE="
+  },
+  "NIA": {
+   "name": "Negotiable Instruments Act, 1881",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2189"
+  },
+  "RDB": {
+   "name": "Recovery of Debts and Bankruptcy Act, 1993",
+   "url": "https://www.indiacode.nic.in/handle/123456789/1775"
+  },
+  "ITA": {
+   "name": "Information Technology Act, 2000",
+   "url": "https://www.indiacode.nic.in/handle/123456789/1999"
+  },
+  "DPDPA": {
+   "name": "Digital Personal Data Protection Act, 2023",
+   "url": "https://www.indiacode.nic.in/handle/123456789/19939"
+  },
+  "DPDPR": {
+   "name": "Digital Personal Data Protection Rules, 2025",
+   "url": "https://www.meity.gov.in/data-protection-framework"
+  },
+  "CA": {
+   "name": "Companies Act, 2013",
+   "url": "https://www.indiacode.nic.in/handle/123456789/2114"
+  },
+  "BUDS": {
+   "name": "Banning of Unregulated Deposit Schemes Act, 2019",
+   "url": "https://indiacode.gov.in/handle/123456789/496446"
+  },
+  "BUDSR": {
+   "name": "Banning of Unregulated Deposit Schemes Rules, 2020",
+   "url": "https://indiacode.gov.in/handle/123456789/509727"
+  },
+  "FRA": {
+   "name": "Factoring Regulation Act, 2011",
+   "url": "https://indiacode.gov.in/handle/123456789/496317"
+  },
+  "TRAI": {
+   "name": "Telecom Regulatory Authority of India Act, 1997",
+   "url": "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=&filtername=title&filterquery=Telecom+Regulatory+Authority+of+India+Act%2C+1997&filtertype=equals"
+  },
+  "HFCD": {
+   "name": "Reserve Bank of India (Housing Finance Companies) Directions, 2025",
+   "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12939"
+  }
+ },
+ "rules": [
+  {
+   "re": "\\bOverseas Investment Rules and Regulations,? 2022",
+   "laws": [
+    "OIR",
+    "OIREG"
+   ]
+  },
+  {
+   "re": "\\bSecurities and Exchange Board of India Act,? 1992",
+   "laws": [
+    "SEBIA"
+   ]
+  },
+  {
+   "re": "\\bSEBI Act(?:,? 1992)?",
+   "laws": [
+    "SEBIA"
+   ]
+  },
+  {
+   "re": "\\bSecurities Contracts \\(Regulation\\) \\(Stock Exchanges and Clearing Corporations\\) Regulations,? 2018",
+   "laws": [
+    "SECC"
+   ]
+  },
+  {
+   "re": "\\b(?:SEBI )?SECC Regulations(?:,? 2018)?",
+   "laws": [
+    "SECC"
+   ]
+  },
+  {
+   "re": "\\bSecurities Contracts \\(Regulation\\) Act,? 1956",
+   "laws": [
+    "SCRA"
+   ]
+  },
+  {
+   "re": "\\bSCRA(?:,? 1956)?\\b",
+   "laws": [
+    "SCRA"
+   ]
+  },
+  {
+   "re": "\\bSCRR(?:,? 1957)?\\b",
+   "laws": [
+    "SCRR"
+   ]
+  },
+  {
+   "re": "\\bDepositories Act(?:,? 1996)?",
+   "laws": [
+    "DEPA"
+   ]
+  },
+  {
+   "re": "\\b(?:SEBI )?LODR(?: Regulations)?(?:,? 2015)?(?![\\w-]| Master| Amendment| Third| First| Second| Circular)",
+   "laws": [
+    "LODR"
+   ]
+  },
+  {
+   "re": "\\bSEBI ICDR Regulations(?:,? 2018)?|\\bICDR Regulations(?:,? 2018)?",
+   "laws": [
+    "ICDR"
+   ]
+  },
+  {
+   "re": "\\bSEBI NCS Regulations(?:,? 2021)?|\\bNCS Regulations(?:,? 2021)?",
+   "laws": [
+    "NCS"
+   ]
+  },
+  {
+   "re": "\\bSEBI Takeover Regulations(?:,? 2011)?|\\bSAST Regulations(?:,? 2011)?",
+   "laws": [
+    "SAST"
+   ]
+  },
+  {
+   "re": "\\b(?:RBI|Reserve Bank of India) Act(?:,? 1934)?",
+   "laws": [
+    "RBIA"
+   ]
+  },
+  {
+   "re": "\\bBanking Regulation Act(?:,? 1949)?|\\bBR Act(?:,? 1949)?",
+   "laws": [
+    "BRA"
+   ]
+  },
+  {
+   "re": "\\bForeign Exchange Management Act,? 1999",
+   "laws": [
+    "FEMA"
+   ]
+  },
+  {
+   "re": "\\bFEMA(?:,? 1999)?(?![\\w/-]| \\d| \\(| Act)",
+   "laws": [
+    "FEMA"
+   ]
+  },
+  {
+   "re": "\\bNDI Rules(?:,? 2019)?",
+   "laws": [
+    "NDI"
+   ]
+  },
+  {
+   "re": "\\bPrevention of Money-?[Ll]aundering Act,? 2002",
+   "laws": [
+    "PMLA"
+   ]
+  },
+  {
+   "re": "\\bPMLA(?:,? 2002)?\\b",
+   "laws": [
+    "PMLA"
+   ]
+  },
+  {
+   "re": "\\bPML \\(Maintenance of Records\\) Rules,? 2005|\\bPML Rules(?:,? 2005)?",
+   "laws": [
+    "PMLR"
+   ]
+  },
+  {
+   "re": "\\bInsolvency and Bankruptcy Code,? 2016",
+   "laws": [
+    "IBC"
+   ]
+  },
+  {
+   "re": "\\bIBC(?:,? 2016)?(?![\\w-]| \\()",
+   "laws": [
+    "IBC"
+   ]
+  },
+  {
+   "re": "\\bSARFAESI Act(?:,? 2002)?|\\bSARFAESI(?![\\w-]| Act| \\()",
+   "laws": [
+    "SARFAESI"
+   ]
+  },
+  {
+   "re": "\\bCredit Information Companies \\(Regulation\\) Act,? 2005|\\bCICRA(?:,? 2005)?\\b",
+   "laws": [
+    "CICRA"
+   ]
+  },
+  {
+   "re": "\\bPayment and Settlement Systems Act,? 2007|\\bPSS Act(?:,? 2007)?",
+   "laws": [
+    "PSSA"
+   ]
+  },
+  {
+   "re": "\\bNational Housing Bank Act,? 1987|\\bNHB Act(?:,? 1987)?",
+   "laws": [
+    "NHBA"
+   ]
+  },
+  {
+   "re": "\\bAct 23 of 2019(?=, ss?\\.)",
+   "laws": [
+    "FIN2-2019"
+   ]
+  },
+  {
+   "re": "\\bInsurance Regulatory and Development Authority Act,? 1999|\\bIRDAI? Act(?:,? 1999)?",
+   "laws": [
+    "IRDAA"
+   ]
+  },
+  {
+   "re": "\\bInsurance Act(?:,? 1938)?",
+   "laws": [
+    "INSA"
+   ]
+  },
+  {
+   "re": "\\bIFSCA \\(Banking\\) Regulations,? 2020",
+   "laws": [
+    "IFSCA-BANK"
+   ]
+  },
+  {
+   "re": "\\bIFSCA \\(Finance Company\\) Regulations(?:,? 2021)?",
+   "laws": [
+    "IFSCA-FC"
+   ]
+  },
+  {
+   "re": "\\bInternational Financial Services Centres Authority Act,? 2019|\\bIFSCA Act(?:,? 2019)?",
+   "laws": [
+    "IFSCAA"
+   ]
+  },
+  {
+   "re": "\\bNegotiable Instruments Act,? 1881|\\bNI Act(?:,? 1881)?",
+   "laws": [
+    "NIA"
+   ]
+  },
+  {
+   "re": "\\bRecovery of Debts and Bankruptcy Act,? 1993|\\bRDB Act(?:,? 1993)?",
+   "laws": [
+    "RDB"
+   ]
+  },
+  {
+   "re": "\\bInformation Technology Act,? 2000|\\bIT Act(?:,? 2000)?",
+   "laws": [
+    "ITA"
+   ]
+  },
+  {
+   "re": "\\bDigital Personal Data Protection Act,? 2023|\\bDPDP Act(?:,? 2023)?",
+   "laws": [
+    "DPDPA"
+   ]
+  },
+  {
+   "re": "\\bDigital Personal Data Protection Rules,? 2025|\\bDPDP Rules(?:,? 2025)?",
+   "laws": [
+    "DPDPR"
+   ]
+  },
+  {
+   "re": "\\bCompanies Act(?:,? 2013)?(?!,? 1956)|\\bAct 18 of 2013(?=, ss?\\.)",
+   "laws": [
+    "CA"
+   ]
+  },
+  {
+   "re": "\\bBanning of Unregulated Deposit Schemes Act,? 2019|\\bBUDS Act(?:,? 2019)?",
+   "laws": [
+    "BUDS"
+   ]
+  },
+  {
+   "re": "\\bBUDS Rules(?:,? 2020)?",
+   "laws": [
+    "BUDSR"
+   ]
+  },
+  {
+   "re": "\\bFactoring Regulation Act(?:,? 2011)?",
+   "laws": [
+    "FRA"
+   ]
+  },
+  {
+   "re": "\\bTRAI Act(?:,? 1997)?",
+   "laws": [
+    "TRAI"
+   ]
+  },
+  {
+   "re": "\\bRBI HFC Directions,? 2025",
+   "laws": [
+    "HFCD"
+   ]
+  },
+  {
+   "re": "^Act(?= ss?\\. )",
+   "laws": [
+    "DPDPA"
+   ],
+   "sec": "dpdp"
+  },
+  {
+   "re": "\\bRules(?= \\d)",
+   "laws": [
+    "DPDPR"
+   ],
+   "sec": "dpdp",
+   "tail": "rules"
+  },
+  {
+   "re": "\\bRule(?= \\d)",
+   "laws": [
+    "DPDPR"
+   ],
+   "sec": "dpdp",
+   "tail": "rule"
+  }
+ ]
+}

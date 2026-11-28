@@ -537,7 +537,7 @@ body[data-view="updates"] .rail{display:none}
       <select id="typeSel"><option value="">All types</option></select>
       <label class="sr" for="statusSel">Status</label>
       <select id="statusSel"><option value="">Any status</option><option value="inforce">In force</option><option value="amended">In force, amended since issue</option><option value="superseded">Superseded / repealed</option></select>
-      <button class="chipbtn" id="unvBtn" aria-pressed="false"><span class="tri"></span>Unverified only</button>
+      <button class="chipbtn" id="unvBtn" aria-pressed="false" hidden><span class="tri"></span>Unverified only</button>
       <button class="chipbtn plain" id="resetBtn" aria-pressed="false">Reset</button>
       <div class="maponly">
         <span class="vsep"></span>
@@ -686,6 +686,7 @@ async function boot(){
     const cfg = man.maps.find(m=>m.id===want) || man.maps.find(m=>m.id===man.default) || man.maps[0];
     sw.value = cfg.id;
     const [reg, graph] = await Promise.all([getJSON(cfg.register), getJSON(cfg.graph)]);
+    try { S.laws = await getJSON("../../assets/laws.json"); } catch(e){ S.laws = null; }
     if (cfg.updates) { try { S.upd = await getJSON(cfg.updates); } catch(e){ console.warn("updates not loaded", e); } }
     if (cfg.glossary) { try { S.gl = await getJSON(cfg.glossary); } catch(e){ console.warn("glossary not loaded", e); } }
     if (cfg.definitions) { try { S.defs = await getJSON(cfg.definitions); } catch(e){ console.warn("definitions not loaded", e); } }
@@ -704,7 +705,7 @@ function build(cfg, reg, graph){
     const g = gN.get(r.id) || {};
     return Object.assign({}, r, {
       label: shortLabel(r, g.label), theme: r.theme || g.group || "Other",
-      sc: statusClass(r), unv: !!r.has_unverified_items, url: r.official_url || g.url || ""
+      sc: statusClass(r), unv: false, url: r.official_url || g.url || ""
     });
   });
   S.items.forEach(it => S.byId.set(it.id, it));
@@ -1586,6 +1587,20 @@ function fmtItem(raw, cls){
   h = glLink(h);
   return `<li class="${u?"u":""}">${u?`<span class="ub" title="${esc(note||"Marked unverified in the register")}">UNVERIFIED${note?" · "+esc(note):""}</span>`:""}${para?`<span class="para">${esc(para)}</span>`:""}${h}</li>`;
 }
+/* full law names for short forms in "Legal basis" (same table as the hub pages: assets/laws.json) */
+function lawFull(t){
+  const L = S.laws; t = String(t||""); if (!L || !L.rules) return t;
+  if (!L._R){ L._rs = L.rules.filter(r=>!r.sec); L._R = new RegExp(L._rs.map(r=>"("+r.re+")").join("|"),"g"); }
+  const U = /^\s+(?=(?:ss?\.|rr?\.|rules?\b|regs?\b|regulations?\b|chapters?\b|paras?\b|sections?\b|part\b|schedule\b))/i;
+  let out = "", last = 0, m, prev = false; L._R.lastIndex = 0;
+  const plain = s => (prev ? s.replace(U, ", ") : s).replace(/\b(ss?|rr?)\.(?=\d)/g, "$1. ");
+  while ((m = L._R.exec(t))){
+    if (!m[0]) { L._R.lastIndex++; continue; }
+    const r = L._rs[m.slice(1).findIndex(x=>x!==undefined)], names = r.laws.map(id=>L.laws[id] && L.laws[id].name).filter(Boolean);
+    out += plain(t.slice(last, m.index)) + (names.length ? names.join(" and ") : m[0]); prev = !!names.length; last = m.index + m[0].length;
+  }
+  return out + plain(t.slice(last));
+}
 function list(arr, cls, ic){ return arr && arr.length ? `<ul class="items ${cls}" style="--ic:${ic}">${arr.map(x=>fmtItem(x)).join("")}</ul>` : `<p class="empty">Nothing recorded in the register for this instrument.</p>`; }
 const countU = arr => (arr||[]).filter(x=>/UNVERIFIED/.test(x)).length;
 function ichip(id, sup){
@@ -1649,7 +1664,7 @@ function renderPanel(id){
       <h3>Key concepts</h3>${kc.length?`<div class="concepts">${short.map(x=>`<span>${glLink(esc(x))}</span>`).join("")}</div>${long.length?list(long,"","var(--accent)"):""}`:`<p class="empty">No concepts recorded.</p>`}
       <h3>Applies to</h3>${list(it.applies_to,"","var(--st-inforce)")}
       ${(it.excluded||[]).length?`<h3>Excluded</h3>${list(it.excluded,"","var(--muted)")}`:""}
-      <h3>Legal basis</h3>${(it.statutory_powers||[]).length?list(it.statutory_powers,"","var(--r-rel-issued)"):`<p class="empty">Not recorded.</p>`}
+      <h3>Legal basis</h3>${(it.statutory_powers||[]).length?list(it.statutory_powers.map(lawFull),"","var(--r-rel-issued)"):`<p class="empty">Not recorded.</p>`}
       ${it.repeals?`<h3>Repeals</h3><div class="box">${esc(it.repeals)}</div>`:""}`;
   } else if (S.ptab==="obl"){
     body = `<h3>What must be done</h3>${list(it.core_obligations,"obl","var(--accent)")}`;

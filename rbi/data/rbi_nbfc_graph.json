@@ -2796,7 +2796,7 @@
       "source": "MD-SBR",
       "target": "OLD-SBR2023",
       "relation": "supersedes",
-      "basis": "Provisional: MD-SBR para 69 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025 (list not retrieved)"
+      "basis": "MD-SBR para 69 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025"
     },
     {
       "source": "MD-IO",
@@ -2814,55 +2814,55 @@
       "source": "MD-CREDIT",
       "target": "OLD-DL2025",
       "relation": "supersedes",
-      "basis": "Provisional: MD-CREDIT para 112 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in the notification of 28-11-2025 (list not retrieved)"
+      "basis": "MD-CREDIT para 112 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in the notification of 28-11-2025"
     },
     {
       "source": "MD-KYC",
       "target": "OLD-KYC2016",
       "relation": "supersedes",
-      "basis": "Provisional: MD-KYC para 73 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025 (list not retrieved)"
+      "basis": "MD-KYC para 73 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025"
     },
     {
       "source": "MD-OUTS",
       "target": "OLD-ITOUT2023",
       "relation": "supersedes",
-      "basis": "Provisional: MD-OUTS para 100 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025 (list not retrieved)"
+      "basis": "MD-OUTS para 100 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025"
     },
     {
       "source": "MD-CYBER",
       "target": "OLD-ITGOV2023",
       "relation": "supersedes",
-      "basis": "Provisional: MD-CYBER para 155 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DoS.CO.PPG.66/11.01.005/2026-27 of 31-07-2026 (list not retrieved)"
+      "basis": "MD-CYBER para 155 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DoS.CO.PPG.66/11.01.005/2026-27 of 31-07-2026"
     },
     {
       "source": "MD-FRAUD",
       "target": "OLD-FRAUD2024",
       "relation": "supersedes",
-      "basis": "Provisional: MD-FRAUD para 59 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DoS.CO.PPG.66/11.01.005/2026-27 of 31-07-2026 (list not retrieved)"
+      "basis": "MD-FRAUD para 59 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DoS.CO.PPG.66/11.01.005/2026-27 of 31-07-2026"
     },
     {
       "source": "MD-TDCR",
       "target": "OLD-TLE2021",
       "relation": "supersedes",
-      "basis": "Provisional: MD-TDCR para 128 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025 (list not retrieved)"
+      "basis": "MD-TDCR para 128 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025"
     },
     {
       "source": "MD-SEC",
       "target": "OLD-SSA2021",
       "relation": "supersedes",
-      "basis": "Provisional: MD-SEC para 116 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025 (list not retrieved)"
+      "basis": "MD-SEC para 116 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025"
     },
     {
       "source": "MD-DEP",
       "target": "OLD-PD2016",
       "relation": "supersedes",
-      "basis": "Provisional: MD-DEP para 65 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025 (list not retrieved)"
+      "basis": "MD-DEP para 65 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025"
     },
     {
       "source": "MD-MFI",
       "target": "OLD-MFI2022",
       "relation": "supersedes",
-      "basis": "Provisional: MD-MFI para 50 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025 (list not retrieved)"
+      "basis": "MD-MFI para 50 repeals the earlier instructions on this subject, as they applied to NBFCs, as listed in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025"
     },
     {
       "source": "MD-AUDREP",
@@ -2874,7 +2874,7 @@
       "source": "SCH-RBIOS",
       "target": "ACT-RBI",
       "relation": "issued_under",
-      "basis": "UNVERIFIED: statutory basis not checked (the Scheme text could not be retrieved)"
+      "basis": ""
     },
     {
       "source": "SCH-RBIOS",
@@ -2916,43 +2916,43 @@
       "source": "MD-GOV",
       "target": "OLD-SBR2023",
       "relation": "migrated_from",
-      "basis": "UNVERIFIED: subject-level migration of SBR 2023 provisions into this Direction; the repeal list (circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025) was not retrieved"
+      "basis": "subject-level migration of SBR 2023 provisions into this Direction (repeal list in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025)"
     },
     {
       "source": "MD-CAP",
       "target": "OLD-SBR2023",
       "relation": "migrated_from",
-      "basis": "UNVERIFIED: subject-level migration of SBR 2023 provisions into this Direction; the repeal list (circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025) was not retrieved"
+      "basis": "subject-level migration of SBR 2023 provisions into this Direction (repeal list in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025)"
     },
     {
       "source": "MD-IRACP",
       "target": "OLD-SBR2023",
       "relation": "migrated_from",
-      "basis": "UNVERIFIED: subject-level migration of SBR 2023 provisions into this Direction; the repeal list (circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025) was not retrieved"
+      "basis": "subject-level migration of SBR 2023 provisions into this Direction (repeal list in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025)"
     },
     {
       "source": "MD-CONC",
       "target": "OLD-SBR2023",
       "relation": "migrated_from",
-      "basis": "UNVERIFIED: subject-level migration of SBR 2023 provisions into this Direction; the repeal list (circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025) was not retrieved"
+      "basis": "subject-level migration of SBR 2023 provisions into this Direction (repeal list in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025)"
     },
     {
       "source": "MD-RBC",
       "target": "OLD-SBR2023",
       "relation": "migrated_from",
-      "basis": "UNVERIFIED: subject-level migration of SBR 2023 provisions into this Direction; the repeal list (circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025) was not retrieved"
+      "basis": "subject-level migration of SBR 2023 provisions into this Direction (repeal list in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025)"
     },
     {
       "source": "MD-MISC",
       "target": "OLD-SBR2023",
       "relation": "migrated_from",
-      "basis": "UNVERIFIED: subject-level migration of SBR 2023 provisions into this Direction; the repeal list (circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025) was not retrieved"
+      "basis": "subject-level migration of SBR 2023 provisions into this Direction (repeal list in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025)"
     },
     {
       "source": "MD-RBC",
       "target": "OLD-MFI2022",
       "relation": "migrated_from",
-      "basis": "UNVERIFIED: microfinance loan conduct rules that applied beyond NBFC-MFIs; the repeal list (circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025) was not retrieved"
+      "basis": "microfinance loan conduct rules that applied beyond NBFC-MFIs (repeal list in circular DOR.RRC.REC.302/33-01-010/2025-26 of 28-11-2025)"
     },
     {
       "source": "MD-AMLG",
@@ -3276,2461 +3276,2461 @@
       "source": "MD-SBR",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3(2), 4. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(2), 4. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-SBR",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3(2), 4 (checked 24-11-2026)"
+      "basis": "para 3(2), 4"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)); para 3(1)(i)(g) and (ii): incl. para 6(3) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)); para 3(1)(i)(g) and (ii): incl. para 6(3)"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-ACQ",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)); para 3(1)(iii): paras 6(4), 11, 12 and 13 only (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC and NOFHC excluded (para 3(2)); para 3(1)(iii): paras 6(4), 11, 12 and 13 only"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-AMLG",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3 (all categories, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all categories, all layers)"
     },
     {
       "source": "MD-BRANCH",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-BRANCH",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)); para 3(1)(ii): paras 6 and 12 also apply to deposit-taking NBFCs and HFCs (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)); para 3(1)(ii): paras 6 and 12 also apply to deposit-taking NBFCs and HFCs"
     },
     {
       "source": "MD-BRANCH",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-BRANCH",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-BRANCH",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-BRANCH",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-BRANCH",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-BRANCH",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-BRANCH",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)); paras 13 to 15 (CIC Directions para 7(2)) (checked 24-11-2026)"
+      "basis": "para 3(1) (all layers); MGC, SPD, P2P, AA and NOFHC excluded (para 3(2)); paras 13 to 15 (CIC Directions para 7(2))"
     },
     {
       "source": "MD-FINSVC",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3; MGC, P2P, AA and NOFHC excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; MGC, P2P, AA and NOFHC excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-FINSVC",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3; MGC, P2P, AA and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; MGC, P2P, AA and NOFHC excluded"
     },
     {
       "source": "MD-FINSVC",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3; MGC, P2P, AA and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; MGC, P2P, AA and NOFHC excluded"
     },
     {
       "source": "MD-FINSVC",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3; MGC, P2P, AA and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; MGC, P2P, AA and NOFHC excluded"
     },
     {
       "source": "MD-FINSVC",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3; MGC, P2P, AA and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; MGC, P2P, AA and NOFHC excluded"
     },
     {
       "source": "MD-FINSVC",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3; MGC, P2P, AA and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; MGC, P2P, AA and NOFHC excluded"
     },
     {
       "source": "MD-FINSVC",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3; MGC, P2P, AA and NOFHC excluded; para 3(5): paras 58 to 60 apply to IDF-NBFCs only (checked 24-11-2026)"
+      "basis": "para 3; MGC, P2P, AA and NOFHC excluded; para 3(5): paras 58 to 60 apply to IDF-NBFCs only"
     },
     {
       "source": "MD-FINSVC",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3; MGC, P2P, AA and NOFHC excluded; para 3(6): paras 6 to 14 and 40 to 49 (checked 24-11-2026)"
+      "basis": "para 3; MGC, P2P, AA and NOFHC excluded; para 3(6): paras 6 to 14 and 40 to 49"
     },
     {
       "source": "MD-FINSVC",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3; MGC, P2P, AA and NOFHC excluded; para 3(7): paras 26 to 33 and 50 to 51 (checked 24-11-2026)"
+      "basis": "para 3; MGC, P2P, AA and NOFHC excluded; para 3(7): paras 26 to 33 and 50 to 51"
     },
     {
       "source": "MD-FINSVC",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3; MGC, P2P, AA and NOFHC excluded; para 3(8): paras 7 to 14, 20 to 22 and 34 to 39 (checked 24-11-2026)"
+      "basis": "para 3; MGC, P2P, AA and NOFHC excluded; para 3(8): paras 7 to 14, 20 to 22 and 34 to 39"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4); NBFC-D is not listed as a separate category; deposit-taking NBFCs are covered under their own category (e.g. ICC) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4); NBFC-D is not listed as a separate category; deposit-taking NBFCs are covered under their own category (e.g. ICC)"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4)"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4)"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4)"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4)"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4)"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4)"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4)"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4); para 3(4): listed paragraphs only (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4); para 3(4): listed paragraphs only"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4); para 3(5): paras 7 to 9, 12 to 18 and 25 to 40 (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4); para 3(5): paras 7 to 9, 12 to 18 and 25 to 40"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4); para 3(6): paras 8, 10 to 13, 17(1) and 18 (12, 13, 17(1), 18 apply although AAs are Base Layer) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4); para 3(6): paras 8, 10 to 13, 17(1) and 18 (12, 13, 17(1), 18 apply although AAs are Base Layer)"
     },
     {
       "source": "MD-GOV",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4); para 3(7): paras 8 to 13 (12 and 13 apply although P2Ps are Base Layer) (checked 24-11-2026)"
+      "basis": "para 3(1)-(7): BL Chapter III; ML Chapters II-IV; UL all; NOFHC excluded (para 4); para 3(7): paras 8 to 13 (12 and 13 apply although P2Ps are Base Layer)"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded; paras 6(4), 7, 8, 11, 15, 16 and 54 (MGC Directions para 4(2)) (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded; paras 6(4), 7, 8, 11, 15, 16 and 54 (MGC Directions para 4(2))"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded; paras 15, 16 and 54 (CIC Directions para 7(6)) (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded; paras 15, 16 and 54 (CIC Directions para 7(6))"
     },
     {
       "source": "MD-CAP",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded; paras 16 and 54 (SPD Directions para 5(6)) (checked 24-11-2026)"
+      "basis": "para 3; P2P, AA, NOFHC, Type I NBFCs excluded; paras 16 and 54 (SPD Directions para 5(6))"
     },
     {
       "source": "MD-DEP",
       "target": "CAT-ML",
       "relation": "applies_to",
-      "basis": "para 3(1): NBFC-D, deposit-taking HFCs and Government NBFCs; NBFC-D are always Middle Layer or above (SBR). Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(1): NBFC-D, deposit-taking HFCs and Government NBFCs; NBFC-D are always Middle Layer or above (SBR). Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-DEP",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(1): NBFC-D, deposit-taking HFCs and Government NBFCs; NBFC-D are always Middle Layer or above (SBR) (checked 24-11-2026)"
+      "basis": "para 3(1): NBFC-D, deposit-taking HFCs and Government NBFCs; NBFC-D are always Middle Layer or above (SBR)"
     },
     {
       "source": "MD-DEP",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3(1): NBFC-D, deposit-taking HFCs and Government NBFCs; NBFC-D are always Middle Layer or above (SBR); deposit-taking HFCs only; paras 10, 11, 30, 40, 50 to 52, 62 and 63 do not apply (para 3(1)(ii)) (checked 24-11-2026)"
+      "basis": "para 3(1): NBFC-D, deposit-taking HFCs and Government NBFCs; NBFC-D are always Middle Layer or above (SBR); deposit-taking HFCs only; paras 10, 11, 30, 40, 50 to 52, 62 and 63 do not apply (para 3(1)(ii))"
     },
     {
       "source": "MD-CREDIT",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-CREDIT",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded"
     },
     {
       "source": "MD-CREDIT",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded"
     },
     {
       "source": "MD-CREDIT",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded"
     },
     {
       "source": "MD-CREDIT",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded"
     },
     {
       "source": "MD-CREDIT",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded"
     },
     {
       "source": "MD-CREDIT",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded"
     },
     {
       "source": "MD-CREDIT",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded (checked 24-11-2026)"
+      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded"
     },
     {
       "source": "MD-CREDIT",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded; para 3(2)(ii): paras 105 to 107 only (checked 24-11-2026)"
+      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded; para 3(2)(ii): paras 105 to 107 only"
     },
     {
       "source": "MD-CREDIT",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded; para 3(2)(iii): para 21(2) only (checked 24-11-2026)"
+      "basis": "para 3(1)-(3); MGC, AA, SPD, NOFHC and Type I NBFCs excluded; para 3(2)(iii): para 21(2) only"
     },
     {
       "source": "MD-CARDS",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3 (all layers). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3 (all layers). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-CARDS",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-CARDS",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-CARDS",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-CARDS",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-CIR",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-CIR",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CIR",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CIR",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CIR",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CIR",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CIR",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CIR",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CIR",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CIR",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CRM",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-CRM",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CRM",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CRM",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CRM",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CRM",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CRM",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CRM",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-CONC",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-CONC",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4))"
     },
     {
       "source": "MD-CONC",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4))"
     },
     {
       "source": "MD-CONC",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4))"
     },
     {
       "source": "MD-CONC",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4))"
     },
     {
       "source": "MD-CONC",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4))"
     },
     {
       "source": "MD-CONC",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4))"
     },
     {
       "source": "MD-CONC",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)); para 3(2)(i): all except paras 7, 14, 16, 19, 22 and 23 (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)); para 3(2)(i): all except paras 7, 14, 16, 19, 22 and 23"
     },
     {
       "source": "MD-CONC",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)); para 3(2)(ii): Chapter IV only, for MGCs in the Upper Layer (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)); para 3(2)(ii): Chapter IV only, for MGCs in the Upper Layer"
     },
     {
       "source": "MD-CONC",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)); para 3(2)(iii): para 24 only (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): Base Layer rules in Chapter II (Board-approved concentration policy, para 6), Middle Layer Chapter III, Upper Layer Chapter IV; P2P, AA, CIC, NOFHC, Type I NBFCs and Base Layer NBFCs with customer interface that do not use public funds excluded (para 3(4)); para 3(2)(iii): para 24 only"
     },
     {
       "source": "MD-TDCR",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-TDCR",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-TDCR",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-TDCR",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-TDCR",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-TDCR",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-TDCR",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-TDCR",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-SEC",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-SEC",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-SEC",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-SEC",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-SEC",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-SEC",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-SEC",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-SEC",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-INV",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-INV",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III)"
     },
     {
       "source": "MD-INV",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III)"
     },
     {
       "source": "MD-INV",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III)"
     },
     {
       "source": "MD-INV",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III)"
     },
     {
       "source": "MD-INV",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III)"
     },
     {
       "source": "MD-INV",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III)"
     },
     {
       "source": "MD-INV",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III)"
     },
     {
       "source": "MD-INV",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter II; ML and above Chapters II-III)"
     },
     {
       "source": "MD-ALM",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-ALM",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-ALM",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-ALM",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-ALM",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-ALM",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-ALM",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-ALM",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-ALM",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3; all except Chapter III (CIC Directions para 7(11)) (checked 24-11-2026)"
+      "basis": "para 3; all except Chapter III (CIC Directions para 7(11))"
     },
     {
       "source": "MD-IRACP",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-IRACP",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V)"
     },
     {
       "source": "MD-IRACP",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V)"
     },
     {
       "source": "MD-IRACP",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V)"
     },
     {
       "source": "MD-IRACP",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V)"
     },
     {
       "source": "MD-IRACP",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V)"
     },
     {
       "source": "MD-IRACP",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V)"
     },
     {
       "source": "MD-IRACP",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V)"
     },
     {
       "source": "MD-IRACP",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V)"
     },
     {
       "source": "MD-IRACP",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V) (checked 24-11-2026)"
+      "basis": "para 3 (BL Chapter III; ML Chapter IV; UL Chapter V)"
     },
     {
       "source": "MD-STRESS",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-STRESS",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-STRESS",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-STRESS",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-STRESS",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-STRESS",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-STRESS",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (checked 24-11-2026)"
+      "basis": "para 3"
     },
     {
       "source": "MD-STRESS",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3; paras 86 to 138O (HFC Directions para 5(15)) (checked 24-11-2026)"
+      "basis": "para 3; paras 86 to 138O (HFC Directions para 5(15))"
     },
     {
       "source": "MD-STRESS",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3; paras 86 to 100 (MGC Directions para 4(3)) (checked 24-11-2026)"
+      "basis": "para 3; paras 86 to 100 (MGC Directions para 4(3))"
     },
     {
       "source": "MD-WD",
       "target": "CAT-ML",
       "relation": "applies_to",
-      "basis": "para 3: NBFCs in the Middle Layer and above. Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3: NBFCs in the Middle Layer and above. Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-WD",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3: NBFCs in the Middle Layer and above (checked 24-11-2026)"
+      "basis": "para 3: NBFCs in the Middle Layer and above"
     },
     {
       "source": "MD-WD",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3: NBFCs in the Middle Layer and above (checked 24-11-2026)"
+      "basis": "para 3: NBFCs in the Middle Layer and above"
     },
     {
       "source": "MD-WD",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3: NBFCs in the Middle Layer and above (checked 24-11-2026)"
+      "basis": "para 3: NBFCs in the Middle Layer and above"
     },
     {
       "source": "MD-WD",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3: NBFCs in the Middle Layer and above (checked 24-11-2026)"
+      "basis": "para 3: NBFCs in the Middle Layer and above"
     },
     {
       "source": "MD-WD",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3: NBFCs in the Middle Layer and above (checked 24-11-2026)"
+      "basis": "para 3: NBFCs in the Middle Layer and above"
     },
     {
       "source": "MD-WD",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3: NBFCs in the Middle Layer and above (checked 24-11-2026)"
+      "basis": "para 3: NBFCs in the Middle Layer and above"
     },
     {
       "source": "MD-WD",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3: NBFCs in the Middle Layer and above (checked 24-11-2026)"
+      "basis": "para 3: NBFCs in the Middle Layer and above"
     },
     {
       "source": "MD-WD",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3: NBFCs in the Middle Layer and above (checked 24-11-2026)"
+      "basis": "para 3: NBFCs in the Middle Layer and above"
     },
     {
       "source": "MD-FS",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-FS",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-FS",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-FS",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-FS",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-FS",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-FS",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-FS",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-FS",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-FS",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded; all except paras 13 to 15 and 20 (SPD Directions para 5(7)) (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded; all except paras 13 to 15 and 20 (SPD Directions para 5(7))"
     },
     {
       "source": "MD-FS",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded; all except para 20 (MGC Directions para 4(4)) (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded; all except para 20 (MGC Directions para 4(4))"
     },
     {
       "source": "MD-FS",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded; all except paras 13 to 15 and 20 (P2P Directions para 4(4)) (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded; all except paras 13 to 15 and 20 (P2P Directions para 4(4))"
     },
     {
       "source": "MD-FS",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded; all except paras 13 to 15 and 20 (AA Directions para 4(3)) (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded; all except paras 13 to 15 and 20 (AA Directions para 4(3))"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-DIV",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3; NOFHC excluded"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-KYC",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3 (all NBFCs, all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all NBFCs, all layers)"
     },
     {
       "source": "MD-RBC",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-RBC",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded"
     },
     {
       "source": "MD-RBC",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded"
     },
     {
       "source": "MD-RBC",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded"
     },
     {
       "source": "MD-RBC",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded"
     },
     {
       "source": "MD-RBC",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded"
     },
     {
       "source": "MD-RBC",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded"
     },
     {
       "source": "MD-RBC",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded (checked 24-11-2026)"
+      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded"
     },
     {
       "source": "MD-RBC",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded; paras 98 to 100 only (P2P Directions para 4(8)) (checked 24-11-2026)"
+      "basis": "para 3 (all layers); MGC, CIC, AA, SPD and NOFHC excluded; paras 98 to 100 only (P2P Directions para 4(8))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)) (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4))"
     },
     {
       "source": "MD-OUTS",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)); para 3(3): Chapter IV and the IT parts of Chapter II, for MGCs in the Middle Layer and above (checked 24-11-2026)"
+      "basis": "para 3(2): Base Layer all except Chapter IV and the IT parts of Chapter II; Middle Layer and above all; NOFHC excluded (para 3(4)); para 3(3): Chapter IV and the IT parts of Chapter II, for MGCs in the Middle Layer and above"
     },
     {
       "source": "MD-CLIMATE",
       "target": "CAT-ML",
       "relation": "applies_to",
-      "basis": "para 3: NBFC-D and deposit-taking HFCs. Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3: NBFC-D and deposit-taking HFCs. Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-CLIMATE",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3: NBFC-D and deposit-taking HFCs (checked 24-11-2026)"
+      "basis": "para 3: NBFC-D and deposit-taking HFCs"
     },
     {
       "source": "MD-CLIMATE",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3: NBFC-D and deposit-taking HFCs; deposit-taking HFCs only (checked 24-11-2026)"
+      "basis": "para 3: NBFC-D and deposit-taking HFCs; deposit-taking HFCs only"
     },
     {
       "source": "MD-HFC",
       "target": "CAT-ML",
       "relation": "applies_to",
-      "basis": "para 3; HFCs sit in the Middle or Upper Layer, never Base (para 9). Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; HFCs sit in the Middle or Upper Layer, never Base (para 9). Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-HFC",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3; HFCs sit in the Middle or Upper Layer, never Base (para 9) (checked 24-11-2026)"
+      "basis": "para 3; HFCs sit in the Middle or Upper Layer, never Base (para 9)"
     },
     {
       "source": "MD-SPD",
       "target": "CAT-ML",
       "relation": "applies_to",
-      "basis": "para 3; SPDs are always Middle Layer (para 8). Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; SPDs are always Middle Layer (para 8). Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-SPD",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3; SPDs are always Middle Layer (para 8) (checked 24-11-2026)"
+      "basis": "para 3; SPDs are always Middle Layer (para 8)"
     },
     {
       "source": "MD-CIC",
       "target": "CAT-ML",
       "relation": "applies_to",
-      "basis": "para 3-4; registered CICs sit in the Middle or Upper Layer (SBR Directions); unregistered CICs excluded (para 4). Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3-4; registered CICs sit in the Middle or Upper Layer (SBR Directions); unregistered CICs excluded (para 4). Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-CIC",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3-4; registered CICs sit in the Middle or Upper Layer (SBR Directions); unregistered CICs excluded (para 4) (checked 24-11-2026)"
+      "basis": "para 3-4; registered CICs sit in the Middle or Upper Layer (SBR Directions); unregistered CICs excluded (para 4)"
     },
     {
       "source": "MD-AA",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3; always Base Layer (para 6). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; always Base Layer (para 6). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-AA",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3; always Base Layer (para 6) (checked 24-11-2026)"
+      "basis": "para 3; always Base Layer (para 6)"
     },
     {
       "source": "MD-MGC",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3; any layer by size (para 7). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; any layer by size (para 7). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-MGC",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3; any layer by size (para 7) (checked 24-11-2026)"
+      "basis": "para 3; any layer by size (para 7)"
     },
     {
       "source": "MD-P2P",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3; always Base Layer (para 6). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; always Base Layer (para 6). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-P2P",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3; always Base Layer (para 6) (checked 24-11-2026)"
+      "basis": "para 3; always Base Layer (para 6)"
     },
     {
       "source": "MD-MFI",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3; any layer by size (para 7). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; any layer by size (para 7). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-MFI",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3; any layer by size (para 7) (checked 24-11-2026)"
+      "basis": "para 3; any layer by size (para 7)"
     },
     {
       "source": "MD-NOFHC",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3; NOFHCs are always Base Layer (SBR Directions). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3; NOFHCs are always Base Layer (SBR Directions). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-NOFHC",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3; NOFHCs are always Base Layer (SBR Directions) (checked 24-11-2026)"
+      "basis": "para 3; NOFHCs are always Base Layer (SBR Directions)"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(ix): Chapter IV applies to ICCs doing factoring (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(ix): Chapter IV applies to ICCs doing factoring"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(ix): Chapter IV (factoring) also applies (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(ix): Chapter IV (factoring) also applies"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)) (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2))"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(x): Chapter V applies (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(x): Chapter V applies"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(iii): paras 6 to 22 and 24 to 27 (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(iii): paras 6 to 22 and 24 to 27"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(viii): paras 6, 7, 9 to 20 and 25 to 27 (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(viii): paras 6, 7, 9 to 20 and 25 to 27"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(vi): paras 6, 7, 14, 15, 25 and 26 (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(vi): paras 6, 7, 14, 15, 25 and 26"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(vii): paras 6, 7, 25 and 26 (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(vii): paras 6, 7, 25 and 26"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(v): paras 6, 7, 8, 14, 15, 25 and 26 (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(v): paras 6, 7, 8, 14, 15, 25 and 26"
     },
     {
       "source": "MD-MISC",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(iv): paras 6, 7, 14, 15, 25 and 26 (checked 24-11-2026)"
+      "basis": "para 3(1): Base Layer Chapter II; Middle Layer and above Chapters II-III; NOFHC excluded (para 3(2)); para 3(1)(iv): paras 6, 7, 14, 15, 25 and 26"
     },
     {
       "source": "MD-IO",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-IO",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer"
     },
     {
       "source": "MD-IO",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer"
     },
     {
       "source": "MD-IO",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer"
     },
     {
       "source": "MD-IO",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer"
     },
     {
       "source": "MD-IO",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer; not excluded by name, but caught only if it meets the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer; not excluded by name, but caught only if it meets the ₹5,000 crore test"
     },
     {
       "source": "MD-IO",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer; not excluded by name, but caught only if it meets the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3(1)-(3): NBFC-D with 10 or more branches, and non-deposit NBFCs with assets of ₹5,000 crore or more and a public customer interface, tested as on 31-03-2025; an NBFC that meets the test later is covered six months after (para 3(2)); not for NBFCs under CIRP, in liquidation or winding up, or under RBI directions (para 3(3)); HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. In practice the test catches Middle Layer and larger NBFCs, but P2P and AA platforms stay in the Base Layer whatever their size, so the tag starts at the Base Layer; not excluded by name, but caught only if it meets the ₹5,000 crore test"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-AUDREP",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX) (checked 24-11-2026)"
+      "basis": "para 3: auditors of every NBFC under s.45-I(f) except those exempted from s.45-IA under s.45NC; HFC auditors follow the HFC Directions (Chapter IX)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3 (all layers). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3 (all layers). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); Chapter IV (nomination) applies to NBFC-D only (checked 24-11-2026)"
+      "basis": "para 3 (all layers); Chapter IV (nomination) applies to NBFC-D only"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); Chapters IV (nomination) and V (PCA) do not apply to HFCs (checked 24-11-2026)"
+      "basis": "para 3 (all layers); Chapters IV (nomination) and V (PCA) do not apply to HFCs"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3 (all layers); Chapter V (PCA) does not apply to Primary Dealers (checked 24-11-2026)"
+      "basis": "para 3 (all layers); Chapter V (PCA) does not apply to Primary Dealers"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-SUPMISC",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3 (all layers) (checked 24-11-2026)"
+      "basis": "para 3 (all layers)"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-RETURNS",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3: all categories, all layers, except HFCs (checked 24-11-2026)"
+      "basis": "para 3: all categories, all layers, except HFCs"
     },
     {
       "source": "MD-SA",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-SA",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-SA",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure (checked 24-11-2026)"
+      "basis": "para 3: all NBFCs incl. HFCs; non-deposit NBFCs below ₹1,000 crore (most of the Base Layer) may keep their existing auditor-appointment procedure"
     },
     {
       "source": "MD-IA",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-IA",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-IA",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test (checked 24-11-2026)"
+      "basis": "para 3: all deposit-taking NBFCs and HFCs; non-deposit NBFCs and HFCs with assets of ₹5,000 crore or more. In practice the Middle Layer and above, but entities that stay in the Base Layer whatever their size (P2P, AA, NOFHC, and NBFCs without public funds or customer interface) are caught if they meet the ₹5,000 crore test"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more; para 3 Note: HFCs report frauds to NHB, not RBI (Chapters VI and VIII do not apply) (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more; para 3 Note: HFCs report frauds to NHB, not RBI (Chapters VI and VIII do not apply)"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-FRAUD",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more (checked 24-11-2026)"
+      "basis": "para 3: Upper and Middle Layers, and Base Layer NBFCs with assets of ₹500 crore or more"
     },
     {
       "source": "MD-DPSC",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3: credit-card issuing NBFCs only (categories as in the Credit Cards Directions, para 3). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3: credit-card issuing NBFCs only (categories as in the Credit Cards Directions, para 3). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-DPSC",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3: credit-card issuing NBFCs only (categories as in the Credit Cards Directions, para 3) (checked 24-11-2026)"
+      "basis": "para 3: credit-card issuing NBFCs only (categories as in the Credit Cards Directions, para 3)"
     },
     {
       "source": "MD-DPSC",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3: credit-card issuing NBFCs only (categories as in the Credit Cards Directions, para 3) (checked 24-11-2026)"
+      "basis": "para 3: credit-card issuing NBFCs only (categories as in the Credit Cards Directions, para 3)"
     },
     {
       "source": "MD-DPSC",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3: credit-card issuing NBFCs only (categories as in the Credit Cards Directions, para 3) (checked 24-11-2026)"
+      "basis": "para 3: credit-card issuing NBFCs only (categories as in the Credit Cards Directions, para 3)"
     },
     {
       "source": "MD-DPSC",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3: credit-card issuing NBFCs only (categories as in the Credit Cards Directions, para 3) (checked 24-11-2026)"
+      "basis": "para 3: credit-card issuing NBFCs only (categories as in the Credit Cards Directions, para 3)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-HFC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs); para 3(1) covers NHB Act registrants; cyber incidents go to NHB (para 141 Note) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs); para 3(1) covers NHB Act registrants; cyber incidents go to NHB (para 141 Note)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-CYBER",
       "target": "CAT-NOFHC",
       "relation": "applies_to",
-      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs) (checked 24-11-2026)"
+      "basis": "para 3(1)-(4): Chapter III for Base Layer below ₹500 crore and CICs; Chapter IV for Base Layer ₹500 crore and above; Chapter V for Middle, Upper and Top Layers (not CICs)"
     },
     {
       "source": "MD-COMPL",
       "target": "CAT-ML",
       "relation": "applies_to",
-      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named). Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named). Applies from the Middle Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "MD-COMPL",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named) (checked 24-11-2026)"
+      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named)"
     },
     {
       "source": "MD-COMPL",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named) (checked 24-11-2026)"
+      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named)"
     },
     {
       "source": "MD-COMPL",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named) (checked 24-11-2026)"
+      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named)"
     },
     {
       "source": "MD-COMPL",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named) (checked 24-11-2026)"
+      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named)"
     },
     {
       "source": "MD-COMPL",
       "target": "CAT-IFC",
       "relation": "applies_to",
-      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named) (checked 24-11-2026)"
+      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named)"
     },
     {
       "source": "MD-COMPL",
       "target": "CAT-IDF",
       "relation": "applies_to",
-      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named) (checked 24-11-2026)"
+      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named)"
     },
     {
       "source": "MD-COMPL",
       "target": "CAT-CIC",
       "relation": "applies_to",
-      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named) (checked 24-11-2026)"
+      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named)"
     },
     {
       "source": "MD-COMPL",
       "target": "CAT-SPD",
       "relation": "applies_to",
-      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named) (checked 24-11-2026)"
+      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named)"
     },
     {
       "source": "MD-COMPL",
       "target": "CAT-MGC",
       "relation": "applies_to",
-      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named) (checked 24-11-2026)"
+      "basis": "para 3: Middle and Upper Layer NBFCs registered under the RBI Act or the Factoring Act (HFCs are registered under the NHB Act and are not named)"
     },
     {
       "source": "SCH-RBIOS",
       "target": "CAT-BL",
       "relation": "applies_to",
-      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded (Scheme text not read). Applies from the Base Layer up (layers are cumulative under Scale Based Regulation) (checked 24-11-2026)"
+      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded. Applies from the Base Layer up (layers are cumulative under Scale Based Regulation)"
     },
     {
       "source": "SCH-RBIOS",
       "target": "CAT-D",
       "relation": "applies_to",
-      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded (Scheme text not read) (checked 24-11-2026)"
+      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded"
     },
     {
       "source": "SCH-RBIOS",
       "target": "CAT-ICC",
       "relation": "applies_to",
-      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded (Scheme text not read) (checked 24-11-2026)"
+      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded"
     },
     {
       "source": "SCH-RBIOS",
       "target": "CAT-FACTOR",
       "relation": "applies_to",
-      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded (Scheme text not read) (checked 24-11-2026)"
+      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded"
     },
     {
       "source": "SCH-RBIOS",
       "target": "CAT-MFI",
       "relation": "applies_to",
-      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded (Scheme text not read) (checked 24-11-2026)"
+      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded"
     },
     {
       "source": "SCH-RBIOS",
       "target": "CAT-P2P",
       "relation": "applies_to",
-      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded (Scheme text not read) (checked 24-11-2026)"
+      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded"
     },
     {
       "source": "SCH-RBIOS",
       "target": "CAT-AA",
       "relation": "applies_to",
-      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded (Scheme text not read) (checked 24-11-2026)"
+      "basis": "RBI FAQ on RB-IOS 2026, Q13: NBFCs that take deposits, or have a customer interface and assets of ₹100 crore or more; HFC, CIC, IDF, IFC, NOFHC, PD and MGC excluded"
     }
   ]
 }
