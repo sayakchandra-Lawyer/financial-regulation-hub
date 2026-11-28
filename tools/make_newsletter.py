@@ -258,7 +258,7 @@ for d in issues:
 archive(issues)
 # home page "headline changes": the latest issue's top six, resolved to plain fields
 L = issues[0]; byid = {i["id"]: i for i in L["items"]}; sn = {x["id"]: x for x in L["sectors"]}
-latest = {"id": L["id"], "issue": L["issue"], "href": f"newsletter/{L['id']}/", "top": [
+latest = {"id": L["id"], "issue": L["issue"], "period_end": L.get("period_end", ""), "href": f"newsletter/{L['id']}/", "top": [
     {"title": byid[t["id"]]["title"], "so_what": t["so_what"], "reg": byid[t["id"]]["reg"], "regc": REGC.get(byid[t["id"]]["reg"], "misc"),
      "impact": byid[t["id"]]["impact"], "date": byid[t["id"]]["date"], "url": byid[t["id"]]["url"],
      "more": f"newsletter/{L['id']}/#{t['id']}", "sectors": [[sn[x]["name"], sn[x]["c"]] for x in byid[t["id"]]["sectors"]]} for t in L["top"]]}
