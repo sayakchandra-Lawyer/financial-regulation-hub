@@ -771,6 +771,22 @@ const Watch = {
   toggle(k, info) { const w = this.all(); if (w[k]) delete w[k]; else w[k] = Object.assign({ added: new Date().toISOString().slice(0, 10) }, info); this.save(w); return !!w[k]; },
   seen(k, date) { const w = this.all(); if (w[k] && date && (w[k].seen || "") < date) { w[k].seen = date; this.save(w); } },
 };
+/* saved entity profiles (entity builder): kept in this browser only. Each: { id, name, sel: [attr ids], added } */
+const Profiles = {
+  all() { try { const a = JSON.parse(store.get("profiles", "[]")); return Array.isArray(a) ? a : []; } catch (e) { return []; } },
+  save(a) { store.set("profiles", JSON.stringify(a.slice(0, 10))); },
+  add(name, sel) { const a = this.all().filter(p => p.name !== name); a.push({ id: Date.now().toString(36), name, sel: [...sel], added: new Date().toISOString().slice(0, 10) }); this.save(a); return a; },
+  drop(id) { this.save(this.all().filter(p => p.id !== id)); },
+  get(id) { return this.all().find(p => p.id === id); },
+  /* the home page's "I am a" lens closest to a profile: RBI layer for NBFCs and HFCs, else listing, insurance or IFSC */
+  lens(p) {
+    const s = new Set(p.sel || []), L = { bl: 0, ml: 1, ul: 2, tl: 3 }, rbiType = ["icc", "hfc", "cic", "mfi", "factor", "ifc", "idf", "p2p", "aa"].some(x => s.has(x));
+    const lay = Object.keys(L).find(x => s.has(x));
+    if (rbiType) return lay ? String(L[lay]) : "-1";
+    if (s.has("eq")) return "s0"; if (s.has("debt") || s.has("cp")) return "s1"; if (s.has("ca")) return "i2"; if (s.has("ifsc")) return "g1";
+    return "-1";
+  },
+};
 function hubChanges() { if (!HX.changes) HX.changes = getJSON(HUB_ROOT + "changes.json").then(j => j.items || {}).catch(() => ({})); return HX.changes; }
 async function hubWatchBadge() {
   const b = $("#watchbtn"); if (!b) return;

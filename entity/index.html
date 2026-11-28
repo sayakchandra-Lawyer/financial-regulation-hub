@@ -37,6 +37,8 @@
 .grp .chip[aria-disabled=true]{opacity:.45;cursor:not-allowed}
 .help{font-size:12px;color:var(--muted);margin:8px 0 0;line-height:1.45}.help.tip{color:var(--ink-2);min-height:2.9em}
 .bfoot{display:flex;gap:10px;align-items:center;padding:4px 0 12px;flex-wrap:wrap}
+.presets>div{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.presets .mine{margin-bottom:10px}
+.pchip{padding:0;gap:0;overflow:hidden}.pchip button{border:0;background:none;font:inherit;color:inherit;padding:5px 4px 5px 12px;cursor:pointer}.pchip .px{padding:5px 10px 5px 6px;color:var(--muted)}.pchip .px:hover{color:var(--ink)}
 .res{overflow:hidden;min-width:0}
 .rhead{display:flex;gap:20px;align-items:center;padding:16px 20px;border-bottom:1px solid var(--line);flex-wrap:wrap}
 .stat b{display:block;font:500 26px/1 var(--f-d)}.stat span{font-size:12px;color:var(--muted)}
@@ -103,6 +105,7 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
   </div>
 </main>
 <footer id="foot"></footer>
+<script src="../assets/entity-engine.js?v=20261128w"></script>
 <script src="../assets/hub.js?v=20261128w"></script>
 <script>
 (async function(){
@@ -138,74 +141,17 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
   }
 
   /* ---------- the engine: selection -> instruments, each with its reasons ---------- */
-  function compute(){
-    const t = typeOf(), rbiReg = !!(t && t.rbi), items = new Map(), lab = a => a.short || a.label;
-    const layerId = [...sel].find(x => A.get(x).group === "layer"), L = layerId != null ? LBYID[layerId] : -1;
-    const add = (sec, id, why, o = {}) => {
-      const k = (o.via ? "via:" + o.via + ":" : "") + sec + "/" + id;
-      let it = items.get(k);
-      if (!it) { const r = D.inst[sec] && D.inst[sec][id]; if (!r) return null; it = { k, sec: o.via ? "lender" : sec, home: sec, id, name: r[0], type: r[1], theme: r[2], tl: r[4], why: new Set(), scope: [], focus: [], notes: [], via: o.via || "", combos: [], also: [] }; items.set(k, it); }
-      if (why) it.why.add(why);
-      if (o.scope && !it.scope.includes(o.scope)) it.scope.push(o.scope);
-      if (o.focus && !it.focus.includes(o.focus)) it.focus.push(o.focus);
-      if (o.note) it.notes.push(o.note);
-      if (o.combo) it.combos.push(o.combo);
-      return it;
-    };
-    if (rbiReg) {
-      const cats = [t.rbi_cat].concat(sel.has("dep") ? ["CAT-D"] : []);
-      const why = `${t.label}${L >= 0 ? " · " + D.layers[L].label + " Layer" : ""}`;
-      for (const [id, r] of Object.entries(D.inst.rbi)) {
-        const tags = r[3]; if (!tags.length) continue;
-        const c = tags.filter(x => !(x in LIDX)), ls = tags.filter(x => x in LIDX).map(x => LIDX[x]);
-        if (c.length && !cats.some(x => c.includes(x))) continue;
-        if (ls.length && Math.min(...ls) > Math.max(L, 0)) continue;
-        add("rbi", id, c.includes(t.rbi_cat) || !c.length ? why : "Takes public deposits");
-      }
-    }
-    const lens = {};
-    const feed = (f, why) => { if (f.layers && !f.layers.includes(layerId)) return; (lens[f.sec] = lens[f.sec] || {})[f.lens] = (lens[f.sec][f.lens] || new Set()).add(why); };
-    for (const x of sel) {
-      const a = A.get(x), w = a.group === "type" ? a.label : lab(a);
-      if (a.rbi_only && !rbiReg) continue;
-      (a.feeds || []).forEach(f => feed(f, w));
-      (rbiReg ? a.feeds_rbi || [] : a.feeds_other || []).forEach(f => feed(f, w));
-      (a.adds || []).forEach(d => { if (d.rbi_only && !rbiReg) return; add(d.sec, d.id, w, a.group === "act" ? { focus: d.scope } : { scope: d.scope }); });
-      (a.via || []).forEach(d => add(d.sec, d.id, w, { via: a.id, scope: d.scope, note: d.note }));
-    }
-    for (const [sec, m] of Object.entries(lens)) {
-      for (const [id, r] of Object.entries(D.inst[sec] || {})) {
-        const hit = r[3].filter(x => m[x]); if (!hit.length) continue;
-        const it = add(sec, id); hit.forEach(h => m[h].forEach(w => it.why.add(w)));
-      }
-    }
-    const combos = D.combos.filter(c => (c.all || []).every(x => sel.has(x)) && (!c.any || c.any.some(x => sel.has(x))) && (!c.any2 || c.any2.some(x => sel.has(x))) && !(c.none || []).some(x => sel.has(x)));
-    for (const c of combos) {
-      const w = [...(c.all || []), ...(c.any || []).filter(x => sel.has(x)), ...(c.any2 || []).filter(x => sel.has(x))].map(x => lab(A.get(x)));
-      c._why = c.because ? [c.because] : [...new Set(w)];
-      c.adds.forEach(d => add(d.sec, d.id, c._why.join(" + "), { scope: d.scope, combo: c.id }));
-    }
-    for (const [[ps, pi], [ss, si]] of D.same_as) {
-      const p = items.get(ps + "/" + pi), s = items.get(ss + "/" + si);
-      if (p && s) { s.why.forEach(w => p.why.add(w)); p.also.push(SEC.get(ss).short); items.delete(s.k); }
-    }
-    /* how each instrument reaches you: directly, only if you take up an activity or licence you have not picked,
-       in part, or as a general / event-triggered law (insolvency, contract, enforcement). A guide to reading the list, not a legal conclusion. */
-    const onAdds = new Set(), cond = new Map();
-    for (const x of sel) (A.get(x).adds || []).forEach(d => { if (!d.scope) onAdds.add(d.sec + "/" + d.id); });
-    D.attrs.filter(a => (a.group === "act" || a.group === "lic") && !sel.has(a.id)).forEach(a => (a.adds || []).forEach(d => {
-      const k = d.sec + "/" + d.id; if (d.scope || onAdds.has(k)) return; if (!cond.has(k)) cond.set(k, []); cond.get(k).push(a.short || a.label); }));
-    for (const it of items.values()) {
-      it.cond = cond.get(it.home + "/" + it.id) || [];
-      it.tier = it.via ? "via" : /^proposed/i.test(it.theme || "") ? "prop" : TIER_EVENT.has(it.home) || TIER_EVENT.has(it.home + ":" + it.theme) ? "event" : it.cond.length ? "cond" : it.scope.length ? "part" : "direct";
-    }
-    const sectors = new Set([...sel].flatMap(x => A.get(x).sectors || []));
-    const rulings = D.rulings.filter(j => j.sectors.some(s => sectors.has(s)));
-    return { items: [...items.values()], combos, rulings, rbiReg, t, L };
-  }
+  const computeFor = entityEngine(D);
+  function compute(){ return computeFor(sel); }
 
   /* ---------- builder ---------- */
-  $("#presets").innerHTML = `<span class="tag">Start from an example:</span>` + D.presets.map((p, i) => `<button type="button" class="chip" data-preset="${i}">${esc(p.label)}</button>`).join("");
+  /* saved entities first (this browser only), then the examples */
+  function renderPresets(){
+    const mine = Profiles.all(), cur = [...sel].join();
+    $("#presets").innerHTML = (mine.length ? `<div class="mine"><span class="tag">Your saved entities:</span>${mine.map(p => `<span class="chip pchip ${p.sel.join() === cur ? "on" : ""}"><button type="button" data-prof="${esc(p.id)}">${esc(p.name)}</button><button type="button" class="px" data-pdel="${esc(p.id)}" aria-label="Delete ${esc(p.name)}" title="Delete">×</button></span>`).join("")}<a class="lnk" style="font-size:13px" href="../dashboard/">Open my dashboard</a></div>` : "")
+      + `<div><span class="tag">Start from an example:</span>` + D.presets.map((p, i) => `<button type="button" class="chip ${p.sel.join() === cur ? "on" : ""}" data-preset="${i}">${esc(p.label)}</button>`).join("") + `</div>`;
+  }
+  renderPresets();
   const TIPDEF = { type: "Not sure? Most lending NBFCs, including large diversified lenders, are NBFC (Investment and Credit). Point at a type to see what it covers.",
     layer: "Point at a layer to see who falls in it." };
   function tipFor(g, hover){ const a = hover ? A.get(hover) : D.attrs.find(x => x.group === g && sel.has(x.id)); return (a && a.tip) || TIPDEF[g]; }
@@ -219,8 +165,8 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
       return `<div class="grp" role="group" aria-label="${esc(g.label)}"><h3>${esc(g.label)}${g.hint ? `<i>${esc(g.hint)}</i>` : ""}</h3><div class="chips">${opts.map(a => {
         const dis = g.id === "layer" && !t.layers.includes(a.id);
         return `<button type="button" class="chip ${g.id === "role" ? "role" : ""} ${sel.has(a.id) ? "on" : ""}" data-a="${a.id}" aria-pressed="${sel.has(a.id)}" ${dis ? 'aria-disabled="true"' : ""}${a.tip ? ` title="${esc(a.tip)}"` : ""}>${esc(a.label)}</button>`; }).join("")}</div>${TIPDEF[g.id] ? `<p class="help tip" data-g="${g.id}" aria-live="polite">${esc(tipFor(g.id))}</p>` : ""}${g.help ? `<p class="help">${esc(g.help)}</p>` : ""}</div>`;
-    }).join("") + `<div class="bfoot"><button type="button" class="btn g" id="copy" style="font-size:13px">Copy link to this entity</button><button type="button" class="lnk" id="clear" style="font-size:13px">Clear</button><span class="tag" id="copied" aria-live="polite"></span></div>`;
-    $$("#presets .chip").forEach(b => b.classList.toggle("on", D.presets[+b.dataset.preset].sel.join() === [...sel].join()));
+    }).join("") + `<div class="bfoot">${sel.size ? `<button type="button" class="btn g" id="psave" style="font-size:13px">Save this entity</button>` : ""}<button type="button" class="btn g" id="copy" style="font-size:13px">Copy link to this entity</button><button type="button" class="lnk" id="clear" style="font-size:13px">Clear</button><span class="tag" id="copied" aria-live="polite"></span></div>`;
+    renderPresets();
   }
   $("#bld").addEventListener("mouseover", e => showTip(e.target.closest(".chip[data-a]")));
   $("#bld").addEventListener("mouseout", e => resetTip(e.target.closest(".chip[data-a]")));
@@ -236,9 +182,21 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
       tidy(); panel = null; update(); return;
     }
     if (e.target.closest("#clear")) { sel.clear(); open.clear(); panel = null; update(); }
+    if (e.target.closest("#psave")) {
+      const f = $("#bld .bfoot"), guess = [...sel].map(x => A.get(x).short || A.get(x).label).slice(0, 3).join(" · ");
+      f.innerHTML = `<label class="sr" for="pname">Name for this entity</label><input id="pname" class="chip" style="flex:1;min-width:180px;font-size:13px;padding:7px 12px;cursor:text" maxlength="60" value="${esc(guess)}" placeholder="e.g. Housing finance arm"><button type="button" class="btn p" id="pok" style="font-size:13px">Save</button><button type="button" class="lnk" id="pcancel" style="font-size:13px">Cancel</button><span class="tag" style="width:100%">Saved only in this browser, on this device. The dashboard can save a copy to a file.</span>`;
+      const i = $("#pname"); i.focus(); i.select();
+      i.addEventListener("keydown", ev => { if (ev.key === "Enter") $("#pok").click(); if (ev.key === "Escape") $("#pcancel").click(); });
+      return;
+    }
+    if (e.target.closest("#pok")) { const n = $("#pname").value.trim(); if (n) { Profiles.add(n, [...sel]); update(); } return; }
+    if (e.target.closest("#pcancel")) { renderBuilder(); return; }
     if (e.target.closest("#copy")) { const u = location.href; (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(() => $("#copied").textContent = "Link copied", () => $("#copied").textContent = u); }
   });
-  $("#presets").addEventListener("click", e => { const b = e.target.closest("[data-preset]"); if (!b) return; sel = new Set(D.presets[+b.dataset.preset].sel); tidy(); open.clear(); panel = null; update(); });
+  $("#presets").addEventListener("click", e => {
+    const d = e.target.closest("[data-pdel]"); if (d) { Profiles.drop(d.dataset.pdel); renderPresets(); return; }
+    const pr = e.target.closest("[data-prof]"); if (pr) { const p = Profiles.get(pr.dataset.prof); if (p) { sel = new Set(p.sel.filter(x => A.has(x))); tidy(); open.clear(); panel = null; update(); } return; }
+    const b = e.target.closest("[data-preset]"); if (!b) return; sel = new Set(D.presets[+b.dataset.preset].sel); tidy(); open.clear(); panel = null; update(); });
   $("#ebar").addEventListener("click", e => { if (e.target.closest("#editent")) { $("#bld").classList.toggle("fold"); if (!$("#bld").classList.contains("fold")) $("#bld").scrollIntoView({ behavior: "smooth" }); } });
 
   /* ---------- result shape: branches for the map and the list ---------- */
@@ -262,8 +220,6 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
   /* a pill only where the entry is not a plain "applies directly"; "in part" already shows its scope line */
   const tierPill = (i, all) => i.tier && TIER[i.tier] && (all || !["direct", "part", "via"].includes(i.tier)) ? `<span class="pill tier ${TIER[i.tier][1]}">${TIER[i.tier][0]}</span>` : "";
   const hrefOf = i => i.ruling ? `../judgments/#j/${encodeURIComponent(i.ruling.id)}` : `../${SEC.get(i.home).href}#d/${encodeURIComponent(i.id)}`;
-  /* laws that bite on a transaction or an event (security, enforcement, insolvency), not on the licence itself */
-  const TIER_EVENT = new Set(["ibc", ...["Enforcement and recovery", "Mortgages, property and goods as security", "Cheques and negotiable instruments", "Contracts, guarantees and pledges", "Electronic contracts and evidence", "Stamp duty and registration"].map(t => "laws:" + t)]);
   const HIDE = { sebi: "a listing", exchanges: "a listing", irdai: "IRDAI corporate agent", fema: "“Borrows abroad or lends to non-residents”", ifsc: "IFSC unit", ibc: "an NBFC or HFC type", dpdp: "an NBFC or HFC type, a licence or a role", rbi: "an NBFC or HFC type" };
 
   /* ---------- header, entity bar and view switch ---------- */

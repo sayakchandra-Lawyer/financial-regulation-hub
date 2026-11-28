@@ -172,10 +172,15 @@
   await Promise.all(Object.entries(secs).map(async ([k, s]) => { if (!s) return; try { MS[k] = await loadSection(s, ""); } catch (e) { console.warn(e); } }));
   const NAME = Object.fromEntries(hub.sections.map(s => [s.id, s.short || s.name]));
   const lay = $("#layer");
-  const saved = store.get("layer", "-1"); lay.value = [...lay.options].some(o => o.value === saved) ? saved : "-1";
+  /* saved entities from the entity builder, offered first; picking one sets the closest lens */
+  { const mine = Profiles.all(); if (mine.length) { const g = document.createElement("optgroup"); g.label = "Your saved entities"; mine.forEach(p => { const o = document.createElement("option"); o.value = "p:" + p.id; o.textContent = p.name; g.appendChild(o); }); lay.prepend(g); } }
+  const lensOfProfile = v => { const p = Profiles.get(v.slice(2)); return p ? Profiles.lens(p) : "-1"; };
+  let saved = store.get("layer", "-1"); if (saved.startsWith("p:") && !Profiles.get(saved.slice(2))) saved = "-1";
+  lay.value = [...lay.options].some(o => o.value === saved) ? saved : "-1";
+  const LV = () => lay.value.startsWith("p:") ? lensOfProfile(lay.value) : lay.value;
   const PFX = { rbi: "", sebi: "s", irdai: "i", fema: "f", dpdp: "d", ibc: "b", ifsc: "g", nhb: "h", exchanges: "x", companies: "c", laws: "o" };
-  const K = () => lay.value.startsWith("i") && MS.irdai ? "irdai" : lay.value.startsWith("s") && MS.sebi ? "sebi" : lay.value.startsWith("f") && MS.fema ? "fema" : lay.value.startsWith("d") && MS.dpdp ? "dpdp" : lay.value.startsWith("b") && MS.ibc ? "ibc" : lay.value.startsWith("g") && MS.ifsc ? "ifsc" : lay.value.startsWith("h") && MS.nhb ? "nhb" : lay.value.startsWith("x") && MS.exchanges ? "exchanges" : lay.value.startsWith("c") && MS.companies ? "companies" : lay.value.startsWith("o") && MS.laws ? "laws" : "rbi";      // which regulator the lens points to
-  const L = () => +lay.value.replace(/^[isfdbghxco]/, "");
+  const K = () => LV().startsWith("i") && MS.irdai ? "irdai" : LV().startsWith("s") && MS.sebi ? "sebi" : LV().startsWith("f") && MS.fema ? "fema" : LV().startsWith("d") && MS.dpdp ? "dpdp" : LV().startsWith("b") && MS.ibc ? "ibc" : LV().startsWith("g") && MS.ifsc ? "ifsc" : LV().startsWith("h") && MS.nhb ? "nhb" : LV().startsWith("x") && MS.exchanges ? "exchanges" : LV().startsWith("c") && MS.companies ? "companies" : LV().startsWith("o") && MS.laws ? "laws" : "rbi";      // which regulator the lens points to
+  const L = () => +LV().replace(/^[isfdbghxco]/, "");
   const resetTo = k => { lay.value = PFX[k] + "-1"; lay.dispatchEvent(new Event("change")); };
   const M = () => MS[K()];
   const unit = () => K() === "rbi" ? "layer" : "role";
