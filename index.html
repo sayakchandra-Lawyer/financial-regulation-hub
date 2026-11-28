@@ -151,20 +151,7 @@
 <script>
 (async function(){
   const hub = await getJSON("hub.json");
-  /* headline changes of the month: the latest newsletter's top six */
-  getJSON("newsletter/latest.json").then(L => {
-    const imp = { High: 3, Medium: 2, Low: 1 };
-    $("#headl").innerHTML = `<div class="sec-h"><h2 id="headlh">Headline changes of the month <span class="tag">${esc(L.issue)}</span></h2><a class="lnk" href="${esc(L.href)}">Read the ${esc(L.issue)} newsletter&nbsp;→</a></div>
-      <div class="nl-tops">${L.top.map((t, i) => `<article class="card nl-topc">
-        <div class="nl-n">${String(i + 1).padStart(2, "0")}</div>
-        <div class="nl-meta"><span class="pill nl-reg" style="--c:var(--${esc(t.regc)})">${esc(t.reg)}</span><span class="pill nl-imp i${imp[t.impact] || 1}">${esc(t.impact)} impact</span></div>
-        <h3><a href="${esc(t.more)}">${esc(t.title)}</a></h3>
-        <p>${esc(t.so_what)}</p>
-        <div class="nl-secs">${t.sectors.map(([n, c]) => `<span class="nl-sec" style="--c:var(--${esc(c)})">${esc(n)}</span>`).join("")}</div>
-        <div class="nl-foot"><span class="nl-date">${t.date ? `Key date: <b>${esc(t.date)}</b>` : ""}</span><a class="lnk nl-src" href="${esc(t.url)}" target="_blank" rel="noopener">Source ${I.ext}</a></div>
-      </article>`).join("")}</div>`;
-    $("#headl").hidden = false;
-  }).catch(() => {});
+  const LATEST = getJSON("newsletter/latest.json").catch(() => null);
   renderChrome(hub, { root: "" });
   $("#qicon").outerHTML = I.search;
   const secs = Object.fromEntries(hub.sections.filter(s => s.status === "live" && s.data && s.data.register).map(s => [s.id, s]));   // every live regulator with data
@@ -515,6 +502,32 @@
   const I_PAUSE = `<svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><rect x="3" y="2" width="3" height="10" rx="1"/><rect x="8" y="2" width="3" height="10" rx="1"/></svg>`;
   const I_PLAY = `<svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path d="M4 2.5v9l7-4.5z"/></svg>`;
   renderUpdates(); renderRegs(); lensNote(); judge(); renderBand();
+  /* headline changes: a rolling top six. Medium- and high-impact updates issued after the latest newsletter's
+     period come first (most important, then newest); the newsletter's own top items fill the rest. */
+  LATEST.then(L => {
+    if (!L) return;
+    const IMPN = { 3: "High", 2: "Medium", 1: "Low" }, imp = { High: 3, Medium: 2, Low: 1 };
+    const fresh = [];
+    Object.keys(MS).forEach(k => (MS[k].updates || []).forEach(u => {
+      if (String(u.date) > (L.period_end || "") && (u.weight || 1) >= 2) fresh.push({ k, u });
+    }));
+    fresh.sort((a, b) => (b.u.weight || 1) - (a.u.weight || 1) || String(b.u.date).localeCompare(String(a.u.date)));
+    const cards = fresh.slice(0, 6).map(({ k, u }) => ({
+      fresh: true, reg: NAME[k] || k, regc: k, impact: IMPN[u.weight] || "Medium", title: u.title,
+      so_what: trunc((u.changes || [])[0] || u.applies || "", 220), date: u.effective ? fmtDate(u.effective) : "",
+      issued: fmtDate(u.date, false), url: u.url, more: `${secs[k].href}#changes/${encodeURIComponent(u.id)}`, sectors: []
+    })).concat(L.top).slice(0, 6);
+    $("#headl").innerHTML = `<div class="sec-h"><h2 id="headlh">Headline changes</h2><a class="lnk" href="${esc(L.href)}">Read the ${esc(L.issue)} newsletter&nbsp;→</a></div>
+      <div class="nl-tops">${cards.map((t, i) => `<article class="card nl-topc">
+        <div class="nl-n">${String(i + 1).padStart(2, "0")}</div>
+        <div class="nl-meta"><span class="pill nl-reg" style="--c:var(--${esc(t.regc)})">${esc(t.reg)}</span><span class="pill nl-imp i${imp[t.impact] || 1}">${esc(t.impact)} impact</span>${t.fresh ? `<span class="pill p-new">New · ${esc(t.issued)}</span>` : `<span class="tag">${esc(L.issue)}</span>`}</div>
+        <h3><a href="${esc(t.more)}">${esc(t.title)}</a></h3>
+        <p>${esc(t.so_what)}</p>
+        ${t.sectors.length ? `<div class="nl-secs">${t.sectors.map(([n, c]) => `<span class="nl-sec" style="--c:var(--${esc(c)})">${esc(n)}</span>`).join("")}</div>` : ""}
+        <div class="nl-foot"><span class="nl-date">${t.date ? `Key date: <b>${esc(t.date)}</b>` : ""}</span>${t.url ? `<a class="lnk nl-src" href="${esc(t.url)}" target="_blank" rel="noopener">Source ${I.ext}</a>` : ""}</div>
+      </article>`).join("")}</div>`;
+    $("#headl").hidden = false;
+  });
   if (JS) fetch(JS.data.judgments).then(r => r.json()).then(d => { JUDS = d.judgments || []; renderUpdates(); }).catch(() => {});
   $("#asof").textContent = Object.keys(MS).map((k, i) => `${NAME[k]}${i ? "" : " register"} as on ${fmtDate(MS[k].meta.as_of)}`).join(" · ");
 })();
