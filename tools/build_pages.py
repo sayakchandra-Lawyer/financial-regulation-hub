@@ -12,6 +12,9 @@ plus a link into the interactive view. Run after any data change:  python3 -I to
 """
 import html, json, os, re, shutil, sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import law_names  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_URL = "https://sayakchandra-lawyer.github.io/financial-regulation-hub/"
 E = lambda s: html.escape(str(s or ""), quote=True)
@@ -127,13 +130,16 @@ def section_title(sec_dir):
 def instrument_body(sec, it, sec_title):
     sid, href = sec["id"], sec["href"]
     name = clean_name(it.get("short_name") or it.get("title"))
-    rows = [("Type", it.get("type")), ("Status", strip_checked(it.get("status"))), ("Reference", it.get("reference_no")),
-            ("Issued", fmt_date(it.get("issue_date"))), ("Effective", fmt_date(it.get("effective_date"))),
-            ("Updated as on", fmt_date(it.get("updated_as_on"))), ("Issued by", it.get("issuing_department")),
-            ("Issued under", "; ".join(it.get("statutory_powers") or [])),
-            ("Applies to", "; ".join(strip_checked(x) for x in it.get("applies_to") or [])),
-            ("Does not apply to", "; ".join(strip_checked(x) for x in it.get("excluded") or []))]
-    dl = "".join(f"<dt>{E(k)}</dt><dd>{E(v)}</dd>" for k, v in rows if str(v or "").strip())
+    law = lambda t: law_names.render(t, sid, ref=True, as_html=True)
+    cites = law_names.cited(it, sid)
+    rows = [("Type", E(it.get("type"))), ("Status", E(strip_checked(it.get("status")))), ("Reference", law(it.get("reference_no"))),
+            ("Issued", E(fmt_date(it.get("issue_date")))), ("Effective", E(fmt_date(it.get("effective_date")))),
+            ("Updated as on", E(fmt_date(it.get("updated_as_on")))), ("Issued by", E(it.get("issuing_department"))),
+            ("Issued under", law("; ".join(law_names.clean_powers(it.get("statutory_powers"))))),
+            ("Laws referred to", "<br>".join(f'<a href="{E(L["url"])}" target="_blank" rel="noopener">{E(L["name"])}</a>' for L in cites)),
+            ("Applies to", E("; ".join(strip_checked(x) for x in it.get("applies_to") or []))),
+            ("Does not apply to", E("; ".join(strip_checked(x) for x in it.get("excluded") or [])))]
+    dl = "".join(f"<dt>{E(k)}</dt><dd>{v}</dd>" for k, v in rows if str(v or "").strip())
     src = []
     if it.get("official_url"):
         src.append(f'<a class="btn g" href="{E(it["official_url"])}" target="_blank" rel="noopener">Official text ↗</a>')
@@ -151,7 +157,7 @@ def instrument_body(sec, it, sec_title):
         if block:
             parts.append(f"<h2>{head}</h2>{block}")
     if it.get("consequences_general"):
-        parts.append(f'<p class="note"><b>General consequences under the statute.</b> {E(strip_checked(it["consequences_general"]))}</p>')
+        parts.append(f'<p class="note"><b>General consequences under the statute.</b> {law_names.render(strip_checked(it["consequences_general"]), sid, as_html=True, first=True)}</p>')
     parts.append('<p class="note"><b>Not legal advice.</b> An independent, unofficial summary. Verify every point against the official text before relying on it.</p>')
     return "\n".join(parts)
 

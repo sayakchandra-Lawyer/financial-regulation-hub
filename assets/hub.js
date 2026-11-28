@@ -116,7 +116,62 @@ function splitPara(line) {
   const m = String(line).match(/^((?:paras?|sections?|ss?\.|chapter|annex|rule|regulation|reg\.)\s*[^:]{1,40}):\s*(.+)$/i);
   return m ? [m[1].replace(/^paras?\s*/i, "para ").replace(/^sections?\s*/i, "s. "), m[2]] : ["", String(line)];
 }
+/* ---------- full law names: short forms ("RBI Act 1934", "Act ss. 11 to 15", "LODR") shown with the full title, linked to the official text ---------- */
+let LAWS = { laws: {}, rules: [] }, LAWS_P = null;
+const LAW_FIELDS = ["title", "obl", "time", "cons", "applies", "excluded", "concepts"];
+function hubLaws(base) {
+  return LAWS_P || (LAWS_P = getJSON((base || HUB_ROOT) + "assets/laws.json").then(j => (LAWS = j)).catch(() => LAWS));
+}
+function lawRx(sec, ref) {
+  const key = (ref ? sec : "") + "|rx", c = LAWS._rx || (LAWS._rx = {});
+  if (!c[key]) { const rs = LAWS.rules.filter(r => !r.sec || (ref && r.sec === sec)); c[key] = { rs, R: rs.length ? new RegExp(rs.map(r => "(" + r.re + ")").join("|"), "g") : null }; }
+  return c[key];
+}
+/* split text into plain strings and law hits */
+function lawSegs(text, sec, ref) {
+  text = String(text || ""); const out = [], { rs, R } = lawRx(sec, ref); if (!R) return [text];
+  let last = 0, m; R.lastIndex = 0;
+  while ((m = R.exec(text))) {
+    if (!m[0]) { R.lastIndex++; continue; }
+    const i = m.slice(1).findIndex(x => x !== undefined), r = rs[i];
+    if (m.index > last) out.push(text.slice(last, m.index));
+    out.push({ ids: r.laws.filter(id => LAWS.laws[id]), src: m[0], tail: r.tail || "" });
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+const LAW_UNIT = /^\s+(?=(?:ss?\.|rr?\.|rules?\b|regs?\b|regulations?\b|chapters?\b|paras?\b|sections?\b|part\b|schedule\b))/i;
+/* mode "text" returns plain text, "html" links each law; first = expand only the first mention of each law */
+function lawRender(text, sec, o) {
+  o = o || {}; const seen = o.seen || new Set(), html = o.html, segs = lawSegs(text, sec, o.ref);
+  const tidy = s => o.ref ? s.replace(/\b(ss?|rr?)\.(?=\d)/g, "$1. ") : s;
+  let out = "", prevLaw = false;
+  segs.forEach(s => {
+    if (typeof s === "string") { let t = prevLaw ? s.replace(LAW_UNIT, ", ") : s; t = tidy(t); out += html ? esc(t) : t; prevLaw = false; return; }
+    if (!s.ids.length || (o.first && s.ids.every(id => seen.has(id)))) { out += html ? esc(s.src) : s.src; prevLaw = false; return; }
+    const names = s.ids.map(id => { seen.add(id); const L = LAWS.laws[id]; return html && L.url ? `<a class="lnk" href="${esc(L.url)}" target="_blank" rel="noopener">${esc(L.name)}</a>` : (html ? esc(L.name) : L.name); });
+    out += names.join(" and ") + (s.tail ? ", " + s.tail : ""); prevLaw = !s.tail;
+  });
+  return out;
+}
+const lawText = (t, sec, ref) => lawRender(t, sec, { ref });
+const lawHtml = (t, sec, o) => lawRender(t, sec, Object.assign({ html: true }, o || {}));
+const cleanPowers = arr => (arr || []).filter(x => !/^\s*UNVERIFIED\b/i.test(x));
+/* every law an instrument cites, in order, leaving out the instrument's own Act */
+function lawsCited(it, sec) {
+  const ids = [], add = (t, ref) => lawSegs(t, sec, ref).forEach(s => { if (typeof s !== "string") s.ids.forEach(id => { if (!ids.includes(id)) ids.push(id); }); });
+  add(it.ref, true); cleanPowers(it.powers).forEach(x => add(x)); (it.xrefs || []).forEach(x => add(x)); add(it.consGen);
+  LAW_FIELDS.forEach(f => [].concat(it[f] || []).forEach(x => add(x)));
+  const own = String(it.title || "").replace(/^The /, "");
+  return ids.filter(id => { const n = LAWS.laws[id].name; return !(own.startsWith(n) && !/^,/.test(own.slice(n.length))); }).map(id => LAWS.laws[id]);
+}
+function lawsCitedHtml(it, sec) {
+  const L = lawsCited(it, sec);
+  return L.length ? `<dt>Laws referred to</dt><dd>${L.map(l => l.url ? `<a class="lnk" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)}</a>` : esc(l.name)).join("<br>")}</dd>` : "";
+}
 async function loadSection(sec, base) {
+  await hubLaws(base);
   const p = x => base + x;
   const [reg, graph, defs, gloss, upd] = await Promise.all([
     getJSON(p(sec.data.register)), getJSON(p(sec.data.graph)).catch(() => null),
@@ -873,7 +928,7 @@ async function hubTimeline(o, el) {
   const vers = (await HX.versions)[sec.id + "/" + id] || [];
   const ev = [], today = new Date().toISOString().slice(0, 10), off = it.url || it.pdf || "";
   const add = (date, what, url, note) => { if (date && /^\d{4}-\d{2}-\d{2}/.test(date)) ev.push({ date: date.slice(0, 10), what, url, note }); };
-  add(it.issue, `Issued${it.ref ? " (" + it.ref + ")" : ""}`, off);
+  add(it.issue, `Issued${it.ref ? " (" + lawText(it.ref, sec.id, true) + ")" : ""}`, off);
   if (it.effective && it.effective !== it.issue) add(it.effective, "Comes into force, as the instrument states", off);
   ups.forEach(u => { add(u.date, (u.title || "").toLowerCase().startsWith(String(u.kind || "").toLowerCase()) ? trunc(u.title, 120) : `${u.kind}: ${trunc(u.title, 110)}`, u.url, ""); if (u.effective && u.effective !== u.date) add(u.effective, `In force: ${trunc(u.title, 90)}`, u.url, ""); });
   vers.forEach(v => add(v.date, "Earlier text kept on this site (see below)", "", ""));
@@ -892,7 +947,7 @@ async function hubDocMount(o) {
   const title = it.title || it.label, upd = it.updated ? `, as updated on ${fmtDate(it.updated)}` : "";
   const official = it.url || it.pdf || "";
   const ch = await hubChanges(), changeDate = ch[key] || it.updated || "";
-  const citeFor = label => `${title}${label ? ", " + unitLabel(unit, label) : ""}${it.ref && !label ? ` (${it.ref})` : ""}${upd}.${official ? " " + official : ""}`;
+  const citeFor = label => `${title}${label ? ", " + unitLabel(unit, label) : ""}${it.ref && !label ? ` (${lawText(it.ref, sec.id, true)})` : ""}${upd}.${official ? " " + official : ""}`;
   hubToolbar($("#hubtools"), {
     key, url: pageUrl(`#d/${id}`), cite: citeFor(""), changeDate,
     watchInfo: { t: it.label, s: sec.short, h: secPath(sec.id) + "/#d/" + id },
