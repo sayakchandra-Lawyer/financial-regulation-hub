@@ -109,5 +109,528 @@
    "name": "Stamp duty and registration"
   }
  ],
- "items": []
+ "items": [
+  {
+   "id": "npa-upgrade",
+   "topic": "asset-classification",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "A borrower clears the overdue on the loan that turned NPA but is still behind on another facility. Can the account be upgraded?",
+   "keywords": [
+    "npa upgrade",
+    "upgradation",
+    "borrower-wise",
+    "borrower level",
+    "arrears",
+    "day-end"
+   ],
+   "a": "No. Asset classification is **borrower-wise, not facility-wise**: once one facility is an NPA, every facility to that borrower, and any securities the NBFC holds of that borrower, is NPA too. An NPA can be upgraded to standard only when the borrower pays the **entire arrears of interest and principal on all facilities**.\n\nOverdue, SMA and NPA status are set in the day-end process for the relevant date, whatever time that process actually runs, and the SMA or NPA date is the calendar date it is run for.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-IRACP",
+     "para": "23",
+     "label": "IRACP Directions para 23"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-IRACP",
+     "para": "24",
+     "label": "para 24"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-IRACP",
+     "para": "25",
+     "label": "para 25"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-IRACP",
+     "para": "18",
+     "label": "para 18"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-IRACP",
+     "para": "19",
+     "label": "para 19"
+    }
+   ]
+  },
+  {
+   "id": "colending-npa",
+   "topic": "co-lending",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "Under a co-lending arrangement, if the partner lender classifies the borrower as SMA or NPA, does the NBFC have to follow?",
+   "keywords": [
+    "co-lending",
+    "cla",
+    "partner",
+    "npa",
+    "sma",
+    "borrower-level",
+    "default loss guarantee"
+   ],
+   "a": "Yes. Co-lent exposures follow **borrower-level classification across both lenders**. If either lender classifies its share as SMA or NPA because of a default under the arrangement, the other lender must apply the same classification to its share. The lenders must share this information close to real time, and no later than the end of the next working day.\n\nThe NBFC must keep at least **10 per cent** of each loan on its own books. As originator, it may give a default loss guarantee of up to **5 per cent** of the loans outstanding under the arrangement. Selling a co-lent loan to a third party needs the consent of both lenders.\n\nThese rules cover arrangements entered into from 1 January 2026, or from an earlier date the NBFC adopted in its policy. Arrangements made before that date stay under the earlier rules.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-TDCR",
+     "para": "124",
+     "label": "Transfer and Distribution of Credit Risk Directions para 124"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-TDCR",
+     "para": "102",
+     "label": "para 102"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-TDCR",
+     "para": "123",
+     "label": "para 123"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-TDCR",
+     "para": "125",
+     "label": "para 125"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-TDCR",
+     "para": "95",
+     "label": "para 95"
+    }
+   ]
+  },
+  {
+   "id": "dlg-cap",
+   "topic": "digital-lending",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "How does a default loss guarantee (DLG) affect the NBFC's asset classification, and how large can it be?",
+   "keywords": [
+    "dlg",
+    "default loss guarantee",
+    "fldg",
+    "first loss",
+    "cap",
+    "120 days"
+   ],
+   "a": "It does not change it. The NBFC classifies and provisions each underlying loan under the IRACP Directions as if there were no DLG. The amount invoked is not set off against the individual loans, so each borrower still owes the full amount.\n\nThe DLG cover on a portfolio cannot exceed **5 per cent of the amount disbursed** from that portfolio. For an implicit guarantee, the provider cannot bear performance risk above the equivalent of 5 per cent. The NBFC must invoke the DLG within **120 days of overdue**, unless the borrower pays before then. The DLG must stay in force for at least the longest tenor of any loan in the portfolio. The cover can be cash, a fixed deposit with a scheduled commercial bank under lien, or a bank guarantee.\n\nThe covered portfolio (the DLG set) is fixed when the arrangement starts and cannot be topped up with new loans. Once invoked, DLG cover cannot be reinstated, even from later recoveries.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-CREDIT",
+     "para": "24",
+     "label": "Credit Facilities Directions para 24"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CREDIT",
+     "para": "25",
+     "label": "para 25"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CREDIT",
+     "para": "27",
+     "label": "para 27"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CREDIT",
+     "para": "23",
+     "label": "para 23"
+    }
+   ]
+  },
+  {
+   "id": "compromise-wilful",
+   "topic": "recovery-conduct",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "Can an NBFC enter into a compromise settlement with a borrower classified as a wilful defaulter or fraud?",
+   "keywords": [
+    "compromise settlement",
+    "ots",
+    "one time settlement",
+    "wilful defaulter",
+    "fraud",
+    "technical write-off",
+    "cooling period"
+   ],
+   "a": "Yes. The settlement does not affect any criminal proceedings already under way, and the penal measures for frauds and wilful defaulters continue to apply. Settlement is never the borrower's right; it is the NBFC's commercial decision, and every settlement with a fraud or wilful defaulter needs **Board approval**. No official who sanctioned the loan can take part in approving its settlement. Three rules decide how it is treated:\n\n1. A settlement whose payment period runs **beyond three months** is treated as a **restructuring**. So is any part settlement, and so is any future contingent recovery that is recognised on the balance sheet.\n2. The NBFC cannot take a fresh exposure to a borrower it has settled with until a cooling period has passed. The board sets this period, but it must be at least **12 months**.\n3. If a recovery case is pending before a court or tribunal, the settlement needs a **consent decree** from that forum.\n\nA partial technical write-off does not reset provisioning. Provisioning and asset classification are still worked out on the original exposure.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-STRESS",
+     "para": "97",
+     "label": "Resolution of Stressed Assets Directions para 97"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-STRESS",
+     "para": "98",
+     "label": "para 98"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-STRESS",
+     "para": "87",
+     "label": "para 87"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-STRESS",
+     "para": "89",
+     "label": "para 89"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-STRESS",
+     "para": "90",
+     "label": "para 90"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-STRESS",
+     "para": "88",
+     "label": "para 88"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-STRESS",
+     "para": "95",
+     "label": "para 95"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-STRESS",
+     "para": "100",
+     "label": "para 100"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-STRESS",
+     "para": "92",
+     "label": "para 92"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-STRESS",
+     "para": "16",
+     "label": "para 16"
+    }
+   ]
+  },
+  {
+   "id": "prepay-mse",
+   "topic": "interest-charges",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "Can an NBFC charge a pre-payment penalty on a floating rate business loan to an MSE?",
+   "keywords": [
+    "pre-payment",
+    "prepayment",
+    "foreclosure",
+    "floating rate",
+    "mse",
+    "msme",
+    "business loan"
+   ],
+   "a": "It depends on the NBFC's layer and the loan size, for loans sanctioned or renewed from **1 January 2026**:\n\n- An **Upper Layer** NBFC cannot levy pre-payment charges on any floating rate business loan to an individual or a micro or small enterprise.\n- A **Middle Layer** NBFC cannot levy them where the sanctioned amount or limit is **up to ₹50 lakh**.\n- In other cases, charges follow the NBFC's board-approved policy. On a term loan, they must be based on the amount prepaid; on a cash credit or overdraft, on no more than the sanctioned limit, and nothing at all if the borrower gives notice of non-renewal and the facility closes on its due date.\n\nFloating rate loans to individuals for non-business purposes carry no pre-payment charge at all. These rules apply whatever the source of funds and with no lock-in period. No charge can be levied unless it was disclosed in the sanction letter and the loan agreement, and in the Key Facts Statement where one is required. No charge can be levied at all where the NBFC itself caused the pre-payment.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-RBC",
+     "para": "34",
+     "label": "Responsible Business Conduct Directions para 34"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-RBC",
+     "para": "33",
+     "label": "para 33"
+    }
+   ]
+  },
+  {
+   "id": "sec-mrr",
+   "topic": "securitisation-transfer",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "What retention does an NBFC need when it securitises loans, and what does not count towards it?",
+   "keywords": [
+    "securitisation",
+    "mrr",
+    "minimum retention",
+    "mhp",
+    "holding period",
+    "rmbs",
+    "interest only strip"
+   ],
+   "a": "The **minimum retention requirement** is a share of the book value of the loans securitised:\n\n- **5 per cent** where the loans' original maturity is 24 months or less;\n- **10 per cent** where it is longer than 24 months, and for the only bullet loans that can be securitised at all (short agricultural loans and trade receivables meeting a repayment-history test);\n- **5 per cent** for residential mortgage-backed securities, whatever the maturity.\n\nThe NBFC must hold the retention itself, not through a group entity. It cannot reduce the retention by hedging, selling or encumbering it, and its form cannot change during the life of the transaction. Neither an interest-only strip of excess spread nor overcollateralisation counts towards it. The first 5 per cent must be held as the first loss facility, then the equity tranche, then pari passu in the tranches sold.\n\nEach loan in the pool must also meet the **minimum holding period**. The eligible agricultural bullet loans and trade receivables are exempt. For real estate mortgages, that period runs from full disbursement or CERSAI registration, whichever is later.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-SEC",
+     "para": "10",
+     "label": "Securitisation Directions para 10"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-SEC",
+     "para": "11",
+     "label": "para 11"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-SEC",
+     "para": "13",
+     "label": "para 13"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-SEC",
+     "para": "14",
+     "label": "para 14"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-SEC",
+     "para": "7",
+     "label": "para 7"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-SEC",
+     "para": "5",
+     "label": "para 5"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-SEC",
+     "para": "8",
+     "label": "para 8"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-SEC",
+     "para": "12",
+     "label": "para 12"
+    }
+   ]
+  },
+  {
+   "id": "exposure-limits",
+   "topic": "sbr-layers",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "How do concentration limits differ for a Middle Layer and an Upper Layer NBFC?",
+   "keywords": [
+    "concentration",
+    "exposure limit",
+    "single party",
+    "group",
+    "large exposure",
+    "lef",
+    "tier 1"
+   ],
+   "a": "**Middle Layer:** exposure, counting credit and investment together, cannot exceed **25 per cent of Tier 1 capital** to a single party or **40 per cent** to a single group. These can go up by 5 and 10 percentage points respectively if the extra exposure is to infrastructure. NBFC-IFCs have their own limits of 30 and 50 per cent.\n\n**Upper Layer:** the Large Exposures Framework applies instead. The single counterparty limit is **20 per cent of the eligible capital base**. The board can allow 5 per cent more under a board policy, with the exceptional reasons recorded in writing, and a further 5 per cent of Tier 1 is allowed for infrastructure, but the limit can never exceed **25 per cent** (**30 per cent** for an NBFC-IFC). The group limit is **25 per cent**, plus 10 per cent of Tier 1 for infrastructure; an NBFC-IFC can go 20 per cent of Tier 1 higher for a group. Exposure includes off-balance sheet items.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-CONC",
+     "para": "13",
+     "label": "Concentration Risk Directions para 13"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CONC",
+     "para": "33",
+     "label": "para 33"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CONC",
+     "para": "35",
+     "label": "para 35"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CONC",
+     "para": "28",
+     "label": "para 28"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CONC",
+     "para": "14",
+     "label": "para 14"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CONC",
+     "para": "34",
+     "label": "para 34"
+    }
+   ]
+  },
+  {
+   "id": "gold-bullet",
+   "topic": "gold-loans",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "What are the rules for bullet repayment gold loans?",
+   "keywords": [
+    "gold loan",
+    "bullet repayment",
+    "renewal",
+    "top-up",
+    "ltv",
+    "12 months"
+   ],
+   "a": "A consumption loan against gold or silver repaid as a bullet can run for **at most 12 months**. It can then be renewed on the borrower's formal request and after a fresh credit assessment, but only after the borrower pays the accrued interest, only within the permitted LTV, and only if the loan is standard.\n\nFor a bullet loan, the LTV and the loan amount are measured on the **total amount repayable at maturity**, not the amount disbursed. The same maturity amount decides whether a detailed assessment of repayment capacity is needed (above ₹2.5 lakh of total lending to the borrower against eligible collateral). Renewals and top-ups must be identifiable in the NBFC's core system.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-CREDIT",
+     "para": "38",
+     "label": "Credit Facilities Directions para 38"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CREDIT",
+     "para": "34",
+     "label": "para 34"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CREDIT",
+     "para": "43",
+     "label": "para 43"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-CREDIT",
+     "para": "33",
+     "label": "para 33"
+    }
+   ]
+  },
+  {
+   "id": "change-control",
+   "topic": "registration-licensing",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "When does an NBFC need RBI's prior approval for a change in shareholding or control?",
+   "keywords": [
+    "change in control",
+    "change of control",
+    "takeover",
+    "acquisition",
+    "26 per cent",
+    "shareholding",
+    "prior approval",
+    "30 per cent directors"
+   ],
+   "a": "Prior written permission of RBI is needed for:\n\n1. any takeover or acquisition of control, whether or not management changes; and\n2. any change in shareholding, including gradual increases, that results in acquiring or transferring **26 per cent or more** of the paid-up equity capital.\n\nCrossing 26 per cent only because of a court-approved buyback or capital reduction needs no prior approval, but must be reported within one month. Deposit-taking HFCs have a separate 10 per cent test for foreign investors.\n\nSeparately, a change in management that replaces **more than 30 per cent of the directors** (not counting independent directors) also needs RBI's prior written permission. Directors re-elected on retirement by rotation do not count.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-ACQ",
+     "para": "6",
+     "label": "Acquisition of Shareholding or Control Directions para 6"
+    },
+    {
+     "sec": "rbi",
+     "id": "MD-GOV",
+     "para": "10",
+     "label": "Governance Directions para 10"
+    }
+   ]
+  },
+  {
+   "id": "penal-charges",
+   "topic": "interest-charges",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "Can an NBFC charge penal interest on a loan?",
+   "keywords": [
+    "penal interest",
+    "penal charges",
+    "late payment",
+    "default charges"
+   ],
+   "a": "No. A penalty for breaking the material terms of a loan must be a **penal charge**, not penal interest added to the rate of interest. Penal charges cannot be capitalised: no interest is charged on them, and a fresh penal charge cannot be levied on earlier penal charges. Penal charges must be reasonable, commensurate with the breach, levied only on the amount in default, and set under a board-approved policy.\n\nThis applies to loans taken from 1 April 2024, and to older loans from 30 June 2024. It does not apply to credit cards, ECBs, trade credits, structured obligations covered by product-specific directions, or other foreign currency loans.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-RBC",
+     "para": "30",
+     "label": "Responsible Business Conduct Directions para 30"
+    }
+   ]
+  },
+  {
+   "id": "internal-ombudsman",
+   "topic": "grievance",
+   "sections": [
+    "rbi"
+   ],
+   "status": "approved",
+   "updated": "2026-11-28",
+   "q": "Does my NBFC need an Internal Ombudsman?",
+   "keywords": [
+    "internal ombudsman",
+    "io",
+    "grievance",
+    "complaints"
+   ],
+   "a": "Yes, if on 31 March 2025 it was a deposit-taking NBFC with **10 or more branches**, or a non-deposit-taking NBFC with assets of **₹5,000 crore or more** and a public customer interface. An NBFC that meets these tests later must comply within six months of meeting them.\n\nHFCs, CICs, IDF-NBFCs, NBFC-IFCs, NOFHCs, primary dealers and mortgage guarantee companies are outside these Directions, as are NBFCs in insolvency, liquidation or under RBI directions.",
+   "refs": [
+    {
+     "sec": "rbi",
+     "id": "MD-IO",
+     "para": "3",
+     "label": "Internal Ombudsman Directions para 3"
+    }
+   ]
+  }
+ ]
 }
