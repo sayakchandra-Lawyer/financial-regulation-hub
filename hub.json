@@ -1211,8 +1211,7 @@
    "id": "faq",
    "short": "FAQ",
    "name": "Common questions",
-   "href": "faq/",
-   "soon": true
+   "href": "faq/"
   }
  ]
 }
