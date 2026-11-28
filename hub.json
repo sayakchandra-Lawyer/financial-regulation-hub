@@ -1214,6 +1214,12 @@
    "href": "dashboard/"
   },
   {
+   "id": "collections",
+   "short": "My collections",
+   "name": "Research collections",
+   "href": "collections/"
+  },
+  {
    "id": "faq",
    "short": "FAQ",
    "name": "Common questions",

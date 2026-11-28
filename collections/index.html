@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>My collections · Financial Regulation Hub</title>
+<meta name="description" content="Your research collections on the Financial Regulation Hub: paragraphs you saved, with notes, citations and official links.">
+<link rel="canonical" href="https://sayakchandra-lawyer.github.io/financial-regulation-hub/collections/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="../assets/hub.css?v=20261128x">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
+<meta name="robots" content="noindex">
+<style>
+.ctabs{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 4px}
+.citem{padding:16px 18px;border-top:1px solid var(--line)}.citem:first-child{border-top:0}
+.citem .ct{font-weight:600}.citem .cx{white-space:pre-wrap;font-size:14px;line-height:1.6;margin:8px 0;padding:10px 12px;background:var(--surface-2);border-radius:8px;max-height:260px;overflow:auto}
+.citem textarea{width:100%;min-height:54px;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:inherit;font-size:13.5px;background:var(--surface);color:var(--ink);resize:vertical}
+.cacts{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;margin-top:6px;font-size:13px}
+.cbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0 6px}
+.st-ok{color:var(--ink-2)}.st-chg{color:var(--accent-text);font-weight:600}
+@media print{.ctabs,.cbar,.cacts,textarea,#top,#foot,.noprint{display:none!important}.citem{break-inside:avoid}.cnote{display:block!important}}
+.cnote{display:none;font-size:13.5px;font-style:italic;margin-top:4px}
+</style>
+</head>
+<body>
+<header id="top"></header>
+<main class="wrap">
+  <div class="pg" style="max-width:920px;margin:0 auto;padding:30px 0 60px">
+    <div class="eyebrow noprint">My collections</div>
+    <h1 style="font-size:clamp(28px,4vw,40px);margin-top:8px" id="ch1">Research collections</h1>
+    <p style="color:var(--ink-2);max-width:740px" class="noprint">Gather paragraphs for a matter: press the bookmark beside any paragraph in a full text, or <b>Add to collection</b> on any instrument. Each extract keeps the text as it stood when you saved it, with its citation and official link.</p>
+    <p class="tag noprint" style="max-width:740px">Collections and notes are kept only in this browser, on this device, and are not sent anywhere by this page or to Counsel’s Clerk. They are stored unencrypted, like any file you download. Clearing your browser data removes them; <a class="lnk" href="../dashboard/">My dashboard</a> can save a copy.</p>
+    <div class="ctabs" id="ctabs"></div>
+    <div id="cout"><p class="tag" style="padding:14px 0">Loading…</p></div>
+  </div>
+</main>
+<footer id="foot"></footer>
+<script src="../assets/hub.js?v=20261128x"></script>
+<script>
+(async function(){
+  const hub = await getJSON("../hub.json");
+  renderChrome(hub, { root: "../", active: "collections", sub: "My collections", crumb: `<a href="../">Home</a> / <b>My collections</b>` });
+  const NAME = Object.fromEntries(hub.sections.map(s => [s.id, s.short || s.name])), SECH = Object.fromEntries(hub.sections.map(s => [s.id, s]));
+  let cur = store.get("coll.cur", "");
+  const STATUS = { same: ["Unchanged since saved", "st-ok"], chg: ["Text has changed since saved", "st-chg"], gone: ["Paragraph no longer found", "st-chg"], old: ["Instrument superseded", "st-chg"], na: ["Not checked", "st-ok"] };
+  /* compare each saved extract with the text on the site now; never call it unchanged unless the comparison ran */
+  const REG = {};
+  async function statusOf(x) {
+    try {
+      const s = SECH[x.sec];
+      if (s && s.data && s.data.register) { if (!REG[x.sec]) REG[x.sec] = getJSON("../" + s.data.register).catch(() => null); const r = await REG[x.sec]; const it = r && r.instruments.find(i => i.id === x.id); if (it && statusClass(it.status) === "old") return "old"; }
+      if (!x.slug || !x.h) return "na";
+      const ch = await hubDocChunks(x.key); if (!ch || !ch.length) return "na";
+      const p = hubParas(ch).find(q => q.slug === x.slug); if (!p) return "gone";
+      return textHash(p.text) === x.h ? "same" : "chg";
+    } catch (e) { return "na"; }
+  }
+  async function draw() {
+    const cs = Coll.all();
+    if (cur && !cs.some(c => c.id === cur)) cur = ""; if (!cur && cs.length) cur = cs[0].id;
+    const C = cs.find(c => c.id === cur);
+    $("#ctabs").innerHTML = cs.map(c => `<button type="button" class="chip ${c.id === cur ? "on" : ""}" data-c="${esc(c.id)}">${esc(c.name)} · ${c.items.length}</button>`).join("");
+    if (!C) { $("#ch1").textContent = "Research collections"; $("#cout").innerHTML = `<div class="card panel" style="margin-top:12px"><h2 style="font-size:19px">No collection yet</h2><p class="tag" style="margin:6px 0 0">Open any instrument's full text, for example <a class="lnk" href="../rbi/#d/MD-KYC/text">RBI KYC Directions</a>, and press the bookmark beside a paragraph.</p></div>`; return; }
+    $("#ch1").textContent = C.name;
+    const st = await Promise.all(C.items.map(statusOf));
+    $("#cout").innerHTML = `<div class="cbar noprint"><button type="button" class="btn g sm" data-a="print">${I.print} Print or save PDF</button><button type="button" class="btn g sm" data-a="md">Download as Markdown</button><button type="button" class="lnk" data-a="rename" style="font-size:13px">Rename</button><button type="button" class="lnk" data-a="del" style="font-size:13px;margin-left:auto">Delete this collection</button></div>
+      <p class="tag">Research extracts, ${C.items.length} item${C.items.length === 1 ? "" : "s"}. Printed or downloaded copies carry the date of export and each extract's saved date. The official text governs.</p>
+      ${C.items.length ? `<div class="card" style="margin-top:8px">${C.items.map((x, i) => `<div class="citem" data-i="${i}">
+        <div class="ct"><span class="tag" style="font-weight:600;color:var(--accent-text)">${esc(NAME[x.sec] || x.sec)}</span> <a class="lnk" href="${esc(x.url)}">${esc(x.title)}${x.lab ? ", " + esc(x.lab) : ""}</a></div>
+        <div class="m tag">Saved ${fmtDate(x.added)} · <span class="${STATUS[st[i]][1]}">${STATUS[st[i]][0]}</span>${x.official ? ` · <a class="lnk" href="${esc(x.official)}" target="_blank" rel="noopener">Official source ${I.ext}</a>` : ""}</div>
+        ${x.text ? `<div class="cx">${esc(sxClean(x.text))}</div>` : ""}
+        <label class="sr" for="n${i}">Your note</label><textarea id="n${i}" data-note="${i}" placeholder="Your note (kept in this browser only)">${esc(x.note || "")}</textarea><div class="cnote">${esc(x.note || "")}</div>
+        <div class="cacts"><button type="button" class="lnk" data-mv="-1"${i ? "" : " disabled"}>Move up</button><button type="button" class="lnk" data-mv="1"${i < C.items.length - 1 ? "" : " disabled"}>Move down</button><button type="button" class="lnk" data-cite="${i}">Copy citation</button><button type="button" class="lnk" data-rm="${i}">Remove</button></div></div>`).join("")}</div>` : `<p class="empty">This collection is empty. Press the bookmark beside any paragraph to add it.</p>`}`;
+    $("#cout")._st = st;
+  }
+  const mutate = f => { const cs = Coll.all(), C = cs.find(c => c.id === cur); if (!C) return; f(C, cs); Coll.save(cs); };
+  document.addEventListener("click", e => {
+    const t = e.target.closest("[data-c]"); if (t) { cur = t.dataset.c; store.set("coll.cur", cur); draw(); return; }
+    const mv = e.target.closest("[data-mv]"); if (mv) { const i = +mv.closest("[data-i]").dataset.i, j = i + +mv.dataset.mv; mutate(C => { if (j >= 0 && j < C.items.length) [C.items[i], C.items[j]] = [C.items[j], C.items[i]]; }); draw(); return; }
+    const rm = e.target.closest("[data-rm]"); if (rm) { mutate(C => C.items.splice(+rm.dataset.rm, 1)); draw(); return; }
+    const ci = e.target.closest("[data-cite]"); if (ci) { const C = Coll.all().find(c => c.id === cur); hubCopy(C.items[+ci.dataset.cite].cite, "Citation copied"); return; }
+    const a = e.target.closest("[data-a]"); if (!a) return;
+    const C = Coll.all().find(c => c.id === cur); if (!C) return;
+    if (a.dataset.a === "print") window.print();
+    if (a.dataset.a === "rename") { const h = $("#ch1"); h.contentEditable = "true"; h.focus(); h.onblur = () => { h.contentEditable = "false"; const n = h.textContent.trim().slice(0, 80); if (n) mutate(C => C.name = n); draw(); }; h.onkeydown = ev => { if (ev.key === "Enter") { ev.preventDefault(); h.blur(); } }; }
+    if (a.dataset.a === "del") { if (a.dataset.sure !== "1") { a.dataset.sure = "1"; a.textContent = "Press again to delete it"; return; } Coll.save(Coll.all().filter(c => c.id !== cur)); cur = ""; draw(); }
+    if (a.dataset.a === "md") {
+      const st = $("#cout")._st || [], today = new Date().toISOString().slice(0, 10);
+      const md = [`# ${C.name}`, "", `Research extracts, exported ${fmtDate(today)} from the Financial Regulation Hub. Each extract shows the date it was saved and whether the text on the site has changed since. Not legal advice: the official text governs.`, ""];
+      C.items.forEach((x, i) => { md.push(`## ${i + 1}. ${x.title}${x.lab ? ", " + x.lab : ""}`, "", `- Saved: ${fmtDate(x.added)} (${STATUS[st[i] || "na"][0]})`, `- Citation: ${x.cite}`, `- On the site: ${x.url}`); if (x.official) md.push(`- Official source: ${x.official}`); md.push(""); if (x.text) md.push(...sxClean(x.text).split("\n").map(l => "> " + l), ""); if (x.note) md.push(`Note: ${x.note}`, ""); });
+      const blob = new Blob([md.join("\n")], { type: "text/markdown" }), l = document.createElement("a"); l.href = URL.createObjectURL(blob); l.download = C.name.replace(/[^\w-]+/g, "-").toLowerCase() + ".md"; l.click(); setTimeout(() => URL.revokeObjectURL(l.href), 2000);
+    }
+  });
+  let nt = 0;
+  document.addEventListener("input", e => { const n = e.target.closest("[data-note]"); if (!n) return; clearTimeout(nt); nt = setTimeout(() => mutate(C => { C.items[+n.dataset.note].note = n.value.slice(0, 4000); }), 300); });
+  draw();
+})();
+</script>
+</body>
+</html>

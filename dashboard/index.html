@@ -8,7 +8,7 @@
 <link rel="canonical" href="https://sayakchandra-lawyer.github.io/financial-regulation-hub/dashboard/">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/hub.css?v=20261128w">
+<link rel="stylesheet" href="../assets/hub.css?v=20261128x">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
 <meta name="robots" content="noindex">
 <style>
@@ -36,8 +36,8 @@
   </div>
 </main>
 <footer id="foot"></footer>
-<script src="../assets/entity-engine.js?v=20261128w"></script>
-<script src="../assets/hub.js?v=20261128w"></script>
+<script src="../assets/entity-engine.js?v=20261128x"></script>
+<script src="../assets/hub.js?v=20261128x"></script>
 <script>
 (async function(){
   const hub = await getJSON("../hub.json");
@@ -59,7 +59,7 @@
     if (!cur && mine.length) cur = mine[0].id;
     const P = mine.find(p => p.id === cur);
     $("#dtop").innerHTML = mine.length
-      ? `<label for="dprof" class="tag">Showing</label><select class="chip" id="dprof">${mine.map(p => `<option value="${esc(p.id)}"${p.id === cur ? " selected" : ""}>${esc(p.name)}</option>`).join("")}</select><a class="lnk" href="../entity/#e=${P.sel.join(",")}">Edit in the builder</a><a class="lnk" href="../entity/">Save another entity</a>`
+      ? `<label for="dprof" class="tag">Showing</label><select class="chip" id="dprof">${mine.map(p => `<option value="${esc(p.id)}"${p.id === cur ? " selected" : ""}>${esc(p.name)}</option>`).join("")}</select><a class="lnk" href="../entity/#e=${P.sel.join(",")}">Edit in the builder</a><a class="lnk" href="../entity/">Save another entity</a><a class="lnk" href="../collections/">My collections</a>`
       : "";
     let h = "";
     if (!P) h += `<div class="card panel" style="margin-top:14px"><h2 style="font-size:19px">No saved entity yet</h2><p class="tag" style="margin:6px 0 0">Build your entity in <a class="lnk" href="../entity/">What applies to my entity</a> (type, layer, listing, licences, activities) and press <b>Save this entity</b>. You can save up to 10, such as a housing finance arm, a listed parent and an insurance-distribution subsidiary.</p></div>`;
@@ -100,6 +100,7 @@
       try { const j = JSON.parse(await f.text());
         if (Array.isArray(j.profiles)) { const have = Profiles.all(); j.profiles.forEach(p => { if (p && p.name && Array.isArray(p.sel) && !have.some(x => x.name === p.name)) have.push({ id: p.id || Date.now().toString(36) + have.length, name: String(p.name).slice(0, 60), sel: p.sel.map(String), added: p.added || "" }); }); Profiles.save(have); }
         if (j.watch && typeof j.watch === "object") Watch.save(Object.assign(Watch.all(), j.watch));
+        if (Array.isArray(j.collections)) { const have = Coll.all(); j.collections.forEach(c => { if (c && c.name && Array.isArray(c.items) && !have.some(x => x.name === c.name)) have.push({ id: c.id || Date.now().toString(36) + have.length, name: String(c.name).slice(0, 80), created: c.created || "", items: c.items.filter(x => x && x.key).slice(0, 500) }); }); Coll.save(have); }
         await draw(); $("#dmsg").textContent = "Saved copy loaded and merged.";
       } catch (err) { $("#dmsg").textContent = "That file could not be read."; }
     }
@@ -109,13 +110,13 @@
     if (e.target.closest("#dmore")) { showAll = true; draw(); return; }
     if (e.target.closest("#ddl")) store.set("entity.view", "dl");
     if (e.target.closest("#dexp")) {
-      const blob = new Blob([JSON.stringify({ site: "Financial Regulation Hub", saved: new Date().toISOString().slice(0, 10), profiles: Profiles.all(), watch: Watch.all() }, null, 1)], { type: "application/json" });
+      const blob = new Blob([JSON.stringify({ site: "Financial Regulation Hub", saved: new Date().toISOString().slice(0, 10), profiles: Profiles.all(), watch: Watch.all(), collections: Coll.all() }, null, 1)], { type: "application/json" });
       const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "regulation-hub-my-data.json"; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
     }
     if (e.target.closest("#ddel")) {
       const b = e.target.closest("#ddel");
-      if (b.dataset.sure !== "1") { b.dataset.sure = "1"; b.textContent = "Press again to delete your saved entities and watchlist"; return; }
-      Profiles.save([]); Watch.save({}); store.set("dash.profile", ""); cur = ""; draw();
+      if (b.dataset.sure !== "1") { b.dataset.sure = "1"; b.textContent = "Press again to delete your saved entities, watchlist and collections"; return; }
+      Profiles.save([]); Watch.save({}); Coll.save([]); store.set("dash.profile", ""); cur = ""; draw();
     }
   });
   draw();

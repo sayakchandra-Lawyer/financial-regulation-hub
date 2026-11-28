@@ -787,6 +787,36 @@ const Profiles = {
     return "-1";
   },
 };
+/* ---- research collections (kept only in this browser) ----
+   Coll.all() = [{ id, name, created, items: [{ key, sec, id, slug, lab, title, text, h, url, official, cite, added, note }] }] */
+I.bookmark = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/><path d="M12 7v6M9 10h6"/></svg>';
+const textHash = s => { let h = 5381; const t = String(s || "").replace(/\s+/g, " ").trim(); for (let i = 0; i < t.length; i++) h = ((h << 5) + h + t.charCodeAt(i)) >>> 0; return h.toString(36); };
+const Coll = {
+  all() { try { const a = JSON.parse(store.get("collections", "[]")); return Array.isArray(a) ? a : []; } catch (e) { return []; } },
+  save(a) { store.set("collections", JSON.stringify(a)); },
+  make(name) { const a = this.all(), c = { id: Date.now().toString(36), name: String(name).slice(0, 80), created: new Date().toISOString().slice(0, 10), items: [] }; a.push(c); this.save(a); return c; },
+  addTo(cid, item) { const a = this.all(), c = a.find(x => x.id === cid); if (!c) return false; if (!c.items.some(x => x.key === item.key && x.slug === item.slug)) c.items.push(item); this.save(a); return true; },
+};
+/* a small menu under the button: pick a collection or start one */
+function hubCollect(btn, item) {
+  const old = $("#cpop"); if (old) { old.remove(); if (old._for === btn) return; }
+  const pop = document.createElement("div"); pop.id = "cpop"; pop.className = "cpop"; pop._for = btn; pop.setAttribute("role", "dialog"); pop.setAttribute("aria-label", "Add to a collection");
+  const draw = () => {
+    const cs = Coll.all();
+    pop.innerHTML = `<div class="hk" style="margin:0 0 6px">Add ${item.slug ? esc(item.lab || "this part") : "this document"} to</div>${cs.map(c => `<button type="button" class="cpi" data-cid="${esc(c.id)}">${esc(c.name)} <span class="tag">${c.items.length}</span></button>`).join("")}
+      <form class="cpn"><label class="sr" for="cpname">New collection</label><input id="cpname" maxlength="80" placeholder="New collection, e.g. Co-lending tie-up"><button type="submit" class="btn g sm">Add</button></form>
+      <a class="lnk" style="font-size:12.5px" href="${HUB_ROOT}collections/">Open my collections</a>`;
+  };
+  draw();
+  document.body.appendChild(pop);
+  const r = btn.getBoundingClientRect(); pop.style.top = (scrollY + r.bottom + 6) + "px"; pop.style.left = Math.max(8, Math.min(scrollX + r.left, scrollX + innerWidth - pop.offsetWidth - 8)) + "px";
+  const done = c => { pop.remove(); hubToast(`Added to “${c.name}”`); };
+  pop.addEventListener("click", e => { const b = e.target.closest("[data-cid]"); if (b) { const c = Coll.all().find(x => x.id === b.dataset.cid); if (c && Coll.addTo(c.id, item)) done(c); } });
+  pop.querySelector("form").addEventListener("submit", e => { e.preventDefault(); const n = $("#cpname").value.trim(); if (!n) return; const c = Coll.make(n); Coll.addTo(c.id, item); done(c); });
+  setTimeout(() => { const off = e => { if (!pop.contains(e.target) && e.target !== btn) { pop.remove(); document.removeEventListener("click", off); } }; document.addEventListener("click", off); }, 0);
+  pop.addEventListener("keydown", e => { if (e.key === "Escape") { pop.remove(); btn.focus(); } });
+  const f = pop.querySelector("input"); if (f && !Coll.all().length) f.focus();
+}
 function hubChanges() { if (!HX.changes) HX.changes = getJSON(HUB_ROOT + "changes.json").then(j => j.items || {}).catch(() => ({})); return HX.changes; }
 async function hubWatchBadge() {
   const b = $("#watchbtn"); if (!b) return;
@@ -813,7 +843,7 @@ function hubToolbar(el, o) {
       <button type="button" class="btn g sm${on ? " on" : ""}" data-t="watch" aria-pressed="${on}">${on ? I.starOn : I.star} ${on ? "Watching" : "Watch"}</button>
       <button type="button" class="btn g sm" data-t="link">${I.link} Copy link</button>
       <button type="button" class="btn g sm" data-t="cite">${I.quote} Copy citation</button>
-      <button type="button" class="btn g sm" data-t="print">${I.print} Print or save PDF</button></div>
+      <button type="button" class="btn g sm" data-t="print">${I.print} Print or save PDF</button>${o.collItem ? `<button type="button" class="btn g sm" data-t="coll">${I.bookmark} Add to collection</button>` : ""}</div>
       <div class="printonly">${esc(o.printLine || "")}</div>`;
   };
   draw();
@@ -824,6 +854,7 @@ function hubToolbar(el, o) {
     else if (t === "link") hubCopy(o.url, "Link copied");
     else if (t === "cite") hubCopy(o.cite, "Citation copied");
     else if (t === "print") hubPrint();
+    else if (t === "coll") hubCollect(b, Object.assign({ added: new Date().toISOString().slice(0, 10), note: "" }, o.collItem));
   };
 }
 const pageUrl = hash => location.origin + location.pathname + hash;
@@ -866,6 +897,7 @@ async function hubDocMount(o) {
     key, url: pageUrl(`#d/${id}`), cite: citeFor(""), changeDate,
     watchInfo: { t: it.label, s: sec.short, h: secPath(sec.id) + "/#d/" + id },
     printLine: `Financial Regulation Hub · ${pageUrl(`#d/${id}`)} · printed ${todayLong()}. Not legal advice; the official text governs.`,
+    collItem: { key, sec: sec.id, id, slug: "", lab: "", title: it.label, text: "", h: "", url: pageUrl(`#d/${id}`), official, cite: citeFor("") },
   });
   if (Watch.has(key)) Watch.seen(key, changeDate);
   { const dos = $(".dossier"); if (dos) for (const c of dos.children) { c.classList.add("pkeep"); if (c.id === "hubtools") break; } }
@@ -883,7 +915,7 @@ async function hubDocMount(o) {
       paras.forEach(p => {
         if (p.chap && p.chap !== chap) { chap = p.chap; html += `<h3 class="ftch">${esc(chap)}</h3>`; }
         const lab = unitLabel(unit, p.label);
-        html += `<div class="ftp" id="para-${esc(p.slug)}">${p.alts.map(x => `<span class="ftalt" id="para-${esc(x)}"></span>`).join("")}<div class="ftl">${lab ? `<b>${esc(cap(lab))}</b>` : ""}<span class="fta"><button type="button" class="ftb" data-plink="${esc(p.slug)}" title="Copy link to this ${unit}" aria-label="Copy link to ${esc(lab || "this part")}">${I.link}</button><button type="button" class="ftb" data-pcite="${esc(p.slug)}" title="Copy citation" aria-label="Copy citation for ${esc(lab || "this part")}">${I.quote}</button></span></div><div class="ftx">${esc(sxClean(p.text))}</div></div>`;
+        html += `<div class="ftp" id="para-${esc(p.slug)}">${p.alts.map(x => `<span class="ftalt" id="para-${esc(x)}"></span>`).join("")}<div class="ftl">${lab ? `<b>${esc(cap(lab))}</b>` : ""}<span class="fta"><button type="button" class="ftb" data-plink="${esc(p.slug)}" title="Copy link to this ${unit}" aria-label="Copy link to ${esc(lab || "this part")}">${I.link}</button><button type="button" class="ftb" data-pcite="${esc(p.slug)}" title="Copy citation" aria-label="Copy citation for ${esc(lab || "this part")}">${I.quote}</button><button type="button" class="ftb" data-pcoll="${esc(p.slug)}" title="Add to a collection" aria-label="Add ${esc(lab || "this part")} to a collection">${I.bookmark}</button></span></div><div class="ftx">${esc(sxClean(p.text))}</div></div>`;
       });
       box.innerHTML = html + "</div>";
       if (scrollTo) {
@@ -893,12 +925,13 @@ async function hubDocMount(o) {
       }
     };
     box.onclick = e => {
-      const b = e.target.closest("[data-ft],[data-plink],[data-pcite]"); if (!b) return;
+      const b = e.target.closest("[data-ft],[data-plink],[data-pcite],[data-pcoll]"); if (!b) return;
       if (b.dataset.ft === "open") draw();
       else if (b.dataset.ft === "close") { box.innerHTML = `<div class="ftbar"><button type="button" class="btn g sm" data-ft="open">Show the full text</button></div>`; $("#s-text").scrollIntoView(); }
       else if (b.dataset.ft === "print") hubPrint("text");
       else if (b.dataset.plink) { history.replaceState(null, "", `#d/${id}/para-${b.dataset.plink}`); hubCopy(pageUrl(`#d/${id}/para-${b.dataset.plink}`), "Link to this " + unit + " copied"); }
       else if (b.dataset.pcite) { const p = paras.find(x => x.slug === b.dataset.pcite); hubCopy(citeFor(p ? p.label : ""), "Citation copied"); }
+      else if (b.dataset.pcoll) { const p = paras.find(x => x.slug === b.dataset.pcoll); if (p) hubCollect(b, { key, sec: sec.id, id, slug: p.slug, lab: p.label ? cap(unitLabel(unit, p.label)) : trunc(p.chap || "Introduction", 70), title: it.label, text: p.text.slice(0, 6000), h: textHash(p.text), url: pageUrl(`#d/${id}/para-${p.slug}`), official, cite: citeFor(p.label), added: new Date().toISOString().slice(0, 10), note: "" }); }
     };
     if (want) draw(want);
   }
