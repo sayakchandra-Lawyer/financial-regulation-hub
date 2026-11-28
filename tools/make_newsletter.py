@@ -11,7 +11,7 @@ NL = ROOT / "newsletter"
 idx = (ROOT / "index.html").read_text(encoding="utf-8")
 VER = re.search(r"hub\.css\?v=([\w]+)", idx).group(1)
 ICON = re.search(r'<link rel="icon"[^>]+>', idx).group(0)
-NLV = "20261128a"  # newsletter.css cache key
+NLV = "20261128b"  # newsletter.css cache key
 e = lambda s: html.escape(str(s or ""), quote=True)
 EXT = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>'
 REGC = {"RBI": "rbi", "SEBI": "sebi", "IRDAI": "irdai", "IFSCA": "ifsc", "NSE / BSE": "exchanges", "NHB": "nhb", "MCA": "companies",
