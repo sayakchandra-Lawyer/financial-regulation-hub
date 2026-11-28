@@ -232,7 +232,7 @@ function wordsFor(M, alt) {
 function rankDocs(M, P, opts = {}) {
   if (!P.groups.length && !P.para) return [];
   const N = M.docs.length, matchers = P.groups.map(g => g.alts.map(a => wordsFor(M, a)));
-  const pw = tok(P.raw).flatMap(w => w.split(/[.'-]/)).filter(Boolean), phrase = pw.length > 1 ? new RegExp("(^|[^a-z0-9])" + pw.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("[\\s\\-–/,]+") + "($|[^a-z0-9])", "i") : null;
+  const pw = tok(P.raw).flatMap(w => w.split(/[.'-]/)).filter(Boolean), phrase = pw.length > 1 ? new RegExp("(^|[^a-z0-9])" + pw.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("[\\s\\-–/,]+") + "(?:s|es)?($|[^a-z0-9])", "i") : null;   // a plural last word still counts as the phrase
   const idfs = P.groups.map((g, gi) => { let n = 0; M.docs.forEach(d => { if (d.lines.some(l => hitLine(l, matchers[gi]))) n++; }); return Math.log(1 + N / (1 + n)); });
   const out = [];
   M.docs.forEach(d => {
@@ -813,6 +813,31 @@ function hubToolbar(el, o) {
 const pageUrl = hash => location.origin + location.pathname + hash;
 const todayLong = () => fmtDate(new Date().toISOString().slice(0, 10));
 
+/* Instrument timeline: the dates the site records for one instrument, oldest first. It states events only,
+   never which provisions bound anyone on a given day (commencement of single provisions and savings are not recorded). */
+const HX_UPD = {};
+async function hubTimeline(o, el) {
+  const { sec, it, id } = o; if (!el || !it) return;
+  el.className = "tlwrap";
+  const src = sec.data && sec.data.updates;
+  if (src && !HX_UPD[src]) HX_UPD[src] = getJSON(HUB_ROOT + src).then(j => j.updates || []).catch(() => []);
+  const ups = src ? (await HX_UPD[src]).filter(u => u.instrument === id && !/enforcement|meeting|faq/i.test(u.kind || "")) : [];
+  if (!HX.versions) HX.versions = getJSON(HUB_ROOT + "versions/index.json").catch(() => ({}));
+  const vers = (await HX.versions)[sec.id + "/" + id] || [];
+  const ev = [], today = new Date().toISOString().slice(0, 10), off = it.url || it.pdf || "";
+  const add = (date, what, url, note) => { if (date && /^\d{4}-\d{2}-\d{2}/.test(date)) ev.push({ date: date.slice(0, 10), what, url, note }); };
+  add(it.issue, `Issued${it.ref ? " (" + it.ref + ")" : ""}`, off);
+  if (it.effective && it.effective !== it.issue) add(it.effective, "Comes into force, as the instrument states", off);
+  ups.forEach(u => { add(u.date, (u.title || "").toLowerCase().startsWith(String(u.kind || "").toLowerCase()) ? trunc(u.title, 120) : `${u.kind}: ${trunc(u.title, 110)}`, u.url, ""); if (u.effective && u.effective !== u.date) add(u.effective, `In force: ${trunc(u.title, 90)}`, u.url, ""); });
+  vers.forEach(v => add(v.date, "Earlier text kept on this site (see below)", "", ""));
+  if (it.updated && !ev.some(e => e.date === it.updated)) add(it.updated, "Consolidated text updated as on this date", off);
+  if (!ev.length) { el.remove(); return; }
+  ev.sort((a, b) => a.date.localeCompare(b.date));
+  const st = it.sc === "old" ? `<li class="tl-end"><span class="tl-d">Status</span><span>${esc(stripChecked(it.status || "Superseded"))}</span></li>` : "";
+  el.innerHTML = `<div class="hk">Timeline</div><ol class="tl">${ev.map(e => `<li${e.date > today ? ' class="tl-next"' : ""}><span class="tl-d">${fmtDate(e.date)}${e.date > today ? ' <span class="pill p-grey">Ahead</span>' : ""}</span><span>${e.url ? `<a class="lnk" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.what)}</a>` : esc(e.what)}</span></li>`).join("")}${st}</ol>
+    <p class="tag" style="margin:6px 0 14px">Dates as recorded on this site, each linked to its source. Single provisions can commence on other dates, and transitional provisions can keep earlier rules alive: check the official text for the position on a given day.</p>`;
+}
+
 /* Called by each section page after it draws an instrument page. o: { sec, it, id, anchor } */
 async function hubDocMount(o) {
   const { sec, it, id } = o; if (!it) return;
@@ -864,6 +889,7 @@ async function hubDocMount(o) {
   /* earlier versions and redline */
   const vb = $("#hubver");
   if (vb) {
+    hubTimeline(o, vb.parentNode.insertBefore(document.createElement("div"), vb));
     if (!HX.versions) HX.versions = getJSON(HUB_ROOT + "versions/index.json").catch(() => ({}));
     const list = (await HX.versions)[key] || [];
     vb.innerHTML = list.length
