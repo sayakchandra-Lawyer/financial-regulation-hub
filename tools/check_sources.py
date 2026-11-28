@@ -31,6 +31,15 @@ if os.path.exists(lf):
         url = L.get("url")
         if not url or bad_url(url): problems.append(f"laws.json: {k} ({L.get('name')}) has no plain https source link")
         elif not official(url): problems.append(f"laws.json: {k} ({L.get('name')}) source link is not an official site: {url}")
+# Public pages carry no internal review notes (verification status, "checked on", "not retrieved").
+import re as _re
+_NOTE = _re.compile(r"UNVERIFIED|\((?:re)?checked\b|not retrieved|were not read|Provisional:|text not read")
+for f in sorted(glob.glob(os.path.join(ROOT, "*", "data", "*.json"))):
+    if os.path.basename(f) in ("fulltext.json",):
+        continue
+    for n, line in enumerate(open(f, encoding="utf-8"), 1):
+        if _NOTE.search(line):
+            problems.append(f"{os.path.relpath(f, ROOT)}:{n} carries an internal review note: {_NOTE.search(line).group(0)}")
 jf = os.path.join(ROOT, "judgments", "data", "judgments.json")
 if os.path.exists(jf):
     for j in json.load(open(jf, encoding="utf-8")).get("judgments", []):

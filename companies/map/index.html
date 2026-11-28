@@ -537,7 +537,7 @@ body[data-view="updates"] .rail{display:none}
       <select id="typeSel"><option value="">All types</option></select>
       <label class="sr" for="statusSel">Status</label>
       <select id="statusSel"><option value="">Any status</option><option value="inforce">In force</option><option value="amended">In force, amended since issue</option><option value="superseded">Superseded / repealed</option></select>
-      <button class="chipbtn" id="unvBtn" aria-pressed="false"><span class="tri"></span>Unverified only</button>
+      <button class="chipbtn" id="unvBtn" aria-pressed="false" hidden><span class="tri"></span>Unverified only</button>
       <button class="chipbtn plain" id="resetBtn" aria-pressed="false">Reset</button>
       <div class="maponly">
         <span class="vsep"></span>
@@ -705,7 +705,7 @@ function build(cfg, reg, graph){
     const g = gN.get(r.id) || {};
     return Object.assign({}, r, {
       label: shortLabel(r, g.label), theme: r.theme || g.group || "Other",
-      sc: statusClass(r), unv: !!r.has_unverified_items, url: r.official_url || g.url || ""
+      sc: statusClass(r), unv: false, url: r.official_url || g.url || ""
     });
   });
   S.items.forEach(it => S.byId.set(it.id, it));
