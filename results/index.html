@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Search results · Financial Regulation Hub</title>
+<meta name="description" content="Search every regulator, subject and judgment on the Financial Regulation Hub: instruments, defined terms, full texts and recent changes.">
+<link rel="canonical" href="https://sayakchandra-lawyer.github.io/financial-regulation-hub/results/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="../assets/hub.css?v=20261128x">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
+<meta name="robots" content="noindex">
+<style>
+.seg{display:inline-flex;gap:2px;background:var(--surface-2);padding:3px;border-radius:10px}
+.seg button{border:0;background:none;padding:6px 12px;border-radius:8px;font:inherit;font-size:13px;color:var(--ink-2);cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--surface);color:var(--ink);font-weight:600;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.rbar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin:14px 0 6px}
+.rbar label{font-size:13px;color:var(--ink-2);display:inline-flex;gap:6px;align-items:center;cursor:pointer}
+.active{font-size:13.5px;color:var(--ink-2);margin:10px 0 0}.active b{color:var(--ink)}
+.rblock{margin-top:26px}.rblock h2{font-size:20px;margin:0 0 4px}.rblock .card{overflow:hidden;margin-top:8px}
+.rblock .weak{margin-top:16px}.rblock .weak .card{border-style:dashed}
+.res .sec{font-size:11px;font-weight:600;letter-spacing:.02em;color:var(--accent-text);margin-right:6px}
+.more{margin-top:8px}
+</style>
+</head>
+<body>
+<header id="top"></header>
+<main class="wrap">
+  <div class="pg" style="max-width:960px;margin:0 auto;padding:30px 0 60px">
+    <div class="eyebrow">Search</div>
+    <h1 style="font-size:clamp(28px,4vw,40px);margin-top:8px" id="rh1">Search every regulator</h1>
+    <form class="search" id="rform" role="search" style="margin-top:16px"><span id="ricon"></span><label class="sr" for="rq">Search</label><input id="rq" type="search" autocomplete="off" placeholder="Search by keyword, e.g. “co-lending”, “Form ECB 2”, “section 186”"></form>
+    <div class="filter" id="rscope" style="margin:14px 0 0" role="group" aria-label="Where to search"></div>
+    <div class="rbar">
+      <div class="seg" role="group" aria-label="How to match" id="rmode"><button type="button" data-m="all">All words</button><button type="button" data-m="exact">Exact phrase</button></div>
+      <label><input type="checkbox" id="rold"> Include superseded</label>
+    </div>
+    <p class="active" id="ractive" aria-live="polite"></p>
+    <div id="rout"></div>
+  </div>
+</main>
+<footer id="foot"></footer>
+<script src="../assets/hub.js?v=20261128x"></script>
+<script>
+(async function(){
+  const hub = await getJSON("../hub.json");
+  renderChrome(hub, { root: "../", active: "results", sub: "Search", crumb: `<a href="../">Home</a> / <b>Search</b>` });
+  $("#ricon").outerHTML = I.search;
+  const live = hub.sections.filter(s => s.status === "live");
+  const NAME = Object.fromEntries(live.map(s => [s.id, s.short || s.name]));
+  const secs = Object.fromEntries(live.filter(s => s.data && s.data.register).map(s => [s.id, s]));
+  const MS = {};
+  const ready = Promise.all(Object.entries(secs).map(async ([k, s]) => { try { MS[k] = await loadSection(s, "../"); } catch (e) { console.warn(e); } }));
+  /* state lives in the address, so a search can be shared or bookmarked */
+  const U = new URLSearchParams(location.search);
+  const S = { q: U.get("q") || "", s: U.get("s") || "", m: U.get("m") === "exact" ? "exact" : "all", old: U.get("old") === "1" };
+  if (!NAME[S.s]) S.s = "";
+  const scopes = [["", "All regulators"], ...live.map(s => [s.id, s.short || s.name])];
+  const syncUrl = () => { const p = new URLSearchParams(); if (S.q) p.set("q", S.q); if (S.s) p.set("s", S.s); if (S.m === "exact") p.set("m", "exact"); if (S.old) p.set("old", "1"); history.replaceState(null, "", "?" + p.toString()); };
+  const drawControls = () => {
+    $("#rq").value = S.q;
+    $("#rscope").innerHTML = scopes.map(([k, t]) => `<button type="button" class="chip ${S.s === k ? "on" : ""}" data-s="${k}" aria-pressed="${S.s === k}">${esc(t)}</button>`).join("");
+    $$("#rmode button").forEach(b => b.setAttribute("aria-pressed", b.dataset.m === S.m));
+    $("#rold").checked = S.old;
+  };
+  const href = (k, tail) => `../${secs[k] ? secs[k].href : NAME[k] ? live.find(s => s.id === k).href : ""}${tail || ""}`;
+  let run = 0;
+  async function go(){
+    drawControls(); syncUrl();
+    const raw = S.q.trim(), my = ++run;
+    $("#rh1").textContent = raw ? `Results for “${raw}”` : "Search every regulator";
+    document.title = (raw ? `${raw} · ` : "") + "Search results · Financial Regulation Hub";
+    if (raw.length < 2) { $("#ractive").textContent = ""; $("#rout").innerHTML = `<p class="tag" style="margin-top:18px">Type a keyword, a form or a section number. Put words in quotes, or pick <b>Exact phrase</b>, to find them side by side.</p>`; return; }
+    $("#ractive").innerHTML = `Searching <b>${S.s ? esc(NAME[S.s]) : "all regulators and subjects"}</b> · ${S.m === "exact" ? "<b>exact phrase</b>" : "<b>all words</b>"} · superseded ${S.old ? "<b>included</b>" : "<b>left out</b>"}${S.s || S.m === "exact" || S.old ? ` · <button type="button" class="lnk" id="rclear">Clear filters</button>` : ""}`;
+    $("#rout").innerHTML = `<p class="tag" style="margin-top:18px">Searching…</p>`;
+    await ready; if (my !== run) return;
+    const keys = (S.s ? [S.s] : Object.keys(MS)).filter(k => MS[k]);
+    const exact = S.m === "exact" && tok(raw).length > 1;
+    const keepOld = it => S.old || it.sc !== "old";
+    /* instruments: every section's ranked list, merged; those holding all the words first, the rest in a separate band */
+    let docs = [];
+    keys.forEach(k => { const m = MS[k], P = parseQuery(m, raw); rankDocs(m, P).forEach(d => { if (keepOld(d.it) && (!exact || d.exact)) docs.push({ ...d, k, P }); }); });
+    docs.sort((a, b) => (b.exact - a.exact) || (b.full - a.full) || b.sc - a.sc);
+    const strong = docs.filter(d => d.full || d.exact), weak = strong.length ? [] : docs;
+    const inst = d => { const l = d.hits.find(x => x.lab !== "Name") || d.hits[0], m = MS[d.k];
+      return `<a class="res" href="${href(d.k, "#d/" + encodeURIComponent(d.it.id))}"><div class="t"><span class="sec">${esc(NAME[d.k])}</span>${hl(d.it.label, d.P)} ${d.it.sc === "old" ? '<span class="pill p-old">Superseded</span>' : ""}</div><div class="m">${esc(d.it.type)} · ${esc(m.themeOf.get(d.it.id)?.nice || "")}${d.exact ? '<span class="sep"></span>Exact phrase' : ""}</div>${l ? `<div class="s"><b style="font-weight:600">${esc(l.lab)}:</b> ${hl(trunc(l.txt, 240), d.P)}</div>` : ""}</a>`; };
+    const list = (arr, n, id) => `<div class="card" id="${id}">${arr.slice(0, n).map(inst).join("")}</div>${arr.length > n ? `<button type="button" class="lnk more" data-more="${id}">Show all ${arr.length}</button>` : ""}`;
+    const perSec = {}; (strong.length ? strong : weak).forEach(d => perSec[d.k] = (perSec[d.k] || 0) + 1);
+    let h = `<section class="rblock"><h2>Instruments</h2><p class="tag">${strong.length ? `${strong.length} hold ${exact ? "the exact phrase" : "every word"}` : weak.length ? "None holds every word; closest matches below" : "No instrument summary matches"}${Object.keys(perSec).length > 1 ? " · " + Object.entries(perSec).sort((a, b) => b[1] - a[1]).map(([k, n]) => `<button type="button" class="lnk" data-s="${k}">${esc(NAME[k])} ${n}</button>`).join(" · ") : ""}</p>`;
+    if (strong.length) h += list(strong, 12, "ri");
+    if (weak.length) h += `<div class="weak"><p class="tag">Contains some of your words</p>${list(weak, 8, "rw")}</div>`;
+    h += `</section>`;
+    /* defined terms */
+    const defs = []; keys.forEach(k => { const m = MS[k], P = parseQuery(m, raw); matchDefs(m, P).forEach(x => { if (!x.it || keepOld(x.it)) defs.push({ ...x, k, P }); }); });
+    defs.sort((a, b) => b.sc - a.sc);
+    if (defs.length) h += `<section class="rblock"><h2>Defined terms</h2><p class="tag">${defs.length} match${defs.length === 1 ? "" : "es"}${defs.length > 8 ? ", best 8 shown" : ""}</p><div class="card">${defs.slice(0, 8).map(x => `<a class="res" href="${href(x.k, "#d/" + encodeURIComponent(x.d.id) + "/definitions")}"><div class="t"><span class="sec">${esc(NAME[x.k])}</span>“${esc(x.d.term)}”</div><div class="m">${esc(x.it ? x.it.label : x.d.id)} · ${esc(x.d.para)}</div><div class="s">${hl(trunc(x.d.def, 240), x.P)}</div></a>`).join("")}</div></section>`;
+    /* full text of every Act, rule, direction and judgment */
+    h += `<section class="rblock"><div id="sxres"></div></section>`;
+    /* recent changes */
+    const ts = tok(raw).filter(t => !STOP.has(t)), ups = [];
+    if (ts.length) keys.forEach(k => (MS[k].updates || []).forEach(u => { const hay = [u.title, u.kind, ...(u.changes || [])].join(" ").toLowerCase(); if (exact ? hay.includes(raw.toLowerCase()) : ts.every(t => hay.includes(t))) ups.push([k, u]); }));
+    ups.sort((a, b) => String(b[1].date).localeCompare(String(a[1].date)));
+    if (ups.length) h += `<section class="rblock"><h2>Recent changes</h2><div class="card">${ups.slice(0, 8).map(([k, u]) => `<a class="res" href="${href(k, "#changes/" + encodeURIComponent(u.id))}"><div class="t"><span class="sec">${esc(NAME[k])}</span>${esc(trunc(u.title, 120))}</div><div class="m">${esc(u.kind)}<span class="sep"></span>${fmtDate(u.date, false)}</div></a>`).join("")}</div></section>`;
+    if (hub.ai_endpoint) h += `<p class="tag" style="margin-top:24px">Looking for an answer rather than a document? <a class="lnk" href="${S.s ? href(S.s) : "../"}">Ask Counsel’s Clerk</a> (bottom right on ${S.s ? "the " + esc(NAME[S.s]) + " page" : "the home page"}).</p>`;
+    $("#rout").innerHTML = h;
+    $$("#rout [data-more]").forEach(b => b.addEventListener("click", () => { const arr = b.dataset.more === "ri" ? strong : weak; $("#" + b.dataset.more).innerHTML = arr.map(inst).join(""); b.remove(); }));
+    sxMount($("#sxres"), exact && !/["“”]/.test(raw) ? `“${raw}”` : raw, { root: "../", here: S.s && S.s !== "jud" ? S.s : S.s === "jud" ? "judgments" : "" });
+  }
+  let tmr = 0;
+  $("#rq").addEventListener("input", () => { clearTimeout(tmr); tmr = setTimeout(() => { S.q = $("#rq").value; go(); }, 300); });
+  $("#rform").addEventListener("submit", e => { e.preventDefault(); S.q = $("#rq").value; go(); });
+  document.addEventListener("click", e => {
+    const c = e.target.closest("[data-s]"); if (c && c.closest("#rscope, #rout")) { S.s = c.dataset.s; go(); window.scrollTo({ top: 0, behavior: "smooth" }); return; }
+    const m = e.target.closest("[data-m]"); if (m) { S.m = m.dataset.m; go(); return; }
+    if (e.target.closest("#rclear")) { S.s = ""; S.m = "all"; S.old = false; go(); }
+  });
+  $("#rold").addEventListener("change", () => { S.old = $("#rold").checked; go(); });
+  go();
+})();
+</script>
+</body>
+</html>

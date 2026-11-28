@@ -20,7 +20,7 @@
 <!-- og:end -->
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/hub.css?v=20261128c">
+<link rel="stylesheet" href="../assets/hub.css?v=20261128x">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
 <style>
 .hero{padding:36px 0 6px}.hero h1{font-size:clamp(30px,4.4vw,42px);margin-top:8px}.hero p{color:var(--ink-2);margin:10px 0 0;max-width:720px}
@@ -37,6 +37,8 @@
 .grp .chip[aria-disabled=true]{opacity:.45;cursor:not-allowed}
 .help{font-size:12px;color:var(--muted);margin:8px 0 0;line-height:1.45}.help.tip{color:var(--ink-2);min-height:2.9em}
 .bfoot{display:flex;gap:10px;align-items:center;padding:4px 0 12px;flex-wrap:wrap}
+.presets>div{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.presets .mine{margin-bottom:10px}
+.pchip{padding:0;gap:0;overflow:hidden}.pchip button{border:0;background:none;font:inherit;color:inherit;padding:5px 4px 5px 12px;cursor:pointer}.pchip .px{padding:5px 10px 5px 6px;color:var(--muted)}.pchip .px:hover{color:var(--ink)}
 .res{overflow:hidden;min-width:0}
 .rhead{display:flex;gap:20px;align-items:center;padding:16px 20px;border-bottom:1px solid var(--line);flex-wrap:wrap}
 .stat b{display:block;font:500 26px/1 var(--f-d)}.stat span{font-size:12px;color:var(--muted)}
@@ -77,6 +79,9 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
 .lrow .sc{display:block;font-size:12px;color:var(--accent-text);font-weight:500;margin-top:2px}
 .lhead{font-size:12px;color:var(--muted);font-weight:600}
 .combo-pill{background:var(--accent-soft);color:var(--accent-text)}
+.pill.tier{font-size:10.5px;font-weight:600;padding:2px 7px;margin-left:4px;vertical-align:1px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink-2)}
+.pill.t-dir{border-color:color-mix(in srgb,var(--accent) 45%,var(--line));color:var(--accent-text);background:var(--accent-soft)}
+.pill.t-cond,.pill.t-evt,.pill.t-via{border-style:dashed}
 .dl{padding:8px 20px 20px}.dl li{font-size:13.5px;margin:4px 0}.dl h4{margin:14px 0 4px;font-size:14px}
 @media (max-width:900px){.eb{grid-template-columns:1fr}.bld{position:static;max-height:none}.bld.fold{display:none}.ebar{display:flex}.lrow{grid-template-columns:1fr}.lrow .t{display:none}.hnote{display:none}.rhead{gap:14px}.stat b{font-size:22px}}
 </style>
@@ -100,7 +105,8 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
   </div>
 </main>
 <footer id="foot"></footer>
-<script src="../assets/hub.js?v=20261128c"></script>
+<script src="../assets/entity-engine.js?v=20261128x"></script>
+<script src="../assets/hub.js?v=20261128x"></script>
 <script>
 (async function(){
   const hub = await getJSON("../hub.json");
@@ -135,64 +141,17 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
   }
 
   /* ---------- the engine: selection -> instruments, each with its reasons ---------- */
-  function compute(){
-    const t = typeOf(), rbiReg = !!(t && t.rbi), items = new Map(), lab = a => a.short || a.label;
-    const layerId = [...sel].find(x => A.get(x).group === "layer"), L = layerId != null ? LBYID[layerId] : -1;
-    const add = (sec, id, why, o = {}) => {
-      const k = (o.via ? "via:" + o.via + ":" : "") + sec + "/" + id;
-      let it = items.get(k);
-      if (!it) { const r = D.inst[sec] && D.inst[sec][id]; if (!r) return null; it = { k, sec: o.via ? "lender" : sec, home: sec, id, name: r[0], type: r[1], theme: r[2], tl: r[4], why: new Set(), scope: [], focus: [], notes: [], via: o.via || "", combos: [], also: [] }; items.set(k, it); }
-      if (why) it.why.add(why);
-      if (o.scope && !it.scope.includes(o.scope)) it.scope.push(o.scope);
-      if (o.focus && !it.focus.includes(o.focus)) it.focus.push(o.focus);
-      if (o.note) it.notes.push(o.note);
-      if (o.combo) it.combos.push(o.combo);
-      return it;
-    };
-    if (rbiReg) {
-      const cats = [t.rbi_cat].concat(sel.has("dep") ? ["CAT-D"] : []);
-      const why = `${t.label}${L >= 0 ? " · " + D.layers[L].label + " Layer" : ""}`;
-      for (const [id, r] of Object.entries(D.inst.rbi)) {
-        const tags = r[3]; if (!tags.length) continue;
-        const c = tags.filter(x => !(x in LIDX)), ls = tags.filter(x => x in LIDX).map(x => LIDX[x]);
-        if (c.length && !cats.some(x => c.includes(x))) continue;
-        if (ls.length && Math.min(...ls) > Math.max(L, 0)) continue;
-        add("rbi", id, c.includes(t.rbi_cat) || !c.length ? why : "Takes public deposits");
-      }
-    }
-    const lens = {};
-    const feed = (f, why) => { if (f.layers && !f.layers.includes(layerId)) return; (lens[f.sec] = lens[f.sec] || {})[f.lens] = (lens[f.sec][f.lens] || new Set()).add(why); };
-    for (const x of sel) {
-      const a = A.get(x), w = a.group === "type" ? a.label : lab(a);
-      if (a.rbi_only && !rbiReg) continue;
-      (a.feeds || []).forEach(f => feed(f, w));
-      (rbiReg ? a.feeds_rbi || [] : a.feeds_other || []).forEach(f => feed(f, w));
-      (a.adds || []).forEach(d => { if (d.rbi_only && !rbiReg) return; add(d.sec, d.id, w, a.group === "act" ? { focus: d.scope } : { scope: d.scope }); });
-      (a.via || []).forEach(d => add(d.sec, d.id, w, { via: a.id, scope: d.scope, note: d.note }));
-    }
-    for (const [sec, m] of Object.entries(lens)) {
-      for (const [id, r] of Object.entries(D.inst[sec] || {})) {
-        const hit = r[3].filter(x => m[x]); if (!hit.length) continue;
-        const it = add(sec, id); hit.forEach(h => m[h].forEach(w => it.why.add(w)));
-      }
-    }
-    const combos = D.combos.filter(c => (c.all || []).every(x => sel.has(x)) && (!c.any || c.any.some(x => sel.has(x))) && (!c.any2 || c.any2.some(x => sel.has(x))) && !(c.none || []).some(x => sel.has(x)));
-    for (const c of combos) {
-      const w = [...(c.all || []), ...(c.any || []).filter(x => sel.has(x)), ...(c.any2 || []).filter(x => sel.has(x))].map(x => lab(A.get(x)));
-      c._why = c.because ? [c.because] : [...new Set(w)];
-      c.adds.forEach(d => add(d.sec, d.id, c._why.join(" + "), { scope: d.scope, combo: c.id }));
-    }
-    for (const [[ps, pi], [ss, si]] of D.same_as) {
-      const p = items.get(ps + "/" + pi), s = items.get(ss + "/" + si);
-      if (p && s) { s.why.forEach(w => p.why.add(w)); p.also.push(SEC.get(ss).short); items.delete(s.k); }
-    }
-    const sectors = new Set([...sel].flatMap(x => A.get(x).sectors || []));
-    const rulings = D.rulings.filter(j => j.sectors.some(s => sectors.has(s)));
-    return { items: [...items.values()], combos, rulings, rbiReg, t, L };
-  }
+  const computeFor = entityEngine(D);
+  function compute(){ return computeFor(sel); }
 
   /* ---------- builder ---------- */
-  $("#presets").innerHTML = `<span class="tag">Start from an example:</span>` + D.presets.map((p, i) => `<button type="button" class="chip" data-preset="${i}">${esc(p.label)}</button>`).join("");
+  /* saved entities first (this browser only), then the examples */
+  function renderPresets(){
+    const mine = Profiles.all(), cur = [...sel].join();
+    $("#presets").innerHTML = (mine.length ? `<div class="mine"><span class="tag">Your saved entities:</span>${mine.map(p => `<span class="chip pchip ${p.sel.join() === cur ? "on" : ""}"><button type="button" data-prof="${esc(p.id)}">${esc(p.name)}</button><button type="button" class="px" data-pdel="${esc(p.id)}" aria-label="Delete ${esc(p.name)}" title="Delete">×</button></span>`).join("")}<a class="lnk" style="font-size:13px" href="../dashboard/">Open my dashboard</a></div>` : "")
+      + `<div><span class="tag">Start from an example:</span>` + D.presets.map((p, i) => `<button type="button" class="chip ${p.sel.join() === cur ? "on" : ""}" data-preset="${i}">${esc(p.label)}</button>`).join("") + `</div>`;
+  }
+  renderPresets();
   const TIPDEF = { type: "Not sure? Most lending NBFCs, including large diversified lenders, are NBFC (Investment and Credit). Point at a type to see what it covers.",
     layer: "Point at a layer to see who falls in it." };
   function tipFor(g, hover){ const a = hover ? A.get(hover) : D.attrs.find(x => x.group === g && sel.has(x.id)); return (a && a.tip) || TIPDEF[g]; }
@@ -206,8 +165,8 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
       return `<div class="grp" role="group" aria-label="${esc(g.label)}"><h3>${esc(g.label)}${g.hint ? `<i>${esc(g.hint)}</i>` : ""}</h3><div class="chips">${opts.map(a => {
         const dis = g.id === "layer" && !t.layers.includes(a.id);
         return `<button type="button" class="chip ${g.id === "role" ? "role" : ""} ${sel.has(a.id) ? "on" : ""}" data-a="${a.id}" aria-pressed="${sel.has(a.id)}" ${dis ? 'aria-disabled="true"' : ""}${a.tip ? ` title="${esc(a.tip)}"` : ""}>${esc(a.label)}</button>`; }).join("")}</div>${TIPDEF[g.id] ? `<p class="help tip" data-g="${g.id}" aria-live="polite">${esc(tipFor(g.id))}</p>` : ""}${g.help ? `<p class="help">${esc(g.help)}</p>` : ""}</div>`;
-    }).join("") + `<div class="bfoot"><button type="button" class="btn g" id="copy" style="font-size:13px">Copy link to this entity</button><button type="button" class="lnk" id="clear" style="font-size:13px">Clear</button><span class="tag" id="copied" aria-live="polite"></span></div>`;
-    $$("#presets .chip").forEach(b => b.classList.toggle("on", D.presets[+b.dataset.preset].sel.join() === [...sel].join()));
+    }).join("") + `<div class="bfoot">${sel.size ? `<button type="button" class="btn g" id="psave" style="font-size:13px">Save this entity</button>` : ""}<button type="button" class="btn g" id="copy" style="font-size:13px">Copy link to this entity</button><button type="button" class="lnk" id="clear" style="font-size:13px">Clear</button><span class="tag" id="copied" aria-live="polite"></span></div>`;
+    renderPresets();
   }
   $("#bld").addEventListener("mouseover", e => showTip(e.target.closest(".chip[data-a]")));
   $("#bld").addEventListener("mouseout", e => resetTip(e.target.closest(".chip[data-a]")));
@@ -223,9 +182,21 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
       tidy(); panel = null; update(); return;
     }
     if (e.target.closest("#clear")) { sel.clear(); open.clear(); panel = null; update(); }
+    if (e.target.closest("#psave")) {
+      const f = $("#bld .bfoot"), guess = [...sel].map(x => A.get(x).short || A.get(x).label).slice(0, 3).join(" · ");
+      f.innerHTML = `<label class="sr" for="pname">Name for this entity</label><input id="pname" class="chip" style="flex:1;min-width:180px;font-size:13px;padding:7px 12px;cursor:text" maxlength="60" value="${esc(guess)}" placeholder="e.g. Housing finance arm"><button type="button" class="btn p" id="pok" style="font-size:13px">Save</button><button type="button" class="lnk" id="pcancel" style="font-size:13px">Cancel</button><span class="tag" style="width:100%">Saved only in this browser, on this device. The dashboard can save a copy to a file.</span>`;
+      const i = $("#pname"); i.focus(); i.select();
+      i.addEventListener("keydown", ev => { if (ev.key === "Enter") $("#pok").click(); if (ev.key === "Escape") $("#pcancel").click(); });
+      return;
+    }
+    if (e.target.closest("#pok")) { const n = $("#pname").value.trim(); if (n) { Profiles.add(n, [...sel]); update(); } return; }
+    if (e.target.closest("#pcancel")) { renderBuilder(); return; }
     if (e.target.closest("#copy")) { const u = location.href; (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(() => $("#copied").textContent = "Link copied", () => $("#copied").textContent = u); }
   });
-  $("#presets").addEventListener("click", e => { const b = e.target.closest("[data-preset]"); if (!b) return; sel = new Set(D.presets[+b.dataset.preset].sel); tidy(); open.clear(); panel = null; update(); });
+  $("#presets").addEventListener("click", e => {
+    const d = e.target.closest("[data-pdel]"); if (d) { Profiles.drop(d.dataset.pdel); renderPresets(); return; }
+    const pr = e.target.closest("[data-prof]"); if (pr) { const p = Profiles.get(pr.dataset.prof); if (p) { sel = new Set(p.sel.filter(x => A.has(x))); tidy(); open.clear(); panel = null; update(); } return; }
+    const b = e.target.closest("[data-preset]"); if (!b) return; sel = new Set(D.presets[+b.dataset.preset].sel); tidy(); open.clear(); panel = null; update(); });
   $("#ebar").addEventListener("click", e => { if (e.target.closest("#editent")) { $("#bld").classList.toggle("fold"); if (!$("#bld").classList.contains("fold")) $("#bld").scrollIntoView({ behavior: "smooth" }); } });
 
   /* ---------- result shape: branches for the map and the list ---------- */
@@ -245,13 +216,17 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
     return out;
   }
   const whyText = i => [...i.why].join("; ");
+  const TIER = { direct: ["Applies directly", "t-dir"], part: ["Applies in part", "t-part"], cond: ["If you take up this activity", "t-cond"], event: ["Applies on a transaction or event", "t-evt"], prop: ["Proposed, not yet law", "t-evt"], via: ["Through your lender", "t-via"] };
+  /* a pill only where the entry is not a plain "applies directly"; "in part" already shows its scope line */
+  const tierPill = (i, all) => i.tier && TIER[i.tier] && (all || !["direct", "part", "via"].includes(i.tier)) ? `<span class="pill tier ${TIER[i.tier][1]}">${TIER[i.tier][0]}</span>` : "";
   const hrefOf = i => i.ruling ? `../judgments/#j/${encodeURIComponent(i.ruling.id)}` : `../${SEC.get(i.home).href}#d/${encodeURIComponent(i.id)}`;
   const HIDE = { sebi: "a listing", exchanges: "a listing", irdai: "IRDAI corporate agent", fema: "“Borrows abroad or lends to non-residents”", ifsc: "IFSC unit", ibc: "an NBFC or HFC type", dpdp: "an NBFC or HFC type, a licence or a role", rbi: "an NBFC or HFC type" };
 
   /* ---------- header, entity bar and view switch ---------- */
   function renderHead(R, B){
     const direct = R.items.filter(i => i.sec !== "lender"), regs = new Set(direct.map(i => i.home));
-    $("#rhead").innerHTML = `<div class="stat"><b>${direct.length}</b><span>instruments apply</span></div><div class="stat"><b>${regs.size}</b><span>regulators</span></div><div class="stat"><b>${R.combos.length}</b><span>extra rules from your combination</span></div>${R.items.some(i => i.via) ? `<div class="stat"><b>${R.items.filter(i => i.via).length}</b><span>via your lender</span></div>` : ""}<div class="sp"></div>
+    const nT = t => direct.filter(i => i.tier === t).length;
+    $("#rhead").innerHTML = `<div class="stat" title="Bind an entity like yours without any further condition"><b>${nT("direct")}</b><span>apply directly</span></div>${nT("part") ? `<div class="stat" title="Only the paragraphs named apply, or only if a stated condition is met"><b>${nT("part")}</b><span>apply in part</span></div>` : ""}${nT("cond") ? `<div class="stat" title="Apply only if you take up an activity or licence you have not picked"><b>${nT("cond")}</b><span>if you take up an activity</span></div>` : ""}${nT("event") ? `<div class="stat" title="Contract, stamp, security, recovery and insolvency laws: they apply when you sign, take or enforce security, recover dues, or when a borrower or your company enters insolvency"><b>${nT("event")}</b><span>on a transaction or event</span></div>` : ""}<div class="stat"><b>${regs.size}</b><span>regulators</span></div><div class="stat"><b>${R.combos.length}</b><span>extra rules from your combination</span></div>${R.items.some(i => i.via) ? `<div class="stat"><b>${R.items.filter(i => i.via).length}</b><span>via your lender</span></div>` : ""}<div class="sp"></div>
       <div class="seg" role="group" aria-label="View">${[["map", "Mind map"], ["list", "List"], ["dl", "Deadlines"]].map(([k, l]) => `<button type="button" data-v="${k}" aria-pressed="${view === k}">${l}</button>`).join("")}</div>`;
     $("#ebar").innerHTML = `<b style="font-size:13px">Your entity</b>${sel.size ? [...sel].map(x => `<span class="chip on">${esc(A.get(x).short || A.get(x).label)}</span>`).join("") : '<span class="tag">nothing picked yet</span>'}<button type="button" class="lnk" id="editent" style="font-size:13px;margin-left:auto">Edit entity</button>`;
   }
@@ -264,7 +239,7 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
       ${b.id === "combo" ? b.themes.map(t => `<div class="lrow"><div><span class="pill combo-pill">Combination</span> <b>${esc(t.name)}</b></div><div class="bec">Because: ${esc(t.combo._why.join(" + "))}</div><div class="t">${t.combo.adds.map(a => esc(D.inst[a.sec][a.id][0]) + (a.scope ? " · " + esc(a.scope) : "")).join("<br>")}</div></div>`).join("")
       : `<div class="lrow lhead"><div>${b.id === "rulings" ? "Ruling" : "Instrument"}</div><div>${b.id === "rulings" ? "Court and date" : "Applies because"}</div><div class="t">${b.id === "rulings" ? "Topic" : "Subject"}</div></div>` + b.themes.flatMap(t => t.items.map(i => i.ruling
         ? `<div class="lrow"><div><a href="${hrefOf(i)}">${esc(i.name)}</a></div><div class="bec">${esc(i.ruling.court)} · ${fmtDate(i.ruling.date)}</div><div class="t">${esc(i.ruling.topic)}</div></div>`
-        : `<div class="lrow"><div><a href="${hrefOf(i)}">${esc(i.name)}</a>${i.scope.length ? `<span class="sc">Applies in part: ${esc(i.scope.join("; "))}</span>` : ""}${i.focus.length ? `<span class="sc">For your activity: ${esc(i.focus.join("; "))}</span>` : ""}</div><div class="bec">${i.via ? "Binds your lender; reaches you by contract" : esc(whyText(i))}${i.also.length ? ` · also in ${esc(i.also.join(", "))}` : ""}</div><div class="t">${esc(t.name)}</div></div>`)).join("")}</div>`;
+        : `<div class="lrow"><div><a href="${hrefOf(i)}">${esc(i.name)}</a> ${tierPill(i)}${i.cond.length ? `<span class="sc">Only if you: ${esc(i.cond.join(" or "))}</span>` : ""}${i.scope.length ? `<span class="sc">Applies in part: ${esc(i.scope.join("; "))}</span>` : ""}${i.focus.length ? `<span class="sc">For your activity: ${esc(i.focus.join("; "))}</span>` : ""}</div><div class="bec">${i.via ? "Binds your lender; reaches you by contract" : esc(whyText(i))}${i.also.length ? ` · also in ${esc(i.also.join(", "))}` : ""}</div><div class="t">${esc(t.name)}</div></div>`)).join("")}</div>`;
     return `<div class="list">${B.map(sec).join("")}${hiddenNote(R, B, true)}</div>`;
   }
   function renderDeadlines(R){
@@ -389,6 +364,9 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
     const sec = SEC.get(i.home);
     return `<aside class="drawer" aria-label="Why it applies">${close}<div class="eyebrow"${i.via ? "" : ` style="color:var(--accent-text)"`}>${i.via ? "Reaches you through your lender" : esc(sec.short) + " · " + esc(i.type)}</div><h2>${esc(i.name)}</h2>
       <div class="why">${i.via ? `<b>${esc(A.get(i.via).label)}</b> is not a licence. This binds the NBFC or HFC you work for, which must make you follow it under your agreement.` : `Applies because: ${[...i.why].map(w => `<b>${esc(w)}</b>`).join(", ")}.`}${i.also.length ? ` Also covered in the ${esc(i.also.join(", "))} section.` : ""}</div>
+      <p style="margin:0 0 10px">${tierPill(i, true)}</p>
+      ${i.cond.length ? `<p style="font-size:13.5px;margin:0 0 10px"><b>Only if you take up:</b> ${esc(i.cond.join(" or "))}. Your entity type brings it into scope, but its duties bite only on that activity. Add the activity above to see it as applying directly.</p>` : ""}
+      ${i.tier === "event" ? `<p style="font-size:13.5px;margin:0 0 10px">A law that applies on a transaction or event: it matters when you sign loan documents, take or enforce security, recover dues, or when a borrower or your company enters insolvency.</p>` : ""}
       ${i.scope.length ? `<p style="font-size:13.5px;margin:0 0 10px"><b>Applies in part:</b> ${esc(i.scope.join("; "))}</p>` : ""}
       ${i.focus.length ? `<p style="font-size:13.5px;margin:0 0 10px"><b>For your activity:</b> ${esc(i.focus.join("; "))}</p>` : ""}
       ${i.notes.length ? `<ul class="adds">${i.notes.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}

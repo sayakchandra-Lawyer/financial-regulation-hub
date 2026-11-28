@@ -76,13 +76,16 @@ if (document.visibilityState === "visible" && !(window.matchMedia && matchMedia(
 
 function renderChrome(hub, opts) {
   const root = opts.root || "";
-  const nav = hub.sections.filter(s => s.status === "live").map(s => `<a href="${s.status === "live" ? root + s.href : root + "#" + s.id}" class="${s.id === opts.active ? "on" : ""} ${s.status === "live" ? "" : "soon"}">${esc(s.short)}</a>`).join("") + (hub.tools || []).map(t => `<a href="${root + t.href}" class="${t.id === opts.active ? "on" : ""}" title="${esc(t.name || t.short)}">${esc(t.short)}</a>`).join("");
+  /* key links shown on the bar itself on desktop; the menu keeps every section and tool */
+  const all = [...hub.sections.filter(s => s.status === "live"), ...(hub.tools || [])], byId = Object.fromEntries(all.map(x => [x.id, x]));
+  const quick = (hub.quicknav || ["jud", "entity", "newsletter"]).map(id => byId[id]).filter(Boolean).map(x => `<a href="${root + x.href}" class="${x.id === opts.active ? "on" : ""}">${esc(x.quick || x.short)}</a>`).join("");
+  const nav = hub.sections.filter(s => s.status === "live").map(s => `<a href="${s.status === "live" ? root + s.href : root + "#" + s.id}" class="${s.id === opts.active ? "on" : ""} ${s.status === "live" ? "" : "soon"}">${esc(s.short)}</a>`).join("") + (hub.tools || []).filter(t => !t.soon).map(t => `<a href="${root + t.href}" class="${t.id === opts.active ? "on" : ""}" title="${esc(t.name || t.short)}">${esc(t.short)}</a>`).join("");
   const crumb = opts.crumb ? `<span class="crumb">${opts.crumb}</span>` : "";
   $("#top").innerHTML = `<a class="brand" href="${root || "./"}"><span class="logo">${I.logo}</span><span><b>${esc(hub.title)}</b><small>${esc(opts.sub || hub.tagline)}</small></span></a>${crumb}
-    <nav class="nav" aria-label="Regulators"><div class="navl" id="navl">${nav}</div><button class="iconbtn" id="themebtn" type="button"></button><button class="iconbtn" id="menubtn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navl">${I.menu}</button></nav>`;
+    <nav class="nav" aria-label="Site"><div class="navq">${quick}</div><div class="navl" id="navl">${nav}</div><button class="iconbtn" id="themebtn" type="button"></button><button class="iconbtn" id="menubtn" type="button" aria-label="All sections" aria-expanded="false" aria-controls="navl">${I.menu}<span class="mlab">Sections</span></button></nav>`;
   $("#top").className = "top";
   const mb = $("#menubtn"), nl = $("#navl");
-  const setMenu = on => { nl.classList.toggle("open", on); mb.setAttribute("aria-expanded", on ? "true" : "false"); mb.innerHTML = on ? I.close : I.menu; };
+  const setMenu = on => { nl.classList.toggle("open", on); mb.setAttribute("aria-expanded", on ? "true" : "false"); mb.innerHTML = (on ? I.close : I.menu) + '<span class="mlab">Sections</span>'; };
   mb.addEventListener("click", e => { e.stopPropagation(); setMenu(!nl.classList.contains("open")); });
   document.addEventListener("click", e => { if (!e.target.closest("#navl")) setMenu(false); });
   document.addEventListener("keydown", e => { if (e.key === "Escape") setMenu(false); });
@@ -212,7 +215,11 @@ function parseQuery(M, raw) {
     const hit = names.find(n => { const x = n.toLowerCase().replace(/[^a-z0-9₹% ]+/g, " ").trim(); return x.length > 1 && lq.includes(" " + x + " "); });
     if (hit && !["NBFC", "NBFI"].includes(t.term)) { P.gl.push(t); P.groups.push({ label: hit, alts: names.map(n => n.toLowerCase()) }); tok(hit).forEach(w => used.add(w)); }
   });
-  tok(q).forEach(w => { if (!STOP.has(w) && !used.has(w) && !(P.para && (w === P.para || /^(para|paragraph|section|s)$/.test(w)))) P.groups.push({ label: w, alts: [w] }); });
+  // hyphens: "co-lending", "co lending" and "colending" find the same thing
+  if (!M.dehy) { M.dehy = new Map(); M.vocab.forEach(v => { if (v.includes("-")) M.dehy.set(v.replace(/-/g, ""), v); }); }
+  tok(q).forEach(w => { if (!STOP.has(w) && !used.has(w) && !(P.para && (w === P.para || /^(para|paragraph|section|s)$/.test(w)))) {
+    const alts = [w]; if (w.includes("-")) alts.push(w.replace(/-/g, " "), w.replace(/-/g, "")); else if (M.dehy.has(w)) alts.push(M.dehy.get(w), M.dehy.get(w).replace(/-/g, " "));
+    P.groups.push({ label: w, alts }); } });
   return P;
 }
 function wordsFor(M, alt) {
@@ -225,7 +232,7 @@ function wordsFor(M, alt) {
 function rankDocs(M, P, opts = {}) {
   if (!P.groups.length && !P.para) return [];
   const N = M.docs.length, matchers = P.groups.map(g => g.alts.map(a => wordsFor(M, a)));
-  const pw = tok(P.raw).flatMap(w => w.split(/[.'-]/)).filter(Boolean), phrase = pw.length > 1 ? new RegExp("(^|[^a-z0-9])" + pw.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("[\\s\\-–/,]+") + "($|[^a-z0-9])", "i") : null;
+  const pw = tok(P.raw).flatMap(w => w.split(/[.'-]/)).filter(Boolean), phrase = pw.length > 1 ? new RegExp("(^|[^a-z0-9])" + pw.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("[\\s\\-–/,]+") + "(?:s|es)?($|[^a-z0-9])", "i") : null;   // a plural last word still counts as the phrase
   const idfs = P.groups.map((g, gi) => { let n = 0; M.docs.forEach(d => { if (d.lines.some(l => hitLine(l, matchers[gi]))) n++; }); return Math.log(1 + N / (1 + n)); });
   const out = [];
   M.docs.forEach(d => {
@@ -263,7 +270,9 @@ function matchDefs(M, P) {
   const out = [];
   M.defs.forEach(d => {
     const term = d.term.toLowerCase();
-    const ok = words.every(alts => alts.some(a => term.includes(a) || tok(a).every(w => tok(term).some(t => t.startsWith(w.slice(0, Math.max(4, w.length - 1)))))));
+    // short words must match a whole word of the term ("co" never matches "committee")
+    const tt = tok(term).flatMap(t => t.includes("-") ? [t, ...t.split("-")] : [t]);
+    const ok = words.every(alts => alts.some(a => term.includes(a) || tok(a).every(w => tt.some(t => w.length < 5 ? t === w || t === w + "s" : t.startsWith(w.slice(0, Math.max(4, w.length - 1)))))));
     if (!ok) return;
     let sc = 10 - Math.min(8, Math.abs(tok(term).length - P.groups.length) * 2);
     if (/^same meaning|^as defined|has the meaning/i.test(d.def)) sc -= 4;
@@ -275,7 +284,8 @@ function matchDefs(M, P) {
 function hl(txt, P) {
   let s = esc(txt);
   const ws = [...new Set([...(tok(P.raw).length > 1 ? [tok(P.raw).join(" ")] : []), ...P.groups.flatMap(g => g.alts)].filter(a => a.length > 2))].sort((a, b) => b.length - a.length).slice(0, 12);
-  ws.forEach(w => { s = s.replace(new RegExp(`(^|[^\\w>])(${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\w*)`, "gi"), "$1<mark>$2</mark>"); });
+  // whole words only for short terms ("npa" lights "NPAs", never "NPAR"); 5+ letters also light longer forms
+  ws.forEach(w => { s = s.replace(new RegExp(`(^|[^\\w>])(${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/[ -]/g, "[\\s\\-–]+")}${w.length >= 5 ? "\\w*" : "(?:s|es)?"})(?![\\w])`, "gi"), "$1<mark>$2</mark>"); });
   return s;
 }
 
@@ -357,13 +367,17 @@ async function sxSearch(raw) {
   const res = { Q, docs, n: pas.length, exactN: pas.filter(p => p.exact).length, partial };
   SX.cache.set(raw, res); return res;
 }
+const reEsc = w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+/* the same forms the index search finds: whole word plus plural for short words, any ending for 5+ letters */
+const sxWordPat = w => reEsc(w) + (w.length >= 5 ? "\\w*" : "(?:s|es)?");
 function sxHl(txt, Q) {
   let s = esc(txt); const pats = [];
   if (Q.phrase) pats.push(Q.phrase.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("[\\s\\-–/,]+") + "\\w*");
   Q.quoted.forEach(a => pats.push(a.join("[\\s\\-–/,]+") + "\\w*"));
-  Q.terms.filter(w => w.length > 1).sort((a, b) => b.length - a.length).forEach(w => pats.push(w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\w*"));
+  // single words: a short word (under 5 letters, e.g. "co" in "co-lending") marks only as a whole word, so "company" is not lit
+  Q.terms.filter(w => w.length > 1).sort((a, b) => b.length - a.length).forEach(w => pats.push(sxWordPat(w)));
   if (!pats.length) return s;
-  return s.replace(new RegExp(`(^|[^\\w])(${pats.join("|")})`, "gi"), "$1<mark>$2</mark>");
+  return s.replace(new RegExp(`(^|[^\\w])(${pats.join("|")})(?![\\w])`, "gi"), "$1<mark>$2</mark>");
 }
 /* table text from PDFs: drop empty cells and runs of pipes so snippets read as prose */
 const sxClean = t => String(t || "").replace(/\|(?:[ \t]*\|)+/g, "|").replace(/[ \t]*\|[ \t]*(?=\n|$)/g, "").replace(/(^|\n)[ \t]*\|[ \t]*/g, "$1").replace(/[ \t]*\|[ \t]*/g, " · ");
@@ -645,14 +659,14 @@ function fitNav() {
   const h = document.documentElement, top = $("#top"), nl = $("#navl");
   if (!top || !nl) return;
   h.classList.remove("navfold", "nocrumb");
-  if (innerWidth <= 1240) return;
+  if (innerWidth <= 860) return;
   const b = top.querySelector(".brand b"), s = top.querySelector(".brand small"), c = top.querySelector(".crumb");
   const over = el => el && el.scrollWidth > el.clientWidth + 1;
-  const first = nl.querySelector("a");
+  const first = top.querySelector(".navq a") || top.querySelector("#themebtn");
   const crowd = () => over(s) || over(top) || (b && b.offsetHeight > 30) || (c && c.offsetWidth && first && c.getBoundingClientRect().right > first.getBoundingClientRect().left - 8);
   /* first drop the breadcrumb (the menu already marks the current section), then fold the links into the menu */
   if (crowd() && c) h.classList.add("nocrumb");
-  if (crowd()) h.classList.add("navfold");
+
 }
 addEventListener("resize", fitNav);
 
@@ -757,6 +771,52 @@ const Watch = {
   toggle(k, info) { const w = this.all(); if (w[k]) delete w[k]; else w[k] = Object.assign({ added: new Date().toISOString().slice(0, 10) }, info); this.save(w); return !!w[k]; },
   seen(k, date) { const w = this.all(); if (w[k] && date && (w[k].seen || "") < date) { w[k].seen = date; this.save(w); } },
 };
+/* saved entity profiles (entity builder): kept in this browser only. Each: { id, name, sel: [attr ids], added } */
+const Profiles = {
+  all() { try { const a = JSON.parse(store.get("profiles", "[]")); return Array.isArray(a) ? a : []; } catch (e) { return []; } },
+  save(a) { store.set("profiles", JSON.stringify(a.slice(0, 10))); },
+  add(name, sel) { const a = this.all().filter(p => p.name !== name); a.push({ id: Date.now().toString(36), name, sel: [...sel], added: new Date().toISOString().slice(0, 10) }); this.save(a); return a; },
+  drop(id) { this.save(this.all().filter(p => p.id !== id)); },
+  get(id) { return this.all().find(p => p.id === id); },
+  /* the home page's "I am a" lens closest to a profile: RBI layer for NBFCs and HFCs, else listing, insurance or IFSC */
+  lens(p) {
+    const s = new Set(p.sel || []), L = { bl: 0, ml: 1, ul: 2, tl: 3 }, rbiType = ["icc", "hfc", "cic", "mfi", "factor", "ifc", "idf", "p2p", "aa"].some(x => s.has(x));
+    const lay = Object.keys(L).find(x => s.has(x));
+    if (rbiType) return lay ? String(L[lay]) : "-1";
+    if (s.has("eq")) return "s0"; if (s.has("debt") || s.has("cp")) return "s1"; if (s.has("ca")) return "i2"; if (s.has("ifsc")) return "g1";
+    return "-1";
+  },
+};
+/* ---- research collections (kept only in this browser) ----
+   Coll.all() = [{ id, name, created, items: [{ key, sec, id, slug, lab, title, text, h, url, official, cite, added, note }] }] */
+I.bookmark = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/><path d="M12 7v6M9 10h6"/></svg>';
+const textHash = s => { let h = 5381; const t = String(s || "").replace(/\s+/g, " ").trim(); for (let i = 0; i < t.length; i++) h = ((h << 5) + h + t.charCodeAt(i)) >>> 0; return h.toString(36); };
+const Coll = {
+  all() { try { const a = JSON.parse(store.get("collections", "[]")); return Array.isArray(a) ? a : []; } catch (e) { return []; } },
+  save(a) { store.set("collections", JSON.stringify(a)); },
+  make(name) { const a = this.all(), c = { id: Date.now().toString(36), name: String(name).slice(0, 80), created: new Date().toISOString().slice(0, 10), items: [] }; a.push(c); this.save(a); return c; },
+  addTo(cid, item) { const a = this.all(), c = a.find(x => x.id === cid); if (!c) return false; if (!c.items.some(x => x.key === item.key && x.slug === item.slug)) c.items.push(item); this.save(a); return true; },
+};
+/* a small menu under the button: pick a collection or start one */
+function hubCollect(btn, item) {
+  const old = $("#cpop"); if (old) { old.remove(); if (old._for === btn) return; }
+  const pop = document.createElement("div"); pop.id = "cpop"; pop.className = "cpop"; pop._for = btn; pop.setAttribute("role", "dialog"); pop.setAttribute("aria-label", "Add to a collection");
+  const draw = () => {
+    const cs = Coll.all();
+    pop.innerHTML = `<div class="hk" style="margin:0 0 6px">Add ${item.slug ? esc(item.lab || "this part") : "this document"} to</div>${cs.map(c => `<button type="button" class="cpi" data-cid="${esc(c.id)}">${esc(c.name)} <span class="tag">${c.items.length}</span></button>`).join("")}
+      <form class="cpn"><label class="sr" for="cpname">New collection</label><input id="cpname" maxlength="80" placeholder="New collection, e.g. Co-lending tie-up"><button type="submit" class="btn g sm">Add</button></form>
+      <a class="lnk" style="font-size:12.5px" href="${HUB_ROOT}collections/">Open my collections</a>`;
+  };
+  draw();
+  document.body.appendChild(pop);
+  const r = btn.getBoundingClientRect(); pop.style.top = (scrollY + r.bottom + 6) + "px"; pop.style.left = Math.max(8, Math.min(scrollX + r.left, scrollX + innerWidth - pop.offsetWidth - 8)) + "px";
+  const done = c => { pop.remove(); hubToast(`Added to “${c.name}”`); };
+  pop.addEventListener("click", e => { const b = e.target.closest("[data-cid]"); if (b) { const c = Coll.all().find(x => x.id === b.dataset.cid); if (c && Coll.addTo(c.id, item)) done(c); } });
+  pop.querySelector("form").addEventListener("submit", e => { e.preventDefault(); const n = $("#cpname").value.trim(); if (!n) return; const c = Coll.make(n); Coll.addTo(c.id, item); done(c); });
+  setTimeout(() => { const off = e => { if (!pop.contains(e.target) && e.target !== btn) { pop.remove(); document.removeEventListener("click", off); } }; document.addEventListener("click", off); }, 0);
+  pop.addEventListener("keydown", e => { if (e.key === "Escape") { pop.remove(); btn.focus(); } });
+  const f = pop.querySelector("input"); if (f && !Coll.all().length) f.focus();
+}
 function hubChanges() { if (!HX.changes) HX.changes = getJSON(HUB_ROOT + "changes.json").then(j => j.items || {}).catch(() => ({})); return HX.changes; }
 async function hubWatchBadge() {
   const b = $("#watchbtn"); if (!b) return;
@@ -783,7 +843,7 @@ function hubToolbar(el, o) {
       <button type="button" class="btn g sm${on ? " on" : ""}" data-t="watch" aria-pressed="${on}">${on ? I.starOn : I.star} ${on ? "Watching" : "Watch"}</button>
       <button type="button" class="btn g sm" data-t="link">${I.link} Copy link</button>
       <button type="button" class="btn g sm" data-t="cite">${I.quote} Copy citation</button>
-      <button type="button" class="btn g sm" data-t="print">${I.print} Print or save PDF</button></div>
+      <button type="button" class="btn g sm" data-t="print">${I.print} Print or save PDF</button>${o.collItem ? `<button type="button" class="btn g sm" data-t="coll">${I.bookmark} Add to collection</button>` : ""}</div>
       <div class="printonly">${esc(o.printLine || "")}</div>`;
   };
   draw();
@@ -794,10 +854,36 @@ function hubToolbar(el, o) {
     else if (t === "link") hubCopy(o.url, "Link copied");
     else if (t === "cite") hubCopy(o.cite, "Citation copied");
     else if (t === "print") hubPrint();
+    else if (t === "coll") hubCollect(b, Object.assign({ added: new Date().toISOString().slice(0, 10), note: "" }, o.collItem));
   };
 }
 const pageUrl = hash => location.origin + location.pathname + hash;
 const todayLong = () => fmtDate(new Date().toISOString().slice(0, 10));
+
+/* Instrument timeline: the dates the site records for one instrument, oldest first. It states events only,
+   never which provisions bound anyone on a given day (commencement of single provisions and savings are not recorded). */
+const HX_UPD = {};
+async function hubTimeline(o, el) {
+  const { sec, it, id } = o; if (!el || !it) return;
+  el.className = "tlwrap";
+  const src = sec.data && sec.data.updates;
+  if (src && !HX_UPD[src]) HX_UPD[src] = getJSON(HUB_ROOT + src).then(j => j.updates || []).catch(() => []);
+  const ups = src ? (await HX_UPD[src]).filter(u => u.instrument === id && !/enforcement|meeting|faq/i.test(u.kind || "")) : [];
+  if (!HX.versions) HX.versions = getJSON(HUB_ROOT + "versions/index.json").catch(() => ({}));
+  const vers = (await HX.versions)[sec.id + "/" + id] || [];
+  const ev = [], today = new Date().toISOString().slice(0, 10), off = it.url || it.pdf || "";
+  const add = (date, what, url, note) => { if (date && /^\d{4}-\d{2}-\d{2}/.test(date)) ev.push({ date: date.slice(0, 10), what, url, note }); };
+  add(it.issue, `Issued${it.ref ? " (" + it.ref + ")" : ""}`, off);
+  if (it.effective && it.effective !== it.issue) add(it.effective, "Comes into force, as the instrument states", off);
+  ups.forEach(u => { add(u.date, (u.title || "").toLowerCase().startsWith(String(u.kind || "").toLowerCase()) ? trunc(u.title, 120) : `${u.kind}: ${trunc(u.title, 110)}`, u.url, ""); if (u.effective && u.effective !== u.date) add(u.effective, `In force: ${trunc(u.title, 90)}`, u.url, ""); });
+  vers.forEach(v => add(v.date, "Earlier text kept on this site (see below)", "", ""));
+  if (it.updated && !ev.some(e => e.date === it.updated)) add(it.updated, "Consolidated text updated as on this date", off);
+  if (!ev.length) { el.remove(); return; }
+  ev.sort((a, b) => a.date.localeCompare(b.date));
+  const st = it.sc === "old" ? `<li class="tl-end"><span class="tl-d">Status</span><span>${esc(stripChecked(it.status || "Superseded"))}</span></li>` : "";
+  el.innerHTML = `<div class="hk">Timeline</div><ol class="tl">${ev.map(e => `<li${e.date > today ? ' class="tl-next"' : ""}><span class="tl-d">${fmtDate(e.date)}${e.date > today ? ' <span class="pill p-grey">Ahead</span>' : ""}</span><span>${e.url ? `<a class="lnk" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.what)}</a>` : esc(e.what)}</span></li>`).join("")}${st}</ol>
+    <p class="tag" style="margin:6px 0 14px">Dates as recorded on this site, each linked to its source. Single provisions can commence on other dates, and transitional provisions can keep earlier rules alive: check the official text for the position on a given day.</p>`;
+}
 
 /* Called by each section page after it draws an instrument page. o: { sec, it, id, anchor } */
 async function hubDocMount(o) {
@@ -811,6 +897,7 @@ async function hubDocMount(o) {
     key, url: pageUrl(`#d/${id}`), cite: citeFor(""), changeDate,
     watchInfo: { t: it.label, s: sec.short, h: secPath(sec.id) + "/#d/" + id },
     printLine: `Financial Regulation Hub · ${pageUrl(`#d/${id}`)} · printed ${todayLong()}. Not legal advice; the official text governs.`,
+    collItem: { key, sec: sec.id, id, slug: "", lab: "", title: it.label, text: "", h: "", url: pageUrl(`#d/${id}`), official, cite: citeFor("") },
   });
   if (Watch.has(key)) Watch.seen(key, changeDate);
   { const dos = $(".dossier"); if (dos) for (const c of dos.children) { c.classList.add("pkeep"); if (c.id === "hubtools") break; } }
@@ -828,7 +915,7 @@ async function hubDocMount(o) {
       paras.forEach(p => {
         if (p.chap && p.chap !== chap) { chap = p.chap; html += `<h3 class="ftch">${esc(chap)}</h3>`; }
         const lab = unitLabel(unit, p.label);
-        html += `<div class="ftp" id="para-${esc(p.slug)}">${p.alts.map(x => `<span class="ftalt" id="para-${esc(x)}"></span>`).join("")}<div class="ftl">${lab ? `<b>${esc(cap(lab))}</b>` : ""}<span class="fta"><button type="button" class="ftb" data-plink="${esc(p.slug)}" title="Copy link to this ${unit}" aria-label="Copy link to ${esc(lab || "this part")}">${I.link}</button><button type="button" class="ftb" data-pcite="${esc(p.slug)}" title="Copy citation" aria-label="Copy citation for ${esc(lab || "this part")}">${I.quote}</button></span></div><div class="ftx">${esc(sxClean(p.text))}</div></div>`;
+        html += `<div class="ftp" id="para-${esc(p.slug)}">${p.alts.map(x => `<span class="ftalt" id="para-${esc(x)}"></span>`).join("")}<div class="ftl">${lab ? `<b>${esc(cap(lab))}</b>` : ""}<span class="fta"><button type="button" class="ftb" data-plink="${esc(p.slug)}" title="Copy link to this ${unit}" aria-label="Copy link to ${esc(lab || "this part")}">${I.link}</button><button type="button" class="ftb" data-pcite="${esc(p.slug)}" title="Copy citation" aria-label="Copy citation for ${esc(lab || "this part")}">${I.quote}</button><button type="button" class="ftb" data-pcoll="${esc(p.slug)}" title="Add to a collection" aria-label="Add ${esc(lab || "this part")} to a collection">${I.bookmark}</button></span></div><div class="ftx">${esc(sxClean(p.text))}</div></div>`;
       });
       box.innerHTML = html + "</div>";
       if (scrollTo) {
@@ -838,18 +925,20 @@ async function hubDocMount(o) {
       }
     };
     box.onclick = e => {
-      const b = e.target.closest("[data-ft],[data-plink],[data-pcite]"); if (!b) return;
+      const b = e.target.closest("[data-ft],[data-plink],[data-pcite],[data-pcoll]"); if (!b) return;
       if (b.dataset.ft === "open") draw();
       else if (b.dataset.ft === "close") { box.innerHTML = `<div class="ftbar"><button type="button" class="btn g sm" data-ft="open">Show the full text</button></div>`; $("#s-text").scrollIntoView(); }
       else if (b.dataset.ft === "print") hubPrint("text");
       else if (b.dataset.plink) { history.replaceState(null, "", `#d/${id}/para-${b.dataset.plink}`); hubCopy(pageUrl(`#d/${id}/para-${b.dataset.plink}`), "Link to this " + unit + " copied"); }
       else if (b.dataset.pcite) { const p = paras.find(x => x.slug === b.dataset.pcite); hubCopy(citeFor(p ? p.label : ""), "Citation copied"); }
+      else if (b.dataset.pcoll) { const p = paras.find(x => x.slug === b.dataset.pcoll); if (p) hubCollect(b, { key, sec: sec.id, id, slug: p.slug, lab: p.label ? cap(unitLabel(unit, p.label)) : trunc(p.chap || "Introduction", 70), title: it.label, text: p.text.slice(0, 6000), h: textHash(p.text), url: pageUrl(`#d/${id}/para-${p.slug}`), official, cite: citeFor(p.label), added: new Date().toISOString().slice(0, 10), note: "" }); }
     };
     if (want) draw(want);
   }
   /* earlier versions and redline */
   const vb = $("#hubver");
   if (vb) {
+    hubTimeline(o, vb.parentNode.insertBefore(document.createElement("div"), vb));
     if (!HX.versions) HX.versions = getJSON(HUB_ROOT + "versions/index.json").catch(() => ({}));
     const list = (await HX.versions)[key] || [];
     vb.innerHTML = list.length

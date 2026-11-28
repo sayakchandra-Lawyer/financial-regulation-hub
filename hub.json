@@ -1208,6 +1208,18 @@
    "href": "entity/"
   },
   {
+   "id": "dashboard",
+   "short": "My dashboard",
+   "name": "My dashboard: changes for your saved entities",
+   "href": "dashboard/"
+  },
+  {
+   "id": "collections",
+   "short": "My collections",
+   "name": "Research collections",
+   "href": "collections/"
+  },
+  {
    "id": "faq",
    "short": "FAQ",
    "name": "Common questions",
