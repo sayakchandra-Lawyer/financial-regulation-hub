@@ -8,7 +8,7 @@
 <link rel="canonical" href="https://sayakchandra-lawyer.github.io/financial-regulation-hub/faq/">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/hub.css?v=20261128c">
+<link rel="stylesheet" href="../assets/hub.css?v=20261128u">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
 </head>
 <body>
@@ -24,7 +24,7 @@
   </div>
 </main>
 <footer id="foot"></footer>
-<script src="../assets/hub.js?v=20261128c"></script>
+<script src="../assets/hub.js?v=20261128u"></script>
 <script>
 (async function(){
   const hub = await getJSON("../hub.json");
@@ -40,7 +40,11 @@
     const list = items.filter(x => (!S || (x.sections || []).includes(S)) && ws.every(w => (x.q + " " + x.a + " " + (x.keywords || []).join(" ")).toLowerCase().includes(w)));
     const secs = [...new Set(items.flatMap(x => x.sections || []))];
     $("#fsec").innerHTML = secs.length > 1 ? [["", "All"], ...secs.map(s => [s, secName[s] || s])].map(([k, t]) => `<button type="button" class="chip ${S === k ? "on" : ""}" data-s="${k}">${esc(t)}</button>`).join("") : "";
-    if (!items.length) { $("#flist").innerHTML = `<div class="card panel"><p style="margin:0">The first answers are being written. Meanwhile, ask <b>Counsel’s Clerk</b> (bottom right on any section page) or <a class="lnk" href="../">search the site</a>.</p></div>`; return; }
+    if (!items.length) {
+      // nothing approved yet: say so plainly and hide the search box and filters, which would have nothing to search
+      $("#fform").hidden = true; $("#fsec").hidden = true;
+      $("h1").textContent = "Common questions: coming soon";
+      $("#flist").innerHTML = `<div class="card panel"><p style="margin:0">Answers to practitioner questions (rule interactions and edge cases, each linked to its source paragraph) will appear here. Until then, ask <b>Counsel’s Clerk</b> (bottom right on any section page) or <a class="lnk" href="../">search the site</a>. You can also <a class="lnk" href="../feedback/">suggest a question</a>.</p></div>`; return; }
     const by = {}; list.forEach(x => (by[x.topic] = by[x.topic] || []).push(x));
     $("#flist").innerHTML = list.length ? Object.entries(by).map(([t, xs]) => `<section style="margin-top:22px"><h2 style="font-size:20px;margin-bottom:6px">${esc(topics[t] || t)}</h2>${xs.map(x => `<details id="q-${esc(x.id)}"${location.hash === "#q-" + x.id ? " open" : ""}><summary>${esc(x.q)}</summary><div class="ans">${faqAnswerHTML(x)}<p class="tag">${(x.sections || []).map(s => esc(secName[s] || s)).join(" · ")}${x.updated ? ` · answer as on ${fmtDate(x.updated)}` : ""} · <button type="button" class="lnk" data-ql="${esc(x.id)}">Copy link</button></p></div></details>`).join("")}</section>`).join("")
       : `<p class="empty">No question matches. Try fewer words, or ask Counsel’s Clerk on any section page.</p>`;

@@ -118,7 +118,11 @@ FAQ_JS = '''  $("#fform").insertAdjacentHTML("afterbegin", I.search);
     const list = items.filter(x => (!S || (x.sections || []).includes(S)) && ws.every(w => (x.q + " " + x.a + " " + (x.keywords || []).join(" ")).toLowerCase().includes(w)));
     const secs = [...new Set(items.flatMap(x => x.sections || []))];
     $("#fsec").innerHTML = secs.length > 1 ? [["", "All"], ...secs.map(s => [s, secName[s] || s])].map(([k, t]) => `<button type="button" class="chip ${S === k ? "on" : ""}" data-s="${k}">${esc(t)}</button>`).join("") : "";
-    if (!items.length) { $("#flist").innerHTML = `<div class="card panel"><p style="margin:0">The first answers are being written. Meanwhile, ask <b>Counsel’s Clerk</b> (bottom right on any section page) or <a class="lnk" href="../">search the site</a>.</p></div>`; return; }
+    if (!items.length) {
+      // nothing approved yet: say so plainly and hide the search box and filters, which would have nothing to search
+      $("#fform").hidden = true; $("#fsec").hidden = true;
+      $("h1").textContent = "Common questions: coming soon";
+      $("#flist").innerHTML = `<div class="card panel"><p style="margin:0">Answers to practitioner questions (rule interactions and edge cases, each linked to its source paragraph) will appear here. Until then, ask <b>Counsel’s Clerk</b> (bottom right on any section page) or <a class="lnk" href="../">search the site</a>. You can also <a class="lnk" href="../feedback/">suggest a question</a>.</p></div>`; return; }
     const by = {}; list.forEach(x => (by[x.topic] = by[x.topic] || []).push(x));
     $("#flist").innerHTML = list.length ? Object.entries(by).map(([t, xs]) => `<section style="margin-top:22px"><h2 style="font-size:20px;margin-bottom:6px">${esc(topics[t] || t)}</h2>${xs.map(x => `<details id="q-${esc(x.id)}"${location.hash === "#q-" + x.id ? " open" : ""}><summary>${esc(x.q)}</summary><div class="ans">${faqAnswerHTML(x)}<p class="tag">${(x.sections || []).map(s => esc(secName[s] || s)).join(" · ")}${x.updated ? ` · answer as on ${fmtDate(x.updated)}` : ""} · <button type="button" class="lnk" data-ql="${esc(x.id)}">Copy link</button></p></div></details>`).join("")}</section>`).join("")
       : `<p class="empty">No question matches. Try fewer words, or ask Counsel’s Clerk on any section page.</p>`;

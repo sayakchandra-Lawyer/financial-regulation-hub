@@ -20,7 +20,7 @@
 <!-- og:end -->
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/hub.css?v=20261128c">
+<link rel="stylesheet" href="../assets/hub.css?v=20261128u">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23C15F3C'/%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='16' cy='16' r='12.5' stroke-width='1.8'/%3E%3Cpath transform='translate(7.4 6.9) scale(.72)' stroke-width='3.2' d='M6 4.5h12M6 9h12M8.5 4.5h1.5a4.5 4.5 0 0 1 0 9H6.5l7.5 7'/%3E%3C/g%3E%3C/svg%3E">
 <style>
 .hero{padding:36px 0 6px}.hero h1{font-size:clamp(30px,4.4vw,42px);margin-top:8px}.hero p{color:var(--ink-2);margin:10px 0 0;max-width:720px}
@@ -77,6 +77,9 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
 .lrow .sc{display:block;font-size:12px;color:var(--accent-text);font-weight:500;margin-top:2px}
 .lhead{font-size:12px;color:var(--muted);font-weight:600}
 .combo-pill{background:var(--accent-soft);color:var(--accent-text)}
+.pill.tier{font-size:10.5px;font-weight:600;padding:2px 7px;margin-left:4px;vertical-align:1px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink-2)}
+.pill.t-dir{border-color:color-mix(in srgb,var(--accent) 45%,var(--line));color:var(--accent-text);background:var(--accent-soft)}
+.pill.t-cond,.pill.t-evt,.pill.t-via{border-style:dashed}
 .dl{padding:8px 20px 20px}.dl li{font-size:13.5px;margin:4px 0}.dl h4{margin:14px 0 4px;font-size:14px}
 @media (max-width:900px){.eb{grid-template-columns:1fr}.bld{position:static;max-height:none}.bld.fold{display:none}.ebar{display:flex}.lrow{grid-template-columns:1fr}.lrow .t{display:none}.hnote{display:none}.rhead{gap:14px}.stat b{font-size:22px}}
 </style>
@@ -100,7 +103,7 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
   </div>
 </main>
 <footer id="foot"></footer>
-<script src="../assets/hub.js?v=20261128c"></script>
+<script src="../assets/hub.js?v=20261128u"></script>
 <script>
 (async function(){
   const hub = await getJSON("../hub.json");
@@ -186,6 +189,16 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
       const p = items.get(ps + "/" + pi), s = items.get(ss + "/" + si);
       if (p && s) { s.why.forEach(w => p.why.add(w)); p.also.push(SEC.get(ss).short); items.delete(s.k); }
     }
+    /* how each instrument reaches you: directly, only if you take up an activity or licence you have not picked,
+       in part, or as a general / event-triggered law (insolvency, contract, enforcement). A guide to reading the list, not a legal conclusion. */
+    const onAdds = new Set(), cond = new Map();
+    for (const x of sel) (A.get(x).adds || []).forEach(d => { if (!d.scope) onAdds.add(d.sec + "/" + d.id); });
+    D.attrs.filter(a => (a.group === "act" || a.group === "lic") && !sel.has(a.id)).forEach(a => (a.adds || []).forEach(d => {
+      const k = d.sec + "/" + d.id; if (d.scope || onAdds.has(k)) return; if (!cond.has(k)) cond.set(k, []); cond.get(k).push(a.short || a.label); }));
+    for (const it of items.values()) {
+      it.cond = cond.get(it.home + "/" + it.id) || [];
+      it.tier = it.via ? "via" : /^proposed/i.test(it.theme || "") ? "prop" : TIER_EVENT.has(it.home) || TIER_EVENT.has(it.home + ":" + it.theme) ? "event" : it.cond.length ? "cond" : it.scope.length ? "part" : "direct";
+    }
     const sectors = new Set([...sel].flatMap(x => A.get(x).sectors || []));
     const rulings = D.rulings.filter(j => j.sectors.some(s => sectors.has(s)));
     return { items: [...items.values()], combos, rulings, rbiReg, t, L };
@@ -245,13 +258,19 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
     return out;
   }
   const whyText = i => [...i.why].join("; ");
+  const TIER = { direct: ["Applies directly", "t-dir"], part: ["Applies in part", "t-part"], cond: ["If you take up this activity", "t-cond"], event: ["Applies on a transaction or event", "t-evt"], prop: ["Proposed, not yet law", "t-evt"], via: ["Through your lender", "t-via"] };
+  /* a pill only where the entry is not a plain "applies directly"; "in part" already shows its scope line */
+  const tierPill = (i, all) => i.tier && TIER[i.tier] && (all || !["direct", "part", "via"].includes(i.tier)) ? `<span class="pill tier ${TIER[i.tier][1]}">${TIER[i.tier][0]}</span>` : "";
   const hrefOf = i => i.ruling ? `../judgments/#j/${encodeURIComponent(i.ruling.id)}` : `../${SEC.get(i.home).href}#d/${encodeURIComponent(i.id)}`;
+  /* laws that bite on a transaction or an event (security, enforcement, insolvency), not on the licence itself */
+  const TIER_EVENT = new Set(["ibc", ...["Enforcement and recovery", "Mortgages, property and goods as security", "Cheques and negotiable instruments", "Contracts, guarantees and pledges", "Electronic contracts and evidence", "Stamp duty and registration"].map(t => "laws:" + t)]);
   const HIDE = { sebi: "a listing", exchanges: "a listing", irdai: "IRDAI corporate agent", fema: "“Borrows abroad or lends to non-residents”", ifsc: "IFSC unit", ibc: "an NBFC or HFC type", dpdp: "an NBFC or HFC type, a licence or a role", rbi: "an NBFC or HFC type" };
 
   /* ---------- header, entity bar and view switch ---------- */
   function renderHead(R, B){
     const direct = R.items.filter(i => i.sec !== "lender"), regs = new Set(direct.map(i => i.home));
-    $("#rhead").innerHTML = `<div class="stat"><b>${direct.length}</b><span>instruments apply</span></div><div class="stat"><b>${regs.size}</b><span>regulators</span></div><div class="stat"><b>${R.combos.length}</b><span>extra rules from your combination</span></div>${R.items.some(i => i.via) ? `<div class="stat"><b>${R.items.filter(i => i.via).length}</b><span>via your lender</span></div>` : ""}<div class="sp"></div>
+    const nT = t => direct.filter(i => i.tier === t).length;
+    $("#rhead").innerHTML = `<div class="stat" title="Bind an entity like yours without any further condition"><b>${nT("direct")}</b><span>apply directly</span></div>${nT("part") ? `<div class="stat" title="Only the paragraphs named apply, or only if a stated condition is met"><b>${nT("part")}</b><span>apply in part</span></div>` : ""}${nT("cond") ? `<div class="stat" title="Apply only if you take up an activity or licence you have not picked"><b>${nT("cond")}</b><span>if you take up an activity</span></div>` : ""}${nT("event") ? `<div class="stat" title="Contract, stamp, security, recovery and insolvency laws: they apply when you sign, take or enforce security, recover dues, or when a borrower or your company enters insolvency"><b>${nT("event")}</b><span>on a transaction or event</span></div>` : ""}<div class="stat"><b>${regs.size}</b><span>regulators</span></div><div class="stat"><b>${R.combos.length}</b><span>extra rules from your combination</span></div>${R.items.some(i => i.via) ? `<div class="stat"><b>${R.items.filter(i => i.via).length}</b><span>via your lender</span></div>` : ""}<div class="sp"></div>
       <div class="seg" role="group" aria-label="View">${[["map", "Mind map"], ["list", "List"], ["dl", "Deadlines"]].map(([k, l]) => `<button type="button" data-v="${k}" aria-pressed="${view === k}">${l}</button>`).join("")}</div>`;
     $("#ebar").innerHTML = `<b style="font-size:13px">Your entity</b>${sel.size ? [...sel].map(x => `<span class="chip on">${esc(A.get(x).short || A.get(x).label)}</span>`).join("") : '<span class="tag">nothing picked yet</span>'}<button type="button" class="lnk" id="editent" style="font-size:13px;margin-left:auto">Edit entity</button>`;
   }
@@ -264,7 +283,7 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
       ${b.id === "combo" ? b.themes.map(t => `<div class="lrow"><div><span class="pill combo-pill">Combination</span> <b>${esc(t.name)}</b></div><div class="bec">Because: ${esc(t.combo._why.join(" + "))}</div><div class="t">${t.combo.adds.map(a => esc(D.inst[a.sec][a.id][0]) + (a.scope ? " · " + esc(a.scope) : "")).join("<br>")}</div></div>`).join("")
       : `<div class="lrow lhead"><div>${b.id === "rulings" ? "Ruling" : "Instrument"}</div><div>${b.id === "rulings" ? "Court and date" : "Applies because"}</div><div class="t">${b.id === "rulings" ? "Topic" : "Subject"}</div></div>` + b.themes.flatMap(t => t.items.map(i => i.ruling
         ? `<div class="lrow"><div><a href="${hrefOf(i)}">${esc(i.name)}</a></div><div class="bec">${esc(i.ruling.court)} · ${fmtDate(i.ruling.date)}</div><div class="t">${esc(i.ruling.topic)}</div></div>`
-        : `<div class="lrow"><div><a href="${hrefOf(i)}">${esc(i.name)}</a>${i.scope.length ? `<span class="sc">Applies in part: ${esc(i.scope.join("; "))}</span>` : ""}${i.focus.length ? `<span class="sc">For your activity: ${esc(i.focus.join("; "))}</span>` : ""}</div><div class="bec">${i.via ? "Binds your lender; reaches you by contract" : esc(whyText(i))}${i.also.length ? ` · also in ${esc(i.also.join(", "))}` : ""}</div><div class="t">${esc(t.name)}</div></div>`)).join("")}</div>`;
+        : `<div class="lrow"><div><a href="${hrefOf(i)}">${esc(i.name)}</a> ${tierPill(i)}${i.cond.length ? `<span class="sc">Only if you: ${esc(i.cond.join(" or "))}</span>` : ""}${i.scope.length ? `<span class="sc">Applies in part: ${esc(i.scope.join("; "))}</span>` : ""}${i.focus.length ? `<span class="sc">For your activity: ${esc(i.focus.join("; "))}</span>` : ""}</div><div class="bec">${i.via ? "Binds your lender; reaches you by contract" : esc(whyText(i))}${i.also.length ? ` · also in ${esc(i.also.join(", "))}` : ""}</div><div class="t">${esc(t.name)}</div></div>`)).join("")}</div>`;
     return `<div class="list">${B.map(sec).join("")}${hiddenNote(R, B, true)}</div>`;
   }
   function renderDeadlines(R){
@@ -389,6 +408,9 @@ svg.mm{display:block;width:100%;height:100%;user-select:none}
     const sec = SEC.get(i.home);
     return `<aside class="drawer" aria-label="Why it applies">${close}<div class="eyebrow"${i.via ? "" : ` style="color:var(--accent-text)"`}>${i.via ? "Reaches you through your lender" : esc(sec.short) + " · " + esc(i.type)}</div><h2>${esc(i.name)}</h2>
       <div class="why">${i.via ? `<b>${esc(A.get(i.via).label)}</b> is not a licence. This binds the NBFC or HFC you work for, which must make you follow it under your agreement.` : `Applies because: ${[...i.why].map(w => `<b>${esc(w)}</b>`).join(", ")}.`}${i.also.length ? ` Also covered in the ${esc(i.also.join(", "))} section.` : ""}</div>
+      <p style="margin:0 0 10px">${tierPill(i, true)}</p>
+      ${i.cond.length ? `<p style="font-size:13.5px;margin:0 0 10px"><b>Only if you take up:</b> ${esc(i.cond.join(" or "))}. Your entity type brings it into scope, but its duties bite only on that activity. Add the activity above to see it as applying directly.</p>` : ""}
+      ${i.tier === "event" ? `<p style="font-size:13.5px;margin:0 0 10px">A law that applies on a transaction or event: it matters when you sign loan documents, take or enforce security, recover dues, or when a borrower or your company enters insolvency.</p>` : ""}
       ${i.scope.length ? `<p style="font-size:13.5px;margin:0 0 10px"><b>Applies in part:</b> ${esc(i.scope.join("; "))}</p>` : ""}
       ${i.focus.length ? `<p style="font-size:13.5px;margin:0 0 10px"><b>For your activity:</b> ${esc(i.focus.join("; "))}</p>` : ""}
       ${i.notes.length ? `<ul class="adds">${i.notes.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}

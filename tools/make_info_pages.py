@@ -73,7 +73,7 @@ ABOUT = '''      <div class="eyebrow">About</div>
       <ul>
         <li><b>Search</b> from the home page across every section, or inside one section.</li>
         <li><b>What changed this month</b> on the home page lists new and amended rules, each linked to the regulator's own notice.</li>
-        <li><b>Ask Not So Intelligent AI</b> (bottom right on the home and section pages) answers questions from the texts on this site and cites the provision. Treat its answers as a pointer, not an opinion.</li>
+        <li><b>Ask Counsel’s Clerk</b> (bottom right on the home and section pages) answers questions from the texts on this site and cites the provision. Treat its answers as a pointer, not an opinion.</li>
       </ul>
       <h2>Independent and unofficial</h2>
       <p>This site is not run by, linked to or endorsed by any regulator, court or government body. It summarises public documents for general information. It is not legal advice, and it may be incomplete or out of date. Always check the official text, and take professional advice for a specific situation. See the <a class="lnk" href="../disclaimer/">disclaimer</a>.</p>
@@ -142,7 +142,7 @@ DISCLAIMER = '''      <div class="eyebrow">Disclaimer &amp; privacy</div>
       <h1>Please read before relying on this site</h1>
       <p class="lede">Financial Regulation Hub is an independent, unofficial resource for general information. Using it means you accept the terms below.</p>
       <h2>Not legal advice</h2>
-      <p>Nothing on this site is legal, financial, tax or other professional advice, and using it does not create a lawyer-client or any other professional relationship. Summaries, timelines, penalties and answers from Not So Intelligent AI are simplified and can be wrong or incomplete. Take advice from a qualified professional before acting on anything here.</p>
+      <p>Nothing on this site is legal, financial, tax or other professional advice, and using it does not create a lawyer-client or any other professional relationship. Summaries, timelines, penalties and answers from Counsel’s Clerk are simplified and can be wrong or incomplete. Take advice from a qualified professional before acting on anything here.</p>
       <h2>Always check the official text</h2>
       <p>Laws, rules, directions and circulars change often, and their official versions prevail over anything on this site. Each entry links to the regulator's or the Gazette's own text; read it before you rely on a point. Court rulings are summarised for convenience; read the judgment itself and check whether it has been appealed, stayed or overruled.</p>
       <h2>No endorsement</h2>

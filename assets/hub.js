@@ -76,13 +76,16 @@ if (document.visibilityState === "visible" && !(window.matchMedia && matchMedia(
 
 function renderChrome(hub, opts) {
   const root = opts.root || "";
-  const nav = hub.sections.filter(s => s.status === "live").map(s => `<a href="${s.status === "live" ? root + s.href : root + "#" + s.id}" class="${s.id === opts.active ? "on" : ""} ${s.status === "live" ? "" : "soon"}">${esc(s.short)}</a>`).join("") + (hub.tools || []).map(t => `<a href="${root + t.href}" class="${t.id === opts.active ? "on" : ""}" title="${esc(t.name || t.short)}">${esc(t.short)}</a>`).join("");
+  /* key links shown on the bar itself on desktop; the menu keeps every section and tool */
+  const all = [...hub.sections.filter(s => s.status === "live"), ...(hub.tools || [])], byId = Object.fromEntries(all.map(x => [x.id, x]));
+  const quick = (hub.quicknav || ["jud", "entity", "newsletter"]).map(id => byId[id]).filter(Boolean).map(x => `<a href="${root + x.href}" class="${x.id === opts.active ? "on" : ""}">${esc(x.quick || x.short)}</a>`).join("");
+  const nav = hub.sections.filter(s => s.status === "live").map(s => `<a href="${s.status === "live" ? root + s.href : root + "#" + s.id}" class="${s.id === opts.active ? "on" : ""} ${s.status === "live" ? "" : "soon"}">${esc(s.short)}</a>`).join("") + (hub.tools || []).filter(t => !t.soon).map(t => `<a href="${root + t.href}" class="${t.id === opts.active ? "on" : ""}" title="${esc(t.name || t.short)}">${esc(t.short)}</a>`).join("");
   const crumb = opts.crumb ? `<span class="crumb">${opts.crumb}</span>` : "";
   $("#top").innerHTML = `<a class="brand" href="${root || "./"}"><span class="logo">${I.logo}</span><span><b>${esc(hub.title)}</b><small>${esc(opts.sub || hub.tagline)}</small></span></a>${crumb}
-    <nav class="nav" aria-label="Regulators"><div class="navl" id="navl">${nav}</div><button class="iconbtn" id="themebtn" type="button"></button><button class="iconbtn" id="menubtn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navl">${I.menu}</button></nav>`;
+    <nav class="nav" aria-label="Site"><div class="navq">${quick}</div><div class="navl" id="navl">${nav}</div><button class="iconbtn" id="themebtn" type="button"></button><button class="iconbtn" id="menubtn" type="button" aria-label="All sections" aria-expanded="false" aria-controls="navl">${I.menu}<span class="mlab">Sections</span></button></nav>`;
   $("#top").className = "top";
   const mb = $("#menubtn"), nl = $("#navl");
-  const setMenu = on => { nl.classList.toggle("open", on); mb.setAttribute("aria-expanded", on ? "true" : "false"); mb.innerHTML = on ? I.close : I.menu; };
+  const setMenu = on => { nl.classList.toggle("open", on); mb.setAttribute("aria-expanded", on ? "true" : "false"); mb.innerHTML = (on ? I.close : I.menu) + '<span class="mlab">Sections</span>'; };
   mb.addEventListener("click", e => { e.stopPropagation(); setMenu(!nl.classList.contains("open")); });
   document.addEventListener("click", e => { if (!e.target.closest("#navl")) setMenu(false); });
   document.addEventListener("keydown", e => { if (e.key === "Escape") setMenu(false); });
@@ -212,7 +215,11 @@ function parseQuery(M, raw) {
     const hit = names.find(n => { const x = n.toLowerCase().replace(/[^a-z0-9₹% ]+/g, " ").trim(); return x.length > 1 && lq.includes(" " + x + " "); });
     if (hit && !["NBFC", "NBFI"].includes(t.term)) { P.gl.push(t); P.groups.push({ label: hit, alts: names.map(n => n.toLowerCase()) }); tok(hit).forEach(w => used.add(w)); }
   });
-  tok(q).forEach(w => { if (!STOP.has(w) && !used.has(w) && !(P.para && (w === P.para || /^(para|paragraph|section|s)$/.test(w)))) P.groups.push({ label: w, alts: [w] }); });
+  // hyphens: "co-lending", "co lending" and "colending" find the same thing
+  if (!M.dehy) { M.dehy = new Map(); M.vocab.forEach(v => { if (v.includes("-")) M.dehy.set(v.replace(/-/g, ""), v); }); }
+  tok(q).forEach(w => { if (!STOP.has(w) && !used.has(w) && !(P.para && (w === P.para || /^(para|paragraph|section|s)$/.test(w)))) {
+    const alts = [w]; if (w.includes("-")) alts.push(w.replace(/-/g, " "), w.replace(/-/g, "")); else if (M.dehy.has(w)) alts.push(M.dehy.get(w), M.dehy.get(w).replace(/-/g, " "));
+    P.groups.push({ label: w, alts }); } });
   return P;
 }
 function wordsFor(M, alt) {
@@ -263,7 +270,9 @@ function matchDefs(M, P) {
   const out = [];
   M.defs.forEach(d => {
     const term = d.term.toLowerCase();
-    const ok = words.every(alts => alts.some(a => term.includes(a) || tok(a).every(w => tok(term).some(t => t.startsWith(w.slice(0, Math.max(4, w.length - 1)))))));
+    // short words must match a whole word of the term ("co" never matches "committee")
+    const tt = tok(term).flatMap(t => t.includes("-") ? [t, ...t.split("-")] : [t]);
+    const ok = words.every(alts => alts.some(a => term.includes(a) || tok(a).every(w => tt.some(t => w.length < 5 ? t === w || t === w + "s" : t.startsWith(w.slice(0, Math.max(4, w.length - 1)))))));
     if (!ok) return;
     let sc = 10 - Math.min(8, Math.abs(tok(term).length - P.groups.length) * 2);
     if (/^same meaning|^as defined|has the meaning/i.test(d.def)) sc -= 4;
@@ -275,7 +284,8 @@ function matchDefs(M, P) {
 function hl(txt, P) {
   let s = esc(txt);
   const ws = [...new Set([...(tok(P.raw).length > 1 ? [tok(P.raw).join(" ")] : []), ...P.groups.flatMap(g => g.alts)].filter(a => a.length > 2))].sort((a, b) => b.length - a.length).slice(0, 12);
-  ws.forEach(w => { s = s.replace(new RegExp(`(^|[^\\w>])(${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\w*)`, "gi"), "$1<mark>$2</mark>"); });
+  // whole words only for short terms ("npa" lights "NPAs", never "NPAR"); 5+ letters also light longer forms
+  ws.forEach(w => { s = s.replace(new RegExp(`(^|[^\\w>])(${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/[ -]/g, "[\\s\\-–]+")}${w.length >= 5 ? "\\w*" : "(?:s|es)?"})(?![\\w])`, "gi"), "$1<mark>$2</mark>"); });
   return s;
 }
 
@@ -357,13 +367,17 @@ async function sxSearch(raw) {
   const res = { Q, docs, n: pas.length, exactN: pas.filter(p => p.exact).length, partial };
   SX.cache.set(raw, res); return res;
 }
+const reEsc = w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+/* the same forms the index search finds: whole word plus plural for short words, any ending for 5+ letters */
+const sxWordPat = w => reEsc(w) + (w.length >= 5 ? "\\w*" : "(?:s|es)?");
 function sxHl(txt, Q) {
   let s = esc(txt); const pats = [];
   if (Q.phrase) pats.push(Q.phrase.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("[\\s\\-–/,]+") + "\\w*");
   Q.quoted.forEach(a => pats.push(a.join("[\\s\\-–/,]+") + "\\w*"));
-  Q.terms.filter(w => w.length > 1).sort((a, b) => b.length - a.length).forEach(w => pats.push(w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\w*"));
+  // single words: a short word (under 5 letters, e.g. "co" in "co-lending") marks only as a whole word, so "company" is not lit
+  Q.terms.filter(w => w.length > 1).sort((a, b) => b.length - a.length).forEach(w => pats.push(sxWordPat(w)));
   if (!pats.length) return s;
-  return s.replace(new RegExp(`(^|[^\\w])(${pats.join("|")})`, "gi"), "$1<mark>$2</mark>");
+  return s.replace(new RegExp(`(^|[^\\w])(${pats.join("|")})(?![\\w])`, "gi"), "$1<mark>$2</mark>");
 }
 /* table text from PDFs: drop empty cells and runs of pipes so snippets read as prose */
 const sxClean = t => String(t || "").replace(/\|(?:[ \t]*\|)+/g, "|").replace(/[ \t]*\|[ \t]*(?=\n|$)/g, "").replace(/(^|\n)[ \t]*\|[ \t]*/g, "$1").replace(/[ \t]*\|[ \t]*/g, " · ");
@@ -645,14 +659,14 @@ function fitNav() {
   const h = document.documentElement, top = $("#top"), nl = $("#navl");
   if (!top || !nl) return;
   h.classList.remove("navfold", "nocrumb");
-  if (innerWidth <= 1240) return;
+  if (innerWidth <= 860) return;
   const b = top.querySelector(".brand b"), s = top.querySelector(".brand small"), c = top.querySelector(".crumb");
   const over = el => el && el.scrollWidth > el.clientWidth + 1;
-  const first = nl.querySelector("a");
+  const first = top.querySelector(".navq a") || top.querySelector("#themebtn");
   const crowd = () => over(s) || over(top) || (b && b.offsetHeight > 30) || (c && c.offsetWidth && first && c.getBoundingClientRect().right > first.getBoundingClientRect().left - 8);
   /* first drop the breadcrumb (the menu already marks the current section), then fold the links into the menu */
   if (crowd() && c) h.classList.add("nocrumb");
-  if (crowd()) h.classList.add("navfold");
+
 }
 addEventListener("resize", fitNav);
 
